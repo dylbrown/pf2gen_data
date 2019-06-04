@@ -1,0 +1,6 @@
+Dwarf
+Elf
+Gnome
+Goblin
+Halfling
+Human

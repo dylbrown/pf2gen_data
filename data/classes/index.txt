@@ -1,0 +1,6 @@
+Cleric
+Paladin
+Ranger
+Rogue
+Sorcerer
+Wizard
