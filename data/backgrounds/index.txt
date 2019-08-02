@@ -1,5 +1,7 @@
-Conspiracy-Hunter
-Diabolist-Raised
-Pathfinders-Exile
-Shadow-Child
-Westcrown-Firebrand
+Acolyte
+Acrobat
+AnimalWhisperer
+Barkeep
+Blacksmith
+Criminal
+Entertainer

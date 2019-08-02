@@ -1,4 +1,5 @@
 Cleric
+Fighter
 Paladin
 Ranger
 Rogue
