@@ -28,8 +28,7 @@
                     <Description>You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn’t count toward your multiple attack penalty, and your multiple attack penalty doesn’t apply to this Strike.</Description>
                 </Ability>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Shield Block (Fighter)" contents="Shield Block">
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Shield Block (Fighter)" contents="Shield Block"/>
     </FeatureList>
     <FeatureList level="2">
         <AbilitySlot state="feat" type="Class Feat" name="Fighter Feat" />
@@ -69,7 +68,7 @@
     </FeatureList>
     <Feats>
         <Ability name="Double Slice" level="1" cost="2">
-		<Requires>You are wielding two melee weapons, each in a different hand.</Requires>
+		<Requirements>You are wielding two melee weapons, each in a different hand.</Requirements>
             <Description>Requirements: You are wielding two melee weapons, each in a different hand.
 You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn’t have the agile trait, it takes a –2 penalty.
 

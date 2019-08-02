@@ -83,7 +83,7 @@ If you are trained in all martial weapons, you can choose an uncommon advanced w
         </Ability>
         <Ability name="Incredible Improvisation" level="9" cost="reaction">
                     <Trigger>You attempt a check using a skill you’re untrained in.</Trigger>
-                    <Description>Once per day, a stroke of brilliance gives you a major advantage with a skill despite your inexperience. Gain a +4 circumstance bonus to the triggering skill check.</Description></Ability>
+                    <Description>Once per day, a stroke of brilliance gives you a major advantage with a skill despite your inexperience. Gain a +4 circumstance bonus to the triggering skill check.</Description>
             <Prerequisites>Clever Improviser</Prerequisites>
         </Ability>
         <Ability name="Multitalented" level="9">
