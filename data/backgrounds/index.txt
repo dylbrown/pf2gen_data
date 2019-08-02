@@ -1,7 +1,1 @@
-Acolyte
-Acrobat
-AnimalWhisperer
-Barkeep
-Blacksmith
-Criminal
-Entertainer
+Core

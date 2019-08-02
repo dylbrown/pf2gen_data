@@ -1,7 +1,73 @@
 <?xml version = "1.0"?>
 <feats>
-    <Ability name="Quick Jump" level="1">
-        <Description> You can use High Jump and Long Jump as a single action instead of 2 actions. If you do, you don’t perform the initial Stride, and you don’t need to have moved 10 feet.</Description>
-        <Requires>Trained in Athletics</Requires>
+	<!--Acrobatics-->
+    <Ability name="Steady Balance" level="1">
+        <Description>You can keep your balance easily, even in adverse conditions.
+
+Whenever you roll a success using the Balance action, you get a critical success instead. You’re not flat-footed while attempting to Balance on narrow surfaces and uneven ground. Thanks to your incredible balance, you can attempt an Acrobatics check instead of a Reflex save to Grab an Edge.</Description>
+        <Requires>Trained in Acrobatics</Requires>
     </Ability>
+	
+	<!--Crafting-->
+    <Ability name="Specialty Crafting" level="1">
+        <Description>Your training focused on Crafting one particular kind of item.
+
+Select one of the specialties; you gain a +1 circumstance bonus to Crafting checks to Craft items of that type. If you are a master in Crafting, this bonus increases to +2.
+
+If it’s unclear whether the specialty applies, the GM decides.
+
+Some specialties might apply only partially. For example, if you were making a morningstar and had specialty in woodworking, the GM might give you half your bonus because the item requires both blacksmithing and woodworking.</Description>
+        <Requires>Trained in Crafting</Requires>
+    </Ability>
+	
+	<!--Deception-->
+    <Ability name="Charming Liar" level="1">
+        <Description>Your charm allows you to win over those you lie to. When you get a critical success using the Lie action, the target’s attitude toward you improves by one step, as though you’d succeeded at using Diplomacy to Make an Impression. This works only once per conversation, and if you critically succeed against multiple targets using the same result, you choose one creature’s attitude to improve. You must be lying to impart seemingly important information, inflate your status, or ingratiate yourself, which trivial or irrelevant lies can’t achieve.</Description>
+        <Requires>Trained in Deception</Requires>
+    </Ability>
+	
+	<!--Diplomacy-->
+    <Ability name="Group Impression" level="1">
+        <Description>When you Make an Impression, you can compare your Diplomacy check result to the Will DCs of two targets instead of one. It’s possible to get a different degree of success for each target. The number of targets increases to four if you’re an expert, 10 if you’re a master, and 25 if you’re legendary.</Description>
+        <Requires>Trained in Diplomacy</Requires>
+    </Ability>
+    <Ability name="Hobnobber" level="1">
+        <Description>You are skilled at learning information through conversation.
+
+The Gather Information exploration activity takes you half as long as normal (typically reducing the time to 1 hour). If you’re a master in Diplomacy and you Gather Information at the normal speed, when you attempt to do so and roll a critical failure, you get a failure instead. There is still no guarantee that a rumor you learn with Gather Information is accurate.</Description>
+        <Requires>Trained in Diplomacy</Requires>
+    </Ability>
+	
+	<!--Nature-->
+    <Ability name="Train Animal" level="1">
+		<Traits>Downtime, Manipulate</Traits>
+        <Description>You spend time teaching an animal to do a certain action. You can either select a basic action the animal already knows how to do (typically those listed in the Command an Animal action) or attempt to teach the animal a new basic action. The GM determines the DC of any check required and the amount of time the training takes (usually at least a week). It’s usually impossible to teach an animal a trick that uses critical thinking.
+
+If you’re expert, master, or legendary in Nature, you might be able to train more unusual creatures, at the GM’s discretion.
+
+Success The animal learns the action. If it was an action the animal already knew, you can Command the Animal to take that action without attempting a Nature check. If it was a new basic action, add that action to the actions the animal can take when Commanded, but you must still roll.
+
+Failure The animal doesn’t learn the trick.</Description>
+        <Requires>Trained in Nature</Requires>
+    </Ability>
+	
+	<!--Stealth-->
+    <Ability name="Experienced Smuggler" level="1">
+        <Description>You often smuggle things past the authorities. When the GM rolls your Stealth check to see if a passive observer notices a small item you have concealed, the GM uses the number rolled or 10—whichever is higher—as the result of your die roll, adding it to your Stealth modifier to determine your Stealth check result.
+
+If you’re a master in Stealth, the GM uses the number rolled or 15, and if you’re legendary in Stealth, you automatically succeed at hiding a small concealed item from passive observers. This provides no benefits when a creature attempts a Perception check while actively searching you for hidden items. Due to your smuggling skill, you’re more likely to find more lucrative smuggling jobs when using Underworld Lore to Earn Income.</Description>
+        <Requires>Trained in Stealth</Requires>
+    </Ability>
+	
+	
+	<!--Survival-->
+    <Ability name="Experienced Tracker" level="1">
+        <Description>Tracking is second nature to you, and when necessary you can follow a trail without pause. You can Track while moving at full Speed by taking a –5 penalty to your Survival check.
+
+If you’re a master in Survival, you don’t take the –5 penalty.
+
+If you’re legendary in Survival, you no longer need to roll a new Survival check every hour when tracking, though you still need to roll whenever there are significant changes in the trail.</Description>
+        <Requires>Trained in Survival</Requires>
+    </Ability>
+	
 </feats>
