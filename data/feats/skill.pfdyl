@@ -50,6 +50,10 @@ Success The animal learns the action. If it was an action the animal already kne
 Failure The animal doesn’t learn the trick.</Description>
         <Requires>Trained in Nature</Requires>
     </Ability>
+	<!--Religion-->
+    <Ability name="Student of the Canon" level="1">
+        <Description>You’ve researched many faiths enough to recognize notions about them that are unlikely to be true. If you roll a critical failure at a Religion check to Decipher Writing of a religious nature or to Recall Knowledge about the tenets of faiths, you get a failure instead. When attempting to Recall Knowledge about the tenets of your own faith, if you roll a failure, you get a success instead, and if you roll a success, you get a critical success instead.</Description>
+    </Ability>
 	
 	<!--Stealth-->
     <Ability name="Experienced Smuggler" level="1">

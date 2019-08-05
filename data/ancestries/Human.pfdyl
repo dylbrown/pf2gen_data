@@ -36,7 +36,7 @@
         <Ability name="Adapted Cantrip" level="1">
             <Description>Through study of multiple magical traditions, you’ve altered a spell to suit your spellcasting style. Choose one cantrip from a magical tradition other than your own. If you have a spell repertoire or a spellbook, replace one of the cantrips you know or have in your spellbook with the chosen spell. If you prepare spells without a spellbook (if you’re a cleric or druid, for example), one of your cantrips must always be the chosen spell, and you prepare the rest normally. You can cast this cantrip as a spell of your class’s tradition.
 If you swap or retrain this cantrip later, you can choose its replacement from the same alternate tradition or a different one. </Description>
-			<Prerequisites>TODO Spellcaster</Prerequisites>
+			<!--<Prerequisites>TODO Spellcaster</Prerequisites>-->
         </Ability>
         <Ability name="Cooperative Nature" level="1">
             <Description>The short human life span lends perspective and has taught you from a young age to set aside differences and work with others to achieve greatness. You gain a +4 circumstance bonus on checks to Aid. </Description>
