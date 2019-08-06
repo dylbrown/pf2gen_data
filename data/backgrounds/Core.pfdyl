@@ -2,7 +2,7 @@
 <backgrounds>
 	<background>
 		<Name>Acolyte</Name>
-		<Description>You spent your early days in a religious monastery or cloister. You may have traveled out into the world to spread the message of your religion or because you cast away the teachings of your faith, but deep down you’ll always carry within you the lessons you learned.</Description>
+		<Description>You spent your early days in a religious monastery or cloister. You may have traveled out into the world to spread the message of your religion or because you cast away the teachings of your faith, but deep down you'll always carry within you the lessons you learned.</Description>
 		<AbilityBonuses>Int or Wis, Free</AbilityBonuses>
 		<Feat>Student of the Canon</Feat>
 	</background>
@@ -22,7 +22,7 @@
 	</background>
 	<background>
 		<Name>Artisan</Name>
-		<Description>As an apprentice, you practiced a particular form of building or crafting, developing specialized skill. You might have been a blacksmith’s apprentice toiling over the forge for countless hours, a young tailor sewing garments of all kinds, or a shipwright shaping the hulls of ships.</Description>
+		<Description>As an apprentice, you practiced a particular form of building or crafting, developing specialized skill. You might have been a blacksmith's apprentice toiling over the forge for countless hours, a young tailor sewing garments of all kinds, or a shipwright shaping the hulls of ships.</Description>
 		<Skill>Crafting, Lore (Guild)</Skill>
 		<AbilityBonuses>Str or Int, Free</AbilityBonuses>
 		<Feat>Specialty Crafting</Feat>
@@ -45,7 +45,7 @@ Adventuring might help you find inspiration, or simply be a way to survive until
 	</background>
 	<background>
 		<Name>Barrister</Name>
-		<Description>Piles of legal manuals, stern teachers, and experience in the courtroom have instructed you in legal matters. You’re capable of mounting a prosecution or defense in court, and you tend to keep abreast of local laws, as you never can tell when you might need to know them on short notice.</Description>
+		<Description>Piles of legal manuals, stern teachers, and experience in the courtroom have instructed you in legal matters. You're capable of mounting a prosecution or defense in court, and you tend to keep abreast of local laws, as you never can tell when you might need to know them on short notice.</Description>
 		<Skill>Diplomacy, Lore (Legal)</Skill>
 		<AbilityBonuses>Int or Cha, Free</AbilityBonuses>
 		<Feat>Group Impression</Feat>
@@ -59,7 +59,7 @@ Adventuring might help you find inspiration, or simply be a way to survive until
 	</background>
 	<background>
 		<Name>Charlatan</Name>
-		<Description>You traveled from place to place, peddling false fortunes and snake oil in one town, pretending to be royalty in exile to seduce a wealthy heir in the next. Becoming an adventurer might be your next big scam or an attempt to put your talents to use for a greater cause. Perhaps it’s a bit of both, as you realize that after pretending to be a hero, you’ve become the mask.</Description>
+		<Description>You traveled from place to place, peddling false fortunes and snake oil in one town, pretending to be royalty in exile to seduce a wealthy heir in the next. Becoming an adventurer might be your next big scam or an attempt to put your talents to use for a greater cause. Perhaps it's a bit of both, as you realize that after pretending to be a hero, you've become the mask.</Description>
 		<Skill>Deception, Lore (Underworld)</Skill>
 		<AbilityBonuses>Int or Cha, Free</AbilityBonuses>
 		<Feat>Charming Liar</Feat>
@@ -70,5 +70,12 @@ Adventuring might help you find inspiration, or simply be a way to survive until
 		<Skill>Stealth, Lore (Underworld)</Skill>
 		<AbilityBonuses>Dex or Int, Free</AbilityBonuses>
 		<Feat>Experienced Smuggler</Feat>
+	</background>
+	<background>
+		<Name>Hunter</Name>
+		<Description>You stalked and took down animals and other creatures of the wild. Skinning animals, harvesting their flesh, and cooking them were also part of your training, all of which can give you useful resources while you adventure.</Description>
+		<Skill>Survival, Lore (Tanning)</Skill>
+		<AbilityBonuses>Dex or Wis, Free</AbilityBonuses>
+		<Feat>Survey Wildlife</Feat>
 	</background>
 </backgrounds>

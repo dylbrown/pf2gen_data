@@ -29,12 +29,12 @@
             </CustomMod>
         </Ability>
         <Ability name="Versatile Heritage" type="Heritage">
-            <Description>Humanity’s versatility and ambition have fueled its ascendance to be the most common ancestry in most nations throughout the world. Select a general feat of your choice for which you meet the prerequisites (as with your ancestry feat, you can select this general feat at any point during character creation).</Description>
+            <Description>Humanity's versatility and ambition have fueled its ascendance to be the most common ancestry in most nations throughout the world. Select a general feat of your choice for which you meet the prerequisites (as with your ancestry feat, you can select this general feat at any point during character creation).</Description>
 			<AbilitySlot state="feat" type="General Feat" name="General Feat" />
         </Ability>
 		<!--Regular Feats-->
         <Ability name="Adapted Cantrip" level="1">
-            <Description>Through study of multiple magical traditions, you’ve altered a spell to suit your spellcasting style. Choose one cantrip from a magical tradition other than your own. If you have a spell repertoire or a spellbook, replace one of the cantrips you know or have in your spellbook with the chosen spell. If you prepare spells without a spellbook (if you’re a cleric or druid, for example), one of your cantrips must always be the chosen spell, and you prepare the rest normally. You can cast this cantrip as a spell of your class’s tradition.
+            <Description>Through study of multiple magical traditions, you've altered a spell to suit your spellcasting style. Choose one cantrip from a magical tradition other than your own. If you have a spell repertoire or a spellbook, replace one of the cantrips you know or have in your spellbook with the chosen spell. If you prepare spells without a spellbook (if you're a cleric or druid, for example), one of your cantrips must always be the chosen spell, and you prepare the rest normally. You can cast this cantrip as a spell of your class's tradition.
 If you swap or retrain this cantrip later, you can choose its replacement from the same alternate tradition or a different one. </Description>
 			<!--<Prerequisites>TODO Spellcaster</Prerequisites>-->
         </Ability>
@@ -42,13 +42,13 @@ If you swap or retrain this cantrip later, you can choose its replacement from t
             <Description>The short human life span lends perspective and has taught you from a young age to set aside differences and work with others to achieve greatness. You gain a +4 circumstance bonus on checks to Aid. </Description>
         </Ability>
         <Ability name="General Training" level="1">
-            <Description>Your adaptability manifests in your mastery of a range of useful abilities. You gain a 1st-level general feat. You must meet the feat’s prerequisites, but if you select this feat during character creation, you can select the feat later in the process in order to determine which prerequisites you meet.
+            <Description>Your adaptability manifests in your mastery of a range of useful abilities. You gain a 1st-level general feat. You must meet the feat's prerequisites, but if you select this feat during character creation, you can select the feat later in the process in order to determine which prerequisites you meet.
 
 Special You can select this feat multiple times, choosing a different feat each time.</Description>
 			<AbilitySlot state="feat" type="General Feat" name="General Feat" />
         </Ability>
         <Ability name="Haughty Obstinacy" level="1">
-            <Description>Your powerful ego makes it harder for others to order you around. If you roll a success on a saving throw against a mental effect that attempts to directly control your actions, you critically succeed instead. If a creature rolls a failure on a check to Coerce you using Intimidation, it gets a critical failure instead (so it can’t try to Coerce you again for 1 week). </Description>
+            <Description>Your powerful ego makes it harder for others to order you around. If you roll a success on a saving throw against a mental effect that attempts to directly control your actions, you critically succeed instead. If a creature rolls a failure on a check to Coerce you using Intimidation, it gets a critical failure instead (so it can't try to Coerce you again for 1 week). </Description>
 		</Ability>
         <Ability name="Natural Ambition" level="1">
             <Description>You were raised to be ambitious and always reach for the stars, leading you to progress quickly in your chosen field. You gain a 1st-level class feat for your class. You must meet the prerequisites, but you can select the feat later in the character creation process in order to determine which prerequisites you meet. </Description>
@@ -65,42 +65,43 @@ Special You can select this feat multiple times, choosing a different feat each 
             </CustomMod>
         </Ability>
         <Ability name="Unconventional Weaponry" level="1">
-            <Description>You’ve familiarized yourself with a particular weapon, potentially from another ancestry or culture. Choose an uncommon simple or martial weapon with a trait corresponding to an ancestry (such as dwarf, goblin, or orc) or that is common in another culture. You gain access to that weapon, and for the purpose of determining your proficiency, that weapon is a simple weapon.
+            <Description>You've familiarized yourself with a particular weapon, potentially from another ancestry or culture. Choose an uncommon simple or martial weapon with a trait corresponding to an ancestry (such as dwarf, goblin, or orc) or that is common in another culture. You gain access to that weapon, and for the purpose of determining your proficiency, that weapon is a simple weapon.
 
 If you are trained in all martial weapons, you can choose an uncommon advanced weapon with such a trait. You gain access to that weapon, and for the purpose of determining your proficiency, that weapon is a martial weapon. </Description>
 			<!--TODO Implementation-->
         </Ability>
         <Ability name="Adaptive Adept" level="5">
-            <Description>You’ve continued adapting your magic to blend your class’s tradition with your adapted tradition. Choose a cantrip or 1st-level spell from the same magical tradition as your cantrip from Adapted Cantrip. You gain that spell, adding it to your spell repertoire, spellbook, or prepared spells just like the cantrip from Adapted Spell. You can cast this spell as a spell of your class’s magical tradition. If you choose a 1st-level spell, you don’t gain access to the heightened versions of that spell, meaning you can’t prepare them if you prepare spells and you can’t learn them or select the spell as a signature spell if you have a spell repertoire. </Description>
+            <Description>You've continued adapting your magic to blend your class's tradition with your adapted tradition. Choose a cantrip or 1st-level spell from the same magical tradition as your cantrip from Adapted Cantrip. You gain that spell, adding it to your spell repertoire, spellbook, or prepared spells just like the cantrip from Adapted Spell. You can cast this spell as a spell of your class's magical tradition. If you choose a 1st-level spell, you don't gain access to the heightened versions of that spell, meaning you can't prepare them if you prepare spells and you can't learn them or select the spell as a signature spell if you have a spell repertoire. </Description>
             <Prerequisites>Adapted Cantrip</Prerequisites>
         </Ability>
 		<Ability name="Clever Improviser" level="5">
-            <Description>You’ve learned how to handle situations when you’re out of your depth. You gain the Untrained Improvisation general feat. In addition, you can attempt skill actions that normally require you to be trained, even if you are untrained. </Description>
+            <Description>You've learned how to handle situations when you're out of your depth. You gain the Untrained Improvisation general feat. In addition, you can attempt skill actions that normally require you to be trained, even if you are untrained. </Description>
 			<AbilitySlot state="filled" name="Clever Improviser Feat" contents="Untrained Improvisation"/>
         </Ability>
 		<Ability name="Cooperative Soul" level="9">
             <Description>You have developed a soul-deep bond with your comrades and maintain an even greater degree of cooperation with them. If you are at least an expert in the skill you are Aiding, you get a success on any outcome rolled to Aid other than a critical success. </Description>
         </Ability>
         <Ability name="Incredible Improvisation" level="9" cost="reaction">
-                    <Trigger>You attempt a check using a skill you’re untrained in.</Trigger>
-                    <Description>Once per day, a stroke of brilliance gives you a major advantage with a skill despite your inexperience. Gain a +4 circumstance bonus to the triggering skill check.</Description>
+			<Frequency>1/Day</Frequency>
+			<Trigger>You attempt a check using a skill you're untrained in.</Trigger>
+			<Description>A stroke of brilliance gives you a major advantage with a skill despite your inexperience. Gain a +4 circumstance bonus to the triggering skill check.</Description>
             <Prerequisites>Clever Improviser</Prerequisites>
         </Ability>
         <Ability name="Multitalented" level="9">
-            <Description>You’ve learned to split your focus between multiple classes with ease. You gain a 2nd-level multiclass dedication feat (for more about multiclass archetypes, see page 219), even if you normally couldn’t take another dedication feat until you take more feats from your current archetype.
+            <Description>You've learned to split your focus between multiple classes with ease. You gain a 2nd-level multiclass dedication feat (for more about multiclass archetypes, see page 219), even if you normally couldn't take another dedication feat until you take more feats from your current archetype.
 
-If you’re a half-elf, you don’t need to meet the feat’s ability score prerequisites. </Description>
+If you're a half-elf, you don't need to meet the feat's ability score prerequisites. </Description>
 			<AbilitySlot state="feat" type="Dedication Feat" name="Multitalented Dedication Feat"/>
         </Ability>
         <Ability name="Unconventional Expertise" level="13">
-            <Description>You’ve continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for Unconventional Weaponry. </Description>
+            <Description>You've continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for Unconventional Weaponry. </Description>
 			<Prerequisites>Unconventional Weaponry</Prerequisites>
         </Ability>
 		<!--Half-Elf Specific Ancestry FeatsManager-->
 		<Ability name="Elf Atavism" level="1">
-			<Description>Your elven blood runs particularly strong, granting you features far more elven than those of a typical half-elf. You may also have been raised among elves, steeped in your elven ancestors’ heritage. You gain the benefits of the elf heritage of your elven parent or ancestors. You typically can’t select a heritage that depends on or improves an elven feature you don’t have. For example, you couldn’t gain the cavern elf’s darkvision ability if you didn’t have low-light vision. In these cases, at the GM’s discretion, you might gain a different benefit.
+			<Description>Your elven blood runs particularly strong, granting you features far more elven than those of a typical half-elf. You may also have been raised among elves, steeped in your elven ancestors' heritage. You gain the benefits of the elf heritage of your elven parent or ancestors. You typically can't select a heritage that depends on or improves an elven feature you don't have. For example, you couldn't gain the cavern elf's darkvision ability if you didn't have low-light vision. In these cases, at the GM's discretion, you might gain a different benefit.
 
-Special You can take this feat only at 1st level, and you can’t retrain out of this feat or into this feat.</Description>
+Special You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</Description>
 			<Prerequisites>Half-Elf</Prerequisites>
         </Ability>
 		<Ability name="Inspire Imitation" level="5">
@@ -113,19 +114,19 @@ Special You can take this feat only at 1st level, and you can’t retrain out of
         </Ability>
 		<!--Half-Orc Specific Ancestry FeatsManager-->
 		<Ability name="Monstrous Peacemaker" level="1">
-			<Description>Your dual human and orc nature has given you a unique perspective, allowing you to bridge the gap between humans and the many intelligent creatures in the world that humans consider monsters. You gain a +1 circumstance bonus to Diplomacy checks against non-humanoid intelligent creatures and against humanoids that are marginalized in human society (at the GM’s discretion, but typically at least including giants, goblins, kobolds, and orcs). You also gain this bonus on Perception checks to Sense the Motives of such creatures. </Description>
+			<Description>Your dual human and orc nature has given you a unique perspective, allowing you to bridge the gap between humans and the many intelligent creatures in the world that humans consider monsters. You gain a +1 circumstance bonus to Diplomacy checks against non-humanoid intelligent creatures and against humanoids that are marginalized in human society (at the GM's discretion, but typically at least including giants, goblins, kobolds, and orcs). You also gain this bonus on Perception checks to Sense the Motives of such creatures. </Description>
 			<Prerequisites>Half-Orc</Prerequisites>
         </Ability>
 		<Ability name="Orc Ferocity" level="1" cost="reaction">
+			<Frequency>1/Day</Frequency>
 			<Trigger>You would be reduced to 0 Hit Points but not immediately killed.</Trigger>
-			<Description>Fierceness in battle runs through your blood, and you refuse to fall from your injuries. You avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1. 
-			Frequency: Once per day</Description>
+			<Description>Fierceness in battle runs through your blood, and you refuse to fall from your injuries. You avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1.</Description>
 			<Prerequisites>Half-Orc</Prerequisites>
         </Ability>
 		<Ability name="Orc Sight" level="1" >
 			<Description>Your orc blood is strong enough to grant you the keen vision of your orc forebears. You gain darkvision, allowing you to see in darkness and dim light just as well as you can in bright light. However, in darkness, you see in black and white only.
 
-Special You can take this feat only at 1st level, and you can’t retrain out of this feat or into this feat.</Description>
+Special You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</Description>
 			<Prerequisites>Half-Orc</Prerequisites>
         </Ability>
 		<Ability name="Orc Superstition" level="1" cost="reaction">
@@ -140,7 +141,7 @@ For you, martial orc weapons are simple weapons, and advanced orc weapons are ma
 			<Prerequisites>Half-Orc</Prerequisites>
         </Ability>
 		<Ability name="Orc Weapon Carnage" level="5" >
-			<Description>You are brutally efficient with the weapons of your orc ancestors. Whenever you critically hit using a falchion, a greataxe, or an orc weapon, you apply the weapon’s critical specialization effect. </Description>
+			<Description>You are brutally efficient with the weapons of your orc ancestors. Whenever you critically hit using a falchion, a greataxe, or an orc weapon, you apply the weapon's critical specialization effect. </Description>
 			<Prerequisites>Orc Weapon Familiarity, Half-Orc</Prerequisites>
         </Ability>
 		<Ability name="Victorious Vigor" level="5" cost="free">
@@ -157,7 +158,7 @@ For you, martial orc weapons are simple weapons, and advanced orc weapons are ma
 			<Prerequisites>Orc Ferocity, Half-Orc</Prerequisites>
         </Ability>
 		<Ability name="Orc Weapon Expertise" level="13">
-            <Description>You’ve continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for Unconventional Weaponry. </Description>
+            <Description>You've continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for Unconventional Weaponry. </Description>
 			<Prerequisites>Weapon Familiarity (Orc), Half-Orc</Prerequisites>
         </Ability>
 	</Feats>

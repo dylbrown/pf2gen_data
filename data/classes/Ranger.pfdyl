@@ -6,41 +6,40 @@
 		<AbilityScore>Str</AbilityScore>
 		<AbilityScore>Dex</AbilityScore>
 	</AbilityChoices>
-	<SkillIncreases>5</SkillIncreases>
+	<SkillIncreases>4</SkillIncreases>
 	<Description> For some rangers, civilization is so corrupt it wears down the soul, yet so beneficial it needs protecting from wild things that stalk the hinterlands. For others, nature needs to be protected from the greedy hands of civilized people wishing to tame its beauty and plunder its treasures. You could champion either goal, or straddle the line of both. You might be a scout, tracker, or hunter of fugitives or beasts, haunting the edge of civilization or exploring the wilds. Living off the land, you are skilled at spotting and taking down both opportune prey and hated enemies. </Description>
 	<FeatureList level="1">
+		<AbilitySlot state="filled" name="Initial Proficiencies">
+			<Ability>
+				<AttributeMods Proficiency="Trained">Will, Nature, Survival, Simple Weapons, Martial Weapons, Unarmed, Light Armor, Medium Armor, Unarmored, Class DC</AttributeMods>
+				<AttributeMods Proficiency="Expert">Perception, Fortitude, Reflex</AttributeMods>
+			</Ability>
+		</AbilitySlot>
 		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
         <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
-		<AbilitySlot state="filled" name="Hunt Target">
-            <Ability>
-                <Description>
-                   You designate a single creature as your target and focus your attacks against that creature. You must be able to see or hear the target, or you must be tracking the target in exploration mode.
-					 You ignore the penalty for making ranged attacks against the target you 're hunting within your second range increment. You also gain a +2 circumstance bonus to Perception checks when you Seek your target and a +2 circumstance bonus to Survival checks when you Track your target.
-					 You can have only one creature designated as the target of your hunt at a time. If you use Hunt Target against a creature when you already have a creature designated, the prior creature loses the designation and the new target gains the designation. In any case, this designation lasts until your next daily preparation (see page 332).
+		<AbilitySlot state="filled" name="Hunt Prey">
+            <Ability name="Hunt Prey" cost="1">
+				<Traits>Concentrate</Traits>
+                <Description>You designate a single creature as your prey and focus your attacks against that creature. You must be able to see or hear the prey, or you must be tracking the prey during exploration. You gain a +2 circumstance bonus to Perception checks when you Seek your prey and a +2 circumstance bonus to Survival checks when you Track your prey. You also ignore the penalty for making ranged attacks within your second range increment against the prey you're hunting.
+You can have only one creature designated as your prey at a time. If you use Hunt Prey against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next daily preparations.
                 </Description>
             </Ability>
         </AbilitySlot>
-		<AbilitySlot state="filled" name="Initial Proficiencies">
-			<Ability>
-				<AttributeMods Proficiency="Trained">Survival, Simple Weapons, Martial Weapons, Light Armor, Medium Armor</AttributeMods>
-				<AttributeMods Proficiency="Expert">Perception, Fortitude, Reflex, Will</AttributeMods>
-			</Ability>
-		</AbilitySlot>
 		<AbilitySlot state="feat" type="Class Feat" name="Ranger Feat"/>
 		<AbilitySlot state="choice" name="Hunter's Edge">
             <AbilitySet name="Flurry">
                 <Description>
-                    You have trained to unleash devastating flurries of attacks at your target. Your multiple attack penalty on attacks against your hunted target is –4 (–3 with an agile weapon) if it 's your second attack of the turn instead of –5, and –8 (–6 with an agile weapon) if it 's your third or subsequent attack of the turn instead of –10.
+					You have trained to unleash a devastating flurry of attacks upon your prey. Your multiple attack penalty for attacks against your hunted prey is –3 (–2 with an agile weapon) on your second attack of the turn instead of –5, and –6 (–4 with an agile weapon) on your third or subsequent attack of the turn, instead of –10.
                 </Description>
             </AbilitySet>
             <AbilitySet name="Precision">
                 <Description>
-                    You have trained to aim for your target 's weak points. The first time you hit your hunted target in a round, you deal 1d6 extra precision damage.
+                    You have trained to aim for your prey's weak points. The first time you hit your hunted prey in a round, you also deal 1d8 additional precision damage. (Precision damage increases the damage you already deal, using the same type, but is ineffective against creatures that lack vital organs or weak points.) At 11th level, the extra damage increases to 2d8 precision damage, and at 19th level, the extra damage increases to 3d8 precision damage
                 </Description>
             </AbilitySet>
-            <AbilitySet name="Stalker">
+            <AbilitySet name="Outwit">
                 <Description>
-                    You have additional benefits in outwitting and evading your target. You gain a +2 circumstance bonus to Deception checks, Intimidation checks, Stealth checks, and any checks to Recall Knowledge about the target.
+                    You are talented at outwitting and evading your prey. You gain a +2 circumstance bonus to Deception checks, Intimidation checks, Stealth checks, and any checks to Recall Knowledge about the prey, and a +1 circumstance bonus to AC against your prey’s attacks.
                 </Description>
             </AbilitySet>
 		</AbilitySlot>
@@ -62,31 +61,82 @@
                 </CustomMod>
 			</Ability>
 		</AbilitySlot>
+		<AbilitySlot state="filled" name="Iron Will">
+			<Ability>
+                <Description>Your training has hardened your resolve. Your proficiency rank for Will saves increases to expert.</Description>
+                <AttributeMods Proficiency="Expert">Will</AttributeMods>
+			</Ability>
+		</AbilitySlot>
 	</FeatureList>
+	<FeatureList level="4">
+        <AbilitySlot state="feat" type="Class Feat" name="Ranger Feat" />
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+    </FeatureList>
+    <FeatureList level="5">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+		<AbilitySlot state="filled" name="Trackless Step">
+			<Ability>
+                <Description>When you move through natural terrains, you are difficult to track. You always gain the benefits of the Cover Tracks action in such terrains, without moving at half your Speed.</Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Weapon Expertise">
+			<Ability>
+                <Description>You’ve dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple and martial weapons increases to expert. You gain access to the critical specialization effects of all simple and martial weapons when attacking your hunted prey.</Description>
+                <AttributeMods Proficiency="Expert">Simple Weapons, Martial Weapons</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+    </FeatureList>
 	<Feats>
-        	<Ability name="Animal Companion" level="1">
-            		<Description>You gain the service of a young animal companion that travels with you and obeys simple commands to the best of its abilities. When you Hunt a Target, your animal companion gains the action 's base benefits and the initial benefits of your Hunter 's Edge.</Description>
-        	</Ability>
+		<Ability name="Animal Companion" level="1">
+			<Description>You gain the service of a young animal companion that travels with you and obeys simple commands as best as it can. See Animal Companions on page 214. When you Hunt Prey, your animal companion gains the action’s benefits and your hunter’s edge benefit if you have one.</Description>
+		</Ability>
 		<Ability name="Crossbow Ace" level="1">
-            		<Description>When you use Hunt Target or when you use Interact to reload your crossbow, if your next Strike with that crossbow before the end of your next turn is against your hunted target, add half your Wisdom modifier to your damage roll; if you are firing a simple crossbow on a qualifying attack, also increase the damage dice on that attack by one size (see page 91).</Description>
-        	</Ability>
-        	<Ability name="Monster Hunter" level="1">
-            		<Description>As part of the action used to Hunt Target, you can attempt a check to Recall Knowledge about your target.  When you critically succeed to identify a target you 're hunting with Recall Knowledge, you (and your allies, if you tell them) gain a +1 circumstance bonus to your next attack roll against it, but not other creatures of that species. The creature is bolstered.</Description>
-        	</Ability>
-		<Ability name="Favored Aim" level="2" cost="2">
-            		<Description>Attempt a ranged weapon Strike against your hunted target. Ignore concealed and screened, and reduce the target 's bonus to AC from cover by 2. If the target isn 't benefiting from any of those, you gain a +2 circumstance bonus to the attack roll.</Description>
-        	</Ability>
+			<Description>You have a deep understanding of the crossbow. When you’re wielding a crossbow and use Hunt Prey or use Interact to reload your crossbow, you gain a +2 circumstance bonus to the damage roll on your next Strike with that crossbow. If the crossbow is a simple crossbow, also increase the damage die size for that attack by one step (page 279). You must make the attack before the end of your next turn or these benefits are lost.</Description>
+		</Ability>
+		<Ability name="Hunted Shot" level="1" cost="1">
+			<Traits>Flourish</Traits>
+			<Frequency>1/Round</Frequency>
+			<Requirements>You are wielding a ranged weapon with reload 0.</Requirements>
+			<Description>You take two quick shots against the one you hunt. Make two Strikes against your prey with the required weapon. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple attack penalty to each Strike normally.</Description>
+		</Ability>
+		<Ability name="Monster Hunter" level="1">
+			<Description>You swiftly assess your prey and apply what you know. As part of the action used to Hunt your Prey, you can attempt a check to Recall Knowledge about your prey. When you critically succeed at identifying your hunted prey with Recall Knowledge, you note a weakness in the creature’s defenses. You and allies you tell gain a +1 circumstance bonus to your next attack roll against that prey. You can give bonuses from Monster Hunter only once per day against a particular creature.</Description>
+		</Ability>
+		<Ability name="Twin Takedown" level="1" cost="1">
+			<Traits>Flourish</Traits>
+			<Frequency>1/Round</Frequency>
+			<Requirements>You are wielding two melee weapons, each in a different hand.</Requirements>
+			<Description>You swiftly attack your hunted prey with both weapons. Make two Strikes against your hunted prey, one with each of the required weapons. If both hit the same hunted prey, combine their damage for the purpose of its resistances and weaknesses. Apply your multiple attack penalty to each Strike normally.</Description>
+		</Ability>
+		<Ability name="Favoured Terrain" level="2">
+			<Description>You have studied a specific terrain to overcome its challenges. Choose aquatic, arctic, desert, forest, mountain, plains, sky, swamp, or underground as your favored terrain. When in that terrain, you can ignore the effects of non-magical difficult terrain. If you have the wild stride class feature, you gain a second benefit while in your favored terrain, depending on your choice.
+• Aquatic You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain a +10-foot status bonus to your swim Speed.
+• Arctic You need to eat and drink only one-tenth as much as usual, you aren’t affected by severe or extreme cold, and you can walk across ice and snow at full Speed without needing to Balance.
+• Desert You need to eat and drink only one-tenth as much as usual, you aren’t affected by severe or extreme heat, and you can walk along sand at full Speed without needing to Balance.
+• Forest, Mountain, or Underground You gain a climb Speed equal to your Speed. If you already had a climb Speed, you gain a +10-foot status bonus to your climb Speed.
+• Plains You gain a +10-foot status bonus to your land Speed.
+• Sky You gain a +10-foot status bonus to your fly Speed, if you have one.
+• Swamp You can move across bogs at full Speed, even if they are deep enough to be greater difficult terrain or to normally require you to Swim.</Description>
+		</Ability>
+		<Ability name="Hunter's Aim" level="2" cost="2">
+			<Traits>Concentrate</Traits>
+			<Description>When you focus on aiming, your attack becomes particularly accurate. Make a ranged weapon Strike against your hunted prey. On this Strike, you gain a +2 circumstance bonus to the attack roll and ignore your prey’s concealed condition.</Description>
+		</Ability>
 		<Ability name="Monster Warden" level="2">
-            		<Description>When you use Monster Hunter, you and your allies also gain a +1 circumstance bonus to your next saving throw against that particular creature.</Description>
+			<Description>You understand how to defend yourself and others against your prey. When you grant bonuses from Monster Hunter, you and your allies also each gain a +1 circumstance bonus to your next saving throw against that particular creature and to your AC against that creature’s next attack against you..</Description>
 			<Prerequisites>Monster Hunter</Prerequisites>
-        	</Ability>
+		</Ability>
 		<Ability name="Quick Draw" level="2" cost="1">
-            		<Description>You Interact to draw a weapon, then Strike with the weapon you just drew</Description>
-        	</Ability>
-		<Ability name="Stalker's Shot" level="2" cost="Reaction">
-            		<Trigger>The target you 're hunting fails or critically fails to Seek you.</Trigger>
-			<Description>Make a ranged weapon Strike against that target with a –2 circumstance penalty. You then become seen to all who witnessed the Strike (or sensed, if you are invisible or the like).
-			Requirements: You are unseen to the target you 're hunting.</Description>
-        	</Ability>
+			<Description>You draw your weapon and attack with the same motion. You Interact to draw a weapon, then Strike with that weapon.</Description>
+		</Ability>
+		<Ability name="Wild Empathy" level="2">
+			<Description>You have a connection to the creatures of the natural world that allows you to communicate with them on a rudimentary level. You can use Diplomacy to Make an Impression on animals and to make very simple Requests of them. In most cases, wild animals will give you time to make your case.</Description>
+		</Ability>
 	</Feats>
 </class>

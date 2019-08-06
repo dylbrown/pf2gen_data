@@ -24,15 +24,15 @@
         <AbilitySlot state="filled" name="Champion Powers">
             <Ability>
                 <Description>
-                    Divine power flows through you, and you have learned to channel it to heal others. This grants you special spells called champion powers. You gain a pool of Spell Points you can spend to cast champion powers. Your maximum number of Spell Points is equal to your Charisma modifier (minimum 0). You regain all your Spell Points when you prepare each day. Your key spellcasting ability score is Charisma, and you’re trained in spell rolls and spell DCs for your champion powers. Your champion powers are divine spells.
-                    Champion powers are available only to paladins, and they can’t be learned by other characters. They appear in the Spells chapter (page 192). Some paladin feats grant you additional champion powers, and such feats typically increase your pool of Spell Points. The spell level of each of your champion powers is equal to half your character level, rounded down, and produces heightened effects (see page 192) for those champion powers that have heightened entries. You gain the ability to cast the lay on hands champion power by spending 1 Spell Point.
+                    Divine power flows through you, and you have learned to channel it to heal others. This grants you special spells called champion powers. You gain a pool of Spell Points you can spend to cast champion powers. Your maximum number of Spell Points is equal to your Charisma modifier (minimum 0). You regain all your Spell Points when you prepare each day. Your key spellcasting ability score is Charisma, and you're trained in spell rolls and spell DCs for your champion powers. Your champion powers are divine spells.
+                    Champion powers are available only to paladins, and they can't be learned by other characters. They appear in the Spells chapter (page 192). Some paladin feats grant you additional champion powers, and such feats typically increase your pool of Spell Points. The spell level of each of your champion powers is equal to half your character level, rounded down, and produces heightened effects (see page 192) for those champion powers that have heightened entries. You gain the ability to cast the lay on hands champion power by spending 1 Spell Point.
                 </Description>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="filled" name="Deific Weapon">
             <Ability>
                 <Description>
-                    If your deity’s favored weapon is uncommon, you gain access to it. If the weapon is simple, increase the damage die by one step when you wield it (d4 to d6, d6 to d8, d8 to d10, d10 to d12).
+                    If your deity's favored weapon is uncommon, you gain access to it. If the weapon is simple, increase the damage die by one step when you wield it (d4 to d6, d6 to d8, d8 to d10, d10 to d12).
                 </Description>
             </Ability>
         </AbilitySlot>
@@ -65,24 +65,24 @@
             </AbilitySet>
             <AbilitySet name="Liberator (CG)">
                 <Description>
-                    Your cause drives you to be independent, free-spirited, and committed to allowing others freedom to choose their own paths so long as those paths don’t harm innocents.
+                    Your cause drives you to be independent, free-spirited, and committed to allowing others freedom to choose their own paths so long as those paths don't harm innocents.
                 </Description>
                 <Ability name="Paladin's Code">
                     <Description>
                         1. You must never willingly commit an evil act, such as murder, torture, or the casting an evil spell, and you must never perform acts anathema to your deity.
                         2. You must not use actions that you know will harm an innocent, or through inaction cause an innocent immediate harm when you knew your action could reasonably prevent it. This tenet doesn't force you to take action against possible harm to innocents or to sacrifice your life and potential to attempt to protect an innocent.
-                        3.You must respect the choices others make for their own lives and can’t force someone to act in a particular way or threaten them if they don’t act that way.
+                        3.You must respect the choices others make for their own lives and can't force someone to act in a particular way or threaten them if they don't act that way.
                         4. You must demand and fight for the freedom of others to make their own decisions. You must never engage in or countenance slavery or tyranny.
                     </Description>
                 </Ability>
                 <Ability name="Liberating Step" cost="Reaction">
-                    <Trigger>An enemy attacks, Grabs, or Grapples one of your allies or a creature that’s friendly to you. Both the enemy and ally or friendly creature must be within 15 feet of you.</Trigger>
+                    <Trigger>An enemy attacks, Grabs, or Grapples one of your allies or a creature that's friendly to you. Both the enemy and ally or friendly creature must be within 15 feet of you.</Trigger>
                     <Description>You call out a liberating command, allowing your ally to move to safety. The ally or friendly creature gains resistance to all damage from the triggering attack, if any. This resistance equals 2 + your level. After suffering the effects of the attack, Grab, or Grapple, the ally can attempt to break free of effects entangling, grabbing, immobilizing, or restraining them. They can either attempt a new saving throw against any one such effect that had a saving throw, or as a free action they can attempt to Break Free or Escape from any one effect that allows such attempts. Finally, if the ally can move, they can Step as a free action, even if the ally didn't have any hindrance to escape from.
                     </Description>
                 </Ability>
             </AbilitySet>
         </AbilitySlot>
-        <!--deity and cause, paladin’s reaction.-->
+        <!--deity and cause, paladin's reaction.-->
     </FeatureList>
     <FeatureList level="2">
         <AbilitySlot state="feat" type="Class Feat" name="Paladin Feat" />
@@ -119,13 +119,13 @@
     </FeatureList>
     <Feats>
         <Ability name="Deity's Domain" level="1">
-            <Description> You embody an aspect of your deity. Choose one of your deity’s domains (see the Deity table on page 72). You gain the ability to cast the domain’s initial domain power as a champion power by spending 1 Spell Point. Increase your Spell Point pool by 1.</Description>
+            <Description> You embody an aspect of your deity. Choose one of your deity's domains (see the Deity table on page 72). You gain the ability to cast the domain's initial domain power as a champion power by spending 1 Spell Point. Increase your Spell Point pool by 1.</Description>
             <AttributeMods Proficiency="Trained">
                 Survival
             </AttributeMods>
         </Ability>
         <Ability name="Unimpeded Step" level="1">
-            <Description>The divine power in your Liberating Step allows your ally to Step away even with poor footing or terrain. Your ally’s movement from your Liberating Step is not affected by difficult terrain, greater difficult terrain, narrow surfaces, or uneven ground.</Description>
+            <Description>The divine power in your Liberating Step allows your ally to Step away even with poor footing or terrain. Your ally's movement from your Liberating Step is not affected by difficult terrain, greater difficult terrain, narrow surfaces, or uneven ground.</Description>
         </Ability>
     </Feats>
 </class>

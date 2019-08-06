@@ -22,44 +22,44 @@
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>	
         <AbilitySlot state="filled" name="Deity">
             <Ability>
-				<Description>As a cleric, you are a mortal servitor of a deity you revere above all others. The most common deities in Pathfinder appear on pages 437–440, along with their alignments, areas of concern, and the benefits you get for being a cleric of that deity. Your alignment must be one allowed by your deity, as listed in their entry. Your deity grants you the trained proficiency rank in one skill and with the deity’s favored weapon. If the favored weapon is uncommon, you also get access to that weapon. Your deity also adds spells to your spell list. You can prepare these just like you can any spell on the divine spell list, once you can prepare spells of their level as a cleric. Some of these spells aren’t normally on the divine list, but they’re divine spells if you prepare them this way.</Description>
+				<Description>As a cleric, you are a mortal servitor of a deity you revere above all others. The most common deities in Pathfinder appear on pages 437–440, along with their alignments, areas of concern, and the benefits you get for being a cleric of that deity. Your alignment must be one allowed by your deity, as listed in their entry. Your deity grants you the trained proficiency rank in one skill and with the deity's favored weapon. If the favored weapon is uncommon, you also get access to that weapon. Your deity also adds spells to your spell list. You can prepare these just like you can any spell on the divine spell list, once you can prepare spells of their level as a cleric. Some of these spells aren't normally on the divine list, but they're divine spells if you prepare them this way.</Description>
             </Ability>
         </AbilitySlot>	
         <AbilitySlot state="filled" name="Anathema">
             <Ability>
-				<Description>Acts fundamentally opposed to your deity’s alignment or ideals are anathema to your faith. Learning or casting spells, committing acts, and using items that are anathema to your deity remove you from your deity’s good graces. Casting spells with the evil trait is almost always anathema to good deities, and casting good spells is likewise anathema to evil deities; similarly, casting chaotic spells is anathema to lawful deities, and casting lawful spells is anathema to chaotic deities. A neutral cleric who worships a neutral deity isn’t limited this way, but their alignment might change over time if they frequently cast spells or use abilities with a certain alignment. Similarly, casting spells that are anathema to the tenets or goals of your faith could interfere with your connection to your deity. For example, casting a spell to create undead would be anathema to Pharasma, the goddess of death. For borderline cases, you and your GM determine which acts are anathema.
+				<Description>Acts fundamentally opposed to your deity's alignment or ideals are anathema to your faith. Learning or casting spells, committing acts, and using items that are anathema to your deity remove you from your deity's good graces. Casting spells with the evil trait is almost always anathema to good deities, and casting good spells is likewise anathema to evil deities; similarly, casting chaotic spells is anathema to lawful deities, and casting lawful spells is anathema to chaotic deities. A neutral cleric who worships a neutral deity isn't limited this way, but their alignment might change over time if they frequently cast spells or use abilities with a certain alignment. Similarly, casting spells that are anathema to the tenets or goals of your faith could interfere with your connection to your deity. For example, casting a spell to create undead would be anathema to Pharasma, the goddess of death. For borderline cases, you and your GM determine which acts are anathema.
 If you perform enough acts that are anathema to your deity, or if your alignment changes to one not allowed by your deity, you lose the magical abilities that come from your connection to your deity. The class features that you lose are determined by the GM, but they likely include your divine font and all divine spellcasting. These abilities can be regained only if you demonstrate your repentance by conducting an atone ritual (found on page 409).</Description>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="filled" name="Divine Spellcasting">
             <Ability>
-				<Description>Your deity bestows on you the power to cast divine spells. You can cast divine spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells (see Casting Spells on page 302). Because you’re a cleric, you can usually hold a divine focus (such as a religious symbol) for spells requiring material components instead of needing to use a spell component pouch.
+				<Description>Your deity bestows on you the power to cast divine spells. You can cast divine spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells (see Casting Spells on page 302). Because you're a cleric, you can usually hold a divine focus (such as a religious symbol) for spells requiring material components instead of needing to use a spell component pouch.
 At 1st level, you can prepare two 1st-level spells and five cantrips each morning from the common spells on the divine spell list in this book (page 309) or from other divine spells to which you gain access. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots.
 As you increase in level as a cleric, the number of spells you can prepare each day increases, as does the highest level of spell you can cast, as shown in Table 3–9: Cleric Spells per Day on page 120.
 Some of your spells require you to attempt a spell attack roll to see how effective they are, or your enemies to roll against your spell DC (typically by attempting a saving throw). Since your key ability is Wisdom, your spell attack rolls and spell DCs use your Wisdom modifier. Details on calculating these statistics appear on page 447.
 
 Heightening Spells
-When you get spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. This increases the spell’s level, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain levels.
+When you get spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. This increases the spell's level, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain levels.
 
 Cantrips
-A cantrip is a special type of spell that doesn’t use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest level of spell you can cast as a cleric. For example, as a 1st-level cleric, your cantrips are 1st-level spells, and as a 5th-level cleric, your cantrips are 3rd-level spells.</Description>
+A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest level of spell you can cast as a cleric. For example, as a 1st-level cleric, your cantrips are 1st-level spells, and as a 5th-level cleric, your cantrips are 3rd-level spells.</Description>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="choice" name="Divine Font">
             <Ability name="Harmful Font">
-				<Description>Through your deity’s blessing, you gain additional spells that channel either the life force called positive energy or its counterforce, negative energy. When you prepare your spells each day, you can prepare additional heal or harm spells, depending on your deity. The divine font spell your deity provides is listed in the Divine Font entry for your deity on pages 437–440; if both are listed, you can choose between heal or harm. Once you choose, you can’t change your choice short of an ethical shift or divine intervention.
+				<Description>Through your deity's blessing, you gain additional spells that channel either the life force called positive energy or its counterforce, negative energy. When you prepare your spells each day, you can prepare additional heal or harm spells, depending on your deity. The divine font spell your deity provides is listed in the Divine Font entry for your deity on pages 437–440; if both are listed, you can choose between heal or harm. Once you choose, you can't change your choice short of an ethical shift or divine intervention.
 				
 Harmful Font: You gain additional spell slots each day at your highest level of cleric spell slots. You can prepare only harm spells (page 343) in these slots, and the number of slots is equal to 1 plus your Charisma modifier.</Description>
             </Ability>
             <Ability name="Healing Font">
-				<Description>Through your deity’s blessing, you gain additional spells that channel either the life force called positive energy or its counterforce, negative energy. When you prepare your spells each day, you can prepare additional heal or harm spells, depending on your deity. The divine font spell your deity provides is listed in the Divine Font entry for your deity on pages 437–440; if both are listed, you can choose between heal or harm. Once you choose, you can’t change your choice short of an ethical shift or divine intervention.
+				<Description>Through your deity's blessing, you gain additional spells that channel either the life force called positive energy or its counterforce, negative energy. When you prepare your spells each day, you can prepare additional heal or harm spells, depending on your deity. The divine font spell your deity provides is listed in the Divine Font entry for your deity on pages 437–440; if both are listed, you can choose between heal or harm. Once you choose, you can't change your choice short of an ethical shift or divine intervention.
 				
 Healing Font: You gain additional spell slots each day at your highest level of cleric spell slots. You can prepare only heal spells (page 343) in these slots, and the number of slots is equal to 1 plus your Charisma modifier.</Description>
             </Ability>
         </AbilitySlot>
 		<AbilitySlot state="choice" name="Doctrine">
             <AbilitySet name="Cloistered Cleric">
-                <Description>You are a cleric of the cloth, focusing on divine magic and your connection to your deity’s domains.</Description>
+                <Description>You are a cleric of the cloth, focusing on divine magic and your connection to your deity's domains.</Description>
 				<Ability name="First Doctrine" level="1">
 					<Description>You gain the Domain Initiate cleric feat.</Description>
 					<AbilitySlot state="filled" type="Class Feat" name="Domain Initiate" contents="Domain Initiate"/>
@@ -73,7 +73,7 @@ Healing Font: You gain additional spell slots each day at your highest level of 
 					<AttributeMods Proficiency="Expert">Spell Attacks, Spell DCs</AttributeMods>
 				</Ability>
 				<Ability name="Fourth Doctrine" level="11">
-					<Description>You gain expert proficiency with your deity’s favored weapon. When you critically succeed at an attack roll using that weapon, you apply the weapon’s critical specialization effect; use your divine spell DC if necessary.</Description>
+					<Description>You gain expert proficiency with your deity's favored weapon. When you critically succeed at an attack roll using that weapon, you apply the weapon's critical specialization effect; use your divine spell DC if necessary.</Description>
 				</Ability>
 				<Ability name="Fifth Doctrine" level="15">
 					<Description>Your proficiency ranks for divine spell attack rolls and spell DCs increase to master.</Description>
@@ -87,18 +87,18 @@ Healing Font: You gain additional spell slots each day at your highest level of 
             <AbilitySet name="Warpriest">
                 <Description>You have trained in the more militant doctrine of your church, focusing on both spells and battle.</Description>
 				<Ability name="First Doctrine" level="1">
-					<Description>You’re trained in light and medium armor, and you have expert proficiency in Fortitude saves. You gain the Shield Block general feat. If your deity’s weapon is simple, you gain the Deadly Simplicity cleric feat.</Description>
+					<Description>You're trained in light and medium armor, and you have expert proficiency in Fortitude saves. You gain the Shield Block general feat. If your deity's weapon is simple, you gain the Deadly Simplicity cleric feat.</Description>
 					<AttributeMods Proficiency="Trained">Light Armor, Medium Armor</AttributeMods>
 					<AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
 					<AbilitySlot state="filled" type="General Feat" name="Shield Block (Cleric)" contents="Shield Block"/>
 					<AbilitySlot state="filled" type="Class Feat" name="Deadly Simplicity" contents="Deadly Simplicity"/>
 				</Ability>
 				<Ability name="Second Doctrine" level="3">
-					<Description>You’re trained in martial weapons.</Description>
+					<Description>You're trained in martial weapons.</Description>
 					<AttributeMods Proficiency="Trained">Martial Weapons</AttributeMods>
 				</Ability>
 				<Ability name="Third Doctrine" level="7">
-					<Description>You gain expert proficiency with your deity’s favored weapon. When you critically succeed at an attack roll using that weapon, you apply the weapon’s critical specialization effect; use your divine spell DC if necessary.</Description>
+					<Description>You gain expert proficiency with your deity's favored weapon. When you critically succeed at an attack roll using that weapon, you apply the weapon's critical specialization effect; use your divine spell DC if necessary.</Description>
 				</Ability>
 				<Ability name="Fourth Doctrine" level="11">
 					<Description>Your proficiency ranks for divine spell attack rolls and spell DCs increase to expert.</Description>
@@ -149,10 +149,10 @@ Healing Font: You gain additional spell slots each day at your highest level of 
     </FeatureList>
 	<Feats>
         <Ability name="Deadly Simplicity" level="1">
-            <Description>Your deity’s weapon is especially powerful in your hands. When you are wielding your deity’s favored weapon, increase the damage die size of that weapon by one step. If your deity’s favored weapon is an unarmed attack (such as a fist, if you worship Irori) and its damage die is smaller than d6, instead increase its damage die size to d6.</Description>
+            <Description>Your deity's weapon is especially powerful in your hands. When you are wielding your deity's favored weapon, increase the damage die size of that weapon by one step. If your deity's favored weapon is an unarmed attack (such as a fist, if you worship Irori) and its damage die is smaller than d6, instead increase its damage die size to d6.</Description>
         </Ability>
         <Ability name="Domain Initiate" level="1">
-            <Description>Your deity bestows a special spell related to their powers. Select one domain—a subject of particular interest to you within your religion—from your deity’s list. You gain an initial domain spell for that domain, a spell unique to the domain and not available to other clerics. Each domain’s theme and domain spells appear in Table 8–2: Domains on page 441. Domain spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to pray to your deity or do service toward their causes. Focus spells are automatically heightened to half your level rounded up. Focus spells don’t require spell slots, nor can you cast them using spell slots. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear on page 300.
+            <Description>Your deity bestows a special spell related to their powers. Select one domain—a subject of particular interest to you within your religion—from your deity's list. You gain an initial domain spell for that domain, a spell unique to the domain and not available to other clerics. Each domain's theme and domain spells appear in Table 8–2: Domains on page 441. Domain spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to pray to your deity or do service toward their causes. Focus spells are automatically heightened to half your level rounded up. Focus spells don't require spell slots, nor can you cast them using spell slots. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear on page 300.
 			
 			Special You can select this feat multiple times, selecting a different domain each time and gaining its domain spell.</Description>
         </Ability>
@@ -172,18 +172,18 @@ When you cast heal, you roll d10s instead of d8s.</Description>
         </Ability>
         <Ability name="Reach Spell" level="1" cost="1">
 			<Traits>Concentrate, Metamagic</Traits>
-            <Description>You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell’s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</Description>
+            <Description>You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell's range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</Description>
         </Ability>
         <Ability name="Cantrip Expansion" level="2">
             <Description>You study a wider range of simple spells. You can prepare two additional cantrips each day.</Description>
         </Ability>
         <Ability name="Communal Healing" level="2">
 			<Traits>Healing, Positive</Traits>
-            <Description>You’re a conduit for positive energy, and as you channel it through you, it heals some of your minor injuries. When you cast the heal spell to heal a single creature other than yourself, you regain Hit Points equal to the spell level of the heal spell.</Description>
+            <Description>You're a conduit for positive energy, and as you channel it through you, it heals some of your minor injuries. When you cast the heal spell to heal a single creature other than yourself, you regain Hit Points equal to the spell level of the heal spell.</Description>
         </Ability>
         <Ability name="Emblazon Armament" level="2">
 			<Traits>Exploration</Traits>
-            <Description>Carefully etching a sacred image into a physical object, you steel yourself for battle. You can spend 10 minutes emblazoning a symbol of your deity upon a weapon or shield. The symbol doesn’t fade until 1 year has passed, but if you Emblazon an Armament, any symbol you previously emblazoned and any symbol already emblazoned on that item instantly disappears. The item becomes a religious symbol of your deity and can be used as a divine focus while emblazoned, and it gains another benefit determined by the type of item. This benefit applies only to followers of the deity the symbol represents.
+            <Description>Carefully etching a sacred image into a physical object, you steel yourself for battle. You can spend 10 minutes emblazoning a symbol of your deity upon a weapon or shield. The symbol doesn't fade until 1 year has passed, but if you Emblazon an Armament, any symbol you previously emblazoned and any symbol already emblazoned on that item instantly disappears. The item becomes a religious symbol of your deity and can be used as a divine focus while emblazoned, and it gains another benefit determined by the type of item. This benefit applies only to followers of the deity the symbol represents.
 			
 			• Shield The shield gains a +1 status bonus to its Hardness. (This causes it to reduce more damage with the Shield Block reaction.)
 			
@@ -191,7 +191,7 @@ When you cast heal, you roll d10s instead of d8s.</Description>
         </Ability>
         <Ability name="Sap Life" level="2">
 			<Traits>Healing</Traits>
-            <Description>You draw the life force out of your enemies to heal your own wounds. When you cast a harm spell and damage at least one living creature, you regain Hit Points equal to the spell level of your harm spell. If you aren’t a living creature, you gain no benefit from this feat.</Description>
+            <Description>You draw the life force out of your enemies to heal your own wounds. When you cast a harm spell and damage at least one living creature, you regain Hit Points equal to the spell level of your harm spell. If you aren't a living creature, you gain no benefit from this feat.</Description>
         </Ability>
         <Ability name="Turn Undead" level="2">
             <Description>Undead harmed by your positive energy might flee, compelled by an innate aversion to the force opposite undeath. When you use a heal spell to damage undead, each undead of your level or lower that critically fails its save gains the fleeing condition for 1 round.</Description>
@@ -199,7 +199,7 @@ When you cast heal, you roll d10s instead of d8s.</Description>
         <Ability name="Versatile Font" level="2">
             <Description>Prerequisites: Deity that allows clerics to have both fonts.
 			
-As you explore your deity’s aspects, you move beyond restrictions on healing or harming. You
+As you explore your deity's aspects, you move beyond restrictions on healing or harming. You
 can prepare either harm or heal in the spell slots gained from the harmful font or healing font.</Description>
         </Ability>
     </Feats>
