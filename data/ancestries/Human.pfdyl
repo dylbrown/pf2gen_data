@@ -20,9 +20,9 @@
             <Description>Your ingenuity allows you to train in a wide variety of skills. You become trained in one skill of your choice. At 5th level, you become an expert in the chosen skill.</Description>
             <CustomMod>
                 var skilled_heritage_proficiency = function(skillChoice, unused) {
-                    skillProficiency(skillChoice, "Trained");
+                    proficiency(skillChoice, "Trained");
                     if(level >= 5){
-                        skillProficiency(skillChoice, "Expert");
+                        proficiency(skillChoice, "Expert");
                     }
                 }
                 choose("Skill", "Skilled Heritage Choice", skilled_heritage_proficiency, "");
@@ -58,7 +58,7 @@ Special You can select this feat multiple times, choosing a different feat each 
             <Description>Your ingenuity allows you to learn a wide variety of skills. You gain the trained proficiency rank in two skills of your choice. </Description>
             <CustomMod>
                 var skilled_heritage_proficiency = function(skillChoice, unused) {
-                    skillProficiency(skillChoice, "Trained");
+                    proficiency(skillChoice, "Trained");
                 }
                 choose("Skill", "Skilled Heritage Choice 1", skilled_heritage_proficiency, "");
 				choose("Skill", "Skilled Heritage Choice 2", skilled_heritage_proficiency, "");

@@ -11,15 +11,15 @@
         <AbilitySlot state="filled" name="Initial Proficiencies">
             <Ability>
                 <AttributeMods Proficiency="Trained">
-                    Fortitude, Religion, Perception, Reflex, Simple Weapons, Unarmored, Spell Attacks, Spell DCs
+                    Fortitude, Religion, Perception, Reflex, Simple Weapons, Unarmed, Unarmored, Spell Attacks, Spell DCs
                 </AttributeMods>
                 <AttributeMods Proficiency="Expert">
                     Will
                 </AttributeMods>
             </Ability>
         </AbilitySlot>
-        <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat"/>
-        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>	
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+		<AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>		
         <AbilitySlot state="filled" name="Deity">
             <Ability>
 				<Description>As a cleric, you are a mortal servitor of a deity you revere above all others. The most common deities in Pathfinder appear on pages 437–440, along with their alignments, areas of concern, and the benefits you get for being a cleric of that deity. Your alignment must be one allowed by your deity, as listed in their entry. Your deity grants you the trained proficiency rank in one skill and with the deity's favored weapon. If the favored weapon is uncommon, you also get access to that weapon. Your deity also adds spells to your spell list. You can prepare these just like you can any spell on the divine spell list, once you can prepare spells of their level as a cleric. Some of these spells aren't normally on the divine list, but they're divine spells if you prepare them this way.</Description>
@@ -104,7 +104,7 @@ Healing Font: You gain additional spell slots each day at your highest level of 
 					<Description>Your proficiency ranks for divine spell attack rolls and spell DCs increase to expert.</Description>
 					<AttributeMods Proficiency="Expert">Spell Attacks, Spell DCs</AttributeMods>
 				</Ability>
-				<Ability name="First Doctrine - Armor">
+				<Ability name="First Doctrine - Armor" level="13">
 					<Description>At 13th level, if you gain the divine defense class feature, you also gain expert proficiency in light and medium armor.</Description>
 					<AttributeMods Proficiency="Expert">Light Armor, Medium Armor</AttributeMods>
 				</Ability>

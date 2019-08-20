@@ -18,7 +18,7 @@
             ${skill.name} ${skill.mod?string.@s}<#sep>, </#sep>
         </#list>
         <br />
-        <b>Str</b> ${abilityMod.str}, <b>Dex</b> ${abilityMod.dex}, <b>Con</b> ${abilityMod.con}, <b>Int</b> ${abilityMod.con}, <b>Wis</b> ${abilityMod.wis}, <b>Cha</b> ${abilityMod.cha}<br />
+        <b>Str</b> ${abilityMod.str}, <b>Dex</b> ${abilityMod.dex}, <b>Con</b> ${abilityMod.con}, <b>Int</b> ${abilityMod.int}, <b>Wis</b> ${abilityMod.wis}, <b>Cha</b> ${abilityMod.cha}<br />
         <b>Items</b>
         <#list items as item>
             ${item.count} ${item.name}<#sep>, </#sep>

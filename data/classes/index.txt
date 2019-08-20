@@ -1,6 +1,7 @@
+Bard
+Champion
 Cleric
 Fighter
-Paladin
 Ranger
 Rogue
 Sorcerer
