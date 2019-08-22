@@ -39,7 +39,7 @@
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="choice" name="Alignment">
-            <AbilitySet name="Paladin (LG)">
+            <AbilitySet name="Paladin">
                 <Description>
                     You’re honorable, forthright, and committed to pushing back the forces of cruelty. You gain the Retributive Strike champion’s reaction and the lay on hands devotion spell.
                 </Description>
@@ -57,7 +57,7 @@
                     </Description>
                 </Ability>
             </AbilitySet>
-            <AbilitySet name="Redeemer (NG)">
+            <AbilitySet name="Redeemer">
                 <Description>
                     You’re full of kindness and forgiveness. You gain the Glimpse of Redemption champion’s reaction and the lay on hands devotion spell
                 </Description>
@@ -77,7 +77,7 @@
                     </Description>
                 </Ability>
             </AbilitySet>
-            <AbilitySet name="Liberator (CG)">
+            <AbilitySet name="Liberator">
                 <Description>
                     You’re committed to defending the freedom of others. You gain the Liberating Step champion’s reaction and the lay on hands devotion spell
                 </Description>
@@ -103,6 +103,22 @@
         <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
     </FeatureList>
     <FeatureList level="3">
+        <AbilitySlot state="choice" name="Divine Ally">
+			<Description>Your devotion attracts a spirit of your deity’s alignment.
+
+Once you choose an ally, your choice can’t be changed.
+
+The following are divine allies:</Description>
+			<Ability name="Blade Ally">
+				<Description>A spirit of battle dwells within your weapon. Select one weapon when you make your daily preparations. In your hands, the weapon gains the effect of a property Rune. For a champion following the tenets of good, choose disrupting, ghost touch, returning, or shifting. You also gain the weapon’s critical specialization effect.</Description>
+			</Ability>
+			<Ability name="Shield Ally">
+				<Description>A spirit of protection dwells within your shield. In your hands, the shield’s Hardness increases by 2 and its HP and BT increase by half.</Description>
+			</Ability>
+			<Ability name="Steed Ally">
+				<Description>You gain a young animal companion as a mount. Ordinarily, your animal companion is one that has the mount special ability, such as a horse. You can select a different animal companion (GM’s discretion), but this ability doesn’t grant it the mount special ability.</Description>
+			</Ability>
+		</AbilitySlot>
         <AbilitySlot state="feat" type="General Feat" name="General Feat" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
@@ -133,13 +149,57 @@
     </FeatureList>
     <Feats>
         <Ability name="Deity's Domain" level="1">
-            <Description> You embody an aspect of your deity. Choose one of your deity's domains (see the Deity table on page 72). You gain the ability to cast the domain's initial domain power as a champion power by spending 1 Spell Point. Increase your Spell Point pool by 1.</Description>
-            <AttributeMods Proficiency="Trained">
-                Survival
-            </AttributeMods>
+            <Description>You embody an aspect of your deity. Choose one of your deity’s domains from those listed. You gain the domain’s initial domain spell as a devotion spell.</Description>
+        </Ability>
+        <Ability name="Ranged Reprisal" level="1">
+			<Prerequisites>Paladin</Prerequisites>
+            <Description>You can use Retributive Strike with a ranged weapon. In addition, if the foe that triggered your reaction is within 5 feet of your reach but not in your reach, as part of your reaction you can Step to put the foe in your reach before making a melee Retributive Strike.</Description>
         </Ability>
         <Ability name="Unimpeded Step" level="1">
-            <Description>The divine power in your Liberating Step allows your ally to Step away even with poor footing or terrain. Your ally's movement from your Liberating Step is not affected by difficult terrain, greater difficult terrain, narrow surfaces, or uneven ground.</Description>
+			<Prerequisites>Liberator</Prerequisites>
+            <Description>With a burst of divine liberation, your ally’s movement from your Liberating Step is unaffected by difficult terrain, greater difficult terrain, narrow surfaces, and uneven ground.</Description>
+        </Ability>
+        <Ability name="Weight of Guilt" level="1">
+			<Prerequisites>Redeemer</Prerequisites>
+            <Description>Guilt clouds the minds of those who ignore your Glimpse of Redemption. Instead of making the triggering creature enfeebled 2, you can make it stupefied 2 for the same duration.</Description>
+        </Ability>
+        <Ability name="Divine Grace" level="2" cost="Reaction">
+			<Trigger>You attempt a save against a spell, before you roll.</Trigger>
+            <Description>You call upon your deity’s grace, gaining a +2 circumstance bonus to the save.</Description>
+        </Ability>
+        <Ability name="Dragonslayer Oath" level="2">
+			<Traits>Oath</Traits>
+            <Description>You’ve sworn to slay evil dragons. Add the following tenet to your code after the others: “You must slay evil dragons you encounter as long as you have a reasonable chance of success.”
+
+Your Retributive Strike gains a +4 circumstance bonus to damage against an evil dragon, or +6 if you have master proficiency with the weapon you used. Your Glimpse of Redemption’s resistance against damage from an evil dragon is 7 + your level. If you use Liberating Step triggered by an evil dragon, your ally gains a +4 circumstance bonus to checks granted by your Liberating Step, and the ally can Step twice afterward.
+
+You don’t consider evil dragons to be legitimate authorities, even in nations they rule.</Description>
+        </Ability>
+        <Ability name="Fiendsbane Oath" level="2">
+			<Traits>Oath</Traits>
+            <Description>You’ve sworn an oath to banish the corruption of fiends to the dark planes they call home.
+
+Add the following tenet to your champion’s code after the other tenets: “You must banish or slay fiends you come across as long as you have a reasonable chance of success; in the incredibly unlikely event you find a good fiend, you don’t have to banish or kill it.”
+
+Your Retributive Strike gains a +4 circumstance bonus to damage against a fiend, or a +6 circumstance bonus if you have master proficiency with the weapon you used. Your Glimpse of Redemption’s resistance against damage from a fiend is 7 + your level. If you use Liberating Step triggered by a fiend, your ally gains a +4 circumstance bonus to checks granted by your Liberating Step, and the ally can Step twice afterward.
+
+You don’t consider fiends to be legitimate authorities, even in nations ruled by fiends.</Description>
+        </Ability>
+        <Ability name="Shining Oath" level="2">
+			<Traits>Oath</Traits>
+            <Description>You’ve sworn an oath to put the undead to rest. Add the following tenet to your champion’s code after the other tenets: “You must end the existence of undead you encounter as long as you have a reasonable chance of success; in the unlikely event you find a good undead, you can try to work out a more peaceful way to help it recover from its undead state rather than destroying it in combat, such as helping it complete its unfinished business and find peace.”
+
+Your Retributive Strike gains a +4 circumstance bonus to damage against an undead, or +6 if you have master proficiency with the weapon you used. Your Glimpse of Redemption’s resistance against damage from an undead is 7 + your level. If you use Liberating Step triggered by an undead, your ally gains a +4 circumstance bonus to checks granted by your Liberating Step, and the ally can Step twice afterward.
+
+You don’t consider undead to be legitimate authorities, even in nations ruled by undead.</Description>
+        </Ability>
+		
+        <Ability name="Vengeful Oath" level="2">
+			<Prerequisites>Paladin</Prerequisites>
+			<Traits>Oath</Traits>
+            <Description>You’ve sworn an oath to hunt down wicked evildoers and bring them to judgment. Add the following tenet to your code after the others: “You must hunt down and exterminate evil creatures that have committed heinous atrocities as long as you have a reasonable chance of success and aren’t engaged in a mission that would prevent your doing so.”
+
+You can use lay on hands to damage a creature you witness harming an innocent or a good ally as if it were undead; in this case, lay on hands deals good damage instead of Positive damage and gains the good trait. This good damage can affect non-evil creatures. This doesn’t prevent you from Healing such a creature with lay on hands; you choose whether to heal or harm.</Description>
         </Ability>
     </Feats>
 </class>
