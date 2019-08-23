@@ -24,7 +24,7 @@
             ${item.count} ${item.name}<#sep>, </#sep>
         <#else>None</#list>
         <hr />
-        <b>AC</b> ${character.ac}, <b>TAC</b> ${character.tac}; <b>Fort</b> ${attributes.fortitude?string.@s}, <b>Ref</b> ${attributes.reflex?string.@s}, <b>Will</b> ${attributes.will?string.@s}<br />
+        <b>AC</b> ${character.ac}; <b>Fort</b> ${attributes.fortitude?string.@s}, <b>Ref</b> ${attributes.reflex?string.@s}, <b>Will</b> ${attributes.will?string.@s}<br />
         <b>HP</b> ${character.hp}<br />
 <b>Speed</b> ${character.speed} feet<br />
         <hr />
