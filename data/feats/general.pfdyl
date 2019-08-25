@@ -1,5 +1,9 @@
 <?xml version = "1.0"?>
 <feats>
+    <Ability name="Assurance" level="1">
+        <Description>You can attempt to Disarm, Grapple, Shove, or Trip creatures up to two sizes larger than you, or up to three sizes larger than you if you’re legendary in Athletics.</Description>
+        <Requires>Trained in Athletics</Requires>
+    </Ability>
     <Ability name="Canny Acumen" level="1">
         <Description>Your avoidance or observation is beyond the ken of most in your profession. Choose Fortitude saves, Reflex saves, Will saves, or Perception. You become an expert in your choice. At 17th level, you become a master in your choice.</Description>
 		<CustomMod>

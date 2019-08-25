@@ -7,7 +7,13 @@
 Whenever you roll a success using the Balance action, you get a critical success instead. You're not flat-footed while attempting to Balance on narrow surfaces and uneven ground. Thanks to your incredible balance, you can attempt an Acrobatics check instead of a Reflex save to Grab an Edge.</Description>
         <Requires>Trained in Acrobatics</Requires>
     </Ability>
-	
+
+	<!--Athletics-->
+    <Ability name="Titan Wrestler" level="1">
+        <Description>You can attempt to Disarm, Grapple, Shove, or Trip creatures up to two sizes larger than you, or up to three sizes larger than you if you’re legendary in Athletics.</Description>
+        <Requires>Trained in Athletics</Requires>
+    </Ability>
+
 	<!--Crafting-->
     <Ability name="Specialty Crafting" level="1">
         <Description>Your training focused on Crafting one particular kind of item.
@@ -37,7 +43,13 @@ Some specialties might apply only partially. For example, if you were making a m
 The Gather Information exploration activity takes you half as long as normal (typically reducing the time to 1 hour). If you're a master in Diplomacy and you Gather Information at the normal speed, when you attempt to do so and roll a critical failure, you get a failure instead. There is still no guarantee that a rumor you learn with Gather Information is accurate.</Description>
         <Requires>Trained in Diplomacy</Requires>
     </Ability>
-	
+
+	<!--Medicine-->
+    <Ability name="Combat Medicine" level="1" cost="1">
+        <Description>You can attempt to Disarm, Grapple, Shove, or Trip creatures up to two sizes larger than you, or up to three sizes larger than you if you’re legendary in Athletics.</Description>
+        <Requires>Trained in Medicine</Requires>
+    </Ability>
+
 	<!--Nature-->
     <Ability name="Train Animal" level="1">
 		<Traits>Downtime, Manipulate</Traits>
@@ -50,6 +62,7 @@ Success The animal learns the action. If it was an action the animal already kne
 Failure The animal doesn't learn the trick.</Description>
         <Requires>Trained in Nature</Requires>
     </Ability>
+
 	<!--Religion-->
     <Ability name="Student of the Canon" level="1">
         <Description>You've researched many faiths enough to recognize notions about them that are unlikely to be true. If you roll a critical failure at a Religion check to Decipher Writing of a religious nature or to Recall Knowledge about the tenets of faiths, you get a failure instead. When attempting to Recall Knowledge about the tenets of your own faith, if you roll a failure, you get a success instead, and if you roll a success, you get a critical success instead.</Description>
@@ -62,7 +75,10 @@ Failure The animal doesn't learn the trick.</Description>
 If you're a master in Stealth, the GM uses the number rolled or 15, and if you're legendary in Stealth, you automatically succeed at hiding a small concealed item from passive observers. This provides no benefits when a creature attempts a Perception check while actively searching you for hidden items. Due to your smuggling skill, you're more likely to find more lucrative smuggling jobs when using Underworld Lore to Earn Income.</Description>
         <Requires>Trained in Stealth</Requires>
     </Ability>
-	
+	<Ability name="Foil Senses" level="7">
+        <Description>You are adept at foiling creatures’ special senses and cautious enough to safeguard against them at all times. Whenever you use the Avoid Notice, Hide, or Sneak actions, you are always considered to be taking precautions against special senses (see the Detecting with Other Senses sidebar on page 465).</Description>
+        <Requires>Master in Stealth</Requires>
+    </Ability>
 	
 	<!--Survival-->
     <Ability name="Experienced Tracker" level="1">
