@@ -1,5 +1,6 @@
 <?xml version = "1.0"?>
 <feats>
+    <!--TODO-->
     <Ability name="Assurance" level="1">
         <Description>You can attempt to Disarm, Grapple, Shove, or Trip creatures up to two sizes larger than you, or up to three sizes larger than you if you’re legendary in Athletics.</Description>
         <Requires>Trained in Athletics</Requires>
@@ -12,6 +13,12 @@
 			}else{
 				choose("Attributes: Fortitude, Reflex, Will, Perception", "Canny Acumen Choice", proficiency, "Expert");
 			}
+		</CustomMod>
+    </Ability>
+    <Ability name="Fleet" level="1">
+        <Description>You react more quickly than others can. You gain a +2 circumstance bonus to initiative rolls.</Description>
+		<CustomMod>
+			bonus("initiative", 2);
 		</CustomMod>
     </Ability>
     <Ability name="Fleet" level="1">

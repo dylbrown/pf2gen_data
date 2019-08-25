@@ -9,7 +9,7 @@ Whenever you roll a success using the Balance action, you get a critical success
     </Ability>
 
 	<!--Athletics-->
-    <Ability name="Titan Wrestler" level="1">
+    <Ability name="Titan Wrestler" level="7">
         <Description>You can attempt to Disarm, Grapple, Shove, or Trip creatures up to two sizes larger than you, or up to three sizes larger than you if you’re legendary in Athletics.</Description>
         <Requires>Trained in Athletics</Requires>
     </Ability>
@@ -45,8 +45,8 @@ The Gather Information exploration activity takes you half as long as normal (ty
     </Ability>
 
 	<!--Medicine-->
-    <Ability name="Combat Medicine" level="1" cost="1">
-        <Description>You can attempt to Disarm, Grapple, Shove, or Trip creatures up to two sizes larger than you, or up to three sizes larger than you if you’re legendary in Athletics.</Description>
+    <Ability name="Battle Medicine" level="1" cost="1">
+        <Description>You can patch up yourself or an adjacent ally, even in combat. Attempt a Medicine check with the same DC as for Treat Wounds and provide the corresponding amount of healing. As with Treat Wounds, you can attempt checks against higher DCs if you have the minimum proficiency rank. The target is then temporarily immune to your Battle Medicine for 1 day.</Description>
         <Requires>Trained in Medicine</Requires>
     </Ability>
 
