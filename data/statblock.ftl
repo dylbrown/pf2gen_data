@@ -6,7 +6,7 @@
 <body>
 <h3>${character.name}</h3>
     <p>
-        <b>${character.pclass.name} ${character.level}</b><br />
+        <b>${character.pclass.name} ${character.ancestry.name} ${character.level}</b><br />
         <b>Perception</b> ${attributes.perception?string.@s}<br />
         <b>Languages</b>
         <#list character.languages as language>
