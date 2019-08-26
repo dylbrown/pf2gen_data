@@ -15,11 +15,8 @@
 			}
 		</CustomMod>
     </Ability>
-    <Ability name="Fleet" level="1">
+    <Ability name="Incredible Initiative" level="1">
         <Description>You react more quickly than others can. You gain a +2 circumstance bonus to initiative rolls.</Description>
-		<CustomMod>
-			bonus("initiative", 2);
-		</CustomMod>
     </Ability>
     <Ability name="Fleet" level="1">
         <Description>You move more quickly on foot. Your Speed increases by 5 feet.</Description>
