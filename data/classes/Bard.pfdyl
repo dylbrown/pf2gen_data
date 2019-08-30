@@ -2,9 +2,7 @@
 <class>
     <Name>Bard</Name>
     <HP>8</HP>
-    <AbilityChoices>
-        <AbilityScore>Cha</AbilityScore>
-    </AbilityChoices>
+    <AbilityChoices>Cha</AbilityChoices>
     <SkillIncreases>4</SkillIncreases>
     <Description>Deities work their will upon the world in infinite ways, and you serve as one of their most stalwart mortal servants. Blessed with divine magic granted through the grace of your deity, you live the ideals of your faith, adorn yourself with the symbols of your church, and train diligently to wield the weapon favored by your deity. Your spells might protect and heal your allies, or they might punish foes and lay waste to enemies of your faith, as your deity wills. Yours is a life of devotion, spreading the teachings of your faith through both thought and deed.</Description>
     <FeatureList level="1">
@@ -19,6 +17,7 @@
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
         <AbilitySlot state="filled" name="Occult Spellcasting">
             <Ability>
 				<Description>You draw upon magic from esoteric knowledge. You can cast occult spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells (see Casting Spells on page 302). Because you’re a bard, you can usually play an instrument for spells requiring somatic or material components, as long as it takes at least one of your hands to do so. If you use an instrument, you don’t need a spell component pouch or another hand free. You can usually also play an instrument for spells requiring verbal components, instead of speaking.

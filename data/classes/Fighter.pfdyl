@@ -2,10 +2,7 @@
 <class>
     <Name>Fighter</Name>
     <HP>10</HP>
-    <AbilityChoices>
-        <AbilityScore>Str</AbilityScore>
-		<AbilityScore>Dex</AbilityScore>
-    </AbilityChoices>
+    <AbilityChoices>Str or Dex</AbilityChoices>
     <SkillIncreases>3</SkillIncreases>
     <Description>You are a champion of justice, a holy servant of a good and lawful deity who takes up the mantle of a restrictive code to provide certainty and hope to the innocent. You have powerful defenses that you share freely with your allies and innocent bystanders, but when the time comes to punish the wicked, you use your holy power to end the threat of evil. Your devotion also attracts the attention of holy spirits who aid you on your journey. Others can count on you to adhere to your code of conduct, and they trust you at your word.</Description>
     <FeatureList level="1">
@@ -61,7 +58,7 @@
 			<Ability>
                 <Description>Hours spent training with your preferred weapons, learning and developing new combat techniques, have made you particularly effective with your weapons of choice. Choose one weapon group. Your proficiency rank increases to master with the simple and martial weapons in that group, and to expert with the advanced weapons in that group. You gain access to the critical specialization effects of all weapons for which you have master proficiency.</Description>
                 <CustomMod>
-                    choose("WeaponGroup", "Weapon Expertise Choice", weaponGroupProficiency, "Master");
+                    choose("WeaponGroup", "Weapon Expertise Choice", weaponGroupProficiency, "Master", 1);
                 </CustomMod>
 			</Ability>
 		</AbilitySlot>

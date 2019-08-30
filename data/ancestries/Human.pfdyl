@@ -25,7 +25,7 @@
                         proficiency(skillChoice, "Expert");
                     }
                 }
-                choose("Skill", "Skilled Heritage Choice", skilled_heritage_proficiency, "");
+                choose("Skill", "Skilled Heritage Choice", skilled_heritage_proficiency, "", 1);
             </CustomMod>
         </Ability>
         <Ability name="Versatile Heritage" type="Heritage">
@@ -54,16 +54,11 @@ Special You can select this feat multiple times, choosing a different feat each 
             <Description>You were raised to be ambitious and always reach for the stars, leading you to progress quickly in your chosen field. You gain a 1st-level class feat for your class. You must meet the prerequisites, but you can select the feat later in the character creation process in order to determine which prerequisites you meet. </Description>
 			<AbilitySlot state="feat" type="Class Feat" name="Natural Ambition Class Feat"/>
         </Ability>
-        <Ability name="Natural Skill" level="1">
+        <AbilitySet name="Natural Skill" level="1">
             <Description>Your ingenuity allows you to learn a wide variety of skills. You gain the trained proficiency rank in two skills of your choice. </Description>
-            <CustomMod>
-                var skilled_heritage_proficiency = function(skillChoice, unused) {
-                    proficiency(skillChoice, "Trained");
-                }
-                choose("Skill", "Skilled Heritage Choice 1", skilled_heritage_proficiency, "");
-				choose("Skill", "Skilled Heritage Choice 2", skilled_heritage_proficiency, "");
-            </CustomMod>
-        </Ability>
+			<Ability skillIncrease="true"/>
+			<Ability skillIncrease="true"/>
+        </AbilitySet>
         <Ability name="Unconventional Weaponry" level="1">
             <Description>You've familiarized yourself with a particular weapon, potentially from another ancestry or culture. Choose an uncommon simple or martial weapon with a trait corresponding to an ancestry (such as dwarf, goblin, or orc) or that is common in another culture. You gain access to that weapon, and for the purpose of determining your proficiency, that weapon is a simple weapon.
 
