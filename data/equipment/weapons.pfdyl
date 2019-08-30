@@ -1,235 +1,976 @@
 <?xml version = "1.0"?>
+<!--([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)
+<Weapon>\n<Name>\1</Name>\n<Price>\2</Price>\n<Damage>\3</Damage>\n<Bulk>\4</Bulk>\n<Hands>\5</Hands>\n<Group>\6</Group>\n<Traits>\7</Traits>\n</Weapon>
+([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)
+<Weapon>\n<Name>\1</Name>\n<Price>\2</Price>\n<Damage>\3</Damage>\n<Range>\4</Range>\n<Reload>\5</Reload>\n<Bulk>\6</Bulk>\n<Hands>\7</Hands>\n<Group>\8</Group>\n<Traits>\9</Traits>\n</Weapon>-->
 <weapons>
-    <Groups>
-        <WeaponGroup>
-            <Name>Axe</Name>
-            <CritEffect>Choose one creature adjacent to the initial target and within reach. If its AC is lower than your attack roll result for the critical hit, you deal damage to that creature equal to the result of the weapon damage die you rolled (including extra dice for its Potency Rune, if any). This amount isn’t doubled, and no bonuses or other additional dice apply to this damage.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Bomb</Name>
-            <CritEffect>Increase the radius of the bomb’s splash damage (if any) to 10 feet.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Bow</Name>
-            <CritEffect>If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can’t move from its space until it succeeds. The creature doesn’t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Brawling</Name>
-            <CritEffect>The target must succeed at a Fortitude save against your class DC or be slowed 1 until the end of your next turn.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Club</Name>
-            <CritEffect>You knock the target away from you up to 10 feet (you choose the distance). This is forced movement.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Dart</Name>
-            <CritEffect>The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon’s item bonus to attack rolls.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Flail</Name>
-            <CritEffect>The target is knocked prone.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Hammer</Name>
-            <CritEffect>The target is knocked prone.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Knife</Name>
-            <CritEffect>The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon’s item bonus to attack rolls.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Pick</Name>
-            <CritEffect>The weapon viciously pierces the target, who takes 2 additional damage per weapon damage die.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Polearm</Name>
-            <CritEffect>The target is moved 5 feet in a direction of your choice. This is forced movement.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Shield</Name>
-            <CritEffect>You knock the target back from you 5 feet. This is forced movement.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Sling</Name>
-            <CritEffect>The target must succeed at a Fortitude save against your class DC or be stunned 1.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Spear</Name>
-            <CritEffect>The weapon pierces the target, weakening its attacks. The target is clumsy 1 until the start of your next turn.</CritEffect>
-        </WeaponGroup>
-        <WeaponGroup>
-            <Name>Sword</Name>
-            <CritEffect>The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.</CritEffect>
-        </WeaponGroup>
-    </Groups>
-    <Traits>
-        <WeaponTrait>
-            <Name>Agile</Name>
-            <Description>The multiple attack penalty you take with this weapon on the second attack on your turn is –4 instead of –5, and –8 instead of –10 on the third and subsequent attacks in the turn.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Attached</Name>
-            <Description>An attached weapon must be combined with another piece of gear to be used. The trait lists what type of item the weapon must be attached to. You must be wielding or wearing the item the weapon is attached to in order to attack with it. For example, shield spikes are attached to a shield, allowing you to attack with the spikes instead of a shield bash, but only if you’re wielding the shield. An attached weapon is usually bolted onto or built into the item it’s attached to, and typically an item can have only one weapon attached to it. An attached weapon can be affixed to an item with 10 minutes of work and a successful DC 10 Crafting check; this includes the time needed to remove the weapon from a previous item, if necessary. If an item is destroyed, its attached weapon can usually be salvaged.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Backstabber</Name>
-            <Description>When you hit a flat-footed creature, this weapon deals 1 precision damage in addition to its normal damage. The precision damage increases to 2 if the weapon is a +3 weapon.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Backswing</Name>
-            <Description>You can use the momentum from a missed attack with this weapon to lead into your next attack. After missing with this weapon on your turn, you gain a +1 circumstance bonus to your next attack with this weapon before the end of your turn.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Deadly</Name>
-            <Description>On a critical hit, the weapon adds a weapon damage die of the listed size. Roll this after doubling the weapon’s damage. This increases to two dice if the weapon has a greater Striking Rune and three dice if the weapon has a major Striking Rune. For instance, a rapier with a greater Striking Rune deals 2d8 extra piercing damage on a critical hit. An ability that changes the size of the weapon’s normal damage dice doesn’t change the size of its deadly die.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Disarm</Name>
-            <Description>You can use this weapon to Disarm with the Athletics skill even if you don’t have a free hand. This uses the weapon’s reach (if different from your own) and adds the weapon’s item bonus to attack rolls (if any) as an item bonus to the Athletics check. If you critically fail a check to Disarm using the weapon, you can drop the weapon to take the effects of a failure instead of a critical failure. On a critical success, you still need a free hand if you want to take the item.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Dwarf</Name>
-            <Description>Dwarves craft and use these weapons.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Elf</Name>
-            <Description>Elves craft and use these weapons.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Fatal</Name>
-            <Description>The fatal trait includes a die size. On a critical hit, the weapon’s damage die increases to that die size instead of the normal die size, and the weapon adds one additional damage die of the listed size.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Finesse</Name>
-            <Description>You can use your Dexterity modifier instead of your Strength modifier on attack rolls using this melee weapon. You still use your Strength modifier when calculating damage.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Forceful</Name>
-            <Description>This weapon becomes more dangerous as you build momentum. When you attack with it more than once on your turn, the second attack gains a circumstance bonus to damage equal to the number of weapon damage dice, and each subsequent attack gains a circumstance bonus to damage equal to double the number of weapon damage dice.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Free-Hand</Name>
-            <Description>This weapon doesn’t take up your hand, usually because it is built into your armor. A free-hand weapon can’t be Disarmed. You can use the hand covered by your free-hand weapon to wield other items, perform manipulate actions, and so on. You can’t attack with a free-hand weapon if you’re wielding anything in that hand or otherwise using that hand. When you’re not wielding anything and not otherwise using the hand, you can use abilities that require you to have a hand free as well as those that require you to be wielding a weapon in that hand. Each of your hands can have only one free?hand weapon on it.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Gnome</Name>
-            <Description>Gnomes craft and use these weapons.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Goblin</Name>
-            <Description>Goblins craft and use these weapons.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Grapple</Name>
-            <Description>You can use this weapon to Grapple with the Athletics skill even if you don’t have a free hand. This uses the weapon’s reach (if different from your own) and adds the weapon’s item bonus to attack rolls as an item bonus to the Athletics check. If you critically fail a check to Grapple using the weapon, you can drop the weapon to take the effects of a failure instead of a critical failure.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Halfling</Name>
-            <Description>Halflings craft and use these weapons.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Jousting</Name>
-            <Description>The weapon is suited for mounted combat with a harness or similar means. When mounted, if you moved at least 10 feet on the action before your attack, add a circumstance bonus to damage for that attack equal to the number of damage dice for the weapon. In addition, while mounted, you can wield the weapon in one hand, changing the damage die to the listed value.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Monk</Name>
-            <Description>Many monks learn to use these weapons.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Nonlethal</Name>
-            <Description>Attacks with this weapon are nonlethal, and are used to knock creatures unconscious instead of kill them. You can use a nonlethal weapon to make a lethal attack with a –2 circumstance penalty.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Orc</Name>
-            <Description>Orcs craft and use these weapons.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Parry</Name>
-            <Description>This weapon can be used defensively to block attacks. While wielding this weapon, if your proficiency with it is trained or better, you can spend an Interact action to position your weapon defensively, gaining a +1 circumstance bonus to AC until the start of your next turn.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Propulsive</Name>
-            <Description>You add half your Strength modifier (if Positive) to damage rolls with a propulsive ranged weapon. If you have a negative Strength modifier, you add your full Strength modifier instead.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Reach</Name>
-            <Description>This weapon is long and can be used to attack creatures up to 10 feet away instead of only adjacent creatures. For creatures that already have reach with the limb or limbs that wield the weapon, the weapon increases their reach by 5 feet.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Shove</Name>
-            <Description>You can use this weapon to Shove with the Athletics skill even if you don’t have a free hand. This uses the weapon’s reach (if different from your own) and adds the weapon’s item bonus to attack rolls as an item bonus to the Athletics check. If you critically fail a check to Shove using the weapon, you can drop the weapon to take the effects of a failure instead of a critical failure.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Sweep</Name>
-            <Description>This weapon makes wide sweeping or spinning attacks, making it easier to attack multiple enemies. When you attack with this weapon, you gain a +1 circumstance bonus to your attack roll if you already attempted to attack a different target this turn using this weapon.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Thrown</Name>
-            <Description>You can throw this weapon as a ranged attack. A thrown weapon adds your Strength modifier to damage just like a melee weapon does. When this trait appears on a melee weapon, it also includes the range increment. Ranged weapons with this trait use the range increment specified in the weapon’s Range entry.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Trip</Name>
-            <Description>You can use this weapon to Trip with the Athletics skill even if you don’t have a free hand. This uses the weapon’s reach (if different from your own) and adds the weapon’s item bonus to attack rolls as an item bonus to the Athletics check. If you critically fail a check to Trip using the weapon, you can drop the weapon to take the effects of a failure instead of a critical failure.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Twin</Name>
-            <Description>These weapons are used as a pair, complementing each other. When you attack with a twin weapon, you add a circumstance bonus to the damage roll equal to the weapon’s number of damage dice if you have previously attacked with a different weapon of the same type this turn. The weapons must be of the same type to benefit from this trait, but they don’t need to have the same Runes.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Two-Hand</Name>
-            <Description>This weapon can be wielded with two hands. Doing so changes its weapon damage die to the indicated value. This change applies to all the weapon’s damage dice, such as those from Striking Runes.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Unarmed</Name>
-            <Description>An unarmed attack uses your body rather than a manufactured weapon. An unarmed attack isn’t a weapon, though it’s categorized with weapons for weapon groups, and it might have weapon traits. Since it’s part of your body, an unarmed attack can’t be Disarmed. It also doesn’t take up a hand, though a fist or other grasping appendage follows the same rules as a free-hand weapon.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Versatile</Name>
-            <Description>A versatile weapon can be used to deal a different type of damage than that listed in the Damage entry. This trait indicates the alternate damage type. For instance, a piercing weapon that is versatile S can be used to deal piercing or slashing damage. You choose the damage type each time you make an attack.</Description>
-        </WeaponTrait>
-        <WeaponTrait>
-            <Name>Volley</Name>
-            <Description>This ranged weapon is less effective at close distances. Your attacks against targets that are at a distance within the range listed take a –2 penalty.</Description>
-        </WeaponTrait>
-    </Traits>
-    <Melee>
-        <Simple>
-            <Weapon>
-                <Name>Club</Name>
-                <Price>0 sp</Price>
-                <Damage>1d6 B</Damage>
-                <Bulk>1</Bulk>
-                <Hands>1</Hands>
-                <Group>Club</Group>
-                <Traits>Thrown 10 ft.</Traits>
-            </Weapon>
-            <Weapon>
-                <Name>Dagger</Name>
-                <Price>2 sp</Price>
-                <Damage>1d4 P</Damage>
-                <Bulk>L</Bulk>
-                <Hands>1</Hands>
-                <Group>Knife</Group>
-                <Traits>Agile, finesse, thrown 10 ft., versatile S</Traits>
-            </Weapon>
-        </Simple>
-        <Martial></Martial>
-        <Exotic></Exotic>
-    </Melee>
-    <Ranged>
-        <Simple>
-            <Weapon>
-                <Name>Blowgun</Name>
-                <Price>1 sp</Price>
-                <Damage>1d1 P</Damage>
-                <Range>20 ft.</Range>
-                <Reload>1</Reload>
-                <Bulk>L</Bulk>
-                <Hands>1</Hands>
-                <Group>Dart</Group>
-                <Traits>Agile, nonlethal</Traits>
-            </Weapon>
-        </Simple>
-        <Martial></Martial>
-    </Ranged>
+	<Groups>
+		<WeaponGroup>
+			<Name>Axe</Name>
+			<CritEffect>Choose one creature adjacent to the initial target and within reach. If its AC is lower than your attack roll result for the critical hit, you deal damage to that creature equal to the result of the weapon damage die you rolled (including extra dice for its Potency Rune, if any). This amount isn’t doubled, and no bonuses or other additional dice apply to this damage.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Bomb</Name>
+			<CritEffect>Increase the radius of the bomb’s splash damage (if any) to 10 feet.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Bow</Name>
+			<CritEffect>If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can’t move from its space until it succeeds. The creature doesn’t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Brawling</Name>
+			<CritEffect>The target must succeed at a Fortitude save against your class DC or be slowed 1 until the end of your next turn.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Club</Name>
+			<CritEffect>You knock the target away from you up to 10 feet (you choose the distance). This is forced movement.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Dart</Name>
+			<CritEffect>The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon’s item bonus to attack rolls.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Flail</Name>
+			<CritEffect>The target is knocked prone.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Hammer</Name>
+			<CritEffect>The target is knocked prone.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Knife</Name>
+			<CritEffect>The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon’s item bonus to attack rolls.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Pick</Name>
+			<CritEffect>The weapon viciously pierces the target, who takes 2 additional damage per weapon damage die.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Polearm</Name>
+			<CritEffect>The target is moved 5 feet in a direction of your choice. This is forced movement.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Shield</Name>
+			<CritEffect>You knock the target back from you 5 feet. This is forced movement.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Sling</Name>
+			<CritEffect>The target must succeed at a Fortitude save against your class DC or be stunned 1.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Spear</Name>
+			<CritEffect>The weapon pierces the target, weakening its attacks. The target is clumsy 1 until the start of your next turn.</CritEffect>
+		</WeaponGroup>
+		<WeaponGroup>
+			<Name>Sword</Name>
+			<CritEffect>The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.</CritEffect>
+		</WeaponGroup>
+	</Groups>
+	<Traits>
+		<WeaponTrait>
+			<Name>Agile</Name>
+			<Description>The multiple attack penalty you take with this weapon on the second attack on your turn is –4 instead of –5, and –8 instead of –10 on the third and subsequent attacks in the turn.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Attached</Name>
+			<Description>An attached weapon must be combined with another piece of gear to be used. The trait lists what type of item the weapon must be attached to. You must be wielding or wearing the item the weapon is attached to in order to attack with it. For example, shield spikes are attached to a shield, allowing you to attack with the spikes instead of a shield bash, but only if you’re wielding the shield. An attached weapon is usually bolted onto or built into the item it’s attached to, and typically an item can have only one weapon attached to it. An attached weapon can be affixed to an item with 10 minutes of work and a successful DC 10 Crafting check; this includes the time needed to remove the weapon from a previous item, if necessary. If an item is destroyed, its attached weapon can usually be salvaged.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Backstabber</Name>
+			<Description>When you hit a flat-footed creature, this weapon deals 1 precision damage in addition to its normal damage. The precision damage increases to 2 if the weapon is a +3 weapon.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Backswing</Name>
+			<Description>You can use the momentum from a missed attack with this weapon to lead into your next attack. After missing with this weapon on your turn, you gain a +1 circumstance bonus to your next attack with this weapon before the end of your turn.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Deadly</Name>
+			<Description>On a critical hit, the weapon adds a weapon damage die of the listed size. Roll this after doubling the weapon’s damage. This increases to two dice if the weapon has a greater Striking Rune and three dice if the weapon has a major Striking Rune. For instance, a rapier with a greater Striking Rune deals 2d8 extra piercing damage on a critical hit. An ability that changes the size of the weapon’s normal damage dice doesn’t change the size of its deadly die.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Disarm</Name>
+			<Description>You can use this weapon to Disarm with the Athletics skill even if you don’t have a free hand. This uses the weapon’s reach (if different from your own) and adds the weapon’s item bonus to attack rolls (if any) as an item bonus to the Athletics check. If you critically fail a check to Disarm using the weapon, you can drop the weapon to take the effects of a failure instead of a critical failure. On a critical success, you still need a free hand if you want to take the item.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Dwarf</Name>
+			<Description>Dwarves craft and use these weapons.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Elf</Name>
+			<Description>Elves craft and use these weapons.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Fatal</Name>
+			<Description>The fatal trait includes a die size. On a critical hit, the weapon’s damage die increases to that die size instead of the normal die size, and the weapon adds one additional damage die of the listed size.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Finesse</Name>
+			<Description>You can use your Dexterity modifier instead of your Strength modifier on attack rolls using this melee weapon. You still use your Strength modifier when calculating damage.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Forceful</Name>
+			<Description>This weapon becomes more dangerous as you build momentum. When you attack with it more than once on your turn, the second attack gains a circumstance bonus to damage equal to the number of weapon damage dice, and each subsequent attack gains a circumstance bonus to damage equal to double the number of weapon damage dice.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Free-Hand</Name>
+			<Description>This weapon doesn’t take up your hand, usually because it is built into your armor. A free-hand weapon can’t be Disarmed. You can use the hand covered by your free-hand weapon to wield other items, perform manipulate actions, and so on. You can’t attack with a free-hand weapon if you’re wielding anything in that hand or otherwise using that hand. When you’re not wielding anything and not otherwise using the hand, you can use abilities that require you to have a hand free as well as those that require you to be wielding a weapon in that hand. Each of your hands can have only one free?hand weapon on it.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Gnome</Name>
+			<Description>Gnomes craft and use these weapons.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Goblin</Name>
+			<Description>Goblins craft and use these weapons.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Grapple</Name>
+			<Description>You can use this weapon to Grapple with the Athletics skill even if you don’t have a free hand. This uses the weapon’s reach (if different from your own) and adds the weapon’s item bonus to attack rolls as an item bonus to the Athletics check. If you critically fail a check to Grapple using the weapon, you can drop the weapon to take the effects of a failure instead of a critical failure.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Halfling</Name>
+			<Description>Halflings craft and use these weapons.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Jousting</Name>
+			<Description>The weapon is suited for mounted combat with a harness or similar means. When mounted, if you moved at least 10 feet on the action before your attack, add a circumstance bonus to damage for that attack equal to the number of damage dice for the weapon. In addition, while mounted, you can wield the weapon in one hand, changing the damage die to the listed value.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Monk</Name>
+			<Description>Many monks learn to use these weapons.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Nonlethal</Name>
+			<Description>Attacks with this weapon are nonlethal, and are used to knock creatures unconscious instead of kill them. You can use a nonlethal weapon to make a lethal attack with a –2 circumstance penalty.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Orc</Name>
+			<Description>Orcs craft and use these weapons.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Parry</Name>
+			<Description>This weapon can be used defensively to block attacks. While wielding this weapon, if your proficiency with it is trained or better, you can spend an Interact action to position your weapon defensively, gaining a +1 circumstance bonus to AC until the start of your next turn.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Propulsive</Name>
+			<Description>You add half your Strength modifier (if Positive) to damage rolls with a propulsive ranged weapon. If you have a negative Strength modifier, you add your full Strength modifier instead.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Reach</Name>
+			<Description>This weapon is long and can be used to attack creatures up to 10 feet away instead of only adjacent creatures. For creatures that already have reach with the limb or limbs that wield the weapon, the weapon increases their reach by 5 feet.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Shove</Name>
+			<Description>You can use this weapon to Shove with the Athletics skill even if you don’t have a free hand. This uses the weapon’s reach (if different from your own) and adds the weapon’s item bonus to attack rolls as an item bonus to the Athletics check. If you critically fail a check to Shove using the weapon, you can drop the weapon to take the effects of a failure instead of a critical failure.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Sweep</Name>
+			<Description>This weapon makes wide sweeping or spinning attacks, making it easier to attack multiple enemies. When you attack with this weapon, you gain a +1 circumstance bonus to your attack roll if you already attempted to attack a different target this turn using this weapon.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Thrown</Name>
+			<Description>You can throw this weapon as a ranged attack. A thrown weapon adds your Strength modifier to damage just like a melee weapon does. When this trait appears on a melee weapon, it also includes the range increment. Ranged weapons with this trait use the range increment specified in the weapon’s Range entry.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Trip</Name>
+			<Description>You can use this weapon to Trip with the Athletics skill even if you don’t have a free hand. This uses the weapon’s reach (if different from your own) and adds the weapon’s item bonus to attack rolls as an item bonus to the Athletics check. If you critically fail a check to Trip using the weapon, you can drop the weapon to take the effects of a failure instead of a critical failure.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Twin</Name>
+			<Description>These weapons are used as a pair, complementing each other. When you attack with a twin weapon, you add a circumstance bonus to the damage roll equal to the weapon’s number of damage dice if you have previously attacked with a different weapon of the same type this turn. The weapons must be of the same type to benefit from this trait, but they don’t need to have the same Runes.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Two-Hand</Name>
+			<Description>This weapon can be wielded with two hands. Doing so changes its weapon damage die to the indicated value. This change applies to all the weapon’s damage dice, such as those from Striking Runes.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Unarmed</Name>
+			<Description>An unarmed attack uses your body rather than a manufactured weapon. An unarmed attack isn’t a weapon, though it’s categorized with weapons for weapon groups, and it might have weapon traits. Since it’s part of your body, an unarmed attack can’t be Disarmed. It also doesn’t take up a hand, though a fist or other grasping appendage follows the same rules as a free-hand weapon.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Versatile</Name>
+			<Description>A versatile weapon can be used to deal a different type of damage than that listed in the Damage entry. This trait indicates the alternate damage type. For instance, a piercing weapon that is versatile S can be used to deal piercing or slashing damage. You choose the damage type each time you make an attack.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Volley</Name>
+			<Description>This ranged weapon is less effective at close distances. Your attacks against targets that are at a distance within the range listed take a –2 penalty.</Description>
+		</WeaponTrait>
+	</Traits>
+	<Melee>
+		<Simple>
+			<Weapon>
+				<Name>Club</Name>
+				<Price>0 sp</Price>
+				<Damage>1d6 B</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Club</Group>
+				<Traits>Thrown 10 ft.
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Dagger</Name>
+				<Price>2 sp</Price>
+				<Damage>1d4 P</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Knife</Group>
+				<Traits>Agile, finesse, thrown 10 ft., versatile S
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Gauntlet</Name>
+				<Price>2 sp</Price>
+				<Damage>1d4 B</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Brawling</Group>
+				<Traits>Agile, free-hand
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Light mace</Name>
+				<Price>4 sp</Price>
+				<Damage>1d4 B</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Club</Group>
+				<Traits>Agile, finesse, shove
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Longspear</Name>
+				<Price>5 sp</Price>
+				<Damage>1d8 P</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Spear</Group>
+				<Traits>Reach
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Mace</Name>
+				<Price>1 gp</Price>
+				<Damage>1d6 B</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Club</Group>
+				<Traits>Shove
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Morningstar</Name>
+				<Price>1 gp</Price>
+				<Damage>1d6 B</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Club</Group>
+				<Traits>Versatile P
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Sickle</Name>
+				<Price>2 sp</Price>
+				<Damage>1d4 S</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Knife</Group>
+				<Traits>Agile, finesse, trip
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Spear</Name>
+				<Price>1 sp</Price>
+				<Damage>1d6 P</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Spear</Group>
+				<Traits>Thrown 20 ft.
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Spiked gauntlet</Name>
+				<Price>3 sp</Price>
+				<Damage>1d4 P</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Brawling</Group>
+				<Traits>Agile, free-hand
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Staff</Name>
+				<Price>0 sp</Price>
+				<Damage>1d4 B</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Club</Group>
+				<Traits>Two-hand d8
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Clan dagger</Name>
+				<Price>2 gp</Price>
+				<Damage>1d4 P</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Knife</Group>
+				<Traits>Agile, dwarf, parry, versatile B
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Katar</Name>
+				<Price>3 sp</Price>
+				<Damage>1d4 P</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Knife</Group>
+				<Traits>Agile, deadly d6, monk</Traits>
+			</Weapon>
+		</Simple>
+		<Martial>
+			<Weapon>
+				<Name>Bastard sword</Name>
+				<Price>4 gp</Price>
+				<Damage>1d8 S</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Sword</Group>
+				<Traits>Two-hand d12
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Battle axe</Name>
+				<Price>1 gp</Price>
+				<Damage>1d8 S</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Axe</Group>
+				<Traits>Sweep
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Bo staff</Name>
+				<Price>2 sp</Price>
+				<Damage>1d8 B</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Club</Group>
+				<Traits>Monk, parry, reach, trip
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Falchion</Name>
+				<Price>3 gp</Price>
+				<Damage>1d10 S</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Sword</Group>
+				<Traits>Forceful, sweep
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Flail</Name>
+				<Price>8 sp</Price>
+				<Damage>1d6 B</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Flail</Group>
+				<Traits>Disarm, sweep, trip
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Glaive</Name>
+				<Price>1 gp</Price>
+				<Damage>1d8 S</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Polearm</Group>
+				<Traits>Deadly d8, forceful, reach
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Greataxe</Name>
+				<Price>2 gp</Price>
+				<Damage>1d12 S</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Axe</Group>
+				<Traits>Sweep
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Greatclub</Name>
+				<Price>1 gp</Price>
+				<Damage>1d10 B</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Club</Group>
+				<Traits>Backswing, shove
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Greatpick</Name>
+				<Price>1 gp</Price>
+				<Damage>1d10 P</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Pick</Group>
+				<Traits>Fatal d12
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Greatsword</Name>
+				<Price>2 gp</Price>
+				<Damage>1d12 S</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Sword</Group>
+				<Traits>Versatile P
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Guisarme</Name>
+				<Price>2 gp</Price>
+				<Damage>1d10 S</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Polearm</Group>
+				<Traits>Reach, trip
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Halberd</Name>
+				<Price>2 gp</Price>
+				<Damage>1d10 P</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Polearm</Group>
+				<Traits>Reach, versatile S
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Hatchet</Name>
+				<Price>4 sp</Price>
+				<Damage>1d6 S</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Axe</Group>
+				<Traits>Agile, sweep, thrown 10 ft.
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Lance</Name>
+				<Price>1 gp</Price>
+				<Damage>1d8 P</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Spear</Group>
+				<Traits>Deadly d8, jousting d6, reach
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Light hammer</Name>
+				<Price>3 sp</Price>
+				<Damage>1d6 B</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Hammer</Group>
+				<Traits>Agile, thrown 20 ft.
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Light pick</Name>
+				<Price>4 sp</Price>
+				<Damage>1d4 P</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Pick</Group>
+				<Traits>Agile, fatal d8
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Longsword</Name>
+				<Price>1 gp</Price>
+				<Damage>1d8 S</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Sword</Group>
+				<Traits>Versatile P
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Main-gauche</Name>
+				<Price>5 sp</Price>
+				<Damage>1d4 P</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Knife</Group>
+				<Traits>Agile, disarm, finesse, parry, versatile S
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Maul</Name>
+				<Price>3 gp</Price>
+				<Damage>1d12 B</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Hammer</Group>
+				<Traits>Shove
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Pick</Name>
+				<Price>7 sp</Price>
+				<Damage>1d6 P</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Pick</Group>
+				<Traits>Fatal d10
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Ranseur</Name>
+				<Price>2 gp</Price>
+				<Damage>1d10 P</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Polearm</Group>
+				<Traits>Disarm, reach
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Rapier</Name>
+				<Price>2 gp</Price>
+				<Damage>1d6 P</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Sword</Group>
+				<Traits>Deadly d8, disarm, finesse
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Sap</Name>
+				<Price>1 sp</Price>
+				<Damage>1d6 B</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Club</Group>
+				<Traits>Agile, nonlethal
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Scimitar</Name>
+				<Price>1 gp</Price>
+				<Damage>1d6 S</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Sword</Group>
+				<Traits>Forceful, sweep
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Scythe</Name>
+				<Price>2 gp</Price>
+				<Damage>1d10 S</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Polearm</Group>
+				<Traits>Deadly d10, trip
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Shield boss</Name>
+				<Price>5 sp</Price>
+				<Damage>1d6 B</Damage>
+				<Bulk>0</Bulk>
+				<Hands>1</Hands>
+				<Group>Shield</Group>
+				<Traits>Attached to shield
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Shield spikes</Name>
+				<Price>5 sp</Price>
+				<Damage>1d6 P</Damage>
+				<Bulk>0</Bulk>
+				<Hands>1</Hands>
+				<Group>Shield</Group>
+				<Traits>Attached to shield
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Shortsword</Name>
+				<Price>9 sp</Price>
+				<Damage>1d6 P</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Sword</Group>
+				<Traits>Agile, finesse, versatile S
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Starknife</Name>
+				<Price>2 gp</Price>
+				<Damage>1d4 P</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Knife</Group>
+				<Traits>Agile, deadly d6, finesse, thrown 20 ft., versatile S
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Trident</Name>
+				<Price>1 gp</Price>
+				<Damage>1d8 P</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Spear</Group>
+				<Traits>Thrown 20 ft.
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>War flail</Name>
+				<Price>2 gp</Price>
+				<Damage>1d10 B</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Flail</Group>
+				<Traits>Disarm, sweep, trip
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Warhammer</Name>
+				<Price>1 gp</Price>
+				<Damage>1d8 B</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Hammer</Group>
+				<Traits>Shove
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Whip</Name>
+				<Price>1 sp</Price>
+				<Damage>1d4 S</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Flail</Group>
+				<Traits>Disarm, finesse, nonlethal, reach, trip</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Dogslicer</Name>
+				<Price>1 sp</Price>
+				<Damage>1d6 S</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Sword</Group>
+				<Traits>Agile, backstabber, finesse, goblin
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Elven curve blade</Name>
+				<Price>4 gp</Price>
+				<Damage>1d8 S</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Sword</Group>
+				<Traits>Elf, finesse, forceful
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Filcher’s fork</Name>
+				<Price>1 gp</Price>
+				<Damage>1d4 P</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Spear</Group>
+				<Traits>Agile, backstabber, deadly d6, finesse, halfling, thrown 20 ft.
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Gnome hooked hammer</Name>
+				<Price>2 gp</Price>
+				<Damage>1d6 B</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Hammer</Group>
+				<Traits>Gnome, trip, two-hand d10, versatile P
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Horsechopper</Name>
+				<Price>9 sp</Price>
+				<Damage>1d8 S</Damage>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Polearm</Group>
+				<Traits>Goblin, reach, trip, versatile P
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Kama</Name>
+				<Price>1 gp</Price>
+				<Damage>1d6 S</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Knife</Group>
+				<Traits>Agile, monk, trip
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Katana</Name>
+				<Price>2 gp</Price>
+				<Damage>1d6 S</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Sword</Group>
+				<Traits>Deadly d8, two-hand d10, versatile P
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Kukri</Name>
+				<Price>6 sp</Price>
+				<Damage>1d6 S</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Knife</Group>
+				<Traits>Agile, finesse, trip
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Nunchaku</Name>
+				<Price>2 sp</Price>
+				<Damage>1d6 B</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Club</Group>
+				<Traits>Backswing, disarm, finesse, monk
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Orc knuckle dagger</Name>
+				<Price>7 sp</Price>
+				<Damage>1d6 P</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Knife</Group>
+				<Traits>Agile, disarm, orc
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Sai</Name>
+				<Price>6 sp</Price>
+				<Damage>1d4 P</Damage>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Knife</Group>
+				<Traits>Agile, disarm, finesse, monk, versatile B
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Spiked chain</Name>
+				<Price>3 gp</Price>
+				<Damage>1d8 S</Damage>
+				<Bulk>1</Bulk>
+				<Hands>2</Hands>
+				<Group>Flail</Group>
+				<Traits>Disarm, finesse, trip
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Temple sword</Name>
+				<Price>2 gp</Price>
+				<Damage>1d8 S</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Sword</Group>
+				<Traits>Monk, trip</Traits>
+			</Weapon>
+		</Martial>
+		<Advanced>
+			<Weapon Uncommon="true">
+				<Name>Dwarven waraxe</Name>
+				<Price>3 gp</Price>
+				<Damage>1d8 S</Damage>
+				<Bulk>2</Bulk>
+				<Hands>1</Hands>
+				<Group>Axe</Group>
+				<Traits>Dwarf, sweep, two-hand d12
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Gnome flickmace</Name>
+				<Price>3 gp</Price>
+				<Damage>1d8 B</Damage>
+				<Bulk>2</Bulk>
+				<Hands>1</Hands>
+				<Group>Flail</Group>
+				<Traits>Gnome, reach
+				</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Orc necksplitter</Name>
+				<Price>2 gp</Price>
+				<Damage>1d8 S</Damage>
+				<Bulk>1</Bulk>
+				<Hands>1</Hands>
+				<Group>Axe</Group>
+				<Traits>Forceful, orc, sweep
+				</Traits>
+			</Weapon>
+		</Advanced>
+	</Melee>
+	<Ranged>
+		<Simple>
+			<Weapon>
+				<Name>Blowgun</Name>
+				<Price>1 sp</Price>
+				<Damage>1d1 P</Damage>
+				<Range>20 ft.</Range>
+				<Reload>1</Reload>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Dart</Group>
+				<Traits>Agile, nonlethal
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Crossbow</Name>
+				<Price>3 gp</Price>
+				<Damage>1d8 P</Damage>
+				<Range>120 ft.</Range>
+				<Reload>1</Reload>
+				<Bulk>1</Bulk>
+				<Hands>2</Hands>
+				<Group>Bow</Group>
+			</Weapon>
+			<Weapon>
+				<Name>Dart</Name>
+				<Price>1 cp</Price>
+				<Damage>1d4 P</Damage>
+				<Range>20 ft.</Range>
+				<Reload>0</Reload>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Dart</Group>
+				<Traits>Agile, thrown
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Hand crossbow</Name>
+				<Price>3 gp</Price>
+				<Damage>1d6 P</Damage>
+				<Range>60 ft.</Range>
+				<Reload>1</Reload>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Bow</Group>
+			</Weapon>
+			<Weapon>
+				<Name>Heavy crossbow</Name>
+				<Price>4 gp</Price>
+				<Damage>1d10 P</Damage>
+				<Range>120 ft.</Range>
+				<Reload>2</Reload>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Bow</Group>
+			</Weapon>
+			<Weapon>
+				<Name>Javelin</Name>
+				<Price>1 sp</Price>
+				<Damage>1d6 P</Damage>
+				<Range>30 ft.</Range>
+				<Reload>0</Reload>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Dart</Group>
+				<Traits>Thrown
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Sling</Name>
+				<Price>0 sp</Price>
+				<Damage>1d6 B</Damage>
+				<Range>50 ft.</Range>
+				<Reload>1</Reload>
+				<Bulk>L</Bulk>
+				<Hands>1</Hands>
+				<Group>Sling</Group>
+				<Traits>Propulsive</Traits>
+			</Weapon>
+		</Simple>
+		<Martial>
+			<Weapon>
+				<Name>Composite longbow</Name>
+				<Price>20 gp</Price>
+				<Damage>1d8 P</Damage>
+				<Range>100 ft.</Range>
+				<Reload>0</Reload>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Bow</Group>
+				<Traits>Deadly d10, propulsive, volley 30 ft.
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Composite shortbow</Name>
+				<Price>14 gp</Price>
+				<Damage>1d6 P</Damage>
+				<Range>60 ft.</Range>
+				<Reload>0</Reload>
+				<Bulk>1</Bulk>
+				<Hands>2</Hands>
+				<Group>Bow</Group>
+				<Traits>Deadly d10, propulsive
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Longbow</Name>
+				<Price>6 gp</Price>
+				<Damage>1d8 P</Damage>
+				<Range>100 ft.</Range>
+				<Reload>0</Reload>
+				<Bulk>2</Bulk>
+				<Hands>2</Hands>
+				<Group>Bow</Group>
+				<Traits>Deadly d10, volley 30 ft.
+				</Traits>
+			</Weapon>
+			<Weapon>
+				<Name>Shortbow</Name>
+				<Price>3 gp</Price>
+				<Damage>1d6 P</Damage>
+				<Range>60 ft.</Range>
+				<Reload>0</Reload>
+				<Bulk>1</Bulk>
+				<Hands>2</Hands>
+				<Group>Bow</Group>
+				<Traits>Deadly d10</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Halfling sling staff</Name>
+				<Price>5 gp</Price>
+				<Damage>1d10 B</Damage>
+				<Range>80 ft.</Range>
+				<Reload>1</Reload>
+				<Bulk>1</Bulk>
+				<Hands>2</Hands>
+				<Group>Sling</Group>
+				<Traits>Halfling, propulsive</Traits>
+			</Weapon>
+			<Weapon Uncommon="true">
+				<Name>Shuriken</Name>
+				<Price>1 cp</Price>
+				<Damage>1d4 P</Damage>
+				<Range>20 ft.</Range>
+				<Reload>0</Reload>
+				<Bulk>0</Bulk>
+				<Hands>1</Hands>
+				<Group>Dart</Group>
+				<Traits>Agile, monk, thrown</Traits>
+			</Weapon>
+		</Martial>
+	</Ranged>
 </weapons>
