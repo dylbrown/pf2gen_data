@@ -18,9 +18,9 @@
 		<Description>Your avoidance or observation is beyond the ken of most in your profession. Choose Fortitude saves, Reflex saves, Will saves, or Perception. You become an expert in your choice. At 17th level, you become a master in your choice.</Description>
 		<CustomMod>
 			if(level >= 17){
-				choose("Attributes: Fortitude, Reflex, Will, Perception", "Canny Acumen Choice", proficiency, "Master");
+				choose("Attributes: Fortitude, Reflex, Will, Perception", "Canny Acumen Choice", proficiency, "Master", 1);
 			}else{
-				choose("Attributes: Fortitude, Reflex, Will, Perception", "Canny Acumen Choice", proficiency, "Expert");
+				choose("Attributes: Fortitude, Reflex, Will, Perception", "Canny Acumen Choice", proficiency, "Expert", 1);
 			}
 		</CustomMod>
 	</Ability>

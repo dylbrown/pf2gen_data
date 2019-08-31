@@ -12,13 +12,16 @@
 		<Requires>Trained In Arcana</Requires>
 		<Description>Your study of magic allows you to instinctively sense its presence. You can cast 1st-level detect magic at will as an arcane innate spell. If you’re a master in Arcana, the spell is heightened to 3rd level; if you’re legendary, it is heightened to 4th level.</Description>
 	</Ability>
-	<Ability name="Assurance" level="1">
-		<!--Add Weird Requirement-->
+	<Ability name="Assurance" level="1" multiple="true">
 		<Traits>Fortune</Traits>
 		<Description>Even in the worst circumstances, you can perform basic tasks.Choose a skill you’re trained in. You can forgo rolling a skill check for that skill to instead receive a result of 10 + your proficiency bonus (do not apply any other bonuses, penalties, or modifiers).Special You can select this feat multiple times. Each time, choose a different skill and gain the benefits for that skill.</Description>
+		<CustomMod>
+                choose("Skill (Trained)", "Assurance Choice", function(unused,useless){}, "", 1);
+		</CustomMod>
 	</Ability>
 	<Ability name="Automatic Knowledge" level="2">
 		<!--<Requires>Expert In A Skill With The Recall Knowledge Action, Assurance In That Skill</Requires>-->
+		<Prerequisites>Assurance</Prerequisites>
 		<Description>You know basic facts off the top of your head. Choose a skill you’re an expert in that has the Recall Knowledge action and for which you have the Assurance feat. You can use the Recall Knowledge action with that skill as a free action once per round.If you do, you must use Assurance on the skill check.Special You can select this feat multiple times, choosing a different skill each time. You can use Automatic Knowledge with any skills you have chosen, but you can still use Automatic Knowledge only once per round.</Description>
 	</Ability>
 	<Ability name="Bargain Hunter" level="1">
@@ -214,7 +217,7 @@
 		<Description>You can Craft magic items, though some have other requirements. When you select this feat, you gain formulas for four common magic items of 2nd level or lower.</Description>
 	</Ability>
 	<Ability name="Magical Shorthand" level="2">
-		<!--<Requires>Expert In Arcana, Nature, Occultism, Or Religion</Requires>-->
+		<!--<Requires>Expert In Arcana, Nature, Occultism, or Religion</Requires>-->
 		<Description>Learning spells comes easily to you. If you’re an expert in a tradition’s associated skill, you take 10 minutes per spell level to learn a spell of that tradition, rather than 1 hour per spell level. If you fail to learn the spell, you can try again after 1 week or after you gain a level, whichever comes first. If you’re a master in the tradition’s associated skill, learning a spell takes 5 minutes per spell level, and if you’re legendary, it takes 1 minute per spell level.You can use downtime to learn and inscribe new spells. This works as if you were using Earn Income with the tradition’s associated skill, but instead of gaining money, you choose a spell available to you to learn and gain a discount on learning it, learning it for free if your earned income equals or exceeds its cost.</Description>
 	</Ability>
 	<Ability name="Multilingual" level="1">
@@ -258,7 +261,7 @@
 		<Description>You can set up a disguise in half the usual time (generally 5 minutes). If you’re a master, it takes one-tenth the usual time (usually 1 minute). If you’re legendary, you can create a full disguise and Impersonate as a 3-action activity.</Description>
 	</Ability>
 	<Ability name="Quick Identification" level="1">
-		<!--<Requires>Trained In Arcana, Nature, Occultism Or Religion</Requires>-->
+		<!--<Requires>Trained In Arcana, Nature, Occultism or Religion</Requires>-->
 		<Description>You can Identify Magic swiftly. You take only 1 minute when using Identify Magic to determine the properties of an item, ongoing effect, or location, rather than 10 minutes. If you’re a master, it takes a 3-action activity, and if you’re legendary, it takes 1 action.</Description>
 	</Ability>
 	<Ability name="Quick Jump" level="1">
@@ -267,7 +270,7 @@
 	</Ability>
 	<Ability name="Quick Recognition" level="7">
 		<Prerequisites>Recognize Spell</Prerequisites>
-		<!--<Requires>Master In Arcana, Nature, Occultism, Or Religion</Requires>-->
+		<!--<Requires>Master In Arcana, Nature, Occultism, or Religion</Requires>-->
 		<Description>You Recognize Spells swiftly. Once per round, you can Recognize a Spell using a skill in which you’re a master as a free action.</Description>
 	</Ability>
 	<Ability name="Quick Repair" level="1">
@@ -300,7 +303,7 @@
 	</Ability>
 	<Ability name="Recognize Spell [reaction]" level="1">
 		<Traits>Secret</Traits>
-		<!--<Requires>Trained In Arcana, Nature, Occultism, Or Religion</Requires>-->
+		<!--<Requires>Trained In Arcana, Nature, Occultism, or Religion</Requires>-->
 		<Description>Trigger A creature within line of sight casts a spell that you don’t have prepared or in your spell repertoire, or a trap or similar object casts such a spell. You must be aware of the casting.If you are trained in the appropriate skill for the spell’s tradition and it’s a common spell of 2nd level or lower, you automatically identify it (you still roll to attempt to get a critical success, but can’t get a worse result than success). The highest level of spell you automatically identify increases to 4 if you’re an expert, 6 if you’re a master, and 10 if you’re legendary. The GM rolls a secret Arcana, Nature, Occultism, or Religion check, whichever corresponds to the tradition of the spell being cast. If you’re not trained in the skill, you can’t get a result better than failure.Critical Success You correctly recognize the spell and gain a +1 circumstance bonus to your saving throw or your AC against it.Success You correctly recognize the spell.Failure You fail to recognize the spell.Critical Failure You misidentify the spell as another spell entirely, of the GM’s choice.</Description>
 	</Ability>
 	<Ability name="Robust Recovery" level="2">
@@ -382,7 +385,7 @@
 	</Ability>
 	<Ability name="Trick Magic Item [one-action]" level="1">
 		<Traits>Manipulate</Traits>
-		<!--<Requires>Trained In Arcana, Nature, Occultism, Or Religion</Requires>-->
+		<!--<Requires>Trained In Arcana, Nature, Occultism, or Religion</Requires>-->
 		<Description>You examine a magic item you normally couldn’t use in an effort to fool it and activate it temporarily. For example, this might allow a fighter to cast a spell from a wand or allow a wizard to cast a spell that’s not on the arcane list using a scroll. You must know what activating the item does, or you can’t attempt to trick it.Attempt a check using the skill matching the item’s magic tradition, or matching a tradition that has the spell on its list, if you’re trying to cast a spell from the item. The relevant skills are Arcana for arcane, Nature for primal, Occultism for occult, Religion for divine, or any of the four for an item that has the magical trait and not a tradition trait. The GM determines the DC based on the item’s level (possibly adjusted depending on the item or situation).If you activate a magic item that requires a spell attack roll or spell DC and you don’t have the ability to cast spells of the relevant tradition, use your level as your proficiency bonus and the highest of your Intelligence, Wisdom, or Charisma modifiers.If you’re a master in the appropriate skill for the item’s tradition, you instead use the trained proficiency bonus, and if you’re legendary, you instead use the expert proficiency bonus.Success For the rest of the current turn, you can spend actions to activate the item as if you could normally use it.Failure You can’t use the item or try to trick it again this turn, but you can try again on subsequent turns.Critical Failure You can’t use the item, and you can’t try to trick it again until your next daily preparations.</Description>
 	</Ability>
 	<Ability name="Underwater Marauder" level="1">
@@ -399,7 +402,7 @@
 	</Ability>
 	<Ability name="Virtuosic Performer" level="1">
 		<Requires>Trained In Performance</Requires>
-		<Description>You have exceptional talent with one type of performance. You gain a +1 circumstance bonus when making a certain type of performance. If you are a master in Performance, this bonus increases to +2. Select one of the following specialties and apply the bonus when attempting Performance checks of that type. If it’s unclear whether the specialty applies, the GM decides.Specialty	ExamplesActing	Drama, pantomime, puppetryComedy	Buffoonery, joke telling, limericksDance	Ballet, huara, jig, macruKeyboards	Harpsichord, organ, pianoOratory	Epic, ode, poetry, storytelling Percussion Chimes, drum, gong, xylophoneSinging	Ballad, chant, melody, rhyming Strings Fiddle, harp, lute, violWinds	Bagpipe, flute, recorder, trumpet</Description>
+		<Description>You have exceptional talent with one type of performance. You gain a +1 circumstance bonus when making a certain type of performance. If you are a master in Performance, this bonus increases to +2. Select one of the following specialties and apply the bonus when attempting Performance checks of that type. If it’s unclear whether the specialty applies, the GM decides.Specialty	ExamplesActing	Drama, pantomime, puppetryComedy	Buffoonery, joke telling, limericksDance	Ballet, huara, jig, macruKeyboards	Harpsichord, organ, pianooratory	Epic, ode, poetry, storytelling Percussion Chimes, drum, gong, xylophoneSinging	Ballad, chant, melody, rhyming Strings Fiddle, harp, lute, violWinds	Bagpipe, flute, recorder, trumpet</Description>
 	</Ability>
 	<Ability name="Wall Jump" level="7">
 		<Requires>Master In Athletics</Requires>
