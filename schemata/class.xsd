@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:pf2="https://dylbrown.github.io"
+           targetNamespace="https://dylbrown.github.io">
+  <xs:include schemaLocation="ability.xsd"/>
+  <xs:element name="class">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Name" type="xs:string"/>
+        <xs:element name="HP" type="xs:nonNegativeInteger"/>
+        <xs:element name="AbilityChoices">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="((Str|Dex|Con|Int|Wis|Cha) or )*(Str|Dex|Con|Int|Wis|Cha)"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="SkillIncreases" type="xs:nonNegativeInteger"/>
+        <xs:element name="Description" type="xs:string"/>
+        <xs:element name="FeatureList" maxOccurs="20" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AbilitySlot" type="pf2:AbilitySlot" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="level" type="pf2:level">
+              <xs:annotation>
+                <xs:documentation>
+                  Level associated with this list
+                </xs:documentation>
+              </xs:annotation>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Feats">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:choice maxOccurs="unbounded">
+                <xs:element name="Ability" type="pf2:Ability"/>
+                <xs:element name="AbilitySet" type="pf2:AbilitySet"/>
+              </xs:choice>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

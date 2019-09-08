@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:pf2="https://dylbrown.github.io"
+           targetNamespace="https://dylbrown.github.io">
+  <xs:complexType name="Ability">
+    <xs:sequence>
+      <xs:element name="Traits" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            A comma-separated list of traits ie. Flourish, Oath, Mental, etc.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Prerequisites" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            A comma-separated list of prerequisite abilities such as Shield Block, Canny Acumen, etc.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Requires" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            A comma-separated list of requirements such as "Trained in Athletics", "Expert in Medicine", etc.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Trigger" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            The trigger for an action if it is a free action or reaction.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Frequency" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            How often the associated action can be used
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Requirements" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            A requirement to use the associated action such as "wielding a two-handed weapon"
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Description" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Ability description.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="AbilitySlot" type="pf2:AbilitySlot" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="CustomMod" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Allows for customized Javascript-based functionality.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="AttributeMods" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>
+            All attributes being increased to a particular proficiency.
+          </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:restriction base="pf2:attrmods">
+                  <xs:pattern value="[^\w]*((Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery|Fortitude|Reflex|Will|Perception|Simple Weapons|Martial Weapons|Advanced Weapons|Unarmed|Light Armor|Medium Armor|Heavy Armor|Unarmored|Shields|Spell Attacks|Spell D[cC]s|Class D[cC]|None), ?)*(Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery|Fortitude|Reflex|Will|Perception|Simple Weapons|Martial Weapons|Advanced Weapons|Unarmed|Light Armor|Medium Armor|Heavy Armor|Unarmored|Shields|Spell Attacks|Spell D[cC]s|Class D[cC]|None)[^\w]*"/>
+            </xs:restriction>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>
+          Ability Name
+        </xs:documentation>
+      </xs:annotation>
+      </xs:attribute>
+    <xs:attribute name="level" type="pf2:level">
+      <xs:annotation>
+        <xs:documentation>
+          (Optional) Required level for ability
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="cost">
+      <xs:annotation>
+        <xs:documentation>
+          (Optional) Cost to use ability in actions
+        </xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="One"/>
+          <xs:enumeration value="Two"/>
+          <xs:enumeration value="Three"/>
+          <xs:enumeration value="Free"/>
+          <xs:enumeration value="Reaction"/>
+          <xs:enumeration value="1"/>
+          <xs:enumeration value="2"/>
+          <xs:enumeration value="3"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="skillIncrease" type="xs:boolean">
+      <xs:annotation>
+        <xs:documentation>
+          If true, the ability grants a skill increase when gained
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="abilityBoosts" type="xs:positiveInteger">
+      <xs:annotation>
+        <xs:documentation>
+          Grants the given number of ability score increases.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="AbilitySlot">
+    <xs:sequence>
+      <xs:element name="Description" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Ability description.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Ability" type="pf2:Ability"/>
+        <xs:element name="AbilitySet" type="pf2:AbilitySet"/>
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="state" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          One of: filled, choice, feat
+        </xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="filled"/>
+          <xs:enumeration value="choice"/>
+          <xs:enumeration value="feat"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="type">
+      <xs:annotation>
+        <xs:documentation>
+          Type of feats that can go into this slot
+        </xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="(Heritage |Ancestry |Class |Skill |General )*Feat"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="name" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>
+          Slot name
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="contents" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>
+          Feat that the slot grants when gained (needs type as well to know where to search)
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:simpleType name="level">
+    <xs:restriction base="xs:positiveInteger">
+      <xs:maxInclusive value="20"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="AbilitySet">
+    <xs:sequence minOccurs="0">
+      <xs:element name="Description" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            Ability description.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Ability" type="pf2:Ability"/>
+        <xs:element name="AbilitySet" type="pf2:AbilitySet"/>
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>
+          Ability Name
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="attrmods">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="Proficiency">
+          <xs:annotation>
+            <xs:documentation>
+              Proficiency granted to the given attributes
+            </xs:documentation>
+          </xs:annotation>
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Trained"/>
+              <xs:enumeration value="Expert"/>
+              <xs:enumeration value="Master"/>
+              <xs:enumeration value="Legendary"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>

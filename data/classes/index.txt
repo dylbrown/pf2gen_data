@@ -1,3 +1,4 @@
+Barbarian
 Bard
 Champion
 Cleric

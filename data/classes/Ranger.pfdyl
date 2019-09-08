@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" ?>
-<class>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
 	<Name>Ranger</Name>
 	<HP>10</HP>
 	<AbilityChoices>Str or Dex</AbilityChoices>
@@ -351,8 +353,8 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		</Ability>
 		<Ability name="Snare Specialist" level="4">
 			<Traits>Ranger</Traits>
-			<Requires>Expert in Crafting</Requires>
-			<Prerequisites> Snare Crafting</Prerequisites>
+      <Prerequisites> Snare Crafting</Prerequisites>
+      <Requires>Expert in Crafting</Requires>
 			<Description>You specialize in creating quick traps to obstruct your enemies on the battlefield. If your proficiency rank in Crafting is expert, you gain the formulas for three common or uncommon snares. If your rank is master, you gain 6. If your rank is legendary, you gain 9.Each day during your daily preparations, you can prepare four snares from your formula book for quick deployment; if they normally take 1 minute to Craft, you can Craft them with 3 Interact actions. The number of snares increases to six if you have master proficiency in Crafting and eight if you have legendary proficiency in Crafting. Snares prepared in this way don’t cost you any resources to Craft.</Description>
 		</Ability>
 		<Ability name="Twin Parry" level="4" cost="One">
@@ -367,8 +369,8 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		</Ability>
 		<Ability name="Quick Snares" level="6">
 			<Traits>Ranger</Traits>
-			<Requires>expert in Crafting</Requires>
-			<Prerequisites> Snare Specialist</Prerequisites>
+      <Prerequisites> Snare Specialist</Prerequisites>
+      <Requires>expert in Crafting</Requires>
 			<Description>You can rig a snare in only moments. You can Craft snares that normally take 1 minute to Craft with 3 Interact actions, even if you haven’t prepared them.</Description>
 		</Ability>
 		<Ability name="Skirmish Strike" level="6" cost="One">
@@ -381,8 +383,8 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		</Ability>
 		<Ability name="Swift Tracker" level="6">
 			<Traits>Ranger</Traits>
-			<Requires>expert in Survival</Requires>
-			<Prerequisites> Experienced Tracker</Prerequisites>
+      <Prerequisites> Experienced Tracker</Prerequisites>
+      <Requires>expert in Survival</Requires>
 			<Description>Your keen eyes catch signs of passage even when you’re moving.You can move at your full Speed while you Track. If you have master proficiency in Survival, you don’t need to attempt a new Survival check every hour while Tracking. If you have legendary proficiency in Survival, you can use another exploration activity while Tracking.If you roll Survival for initiative while tracking your hunted prey, when you start your first turn of the encounter, you can Stride toward your hunted prey as a free action.</Description>
 		</Ability>
 		<Ability name="Blind-fight" level="8">
@@ -401,14 +403,14 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		</Ability>
 		<Ability name="Powerful Snares" level="8">
 			<Traits>Ranger</Traits>
-			<Requires>master in Crafting</Requires>
-			<Prerequisites> Snare Specialist</Prerequisites>
+      <Prerequisites> Snare Specialist</Prerequisites>
+      <Requires>master in Crafting</Requires>
 			<Description>Your snares are particularly difficult for enemies to avoid.When you set a snare, the saving throw DC for that snare is equal to its normal DC or your class DC, whichever is higher.</Description>
 		</Ability>
 		<Ability name="Terrain Master" level="8">
 			<Traits>Ranger</Traits>
-			<Requires> master in Survival</Requires>
-			<Prerequisites>wild stride,  Favored Terrain</Prerequisites>
+      <Prerequisites>wild stride,  Favored Terrain</Prerequisites>
+      <Requires> master in Survival</Requires>
 			<Description>You adapt to your surroundings in any natural terrain. You can spend 1 hour practicing in your current terrain in order to make it your favored terrain, replacing your current favored terrain temporarily. If you spend a full day out of the new favored terrain, your favored terrain reverts back to your original choice when you took the Favored Terrain feat.</Description>
 		</Ability>
 		<Ability name="Warden’s Boon" level="8" cost="One">
@@ -427,8 +429,8 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		</Ability>
 		<Ability name="Master Monster Hunter" level="10">
 			<Traits>Ranger</Traits>
-			<Requires>master in Nature</Requires>
 			<Prerequisites> Monster Hunter</Prerequisites>
+			<Requires>master in Nature</Requires>
 			<Description>You have a nearly encyclopedic knowledge of all creatures of the world. You can use Nature to Recall Knowledge to identify any creature. In addition, you gain the benefits of Monster Hunter (and Monster Warden, if you have it) on a success as well as a critical success.</Description>
 		</Ability>
 		<Ability name="Penetrating Shot" level="10" cost="Two">
@@ -457,8 +459,8 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		</Ability>
 		<Ability name="Lightning Snares" level="12">
 			<Traits>Ranger</Traits>
-			<Requires>master in Crafting</Requires>
-			<Prerequisites> Snare Specialist</Prerequisites>
+      <Prerequisites> Snare Specialist</Prerequisites>
+      <Requires>master in Crafting</Requires>
 			<Description>You can rig a trap with incredible speed. When you create a snare that normally takes 1 minute to Craft, you can Craft it using a single Interact action instead.</Description>
 		</Ability>
 		<Ability name="Second Sting" level="12" cost="One">
@@ -505,8 +507,8 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		</Ability>
 		<Ability name="Legendary Monster Hunter" level="16">
 			<Traits>Ranger</Traits>
-			<Requires>legendary in Nature</Requires>
-			<Prerequisites> Master Monster Hunter</Prerequisites>
+      <Prerequisites>Master Monster Hunter</Prerequisites>
+      <Requires>legendary in Nature</Requires>
 			<Description>Your knowledge of monsters is so incredible that it reveals glaring flaws in your prey. Your bonus from Monster Hunter (and the bonus from Monster Warden if you have it) increases from +1 to +2 for you and any allies who benefit.</Description>
 		</Ability>
 		<Ability name="Specialized Companion" level="16">
@@ -551,8 +553,8 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		</Ability>
 		<Ability name="Legendary Shot" level="20">
 			<Traits>Ranger</Traits>
-			<Requires> legendary in Perception</Requires>
-			<Prerequisites>masterful hunter,  Far Shot</Prerequisites>
+      <Prerequisites>masterful hunter,  Far Shot</Prerequisites>
+      <Requires> legendary in Perception</Requires>
 			<Description>You focus on your hunted prey, perceiving angles, air resistance, and every variable that would affect your ranged attack. If you have master proficiency with your ranged weapon, you can ignore the penalty for attacking up to five range increments away when attacking your hunted prey.</Description>
 		</Ability>
 		<Ability name="To The Ends Of The Earth" level="20">
@@ -571,4 +573,4 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 			<Description>You are so skilled at navigating the wild, your movement is completely unaffected by terrain. You ignore the effects of all difficult terrain, greater difficult terrain, and hazardous terrain, and you don’t trigger traps and hazards that are triggered by moving into an area (such as trip wires and pressure plates), unless you want to.</Description>
 		</Ability>
 	</Feats>
-</class>
+</pf2:class>

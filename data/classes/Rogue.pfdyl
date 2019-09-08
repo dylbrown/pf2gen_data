@@ -1,5 +1,7 @@
 <?xml version="1.0" ?>
-<class>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
 	<Name>Rogue</Name>
 	<HP>8</HP>
 	<AbilityChoices>Str or Dex or Cha</AbilityChoices>
@@ -306,7 +308,6 @@ When you use Debilitating Strike, you can apply two debilitations simultaneously
 				<Description>You can incapacitate an unwary foe with a single strike.
 
 Your proficiency rank for your rogue class DC increases to master. You gain the Master Strike free action.</Description>
-				<AttributeMods Proficiency="Master">Class DC</AttributeMods>
 				<AbilitySlot state="filled" name="Master Strike Action">
 					<Ability cost="Free">
 						<Traits>Incapacitation, Rogue</Traits>
@@ -322,6 +323,7 @@ Failure The target is paralyzed for 4 rounds.
 Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2 hours, or killed (your choice).</Description>
 					</Ability>
 				</AbilitySlot>
+        <AttributeMods Proficiency="Master">Class DC</AttributeMods>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
@@ -545,8 +547,8 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		</Ability>
 		<Ability name="Defensive Roll" level="14" cost="Free">
 			<Traits>Rogue</Traits>
+      <Trigger>A physical attack would reduce you to 0 Hit Points.</Trigger>
 			<Frequency>once per 10 minutes</Frequency>
-			<Trigger>A physical attack would reduce you to 0 Hit Points.</Trigger>
 			<Requirements>You are currently affected by a mental effect that you gained by failing, but not critically failing, a saving throw.</Requirements>
 			<Description>You can find a loophole in a mental effect to temporarily overcome it. Until the end of your next turn, you ignore a single mental effect that meets the requirement. You can suppress a particular effect using Cognitive Loophole only once.Special You can use this reaction even if the mental effect is preventing you from using reactions.</Description>
 		</Ability>
@@ -561,8 +563,8 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		</Ability>
 		<Ability name="Implausible Infiltration" level="18" cost="Two">
 			<Traits>Magical, Move, Rogue</Traits>
-			<Requires>Legendary In Acrobatics</Requires>
-			<Prerequisites> Quick Squeeze</Prerequisites>
+      <Prerequisites> Quick Squeeze</Prerequisites>
+      <Requires>Legendary In Acrobatics</Requires>
 			<Requirements>You are adjacent to a floor or vertical wall.</Requirements>
 			<Description>You find tiny holes or imperfections that no one else could see and try to somehow fit yourself through them, possibly moving directly through the wall or floor from one side to the other. Your movement attempt fails if the wall or floor is made of something other than wood, plaster, or stone; is thicker than 10 feet; or contains even a thin layer of metal. If you have a climb Speed, you can use this ability to attempt to move through a ceiling.</Description>
 		</Ability>
@@ -579,8 +581,8 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		<Ability name="Hidden Paragon" level="20" cost="Reaction">
 			<Traits>Rogue</Traits>
 			<Requires>Legendary In Stealth</Requires>
-			<Frequency>once per hour</Frequency>
-			<Trigger>You successfully use Stealth to Hide and become hidden from all of your current foes, or use Stealth to Sneak and become undetected to all your current foes.</Trigger>
+      <Trigger>You successfully use Stealth to Hide and become hidden from all of your current foes, or use Stealth to Sneak and become undetected to all your current foes.</Trigger>
+      <Frequency>once per hour</Frequency>
 			<Description>When you put your mind to slipping out of sight, you disappear completely. You become invisible for 1 minute, even if you use a hostile action. Not even glitterdust, see invisibility, or similar effects can reveal you, though creatures can still use the Seek action to locate you as normal.</Description>
 		</Ability>
 		<Ability name="Impossible Striker" level="20">
@@ -589,4 +591,4 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 			<Description>Your attacks are swift and deadly beyond explanation.Nothing can prevent you from making a sneak attack, even if your opponent can see every blow coming. Instead of dealing the damage from Sly Striker, you can deal your full sneak attack damage to a target even if the target isn’t flat-footed.</Description>
 		</Ability>
 	</Feats>
-</class>
+</pf2:class>

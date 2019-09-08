@@ -1,5 +1,7 @@
 <?xml version = "1.0"?>
-<class>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
 	<Name>Fighter</Name>
 	<HP>10</HP>
 	<AbilityChoices>Str or Dex</AbilityChoices>
@@ -570,4 +572,4 @@ You can select one weapon group and increase your proficiency ranks to legendary
 			<Description>With a sixth sense for the flow of combat, you can quickly react to any situation as required. At the start of each enemy’s turn, you gain a reaction you can use only during that turn.</Description>
 		</Ability>
 	</Feats>
-</class>
+</pf2:class>

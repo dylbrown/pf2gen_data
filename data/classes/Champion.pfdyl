@@ -1,5 +1,7 @@
 <?xml version = "1.0"?>
-<class>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
 	<Name>Champion</Name>
 	<HP>10</HP>
 	<AbilityChoices>Str or Dex</AbilityChoices>
@@ -138,9 +140,9 @@ The following are divine allies:</Description>
 				<Description>
                     Select a specific weapon group. Your proficiency rank for simple and martial weapons in that group increases to expert.
 				</Description>
-				<AttributeMod Proficiency="Expert" choice="WeaponGroup">
-                    Simple Weapons, Martial Weapons
-				</AttributeMod>
+        <CustomMod>
+          choose("WeaponGroup", "Weapon Expertise Choice", weaponGroupProficiency, "Expert", 1);
+        </CustomMod>
 			</Ability>
 		</AbilitySlot>
 	</FeatureList>
@@ -574,4 +576,4 @@ Liberator: You can help your whole group get into position. When you use Liberat
 			<Description>Your shield is a vessel of divine protection. When you’re wielding your chosen shield, it is always raised, even without you using the Raise a Shield action. Your chosen shield doubles its HP and BT, rather than increasing them by half. If it would be destroyed, it vanishes to your deity’s realm instead, where your divine ally repairs it. During your next daily preparations, the shield returns to you fully repaired.</Description>
 		</Ability>
 	</Feats>
-</class>
+</pf2:class>
