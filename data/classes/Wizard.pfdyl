@@ -1,5 +1,7 @@
 <?xml version = "1.0"?>
-<class>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
     <Name>Wizard</Name>
     <HP>6</HP>
     <AbilityChoices>Int</AbilityChoices>
@@ -19,4 +21,4 @@
         <AbilitySlot state="feat" type="Class Feat" name="Wizard Feat"/>
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
     </FeatureList>
-</class>
+</pf2:class>

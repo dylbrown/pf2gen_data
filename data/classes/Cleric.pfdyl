@@ -1,5 +1,7 @@
 <?xml version = "1.0"?>
-<class>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
     <Name>Cleric</Name>
     <HP>8</HP>
     <AbilityChoices>Wis</AbilityChoices>
@@ -201,4 +203,4 @@ As you explore your deity's aspects, you move beyond restrictions on healing or 
 can prepare either harm or heal in the spell slots gained from the harmful font or healing font.</Description>
         </Ability>
     </Feats>
-</class>
+</pf2:class>
