@@ -2,6 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:pf2="https://dylbrown.github.io"
            targetNamespace="https://dylbrown.github.io">
+  <xs:include schemaLocation="weapon.xsd"/>
   <xs:complexType name="Ability">
     <xs:sequence>
       <xs:element name="Traits" minOccurs="0" type="xs:string">
@@ -54,6 +55,7 @@
         </xs:annotation>
       </xs:element>
       <xs:element name="AbilitySlot" type="pf2:AbilitySlot" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="Weapon" type="pf2:Weapon" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="CustomMod" minOccurs="0" type="xs:string">
         <xs:annotation>
           <xs:documentation>
@@ -106,6 +108,19 @@
           <xs:enumeration value="1"/>
           <xs:enumeration value="2"/>
           <xs:enumeration value="3"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="type" type="pf2:level">
+      <xs:annotation>
+        <xs:documentation>
+          (Optional) Denotes an attack, or labels an activity with no associated cost.
+        </xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Attack"/>
+          <xs:enumeration value="Activity"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>

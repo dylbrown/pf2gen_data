@@ -1,3 +1,20 @@
+<#macro weaponBlock weapon>
+	<tr>
+		<td class="item-name" rowspan="2"><font class="font8"><b>${weapon.name}</b></font></td>
+		<td class="border"><font class="font6"><b class="tohit">${weapon.attack?string.@s}<br /></b></font></td> 
+		<td class="border"><font class="font6"><b class="damage">${weapon.damage}${weapon.damagemod?string.@s} ${weapon.damageType?string[0]}<br /></b></font></td>
+		<td class="border"><font class="font6"><b>${weapon.hands}</b></font></td>
+		<td class="border"><font class="font6"><b>${weapon.group}<br /></b></font></td>
+	</tr>
+	<tr>
+		<!--<td><font class="font4"><b>TRAITS</b></font></td>-->
+		<td colspan="4"><font class="border6"><b>
+		<#list weapon.traits as trait>
+			${trait}<#sep>, </#sep>
+		</#list>
+		</b></font></td>
+	</tr>
+</#macro>
 <!-- START Weapon Table -->
 <table cellpadding="0" cellspacing="0" border="0" width="100%" summary="Weapon Table" class="weapons-table weapons-info font5">
 		<tr>
@@ -7,23 +24,12 @@
 			<td><font class="font4"><b>HANDS</b></font></td>
 			<td><font class="font4"><b>GROUP</b></font></td><#-- width="15%" height="15"-->
 		</tr>
-<#list character.inventory as weapon>
-	<#if Weapon.isInstance(weapon.stats)>
-		<tr>
-			<td class="item-name" rowspan="2"><font class="font8"><b>${weapon.stats.name}</b></font></td>
-			<td class="border"><font class="font6"><b class="tohit">${weapon.attack?string.@s}<br /></b></font></td> 
-			<td class="border"><font class="font6"><b class="damage">${weapon.stats.damage}${weapon.damagemod?string.@s} ${weapon.stats.damageType?string[0]}<br /></b></font></td>
-			<td class="border"><font class="font6"><b>${weapon.stats.hands}</b></font></td>
-			<td class="border"><font class="font6"><b>${weapon.stats.group}<br /></b></font></td>
-		</tr>
-		<tr>
-			<!--<td><font class="font4"><b>TRAITS</b></font></td>-->
-			<td colspan="4"><font class="border6"><b>
-			<#list weapon.stats.traits as trait>
-				${trait}<#sep>, </#sep>
-			</#list>
-			</b></font></td>
-		</tr>
+<#list character.attacks as attack>
+		<@weaponBlock weapon=attack/>
+</#list>
+<#list character.inventory as item>
+	<#if Weapon.isInstance(item.stats)>
+		<@weaponBlock weapon=item/>
 	</#if>
 </#list>
 </table>

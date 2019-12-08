@@ -46,6 +46,98 @@
 
             These attacks are in the brawling group. Your Rage action gains the morph, primal, and transmutation traits.
           </Description>
+          <AbilitySlot state="choice" name="Animal Choice">
+            <Ability name="Ape" type="Attack">
+              <Weapon>
+                <Name>Fist</Name>
+                <Damage>1d10 P</Damage>
+                <Group>Brawling</Group>
+                <Traits>Grapple, unarmed</Traits>
+              </Weapon>
+            </Ability>
+            <Ability name="Bear" type="Attack">
+              <Weapon>
+                <Name>Jaws</Name>
+                <Damage>1d10 P</Damage>
+                <Group>Brawling</Group>
+                <Traits>Unarmed</Traits>
+              </Weapon>
+              <Weapon>
+                <Name>Claw</Name>
+                <Damage>1d6 S</Damage>
+                <Group>Brawling</Group>
+                <Traits>Agile, unarmed</Traits>
+              </Weapon>
+            </Ability>
+            <Ability name="Bull" type="Attack">
+              <Weapon>
+                <Name>Horn</Name>
+                <Damage>1d10 P</Damage>
+                <Group>Brawling</Group>
+                <Traits>Shove, unarmed</Traits>
+              </Weapon>
+            </Ability>
+            <Ability name="Cat" type="Attack">
+              <Weapon>
+                <Name>Jaws</Name>
+                <Damage>1d10 P</Damage>
+                <Group>Brawling</Group>
+                <Traits>Unarmed</Traits>
+              </Weapon>
+              <Weapon>
+                <Name>Claw</Name>
+                <Damage>1d6 S</Damage>
+                <Group>Brawling</Group>
+                <Traits>Agile, unarmed</Traits>
+              </Weapon>
+            </Ability>
+            <Ability name="Deer" type="Attack">
+              <Weapon>
+                <Name>Antler</Name>
+                <Damage>1d8 P</Damage>
+                <Group>Brawling</Group>
+                <Traits>Charge, unarmed</Traits>
+              </Weapon>
+            </Ability>
+            <Ability name="Frog" type="Attack">
+              <Weapon>
+                <Name>Jaws</Name>
+                <Damage>1d10 B</Damage>
+                <Group>Brawling</Group>
+                <Traits>Unarmed</Traits>
+              </Weapon>
+              <Weapon>
+                <Name>Tongue</Name>
+                <Damage>1d4 B</Damage>
+                <Group>Brawling</Group>
+                <Traits>Agile, unarmed</Traits>
+              </Weapon>
+            </Ability>
+            <Ability name="Shark" type="Attack">
+              <Weapon>
+                <Name>Jaws</Name>
+                <Damage>1d10 B</Damage>
+                <Group>Brawling</Group>
+                <Traits>Grapple, unarmed</Traits>
+              </Weapon>
+            </Ability>
+            <Ability name="Snake" type="Attack">
+              <Weapon>
+                <Name>Fangs</Name>
+                <Damage>1d10 B</Damage>
+                <Group>Brawling</Group>
+                <Traits>Grapple, unarmed</Traits>
+              </Weapon>
+            </Ability>
+            <Ability name="Wolf" type="Attack">
+              <Weapon>
+                <Name>Jaws</Name>
+                <Damage>1d10 B</Damage>
+                <Group>Brawling</Group>
+                <Traits>Trip, unarmed</Traits>
+              </Weapon>
+            </Ability>
+          </AbilitySlot>
         </Ability>
         <Ability name="Specialization Ability">
           <Prerequisites>Weapon Specialization</Prerequisites>
