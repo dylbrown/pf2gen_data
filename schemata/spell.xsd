@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:pf2="https://dylbrown.github.io"
+           targetNamespace="https://dylbrown.github.io">
+    <xs:include schemaLocation="weapon.xsd"/>
+    <xs:element name="spells">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Spell" type="pf2:Spell" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="Spell">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Level" type="xs:positiveInteger"/>
+            <xs:element name="Traits" type="xs:string"/>
+            <xs:element name="Traditions" type="xs:string">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="([dD]ivine|[oO]ccult|[pP]rimal|[aA]rcane)(, ?([dD]ivine|[oO]ccult|[pP]rimal|[aA]rcane)){0,3}"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Cast" type="xs:string" />
+            <xs:element name="Requirements" type="xs:string" minOccurs="0"/>
+            <xs:element name="Range" type="xs:string" minOccurs="0"/>
+            <xs:element name="Area" type="xs:string" minOccurs="0"/>
+            <xs:element name="Targets" type="xs:string" minOccurs="0"/>
+            <xs:element name="Duration" type="xs:string" minOccurs="0"/>
+            <xs:element name="Save" type="xs:string" minOccurs="0"/>
+            <xs:element name="Description" type="xs:string"/>
+            <xs:element name="Heightened" minOccurs="0" maxOccurs="10">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="level" type="xs:positiveInteger"/>
+                            <xs:attribute name="every" type="xs:positiveInteger"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

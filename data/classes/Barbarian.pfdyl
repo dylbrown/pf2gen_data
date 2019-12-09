@@ -159,6 +159,38 @@
         </Ability>
         <Ability name="Draconic Rage">
           <Description>While raging, you can increase the additional damage from Rage from 2 to 4 and change its damage type to match that of your dragon’s breath weapon instead of the damage type for your weapon or unarmed attack. If you do this, your Rage action gains the arcane and evocation traits, as well as the trait matching the damage type.</Description>
+          <AbilitySlot state="choice" name="Dragon Choice">
+            <Ability name="Black">
+              <Description>Chromatic Line of acid</Description>
+            </Ability>
+            <Ability name="Blue">
+              <Description>Chromatic Line of electricity</Description>
+            </Ability>
+            <Ability name="Green">
+              <Description>Chromatic Cone of poison</Description>
+            </Ability>
+            <Ability name="Red">
+              <Description>Chromatic Cone of fire</Description>
+            </Ability>
+            <Ability name="White">
+              <Description>Chromatic Cone of cold</Description>
+            </Ability>
+            <Ability name="Brass">
+              <Description>Metallic Line of fire</Description>
+            </Ability>
+            <Ability name="Bronze">
+              <Description>Metallic Line of electricity</Description>
+            </Ability>
+            <Ability name="Copper">
+              <Description>Metallic Line of acid</Description>
+            </Ability>
+            <Ability name="Gold">
+              <Description>Metallic Cone of fire</Description>
+            </Ability>
+            <Ability name="Silver">
+              <Description>Metallic Cone of cold</Description>
+            </Ability>
+          </AbilitySlot>
         </Ability>
         <Ability name="Specialization Ability">
           <Prerequisites>Weapon Specialization</Prerequisites>
