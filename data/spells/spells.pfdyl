@@ -39,7 +39,7 @@
     </Spell>
     <Spell>
         <Name>Acid Splash</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Acid, Attack, Cantrip, Evocation</Traits>
         <Traditions>arcane, primal</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -66,7 +66,7 @@
 
             You also gain specific abilities based on the form you choose:
 
-            Bat Speed 20 feet, fly Speed 30 feet; precise echolocation 40 feet; Melee fangs, Damage 2d8 piercing; Melee wing (agile), Damage 2d6 bludgeoning. Bird Speed 10 feet, fly Speed 50 feet; Melee beak, Damage 2d8 piercing; Melee talon (agile), Damage 1d10 slashing. Pterosaur Speed 10 feet, fly Speed 40 feet; imprecise scent 30 feet; Melee beak, Damage 3d6 piercing. Wasp Speed 20 feet, fly Speed 40 feet; Melee stinger, Damage 1d8 piercing plus 1d6 persistent poison.</Description>
+            Bat Speed 20 feet, fly Speed 30 feet; precise echolocation 40 feet; Melee [one-action] fangs, Damage 2d8 piercing; Melee [one-action] wing (agile), Damage 2d6 bludgeoning. Bird Speed 10 feet, fly Speed 50 feet; Melee [one-action] beak, Damage 2d8 piercing; Melee [one-action] talon (agile), Damage 1d10 slashing. Pterosaur Speed 10 feet, fly Speed 40 feet; imprecise scent 30 feet; Melee [one-action] beak, Damage 3d6 piercing. Wasp Speed 20 feet, fly Speed 40 feet; Melee [one-action] stinger, Damage 1d8 piercing plus 1d6 persistent poison.</Description>
         <Heightened level="5">Heightened (5th) Your battle form is Large and your fly Speed gains a +10-foot status bonus. You must have enough space to expand into or the spell is lost. You instead gain 10 temporary HP, attack modifier +18, damage bonus +8, and Acrobatics +20.</Heightened>
         <Heightened level="6">Heightened (6th) Your battle form is Huge, your fly Speed gains a +15-foot status bonus, and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain AC = 21 + your level, 15 temporary HP, attack modifier +21, damage bonus +4 and double damage dice (including persistent damage), and Acrobatics +23.</Heightened>
     </Spell>
@@ -148,7 +148,7 @@
 
             You also gain specific abilities based on the type of animal you choose:
 
-            Ape Speed 25 feet, climb Speed 20 feet; Melee fist, Damage 2d6 bludgeoning. Bear Speed 30 feet; Melee jaws, Damage 2d8 piercing; Melee claw (agile), Damage 1d8 slashing. Bull Speed 30 feet; Melee horn, Damage 2d8 piercing. Canine Speed 40 feet; Melee jaws, Damage 2d8 piercing. Cat Speed 40 feet; Melee jaws, Damage 2d6 piercing; Melee claw (agile), Damage 1d10 slashing. Deer Speed 50 feet; Melee antler, Damage 2d6 piercing. Frog Speed 25 feet, swim Speed 25 feet; Melee jaws, Damage 2d6 bludgeoning; Melee tongue (reach 15 feet), Damage 2d4 bludgeoning. Shark swim Speed 35 feet; Melee jaws, Damage 2d8 piercing; breathe underwater but not in air. Snake Speed 20 feet, climb Speed 20 feet, swim Speed 20 feet; Melee fangs, Damage 2d4 piercing plus 1d6 poison.</Description>
+            Ape Speed 25 feet, climb Speed 20 feet; Melee [one-action] fist, Damage 2d6 bludgeoning. Bear Speed 30 feet; Melee [one-action] jaws, Damage 2d8 piercing; Melee [one-action] claw (agile), Damage 1d8 slashing. Bull Speed 30 feet; Melee [one-action] horn, Damage 2d8 piercing. Canine Speed 40 feet; Melee [one-action] jaws, Damage 2d8 piercing. Cat Speed 40 feet; Melee [one-action] jaws, Damage 2d6 piercing; Melee [one-action] claw (agile), Damage 1d10 slashing. Deer Speed 50 feet; Melee [one-action] antler, Damage 2d6 piercing. Frog Speed 25 feet, swim Speed 25 feet; Melee [one-action] jaws, Damage 2d6 bludgeoning; Melee [one-action] tongue (reach 15 feet), Damage 2d4 bludgeoning. Shark swim Speed 35 feet; Melee [one-action] jaws, Damage 2d8 piercing; breathe underwater but not in air. Snake Speed 20 feet, climb Speed 20 feet, swim Speed 20 feet; Melee [one-action] fangs, Damage 2d4 piercing plus 1d6 poison.</Description>
         <Heightened level="3">Heightened (3rd) You instead gain 10 temporary HP, AC = 17 + your level, attack modifier +14, damage bonus +5, and Athletics +14.</Heightened>
         <Heightened level="4">Heightened (4th) Your battle form is Large and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, AC = 18 + your level, attack modifier +16, damage bonus +9, and Athletics +16.</Heightened>
         <Heightened level="5">Heightened (5th) Your battle form is Huge and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, AC = 18 + your level, attack modifier +18, damage bonus +7 and double the number of damage dice, and Athletics +20.</Heightened>
@@ -230,7 +230,7 @@
 
             You also gain the specific abilities listed for your deity below:
 
-            God of Cities, Law, Merchants, and Wealth Speed 50 feet, burrow Speed 30 feet, immune to immobilized; Ranged crossbow (range increment 120 feet, reload 1), Damage 6d10+3 piercing. Lord of Hell Speed 70 feet, air walk; Melee mace (reach 15 feet), Damage 6d10+6 bludgeoning; Ranged hellfire (range 120 feet), Damage 6d6+3 fire. Goddess of Lust and Revenge Speed 30 feet, fly Speed 70 feet; Melee whip (disarm, finesse, nonlethal, reach 20 feet), Damage 6d4+6 slashing; Ranged savored sting (range 60 feet), Damage 6d6+3 poison. The Drunken God Speed 70 feet, air walk, ignore difficult terrain and greater difficult terrain; Melee rapier (deadly, reach 15 feet), Damage 6d6+6 piercing; Ranged ale splash (range 120 feet), Damage 6d6+3 poison. Goddess of Fortune Speed 30 feet, fly Speed 70 feet; Melee starknife (agile, deadly, finesse, reach 15 feet, silver, thrown 60 feet), Damage 6d4+6 piercing; Ranged moonbeam (range 120 feet, silver), Damage 6d6+3 fire. The Hunter Speed 70 feet, air walk, ignore difficult terrain and greater difficult terrain; Ranged longbow (deadly d8, range increment 150 feet), Damage 6d8+3 piercing. Lord in Iron Speed 70 feet, immune to immobilized; Melee greatsword (versatile P, reach 15 feet), Damage 6d12+6 slashing. God of Wind and Waves no land Speed, fly Speed 70 feet, swim Speed 70 feet; ignore difficult terrain and greater difficult terrain; Melee waves (bull rush, reach 15 feet, thrown 20 feet), Damage 6d8+6 bludgeoning; Ranged wind (versatile electricity, range 120 feet), Damage 6d6+3 bludgeoning. Lady of Valor Speed 70 feet, air walk; shield (15 Hardness, can’t be damaged); Melee longsword (versatile P, reach 15 feet), Damage 6d8+6 slashing. The God of Enlightenment Speed 80 feet, air walk; Melee unfettered strike (agile, versatile P or S, finesse, reach 15 feet), Damage 6d8+6 bludgeoning; Ranged wind strike (range 60 feet), Damage 6d4+6 bludgeoning. Mother of Demons Speed 30 feet, fly Speed 70 feet; Melee falchion (forceful, reach 15 feet), Damage 6d10+6 slashing; Ranged waters of Mother of Demons (range 120 feet), Damage 6d6+3 poison. God of Magic and Knowledge Speed 70 feet, air walk; Ranged raw magic (range 120 feet; versatile cold, electricity, or fire), Damage 6d6 force. Reaper of Reputation Speed 70 feet, air walk, ignore difficult terrain and greater difficult terrain; Melee shortsword (agile, finesse, versatile S, reach 15 feet), Damage 6d6+6 piercing; Ranged blackfinger toss (range 120 feet), Damage 6d6+3 poison. The Lady of Graves Speed 70 feet, air walk; Melee dagger (agile, finesse, reach 15 feet, thrown 40 feet), Damage 6d6+6 slashing; Ranged spiral blast (range 120 feet, damages only undead), Damage 6d8+3 Positive. The Great Destroyer Speed 50 feet, burrow Speed 30 feet, immune to immobilized; Melee jaws (reach 15 feet), Damage 6d12+6 piercing; Melee leg (agile, versatile P, reach 15 feet), Damage 6d8+6 bludgeoning. The healing Flame Speed 30 feet, fly Speed 70 feet; Melee scimitar (forceful, nonlethal, reach 15 feet), Damage 6d6+6 slashing; Ranged everflame (nonlethal, range 120 feet), Damage 6d6+3 fire. Goddess of Art, Beauty, Love, and Music Speed 70 feet, air walk, ignore difficult terrain and greater difficult terrain; Melee glaive (deadly d8, nonlethal, reach 20 feet), Damage 6d8+6 slashing; Ranged melody of inner beauty, (nonlethal, range 120 feet), Damage 6d6+3 Sonic. Father of the Dwarves Speed 50 feet, burrow Speed 30 feet, immune to immobilized; shield (15 Hardness, can’t be damaged); Melee warhammer (bull rush, reach 15 feet), Damage 6d8+6 bludgeoning. Goddess of Physical Excess, Disease, and Undead Speed 70 feet, air walk; Melee scythe (deadly d10, trip, reach 15 feet), Damage 6d10+6 slashing; Ranged pallid plague (range 120 feet), Damage 6d6+3 negative. The Prince of Pain Speed 70 feet, air walk, ignore difficult terrain and greater difficult terrain; Melee spiked chain (disarm, trip, reach 15 feet), Damage 6d8+6 slashing; Ranged midnight pain (mental, nonlethal, range 120 feet), Damage 6d6+3 mental.</Description>
+            God of Cities, Law, Merchants, and Wealth Speed 50 feet, burrow Speed 30 feet, immune to immobilized; Ranged [one-action] crossbow (range increment 120 feet, reload 1), Damage 6d10+3 piercing. Lord of Hell Speed 70 feet, air walk; Melee [one-action] mace (reach 15 feet), Damage 6d10+6 bludgeoning; Ranged [one-action] hellfire (range 120 feet), Damage 6d6+3 fire. Goddess of Lust and Revenge Speed 30 feet, fly Speed 70 feet; Melee [one-action] whip (disarm, finesse, nonlethal, reach 20 feet), Damage 6d4+6 slashing; Ranged [one-action] savored sting (range 60 feet), Damage 6d6+3 poison. The Drunken God Speed 70 feet, air walk, ignore difficult terrain and greater difficult terrain; Melee [one-action] rapier (deadly, reach 15 feet), Damage 6d6+6 piercing; Ranged [one-action] ale splash (range 120 feet), Damage 6d6+3 poison. Goddess of Fortune Speed 30 feet, fly Speed 70 feet; Melee [one-action] starknife (agile, deadly, finesse, reach 15 feet, silver, thrown 60 feet), Damage 6d4+6 piercing; Ranged [one-action] moonbeam (range 120 feet, silver), Damage 6d6+3 fire. The Hunter Speed 70 feet, air walk, ignore difficult terrain and greater difficult terrain; Ranged [one-action] longbow (deadly d8, range increment 150 feet), Damage 6d8+3 piercing. Lord in Iron Speed 70 feet, immune to immobilized; Melee [one-action] greatsword (versatile P, reach 15 feet), Damage 6d12+6 slashing. God of Wind and Waves no land Speed, fly Speed 70 feet, swim Speed 70 feet; ignore difficult terrain and greater difficult terrain; Melee [one-action] waves (bull rush, reach 15 feet, thrown 20 feet), Damage 6d8+6 bludgeoning; Ranged [one-action] wind (versatile electricity, range 120 feet), Damage 6d6+3 bludgeoning. Lady of Valor Speed 70 feet, air walk; shield (15 Hardness, can’t be damaged); Melee [one-action] longsword (versatile P, reach 15 feet), Damage 6d8+6 slashing. The God of Enlightenment Speed 80 feet, air walk; Melee [one-action] unfettered strike (agile, versatile P or S, finesse, reach 15 feet), Damage 6d8+6 bludgeoning; Ranged [one-action] wind strike (range 60 feet), Damage 6d4+6 bludgeoning. Mother of Demons Speed 30 feet, fly Speed 70 feet; Melee [one-action] falchion (forceful, reach 15 feet), Damage 6d10+6 slashing; Ranged [one-action] waters of Mother of Demons (range 120 feet), Damage 6d6+3 poison. God of Magic and Knowledge Speed 70 feet, air walk; Ranged [one-action] raw magic (range 120 feet; versatile cold, electricity, or fire), Damage 6d6 force. Reaper of Reputation Speed 70 feet, air walk, ignore difficult terrain and greater difficult terrain; Melee [one-action] shortsword (agile, finesse, versatile S, reach 15 feet), Damage 6d6+6 piercing; Ranged [one-action] blackfinger toss (range 120 feet), Damage 6d6+3 poison. The Lady of Graves Speed 70 feet, air walk; Melee [one-action] dagger (agile, finesse, reach 15 feet, thrown 40 feet), Damage 6d6+6 slashing; Ranged [one-action] spiral blast (range 120 feet, damages only undead), Damage 6d8+3 Positive. The Great Destroyer Speed 50 feet, burrow Speed 30 feet, immune to immobilized; Melee [one-action] jaws (reach 15 feet), Damage 6d12+6 piercing; Melee [one-action] leg (agile, versatile P, reach 15 feet), Damage 6d8+6 bludgeoning. The healing Flame Speed 30 feet, fly Speed 70 feet; Melee [one-action] scimitar (forceful, nonlethal, reach 15 feet), Damage 6d6+6 slashing; Ranged [one-action] everflame (nonlethal, range 120 feet), Damage 6d6+3 fire. Goddess of Art, Beauty, Love, and Music Speed 70 feet, air walk, ignore difficult terrain and greater difficult terrain; Melee [one-action] glaive (deadly d8, nonlethal, reach 20 feet), Damage 6d8+6 slashing; Ranged [one-action] melody of inner beauty, (nonlethal, range 120 feet), Damage 6d6+3 Sonic. Father of the Dwarves Speed 50 feet, burrow Speed 30 feet, immune to immobilized; shield (15 Hardness, can’t be damaged); Melee [one-action] warhammer (bull rush, reach 15 feet), Damage 6d8+6 bludgeoning. Goddess of Physical Excess, Disease, and Undead Speed 70 feet, air walk; Melee [one-action] scythe (deadly d10, trip, reach 15 feet), Damage 6d10+6 slashing; Ranged [one-action] pallid plague (range 120 feet), Damage 6d6+3 negative. The Prince of Pain Speed 70 feet, air walk, ignore difficult terrain and greater difficult terrain; Melee [one-action] spiked chain (disarm, trip, reach 15 feet), Damage 6d8+6 slashing; Ranged [one-action] midnight pain (mental, nonlethal, range 120 feet), Damage 6d6+3 mental.</Description>
     </Spell>
     <Spell>
         <Name>Baleful Polymorph</Name>
@@ -498,7 +498,7 @@
     </Spell>
     <Spell>
         <Name>Chill Touch</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Attack, Cantrip, Necromancy, Negative</Traits>
         <Traditions>arcane, divine, occult</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -844,7 +844,7 @@
     </Spell>
     <Spell>
         <Name>Dancing Lights</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Cantrip, Evocation, Light</Traits>
         <Traditions>arcane, occult, primal</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -881,7 +881,7 @@
     </Spell>
     <Spell>
         <Name>Daze</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Cantrip, Enchantment, Mental, Nonlethal</Traits>
         <Traditions>arcane, divine, occult</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -962,7 +962,7 @@
     </Spell>
     <Spell>
         <Name>Detect Magic</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Cantrip, Detection, Divination</Traits>
         <Traditions>arcane, divine, occult, primal</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -1055,7 +1055,7 @@
 
             You also gain specific abilities based on the form you choose:
 
-            Ankylosaurus Speed 25 feet; Melee tail (backswing, reach 10 feet), Damage 2d6 bludgeoning; Melee foot, Damage 2d6 bludgeoning. Brontosaurus Speed 25 feet; Melee tail (reach 15 feet), Damage 2d6 bludgeoning; Melee foot, Damage 2d8 bludgeoning. Deinonychus Speed 40 feet; Melee talon (agile), Damage 2d4 piercing plus 1 persistent bleed; Melee jaws, Damage 1d10 piercing. Stegosaurus Speed 30 feet; Melee tail (reach 10 feet), Damage 2d8 piercing. Triceratops Speed 30 feet; Melee horn, Damage 2d8 piercing, plus 1d6 persistent bleed on a critical hit; Melee foot, Damage 2d6 bludgeoning. Tyrannosaurus Speed 30 feet; Melee jaws (deadly, reach 10 feet), Damage 1d12 piercing; Melee tail (reach 10 feet), Damage 1d10 bludgeoning.</Description>
+            Ankylosaurus Speed 25 feet; Melee [one-action] tail (backswing, reach 10 feet), Damage 2d6 bludgeoning; Melee [one-action] foot, Damage 2d6 bludgeoning. Brontosaurus Speed 25 feet; Melee [one-action] tail (reach 15 feet), Damage 2d6 bludgeoning; Melee [one-action] foot, Damage 2d8 bludgeoning. Deinonychus Speed 40 feet; Melee [one-action] talon (agile), Damage 2d4 piercing plus 1 persistent bleed; Melee [one-action] jaws, Damage 1d10 piercing. Stegosaurus Speed 30 feet; Melee [one-action] tail (reach 10 feet), Damage 2d8 piercing. Triceratops Speed 30 feet; Melee [one-action] horn, Damage 2d8 piercing, plus 1d6 persistent bleed on a critical hit; Melee [one-action] foot, Damage 2d6 bludgeoning. Tyrannosaurus Speed 30 feet; Melee [one-action] jaws (deadly, reach 10 feet), Damage 1d12 piercing; Melee [one-action] tail (reach 10 feet), Damage 1d10 bludgeoning.</Description>
         <Heightened level="5">Heightened (5th) Your battle form is Huge and your attacks have 15-foot reach, or 20-foot reach if they started with 15-foot reach. You instead gain 20 temporary HP, an attack modifier of +18, a damage bonus of +6, double the damage dice, and Athletics +21.</Heightened>
         <Heightened level="7">Heightened (7th) Your battle form is Gargantuan and your attacks have 20-foot reach, or 25-foot reach if they started with 15-foot reach. You instead gain AC = 21 + your level, 25 temporary HP, an attack modifier of +25, a damage bonus of +15, double the damage dice, and Athletics +25.</Heightened>
     </Spell>
@@ -1133,7 +1133,7 @@
     </Spell>
     <Spell>
         <Name>Disrupt Undead</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Necromancy, Positive</Traits>
         <Traditions>divine, primal</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -1211,7 +1211,7 @@
     </Spell>
     <Spell>
         <Name>Divine Lance</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Attack, Cantrip, Evocation</Traits>
         <Traditions>divine</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -1290,11 +1290,11 @@
 
             You gain the following statistics and abilities regardless of which battle form you choose:
 
-            AC = 18 + your level. Ignore your armor’s check penalty and Speed reduction. 10 temporary Hit Points. Speed 40 feet, fly Speed 100 feet. Resistance 10 against the damage type of your breath weapon (see below). Darkvision and imprecise scent 60 feet. One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You’re trained with them. Your attack modifier is +22, and your damage bonus is +6. These attacks are Strength based (for the purpose of the enfeebled condition, for example). If your unarmed attack modifier is higher, you can use it instead. See below for more on these attacks. Athletics modifier of +23, unless your own modifier is higher. Breath Weapon (arcane, evocation) The shape, damage, and damage type of your breath weapon depend on your specific dragon form (see below). A creature in the area attempts a basic save against your spell DC. This is a Reflex save unless stated otherwise in the special ability description for your specific dragon form. Once activated, your breath weapon can’t be used again for 1d4 rounds. Your breath weapon has the trait corresponding to the type of damage it deals.
+            AC = 18 + your level. Ignore your armor’s check penalty and Speed reduction. 10 temporary Hit Points. Speed 40 feet, fly Speed 100 feet. Resistance 10 against the damage type of your breath weapon (see below). Darkvision and imprecise scent 60 feet. One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You’re trained with them. Your attack modifier is +22, and your damage bonus is +6. These attacks are Strength based (for the purpose of the enfeebled condition, for example). If your unarmed attack modifier is higher, you can use it instead. See below for more on these attacks. Athletics modifier of +23, unless your own modifier is higher. Breath Weapon [two-actions] (arcane, evocation) The shape, damage, and damage type of your breath weapon depend on your specific dragon form (see below). A creature in the area attempts a basic save against your spell DC. This is a Reflex save unless stated otherwise in the special ability description for your specific dragon form. Once activated, your breath weapon can’t be used again for 1d4 rounds. Your breath weapon has the trait corresponding to the type of damage it deals.
 
             You also gain specific abilities based on the type of dragon you choose:
 
-            Black swim Speed 60 feet; Melee jaws, Damage 2d12 piercing plus 2d6 acid; Melee claw (agile), Damage 3d10 slashing; Melee tail (reach 10 feet), Damage 3d10 bludgeoning; Melee horns (reach 10 feet), Damage 3d8 piercing; breath weapon 60-foot line, 11d6 acid. Blue burrow Speed 20 feet; Melee jaws, Damage 2d10 piercing plus 1d12 electricity; Melee claw (agile), Damage 3d10 slashing; Melee tail (reach 10 feet), Damage 3d10 bludgeoning; Melee horns (reach 10 feet), Damage 3d8 piercing; breath weapon 80-foot line, 6d12 electricity. Green swim Speed 40 feet, ignores difficult terrain from non-magical foliage; Melee jaws, Damage 2d12 piercing plus 2d6 poison; Melee claw (agile), Damage 3d10 slashing; Melee tail (reach 10 feet), Damage 3d10 bludgeoning; Melee horns (reach 10 feet), Damage 3d8 piercing; breath weapon 30-foot cone, 10d6 poison (Fortitude save instead of Reflex). Red ignore concealed from smoke; Melee jaws, Damage 2d12 piercing plus 2d6 fire; Melee claw (agile), Damage 4d6 slashing; Melee tail (reach 10 feet), Damage 3d10 bludgeoning; Melee wing (reach 10 feet), Damage 3d8 bludgeoning; breath weapon 30-foot cone, 10d6 fire. White climb Speed 25 feet on ice only; Melee jaws, Damage 3d6 piercing plus 2d6 cold; Melee claw (agile), Damage 3d10 slashing; Melee tail (reach 10 feet), Damage 3d10 bludgeoning; breath weapon 30?foot cone, 10d6 cold. Brass burrow Speed 20 feet; Melee jaws, Damage 3d8 piercing plus 2d4 fire; Melee claw (agile), 3d10 slashing; Melee tail (reach 10 feet), Damage 3d10 bludgeoning; Melee spikes (reach 10 feet), Damage 3d8 piercing; breath weapon 60-foot line, 15d4 fire. Bronze swim Speed 40 feet; Melee jaws, Damage 2d10 piercing plus 1d12 electricity; Melee claw (agile), Damage 3d10 slashing; Melee tail (reach 10 feet), Damage 3d10 bludgeoning; Melee wing (reach 10 feet), Damage 3d8 slashing; breath weapon 80-foot line, 6d12 electricity. Copper climb Speed 25 feet on stone only; Melee jaws, Damage 2d12 piercing plus 2d6 acid; Melee claw (agile), Damage 3d10 slashing; Melee tail (reach 10 feet), Damage 3d10 bludgeoning; Melee wing (reach 10 feet), Damage 3d8 bludgeoning; breath weapon 60-foot line, 10d6 acid. Gold swim Speed 40 feet; Melee jaws, Damage 2d12 piercing plus 2d6 fire; Melee claw (agile), Damage 4d6 slashing; Melee tail (reach 10 feet), Damage 3d10 bludgeoning; Melee horns (reach 10 feet), Damage 3d8 piercing; breath weapon 30-foot cone, 6d10 fire. Silver walk on clouds; Melee jaws, Damage 2d12 piercing plus 2d6 cold; Melee claw (agile), Damage 3d10 slashing; Melee tail (reach 10), Damage 3d10 bludgeoning; breath weapon 30-foot cone, 8d8 cold.</Description>
+            Black swim Speed 60 feet; Melee [one-action] jaws, Damage 2d12 piercing plus 2d6 acid; Melee [one-action] claw (agile), Damage 3d10 slashing; Melee [one-action] tail (reach 10 feet), Damage 3d10 bludgeoning; Melee [one-action] horns (reach 10 feet), Damage 3d8 piercing; breath weapon 60-foot line, 11d6 acid. Blue burrow Speed 20 feet; Melee [one-action] jaws, Damage 2d10 piercing plus 1d12 electricity; Melee [one-action] claw (agile), Damage 3d10 slashing; Melee [one-action] tail (reach 10 feet), Damage 3d10 bludgeoning; Melee [one-action] horns (reach 10 feet), Damage 3d8 piercing; breath weapon 80-foot line, 6d12 electricity. Green swim Speed 40 feet, ignores difficult terrain from non-magical foliage; Melee [one-action] jaws, Damage 2d12 piercing plus 2d6 poison; Melee [one-action] claw (agile), Damage 3d10 slashing; Melee [one-action] tail (reach 10 feet), Damage 3d10 bludgeoning; Melee [one-action] horns (reach 10 feet), Damage 3d8 piercing; breath weapon 30-foot cone, 10d6 poison (Fortitude save instead of Reflex). Red ignore concealed from smoke; Melee [one-action] jaws, Damage 2d12 piercing plus 2d6 fire; Melee [one-action] claw (agile), Damage 4d6 slashing; Melee [one-action] tail (reach 10 feet), Damage 3d10 bludgeoning; Melee [one-action] wing (reach 10 feet), Damage 3d8 bludgeoning; breath weapon 30-foot cone, 10d6 fire. White climb Speed 25 feet on ice only; Melee [one-action] jaws, Damage 3d6 piercing plus 2d6 cold; Melee [one-action] claw (agile), Damage 3d10 slashing; Melee [one-action] tail (reach 10 feet), Damage 3d10 bludgeoning; breath weapon 30?foot cone, 10d6 cold. Brass burrow Speed 20 feet; Melee [one-action] jaws, Damage 3d8 piercing plus 2d4 fire; Melee [one-action] claw (agile), 3d10 slashing; Melee [one-action] tail (reach 10 feet), Damage 3d10 bludgeoning; Melee [one-action] spikes (reach 10 feet), Damage 3d8 piercing; breath weapon 60-foot line, 15d4 fire. Bronze swim Speed 40 feet; Melee [one-action] jaws, Damage 2d10 piercing plus 1d12 electricity; Melee [one-action] claw (agile), Damage 3d10 slashing; Melee [one-action] tail (reach 10 feet), Damage 3d10 bludgeoning; Melee [one-action] wing (reach 10 feet), Damage 3d8 slashing; breath weapon 80-foot line, 6d12 electricity. Copper climb Speed 25 feet on stone only; Melee [one-action] jaws, Damage 2d12 piercing plus 2d6 acid; Melee [one-action] claw (agile), Damage 3d10 slashing; Melee [one-action] tail (reach 10 feet), Damage 3d10 bludgeoning; Melee [one-action] wing (reach 10 feet), Damage 3d8 bludgeoning; breath weapon 60-foot line, 10d6 acid. Gold swim Speed 40 feet; Melee [one-action] jaws, Damage 2d12 piercing plus 2d6 fire; Melee [one-action] claw (agile), Damage 4d6 slashing; Melee [one-action] tail (reach 10 feet), Damage 3d10 bludgeoning; Melee [one-action] horns (reach 10 feet), Damage 3d8 piercing; breath weapon 30-foot cone, 6d10 fire. Silver walk on clouds; Melee [one-action] jaws, Damage 2d12 piercing plus 2d6 cold; Melee [one-action] claw (agile), Damage 3d10 slashing; Melee [one-action] tail (reach 10), Damage 3d10 bludgeoning; breath weapon 30-foot cone, 8d8 cold.</Description>
         <Heightened level="8">Heightened (8th) Your battle form is Huge, you gain a +20?foot status bonus to your fly Speed, and your attacks have 10-foot reach (or 15-foot reach if they previously had 10-foot reach). You instead gain AC = 21 + your level, 15 temporary HP, an attack modifier of +28, a damage bonus of +12, Athletics +28, and a +14 status bonus to breath weapon damage.</Heightened>
     </Spell>
     <Spell>
@@ -1435,7 +1435,7 @@
     </Spell>
     <Spell>
         <Name>Electric Arc</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Cantrip, Electricity, Evocation</Traits>
         <Traditions>arcane, primal</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -1462,7 +1462,7 @@
 
             You also gain specific abilities based on the type of elemental you choose:
 
-            Air fly Speed 80 feet, movement doesn’t trigger reactions; Melee gust, Damage 1d4 bludgeoning. Earth Speed 20 feet, burrow Speed 20 feet; Melee fist, Damage 2d10 bludgeoning. Fire Speed 50 feet; fire resistance 10, weakness 5 to cold and 5 to water; Melee tendril, Damage 1d8 fire plus 1d4 persistent fire. Water Speed 20 feet, swim Speed 60 feet; fire resistance 5; Melee wave, Damage 1d12 bludgeoning, and you can spend an action immediately after a hit to push the target 5 feet with the effects of a successful Shove.</Description>
+            Air fly Speed 80 feet, movement doesn’t trigger reactions; Melee [one-action] gust, Damage 1d4 bludgeoning. Earth Speed 20 feet, burrow Speed 20 feet; Melee [one-action] fist, Damage 2d10 bludgeoning. Fire Speed 50 feet; fire resistance 10, weakness 5 to cold and 5 to water; Melee [one-action] tendril, Damage 1d8 fire plus 1d4 persistent fire. Water Speed 20 feet, swim Speed 60 feet; fire resistance 5; Melee [one-action] wave, Damage 1d12 bludgeoning, and you can spend an action immediately after a hit to push the target 5 feet with the effects of a successful Shove.</Description>
         <Heightened level="6">Heightened (6th) Your battle form is Large and your attacks have 10-foot reach. You must have space to expand or the spell is lost. You instead gain AC = 22 + your level, 15 temporary HP, an attack modifier of +23, a damage bonus of +13, and Acrobatics or Athletics +23.</Heightened>
         <Heightened level="7">Heightened (7th) Your battle form is Huge and your attacks have 15-foot reach. You must have space to expand or the spell is lost. You instead gain AC = 22 + your level, 20 temporary HP, an attack modifier of +25, a damage bonus of +11, double the number of damage dice (including persistent damage), and Acrobatics or Athletics +25.</Heightened>
     </Spell>
@@ -1849,7 +1849,7 @@
     </Spell>
     <Spell>
         <Name>Forbidding Ward</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Abjuration, Cantrip</Traits>
         <Traditions>divine, occult</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -1870,7 +1870,7 @@
         <Duration>1 hour</Duration>
         <Description>You gain a sixth sense that warns you of danger that might befall the target of the spell. If you choose a creature other than yourself as the target, you create a psychic link through which you can inform the target of danger. This link is a mental effect. Due to the amount of information this spell requires you to process, you can’t have more than one foresight spell in effect at a time. Casting foresight again ends the previous foresight. While foresight is in effect, the target gains a +2 status bonus to initiative rolls and isn’t flat-footed against undetected creatures or when flanked. In addition, you gain the following reaction.
 
-            Foresight Trigger The target of foresight defends against a hostile creature or other danger. Effect If the hostile creature or danger forces the target to roll dice (a saving throw, for example), the target rolls twice and uses the higher result, and this spell gains the fortune trait. But if the hostile creature or danger is rolling against the target (an attack roll or skill check, for example), that hostile creature or danger rolls twice and uses the lower result, and this spell gains the misfortune trait.</Description>
+            Foresight [reaction] Trigger The target of foresight defends against a hostile creature or other danger. Effect If the hostile creature or danger forces the target to roll dice (a saving throw, for example), the target rolls twice and uses the higher result, and this spell gains the fortune trait. But if the hostile creature or danger is rolling against the target (an attack roll or skill check, for example), that hostile creature or danger rolls twice and uses the lower result, and this spell gains the misfortune trait.</Description>
     </Spell>
     <Spell>
         <Name>Freedom of Movement</Name>
@@ -1919,7 +1919,7 @@
     </Spell>
     <Spell>
         <Name>Ghost Sound</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Auditory, Cantrip, Illusion</Traits>
         <Traditions>arcane, occult</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -2075,7 +2075,7 @@
     </Spell>
     <Spell>
         <Name>Guidance</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Cantrip, Divination</Traits>
         <Traditions>divine, occult, primal</Traditions>
         <Cast>verbal</Cast>
@@ -2148,14 +2148,14 @@
         <Level>1</Level>
         <Traits>Necromancy, Negative</Traits>
         <Traditions>divine</Traditions>
-        <Cast>Material, Somatic, Verbal</Cast>
+        <Cast>Verbal, Somatic, Material</Cast>
         <Range>varies</Range>
         <Targets>1 living creature or 1 willing undead creature</Targets>
         <Description>You channel negative energy to harm the living or heal the undead. If the target is a living creature, you deal 1d8 negative damage to it, and it gets a basic Fortitude save.
 
             If the target is a willing undead creature, you restore that amount of Hit Points. The number of actions you spend when casting this spell determines its targets, range, area, and other parameters.
 
-            (somatic) The spell has a range of touch. (verbal, somatic) The spell has a range of 30 feet. If you’re healing an undead creature, increase the Hit Points restored by 8. (material, verbal, somatic) You disperse negative energy in a 30-foot emanation. This targets all living and undead creatures in the area.</Description>
+            [one-action] (somatic) The spell has a range of touch. [two-actions] (verbal, somatic) The spell has a range of 30 feet. If you’re healing an undead creature, increase the Hit Points restored by 8. [three-actions] (material, verbal, somatic) You disperse negative energy in a 30-foot emanation. This targets all living and undead creatures in the area.</Description>
         <Heightened every="1">Heightened (+1) The amount of healing or damage increases by 1d8, and the extra Healing for the 2-action version increases by 8.</Heightened>
     </Spell>
     <Spell>
@@ -2175,16 +2175,16 @@
         <Level>1</Level>
         <Traits>Healing, Necromancy, Positive</Traits>
         <Traditions>divine, primal</Traditions>
-        <Cast>Material, Somatic, Verbal</Cast>
+        <Cast>Verbal, Somatic, Material</Cast>
         <Range>varies</Range>
         <Targets>1 willing living creature or 1 undead creature</Targets>
         <Description>You channel Positive energy to heal the living or damage the undead. If the target is a willing living creature, you restore 1d8 Hit Points. If the target is undead, you deal that amount of Positive damage to it, and it gets a basic Fortitude save. The number of actions you spend when casting this spell determines its targets, range, area, and other parameters.
 
-            (somatic) The spell has a range of touch.
+            [one-action] (somatic) The spell has a range of touch.
 
-            (verbal, somatic) The spell has a range of 30 feet. If you’re Healing a living creature, increase the Hit Points restored by 8.
+            [two-actions] (verbal, somatic) The spell has a range of 30 feet. If you’re Healing a living creature, increase the Hit Points restored by 8.
 
-            (material, somatic, verbal) You disperse Positive energy in a 30-foot emanation. This targets all living and undead creatures in the burst.</Description>
+            [three-actions] (material, somatic, verbal) You disperse Positive energy in a 30-foot emanation. This targets all living and undead creatures in the burst.</Description>
         <Heightened every="1">Heightened (+1) The amount of healing or damage increases by 1d8, and the extra Healing for the 2-action version increases by 8.</Heightened>
     </Spell>
     <Spell>
@@ -2426,7 +2426,7 @@
 
             You also gain specific abilities based on the form you choose:
 
-            Ant Speed 30 feet, climb Speed 30 feet; Melee mandibles, Damage 2d6 bludgeoning. Beetle Speed 25 feet; Melee mandibles, Damage 2d10 bludgeoning. Centipede Speed 25 feet, climb Speed 25 feet; darkvision; Melee mandibles, Damage 1d8 piercing plus 1d4 persistent poison. Mantis Speed 40 feet; imprecise scent 30 feet; Melee foreleg, Damage 2d8 bludgeoning. Scorpion Speed 40 feet; darkvision, imprecise tremorsense 60 feet; Melee stinger, Damage 1d8 piercing plus 1d4 persistent poison; Melee pincer (agile), Damage 1d6 bludgeoning. Spider darkvision; Melee fangs, Damage 1d6 piercing plus 1d4 persistent poison; Melee Speed 25 feet, climb Speed 25 feet; Ranged web (range increment 20 feet), Damage entangles the target for 1 round.</Description>
+            Ant Speed 30 feet, climb Speed 30 feet; Melee [one-action] mandibles, Damage 2d6 bludgeoning. Beetle Speed 25 feet; Melee [one-action] mandibles, Damage 2d10 bludgeoning. Centipede Speed 25 feet, climb Speed 25 feet; darkvision; Melee [one-action] mandibles, Damage 1d8 piercing plus 1d4 persistent poison. Mantis Speed 40 feet; imprecise scent 30 feet; Melee [one-action] foreleg, Damage 2d8 bludgeoning. Scorpion Speed 40 feet; darkvision, imprecise tremorsense 60 feet; Melee [one-action] stinger, Damage 1d8 piercing plus 1d4 persistent poison; Melee [one-action] pincer (agile), Damage 1d6 bludgeoning. Spider darkvision; Melee [one-action] fangs, Damage 1d6 piercing plus 1d4 persistent poison; Melee [one-action] Speed 25 feet, climb Speed 25 feet; Ranged [one-action] web (range increment 20 feet), Damage entangles the target for 1 round.</Description>
         <Heightened level="4">Heightened (4th) Your battle form is Large, and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, attack modifier +16, damage bonus +6, and Athletics +16.</Heightened>
         <Heightened level="5">Heightened (5th) Your battle form is Huge, and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, attack modifier +18, damage bonus +2 and double damage dice (including persistent damage), and Athletics +20.</Heightened>
     </Spell>
@@ -2496,7 +2496,7 @@
     </Spell>
     <Spell>
         <Name>Know Direction</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Cantrip, Detection, Divination</Traits>
         <Traditions>divine, occult, primal</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -2518,7 +2518,7 @@
     </Spell>
     <Spell>
         <Name>Light</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Cantrip, Evocation, Light</Traits>
         <Traditions>arcane, divine, occult, primal</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -2592,7 +2592,7 @@
     </Spell>
     <Spell>
         <Name>Mage Hand</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Cantrip, Evocation</Traits>
         <Traditions>arcane, occult</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -2786,7 +2786,7 @@
     </Spell>
     <Spell>
         <Name>Message</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Auditory, Cantrip, Illusion, Linguistic, Mental</Traits>
         <Traditions>arcane, divine, occult</Traditions>
         <Cast>verbal</Cast>
@@ -2972,7 +2972,7 @@
 
             You also gain specific abilities based on the type of monster you choose:
 
-            Phoenix Speed 30 feet, fly Speed 90 feet; Melee beak (reach 15 feet), Damage 2d6+12 piercing plus 2d4 fire and 2d4 persistent fire; Melee talon (agile, reach 15 feet), Damage 2d8+12 slashing; Shroud of Flame (aura, evocation, fire, primal) 20 feet. You gain an aura of fire that extends out from you. A creature that enters or ends its turn within the aura takes 2d6 fire damage. A creature can take this damage only once per turn. You can use a single action, which has the concentrate trait, to activate or deactivate this aura. Purple Worm Speed 40 feet, burrow Speed 30 feet, swim Speed 20 feet; Melee jaws (reach 10 feet), Damage 2d12+20 piercing; Melee stinger (agile, reach 10 feet), Damage 2d8+15 piercing plus 2d6 persistent poison; Melee body (reach 10 feet) Damage 2d8+20 bludgeoning; Inexorable You automatically recover from the paralyzed, slowed, and stunned conditions at the end of each of your turns. You’re also immune to being immobilized and ignore difficult terrain and greater difficult terrain. Sea Serpent Speed 20 feet, swim Speed 90 feet; Melee jaws (reach 15 feet), Damage 2d12+20 piercing; Melee tail (reach 25 feet), Damage 2d8+20 bludgeoning; Spine Rake (move) You extend your spines and Swim or Stride. Each creature you’re adjacent to at any point during your movement takes 4d8+10 slashing damage (basic Reflex against your spell DC).</Description>
+            Phoenix Speed 30 feet, fly Speed 90 feet; Melee [one-action] beak (reach 15 feet), Damage 2d6+12 piercing plus 2d4 fire and 2d4 persistent fire; Melee [one-action] talon (agile, reach 15 feet), Damage 2d8+12 slashing; Shroud of Flame (aura, evocation, fire, primal) 20 feet. You gain an aura of fire that extends out from you. A creature that enters or ends its turn within the aura takes 2d6 fire damage. A creature can take this damage only once per turn. You can use a single action, which has the concentrate trait, to activate or deactivate this aura. Purple Worm Speed 40 feet, burrow Speed 30 feet, swim Speed 20 feet; Melee [one-action] jaws (reach 10 feet), Damage 2d12+20 piercing; Melee [one-action] stinger (agile, reach 10 feet), Damage 2d8+15 piercing plus 2d6 persistent poison; Melee [one-action] body (reach 10 feet) Damage 2d8+20 bludgeoning; Inexorable You automatically recover from the paralyzed, slowed, and stunned conditions at the end of each of your turns. You’re also immune to being immobilized and ignore difficult terrain and greater difficult terrain. Sea Serpent Speed 20 feet, swim Speed 90 feet; Melee [one-action] jaws (reach 15 feet), Damage 2d12+20 piercing; Melee [one-action] tail (reach 25 feet), Damage 2d8+20 bludgeoning; Spine Rake [two-actions] (move) You extend your spines and Swim or Stride. Each creature you’re adjacent to at any point during your movement takes 4d8+10 slashing damage (basic Reflex against your spell DC).</Description>
         <Heightened level="9">Heightened (9th) You instead gain AC = 22 + your level, 25 temporary HP, attack modifier +31, increase damage by one damage die, and Athletics +33.</Heightened>
     </Spell>
     <Spell>
@@ -3007,7 +3007,7 @@
 
             You also gain specific abilities based on the type of incarnation you choose:
 
-            Green Man Speed 40 feet, climb Speed 40 feet; Melee vines (reach 30 feet, versatile P), Damage 6d8+12 bludgeoning; Ranged thorns (range 100 feet), Damage 6d6+6 piercing; Green Caress (aura, primal, transmutation) 60 feet. Enemies other than plants must succeed at a Fortitude save against your spell DC or become clumsy 1 for 1 round (clumsy 2 on a critical failure). Kaiju Speed 50 feet; resistance 5 to physical damage; Melee jaws (reach 30 feet), Damage 6d10+10 piercing; Melee claws (agile, reach 30 feet), Damage 6d8+8 slashing; Melee foot (agile, reach 15 feet), Damage 6d6+10 bludgeoning; Unstoppable You are immune to being immobilized and ignore difficult terrain and greater difficult terrain; Trample You move up to double your Speed and move through the spaces of Huge or smaller creatures, trampling each creature whose space you enter. A trampled creature takes foot damage with a basic Reflex save against your spell DC.</Description>
+            Green Man Speed 40 feet, climb Speed 40 feet; Melee [one-action] vines (reach 30 feet, versatile P), Damage 6d8+12 bludgeoning; Ranged [one-action] thorns (range 100 feet), Damage 6d6+6 piercing; Green Caress (aura, primal, transmutation) 60 feet. Enemies other than plants must succeed at a Fortitude save against your spell DC or become clumsy 1 for 1 round (clumsy 2 on a critical failure). Kaiju Speed 50 feet; resistance 5 to physical damage; Melee [one-action] jaws (reach 30 feet), Damage 6d10+10 piercing; Melee [one-action] claws (agile, reach 30 feet), Damage 6d8+8 slashing; Melee [one-action] foot (agile, reach 15 feet), Damage 6d6+10 bludgeoning; Unstoppable You are immune to being immobilized and ignore difficult terrain and greater difficult terrain; Trample [three-actions] You move up to double your Speed and move through the spaces of Huge or smaller creatures, trampling each creature whose space you enter. A trampled creature takes foot damage with a basic Reflex save against your spell DC.</Description>
     </Spell>
     <Spell>
         <Name>Nature’s Enmity</Name>
@@ -3306,7 +3306,7 @@
 
             You also gain specific abilities based on the type of plant you choose:
 
-            Arboreal Speed 30 feet; Melee branch (reach 15 feet), Damage 2d10 bludgeoning; Melee foot, Damage 2d8 bludgeoning; you can speak in this form, but you still can’t Cast a Spell or supply verbal components. Flytrap Speed 15 feet; resistance 10 to acid; Melee leaf (reach 10 feet), Damage 2d8 piercing, and you can spend an action after a hit to Grab the target. Shambler Speed 20 feet, swim Speed 20 feet; resistance 10 to electricity; Melee vine (reach 15 feet), Damage 2d8 slashing.</Description>
+            Arboreal Speed 30 feet; Melee [one-action] branch (reach 15 feet), Damage 2d10 bludgeoning; Melee [one-action] foot, Damage 2d8 bludgeoning; you can speak in this form, but you still can’t Cast a Spell or supply verbal components. Flytrap Speed 15 feet; resistance 10 to acid; Melee [one-action] leaf (reach 10 feet), Damage 2d8 piercing, and you can spend an action after a hit to Grab the target. Shambler Speed 20 feet, swim Speed 20 feet; resistance 10 to electricity; Melee [one-action] vine (reach 15 feet), Damage 2d8 slashing.</Description>
         <Heightened level="6">Heightened (6th) Your battle form is Huge, and the reach of your attacks increases by 5 feet. You instead gain AC = 22 + your level, 24 temporary HP, attack modifier +21, damage bonus +16, and Athletics +22.</Heightened>
     </Spell>
     <Spell>
@@ -3399,7 +3399,7 @@
     </Spell>
     <Spell>
         <Name>Prestidigitation</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Cantrip, Evocation</Traits>
         <Traditions>arcane, divine, occult, primal</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -3429,9 +3429,9 @@
 
             The following unarmed melee attacks, which are the only attacks the target can use. They’re trained with them. When attacking with these attacks, the target uses their attack modifier with the proficiency and item bonuses of their most favorable weapon or unarmed Strike, and the damage is listed for each attack. These attacks are Strength based (for the purpose of the enfeebled condition, for example). If the target’s unarmed attack modifier is higher, they can use it instead.
 
-            Melee tusk (reach 15 feet), Damage 4d8+19 piercing; Melee trunk (agile, reach 15 feet), Damage 4d6+16 bludgeoning; Melee foot (agile, reach 15 feet), Damage 4d6+13 bludgeoning.
+            Melee [one-action] tusk (reach 15 feet), Damage 4d8+19 piercing; Melee [one-action] trunk (agile, reach 15 feet), Damage 4d6+16 bludgeoning; Melee [one-action] foot (agile, reach 15 feet), Damage 4d6+13 bludgeoning.
 
-            Athletics modifier of +30, unless the target’s own modifier is higher. Trample You move up to twice your Speed and move through the space of Large or smaller creatures, trampling each creature whose space you enter. A trampled creature takes damage from its foot Strike based on a basic Reflex save (DC = 19 + the target’s level).</Description>
+            Athletics modifier of +30, unless the target’s own modifier is higher. Trample [three-actions] You move up to twice your Speed and move through the space of Large or smaller creatures, trampling each creature whose space you enter. A trampled creature takes damage from its foot Strike based on a basic Reflex save (DC = 19 + the target’s level).</Description>
     </Spell>
     <Spell>
         <Name>Primal Phenomenon</Name>
@@ -3503,7 +3503,7 @@
     </Spell>
     <Spell>
         <Name>Produce Flame</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Attack, Cantrip, Evocation, Fire</Traits>
         <Traditions>arcane, primal</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -3633,7 +3633,7 @@
     </Spell>
     <Spell>
         <Name>Ray of Frost</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Attack, Cantrip, Cold, Evocation</Traits>
         <Traditions>arcane, primal</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -3648,7 +3648,7 @@
     </Spell>
     <Spell>
         <Name>Read Aura</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Cantrip, Detection, Divination</Traits>
         <Traditions>arcane, divine, occult, primal</Traditions>
         <Cast>1 minute (somatic, verbal)</Cast>
@@ -4092,7 +4092,7 @@
     </Spell>
     <Spell>
         <Name>Shield</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Abjuration, Cantrip, Force</Traits>
         <Traditions>arcane, divine, occult</Traditions>
         <Cast>verbal</Cast>
@@ -4111,7 +4111,7 @@
 
             The shield spell works like a raised shield, and it also gives you the ability to use the Shield Block reaction.
 
-            Shield Block 
+            Shield Block [reaction]
 
             Trigger While you have your shield raised, you take damage from a physical attack.
 
@@ -4175,7 +4175,7 @@
     </Spell>
     <Spell>
         <Name>Sigil</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Cantrip, Transmutation</Traits>
         <Traditions>arcane, divine, occult, primal</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -4468,7 +4468,7 @@
     </Spell>
     <Spell>
         <Name>Stabilize</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Cantrip, Healing, Necromancy, Positive</Traits>
         <Traditions>divine, primal</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -4804,7 +4804,7 @@
     </Spell>
     <Spell>
         <Name>Tanglefoot</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Cantrip, Conjuration, Plant</Traits>
         <Traditions>arcane, primal</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -4854,7 +4854,7 @@
     </Spell>
     <Spell>
         <Name>Telekinetic Projectile</Name>
-        <Level>1</Level>
+        <Level>0</Level>
         <Traits>Attack, Cantrip, Evocation</Traits>
         <Traditions>arcane, occult</Traditions>
         <Cast>somatic, verbal</Cast>
@@ -5570,5 +5570,4 @@
 
             Critical Failure The target can’t speak any deliberate and intentional lies and takes a -4 status penalty to Deception checks.</Description>
     </Spell>
-
 </pf2:spells>

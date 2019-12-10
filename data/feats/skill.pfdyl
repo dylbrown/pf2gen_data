@@ -1,5 +1,7 @@
 <?xml version = "1.0"?>
-<feats>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
 	<Ability name="Additional Lore" level="1">
 		<Requires>Trained In Lore</Requires>
 		<Description>Your knowledge has expanded to encompass a new field. Choose an additional Lore skill subcategory. You become trained in it. At 3rd, 7th, and 15th levels, you gain an additional skill increase you can apply only to the chosen Lore subcategory.Special You can select this feat more than once. Each time you must select a new subcategory of Lore and you gain the additional skill increases to that subcategory for the listed levels.</Description>
@@ -417,4 +419,4 @@
 		<Requires>Expert In Thievery</Requires>
 		<Description>If you trigger a device or set off a trap while disarming it, you gain a +2 circumstance bonus to your AC or saving throw against the device or trap. This applies only to attacks or effects triggered by your failed attempt, not to any later ones, such as additional attacks from a complex trap.</Description>
 	</Ability>
-</feats>
+</pf2:feats>

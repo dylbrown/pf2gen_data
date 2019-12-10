@@ -63,6 +63,20 @@
           </xs:documentation>
         </xs:annotation>
       </xs:element>
+      <xs:element name="SpellSlots" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="count" type="xs:positiveInteger"/>
+          <xs:attribute name="level" type="xs:nonNegativeInteger"/>
+          <xs:attribute name="type">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="Spontaneous"/>
+                <xs:enumeration value="Prepared"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="AttributeMods" minOccurs="0" maxOccurs="unbounded">
         <xs:annotation>
           <xs:documentation>
@@ -124,6 +138,13 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
+    <xs:attribute name="multiple" type="xs:boolean">
+      <xs:annotation>
+        <xs:documentation>
+          If true, the ability can be chosen multiple times.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
     <xs:attribute name="skillIncrease" type="xs:boolean">
       <xs:annotation>
         <xs:documentation>
@@ -153,6 +174,11 @@
         <xs:element name="AbilitySet" type="pf2:AbilitySet"/>
       </xs:choice>
     </xs:sequence>
+    <xs:attribute name="level" type="xs:positiveInteger">
+      <xs:annotation>
+        <xs:documentation>Used if slot is given by ability and it's level doesn't match the ability level</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
     <xs:attribute name="state" use="required">
       <xs:annotation>
         <xs:documentation>
@@ -242,4 +268,11 @@
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
+  <xs:element name="feats">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Ability" type="pf2:Ability" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>

@@ -13,7 +13,7 @@
     <xs:complexType name="Spell">
         <xs:sequence>
             <xs:element name="Name" type="xs:string"/>
-            <xs:element name="Level" type="xs:positiveInteger"/>
+            <xs:element name="Level" type="xs:nonNegativeInteger"/>
             <xs:element name="Traits" type="xs:string"/>
             <xs:element name="Traditions" type="xs:string">
                 <xs:simpleType>
