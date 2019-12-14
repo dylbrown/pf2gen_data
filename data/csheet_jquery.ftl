@@ -109,8 +109,8 @@
 	</div></div>
 	<div id="Aspell" class="page hidden gone"><div class="scrollable spell-scroll">
 		<#--<#include "/JQuery/aspell/domain.ftl">
-		<#include "/JQuery/aspell/innate.ftl">
-		<#include "/JQuery/aspell/spells.ftl">-->
+		<#include "/JQuery/aspell/innate.ftl">-->
+		<#include "/JQuery/aspell/spells.ftl">
 	</div></div>
 </div>	
 <#include "/JQuery/script.ftl">

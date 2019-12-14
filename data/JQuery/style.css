@@ -927,6 +927,12 @@ tr.prepped {
 	pointer-events:auto;
 	display:block;
 }
+.oddRow {
+	background-color: #ddd;
+}
+.evenRow {
+	background-color: white;
+}
 div.spell-scroll {
 	display:flex;
 	height:auto;
@@ -944,6 +950,7 @@ div.spell-scroll {
 .spellyparent {
 	padding-top:0px;
 	padding-bottom:0px;
+	min-width:7vw;
 }
 .spelly {
 	width:100%;
@@ -1061,10 +1068,18 @@ input.sp-count {
 	width:90vw;
 }
 .sptab {
-	text-align: center;
+	text-align: left;
 }
-.sptab2 {
-	text-align: center;
+.asp-table td:first-child {
+	padding-left: .5rem;
+}
+.asp-table td:last-child {
+	padding-right: .5rem;
+}
+.spDesc {
+	text-align: justify;
+    /*padding: 0 1vw 0 1vw;*/
+	border-top: 3px solid black;
 }
 .splevel {  
 	background:black; 
@@ -1077,10 +1092,6 @@ input.sp-count {
 		font-size:1.2rem; 
 		color:white;
 }
-
-
-
-
 
 .switch {
   float:right;
