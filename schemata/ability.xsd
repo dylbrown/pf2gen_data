@@ -63,6 +63,12 @@
           </xs:documentation>
         </xs:annotation>
       </xs:element>
+      <xs:element name="SpellsKnown" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="count" type="xs:positiveInteger"/>
+          <xs:attribute name="level" type="xs:nonNegativeInteger"/>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="SpellSlots" minOccurs="0" maxOccurs="unbounded">
         <xs:complexType>
           <xs:attribute name="count" type="xs:positiveInteger"/>
@@ -77,6 +83,21 @@
           </xs:attribute>
         </xs:complexType>
       </xs:element>
+      <xs:element name="Spell" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="type">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="Spell"/>
+                <xs:enumeration value="Cantrip"/>
+                <xs:enumeration value="Focus"/>
+                <xs:enumeration value="Focus Cantrip"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="name" type="xs:string"/>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="AttributeMods" minOccurs="0" maxOccurs="unbounded">
         <xs:annotation>
           <xs:documentation>
@@ -86,7 +107,7 @@
         <xs:complexType>
           <xs:simpleContent>
             <xs:restriction base="pf2:attrmods">
-                  <xs:pattern value="[^\w]*((Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery|Fortitude|Reflex|Will|Perception|Simple Weapons|Martial Weapons|Advanced Weapons|Unarmed|Light Armor|Medium Armor|Heavy Armor|Unarmored|Shields|Spell Attacks|Spell D[cC]s|Class D[cC]|None), ?)*(Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery|Fortitude|Reflex|Will|Perception|Simple Weapons|Martial Weapons|Advanced Weapons|Unarmed|Light Armor|Medium Armor|Heavy Armor|Unarmored|Shields|Spell Attacks|Spell D[cC]s|Class D[cC]|None)[^\w]*"/>
+                  <xs:pattern value="[^\w]*((Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore ?\([^()]*\)|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery|Fortitude|Reflex|Will|Perception|Simple Weapons|Martial Weapons|Advanced Weapons|Unarmed|Light Armor|Medium Armor|Heavy Armor|Unarmored|Shields|Spell Attacks|Spell D[cC]s|Class D[cC]|None), ?)*(Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore ?\([^()]*\)|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery|Fortitude|Reflex|Will|Perception|Simple Weapons|Martial Weapons|Advanced Weapons|Unarmed|Light Armor|Medium Armor|Heavy Armor|Unarmored|Shields|Spell Attacks|Spell D[cC]s|Class D[cC]|None)[^\w]*"/>
             </xs:restriction>
           </xs:simpleContent>
         </xs:complexType>
