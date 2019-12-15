@@ -15,7 +15,7 @@
             <xs:element name="Name" type="xs:string"/>
             <xs:element name="Level" type="xs:nonNegativeInteger"/>
             <xs:element name="Traits" type="xs:string"/>
-            <xs:element name="Traditions" type="xs:string">
+            <xs:element name="Traditions" type="xs:string" minOccurs="0">
                 <xs:simpleType>
                     <xs:restriction base="xs:token">
                         <xs:pattern value="([dD]ivine|[oO]ccult|[pP]rimal|[aA]rcane)(, ?([dD]ivine|[oO]ccult|[pP]rimal|[aA]rcane)){0,3}"/>
@@ -24,6 +24,7 @@
             </xs:element>
             <xs:element name="Cast" type="xs:string" />
             <xs:element name="Requirements" type="xs:string" minOccurs="0"/>
+            <xs:element name="Trigger" type="xs:string" minOccurs="0"/>
             <xs:element name="Range" type="xs:string" minOccurs="0"/>
             <xs:element name="Area" type="xs:string" minOccurs="0"/>
             <xs:element name="Targets" type="xs:string" minOccurs="0"/>
@@ -41,5 +42,19 @@
                 </xs:complexType>
             </xs:element>
         </xs:sequence>
+        <xs:attribute name="type" type="xs:string">
+            <xs:annotation>
+                <xs:documentation>
+                    Notes if it is a cantrip or not
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="page" type="xs:string">
+            <xs:annotation>
+                <xs:documentation>
+                    Reference Page for Ability
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
     </xs:complexType>
 </xs:schema>

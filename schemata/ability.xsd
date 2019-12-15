@@ -99,6 +99,13 @@
         </xs:documentation>
       </xs:annotation>
       </xs:attribute>
+    <xs:attribute name="page" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>
+          Reference Page for Ability
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
     <xs:attribute name="level" type="pf2:level">
       <xs:annotation>
         <xs:documentation>

@@ -1,0 +1,1518 @@
+<pf2:spells xmlns:pf2="https://dylbrown.github.io"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://dylbrown.github.io ../../schemata/spell.xsd">
+    <Spell page="386" type="Cantrip">
+        <Name>Allegro</Name>
+        <Level>7</Level>
+        <Traits>Bard, Cantrip, Composition, Emotion, Enchantment, Mental</Traits>
+        <Cast>Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 ally</Targets>
+        <Duration>1 round</Duration>
+        <Description>You perform rapidly, speeding up your ally. The ally becomes quickened and can use the additional action to Strike, Stride, or Step.</Description>
+    </Spell>
+    <Spell page="386" type="Cantrip">
+        <Name>Dirge of Doom</Name>
+        <Level>3</Level>
+        <Traits>Bard, Cantrip, Composition, Emotion, Enchantment, Fear, Mental</Traits>
+        <Cast>Verbal</Cast>
+        <Area>30-foot emanation</Area>
+        <Duration>1 round</Duration>
+        <Description>Foes within the area are frightened 1. They can't reduce their frightened value below 1 while they remain in the area.</Description>
+    </Spell>
+    <Spell page="386" type="Cantrip">
+        <Name>House of Imaginary Walls</Name>
+        <Level>5</Level>
+        <Traits>Bard, Cantrip, Composition, Illusion, Visual</Traits>
+        <Cast>Somatic</Cast>
+        <Range>touch</Range>
+        <Duration>1 round</Duration>
+        <Description>You mime creating an invisible 10-foot-by-10-foot stretch of wall adjacent to you and within your reach. The wall is solid to those creatures that don't disbelieve it, even incorporeal creatures. You and your allies can voluntarily believe the wall exists to continue to treat it as solid, for instance to climb onto it. A creature that disbelieves the illusion is temporarily immune to your house of imaginary walls for 1 minute. The wall doesn't block creatures that didn't see your visual performance, nor does it block objects. The wall has AC 10, Hardness equal to double the spell's level, and HP equal to quadruple the spell's level.</Description>
+    </Spell>
+    <Spell page="386" type="Cantrip">
+        <Name>Inspire Competence</Name>
+        <Level>1</Level>
+        <Traits>Bard, Cantrip, Composition, Emotion, Enchantment, Mental</Traits>
+        <Cast>Verbal</Cast>
+        <Range>60 feet</Range>
+        <Targets>1 ally</Targets>
+        <Duration>1 round</Duration>
+        <Description>Your encouragement inspires your ally to succeed at a task. This counts as having taken sufficient preparatory actions to Aid your ally on a skill check of your choice, regardless of the circumstances. When you later use the Aid reaction, you can roll Performance instead of the normal skill check, and if you roll a failure, you get a success instead. If you are legendary in Performance, you automatically critically succeed. The GM might rule that you can't use this ability if the act of encouraging your ally would interfere with the skill check (such as a check to Sneak quietly or maintain a disguise).</Description>
+    </Spell>
+    <Spell page="386" type="Cantrip">
+        <Name>Inspire Courage</Name>
+        <Level>1</Level>
+        <Traits>Bard, Cantrip, Composition, Emotion, Enchantment, Mental</Traits>
+        <Cast>Verbal</Cast>
+        <Area>60-foot emanation</Area>
+        <Duration>1 round</Duration>
+        <Description>You inspire your allies with words or tunes of encouragement. You and all allies in the area gain a +1 status bonus to attack rolls, damage rolls, and saves against fear effects.</Description>
+    </Spell>
+    <Spell page="386" type="Cantrip">
+        <Name>Inspire Defense</Name>
+        <Level>2</Level>
+        <Traits>Bard, Cantrip, Composition, Emotion, Enchantment, Mental</Traits>
+        <Cast>Verbal</Cast>
+        <Area>60-foot emanation</Area>
+        <Duration>1 round</Duration>
+        <Description>You inspire your allies to protect themselves more effectively. You and all allies in the area gain a +1 status bonus to AC and saving throws, as well as resistance equal to half the spell's level to physical damage.</Description>
+    </Spell>
+    <Spell page="387" type="Cantrip">
+        <Name>Triple Time</Name>
+        <Level>2</Level>
+        <Traits>Bard, Cantrip, Composition, Emotion, Enchantment, Mental</Traits>
+        <Cast>Somatic</Cast>
+        <Area>60-foot emanation</Area>
+        <Duration>1 round</Duration>
+        <Description>You dance at a lively tempo, speeding your allies' movement. You and all allies in the area gain a +10-foot status bonus to all Speeds for 1 round.</Description>
+    </Spell>
+    <Spell page="389" type="Focus">
+        <Name>Agile Feet</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Transmutation</Traits>
+        <Cast>Somatic</Cast>
+        <Duration>until the end of the current turn</Duration>
+        <Description>The blessings of your god make your feet faster and your movements more fluid. You gain a +5-foot status bonus to your Speed and ignore difficult terrain. As part of casting agile feet, you can Stride or Step; you can instead Burrow, Climb, Fly, or Swim if you have the appropriate Speed.</Description>
+    </Spell>
+    <Spell page="402" type="Focus">
+        <Name>Ancestral Memories</Name>
+        <Level>1</Level>
+        <Traits>Divination, Sorcerer</Traits>
+        <Cast>Verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>The memories of long-dead spellcasters grant you knowledge in a specific skill. Choose any non-Lore skill, or a Lore skill related to the ancient empire from which your bloodline sprang. You temporarily become trained in that skill and might gain other memories associated with an ancestor who was trained in that skill. If you attempt a task or activity that lasts beyond this spell's duration, use the lower proficiency modifier.</Description>
+        <Heightened level="6">You temporarily become an expert in the skill you choose.</Heightened>
+    </Spell>
+    <Spell page="402" type="Focus">
+        <Name>Angelic Halo</Name>
+        <Level>1</Level>
+        <Traits>Abjuration, Good, Sorcerer</Traits>
+        <Cast>Verbal</Cast>
+        <Area>15-foot emanation</Area>
+        <Duration>1 minute</Duration>
+        <Description>You gain an angelic halo with an aura that increases allies' healing from the heal spell. Heal spells gain a +2 status bonus to Hit Points healed to your allies in the area.</Description>
+        <Heightened every="1">The status bonus increases by 2.</Heightened>
+    </Spell>
+    <Spell page="389" type="Focus">
+        <Name>Appearance of Wealth</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Illusion</Traits>
+        <Cast>Material, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Area>5-foot burst</Area>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>You create a brief vision of immense wealth filling the spell's area. Each creature within 20 feet of the area that could be enticed by material wealth must attempt a Will saving throw. A creature that enters the area automatically disbelieves the illusion, and disbelieving the illusion ends any fascinated condition imposed by the spell. As long as you Sustain the Spell, other creatures react to the treasure like they would any other illusion, but they are not at risk of becoming fascinated.Critical Success The creature disbelieves the illusion and is unaffected by it.Success The creature is fascinated by the wealth until it has completed its first action on its next turn.Failure The creature is fascinated by the illusion.</Description>
+    </Spell>
+    <Spell page="389" type="Focus">
+        <Name>Athletic Rush</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Transmutation</Traits>
+        <Cast>Somatic</Cast>
+        <Duration>1 round</Duration>
+        <Description>Your body fills with physical power and skill. You gain a +10-foot status bonus to Speed and a +2 status bonus to Athletics checks. As a part of Casting this Spell, you can use a Stride, Leap, Climb, or Swim action. The spell's bonuses apply during that action.</Description>
+    </Spell>
+    <Spell page="406" type="Focus">
+        <Name>Augment Summoning</Name>
+        <Level>1</Level>
+        <Traits>Conjuration, Wizard</Traits>
+        <Cast>Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature you summoned</Targets>
+        <Description>You augment the abilities of a summoned creature. The target gains a +1 status bonus to all checks (this also applies to the creature's DCs, including its AC) for the duration of its summoning, up to 1 minute.</Description>
+    </Spell>
+    <Spell page="389" type="Focus">
+        <Name>Bit of Luck</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Divination, Fortune</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 willing creature</Targets>
+        <Duration>1 minute</Duration>
+        <Description>You tilt the scales of luck slightly to protect a creature from disaster. When the target would attempt a saving throw, it can roll twice and use the better result. Once it does this, the spell ends. If you cast bit of luck again, any previous bit of luck you cast that's still in effect ends. After a creature has been targeted with bit of luck, it becomes temporarily immune for 24 hours.</Description>
+    </Spell>
+    <Spell page="389" type="Focus">
+        <Name>Blind Ambition</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Emotion, Enchantment, Mental</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>60 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>10 minutes</Duration>
+        <Description>You strengthen a target's ambition, increase its resentment of allies, and make its allegiances more susceptible to change. The target must attempt a Will save.Critical Success The target is unaffected.Success The target takes a –1 status penalty to its saving throws and other defenses against attempts to Coerce it, Request something of it, or use mental effects to convince it to do something (such as a suggestion spell). This penalty applies only if the target is being encouraged to advance its own ambitions.Failure As success, but the penalty is –2.Critical Failure The target is overcome with ambition, taking whatever actions would advance its own agenda over those of anyone else, even without attempts to convince it.</Description>
+    </Spell>
+    <Spell page="406" type="Focus">
+        <Name>Call of the Grave</Name>
+        <Level>1</Level>
+        <Traits>Arcane, Attack, Necromancy, Wizard</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 living creature</Targets>
+        <Description>You fire a ray of sickening energy. Make a spell attack roll.Critical Success The target becomes sickened 2 and slowed 1 as long as it's sickened.Success The target becomes sickened 1.Failure The target is unaffected.</Description>
+    </Spell>
+    <Spell page="390" type="Focus">
+        <Name>Charming Touch</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Emotion, Enchantment, Incapacitation, Mental</Traits>
+        <Cast>Somatic</Cast>
+        <Range>touch</Range>
+        <Targets>1 humanoid creature that could find you attractive</Targets>
+        <Duration>10 minutes</Duration>
+        <Description>You infuse your target with attraction, causing it to act friendlier toward you. The target attempts a Will save. It gains a +4 circumstance bonus to this save if you or your allies recently threatened or were hostile to it. You can Dismiss the spell. If you use hostile actions against the target, the spell ends. After the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, which could potentially allow you to convince the target to continue being your friend via mundane means.Critical Success The target is unaffected and aware you tried to charm it.Success The target is unaffected but thinks your spell was something harmless instead of charming touch, unless it identifies the spell (see Identifying Magic).Failure The target's attitude becomes friendly toward you. If it was friendly, it becomes helpful. It can't use hostile actions against you.Critical Failure The target is helpful and can't use hostile actions against you.
+        </Description>
+        <Heightened
+                level="4">You can target any type of creature, not just humanoids, as long as it could find you attractive.
+        </Heightened>
+    </Spell>
+    <Spell page="406" type="Focus">
+        <Name>Charming Words</Name>
+        <Level>1</Level>
+        <Traits>Auditory, Enchantment, Incapacitation, Linguistic, Mental, Wizard</Traits>
+        <Cast>Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>until the start of your next turn</Duration>
+        <Description>You whisper enchanting words to deflect your foe's ire. The target must attempt a Will save.Critical Success The target is unaffected.Success The target takes a –1 circumstance penalty to attack rolls and damage rolls against you.Failure The target can't use hostile actions against you.Critical Failure The target is stunned 1 and can't use hostile actions against you.</Description>
+    </Spell>
+    <Spell page="390" type="Focus">
+        <Name>Cloak of Shadow</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Darkness, Evocation, Shadow</Traits>
+        <Cast>Somatic</Cast>
+        <Range>touch</Range>
+        <Targets>1 willing creature</Targets>
+        <Duration>1 minute</Duration>
+        <Description>You drape the target in a mantle of swirling shadows that make it harder to see. The cloak reduces bright light within a 20-foot emanation to dim light. This is a form of magical darkness and can therefore overcome non-magical light or attempt to counteract magical light as described on page 458. The target can use concealed condition gained from the shadows to Hide, though observant creatures can still follow the moving aura of shadow, making it difficult for the target to become completely undetected. The target can use an Interact action to remove the cloak and leave it behind as a decoy, where it remains, reducing light for the rest of the spell's duration. If anyone picks up the cloak after it's been removed by the original target, the cloak evaporates and the spell ends.</Description>
+    </Spell>
+    <Spell page="386" type="Focus">
+        <Name>Counter Performance</Name>
+        <Level>1</Level>
+        <Traits>Bard, Composition, Enchantment, Fortune, Mental</Traits>
+        <Cast>Reaction (Somatic Or Verbal)</Cast>
+        <Area>60-foot emanation</Area>
+        <Description>Your performance protects you and your allies. Roll a Performance check for a type you know: an auditory performance if the trigger was auditory, or a visual one for a visual trigger. You and allies in the area can use the better result between your Performance check and the saving throw.</Description>
+    </Spell>
+    <Spell page="390" type="Focus">
+        <Name>Cry of Destruction</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Evocation, Sonic</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Area>15-foot cone</Area>
+        <Description>Your voice booms, smashing what's in front of you. Each creature and unattended object in the area takes 1d8 sonic damage. If you already dealt damage to an enemy this turn with a Strike or spell, increase the damage dice from this spell to d12s.</Description>
+        <Heightened every="1">The damage increases by 1d8.</Heightened>
+    </Spell>
+    <Spell page="391" type="Focus">
+        <Name>Dazzling Flash</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Evocation, Light, Visual</Traits>
+        <Cast>Material, Verbal</Cast>
+        <Area>15-foot cone</Area>
+        <Description>You raise your religious symbol and create a blinding flash of light. Each creature in the area must attempt a Fortitude save.Critical Success The creature is unaffected.Success The creature is dazzled for 1 round.Failure The creature is blinded for 1 round and dazzled for 1 minute. The creature can spend an Interact action rubbing its eyes to end the blinded condition.Critical Failure The creature is blinded for 1 round and dazzled for 1 hour.</Description>
+        <Heightened level="3">The area increases to a 30-foot cone.</Heightened>
+    </Spell>
+    <Spell page="391" type="Focus">
+        <Name>Death's Call</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Necromancy</Traits>
+        <Cast>Reaction (Verbal)</Cast>
+        <Duration>1 minute</Duration>
+        <Description>Seeing another pass from this world to the next invigorates you. You gain temporary Hit Points equal to the triggering creature's level plus your spellcasting ability modifier. If the triggering creature was undead, double the number of temporary Hit Points you gain. These last for the duration of the spell, and the spell ends if all the temporary Hit Points are depleted earlier.</Description>
+    </Spell>
+    <Spell page="403" type="Focus">
+        <Name>Diabolic Edict</Name>
+        <Level>1</Level>
+        <Traits>Enchantment, Sorcerer</Traits>
+        <Cast>Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 willing living creature</Targets>
+        <Duration>1 round</Duration>
+        <Description>You issue a diabolic edict, demanding the target perform a particular task and offering rewards for its fulfillment. It gains a +1 status bonus to attack rolls and skill checks related to performing the task. If it refuses to perform the task you proclaimed, it instead takes a –1 status penalty to all its attack rolls and skill checks.</Description>
+    </Spell>
+    <Spell page="406" type="Focus">
+        <Name>Diviner's Sight</Name>
+        <Level>1</Level>
+        <Traits>Concentrate, Divination, Fortune, Wizard</Traits>
+        <Cast>Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 willing living creature</Targets>
+        <Duration>until the end of your next turn</Duration>
+        <Description>You glimpse into the target's future. Roll a d20; when the target attempts a non-secret saving throw or skill check, it can use the number you rolled instead of rolling, and the spell ends. Alternatively, you can instead reveal the result of the die roll for one of the target's secret checks during the duration, and the spell ends. Casting it again ends any active diviner's sight you have cast, as well as any active diviner's sight on the target.</Description>
+    </Spell>
+    <Spell page="403" type="Focus">
+        <Name>Dragon Claws</Name>
+        <Level>1</Level>
+        <Traits>Morph, Sorcerer, Transmutation</Traits>
+        <Cast>Verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>Vicious claws grow from your fingers. They are finesse unarmed attacks that deal 1d4 slashing damage and 1d6 extra damage of a type determined by the dragon in your bloodline. Dragon ClawsDragon Type Area and Damage Type Saving Throw Black and copper 60-foot line of acid Reflex Blue and bronze 60-foot line of electricity Reflex Brass 60-foot line of fire Reflex Green 30-foot cone of poison Fortitude Gold or red 30-foot cone of fire Reflex Silver or white 30-foot cone of cold Reflex Your scales from blood magic glow with faint energy, giving you resistance 5 to the same damage type.</Description>
+        <Heightened level="5">The extra damage increases to 2d6, and the resistance increases to 10.</Heightened>
+    </Spell>
+    <Spell page="404" type="Focus">
+        <Name>Elemental Toss</Name>
+        <Level>1</Level>
+        <Traits>Attack, Evocation, Sorcerer</Traits>
+        <Cast>Somatic</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Description>With a flick of your wrist, you fling a chunk of your elemental matter at your foe. Make a spell attack roll, dealing 1d8 bludgeoning damage (or fire damage if your element is fire) on a success, and double damage on a critical success. This spell has your element's trait.</Description>
+        <Heightened every="1">The damage increases by 1d8.</Heightened>
+    </Spell>
+    <Spell page="392" type="Focus">
+        <Name>Face in the Crowd</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Illusion, Visual</Traits>
+        <Cast>Somatic</Cast>
+        <Duration>1 minute</Duration>
+        <Description>While in a crowd of roughly similar creatures, your appearance becomes bland and nondescript. You gain a +2 status bonus to Deception and Stealth checks to go unnoticed among the crowd, and you ignore difficult terrain caused by the crowd.</Description>
+        <Heightened level="3">The spell gains a range of 10 feet and can target up to 10 creatures.</Heightened>
+    </Spell>
+    <Spell page="404" type="Focus">
+        <Name>Faerie Dust</Name>
+        <Level>1</Level>
+        <Traits>Enchantment, Mental, Sorcerer</Traits>
+        <Cast>Or More (Somatic, Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Area>5-foot burst or more</Area>
+        <Duration>1 round</Duration>
+        <Description>You sprinkle magical dust in the spell's area, making those within easier to trick. Each creature in the area must attempt a Will save. For each additional action you use Casting the Spell, the burst's radius increases by 5 feet.Success The creature is unaffected.Failure The creature can't use reactions and takes a –2 status penalty to Perception checks and Will saves.Critical Failure As failure, and the creature also takes a –1 status penalty to Perception checks and Will saves for 1 minute.</Description>
+        <Heightened every="3">The initial radius increases by 5 feet.</Heightened>
+    </Spell>
+    <Spell page="392" type="Focus">
+        <Name>Fire Ray</Name>
+        <Level>1</Level>
+        <Traits>Attack, Cleric, Evocation, Fire</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>60 feet</Range>
+        <Targets>1 creature or object</Targets>
+        <Description>A blazing band of fire arcs through the air. Make a spell attack roll. The ray deals 2d6 fire damage.Critical Success The ray deals double damage and 1d4 persistent fire damage.Success The ray deals full damage.</Description>
+        <Heightened
+                every="1">The ray's initial damage increases by 2d6, and the persistent fire damage on a critical success increases by 1d4.
+        </Heightened>
+    </Spell>
+    <Spell page="407" type="Focus">
+        <Name>Force Bolt</Name>
+        <Level>1</Level>
+        <Traits>Evocation, Force, Wizard</Traits>
+        <Cast>Somatic</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature or object</Targets>
+        <Description>You fire an unerring dart of force from your fingertips. It automatically hits and deals 1d4+1 force damage to the target.</Description>
+        <Heightened every="2">The damage increases by 1d4+1.</Heightened>
+    </Spell>
+    <Spell page="393" type="Focus">
+        <Name>Forced Quiet</Name>
+        <Level>1</Level>
+        <Traits>Abjuration, Cleric</Traits>
+        <Cast>Material, Somatic</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>varies</Duration>
+        <Description>You quiet the target's voice, preventing it from giving away valuable secrets. This doesn't prevent the target from talking or providing verbal spell components, but no creature more than 10 feet away can hear its whispers without succeeding at a Perception check against your spell DC, which might interfere with auditory or linguistic effects as well as communication. The spell's duration depends on the target's Fortitude save. After attempting its save, the target becomes temporarily immune for 24 hours.Critical Success The target is unaffected.Success The duration is 1 round.Failure The duration is 1 minute.Critical Failure The duration is 10 minutes.</Description>
+    </Spell>
+    <Spell page="404" type="Focus">
+        <Name>Glutton's Jaw</Name>
+        <Level>1</Level>
+        <Traits>Morph, Necromancy, Sorcerer</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>Your mouth transforms into a shadowy maw bristling with pointed teeth. These jaws are an unarmed attack with the forceful trait dealing 1d8 piercing damage. If you hit with your jaws and deal damage, you gain 1d6 temporary Hit Points.</Description>
+        <Heightened every="2">The temporary Hit Points increase by 1d6.</Heightened>
+    </Spell>
+    <Spell page="399" type="Focus">
+        <Name>Goodberry</Name>
+        <Level>1</Level>
+        <Traits>Druid, Healing, Necromancy</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>touch</Range>
+        <Targets>1 ripe berry</Targets>
+        <Duration>10 minutes</Duration>
+        <Description>You imbue the target berry with the bounty of nature, turning it into a goodberry that can heal and sustain far beyond its normal capacity. A creature can eat the goodberry with an Interact action to regain 1d6+4 Hit Points. A berry not consumed during the duration withers away. Every six goodberries consumed gives as much nourishment as one square meal for a typical human.</Description>
+        <Heightened
+                every="1">You can target an additional berry. A creature can consume any number of goodberries from the same casting with a single Interact action.
+        </Heightened>
+    </Spell>
+    <Spell page="407" type="Focus">
+        <Name>Hand of the Apprentice</Name>
+        <Level>1</Level>
+        <Traits>Attack, Evocation, Wizard</Traits>
+        <Cast>Somatic</Cast>
+        <Range>500 feet</Range>
+        <Targets>1 creature</Targets>
+        <Description>You hurl a held melee weapon with which you are trained at the target, making a spell attack roll. On a success, you deal the weapon's damage as if you had hit with a melee Strike, but adding your spellcasting ability modifier to damage, rather than your Strength modifier. On a critical success, you deal double damage, and you add the weapon's critical specialization effect. Regardless of the outcome, the weapon flies back to you and returns to your hand.</Description>
+    </Spell>
+    <Spell page="399" type="Focus">
+        <Name>Heal Animal</Name>
+        <Level>1</Level>
+        <Traits>Druid, Healing, Necromancy, Positive</Traits>
+        <Cast>To</Cast>
+        <Range>touch or 30 feet (see text)</Range>
+        <Targets>1 willing living animal creature</Targets>
+        <Description>You heal an animal's wounds, restoring 1d8 Hit Points to the target. The number of actions spent Casting this Spell determines its effect. somatic The spell has a range of touch. somatic, verbal The spell has a range of 30 feet and restores an additional 8 Hit Points to the target.</Description>
+        <Heightened
+                every="1">The amount of healing increases by 1d8, and the additional healing for the 2-action version increases by 8.
+        </Heightened>
+    </Spell>
+    <Spell page="393" type="Focus">
+        <Name>Healer's Blessing</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Necromancy</Traits>
+        <Cast>Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 willing living creature</Targets>
+        <Duration>1 minute</Duration>
+        <Description>Your words bless a creature with an enhanced connection to positive energy. When the target regains Hit Points from a healing spell, it regains 1 additional Hit Point. The target regains additional Hit Points from healer's blessing only the first time it regains HP from a given healing spell, so a spell that heals the creature repeatedly over a duration would restore additional Hit Points only once.</Description>
+        <Heightened every="1">The additional healing increases by 2 HP.</Heightened>
+    </Spell>
+    <Spell page="393" type="Focus">
+        <Name>Hurtling Stone</Name>
+        <Level>1</Level>
+        <Traits>Attack, Cleric, Earth, Evocation</Traits>
+        <Cast>Somatic</Cast>
+        <Range>60 feet</Range>
+        <Targets>1 creature</Targets>
+        <Description>You evoke a magical stone and throw it, with your god's presence guiding your aim. Make a spell attack roll against the target. The stone deals bludgeoning damage equal to 1d6 plus your Strength modifier.Critical Success The stone deals double damage.Success The stone deals full damage.</Description>
+        <Heightened every="1">The stone's damage increases by 1d6.</Heightened>
+    </Spell>
+    <Spell page="405" type="Focus">
+        <Name>Jealous Hex</Name>
+        <Level>1</Level>
+        <Traits>Curse, Necromancy, Sorcerer</Traits>
+        <Cast>Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>up to 1 minute</Duration>
+        <Description>You draw forth a hag's innate jealousy to deny a target its greatest attribute. The target gains an adverse condition depending on its highest ability modifier: Strength (enfeebled); Dexterity (clumsy); Constitution (drained); or Intelligence, Wisdom, or Charisma (stupefied). On a tie, the creature decides which of the conditions associated with the tied ability modifiers to take. The target must attempt a Will save.At the start of each of your turns, the target can attempt another Will save, ending the effect on a success.Success The target is unaffected.Failure The condition's value is 1.Critical Failure The condition's value is 2.</Description>
+    </Spell>
+    <Spell page="401" type="Focus">
+        <Name>Ki Rush</Name>
+        <Level>1</Level>
+        <Traits>Monk, Transmutation</Traits>
+        <Cast>Verbal</Cast>
+        <Description>Accelerated by your ki, you move with such speed you become a blur. Move two times: two Strides, two Steps, or one Stride and one Step (in either order). You gain the concealed condition during this movement and until the start of your next turn.</Description>
+    </Spell>
+    <Spell page="401" type="Focus">
+        <Name>Ki Strike</Name>
+        <Level>1</Level>
+        <Traits>Monk, Transmutation</Traits>
+        <Cast>Verbal</Cast>
+        <Description>You focus your ki into magical attacks. Make an unarmed Strike or Flurry of Blows (this doesn't change the limit on using only one flourish per turn). You gain a +1 status bonus to your attack rolls with the Strikes, and the Strikes deal 1d6 extra damage. This damage can be any of the following types of your choice, chosen each time you Strike: force, lawful (only if you're lawful), negative, or positive.</Description>
+        <Heightened every="4">The extra damage increases by 1d6.</Heightened>
+    </Spell>
+    <Spell page="387" type="Focus">
+        <Name>Lay on Hands</Name>
+        <Level>1</Level>
+        <Traits>Champion, Healing, Necromancy, Positive</Traits>
+        <Cast>Somatic</Cast>
+        <Range>touch</Range>
+        <Targets>1 willing living creature or 1 undead creature</Targets>
+        <Description>Your hands become infused with positive energy, healing a living creature or damaging an undead creature with a touch. If you use lay on hands on a willing living target, you restore 6 Hit Points; if the target is one of your allies, they also gain a +2 status bonus to AC for 1 round. Against an undead target, you deal 1d6 damage and it must attempt a basic Fortitude save; if it fails, it also takes a –2 status penalty to AC for 1 round.</Description>
+        <Heightened
+                every="1">The amount of healing increases by 6, and the damage to an undead target increases by 1d6.
+        </Heightened>
+    </Spell>
+    <Spell page="387" type="Focus">
+        <Name>Lingering Composition</Name>
+        <Level>1</Level>
+        <Traits>Bard, Enchantment</Traits>
+        <Cast>Free (Verbal)</Cast>
+        <Description>You add a flourish to your composition to extend its benefits. If your next action is to cast a cantrip composition with a duration of 1 round, attempt a Performance check. The DC is usually a standard-difficulty DC of a level equal to the highest-level target of your composition, but the GM can assign a different DC based on the circumstances. The effect depends on the result of your check.Critical Success The composition lasts 4 rounds.Success The composition lasts 3 rounds.Failure The composition lasts 1 round, but you don't spend the Focus Point for casting this spell.</Description>
+    </Spell>
+    <Spell page="387" type="Focus">
+        <Name>Loremaster's Etude</Name>
+        <Level>1</Level>
+        <Traits>Bard, Divination, Fortune</Traits>
+        <Cast>Free (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>you or the triggering ally</Targets>
+        <Description>You call upon your muse's deep mysteries, granting the target a greater ability to think and recall information. Roll the triggering Recall Knowledge skill check twice and use the better result.</Description>
+    </Spell>
+    <Spell page="393" type="Focus">
+        <Name>Magic's Vessel</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Enchantment</Traits>
+        <Cast>Somatic</Cast>
+        <Range>touch</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>A creature becomes a receptacle for pure magical energy sent by your deity. The target gains a +1 status bonus to saving throws. Each time you Cast a Spell from your spell slots, you automatically Sustain this Spell and grant its target resistance to damage from spells until the start of your next turn. This resistance is equal to the level of the spell you cast.</Description>
+    </Spell>
+    <Spell page="394" type="Focus">
+        <Name>Moonbeam</Name>
+        <Level>1</Level>
+        <Traits>Attack, Cleric, Evocation, Fire, Light</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>120 feet</Range>
+        <Targets>1 creature or object</Targets>
+        <Description>You shine a ray of moonlight. Make a spell attack roll. The beam of light deals 1d6 fire damage. Moonbeam deals silver damage for the purposes of weaknesses, resistances, and the like.Critical Success The beam deals double damage, and the target is dazzled for 1 minute.Success The beam deals full damage, and the target is dazzled for 1 round.</Description>
+        <Heightened every="1">The ray's damage increases by 1d6.</Heightened>
+    </Spell>
+    <Spell page="394" type="Focus">
+        <Name>Overstuff</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Transmutation</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 living creature</Targets>
+        <Description>Huge amounts of food and drink fill the target. It receives a full meal's worth of nourishment and must attempt a Fortitude save. A target sickened by this spell takes a –10-foot status penalty to its Speed until it's no longer sickened.Critical Success The target is unaffected.Success The target is sickened 1, but if it spends an action to end the condition, it succeeds automatically.Failure The target is sickened 1.Critical Failure The target is sickened 2.</Description>
+    </Spell>
+    <Spell page="394" type="Focus">
+        <Name>Perfected Mind</Name>
+        <Level>1</Level>
+        <Traits>Abjuration, Cleric</Traits>
+        <Cast>Verbal</Cast>
+        <Description>You meditate upon perfection to remove all distractions from your mind. Attempt a new Will save against one mental effect currently affecting you that required a Will save. Use the result of this new save to determine the outcome of the mental effect, unless the new save would have a worse result than the original save, in which case nothing happens. You can use perfected mind against a given effect only once.</Description>
+    </Spell>
+    <Spell page="407" type="Focus">
+        <Name>Physical Boost</Name>
+        <Level>1</Level>
+        <Traits>Transmutation, Wizard</Traits>
+        <Cast>Verbal</Cast>
+        <Range>touch</Range>
+        <Targets>1 living creature</Targets>
+        <Duration>until the end of the target's next turn</Duration>
+        <Description>You temporarily improve the target's physique. The target gains a +2 status bonus to the next Acrobatics check, Athletics check, Fortitude save, or Reflex save it attempts.</Description>
+    </Spell>
+    <Spell page="407" type="Focus">
+        <Name>Protective Ward</Name>
+        <Level>1</Level>
+        <Traits>Abjuration, Wizard</Traits>
+        <Cast>Somatic</Cast>
+        <Area>5-foot-radius emanation centered on you</Area>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>You emanate a shimmering aura of protective magic. You and any allies in the area gain a +1 status bonus to AC. Each time you Sustain the Spell, the emanation's radius increases by 5 feet, to a maximum of 30 feet.</Description>
+    </Spell>
+    <Spell page="395" type="Focus">
+        <Name>Protector's Sacrifice</Name>
+        <Level>1</Level>
+        <Traits>Abjuration, Cleric</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Description>You protect your ally by suffering in their stead. Reduce the damage the triggering ally would take by 3. You redirect this damage to yourself, but your immunities, weaknesses, resistances and so on do not apply. You aren't subject to any conditions or other effects of whatever damaged your ally (such as poison from a venomous bite). Your ally is still subject to those effects even if you redirect all of the triggering damage to yourself.</Description>
+        <Heightened every="1">The damage you redirect increases by 3.</Heightened>
+    </Spell>
+    <Spell page="395" type="Focus">
+        <Name>Pushing Gust</Name>
+        <Level>1</Level>
+        <Traits>Air, Cleric, Conjuration</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>500 feet</Range>
+        <Targets>1 creature</Targets>
+        <Description>Giving the air a push, you buffet the target with a powerful gust of wind; it must attempt a Fortitude save.Critical Success The target is unaffected.Success The target is pushed 5 feet away from you.Failure The target is pushed 10 feet away from you.Critical Failure The target is pushed 10 feet away from you and knocked prone.</Description>
+    </Spell>
+    <Spell page="395" type="Focus">
+        <Name>Read Fate</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Divination, Prediction</Traits>
+        <Cast>1 Minute (Material, Somatic, Verbal)</Cast>
+        <Range>10 feet</Range>
+        <Targets>1 creature other than you</Targets>
+        <Description>You attempt to learn more about the target's fate in the short term, usually within the next day for most prosaic creatures, or the next hour or less for someone likely to have multiple rapid experiences, such as someone actively adventuring. You learn a single enigmatic word connected to the creature's fate in that time frame. Fate is notoriously inscrutable, and the word isn't necessarily meant to be taken at face value, so the meaning is often clear only in hindsight. The GM rolls a secret DC 6 flat check. If the creature's fate is too uncertain, or on a failed flat check, the spell yields the word “inconclusive.” Either way, the creature is then temporarily immune for 24 hours.</Description>
+    </Spell>
+    <Spell page="396" type="Focus">
+        <Name>Savor the Sting</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Enchantment, Mental, Nonlethal</Traits>
+        <Cast>Somatic</Cast>
+        <Range>touch</Range>
+        <Targets>1 creature</Targets>
+        <Description>You inflict pain upon the target and revel in their anguish. This deals 1d4 mental damage and 1d4 persistent mental damage; the target must attempt a Will save. As long as the target is taking persistent damage from this spell, you gain a +1 status bonus to attack rolls and skill checks against the target.Critical Success The target is unaffected.Success The target takes half damage and no persistent damage.Failure The target takes full initial and persistent damage.Critical Failure The target takes double initial and persistent damage.</Description>
+        <Heightened every="1">The initial damage increases by 1d4 and the persistent damage increases by 1d4.
+        </Heightened>
+    </Spell>
+    <Spell page="396" type="Focus">
+        <Name>Scholarly Recollection</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Divination, Fortune</Traits>
+        <Cast>Reaction (Verbal)</Cast>
+        <Description>Speaking a short prayer as you gather your thoughts, you're blessed to find that your deity gave you just the right bit of information for your situation. Roll the triggering check twice and use the better result.</Description>
+    </Spell>
+    <Spell page="396" type="Focus">
+        <Name>Soothing Words</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Emotion, Enchantment, Mental</Traits>
+        <Cast>Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 ally</Targets>
+        <Duration>1 round</Duration>
+        <Description>You attempt to calm the target by uttering soothing words in a calm and even tone. The target gains a +1 status bonus to Will saving throws. This bonus increases to +2 against emotion effects. In addition, when you Cast this Spell, you can attempt to counteract one emotion effect on the target.</Description>
+        <Heightened level="5">The bonus to saves increases to +2, or +3 against emotion effects.</Heightened>
+    </Spell>
+    <Spell page="397" type="Focus">
+        <Name>Splash of Art</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Illusion, Visual</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Area>5-foot burst</Area>
+        <Duration>varies</Duration>
+        <Description>A deluge of colorful illusory paint, tools, or other symbols of art and artisanship drift down in the area. Roll 1d4 to determine the color of the illusion. Each creature in the area must attempt a Will save. A creature is unaffected on a success. On a failure or critical failure, the creature takes the results listed on the table relevant to the color.Splash of Art1d4 Color Failure Critical Failure 1 White Dazzled 1 round Dazzled 1 minute 2 Red Enfeebled 1 for 1 round Enfeebled 2 for 1 round 3 Yellow Frightened 1 Frightened 2 4 Blue Clumsy 1 for 1 round Clumsy 2 for 1 round</Description>
+    </Spell>
+    <Spell page="397" type="Focus">
+        <Name>Sudden Shift</Name>
+        <Level>1</Level>
+        <Traits>Abjuration, Cleric, Illusion</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Duration>until the end of your next turn</Duration>
+        <Description>You swiftly move from a dangerous spot and veil yourself. You Step and become concealed.</Description>
+    </Spell>
+    <Spell page="397" type="Focus">
+        <Name>Sweet Dream</Name>
+        <Level>1</Level>
+        <Traits>Auditory, Cleric, Enchantment, Linguistic, Mental, Sleep</Traits>
+        <Cast>Material, Somatic, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 willing creature</Targets>
+        <Duration>10 minutes</Duration>
+        <Description>With soothing song or tales, you lull the target into an enchanting dream. When you cast the spell, the target falls unconscious if it wasn't already. While unconscious, it experiences a dream of your choice. If it sleeps for at least 1 minute, it gains the benefit of the dream for the remainder of the spell's duration. Dream of Insight +1 status bonus to Intelligence-based skill checks Dream of Glamour +1 status bonus to Charisma-based skill checks Dream of Voyaging +5-foot status bonus to Speed If you Cast this Spell again, the effects of any previous sweet dream you cast end.</Description>
+    </Spell>
+    <Spell page="400" type="Focus">
+        <Name>Tempest Surge</Name>
+        <Level>1</Level>
+        <Traits>Air, Druid, Electricity, Evocation</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Description>You surround a foe in a swirling storm of violent winds, roiling clouds, and crackling lightning. The storm deals 1d12 electricity damage. The target must attempt a basic Reflex save. On a failure, the target also is clumsy 2 for 1 round and takes 1 persistent electricity damage.</Description>
+        <Heightened
+                every="1">The initial damage increases by 1d12, and the persistent electricity damage on a failure increases by 1.
+        </Heightened>
+    </Spell>
+    <Spell page="405" type="Focus">
+        <Name>Tentacular Limbs</Name>
+        <Level>1</Level>
+        <Traits>Morph, Sorcerer, Transmutation</Traits>
+        <Cast>Somatic</Cast>
+        <Duration>1 minute</Duration>
+        <Description>Your arms turn into long, pliable tentacles, increasing your reach when you're delivering touch range spells and making unarmed Strikes with your arms (such as fist and claw Strikes) to 10 feet. This doesn't change the reach of your melee weapon attacks. During the duration, whenever you Cast a Spell, you can add an additional action to that spell's casting to temporarily extend your reach to 20 feet to deliver that spell.</Description>
+        <Heightened
+                every="2">When you add an additional action to a spell to temporarily extend your reach, your reach increases by an additional 10 feet to deliver that spell.
+        </Heightened>
+    </Spell>
+    <Spell page="397" type="Focus">
+        <Name>Tidal Surge</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Evocation, Water</Traits>
+        <Cast>Somatic</Cast>
+        <Range>60 feet</Range>
+        <Targets>1 creature</Targets>
+        <Description>You call forth a tremendous wave to move the target either in a body of water or on the ground. The target must attempt a Fortitude save.Failure You move the target 5 feet in any direction along the ground or 10 feet in any direction through a body of water.Critical Failure You move the target up to 10 feet in any direction along the ground or 20 feet in any direction through a body of water.</Description>
+    </Spell>
+    <Spell page="398" type="Focus">
+        <Name>Touch of Obedience</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Enchantment, Mental</Traits>
+        <Cast>Somatic</Cast>
+        <Range>touch</Range>
+        <Targets>1 living creature</Targets>
+        <Duration>varies</Duration>
+        <Description>Your imperious touch erodes the target's willpower, making it easier to control. The target attempts a Will save.Critical Success The target is unaffected.Success The target is stupefied 1 until the end of your current turn.Failure The target is stupefied 1 until the end of your next turn.Critical Failure The target is stupefied 1 for 1 minute.</Description>
+    </Spell>
+    <Spell page="398" type="Focus">
+        <Name>Touch of Undeath</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Necromancy, Negative</Traits>
+        <Cast>Somatic</Cast>
+        <Range>touch</Range>
+        <Targets>1 living creature</Targets>
+        <Description>You attack the target's life force with undeath, dealing 1d6 negative damage. The target must attempt a Fortitude save.Critical Success The target is unaffected.Success The target takes half damage.Failure The target takes full damage, and positive effects heal it only half as much as normal for 1 round.Critical Failure The target takes double damage, and positive effects heal it only half as much as normal for 1 minute.</Description>
+        <Heightened every="1">The damage increases by 1d6.</Heightened>
+    </Spell>
+    <Spell page="405" type="Focus">
+        <Name>Undeath's Blessing</Name>
+        <Level>1</Level>
+        <Traits>Necromancy, Negative, Sorcerer</Traits>
+        <Cast>Somatic</Cast>
+        <Range>touch</Range>
+        <Targets>1 living creature touched</Targets>
+        <Duration>1 minute</Duration>
+        <Description>You instill within a creature the touch of the grave. For the duration, harm spells treat the creature as undead and heal spells treat the creature as living. In addition, harm spells gain a +2 status bonus to the Hit Points restored to the target.If the target wishes to avoid the spell, it can attempt a Will save to reduce the effects.Critical Success The target is unaffected.Success The target heals half as much from heal and takes half as much damage from harm for 1 round.Failure Effects as described in the text.</Description>
+        <Heightened every="1">The status bonus to the Hit Points restored increases by 2.</Heightened>
+    </Spell>
+    <Spell page="398" type="Focus">
+        <Name>Unimpeded Stride</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Transmutation</Traits>
+        <Cast>Somatic</Cast>
+        <Description>Nothing can hold you in place. You immediately escape from every magical effect that has you immobilized or grabbed unless the effect is of a higher level than your unimpeded stride spell. You then Stride. During this movement, you ignore difficult terrain and any circumstance or status penalties to your Speed.</Description>
+    </Spell>
+    <Spell page="398" type="Focus">
+        <Name>Veil of Confidence</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Enchantment, Mental</Traits>
+        <Cast>Verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You surround yourself in a veil of confidence. You reduce your current frightened condition by 1, and whenever you would become frightened during the duration, reduce the amount by 1. If you critically fail a save against fear, veil of confidence ends immediately, and you increase any frightened condition you gain from the critical failure by 1 instead of decreasing it.</Description>
+    </Spell>
+    <Spell page="399" type="Focus">
+        <Name>Vibrant Thorns</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Morph, Plant, Transmutation</Traits>
+        <Cast>Somatic</Cast>
+        <Duration>1 minute</Duration>
+        <Description>Your body sprouts a coat of brambly thorns that harm those that strike you and thrive on life magic. Adjacent creatures that hit you with a melee attack, as well as creatures that hit you with unarmed attacks, take 1 piercing damage each time they do. Anytime you cast a positive spell, the damage from your thorns increases to 1d6 until the start of your next turn.</Description>
+        <Heightened every="1">The damage increases by 1, or 1d6 after you cast a positive spell.</Heightened>
+    </Spell>
+    <Spell page="399" type="Focus">
+        <Name>Waking Nightmare</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Emotion, Enchantment, Fear, Mental</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>varies</Duration>
+        <Description>You fill the creature's mind with a terrifying vision out of its nightmares. The target must attempt a Will save. If the target is unconscious when you Cast this Spell on it, it immediately wakes up before attempting its save, and if it fails its save, it gains the fleeing condition for 1 round in addition to the effects noted above.Critical Success The target is unaffected.Success The target is frightened 1.Failure The target is frightened 2.Critical Failure The target is frightened 3.</Description>
+    </Spell>
+    <Spell page="407" type="Focus">
+        <Name>Warped Terrain</Name>
+        <Level>1</Level>
+        <Traits>Illusion, Visual, Wizard</Traits>
+        <Cast>To</Cast>
+        <Range>60 feet</Range>
+        <Area>5-foot burst or more</Area>
+        <Duration>1 minute</Duration>
+        <Description>You create illusory hazards that cover all surfaces in the area (typically the ground). Any creature moving through the illusion treats the squares as difficult terrain. A creature can attempt to disbelieve the effect as normal after using a Seek action or otherwise spending actions interacting with the illusion. If it successfully disbelieves, it ignores the effect for the remaining duration. For each additional action you use casting the spell, the burst's radius increases by 5 feet, to a maximum of 10 extra feet for 3 actions.</Description>
+        <Heightened
+                level="4">You can make the illusion appear in the air rather than on a surface, causing it to function as difficult terrain for flying creatures.
+        </Heightened>
+    </Spell>
+    <Spell page="399" type="Focus">
+        <Name>Weapon Surge</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Evocation</Traits>
+        <Cast>Somatic</Cast>
+        <Range>touch</Range>
+        <Targets>1 weapon you're wielding</Targets>
+        <Description>Holding your weapon aloft, you fill it with divine energy. On your next Strike with that weapon before the start of your next turn, you gain a +1 status bonus to the attack roll and the weapon deals an additional die of damage. If the weapon has a striking rune, this instead increases the number of dice from the striking rune by 1 (to a maximum of 3 extra weapon dice).If the target weapon leaves your possession, weapon surge immediately ends.</Description>
+    </Spell>
+    <Spell page="400" type="Focus">
+        <Name>Wild Morph</Name>
+        <Level>1</Level>
+        <Traits>Druid, Morph, Transmutation</Traits>
+        <Cast>To</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You morph your body based on your training, choosing one of the following effects based on your wild order feats. If you have Wild Shape, you can morph your hands into wild claws. Your hands transform into incredibly sharp claws. These claws are an unarmed attack you're trained in and deal 1d6 slashing damage each (agile, finesse). You can still hold and use items with your hands while they're transformed by this spell, but you cannot hold an item while attacking. If you have Insect Shape, you can instead transform your mouth into wild jaws, an unarmed attack you're trained in that deals 1d8 piercing damage. If you have Elemental Shape, you can morph your body to be partially composed of elemental matter, granting you resistance 5 to critical hits and precision damage. If you have Plant Shape, you can morph your arms into long vines, increasing your reach to 10 feet (or 15 feet with a reach weapon). If you have Soaring Shape, you can cast the spell as a two-action activity ( somatic, verbal) to grow wings from your back. These wings allow you to fly with a fly Speed of 30 feet.
+        </Description>
+        <Heightened
+                level="6">You can choose up to two of the effects from the list. Wild claws leave terrible, ragged wounds that also deal 2d6 persistent bleed damage on a hit, and wild jaws are envenomed, also dealing 2d6 persistent poison damage on a hit.
+        </Heightened>
+    </Spell>
+    <Spell page="401" type="Focus">
+        <Name>Wild Shape</Name>
+        <Level>1</Level>
+        <Traits>Druid, Polymorph, Transmutation</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Duration>1 minute (or longer)</Duration>
+        <Description>You infuse yourself with primal essence and transform yourself into another form. You can polymorph into any form listed in pest form, which lasts 10 minutes. All other wild shape forms last 1 minute. You can add more forms to your wild shape list with druid feats; your feat might grant you some or all of the forms from a given polymorph spell. When you transform into a form granted by a spell, you gain all the effects of the form you chose from a version of the spell heightened to wild shape's level. Wild shape allows you to use your own shapeshifting training more easily than most polymorph spells. When you choose to use your own attack modifier while polymorphed instead of the form's default attack modifier, you gain a +2 status bonus to your attack rolls.</Description>
+        <Heightened level="2">You can also</Heightened>
+        <Heightened level="1">into the forms listed in</Heightened>
+        <Heightened level="1">.</Heightened>
+    </Spell>
+    <Spell page="399" type="Focus">
+        <Name>Word of Truth</Name>
+        <Level>1</Level>
+        <Traits>Cleric, Divination</Traits>
+        <Cast>Verbal</Cast>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>You speak a statement you believe to be true and that is free of any attempt to deceive through twisting words, omission, and so on. The statement must be 25 words or fewer. A symbol of your deity glows above your head, and anyone who sees you and hears your statement knows that you believe it to be true. Each time you Sustain this Spell, you can repeat this effect.</Description>
+    </Spell>
+    <Spell page="402" type="Focus">
+        <Name>Wholeness of Body</Name>
+        <Level>2</Level>
+        <Traits>Healing, Monk, Necromancy, Positive</Traits>
+        <Cast>Verbal</Cast>
+        <Description>You heal yourself in one of the following ways, chosen by you when you cast the spell. You regain 8 Hit Points. You attempt to cure one poison or disease afflicting you; attempt to counteract the affliction.</Description>
+        <Heightened every="1">If you choose to regain Hit Points, the Hit Points regained increase by 8.</Heightened>
+    </Spell>
+    <Spell page="402" type="Focus">
+        <Name>Aberrant Whispers</Name>
+        <Level>3</Level>
+        <Traits>Auditory, Enchantment, Mental, Sorcerer</Traits>
+        <Cast>To</Cast>
+        <Area>5-foot emanation or more</Area>
+        <Targets>each foe in the area</Targets>
+        <Duration>1 round</Duration>
+        <Description>You utter phrases in an unknown tongue, assaulting the minds of those nearby. Each target must attempt a Will save. Regardless of the result of its save, each target is then temporarily immune for 1 minute. You can increase the number of actions it takes to Cast the Spell (to a maximum of 3 actions total). For each additional action, increase the emanation's radius by 5 feet, to a maximum of 10 extra feet for 3 actions.Success The target is unaffected.Failure The target is stupefied 2.Critical Failure The target is confused.</Description>
+        <Heightened every="3">The initial radius increases by 5 feet.</Heightened>
+    </Spell>
+    <Spell page="403" type="Focus">
+        <Name>Angelic Wings</Name>
+        <Level>3</Level>
+        <Traits>Evocation, Light, Sorcerer</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Duration>3 rounds</Duration>
+        <Description>Wings of pure light spread out from your back, granting you a fly Speed equal to your Speed. Your wings cast bright light in a 30-foot radius. When this spell's duration would end, if you're still flying, you float to the ground, as feather fall.</Description>
+        <Heightened level="5">The duration increases to 1 minute.</Heightened>
+    </Spell>
+    <Spell page="403" type="Focus">
+        <Name>Dragon Breath</Name>
+        <Level>3</Level>
+        <Traits>Evocation, Sorcerer</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Area>30-foot cone or 60-foot line originating from you</Area>
+        <Description>You spew energy from your mouth, dealing 5d6 damage. The area, damage type, and save depend on the dragon type in your bloodline.Dragon BreathDragon Type Area and Damage Type Saving Throw Black and copper 60-foot line of acid Reflex Blue and bronze 60-foot line of electricity Reflex Brass 60-foot line of fire Reflex Green 30-foot cone of poison Fortitude Gold or red 30-foot cone of fire Reflex Silver or white 30-foot cone of cold Reflex</Description>
+        <Heightened every="1">The damage increases by 2d6.</Heightened>
+    </Spell>
+    <Spell page="403" type="Focus">
+        <Name>Drain Life</Name>
+        <Level>3</Level>
+        <Traits>Necromancy, Negative, Sorcerer</Traits>
+        <Cast>Somatic</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Description>You close your hand and pull life energy from another creature into yourself. This deals 3d4 negative damage; the target must attempt a basic Fortitude save. You gain temporary Hit Points equal to the damage the target takes, after resolving its save and applying your blood magic if applicable. If the target's Hit Points were lower than the damage you dealt, you gain temporary Hit Points equal to their remaining Hit Points instead. The temporary Hit Points last for 1 minute.</Description>
+        <Heightened every="1">The damage increases by 1d4.</Heightened>
+    </Spell>
+    <Spell page="404" type="Focus">
+        <Name>Elemental Motion</Name>
+        <Level>3</Level>
+        <Traits>Evocation, Sorcerer</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You call upon your element to propel you, improving your Speed depending on your element. This spell has your element's trait. Air You gain a fly Speed equal to your Speed. Earth You gain a burrow Speed of 10 feet. Fire You gain a fly Speed equal to your Speed. Water You gain a swim Speed equal to your Speed and can breathe underwater.</Description>
+        <Heightened level="6">You also gain a +10-foot status bonus to your Speeds.</Heightened>
+    </Spell>
+    <Spell page="404" type="Focus">
+        <Name>Embrace the Pit</Name>
+        <Level>3</Level>
+        <Traits>Evil, Morph, Sorcerer, Transmutation</Traits>
+        <Cast>Verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>Devil horns grow from your skull, and your skin takes on features of the devil responsible for your diabolic bloodline. You gain resistance 5 to evil, fire, and poison, and resistance 1 to physical damage (except silver). You can take good damage, even if you aren't evil, and you gain weakness 5 to good damage.</Description>
+        <Heightened
+                every="2">The resistance to evil, fire, and poison increases by 5, the resistance to physical damage (except silver) by 2, and the weakness to good damage by 5.
+        </Heightened>
+    </Spell>
+    <Spell page="404" type="Focus">
+        <Name>Extend Spell</Name>
+        <Level>3</Level>
+        <Traits>Divination, Metamagic, Sorcerer</Traits>
+        <Cast>Verbal</Cast>
+        <Description>You call upon your blood's knowledge of the ancients to extend your magic. If your next action is to Cast a Spell with a duration of 1 minute on a single target, and the spell isn't of the highest spell level you can cast, the spell instead lasts 10 minutes. You can have only one active spell at a time extended in this way.</Description>
+    </Spell>
+    <Spell page="404" type="Focus">
+        <Name>Fey Disappearance</Name>
+        <Level>3</Level>
+        <Traits>Enchantment, Sorcerer</Traits>
+        <Cast>Somatic</Cast>
+        <Duration>until the end of your next turn</Duration>
+        <Description>You become invisible and ignore natural difficult terrain (such as underbrush). Any hostile action you use ends this invisibility, but you still ignore natural difficult terrain.</Description>
+        <Heightened level="5">If you use a hostile action, the invisibility doesn't end.</Heightened>
+    </Spell>
+    <Spell page="405" type="Focus">
+        <Name>Horrific Visage</Name>
+        <Level>3</Level>
+        <Traits>Emotion, Fear, Illusion, Mental, Sorcerer, Visual</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Area>30-foot-radius emanation centered on you</Area>
+        <Description>You briefly transform your features into the horrific visage of a hag, striking fear into your enemies. Foes in the area must attempt a Will save.Success The foe is unaffected.Failure The foe is frightened 1.Critical Failure The foe is frightened 2.</Description>
+        <Heightened
+                level="5">Foes in the area are frightened 1 on a success, frightened 2 on a failure, and frightened 3 and fleeing for 1 round on a critical failure. They are still unaffected on a critical success.
+        </Heightened>
+    </Spell>
+    <Spell page="401" type="Focus">
+        <Name>Ki Blast</Name>
+        <Level>3</Level>
+        <Traits>Evocation, Force, Monk</Traits>
+        <Cast>To</Cast>
+        <Area>15-foot cone or more</Area>
+        <Description>You unleash your ki as a powerful blast of force that deals 2d6 force damage. If you use 2 actions to cast ki blast, increase the size of the cone to 30 feet and the damage to 3d6. If you use 3 actions to cast ki blast, increase the size of the cone to 60 feet and the damage to 4d6. Each creature in the area must attempt a Fortitude saving throw.Critical Success The creature is unaffected.Success The creature takes half damage.Failure The creature takes full damage and is pushed 5 feet.Critical Failure The creature takes double damage and is pushed 10 feet.</Description>
+        <Heightened every="1">The damage increases by 1d6, or by 2d6 if you use 2 or 3 actions.</Heightened>
+    </Spell>
+    <Spell page="388" type="Focus">
+        <Name>Litany against Wrath</Name>
+        <Level>3</Level>
+        <Traits>Champion, Evocation, Good, Litany</Traits>
+        <Cast>Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 evil creature</Targets>
+        <Duration>1 round</Duration>
+        <Description>Your litany rails against the sin of wrath, punishing the target for attacking good creatures. The target must attempt a Will save. A particularly wrathful creature, such as a wrath demon, uses the outcome one degree of success worse than the result of its saving throw. The target then becomes temporarily immune to all of your litanies for 1 minute.Critical Success The target is unaffected.Success The first time the target uses an action that deals damage to at least one good creature, the target takes 3d6 good damage.Failure Each time the target uses an action that deals damage to at least one good creature, the target takes 3d6 good damage.Critical Failure The target is enfeebled 2. Each time it uses an action that deals damage to at least one good creature, the target takes 3d6 good damage.</Description>
+        <Heightened every="1">The damage increases by 1d6.</Heightened>
+    </Spell>
+    <Spell page="405" type="Focus">
+        <Name>Swamp of Sloth</Name>
+        <Level>3</Level>
+        <Traits>Conjuration, Sorcerer</Traits>
+        <Cast>To</Cast>
+        <Range>120 feet</Range>
+        <Area>5-foot burst or more</Area>
+        <Duration>1 minute</Duration>
+        <Description>Ground in the area turns swampy and fetid. The area is difficult terrain. The sludge at the bottom of the morass animates into diminutive sludge beasts that have a demonic appearance. These don't function as normal creatures, but they swarm over creatures in the swamp and exude a noxious stench. The swamp deals 1d6 poison damage; creatures that end their turn in the area must attempt a basic Fortitude save. You can increase the number of actions it takes to Cast the Spell. For each additional action, increase the burst's radius by 5 feet.</Description>
+        <Heightened every="2">The damage increases by 1d6, and the initial radius increases by 5 feet.</Heightened>
+    </Spell>
+    <Spell page="401" type="Focus">
+        <Name>Abundant Step</Name>
+        <Level>4</Level>
+        <Traits>Conjuration, Monk, Teleportation</Traits>
+        <Cast>Somatic</Cast>
+        <Range>15 feet or more</Range>
+        <Description>You move so fast you blur across planar boundaries. You teleport up to a distance equal to your Speed within your line of sight.</Description>
+    </Spell>
+    <Spell page="389" type="Focus">
+        <Name>Artistic Flourish</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Transmutation</Traits>
+        <Cast>Material, Somatic</Cast>
+        <Range>15 feet</Range>
+        <Targets>1 item or work of art that fits entirely within the range</Targets>
+        <Duration>10 minutes</Duration>
+        <Description>You transform the target to make it match your artisanal and artistic vision. If you have expert proficiency in Crafting, the item grants a +1 item bonus to attack rolls if it's a weapon or skill checks if it's a skill tool. The target is a beautiful and impressive piece for its new quality, but the effect is obviously temporary, so its monetary value doesn't change. When you cast this spell, any previous artistic flourish you had cast ends.</Description>
+        <Heightened level="7">If you have master proficiency in Crafting, the item grants a +2 item bonus instead.
+        </Heightened>
+    </Spell>
+    <Spell page="389" type="Focus">
+        <Name>Captivating Adoration</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Emotion, Enchantment, Mental, Visual</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Area>15-foot emanation</Area>
+        <Duration>1 minute</Duration>
+        <Description>You become intensely entrancing, and creatures are distracted by you as long as they remain within the area. You can exclude any creatures you choose from the effects. When a creature enters the area for the first time, it must attempt a Will saving throw. If a creature leaves and reenters, it uses the results of its original save.Critical Success The creature is unaffected and temporarily immune for 1 hour.Success The creature is fascinated with you for its next action, then is temporarily immune for 1 hour.Failure The creature is fascinated with you.Critical Failure The creature is fascinated with you, and its attitude toward you improves by one step.</Description>
+        <Heightened every="1">Increase the size of the emanation by 15 feet.</Heightened>
+    </Spell>
+    <Spell page="390" type="Focus">
+        <Name>Commanding Lash</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Enchantment, Incapacitation, Mental</Traits>
+        <Cast>Verbal</Cast>
+        <Requirements>Your most recent action dealt damage to a target</Requirements>
+        <Range>100 feet</Range>
+        <Targets>A creature you dealt damage to on your most recent action.</Targets>
+        <Duration>until the end of your target's next turn</Duration>
+        <Description>With the threat of more pain, you compel a creature you've recently harmed. You issue a command to the target, with the effects of the spell command.</Description>
+    </Spell>
+    <Spell page="390" type="Focus">
+        <Name>Competitive Edge</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Emotion, Enchantment, Mental</Traits>
+        <Cast>Verbal</Cast>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>Your competitiveness drives you to prove yourself against the opposition. You gain a +1 status bonus to attack rolls and skill checks. If an enemy within 20 feet critically succeeds at an attack roll or skill check, your status bonus increases to +3 attack rolls or that specific skill check (whichever the foe critically succeeded at) for 1 round.</Description>
+        <Heightened
+                level="7">Increase the base bonus to +2 and the increased bonus after an enemy critically succeeds to +4.
+        </Heightened>
+    </Spell>
+    <Spell page="390" type="Focus">
+        <Name>Darkened Eyes</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Darkness, Transmutation</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>60 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>varies</Duration>
+        <Description>You infuse a creature's vision with darkness. After attempting its save, the target becomes temporarily immune for 24 hours.Critical Success The target is unaffected.Success The target's darkvision or low-light vision is suppressed for 1 round.Failure As success, but the duration is 1 minute.Critical Failure As success, but the duration is 1 minute, and the target is also blinded for the duration. It can attempt a new save at the end of each of its turns. If it succeeds, it's no longer blinded, but its darkvision or low-light vision remains suppressed.</Description>
+    </Spell>
+    <Spell page="391" type="Focus">
+        <Name>Delusional Pride</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Emotion, Enchantment, Mental</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>varies</Duration>
+        <Description>You make the target overconfident, leading it to ascribe failure to external factors. If the target fails at an attack roll or skill check, it takes a –1 status penalty to attack rolls and skill checks until the end of its turn (or the end of its next turn, if it attempted the roll outside its turn). If the creature fails a second time while taking this penalty, the penalty increases to –2. The duration depends on the target's Will save. After attempting its save, the creature becomes temporarily immune for 24 hours.Critical Success The target is unaffected.Success The duration is 1 round.Failure The duration is 10 minutes.Critical Failure The duration is 24 hours.</Description>
+    </Spell>
+    <Spell page="391" type="Focus">
+        <Name>Destructive Aura</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Evocation</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Area>15-foot emanation</Area>
+        <Duration>1 minute</Duration>
+        <Description>Swirling sands of divine devastation surround you, weakening the defenses of all they touch. Reduce the resistances of creatures in the area (including yourself) by 2.</Description>
+        <Heightened every="2">Reduce the resistances by an addition 2.</Heightened>
+    </Spell>
+    <Spell page="406" type="Focus">
+        <Name>Dimensional Steps</Name>
+        <Level>4</Level>
+        <Traits>Conjuration, Teleportation, Wizard</Traits>
+        <Cast>Somatic</Cast>
+        <Range>20 feet</Range>
+        <Description>You teleport to a location up to 20 feet away within your line of sight.</Description>
+        <Heightened every="1">The distance you can teleport increases by 5 feet.</Heightened>
+    </Spell>
+    <Spell page="391" type="Focus">
+        <Name>Disperse into Air</Name>
+        <Level>4</Level>
+        <Traits>Air, Cleric, Polymorph, Transmutation</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Description>After taking the triggering damage, you transform into air. Until the end of the current turn, you can't be attacked or targeted, you don't take up space, you can't act, and any auras or emanations you have are suppressed. At the end of the turn, you re-form in any space you can occupy within 15 feet of where you were when you dispersed. Any auras or emanations you had are restored as long as their duration didn't run out while you were dispersed.</Description>
+    </Spell>
+    <Spell page="391" type="Focus">
+        <Name>Downpour</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Evocation, Water</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>120 feet</Range>
+        <Area>30-foot burst</Area>
+        <Duration>1 minute</Duration>
+        <Description>You call forth a torrential downpour, which extinguishes nonmagical flames. Creatures in the area are concealed and gain fire resistance 10. Creatures outside the area are concealed to those inside the area. Creatures with weakness to water that end their turns in the area take damage equal to their weakness.</Description>
+        <Heightened every="1">The fire resistance increases by 2.</Heightened>
+    </Spell>
+    <Spell page="406" type="Focus">
+        <Name>Dread Aura</Name>
+        <Level>4</Level>
+        <Traits>Emotion, Enchantment, Fear, Mental, Wizard</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Area>30-foot-radius emanation centered on you</Area>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>You emit an aura of terror. Foes in the area are frightened 1 and unable to reduce the condition.</Description>
+    </Spell>
+    <Spell page="391" type="Focus">
+        <Name>Dreamer's Call</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Enchantment, Incapacitation, Mental</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>until the end of the target's next turn</Duration>
+        <Description>The target becomes distracted and suggestible, inundated by vivid daydreams.Critical Success The target is unaffected.Success The target's attention wavers. It becomes flat-footed and fascinated by its daydreams.Failure As success, except that you appear in the dream and give a suggestion. This can be to approach you, run away (as if it had the fleeing condition), Release what it's holding, Drop Prone, or stand in place. The creature follows this course of action as its first action after you Cast the Spell.Critical Failure As failure, but the target follows the course of action for as many actions as possible for the spell's duration, and it does nothing else.</Description>
+    </Spell>
+    <Spell page="406" type="Focus">
+        <Name>Elemental Tempest</Name>
+        <Level>4</Level>
+        <Traits>Evocation, Metamagic, Wizard</Traits>
+        <Cast>Verbal</Cast>
+        <Description>Your spellcasting surrounds you in a storm of elemental energy. If the next action you take is to Cast a Spell from your wizard spell slots that's an evocation spell dealing acid, cold, electricity, or fire damage, a 10-foot emanation of energy surrounds you as you cast the spell. Foes in the area take 1d6 damage per spell level of the spell you just cast of the same damage type the spell deals (choose one if it deals multiple types). Combine the damage from both elemental tempest and the other spell against foes who take damage from both before applying bonuses, penalties, resistance, weakness, and the like.</Description>
+    </Spell>
+    <Spell page="392" type="Focus">
+        <Name>Enduring Might</Name>
+        <Level>4</Level>
+        <Traits>Abjuration, Cleric</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Description>Your own might mingles with divine power to protect you. You gain resistance equal to 8 plus your Strength modifier against all damage from the triggering attack or effect.</Description>
+        <Heightened every="1">The resistance increases by 2.</Heightened>
+    </Spell>
+    <Spell page="407" type="Focus">
+        <Name>Energy Absorption</Name>
+        <Level>4</Level>
+        <Traits>Abjuration, Wizard</Traits>
+        <Cast>Reaction (Verbal)</Cast>
+        <Description>You gain resistance 15 to acid, cold, electricity, or fire damage from the triggering effect (one type of your choice). The resistance applies only to the triggering effect's initial damage.</Description>
+        <Heightened every="1">The resistance increases by 5.</Heightened>
+    </Spell>
+    <Spell page="392" type="Focus">
+        <Name>Eradicate Undeath</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Necromancy, Positive</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Area>30-foot cone</Area>
+        <Description>A massive deluge of life energy causes the undead to fall apart. Each undead creature in the area takes 4d12 positive damage.</Description>
+        <Heightened every="1">The damage increases by 1d12.</Heightened>
+    </Spell>
+    <Spell page="392" type="Focus">
+        <Name>Flame Barrier</Name>
+        <Level>4</Level>
+        <Traits>Abjuration, Cleric</Traits>
+        <Cast>Reaction (Verbal)</Cast>
+        <Range>60 feet</Range>
+        <Targets>the creature that would take fire damage</Targets>
+        <Description>You swiftly deflect incoming flames. The target gains fire resistance 15 against the triggering effect.</Description>
+        <Heightened every="2">The resistance increases by 5.</Heightened>
+    </Spell>
+    <Spell page="393" type="Focus">
+        <Name>Glimpse the Truth</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Divination, Revelation</Traits>
+        <Cast>Somatic</Cast>
+        <Area>30-foot emanation</Area>
+        <Duration>1 round</Duration>
+        <Description>Divine insight lets you see things as they truly are. The GM attempts a secret counteract check against each illusion that is at least partially within the area. Instead of counteracting the illusion, you see through it (for instance, if the check succeeds against an illusory disguise spell, you see the creature's true form but illusory disguise doesn't end). The area moves with you for the duration of the spell, and the GM attempts a secret counteract check each time a new illusion is within the area.</Description>
+        <Heightened level="7">You can allow everyone to see through illusions you succeed against, not just yourself.
+        </Heightened>
+    </Spell>
+    <Spell page="387" type="Focus">
+        <Name>Inspire Heroics</Name>
+        <Level>4</Level>
+        <Traits>Bard, Enchantment</Traits>
+        <Cast>Free (Verbal)</Cast>
+        <Description>You call upon your muse to greatly increase the benefits you provide to your allies with your inspire courage or inspire defense composition. If your next action is to cast inspire courage or inspire defense, attempt a Performance check. The DC is usually a very hard DC of a level equal to that of the highest-level target of your composition, but the GM can assign a different DC based on the circumstances. The effect of your inspire courage or inspire defense composition depends on the result of your check.Critical Success The status bonus from your inspire courage or inspire defense increases to +3.Success The status bonus from inspire courage or inspire defense increases to +2.Failure Your inspire courage or inspire defense provides only its normal bonus of +1, but you don't spend the Focus Point for casting this spell.</Description>
+    </Spell>
+    <Spell page="407" type="Focus">
+        <Name>Invisibility Cloak</Name>
+        <Level>4</Level>
+        <Traits>Illusion, Wizard</Traits>
+        <Cast>Somatic</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You become invisible, with the same restrictions as the 2nd-level invisibility spell.</Description>
+        <Heightened level="6">The duration increases to 10 minutes.</Heightened>
+    </Spell>
+    <Spell page="393" type="Focus">
+        <Name>Know the Enemy</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Divination, Fortune</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Description>Use a Recall Knowledge action, rolling the appropriate skill check to identify the triggering creature's abilities. You can roll your check twice and use the better result.</Description>
+    </Spell>
+    <Spell page="407" type="Focus">
+        <Name>Life Siphon</Name>
+        <Level>4</Level>
+        <Traits>Healing, Necromancy, Wizard</Traits>
+        <Cast>Reaction (Verbal)</Cast>
+        <Description>You use some of the spell's magic to heal yourself, regaining 1d8 Hit Points per level of the spell.</Description>
+    </Spell>
+    <Spell page="393" type="Focus">
+        <Name>Localized Quake</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Earth, Transmutation</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Area>15-foot emanation or 15-foot cone</Area>
+        <Description>You shake the earth, toppling nearby creatures. Choose whether the spell's area is a 15-foot emanation or a 15-foot cone when you cast it. Each creature in the area standing on solid ground may take 4d6 bludgeoning damage and must attempt a Reflex saving throw.Critical Success The creature is unaffected.Success The creature takes half damage.Failure The creature takes full damage and falls prone.Critical Failure The creature takes full damage and falls prone.</Description>
+        <Heightened every="1">Increase the damage by 2d6.</Heightened>
+    </Spell>
+    <Spell page="393" type="Focus">
+        <Name>Lucky Break</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Divination, Fortune</Traits>
+        <Cast>Reaction (Verbal)</Cast>
+        <Description>Reroll the saving throw and use the better result. You then become temporarily immune for 10 minutes.</Description>
+    </Spell>
+    <Spell page="394" type="Focus">
+        <Name>Malignant Sustenance</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Necromancy, Negative</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>touch</Range>
+        <Targets>1 willing undead creature</Targets>
+        <Duration>1 minute</Duration>
+        <Description>You embed a seed of negative energy in an undead creature, restoring its unnatural vigor. The target gains fast healing 7. This healing comes from negative energy, so it heals the undead rather than damaging it.</Description>
+        <Heightened every="1">The fast healing increases by 2.</Heightened>
+    </Spell>
+    <Spell page="394" type="Focus">
+        <Name>Mystic Beacon</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Evocation</Traits>
+        <Cast>Somatic</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 willing creature</Targets>
+        <Duration>until the start of your next turn</Duration>
+        <Description>The next damaging or healing spell the target casts before the start of your next turn deals damage or restores Hit Points as if the spell were heightened 1 level higher than its actual level. The spell otherwise functions at its actual level. Once the target casts the spell, mystic beacon ends.</Description>
+    </Spell>
+    <Spell page="394" type="Focus">
+        <Name>Nature's Bounty</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Conjuration, Plant, Positive</Traits>
+        <Cast>Somatic</Cast>
+        <Requirements>You have a free hand.</Requirements>
+        <Description>A palm-sized raw fruit or vegetable appears in your open hand. You choose the specific type of food. A creature can consume the food with an Interact action to regain 3d10+12 Hit Points and be nourished as if it had eaten a meal. If uneaten, the food rots and crumbles to dust after 1 minute.</Description>
+        <Heightened every="1">The Hit Points restored increase by 6.</Heightened>
+    </Spell>
+    <Spell page="394" type="Focus">
+        <Name>Perfected Form</Name>
+        <Level>4</Level>
+        <Traits>Abjuration, Cleric, Fortune</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Description>Reroll the saving throw and use the better result.</Description>
+    </Spell>
+    <Spell page="394" type="Focus">
+        <Name>Positive Luminance</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Light, Necromancy, Positive</Traits>
+        <Cast>Somatic</Cast>
+        <Duration>1 minute</Duration>
+        <Description>Drawing life force into yourself, you become a beacon of positive energy. You glow with bright light in a 10-foot emanation, and you gain an internal pool of light called a luminance reservoir, which begins with a value of 4. At the start of each of your turns, you can use a free action to increase the luminance reservoir by 4. If you do, the radius of your light increases by 10 feet. If an undead creature damages you with an attack or spell while it's within the area of your light, that creature takes positive damage equal to half your luminance reservoir value. It takes this damage only the first time it damages you in a round. You can Dismiss this Spell. When you do, you can target a creature within your light and direct the positive energy into it. The target must be a willing living creature or an undead creature. This heals a living target or damages an undead target by an amount equal to your luminance reservoir's value.When you cast positive luminance, any other positive luminance spell you already had in effect ends.
+        </Description>
+        <Heightened
+                every="1">Both the initial value of your luminance reservoir and the amount you gain each turn increase by 1.
+        </Heightened>
+    </Spell>
+    <Spell page="395" type="Focus">
+        <Name>Precious Metals</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Transmutation</Traits>
+        <Cast>Material</Cast>
+        <Range>touch</Range>
+        <Targets>1 metal weapon, up to 10 pieces of metal or metal-tipped ammunition, 1 suit of metal armor, or up to 1 bulk of metal material (such as coins)</Targets>
+        <Duration>1 minute</Duration>
+        <Description>Your deity blesses base metals to transform them into precious materials. The target item transforms from its normal metal into cold iron, copper, gold, iron, silver, or steel (the details for these metals are found on pages 577–579). An item transmuted in this way deals damage according to its new material. For example, a steel sword transmuted to cold iron would deal additional damage to a creature with a weakness to cold iron. This change is clearly magical and temporary, so the item's monetary value doesn't change; you couldn't transmute copper coins to gold and use those coins to purchase something or as a cost for a spell.</Description>
+        <Heightened
+                level="8">Add adamantine (page 578) and mithral (page 579) to the list of metals you can transform the item into.
+        </Heightened>
+    </Spell>
+    <Spell page="395" type="Focus">
+        <Name>Protector's Sphere</Name>
+        <Level>4</Level>
+        <Traits>Abjuration, Cleric</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Area>15-foot emanation</Area>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>A protective aura emanates out from you, safeguarding you and your allies. You gain resistance 3 to all damage. Your allies also gain this resistance while they are within the area.</Description>
+        <Heightened every="1">The resistance increases by 1.</Heightened>
+    </Spell>
+    <Spell page="395" type="Focus">
+        <Name>Pulse of the City</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Divination, Scrying</Traits>
+        <Cast>Material, Somatic, Verbal</Cast>
+        <Range>25 miles</Range>
+        <Description>You tap into the zeitgeist of the nearest settlement in range (if any). You learn the name of the settlement, and you can utter a special word to learn a brief summary of one significant event happening in the settlement. Choose one of the following words, which indicates the type of people involved and type of event you learn about. Wardens city guards, barristers, and judges (criminal reports, busts, changes in routines, legal trials) Titles nobles and politicians (high society weddings, elite soirees, political rallies) Masses common folk and merchants (gathering mobs, major sales) When uttering your word, you can exclude events you already know about, whether you know about them from this spell or from other experiences. If you cast pulse of the city again within 24 hours, you can say “echo” instead of another word to get an update on the event you learned about the last time you Cast the Spell. Pulse of the city reveals only publicly available or observable information. You never learn clandestine movements or other details people are specifically trying to hide. The spell is also notoriously bad at overcoming magic meant to avoid detection; it automatically fails to reveal information about events involving creatures, places, or objects affected by spells that could prevent or counteract pulse of the city (such as nondetection).
+        </Description>
+        <Heightened level="5">The range increases to 100 miles.</Heightened>
+    </Spell>
+    <Spell page="396" type="Focus">
+        <Name>Rebuke Death</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Healing, Necromancy, Positive</Traits>
+        <Cast>To</Cast>
+        <Area>20-foot emanation</Area>
+        <Targets>1 living creature per action spent to cast this spell</Targets>
+        <Description>You snatch creatures from the jaws of death. You can spend 1 to 3 actions Casting this Spell, and you can target a number of creatures equal to the actions spent. Each target regains 3d6 Hit Points. If the target had the dying condition, coming back from dying due to this healing doesn't increase its wounded condition.</Description>
+        <Heightened every="1">Increase the healing by 1d6.</Heightened>
+    </Spell>
+    <Spell page="396" type="Focus">
+        <Name>Retributive Pain</Name>
+        <Level>4</Level>
+        <Traits>Abjuration, Cleric, Mental, Nonlethal</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>the triggering creature</Targets>
+        <Description>You vengefully reflect your pain upon your tormentor. The target takes mental damage equal to half the amount it dealt to you when it triggered the spell.</Description>
+    </Spell>
+    <Spell page="396" type="Focus">
+        <Name>Safeguard Secret</Name>
+        <Level>4</Level>
+        <Traits>Abjuration, Cleric, Mental</Traits>
+        <Cast>1 Minute (Somatic, Verbal)</Cast>
+        <Range>10 feet</Range>
+        <Targets>you and any number of willing allies</Targets>
+        <Duration>1 hour</Duration>
+        <Description>You ensure a secret remains safe from prying spies. Choose one piece of information that at least some of the targets know; you can target a creature only if it remains within range for the full minute during which you Cast the Spell. The spell grants those who know the piece of knowledge you have chosen a +4 status bonus to skill checks (typically Deception checks) to conceal this knowledge and to saving throws against spells that specifically attempt to obtain this knowledge from them and effects that would force them to reveal it. If you Cast this Spell again, any previous safeguard secret you had cast ends.</Description>
+    </Spell>
+    <Spell page="396" type="Focus">
+        <Name>Shared Nightmare</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Emotion, Enchantment, Incapacitation, Mental</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>varies</Duration>
+        <Description>Merging minds with the target, you swap disorienting visions from one another's nightmares. One of you will become confused, but which it'll be depends on the target's Will save.Critical Success You are confused for 1 round.Success At the start of your next turn, you spend your first action with the confused condition, then act normally.Failure As success, but the target is affected instead of you, spending its first action each turn confused. The duration is 1 minute.Critical Failure The target is confused for 1 minute.</Description>
+    </Spell>
+    <Spell page="407" type="Focus">
+        <Name>Shifting Form</Name>
+        <Level>4</Level>
+        <Traits>Morph, Transmutation, Wizard</Traits>
+        <Cast>Somatic</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You gain one of the following abilities of your choice. You can Dismiss this spell. You gain a 20-foot status bonus to your Speed. You gain a climb or swim Speed equal to half your Speed. You gain darkvision. You gain a pair of claws. These are agile finesse unarmed attacks that deal 1d8 slashing damage. You gain scent 60 feet (imprecise).</Description>
+    </Spell>
+    <Spell page="400" type="Focus">
+        <Name>Stormwind Flight</Name>
+        <Level>4</Level>
+        <Traits>Air, Druid, Transmutation</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>Powerful winds carry you smoothly through the air, giving you a fly Speed equal to your Speed. When this spell's duration would end, if you're still flying, you float to the ground, as feather fall.</Description>
+        <Heightened level="6">When you fly using</Heightened>
+        <Heightened level="1">, you don't count flying against the wind as difficult terrain.</Heightened>
+    </Spell>
+    <Spell page="397" type="Focus">
+        <Name>Take its Course</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Necromancy</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>touch</Range>
+        <Targets>1 creature</Targets>
+        <Description>When someone has overindulged, you can hasten them past the worst of their affliction or intensify their misery. This spell attempts to progress a disease affliction, a poison affliction, or persistent poison damage affecting the target. If the target is affected by more than one of these, you can choose from among those you are aware of; otherwise the GM chooses randomly. An unwilling target can attempt a Will save to negate take its course. The effect of this spell depends on whether you're attempting to end an affliction or persistent poison damage, and whether you are attempting to help or hinder the target's recovery. Affliction The target immediately attempts its next saving throw against the affliction. You can grant the creature your choice of a +2 status bonus or a –2 status penalty to its saving throw against the affliction. Persistent Poison You can cause the target take the persistent poison damage immediately when you Cast this Spell (in addition to taking it at the end of its next turn). Whether or not you do so, the target attempts an additional flat check against the persistent poison damage. You can set the DC of that flat check to 5 or 20 instead of the normal DC.
+        </Description>
+        <Heightened
+                level="7">You can attempt to progress any number of the target's eligible afflictions and persistent poison damage.
+        </Heightened>
+    </Spell>
+    <Spell page="397" type="Focus">
+        <Name>Tempt Fate</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Divination, Fortune</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Range>120 feet</Range>
+        <Targets>the triggering creature</Targets>
+        <Description>You twist the forces of fate to make a moment dire or uneventful, with no in-between. The target gains a +1 status bonus to the triggering saving throw. If the saving throw's result is a success, it becomes a critical success. If it's a failure, it becomes a critical failure, and the critical failure can't be reduced by abilities that usually reduce critical failure, such as improved evasion. If the triggering ability did not have both a critical success and critical failure condition, tempt fate fails, but you don't expend the Focus Point for Casting this Spell.</Description>
+        <Heightened level="8">The bonus on the saving throw is +2.</Heightened>
+    </Spell>
+    <Spell page="398" type="Focus">
+        <Name>Touch of the Moon</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Enchantment, Light</Traits>
+        <Cast>Somatic</Cast>
+        <Range>touch</Range>
+        <Targets>1 creature</Targets>
+        <Duration>1 minute</Duration>
+        <Description>When you touch the target, a symbol of the moon appears on its forehead, glowing with soft moonlight. The target glows with dim light in a 20-foot radius. It also gets a benefit based on a phase of the moon, starting with the new moon and changing to the next phase at the end of each of its turns. New Moon The target receives no benefit. Waxing Moon The target gains a +1 status bonus to attack rolls and a +4 status bonus to damage rolls. Full Moon The target gains a +1 status bonus to attack rolls, AC, and saving throws and a +4 status bonus to damage rolls. Waning Moon The target gains a +1 status bonus to AC and saving throws. After this phase, return to the new moon.</Description>
+    </Spell>
+    <Spell page="398" type="Focus">
+        <Name>Traveler's Transit</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Evocation</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You add power to your muscles, allowing you to swim or climb walls with ease. When you cast this spell, you gain either a climb Speed or a swim Speed. The Speed is equal to your land Speed.</Description>
+        <Heightened level="5">You can choose to gain a fly Speed.</Heightened>
+    </Spell>
+    <Spell page="398" type="Focus">
+        <Name>Trickster's Twin</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Illusion, Visual</Traits>
+        <Cast>Material, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>1 minute</Duration>
+        <Description>You rarely settle for being in just one place. Choose a location within 100 feet of the target that the target can see. You create an illusion of yourself there that only it can see and that mimics all your actions. The target must attempt a Will save.Critical Success The target is unaffected.Success The target believes you're in the designated location and can't see you in your actual location. The target automatically disbelieves the illusion when you use an action that doesn't make sense in the illusion's position, or if the target attacks, touches, Seeks, or otherwise engages with the illusion. If you use a hostile action against the target, the spell ends.Failure As success, but the target must succeed at a Will save to disbelieve the illusion when one of the listed events occurs.Critical Failure As success, but the target must critically succeed at a Will save to disbelieve when one of the listed events occurs.</Description>
+    </Spell>
+    <Spell page="398" type="Focus">
+        <Name>Unity</Name>
+        <Level>4</Level>
+        <Traits>Abjuration, Cleric, Fortune</Traits>
+        <Cast>Reaction (Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>each ally targeted by the triggering spell</Targets>
+        <Description>You put up a united defense. Each ally can use your saving throw modifier instead of its own against the triggering spell. Each ally decides individually which modifier to use.</Description>
+    </Spell>
+    <Spell page="407" type="Focus">
+        <Name>Vigilant Eye</Name>
+        <Level>4</Level>
+        <Traits>Divination, Wizard</Traits>
+        <Cast>Somatic</Cast>
+        <Range>500 feet</Range>
+        <Duration>1 hour</Duration>
+        <Description>You create an invisible eye sensor, as clairvoyance. When created, this eye must be in your line of sight. When the spell's duration ends, you can spend 1 Focus Point as a free action to extend the duration for another hour, though as normal, it ends immediately during your next daily preparations.</Description>
+    </Spell>
+    <Spell page="402" type="Focus">
+        <Name>Wild Winds Stance</Name>
+        <Level>4</Level>
+        <Traits>Air, Evocation, Monk, Stance</Traits>
+        <Cast>Somatic</Cast>
+        <Duration>until you leave the stance</Duration>
+        <Description>You take on the stance of the flowing winds, sending out waves of energy at a distance. You can make wind crash unarmed Strikes as ranged Strikes against targets within 30 feet. These deal 1d6 bludgeoning damage, use the brawling group, and have the agile, nonlethal, propulsive, and unarmed traits. Wind crash Strikes ignore concealment and all cover. While in wild winds stance, you gain a +2 circumstance bonus to AC against ranged attacks.</Description>
+    </Spell>
+    <Spell page="399" type="Focus">
+        <Name>Word of Freedom</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Enchantment, Mental</Traits>
+        <Cast>Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>1 round</Duration>
+        <Description>You utter a liberating word of power that frees a creature. You suppress one of the following conditions of your choice: confused, frightened, grabbed, or paralyzed. The target isn't affected by the chosen condition, and if you suppress the grabbed condition, the target automatically breaks free from any grab affecting it when you Cast the Spell. If you don't remove the effect that provided the condition, the condition returns after the spell ends. For example, if a spell was making the target confused for 1 minute, word of freedom would let the target act normally for a round, but the confused condition would return afterward.</Description>
+    </Spell>
+    <Spell page="399" type="Focus">
+        <Name>Zeal for Battle</Name>
+        <Level>4</Level>
+        <Traits>Cleric, Emotion, Enchantment, Fortune, Mental</Traits>
+        <Cast>Reaction (Verbal)</Cast>
+        <Range>10 feet</Range>
+        <Targets>you and the triggering ally</Targets>
+        <Description>You stoke the righteous anger within yourself and an ally. You and the target ally each roll a d20 and use the higher result for both your initiative rolls. You each still use your own Perception modifier or other statistic to determine your results.</Description>
+    </Spell>
+    <Spell page="402" type="Focus">
+        <Name>Abyssal Wrath</Name>
+        <Level>5</Level>
+        <Traits>Evocation, Sorcerer</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Area>60-foot cone</Area>
+        <Description>You evoke the energy of an Abyssal realm. The damage types of the spell (one energy and one physical) are based on the result of rolling on the table below. Abyssal Wrath1d4 Realm Manifestation Damage Type 1 Skies Bolts and lightning and flying debris Bludgeoning and electricity 2 Depths Acid and demonic shells Acid and slashing 3 Frozen Frigid air and ice Bludgeoning and cold 4 Volcanic Jagged volcanic rocks and magma Fire and piercingYou deal 4d6 damage of each of the corresponding damage types to each creature in the cone (8d6 total damage).</Description>
+        <Heightened every="1">The damage for each type increases by 1d6.</Heightened>
+    </Spell>
+    <Spell page="403" type="Focus">
+        <Name>Arcane Countermeasure</Name>
+        <Level>5</Level>
+        <Traits>Abjuration, Sorcerer</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Range>120 feet</Range>
+        <Targets>the spell cast by the triggering creature</Targets>
+        <Description>You undermine the target spell, making it easier to defend against. You reduce the spell's level by 1, and targets of the spell gain a +2 status bonus to any saving throws, skill checks, AC, or DC against it. You can't reduce the spell's level below its minimum. For example, a 5th-level cone of cold would remain 5th-level, but a 5th-level fireball would become 4th-level. Targets still gain all the other benefits, even if you don't reduce the spell's level.</Description>
+    </Spell>
+    <Spell page="403" type="Focus">
+        <Name>Celestial Brand</Name>
+        <Level>5</Level>
+        <Traits>Curse, Necromancy, Sorcerer</Traits>
+        <Cast>Somatic</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 evil creature</Targets>
+        <Duration>1 round</Duration>
+        <Description>A blazing symbol appears on the target, marking it for divine justice. You and your allies receive a +1 status bonus to your attack rolls and skill checks against it. Anytime a good creature damages it, the good creature deals an additional 1d4 good damage. The target is then temporarily immune for 1 minute.</Description>
+        <Heightened every="2">The good damage increases by 1.</Heightened>
+    </Spell>
+    <Spell page="403" type="Focus">
+        <Name>Dragon Wings</Name>
+        <Level>5</Level>
+        <Traits>Morph, Sorcerer, Transmutation</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>Leathery wings sprout from your back, giving you a fly Speed of 60 feet or your Speed, whichever is faster. When this spell's duration would end, if you're still flying, you float to the ground, as feather fall. You can increase the Focus Point cost by 1 to gain the effects of dragon claws as long as the wings last.</Description>
+        <Heightened level="8">The duration increases to 10 minutes.</Heightened>
+    </Spell>
+    <Spell page="404" type="Focus">
+        <Name>Elemental Blast</Name>
+        <Level>5</Level>
+        <Traits>Evocation, Sorcerer</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>30 feet (burst only)</Range>
+        <Area>10-foot-radius burst, 30-foot cone, or 60-foot line</Area>
+        <Description>You gather elemental energy and blast your foes in one of the various listed shapes of your choosing, dealing 8d6 bludgeoning damage (or fire damage if your element is fire). This spell has your element's trait.</Description>
+        <Heightened every="1">The damage increases by 2d6.</Heightened>
+    </Spell>
+    <Spell page="404" type="Focus">
+        <Name>Fey Glamour</Name>
+        <Level>5</Level>
+        <Traits>Illusion, Sorcerer</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Area>30-foot burst or</Area>
+        <Targets>up to 10 creatures</Targets>
+        <Duration>10 minutes</Duration>
+        <Description>You call upon fey glamours to cloak an area or the targets in illusion. This has the effect of either illusory scene on the area or veil on the creatures, as if heightened to a level 1 level lower than fey glamour, using fey glamour's range and duration.</Description>
+    </Spell>
+    <Spell page="404" type="Focus">
+        <Name>Grasping Grave</Name>
+        <Level>5</Level>
+        <Traits>Necromancy, Sorcerer</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>60 feet</Range>
+        <Area>20-foot radius on the ground</Area>
+        <Description>Hundreds of skeletal arms erupt from the ground in the area, clawing at creatures within and attempting to hold them in place. The skeletal arms deal 6d6 slashing damage. Each creature in the area must attempt a Reflex save.Critical Success The creature is unaffected.Success The creature takes half damage.Failure The creature takes full damage and a –10-foot circumstance penalty to its Speeds for 1 round.Critical Failure The creature takes double damage and is immobilized for 1 round or until it Escapes.</Description>
+        <Heightened every="1">The damage increases by 2d6.</Heightened>
+    </Spell>
+    <Spell page="405" type="Focus">
+        <Name>Hellfire Plume</Name>
+        <Level>5</Level>
+        <Traits>Evil, Evocation, Fire, Sorcerer</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>60 feet</Range>
+        <Area>10-foot radius, 60-foot-tall cylinder</Area>
+        <Description>You call forth a plume of hellfire that erupts from below, dealing 4d6 fire damage and 4d6 evil damage.</Description>
+        <Heightened every="1">The fire damage increases by 1d6, and the evil damage increases by 1d6.</Heightened>
+    </Spell>
+    <Spell page="388" type="Focus">
+        <Name>Litany against Sloth</Name>
+        <Level>5</Level>
+        <Traits>Champion, Evocation, Good, Litany</Traits>
+        <Cast>Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 evil creature</Targets>
+        <Duration>1 round</Duration>
+        <Description>Your litany rails against the sin of sloth, interfering with the target's ability to react. The target must attempt a Will save. A particularly slothful creature, such as a sloth demon, uses the outcome one degree of success worse than the result of its saving throw. The target becomes temporarily immune to all of your litanies for 1 minute. Critical Success The target is unaffected. Success The target can't use reactions. Failure The target can't use reactions and is slowed 1. Critical Failure The target can't use reactions and is slowed 2.</Description>
+    </Spell>
+    <Spell page="405" type="Focus">
+        <Name>Unusual Anatomy</Name>
+        <Level>5</Level>
+        <Traits>Polymorph, Sorcerer, Transmutation</Traits>
+        <Cast>Somatic</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You transform your flesh and organs into a bizarre amalgam of glistening skin, rough scales, tufts of hair, and tumorous protuberances. This has three effects: You gain resistance 10 to precision damage and resistance 10 to extra damage from critical hits. If the resistance is greater than the extra damage, it reduces the extra damage to 0 but doesn't reduce the attack's normal damage. You gain darkvision. Acid oozes from your skin. Any creature that hits you with an unarmed attack or with a non-reach melee weapon takes 2d6 acid damage.</Description>
+        <Heightened every="2">The resistances increase by 5, and the acid damage increases by 1d6.</Heightened>
+    </Spell>
+    <Spell page="402" type="Focus">
+        <Name>Wind Jump</Name>
+        <Level>5</Level>
+        <Traits>Air, Monk, Transmutation</Traits>
+        <Cast>Verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You gain a fly Speed equal to your Speed. You must end your turn on solid ground, or you fall.</Description>
+        <Heightened
+                level="6">At the end of your turn, you can attempt a DC 30 Acrobatics check to find purchase in midair. If you succeed, you don't fall.
+        </Heightened>
+    </Spell>
+    <Spell page="406" type="Focus">
+        <Name>You're Mine</Name>
+        <Level>5</Level>
+        <Traits>Emotion, Enchantment, Incapacitation, Mental, Sorcerer</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>1 round</Duration>
+        <Description>You manipulate the target's emotions, potentially allowing you to control it for a brief instant. The target must attempt a Will save.Critical Success The target is unaffected.Success The target is stunned 1.Failure On the target's next turn, it's stunned 1 and you partially control it, causing it to take a single action of your choice. If it has actions left, it can act normally.Critical Failure The target is controlled for 1 round.</Description>
+        <Heightened
+                level="7">On a failure, the target is controlled for 1 round. On a critical failure, the target is controlled for up to 1 minute; it receives a new Will save at the end of each of its turns, and on a success, the spell ends.
+        </Heightened>
+    </Spell>
+    <Spell page="387" type="Focus">
+        <Name>Champion's Sacrifice</Name>
+        <Level>6</Level>
+        <Traits>Abjuration, Champion</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 ally</Targets>
+        <Description>You form a link with an ally, allowing you to take harm in their stead. All the effects of the hit or failed save are applied to you instead of the ally. For example, if the target critically fails a saving throw against a fireball, you would take double damage. These effects ignore any resistances, immunities, or other abilities you have that might mitigate them in any way, although those of the target apply before you take the effect.</Description>
+    </Spell>
+    <Spell page="400" type="Focus">
+        <Name>Primal Summons</Name>
+        <Level>6</Level>
+        <Traits>Conjuration, Druid</Traits>
+        <Cast>Free (Verbal)</Cast>
+        <Description>You enhance a summoned creature with the power of the elements. If your next action is to cast either summon animal or summon plant or fungus, choose air, earth, fire, or water, and the creature you summon gains the corresponding abilities. Air The creature gains a fly Speed of 60 feet. Earth The creature gains a burrow Speed of 20 feet, reduces its land Speed by 10 feet (minimum 5 feet), and gains resistance 5 to physical damage. Fire The creature's attacks deal 1d6 extra fire damage, and it gains resistance 10 to fire and weakness 5 to cold and water. Water The creature gains a swim Speed of 60 feet, can spend 1 action after a melee attack to attempt a Shove (ignoring multiple attack penalty), and gains resistance 5 to fire.</Description>
+    </Spell>
+    <Spell page="388" type="Focus">
+        <Name>Litany of Righteousness</Name>
+        <Level>7</Level>
+        <Traits>Champion, Evocation, Good, Litany</Traits>
+        <Cast>Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 evil creature</Targets>
+        <Duration>1 round</Duration>
+        <Description>Your litany denounces an evildoer, rendering it susceptible to the powers of good. The target gains weakness 7 to good. The target then becomes temporarily immune to all of your litanies for 1 minute.</Description>
+        <Heightened every="1">The weakness increases by 1.</Heightened>
+    </Spell>
+    <Spell page="387" type="Focus">
+        <Name>Soothing Ballad</Name>
+        <Level>7</Level>
+        <Traits>Bard, Composition, Emotion, Enchantment, Healing, Mental</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>you and up to 9 allies</Targets>
+        <Description>You draw upon your muse to soothe your allies. Choose one of the following three effects: The spell attempts to counteract fear effects on the targets. The spell attempts to counteract effects imposing paralysis on the targets. The spell restores 7d8 Hit Points to the targets.</Description>
+        <Heightened every="1">When used to heal,</Heightened>
+        <Heightened level="1">restores 1d8 more Hit Points.</Heightened>
+    </Spell>
+    <Spell page="400" type="Focus">
+        <Name>Impaling Briars</Name>
+        <Level>8</Level>
+        <Traits>Conjuration, Druid, Plant</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Area>ground within a 100-foot emanation</Area>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>The ground within the area transforms into a mass of dangerous briars that assault and impede your foes. Each round when you Sustain the Spell, you can select one of the following effects to occur in the area. Ensnare The briars clump around your foes, attempting to hold them in place. A foe within the area (or flying at most 20 feet above the area) must attempt a Reflex save. On a failure, it takes a –10-foot circumstance penalty to all Speeds for 1 round, and on a critical failure, it is immobilized for 1 round unless it Escapes. Impede The briars twist and writhe, making the entire area difficult terrain. Wall A wall of thorns appears in the area, lasting for 1 round. The wall is greater difficult terrain instead of difficult terrain. In addition, once per round you can direct the briars to impale any target in the area (or flying up to 20 feet above the area) that you can see by using a single action, which has the concentrate and manipulate traits. Make a spell attack roll. On a success, the target takes 10d6 piercing damage and takes a –10-foot circumstance penalty to all Speeds for 1 round; on a critical success, the target is immobilized for 1 round unless it Escapes.
+        </Description>
+    </Spell>
+    <Spell page="401" type="Focus">
+        <Name>Quivering Palm</Name>
+        <Level>8</Level>
+        <Traits>Incapacitation, Monk, Necromancy</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Duration>1 month</Duration>
+        <Description>Make a melee unarmed Strike. If you hit and the target is alive, anytime during the duration, you can spend a single action, which has the auditory and concentrate traits, to speak a word of death that could instantly slay it. The target must attempt a Fortitude save.If you cast quivering palm again, the effects of any quivering palm you had previously cast end.Critical Success The target survives, the spell ends, and the target is then temporarily immune for 24 hours.Success The target is stunned 1 and takes 40 damage, the spell ends, and the target is then temporarily immune for 24 hours.Failure The target is stunned 3 and takes 80 damage. The spell's duration continues, but the target is then temporarily immune for 24 hours against being killed by quivering palm.Critical Failure The target dies.</Description>
+        <Heightened every="1">The damage increases by 10 on a failure, or 5 on a success.</Heightened>
+    </Spell>
+    <Spell page="401" type="Focus">
+        <Name>Empty Body</Name>
+        <Level>9</Level>
+        <Traits>Conjuration, Monk, Teleportation</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You turn ethereal, with the effects of ethereal jaunt, but you don't need to concentrate.</Description>
+    </Spell>
+    <Spell page="400" type="Focus">
+        <Name>Storm Lord</Name>
+        <Level>9</Level>
+        <Traits>Air, Druid, Electricity, Evocation</Traits>
+        <Cast>Somatic, Verbal</Cast>
+        <Requirements>You are outdoors and aboveground.</Requirements>
+        <Area>100-foot emanation</Area>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>The sky above you darkens in a matter of moments, swirling with ominous clouds punctuated by flashes of lighting. Each round when you Sustain the Spell, you can select one of the following effects to occur in the area. Calm No additional effect. Fog Heavy fog rolls in, concealing the area with the effects of obscuring mist. Rain Torrential rain falls from the sky, dousing ordinary flames. Creatures in the area take a –2 circumstance penalty to Acrobatics and Perception checks. Wind Powerful winds buffet the area in all directions. Ranged attacks take a –4 circumstance penalty, and all flying is against the wind and counts as moving through difficult terrain. In addition, once per round you can use a single action, which has the concentrate and manipulate traits, to call down a bolt of lightning, striking any target in range that you can see. You deal 10d6 electricity damage to the target; it must attempt a basic Reflex save. On a failure, it is also deafened for 1 round.</Description>
+    </Spell>
+    <Spell page="386" type="Focus">
+        <Name>Fatal Aria</Name>
+        <Level>10</Level>
+        <Traits>Bard, Composition, Death, Emotion, Enchantment, Mental</Traits>
+        <Cast>Verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Description>You perform music so perfect that the target may die of joy or sorrow. Once targeted, the creature becomes temporarily immune for 1 minute. The effect of the spell depends on the target's level and current Hit Points. 16th or Lower The target dies instantly. 17th If the target has 50 Hit Points or fewer, it dies instantly; otherwise, it drops to 0 Hit Points and becomes dying 1. 18th or Higher The target takes 50 damage. If this brings it to 0 Hit Points, it dies instantly.</Description>
+    </Spell>
+    <Spell page="387" type="Focus">
+        <Name>Hero's Defiance</Name>
+        <Level>10</Level>
+        <Traits>Champion, Healing, Necromancy, Positive</Traits>
+        <Cast>Free (Verbal)</Cast>
+        <Description>You shout in defiance, filling you with a sudden burst of healing. Just before applying the attack's damage, you recover 10d4+20 Hit Points. If this is enough to prevent the attack from bringing you to 0 Hit Points, you don't become unconscious or dying. Either way, cheating death is difficult, and you can't use hero's defiance again until you Refocus or the next time you prepare. Hero's defiance cannot be used against effects with the death trait or that would leave no remains, such as disintegrate.</Description>
+    </Spell>
+</pf2:spells>
