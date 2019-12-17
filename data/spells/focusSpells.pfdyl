@@ -187,7 +187,7 @@
         <Name>Counter Performance</Name>
         <Level>1</Level>
         <Traits>Bard, Composition, Enchantment, Fortune, Mental</Traits>
-        <Cast>Reaction (Somatic Or Verbal)</Cast>
+        <Cast>Reaction (Somatic)</Cast>
         <Area>60-foot emanation</Area>
         <Description>Your performance protects you and your allies. Roll a Performance check for a type you know: an auditory performance if the trigger was auditory, or a visual one for a visual trigger. You and allies in the area can use the better result between your Performance check and the saving throw.</Description>
     </Spell>
@@ -343,7 +343,7 @@
         <Name>Heal Animal</Name>
         <Level>1</Level>
         <Traits>Druid, Healing, Necromancy, Positive</Traits>
-        <Cast>To</Cast>
+        <Cast>Verbal, Somatic, Material</Cast>
         <Range>touch or 30 feet (see text)</Range>
         <Targets>1 willing living animal creature</Targets>
         <Description>You heal an animal's wounds, restoring 1d8 Hit Points to the target. The number of actions spent Casting this Spell determines its effect. somatic The spell has a range of touch. somatic, verbal The spell has a range of 30 feet and restores an additional 8 Hit Points to the target.</Description>
@@ -665,7 +665,7 @@
         <Name>Warped Terrain</Name>
         <Level>1</Level>
         <Traits>Illusion, Visual, Wizard</Traits>
-        <Cast>To</Cast>
+        <Cast>Verbal, Somatic, Material</Cast>
         <Range>60 feet</Range>
         <Area>5-foot burst or more</Area>
         <Duration>1 minute</Duration>
@@ -687,7 +687,7 @@
         <Name>Wild Morph</Name>
         <Level>1</Level>
         <Traits>Druid, Morph, Transmutation</Traits>
-        <Cast>To</Cast>
+        <Cast>Verbal, Somatic, Material</Cast>
         <Duration>1 minute</Duration>
         <Description>You morph your body based on your training, choosing one of the following effects based on your wild order feats. If you have Wild Shape, you can morph your hands into wild claws. Your hands transform into incredibly sharp claws. These claws are an unarmed attack you're trained in and deal 1d6 slashing damage each (agile, finesse). You can still hold and use items with your hands while they're transformed by this spell, but you cannot hold an item while attacking. If you have Insect Shape, you can instead transform your mouth into wild jaws, an unarmed attack you're trained in that deals 1d8 piercing damage. If you have Elemental Shape, you can morph your body to be partially composed of elemental matter, granting you resistance 5 to critical hits and precision damage. If you have Plant Shape, you can morph your arms into long vines, increasing your reach to 10 feet (or 15 feet with a reach weapon). If you have Soaring Shape, you can cast the spell as a two-action activity ( somatic, verbal) to grow wings from your back. These wings allow you to fly with a fly Speed of 30 feet.
         </Description>
@@ -726,7 +726,7 @@
         <Name>Aberrant Whispers</Name>
         <Level>3</Level>
         <Traits>Auditory, Enchantment, Mental, Sorcerer</Traits>
-        <Cast>To</Cast>
+        <Cast>Verbal, Somatic, Material</Cast>
         <Area>5-foot emanation or more</Area>
         <Targets>each foe in the area</Targets>
         <Duration>1 round</Duration>
@@ -812,7 +812,7 @@
         <Name>Ki Blast</Name>
         <Level>3</Level>
         <Traits>Evocation, Force, Monk</Traits>
-        <Cast>To</Cast>
+        <Cast>Verbal, Somatic, Material</Cast>
         <Area>15-foot cone or more</Area>
         <Description>You unleash your ki as a powerful blast of force that deals 2d6 force damage. If you use 2 actions to cast ki blast, increase the size of the cone to 30 feet and the damage to 3d6. If you use 3 actions to cast ki blast, increase the size of the cone to 60 feet and the damage to 4d6. Each creature in the area must attempt a Fortitude saving throw.Critical Success The creature is unaffected.Success The creature takes half damage.Failure The creature takes full damage and is pushed 5 feet.Critical Failure The creature takes double damage and is pushed 10 feet.</Description>
         <Heightened every="1">The damage increases by 1d6, or by 2d6 if you use 2 or 3 actions.</Heightened>
@@ -832,7 +832,7 @@
         <Name>Swamp of Sloth</Name>
         <Level>3</Level>
         <Traits>Conjuration, Sorcerer</Traits>
-        <Cast>To</Cast>
+        <Cast>Verbal, Somatic, Material</Cast>
         <Range>120 feet</Range>
         <Area>5-foot burst or more</Area>
         <Duration>1 minute</Duration>
@@ -1152,7 +1152,7 @@
         <Name>Rebuke Death</Name>
         <Level>4</Level>
         <Traits>Cleric, Healing, Necromancy, Positive</Traits>
-        <Cast>To</Cast>
+        <Cast>Verbal, Somatic, Material</Cast>
         <Area>20-foot emanation</Area>
         <Targets>1 living creature per action spent to cast this spell</Targets>
         <Description>You snatch creatures from the jaws of death. You can spend 1 to 3 actions Casting this Spell, and you can target a number of creatures equal to the actions spent. Each target regains 3d6 Hit Points. If the target had the dying condition, coming back from dying due to this healing doesn't increase its wounded condition.</Description>

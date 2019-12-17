@@ -6,7 +6,7 @@
 			<tr>
 				<td bgcolor="#DDDDDD" valign="top" width="100%" class="border8">
 				<#list character.languages as language>
-					<#if language?string != "Free">language<#sep>, </#sep></#if>
+					<#if language?string != "Free">${language}<#sep>, </#sep></#if>
 				</#list>
 				</td>
 			</tr>
