@@ -1,0 +1,607 @@
+<?xml version = "1.0"?>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
+    <Name>Druid</Name>
+    <HP>8</HP>
+    <AbilityChoices>Wis</AbilityChoices>
+    <SkillIncreases>2</SkillIncreases>
+    <Description>The power of nature is impossible to resist. It can bring ruin to the stoutest fortress in minutes, reducing even the mightiest works to rubble, burning them to ash, burying them beneath an avalanche of snow, or drowning them beneath the waves. It can provide endless bounty and breathtaking splendor to those who respect it— and an agonizing death to those who take it too lightly. You are one of those who hear nature's call. You stand in awe of the majesty of its power and give yourself over to its service.</Description>
+    <FeatureList level="1">
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
+        <AbilitySlot state="filled" name="Initial Proficiencies">
+            <Ability>
+                <AttributeMods
+                        Proficiency="Trained">Perception, Fortitude, Reflex, Nature, Simple Weapons, Unarmed, Light Armor, Medium Armor, Unarmored, Class DC, Primal Spell Attacks, Primal Spell DCs
+                </AttributeMods>
+                <AttributeMods Proficiency="Expert">Will</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Primal Spellcasting">
+            <Ability>
+                <Description>The power of the wild world flows through you. You can cast primal spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells (see Casting Spells on page 302). Because you're a druid, you can usually hold a primal focus (such as holly and mistletoe) for spells requiring material components instead of needing to use a spell component pouch. At 1st level, you can prepare two 1st-level spells and five cantrips each morning from the common spells on the primal spell list in this book (page 314), or from other primal spells to which you gain access. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots. As you increase in level as a druid, the number of spells you can prepare each day increases, as does the highest level of spell you can cast, as shown in Table 3–11: Druid Spells per Day on page 132. Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key ability is Wisdom, your spell attack rolls and spell DCs use your Wisdom modifier. Details on calculating these statistics appear on page 447. Heightening Spells When you gain spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. This increases the spell's level, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain levels. Cantrips A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest level of spell you can cast as a druid. For example, as a 1st-level druid, your cantrips are 1st-level spells, and as a 5th-level druid, your cantrips are 3rd-level spells.
+                </Description>
+                <SpellSlots count="5" level="0" type="Prepared"/>
+                <SpellSlots count="2" level="1"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Anathema">
+            <Ability>
+                <Description>As stewards of the natural order, druids find affronts to nature anathema. If you perform enough acts that are anathema to nature, you lose your magical abilities that come from the druid class, including your primal spellcasting and the benefits of your order. These abilities can be regained only if you demonstrate your repentance by conducting an atone ritual. The following acts are anathema to all druids: Using metal armor or shields. Despoiling natural places. Teaching the Druidic language to non-druids. Each druidic order also has additional anathema acts, detailed in the order's entry.See specific orders for more information.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Druidic Language">
+            <Ability>
+                <Description>You know Druidic, a secret language known to only druids, in addition to any languages you know through your ancestry. Druidic has its own alphabet. Teaching the Druidic language to non-druids is anathema.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Druidic Order">
+            <Ability>
+                <Description>Upon becoming a druid, you align yourself with a druidic order, which grants you a class feat, an order spell (see below), and an additional trained skill tied to your order. While you'll always be a member of your initial order, it's not unheard of for a druid to request to study with other orders in search of greater understanding of the natural world, and PC druids are among the most likely to blend the powers of different orders.
+
+                    Order spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to commune with local nature spirits or otherwise tend to the wilderness in a way befitting your order.
+
+                    Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots to cast, and you can't cast them using spell slots. Selecting druid feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 points. The full rules for focus spells appear in Chapter 7 on page 300.
+                </Description>
+                <AbilitySlot state="choice" name="Order Choice">
+                    <Ability name="Animal Order" page="131">
+                        <Description>You have a strong connection to beasts, and you are allied with a beast companion. You are trained in Athletics. You also gain the Animal Companion druid feat. You gain the heal animal order spell. Committing wanton cruelty to animals or killing animals unnecessarily is anathema to your order. (This doesn't prevent you from defending yourself against animals or killing them cleanly for food.)</Description>
+                        <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Animal Companion"/>
+                        <Spell type="Focus" name="Heal Animal"/>
+                        <AttributeMods Proficiency="Trained">Athletics</AttributeMods>
+                    </Ability>
+                    <Ability name="Leaf Order" page="131">
+                        <Description>You revere plants and the bounty of nature, acting as both a gardener and warden for the wilderness, teaching sustainable techniques to communities, and helping areas regrow after disasters or negligent humanoid expansion. You are trained in Diplomacy. You also gain the Leshy Familiar druid feat. You gain the goodberry order spell, and you increase the number of Focus Points in your focus pool by 1. Committing wanton cruelty to plants or killing plants unnecessarily is anathema to your order. (This doesn't prevent you from defending yourself against plants or harvesting them when necessary for survival.)</Description>
+                        <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Leshy Familiar"/>
+                        <Spell type="Focus" name="Goodberry"/>
+                        <AttributeMods Proficiency="Trained">Diplomacy</AttributeMods>
+                    </Ability>
+                    <Ability name="Storm Order" page="132">
+                        <Description>You carry the fury of the storm within you, channeling it to terrifying effect and riding the winds through the sky. You are trained in Acrobatics. You also gain the Storm Born druid feat. You gain the tempest surge order spell, and you increase the number of Focus Points in your focus pool by 1. Polluting the air or allowing those who cause major air pollution or climate shifts to go unpunished is anathema to your order. (This doesn't force you to take action against merely potential harm to the environment or to sacrifice yourself against an obviously superior foe.)</Description>
+                        <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Storm Born"/>
+                        <Spell type="Focus" name="Tempest Surge"/>
+                        <AttributeMods Proficiency="Trained">Acrobatics</AttributeMods>
+                    </Ability>
+                    <Ability name="Wild Order" page="132">
+                        <Description>he savage, uncontrollable call of the natural world infuses you, granting you the ability to change your shape and take on the ferocious form of a wild creature. You are trained in Intimidation. You also gain the Wild Shape druid feat. You gain the wild morph order spell. Becoming fully domesticated by the temptations of civilization is anathema to your order. (This doesn't prevent you from buying and using processed goods or staying in a city for an adventure, but you can never come to rely on these conveniences or truly call such a place your permanent home.)</Description>
+                        <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Wild Shape"/>
+                        <Spell type="Focus" name="Wild Morph"/>
+                        <AttributeMods Proficiency="Trained">Intimidation</AttributeMods>
+                    </Ability>
+                </AbilitySlot>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" type="General Feat" name="Shield Block (Druid)"
+                     contents="Shield Block"/>
+        <AbilitySlot state="filled" name="Wild Empathy">
+            <Ability>
+                <Description>You have a connection to the creatures of the natural world that allows you to communicate with them on a rudimentary level. You can use Diplomacy to Make an Impression on animals and to make very simple Requests of them. In most cases, wild animals will give you time to make your case.</Description>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="2">
+        <AbilitySlot state="feat" type="Class Feat" name="Druid Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="1" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="3">
+        <AbilitySlot state="filled" name="2nd-level spells">
+            <Ability>
+                <SpellSlots level="2" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Alertness">
+            <Ability>
+                <Description>Experience has made you increasingly aware of threats around you, and you react more quickly to danger. Your proficiency rank for Perception increases to expert.</Description>
+                <AttributeMods Proficiency="Expert">Perception</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Great Fortitude">
+            <Ability>
+                <Description>Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert.</Description>
+                <AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="4">
+        <AbilitySlot state="feat" type="Class Feat" name="Druid Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="2" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="5">
+        <AbilitySlot state="filled" name="3rd-level spells">
+            <Ability>
+                <SpellSlots level="3" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Lightning Reflexes">
+            <Ability>
+                <Description>Your reflexes are lightning fast. Your proficiency rank for Reflex saves increases to expert.</Description>
+                <AttributeMods Proficiency="Expert">Reflex</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="6">
+        <AbilitySlot state="feat" type="Class Feat" name="Druid Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="3" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="7">
+        <AbilitySlot state="filled" name="4th-level spells">
+            <Ability>
+                <SpellSlots level="4" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Expert Spellcaster">
+            <Ability>
+                <Description>Your command of primal forces has deepened, empowering your spells. Your proficiency ranks for primal spell attack rolls and spell DCs increase to expert.</Description>
+                <AttributeMods Proficiency="Expert">Primal Spell Attacks, Primal Spell DCs</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="8">
+        <AbilitySlot state="feat" type="Class Feat" name="Druid Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="4" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="9">
+        <AbilitySlot state="filled" name="5th-level spells">
+            <Ability>
+                <SpellSlots level="5" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="10">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Druid Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="5" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="11">
+        <AbilitySlot state="filled" name="6th-level spells">
+            <Ability>
+                <SpellSlots level="6" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Druid Weapon Expertise">
+            <Ability>
+                <Description>You have become thoroughly familiar with the weapons of your trade. Your proficiency ranks for all simple weapons and unarmed attacks increase to expert.</Description>
+                <AttributeMods Proficiency="Expert">Simple Weapons, Unarmed</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Resolve">
+            <Ability>
+                <Description>You've steeled your mind with incredible resolve. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.</Description>
+                <AttributeMods Proficiency="Master">Will</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="12">
+        <AbilitySlot state="feat" type="Class Feat" name="Druid Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="6" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="13">
+        <AbilitySlot state="filled" name="7th-level spells">
+            <Ability>
+                <SpellSlots level="7" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Medium Armor Expertise">
+            <Ability>
+                <Description>You've learned to defend yourself better against attacks. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert.</Description>
+                <AttributeMods Proficiency="Expert">Light Armor, Medium Armor, Unarmored</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Weapon Specialization">
+            <Ability>
+                <Description>You've learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and to 4 if you're legendary.</Description>
+                <!--TODO: Weapon Specialization-->
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="14">
+        <AbilitySlot state="feat" type="Class Feat" name="Druid Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="7" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="15">
+        <AbilitySlot state="filled" name="8th-level spells">
+            <Ability>
+                <SpellSlots level="8" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Master Spellcaster">
+            <Ability>
+                <Description>Primal magic answers your command. Your proficiency ranks for primal spell attack rolls and spell DCs increase to master.</Description>
+                <AttributeMods Proficiency="Master">Primal Spell Attacks, Primal Spell DCs</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="16">
+        <AbilitySlot state="feat" type="Class Feat" name="Druid Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="8" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="17">
+        <AbilitySlot state="filled" name="9th-level spells">
+            <Ability>
+                <SpellSlots level="9" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="18">
+        <AbilitySlot state="feat" type="Class Feat" name="Druid Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="9" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="19">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Legendary Spellcaster">
+            <Ability>
+                <Description>You have developed an unparalleled rapport with the magic of nature. Your proficiency ranks for primal spell attack rolls and spell DCs increase to legendary.</Description>
+                <AttributeMods Proficiency="Legendary">Primal Spell Attacks, Primal Spell DCs</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Primal Hierophant">
+            <Ability>
+                <Description>You command the most potent forces of primal magic and can cast a spell of truly incredible power. You gain a single 10th-level spell slot and can prepare a spell in that slot using primal spellcasting. Unlike with other spell slots, you don't gain more 10th-level spells as you level up, though you can take the Hierophant's Power feat to gain a second slot.</Description>
+                <SpellSlots level="10" count="1"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="20">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Druid Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <Feats>
+        <Ability name="Animal Companion" level="1" page="133">
+            <Traits>Druid</Traits>
+            <Prerequisites>Animal Order</Prerequisites>
+            <Description>You gain the service of a young animal companion that travels with you on your adventures and obeys any simple commands you give it to the best of its abilities. See Animal Companions on page 214 for more information.</Description>
+        </Ability>
+        <Ability name="Leshy Familiar" level="1" page="133">
+            <Traits>Druid</Traits>
+            <Prerequisites>Leaf Order</Prerequisites>
+            <Description>You gain a leshy familiar, a Tiny plant that embodies one of the many spirits of nature. Other than taking the form of a plant instead of an animal, this familiar uses all the same rules as other familiars, which are detailed on page 217.</Description>
+        </Ability>
+        <Ability name="Reach Spell" level="1" page="122" cost="1">
+            <Traits>Concentrate, Druid, Metamagic</Traits>
+            <Description>You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell's range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</Description>
+        </Ability>
+        <Ability name="Storm Born" level="1" page="134">
+            <Traits>Druid</Traits>
+            <Prerequisites>Storm Order</Prerequisites>
+            <Description>You are at home out in the elements, reveling in the power of nature unleashed. You do not take circumstance penalties to ranged spell attacks or Perception checks caused by weather, and your targeted spells don't require a flat check to succeed against a target concealed by weather (such as fog).</Description>
+        </Ability>
+        <Ability name="Widen Spell" level="1" page="134" cost="1">
+            <Traits>Druid, Manipulate, Metamagic</Traits>
+            <Description>You manipulate the energy of your spell, causing it to spread out and affect a wider area. If the next action you use is to Cast a Spell that has an area of a burst, cone, or line and does not have a duration, increase the area of that spell. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet (a burst with a smaller radius is not affected). Add 5 feet to the length of a cone or line that is normally 15 feet long or smaller, and add 10 feet to the length of a larger cone or line.</Description>
+        </Ability>
+        <Ability name="Wild Shape" level="1" page="134">
+            <Traits>Druid</Traits>
+            <Prerequisites>Wild Order</Prerequisites>
+            <Description>You are one with the wild, always changing and adapting to meet any challenge. You gain the wild shape order spell, which lets you transform into a variety of forms that you can expand with druid feats.</Description>
+            <Spell type="Focus" name="Wild Shape"/>
+        </Ability>
+        <Ability name="Call of the Wild" level="2" page="134">
+            <Traits>Druid</Traits>
+            <Description>You call upon the creatures of nature to come to your aid. You can spend 10 minutes in concert with nature to replace one of the spells you've prepared in one of your druid spell slots with a summon animal or summon plants and fungi spell of the same level.</Description>
+        </Ability>
+        <Ability name="Enhanced Familiar" level="2" page="134">
+            <Traits>Druid</Traits>
+            <Prerequisites>* Familiar</Prerequisites>
+            <Description>You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two.</Description>
+        </Ability>
+        <Ability name="Order Explorer" level="2" page="134">
+            <Traits>Druid</Traits>
+            <Description>You have learned the secrets of another druidic order, passing whatever rites of initiation that order requires and gaining access to its secrets. Choose an order other than your own. You gain a 1st-level feat that lists that order as a prerequisite, and you are now a member of that order for the purpose of meeting feat prerequisites. If you commit acts anathema to your new order, you lose all feats and abilities requiring that order but retain your other druid feats and abilities. You don't gain any of the other benefits of the order you chose.Special You can take this feat multiple times. Each time you do, you must choose a different order other than your own.</Description>
+            <AbilitySlot state="choice" name="Extra Order">
+                <Ability name="Animal Order">
+                    <Description>Committing wanton cruelty to animals or killing animals unnecessarily is anathema to your order. (This doesn't prevent you from defending yourself against animals or killing them cleanly for food.)</Description>
+                    <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Animal Companion"/>
+                </Ability>
+                <Ability name="Leaf Order">
+                    <Description>Committing wanton cruelty to plants or killing plants unnecessarily is anathema to your order. (This doesn't prevent you from defending yourself against plants or harvesting them when necessary for survival.)</Description>
+                    <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Leshy Familiar"/>
+                </Ability>
+                <Ability name="Storm Order">
+                    <Description>Polluting the air or allowing those who cause major air pollution or climate shifts to go unpunished is anathema to your order. (This doesn't force you to take action against merely potential harm to the environment or to sacrifice yourself against an obviously superior foe.)</Description>
+                    <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Storm Born"/>
+                </Ability>
+                <Ability name="Wild Order">
+                    <Description>Becoming fully domesticated by the temptations of civilization is anathema to your order. (This doesn't prevent you from buying and using processed goods or staying in a city for an adventure, but you can never come to rely on these conveniences or truly call such a place your permanent home.)</Description>
+                    <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Wild Shape"/>
+                </Ability>
+            </AbilitySlot>
+        </Ability>
+        <Ability name="Poison Resistance" level="2" page="77">
+            <Traits>Alchemist, Druid</Traits>
+            <Description>Your body has become fortified against toxins. You gain poison resistance equal to half your level, and you gain a +1 status bonus to saving throws against poisons.</Description>
+        </Ability>
+        <Ability name="Form Control" level="4" page="135" cost="1">
+            <Traits>Druid, Manipulate, Metamagic</Traits>
+            <Prerequisites>Strength 14, Wild Shape</Prerequisites>
+            <Description>With additional care and effort, you can take on an alternate form for a longer period of time. If your next action is to cast wild shape, wild shape's spell level is 2 lower than normal (minimum 1st level), but you can remain transformed for up to 1 hour or the listed duration (whichever is longer). You can still Dismiss the form at any time, as permitted by the spell.</Description>
+        </Ability>
+        <Ability name="Mature Animal Companion (Druid)" level="4" page="135">
+            <Traits>Druid</Traits>
+            <Prerequisites>Animal Companion</Prerequisites>
+            <Description>Your animal companion grows up, becoming a mature animal companion, which grants it additional capabilities. See the animal companion rules on page 214 for more information. Your animal companion is better trained than most. During an encounter, even if you don't use the Command an Animal action, your animal companion can still use 1 action on your turn that round to Stride or Strike.</Description>
+        </Ability>
+        <Ability name="Order Magic" level="4" page="135">
+            <Traits>Druid</Traits>
+            <Prerequisites>Order Explorer</Prerequisites>
+            <Description>You have delved deeper into the teaching of a new order, gaining access to a coveted order spell. Choose an order you have selected with Order Explorer. You gain the initial order spell from that order.Special You can take this feat multiple times. Each time you do, you must choose a different order you have selected with Order Explorer.</Description>
+            <AbilitySlot state="choice" name="Extra Order Magic">
+                <Ability name="Animal Order Magic">
+                    <Prerequisites>Animal Order</Prerequisites>
+                    <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Animal Companion"/>
+                    <Spell type="Focus" name="Heal Animal"/>
+                </Ability>
+                <Ability name="Leaf Order Magic">
+                    <Prerequisites>Leaf Order</Prerequisites>
+                    <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Leshy Familiar"/>
+                    <Spell type="Focus" name="Goodberry"/>
+                </Ability>
+                <Ability name="Storm Order Magic">
+                    <Prerequisites>Storm Order</Prerequisites>
+                    <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Storm Born"/>
+                    <Spell type="Focus" name="Tempest Surge"/>
+                </Ability>
+                <Ability name="Wild Order Magic">
+                    <Prerequisites>Wild Order</Prerequisites>
+                    <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Wild Shape"/>
+                    <Spell type="Focus" name="Wild Shape"/>
+                </Ability>
+            </AbilitySlot>
+        </Ability>
+        <Ability name="Thousand Faces" level="4" page="135">
+            <Traits>Druid</Traits>
+            <Prerequisites>Wild Shape</Prerequisites>
+            <Description>Your form is as mutable as the weather, changing to meet your whim. You add the forms listed in humanoid form to your wild shape list.</Description>
+        </Ability>
+        <Ability name="Woodland Stride" level="4" page="135">
+            <Traits>Druid</Traits>
+            <Prerequisites>Leaf Order</Prerequisites>
+            <Description>You can always find a path, almost as if foliage parted before you. You ignore any difficult terrain caused by plants, such as bushes, vines, and undergrowth. Even plants manipulated by magic don't impede your progress.</Description>
+        </Ability>
+        <Ability name="Green Empathy" level="6" page="136">
+            <Traits>Druid</Traits>
+            <Prerequisites>Leaf Order</Prerequisites>
+            <Description>You can communicate with plants on a basic level and use Diplomacy to Make an Impression on them and to make very simple Requests of them. Non-creature plants typically can't fulfill most requests you might ask of them unless you have access to other magic such as speak with plants. Because of your affiliation with the leaf order, plants have a sense that you support them, so you gain a +2 circumstance bonus on your check to Make a Request of a plant using Green Empathy.</Description>
+        </Ability>
+        <Ability name="Insect Shape" level="6" page="136">
+            <Traits>Druid</Traits>
+            <Prerequisites>Wild Shape</Prerequisites>
+            <Description>Your understanding of life expands, allowing you to mimic a wider range of creatures. Add the forms in insect form to your wild shape list. Whenever you use wild shape to polymorph into the non-flying insect form listed in pest form, the duration is 24 hours instead of 10 minutes.</Description>
+        </Ability>
+        <Ability name="Steady Spellcasting" level="6" page="211">
+            <Traits>Druid</Traits>
+            <Description>Confident in your technique, you don't easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn't disrupted.</Description>
+        </Ability>
+        <Ability name="Storm Retribution" level="6" page="136" cost="Reaction">
+            <Traits>Druid</Traits>
+            <Prerequisites>Storm Order, Spell(Tempest Surge)</Prerequisites>
+            <Trigger>An opponent adjacent to you critically hits you with a melee weapon or melee unarmed attack.</Trigger>
+            <Requirements>You have at least 1 available Focus Point.</Requirements>
+            <Description>You lash out, directing a burst of storming fury toward a creature that has harmed you. You cast tempest surge on the triggering opponent and push that creature, moving it 5 feet away from you if it fails its Reflex save, or 10 feet if it critically fails. This movement is forced movement.</Description>
+        </Ability>
+        <Ability name="Ferocious Shape" level="8" page="136">
+            <Traits>Druid</Traits>
+            <Prerequisites>Wild Shape</Prerequisites>
+            <Description>You have mastered the shape of ferocious dinosaurs. Add the forms listed in dinosaur form to your wild shape list. Whenever you use wild shape to take a form that grants you a specific Athletics modifier, you gain a +1 status bonus to your Athletics checks.</Description>
+        </Ability>
+        <Ability name="Fey Caller" level="8" page="136">
+            <Traits>Druid</Traits>
+            <Description>You have learned some of the tricks the fey use to bend primal magic toward illusions and trickery. Add illusory disguise, illusory object, illusory scene, and veil to your spell list as primal spells.</Description>
+            <Spell type="Spell" name="Illusory Disguise"/>
+            <Spell type="Spell" name="Illusory Object"/>
+            <Spell type="Spell" name="Illusory Scene"/>
+            <Spell type="Spell" name="Veil"/>
+        </Ability>
+        <Ability name="Incredible Companion (Druid)" level="8" page="137">
+            <Traits>Druid</Traits>
+            <Prerequisites>Mature Animal Companion</Prerequisites>
+            <Description>Your animal companion continues to grow and develop. It becomes a nimble or savage animal companion (your choice), gaining additional capabilities determined by the type of companion (page 214).</Description>
+        </Ability>
+        <Ability name="Soaring Shape" level="8" page="137">
+            <Traits>Druid</Traits>
+            <Prerequisites>Wild Shape</Prerequisites>
+            <Description>Wings free you from the shackles of the ground below. Add the bat and bird forms in aerial form to your wild shape list. If you have Insect Shape, you also add the wasp form to your wild shape list. If you have Ferocious Shape, you also add the pterosaur form to your wild shape list. Whenever you use wild shape to gain a form that grants you a specific Acrobatics modifier, you gain a +1 status bonus to Acrobatics checks.</Description>
+        </Ability>
+        <Ability name="Wind Caller" level="8" page="137">
+            <Traits>Druid</Traits>
+            <Prerequisites>Storm Order</Prerequisites>
+            <Description>You bid the winds to lift and carry you through the air. You gain the stormwind flight order spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Stormwind Flight"/>
+        </Ability>
+        <Ability name="Elemental Shape" level="10" page="137">
+            <Traits>Druid</Traits>
+            <Prerequisites>Wild Shape</Prerequisites>
+            <Description>You understand the fundamental elements of nature such that you can imbue them into your body and manifest as a living embodiment of those elements. Add the forms in elemental form to your wild shape list. Whenever you're polymorphed into another form using wild shape, you gain resistance 5 to fire.</Description>
+        </Ability>
+        <Ability name="Healing Transformation" level="10" page="137" cost="1">
+            <Traits>Druid, Metamagic</Traits>
+            <Description>You can take advantage of shapechanging magic to close wounds and patch injuries. If your next action is to cast a non-cantrip polymorph spell that targets only one creature, your polymorph spell also restores 1d6 Hit Points per spell level to that creature. This is a healing effect.</Description>
+        </Ability>
+        <Ability name="Overwhelming Energy" level="10" page="200" cost="1">
+            <Traits>Druid, Manipulate, Metamagic</Traits>
+            <Description>You alter your spells to overcome resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target's resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by wall of fire. A creature's immunities are unaffected.</Description>
+        </Ability>
+        <Ability name="Plant Shape" level="10" page="138">
+            <Traits>Druid</Traits>
+            <Prerequisites>Leaf Order Or Wild Shape</Prerequisites>
+            <Description>You can take the form of a plant creature. Add the forms listed in plant form to your wild shape list; if you don't have wild shape, you can instead cast plant form once per day, heightened to the highest spell level you can cast. Whenever you're polymorphed into another form using wild shape, you gain resistance 5 to poison.</Description>
+        </Ability>
+        <Ability name="Side by Side (Druid)" level="10" page="138">
+            <Traits>Druid</Traits>
+            <Prerequisites>Animal Companion</Prerequisites>
+            <Description>You and your animal companion fight in tandem, distracting your foes and keeping them off balance. Whenever you and your animal companion are adjacent to the same foe, you are both flanking that foe with each other, regardless of your actual positions.</Description>
+        </Ability>
+        <Ability name="Dragon Shape" level="12" page="138">
+            <Traits>Druid</Traits>
+            <Prerequisites>Soaring Shape</Prerequisites>
+            <Description>You can take on the form of some of the world's most fearsome creatures. Add the forms listed in dragon form to your wild shape list. Whenever you're polymorphed into another form using wild shape, you gain resistance 5 to your choice of acid, cold, electricity, fire, or poison.</Description>
+        </Ability>
+        <Ability name="Green Tongue" level="12" page="138">
+            <Traits>Druid</Traits>
+            <Prerequisites>Green Empathy</Prerequisites>
+            <Description>You share a special kinship with all things green and living. You (and your leshy familiar, if you have one) are constantly under the effects of speak with plants. Most non-creature plants recognize you as a druid of the leaf order and are friendly to you.</Description>
+        </Ability>
+        <Ability name="Primal Focus" level="12" page="138">
+            <Traits>Druid</Traits>
+            <Description>Your connection to nature is particularly strong, and the spirits of nature flock around you, helping you replenish your focus. If you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1.</Description>
+        </Ability>
+        <Ability name="Primal Summons" level="12" page="138">
+            <Traits>Druid</Traits>
+            <Prerequisites>Call Of The Wild</Prerequisites>
+            <Description>Whenever you summon an ally, you can empower it with the elemental power of air, earth, fire, or water. You gain the primal summons order spell.</Description>
+        </Ability>
+        <Ability name="Specialized Companion (Druid)" level="14" page="139">
+            <Traits>Druid</Traits>
+            <Prerequisites>Incredible Companion</Prerequisites>
+            <Description>Your animal companion continues to grow in power and ability, and it is now cunning enough to become specialized. Your animal companion gains one specialization of your choice. (See the Animal Companion section on page 214.)Special You can select this feat up to three times. Each time, add a different specialization to your companion.</Description>
+        </Ability>
+        <Ability name="Timeless Nature" level="14" page="139">
+            <Traits>Druid</Traits>
+            <Description>With primal magic sustaining you, you cease aging. The overflowing primal energy gives you a +2 status bonus to saves against diseases and primal magic.</Description>
+        </Ability>
+        <Ability name="Verdant Metamorphosis" level="14" page="139">
+            <Traits>Druid</Traits>
+            <Prerequisites>Leaf Order</Prerequisites>
+            <Description>You transform into a plant version of yourself. You gain the plant trait and lose any trait that's inappropriate for your new form (typically humanoid for a PC, but also possibly animal or fungus). You can change from a form that looks mostly like your old self into a tree or any other non-creature plant as a single action, which has the concentrate trait. This has the same effect as tree shape, except you can turn into any kind of non-creature plant and your AC is 30. If you rest for 10 minutes while transformed into a non-creature plant during daylight hours under direct sunlight, you recover half your maximum Hit Points. If you take your daily rest in this way, the rest restores you to maximum Hit Points and removes all non-permanent drained, enfeebled, clumsy, and stupefied conditions, as well as all poisons and diseases of 19th level or lower.</Description>
+        </Ability>
+        <Ability name="Effortless Concentration" level="16" page="103" cost="Free">
+            <Traits>Druid</Traits>
+            <Trigger>Your turn begins.</Trigger>
+            <Description>You maintain a spell with hardly a thought. You immediately gain the effects of the Sustain a Spell action, allowing you to extend the duration of one of your active class spells.</Description>
+        </Ability>
+        <Ability name="Impaling Briars" level="16" page="139">
+            <Traits>Druid</Traits>
+            <Prerequisites>Leaf Order</Prerequisites>
+            <Description>You can fill an area with devastating briars that impale and impede your foes. You gain the impaling briars order spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Impaling Briars"/>
+        </Ability>
+        <Ability name="Monstrosity Shape" level="16" page="139">
+            <Traits>Druid</Traits>
+            <Prerequisites>Wild Shape</Prerequisites>
+            <Description>You can transform into a powerful magical creature. Add the purple worm and sea serpent forms listed in monstrosity form to your wild shape list. If you have Soaring Shape, add the phoenix form listed in aerial form to your wild shape list.</Description>
+        </Ability>
+        <Ability name="Invoke Disaster" level="18" page="139">
+            <Traits>Druid</Traits>
+            <Prerequisites>Wind Caller</Prerequisites>
+            <Description>You can invoke nature's fury upon your foes. You gain the storm lord order spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Storm Lord"/>
+        </Ability>
+        <Ability name="Perfect Form Control" level="18" page="139">
+            <Traits>Druid</Traits>
+            <Prerequisites>Form Control, Strength 18</Prerequisites>
+            <Description>Thanks to magic and muscle memory, you can stay in your alternate forms indefinitely; you may have even forgotten your original form. When you use Form Control, instead of lasting 1 hour, wild shape is permanent until you Dismiss it.</Description>
+        </Ability>
+        <Ability name="Primal Wellspring" level="18" page="139">
+            <Traits>Druid</Traits>
+            <Prerequisites>Primal Focus</Prerequisites>
+            <Description>Your reservoir of Focus Points is a deep wellspring. If you have spent at least 3 Focus Points since the last time you Refocused, you recover 3 Focus Points when you Refocus instead of 1.</Description>
+        </Ability>
+        <Ability name="Hierophant's Power" level="20" page="139">
+            <Traits>Druid</Traits>
+            <Prerequisites>Legendary In Nature</Prerequisites>
+            <Description>You have entwined yourself with the natural world, and its full power flows through you. You gain an additional 10th-level spell slot.</Description>
+            <SpellSlots level="10" count="1"/>
+        </Ability>
+        <Ability name="Leyline Conduit" level="20" page="139" cost="1">
+            <Traits>Concentrate, Druid, Manipulate, Metamagic</Traits>
+            <Frequency>once per minute</Frequency>
+            <Description>You can cast your spells effortlessly by tapping into the leylines of the world. If your next action is to Cast a Spell of 5th level or lower that has no duration, you don't expend the prepared spell as you cast it.</Description>
+        </Ability>
+        <Ability name="True Shapeshifter" level="20" page="139" cost="2">
+            <Traits>Concentrate, Druid</Traits>
+            <Prerequisites>Dragon Shape, Wild Shape</Prerequisites>
+            <Description>You transcend the limitations of form. While under the effects of wild shape, you can change into any other form on your wild shape list; if the durations of the forms would vary, use the shorter of the two durations. Once per day, you can transform into a kaiju, with the effects of nature incarnate; if you have Plant Shape, you can instead transform into a green man.</Description>
+        </Ability>
+    </Feats>
+</pf2:class>
