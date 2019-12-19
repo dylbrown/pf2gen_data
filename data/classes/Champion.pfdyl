@@ -11,7 +11,7 @@
 		<AbilitySlot state="filled" name="Initial Proficiencies">
 			<Ability>
 				<AttributeMods Proficiency="Trained">
-                    Religion, Perception, Reflex, Simple Weapons, Martial Weapons, Unarmed, Light Armor, Medium Armor, Heavy Armor, Shields, Unarmored, Class DC, Spell Attacks, Spell DCs
+                    Religion, Perception, Reflex, Simple Weapons, Martial Weapons, Unarmed, Light Armor, Medium Armor, Heavy Armor, Shields, Unarmored, Class DC, Divine Spell Attacks, Divine Spell DCs
 				</AttributeMods>
 				<AttributeMods Proficiency="Expert">
                     Fortitude, Will
@@ -176,7 +176,7 @@ The following are divine allies:</Description>
 		<AbilitySlot state="filled" name="Champion Expertise">
 			<Ability>
 				<Description>Prayers strengthen your divine power. Your proficiency ranks for your champion class DC and divine spell attack rolls and DCs increase to expert.</Description>
-				<AttributeMods Proficiency="Expert">Class DC, Spell Attacks, Spell DCs</AttributeMods>
+				<AttributeMods Proficiency="Expert">Class DC, Divine Spell Attacks, Divine Spell DCs</AttributeMods>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Divine Smite">
@@ -291,7 +291,7 @@ Liberator: You can help your whole group get into position. When you use Liberat
 		<AbilitySlot state="filled" name="Champion Mastery">
 			<Ability>
 				<Description>You’ve mastered your arsenal of champion techniques and divine spells. Your proficiency ranks for your champion class DC and for divine spell attack rolls and spell DCs increase to master.</Description>
-				<AttributeMods Proficiency="Master">Class DC, Spell Attacks, Spell DCs</AttributeMods>
+				<AttributeMods Proficiency="Master">Class DC, Divine Spell Attacks, Divine Spell DCs</AttributeMods>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Legendary Armor">

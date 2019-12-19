@@ -1,6 +1,6 @@
 <?xml version = "1.0"?>
 <pf2:class xmlns:pf2="https://dylbrown.github.io"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
     <Name>Cleric</Name>
     <HP>8</HP>
@@ -11,7 +11,7 @@
         <AbilitySlot state="filled" name="Initial Proficiencies">
             <Ability>
                 <AttributeMods Proficiency="Trained">
-                    Fortitude, Religion, Perception, Reflex, Simple Weapons, Unarmed, Unarmored, Spell Attacks, Spell DCs
+                    Fortitude, Religion, Perception, Reflex, Simple Weapons, Unarmed, Unarmored, Divine Spell Attacks, Divine Spell DCs
                 </AttributeMods>
                 <AttributeMods Proficiency="Expert">
                     Will
@@ -19,188 +19,569 @@
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
-		<AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>		
+        <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
         <AbilitySlot state="filled" name="Deity">
             <Ability>
-				<Description>As a cleric, you are a mortal servitor of a deity you revere above all others. The most common deities in Pathfinder appear on pages 437–440, along with their alignments, areas of concern, and the benefits you get for being a cleric of that deity. Your alignment must be one allowed by your deity, as listed in their entry. Your deity grants you the trained proficiency rank in one skill and with the deity's favored weapon. If the favored weapon is uncommon, you also get access to that weapon. Your deity also adds spells to your spell list. You can prepare these just like you can any spell on the divine spell list, once you can prepare spells of their level as a cleric. Some of these spells aren't normally on the divine list, but they're divine spells if you prepare them this way.</Description>
+                <Description>As a cleric, you are a mortal servitor of a deity you revere above all others. The most common deities in Pathfinder appear on pages 437–440, along with their alignments, areas of concern, and the benefits you get for being a cleric of that deity. Your alignment must be one allowed by your deity, as listed in their entry. Your deity grants you the trained proficiency rank in one skill and with the deity's favored weapon. If the favored weapon is uncommon, you also get access to that weapon. Your deity also adds spells to your spell list. You can prepare these just like you can any spell on the divine spell list, once you can prepare spells of their level as a cleric. Some of these spells aren't normally on the divine list, but they're divine spells if you prepare them this way.</Description>
             </Ability>
-        </AbilitySlot>	
+        </AbilitySlot>
         <AbilitySlot state="filled" name="Anathema">
             <Ability>
-				<Description>Acts fundamentally opposed to your deity's alignment or ideals are anathema to your faith. Learning or casting spells, committing acts, and using items that are anathema to your deity remove you from your deity's good graces. Casting spells with the evil trait is almost always anathema to good deities, and casting good spells is likewise anathema to evil deities; similarly, casting chaotic spells is anathema to lawful deities, and casting lawful spells is anathema to chaotic deities. A neutral cleric who worships a neutral deity isn't limited this way, but their alignment might change over time if they frequently cast spells or use abilities with a certain alignment. Similarly, casting spells that are anathema to the tenets or goals of your faith could interfere with your connection to your deity. For example, casting a spell to create undead would be anathema to Pharasma, the goddess of death. For borderline cases, you and your GM determine which acts are anathema.
-If you perform enough acts that are anathema to your deity, or if your alignment changes to one not allowed by your deity, you lose the magical abilities that come from your connection to your deity. The class features that you lose are determined by the GM, but they likely include your divine font and all divine spellcasting. These abilities can be regained only if you demonstrate your repentance by conducting an atone ritual (found on page 409).</Description>
+                <Description>Acts fundamentally opposed to your deity's alignment or ideals are anathema to your faith. Learning or casting spells, committing acts, and using items that are anathema to your deity remove you from your deity's good graces. Casting spells with the evil trait is almost always anathema to good deities, and casting good spells is likewise anathema to evil deities; similarly, casting chaotic spells is anathema to lawful deities, and casting lawful spells is anathema to chaotic deities. A neutral cleric who worships a neutral deity isn't limited this way, but their alignment might change over time if they frequently cast spells or use abilities with a certain alignment. Similarly, casting spells that are anathema to the tenets or goals of your faith could interfere with your connection to your deity. For example, casting a spell to create undead would be anathema to Pharasma, the goddess of death. For borderline cases, you and your GM determine which acts are anathema.
+                    If you perform enough acts that are anathema to your deity, or if your alignment changes to one not allowed by your deity, you lose the magical abilities that come from your connection to your deity. The class features that you lose are determined by the GM, but they likely include your divine font and all divine spellcasting. These abilities can be regained only if you demonstrate your repentance by conducting an atone ritual (found on page 409).
+                </Description>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="filled" name="Divine Spellcasting">
             <Ability>
-				<Description>Your deity bestows on you the power to cast divine spells. You can cast divine spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells (see Casting Spells on page 302). Because you're a cleric, you can usually hold a divine focus (such as a religious symbol) for spells requiring material components instead of needing to use a spell component pouch.
-At 1st level, you can prepare two 1st-level spells and five cantrips each morning from the common spells on the divine spell list in this book (page 309) or from other divine spells to which you gain access. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots.
-As you increase in level as a cleric, the number of spells you can prepare each day increases, as does the highest level of spell you can cast, as shown in Table 3–9: Cleric Spells per Day on page 120.
-Some of your spells require you to attempt a spell attack roll to see how effective they are, or your enemies to roll against your spell DC (typically by attempting a saving throw). Since your key ability is Wisdom, your spell attack rolls and spell DCs use your Wisdom modifier. Details on calculating these statistics appear on page 447.
+                <Description>Your deity bestows on you the power to cast divine spells. You can cast divine spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells (see Casting Spells on page 302). Because you're a cleric, you can usually hold a divine focus (such as a religious symbol) for spells requiring material components instead of needing to use a spell component pouch.
+                    At 1st level, you can prepare two 1st-level spells and five cantrips each morning from the common spells on the divine spell list in this book (page 309) or from other divine spells to which you gain access. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots.
+                    As you increase in level as a cleric, the number of spells you can prepare each day increases, as does the highest level of spell you can cast, as shown in Table 3–9: Cleric Spells per Day on page 120.
+                    Some of your spells require you to attempt a spell attack roll to see how effective they are, or your enemies to roll against your spell DC (typically by attempting a saving throw). Since your key ability is Wisdom, your spell attack rolls and spell DCs use your Wisdom modifier. Details on calculating these statistics appear on page 447.
 
-Heightening Spells
-When you get spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. This increases the spell's level, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain levels.
+                    Heightening Spells
+                    When you get spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. This increases the spell's level, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain levels.
 
-Cantrips
-A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest level of spell you can cast as a cleric. For example, as a 1st-level cleric, your cantrips are 1st-level spells, and as a 5th-level cleric, your cantrips are 3rd-level spells.</Description>
+                    Cantrips
+                    A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest level of spell you can cast as a cleric. For example, as a 1st-level cleric, your cantrips are 1st-level spells, and as a 5th-level cleric, your cantrips are 3rd-level spells.
+                </Description>
+                <SpellSlots level="0" count="5" type="Prepared"/>
+                <SpellSlots level="1" count="2"/>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="choice" name="Divine Font">
             <Ability name="Harmful Font">
-				<Description>Through your deity's blessing, you gain additional spells that channel either the life force called positive energy or its counterforce, negative energy. When you prepare your spells each day, you can prepare additional heal or harm spells, depending on your deity. The divine font spell your deity provides is listed in the Divine Font entry for your deity on pages 437–440; if both are listed, you can choose between heal or harm. Once you choose, you can't change your choice short of an ethical shift or divine intervention.
-				
-Harmful Font: You gain additional spell slots each day at your highest level of cleric spell slots. You can prepare only harm spells (page 343) in these slots, and the number of slots is equal to 1 plus your Charisma modifier.</Description>
+                <Description>Through your deity's blessing, you gain additional spells that channel either the life force called positive energy or its counterforce, negative energy. When you prepare your spells each day, you can prepare additional heal or harm spells, depending on your deity. The divine font spell your deity provides is listed in the Divine Font entry for your deity on pages 437–440; if both are listed, you can choose between heal or harm. Once you choose, you can't change your choice short of an ethical shift or divine intervention.
+
+                    Harmful Font: You gain additional spell slots each day at your highest level of cleric spell slots. You can prepare only harm spells (page 343) in these slots, and the number of slots is equal to 1 plus your Charisma modifier.
+                </Description>
             </Ability>
             <Ability name="Healing Font">
-				<Description>Through your deity's blessing, you gain additional spells that channel either the life force called positive energy or its counterforce, negative energy. When you prepare your spells each day, you can prepare additional heal or harm spells, depending on your deity. The divine font spell your deity provides is listed in the Divine Font entry for your deity on pages 437–440; if both are listed, you can choose between heal or harm. Once you choose, you can't change your choice short of an ethical shift or divine intervention.
-				
-Healing Font: You gain additional spell slots each day at your highest level of cleric spell slots. You can prepare only heal spells (page 343) in these slots, and the number of slots is equal to 1 plus your Charisma modifier.</Description>
+                <Description>Through your deity's blessing, you gain additional spells that channel either the life force called positive energy or its counterforce, negative energy. When you prepare your spells each day, you can prepare additional heal or harm spells, depending on your deity. The divine font spell your deity provides is listed in the Divine Font entry for your deity on pages 437–440; if both are listed, you can choose between heal or harm. Once you choose, you can't change your choice short of an ethical shift or divine intervention.
+
+                    Healing Font: You gain additional spell slots each day at your highest level of cleric spell slots. You can prepare only heal spells (page 343) in these slots, and the number of slots is equal to 1 plus your Charisma modifier.
+                </Description>
             </Ability>
         </AbilitySlot>
-		<AbilitySlot state="choice" name="Doctrine">
+        <AbilitySlot state="choice" name="Doctrine">
             <AbilitySet name="Cloistered Cleric">
                 <Description>You are a cleric of the cloth, focusing on divine magic and your connection to your deity's domains.</Description>
-				<Ability name="First Doctrine" level="1">
-					<Description>You gain the Domain Initiate cleric feat.</Description>
-					<AbilitySlot state="filled" type="Class Feat" name="Domain Initiate" contents="Domain Initiate"/>
-				</Ability>
-				<Ability name="Second Doctrine" level="3">
-					<Description>Your proficiency rank for Fortitude saves increases to expert.</Description>
-					<AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
-				</Ability>
-				<Ability name="Third Doctrine" level="7">
-					<Description>Your proficiency ranks for divine spell attack rolls and spell DCs increase to expert.</Description>
-					<AttributeMods Proficiency="Expert">Spell Attacks, Spell DCs</AttributeMods>
-				</Ability>
-				<Ability name="Fourth Doctrine" level="11">
-					<Description>You gain expert proficiency with your deity's favored weapon. When you critically succeed at an attack roll using that weapon, you apply the weapon's critical specialization effect; use your divine spell DC if necessary.</Description>
-				</Ability>
-				<Ability name="Fifth Doctrine" level="15">
-					<Description>Your proficiency ranks for divine spell attack rolls and spell DCs increase to master.</Description>
-					<AttributeMods Proficiency="Master">Spell Attacks, Spell DCs</AttributeMods>
-				</Ability>
-				<Ability name="Final Doctrine" level="19">
-					<Description>Your proficiency ranks for divine spell attack rolls and spell DCs increase to legendary.</Description>
-					<AttributeMods Proficiency="Legendary">Spell Attacks, Spell DCs</AttributeMods>
-				</Ability>
+                <Ability name="First Doctrine" level="1">
+                    <Description>You gain the Domain Initiate cleric feat.</Description>
+                    <AbilitySlot state="filled" type="Class Feat" name="Domain Initiate" contents="Domain Initiate"/>
+                </Ability>
+                <Ability name="Second Doctrine" level="3">
+                    <Description>Your proficiency rank for Fortitude saves increases to expert.</Description>
+                    <AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
+                </Ability>
+                <Ability name="Third Doctrine" level="7">
+                    <Description>Your proficiency ranks for divine spell attack rolls and spell DCs increase to expert.</Description>
+                    <AttributeMods Proficiency="Expert">Divine Spell Attacks, Divine Spell DCs</AttributeMods>
+                </Ability>
+                <Ability name="Fourth Doctrine" level="11">
+                    <Description>You gain expert proficiency with your deity's favored weapon. When you critically succeed at an attack roll using that weapon, you apply the weapon's critical specialization effect; use your divine spell DC if necessary.</Description>
+                </Ability>
+                <Ability name="Fifth Doctrine" level="15">
+                    <Description>Your proficiency ranks for divine spell attack rolls and spell DCs increase to master.</Description>
+                    <AttributeMods Proficiency="Master">Divine Spell Attacks, Divine Spell DCs</AttributeMods>
+                </Ability>
+                <Ability name="Final Doctrine" level="19">
+                    <Description>Your proficiency ranks for divine spell attack rolls and spell DCs increase to legendary.</Description>
+                    <AttributeMods Proficiency="Legendary">Divine Spell Attacks, Divine Spell DCs</AttributeMods>
+                </Ability>
             </AbilitySet>
             <AbilitySet name="Warpriest">
                 <Description>You have trained in the more militant doctrine of your church, focusing on both spells and battle.</Description>
-				<Ability name="First Doctrine" level="1">
-					<Description>You're trained in light and medium armor, and you have expert proficiency in Fortitude saves. You gain the Shield Block general feat. If your deity's weapon is simple, you gain the Deadly Simplicity cleric feat.</Description>
-					<AttributeMods Proficiency="Trained">Light Armor, Medium Armor</AttributeMods>
-					<AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
-					<AbilitySlot state="filled" type="General Feat" name="Shield Block (Cleric)" contents="Shield Block"/>
-					<AbilitySlot state="filled" type="Class Feat" name="Deadly Simplicity" contents="Deadly Simplicity"/>
-				</Ability>
-				<Ability name="Second Doctrine" level="3">
-					<Description>You're trained in martial weapons.</Description>
-					<AttributeMods Proficiency="Trained">Martial Weapons</AttributeMods>
-				</Ability>
-				<Ability name="Third Doctrine" level="7">
-					<Description>You gain expert proficiency with your deity's favored weapon. When you critically succeed at an attack roll using that weapon, you apply the weapon's critical specialization effect; use your divine spell DC if necessary.</Description>
-				</Ability>
-				<Ability name="Fourth Doctrine" level="11">
-					<Description>Your proficiency ranks for divine spell attack rolls and spell DCs increase to expert.</Description>
-					<AttributeMods Proficiency="Expert">Spell Attacks, Spell DCs</AttributeMods>
-				</Ability>
-				<Ability name="First Doctrine - Armor" level="13">
-					<Description>At 13th level, if you gain the divine defense class feature, you also gain expert proficiency in light and medium armor.</Description>
-					<AttributeMods Proficiency="Expert">Light Armor, Medium Armor</AttributeMods>
-				</Ability>
-				<Ability name="Fifth Doctrine" level="15">
-					<Description>Your proficiency rank for Fortitude saves increases to master. When you roll a success at a Fortitude save, you get a critical success instead.</Description>
-					<AttributeMods Proficiency="Master">Fortitude</AttributeMods>
-				</Ability>
-				<Ability name="Final Doctrine" level="19">
-					<Description>Your proficiency ranks for divine spell attack rolls and spell DCs increase to master.</Description>
-					<AttributeMods Proficiency="Master">Spell Attacks, Spell DCs</AttributeMods>
-				</Ability>
+                <Ability name="First Doctrine" level="1">
+                    <Description>You're trained in light and medium armor, and you have expert proficiency in Fortitude saves. You gain the Shield Block general feat. If your deity's weapon is simple, you gain the Deadly Simplicity cleric feat.</Description>
+                    <AbilitySlot state="filled" type="General Feat" name="Shield Block (Cleric)"
+                                 contents="Shield Block"/>
+                    <AbilitySlot state="filled" type="Class Feat" name="Deadly Simplicity"
+                                 contents="Deadly Simplicity"/>
+                    <AttributeMods Proficiency="Trained">Light Armor, Medium Armor</AttributeMods>
+                    <AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
+                </Ability>
+                <Ability name="Second Doctrine" level="3">
+                    <Description>You're trained in martial weapons.</Description>
+                    <AttributeMods Proficiency="Trained">Martial Weapons</AttributeMods>
+                </Ability>
+                <Ability name="Third Doctrine" level="7">
+                    <Description>You gain expert proficiency with your deity's favored weapon. When you critically succeed at an attack roll using that weapon, you apply the weapon's critical specialization effect; use your divine spell DC if necessary.</Description>
+                </Ability>
+                <Ability name="Fourth Doctrine" level="11">
+                    <Description>Your proficiency ranks for divine spell attack rolls and spell DCs increase to expert.</Description>
+                    <AttributeMods Proficiency="Expert">Divine Spell Attacks, Divine Spell DCs</AttributeMods>
+                </Ability>
+                <Ability name="First Doctrine - Armor" level="13">
+                    <Description>At 13th level, if you gain the divine defense class feature, you also gain expert proficiency in light and medium armor.</Description>
+                    <AttributeMods Proficiency="Expert">Light Armor, Medium Armor</AttributeMods>
+                </Ability>
+                <Ability name="Fifth Doctrine" level="15">
+                    <Description>Your proficiency rank for Fortitude saves increases to master. When you roll a success at a Fortitude save, you get a critical success instead.</Description>
+                    <AttributeMods Proficiency="Master">Fortitude</AttributeMods>
+                </Ability>
+                <Ability name="Final Doctrine" level="19">
+                    <Description>Your proficiency ranks for divine spell attack rolls and spell DCs increase to master.</Description>
+                    <AttributeMods Proficiency="Master">Divine Spell Attacks, Divine Spell DCs</AttributeMods>
+                </Ability>
             </AbilitySet>
         </AbilitySlot>
     </FeatureList>
     <FeatureList level="2">
-        <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat" />
-        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
-	</FeatureList>
+        <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="1" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
     <FeatureList level="3">
-        <AbilitySlot state="feat" type="General Feat" name="General Feat" />
+        <AbilitySlot state="filled" name="2nd-level spells">
+            <Ability>
+                <SpellSlots level="2" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
     </FeatureList>
     <FeatureList level="4">
-        <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat" />
-        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
-	</FeatureList>
+        <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="2" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
     <FeatureList level="5">
+        <AbilitySlot state="filled" name="3rd-level spells">
+            <Ability>
+                <SpellSlots level="3" count="2"/>
+            </Ability>
+        </AbilitySlot>
         <AbilitySlot state="filled" name="Ability Boosts">
             <Ability abilityBoosts="4"/>
         </AbilitySlot>
-        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat" />
+        <AbilitySlot state="filled" name="Alertness">
+            <Ability>
+                <Description>You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</Description>
+                <AttributeMods Proficiency="Expert">Perception</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Alertness">
-			<Ability>
-				<AttributeMods Proficiency="Expert">Perception</AttributeMods>
-			</Ability>
+    </FeatureList>
+    <FeatureList level="6">
+        <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="3" count="1"/>
+            </Ability>
         </AbilitySlot>
     </FeatureList>
-	<Feats>
-        <Ability name="Deadly Simplicity" level="1">
-            <Description>Your deity's weapon is especially powerful in your hands. When you are wielding your deity's favored weapon, increase the damage die size of that weapon by one step. If your deity's favored weapon is an unarmed attack (such as a fist, if you worship Irori) and its damage die is smaller than d6, instead increase its damage die size to d6.</Description>
+    <FeatureList level="7">
+        <AbilitySlot state="filled" name="4th-level spells">
+            <Ability>
+                <SpellSlots level="4" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="8">
+        <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="4" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="9">
+        <AbilitySlot state="filled" name="5th-level spells">
+            <Ability>
+                <SpellSlots level="5" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Resolve">
+            <Ability>
+                <Description>You’ve steeled your mind with resolve. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.</Description>
+                <AttributeMods Proficiency="Master">Will</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="10">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="5" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="11">
+        <AbilitySlot state="filled" name="6th-level spells">
+            <Ability>
+                <SpellSlots level="6" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Lightning Reflexes">
+            <Ability>
+                <Description>Your reflexes are lightning fast. Your proficiency rank for Reflex saves increases to expert.</Description>
+                <AttributeMods Proficiency="Expert">Reflex</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="12">
+        <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="6" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="13">
+        <AbilitySlot state="filled" name="7th-level spells">
+            <Ability>
+                <SpellSlots level="7" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Divine Defense">
+            <Ability>
+                <Description>Your training and your deity protect you from harm. Your proficiency rank in unarmored defense increases to expert.</Description>
+                <AttributeMods Proficiency="Expert">Unarmored</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Weapon Specialization">
+            <Ability>
+                <Description>You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master, and to 4 if you’re legendary.</Description>
+                <!--TODO: Weapon Specialization-->
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="14">
+        <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="7" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="15">
+        <AbilitySlot state="filled" name="8th-level spells">
+            <Ability>
+                <SpellSlots level="8" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="16">
+        <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="8" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="17">
+        <AbilitySlot state="filled" name="9th-level spells">
+            <Ability>
+                <SpellSlots level="9" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="18">
+        <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="9" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="19">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Miraculous Spell">
+            <Ability>
+                <Description>You’re exalted by your deity and gain truly incredible spells. You gain a single 10th-level spell slot and can prepare a spell in that slot using divine spellcasting. You don’t gain more 10th-level spells as you level up, though you can take the Maker of Miracles feat to gain a second slot.</Description>
+                <SpellSlots level="10" count="1"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="20">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <Feats>
+        <Ability name="Deadly Simplicity" level="1" page="121">
+            <Traits>Cleric</Traits>
+            <Requirements>Deity With A Simple Favored Weapon, Trained With Your Deity’s Favored Weapon</Requirements>
+            <Description>Your deity’s weapon is especially powerful in your hands. When you are wielding your deity’s favored weapon, increase the damage die size of that weapon by one step. If your deity’s favored weapon is an unarmed attack (such as a fist, if you worship Irori) and its damage die is smaller than d6, instead increase its damage die size to d6.</Description>
         </Ability>
-        <Ability name="Domain Initiate" level="1">
-            <Description>Your deity bestows a special spell related to their powers. Select one domain—a subject of particular interest to you within your religion—from your deity's list. You gain an initial domain spell for that domain, a spell unique to the domain and not available to other clerics. Each domain's theme and domain spells appear in Table 8–2: Domains on page 441. Domain spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to pray to your deity or do service toward their causes. Focus spells are automatically heightened to half your level rounded up. Focus spells don't require spell slots, nor can you cast them using spell slots. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear on page 300.
-			
-			Special You can select this feat multiple times, selecting a different domain each time and gaining its domain spell.</Description>
+        <Ability name="Domain Initiate" level="1" page="121">
+            <Traits>Cleric</Traits>
+            <Description>Your deity bestows a special spell related to their powers. Select one domain—a subject of particular interest to you within your religion—from your deity’s list. You gain an initial domain spell for that domain, a spell unique to the domain and not available to other clerics. Each domain’s theme and domain spells appear in Table 8–2: Domains on page 441. Domain spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to pray to your deity or do service toward their causes. Focus spells are automatically heightened to half your level rounded up. Focus spells don’t require spell slots, nor can you cast them using spell slots. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear on page 300.Special You can select this feat multiple times, selecting a different domain each time and gaining its domain spell.
+            </Description>
         </Ability>
-        <Ability name="Harming Hands" level="1">
+        <Ability name="Harming Hands" level="1" page="121">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Harmful Font</Prerequisites>
             <Description>The mordant power of your negative energy grows. When you cast harm, you roll d10s instead of d8s.</Description>
-			<Prerequisites>Harmful Font</Prerequisites>
         </Ability>
-        <Ability name="Healing Hands" level="1">
-            <Description>Your positive energy is even more vibrant and restorative.
-When you cast heal, you roll d10s instead of d8s.</Description>
-			<Prerequisites>Healing Font</Prerequisites>
+        <Ability name="Healing Hands" level="1" page="121">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Healing Font</Prerequisites>
+            <Description>Your positive energy is even more vibrant and restorative. When you cast heal, you roll d10s instead of d8s.</Description>
         </Ability>
-        <Ability name="Holy Castigation" level="1">
-            <Description>Prerequisites:Good Alignment
-			
-			You combine holy energy with positive energy to damage demons, devils, and their evil ilk. Heal spells you cast damage fiends as though they were undead</Description>
+        <Ability name="Holy Castigation" level="1" page="121">
+            <Traits>Cleric</Traits>
+            <Requirements>Good Alignment</Requirements>
+            <Description>You combine holy energy with positive energy to damage demons, devils, and their evil ilk. Heal spells you cast damage fiends as though they were undead.</Description>
         </Ability>
-        <Ability name="Reach Spell" level="1" cost="1">
-			<Traits>Concentrate, Metamagic</Traits>
-            <Description>You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell's range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</Description>
+        <Ability name="Reach Spell" level="1" page="122" cost="1">
+            <Traits>Cleric, Concentrate, Druid, Metamagic</Traits>
+            <Description>You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell’s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</Description>
         </Ability>
-        <Ability name="Cantrip Expansion" level="2">
-            <Description>You study a wider range of simple spells. You can prepare two additional cantrips each day.</Description>
+        <Ability name="Cantrip Expansion" level="2" page="100">
+            <Traits>Cleric</Traits>
+            <Description>A greater understanding of your magic broadens your range of simple spells.Prepared Caster (Cleric, Wizard, etc.): You can prepare two additional cantrips each day.Spontaneous Caster (Sorcerer, etc.): Add two additional cantrips from your spell list to your repertoire.</Description>
         </Ability>
-        <Ability name="Communal Healing" level="2">
-			<Traits>Healing, Positive</Traits>
-            <Description>You're a conduit for positive energy, and as you channel it through you, it heals some of your minor injuries. When you cast the heal spell to heal a single creature other than yourself, you regain Hit Points equal to the spell level of the heal spell.</Description>
+        <Ability name="Communal Healing" level="2" page="122">
+            <Traits>Cleric, Healing, Positive</Traits>
+            <Description>You’re a conduit for positive energy, and as you cit through you, it heals some of your minor injuries. When you cast the heal spell to heal a single creature other than yourself, you regain Hit Points equal to the spell level of the heal spell.</Description>
         </Ability>
-        <Ability name="Emblazon Armament" level="2">
-			<Traits>Exploration</Traits>
-            <Description>Carefully etching a sacred image into a physical object, you steel yourself for battle. You can spend 10 minutes emblazoning a symbol of your deity upon a weapon or shield. The symbol doesn't fade until 1 year has passed, but if you Emblazon an Armament, any symbol you previously emblazoned and any symbol already emblazoned on that item instantly disappears. The item becomes a religious symbol of your deity and can be used as a divine focus while emblazoned, and it gains another benefit determined by the type of item. This benefit applies only to followers of the deity the symbol represents.
-			
-			• Shield The shield gains a +1 status bonus to its Hardness. (This causes it to reduce more damage with the Shield Block reaction.)
-			
-			• Weapon The wielder gains a +1 status bonus to damage rolls.</Description>
+        <Ability name="Emblazon Armament" level="2" page="122">
+            <Traits>Cleric, Exploration</Traits>
+            <Description>Carefully etching a sacred image into a physical object, you steel yourself for battle. You can spend 10 minutes emblazoning a symbol of your deity upon a weapon or shield. The symbol doesn’t fade until 1 year has passed, but if you Emblazon an Armament, any symbol you previously emblazoned and any symbol already emblazoned on that item instantly disappears. The item becomes a religious symbol of your deity and can be used as a divine focus while emblazoned, and it gains another benefit determined by the type of item. This benefit applies only to followers of the deity the symbol represents. Shield The shield gains a +1 status bonus to its Hardness. (This causes it to reduce more damage with the Shield Block reaction.) Weapon The wielder gains a +1 status bonus to damage rolls.</Description>
         </Ability>
-        <Ability name="Sap Life" level="2">
-			<Traits>Healing</Traits>
-            <Description>You draw the life force out of your enemies to heal your own wounds. When you cast a harm spell and damage at least one living creature, you regain Hit Points equal to the spell level of your harm spell. If you aren't a living creature, you gain no benefit from this feat.</Description>
+        <Ability name="Sap Life" level="2" page="122">
+            <Traits>Cleric, Healing</Traits>
+            <Description>You draw the life force out of your enemies to heal your own wounds. When you cast a harm spell and damage at least one living creature, you regain Hit Points equal to the spell level of your harm spell. If you aren’t a living creature, you gain no benefit from this feat.</Description>
         </Ability>
-        <Ability name="Turn Undead" level="2">
+        <Ability name="Turn Undead" level="2" page="122">
+            <Traits>Cleric</Traits>
             <Description>Undead harmed by your positive energy might flee, compelled by an innate aversion to the force opposite undeath. When you use a heal spell to damage undead, each undead of your level or lower that critically fails its save gains the fleeing condition for 1 round.</Description>
         </Ability>
-        <Ability name="Versatile Font" level="2">
-            <Description>Prerequisites: Deity that allows clerics to have both fonts.
-			
-As you explore your deity's aspects, you move beyond restrictions on healing or harming. You
-can prepare either harm or heal in the spell slots gained from the harmful font or healing font.</Description>
+        <Ability name="Versatile Font" level="2" page="122">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Harmful Font Or Healing Font</Prerequisites>
+            <Requirements>Deity That Allows Clerics To Have Both Fonts</Requirements>
+            <Description>As you explore your deity’s aspects, you move beyond restrictions on healing or harming. You can prepare either harm or heal in the spell slots gained from the harmful font or healing font.</Description>
+        </Ability>
+        <Ability name="Channel Smite" level="4" page="122" cost="2">
+            <Traits>Cleric, Divine, Necromancy</Traits>
+            <Prerequisites>Harmful Font Or Healing Font</Prerequisites>
+            <Description>You siphon the destructive energies of positive or negative energy through a melee attack and into your foe. Make a melee Strike and add the spell’s damage to the Strike’s damage. This is negative damage if you expended a harm spell or positive damage if you expended a heal spell. The spell is expended with no effect if your Strike fails or hits a creature that isn’t damaged by that energy type (such as if you hit a non-undead creature with a heal spell).</Description>
+        </Ability>
+        <Ability name="Command Undead" level="4" page="123" cost="1">
+            <Traits>Cleric, Concentrate, Metamagic</Traits>
+            <Prerequisites>Harmful Font</Prerequisites>
+            <Requirements>Evil Alignment</Requirements>
+            <Description>You grasp the animating force within an undead creature and bend it to your will. If the next action you use is to cast harm targeting one undead creature, you transform the effects of that harm spell. Instead of harm’s normal effects, the target becomes controlled by you if its level is equal to or lower than your level – 3. It can attempt a Will saving throw to resist being controlled by you. If the target is already under someone else’s command, the controlling creature also rolls a saving throw, and the undead uses the better result. Critical Success The target is unaffected and is temporarily immune for 24 hours.Success The target is unaffected.Failure The undead creature becomes a minion under your control. The spell gains a duration of 1 minute, but it is dismissed if you or an ally attacks the minion undead.Critical Failure As failure, but the duration is 1 hour.</Description>
+        </Ability>
+        <Ability name="Directed Channel" level="4" page="123">
+            <Traits>Cleric</Traits>
+            <Description>You can shape the energy you channel in a single direction, reaching farther and in a more directed fashion. When you cast a version of harm or heal that has an area, you can make its area a 60-foot cone instead of a 30-foot emanation.</Description>
+        </Ability>
+        <Ability name="Improved Communal Healing" level="4" page="123">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Communal Healing</Prerequisites>
+            <Description>You can direct excess channeled energy outward to benefit an ally. You can grant the Hit Points you would regain from Communal Healing to any one creature within the range of your heal spell instead of yourself. You can also use Communal Healing when you target only yourself with a heal spell, though if you do, you must grant the additional healing to someone other than yourself.</Description>
+        </Ability>
+        <Ability name="Necrotic Infusion" level="4" page="123" cost="1">
+            <Traits>Cleric, Concentrate, Metamagic</Traits>
+            <Prerequisites>Harmful Font</Prerequisites>
+            <Requirements>Evil Alignment</Requirements>
+            <Description>You pour negative energy into your undead subject to empower its attacks. If the next action you use is to cast harm to restore Hit Points to a single undead creature, the target then deals an additional 1d6 negative damage with its melee weapons and unarmed attacks until the end of its next turn. If the harm spell is at least 5th level, this damage increases to 2d6, and if the harm spell is at least 8th level, the damage increases to 3d6.</Description>
+        </Ability>
+        <Ability name="Cast Down" level="6" page="123" cost="1">
+            <Traits>Cleric, Concentrate, Metamagic</Traits>
+            <Prerequisites>Harmful Font Or Healing Font</Prerequisites>
+            <Description>The sheer force of your faith can bring a foe crashing down. If the next action you use is to cast harm or heal to damage one creature, the target is knocked prone if it takes any damage from the spell. If the target critically fails its save against the spell, it also takes a –10-foot status penalty to its Speed for 1 minute.</Description>
+        </Ability>
+        <Ability name="Divine Weapon" level="6" page="123" cost="Free">
+            <Traits>Cleric</Traits>
+            <Trigger>You finish Casting a Spell using one of your divine spell slots on your turn.</Trigger>
+            <Frequency>once per turn</Frequency>
+            <Description>You siphon residual spell energy into a weapon you’re wielding. Until the end of your turn, the weapon deals an additional 1d4 force damage. You can instead deal an additional 1d6 damage of an alignment type that matches one of your deity’s alignment components. As usual for aligned damage, this can damage only creatures of the opposite alignment.</Description>
+        </Ability>
+        <Ability name="Selective Energy" level="6" page="123">
+            <Traits>Cleric</Traits>
+            <Description>As you call down divine power, you can prevent some enemies from benefiting or some allies from being hurt. When you cast a version of harm or heal that has an area, you can designate a number of creatures equal to your Charisma modifier (minimum 1) that are not targeted by the spell.</Description>
+        </Ability>
+        <Ability name="Steady Spellcasting" level="6" page="211">
+            <Traits>Cleric, Druid</Traits>
+            <Description>Confident in your technique, you don’t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn’t disrupted.</Description>
+        </Ability>
+        <Ability name="Advanced Domain" level="8" page="123">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Domain Initiate</Prerequisites>
+            <Description>Your studies or prayers have unlocked deeper secrets of your deity’s domain. You gain an advanced domain spell from one of your domains (as listed in Table 8–2: Domains on page 441). Increase the number of Focus Points in your focus pool by 1.Special You can select this feat multiple times. Each time, you must select a different advanced domain spell from a domain for which you have an initial domain spell.</Description>
+        </Ability>
+        <Ability name="Align Armament" level="8" page="124" cost="1">
+            <Traits>Cleric, Divine, Evocation</Traits>
+            <Requirements>Chaotic, Evil, Good, Or Lawful Deity</Requirements>
+            <Frequency>once per round</Frequency>
+            <Description>You bring a weapon into metaphysical concordance with your deity’s beliefs. When you select this feat, choose chaotic, evil, good, or lawful. Your choice must match one of your deity’s alignment components. This action has the trait corresponding to the chosen alignment component. When you use this action, you touch a weapon. For 1 round, that weapon deals an additional 1d6 damage of the chosen type to creatures of the opposed alignment. For example, if you chose good, the weapon would deal an extra 1d6 good damage to evil creatures. If you Align an Armament again, any previously aligned armament loses its additional damage.Special You can select this feat a second time, choosing your deity’s other alignment component. When you Align an Armament, you can choose either alignment component.</Description>
+        </Ability>
+        <Ability name="Channeled Succor" level="8" page="124">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Healing Font</Prerequisites>
+            <Description>You can remove conditions with divine grace. You can sacrifice one heal spell you’ve prepared in your extra slots from healing font to cast one of the following spells instead: remove curse, remove disease, remove paralysis, or restoration. The spell is heightened to the same level as the heal spell you sacrificed.</Description>
+        </Ability>
+        <Ability name="Cremate Undead" level="8" page="124">
+            <Traits>Cleric</Traits>
+            <Description>Your positive energy sets undead alight. When you use a heal spell to damage undead, each undead that takes damage also takes persistent fire damage equal to the spell’s level.</Description>
+        </Ability>
+        <Ability name="Emblazon Energy" level="8" page="124">
+            <Traits>Cleric</Traits>
+            <Description>With elemental forces, you make your emblazoned symbols more potent. When you Emblazon an Armament, you can choose from the following effects instead of the effects listed in that feat. These effects have the same restrictions as the base options. Shield Choose acid, cold, electricity, fire, or sonic. The wielder gain the shield’s circumstance bonus to saving throws against that damage type and can use Shield Block against damage of that type. The shield also gains resistance to that damage type equal to half your level if you have a domain spell with a trait matching that type (such as fire). Weapon Choose acid, cold, electricity, fire, or sonic. The weapon deals an extra 1d4 damage of that type. Increase this extra damage to 1d6 if you have a domain spell with a trait matching that type (such as fire).</Description>
+        </Ability>
+        <Ability name="Castigating Weapon" level="10" page="125">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Holy Castigation</Prerequisites>
+            <Description>The force of your deity’s castigation strengthens your body so you can strike down the wicked. After you damage a fiend using a heal spell, your weapon or unarmed Strikes deal extra good damage to fiends equal to half the level of the heal spell until the end of your next turn. This is cumulative with any good damage the weapon already deals (such as from a holy rune).</Description>
+        </Ability>
+        <Ability name="Heroic Recovery" level="10" page="125" cost="1">
+            <Traits>Cleric, Concentrate, Metamagic</Traits>
+            <Prerequisites>Healing Font</Prerequisites>
+            <Requirements>Good Alignment</Requirements>
+            <Description>The restorative power of your healing invigorates the recipient. If the next action you use is to cast heal targeting a single living creature and the target regains Hit Points from the spell, it also gains three bonuses until the end of its next turn: a +5-foot status bonus to its Speed, a +1 status bonus to attack rolls, and a +1 status bonus to damage rolls.</Description>
+        </Ability>
+        <Ability name="Improved Command Undead" level="10" page="125">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Harmful Font, Command Undead</Prerequisites>
+            <Requirements>Evil Alignment</Requirements>
+            <Description>Undead creatures find it all but impossible to resist your commands. When you use Command Undead, if the undead succeeds at its save but doesn’t critically succeed, it is your minion for 1 round. If the undead fails its save, it is your minion for 10 minutes. If it critically fails, it is your minion for 24 hours.</Description>
+        </Ability>
+        <Ability name="Replenishment of War" level="10" page="125">
+            <Traits>Cleric</Traits>
+            <Requirements>Expert In Your Deity’s Favored Weapon</Requirements>
+            <Description>Striking out against your enemies draws praise and protection from your deity. When you damage a creature with a Strike using your deity’s favored weapon, you gain a number of temporary Hit Points equal to half your level, or equal to your level if the Strike was a critical hit. These temporary Hit Points last until the start of your next turn.</Description>
+        </Ability>
+        <Ability name="Defensive Recovery" level="12" page="125" cost="1">
+            <Traits>Cleric, Concentrate, Metamagic</Traits>
+            <Prerequisites>Harmful Font Or Healing Font</Prerequisites>
+            <Description>Your faith provides temporary protection in addition to healing. If the next action you use is to cast harm or heal on a single target and the target regains Hit Points from the spell, it also gains a +2 status bonus to AC and saving throws for 1 round.</Description>
+        </Ability>
+        <Ability name="Domain Focus" level="12" page="125">
+            <Traits>Cleric</Traits>
+            <Requirements>One Or More Domain Spells</Requirements>
+            <Description>Your devotion to your deity’s domains grows greater, and so does the power granted to you. If you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1.</Description>
+        </Ability>
+        <Ability name="Emblazon Antimagic" level="12" page="125">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Emblazon Armament</Prerequisites>
+            <Description>Your deity’s symbol protects against offensive magic. When you Emblazon an Armament, you can choose from the following effects instead of the effects listed in that feat. These effects have the same restrictions as the base options. Shield When the wielder has the shield raised, they gain the shield’s circumstance bonus to saving throws against magic, and they can use Shield Block against damage from their enemies’ spells. Weapon When the weapon’s wielder critically hits with the weapon, they can attempt to counteract a spell on their target, using their level as the counteract level. If they attempt to do so, the emblazoned symbol immediately disappears.</Description>
+        </Ability>
+        <Ability name="Shared Replenishment" level="12" page="125">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Replenishment Of War</Prerequisites>
+            <Description>When your deity blesses your warlike acts, you can extend that favor to your allies. You can grant the temporary Hit Points from Replenishment of War to an ally within 10 feet instead of gaining them yourself. You can grant these temporary Hit Points to a different ally each time, meaning you might be able to grant them to multiple creatures in a single turn.</Description>
+        </Ability>
+        <Ability name="Deity's Protection" level="14" page="125">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Advanced Domain</Prerequisites>
+            <Description>When you call upon your deity’s power to fulfill the promise of their domain, you gain divine protection. After you cast a domain spell, you gain resistance to all damage until the start of your next turn. The amount of resistance is equal to the level of the domain spell you cast.</Description>
+        </Ability>
+        <Ability name="Extend Armament Alignment" level="14" page="125">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Align Armament</Prerequisites>
+            <Description>The alignment you impose on a weapon lasts much longer. The duration of Align Armament increases to 1 minute.</Description>
+        </Ability>
+        <Ability name="Fast Channel" level="14" page="125">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Harmful Font Or Healing Font</Prerequisites>
+            <Description>Divine power is always at your fingertips, swiftly responding to your call. When you cast harm or heal by spending 2 actions, you can get the effects of the 3-action version instead of the 2-action version. You can do this with harm if you have harmful font or heal if you have healing font (or both if you have Versatile Font).</Description>
+        </Ability>
+        <Ability name="Swift Banishment" level="14" page="126" cost="Reaction">
+            <Traits>Cleric</Traits>
+            <Trigger>You critically hit a creature that is not on its home plane.</Trigger>
+            <Requirements>You have a banishment spell prepared</Requirements>
+            <Description>The force of your blow sends your victim back to its home plane. You expend a banishment spell you have prepared, affecting the creature you critically hit without needing to cast the spell. The creature can attempt to resist the spell as normal.</Description>
+        </Ability>
+        <Ability name="Eternal Bane" level="16" page="126">
+            <Traits>Cleric</Traits>
+            <Requirements>Evil Alignment</Requirements>
+            <Description>A life of evil has made you a nexus for your deity’s vile power. You’re continuously surrounded by a bane spell with a spell level equal to half your level (rounded up). The radius is 15 feet, and you can’t increase it. You can Dismiss the spell; if you do, it returns automatically after 1 minute.</Description>
+        </Ability>
+        <Ability name="Eternal Blessing" level="16" page="126">
+            <Traits>Cleric</Traits>
+            <Requirements>Good Alignment</Requirements>
+            <Description>Your good deeds have brought your deity’s grace to you for all of eternity. You’re continuously surrounded by a bless spell with a spell level equal to half your level (rounded up). The radius is 15 feet, and you can’t increase it. You can Dismiss the spell; if you do, it returns automatically after 1 minute.</Description>
+        </Ability>
+        <Ability name="Resurrectionist" level="16" page="126">
+            <Traits>Cleric</Traits>
+            <Description>You can cause a creature you bring back from the brink of death to thrive and continue healing. When you restore Hit Points to a dying creature or bring a dead creature back to life and restore Hit Points to it, you grant that creature fast healing 5 for 1 minute. This fast healing ends if the creature is knocked unconscious.</Description>
+        </Ability>
+        <Ability name="Domain Wellspring" level="18" page="126">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Domain Focus</Prerequisites>
+            <Description>The intensity of your focus grows from the investment you’ve placed in your domains. If you have spent at least 3 Focus Points since the last time you Refocused, you recover 3 Focus Points when you Refocus instead of 1.</Description>
+        </Ability>
+        <Ability name="Echoing Channel" level="18" page="127" cost="1">
+            <Traits>Cleric, Concentrate, Metamagic</Traits>
+            <Description>When you pull forth positive or negative energy, you also create a smaller pocket of that energy. If the next action you use is to cast a 2-action harm or heal to heal or damage a single creature, choose one additional creature adjacent to either you or the target. Target that creature with a 1-action version of the same spell. This spell is the same level as the 2-action harm or heal you cast and doesn’t cost another spell slot.</Description>
+        </Ability>
+        <Ability name="Improved Swift Banishment" level="18" page="127">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Swift Banishment</Prerequisites>
+            <Description>You easily banish creatures with your weapon. You can use Swift Banishment as long as you have a spell slot of 5th level or higher remaining, even if you don’t have banishment prepared. You must sacrifice a prepared spell of 5th level or higher, and the banishment effect you create is heightened to the level of that spell. Your weapon serves as the special material component of banishment, causing the target to take the –2 penalty to its save against any banishment you cast using Swift Banishment.</Description>
+        </Ability>
+        <Ability name="Avatar's Audience" level="20" page="127">
+            <Traits>Cleric</Traits>
+            <Description>Your extensive service has made you a lesser herald of your deity, which affords you certain privileges. First, any creature you encounter knows instinctively that you speak for your deity. Second, if you conduct the commune ritual to contact your deity, you don’t have to pay any cost and you automatically get a critical success. Third, once per day, you can cast plane shift as a divine innate spell, but only to travel to the realm of your deity. When you cast it this way, its casting time is 1 minute, your religious symbol is a sufficient tuning fork for this spell, and you appear exactly where you want to be. If you’re in your deity’s realm due to this spell, you can return to the point you left when you cast it by spending a single action, which has the concentrate and divine traits.</Description>
+        </Ability>
+        <Ability name="Maker of Miracles" level="20" page="127">
+            <Traits>Cleric</Traits>
+            <Prerequisites>Miraculous Spell</Prerequisites>
+            <Description>You are a conduit for truly deific power. You gain an additional 10th-level spell slot.</Description>
+        </Ability>
+        <Ability name="Metamagic Channel" level="20" page="127" cost="Free">
+            <Traits>Cleric, Concentrate</Traits>
+            <Description>Deep understanding of divine revelations into the nature of vital essence allows you to freely manipulate the effects of your positive or negative energy. Use 1 metamagic action that you can perform that normally takes 1 action and can be applied to the harm or heal spell. If you use it in this way, its effects apply only to a harm or heal spell.</Description>
         </Ability>
     </Feats>
 </pf2:class>

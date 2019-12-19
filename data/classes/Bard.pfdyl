@@ -11,7 +11,7 @@
         <AbilitySlot state="filled" name="Initial Proficiencies">
             <Ability>
                 <AttributeMods Proficiency="Trained">
-                    Fortitude, Occultism, Performance, Perception, Reflex, Simple Weapons, Unarmed, Light Armor, Unarmored, Spell Attacks, Spell DCs
+                    Fortitude, Occultism, Performance, Perception, Reflex, Simple Weapons, Unarmed, Light Armor, Unarmored, Occult Spell Attacks, Occult Spell DCs
                 </AttributeMods>
                 <AttributeMods Proficiency="Expert">
                     Perception, Will
@@ -155,7 +155,7 @@
         <AbilitySlot state="filled" name="Expert Spellcaster">
             <Ability>
                 <Description>Your proficiency ranks for occult spell attack rolls and spell DCs increase to expert.</Description>
-                <AttributeMods Proficiency="Expert">Spell Attacks, Spell DCs</AttributeMods>
+                <AttributeMods Proficiency="Expert">Occult Spell Attacks, Occult Spell DCs</AttributeMods>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
@@ -288,7 +288,7 @@
         <AbilitySlot state="filled" name="Master Spellcaster">
             <Ability>
                 <Description>You've mastered the occult. Your proficiency ranks for occult spell attack rolls and spell DCs increase to master.</Description>
-                <AttributeMods Proficiency="Master">Spell Attacks, Spell DCs</AttributeMods>
+                <AttributeMods Proficiency="Master">Occult Spell Attacks, Occult Spell DCs</AttributeMods>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="filled" name="Skill Increase">
@@ -341,7 +341,7 @@
 
                     Your proficiency ranks for occult spell attack rolls and spell DCs increase to legendary.
                 </Description>
-                <AttributeMods Proficiency="Legendary">Spell Attacks, Spell DCs</AttributeMods>
+                <AttributeMods Proficiency="Legendary">Occult Spell Attacks, Occult Spell DCs</AttributeMods>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="filled" name="Magnum Opus">
@@ -353,6 +353,7 @@
                     You don't gain more 10th-level spells as you level up, unlike other spell slots, and you can't use 10th-level slots with abilities that give you more spell slots or that let you cast spells without expending spell slots.
                 </Description>
                 <SpellSlots level="10" count="1"/>
+                <SpellsKnown level="10" count="1"/>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="filled" name="Skill Increase">
