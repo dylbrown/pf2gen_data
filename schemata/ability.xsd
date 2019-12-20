@@ -19,6 +19,20 @@
           </xs:documentation>
         </xs:annotation>
       </xs:element>
+      <xs:element name="PrereqStrings" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            A comma-separated list of prerequisite names from GivesPrerequisites.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="GivesPrerequisites" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            A comma-separated list of prerequisite names that you now meet.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
       <xs:element name="Requires" minOccurs="0" type="xs:string">
         <xs:annotation>
           <xs:documentation>
