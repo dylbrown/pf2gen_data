@@ -45,7 +45,8 @@
                     Cantrips
                     A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest level of spell you can cast as a cleric. For example, as a 1st-level cleric, your cantrips are 1st-level spells, and as a 5th-level cleric, your cantrips are 3rd-level spells.
                 </Description>
-                <SpellSlots level="0" count="5" type="Prepared"/>
+                <Spellcasting type="Prepared" tradition="Divine"/>
+                <SpellSlots level="0" count="5"/>
                 <SpellSlots level="1" count="2"/>
             </Ability>
         </AbilitySlot>

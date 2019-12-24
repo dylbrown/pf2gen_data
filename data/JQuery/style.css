@@ -670,8 +670,9 @@ th.foldtitle.padme {
 	background-color: black;
 }
 
-.weapons-table tr:nth-child(odd) td {
+.weapons-table tr:nth-child(2n+3) td {
 	border-bottom: 2px solid black;
+	border-top: 2px dashed #aaa;
 }
 .weapons-table tr, .armour-info tr {
 	color:black;

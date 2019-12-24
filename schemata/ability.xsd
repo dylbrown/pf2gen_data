@@ -77,17 +77,19 @@
           </xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="SpellsKnown" minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="Spellcasting" minOccurs="0">
         <xs:complexType>
-          <xs:attribute name="count" type="xs:positiveInteger"/>
-          <xs:attribute name="level" type="xs:nonNegativeInteger"/>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SpellSlots" minOccurs="0" maxOccurs="unbounded">
-        <xs:complexType>
-          <xs:attribute name="count" type="xs:positiveInteger"/>
-          <xs:attribute name="level" type="xs:nonNegativeInteger"/>
-          <xs:attribute name="type">
+          <xs:attribute name="tradition" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="Arcane"/>
+                <xs:enumeration value="Divine"/>
+                <xs:enumeration value="Occult"/>
+                <xs:enumeration value="Primal"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="type" use="required">
             <xs:simpleType>
               <xs:restriction base="xs:string">
                 <xs:enumeration value="Spontaneous"/>
@@ -97,9 +99,21 @@
           </xs:attribute>
         </xs:complexType>
       </xs:element>
+      <xs:element name="SpellsKnown" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="count" type="xs:positiveInteger" use="required"/>
+          <xs:attribute name="level" type="xs:nonNegativeInteger" use="required"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SpellSlots" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="count" type="xs:positiveInteger" use="required"/>
+          <xs:attribute name="level" type="xs:nonNegativeInteger" use="required"/>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="Spell" minOccurs="0" maxOccurs="unbounded">
         <xs:complexType>
-          <xs:attribute name="type">
+          <xs:attribute name="type" use="required">
             <xs:simpleType>
               <xs:restriction base="xs:string">
                 <xs:enumeration value="Spell"/>
@@ -109,7 +123,7 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
-          <xs:attribute name="name" type="xs:string"/>
+          <xs:attribute name="name" type="xs:string" use="required"/>
         </xs:complexType>
       </xs:element>
       <xs:element name="AttributeMods" minOccurs="0" maxOccurs="unbounded">
@@ -243,7 +257,7 @@
       </xs:annotation>
       <xs:simpleType>
         <xs:restriction base="xs:string">
-          <xs:pattern value="(Heritage |Ancestry |Class |Skill |General )*Feat"/>
+          <xs:pattern value="(Heritage |Ancestry |Class |Skill |General |\w+ )*Feat"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>

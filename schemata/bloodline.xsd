@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:pf2="https://dylbrown.github.io"
+           targetNamespace="https://dylbrown.github.io">
+    <xs:include schemaLocation="ability.xsd"/>
+    <xs:complexType name="Bloodline">
+        <xs:sequence>
+            <xs:element name="Description" type="xs:string"/>
+            <xs:element name="Tradition"><xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="Arcane"/>
+                    <xs:enumeration value="Divine"/>
+                    <xs:enumeration value="Occult"/>
+                    <xs:enumeration value="Primal"/>
+                </xs:restriction>
+            </xs:simpleType></xs:element>
+            <xs:element name="Skills">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[^\w]*((Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore ?\([^()]*\)|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery|Fortitude|Reflex|Will|Perception|Simple Weapons|Martial Weapons|Advanced Weapons|Unarmed|Light Armor|Medium Armor|Heavy Armor|Unarmored|Shields|(Arcane|Divine|Occult|Primal) Spell (Attacks|D[cC]s)|Class D[cC]|None), ?)*(Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore ?\([^()]*\)|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery|Fortitude|Reflex|Will|Perception|Simple Weapons|Martial Weapons|Advanced Weapons|Unarmed|Light Armor|Medium Armor|Heavy Armor|Unarmored|Shields|(Arcane|Divine|Occult|Primal) Spell (Attacks|D[cC]s)|Class D[cC]|None)[^\w]*"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="GrantedSpells">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="cantrip [^,]+, 1st: [^,]+, 2nd: [^,]+, 3rd: [^,]+, 4th: [^,]+, 5th: [^,]+, 6th: [^,]+, 7th: [^,]+, 8th: [^,]+, 9th: [^,]+"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="BloodlineSpells">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="initial: [^,]+, advanced: [^,]+, greater: [^,]+"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="BloodMagic" type="xs:string"/>
+            <xs:element name="AbilitySlot" type="pf2:AbilitySlot" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="page" type="xs:string"/>
+    </xs:complexType>
+    <xs:element name="Bloodlines">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Bloodline" type="pf2:Bloodline" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
