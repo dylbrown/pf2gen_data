@@ -43,9 +43,39 @@
 			</tr>
 			<tr>
 				<td valign="top" class="font8 white-text">Spell Attacks</td>
-				<td valign="top" class="border8">${character.attributes.occultspellattacks.proficiency}</td>
+				<td valign="top" class="border8">
+				    <#switch character.spells.tradition>
+                        <#case "Arcane">
+                            ${character.attributes.arcaneSpellAttacks.proficiency}
+                            <#break>
+                        <#case "Divine">
+                            ${character.attributes.divineSpellAttacks.proficiency}
+                            <#break>
+                        <#case "Occult">
+                            ${character.attributes.occultSpellAttacks.proficiency}
+                            <#break>
+                        <#case "Primal">
+                            ${character.attributes.primalSpellAttacks.proficiency}
+                            <#break>
+				    </#switch>
+				</td>
 				<td valign="top" class="font8 white-text">Spell DCs</td>
-				<td valign="top" class="border8">${character.attributes.occultspelldcs.proficiency}</td>
+				<td valign="top" class="border8">
+				    <#switch character.spells.tradition>
+                        <#case "Arcane">
+                            ${character.attributes.arcaneSpellDCs.proficiency}
+                            <#break>
+                        <#case "Divine">
+                            ${character.attributes.divineSpellDCs.proficiency}
+                            <#break>
+                        <#case "Occult">
+                            ${character.attributes.occultSpellDCs.proficiency}
+                            <#break>
+                        <#case "Primal">
+                            ${character.attributes.primalSpellDCs.proficiency}
+                            <#break>
+				    </#switch>
+                </td>
 			</tr>
 		</table></div>
 		<!-- STOP Proficiency Table -->

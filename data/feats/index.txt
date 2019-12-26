@@ -1,3 +1,4 @@
+arcaneSchool
 bloodline
 general
 skill

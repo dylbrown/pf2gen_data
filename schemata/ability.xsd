@@ -103,12 +103,22 @@
         <xs:complexType>
           <xs:attribute name="count" type="xs:positiveInteger" use="required"/>
           <xs:attribute name="level" type="xs:nonNegativeInteger" use="required"/>
+          <xs:attribute name="traits" type="xs:string"/>
         </xs:complexType>
       </xs:element>
       <xs:element name="SpellSlots" minOccurs="0" maxOccurs="unbounded">
         <xs:complexType>
           <xs:attribute name="count" type="xs:positiveInteger" use="required"/>
           <xs:attribute name="level" type="xs:nonNegativeInteger" use="required"/>
+          <xs:attribute name="traits" type="xs:string"/>
+          <xs:attribute name="known">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="yes"/>
+                <xs:enumeration value="no"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
         </xs:complexType>
       </xs:element>
       <xs:element name="Spell" minOccurs="0" maxOccurs="unbounded">
@@ -257,7 +267,7 @@
       </xs:annotation>
       <xs:simpleType>
         <xs:restriction base="xs:string">
-          <xs:pattern value="(Heritage |Ancestry |Class |Skill |General |\w+ )*Feat"/>
+          <xs:pattern value="((Heritage|Ancestry|Class|Skill|General|Bloodline|Arcane (Thesis|School)) ?)*(Feat)?"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>

@@ -2,7 +2,9 @@ Barbarian
 Bard
 Champion
 Cleric
+Druid
 Fighter
+Monk
 Ranger
 Rogue
 Sorcerer
