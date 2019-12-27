@@ -44,7 +44,7 @@
 			<tr>
 				<td valign="top" class="font8 white-text">Spell Attacks</td>
 				<td valign="top" class="border8">
-				    <#switch character.spells.tradition>
+				    <#switch character.tradition>
                         <#case "Arcane">
                             ${character.attributes.arcaneSpellAttacks.proficiency}
                             <#break>
@@ -61,7 +61,7 @@
 				</td>
 				<td valign="top" class="font8 white-text">Spell DCs</td>
 				<td valign="top" class="border8">
-				    <#switch character.spells.tradition>
+				    <#switch character.tradition>
                         <#case "Arcane">
                             ${character.attributes.arcaneSpellDCs.proficiency}
                             <#break>

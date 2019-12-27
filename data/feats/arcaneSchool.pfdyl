@@ -4,41 +4,89 @@
            xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
     <Ability name="Abjuration School" page="207">
         <Description>As an abjurer, you master the art of protection, strengthening defenses, preventing attacks, and even turning magic against itself. You understand that an ounce of prevention is worth a pound of cure. You add one 1st-level abjuration spell (such as feather fall) to your spellbook. You learn the protective ward school spell.</Description>
+        <AbilitySlot state="filled" name="Advanced Abjuration Spell">
+            <Ability>
+                <Prerequisites>Advanced School Spell</Prerequisites>
+                <Spell type="Focus" name="Energy Absorption"/>
+            </Ability>
+        </AbilitySlot>
         <SpellsKnown count="1" level="1" traits="Abjuration"/>
         <Spell type="Focus" name="Protective Ward"/>
     </Ability>
     <Ability name="Conjuration School" page="207">
         <Description>As a conjurer, you summon creatures and objects from places beyond, and use magic to transport to distant locales. You understand that the true key to victory is strength in numbers. You add one 1st-level conjuration spell (such as summon animal) to your spellbook. You learn the augment summoning school spell).</Description>
+        <AbilitySlot state="filled" name="Advanced Conjuration Spell">
+            <Ability>
+                <Prerequisites>Advanced School Spell</Prerequisites>
+                <Spell type="Focus" name="Dimensional Steps"/>
+            </Ability>
+        </AbilitySlot>
         <SpellsKnown count="1" level="1" traits="Conjuration"/>
         <Spell type="Focus" name="Augment Summoning"/>
     </Ability>
     <Ability name="Divination School" page="208">
         <Description>As a diviner, you master remote viewing and prescience, learning information that can transform investigations, research, and battle strategies. You understand that knowledge is power. You add one 1st-level divination spell (such as true strike) to your spellbook. You learn the diviner’s sight school spell.</Description>
+        <AbilitySlot state="filled" name="Advanced Divination Spell">
+            <Ability>
+                <Prerequisites>Advanced School Spell</Prerequisites>
+                <Spell type="Focus" name="Vigilant Eye"/>
+            </Ability>
+        </AbilitySlot>
         <SpellsKnown count="1" level="1" traits="Divination"/>
         <Spell type="Focus" name="Diviner's Sight"/>
     </Ability>
     <Ability name="Enchantment School" page="208">
         <Description>As an enchanter, you use magic to manipulate others’ minds. You might use your abilities to subtly influence others or seize control over them. You understand that the mind surpasses matter. You add one 1st-level enchantment spell (such as charm) to your spellbook. You learn the charming words school spell.</Description>
+        <AbilitySlot state="filled" name="Advanced Enchantment Spell">
+            <Ability>
+                <Prerequisites>Advanced School Spell</Prerequisites>
+                <Spell type="Focus" name="Dread Aura"/>
+            </Ability>
+        </AbilitySlot>
         <SpellsKnown count="1" level="1" traits="Enchantment"/>
         <Spell type="Focus" name="Charming Words"/>
     </Ability>
     <Ability name="Evocation School" page="208">
         <Description>As an evoker, you revel in the raw power of magic, using it to create and destroy with ease. You can call forth elements, forces, and energy to devastate your foes or to assist you in other ways. You understand that the most direct approach is the most elegant. You add one 1st-level evocation spell (such as shocking grasp) to your spellbook. You learn the force bolt school spell.</Description>
+        <AbilitySlot state="filled" name="Advanced Evocation Spell">
+            <Ability>
+                <Prerequisites>Advanced School Spell</Prerequisites>
+                <Spell type="Focus" name="Elemental Tempest"/>
+            </Ability>
+        </AbilitySlot>
         <SpellsKnown count="1" level="1" traits="Evocation"/>
         <Spell type="Focus" name="Force Bolt"/>
     </Ability>
     <Ability name="Illusion School" page="208">
         <Description>As an illusionist, you use magic to create images, figments, and phantasms to baffle your enemies. You understand that perception is reality. You add one 1st-level illusion spell (such as illusory object) to your spellbook. You learn the warped terrain school spell.</Description>
+        <AbilitySlot state="filled" name="Advanced Illusion Spell">
+            <Ability>
+                <Prerequisites>Advanced School Spell</Prerequisites>
+                <Spell type="Focus" name="Invisibility Cloak"/>
+            </Ability>
+        </AbilitySlot>
         <SpellsKnown count="1" level="1" traits="Illusion"/>
         <Spell type="Focus" name="Warped Terrain"/>
     </Ability>
     <Ability name="Necromancy School" page="208">
         <Description>As a necromancer, you call upon the powers of life and death. While your school is often vilified for its association with raising the undead, you understand that control over life also means control over healing. You add one 1st-level necromancy spell (such as grim tendrils) to your spellbook. You learn the call of the grave school spell.</Description>
+        <AbilitySlot state="filled" name="Advanced Necromancy Spell">
+            <Ability>
+                <Prerequisites>Advanced School Spell</Prerequisites>
+                <Spell type="Focus" name="Life Siphon"/>
+            </Ability>
+        </AbilitySlot>
         <SpellsKnown count="1" level="1" traits="Necromancy"/>
         <Spell type="Focus" name="Call of the Grave"/>
     </Ability>
     <Ability name="Transmutation School" page="208">
         <Description>As a transmuter, you alter the physical properties of things, transforming creatures, objects, the natural world, and even yourself at your whim. You understand that change is inevitable. You add one 1st-level transmutation spell (such as magic weapon) to your spellbook. You learn the physical boost school spell.</Description>
+        <AbilitySlot state="filled" name="Advanced Transmutation Spell">
+            <Ability>
+                <Prerequisites>Advanced School Spell</Prerequisites>
+                <Spell type="Focus" name="Shifting Form"/>
+            </Ability>
+        </AbilitySlot>
         <SpellsKnown count="1" level="1" traits="Transmutation"/>
         <Spell type="Focus" name="Physical Boost"/>
     </Ability>
