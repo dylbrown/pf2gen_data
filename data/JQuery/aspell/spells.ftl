@@ -23,7 +23,7 @@
 				</tr>
 			</table>
 		</div>
-<#else>
+<#elseif character.casterType == CasterType.Spontaneous>
 <!-- START Spell list Header Table (Known) -->
 		<div class="asp-table spontaneous">
 			<table width="100%" cellspacing="0" cellpadding="2" summary="Spell List">

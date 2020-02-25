@@ -1,19 +1,21 @@
 		<div class="d-cont"><table class="d-table" cellpadding="0" cellspacing="0" height="100%" width="100%" border="0" summary="Character Info">
 		<tr>
-		  <td colspan="2" class="h">${character.name}</td>
-		  <td colspan="1" class="h">${character.player}</td>
-		  <td colspan="2" class="h">TODO:ALIGNMENT</td>
+		  <td colspan="2" class="info-item font9">${character.name}</td>
+		  <td colspan="2" class="info-item font9">${character.player}</td>
+		  <td colspan="1" class="info-item font9">Lawful Neutral</td>
 		</tr>
 		<tr>
 			<td colspan="2" class="topline">CHARACTER NAME</td>
-			<td colspan="1" class="topline">PLAYER</td>
-			<td colspan="2" class="topline">ALIGNMENT</td>
+			<td colspan="2" class="topline">PLAYER</td>
+			<td colspan="1" class="topline">ALIGNMENT</td>
 		</tr>
 		<tr>
-			<td colspan="1" class="h">TODO:DEITY</td>
-			<td colspan="1" class="h">${character.pclass.name}</td>
-			<td colspan="2" class="h">${character.ancestry.name}</td>
-			<td class="h">TODO:SIZE</td>
+			<td colspan="1" class="info-item font9">TODO:DEITY</td>
+			<td colspan="1" class="info-item font9">${character.pclass.name}</td>
+			<td colspan="2" class="info-item font9">${character.ancestry.name} <#list character.abilities as ability>
+				<#if ability.type == "Heritage"> ${ability.name}</#if>
+			</#list></td>
+			<td class="info-item font9">${character.ancestry.size}</td>
 		</tr>
 		<tr>
 			<td colspan="1" class="topline">DEITY</td>
@@ -22,9 +24,9 @@
 			<td class="topline">SIZE</td>
 		</tr>
 		<tr>
-			<td class="h">TODO:HEIGHT</td>
-			<td class="h">TODO:WEIGHT</td>
-			<td colspan="3" class="h">TODO:VISION</td>
+			<td class="info-item font9">${character.height}</td>
+			<td class="info-item font9">${character.weight}</td>
+			<td colspan="3" class="info-item font9">TODO:VISION</td>
 		</tr>
 		<tr>
 			<td class="topline">HEIGHT</td>
@@ -32,11 +34,11 @@
 			<td colspan="3" class="topline">VISION</td>
 		</tr>
 		<tr>
-			<td class="h">TODO:AGE</td>
-			<td class="h">TODO:GENDER</td>
-			<td class="h">TODO:EYECOLOR</td>
-			<td class="h">TODO:HAIRCOLOR</td>
-			<td class="h">character.level</td>
+			<td class="info-item font9">${character.age}</td>
+			<td class="info-item font9">${character.gender}</td>
+			<td class="info-item font9">${character.eyes}</td>
+			<td class="info-item font9">${character.hair}</td>
+			<td class="info-item font9">${character.level}</td>
 		</tr>
 		<tr>
 			<td class="topline">AGE</td>

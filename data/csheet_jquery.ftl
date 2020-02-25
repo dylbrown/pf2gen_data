@@ -82,6 +82,9 @@
 		<div id="battle-weapons"><div id="battle-scroll-1" class="scrollable">
 			<#include "/JQuery/battle/weapons.ftl">
 		</div></div>
+		<div id="battle-actions"><div id="battle-scroll-3" class="scrollable">
+			<#include "/JQuery/battle/actions.ftl">
+		</div></div>
 		<div id="battle-rolls-1">
 			<#include "/JQuery/battle/rolls-1.ftl">		
 		</div>

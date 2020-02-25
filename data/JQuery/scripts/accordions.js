@@ -114,13 +114,11 @@ $(document).on('click', '.folderToggle', function(){
 		$(this).attr("data-show", 0);
 	}
 });
-//Weapons & Armour Accordions
-/*$('[data-type="hide"]').fadeOut(0);
-$('[data-type="click"]').siblings().fadeToggle(0);
-$('[data-type="click"]').parent().siblings().fadeToggle(0);
-$('[data-type="click"]').css("pointer-events", "auto");
-$('[data-type="click"]').click(function(){
-	$(this).parent().siblings().fadeToggle(0);
-	$(this).siblings().fadeToggle(0);
-	$('[data-type="hide"]').filter('[data-name="'+$(this).attr("data-name")+'"]').fadeToggle(0);
-});*/
+var $actionAccord = $('.actionHide');
+
+$('.actionAccord').click(function(){
+	$actionAccord.not($(this).next(".actionHide")).fadeOut(0);
+	$(this).next(".actionHide").fadeToggle(0);
+	
+});
+$actionAccord.fadeOut(0);

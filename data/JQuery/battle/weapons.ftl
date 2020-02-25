@@ -43,7 +43,7 @@
 			<b class="font7">${armor.stats.name}</b></td>
 		<td><font class="font4"><b>TYPE</b></font></td>
 		<td><font class="font4"><b>ARMOR BONUS</b></font></td>
-		<td><font class="font4"><b>MAX DEX</b</font>></td>
+		<td><font class="font4"><b>MAX DEX</b></font></td>
 		<td><font class="font4"><b>SPEED PENALTY</b></font></td>
 	</tr>
 	<tr>
