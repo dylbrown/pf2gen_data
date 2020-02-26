@@ -1,0 +1,1358 @@
+<pf2:Items category="Runes" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<SubCategory name="Armor Property Runes"><Item level="8" page="92">
+	<Name>Sinister Knight</Name>
+	<Price>500 gp</Price>
+	<Traits>Abjuration, Illusion, Magical</Traits>
+	<Usage>etched onto heavy armor</Usage>
+	<Description>&lt;i&gt;Sinister knight&lt;/i&gt; armor shrouds the wearer’s identity in secrecy, allowing Crimson Reclaimers to pass among foes without being immediately unmasked. The wearer gains a +1 item bonus to Deception checks.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; With a thought, the wearer activates a disguise. While the &lt;i&gt;sinister knight&lt;/i&gt; armor’s disguise is active, any identifying insignia or aesthetic of the armor is replaced by generic malevolent aesthetics such as spikes or demonic faces. While in the disguise, the wearer is always considered to be taking precautions against lifesense, and even a creature that successfully notices the wearer with its lifesense mistakes the wearer for an undead unless it critically succeeds at its Perception check or the wearer critically fails a Deception or Stealth check. Finally, while in the disguise, the rune attempts to counteract any effects that would reveal your alignment; on a successful counteract check, rather than negate the effect, the rune causes the effect to perceive your alignment as evil (maintaining any lawful or chaotic component of your alignment).
+
+ The wearer can Dismiss the disguise, and if the wearer’s armor is removed, the disguise deactivates automatically.</Description>
+</Item>
+<Item level="13" page="75">
+	<Name>Rock-Braced</Name>
+	<Price>3,000 gp</Price>
+	<Traits>Abjuration, Dwarf, Magical, Saggorak</Traits>
+	<Usage>etched onto medium or heavy armor</Usage>
+	<Description>&lt;i&gt;Rock-braced&lt;/i&gt; armor makes you as hard to move as a boulder. Whenever another creature attempts to forcibly move you from your space, you gain a +4 item bonus to your Fortitude DC against the check to move you. If the creature would not normally need to attempt a check to move you, then the creature must succeed at an Athletics check against your Fortitude DC (including the +4 item bonus) or you are unmoved.</Description>
+</Item>
+<Item level="3" page="583">
+	<Name>Slick</Name>
+	<Price>45 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.
+</Description>
+</Item>
+<Item level="8" page="583">
+	<Name>Slick (Greater)</Name>
+	<Price>450 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.
+
+
+The item bonus is +2.
+</Description>
+</Item>
+<Item level="16" page="583">
+	<Name>Slick (Major)</Name>
+	<Price>9,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.
+
+
+The item bonus is +3.</Description>
+</Item>
+<Item level="3" page="583">
+	<Name>Shadow</Name>
+	<Price>55 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto light or medium nonmetallic armor</Usage>
+	<Description>Armor with this rune becomes hazy black. You gain a +1 item bonus to Stealth checks while wearing the armor. 
+</Description>
+</Item>
+<Item level="9" page="583">
+	<Name>Shadow (Greater)</Name>
+	<Price>650 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto light or medium nonmetallic armor</Usage>
+	<Description>Armor with this rune becomes hazy black. You gain a +1 item bonus to Stealth checks while wearing the armor. 
+
+
+The item bonus is +2.
+</Description>
+</Item>
+<Item level="17" page="583">
+	<Name>Shadow (Major)</Name>
+	<Price>14,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto light or medium nonmetallic armor</Usage>
+	<Description>Armor with this rune becomes hazy black. You gain a +1 item bonus to Stealth checks while wearing the armor. 
+
+
+The item bonus is +3.</Description>
+</Item>
+<Item level="5" page="583">
+	<Name>Glamered</Name>
+	<Price>140 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This armor can be disguised with a mere thought.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; You change the shape and appearance of this armor to appear as ordinary or fine clothes of your imagining. The armor’s statistics do not change. Only a creature that is benefiting from &lt;i&gt;true seeing&lt;/i&gt; or a similar effect can attempt to disbelieve this illusion, with a DC of 25.</Description>
+</Item>
+<Item level="8" page="582">
+	<Name>Energy-Resistant</Name>
+	<Price>420 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols convey protective forces from the Elemental Planes. You gain resistance 5 to acid, cold, electricity, or fire. The crafter chooses the damage type when creating the rune. Multiple &lt;i&gt;energy-resistant&lt;/i&gt; runes can be etched onto a suit of armor; rather than using only the highest-level effect, each must provide resistance to a different damage type. For instance, a &lt;i&gt;+2 acid-resistant greater fire-resistant breastplate&lt;/i&gt; would give you acid resistance 5 and fire resistance 10.
+</Description>
+</Item>
+<Item level="12" page="582">
+	<Name>Energy-Resistant (Greater)</Name>
+	<Price>1,650 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols convey protective forces from the Elemental Planes. You gain resistance 5 to acid, cold, electricity, or fire. The crafter chooses the damage type when creating the rune. Multiple &lt;i&gt;energy-resistant&lt;/i&gt; runes can be etched onto a suit of armor; rather than using only the highest-level effect, each must provide resistance to a different damage type. For instance, a &lt;i&gt;+2 acid-resistant greater fire-resistant breastplate&lt;/i&gt; would give you acid resistance 5 and fire resistance 10.
+
+
+You gain resistance 10 to the specified damage type.</Description>
+</Item>
+<Item level="8" page="583">
+	<Name>Invisibility</Name>
+	<Price>500 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>etched onto light armor</Usage>
+	<Description>Light seems to partially penetrate this armor.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; Whispering the command word, you become invisible for 1 minute, gaining the effects of a 2nd-level &lt;i&gt;invisibility spell&lt;/i&gt;.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of &lt;i&gt;invisibility&lt;/i&gt;.
+</Description>
+</Item>
+<Item level="10" page="583">
+	<Name>Invisibility (Greater)</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>etched onto light armor</Usage>
+	<Description>Light seems to partially penetrate this armor.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; Whispering the command word, you become invisible for 1 minute, gaining the effects of a 2nd-level &lt;i&gt;invisibility spell&lt;/i&gt;.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of &lt;i&gt;invisibility&lt;/i&gt;.
+
+
+You can activate the armor up to three times per day.</Description>
+</Item>
+<Item level="12" page="582">
+	<Name>Fortification</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto medium or heavy armor</Usage>
+	<Description>A &lt;i&gt;fortification&lt;/i&gt; rune wards against the most deadly attacks. Each time you’re critically hit while wearing the etched armor, attempt a DC 17 flat check. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 2.
+</Description>
+</Item>
+<Item level="18" page="582">
+	<Name>Fortification (Greater)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto medium or heavy armor</Usage>
+	<Description>A &lt;i&gt;fortification&lt;/i&gt; rune wards against the most deadly attacks. Each time you’re critically hit while wearing the etched armor, attempt a DC 17 flat check. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 2.
+
+
+The flat check DC is 14.</Description>
+</Item>
+<Item level="15" page="582">
+	<Name>Antimagic</Name>
+	<Price>6,500 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This intricate rune displaces spell energy, granting you a +1 status bonus to saving throws against magical effects.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; A spell targets you or includes you in its area; &lt;b&gt;Effect&lt;/b&gt; The armor attempts to counteract the triggering spell with the effect of a 7th-level &lt;i&gt;dispel magic&lt;/i&gt; spell and a counteract modifier of +26.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of &lt;i&gt;dispel magic&lt;/i&gt;.</Description>
+</Item>
+<Item level="17" page="582">
+	<Name>Ethereal</Name>
+	<Price>13,500 gp</Price>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>An &lt;i&gt;ethereal rune&lt;/i&gt; replicates armor on the Ethereal Plane.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You gain the effects of an &lt;i&gt;ethereal jaunt&lt;/i&gt; spell. This doesn’t require concentration and lasts for 10 minutes or until you choose to return to material form as a free action.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of 9th level &lt;i&gt;ethereal jaunt&lt;/i&gt;.</Description>
+</Item>
+</SubCategory><SubCategory name="Fundamental Armor Runes"><Item level="8" page="92">
+	<Name>Sinister Knight</Name>
+	<Price>500 gp</Price>
+	<Traits>Abjuration, Illusion, Magical</Traits>
+	<Usage>etched onto heavy armor</Usage>
+	<Description>&lt;i&gt;Sinister knight&lt;/i&gt; armor shrouds the wearer’s identity in secrecy, allowing Crimson Reclaimers to pass among foes without being immediately unmasked. The wearer gains a +1 item bonus to Deception checks.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; With a thought, the wearer activates a disguise. While the &lt;i&gt;sinister knight&lt;/i&gt; armor’s disguise is active, any identifying insignia or aesthetic of the armor is replaced by generic malevolent aesthetics such as spikes or demonic faces. While in the disguise, the wearer is always considered to be taking precautions against lifesense, and even a creature that successfully notices the wearer with its lifesense mistakes the wearer for an undead unless it critically succeeds at its Perception check or the wearer critically fails a Deception or Stealth check. Finally, while in the disguise, the rune attempts to counteract any effects that would reveal your alignment; on a successful counteract check, rather than negate the effect, the rune causes the effect to perceive your alignment as evil (maintaining any lawful or chaotic component of your alignment).
+
+ The wearer can Dismiss the disguise, and if the wearer’s armor is removed, the disguise deactivates automatically.</Description>
+</Item>
+<Item level="13" page="75">
+	<Name>Rock-Braced</Name>
+	<Price>3,000 gp</Price>
+	<Traits>Abjuration, Dwarf, Magical, Saggorak</Traits>
+	<Usage>etched onto medium or heavy armor</Usage>
+	<Description>&lt;i&gt;Rock-braced&lt;/i&gt; armor makes you as hard to move as a boulder. Whenever another creature attempts to forcibly move you from your space, you gain a +4 item bonus to your Fortitude DC against the check to move you. If the creature would not normally need to attempt a check to move you, then the creature must succeed at an Athletics check against your Fortitude DC (including the +4 item bonus) or you are unmoved.</Description>
+</Item>
+<Item level="3" page="583">
+	<Name>Slick</Name>
+	<Price>45 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.
+</Description>
+</Item>
+<Item level="8" page="583">
+	<Name>Slick (Greater)</Name>
+	<Price>450 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.
+
+
+The item bonus is +2.
+</Description>
+</Item>
+<Item level="16" page="583">
+	<Name>Slick (Major)</Name>
+	<Price>9,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.
+
+
+The item bonus is +3.</Description>
+</Item>
+<Item level="3" page="583">
+	<Name>Shadow</Name>
+	<Price>55 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto light or medium nonmetallic armor</Usage>
+	<Description>Armor with this rune becomes hazy black. You gain a +1 item bonus to Stealth checks while wearing the armor. 
+</Description>
+</Item>
+<Item level="9" page="583">
+	<Name>Shadow (Greater)</Name>
+	<Price>650 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto light or medium nonmetallic armor</Usage>
+	<Description>Armor with this rune becomes hazy black. You gain a +1 item bonus to Stealth checks while wearing the armor. 
+
+
+The item bonus is +2.
+</Description>
+</Item>
+<Item level="17" page="583">
+	<Name>Shadow (Major)</Name>
+	<Price>14,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto light or medium nonmetallic armor</Usage>
+	<Description>Armor with this rune becomes hazy black. You gain a +1 item bonus to Stealth checks while wearing the armor. 
+
+
+The item bonus is +3.</Description>
+</Item>
+<Item level="5" page="583">
+	<Name>Glamered</Name>
+	<Price>140 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This armor can be disguised with a mere thought.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; You change the shape and appearance of this armor to appear as ordinary or fine clothes of your imagining. The armor’s statistics do not change. Only a creature that is benefiting from &lt;i&gt;true seeing&lt;/i&gt; or a similar effect can attempt to disbelieve this illusion, with a DC of 25.</Description>
+</Item>
+<Item level="8" page="582">
+	<Name>Energy-Resistant</Name>
+	<Price>420 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols convey protective forces from the Elemental Planes. You gain resistance 5 to acid, cold, electricity, or fire. The crafter chooses the damage type when creating the rune. Multiple &lt;i&gt;energy-resistant&lt;/i&gt; runes can be etched onto a suit of armor; rather than using only the highest-level effect, each must provide resistance to a different damage type. For instance, a &lt;i&gt;+2 acid-resistant greater fire-resistant breastplate&lt;/i&gt; would give you acid resistance 5 and fire resistance 10.
+</Description>
+</Item>
+<Item level="12" page="582">
+	<Name>Energy-Resistant (Greater)</Name>
+	<Price>1,650 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols convey protective forces from the Elemental Planes. You gain resistance 5 to acid, cold, electricity, or fire. The crafter chooses the damage type when creating the rune. Multiple &lt;i&gt;energy-resistant&lt;/i&gt; runes can be etched onto a suit of armor; rather than using only the highest-level effect, each must provide resistance to a different damage type. For instance, a &lt;i&gt;+2 acid-resistant greater fire-resistant breastplate&lt;/i&gt; would give you acid resistance 5 and fire resistance 10.
+
+
+You gain resistance 10 to the specified damage type.</Description>
+</Item>
+<Item level="8" page="583">
+	<Name>Invisibility</Name>
+	<Price>500 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>etched onto light armor</Usage>
+	<Description>Light seems to partially penetrate this armor.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; Whispering the command word, you become invisible for 1 minute, gaining the effects of a 2nd-level &lt;i&gt;invisibility spell&lt;/i&gt;.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of &lt;i&gt;invisibility&lt;/i&gt;.
+</Description>
+</Item>
+<Item level="10" page="583">
+	<Name>Invisibility (Greater)</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>etched onto light armor</Usage>
+	<Description>Light seems to partially penetrate this armor.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; Whispering the command word, you become invisible for 1 minute, gaining the effects of a 2nd-level &lt;i&gt;invisibility spell&lt;/i&gt;.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of &lt;i&gt;invisibility&lt;/i&gt;.
+
+
+You can activate the armor up to three times per day.</Description>
+</Item>
+<Item level="12" page="582">
+	<Name>Fortification</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto medium or heavy armor</Usage>
+	<Description>A &lt;i&gt;fortification&lt;/i&gt; rune wards against the most deadly attacks. Each time you’re critically hit while wearing the etched armor, attempt a DC 17 flat check. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 2.
+</Description>
+</Item>
+<Item level="18" page="582">
+	<Name>Fortification (Greater)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto medium or heavy armor</Usage>
+	<Description>A &lt;i&gt;fortification&lt;/i&gt; rune wards against the most deadly attacks. Each time you’re critically hit while wearing the etched armor, attempt a DC 17 flat check. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 2.
+
+
+The flat check DC is 14.</Description>
+</Item>
+<Item level="15" page="582">
+	<Name>Antimagic</Name>
+	<Price>6,500 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This intricate rune displaces spell energy, granting you a +1 status bonus to saving throws against magical effects.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; A spell targets you or includes you in its area; &lt;b&gt;Effect&lt;/b&gt; The armor attempts to counteract the triggering spell with the effect of a 7th-level &lt;i&gt;dispel magic&lt;/i&gt; spell and a counteract modifier of +26.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of &lt;i&gt;dispel magic&lt;/i&gt;.</Description>
+</Item>
+<Item level="17" page="582">
+	<Name>Ethereal</Name>
+	<Price>13,500 gp</Price>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>An &lt;i&gt;ethereal rune&lt;/i&gt; replicates armor on the Ethereal Plane.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You gain the effects of an &lt;i&gt;ethereal jaunt&lt;/i&gt; spell. This doesn’t require concentration and lasts for 10 minutes or until you choose to return to material form as a free action.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of 9th level &lt;i&gt;ethereal jaunt&lt;/i&gt;.</Description>
+</Item>
+<Item level="5" page="581">
+	<Name>Armor Potency (+1)</Name>
+	<Price>160 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Magic wards deflect attacks. Increase the armor’s item bonus to AC by 1. The armor can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+</Description>
+</Item>
+<Item level="11" page="581">
+	<Name>Armor Potency (+2)</Name>
+	<Price>1,060 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Magic wards deflect attacks. Increase the armor’s item bonus to AC by 1. The armor can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+Increase the armor’s item bonus to AC by 2, and the armor can be etched with two property runes.
+&lt;b&gt;Craft Requirements&lt;/b&gt; You are a master in Crafting.
+</Description>
+</Item>
+<Item level="18" page="581">
+	<Name>Armor Potency (+3)</Name>
+	<Price>20,560 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Magic wards deflect attacks. Increase the armor’s item bonus to AC by 1. The armor can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+Increase the armor’s item bonus to AC by 3, and the armor can be etched with three property runes.
+&lt;b&gt;Craft Requirements&lt;/b&gt; You are legendary in Crafting.</Description>
+</Item>
+<Item level="8" page="581">
+	<Name>Resilient</Name>
+	<Price>340 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +1 item bonus to saving throws.
+
+ You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+</Description>
+</Item>
+<Item level="14" page="581">
+	<Name>Resilient (Greater)</Name>
+	<Price>3,440 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +1 item bonus to saving throws.
+
+ You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The armor grants a +2 item bonus to saving throws.
+</Description>
+</Item>
+<Item level="20" page="581">
+	<Name>Resilient (Major)</Name>
+	<Price>49,440 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +1 item bonus to saving throws.
+
+ You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The armor grants a +3 item bonus to saving throws.</Description>
+</Item>
+</SubCategory><SubCategory name="Fundamental Weapon Runes"><Item level="8" page="92">
+	<Name>Sinister Knight</Name>
+	<Price>500 gp</Price>
+	<Traits>Abjuration, Illusion, Magical</Traits>
+	<Usage>etched onto heavy armor</Usage>
+	<Description>&lt;i&gt;Sinister knight&lt;/i&gt; armor shrouds the wearer’s identity in secrecy, allowing Crimson Reclaimers to pass among foes without being immediately unmasked. The wearer gains a +1 item bonus to Deception checks.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; With a thought, the wearer activates a disguise. While the &lt;i&gt;sinister knight&lt;/i&gt; armor’s disguise is active, any identifying insignia or aesthetic of the armor is replaced by generic malevolent aesthetics such as spikes or demonic faces. While in the disguise, the wearer is always considered to be taking precautions against lifesense, and even a creature that successfully notices the wearer with its lifesense mistakes the wearer for an undead unless it critically succeeds at its Perception check or the wearer critically fails a Deception or Stealth check. Finally, while in the disguise, the rune attempts to counteract any effects that would reveal your alignment; on a successful counteract check, rather than negate the effect, the rune causes the effect to perceive your alignment as evil (maintaining any lawful or chaotic component of your alignment).
+
+ The wearer can Dismiss the disguise, and if the wearer’s armor is removed, the disguise deactivates automatically.</Description>
+</Item>
+<Item level="13" page="75">
+	<Name>Rock-Braced</Name>
+	<Price>3,000 gp</Price>
+	<Traits>Abjuration, Dwarf, Magical, Saggorak</Traits>
+	<Usage>etched onto medium or heavy armor</Usage>
+	<Description>&lt;i&gt;Rock-braced&lt;/i&gt; armor makes you as hard to move as a boulder. Whenever another creature attempts to forcibly move you from your space, you gain a +4 item bonus to your Fortitude DC against the check to move you. If the creature would not normally need to attempt a check to move you, then the creature must succeed at an Athletics check against your Fortitude DC (including the +4 item bonus) or you are unmoved.</Description>
+</Item>
+<Item level="3" page="583">
+	<Name>Slick</Name>
+	<Price>45 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.
+</Description>
+</Item>
+<Item level="8" page="583">
+	<Name>Slick (Greater)</Name>
+	<Price>450 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.
+
+
+The item bonus is +2.
+</Description>
+</Item>
+<Item level="16" page="583">
+	<Name>Slick (Major)</Name>
+	<Price>9,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.
+
+
+The item bonus is +3.</Description>
+</Item>
+<Item level="3" page="583">
+	<Name>Shadow</Name>
+	<Price>55 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto light or medium nonmetallic armor</Usage>
+	<Description>Armor with this rune becomes hazy black. You gain a +1 item bonus to Stealth checks while wearing the armor. 
+</Description>
+</Item>
+<Item level="9" page="583">
+	<Name>Shadow (Greater)</Name>
+	<Price>650 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto light or medium nonmetallic armor</Usage>
+	<Description>Armor with this rune becomes hazy black. You gain a +1 item bonus to Stealth checks while wearing the armor. 
+
+
+The item bonus is +2.
+</Description>
+</Item>
+<Item level="17" page="583">
+	<Name>Shadow (Major)</Name>
+	<Price>14,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto light or medium nonmetallic armor</Usage>
+	<Description>Armor with this rune becomes hazy black. You gain a +1 item bonus to Stealth checks while wearing the armor. 
+
+
+The item bonus is +3.</Description>
+</Item>
+<Item level="5" page="583">
+	<Name>Glamered</Name>
+	<Price>140 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This armor can be disguised with a mere thought.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; You change the shape and appearance of this armor to appear as ordinary or fine clothes of your imagining. The armor’s statistics do not change. Only a creature that is benefiting from &lt;i&gt;true seeing&lt;/i&gt; or a similar effect can attempt to disbelieve this illusion, with a DC of 25.</Description>
+</Item>
+<Item level="8" page="582">
+	<Name>Energy-Resistant</Name>
+	<Price>420 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols convey protective forces from the Elemental Planes. You gain resistance 5 to acid, cold, electricity, or fire. The crafter chooses the damage type when creating the rune. Multiple &lt;i&gt;energy-resistant&lt;/i&gt; runes can be etched onto a suit of armor; rather than using only the highest-level effect, each must provide resistance to a different damage type. For instance, a &lt;i&gt;+2 acid-resistant greater fire-resistant breastplate&lt;/i&gt; would give you acid resistance 5 and fire resistance 10.
+</Description>
+</Item>
+<Item level="12" page="582">
+	<Name>Energy-Resistant (Greater)</Name>
+	<Price>1,650 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols convey protective forces from the Elemental Planes. You gain resistance 5 to acid, cold, electricity, or fire. The crafter chooses the damage type when creating the rune. Multiple &lt;i&gt;energy-resistant&lt;/i&gt; runes can be etched onto a suit of armor; rather than using only the highest-level effect, each must provide resistance to a different damage type. For instance, a &lt;i&gt;+2 acid-resistant greater fire-resistant breastplate&lt;/i&gt; would give you acid resistance 5 and fire resistance 10.
+
+
+You gain resistance 10 to the specified damage type.</Description>
+</Item>
+<Item level="8" page="583">
+	<Name>Invisibility</Name>
+	<Price>500 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>etched onto light armor</Usage>
+	<Description>Light seems to partially penetrate this armor.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; Whispering the command word, you become invisible for 1 minute, gaining the effects of a 2nd-level &lt;i&gt;invisibility spell&lt;/i&gt;.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of &lt;i&gt;invisibility&lt;/i&gt;.
+</Description>
+</Item>
+<Item level="10" page="583">
+	<Name>Invisibility (Greater)</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>etched onto light armor</Usage>
+	<Description>Light seems to partially penetrate this armor.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; Whispering the command word, you become invisible for 1 minute, gaining the effects of a 2nd-level &lt;i&gt;invisibility spell&lt;/i&gt;.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of &lt;i&gt;invisibility&lt;/i&gt;.
+
+
+You can activate the armor up to three times per day.</Description>
+</Item>
+<Item level="12" page="582">
+	<Name>Fortification</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto medium or heavy armor</Usage>
+	<Description>A &lt;i&gt;fortification&lt;/i&gt; rune wards against the most deadly attacks. Each time you’re critically hit while wearing the etched armor, attempt a DC 17 flat check. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 2.
+</Description>
+</Item>
+<Item level="18" page="582">
+	<Name>Fortification (Greater)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto medium or heavy armor</Usage>
+	<Description>A &lt;i&gt;fortification&lt;/i&gt; rune wards against the most deadly attacks. Each time you’re critically hit while wearing the etched armor, attempt a DC 17 flat check. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 2.
+
+
+The flat check DC is 14.</Description>
+</Item>
+<Item level="15" page="582">
+	<Name>Antimagic</Name>
+	<Price>6,500 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This intricate rune displaces spell energy, granting you a +1 status bonus to saving throws against magical effects.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; A spell targets you or includes you in its area; &lt;b&gt;Effect&lt;/b&gt; The armor attempts to counteract the triggering spell with the effect of a 7th-level &lt;i&gt;dispel magic&lt;/i&gt; spell and a counteract modifier of +26.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of &lt;i&gt;dispel magic&lt;/i&gt;.</Description>
+</Item>
+<Item level="17" page="582">
+	<Name>Ethereal</Name>
+	<Price>13,500 gp</Price>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>An &lt;i&gt;ethereal rune&lt;/i&gt; replicates armor on the Ethereal Plane.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You gain the effects of an &lt;i&gt;ethereal jaunt&lt;/i&gt; spell. This doesn’t require concentration and lasts for 10 minutes or until you choose to return to material form as a free action.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of 9th level &lt;i&gt;ethereal jaunt&lt;/i&gt;.</Description>
+</Item>
+<Item level="5" page="581">
+	<Name>Armor Potency (+1)</Name>
+	<Price>160 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Magic wards deflect attacks. Increase the armor’s item bonus to AC by 1. The armor can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+</Description>
+</Item>
+<Item level="11" page="581">
+	<Name>Armor Potency (+2)</Name>
+	<Price>1,060 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Magic wards deflect attacks. Increase the armor’s item bonus to AC by 1. The armor can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+Increase the armor’s item bonus to AC by 2, and the armor can be etched with two property runes.
+&lt;b&gt;Craft Requirements&lt;/b&gt; You are a master in Crafting.
+</Description>
+</Item>
+<Item level="18" page="581">
+	<Name>Armor Potency (+3)</Name>
+	<Price>20,560 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Magic wards deflect attacks. Increase the armor’s item bonus to AC by 1. The armor can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+Increase the armor’s item bonus to AC by 3, and the armor can be etched with three property runes.
+&lt;b&gt;Craft Requirements&lt;/b&gt; You are legendary in Crafting.</Description>
+</Item>
+<Item level="8" page="581">
+	<Name>Resilient</Name>
+	<Price>340 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +1 item bonus to saving throws.
+
+ You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+</Description>
+</Item>
+<Item level="14" page="581">
+	<Name>Resilient (Greater)</Name>
+	<Price>3,440 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +1 item bonus to saving throws.
+
+ You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The armor grants a +2 item bonus to saving throws.
+</Description>
+</Item>
+<Item level="20" page="581">
+	<Name>Resilient (Major)</Name>
+	<Price>49,440 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +1 item bonus to saving throws.
+
+ You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The armor grants a +3 item bonus to saving throws.</Description>
+</Item>
+<Item level="2" page="581">
+	<Name>Weapon Potency (+1)</Name>
+	<Price>35 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +1 item bonus, and the weapon can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;weapon potency&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+</Description>
+</Item>
+<Item level="10" page="581">
+	<Name>Weapon Potency (+2)</Name>
+	<Price>935 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +1 item bonus, and the weapon can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;weapon potency&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The item bonus to attack rolls is +2, and the weapon can be etched with two property runes.
+&lt;b&gt;Craft Requirements&lt;/b&gt; You are a master in Crafting.
+</Description>
+</Item>
+<Item level="16" page="581">
+	<Name>Weapon Potency (+3)</Name>
+	<Price>8,935 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +1 item bonus, and the weapon can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;weapon potency&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The item bonus to attack rolls is +3, and the weapon can be etched with three property runes.
+&lt;b&gt;Craft Requirements&lt;/b&gt; You are legendary in Crafting.</Description>
+</Item>
+<Item level="4" page="581">
+	<Name>Striking</Name>
+	<Price>65 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>A &lt;i&gt;striking&lt;/i&gt; rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to two instead of one. For instance, a &lt;i&gt;+1 striking dagger&lt;/i&gt; would deal 2d4 damage instead of 1d4 damage.
+
+ You can upgrade the &lt;i&gt;striking&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+</Description>
+</Item>
+<Item level="12" page="581">
+	<Name>Striking (Greater)</Name>
+	<Price>1,065 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>A &lt;i&gt;striking&lt;/i&gt; rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to two instead of one. For instance, a &lt;i&gt;+1 striking dagger&lt;/i&gt; would deal 2d4 damage instead of 1d4 damage.
+
+ You can upgrade the &lt;i&gt;striking&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The weapon deals three weapon damage dice.
+</Description>
+</Item>
+<Item level="19" page="581">
+	<Name>Striking (Major)</Name>
+	<Price>31,065 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>A &lt;i&gt;striking&lt;/i&gt; rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to two instead of one. For instance, a &lt;i&gt;+1 striking dagger&lt;/i&gt; would deal 2d4 damage instead of 1d4 damage.
+
+ You can upgrade the &lt;i&gt;striking&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The weapon deals four weapon damage dice.</Description>
+</Item>
+</SubCategory><SubCategory name="Weapon Property Runes"><Item level="8" page="92">
+	<Name>Sinister Knight</Name>
+	<Price>500 gp</Price>
+	<Traits>Abjuration, Illusion, Magical</Traits>
+	<Usage>etched onto heavy armor</Usage>
+	<Description>&lt;i&gt;Sinister knight&lt;/i&gt; armor shrouds the wearer’s identity in secrecy, allowing Crimson Reclaimers to pass among foes without being immediately unmasked. The wearer gains a +1 item bonus to Deception checks.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; With a thought, the wearer activates a disguise. While the &lt;i&gt;sinister knight&lt;/i&gt; armor’s disguise is active, any identifying insignia or aesthetic of the armor is replaced by generic malevolent aesthetics such as spikes or demonic faces. While in the disguise, the wearer is always considered to be taking precautions against lifesense, and even a creature that successfully notices the wearer with its lifesense mistakes the wearer for an undead unless it critically succeeds at its Perception check or the wearer critically fails a Deception or Stealth check. Finally, while in the disguise, the rune attempts to counteract any effects that would reveal your alignment; on a successful counteract check, rather than negate the effect, the rune causes the effect to perceive your alignment as evil (maintaining any lawful or chaotic component of your alignment).
+
+ The wearer can Dismiss the disguise, and if the wearer’s armor is removed, the disguise deactivates automatically.</Description>
+</Item>
+<Item level="10" page="93">
+	<Name>Serrating</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a slashing melee weapon</Usage>
+	<Description>A &lt;i&gt;serrating&lt;/i&gt; weapon’s bladed edge separates into jagged, swirling shards that spin along the blade. When dealing slashing damage, the weapon deals an additional 1d4 damage.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; You brandish the weapon and focus its power, causing the serrated shards to buzz as they spin at a dizzying speed. On your next hit with the weapon this turn that deals slashing damage, the &lt;i&gt;serrating&lt;/i&gt; rune adds an additional 1d12 damage instead of the additional 1d4 damage, and then the shards return to their usual speed.</Description>
+</Item>
+<Item level="13" page="75">
+	<Name>Rock-Braced</Name>
+	<Price>3,000 gp</Price>
+	<Traits>Abjuration, Dwarf, Magical, Saggorak</Traits>
+	<Usage>etched onto medium or heavy armor</Usage>
+	<Description>&lt;i&gt;Rock-braced&lt;/i&gt; armor makes you as hard to move as a boulder. Whenever another creature attempts to forcibly move you from your space, you gain a +4 item bonus to your Fortitude DC against the check to move you. If the creature would not normally need to attempt a check to move you, then the creature must succeed at an Athletics check against your Fortitude DC (including the +4 item bonus) or you are unmoved.</Description>
+</Item>
+<Item level="3" page="75">
+	<Name>Kin-Warding</Name>
+	<Price>52 gp</Price>
+	<Traits>Abjuration, Dwarf, Magical</Traits>
+	<Usage>clan dagger</Usage>
+	<Description>A &lt;i&gt;kin-warding&lt;/i&gt; clan dagger can deflect attacks aimed at your allies. When you use the weapon’s parry trait, you can point the clan dagger at an adjacent ally instead of defending yourself, creating a shield of runes around them. The runic barrier grants your ally the weapon’s circumstance bonus to AC, but you do not gain the bonus yourself.</Description>
+</Item>
+<Item level="8" page="75">
+	<Name>Bloodbane</Name>
+	<Price>475 gp</Price>
+	<Traits>Dwarf, Evocation, Magical</Traits>
+	<Usage>clan dagger</Usage>
+	<Description>A &lt;i&gt;bloodbane&lt;/i&gt; clan dagger is especially vicious against the ancestral enemies of the clan. When you damage an appropriate type of creature with the weapon, that creature takes 1 persistent bleed damage. The type of creature depends on the clan that made the dagger, but is typically drow, duergar, giant, or orc.
+
+ In addition, whenever you inflict persistent bleed damage with a &lt;i&gt;bloodbane&lt;/i&gt; weapon (whether from its innate ability or in some other way), the weapon leaves ragged wounds. The bleeding creature must succeed at a DC 25 Fortitude save or become sickened 1. The creature is then temporarily immune for 1 hour.
+</Description>
+</Item>
+<Item level="13" page="75">
+	<Name>Greater Bloodbane</Name>
+	<Price>2,800 gp</Price>
+	<Traits>Dwarf, Evocation, Magical</Traits>
+	<Usage>clan dagger</Usage>
+	<Description>A &lt;i&gt;bloodbane&lt;/i&gt; clan dagger is especially vicious against the ancestral enemies of the clan. When you damage an appropriate type of creature with the weapon, that creature takes 1 persistent bleed damage. The type of creature depends on the clan that made the dagger, but is typically drow, duergar, giant, or orc.
+
+ In addition, whenever you inflict persistent bleed damage with a &lt;i&gt;bloodbane&lt;/i&gt; weapon (whether from its innate ability or in some other way), the weapon leaves ragged wounds. The bleeding creature must succeed at a DC 25 Fortitude save or become sickened 1. The creature is then temporarily immune for 1 hour.
+
+
+The weapon deals 1d4 bleed damage to creatures designated as the clan’s enemy, and the DC of the Fortitude save to avoid becoming sickened is 30.</Description>
+</Item>
+<Item level="15" page="75">
+	<Name>Ancestral Echoing</Name>
+	<Price>9,500 gp</Price>
+	<Traits>Dwarf, Evocation, Magical, Saggorak</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>The wisdom of this weapon’s past owners flows into your mind, amplifying your own abilities with the weapon. Your proficiency rank with this weapon is one step higher than normal, to a maximum of the highest proficiency rank you have in any weapon. For instance, if you had master proficieny with martial weapons and expert proficiency with advanced weapons, you would have master proficiency with advanced weapon that had this rune.
+
+ In addition, while wielding the &lt;i&gt;ancestral echoing&lt;/i&gt; weapon, you have expert proficiency in one Lore skill relevant to one or more of the weapon’s previous owners. This is typically Dwarven Lore but is ultimately determined by the GM depending on the weapon’s history.</Description>
+</Item>
+<Item level="3" page="583">
+	<Name>Slick</Name>
+	<Price>45 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.
+</Description>
+</Item>
+<Item level="8" page="583">
+	<Name>Slick (Greater)</Name>
+	<Price>450 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.
+
+
+The item bonus is +2.
+</Description>
+</Item>
+<Item level="16" page="583">
+	<Name>Slick (Major)</Name>
+	<Price>9,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.
+
+
+The item bonus is +3.</Description>
+</Item>
+<Item level="3" page="583">
+	<Name>Shadow</Name>
+	<Price>55 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto light or medium nonmetallic armor</Usage>
+	<Description>Armor with this rune becomes hazy black. You gain a +1 item bonus to Stealth checks while wearing the armor. 
+</Description>
+</Item>
+<Item level="9" page="583">
+	<Name>Shadow (Greater)</Name>
+	<Price>650 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto light or medium nonmetallic armor</Usage>
+	<Description>Armor with this rune becomes hazy black. You gain a +1 item bonus to Stealth checks while wearing the armor. 
+
+
+The item bonus is +2.
+</Description>
+</Item>
+<Item level="17" page="583">
+	<Name>Shadow (Major)</Name>
+	<Price>14,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto light or medium nonmetallic armor</Usage>
+	<Description>Armor with this rune becomes hazy black. You gain a +1 item bonus to Stealth checks while wearing the armor. 
+
+
+The item bonus is +3.</Description>
+</Item>
+<Item level="5" page="583">
+	<Name>Glamered</Name>
+	<Price>140 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This armor can be disguised with a mere thought.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; You change the shape and appearance of this armor to appear as ordinary or fine clothes of your imagining. The armor’s statistics do not change. Only a creature that is benefiting from &lt;i&gt;true seeing&lt;/i&gt; or a similar effect can attempt to disbelieve this illusion, with a DC of 25.</Description>
+</Item>
+<Item level="8" page="582">
+	<Name>Energy-Resistant</Name>
+	<Price>420 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols convey protective forces from the Elemental Planes. You gain resistance 5 to acid, cold, electricity, or fire. The crafter chooses the damage type when creating the rune. Multiple &lt;i&gt;energy-resistant&lt;/i&gt; runes can be etched onto a suit of armor; rather than using only the highest-level effect, each must provide resistance to a different damage type. For instance, a &lt;i&gt;+2 acid-resistant greater fire-resistant breastplate&lt;/i&gt; would give you acid resistance 5 and fire resistance 10.
+</Description>
+</Item>
+<Item level="12" page="582">
+	<Name>Energy-Resistant (Greater)</Name>
+	<Price>1,650 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols convey protective forces from the Elemental Planes. You gain resistance 5 to acid, cold, electricity, or fire. The crafter chooses the damage type when creating the rune. Multiple &lt;i&gt;energy-resistant&lt;/i&gt; runes can be etched onto a suit of armor; rather than using only the highest-level effect, each must provide resistance to a different damage type. For instance, a &lt;i&gt;+2 acid-resistant greater fire-resistant breastplate&lt;/i&gt; would give you acid resistance 5 and fire resistance 10.
+
+
+You gain resistance 10 to the specified damage type.</Description>
+</Item>
+<Item level="8" page="583">
+	<Name>Invisibility</Name>
+	<Price>500 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>etched onto light armor</Usage>
+	<Description>Light seems to partially penetrate this armor.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; Whispering the command word, you become invisible for 1 minute, gaining the effects of a 2nd-level &lt;i&gt;invisibility spell&lt;/i&gt;.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of &lt;i&gt;invisibility&lt;/i&gt;.
+</Description>
+</Item>
+<Item level="10" page="583">
+	<Name>Invisibility (Greater)</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>etched onto light armor</Usage>
+	<Description>Light seems to partially penetrate this armor.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; Whispering the command word, you become invisible for 1 minute, gaining the effects of a 2nd-level &lt;i&gt;invisibility spell&lt;/i&gt;.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of &lt;i&gt;invisibility&lt;/i&gt;.
+
+
+You can activate the armor up to three times per day.</Description>
+</Item>
+<Item level="12" page="582">
+	<Name>Fortification</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto medium or heavy armor</Usage>
+	<Description>A &lt;i&gt;fortification&lt;/i&gt; rune wards against the most deadly attacks. Each time you’re critically hit while wearing the etched armor, attempt a DC 17 flat check. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 2.
+</Description>
+</Item>
+<Item level="18" page="582">
+	<Name>Fortification (Greater)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto medium or heavy armor</Usage>
+	<Description>A &lt;i&gt;fortification&lt;/i&gt; rune wards against the most deadly attacks. Each time you’re critically hit while wearing the etched armor, attempt a DC 17 flat check. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 2.
+
+
+The flat check DC is 14.</Description>
+</Item>
+<Item level="15" page="582">
+	<Name>Antimagic</Name>
+	<Price>6,500 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This intricate rune displaces spell energy, granting you a +1 status bonus to saving throws against magical effects.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; A spell targets you or includes you in its area; &lt;b&gt;Effect&lt;/b&gt; The armor attempts to counteract the triggering spell with the effect of a 7th-level &lt;i&gt;dispel magic&lt;/i&gt; spell and a counteract modifier of +26.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of &lt;i&gt;dispel magic&lt;/i&gt;.</Description>
+</Item>
+<Item level="17" page="582">
+	<Name>Ethereal</Name>
+	<Price>13,500 gp</Price>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>An &lt;i&gt;ethereal rune&lt;/i&gt; replicates armor on the Ethereal Plane.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You gain the effects of an &lt;i&gt;ethereal jaunt&lt;/i&gt; spell. This doesn’t require concentration and lasts for 10 minutes or until you choose to return to material form as a free action.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of 9th level &lt;i&gt;ethereal jaunt&lt;/i&gt;.</Description>
+</Item>
+<Item level="5" page="581">
+	<Name>Armor Potency (+1)</Name>
+	<Price>160 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Magic wards deflect attacks. Increase the armor’s item bonus to AC by 1. The armor can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+</Description>
+</Item>
+<Item level="11" page="581">
+	<Name>Armor Potency (+2)</Name>
+	<Price>1,060 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Magic wards deflect attacks. Increase the armor’s item bonus to AC by 1. The armor can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+Increase the armor’s item bonus to AC by 2, and the armor can be etched with two property runes.
+&lt;b&gt;Craft Requirements&lt;/b&gt; You are a master in Crafting.
+</Description>
+</Item>
+<Item level="18" page="581">
+	<Name>Armor Potency (+3)</Name>
+	<Price>20,560 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Magic wards deflect attacks. Increase the armor’s item bonus to AC by 1. The armor can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+Increase the armor’s item bonus to AC by 3, and the armor can be etched with three property runes.
+&lt;b&gt;Craft Requirements&lt;/b&gt; You are legendary in Crafting.</Description>
+</Item>
+<Item level="8" page="581">
+	<Name>Resilient</Name>
+	<Price>340 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +1 item bonus to saving throws.
+
+ You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+</Description>
+</Item>
+<Item level="14" page="581">
+	<Name>Resilient (Greater)</Name>
+	<Price>3,440 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +1 item bonus to saving throws.
+
+ You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The armor grants a +2 item bonus to saving throws.
+</Description>
+</Item>
+<Item level="20" page="581">
+	<Name>Resilient (Major)</Name>
+	<Price>49,440 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +1 item bonus to saving throws.
+
+ You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The armor grants a +3 item bonus to saving throws.</Description>
+</Item>
+<Item level="2" page="581">
+	<Name>Weapon Potency (+1)</Name>
+	<Price>35 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +1 item bonus, and the weapon can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;weapon potency&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+</Description>
+</Item>
+<Item level="10" page="581">
+	<Name>Weapon Potency (+2)</Name>
+	<Price>935 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +1 item bonus, and the weapon can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;weapon potency&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The item bonus to attack rolls is +2, and the weapon can be etched with two property runes.
+&lt;b&gt;Craft Requirements&lt;/b&gt; You are a master in Crafting.
+</Description>
+</Item>
+<Item level="16" page="581">
+	<Name>Weapon Potency (+3)</Name>
+	<Price>8,935 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +1 item bonus, and the weapon can be etched with one property rune.
+
+ You can upgrade the &lt;i&gt;weapon potency&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The item bonus to attack rolls is +3, and the weapon can be etched with three property runes.
+&lt;b&gt;Craft Requirements&lt;/b&gt; You are legendary in Crafting.</Description>
+</Item>
+<Item level="4" page="581">
+	<Name>Striking</Name>
+	<Price>65 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>A &lt;i&gt;striking&lt;/i&gt; rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to two instead of one. For instance, a &lt;i&gt;+1 striking dagger&lt;/i&gt; would deal 2d4 damage instead of 1d4 damage.
+
+ You can upgrade the &lt;i&gt;striking&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+</Description>
+</Item>
+<Item level="12" page="581">
+	<Name>Striking (Greater)</Name>
+	<Price>1,065 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>A &lt;i&gt;striking&lt;/i&gt; rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to two instead of one. For instance, a &lt;i&gt;+1 striking dagger&lt;/i&gt; would deal 2d4 damage instead of 1d4 damage.
+
+ You can upgrade the &lt;i&gt;striking&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The weapon deals three weapon damage dice.
+</Description>
+</Item>
+<Item level="19" page="581">
+	<Name>Striking (Major)</Name>
+	<Price>31,065 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>A &lt;i&gt;striking&lt;/i&gt; rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to two instead of one. For instance, a &lt;i&gt;+1 striking dagger&lt;/i&gt; would deal 2d4 damage instead of 1d4 damage.
+
+ You can upgrade the &lt;i&gt;striking&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.
+
+
+The weapon deals four weapon damage dice.</Description>
+</Item>
+<Item level="3" page="584">
+	<Name>Returning</Name>
+	<Price>55 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a thrown weapon</Usage>
+	<Description>When you make a thrown Strike with this weapon, it flies back to your hand after the Strike is complete. If your hands are full when the weapon returns, it falls to the ground in your space.</Description>
+</Item>
+<Item level="4" page="584">
+	<Name>Ghost Touch</Name>
+	<Price>75 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>The weapon can harm creatures without physical form. A &lt;i&gt;ghost touch&lt;/i&gt; weapon is particularly effective against incorporeal creatures, which almost always have a specific weakness to &lt;i&gt;ghost touch&lt;/i&gt; weapons. Incorporeal creatures can touch, hold, and wield &lt;i&gt;ghost touch&lt;/i&gt; weapons (unlike most physical objects).</Description>
+</Item>
+<Item level="5" page="584">
+	<Name>Disrupting</Name>
+	<Price>150 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>A &lt;i&gt;disrupting&lt;/i&gt; weapon pulses with positive energy, dealing an extra 1d6 positive damage to undead. On a critical hit, the undead is also enfeebled 1 until the end of your next turn.
+</Description>
+</Item>
+<Item level="14" page="584">
+	<Name>Disrupting (Greater)</Name>
+	<Price>4,300 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>A &lt;i&gt;disrupting&lt;/i&gt; weapon pulses with positive energy, dealing an extra 1d6 positive damage to undead. On a critical hit, the undead is also enfeebled 1 until the end of your next turn.
+
+
+Increase the extra damage to 2d6. On a critical hit, instead of being enfeebled 1, the undead creature must attempt a DC 34 Fortitude save with the following effects. This is an incapacitation effect.
+
+&lt;b&gt;Critical Success&lt;/b&gt; It’s enfeebled 1 until the end of your next turn.
+&lt;b&gt;Success&lt;/b&gt; It’s enfeebled 2 until the end of your next turn.
+&lt;b&gt;Failure&lt;/b&gt; It’s enfeebled 3 until the end of your next turn.
+&lt;b&gt;Critical Failure&lt;/b&gt; It’s destroyed.</Description>
+</Item>
+<Item level="6" page="585">
+	<Name>Shifting</Name>
+	<Price>225 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>With a moment of manipulation, you can shift this weapon into a different weapon with a similar form.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; The weapon takes the shape of another melee weapon that requires the same number of hands to wield. The weapon’s runes and any precious material it’s made of apply to the weapon’s new shape. Any property runes that can’t apply to the new form are suppressed until the item takes a shape to which they can apply.</Description>
+</Item>
+<Item level="7" page="585">
+	<Name>Wounding</Name>
+	<Price>340 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto a piercing or slashing melee weapon</Usage>
+	<Description>Weapons with wounding runes are said to thirst for blood. When you hit a creature with a wounding weapon, you deal an extra 1d6 persistent bleed damage. On a critical hit, it instead deals 1d12 persistent bleed damage.</Description>
+</Item>
+<Item level="8" page="583">
+	<Name>Corrosive</Name>
+	<Price>500 gp</Price>
+	<Traits>Acid, Conjuration, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>Acid sizzles across the surface of the weapon. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target’s armor (if any) takes 3d6 acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.
+</Description>
+</Item>
+<Item level="15" page="583">
+	<Name>Corrosive (Greater)</Name>
+	<Price>6,500 gp</Price>
+	<Traits>Acid, Conjuration, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>Acid sizzles across the surface of the weapon. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target’s armor (if any) takes 3d6 acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.
+
+
+The acid damage dealt by this weapon ignores the target’s acid resistance. Increase the acid damage dealt to armor or a shield on a critical hit to 6d6.</Description>
+</Item>
+<Item level="8" page="584">
+	<Name>Flaming</Name>
+	<Price>500 gp</Price>
+	<Traits>Conjuration, Fire, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This weapon is empowered by flickering flame. The weapon deals an additional 1d6 fire damage on a successful Strike, plus 1d10 persistent fire damage on a critical hit.
+</Description>
+</Item>
+<Item level="15" page="584">
+	<Name>Flaming (Greater)</Name>
+	<Price>6,500 gp</Price>
+	<Traits>Conjuration, Fire, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This weapon is empowered by flickering flame. The weapon deals an additional 1d6 fire damage on a successful Strike, plus 1d10 persistent fire damage on a critical hit.
+
+
+Increase the persistent damage on a critical hit to 2d10. Fire damage dealt by this weapon (including the persistent fire damage) ignores the target’s fire resistance.</Description>
+</Item>
+<Item level="8" page="584">
+	<Name>Frost</Name>
+	<Price>500 gp</Price>
+	<Traits>Cold, Conjuration, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This weapon is empowered with freezing ice. It deals an additional 1d6 cold damage on a successful Strike. On a critical hit, the target is also slowed 1 until the end of your next turn unless it succeeds at a DC 24 Fortitude save.
+</Description>
+</Item>
+<Item level="15" page="584">
+	<Name>Frost (Greater)</Name>
+	<Price>6,500 gp</Price>
+	<Traits>Cold, Conjuration, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This weapon is empowered with freezing ice. It deals an additional 1d6 cold damage on a successful Strike. On a critical hit, the target is also slowed 1 until the end of your next turn unless it succeeds at a DC 24 Fortitude save.
+
+
+The save DC is 34. Cold damage dealt by this weapon ignores the target’s cold resistance. </Description>
+</Item>
+<Item level="8" page="585">
+	<Name>Shock</Name>
+	<Price>500 gp</Price>
+	<Traits>Electricity, Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>Electric arcs crisscross this weapon, dealing an extra 1d6 electricity damage on a hit. On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target.
+</Description>
+</Item>
+<Item level="15" page="585">
+	<Name>Shock (Greater)</Name>
+	<Price>6,500 gp</Price>
+	<Traits>Electricity, Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>Electric arcs crisscross this weapon, dealing an extra 1d6 electricity damage on a hit. On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target.
+
+
+Electricity damage dealt by this weapon ignores the target’s electricity resistance (and the other creatures’ on a critical hit).</Description>
+</Item>
+<Item level="8" page="585">
+	<Name>Thundering</Name>
+	<Price>500 gp</Price>
+	<Traits>Evocation, Magical, Sonic</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This weapon lets out a peal of thunder when it hits, dealing an extra 1d6 sonic damage on a successful Strike. On a critical hit, the target has to succeed at a DC 24 Fortitude save or be deafened for 1 minute (or 1 hour on a critical failure).
+</Description>
+</Item>
+<Item level="15" page="585">
+	<Name>Thundering (Greater)</Name>
+	<Price>6,500 gp</Price>
+	<Traits>Evocation, Magical, Sonic</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This weapon lets out a peal of thunder when it hits, dealing an extra 1d6 sonic damage on a successful Strike. On a critical hit, the target has to succeed at a DC 24 Fortitude save or be deafened for 1 minute (or 1 hour on a critical failure).
+
+
+The save DC is 34, and the deafness is permanent. Sonic damage dealt by this weapon ignores the target’s sonic resistance.</Description>
+</Item>
+<Item level="9" page="584">
+	<Name>Grievous</Name>
+	<Price>700 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>When your attack roll with this weapon is a critical hit and gains the critical specialization effect, you gain an additional benefit depending on the weapon group. 
+
+&lt;b&gt;Axe&lt;/b&gt; You can damage a third creature, with the same restrictions. 
+
+&lt;b&gt;Bow&lt;/b&gt; The Athletics check to pull the missile free is DC 20. 
+
+&lt;b&gt;Brawling&lt;/b&gt; The target takes a –4 circumstance penalty to its save. 
+
+&lt;b&gt;Club&lt;/b&gt; You can knock the target up to 15 feet away.  
+
+&lt;b&gt;Dart&lt;/b&gt; The base persistent bleed damage increases to 2d6. 
+
+&lt;b&gt;Flail&lt;/b&gt; You move the target 5 feet. You can’t move it away from you, but you can move it in another direction of your choice. 
+
+&lt;b&gt;Hammer&lt;/b&gt; You can also knock the target 5 feet away from you. 
+
+&lt;b&gt;Knife&lt;/b&gt; The target takes a –5-foot status penalty to its Speed while it has the persistent bleed damage. 
+
+&lt;b&gt;Pick&lt;/b&gt; The extra damage from the critical specialization effect increases to 4 per weapon damage die. 
+
+&lt;b&gt;Polearm&lt;/b&gt; You can move the target up to 10 feet. 
+
+&lt;b&gt;Shield&lt;/b&gt; You can knock the target up to 10 feet away. 
+
+&lt;b&gt;Sling&lt;/b&gt; The target also takes a –10-foot status penalty to its Speed for 1 round if it fails the save. 
+
+&lt;b&gt;Spear&lt;/b&gt; The clumsy condition lasts for 2 rounds. 
+
+&lt;b&gt;Sword&lt;/b&gt; The target is flat-footed until the end of your next turn.</Description>
+</Item>
+<Item level="11" page="583">
+	<Name>Anarchic</Name>
+	<Price>1,400 gp</Price>
+	<Traits>Chaotic, Evocation, Magical</Traits>
+	<Usage>axiomatic rune</Usage>
+	<Description>An &lt;i&gt;anarchic&lt;/i&gt; rune is jagged and asymmetrical, channeling chaotic energy. A weapon with this rune deals an additional 1d6 chaotic damage against lawful targets. If you are lawful, you are enfeebled 2 while carrying or wielding this weapon.
+
+ When you critically succeed at a Strike with this weapon against a lawful creature, roll 1d6. On a 1 or 2, you deal double minimum damage; on a 3 or 4, double your damage normally; on a 5 or 6, you deal double maximum damage. 
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; You are chaotic.</Description>
+</Item>
+<Item level="11" page="583">
+	<Name>Axiomatic</Name>
+	<Price>1,400 gp</Price>
+	<Traits>Evocation, Lawful, Magical</Traits>
+	<Usage>anarchic rune</Usage>
+	<Description>Complex and symmetrical, an &lt;i&gt;axiomatic&lt;/i&gt; rune imbues a weapon with lawful energy. A weapon with this rune deals an additional 1d6 lawful damage against chaotic targets. If you are chaotic, you are enfeebled 2 while carrying or wielding this weapon. 
+
+When you critically succeed at an attack roll with this weapon against a chaotic creature, instead of rolling, count each weapon damage die as average damage rounded up (3 for d4, 4 for d6, 5 for d8, 6 for d10, 7 for d12).
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; You are lawful.</Description>
+</Item>
+<Item level="11" page="584">
+	<Name>Holy</Name>
+	<Price>1,400 gp</Price>
+	<Traits>Evocation, Good, Magical</Traits>
+	<Usage>unholy rune</Usage>
+	<Description>&lt;i&gt;Holy&lt;/i&gt; weapons command powerful celestial energy. A weapon with this rune deals an extra 1d6 good damage against evil targets. If you are evil, you are enfeebled 2 while carrying or wielding this weapon.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; You critically succeed at an attack roll against an evil creature with the weapon; &lt;b&gt;Effect&lt;/b&gt; You regain HP equal to double the evil creature’s level. This is a good, positive, healing effect.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; You are good.</Description>
+</Item>
+<Item level="11" page="585">
+	<Name>Unholy</Name>
+	<Price>1,400 gp</Price>
+	<Traits>Evil, Evocation, Magical</Traits>
+	<Usage>holy rune</Usage>
+	<Description>An &lt;i&gt;unholy&lt;/i&gt; rune instills fiendish power into the etched weapon. A weapon with this rune deals an additional 1d6 evil damage when it hits a good target. If you are good, you are enfeebled 2 while carrying or wielding this weapon.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; You critically succeed at an attack roll against a good creature with the weapon; &lt;b&gt;Effect&lt;/b&gt; The target takes persistent bleed damage equal to 1d8 per weapon damage die of the etched weapon.</Description>
+</Item>
+<Item level="13" page="583">
+	<Name>Dancing</Name>
+	<Price>2,700 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>A dancing weapon flies autonomously and strikes your foes.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; You Release the weapon and it dances through the air, fighting on its own against the last enemy you attacked, or the nearest enemy to it if your target has been defeated. At the end of your turn each round, the weapon can Fly up to its fly Speed of 40 feet, and then can either Fly again or Strike one creature within its reach.
+
+ The weapon has a space of 5 feet, but it doesn’t block or impede enemies attempting to move though that space, nor does it benefit from or provide flanking. The weapon can’t move through an enemy’s space. The weapon can’t use reactions, and its Fly actions don’t trigger reactions.
+
+ While it’s activated, a &lt;i&gt;dancing&lt;/i&gt; weapon makes Strikes with an attack modifier of +24 plus its item bonus to attack rolls. It uses the weapon’s normal damage but has a +0 Strength modifier. The weapon’s abilities that automatically trigger on a hit or critical hit still function, but the weapon can’t be activated or benefit from any of your abilities while dancing.
+
+ Each round, when the weapon is finished using its actions, attempt a DC 6 flat check. On a failure, the activation ends and the weapon falls to the ground. You can’t activate the item again for 10 minutes.</Description>
+</Item>
+<Item level="13" page="585">
+	<Name>Spell-Storing</Name>
+	<Price>2,700 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>A &lt;i&gt;spell-storing&lt;/i&gt; rune creates a reservoir of eldritch energy within the etched weapon. A spellcaster can spend 1 minute to cast a spell of 3rd level or lower into the weapon. The spell must have a casting of 2 actions or fewer and must be able to target a creature other than the caster. The spell has no immediate effect—it is instead stored for later. When you wield a &lt;i&gt;spell-storing&lt;/i&gt; weapon, you immediately know the name and level of the stored spell. A &lt;i&gt;spell-storing&lt;/i&gt; weapon found as treasure has a 50% chance of having a spell of the GM’s choice stored in it.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Requirements&lt;/b&gt; On your previous action this turn, you hit and damaged a creature with this weapon; &lt;b&gt;Effect&lt;/b&gt; You unleash the stored spell, which uses the target of the triggering attack as the target of the spell. This empties the spell from the weapon and allows a spell to be cast into it again. If the spell requires a spell attack roll, the result of your attack roll with the weapon determines the degree of success of the spell, and if the spell requires a saving throw, the DC is 30.
+
+
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Effect&lt;/b&gt; Harmlessly expend the stored spell. This frees the weapon to have a new spell cast into it.</Description>
+</Item>
+<Item level="13" page="584">
+	<Name>Keen</Name>
+	<Price>3,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a piercing or slashing melee weapon</Usage>
+	<Description>The edges of a keen weapon are preternaturally sharp. Attacks with this weapon are a critical hit on a 19 on the die as long as that result is a success. This property has no effect on a 19 if the result would be a failure.</Description>
+</Item>
+<Item level="16" page="585">
+	<Name>Speed</Name>
+	<Price>10,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>Attacks with a &lt;i&gt;speed&lt;/i&gt; weapon are supernaturally swift. While wielding a &lt;i&gt;speed&lt;/i&gt; weapon, you gain the quickened condition, but you can use the additional action granted only to make a Strike with the etched weapon.</Description>
+</Item>
+<Item level="17" page="585">
+	<Name>Vorpal</Name>
+	<Price>15,000 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a slashing melee weapon</Usage>
+	<Description>Originally created as a means of slaying the legendary jabberwock, &lt;i&gt;vorpal&lt;/i&gt; weapons prove equally effective against nearly any foe with a head.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision (death, incapacitation); &lt;b&gt;Frequency&lt;/b&gt; You roll a natural 20 on a Strike with the weapon, critically succeed, and deal slashing damage. The target must have a head; &lt;b&gt;Effect&lt;/b&gt; The target must succeed at a DC 37 Fortitude save or be decapitated. This kills any creature except ones that don’t require a head to live. For creatures with multiple heads, this usually kills the creature only if you sever its last head.</Description>
+</Item>
+</SubCategory></pf2:Items>

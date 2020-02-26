@@ -1,0 +1,67 @@
+<pf2:Items category="Artifacts" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<Item level="20" page="126">
+	<Name>Final Blade</Name>
+	<Hands>40</Hands>
+	<Traits>Artifact, Death, Evil, Necromancy, Occult</Traits>
+	<Description>A Large or smaller restrained or willing creature can be executed by a &lt;i&gt;final blade&lt;/i&gt;. As an artifact, a &lt;i&gt;final blade&lt;/i&gt; cannot be harmed by any but a very specific means.
+
+&lt;b&gt;Activate&lt;/b&gt;  1 minute (Interact); &lt;b&gt;Effect&lt;/b&gt; You execute a creature restrained beneath the blade. The executed creature takes 11d10 slashing damage and must succeed at a DC 45 Fortitude save or be decapitated as though it suffered a critical hit with a natural 20 from a &lt;i&gt;+3 major striking vorpal scythe&lt;/i&gt;. The soul of a creature executed with a &lt;i&gt;final blade&lt;/i&gt; is trapped, and the creature can’t be returned to life through any means, even a &lt;i&gt;miracle&lt;/i&gt; or similar magic. A &lt;i&gt;final blade&lt;/i&gt; can hold any number of souls in this way, and they can be released only through a complex ritual known only to the Gray Gardeners or through the destruction of the &lt;i&gt;final blade&lt;/i&gt;.</Description>
+</Item>
+<Item level="11" page="72">
+	<Name>Eye of the Wise</Name>
+	<Hands>L</Hands>
+	<Traits>Artifact, Divination, Invested</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This fist-sized, 12-rayed black star sapphire is sacred to Yueral, the elven goddess of magic and jewels, and most accounts of its creation attribute its crafting to a circle of her worshippers. In addition to the abilities listed below, the gem functions as a portal key for Jewelgate at Alseta’s Ring.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; You touch the &lt;i&gt;Eye of the Wise&lt;/i&gt; to a gem worth at least 10 gp, whereupon the &lt;i&gt;Eye of the Wise&lt;/i&gt; assumes the appearance of the touched gemstone. While this connection is active, the carriers of the &lt;i&gt;Eye of the Wise&lt;/i&gt; and of the other gemstone can communicate telepathically with one another over any distance, as long as both are on the same plane. This connection is broken if the other gemstone is damaged, if the &lt;i&gt;Eye of the Wise&lt;/i&gt; becomes attuned to another gemstone, or if the bearer of the &lt;i&gt;Eye of the Wise&lt;/i&gt; Dismisses the activation.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; You hold the &lt;i&gt;Eye of the Wise&lt;/i&gt; up to your own eye and peer through it. The &lt;i&gt;Eye of the Wise&lt;/i&gt; grows transparent and grants you a +2 item bonus to attempts to Decipher Writing, Disable a Device, Identify Magic, Pick a Lock, Seek, or Sense Motive. You can Sustain this activation as long as you hold the gem in place.</Description>
+</Item>
+<Item level="25" page="313">
+	<Name>Blackaxe</Name>
+	<Hands>2</Hands>
+	<Traits>Artifact, Curse, Evocation, Primal</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This potent weapon used by Treerazer is a &lt;i&gt;+4 greater corrosive major striking obsidian greataxe&lt;/i&gt; that grants a +4 item bonus to attack rolls, deals an extra 2d6 damage to plants, and has the properties of adamantine.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] (divination, scrying); &lt;b&gt;Requirements&lt;/b&gt; You aren't wielding &lt;i&gt;Blackaxe&lt;/i&gt; and you are its true owner. ; &lt;b&gt;Effect&lt;/b&gt; You sense the world around &lt;i&gt;Blackaxe&lt;/i&gt; as though you were in its location and can use any of your innate spells through the link as if it were the source of the spell. If another creature is wielding Blackaxe, it must succeed at a DC 50 Will save or be slowed 2 until it relinquishes the weapon.
+
+ &lt;b&gt;Activate&lt;/b&gt; [[Free Action]] command (conjuration, teleportation) &lt;b&gt;Requirements&lt;/b&gt; You aren’t wielding &lt;i&gt;Blackaxe&lt;/i&gt; and you are its true owner. &lt;b&gt;Effect&lt;/b&gt; &lt;i&gt;Blackaxe&lt;/i&gt; appears in your hands, teleporting instantly from its prior location.
+
+ &lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command (death, healing, necromancy) &lt;b&gt;Frequency&lt;/b&gt; once per minute. &lt;b&gt;Effect&lt;/b&gt; Make a Strike against a living tree with &lt;i&gt;Blackaxe&lt;/i&gt;. If it hits, the tree withers to ash and you heal 250 Hit Points and gain the benefit of restoration (6th) and restore senses.</Description>
+</Item>
+<Item level="25" page="75">
+	<Name>Flawed Orb of Gold Dragonkind</Name>
+	<Hands>1</Hands>
+	<Traits>Artifact, Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>
+
+
+Each of the legendary &lt;i&gt;Orbs of Dragonkind&lt;/i&gt; contains the essence and personality of a powerful dragon. The &lt;i&gt;Orb of Gold Dragonkind&lt;/i&gt; was the most powerful of them all, until it was shattered by Mengkare’s draconic breath. Reconstructed at great expense by enslaved spellcasters toiling under the Scarlet Triad’s watch, the &lt;i&gt;Flawed Orb of Gold Dragonkind&lt;/i&gt; is a shadow of its prior self, yet it remains a potent weapon against dragons of all types.
+
+ While carried, the &lt;i&gt;Flawed Orb of Gold Dragonkind&lt;/i&gt; grants its owner resistance 30 to the Breath Weapons of gold dragons. The owner also can sense if there are any dragons within 10 miles, or any gold dragons within 100 miles. When within 1 mile of a dragon, they can determine the direction to the dragon and the dragon’s age category (such as young, ancient, or wyrm).
+
+&lt;b&gt;Activate&lt;/b&gt; [[Three Actions]] envision, Interact; &lt;b&gt;Frequency&lt;/b&gt; Three times per day; &lt;b&gt;Effect&lt;/b&gt; You attempt to overwhelm a dragon’s mind—while you cannot control the dragon, you can render it immobile for a short time. Choose a dragon within 60 feet; the dragon can attempt to resist the orb with a DC 30 Will saving throw (or higher with &lt;i&gt;orb shards&lt;/i&gt;). Gold dragons take a –4 circumstance penalty to this saving throw. Any stun from this activation ends if the dragon is attacked or otherwise subject to a hostile act other than that of the orb.
+
+&lt;b&gt;Critical Success&lt;/b&gt; The dragon is unaffected.
+&lt;b&gt;Success&lt;/b&gt; The dragon is stunned 3.
+&lt;b&gt;Failure&lt;/b&gt; The dragon is stunned for as long as the orb’s wielder Sustains the Activation.
+&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but hostile actions don’t end the dragon’s stun. Destruction The &lt;i&gt;Flawed Orb of Gold Dragonkind&lt;/i&gt; is resilient, but its imperfect nature leaves it vulnerable. It can be damaged or even destroyed by mundane attacks (Hardness 40, HP 200, BT 100). It has weakness 30 to the Breath Weapons and Strikes of gold dragons.
+</Description>
+</Item>
+<Item level="20" page="75">
+	<Name>Orb Shard</Name>
+	<Traits>Artifact, Enchantment, Magical, Artifact, Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>
+
+
+A shard of the &lt;i&gt;Orb of Gold Dragonkind&lt;/i&gt; resembles a pointed length of crystal about the size and shape of a shortsword without a hilt. It functions as a &lt;i&gt;+3 striking shortsword&lt;/i&gt; that deals 2d6 extra damage to dragons.
+
+ Each &lt;i&gt;orb shard&lt;/i&gt; within 60 feet of the &lt;i&gt;flawed orb of Gold Dragonkind&lt;/i&gt; increases the save DC against the orb by 1; thus, if all 13 remaining &lt;i&gt;orb shards&lt;/i&gt; are in this area, the save DC against the flawed orb increases from DC 30 to DC 43. A talented spellcaster or crafter can integrate an &lt;i&gt;orb shard&lt;/i&gt; back into the flawed orb to make this DC increase permanent.</Description>
+</Item>
+</pf2:Items>

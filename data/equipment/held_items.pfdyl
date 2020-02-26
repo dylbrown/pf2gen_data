@@ -1,0 +1,683 @@
+<pf2:Items category="Held Items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<Item level="2" page="110">
+	<Name>Pathfinder's Coin</Name>
+	<Price>30 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This coin usually resembles ancient currency. An intricate matrix of gold and platinum wires inside the coin causes it to float an inch in the air and spin if placed on a &lt;i&gt;wayfinder&lt;/i&gt;.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Requirements&lt;/b&gt; The coin is levitating above a &lt;i&gt;wayfinder; &lt;b&gt;Effect&lt;/b&gt; You give the coin a message of 25 words or fewer. The message repeats in your voice the next time the coin is floated above a &lt;i&gt;wayfinder&lt;/i&gt;. A &lt;i&gt;Pathfinder’s coin&lt;/i&gt; can hold only one message at a time, and it replays its message only once.&lt;/i&gt;</Description>
+</Item>
+<Item level="6" page="72">
+	<Name>Insistent Door Knocker</Name>
+	<Price>225 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This dark iron door knocker comes in a variety of shapes, such as a bird clutching a ring in its talons or a gargoyle holding a ring in its mouth. Placing the door knocker on the surface of a door (an Interact action) causes it to attach and remain in place. While in place, the door knocker whispers hints to you while you attempt to unlock the door, granting a +1 item bonus to Thievery checks to Pick a Lock. Removing the door knocker from a surface requires you to use an Interact action.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You place the door knocker against a wall, floor, or ceiling. The door knocker fuses in place and creates a usable door within the surface. Any creature can move through the door normally, as if the door had always been there. The door can penetrate up to 1 foot of material, so thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. A thin layer of metal in a wall, floor, or ceiling also causes the effect to fail. You can use an Interact action to release the door knocker from the surface and return the surface to its previous shape.
+</Description>
+</Item>
+<Item level="11" page="72">
+	<Name>Greater Insistent Door Knocker</Name>
+	<Price>1,250 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This dark iron door knocker comes in a variety of shapes, such as a bird clutching a ring in its talons or a gargoyle holding a ring in its mouth. Placing the door knocker on the surface of a door (an Interact action) causes it to attach and remain in place. While in place, the door knocker whispers hints to you while you attempt to unlock the door, granting a +1 item bonus to Thievery checks to Pick a Lock. Removing the door knocker from a surface requires you to use an Interact action.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You place the door knocker against a wall, floor, or ceiling. The door knocker fuses in place and creates a usable door within the surface. Any creature can move through the door normally, as if the door had always been there. The door can penetrate up to 1 foot of material, so thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. A thin layer of metal in a wall, floor, or ceiling also causes the effect to fail. You can use an Interact action to release the door knocker from the surface and return the surface to its previous shape.
+
+
+The item bonus is +2, and the door knocker can penetrate up to 5 feet of material when activated.
+</Description>
+</Item>
+<Item level="17" page="72">
+	<Name>Major Insistent Door Knocker</Name>
+	<Price>13,500 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This dark iron door knocker comes in a variety of shapes, such as a bird clutching a ring in its talons or a gargoyle holding a ring in its mouth. Placing the door knocker on the surface of a door (an Interact action) causes it to attach and remain in place. While in place, the door knocker whispers hints to you while you attempt to unlock the door, granting a +1 item bonus to Thievery checks to Pick a Lock. Removing the door knocker from a surface requires you to use an Interact action.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You place the door knocker against a wall, floor, or ceiling. The door knocker fuses in place and creates a usable door within the surface. Any creature can move through the door normally, as if the door had always been there. The door can penetrate up to 1 foot of material, so thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. A thin layer of metal in a wall, floor, or ceiling also causes the effect to fail. You can use an Interact action to release the door knocker from the surface and return the surface to its previous shape.
+
+
+The item bonus is +3, and the door knocker can penetrate up to 10 feet of material when activated.</Description>
+</Item>
+<Item level="9" page="71">
+	<Name>Dreamstone</Name>
+	<Price>700 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>
+
+
+A &lt;i&gt;dreamstone&lt;/i&gt; is a disc-shaped object carved with imagery or words sacred to Desna—be it her religious symbol, a short prayer, or merely the shape of a single star. When you carry a &lt;i&gt;dreamstone&lt;/i&gt;, you find it easier to fall asleep, and you gain improved effects from the resulting rest. You always fall asleep within 5 minutes of lying down with the intention of sleeping, and you require only 2 hours of sleep per day to gain the benefits of 8 hours of sleep, provided you have carried the &lt;i&gt;dreamstone&lt;/i&gt; for at least 24 hours prior to resting. As long as you carry a &lt;i&gt;dreamstone&lt;/i&gt;, you gain a +2 item bonus to saving throws against sleep effects.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact (metamagic); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; If the next action you use is to Cast a Spell of 4th level or lower that has the sleep trait or is associated with dreams, the spell slot is not expended.
+</Description>
+</Item>
+<Item level="9" page="71">
+	<Name>Cursed Dreamstone</Name>
+	<Hands>L</Hands>
+	<Traits>Enchantment, Magical, Curse, Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>
+
+
+A &lt;i&gt;dreamstone&lt;/i&gt; can become cursed if left exposed to creatures that corrupt sleep, generate nightmares, or otherwise prey on sleeping or dreaming victims via supernatural methods. A &lt;i&gt;cursed dreamstone&lt;/i&gt; seems to function as a normal &lt;i&gt;dreamstone&lt;/i&gt; until the bearer falls asleep or is forced to attempt a saving throw against a sleep effect. At this point, the person carrying the cursed &lt;i&gt;dreamstone&lt;/i&gt; must attempt a DC 26 Will save to resist the curse’s effects.
+
+&lt;b&gt;Critical Success&lt;/b&gt; The character resists the curse entirely and experiences a vivid dream while sleeping that warns them of the nature of the &lt;i&gt;cursed dreamstone&lt;/i&gt;.
+&lt;b&gt;Success&lt;/b&gt; The character resists the curse.
+&lt;b&gt;Failure&lt;/b&gt; As long as the cursed character possesses the stone, they are fatigued whenever they wake from sleep, whether natural or magically induced, and they take a –2 item penalty to all saving throws against sleep effects instead of gaining the normal bonus from a &lt;i&gt;dreamstone&lt;/i&gt;.
+&lt;b&gt;Critical Failure&lt;/b&gt; As failure, and whenever the bearer attempts a saving throw against a sleep effect, they get the outcome that is one degree worse than the result of their saving throw.</Description>
+</Item>
+<Item level="16" page="76">
+	<Name>Guiding Chisel</Name>
+	<Price>10,000 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Conjuration, Elf, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This magical chisel evokes the holy symbol of the elven goddess of art and architecture, Findeladlara. The &lt;i&gt;Guiding Chisel’s&lt;/i&gt; original function was as a portal key to Duskgate, but as Alseta’s Ring faded from the collective memories of the elves, the chisel became known and used exclusively for its other abilities. Eventually, elven emissaries gave it to the dwarves of Saggorak as a gesture of friendship.
+
+ You gain a +3 item bonus to Crafting checks related to stonemasonry. In addition, it takes you only 1 day to Craft items using the &lt;i&gt;Guiding Chisel&lt;/i&gt; instead of 4 days, and you quadruple the discount you get for spending additional days Crafting items with the &lt;i&gt;Guiding Chisel&lt;/i&gt;. If it’s unclear whether you could use the &lt;i&gt;Guiding Chisel&lt;/i&gt; to Craft an item, the GM decides.</Description>
+</Item>
+<Item level="7" page="71">
+	<Name>Dragon's Eye Charm</Name>
+	<Price>360 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Divination, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This charm, a dragon-shaped pendant worn like a necklace or set into armor or clothing as a decoration, is warm and smooth to the touch. It must be held in one hand to be used (pressing the palm of one’s hand to the charm also works, provided that your hand is otherwise empty). It has four distinct powers.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;dragon’s eye charm&lt;/i&gt; manifests fire for you to wield against your foe. You cast a 5th-level &lt;i&gt;produce flame&lt;/i&gt; spell with a spell attack roll of +13.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The charm’s pupil becomes plainly visible. You can look through the charm to gain darkvision for as long as you Sustain the Activation, to a maximum of 10 minutes.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;dragon’s eye charm&lt;/i&gt; shrouds you in a faintly glowing layer of golden energy. You gain fire resistance 5 for 10 minutes.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You can speak and understand Draconic as long as you Sustain the Activation, to a maximum of 10 minutes.</Description>
+</Item>
+<Item level="12" page="222">
+	<Name>Lich Phylactery</Name>
+	<Price>1,600 gp</Price>
+	<Traits>Arcane, Necromancy, Negative</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This item is crafted by a spellcaster who wishes to become a lich. When a lich is destroyed, its soul flees to the phylactery. The phylactery then rebuilds the lich’s undead body over the course of 1d10 days. Afterward, the lich manifests next to the phylactery, fully healed and in a new body (therefore, it lacks any equipment it had on its old body). A lich’s phylactery must be destroyed to prevent a lich from returning.
+
+The standard phylactery is a sealed metal box containing strips of parchment inscribed with magical phrases. This box has Hardness 9 and 36 HP, but some liches devise more durable or difficult-to-obtain phylacteries. A phylactery might also come in the form of a ring, an amulet, or a similar item; the specifics are up to the creator.</Description>
+</Item>
+<Item level="15" page="223">
+	<Name>Demilich Eye Gem</Name>
+	<Price>3,000 gp (can't be crafted)</Price>
+	<Traits>Arcane</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glowing gem is harvested from a demilich and has an 8th-level spell magically bonded to it. This item has the traits of the spell it contains.
+
+&lt;b&gt;Activate&lt;/b&gt;  command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The gem casts the 8th-level spell it contains. This activation uses the same number of actions as Casting the Spell. Once the spell is cast, the gem's glow fades, but returns 24 hours later, when the spell can be used once again.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; &lt;i&gt;Demilich eye gems&lt;/i&gt; can't be crafted.</Description>
+</Item>
+<Item level="1" page="573">
+	<Name>Everburning Torch</Name>
+	<Price>15 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Evocation, Light, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>An &lt;i&gt;everburning torch&lt;/i&gt; is one of the most common applications of permanent magic. This torch sheds light constantly, requiring no oxygen and generating no heat. The flame can be covered or hidden, but can’t be smothered or quenched.</Description>
+</Item>
+<Item level="10" page="576">
+	<Name>Wondrous Figurine (Golden Lions)</Name>
+	<Price>900 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Each one of these statuettes is 1 inch in height, carved from a specific material and taking the shape of a particular animal or animals.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; You activate the statue by placing it on solid ground and then speaking its name, causing the statuette to transform into a living creature or creatures. In creature form, the figurine has the minion trait. It can understand your language and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation’s frequency (if any), appear in its entry below.
+
+ If the figurine is slain while in animal form, it reverts to its statue shape and cannot be activated again until 1 week has passed. If the figurine is destroyed in statue form, it is shattered and its magic is lost.
+
+
+This statuette depicts a pair of gold lions, and when activated, it becomes a pair of adult lions. The lions can be called on only once per day, and they remain in lion form for no more than 1 hour. If either of the lions is slain, that lion cannot be summoned again until 1 week has passed, but this doesn’t prevent you from summoning the other.
+</Description>
+</Item>
+<Item level="7" page="576">
+	<Name>Wondrous Figurine (Jade Serpent)</Name>
+	<Price>340 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Each one of these statuettes is 1 inch in height, carved from a specific material and taking the shape of a particular animal or animals.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; You activate the statue by placing it on solid ground and then speaking its name, causing the statuette to transform into a living creature or creatures. In creature form, the figurine has the minion trait. It can understand your language and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation’s frequency (if any), appear in its entry below.
+
+ If the figurine is slain while in animal form, it reverts to its statue shape and cannot be activated again until 1 week has passed. If the figurine is destroyed in statue form, it is shattered and its magic is lost.
+
+
+This tiny statue first appears to be a formless lump of jade until closer inspection reveals it to be a serpentine body curled into a snug knot. When activated, this figurine becomes a giant viper. The figurine can be used only once per day, and it can remain in serpent form for no more than 10 minutes.
+</Description>
+</Item>
+<Item level="13" page="576">
+	<Name>Wondrous Figurine (Marble Elephant)</Name>
+	<Price>2,700 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Each one of these statuettes is 1 inch in height, carved from a specific material and taking the shape of a particular animal or animals.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; You activate the statue by placing it on solid ground and then speaking its name, causing the statuette to transform into a living creature or creatures. In creature form, the figurine has the minion trait. It can understand your language and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation’s frequency (if any), appear in its entry below.
+
+ If the figurine is slain while in animal form, it reverts to its statue shape and cannot be activated again until 1 week has passed. If the figurine is destroyed in statue form, it is shattered and its magic is lost.
+
+
+Finely carved from a solid piece of marble, this gleaming elephant statuette becomes a fully grown elephant when activated. The elephant can be called upon no more than four times per month. It remains for 24 hours as long as it is being used as a beast of burden or for transport. If it attempts an attack or otherwise engages in combat, it reverts to statuette form after 1d4 rounds.
+</Description>
+</Item>
+<Item level="15" page="576">
+	<Name>Wondrous Figurine (Obsidian Steed)</Name>
+	<Price>6,000 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Each one of these statuettes is 1 inch in height, carved from a specific material and taking the shape of a particular animal or animals.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; You activate the statue by placing it on solid ground and then speaking its name, causing the statuette to transform into a living creature or creatures. In creature form, the figurine has the minion trait. It can understand your language and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation’s frequency (if any), appear in its entry below.
+
+ If the figurine is slain while in animal form, it reverts to its statue shape and cannot be activated again until 1 week has passed. If the figurine is destroyed in statue form, it is shattered and its magic is lost.
+
+
+This sinister-looking black statuette resembles a horse rearing up on its hind legs. When activated, this figurine becomes a nightmare. It can be called upon once per week for up to 24 hours, though it won’t use &lt;i&gt;plane shift&lt;/i&gt; or its other abilities on behalf of its rider. Although evil, it allows itself to be ridden by creatures of any alignment, although if a good creature mounts it, the rider must attempt a DC 3 flat check. On a failure, the nightmare uses &lt;i&gt;plane shift&lt;/i&gt; to take the rider to a random location in the Abyss, where it promptly returns to statue form, stranding its rider in that nightmarish place.
+</Description>
+</Item>
+<Item level="2" page="576">
+	<Name>Wondrous Figurine (Onyx Dog)</Name>
+	<Price>34 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Each one of these statuettes is 1 inch in height, carved from a specific material and taking the shape of a particular animal or animals.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; You activate the statue by placing it on solid ground and then speaking its name, causing the statuette to transform into a living creature or creatures. In creature form, the figurine has the minion trait. It can understand your language and it obeys you to the best of its ability when you use an action to command it. The specifics of each creature, as well as the activation’s frequency (if any), appear in its entry below.
+
+ If the figurine is slain while in animal form, it reverts to its statue shape and cannot be activated again until 1 week has passed. If the figurine is destroyed in statue form, it is shattered and its magic is lost.
+
+
+This simple onyx statue transforms into a guard dog. The dog has a +4 circumstance bonus to Survival checks to Track, and it has darkvision. When the dog senses a hidden creature with its scent, that creature is instead observed and concealed. The onyx dog can be activated once per week and remains in its form for up to 6 hours.</Description>
+</Item>
+<Item level="3" page="575">
+	<Name>Thurible of Revelation (Lesser)</Name>
+	<Price>55 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Divination, Divine</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This brass censer dangles on a length of chain. Most &lt;i&gt;thuribles of revelation&lt;/i&gt; are adorned with swirling Celestial text, though some are iron and feature Infernal or Abyssal text.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Cost&lt;/b&gt; incense worth at least 5 gp; &lt;b&gt;Effect&lt;/b&gt; You light the incense inside the censer, and it burns for 1 hour. During that time, as long you are holding the thurible, you gain a +1 item bonus to Religion checks, and any critical failure you roll when you Decipher Writing of a religious nature is a failure instead.
+</Description>
+</Item>
+<Item level="10" page="575">
+	<Name>Thurible of Revelation (Moderate)</Name>
+	<Price>900 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Divination, Divine</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This brass censer dangles on a length of chain. Most &lt;i&gt;thuribles of revelation&lt;/i&gt; are adorned with swirling Celestial text, though some are iron and feature Infernal or Abyssal text.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Cost&lt;/b&gt; incense worth at least 5 gp; &lt;b&gt;Effect&lt;/b&gt; You light the incense inside the censer, and it burns for 1 hour. During that time, as long you are holding the thurible, you gain a +1 item bonus to Religion checks, and any critical failure you roll when you Decipher Writing of a religious nature is a failure instead.
+
+
+The thurible grants a +2 bonus. Once per day, when you activate the thurible, you can increase its revelations. During that activation, you can hold the thurible up to your eyes with an Interact action to gain the effects of &lt;i&gt;see invisibility&lt;/i&gt; for 1 round by peering through the smoke.
+</Description>
+</Item>
+<Item level="18" page="575">
+	<Name>Thurible of Revelation (Greater)</Name>
+	<Price>19,000 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Divination, Divine</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This brass censer dangles on a length of chain. Most &lt;i&gt;thuribles of revelation&lt;/i&gt; are adorned with swirling Celestial text, though some are iron and feature Infernal or Abyssal text.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Cost&lt;/b&gt; incense worth at least 5 gp; &lt;b&gt;Effect&lt;/b&gt; You light the incense inside the censer, and it burns for 1 hour. During that time, as long you are holding the thurible, you gain a +1 item bonus to Religion checks, and any critical failure you roll when you Decipher Writing of a religious nature is a failure instead.
+
+
+The thurible grants a +3 bonus. The greater version shares the once-per-day enhanced revelations of the moderate version, except peering through the smoke also grants you the effects of &lt;i&gt;true seeing&lt;/i&gt;.</Description>
+</Item>
+<Item level="3" page="574">
+	<Name>Maestro's Instrument (Lesser)</Name>
+	<Price>60 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>A maestro’s instrument can be crafted in the form of any variety of handheld musical instrument. A maestro’s instrument grants you a +1 item bonus to Performance checks while playing music with the instrument.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You can play the instrument to produce the effects of a &lt;i&gt;charm&lt;/i&gt; spell.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; You must supply a casting of &lt;i&gt;charm&lt;/i&gt; of the appropriate level.
+</Description>
+</Item>
+<Item level="10" page="574">
+	<Name>Maestro's Instrument (Moderate)</Name>
+	<Price>900 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>A maestro’s instrument can be crafted in the form of any variety of handheld musical instrument. A maestro’s instrument grants you a +1 item bonus to Performance checks while playing music with the instrument.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You can play the instrument to produce the effects of a &lt;i&gt;charm&lt;/i&gt; spell.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; You must supply a casting of &lt;i&gt;charm&lt;/i&gt; of the appropriate level.
+
+
+The item bonus is +2, and the &lt;i&gt;charm&lt;/i&gt; spell is 4th level.
+</Description>
+</Item>
+<Item level="18" page="574">
+	<Name>Maestro's Instrument (Greater</Name>
+	<Price>19,000 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>A maestro’s instrument can be crafted in the form of any variety of handheld musical instrument. A maestro’s instrument grants you a +1 item bonus to Performance checks while playing music with the instrument.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You can play the instrument to produce the effects of a &lt;i&gt;charm&lt;/i&gt; spell.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; You must supply a casting of &lt;i&gt;charm&lt;/i&gt; of the appropriate level.
+
+
+The item bonus is +3, and the &lt;i&gt;charm&lt;/i&gt; spell is 8th level.</Description>
+</Item>
+<Item level="4" page="572">
+	<Name>Bag of Holding (Type I)</Name>
+	<Price>75 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Conjuration, Extradimensional, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Though it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a &lt;i&gt;bag of holding&lt;/i&gt; opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn’t change the Bulk of the &lt;i&gt;bag of holding&lt;/i&gt; itself. The amount of Bulk the bag’s extradimensional space can hold depends on its type.
+
+ You can Interact with the &lt;i&gt;bag of holding&lt;/i&gt; to put items in or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.
+
+ If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it’s turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it’s retrieved first. An item in the bag can’t be detected by magic that detects only things on the same plane.
+</Description>
+</Item>
+<Item level="7" page="572">
+	<Name>Bag of Holding (Type II)</Name>
+	<Price>300 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Conjuration, Extradimensional, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Though it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a &lt;i&gt;bag of holding&lt;/i&gt; opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn’t change the Bulk of the &lt;i&gt;bag of holding&lt;/i&gt; itself. The amount of Bulk the bag’s extradimensional space can hold depends on its type.
+
+ You can Interact with the &lt;i&gt;bag of holding&lt;/i&gt; to put items in or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.
+
+ If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it’s turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it’s retrieved first. An item in the bag can’t be detected by magic that detects only things on the same plane.
+</Description>
+</Item>
+<Item level="11" page="572">
+	<Name>Bag of Holding (Type III)</Name>
+	<Price>1,200 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Conjuration, Extradimensional, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Though it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a &lt;i&gt;bag of holding&lt;/i&gt; opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn’t change the Bulk of the &lt;i&gt;bag of holding&lt;/i&gt; itself. The amount of Bulk the bag’s extradimensional space can hold depends on its type.
+
+ You can Interact with the &lt;i&gt;bag of holding&lt;/i&gt; to put items in or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.
+
+ If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it’s turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it’s retrieved first. An item in the bag can’t be detected by magic that detects only things on the same plane.
+</Description>
+</Item>
+<Item level="13" page="572">
+	<Name>Bag of Holding (Type IV)</Name>
+	<Price>2,400 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Conjuration, Extradimensional, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Though it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a &lt;i&gt;bag of holding&lt;/i&gt; opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn’t change the Bulk of the &lt;i&gt;bag of holding&lt;/i&gt; itself. The amount of Bulk the bag’s extradimensional space can hold depends on its type.
+
+ You can Interact with the &lt;i&gt;bag of holding&lt;/i&gt; to put items in or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.
+
+ If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it’s turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it’s retrieved first. An item in the bag can’t be detected by magic that detects only things on the same plane.
+</Description>
+</Item>
+<Item level="5" page="575">
+	<Name>Skeleton Key</Name>
+	<Price>125 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A grinning skull tops the bow of this macabre key. This key can be used in place of thieves’ tools when attempting to Pick a Lock, and it grants a +1 item bonus to the Thievery check. If the &lt;i&gt;skeleton key&lt;/i&gt; becomes broken due to a critical failure on the check, it works as normal thieves’ tools and loses its benefits until repaired.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; You attempt to Pick a Lock but haven’t rolled yet; &lt;b&gt;Effect&lt;/b&gt; The key casts &lt;i&gt;knock&lt;/i&gt; on the lock you’re trying to pick.
+</Description>
+</Item>
+<Item level="11" page="575">
+	<Name>Skeleton Key (Greater)</Name>
+	<Price>1,250 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A grinning skull tops the bow of this macabre key. This key can be used in place of thieves’ tools when attempting to Pick a Lock, and it grants a +1 item bonus to the Thievery check. If the &lt;i&gt;skeleton key&lt;/i&gt; becomes broken due to a critical failure on the check, it works as normal thieves’ tools and loses its benefits until repaired.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; You attempt to Pick a Lock but haven’t rolled yet; &lt;b&gt;Effect&lt;/b&gt; The key casts &lt;i&gt;knock&lt;/i&gt; on the lock you’re trying to pick.
+
+
+The key grants a +2 item bonus, and you can activate the key once per hour.</Description>
+</Item>
+<Item level="5" page="573">
+	<Name>Holy Prayer Beads</Name>
+	<Traits>Divine, Healing, Necromancy, Positive</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This strand of ordinary-looking prayer beads glows with a soft light and becomes warm to the touch the first time you cast a divine spell while holding it. When you do, the prayer beads become attuned to your deity, changing their form and iconography to prominently incorporate your deity’s religious symbol and iconography. The beads don’t transform or function for an evil spellcaster.
+
+ Whenever you cast a divine spell from your own spell slots while holding the prayer beads, you recover 1 Hit Point; this is a positive healing effect. If the spell you cast was a healing spell, you can grant this additional healing to one of the spell’s targets instead of yourself.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; You have a spellcasting class feature with the divine tradition.
+[[]] Holy Prayer BeadsItem 5&lt;b&gt;Source&lt;/b&gt; &lt;i&gt;Core Rulebook pg. 573&lt;/i&gt;
+&lt;b&gt;Level&lt;/b&gt; 5; &lt;b&gt;Price&lt;/b&gt; 160 gp
+</Description>
+</Item>
+<Item level="11" page="573">
+	<Name>Holy Prayer Beads (Greater)</Name>
+	<Price>1,400 gp</Price>
+	<Traits>Divine, Healing, Necromancy, Positive</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This strand of ordinary-looking prayer beads glows with a soft light and becomes warm to the touch the first time you cast a divine spell while holding it. When you do, the prayer beads become attuned to your deity, changing their form and iconography to prominently incorporate your deity’s religious symbol and iconography. The beads don’t transform or function for an evil spellcaster.
+
+ Whenever you cast a divine spell from your own spell slots while holding the prayer beads, you recover 1 Hit Point; this is a positive healing effect. If the spell you cast was a healing spell, you can grant this additional healing to one of the spell’s targets instead of yourself.
+
+&lt;b&gt;Craft Requirements&lt;/b&gt; You have a spellcasting class feature with the divine tradition.
+[[]] Holy Prayer BeadsItem 5&lt;b&gt;Source&lt;/b&gt; &lt;i&gt;Core Rulebook pg. 573&lt;/i&gt;
+&lt;b&gt;Level&lt;/b&gt; 5; &lt;b&gt;Price&lt;/b&gt; 160 gp
+
+
+You recover 1d4 Hit Points instead of 1 Hit Point when casting divine spells from your spell slots. Change the beads’ list of spells to the 4th-level versions of &lt;i&gt;bless&lt;/i&gt;, &lt;i&gt;divine wrath&lt;/i&gt; (matching one component of your deity’s alignment), &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;neutralize poison&lt;/i&gt;, and &lt;i&gt;remove disease&lt;/i&gt;. You can cast each of these once per day.</Description>
+</Item>
+<Item level="6" page="576">
+	<Name>Traveler's Any-Tool</Name>
+	<Price>200 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Before it’s activated, this item appears to be an ash rod capped with steel on either end.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact, envision; &lt;b&gt;Effect&lt;/b&gt; You imagine a specific simple tool, and the any-tool transforms into it. (Usually, you can choose from a tool listed in Chapter 6). This transforms the wooden portion into any haft and the metal caps into spades, hammer heads, or the like, allowing for most basic tools but nothing more complex. You can return the item to its rod form with an Interact action.</Description>
+</Item>
+<Item level="6" page="573">
+	<Name>Horn of Fog</Name>
+	<Price>230 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Conjuration, Magical, Water</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This large ram’s horn perpetually glistens with tiny droplets of water, much like condensation.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You activate the horn by blowing deeply into it, causing it to issue forth a low blast and cast a 2nd-level &lt;i&gt;obscuring mist&lt;/i&gt; spell. You can Dismiss the mist at any time by blowing a second note on the horn using an Interact action.</Description>
+</Item>
+<Item level="6" page="574">
+	<Name>Primeval Mistletoe</Name>
+	<Price>230 gp</Price>
+	<Traits>Primal, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This sprig of berry-festooned holly and mistletoe doesn’t wilt or rot. It can be used as a primal focus, and it also grants the creature holding it a +1 item bonus to Nature checks.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per 10 minutes; &lt;b&gt;Effect&lt;/b&gt; You squeeze juice from one of the berries and smear it onto a non-magical club or staff to cast &lt;i&gt;shillelagh&lt;/i&gt; upon it.
+
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You can twine the sprig around the wrist of one hand and touch a tree to cast &lt;i&gt;tree shape&lt;/i&gt; upon yourself, except instead of a becoming a tree, you become a vine on the touched tree. 
+</Description>
+</Item>
+<Item level="14" page="574">
+	<Name>Primeval Mistletoe (Greater)</Name>
+	<Price>3,900 gp</Price>
+	<Traits>Primal, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This sprig of berry-festooned holly and mistletoe doesn’t wilt or rot. It can be used as a primal focus, and it also grants the creature holding it a +1 item bonus to Nature checks.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per 10 minutes; &lt;b&gt;Effect&lt;/b&gt; You squeeze juice from one of the berries and smear it onto a non-magical club or staff to cast &lt;i&gt;shillelagh&lt;/i&gt; upon it.
+
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You can twine the sprig around the wrist of one hand and touch a tree to cast &lt;i&gt;tree shape&lt;/i&gt; upon yourself, except instead of a becoming a tree, you become a vine on the touched tree. 
+
+
+The sprig grants a +2 bonus and can be activated in one additional way:
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You plant the &lt;i&gt;primeval mistletoe&lt;/i&gt; into an area of natural earth or stone. Once planted, the plant immediately sprouts into an area of holly bushes that don’t impede movement and that pulse with positive energy, replicating the effects of a &lt;i&gt;field of life&lt;/i&gt; spell. This lasts for up to 1 minute, as long as you continue to Sustain the Activation. When this magic ends, the holly bushes revert back into the original &lt;i&gt;primeval mistletoe&lt;/i&gt;. </Description>
+</Item>
+<Item level="6" page="572">
+	<Name>Chime of Opening</Name>
+	<Price>235 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This hollow mithral tube is about a foot long and bears engravings reminiscent of open locks and broken chains. The chime can be activated 10 times before it cracks and becomes useless.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; You aim the chime at a container, door, or lock you want to open and strike the chime. The chime sends out magical vibrations that attempt a Thievery check against the lock’s DC, with a Thievery bonus of +13. This targets only one lock or binding at a time, so you might need to activate the chime multiple times to open a target with several forms of protection.</Description>
+</Item>
+<Item level="7" page="572">
+	<Name>Bottled Air</Name>
+	<Price>320 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Air, Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Appearing to be an ordinary corked glass bottle, this item contains a limitless supply of fresh air. You must uncork the bottle with an Interact action before you can activate it.
+
+
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; You draw a breath of air from the bottle. This allows you to breathe even in an airless or toxic environment. Air doesn’t escape the mouth of the bottle, so leaving the open bottle in an airless environment doesn’t change the environment.</Description>
+</Item>
+<Item level="7" page="573">
+	<Name>Decanter of Endless Water</Name>
+	<Price>320 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Conjuration, Magical, Water</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This item looks like an ordinary glass flask full of water. The stopper can’t be removed unless you speak one of the item’s three command words, each of which causes water to pour forth in a different way. Pulling the stopper straight out creates fresh water, and rotating it as you pull creates salt water. Any effect of the decanter lasts until the decanter is plugged (with its own stopper, a finger, or the like).
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; Speaking “stream,” you cause water to pour out at a rate of 1 gallon per round.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; Speaking “fountain,” you cause water to pour out in a 5-foot-long stream at a rate of 5 gallons per round.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; Speaking “geyser,” you cause a powerful deluge of water to erupt at a rate of 15 gallons per round. You can direct the stream at a creature, subjecting it to the effects of &lt;i&gt;hydraulic push&lt;/i&gt; (spell attack roll +15). You can repeat this once per round as long as the geyser continues, spending an Interact action to direct the geyser each time.</Description>
+</Item>
+<Item level="8" page="575">
+	<Name>Rod of Wonder</Name>
+	<Price>465 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Chaotic, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This peculiar rod is strange and unpredictable. Each time it is activated, it produces one of a variety of effects at random.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; Choose a creature within 60 feet and roll d% on the table below to determine the rod’s effect. If an entry lists only a spell name, the rod casts that spell at its lowest level. You make any decisions for a spell cast by the rod unless otherwise indicated, except that it must target the creature you chose, or the creature you chose must be the center of the spell’s area, if it has an area but no targets. If the spell’s range is less than 60 feet, increase the range to 60 feet.
+
+ Any spell DC required is DC 27, and any spell attack roll required is +17. If the rod casts a spell on you, you don’t get a saving throw or other defense against it.
+
+ Once activated, the rod can’t be activated again for 1d4 hours.</Description>
+</Item>
+<Item level="9" page="574">
+	<Name>Immovable Rod</Name>
+	<Price>600 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flat iron bar is almost completely nondescript, except for one small button appearing on its surface.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; You push the button to anchor the rod in place. It doesn’t move, defying gravity if need be. If the button is pushed again, the rod deactivates, ending the anchoring magic. While anchored, the rod can be moved only if 8,000 pounds of pressure are applied to it or if a creature uses Athletics to Force Open the rod with a DC of 40 (though most intelligent creatures can just push the button to release the rod).</Description>
+</Item>
+<Item level="9" page="576">
+	<Name>Triton's Conch</Name>
+	<Price>640 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>If you put this large opalescent conch shell to your ear, you can hear the sound of the roaring sea crashing against the shore.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact (auditory); &lt;b&gt;Effect&lt;/b&gt;  You can raise the conch to your lips and blow into it, letting out a long, rumbling note. For the next minute, you and all allies who were within 30 feet of you when you activated the conch gain a +2 item bonus to Athletics checks to Swim and can breathe under water.</Description>
+</Item>
+<Item level="9" page="573">
+	<Name>Horn of Blasting</Name>
+	<Price>700 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Evocation, Sonic</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;horn of blasting&lt;/i&gt; is a bright brass trumpet. It can be played as an instrument, granting a +2 item bonus to your Performance check.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per round; &lt;b&gt;Effect&lt;/b&gt; When you activate the horn by blowing into it with destructive intent, you create a blast note targeting one creature or object within 30 feet. The blast deals 3d6 sonic damage. (DC 28 basic Fortitude save).
+
+
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You can blow even louder to create an intense blast wave in a 30-foot cone that deals 8d6 sonic damage. Each creature attempts a DC 28 Fortitude save with the following effects. 
+
+&lt;b&gt;Critical Success&lt;/b&gt; The creature takes no damage.
+&lt;b&gt;Success&lt;/b&gt; The creature takes half damage.
+&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and is deafened for 2d6 rounds.</Description>
+</Item>
+<Item level="12" page="574">
+	<Name>Marvelous Medicines</Name>
+	<Price>1,800 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This set of healer’s tools contains a seemingly endless supply of bandages, herbs, and healing items of impeccable quality, granting you a +2 item bonus to Medicine checks.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Treat Poison or 8 hours (Treat Disease); &lt;b&gt;Effect&lt;/b&gt; You can activate the tools when you use them to Treat Poison in order to produce the effects of &lt;i&gt;neutralize poison&lt;/i&gt;, or when you Treat Disease in order to produce the effects of &lt;i&gt;remove disease&lt;/i&gt;. Once these medicines have been used to treat a patient’s poison or disease, they can’t be used again to treat the same affliction for that patient. 
+</Description>
+</Item>
+<Item level="18" page="574">
+	<Name>Marvelous Medicines (Greater)</Name>
+	<Price>19,000 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This set of healer’s tools contains a seemingly endless supply of bandages, herbs, and healing items of impeccable quality, granting you a +2 item bonus to Medicine checks.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Treat Poison or 8 hours (Treat Disease); &lt;b&gt;Effect&lt;/b&gt; You can activate the tools when you use them to Treat Poison in order to produce the effects of &lt;i&gt;neutralize poison&lt;/i&gt;, or when you Treat Disease in order to produce the effects of &lt;i&gt;remove disease&lt;/i&gt;. Once these medicines have been used to treat a patient’s poison or disease, they can’t be used again to treat the same affliction for that patient. 
+
+
+The tools grant a +3 item bonus, and the spells are heightened to 6th level.</Description>
+</Item>
+<Item level="12" page="572">
+	<Name>Broom of Flying</Name>
+	<Price>1,900 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This broom has a tenuous connection to gravity, and it tends to drift even while stowed. You can ride on the broom using one hand to guide it, and the broom can carry up to one passenger in addition to you. The broom moves at a fly Speed of 20 feet. The broom can carry only so much, taking a –10-foot penalty to its Speed if laden with more than 20 Bulk, and crashing to the ground if it carries more than 30 Bulk.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Command, Interact; &lt;b&gt;Effect&lt;/b&gt; You name a destination on the same plane, and the broom speeds toward it at a fly Speed of 40 feet. You must either clutch the broom with two hands in order to ride it, or you need to release the broom to send it off with no rider. If you don’t have a good idea of the location, layout, and general direction of the destination, or if your named destination is on another plane, the broom wanders aimlessly, circling back to its starting location after 30 minutes.
+
+If the broom carries a rider, this activation lasts until 4 hours pass (typically 16 miles of travel), the broom reaches its destination, or you Dismiss the activation. If the broom doesn’t have a rider, the activation lasts until the broom reaches its destination. When the activation ends, the broom floats to the ground and can’t be activated again for 1 hour.</Description>
+</Item>
+<Item level="14" page="572">
+	<Name>Crystal Ball (Clear Quartz)</Name>
+	<Price>3,800 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Divination, Magical, Scrying</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This polished crystal sphere enhances scrying magic. Any visual information received through a spell with the scrying trait that was cast by the &lt;i&gt;crystal ball&lt;/i&gt; appears within the sphere, and any auditory information sounds out from the surface of the sphere. When you cast a &lt;i&gt;scrying&lt;/i&gt; spell by any other means while holding the sphere, you can relay any information you receive in the same way, allowing others to see or hear the target.
+
+ The base version of a &lt;i&gt;crystal ball&lt;/i&gt; is a sphere of clear quartz, but other versions are made of different stones.
+
+&lt;b&gt;Activate&lt;/b&gt;  1 minute (command, envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;crystal ball&lt;/i&gt; casts &lt;i&gt;clairvoyance&lt;/i&gt; to your specifications.
+
+
+&lt;b&gt;Activate&lt;/b&gt;  10 minutes (command, envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; twice per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;crystal ball&lt;/i&gt; casts a DC 33 &lt;i&gt;scrying&lt;/i&gt; spell to your specifications.
+</Description>
+</Item>
+<Item level="15" page="572">
+	<Name>Crystal Ball (Selenite)</Name>
+	<Price>7,000 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Divination, Magical, Scrying</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This polished crystal sphere enhances scrying magic. Any visual information received through a spell with the scrying trait that was cast by the &lt;i&gt;crystal ball&lt;/i&gt; appears within the sphere, and any auditory information sounds out from the surface of the sphere. When you cast a &lt;i&gt;scrying&lt;/i&gt; spell by any other means while holding the sphere, you can relay any information you receive in the same way, allowing others to see or hear the target.
+
+ The base version of a &lt;i&gt;crystal ball&lt;/i&gt; is a sphere of clear quartz, but other versions are made of different stones.
+
+&lt;b&gt;Activate&lt;/b&gt;  1 minute (command, envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;crystal ball&lt;/i&gt; casts &lt;i&gt;clairvoyance&lt;/i&gt; to your specifications.
+
+
+&lt;b&gt;Activate&lt;/b&gt;  10 minutes (command, envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; twice per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;crystal ball&lt;/i&gt; casts a DC 33 &lt;i&gt;scrying&lt;/i&gt; spell to your specifications.
+
+
+ is DC 36 and gives you the benefits of &lt;i&gt;see invisibility&lt;/i&gt; on the target.
+</Description>
+</Item>
+<Item level="16" page="572">
+	<Name>Crystal Ball (Moonstone)</Name>
+	<Price>7,500 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Divination, Magical, Scrying</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This polished crystal sphere enhances scrying magic. Any visual information received through a spell with the scrying trait that was cast by the &lt;i&gt;crystal ball&lt;/i&gt; appears within the sphere, and any auditory information sounds out from the surface of the sphere. When you cast a &lt;i&gt;scrying&lt;/i&gt; spell by any other means while holding the sphere, you can relay any information you receive in the same way, allowing others to see or hear the target.
+
+ The base version of a &lt;i&gt;crystal ball&lt;/i&gt; is a sphere of clear quartz, but other versions are made of different stones.
+
+&lt;b&gt;Activate&lt;/b&gt;  1 minute (command, envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;crystal ball&lt;/i&gt; casts &lt;i&gt;clairvoyance&lt;/i&gt; to your specifications.
+
+
+&lt;b&gt;Activate&lt;/b&gt;  10 minutes (command, envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; twice per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;crystal ball&lt;/i&gt; casts a DC 33 &lt;i&gt;scrying&lt;/i&gt; spell to your specifications.
+
+
+ is DC 37 and gives you the benefits of &lt;i&gt;mind reading&lt;/i&gt; on the target, using the same save DC.
+</Description>
+</Item>
+<Item level="17" page="572">
+	<Name>Crystal Ball (Peridot)</Name>
+	<Price>12,500 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Divination, Magical, Scrying</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This polished crystal sphere enhances scrying magic. Any visual information received through a spell with the scrying trait that was cast by the &lt;i&gt;crystal ball&lt;/i&gt; appears within the sphere, and any auditory information sounds out from the surface of the sphere. When you cast a &lt;i&gt;scrying&lt;/i&gt; spell by any other means while holding the sphere, you can relay any information you receive in the same way, allowing others to see or hear the target.
+
+ The base version of a &lt;i&gt;crystal ball&lt;/i&gt; is a sphere of clear quartz, but other versions are made of different stones.
+
+&lt;b&gt;Activate&lt;/b&gt;  1 minute (command, envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;crystal ball&lt;/i&gt; casts &lt;i&gt;clairvoyance&lt;/i&gt; to your specifications.
+
+
+&lt;b&gt;Activate&lt;/b&gt;  10 minutes (command, envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; twice per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;crystal ball&lt;/i&gt; casts a DC 33 &lt;i&gt;scrying&lt;/i&gt; spell to your specifications.
+
+
+ is DC 39 and gives you the benefits of &lt;i&gt;telepathy&lt;/i&gt; for communicating with the target.
+</Description>
+</Item>
+<Item level="19" page="572">
+	<Name>Crystal Ball (Obsidian)</Name>
+	<Price>32,000 gp</Price>
+	<Hands>L</Hands>
+	<Traits>Divination, Magical, Scrying</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This polished crystal sphere enhances scrying magic. Any visual information received through a spell with the scrying trait that was cast by the &lt;i&gt;crystal ball&lt;/i&gt; appears within the sphere, and any auditory information sounds out from the surface of the sphere. When you cast a &lt;i&gt;scrying&lt;/i&gt; spell by any other means while holding the sphere, you can relay any information you receive in the same way, allowing others to see or hear the target.
+
+ The base version of a &lt;i&gt;crystal ball&lt;/i&gt; is a sphere of clear quartz, but other versions are made of different stones.
+
+&lt;b&gt;Activate&lt;/b&gt;  1 minute (command, envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;crystal ball&lt;/i&gt; casts &lt;i&gt;clairvoyance&lt;/i&gt; to your specifications.
+
+
+&lt;b&gt;Activate&lt;/b&gt;  10 minutes (command, envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; twice per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;crystal ball&lt;/i&gt; casts a DC 33 &lt;i&gt;scrying&lt;/i&gt; spell to your specifications.
+
+
+ is DC 41 and gives you the benefits of &lt;i&gt;true seeing&lt;/i&gt; for anything you watch through it.</Description>
+</Item>
+<Item level="14" page="574">
+	<Name>Rod of Negation</Name>
+	<Price>4,300 gp</Price>
+	<Hands>1</Hands>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This long, plain, leaden rod can disrupt magic.
+
+&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; This rod emits a thin, gray beam that negates a spell or magic item, casting a 6th-level &lt;i&gt;dispel magic&lt;/i&gt; spell with a counteract modifier of +23. Once activated, the rod can’t be activated again for 2d6 hours.</Description>
+</Item>
+<Item level="18" page="574">
+	<Name>Possibility Tome</Name>
+	<Price>22,000 gp</Price>
+	<Hands>2</Hands>
+	<Traits>Divination, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>An array of semiprecious stones is set into the ornate silver and beaten copper cover of this thick and weighty tome. If you open the book before it’s been activated, its vellum pages are blank and pristine, but once activated, words dance and swim onto the pages before your eyes.
+
+&lt;b&gt;Activate&lt;/b&gt;  10 minutes (envision, Interact); &lt;b&gt;Effect&lt;/b&gt; As you flip through the book, you think about a broad topic you want to know more about. Choose one skill: Arcana, Crafting, Medicine, Nature, Occultism, Religion, Society, or a single subcategory of Lore. The book’s pages fill with information about that skill, though only you can see the information. While the pages are full, you can spend an Interact action perusing the book just before attempting a check to Recall Knowledge with the chosen skill. This grants you a +3 item bonus to the check, and if you roll a critical failure, you get a failure instead. The information within the book disappears after 24 hours or when the tome is activated again.</Description>
+</Item>
+</pf2:Items>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:pf2="https://dylbrown.github.io"
+           targetNamespace="https://dylbrown.github.io">
+    <xs:include schemaLocation="ability.xsd"/>
+    <xs:complexType name="Item">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Price" type="xs:string" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="[\d.]+ [sgpc]p"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Bulk" type="xs:string" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="(L|\d+)"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Hands" type="xs:string" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="[012]"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Traits" type="xs:string" minOccurs="0"/>
+            <xs:element name="Usage" type="xs:string" minOccurs="0"/>
+            <xs:element name="Description" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="level" type="pf2:level">
+            <xs:annotation>
+                <xs:documentation>
+                    Level associated with this list
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="page" type="xs:nonNegativeInteger">
+            <xs:annotation>
+                <xs:documentation>
+                    Page number of this item in its book.
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+    <xs:element name="Items">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice>
+                    <xs:element name="SubCategory" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="Item" type="Item" maxOccurs="unbounded"/>
+                            </xs:sequence>
+                            <xs:attribute name="name" type="xs:string">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Name of the subcategory this represents.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:attribute>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Item" type="Item" maxOccurs="unbounded"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="category" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>
+                        Category of all items in this file.
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
