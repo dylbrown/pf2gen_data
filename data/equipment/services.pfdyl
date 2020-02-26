@@ -4,13 +4,15 @@
 <Item level="0" page="294">
 	<Name>Beverages (Mug of Ale)</Name>
 	<Price>1 cp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
 	<Description>
 </Description>
 </Item>
 <Item level="0" page="294">
 	<Name>Beverages (Keg of Ale)</Name>
 	<Price>2 sp</Price>
+	<Bulk>2</Bulk>
 	<Hands>2</Hands>
 	<Description>
 </Description>
@@ -18,42 +20,48 @@
 <Item level="0" page="294">
 	<Name>Beverages (Pot of Coffee or Tea)</Name>
 	<Price>2 cp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
 	<Description>
 </Description>
 </Item>
 <Item level="0" page="294">
 	<Name>Beverages (Bottle of Wine)</Name>
 	<Price>1 sp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
 	<Description>
 </Description>
 </Item>
 <Item level="0" page="294">
 	<Name>Beverages (Bottle of Fine Wine)</Name>
 	<Price>1 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
 	<Description>
 </Description>
 </Item>
 <Item level="0" page="294">
 	<Name>Meal (Poor)</Name>
 	<Price>1 cp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
 	<Description>
 </Description>
 </Item>
 <Item level="0" page="294">
 	<Name>Meal (Square)</Name>
 	<Price>3 cp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
 	<Description>
 </Description>
 </Item>
 <Item level="0" page="294">
 	<Name>Meal (Fine Dining)</Name>
 	<Price>1 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
 	<Description>
 </Description>
 </Item>

@@ -1187,7 +1187,7 @@ This feather transforms into a &lt;i&gt;+1 striking dancing whip&lt;/i&gt; when 
 <Item level="1" page="571">
 	<Name>Holy Water</Name>
 	<Price>3 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Consumable, Divine, Good, Splash</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This vial contains water blessed by a good deity. You activate a vial of &lt;i&gt;holy water&lt;/i&gt; by throwing it as a Strike. It’s a simple thrown weapon with a range increment of 20 feet. Unlike an alchemical bomb, it doesn’t add the manipulate trait to the attack made with it.
@@ -1199,7 +1199,7 @@ This feather transforms into a &lt;i&gt;+1 striking dancing whip&lt;/i&gt; when 
 <Item level="1" page="571">
 	<Name>Runestone</Name>
 	<Price>3 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Consumable, Magical</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This flat piece of hard stone is specially prepared for etching a magical fundamental rune or property rune. You can etch only one rune upon a stone. Once the stone is etched, it gains the magic school trait of the rune etched upon it. When a rune is transferred from the &lt;i&gt;runestone&lt;/i&gt; to another object, the &lt;i&gt;runestone&lt;/i&gt; cracks and is destroyed. The Price listed is for an empty stone; a stone holding a rune adds the Price of the rune.</Description>
@@ -1207,7 +1207,7 @@ This feather transforms into a &lt;i&gt;+1 striking dancing whip&lt;/i&gt; when 
 <Item level="1" page="571">
 	<Name>Unholy Water</Name>
 	<Price>3 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Consumable, Divine, Evil, Splash</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>An evil deity’s malice lies within this vial of water. You activate a vial of &lt;i&gt;unholy water&lt;/i&gt; by throwing it as a Strike. It’s a simple thrown weapon with a range increment of 20 feet. Unlike an alchemical bomb, it doesn’t add the manipulate trait to the attack made with it.
@@ -1237,7 +1237,7 @@ This feather transforms into a &lt;i&gt;+1 striking dancing whip&lt;/i&gt; when 
 <Item level="9" page="571">
 	<Name>Javelin of Lightning</Name>
 	<Price>110 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Consumable, Electricity, Evocation, Magical</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This item looks like a normal javelin carved with lightning-bolt motifs. If thrown without being activated, it wobbles in the air and fails to strike true. When you Activate the javelin, your command makes the carvings crackle with electricity. You then hurl the javelin. It shatters immediately after leaving your hand and unleashes its magic as a 4th-level &lt;i&gt;lightning bolt&lt;/i&gt; originating from your space. The bolt deals 5d12 electricity damage and has a Reflex save DC of 25.
@@ -1778,7 +1778,7 @@ This feather transforms into a &lt;i&gt;+1 striking dancing whip&lt;/i&gt; when 
 <Item level="1" page="571">
 	<Name>Holy Water</Name>
 	<Price>3 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Consumable, Divine, Good, Splash</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This vial contains water blessed by a good deity. You activate a vial of &lt;i&gt;holy water&lt;/i&gt; by throwing it as a Strike. It’s a simple thrown weapon with a range increment of 20 feet. Unlike an alchemical bomb, it doesn’t add the manipulate trait to the attack made with it.
@@ -1790,7 +1790,7 @@ This feather transforms into a &lt;i&gt;+1 striking dancing whip&lt;/i&gt; when 
 <Item level="1" page="571">
 	<Name>Runestone</Name>
 	<Price>3 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Consumable, Magical</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This flat piece of hard stone is specially prepared for etching a magical fundamental rune or property rune. You can etch only one rune upon a stone. Once the stone is etched, it gains the magic school trait of the rune etched upon it. When a rune is transferred from the &lt;i&gt;runestone&lt;/i&gt; to another object, the &lt;i&gt;runestone&lt;/i&gt; cracks and is destroyed. The Price listed is for an empty stone; a stone holding a rune adds the Price of the rune.</Description>
@@ -1798,7 +1798,7 @@ This feather transforms into a &lt;i&gt;+1 striking dancing whip&lt;/i&gt; when 
 <Item level="1" page="571">
 	<Name>Unholy Water</Name>
 	<Price>3 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Consumable, Divine, Evil, Splash</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>An evil deity’s malice lies within this vial of water. You activate a vial of &lt;i&gt;unholy water&lt;/i&gt; by throwing it as a Strike. It’s a simple thrown weapon with a range increment of 20 feet. Unlike an alchemical bomb, it doesn’t add the manipulate trait to the attack made with it.
@@ -1828,7 +1828,7 @@ This feather transforms into a &lt;i&gt;+1 striking dancing whip&lt;/i&gt; when 
 <Item level="9" page="571">
 	<Name>Javelin of Lightning</Name>
 	<Price>110 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Consumable, Electricity, Evocation, Magical</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This item looks like a normal javelin carved with lightning-bolt motifs. If thrown without being activated, it wobbles in the air and fails to strike true. When you Activate the javelin, your command makes the carvings crackle with electricity. You then hurl the javelin. It shatters immediately after leaving your hand and unleashes its magic as a 4th-level &lt;i&gt;lightning bolt&lt;/i&gt; originating from your space. The bolt deals 5d12 electricity damage and has a Reflex save DC of 25.
@@ -2705,7 +2705,7 @@ This feather transforms into a &lt;i&gt;+1 striking dancing whip&lt;/i&gt; when 
 <Item level="1" page="571">
 	<Name>Holy Water</Name>
 	<Price>3 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Consumable, Divine, Good, Splash</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This vial contains water blessed by a good deity. You activate a vial of &lt;i&gt;holy water&lt;/i&gt; by throwing it as a Strike. It’s a simple thrown weapon with a range increment of 20 feet. Unlike an alchemical bomb, it doesn’t add the manipulate trait to the attack made with it.
@@ -2717,7 +2717,7 @@ This feather transforms into a &lt;i&gt;+1 striking dancing whip&lt;/i&gt; when 
 <Item level="1" page="571">
 	<Name>Runestone</Name>
 	<Price>3 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Consumable, Magical</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This flat piece of hard stone is specially prepared for etching a magical fundamental rune or property rune. You can etch only one rune upon a stone. Once the stone is etched, it gains the magic school trait of the rune etched upon it. When a rune is transferred from the &lt;i&gt;runestone&lt;/i&gt; to another object, the &lt;i&gt;runestone&lt;/i&gt; cracks and is destroyed. The Price listed is for an empty stone; a stone holding a rune adds the Price of the rune.</Description>
@@ -2725,7 +2725,7 @@ This feather transforms into a &lt;i&gt;+1 striking dancing whip&lt;/i&gt; when 
 <Item level="1" page="571">
 	<Name>Unholy Water</Name>
 	<Price>3 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Consumable, Divine, Evil, Splash</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>An evil deity’s malice lies within this vial of water. You activate a vial of &lt;i&gt;unholy water&lt;/i&gt; by throwing it as a Strike. It’s a simple thrown weapon with a range increment of 20 feet. Unlike an alchemical bomb, it doesn’t add the manipulate trait to the attack made with it.
@@ -2755,7 +2755,7 @@ This feather transforms into a &lt;i&gt;+1 striking dancing whip&lt;/i&gt; when 
 <Item level="9" page="571">
 	<Name>Javelin of Lightning</Name>
 	<Price>110 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Consumable, Electricity, Evocation, Magical</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This item looks like a normal javelin carved with lightning-bolt motifs. If thrown without being activated, it wobbles in the air and fails to strike true. When you Activate the javelin, your command makes the carvings crackle with electricity. You then hurl the javelin. It shatters immediately after leaving your hand and unleashes its magic as a 4th-level &lt;i&gt;lightning bolt&lt;/i&gt; originating from your space. The bolt deals 5d12 electricity damage and has a Reflex save DC of 25.

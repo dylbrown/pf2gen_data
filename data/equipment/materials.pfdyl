@@ -4,14 +4,14 @@
 <Item level="0" page="578">
 	<Name>Cold Iron Chunk</Name>
 	<Price>10 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Precious</Traits>
 	<Description>Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items.</Description>
 </Item>
 <Item level="0" page="578">
 	<Name>Cold Iron Ingot</Name>
 	<Price>100 gp</Price>
-	<Hands>1</Hands>
+	<Bulk>1</Bulk>
 	<Traits>Precious</Traits>
 	<Description>Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items.</Description>
 </Item>
@@ -36,14 +36,14 @@
 <Item level="0" page="579">
 	<Name>Silver Chunk</Name>
 	<Price>10 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Precious</Traits>
 	<Description>Silver weapons are a bane to creatures ranging from devils to werewolves. Silver items are less durable than steel items, and low-grade silver items are usually merely silver-plated. </Description>
 </Item>
 <Item level="0" page="579">
 	<Name>Silver Ingot</Name>
 	<Price>100 gp</Price>
-	<Hands>1</Hands>
+	<Bulk>1</Bulk>
 	<Traits>Precious</Traits>
 	<Description>Silver weapons are a bane to creatures ranging from devils to werewolves. Silver items are less durable than steel items, and low-grade silver items are usually merely silver-plated. </Description>
 </Item>
@@ -68,14 +68,14 @@
 <Item level="0" page="579">
 	<Name>Mithral Chunk</Name>
 	<Price>50 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Precious</Traits>
 	<Description>Mithral is renowned for its lightness, durability, and effectiveness against a range of creatures including devils and lycanthropes. It has the same sheen as silver but a slightly lighter hue. Mithral weapons and armor are treated as if they were silver for the purpose of damaging creatures with weakness to silver. A metal item made of mithral is lighter than one made of iron or steel: the item’s Bulk is reduced by 1 (reduced to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of this material is based on the item’s normal Bulk, not its reduced Bulk for being made of mithral, but reduce the Bulk before making any further Bulk adjustments for the size of the item.</Description>
 </Item>
 <Item level="0" page="579">
 	<Name>Mithral Ingot</Name>
 	<Price>500 gp</Price>
-	<Hands>1</Hands>
+	<Bulk>1</Bulk>
 	<Traits>Precious</Traits>
 	<Description>Mithral is renowned for its lightness, durability, and effectiveness against a range of creatures including devils and lycanthropes. It has the same sheen as silver but a slightly lighter hue. Mithral weapons and armor are treated as if they were silver for the purpose of damaging creatures with weakness to silver. A metal item made of mithral is lighter than one made of iron or steel: the item’s Bulk is reduced by 1 (reduced to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of this material is based on the item’s normal Bulk, not its reduced Bulk for being made of mithral, but reduce the Bulk before making any further Bulk adjustments for the size of the item.</Description>
 </Item>
@@ -94,14 +94,14 @@
 <Item level="0" page="578">
 	<Name>Adamantine Chunk</Name>
 	<Price>500 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Precious</Traits>
 	<Description>Mined from rocks that fell from the heavens, adamantine is one of the hardest metals known. It has a shiny, black appearance, and it is prized for its amazing resiliency and ability to hold an incredibly sharp edge.</Description>
 </Item>
 <Item level="0" page="578">
 	<Name>Adamantine Ingot</Name>
 	<Price>5,000 gp</Price>
-	<Hands>1</Hands>
+	<Bulk>1</Bulk>
 	<Traits>Precious</Traits>
 	<Description>Mined from rocks that fell from the heavens, adamantine is one of the hardest metals known. It has a shiny, black appearance, and it is prized for its amazing resiliency and ability to hold an incredibly sharp edge.</Description>
 </Item>
@@ -120,14 +120,14 @@
 <Item level="0" page="578">
 	<Name>Darkwood Branch</Name>
 	<Price>500 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Precious</Traits>
 	<Description>Darkwood is a very lightweight wood found primarily in old-growth forests in south-central Avistan; it is dark as ebony but has a slight purple tint. A darkwood item’s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of darkwood is based on the item’s normal Bulk, not its reduced Bulk for being made of darkwood, but reduce the Bulk before making any further Bulk adjustments for the size of the item.</Description>
 </Item>
 <Item level="0" page="578">
 	<Name>Darkwood Lumber</Name>
 	<Price>5,000 gp</Price>
-	<Hands>1</Hands>
+	<Bulk>1</Bulk>
 	<Traits>Precious</Traits>
 	<Description>Darkwood is a very lightweight wood found primarily in old-growth forests in south-central Avistan; it is dark as ebony but has a slight purple tint. A darkwood item’s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of darkwood is based on the item’s normal Bulk, not its reduced Bulk for being made of darkwood, but reduce the Bulk before making any further Bulk adjustments for the size of the item.</Description>
 </Item>
@@ -146,14 +146,14 @@
 <Item level="0" page="579">
 	<Name>Orichalcum Chunk</Name>
 	<Price>1,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Precious</Traits>
 	<Description>The most rare and valuable skymetal, orichalcum is coveted for its incredible time-related magical properties. This dull, coppery metal isn’t as physically sturdy as adamantine, but orichalcum’s time-bending properties protect it, granting it greater Hardness and Hit Points. If an orichalcum item takes damage but isn’t destroyed, it repairs itself completely 24 hours later.</Description>
 </Item>
 <Item level="0" page="579">
 	<Name>Orichalcum Ingot</Name>
 	<Price>10,000 gp</Price>
-	<Hands>1</Hands>
+	<Bulk>1</Bulk>
 	<Traits>Precious</Traits>
 	<Description>The most rare and valuable skymetal, orichalcum is coveted for its incredible time-related magical properties. This dull, coppery metal isn’t as physically sturdy as adamantine, but orichalcum’s time-bending properties protect it, granting it greater Hardness and Hit Points. If an orichalcum item takes damage but isn’t destroyed, it repairs itself completely 24 hours later.</Description>
 </Item>

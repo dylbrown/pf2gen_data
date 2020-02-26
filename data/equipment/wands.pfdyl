@@ -4,7 +4,7 @@
 <SubCategory name="Magic Wands"><Item level="3" page="597">
 	<Name>Magic Wand (1st-Level Spell)</Name>
 	<Price>60 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -17,7 +17,7 @@
 <Item level="5" page="597">
 	<Name>Magic Wand (2nd-Level Spell)</Name>
 	<Price>160 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -30,7 +30,7 @@
 <Item level="7" page="597">
 	<Name>Magic Wand (3rd-Level Spell)</Name>
 	<Price>360 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -43,7 +43,7 @@
 <Item level="9" page="597">
 	<Name>Magic Wand (4th-Level Spell)</Name>
 	<Price>700 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -56,7 +56,7 @@
 <Item level="11" page="597">
 	<Name>Magic Wand (5th-Level Spell)</Name>
 	<Price>1,500 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -69,7 +69,7 @@
 <Item level="13" page="597">
 	<Name>Magic Wand (6th-Level Spell)</Name>
 	<Price>3,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -82,7 +82,7 @@
 <Item level="15" page="597">
 	<Name>Magic Wand (7th-Level Spell)</Name>
 	<Price>6,500 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -95,7 +95,7 @@
 <Item level="17" page="597">
 	<Name>Magic Wand (8th-Level Spell)</Name>
 	<Price>15,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -108,7 +108,7 @@
 <Item level="19" page="597">
 	<Name>Magic Wand (9th-Level Spell)</Name>
 	<Price>40,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -121,7 +121,7 @@
 </SubCategory><SubCategory name="Specialty Wands"><Item level="3" page="597">
 	<Name>Magic Wand (1st-Level Spell)</Name>
 	<Price>60 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -134,7 +134,7 @@
 <Item level="5" page="597">
 	<Name>Magic Wand (2nd-Level Spell)</Name>
 	<Price>160 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -147,7 +147,7 @@
 <Item level="7" page="597">
 	<Name>Magic Wand (3rd-Level Spell)</Name>
 	<Price>360 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -160,7 +160,7 @@
 <Item level="9" page="597">
 	<Name>Magic Wand (4th-Level Spell)</Name>
 	<Price>700 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -173,7 +173,7 @@
 <Item level="11" page="597">
 	<Name>Magic Wand (5th-Level Spell)</Name>
 	<Price>1,500 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -186,7 +186,7 @@
 <Item level="13" page="597">
 	<Name>Magic Wand (6th-Level Spell)</Name>
 	<Price>3,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -199,7 +199,7 @@
 <Item level="15" page="597">
 	<Name>Magic Wand (7th-Level Spell)</Name>
 	<Price>6,500 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -212,7 +212,7 @@
 <Item level="17" page="597">
 	<Name>Magic Wand (8th-Level Spell)</Name>
 	<Price>15,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -225,7 +225,7 @@
 <Item level="19" page="597">
 	<Name>Magic Wand (9th-Level Spell)</Name>
 	<Price>40,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.
@@ -238,7 +238,7 @@
 <Item level="4" page="598">
 	<Name>Wand of Widening (1st-Level Spell)</Name>
 	<Price>100 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>The end of this wand is forked instead of tapered.
@@ -251,7 +251,7 @@
 <Item level="6" page="598">
 	<Name>Wand of Widening (2nd-Level Spell)</Name>
 	<Price>250 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>The end of this wand is forked instead of tapered.
@@ -264,7 +264,7 @@
 <Item level="8" page="598">
 	<Name>Wand of Widening (3rd-Level Spell)</Name>
 	<Price>500 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>The end of this wand is forked instead of tapered.
@@ -277,7 +277,7 @@
 <Item level="10" page="598">
 	<Name>Wand of Widening (4th-Level Spell)</Name>
 	<Price>1,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>The end of this wand is forked instead of tapered.
@@ -290,7 +290,7 @@
 <Item level="12" page="598">
 	<Name>Wand of Widening (5th-Level Spell)</Name>
 	<Price>2,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>The end of this wand is forked instead of tapered.
@@ -303,7 +303,7 @@
 <Item level="14" page="598">
 	<Name>Wand of Widening (6th-Level Spell)</Name>
 	<Price>4,500 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>The end of this wand is forked instead of tapered.
@@ -316,7 +316,7 @@
 <Item level="16" page="598">
 	<Name>Wand of Widening (7th-Level Spell)</Name>
 	<Price>10,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>The end of this wand is forked instead of tapered.
@@ -329,7 +329,7 @@
 <Item level="18" page="598">
 	<Name>Wand of Widening (8th-Level Spell)</Name>
 	<Price>24,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>The end of this wand is forked instead of tapered.
@@ -342,7 +342,7 @@
 <Item level="20" page="598">
 	<Name>Wand of Widening (9th-Level Spell)</Name>
 	<Price>70,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>The end of this wand is forked instead of tapered.
@@ -355,7 +355,7 @@
 <Item level="5" page="598">
 	<Name>Wand of Continuation (1st-Level Spell)</Name>
 	<Price>160 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This wand increases a spell’s duration. Yellow embers spiral over its surface until the spell ends.
@@ -368,7 +368,7 @@
 <Item level="7" page="598">
 	<Name>Wand of Continuation (2nd-Level Spell)</Name>
 	<Price>360 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This wand increases a spell’s duration. Yellow embers spiral over its surface until the spell ends.
@@ -381,7 +381,7 @@
 <Item level="9" page="598">
 	<Name>Wand of Continuation (3rd-Level Spell)</Name>
 	<Price>700 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This wand increases a spell’s duration. Yellow embers spiral over its surface until the spell ends.
@@ -394,7 +394,7 @@
 <Item level="11" page="598">
 	<Name>Wand of Continuation (4th-Level Spell)</Name>
 	<Price>1,500 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This wand increases a spell’s duration. Yellow embers spiral over its surface until the spell ends.
@@ -407,7 +407,7 @@
 <Item level="13" page="598">
 	<Name>Wand of Continuation (5th-Level Spell)</Name>
 	<Price>3,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This wand increases a spell’s duration. Yellow embers spiral over its surface until the spell ends.
@@ -420,7 +420,7 @@
 <Item level="15" page="598">
 	<Name>Wand of Continuation (6th-Level Spell)</Name>
 	<Price>6,500 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This wand increases a spell’s duration. Yellow embers spiral over its surface until the spell ends.
@@ -433,7 +433,7 @@
 <Item level="17" page="598">
 	<Name>Wand of Continuation (7th-Level Spell)</Name>
 	<Price>15,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This wand increases a spell’s duration. Yellow embers spiral over its surface until the spell ends.
@@ -446,7 +446,7 @@
 <Item level="19" page="598">
 	<Name>Wand of Continuation (8th-Level Spell)</Name>
 	<Price>40,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This wand increases a spell’s duration. Yellow embers spiral over its surface until the spell ends.
@@ -459,7 +459,7 @@
 <Item level="5" page="598">
 	<Name>Wand of Manifold Missiles (1st-Level Spell)</Name>
 	<Price>160 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Evocation, Force, Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This wand features a carved dragon’s head at its top and a polished metal sphere set in its midsection.
@@ -472,7 +472,7 @@
 <Item level="9" page="598">
 	<Name>Wand of Manifold Missiles (3rd-Level Spell)</Name>
 	<Price>700 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Evocation, Force, Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This wand features a carved dragon’s head at its top and a polished metal sphere set in its midsection.
@@ -485,7 +485,7 @@
 <Item level="13" page="598">
 	<Name>Wand of Manifold Missiles (5th-Level Spell)</Name>
 	<Price>3,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Evocation, Force, Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This wand features a carved dragon’s head at its top and a polished metal sphere set in its midsection.
@@ -498,7 +498,7 @@
 <Item level="17" page="598">
 	<Name>Wand of Manifold Missiles (7th-Level Spell)</Name>
 	<Price>15,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Evocation, Force, Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This wand features a carved dragon’s head at its top and a polished metal sphere set in its midsection.
@@ -511,7 +511,7 @@
 <Item level="8" page="598">
 	<Name>Wand of Smoldering Fireballs (3rd-Level Spell)</Name>
 	<Price>500 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Evocation, Fire, Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This blackened, heavily burned stick smells faintly of bat guano.
@@ -524,7 +524,7 @@
 <Item level="12" page="598">
 	<Name>Wand of Smoldering Fireballs (5th-Level Spell)</Name>
 	<Price>2,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Evocation, Fire, Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This blackened, heavily burned stick smells faintly of bat guano.
@@ -537,7 +537,7 @@
 <Item level="16" page="598">
 	<Name>Wand of Smoldering Fireballs (7th-Level Spell)</Name>
 	<Price>10,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Evocation, Fire, Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This blackened, heavily burned stick smells faintly of bat guano.
@@ -550,7 +550,7 @@
 <Item level="20" page="598">
 	<Name>Wand of Smoldering Fireballs (9th-Level Spell)</Name>
 	<Price>70,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Evocation, Fire, Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This blackened, heavily burned stick smells faintly of bat guano.
@@ -563,7 +563,7 @@
 <Item level="16" page="598">
 	<Name>Wand of Slaying (7th-Level Spell)</Name>
 	<Price>10,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Illusion, Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This polished black wand has a green gem at the tip, and anyone who looks into it sees a reflection of a grinning skull instead of their face.
@@ -576,7 +576,7 @@
 <Item level="18" page="598">
 	<Name>Wand of Slaying (8th-Level Spell)</Name>
 	<Price>24,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Illusion, Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This polished black wand has a green gem at the tip, and anyone who looks into it sees a reflection of a grinning skull instead of their face.
@@ -589,7 +589,7 @@
 <Item level="20" page="598">
 	<Name>Wand of Slaying (9th-Level Spell)</Name>
 	<Price>70,000 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Illusion, Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This polished black wand has a green gem at the tip, and anyone who looks into it sees a reflection of a grinning skull instead of their face.

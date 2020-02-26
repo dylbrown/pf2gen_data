@@ -3,7 +3,7 @@
 		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
 <Item level="20" page="126">
 	<Name>Final Blade</Name>
-	<Hands>40</Hands>
+	<Bulk>40</Bulk>
 	<Traits>Artifact, Death, Evil, Necromancy, Occult</Traits>
 	<Description>A Large or smaller restrained or willing creature can be executed by a &lt;i&gt;final blade&lt;/i&gt;. As an artifact, a &lt;i&gt;final blade&lt;/i&gt; cannot be harmed by any but a very specific means.
 
@@ -11,7 +11,7 @@
 </Item>
 <Item level="11" page="72">
 	<Name>Eye of the Wise</Name>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Artifact, Divination, Invested</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>This fist-sized, 12-rayed black star sapphire is sacred to Yueral, the elven goddess of magic and jewels, and most accounts of its creation attribute its crafting to a circle of her worshippers. In addition to the abilities listed below, the gem functions as a portal key for Jewelgate at Alseta’s Ring.
@@ -22,7 +22,7 @@
 </Item>
 <Item level="25" page="313">
 	<Name>Blackaxe</Name>
-	<Hands>2</Hands>
+	<Bulk>2</Bulk>
 	<Traits>Artifact, Curse, Evocation, Primal</Traits>
 	<Usage>held in 2 hands</Usage>
 	<Description>This potent weapon used by Treerazer is a &lt;i&gt;+4 greater corrosive major striking obsidian greataxe&lt;/i&gt; that grants a +4 item bonus to attack rolls, deals an extra 2d6 damage to plants, and has the properties of adamantine.
@@ -35,7 +35,7 @@
 </Item>
 <Item level="25" page="75">
 	<Name>Flawed Orb of Gold Dragonkind</Name>
-	<Hands>1</Hands>
+	<Bulk>1</Bulk>
 	<Traits>Artifact, Enchantment, Magical</Traits>
 	<Usage>held in 1 hand</Usage>
 	<Description>

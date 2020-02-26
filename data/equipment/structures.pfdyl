@@ -4,7 +4,7 @@
 <Item level="9" page="72">
 	<Name>Gourd Home</Name>
 	<Price>650 gp</Price>
-	<Hands>L ((when not activated))</Hands>
+	<Bulk>L ((when not activated))</Bulk>
 	<Traits>Conjuration, Extradimensional, Magical, Structure</Traits>
 	<Description>This dried gourd seems entirely nondescript, as it is hollow and has a sturdy cord wrapped around its neck for easy carrying. Closer inspection reveals the gourd has grown in the rough shape of a hut or similar small dwelling.
 
@@ -17,7 +17,7 @@
 <Item level="5" page="596">
 	<Name>Pocket Stage</Name>
 	<Price>138 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Conjuration, Magical, Structure</Traits>
 	<Description>This item appears to be a miniature replica of a theater. It includes a small pocket full of minute set dressing and costumed paper dolls.
 
@@ -28,7 +28,7 @@
 <Item level="10" page="596">
 	<Name>Explorer's Yurt</Name>
 	<Price>880 gp</Price>
-	<Hands>1</Hands>
+	<Bulk>1</Bulk>
 	<Traits>Conjuration, Magical, Structure</Traits>
 	<Description>Before activation, this item appears to be nothing more than a simple rolled-up tent, barely large enough to fit four Medium creatures. Despite attempts to clean it, the tent is perpetually smudged with dirt in various places.
 
@@ -41,7 +41,7 @@
 <Item level="16" page="596">
 	<Name>Instant Fortress</Name>
 	<Price>9,300 gp</Price>
-	<Hands>L</Hands>
+	<Bulk>L</Bulk>
 	<Traits>Conjuration, Magical, Structure</Traits>
 	<Description>This metal cube is small enough to fit in your palm. Close inspection reveals fine lines in the dark gray metal, as though the cube were folded thousands of times.
 
