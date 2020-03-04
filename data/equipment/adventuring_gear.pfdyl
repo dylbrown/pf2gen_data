@@ -1,39 +1,6 @@
 <pf2:Items category="Adventuring Gear" xmlns:pf2="https://dylbrown.github.io"
 		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
-<Item level="0" page="68">
-	<Name>Jellyfish Lamp</Name>
-	<Price>2 gp</Price>
-	<Bulk>L</Bulk>
-	<Usage>held in 1 hand</Usage>
-	<Description>These bioluminescent jellyfish are as bright as candles, come in a variety of colors, and can act as living lanterns. They dry up and die if removed from the water for more than 1 hour, but as long as they’re allowed access to seawater, they can usually survive for up to 1 year by feeding on micronutrients. Rarely, a well-treated jellyfish lamp might live longer and potentially develop stronger light or additional abilities.</Description>
-</Item>
-<Item level="0" page="69">
-	<Name>Swim Fins</Name>
-	<Price>5 gp</Price>
-	<Bulk>L</Bulk>
-	<Usage>worn shoes</Usage>
-	<Description>These flippers attach to your feet like tight shoes—donning or removing them requires three Interact actions. While worn, you gain a +5-foot item bonus to the distance you move when rolling Athletics to Swim, not when using a swim Speed, and you take a –10-foot item penalty to your Speed.</Description>
-</Item>
-<Item level="0" page="91">
-	<Name>Armored Skirt</Name>
-	<Price>2 gp</Price>
-	<Bulk>1</Bulk>
-	<Description>These armor-plated skirts, which are also known as armored kilts, are favored by Knights of Lastwall for their versatility and aesthetic appeal. An armored skirt can be donned with 2 Interact actions when it’s worn with light or medium armor, or as part of donning heavy armor.
-
- When worn with a breastplate, chain shirt, chain mail, or scale mail, an armored skirt increases the armor’s item bonus to AC by 1, worsens the armor’s check penalty by 1, reduces the armor’s Dex cap by 1, increases the Strength score required to ignore the check penalty and reduce the Speed penalty by 2, and adds the noisy trait. This also makes the armor one step heavier (from light to medium, or medium to heavy), and you use the proficiency bonus appropriate to this adjusted armor type.
-
- Alternatively, when wearing an armored skirt to replace appropriate portions of a set of half plate or full plate, reduce the armor’s item bonus to AC by 1, lessen the check penalty by 1, decrease the Strength score required to ignore the check penalty and reduce the Speed penalty by 2, increase the armor’s Dex cap by 1, and add the noisy trait to the armor. An armored skirt grants no benefit when worn by itself or with armors other than those listed here.</Description>
-</Item>
-<Item level="9" page="71">
-	<Name>Bountiful Cauldron</Name>
-	<Price>680 gp</Price>
-	<Bulk>2</Bulk>
-	<Traits>Conjuration, Magical</Traits>
-	<Description>This mid-sized, silver cauldron is a boon within areas where access to fresh food is limited, for it can be commanded to fill itself with hearty (and delicious) vegetable stew. It can also be put to a much greater use in the pursuit of crafting certain items. When used to Craft alchemical items, potions, or oils, a bountiful cauldron grants a +2 item bonus to the Crafting check.
-
-&lt;b&gt;Activate&lt;/b&gt; [[Three Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You stir the cauldron, and it casts a 4th-level &lt;i&gt;create food&lt;/i&gt; spell, filling itself with enough delicious vegetable stew to feed 12 Medium creatures.</Description>
-</Item>
 <Item level="0" page="290">
 	<Name>Holly and Mistletoe</Name>
 	<Hands>1</Hands>

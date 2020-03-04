@@ -1,19 +1,6 @@
 <pf2:Items category="Structures" xmlns:pf2="https://dylbrown.github.io"
 		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
-<Item level="9" page="72">
-	<Name>Gourd Home</Name>
-	<Price>650 gp</Price>
-	<Bulk>L ((when not activated))</Bulk>
-	<Traits>Conjuration, Extradimensional, Magical, Structure</Traits>
-	<Description>This dried gourd seems entirely nondescript, as it is hollow and has a sturdy cord wrapped around its neck for easy carrying. Closer inspection reveals the gourd has grown in the rough shape of a hut or similar small dwelling.
-
-&lt;b&gt;Activate&lt;/b&gt;  (1 minute) Interact; &lt;b&gt;Effect&lt;/b&gt; You place the &lt;i&gt;gourd home&lt;/i&gt; on the ground (in an open area large enough to contain it) and cause it to expand in size to a 30-foot-square structure with one door. The interior of the gourd is a single large room that can hold 10 Small or Medium creatures with moderate comfort.
-
-&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; The gourd home must be expanded into its house form atop earth or soil.; &lt;b&gt;Effect&lt;/b&gt; By rapping on the door from either outside or inside, you cause the &lt;i&gt;gourd home&lt;/i&gt; to shrink back into its normal size and appear to be a non-magical gourd sitting on the ground. For the following 8 hours, the interior of the gourd home becomes an extradimensional space whose size appears unchanged to those within.
-
- If anyone outside picks up or damages the gourd, or if anyone inside the &lt;i&gt;gourd home&lt;/i&gt; attempts to exit, all creatures within the &lt;i&gt;gourd home&lt;/i&gt; immediately reappear in the area surrounding the gourd, and the &lt;i&gt;gourd home&lt;/i&gt; becomes inactive for 24 hours.</Description>
-</Item>
 <Item level="5" page="596">
 	<Name>Pocket Stage</Name>
 	<Price>138 gp</Price>

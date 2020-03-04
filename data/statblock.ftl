@@ -38,7 +38,7 @@
                 <b>① Melee</b>
             </#if>
             ${item.stats.name} ${item.attack?string.@s}
-            <#list item.stats.traits>(<#items as weaponTrait>${weaponTrait.name}<#sep>, </#sep></#items>)</#list>
+            <#list item.stats.traits>(<#items as customTrait>${customTrait.name}<#sep>, </#sep></#items>)</#list>
 			, <b>Damage</b> ${item.stats.damage}<#if item.damagemod != 0>${item.damagemod?string.@s}</#if>
 			${item.stats.damageType}
 			<#sep><br></#sep>
@@ -53,7 +53,7 @@
                 <b>① Melee</b>
             </#if>
             ${item.stats.name} ${item.attack?string.@s}
-            <#list item.stats.traits>(<#items as weaponTrait>${weaponTrait.name}<#sep>, </#sep></#items>)</#list>
+            <#list item.stats.traits>(<#items as customTrait>${customTrait.name}<#sep>, </#sep></#items>)</#list>
 			, <b>Damage</b> ${item.stats.damage}<#if item.damagemod != 0>${item.damagemod?string.@s}</#if>
 			${item.stats.damageType}
 			<#sep><br></#sep>
