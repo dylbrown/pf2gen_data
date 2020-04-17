@@ -3,6 +3,7 @@
            xmlns:pf2="https://dylbrown.github.io"
            targetNamespace="https://dylbrown.github.io">
     <xs:include schemaLocation="ability.xsd"/>
+    <xs:include schemaLocation="rune.xsd"/>
     <xs:complexType name="Item">
         <xs:sequence>
             <xs:element name="Name" type="xs:string"/>
@@ -28,6 +29,13 @@
                 </xs:simpleType>
             </xs:element>
             <xs:element name="Traits" type="xs:string" minOccurs="0"/>
+            <xs:element name="Bonuses" type="xs:string" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="[+-]\d \w+( ?, ?[+-]\d \w+)*"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="Usage" type="xs:string" minOccurs="0"/>
             <xs:element name="Description" type="xs:string" minOccurs="0"/>
         </xs:sequence>
@@ -53,7 +61,11 @@
                     <xs:element name="SubCategory" maxOccurs="unbounded">
                         <xs:complexType>
                             <xs:sequence>
-                                <xs:element name="Item" type="Item" maxOccurs="unbounded"/>
+                                <xs:choice maxOccurs="unbounded">
+                                    <xs:element name="Item" type="Item"/>
+                                    <xs:element name="ArmorRune" type="ArmorRune"/>
+                                    <xs:element name="WeaponRune" type="WeaponRune"/>
+                                </xs:choice>
                             </xs:sequence>
                             <xs:attribute name="name" type="xs:string">
                                 <xs:annotation>
@@ -64,7 +76,11 @@
                             </xs:attribute>
                         </xs:complexType>
                     </xs:element>
-                    <xs:element name="Item" type="Item" maxOccurs="unbounded"/>
+                    <xs:choice maxOccurs="unbounded">
+                        <xs:element name="Item" type="Item"/>
+                        <xs:element name="ArmorRune" type="ArmorRune"/>
+                        <xs:element name="WeaponRune" type="WeaponRune"/>
+                    </xs:choice>
                 </xs:choice>
             </xs:sequence>
             <xs:attribute name="category" type="xs:string">

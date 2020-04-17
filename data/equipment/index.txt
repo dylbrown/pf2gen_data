@@ -1,0 +1,15 @@
+adventuring_gear
+alchemical_items
+armor_and_shields
+artifacts
+consumables
+held_items
+materials
+runes
+services
+snares
+staves
+structures
+wands
+weapons
+worn_items

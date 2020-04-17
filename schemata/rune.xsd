@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:pf2="https://dylbrown.github.io"
+           targetNamespace="https://dylbrown.github.io">
+    <xs:include schemaLocation="ability.xsd"/>
+    <xs:complexType name="ArmorRune">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Price" type="xs:string" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="[\d.]+ [sgpc]p"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Bonuses" type="xs:string" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="[+-]\d \w+( ?, ?[+-]\d \w+)*"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Traits" type="xs:string" minOccurs="0"/>
+            <xs:element name="Usage" type="xs:string" minOccurs="0"/>
+            <xs:element name="GrantsProperties" type="xs:nonNegativeInteger" minOccurs="0"/>
+            <xs:element name="BonusAC" type="xs:nonNegativeInteger" minOccurs="0"/>
+            <xs:element name="Description" type="xs:string" minOccurs="0"/>
+            <xs:element name="Ability" type="pf2:Ability" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="fundamental" type="xs:boolean"/>
+        <xs:attribute name="level" type="pf2:level">
+            <xs:annotation>
+                <xs:documentation>
+                    Level associated with this list
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="page" type="xs:nonNegativeInteger">
+            <xs:annotation>
+                <xs:documentation>
+                    Page number of this item in its book.
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="WeaponRune">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Price" type="xs:string" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="[\d.]+ [sgpc]p"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Traits" type="xs:string" minOccurs="0"/>
+            <xs:element name="Usage" type="xs:string" minOccurs="0"/>
+            <xs:element name="GrantsProperties" type="xs:nonNegativeInteger" minOccurs="0"/>
+            <xs:element name="AttackBonus" type="xs:string" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="[+-]?\d+"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="BonusDamage" type="xs:string" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="\\dd\\d( ?\\+ ?\d+)? \w+"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="WeaponDice" type="xs:positiveInteger" minOccurs="0"/>
+            <xs:element name="Description" type="xs:string" minOccurs="0"/>
+            <xs:element name="Ability" type="pf2:Ability" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="fundamental" type="xs:boolean"/>
+        <xs:attribute name="level" type="pf2:level">
+            <xs:annotation>
+                <xs:documentation>
+                    Level associated with this list
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="page" type="xs:nonNegativeInteger">
+            <xs:annotation>
+                <xs:documentation>
+                    Page number of this item in its book.
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+</xs:schema>
