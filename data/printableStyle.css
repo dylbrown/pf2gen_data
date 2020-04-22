@@ -1,0 +1,373 @@
+html {
+    font-family: monospace;
+}
+
+@media print {
+    @page {
+        size: letter landscape;
+    }
+
+    @page:left{
+      @bottom-left {
+        content: counter(page);
+      }
+    }
+    #page1 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: calc(100vh * 11 / 8.5);
+        height: 100vh;
+        font-size: 2.2vh;
+    }
+}
+@media screen {
+    #printBorder {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: calc(100% - .8in);
+        height:calc(100% - .8in);
+        margin: .4in;
+        box-sizing: border-box;
+        border: 1px dashed grey;
+    }
+    #page1 {
+        position: absolute;
+        left: 50vw;
+        transform: translate(-50%, 0);
+        top: 0;
+        width: min(1100px, calc(100vh * 11 / 8.5));
+        height: min(100vh, 850px);
+        font-size: min(2.2vh, 18px);
+    }
+}
+
+
+#leftThird {
+    position: absolute;
+    left: .4in;
+    top: .4in;
+    width: calc(100% / 3 - .4in);
+    height:calc(100% - .8in);
+    border-right: 1px dashed black;
+    padding-right: 5px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#middleThird {
+    position: absolute;
+    left: calc(100% / 3);
+    top: .4in;
+    width: calc(70% - 100% / 3);
+    height:calc(100% - .8in);
+    box-sizing: border-box;
+    display: flex;
+    padding: 0 5px;
+}
+
+#rightThird {
+    position: absolute;
+    left: 70%;
+    top: .4in;
+    width: calc(30% - .4in);
+    height:calc(100% - .8in);
+    padding-left: 5px;
+    border-left: 1px dashed black;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#leftThird > div, #rightThird > div {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+  page-break-before: always;
+}
+
+h1, h2, h3, h4, h5 {
+  page-break-after: avoid;
+}
+
+div{flex-grow: 1}
+.no-grow, .no-grow > div {
+    flex-grow: 0;
+}
+.no-grow {
+    width:fit-content;
+}
+
+table, figure {
+  page-break-inside: avoid;
+}
+
+.row {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    display: flex;
+    margin: 0 -5px;
+}
+.row-stretch {
+    flex-flow: row nowrap;
+    display: flex;
+    justify-content: stretch;
+    align-content: stretch;
+    margin: 0 -5px;
+}
+.row-between {
+    flex-flow: row nowrap;
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    margin: 0 -5px;
+}
+.row-center {
+    flex-flow: row nowrap;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    margin: 0 -5px;
+}
+.center {
+    flex-flow: column nowrap;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    align-self: center;
+}
+.center-right {
+    flex-flow: column nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-self: flex-end;
+    align-self: center;
+    padding-right: 5px;
+}
+.row > div, .row-stretch > div, .row-between > div, .row-center > div {
+    margin: 0 5px;
+}
+
+.line {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-self: stretch;
+    justify-self: stretch;
+}
+.column {
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    flex-flow: column nowrap;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 0;
+}
+
+.underlined {
+    flex-flow: column nowrap;
+    display: flex;
+    justify-content: flex-end;
+    min-height: 1em;
+    min-width: 2em;
+    flex-grow: 1;
+    align-self: stretch;
+    justify-self: stretch;
+    border-bottom: 1px solid black;
+    vertical-align: bottom;
+}
+.underlined-roll {
+    flex-flow: column nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1em;
+    min-width: 2em;
+    flex-grow: 1;
+    align-self: stretch;
+    justify-self: stretch;
+    border-bottom: 1px solid black;
+    vertical-align: bottom;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.wrap {
+    text-wrap: normal;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+.numBox {
+    border:2px solid black;
+    box-sizing: border-box;
+    min-width: 1.8em;
+    min-height: 1.8em;
+    flex-flow: column nowrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.rounded {
+    border-radius: 7px;
+}
+
+.label {
+    font-size: .7rem;
+    height:.7rem;
+    color: #333;
+    flex-grow: 0;
+    padding-left: 3px;
+}
+.box-label {
+    font-size: .7rem;
+    color: #333;
+    flex-grow: 0;
+    text-align: center;
+    align-self: center;
+}
+.sectionDivider hr {
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+.sectionDivider {
+    flex-grow: 0;
+}
+
+.sectionLabel {
+    font-size: .7rem;
+    color: #333;
+    flex-grow: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+.skill-label {
+    font-size: .8em;
+    align-self: center;
+    justify-self: flex-end;
+    padding-right: 5px;
+    box-sizing: border-box;
+    text-align: right;
+    text-transform: uppercase;
+}
+.skill-break {
+    grid-column-end: span 5;
+}
+
+div.weapon-label {
+    font-size: .8em;
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    max-width: fit-content;
+    min-width: 4em;
+    box-sizing: border-box;
+    text-align: right;
+    text-transform: uppercase;
+    flex-grow: 0;
+}
+.weapon-traits {
+    font-size: .8em;
+}
+.underText {
+    font-size: .6rem;
+    color: #444;
+}
+.wide8 { min-width: 8em}
+.wide10 { min-width: 10em}
+.wide { min-width: 12em}
+
+.inverted {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rollLabel {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+#ability-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+    align-items: start;
+    justify-items: center;
+}
+
+#rolls-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr repeat(4, .9fr);
+    grid-template-rows: 1fr .3fr 1fr 1fr 1fr;
+    column-gap: 3px;
+    row-gap: 5px;
+    align-items: start;
+    justify-items: center;
+}
+#ac-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr repeat(4, .9fr);
+    grid-template-rows: 1fr;
+    column-gap: 5px;
+    align-items: start;
+    justify-items: center;
+}
+#prof-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr .4fr);
+    column-gap: 5px;
+    row-gap: 2px;
+    align-items: start;
+    justify-items: center;
+    text-transform: uppercase;
+
+    text-align:center;
+}
+#info-grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 3fr;
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    align-items: start;
+    justify-items: center;
+    flex-grow: 0;
+}
+#skills-grid {
+    display: grid;
+    grid-template-columns: 2fr 1.3fr .7fr 1fr 1fr;
+    grid-template-rows: .4fr repeat(18, 1fr);
+    column-gap: 3px;
+    row-gap: 5px;
+    align-items: start;
+    justify-items: center;
+}
