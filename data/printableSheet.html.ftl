@@ -127,11 +127,11 @@
                     <div class="box-label">DEX</div>
                 </div>
                 <div class="line">
-                    <div class="numBox rounded"><!--TODO--></div>
+                    <div class="numBox rounded">${character.armorProficiency?string.@s}</div>
                     <div class="box-label">Prof</div>
                 </div>
                 <div class="line">
-                    <div class="numBox"><!--TODO--></div>
+                    <div class="numBox">${character.armor.ac?string.@s}</div>
                     <div class="box-label">Item</div>
                 </div>
                 <div class="line">
@@ -154,11 +154,11 @@
                     <div class="label">WIS</div>
                 </div>
                 <div class="line">
-                    <div class="numBox rounded"><!--TODO--></div>
+                    <div class="numBox rounded">${character.attributes.perception.proficiencyMod?string.@s}</div>
                     <div class="label">Prof</div>
                 </div>
                 <div class="line">
-                    <div class="numBox"><!--TODO--></div>
+                    <div class="numBox">${character.attributes.perception.itemBonus?string.@s}</div>
                     <div class="label">Item</div>
                 </div>
                 <div class="line">
@@ -179,11 +179,11 @@
                     <div class="label">CON</div>
                 </div>
                 <div class="line">
-                    <div class="numBox rounded"><!--TODO--></div>
+                    <div class="numBox rounded">${character.attributes.fortitude.proficiencyMod?string.@s}</div>
                     <div class="label">Prof</div>
                 </div>
                 <div class="line">
-                    <div class="numBox"><!--TODO--></div>
+                    <div class="numBox">${character.attributes.fortitude.itemBonus?string.@s}</div>
                     <div class="label">Item</div>
                 </div>
                 <div class="line">
@@ -200,11 +200,11 @@
                     <div class="label">DEX</div>
                 </div>
                 <div class="line">
-                    <div class="numBox rounded"><!--TODO--></div>
+                    <div class="numBox rounded">${character.attributes.reflex.proficiencyMod?string.@s}</div>
                     <div class="label">Prof</div>
                 </div>
                 <div class="line">
-                    <div class="numBox"><!--TODO--></div>
+                    <div class="numBox">${character.attributes.reflex.itemBonus?string.@s}</div>
                     <div class="label">Item</div>
                 </div>
                 <div class="line">
@@ -221,11 +221,11 @@
                     <div class="label">WIS</div>
                 </div>
                 <div class="line">
-                    <div class="numBox rounded"><!--TODO--></div>
+                    <div class="numBox rounded">${character.attributes.will.proficiencyMod?string.@s}</div>
                     <div class="label">Prof</div>
                 </div>
                 <div class="line">
-                    <div class="numBox"><!--TODO--></div>
+                    <div class="numBox">${character.attributes.will.itemBonus?string.@s}</div>
                     <div class="label">Item</div>
                 </div>
                 <div class="line">
@@ -269,7 +269,7 @@
                     <div class="label">Character Name</div>
                 </div>
                 <div class="line" style="grid-column-end: span 2">
-                    <div class="underlined">${character.ancestry}</div>
+                    <div class="underlined">${character.heritage} ${character.ancestry}</div>
                     <div class="label">Ancestry & Heritage</div>
                 </div>
                 <div class="line" style="grid-column-end: span 2">
@@ -414,14 +414,14 @@
                 <#list character.skills as skill>
                     <div class="skill-label">${skill.name}</div>
                     <div class="line">
-                        <div class="underlined-roll">${skill.mod?string.@s}</div>
+                        <div class="underlined-roll">${skill.total?string.@s}</div>
                     </div>
                     <div style="align-self: center; text-transform: uppercase">${skill.ability}</div>
                     <div class="line">
-                        <div class="numBox rounded"><!--TODO--></div>
+                        <div class="numBox rounded">${skill.proficiencyMod?string.@s}</div>
                     </div>
                     <div class="line">
-                        <div class="numBox"><!--TODO--></div>
+                        <div class="numBox">${skill.itemBonus?string.@s}</div>
                     </div>
                 </#list>
             </div>

@@ -15,7 +15,7 @@
         <br />
         <b>Skills</b>
         <#list character.skills as skill>
-            ${skill.name} ${skill.mod?string.@s}<#sep>, </#sep>
+            ${skill.name} ${skill.total?string.@s}<#sep>, </#sep>
         </#list>
         <br />
         <b>Str</b> ${character.abilityMod.str?string.@s}, <b>Dex</b> ${character.abilityMod.dex?string.@s}, <b>Con</b> ${character.abilityMod.con?string.@s}, <b>Int</b> ${character.abilityMod.int?string.@s}, <b>Wis</b> ${character.abilityMod.wis?string.@s}, <b>Cha</b> ${character.abilityMod.cha?string.@s}<br />
@@ -40,7 +40,6 @@
             ${item.stats.name} ${item.attack?string.@s}
             <#list item.stats.traits>(<#items as customTrait>${customTrait.name}<#sep>, </#sep></#items>)</#list>
 			, <b>Damage</b> ${item.stats.damage}<#if item.damagemod != 0>${item.damagemod?string.@s}</#if>
-			${item.stats.damageType}
 			<#sep><br></#sep>
         </#if>
 	</#list>
