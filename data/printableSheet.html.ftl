@@ -301,98 +301,97 @@
                     <div class="label">Traits</div>
                 </div>
             </div>
+<#macro weaponBlock weapon type>
+    <#if type == "melee">
+        <div class="row-stretch" style="flex-grow: 0">
+            <div class="weapon-label">${weapon.name}</div>
+            <div class="column">
+                <div class="row-stretch">
+                    <div class="line">
+                        <div class="underlined">${weapon.attack?string.@s}</div>
+                        <div class="label">Attack</div>
+                    </div>
+                    <div class="line">
+                        <div class="underlined weapon-info">
+                            <#list weapon.damage.asList() as damage>
+                                ${damage}<#sep><br> + </#sep>
+                            </#list>
+                        </div>
+                        <div class="label">Damage</div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="underlined weapon-traits">
+                        <#list weapon.traits as trait>
+                            ${trait}<#sep>, </#sep>
+                    </#list>
+                </div>
+                    <div class="label">Traits</div>
+                </div>
+            </div>
+        </div>
+    <#elseif type == "ranged">
+        <div class="row-stretch" style="flex-grow:0">
+            <div class="weapon-label">${weapon.name}</div>
+            <div class="column">
+                <div class="row-stretch">
+                    <div class="line">
+                        <div class="underlined weapon-info">${weapon.attack?string.@s}</div>
+                        <div class="label">Attack</div>
+                    </div>
+                    <div class="line">
+                        <div class="underlined weapon-info">
+                            <#list weapon.damage.asList() as damage>
+                                ${damage}<#sep><br> + </#sep>
+                            </#list>
+                        </div>
+                        <div class="label">Damage</div>
+                    </div>
+                    <div class="line">
+                        <div class="underlined weapon-info">${weapon.range} ft.</div>
+                        <div class="label">Range</div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="underlined weapon-traits">
+                        <#list weapon.traits as trait>
+                            ${trait}<#sep>, </#sep>
+                        </#list>
+                    </div>
+                    <div class="label">Traits</div>
+                </div>
+            </div>
+        </div>
+    </#if>
+</#macro>
             <div class="sectionDivider">
                 <hr>
             </div>
             <div class="sectionLabel">Melee Strikes</div>
-            <div class="row-stretch" style="flex-grow: 0">
-                <div class="weapon-label">Weapon 1</div>
-                <div class="column">
-                    <div class="row-stretch">
-                        <div class="line">
-                            <div class="underlined"></div>
-                            <div class="label">Attack</div>
-                        </div>
-                        <div class="line">
-                            <div class="underlined"></div>
-                            <div class="label">Damage</div>
-                        </div>
-                    </div>
-                    <div class="line">
-                        <div class="underlined weapon-traits"></div>
-                        <div class="label">Traits</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row-stretch" style="flex-grow: 0">
-                <div class="weapon-label">Weapon 2</div>
-                <div class="column">
-                    <div class="row-stretch">
-                        <div class="line">
-                            <div class="underlined"></div>
-                            <div class="label">Attack</div>
-                        </div>
-                        <div class="line">
-                            <div class="underlined"></div>
-                            <div class="label">Damage</div>
-                        </div>
-                    </div>
-                    <div class="line">
-                        <div class="underlined weapon-traits"></div>
-                        <div class="label">Traits</div>
-                    </div>
-                </div>
-            </div>
+            <#list character.attacks as attack>
+                <#if item.category == "Weapon">
+                    <@weaponBlock weapon=item type="melee"/>
+                </#if>
+            </#list>
+            <#list character.inventory as item>
+                <#if item.category == "Weapon">
+                    <@weaponBlock weapon=item type="melee"/>
+                </#if>
+            </#list>
             <div class="sectionDivider">
                 <hr>
             </div>
             <div class="sectionLabel">Ranged Strikes</div>
-            <div class="row-stretch" style="flex-grow: 0">
-                <div class="weapon-label">Ranged Weapon 1</div>
-                <div class="column">
-                    <div class="row-stretch">
-                        <div class="line">
-                            <div class="underlined"></div>
-                            <div class="label">Attack</div>
-                        </div>
-                        <div class="line">
-                            <div class="underlined"></div>
-                            <div class="label">Damage</div>
-                        </div>
-                        <div class="line">
-                            <div class="underlined"></div>
-                            <div class="label">Range</div>
-                        </div>
-                    </div>
-                    <div class="line">
-                        <div class="underlined weapon-traits"></div>
-                        <div class="label">Traits</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row-stretch" style="flex-grow: 0">
-                <div class="weapon-label">Ranged Weapon 2</div>
-                <div class="column">
-                    <div class="row-stretch">
-                        <div class="line">
-                            <div class="underlined"></div>
-                            <div class="label">Attack</div>
-                        </div>
-                        <div class="line">
-                            <div class="underlined"></div>
-                            <div class="label">Damage</div>
-                        </div>
-                        <div class="line">
-                            <div class="underlined"></div>
-                            <div class="label">Range</div>
-                        </div>
-                    </div>
-                    <div class="line">
-                        <div class="underlined weapon-traits"></div>
-                        <div class="label">Traits</div>
-                    </div>
-                </div>
-            </div>
+            <#list character.attacks as attack>
+                <#if item.category == "Ranged Weapon">
+                    <@weaponBlock weapon=item type="ranged"/>
+                </#if>
+            </#list>
+            <#list character.inventory as item>
+                <#if item.category == "Ranged Weapon">
+                    <@weaponBlock weapon=item type="ranged"/>
+                </#if>
+            </#list>
             <div class="sectionDivider">
                 <hr>
             </div>

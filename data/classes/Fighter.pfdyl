@@ -235,7 +235,7 @@ You can select one weapon group and increase your proficiency ranks to legendary
 		</Ability>
 		<Ability name="Power Attack" level="1" cost="Two">
 			<Traits>Fighter, Flourish</Traits>
-			<Description>You unleash a particularly powerful attack that clobbers your foe but leaves you a bit unsteady. Make a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal an extra die of weapon damage. If you’re at least , increase this to two extra dice, and if you’re at least , increase it to three extra dice.</Description>
+			<Description>You unleash a particularly powerful attack that clobbers your foe but leaves you a bit unsteady. Make a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal an extra die of weapon damage. If you’re at least 10th level, increase this to two extra dice, and if you’re at least 18th level, increase it to three extra dice.</Description>
 		</Ability>
 		<Ability name="Reactive Shield" level="1" cost="Reaction">
 			<Traits>Fighter</Traits>

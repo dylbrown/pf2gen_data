@@ -3,7 +3,14 @@
 <head>
     <title>Output</title>
 </head>
-<body>
+<style>
+    @media screen {
+    body {
+        padding-right: 10px;
+    }
+    }
+</style>
+<body style="overflow-y:scroll">
 <h3>${character.name}</h3>
     <p>
         <b>${character.pclass.name} ${character.ancestry.name} ${character.level}</b><br />
@@ -30,31 +37,30 @@
         <hr />
 	<#assign count=0>
     <#list character.attacks as item>
-        <#if Weapon.isInstance(item.stats)>
+        <#if item.category == "Weapon" || item.category == "Ranged Weapon">
 			<#assign count++>
-            <#if item.stats.isRanged()>
+            <#if item.category == "Ranged Weapon">
                 <b>① Ranged</b>
             <#else>
                 <b>① Melee</b>
             </#if>
             ${item.stats.name} ${item.attack?string.@s}
             <#list item.stats.traits>(<#items as customTrait>${customTrait.name}<#sep>, </#sep></#items>)</#list>
-			, <b>Damage</b> ${item.stats.damage}<#if item.damagemod != 0>${item.damagemod?string.@s}</#if>
+			, <b>Damage</b> ${item.stats.damage}
 			<#sep><br></#sep>
         </#if>
 	</#list>
     <#list character.inventory as item>
-        <#if Weapon.isInstance(item.stats)>
+        <#if item.stats.category == "Weapon" || item.stats.category == "Ranged Weapon">
 			<#assign count++>
-            <#if item.stats.isRanged()>
+            <#if item.category == "Ranged Weapon">
                 <b>① Ranged</b>
             <#else>
                 <b>① Melee</b>
             </#if>
             ${item.stats.name} ${item.attack?string.@s}
             <#list item.stats.traits>(<#items as customTrait>${customTrait.name}<#sep>, </#sep></#items>)</#list>
-			, <b>Damage</b> ${item.stats.damage}<#if item.damagemod != 0>${item.damagemod?string.@s}</#if>
-			${item.stats.damageType}
+			, <b>Damage</b> ${item.stats.damage}
 			<#sep><br></#sep>
         </#if>
 	</#list>
