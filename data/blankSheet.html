@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en-US">
 <head>
-    <link rel="stylesheet" media="all" href="printableStyle.css">
     <title>PF2 Printable Character Sheet</title>
+    <link rel="stylesheet" media="all" href="printableStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 <div id="page1">
-    <div id="printBorder"></div>
+    <div class="printBorder"></div>
 <div id="leftThird">
     <div class="column" style="justify-content: stretch">
         <div>PATHFINDER CHARACTER SHEET</div>
@@ -392,6 +393,51 @@
             <hr>
         </div>
         <div class="sectionLabel">Actions and Activities</div>
+        <div class="row-stretch action" style="flex-grow: 0">
+            <div class="action-icon">R</div>
+            <div class="action-label">Reactive Shield</div>
+            <div class="column-wrap action-details">
+                <div class="line">
+                    <div class="underlined"></div>
+                    <div class="label">Traits</div>
+                </div>
+                <div class="line">
+                    <div class="underlined"></div>
+                    <div class="label">Trigger</div>
+                </div>
+                <div class="line">
+                    <div class="underlined"></div>
+                    <div class="label">Frequency</div>
+                </div>
+                <div class="line">
+                    <div class="underlined"></div>
+                    <div class="label">Requirements</div>
+                </div>
+            </div>
+        </div>
+        <div class="action-divider"></div>
+        <div class="row-stretch action" style="flex-grow: 0">
+            <div class="action-icon">R</div>
+            <div class="action-label">Shield Block</div>
+            <div class="column-wrap action-details">
+                <div class="line">
+                    <div class="underlined"></div>
+                    <div class="label">Traits</div>
+                </div>
+                <div class="line">
+                    <div class="underlined"></div>
+                    <div class="label">Trigger</div>
+                </div>
+                <div class="line">
+                    <div class="underlined"></div>
+                    <div class="label">Frequency</div>
+                </div>
+                <div class="line">
+                    <div class="underlined"></div>
+                    <div class="label">Requirements</div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <div id="rightThird">
@@ -608,5 +654,755 @@
     </div>
 </div>
 </div>
+<div id="page2">
+    <div class="printBorder"></div>
+    <div class="abilities-flex first-page">
+        <div class="ability-box">
+            <div class="action-icon">2</div>
+            <div class="ability-title">
+                Double Slice
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 144
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    Fighter
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    You are wielding two melee weapons, each in a different hand.
+                </div>
+                <div class="label">Requirements</div>
+            </div>
+            <div class="ability-description">
+                You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn't have the agile trait, it takes a -2 penalty.
+
+                If both attacks hit, combine their damage, and then add any other applicable effects from both weapons. You add any precision damage only once, to the attack of your choice. Combine the damage from both Strikes and apply resistances and weaknesses only once. This counts as two attacks when calculating your multiple attack penalty.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="ability-attrs">
+                <div class="action-icon">R</div>
+                <div class="ability-title">
+                    Reactive Shield
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        CR pg. 145
+                    </div>
+                    <div class="label">Source</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        Fighter
+                    </div>
+                    <div class="label">Traits</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        You are wielding a shield.
+                    </div>
+                    <div class="label">Requirements</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        An enemy hits you with a melee Strike.
+                    </div>
+                    <div class="label">Trigger</div>
+                </div>
+            </div>
+            <div class="ability-description">
+                You can snap your shield into place just as you would take a blow, avoiding the hit at the last second. You immediately use the Raise a Shield action and gain your shield's bonus to AC. The circumstance bonus from the shield applies to your AC when you're determining the outcome of the triggering attack.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">R</div>
+            <div class="ability-title">
+                Shield Block
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 266
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    General
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    While you have your shield raised, you would take damage from a physical attack.
+                </div>
+                <div class="label">Trigger</div>
+            </div>
+            <div class="ability-description">
+                You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield's Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">2</div>
+            <div class="ability-title">
+                Double Slice
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 144
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    Fighter
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    You are wielding two melee weapons, each in a different hand.
+                </div>
+                <div class="label">Requirements</div>
+            </div>
+            <div class="ability-description">
+                You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn't have the agile trait, it takes a -2 penalty.
+
+                If both attacks hit, combine their damage, and then add any other applicable effects from both weapons. You add any precision damage only once, to the attack of your choice. Combine the damage from both Strikes and apply resistances and weaknesses only once. This counts as two attacks when calculating your multiple attack penalty.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="ability-attrs">
+                <div class="action-icon">R</div>
+                <div class="ability-title">
+                    Reactive Shield
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        CR pg. 145
+                    </div>
+                    <div class="label">Source</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        Fighter
+                    </div>
+                    <div class="label">Traits</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        You are wielding a shield.
+                    </div>
+                    <div class="label">Requirements</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        An enemy hits you with a melee Strike.
+                    </div>
+                    <div class="label">Trigger</div>
+                </div>
+            </div>
+            <div class="ability-description">
+                You can snap your shield into place just as you would take a blow, avoiding the hit at the last second. You immediately use the Raise a Shield action and gain your shield's bonus to AC. The circumstance bonus from the shield applies to your AC when you're determining the outcome of the triggering attack.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">R</div>
+            <div class="ability-title">
+                Shield Block
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 266
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    General
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    While you have your shield raised, you would take damage from a physical attack.
+                </div>
+                <div class="label">Trigger</div>
+            </div>
+            <div class="ability-description">
+                You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield's Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">2</div>
+            <div class="ability-title">
+                Double Slice
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 144
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    Fighter
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    You are wielding two melee weapons, each in a different hand.
+                </div>
+                <div class="label">Requirements</div>
+            </div>
+            <div class="ability-description">
+                You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn't have the agile trait, it takes a -2 penalty.
+
+                If both attacks hit, combine their damage, and then add any other applicable effects from both weapons. You add any precision damage only once, to the attack of your choice. Combine the damage from both Strikes and apply resistances and weaknesses only once. This counts as two attacks when calculating your multiple attack penalty.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="ability-attrs">
+                <div class="action-icon">R</div>
+                <div class="ability-title">
+                    Reactive Shield
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        CR pg. 145
+                    </div>
+                    <div class="label">Source</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        Fighter
+                    </div>
+                    <div class="label">Traits</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        You are wielding a shield.
+                    </div>
+                    <div class="label">Requirements</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        An enemy hits you with a melee Strike.
+                    </div>
+                    <div class="label">Trigger</div>
+                </div>
+            </div>
+            <div class="ability-description">
+                You can snap your shield into place just as you would take a blow, avoiding the hit at the last second. You immediately use the Raise a Shield action and gain your shield's bonus to AC. The circumstance bonus from the shield applies to your AC when you're determining the outcome of the triggering attack.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">R</div>
+            <div class="ability-title">
+                Shield Block
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 266
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    General
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    While you have your shield raised, you would take damage from a physical attack.
+                </div>
+                <div class="label">Trigger</div>
+            </div>
+            <div class="ability-description">
+                You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield's Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">2</div>
+            <div class="ability-title">
+                Double Slice
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 144
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    Fighter
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    You are wielding two melee weapons, each in a different hand.
+                </div>
+                <div class="label">Requirements</div>
+            </div>
+            <div class="ability-description">
+                You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn't have the agile trait, it takes a -2 penalty.
+
+                If both attacks hit, combine their damage, and then add any other applicable effects from both weapons. You add any precision damage only once, to the attack of your choice. Combine the damage from both Strikes and apply resistances and weaknesses only once. This counts as two attacks when calculating your multiple attack penalty.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="ability-attrs">
+                <div class="action-icon">R</div>
+                <div class="ability-title">
+                    Reactive Shield
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        CR pg. 145
+                    </div>
+                    <div class="label">Source</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        Fighter
+                    </div>
+                    <div class="label">Traits</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        You are wielding a shield.
+                    </div>
+                    <div class="label">Requirements</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        An enemy hits you with a melee Strike.
+                    </div>
+                    <div class="label">Trigger</div>
+                </div>
+            </div>
+            <div class="ability-description">
+                You can snap your shield into place just as you would take a blow, avoiding the hit at the last second. You immediately use the Raise a Shield action and gain your shield's bonus to AC. The circumstance bonus from the shield applies to your AC when you're determining the outcome of the triggering attack.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">R</div>
+            <div class="ability-title">
+                Shield Block
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 266
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    General
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    While you have your shield raised, you would take damage from a physical attack.
+                </div>
+                <div class="label">Trigger</div>
+            </div>
+            <div class="ability-description">
+                You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield's Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">2</div>
+            <div class="ability-title">
+                Double Slice
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 144
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    Fighter
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    You are wielding two melee weapons, each in a different hand.
+                </div>
+                <div class="label">Requirements</div>
+            </div>
+            <div class="ability-description">
+                You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn't have the agile trait, it takes a -2 penalty.
+
+                If both attacks hit, combine their damage, and then add any other applicable effects from both weapons. You add any precision damage only once, to the attack of your choice. Combine the damage from both Strikes and apply resistances and weaknesses only once. This counts as two attacks when calculating your multiple attack penalty.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="ability-attrs">
+                <div class="action-icon">R</div>
+                <div class="ability-title">
+                    Reactive Shield
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        CR pg. 145
+                    </div>
+                    <div class="label">Source</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        Fighter
+                    </div>
+                    <div class="label">Traits</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        You are wielding a shield.
+                    </div>
+                    <div class="label">Requirements</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        An enemy hits you with a melee Strike.
+                    </div>
+                    <div class="label">Trigger</div>
+                </div>
+            </div>
+            <div class="ability-description">
+                You can snap your shield into place just as you would take a blow, avoiding the hit at the last second. You immediately use the Raise a Shield action and gain your shield's bonus to AC. The circumstance bonus from the shield applies to your AC when you're determining the outcome of the triggering attack.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">R</div>
+            <div class="ability-title">
+                Shield Block
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 266
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    General
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    While you have your shield raised, you would take damage from a physical attack.
+                </div>
+                <div class="label">Trigger</div>
+            </div>
+            <div class="ability-description">
+                You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield's Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">2</div>
+            <div class="ability-title">
+                Double Slice
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 144
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    Fighter
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    You are wielding two melee weapons, each in a different hand.
+                </div>
+                <div class="label">Requirements</div>
+            </div>
+            <div class="ability-description">
+                You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn't have the agile trait, it takes a -2 penalty.
+
+                If both attacks hit, combine their damage, and then add any other applicable effects from both weapons. You add any precision damage only once, to the attack of your choice. Combine the damage from both Strikes and apply resistances and weaknesses only once. This counts as two attacks when calculating your multiple attack penalty.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="ability-attrs">
+                <div class="action-icon">R</div>
+                <div class="ability-title">
+                    Reactive Shield
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        CR pg. 145
+                    </div>
+                    <div class="label">Source</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        Fighter
+                    </div>
+                    <div class="label">Traits</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        You are wielding a shield.
+                    </div>
+                    <div class="label">Requirements</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        An enemy hits you with a melee Strike.
+                    </div>
+                    <div class="label">Trigger</div>
+                </div>
+            </div>
+            <div class="ability-description">
+                You can snap your shield into place just as you would take a blow, avoiding the hit at the last second. You immediately use the Raise a Shield action and gain your shield's bonus to AC. The circumstance bonus from the shield applies to your AC when you're determining the outcome of the triggering attack.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">R</div>
+            <div class="ability-title">
+                Shield Block
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 266
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    General
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    While you have your shield raised, you would take damage from a physical attack.
+                </div>
+                <div class="label">Trigger</div>
+            </div>
+            <div class="ability-description">
+                You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield's Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">2</div>
+            <div class="ability-title">
+                Double Slice
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 144
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    Fighter
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    You are wielding two melee weapons, each in a different hand.
+                </div>
+                <div class="label">Requirements</div>
+            </div>
+            <div class="ability-description">
+                You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn't have the agile trait, it takes a -2 penalty.
+
+                If both attacks hit, combine their damage, and then add any other applicable effects from both weapons. You add any precision damage only once, to the attack of your choice. Combine the damage from both Strikes and apply resistances and weaknesses only once. This counts as two attacks when calculating your multiple attack penalty.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="ability-attrs">
+                <div class="action-icon">R</div>
+                <div class="ability-title">
+                    Reactive Shield
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        CR pg. 145
+                    </div>
+                    <div class="label">Source</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        Fighter
+                    </div>
+                    <div class="label">Traits</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        You are wielding a shield.
+                    </div>
+                    <div class="label">Requirements</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        An enemy hits you with a melee Strike.
+                    </div>
+                    <div class="label">Trigger</div>
+                </div>
+            </div>
+            <div class="ability-description">
+                You can snap your shield into place just as you would take a blow, avoiding the hit at the last second. You immediately use the Raise a Shield action and gain your shield's bonus to AC. The circumstance bonus from the shield applies to your AC when you're determining the outcome of the triggering attack.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">R</div>
+            <div class="ability-title">
+                Shield Block
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 266
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    General
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    While you have your shield raised, you would take damage from a physical attack.
+                </div>
+                <div class="label">Trigger</div>
+            </div>
+            <div class="ability-description">
+                You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield's Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">2</div>
+            <div class="ability-title">
+                Double Slice
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 144
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    Fighter
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    You are wielding two melee weapons, each in a different hand.
+                </div>
+                <div class="label">Requirements</div>
+            </div>
+            <div class="ability-description">
+                You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn't have the agile trait, it takes a -2 penalty.
+
+                If both attacks hit, combine their damage, and then add any other applicable effects from both weapons. You add any precision damage only once, to the attack of your choice. Combine the damage from both Strikes and apply resistances and weaknesses only once. This counts as two attacks when calculating your multiple attack penalty.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="ability-attrs">
+                <div class="action-icon">R</div>
+                <div class="ability-title">
+                    Reactive Shield
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        CR pg. 145
+                    </div>
+                    <div class="label">Source</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        Fighter
+                    </div>
+                    <div class="label">Traits</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        You are wielding a shield.
+                    </div>
+                    <div class="label">Requirements</div>
+                </div>
+                <div class="line">
+                    <div class="underlined" style="flex-direction: row">
+                        An enemy hits you with a melee Strike.
+                    </div>
+                    <div class="label">Trigger</div>
+                </div>
+            </div>
+            <div class="ability-description">
+                You can snap your shield into place just as you would take a blow, avoiding the hit at the last second. You immediately use the Raise a Shield action and gain your shield's bonus to AC. The circumstance bonus from the shield applies to your AC when you're determining the outcome of the triggering attack.
+            </div>
+        </div>
+        <div class="ability-box">
+            <div class="action-icon">R</div>
+            <div class="ability-title">
+                Shield Block
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    CR pg. 266
+                </div>
+                <div class="label">Source</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    General
+                </div>
+                <div class="label">Traits</div>
+            </div>
+            <div class="line">
+                <div class="underlined" style="flex-direction: row">
+                    While you have your shield raised, you would take damage from a physical attack.
+                </div>
+                <div class="label">Trigger</div>
+            </div>
+            <div class="ability-description">
+                You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield's Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.
+            </div>
+        </div>
+    </div>
+</div>
+<div id="page3">
+    <div class="printBorder"></div>
+    <div class="abilities-flex second-page"></div>
+</div>
+<div class="separator" style="top: -3px"></div>
+<div class="separator" style="top: calc(100vh - 3px)"></div>
+<div class="separator" style="top: calc(200vh - 3px)"></div>
 </body>
+
+<script>
+    let firstPage = $(".abilities-flex.first-page");
+    let secondPage = $(".abilities-flex.second-page");
+    let lastChild = firstPage.children(":last-child");
+    while(lastChild.position().left >= firstPage.width()) {
+        lastChild.prependTo(secondPage);
+        lastChild = firstPage.children(":last-child");
+    }
+</script>
 </html>

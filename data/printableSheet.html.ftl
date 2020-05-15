@@ -1,10 +1,12 @@
+[#ftl]
 <!doctype html>
 <html lang="en-US">
 <head>
     <style>
-        <#include "printableStyle.css">
+        [#include "printableStyle.css"]
     </style>
-    <title>PF2 Printable Character Sheet</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>PF2 - ${character.name}</title>
 </head>
 <body>
 <div id="page1">
@@ -301,8 +303,8 @@
                     <div class="label">Traits</div>
                 </div>
             </div>
-<#macro weaponBlock weapon type>
-    <#if type == "melee">
+[#macro weaponBlock weapon type]
+    [#if type == "melee"]
         <div class="row-stretch" style="flex-grow: 0">
             <div class="weapon-label">${weapon.name}</div>
             <div class="column">
@@ -313,24 +315,24 @@
                     </div>
                     <div class="line">
                         <div class="underlined weapon-info">
-                            <#list weapon.damage.asList() as damage>
-                                ${damage}<#sep><br> + </#sep>
-                            </#list>
+                            [#list weapon.damage.asList() as damage]
+                                ${damage}[#sep]<br> + [/#sep]
+                            [/#list]
                         </div>
                         <div class="label">Damage</div>
                     </div>
                 </div>
                 <div class="line">
                     <div class="underlined weapon-traits">
-                        <#list weapon.traits as trait>
-                            ${trait}<#sep>, </#sep>
-                    </#list>
+                        [#list weapon.traits as trait]
+                            ${trait}[#sep], [/#sep]
+                    [/#list]
                 </div>
                     <div class="label">Traits</div>
                 </div>
             </div>
         </div>
-    <#elseif type == "ranged">
+    [#elseif type == "ranged"]
         <div class="row-stretch" style="flex-grow:0">
             <div class="weapon-label">${weapon.name}</div>
             <div class="column">
@@ -341,9 +343,9 @@
                     </div>
                     <div class="line">
                         <div class="underlined weapon-info">
-                            <#list weapon.damage.asList() as damage>
-                                ${damage}<#sep><br> + </#sep>
-                            </#list>
+                            [#list weapon.damage.asList() as damage]
+                                ${damage}[#sep]<br> + [/#sep]
+                            [/#list]
                         </div>
                         <div class="label">Damage</div>
                     </div>
@@ -354,48 +356,99 @@
                 </div>
                 <div class="line">
                     <div class="underlined weapon-traits">
-                        <#list weapon.traits as trait>
-                            ${trait}<#sep>, </#sep>
-                        </#list>
+                        [#list weapon.traits as trait]
+                            ${trait}[#sep], [/#sep]
+                        [/#list]
                     </div>
                     <div class="label">Traits</div>
                 </div>
             </div>
         </div>
-    </#if>
-</#macro>
+    [/#if]
+[/#macro]
             <div class="sectionDivider">
                 <hr>
             </div>
             <div class="sectionLabel">Melee Strikes</div>
-            <#list character.attacks as attack>
-                <#if item.category == "Weapon">
-                    <@weaponBlock weapon=item type="melee"/>
-                </#if>
-            </#list>
-            <#list character.inventory as item>
-                <#if item.category == "Weapon">
-                    <@weaponBlock weapon=item type="melee"/>
-                </#if>
-            </#list>
+            [#list character.attacks as attack]
+                [#if item.category == "Weapon"]
+                    [@weaponBlock weapon=item type="melee"/]
+                [/#if]
+            [/#list]
+            [#list character.inventory as item]
+                [#if item.category == "Weapon"]
+                    [@weaponBlock weapon=item type="melee"/]
+                [/#if]
+            [/#list]
             <div class="sectionDivider">
                 <hr>
             </div>
             <div class="sectionLabel">Ranged Strikes</div>
-            <#list character.attacks as attack>
-                <#if item.category == "Ranged Weapon">
-                    <@weaponBlock weapon=item type="ranged"/>
-                </#if>
-            </#list>
-            <#list character.inventory as item>
-                <#if item.category == "Ranged Weapon">
-                    <@weaponBlock weapon=item type="ranged"/>
-                </#if>
-            </#list>
+            [#list character.attacks as attack]
+                [#if item.category == "Ranged Weapon"]
+                    [@weaponBlock weapon=item type="ranged"/]
+                [/#if]
+            [/#list]
+            [#list character.inventory as item]
+                [#if item.category == "Ranged Weapon"]
+                    [@weaponBlock weapon=item type="ranged"/]
+                [/#if]
+            [/#list]
             <div class="sectionDivider">
                 <hr>
             </div>
             <div class="sectionLabel">Actions and Activities</div>
+[#macro actionBlock action]
+[#assign reaction=false]
+<div class="row-stretch action" style="flex-grow: 0">
+    <div class="action-icon">[#switch action.cost]
+        [#case "Free"]F[#break]
+        [#case "Reaction"]R[#assign reaction=true][#break]
+        [#case "One"]1[#break]
+        [#case "Two"]2[#break]
+        [#case "Three"]3[#break]
+        [/#switch]</div>
+    <div class="action-label">${action.name}</div>
+    <div class="column-wrap action-details">
+        [#if action.traits?has_content]
+        <div class="line">
+            <div class="underlined">[#list action.traits as trait]${trait}[#sep], [/#sep][/#list]</div>
+            <div class="label">Traits</div>
+        </div>
+        [/#if]
+        [#if reaction]
+        <div class="line">
+            <div class="underlined">${action.trigger}</div>
+            <div class="label">Trigger</div>
+        </div>
+        [/#if]
+        [#if action.frequency?has_content]
+        <div class="line">
+            <div class="underlined">${action.frequency}</div>
+            <div class="label">Frequency</div>
+        </div>
+        [/#if]
+        [#if action.requirements?has_content]
+        <div class="line">
+            <div class="underlined">${action.requirements}</div>
+            <div class="label">Requirements</div>
+        </div>
+        [/#if]
+    </div>
+</div>
+[/#macro]
+            <div class="column" style="flex-grow: 0">
+                [#assign notFirst=false]
+                [#list character.abilities as ability]
+                    [#if Activity.isInstance(ability)]
+                        [#if notFirst]
+                            <div class="action-divider"></div>
+                        [/#if]
+                        [@actionBlock action=ability /]
+                        [#assign notFirst=true]
+                    [/#if]
+                [/#list]
+            </div>
         </div>
     </div>
     <div id="rightThird">
@@ -410,7 +463,7 @@
                 <div class="label">Stat</div>
                 <div class="label">Prof</div>
                 <div class="label">Item</div>
-                <#list character.skills as skill>
+                [#list character.skills as skill]
                     <div class="skill-label">${skill.name}</div>
                     <div class="line">
                         <div class="underlined-roll">${skill.total?string.@s}</div>
@@ -422,10 +475,63 @@
                     <div class="line">
                         <div class="numBox">${skill.itemBonus?string.@s}</div>
                     </div>
-                </#list>
+                [/#list]
             </div>
         </div>
     </div>
 </div>
+[#macro abilityPart label content=""]
+    [#if content?has_content]
+        <div class="line">
+            <div class="underlined" style="flex-direction: row">
+                ${content}
+            </div>
+            <div class="label">${label}</div>
+        </div>
+    [/#if]
+[/#macro]
+<div id="page2">
+    <div class="printBorder"></div>
+    <div class="abilities-flex first-page">
+        [#list character.abilities as ability]
+        <div class="ability-box">
+            [#if Activity.isInstance(ability)]<div class="action-icon">
+                [#switch ability.cost]
+                    [#case "Free"]F[#break]
+                    [#case "Reaction"]R[#assign reaction=true][#break]
+                    [#case "One"]1[#break]
+                    [#case "Two"]2[#break]
+                    [#case "Three"]3[#break]
+                [/#switch]
+            </div>[/#if]
+            <div class="ability-title">
+                ${ability.name}
+            </div>
+            [@abilityPart label="Source" content=ability.source /]
+            [@abilityPart label="Traits" content=ability.traits?join(", ") /]
+            [@abilityPart label="Requirements" content=ability.requirements /]
+            [@abilityPart label="Frequency" content=ability.frequency /]
+            [@abilityPart label="Trigger" content=ability.trigger /]
+            <div class="ability-description">${ability.desc}</div>
+        </div>
+        [/#list]
+    </div>
+</div>
+<div id="page3">
+    <div class="printBorder"></div>
+    <div class="abilities-flex second-page"></div>
+</div>
+<div class="separator" style="top: -3px"></div>
+<div class="separator" style="top: calc(100vh - 3px)"></div>
+<div class="separator" style="top: calc(200vh - 3px)"></div>
 </body>
+<script>
+    let firstPage = $(".abilities-flex.first-page");
+    let secondPage = $(".abilities-flex.second-page");
+    let lastChild = firstPage.children(":last-child");
+    while(lastChild.position().left >= firstPage.width()) {
+        lastChild.prependTo(secondPage);
+        lastChild = firstPage.children(":last-child");
+    }
+</script>
 </html>
