@@ -9,7 +9,7 @@
     <title>PF2 - ${character.name}</title>
 </head>
 <body>
-<div id="page1">
+<div class="page">
     <div id="printBorder"></div>
     <div id="leftThird">
         <div class="column" style="justify-content: stretch">
@@ -480,7 +480,7 @@
         </div>
     </div>
 </div>
-[#macro abilityPart label content=""]
+[#macro linePart label content=""]
     [#if content?has_content]
         <div class="line">
             <div class="underlined" style="flex-direction: row">
@@ -490,7 +490,7 @@
         </div>
     [/#if]
 [/#macro]
-<div id="page2">
+<div class="page">
     <div class="printBorder"></div>
     <div class="abilities-flex first-page">
         [#list character.abilities as ability]
@@ -507,31 +507,178 @@
             <div class="ability-title">
                 ${ability.name}
             </div>
-            [@abilityPart label="Source" content=ability.source /]
-            [@abilityPart label="Traits" content=ability.traits?join(", ") /]
-            [@abilityPart label="Requirements" content=ability.requirements /]
-            [@abilityPart label="Frequency" content=ability.frequency /]
-            [@abilityPart label="Trigger" content=ability.trigger /]
+            [@linePart label="Source" content=ability.source /]
+            [@linePart label="Traits" content=ability.traits?join(", ") /]
+            [@linePart label="Requirements" content=ability.requirements /]
+            [@linePart label="Frequency" content=ability.frequency /]
+            [@linePart label="Trigger" content=ability.trigger /]
             <div class="ability-description">${ability.desc}</div>
         </div>
         [/#list]
+        <div id="inventory-grid">
+            <div class="inventory-title col-section-title">Inventory</div>
+            <div class="col-section-label">#</div>
+            <div class="col-section-label">
+                Item Name
+            </div>
+            <div class="col-section-label">Wt.</div>
+            [#list character.inventory as item]
+                <div>${item.count}</div>
+                <div>${item.stats.name}</div>
+                <div>${item.stats.prettyWeight}</div>
+            [/#list]
+        </div>
+        <div id="spells-prepared">
+            <div class="spells-title col-section-title">Spells</div>
+            <div class="col-section-label" style="border-left: 1px solid black">Spell Name</div>
+            <div class="col-section-label col-center" style="border-right: 1px solid black">Slots</div>
+            [#list character.spellsKnown as levelSpells]
+                [#if levelSpells?size > 0]
+                    [#assign level=levelSpells?index]
+                    <div class="spells-level"><div class="spells-level-label">
+                        [#if level == 0]
+                            Cantrips
+                        [#else]
+                            Level ${level}
+                        [/#if]
+                    </div></div>
+                    [#list levelSpells as spell]
+                        <div class="spells-name">${spell.name}</div>
+                        <div class="spells-slot-container">
+                            [#if level == 0]
+                                <div class="spells-slot"></div>
+                            [#else]
+                                <div class="spells-slot"></div>
+                                <div class="spells-slot"></div>
+                                <div class="spells-slot"></div>
+                            [/#if]
+                        </div>
+                    [/#list]
+                [/#if]
+            [/#list]
+        </div>
+        [#list character.spellsKnown as levelSpells]
+            [#list levelSpells as spell]
+                <div class="spell-box">
+                    <div class="spell-attrs">
+                        <div class="spell-title">
+                            ${spell.name}
+                        </div>
+                        <div class="spell-cost">
+                            <div class="[#if spell.cast?seq_contains("Verbal")]spell-cost-yes[#else]spell-cost-no[/#if]">V</div>
+                            <div class="[#if spell.cast?seq_contains("Somatic")]spell-cost-yes[#else]spell-cost-no[/#if]">S</div>
+                            <div class="[#if spell.cast?seq_contains("Material")]spell-cost-yes[#else]spell-cost-no[/#if]">M</div>
+                        </div>
+                        [@linePart label="Casting Time" content=spell.castTime /]
+                        [@linePart label="Source" content=spell.source /]
+                        [@linePart label="Traits" content=spell.traits?join(", ") /]
+                        [@linePart label="Requirements" content=spell.requirements /]
+                        [@linePart label="Range" content=spell.range /]
+                        [@linePart label="Area" content=spell.area /]
+                        [@linePart label="Targets" content=spell.targets /]
+                        [@linePart label="Duration" content=spell.duration /]
+                        [@linePart label="Save" content=spell.save /]
+                    </div>
+                    <div class="ability-description">
+                        ${spell.description}
+                    </div>
+                </div>
+            [/#list]
+        [/#list]
     </div>
 </div>
-<div id="page3">
-    <div class="printBorder"></div>
-    <div class="abilities-flex second-page"></div>
-</div>
 <div class="separator" style="top: -3px"></div>
-<div class="separator" style="top: calc(100vh - 3px)"></div>
-<div class="separator" style="top: calc(200vh - 3px)"></div>
 </body>
 <script>
-    let firstPage = $(".abilities-flex.first-page");
-    let secondPage = $(".abilities-flex.second-page");
-    let lastChild = firstPage.children(":last-child");
-    while(lastChild.position().left >= firstPage.width()) {
-        lastChild.prependTo(secondPage);
-        lastChild = firstPage.children(":last-child");
+    function moveLeft() {
+        currentLeftIndex += 1;
+        switch(currentLeftIndex) {
+            case 1:
+                currentLeft = "calc(4px + 100% / 3)";
+                break;
+            case 2:
+                currentLeft = "calc(4px + 200% / 3)";
+                break;
+            case 3:
+                currentLeftIndex = 0;
+                currentLeft = "4px";
+                currPage = $("<div class='page'><div class='printBorder'></div><div class='abilities-flex'></div></div>")
+                    .insertAfter(currPage.parent()).children(".abilities-flex");
+                numPages += 1;
+                break;
+        }
+    }
+    function binaryHeightSearch(text, maxHeight) {
+        let contents = text.html();
+        let start = 0;
+        let end = contents.length;
+        while(start < end) {
+            let middle = contents.indexOf(" ", Math.ceil((start + end) / 2));
+            text.html(contents.substring(0, middle));
+            if(text.parent().outerHeight(true) > maxHeight) {
+                end = Math.ceil((start + end) / 2) - 1;
+            } else {
+                start = middle;
+            }
+        }
+        text.html(contents.substring(0, start));
+        if(end < contents.length)
+            text.parent().css("border-bottom", "none");
+        return contents.substring(start);
+    }
+
+    let firstPage = $(".abilities-flex").first();
+    let currPage = firstPage; let numPages = 1;
+    let currentTop = 0;
+    let currentLeft = "4px"; let currentLeftIndex = 0;
+    let totalHeight = firstPage.outerHeight(true);
+    firstPage.children().each(function(index) {
+        // Move to a new line if it's the inventory or spells
+        if($(this).attr("id") === "inventory-grid" || $(this).attr("id") === "spells-prepared") {
+            moveLeft();
+            currentTop = 0;
+        }
+        // Completely move to next if only small space left
+        let descTop = $(this).find(".ability-description");
+        let infoHeight = 0;
+        if(descTop.length > 0) {
+            descTop = descTop.first();
+            infoHeight = descTop.position().top;
+            if(currentTop + infoHeight >= totalHeight) {
+                currentTop = 0;
+                moveLeft();
+            }
+        }
+        // Place the element
+        $(this).css("left", currentLeft);
+        $(this).css("top", currentTop);
+        if(currPage !== firstPage)
+            $(this).appendTo(currPage);
+        currentTop += $(this).outerHeight(true);
+
+        // If overflows at all, clone remainder to next
+        if(currentTop >= totalHeight) {
+            currentTop -= totalHeight;
+            moveLeft();
+            let clone = $(this).clone();
+            clone.css("left", currentLeft);
+            clone.css("top", 0);
+            clone.children().last().html(binaryHeightSearch(descTop, totalHeight - $(this).position().top));
+            clone.children(":not(:last-child)").remove();
+            clone.appendTo(currPage);
+            currentTop = clone.outerHeight(true);
+        }
+    });
+    for(let i = 1; i <= numPages; i++) {
+        $(".separator").last().after($("<div class='separator' style='top: calc("+i+"00vh - 3px)'></div>"));
+    }
+    let inventoryGrid = $("#inventory-grid");
+    for(let i = 0; i < 10; i++) {
+        inventoryGrid.append($("<div></div><div></div><div></div>"));
+        if(inventoryGrid.children().last().position().top <= inventoryGrid.position().top) {
+            for(let j = 0; j < 3; j++)
+                inventoryGrid.children().last().remove();
+        }
     }
 </script>
 </html>
