@@ -301,7 +301,7 @@
             <hr>
         </div>
         <div class="sectionLabel">Melee Strikes</div>
-        <div class="row-stretch" style="flex-grow: 0">
+        <div class="row-stretch weapon" style="flex-grow: 0">
             <div class="weapon-label">Weapon 1</div>
             <div class="column">
                 <div class="row-stretch">
@@ -320,7 +320,7 @@
                 </div>
             </div>
         </div>
-        <div class="row-stretch" style="flex-grow: 0">
+        <div class="row-stretch weapon" style="flex-grow: 0">
             <div class="weapon-label">Weapon 2</div>
             <div class="column">
                 <div class="row-stretch">
@@ -343,7 +343,7 @@
             <hr>
         </div>
         <div class="sectionLabel">Ranged Strikes</div>
-        <div class="row-stretch" style="flex-grow: 0">
+        <div class="row-stretch weapon" style="flex-grow: 0">
             <div class="weapon-label">Ranged Weapon 1</div>
             <div class="column">
                 <div class="row-stretch">
@@ -366,7 +366,7 @@
                 </div>
             </div>
         </div>
-        <div class="row-stretch" style="flex-grow: 0">
+        <div class="row-stretch weapon" style="flex-grow: 0">
             <div class="weapon-label">Ranged Weapon 2</div>
             <div class="column">
                 <div class="row-stretch">
@@ -1413,14 +1413,28 @@
             <div class="col-section-label" style="border-left: 1px solid black">Spell Name</div>
             <div class="col-section-label col-center" style="border-right: 1px solid black">Slots</div>
             <div class="spells-level">
+                <div class="spells-line fixed"></div>
                 <div class="spells-level-label">Cantrips</div>
+                <div class="spells-line"></div>
+            </div>
+            <div class="spells-level">
+                <div class="spells-line"></div>
+                <div class="spells-level-label">4</div>
+                <div class="spells-line"></div>
             </div>
             <div class="spells-name">Electric Arc</div>
             <div class="spells-slot-container"><div class="spells-slot"></div></div>
             <div class="spells-name">Produce Flame</div>
             <div class="spells-slot-container"><div class="spells-slot"></div></div>
             <div class="spells-level">
+                <div class="spells-line fixed"></div>
                 <div class="spells-level-label">Level 1</div>
+                <div class="spells-line"></div>
+            </div>
+            <div class="spells-level">
+                <div class="spells-line"></div>
+                <div class="spells-level-label">3</div>
+                <div class="spells-line"></div>
             </div>
             <div class="spells-name">Mage Armor</div>
             <div class="spells-slot-container">
@@ -1441,7 +1455,14 @@
                 <div class="spells-slot"></div>
             </div>
             <div class="spells-level">
+                <div class="spells-line fixed"></div>
                 <div class="spells-level-label">Level 2</div>
+                <div class="spells-line"></div>
+            </div>
+            <div class="spells-level">
+                <div class="spells-line"></div>
+                <div class="spells-level-label">2</div>
+                <div class="spells-line"></div>
             </div>
             <div class="spells-name">Glitterdust</div>
             <div class="spells-slot-container">
@@ -1454,6 +1475,49 @@
                 <div class="spells-slot"></div>
                 <div class="spells-slot"></div>
                 <div class="spells-slot"></div>
+            </div>
+        </div>
+        <div id="spells-spontaneous">
+            <div class="spells-title col-section-title">Spells</div>
+            <div id="spells-spontaneous-grid">
+                <div class="spells-level" style="grid-column-end: span 2">
+                    <div class="spells-line"></div>
+                    <div class="spells-level-label">Cantrips</div>
+                    <div class="spells-line"></div>
+                </div>
+                <div class="spells-name left">Electric Arc</div>
+                <div class="spells-name right">Produce Flame</div>
+                <div class="spells-level">
+                    <div class="spells-line"></div>
+                    <div class="spells-level-label">Level 1</div>
+                    <div class="spells-line"></div>
+                </div>
+                <div class="spells-level">
+                    <div class="spells-line"></div>
+                    <div class="spells-slot"></div>
+                    <div class="spells-slot"></div>
+                    <div class="spells-slot"></div>
+                    <div class="spells-slot"></div>
+                    <div class="spells-line"></div>
+                </div>
+                <div class="spells-name left">Acid Arrow</div>
+                <div class="spells-name right">Mage Armor</div>
+                <div class="spells-name left">Magic Missile</div>
+                <div class="spells-name right">Ray of Enfeeblement</div>
+                <div class="spells-level">
+                    <div class="spells-line"></div>
+                    <div class="spells-level-label">Level 2</div>
+                    <div class="spells-line"></div>
+                </div>
+                <div class="spells-level">
+                    <div class="spells-line"></div>
+                    <div class="spells-slot"></div>
+                    <div class="spells-slot"></div>
+                    <div class="spells-slot"></div>
+                    <div class="spells-line"></div>
+                </div>
+                <div class="spells-name left">Glitterdust</div>
+                <div class="spells-name right">Remove Blindness</div>
             </div>
         </div>
         <div class="spell-box">
@@ -1548,6 +1612,14 @@
 </body>
 
 <script>
+    let inventoryGrid = $("#inventory-grid");
+    for(let i = 0; i < 10; i++) {
+        inventoryGrid.append($("<div></div><div></div><div></div>"));
+        if(inventoryGrid.children().last().position().top <= inventoryGrid.position().top) {
+            for(let j = 0; j < 3; j++)
+                inventoryGrid.children().last().remove();
+        }
+    }
     function moveLeft() {
         currentLeftIndex += 1;
         switch(currentLeftIndex) {
@@ -1560,18 +1632,22 @@
             case 3:
                 currentLeftIndex = 0;
                 currentLeft = "4px";
-                currPage = $("<div class='page'><div class='printBorder'></div><div class='abilities-flex'></div></div>")
-                    .insertAfter(currPage.parent()).children(".abilities-flex");
+                let futurePage = $("<div class='page'><div class='printBorder'></div><div class='abilities-flex'></div></div>")
+                    .insertAfter(currPage.parent());
+                futurePage.css("top", "calc("+currPage.parent().css("top")+" + 100vh)");
+                currPage = futurePage.children(".abilities-flex");
                 numPages += 1;
                 break;
         }
     }
     function binaryHeightSearch(text, maxHeight) {
         let contents = text.html();
+        if (contents === null || contents === undefined) return "";
         let start = 0;
         let end = contents.length;
         while(start < end) {
             let middle = contents.indexOf(" ", Math.ceil((start + end) / 2));
+            if(middle === -1) middle = end;
             text.html(contents.substring(0, middle));
             if(text.parent().outerHeight(true) > maxHeight) {
                 end = Math.ceil((start + end) / 2) - 1;
@@ -1590,9 +1666,11 @@
     let currentTop = 0;
     let currentLeft = "4px"; let currentLeftIndex = 0;
     let totalHeight = firstPage.outerHeight(true);
-    firstPage.children().each(function(index) {
+    firstPage.children().each(function() {
         // Move to a new line if it's the inventory or spells
-        if($(this).attr("id") === "inventory-grid" || $(this).attr("id") === "spells-prepared") {
+        if($(this).attr("id") === "inventory-grid"
+            || $(this).attr("id") === "spells-prepared"
+            || $(this).attr("id") === "spells-spontaneous") {
             moveLeft();
             currentTop = 0;
         }
@@ -1615,28 +1693,23 @@
         currentTop += $(this).outerHeight(true);
 
         // If overflows at all, clone remainder to next
-        if(currentTop >= totalHeight) {
+        let curr = $(this);
+        while(currentTop >= totalHeight && descTop.length > 0) {
             currentTop -= totalHeight;
             moveLeft();
-            let clone = $(this).clone();
+            let clone = curr.clone();
             clone.css("left", currentLeft);
             clone.css("top", 0);
-            clone.children().last().html(binaryHeightSearch(descTop, totalHeight - $(this).position().top));
+            clone.children().last().html(binaryHeightSearch(descTop, totalHeight - curr.position().top));
             clone.children(":not(:last-child)").remove();
             clone.appendTo(currPage);
             currentTop = clone.outerHeight(true);
+            curr = clone;
+            descTop = curr.find(".ability-description");
         }
     });
     for(let i = 1; i <= numPages; i++) {
         $(".separator").last().after($("<div class='separator' style='top: calc("+i+"00vh - 3px)'></div>"));
-    }
-    let inventoryGrid = $("#inventory-grid");
-    for(let i = 0; i < 10; i++) {
-        inventoryGrid.append($("<div></div><div></div><div></div>"));
-        if(inventoryGrid.children().last().position().top <= inventoryGrid.position().top) {
-            for(let j = 0; j < 3; j++)
-                inventoryGrid.children().last().remove();
-        }
     }
 </script>
 </html>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="page">
-    <div id="printBorder"></div>
+    <div class="printBorder"></div>
     <div id="leftThird">
         <div class="column" style="justify-content: stretch">
             <div>PATHFINDER CHARACTER SHEET</div>
@@ -96,7 +96,7 @@
                 <hr>
             </div>
             <div class="sectionLabel">Health</div>
-            <div class="row-between">
+            <div class="row-between" style="flex-grow: 5">
                 <div class="line" style="flex-grow: 0">
                     <div class="numBox rounded">${character.hp}</div>
                     <div class="label">Max</div>
@@ -271,7 +271,9 @@
                     <div class="label">Character Name</div>
                 </div>
                 <div class="line" style="grid-column-end: span 2">
-                    <div class="underlined">${character.heritage} ${character.ancestry}</div>
+                    <div class="underlined">
+                    ${character.heritage} [#if !character.heritage?ends_with(character.ancestry)]${character.ancestry}[/#if]
+                    </div>
                     <div class="label">Ancestry & Heritage</div>
                 </div>
                 <div class="line" style="grid-column-end: span 2">
@@ -304,56 +306,34 @@
                 </div>
             </div>
 [#macro weaponBlock weapon type]
-    [#if type == "melee"]
-        <div class="row-stretch" style="flex-grow: 0">
-            <div class="weapon-label">${weapon.name}</div>
-            <div class="column">
-                <div class="row-stretch">
-                    <div class="line">
-                        <div class="underlined">${weapon.attack?string.@s}</div>
-                        <div class="label">Attack</div>
-                    </div>
-                    <div class="line">
-                        <div class="underlined weapon-info">
-                            [#list weapon.damage.asList() as damage]
-                                ${damage}[#sep]<br> + [/#sep]
-                            [/#list]
-                        </div>
-                        <div class="label">Damage</div>
-                    </div>
+    <div class="row-stretch weapon" style="flex-grow:0">
+        <div class="weapon-label">${weapon.name}</div>
+        <div class="column">
+            <div class="row-stretch">
+                <div class="line" style="flex-grow: .5">
+                    <div class="underlined weapon-info">${weapon.attack?string.@s}</div>
+                    <div class="label">Attack</div>
                 </div>
                 <div class="line">
-                    <div class="underlined weapon-traits">
-                        [#list weapon.traits as trait]
-                            ${trait}[#sep], [/#sep]
-                    [/#list]
-                </div>
-                    <div class="label">Traits</div>
-                </div>
-            </div>
-        </div>
-    [#elseif type == "ranged"]
-        <div class="row-stretch" style="flex-grow:0">
-            <div class="weapon-label">${weapon.name}</div>
-            <div class="column">
-                <div class="row-stretch">
-                    <div class="line">
-                        <div class="underlined weapon-info">${weapon.attack?string.@s}</div>
-                        <div class="label">Attack</div>
+                    <div class="underlined weapon-info">
+                        [#list weapon.damage.asList() as damage]
+                            ${damage}[#sep]<br> + [/#sep]
+                        [/#list]
                     </div>
-                    <div class="line">
-                        <div class="underlined weapon-info">
-                            [#list weapon.damage.asList() as damage]
-                                ${damage}[#sep]<br> + [/#sep]
-                            [/#list]
-                        </div>
-                        <div class="label">Damage</div>
+                    <div class="label">Damage</div>
+                </div>
+                <div class="line" style="flex-grow: .5">
+                    <div class="underlined weapon-info">
+                        ${weapon.hands}
                     </div>
+                    <div class="label">Hands</div>
+                </div>
+                [#if type == "ranged"]
                     <div class="line">
                         <div class="underlined weapon-info">${weapon.range} ft.</div>
                         <div class="label">Range</div>
                     </div>
-                </div>
+                [/#if]
                 <div class="line">
                     <div class="underlined weapon-traits">
                         [#list weapon.traits as trait]
@@ -364,7 +344,7 @@
                 </div>
             </div>
         </div>
-    [/#if]
+    </div>
 [/#macro]
             <div class="sectionDivider">
                 <hr>
@@ -528,35 +508,88 @@
                 <div>${item.stats.prettyWeight}</div>
             [/#list]
         </div>
-        <div id="spells-prepared">
-            <div class="spells-title col-section-title">Spells</div>
-            <div class="col-section-label" style="border-left: 1px solid black">Spell Name</div>
-            <div class="col-section-label col-center" style="border-right: 1px solid black">Slots</div>
-            [#list character.spellsKnown as levelSpells]
-                [#if levelSpells?size > 0]
-                    [#assign level=levelSpells?index]
-                    <div class="spells-level"><div class="spells-level-label">
-                        [#if level == 0]
-                            Cantrips
-                        [#else]
-                            Level ${level}
-                        [/#if]
-                    </div></div>
-                    [#list levelSpells as spell]
-                        <div class="spells-name">${spell.name}</div>
-                        <div class="spells-slot-container">
-                            [#if level == 0]
-                                <div class="spells-slot"></div>
-                            [#else]
-                                <div class="spells-slot"></div>
-                                <div class="spells-slot"></div>
-                                <div class="spells-slot"></div>
-                            [/#if]
+        [#if character.casterType == "Prepared"]
+            <div id="spells-prepared">
+                <div class="spells-title col-section-title">Spells</div>
+                <div class="col-section-label" style="border-left: 1px solid black">Spell Name</div>
+                <div class="col-section-label col-center" style="border-right: 1px solid black">Slots</div>
+                [#list character.spellsKnown as levelSpells]
+                    [#if levelSpells?size > 0]
+                            [#assign level=levelSpells?index]
+                        <div class="spells-level">
+                            <div class="spells-line fixed"></div>
+                            <div class="spells-level-label">
+                                [#if level == 0]
+                                    Cantrips
+                                [#else]
+                                    Level ${level}
+                                [/#if]
+                            </div>
+                            <div class="spells-line"></div>
                         </div>
+                        <div class="spells-level">
+                            <div class="spells-line"></div>
+                            <div class="spells-level-label">${character.spellSlots[level]}</div>
+                            <div class="spells-line"></div>
+                        </div>
+                        [#list levelSpells as spell]
+                            <div class="spells-name">${spell.name}</div>
+                            <div class="spells-slot-container">
+                                [#if level == 0]
+                                    <div class="spells-slot"></div>
+                                [#else]
+                                    [#assign slots=character.spellSlots[level]]
+                                    [#list 1..((slots < 3)?then(slots, 3)) as i]
+                                        <div class="spells-slot"></div>
+                                    [/#list]
+                                [/#if]
+                            </div>
+                        [/#list]
+                    [/#if]
+                [/#list]
+            </div>
+        [#elseif character.casterType == "Spontaneous"]
+            <div id="spells-spontaneous">
+                <div class="spells-title col-section-title">Spells</div>
+                <div id="spells-spontaneous-grid">
+                    [#list character.spellsKnown as levelSpells]
+                        [#if levelSpells?size > 0]
+                            [#assign level=levelSpells?index]
+                            [#if level == 0]
+                                <div class="spells-level" style="grid-column-end: span 2">
+                                    <div class="spells-line"></div>
+                                    <div class="spells-level-label">Cantrips</div>
+                                    <div class="spells-line"></div>
+                                </div>
+                            [#else]
+                                <div class="spells-level">
+                                    <div class="spells-line"></div>
+                                    <div class="spells-level-label">Level ${level}</div>
+                                    <div class="spells-line"></div>
+                                </div>
+                                <div class="spells-level">
+                                    <div class="spells-line"></div>
+                                    [#list 1..character.spellSlots[level] as i]
+                                        <div class="spells-slot"></div>
+                                    [/#list]
+                                    <div class="spells-line"></div>
+                                </div>
+                            [/#if]
+                            [#list levelSpells as spell]
+                                [#if spell?index % 2 == 0]
+                                    <div class="spells-name left">${spell.name}</div>
+                                [#else]
+                                    <div class="spells-name right">${spell.name}</div>
+                                [/#if]
+                            [/#list]
+                            [#if levelSpells?size % 2 == 1]
+                                <div class="spells-name right"></div>
+                            [/#if]
+                        [/#if]
                     [/#list]
-                [/#if]
-            [/#list]
-        </div>
+                </div>
+            </div>
+        [/#if]
         [#list character.spellsKnown as levelSpells]
             [#list levelSpells as spell]
                 <div class="spell-box">
@@ -590,6 +623,14 @@
 <div class="separator" style="top: -3px"></div>
 </body>
 <script>
+    let inventoryGrid = $("#inventory-grid");
+    for(let i = 0; i < 10; i++) {
+        inventoryGrid.append($("<div></div><div></div><div></div>"));
+        if(inventoryGrid.children().last().position().top <= inventoryGrid.position().top) {
+            for(let j = 0; j < 3; j++)
+                inventoryGrid.children().last().remove();
+        }
+    }
     function moveLeft() {
         currentLeftIndex += 1;
         switch(currentLeftIndex) {
@@ -602,18 +643,22 @@
             case 3:
                 currentLeftIndex = 0;
                 currentLeft = "4px";
-                currPage = $("<div class='page'><div class='printBorder'></div><div class='abilities-flex'></div></div>")
-                    .insertAfter(currPage.parent()).children(".abilities-flex");
+                let futurePage = $("<div class='page'><div class='printBorder'></div><div class='abilities-flex'></div></div>")
+                    .insertAfter(currPage.parent());
+                futurePage.css("top", "calc("+currPage.parent().css("top")+" + 100vh)");
+                currPage = futurePage.children(".abilities-flex");
                 numPages += 1;
                 break;
         }
     }
     function binaryHeightSearch(text, maxHeight) {
         let contents = text.html();
+        if (contents === null || contents === undefined) return "";
         let start = 0;
         let end = contents.length;
         while(start < end) {
             let middle = contents.indexOf(" ", Math.ceil((start + end) / 2));
+            if(middle === -1) middle = end;
             text.html(contents.substring(0, middle));
             if(text.parent().outerHeight(true) > maxHeight) {
                 end = Math.ceil((start + end) / 2) - 1;
@@ -632,9 +677,11 @@
     let currentTop = 0;
     let currentLeft = "4px"; let currentLeftIndex = 0;
     let totalHeight = firstPage.outerHeight(true);
-    firstPage.children().each(function(index) {
+    firstPage.children().each(function() {
         // Move to a new line if it's the inventory or spells
-        if($(this).attr("id") === "inventory-grid" || $(this).attr("id") === "spells-prepared") {
+        if($(this).attr("id") === "inventory-grid"
+            || $(this).attr("id") === "spells-prepared"
+            || $(this).attr("id") === "spells-spontaneous") {
             moveLeft();
             currentTop = 0;
         }
@@ -657,28 +704,23 @@
         currentTop += $(this).outerHeight(true);
 
         // If overflows at all, clone remainder to next
-        if(currentTop >= totalHeight) {
+        let curr = $(this);
+        while(currentTop >= totalHeight && descTop.length > 0) {
             currentTop -= totalHeight;
             moveLeft();
-            let clone = $(this).clone();
+            let clone = curr.clone();
             clone.css("left", currentLeft);
             clone.css("top", 0);
-            clone.children().last().html(binaryHeightSearch(descTop, totalHeight - $(this).position().top));
+            clone.children().last().html(binaryHeightSearch(descTop, totalHeight - curr.position().top));
             clone.children(":not(:last-child)").remove();
             clone.appendTo(currPage);
             currentTop = clone.outerHeight(true);
+            curr = clone;
+            descTop = curr.find(".ability-description");
         }
     });
     for(let i = 1; i <= numPages; i++) {
         $(".separator").last().after($("<div class='separator' style='top: calc("+i+"00vh - 3px)'></div>"));
-    }
-    let inventoryGrid = $("#inventory-grid");
-    for(let i = 0; i < 10; i++) {
-        inventoryGrid.append($("<div></div><div></div><div></div>"));
-        if(inventoryGrid.children().last().position().top <= inventoryGrid.position().top) {
-            for(let j = 0; j < 3; j++)
-                inventoryGrid.children().last().remove();
-        }
     }
 </script>
 </html>
