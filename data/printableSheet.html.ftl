@@ -267,7 +267,7 @@
             <div class="sectionLabel">Character Info</div>
             <div id="info-grid">
                 <div class="line" style="grid-row-end: span 2; grid-column-end: span 2">
-                    <div class="underlined wrap">${character.name}</div>
+                    <div class="underlined wrap">${character.qualities.name}</div>
                     <div class="label">Character Name</div>
                 </div>
                 <div class="line" style="grid-column-end: span 2">
@@ -281,7 +281,7 @@
                     <div class="label">Background</div>
                 </div>
                 <div class="line" style="grid-column-end: span 2">
-                    <div class="underlined">${character.player}</div>
+                    <div class="underlined">${character.qualities.player}</div>
                     <div class="label">Player</div>
                 </div>
                 <div class="line" style="grid-column-end: span 2">

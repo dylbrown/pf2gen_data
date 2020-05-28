@@ -1,7 +1,7 @@
 		<div class="d-cont"><table class="d-table" cellpadding="0" cellspacing="0" height="100%" width="100%" border="0" summary="Character Info">
 		<tr>
-		  <td colspan="2" class="info-item font9">${character.name}</td>
-		  <td colspan="2" class="info-item font9">${character.player}</td>
+		  <td colspan="2" class="info-item font9">${character.qualities.name}</td>
+		  <td colspan="2" class="info-item font9">${character.qualities.player}</td>
 		  <td colspan="1" class="info-item font9">Lawful Neutral</td>
 		</tr>
 		<tr>
@@ -24,8 +24,8 @@
 			<td class="topline">SIZE</td>
 		</tr>
 		<tr>
-			<td class="info-item font9">${character.height}</td>
-			<td class="info-item font9">${character.weight}</td>
+			<td class="info-item font9">${character.qualities.height}</td>
+			<td class="info-item font9">${character.qualities.weight}</td>
 			<td colspan="3" class="info-item font9">TODO:VISION</td>
 		</tr>
 		<tr>
@@ -34,10 +34,10 @@
 			<td colspan="3" class="topline">VISION</td>
 		</tr>
 		<tr>
-			<td class="info-item font9">${character.age}</td>
-			<td class="info-item font9">${character.gender}</td>
-			<td class="info-item font9">${character.eyes}</td>
-			<td class="info-item font9">${character.hair}</td>
+			<td class="info-item font9">${character.qualities.age}</td>
+			<td class="info-item font9">${character.qualities.gender}</td>
+			<td class="info-item font9">${character.qualities.eyes}</td>
+			<td class="info-item font9">${character.qualities.hair}</td>
 			<td class="info-item font9">${character.level}</td>
 		</tr>
 		<tr>

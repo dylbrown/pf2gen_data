@@ -1666,7 +1666,7 @@
     let currentTop = 0;
     let currentLeft = "4px"; let currentLeftIndex = 0;
     let totalHeight = firstPage.outerHeight(true);
-    firstPage.children().each(function() {
+    firstPage.children().each(function(index) {
         // Move to a new line if it's the inventory or spells
         if($(this).attr("id") === "inventory-grid"
             || $(this).attr("id") === "spells-prepared"
@@ -1693,19 +1693,16 @@
         currentTop += $(this).outerHeight(true);
 
         // If overflows at all, clone remainder to next
-        let curr = $(this);
-        while(currentTop >= totalHeight && descTop.length > 0) {
+        if(currentTop >= totalHeight) {
             currentTop -= totalHeight;
             moveLeft();
-            let clone = curr.clone();
+            let clone = $(this).clone();
             clone.css("left", currentLeft);
             clone.css("top", 0);
-            clone.children().last().html(binaryHeightSearch(descTop, totalHeight - curr.position().top));
+            clone.children().last().html(binaryHeightSearch(descTop, totalHeight - $(this).position().top));
             clone.children(":not(:last-child)").remove();
             clone.appendTo(currPage);
             currentTop = clone.outerHeight(true);
-            curr = clone;
-            descTop = curr.find(".ability-description");
         }
     });
     for(let i = 1; i <= numPages; i++) {
