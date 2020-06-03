@@ -17,7 +17,7 @@
         <b>${character.pclass.name} ${character.ancestry.name} ${character.level}</b><br />
         <b>Perception</b> ${character.attributes.perception.total?string.@s}<br />
         <b>Languages</b>
-        [#list character.languages as language]
+        [#list character.qualities.languages as language]
             ${language}[#sep], [/#sep]
         [#else]None[/#list]
         <br />

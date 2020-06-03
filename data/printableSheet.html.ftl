@@ -304,6 +304,14 @@
                     <div class="underlined"><!--TODO--></div>
                     <div class="label">Traits</div>
                 </div>
+                <div class="line" style="grid-column-end: span 4">
+                    <div class="underlined">
+                        [#list character.qualities.languages as language]
+                            ${language}[#sep], [/#sep]
+                        [#else]None[/#list]
+                    </div>
+                    <div class="label">Languages</div>
+                </div>
             </div>
 [#macro weaponBlock weapon type]
     <div class="row-stretch weapon" style="flex-grow:0">
