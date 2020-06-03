@@ -6,7 +6,7 @@
         [#include "printableStyle.css"]
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>PF2 - ${character.name}</title>
+    <title>PF2 - ${character.qualities.name}</title>
 </head>
 <body>
 <div class="page">
