@@ -304,13 +304,21 @@
                     <div class="underlined"><!--TODO--></div>
                     <div class="label">Traits</div>
                 </div>
-                <div class="line" style="grid-column-end: span 4">
+                <div class="line" style="grid-column-end: span 2">
                     <div class="underlined">
                         [#list character.qualities.languages as language]
                             ${language}[#sep], [/#sep]
                         [#else]None[/#list]
                     </div>
                     <div class="label">Languages</div>
+                </div>
+                <div class="line" style="grid-column-end: span 2">
+                    <div class="underlined">
+                        [#list character.qualities.senses as sense]
+                        ${sense}[#sep], [/#sep]
+                        [#else]None[/#list]
+                    </div>
+                    <div class="label">Senses</div>
                 </div>
             </div>
 [#macro weaponBlock weapon type]

@@ -20,6 +20,10 @@
         [#list character.qualities.languages as language]
             ${language}[#sep], [/#sep]
         [#else]None[/#list]
+        <b>Senses</b>
+        [#list character.qualities.senses as sense]
+        ${sense}[#sep], [/#sep]
+        [#else]None[/#list]
         <br />
         <b>Str</b> ${character.abilityMod.str?string.@s}, <b>Dex</b> ${character.abilityMod.dex?string.@s}, <b>Con</b> ${character.abilityMod.con?string.@s}, <b>Int</b> ${character.abilityMod.int?string.@s}, <b>Wis</b> ${character.abilityMod.wis?string.@s}, <b>Cha</b> ${character.abilityMod.cha?string.@s}<br />
         <b>Skills</b>
