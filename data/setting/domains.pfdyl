@@ -1,0 +1,340 @@
+<pf2:domains xmlns:pf2="https://dylbrown.github.io"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://dylbrown.github.io ../../schemata/domain.xsd">
+    <Domain page="112">
+        <Name>Change</Name>
+        <DomainSpell>Adapt Self</DomainSpell>
+        <AdvancedDomainSpell>Adaptive Ablation</AdvancedDomainSpell>
+        <Description>You can restructure the physical and metaphysical.</Description>
+    </Domain>
+    <Domain page="112">
+        <Name>Cold</Name>
+        <DomainSpell>Winter Bolt</DomainSpell>
+        <AdvancedDomainSpell>Diamond Dust</AdvancedDomainSpell>
+        <Description>You control ice, snow, and freezing temperatures.</Description>
+    </Domain>
+    <Domain page="112">
+        <Name>Decay</Name>
+        <DomainSpell>Withering Grasp</DomainSpell>
+        <AdvancedDomainSpell>Fallow Field</AdvancedDomainSpell>
+        <Description>You have the power to spoil and deteriorate matter.</Description>
+    </Domain>
+    <Domain page="113">
+        <Name>Delirium</Name>
+        <DomainSpell>Hyperfocus</DomainSpell>
+        <AdvancedDomainSpell>Ephemeral Hazards</AdvancedDomainSpell>
+        <Description>You can bring about hallucinations and restlessness.</Description>
+    </Domain>
+    <Domain page="114">
+        <Name>Dust</Name>
+        <DomainSpell>Parch</DomainSpell>
+        <AdvancedDomainSpell>Dust Storm</AdvancedDomainSpell>
+        <Description>You have the power to dry and crumble what opposes you.</Description>
+    </Domain>
+    <Domain page="114">
+        <Name>Duty</Name>
+        <DomainSpell>Oathkeeper's Insignia</DomainSpell>
+        <AdvancedDomainSpell>Dutiful Challenge</AdvancedDomainSpell>
+        <Description>You defend oaths and carry out your divine missions with great dedication.</Description>
+    </Domain>
+    <Domain page="114">
+        <Name>Glyph</Name>
+        <DomainSpell>Redact</DomainSpell>
+        <AdvancedDomainSpell>Ghostly Transcription</AdvancedDomainSpell>
+        <Description>You wield power over written words and symbols.</Description>
+    </Domain>
+    <Domain page="115">
+        <Name>Lightning</Name>
+        <DomainSpell>Charged Javelin</DomainSpell>
+        <AdvancedDomainSpell>Bottle the Storm</AdvancedDomainSpell>
+        <Description>You control electricity, thunder, and storms.</Description>
+    </Domain>
+    <Domain page="115">
+        <Name>Plague</Name>
+        <DomainSpell>Divine Plagues</DomainSpell>
+        <AdvancedDomainSpell>Foul Miasma</AdvancedDomainSpell>
+        <Description>You wield disease and pestilence like a weapon.</Description>
+    </Domain>
+    <Domain page="116">
+        <Name>Repose</Name>
+        <DomainSpell>Share Burden</DomainSpell>
+        <AdvancedDomainSpell>Font of Serenity</AdvancedDomainSpell>
+        <Description>You ease mental burdens.</Description>
+    </Domain>
+    <Domain page="116">
+        <Name>Sorrow</Name>
+        <DomainSpell>Lament</DomainSpell>
+        <AdvancedDomainSpell>Overflowing Sorrow</AdvancedDomainSpell>
+        <Description>You have a painful connection to melancholy and sadness.</Description>
+    </Domain>
+    <Domain page="117">
+        <Name>Soul</Name>
+        <DomainSpell>Eject Soul</DomainSpell>
+        <AdvancedDomainSpell>Ectoplasmic Interstice</AdvancedDomainSpell>
+        <Description>You wield power over the spiritual.</Description>
+    </Domain>
+    <Domain page="117">
+        <Name>Star</Name>
+        <DomainSpell>Zenith Star</DomainSpell>
+        <AdvancedDomainSpell>Asterism</AdvancedDomainSpell>
+        <Description>You command the power of the stars.</Description>
+    </Domain>
+    <Domain page="117">
+        <Name>Swarm</Name>
+        <DomainSpell>Swarmsense</DomainSpell>
+        <AdvancedDomainSpell>Swarm Form</AdvancedDomainSpell>
+        <Description>You exert control over masses of creatures.</Description>
+    </Domain>
+    <Domain page="118">
+        <Name>Time</Name>
+        <DomainSpell>Delay Consequence</DomainSpell>
+        <AdvancedDomainSpell>Stasis</AdvancedDomainSpell>
+        <Description>You reign over the flow of time.</Description>
+    </Domain>
+    <Domain page="118">
+        <Name>Vigil</Name>
+        <DomainSpell>Object Memory</DomainSpell>
+        <AdvancedDomainSpell>Remember the Lost</AdvancedDomainSpell>
+        <Description>You watch over those long passed and guard their secrets.</Description>
+    </Domain>
+    <Domain page="119">
+        <Name>Void</Name>
+        <DomainSpell>Empty Inside</DomainSpell>
+        <AdvancedDomainSpell>Door to Beyond</AdvancedDomainSpell>
+        <Description>You draw power from emptiness.</Description>
+    </Domain>
+    <Domain page="119">
+        <Name>Wyrmkin</Name>
+        <DomainSpell>Draconic Barrage</DomainSpell>
+        <AdvancedDomainSpell>Roar of the Wyrm</AdvancedDomainSpell>
+        <Description>You draw on the power of dragons, linnorms, and other powerful reptilian creatures.</Description>
+    </Domain>
+    <Domain page="63">
+        <Name>Toil</Name>
+        <DomainSpell>Practice Makes Perfect</DomainSpell>
+        <AdvancedDomainSpell>Tireless Worker</AdvancedDomainSpell>
+        <Description>You work constantly and refuse to let anything stand in your way.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Air</Name>
+        <DomainSpell>Pushing Gust</DomainSpell>
+        <AdvancedDomainSpell>Disperse into Air</AdvancedDomainSpell>
+        <Description>You can control winds and the weather.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Ambition</Name>
+        <DomainSpell>Blind Ambition</DomainSpell>
+        <AdvancedDomainSpell>Competitive Edge</AdvancedDomainSpell>
+        <Description>You strive to keep up with and outpace the competition.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Cities</Name>
+        <DomainSpell>Face in the Crowd</DomainSpell>
+        <AdvancedDomainSpell>Pulse of the City</AdvancedDomainSpell>
+        <Description>You have powers over urban environments and denizens.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Confidence</Name>
+        <DomainSpell>Veil of Confidence</DomainSpell>
+        <AdvancedDomainSpell>Delusional Pride</AdvancedDomainSpell>
+        <Description>You overcome your fear and project pride.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Creation</Name>
+        <DomainSpell>Splash of Art</DomainSpell>
+        <AdvancedDomainSpell>Artistic Flourish</AdvancedDomainSpell>
+        <Description>You have divine abilities related to crafting and art.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Darkness</Name>
+        <DomainSpell>Cloak of Shadow</DomainSpell>
+        <AdvancedDomainSpell>Darkened Eyes</AdvancedDomainSpell>
+        <Description>You operate in the darkness and take away the light.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Death</Name>
+        <DomainSpell>Death's Call</DomainSpell>
+        <AdvancedDomainSpell>Eradicate Undeath</AdvancedDomainSpell>
+        <Description>You have the power to end lives and destroy undead.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Destruction</Name>
+        <DomainSpell>Cry of Destruction</DomainSpell>
+        <AdvancedDomainSpell>Destructive Aura</AdvancedDomainSpell>
+        <Description>You are a conduit for divine devastation.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Dreams</Name>
+        <DomainSpell>Sweet Dream</DomainSpell>
+        <AdvancedDomainSpell>Dreamer's Call</AdvancedDomainSpell>
+        <Description>You have the power to enter and manipulate dreams.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Earth</Name>
+        <DomainSpell>Hurtling Stone</DomainSpell>
+        <AdvancedDomainSpell>Localized Quake</AdvancedDomainSpell>
+        <Description>You control soil and stone.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Family</Name>
+        <DomainSpell>Soothing Words</DomainSpell>
+        <AdvancedDomainSpell>Unity</AdvancedDomainSpell>
+        <Description>You aid and protect your family and community more effectively.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Fate</Name>
+        <DomainSpell>Read Fate</DomainSpell>
+        <AdvancedDomainSpell>Tempt Fate</AdvancedDomainSpell>
+        <Description>You see and understand hidden inevitabilities.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Fire</Name>
+        <DomainSpell>Fire Ray</DomainSpell>
+        <AdvancedDomainSpell>Flame Barrier</AdvancedDomainSpell>
+        <Description>You control flame.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Freedom</Name>
+        <DomainSpell>Unimpeded Stride</DomainSpell>
+        <AdvancedDomainSpell>Word of Freedom</AdvancedDomainSpell>
+        <Description>You liberate yourself and others from shackles and constraints.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Healing</Name>
+        <DomainSpell>Healer's Blessing</DomainSpell>
+        <AdvancedDomainSpell>Rebuke Death</AdvancedDomainSpell>
+        <Description>Your healing magic is particularly potent.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Indulgence</Name>
+        <DomainSpell>Overstuff</DomainSpell>
+        <AdvancedDomainSpell>Take its Course</AdvancedDomainSpell>
+        <Description>You feast mightily and can shake off the effects of overindulging.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Knowledge</Name>
+        <DomainSpell>Scholarly Recollection</DomainSpell>
+        <AdvancedDomainSpell>Know the Enemy</AdvancedDomainSpell>
+        <Description>You receive divine insights.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Luck</Name>
+        <DomainSpell>Bit of Luck</DomainSpell>
+        <AdvancedDomainSpell>Lucky Break</AdvancedDomainSpell>
+        <Description>You’re unnaturally lucky and keep out of harm’s way.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Magic</Name>
+        <DomainSpell>Magic's Vessel</DomainSpell>
+        <AdvancedDomainSpell>Mystic Beacon</AdvancedDomainSpell>
+        <Description>You perform the unexpected and inexplicable.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Might</Name>
+        <DomainSpell>Athletic Rush</DomainSpell>
+        <AdvancedDomainSpell>Enduring Might</AdvancedDomainSpell>
+        <Description>Your physical power is bolstered by divine strength.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Moon</Name>
+        <DomainSpell>Moonbeam</DomainSpell>
+        <AdvancedDomainSpell>Touch of the Moon</AdvancedDomainSpell>
+        <Description>You command powers associated with the moon.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Nature</Name>
+        <DomainSpell>Vibrant Thorns</DomainSpell>
+        <AdvancedDomainSpell>Nature's Bounty</AdvancedDomainSpell>
+        <Description>You hold power over animals and plants.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Nightmares</Name>
+        <DomainSpell>Waking Nightmare</DomainSpell>
+        <AdvancedDomainSpell>Shared Nightmare</AdvancedDomainSpell>
+        <Description>You fill minds with horror and dread.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Pain</Name>
+        <DomainSpell>Savor the Sting</DomainSpell>
+        <AdvancedDomainSpell>Retributive Pain</AdvancedDomainSpell>
+        <Description>You punish those who displease you with the sharp sting of pain.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Passion</Name>
+        <DomainSpell>Charming Touch</DomainSpell>
+        <AdvancedDomainSpell>Captivating Adoration</AdvancedDomainSpell>
+        <Description>You evoke passion, whether as love or lust.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Perfection</Name>
+        <DomainSpell>Perfected Mind</DomainSpell>
+        <AdvancedDomainSpell>Perfected Form</AdvancedDomainSpell>
+        <Description>You strive to perfect your mind, body, and spirit.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Protection</Name>
+        <DomainSpell>Protector's Sacrifice</DomainSpell>
+        <AdvancedDomainSpell>Protector's Sphere</AdvancedDomainSpell>
+        <Description>You ward yourself and others.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Secrecy</Name>
+        <DomainSpell>Forced Quiet</DomainSpell>
+        <AdvancedDomainSpell>Safeguard Secret</AdvancedDomainSpell>
+        <Description>You protect secrets and keep them hidden.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Sun</Name>
+        <DomainSpell>Dazzling Flash</DomainSpell>
+        <AdvancedDomainSpell>Positive Luminance</AdvancedDomainSpell>
+        <Description>You harness the power of the sun and other light sources, and punish undead.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Travel</Name>
+        <DomainSpell>Agile Feet</DomainSpell>
+        <AdvancedDomainSpell>Traveler's Transit</AdvancedDomainSpell>
+        <Description>You have power over movement and journeys.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Trickery</Name>
+        <DomainSpell>Sudden Shift</DomainSpell>
+        <AdvancedDomainSpell>Trickster's Twin</AdvancedDomainSpell>
+        <Description>You deceive others and cause mischief.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Truth</Name>
+        <DomainSpell>Word of Truth</DomainSpell>
+        <AdvancedDomainSpell>Glimpse the Truth</AdvancedDomainSpell>
+        <Description>You pierce lies and discover the truth.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Tyranny</Name>
+        <DomainSpell>Touch of Obedience</DomainSpell>
+        <AdvancedDomainSpell>Commanding Lash</AdvancedDomainSpell>
+        <Description>You wield power to rule and enslave others.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Undeath</Name>
+        <DomainSpell>Touch of Undeath</DomainSpell>
+        <AdvancedDomainSpell>Malignant Sustenance</AdvancedDomainSpell>
+        <Description>Your magic carries close ties to the undead.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Water</Name>
+        <DomainSpell>Tidal Surge</DomainSpell>
+        <AdvancedDomainSpell>Downpour</AdvancedDomainSpell>
+        <Description>You control water and bodies of water.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Wealth</Name>
+        <DomainSpell>Appearance of Wealth</DomainSpell>
+        <AdvancedDomainSpell>Precious Metals</AdvancedDomainSpell>
+        <Description>You hold power over wealth, trade, and treasure.</Description>
+    </Domain>
+    <Domain page="441">
+        <Name>Zeal</Name>
+        <DomainSpell>Weapon Surge</DomainSpell>
+        <AdvancedDomainSpell>Zeal for Battle</AdvancedDomainSpell>
+        <Description>Your inner fire increases your combat prowess.</Description>
+    </Domain>
+</pf2:domains>
