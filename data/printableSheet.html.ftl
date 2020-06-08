@@ -129,11 +129,11 @@
                     <div class="box-label">DEX</div>
                 </div>
                 <div class="line">
-                    <div class="numBox rounded">${character.armorProficiency?string.@s}</div>
+                    <div class="numBox rounded">${character.combat.armorProficiency?string.@s}</div>
                     <div class="box-label">Prof</div>
                 </div>
                 <div class="line">
-                    <div class="numBox">${character.armor.ac?string.@s}</div>
+                    <div class="numBox">${character.combat.armor.ac?string.@s}</div>
                     <div class="box-label">Item</div>
                 </div>
                 <div class="line">
