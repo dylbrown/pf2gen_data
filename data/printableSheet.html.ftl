@@ -117,7 +117,7 @@
             <div id="ac-grid">
                 <div class="center-right rollLabel">AC</div>
                 <div class="line">
-                    <div class="underlined-roll">${character.ac}</div>
+                    <div class="underlined-roll">${character.combat.ac}</div>
                     <div class="label">Total</div>
                 </div>
                 <div class="line">
@@ -293,7 +293,7 @@
                     <div class="label">Alignment</div>
                 </div>
                 <div class="line">
-                    <div class="underlined"><!--TODO--></div>
+                    <div class="underlined">${character.deity}</div>
                     <div class="label">Deity</div>
                 </div>
                 <div class="line">
@@ -366,7 +366,7 @@
                 <hr>
             </div>
             <div class="sectionLabel">Melee Strikes</div>
-            [#list character.attacks as attack]
+            [#list character.combat.attacks as attack]
                 [#if item.category == "Weapon"]
                     [@weaponBlock weapon=item type="melee"/]
                 [/#if]
@@ -380,7 +380,7 @@
                 <hr>
             </div>
             <div class="sectionLabel">Ranged Strikes</div>
-            [#list character.attacks as attack]
+            [#list character.combat.attacks as attack]
                 [#if item.category == "Ranged Weapon"]
                     [@weaponBlock weapon=item type="ranged"/]
                 [/#if]

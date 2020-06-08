@@ -35,6 +35,16 @@
 				<Description>
                     You zealously bear your deity’s favored weapon. If it’s uncommon, you gain access to it. If it’s a simple weapon, increase the damage die by one step (d4 to d6, d6 to d8, d8 to d10, d10 to d12).
 				</Description>
+				<CustomMod>
+					def increaseFavoredWeapon = {weapon, damage ->
+						def deityWeapon = get("Deity.FavoredWeapon.Name");
+						if(deityWeapon != null &amp;&amp; weapon.getName().toLowerCase() == deityWeapon.toLowerCase())
+							return damage.increaseSize(weapon.getDamageDice());
+						else
+							return damage;
+					}
+					damageModifier("Favored Weapon Dice Increase", increaseFavoredWeapon)
+				</CustomMod>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="choice" name="Alignment">

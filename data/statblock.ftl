@@ -36,12 +36,12 @@
             ${item.count} ${item.stats.name}[#sep], [/#sep]
         [#else]None[/#list]
         <hr />
-        <b>AC</b> ${character.ac}; <b>Fort</b> ${character.attributes.fortitude.total?string.@s}, <b>Ref</b> ${character.attributes.reflex.total?string.@s}, <b>Will</b> ${character.attributes.will.total?string.@s}<br />
+        <b>AC</b> ${character.combat.ac}; <b>Fort</b> ${character.attributes.fortitude.total?string.@s}, <b>Ref</b> ${character.attributes.reflex.total?string.@s}, <b>Will</b> ${character.attributes.will.total?string.@s}<br />
         <b>HP</b> ${character.hp}<br />
 <b>Speed</b> ${character.speed} feet<br />
         <hr />
 	[#assign count=0]
-    [#list character.attacks as item]
+    [#list character.combat.attacks as item]
         [#if item.category == "Weapon" || item.category == "Ranged Weapon"]
 			[#assign count++]
             [#if item.category == "Ranged Weapon"]

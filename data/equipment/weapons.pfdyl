@@ -197,6 +197,16 @@
 		</WeaponTrait>
 	</Traits>
 	<Melee>
+		<Unarmed>
+			<Weapon>
+				<Name>Fist</Name>
+				<Price>0 sp</Price>
+				<Damage>1d4 B</Damage>
+				<Hands>1</Hands>
+				<Group>Brawling</Group>
+				<Traits>Agile, Finesse, Nonlethal, Unarmed</Traits>
+			</Weapon>
+		</Unarmed>
 		<Simple>
 			<Weapon>
 				<Name>Club</Name>
