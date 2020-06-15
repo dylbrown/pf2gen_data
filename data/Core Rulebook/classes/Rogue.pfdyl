@@ -1,0 +1,594 @@
+<?xml version="1.0" ?>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/class.xsd">
+	<Name>Rogue</Name>
+	<HP>8</HP>
+	<AbilityChoices>Str or Dex or Cha</AbilityChoices>
+	<SkillIncreases>7</SkillIncreases>
+	<Description> You are skilled and opportunistic. Using your sharp wits and quick reactions, you take advantage of your opponents’ missteps and strike where it hurts most. You play a dangerous game, seeking thrills and testing your skills, and likely don’t care much for any laws that happen to get in your way. While the path of every rogue is unique and riddled with danger, the one thing you all share in common is the breadth and depth of your skills.</Description>
+	<FeatureList level="1">
+		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+		<AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
+		<AbilitySlot state="filled" name="Initial Proficiencies">
+			<Ability>
+				<AttributeMods Proficiency="Trained">Fortitude, Stealth, Simple Weapons, Light Armor, Unarmed, Unarmored, Class DC</AttributeMods>
+				<AttributeMods Proficiency="Expert">Perception, Reflex, Will</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Class Feat" name="Rogue Feat"/>
+		<AbilitySlot state="choice" name="Rogue's Racket">
+			<Ability name="Ruffian">
+				<Description>
+				You prefer to strong-arm or intimidate others rather than rely on finesse or fancy tricks. You might be an enforcer for organized crime, a highway bandit, or a noble who bullies others with threats of your family’s power. Or, you might use your skills on the up and up, in a private security detail or as a guard in a city with the right temperament.
+
+You use whatever tools you have at hand to get the job done. You can deal sneak attack damage with any simple weapon, in addition to the weapons listed in the sneak attack class feature. When you critically succeed at an attack roll using a simple weapon and the target has the flat-footed condition (unable to focus on defending itself), you also apply the critical specialization effect for the weapon you’re wielding. You don’t gain these benefits if the weapon has a damage die larger than d8 (after applying any abilities that alter its damage die size).
+
+You’re trained in Intimidation and medium armor. You can choose Strength as your key ability score. When you gain light armor expertise, you also gain expert proficiency in medium armor, and when you gain light armor mastery, you also gain master proficiency in medium armor.
+				</Description>
+				<AttributeMods Proficiency="Trained">Intimidation, Medium Armor</AttributeMods>
+			</Ability>
+			<Ability name="Scoundrel">
+				<Description>
+				You use fast-talking, flattery, and a silver tongue to avoid danger and escape tricky situations. You might be a grifter or con artist, traveling from place to place with a new story or scheme. Your racket is also ideal for certain reputable professions, like barrister, diplomat, or politician.
+
+When you successfully Feint, the target is flat-footed against melee attacks you attempt against it until the end of your next turn. On a critical success, the target is flat-footed against all melee attacks until the end of your next turn, not just yours.
+
+You’re trained in Deception and Diplomacy. You can choose Charisma as your key ability score.
+				</Description>
+				<AttributeMods Proficiency="Trained">Deception, Diplomacy</AttributeMods>
+			</Ability>
+			<Ability name="Thief">
+				<Description>
+				Nothing beats the thrill of taking something that belongs to someone else, especially if you can do so completely unnoticed. You might be a pickpocket working the streets, a cat burglar sneaking through windows and escaping via rooftops, or a safecracker breaking into carefully guarded vaults. You might even work as a consultant, testing clients’ defenses by trying to steal something Precious.
+
+When a fight breaks out, you prefer swift, lightweight weapons, and you strike where it hurts. When you attack with a finesse melee weapon, you can add your Dexterity modifier to damage rolls instead of your Strength modifier.
+
+You are trained in Thievery.
+				</Description>
+				<AttributeMods Proficiency="Trained">Thievery</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Sneak Attack">
+			<Ability>
+				<Description>When your enemy can’t properly defend itself, you take advantage to deal extra damage. If you Strike a creature that has the flat-footed condition with an agile or finesse melee weapon, an agile or finesse unarmed attack, or a ranged weapon attack, you deal an extra 1d6 precision damage. For a ranged attack with a thrown melee weapon, that weapon must also be agile or finesse.
+
+As your rogue level increases, so does the number of damage dice for your sneak attack. Increase the number of dice by one at 5th, 11th, and 17th levels.</Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Suprise Attack">
+			<Ability>
+				<Description>You spring into combat faster than foes can react. On the first round of combat, if you roll Deception or Stealth for initiative, creatures that haven’t acted are flat-footed to you.</Description>
+			</Ability>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="2">
+		<AbilitySlot state="feat" type="Class Feat" name="Rogue Feat"/>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="3">
+		<AbilitySlot state="filled" name="Deny Advantage">
+			<Ability>
+				<Description>As someone who takes advantage of others’ defenses, you are careful not to leave such openings yourself.
+
+You aren’t flat-footed to hidden, undetected, or flanking creatures of your level or lower, or creatures of your level or lower using surprise attack. However, they can still help their allies flank.</Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="4">
+		<AbilitySlot state="feat" type="Class Feat" name="Rogue Feat"/>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="5">
+		<AbilitySlot state="filled" name="Ability Boosts">
+			<Ability abilityBoosts="4"/>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Weapon Tricks">
+			<Ability>
+				<Description>You have become thoroughly familiar with the tools of your trade. You gain expert proficiency in simple weapons, as well as the rapier, sap, shortbow, and shortsword.
+
+When you critically succeed at an attack roll against a flat-footed creature while using an agile or finesse simple weapon or any of the listed weapons, you apply the critical specialization effect for the weapon you’re wielding.</Description>
+				<AttributeMods Proficiency="Expert">Simple Weapons</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="6">
+		<AbilitySlot state="feat" type="Class Feat" name="Rogue Feat"/>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="7">
+		<AbilitySlot state="filled" name="Evasion">
+			<Ability>
+				<Description>You’ve learned to move quickly to avoid explosions, dragons’ breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</Description>
+				<AttributeMods Proficiency="Master">Reflex</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Vigilant Senses">
+			<Ability>
+				<Description>Through your adventures, you’ve developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master.</Description>
+				<AttributeMods Proficiency="Master">Perception</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Weapon Specialization">
+			<Ability>
+				<Description>You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 damage if you’re a master, and 4 damage if you’re legendary.</Description>
+			</Ability>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="8">
+		<AbilitySlot state="feat" type="Class Feat" name="Rogue Feat"/>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="9">
+		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+		<AbilitySlot state="filled" name="Debilitating Strike">
+			<Ability>
+				<Description>When taking advantage of an opening, you both hinder and harm your foe. You gain the Debilitating Strike free action.</Description>
+				<AbilitySlot state="filled" name="Debilitating Strike Action">
+					<Ability cost="Free">
+						<Traits>Rogue</Traits>
+						<Trigger>Your Strike hits a flat-footed creature and deals damage.</Trigger>
+						<Description>You apply one of the following debilitations, which lasts until the end of your next turn.
+
+		Debilitation The target takes a –10-foot status penalty to its Speeds.
+
+		Debilitation The target becomes enfeebled 1.</Description>
+					</Ability>
+				</AbilitySlot>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Great Fortitude">
+			<Ability>
+				<Description>Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert.</Description>
+				<AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="10">
+		<AbilitySlot state="filled" name="Ability Boosts">
+			<Ability abilityBoosts="4"/>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Class Feat" name="Rogue Feat"/>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="11">
+		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
+		<AbilitySlot state="filled" name="Rogue Expertise">
+			<Ability>
+				<Description>Your techniques are now harder to resist. Your proficiency rank for your rogue class DC increases to expert.</Description>
+				<AttributeMods Proficiency="Expert">Class DC</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="12">
+		<AbilitySlot state="feat" type="Class Feat" name="Rogue Feat"/>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="13">
+		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+		<AbilitySlot state="filled" name="Improved Evasion">
+			<Ability>
+				<Description>You elude danger to a degree that few can match.
+
+Your proficiency rank for Reflex saves increases to legendary. When you roll a critical failure on a Reflex save, you get a failure instead. When you fail a Reflex save against a damaging effect, you take half damage.</Description>
+				<AttributeMods Proficiency="Legendary">Reflex</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Incredible Senses">
+			<Ability>
+				<Description>You notice things almost impossible for an ordinary person to detect. Your proficiency rank for Perception increases to legendary.</Description>
+				<AttributeMods Proficiency="Legendary">Perception</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Light Armor Expertise">
+			<Ability>
+				<Description>You’ve learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert.</Description>
+				<AttributeMods Proficiency="Expert">Light Armor, Unarmored</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Master Tricks">
+			<Ability>
+				<Description>You’ve mastered a rogue’s fighting moves. Your proficiency ranks increase to master for all simple weapons plus the rapier, sap, shortbow, and shortsword.</Description>
+				<AttributeMods Proficiency="Master">Simple Weapons</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="14">
+		<AbilitySlot state="feat" type="Class Feat" name="Rogue Feat"/>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="15">
+		<AbilitySlot state="filled" name="Ability Boosts">
+			<Ability abilityBoosts="4"/>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Double Debilitation">
+			<Ability>
+				<Description>Your opportunistic attacks are particularly detrimental.
+
+When you use Debilitating Strike, you can apply two debilitations simultaneously; removing one removes both.</Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
+		<AbilitySlot state="filled" name="Greater Weapon Specialization">
+			<Ability>
+				<Description>Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you’re an expert, 6 if you’re a master, and 8 if you’re legendary.</Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="16">
+		<AbilitySlot state="feat" type="Class Feat" name="Rogue Feat"/>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="17">
+		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Slippery Mind">
+			<Ability>
+				<Description>You play mental games and employ cognitive tricks to throw off mind-altering effects. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.</Description>
+				<AttributeMods Proficiency="Master">Will</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="18">
+		<AbilitySlot state="feat" type="Class Feat" name="Rogue Feat"/>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="19">
+		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
+		<AbilitySlot state="filled" name="Light Armor Mastery">
+			<Ability>
+				<Description>Your skill with light armor improves, increasing your ability to dodge blows. Your proficiency ranks for light armor and unarmored defense increase to master.</Description>
+				<AttributeMods Proficiency="Master">Light Armor, Unarmored</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Master Strike">
+			<Ability>
+				<Description>You can incapacitate an unwary foe with a single strike.
+
+Your proficiency rank for your rogue class DC increases to master. You gain the Master Strike free action.</Description>
+				<AbilitySlot state="filled" name="Master Strike Action">
+					<Ability cost="Free">
+						<Traits>Incapacitation, Rogue</Traits>
+						<Trigger>Your Strike hits a flat-footed creature and deals damage.</Trigger>
+						<Description>The target attempts a Fortitude save at your class DC. It then becomes temporarily immune to your Master Strike for 1 day.
+
+Critical Success The target is unaffected.
+
+Success The target is enfeebled 2 until the end of your next turn.
+
+Failure The target is paralyzed for 4 rounds.
+
+Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2 hours, or killed (your choice).</Description>
+					</Ability>
+				</AbilitySlot>
+        <AttributeMods Proficiency="Master">Class DC</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<FeatureList level="20">
+		<AbilitySlot state="filled" name="Ability Boosts">
+			<Ability abilityBoosts="4"/>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Class Feat" name="Rogue Feat"/>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+	<Feats>
+		<!--Level 1-->
+		<Ability name="Nimble Dodge" level="1" cost="Reaction">
+			<Traits>Rogue</Traits>
+			<Trigger>A creature targets you with an attack and you can see the attacker.</Trigger>
+			<Requirements>You are not encumbered.</Requirements>
+			<Description>You deftly dodge out of the way, gaining a +2 circumstance bonus to AC against the triggering attack.</Description>
+		</Ability>
+		<Ability name="Trap Finder" level="1">
+			<Traits>Rogue</Traits>
+			<Description>You have an intuitive sense that alerts you to the dangers and presence of traps. You gain a +1 circumstance bonus to Perception checks to find traps, to AC against attacks made by traps, and to saves against traps. Even if you aren’t Searching, you get a check to find traps that normally require you to be Searching. You still need to meet any other requirements to find the trap.You can disable traps that require a proficiency rank of master in Thievery. If you have master proficiency in Thievery, you can disable traps that require a proficiency rank of legendary instead, and your circumstance bonuses against traps increase to +2.</Description>
+		</Ability>
+		<Ability name="Twin Feint" level="1" cost="Two">
+			<Traits>Rogue</Traits>
+			<Requirements>You are wielding two melee weapons, each in a different hand.</Requirements>
+			<Description>You make a dazzling series of attacks with both weapons, using the first attack to throw your foe off guard against a second attack at a different angle. Make one Strike with each of your two melee weapons, both against the same target. The target is automatically flat?footed against the second attack. Apply your multiple attack penalty to the Strikes normally.</Description>
+		</Ability>
+		<Ability name="You’re Next" level="1" cost="Reaction">
+			<Traits>Emotion, Fear, Mental, Rogue</Traits>
+			<Requires>Trained In Intimidation</Requires>
+			<Trigger>You reduce an enemy to 0 hit points.</Trigger>
+			<Description>After downing a foe, you menacingly remind another foe that you’re coming after them next. Attempt an Intimidation check with a +2 circumstance bonus to Demoralize a single creature that you can see and that can see you. If you have legendary proficiency in Intimidation, you can use this as a free action with the same trigger.2ND LEVEL</Description>
+		</Ability>
+		<Ability name="Brutal Beating" level="2">
+			<Traits>Rogue</Traits>
+			<Prerequisites>Ruffian Racket</Prerequisites>
+			<Description>The brutality of your critical hits shakes your foes’ confidence. Whenever your Strike is a critical hit and deals damage, the target is frightened 1.</Description>
+		</Ability>
+		<Ability name="Distracting Feint" level="2">
+			<Traits>Rogue</Traits>
+			<Prerequisites>Scoundrel Racket</Prerequisites>
+			<Description>Your Feints are far more distracting than normal, drawing your foes’ attention and allowing you and your allies to take greater advantage. While a creature is flat-footed by your Feint, it also takes a –2 circumstance penalty to Perception checks and Reflex saves.</Description>
+		</Ability>
+		<Ability name="Minor Magic" level="2">
+			<Traits>Rogue</Traits>
+			<Description>You’ve dabbled in a variety of tricks, gaining minor magical abilities from a particular tradition. Choose arcane, divine, occult, or primal magic, and gain two cantrips from the common cantrips available to that tradition.</Description>
+		</Ability>
+		<Ability name="Mobility" level="2">
+			<Traits>Rogue</Traits>
+			<Description>You move in a way that denies your enemies the opportunity to retaliate. When you take a Stride action to move half your Speed or less, that movement does not trigger reactions. You can use Mobility when Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.</Description>
+		</Ability>
+		<Ability name="Quick Draw" level="2" cost="One">
+			<Traits>Rogue</Traits>
+			<Description>You draw your weapon and attack with the same motion. You Interact to draw a weapon, then Strike with that weapon.</Description>
+		</Ability>
+		<Ability name="Unbalancing Blow" level="2">
+			<Traits>Rogue</Traits>
+			<Prerequisites>Thief Racket</Prerequisites>
+			<Description>Interweaving your most powerful attacks in a graceful flow, you temporarily unbalance your foes. Whenever your Strike is a critical hit and deals damage, the target is flat?footed against your attacks until the end of your next turn.4TH LEVEL</Description>
+		</Ability>
+		<Ability name="Battle Assessment" level="4" cost="One">
+			<Traits>Rogue, Secret</Traits>
+			<Description>With careful observation during battle, you identify an enemy’s strengths and weaknesses. The GM rolls a secret Perception check for you against the Deception or Stealth DC (whichever is higher) of an enemy of your choice who is not concealed from you, hidden from you, or undetected by you, and who is engaged in combat. The GM might apply a penalty for the distance between you and the enemy. The enemy is then temporarily immune to your Battle Assessment for 1 day.Critical Success The GM chooses two of the following pieces of information about the enemy to tell you: which of the enemy’s weaknesses is highest, which of the enemy’s saving throws has the lowest modifier, one immunity the enemy has, or which of the enemy’s resistances is highest.If the event of a tie, the GM should pick one at random.Success The GM chooses one piece of information from the above list to tell you about the enemy.Critical Failure The GM gives you false information (the GM makes up the information).</Description>
+		</Ability>
+		<Ability name="Dread Striker" level="4">
+			<Traits>Rogue</Traits>
+			<Description>You capitalize on your enemies’ fear to slip past their defenses.Any creature that has the frightened condition is also flat-footed against your attacks.</Description>
+		</Ability>
+		<Ability name="Reactive Pursuit" level="4" cost="Reaction">
+			<Traits>Rogue</Traits>
+			<Trigger>An adjacent foe moves away from you, and you can reach at least one space adjacent to the foe with a Stride action.</Trigger>
+			<Description>You keep pace with a retreating foe. You Stride, but you must end your movement adjacent to the triggering enemy. Your move does not trigger reactions from the triggering enemy. You can use Reactive Pursuit to Burrow, Climb, Fly, or Swim instead of Stride if you have the corresponding movement type.</Description>
+		</Ability>
+		<Ability name="Sabotage" level="4" cost="One">
+			<Traits>Incapacitation, Rogue</Traits>
+			<Requirements>You have a free hand.</Requirements>
+			<Description>You subtly damage others’ equipment. Choose one item that a creature within your reach wields or carries. The item must have moving parts that you could possibly sabotage (a shortbow could be sabotaged, but a longsword could not). Attempt a Thievery check against the Reflex DC of the creature. Damage dealt by Sabotage can’t take the item below its Break Threshold.Critical Success You deal damage equal to four times your Thievery proficiency bonus.Success You deal damage equal to double your Thievery proficiency bonus.Critical Failure Temporarily immune to your Sabotage for 1 day.</Description>
+		</Ability>
+		<Ability name="Magical Trickster" level="4">
+			<Traits>Rogue</Traits>
+			<Description>Whether you’re using magic items, wielding innate magic, or dabbling in spellcasting, you can sneak spells past your foes’ defenses as easily as any blade. When you succeed at a spell attack roll against a flat-footed foe’s AC and the spell deals damage, you can add your sneak attack damage to the damage roll. If your single spell leads to multiple separate damage rolls, apply your sneak attack damage only once per target.</Description>
+		</Ability>
+		<Ability name="Poison Weapon" level="4" cost="One">
+			<Traits>Manipulate, Rogue</Traits>
+			<Requirements>You are wielding a piercing or slashing weapon and have a free hand.</Requirements>
+			<Description>You apply a poison to the required weapon. If your next attack with that weapon before the end of your next turn hits and deals damage, it applies the effects of the poison, provided that poison can be delivered by contact or injury. If you critically fail the attack roll, the poison is wasted as normal.Special During your daily preparations, you can prepare a number of simple injury poisons equal to your rogue level. These poisons deal 1d4 poison damage. Only you can apply these poisons properly, and they expire the next time you prepare.</Description>
+		</Ability>
+		<Ability name="Scout’s Warning" level="4" cost="Free">
+			<Traits>Rogue</Traits>
+			<Trigger>You are about to roll a Perception or Survival check for initiative.</Trigger>
+			<Description>You visually or audibly warn your allies of danger, granting them each a +1 circumstance bonus to their initiative rolls.Depending on whether you use gestures or call out, this action gains either the visual or auditory trait, respectively.6TH LEVEL</Description>
+		</Ability>
+		<Ability name="Gang Up" level="6">
+			<Traits>Rogue</Traits>
+			<Description>You and your allies harry an opponent in concert. Any enemy is flat-footed against your melee attacks due to flanking as long as the enemy is within both your reach and your ally’s. Your allies must still flank an enemy for it to be flat-footed to them.</Description>
+		</Ability>
+		<Ability name="Light Step" level="6">
+			<Traits>Rogue</Traits>
+			<Description>You aren’t bothered by tricky footing. When you Stride or Step, you can ignore difficult terrain.</Description>
+		</Ability>
+		<Ability name="Skirmish Strike" level="6" cost="One">
+			<Traits>Flourish, Rogue</Traits>
+			<Description>Your feet and weapon move in tandem. Either Step and then Strike, or Strike and then Step.</Description>
+		</Ability>
+		<Ability name="Twist The Knife" level="6" cost="One">
+			<Traits>Rogue</Traits>
+			<Requirements>Your last action was a melee Strike that dealt sneak attack damage to a flat-footed target.</Requirements>
+			<Description>After stabbing your opponent in a weak spot, you tear the wound open. You deal persistent bleed damage to the target equal to your number of sneak attack damage dice.8TH LEVEL</Description>
+		</Ability>
+		<Ability name="Blind-fight" level="8">
+			<Traits>Rogue</Traits>
+			<Requires>Master In Perception</Requires>
+			<Description>Your battle instincts make you more aware of concealed and invisible opponents. You don’t need to succeed at a flat check to target concealed creatures. You’re not flat-footed to creatures that are hidden from you (unless you’re flat-footed to them for reasons other than the hidden condition), and you need only a successful DC 5 flat check to target a hidden creature.While you’re adjacent to an undetected creature of your level or lower, it is instead only hidden from you.</Description>
+		</Ability>
+		<Ability name="Delay Trap" level="8" cost="Reaction">
+			<Traits>Rogue</Traits>
+			<Trigger>A trap within your reach is triggered.</Trigger>
+			<Description>You can jam the workings of a trap to delay its effects. Attempt a Thievery check to Disable a Device on the trap; the DC to do so is increased by 5, and the effects are as follows.Critical Success You prevent the trap from being triggered, or you delay the activation until the start or end of your next turn (your choice).Success You prevent the trap from being triggered, or you delay the activation until the end of your next turn (whichever is worse for you; GM’s choice).Failure No effect.Critical Failure You’re flat-footed until the start of your next turn.</Description>
+		</Ability>
+		<Ability name="Improved Poison Weapon" level="8">
+			<Traits>Rogue</Traits>
+			<Prerequisites>Poison Weapon</Prerequisites>
+			<Description>You deliver poisons in ways that maximize their harmful effects. When you apply a simple poison with Poison Weapon, the poison deals 2d4 poison damage instead of 1d4 poison damage. You don’t waste a poison you apply with Poison Weapon on a critically failed attack roll.</Description>
+		</Ability>
+		<Ability name="Nimble Roll" level="8">
+			<Traits>Rogue</Traits>
+			<Prerequisites>Nimble Dodge</Prerequisites>
+			<Description>You throw yourself into a roll to escape imminent danger.You can use Nimble Dodge before attempting a Reflex save in addition to its original trigger. If you do, the circumstance bonus applies to your Reflex save against the triggering effect.When you use Nimble Dodge and the triggering attack fails or critically fails, or when you succeed or critically succeed at the saving throw, you can also Stride up to 10 feet as part of the reaction. If you do, the reaction gains the move trait.You can use Nimble Roll while Flying or Swimming instead of Striding if you have the corresponding movement type.</Description>
+		</Ability>
+		<Ability name="Opportune Backstab" level="8" cost="Reaction">
+			<Traits>Rogue</Traits>
+			<Trigger>A creature within your melee reach is hit by a melee attack from one of your allies.</Trigger>
+			<Description>When your enemy is hit by your ally, you capitalize upon the distraction. Make a Strike against the triggering creature.</Description>
+		</Ability>
+		<Ability name="Sidestep" level="8" cost="Reaction">
+			<Traits>Rogue</Traits>
+			<Trigger>The attack roll for a Strike targeting you fails or critically fails.</Trigger>
+			<Description>You deftly step out of the way of an attack, letting the blow continue to the creature next to you. You redirect the attack to a creature of your choice that is adjacent to you and within the reach of the triggering attack. The attacker rerolls the Strike’s attack roll against the new target.</Description>
+		</Ability>
+		<Ability name="Sly Striker" level="8">
+			<Traits>Rogue</Traits>
+			<Prerequisites>Sneak Attack</Prerequisites>
+			<Description>Your attacks deal more damage, even against creatures that aren’t flat-footed. When you succeed or critically succeed at a Strike against a creature that isn’t flat-footed, you also deal 1d6 precision damage. This applies only if you’re using a weapon or unarmed attack you could deal sneak attack damage with. At 14th level, if you would normally deal 3d6 or more sneak attack damage to flat-footed creatures, you deal 2d6 precision damage to creatures that aren’t flat?footed.10TH LEVEL</Description>
+		</Ability>
+		<Ability name="Precise Debilitations" level="10">
+			<Traits>Rogue</Traits>
+			<Prerequisites>Thief Racket,  Debilitating Strike</Prerequisites>
+			<Description>You carefully aim and gracefully deliver your debilitations.Add the following debilitations to the list you can choose from when you use Debilitating Strike.Debilitation The target takes an additional 2d6 precision damage from your attacks.Debilitation The target becomes flat-footed.</Description>
+		</Ability>
+		<Ability name="Sneak Savant" level="10">
+			<Traits>Rogue</Traits>
+			<Requires>Master In Stealth</Requires>
+			<Description>It is almost impossible to spot you without taking effort to look. When you roll a failure on a Sneak action, you get a success instead. You can still critically fail.</Description>
+		</Ability>
+		<Ability name="Tactical Debilitations" level="10">
+			<Traits>Rogue</Traits>
+			<Prerequisites>Scoundrel Racket,  Debilitating Strike</Prerequisites>
+			<Description>You learn new debilitations that grant you tactical advantages against your foes. Add the following debilitations to the list you can choose from when you use Debilitating Strike.Debilitation The target can’t use reactions.Debilitation The target can’t flank or contribute to allies’ flanking.</Description>
+		</Ability>
+		<Ability name="Vicious Debilitations" level="10">
+			<Traits>Rogue</Traits>
+			<Prerequisites>Ruffian Racket,  Debilitating Strike</Prerequisites>
+			<Description>The debilitations you dish out seriously impair your foes. Add the following debilitations to the list you can choose from when you use Debilitating Strike.Debilitation The target gains weakness 5 to your choice of bludgeoning, piercing, or slashing damage.Debilitation The target becomes clumsy 1.12TH LEVEL</Description>
+		</Ability>
+		<Ability name="Critical Debilitation" level="12">
+			<Traits>Incapacitation, Rogue</Traits>
+			<Prerequisites>Debilitating Strike</Prerequisites>
+			<Description>Your debilitations are especially effective on your most powerful attacks. Whenever you critically succeed at an attack roll against an enemy and use Debilitating Strike, add the following debilitation to the list you can choose from.Debilitation The target attempts a Fortitude save against your class DC with the following effects.Critical Success The target is unaffected.Dropping into a roll to disperse the force of the blow, you can partially evade a lethal attack and stay conscious. You take half damage from the triggering attack.</Description>
+		</Ability>
+		<Ability name="Instant Opening" level="14" cost="One">
+			<Traits>Concentrate, Rogue</Traits>
+			<Description>You distract your opponent with a few choice words or a rude gesture. Choose a target within 30 feet. It’s flat-footed against your attacks until the end of your next turn. Depending on the way you describe your distraction, this action gains either the auditory or visual trait.</Description>
+		</Ability>
+		<Ability name="Leave An Opening" level="14">
+			<Traits>Rogue</Traits>
+			<Description>When you hit hard enough, you leave an opening so your ally can jump in on the action. Whenever you critically hit a flat?footed opponent with a melee attack and deal damage, the target triggers an Attack of Opportunity reaction from one ally of your choice who has that reaction, as if the enemy had used a manipulate action.</Description>
+		</Ability>
+		<Ability name="Sense The Unseen" level="14" cost="Reaction">
+			<Traits>Rogue</Traits>
+			<Trigger>You fail a check to Seek.</Trigger>
+			<Description>When you look for foes, you catch the slightest of cues. Even though you failed at the triggering check, you automatically sense any undetected creatures in the area where you’re Seeking, making them merely hidden to you.16TH LEVEL</Description>
+		</Ability>
+		<Ability name="Blank Slate" level="16">
+			<Traits>Rogue</Traits>
+			<Requires>Legendary In Deception</Requires>
+			<Description>Your deceptions confound even the most powerful mortal divinations. Detection, revelation, and Scrying effects pass right over you, your possessions, and your auras, detecting nothing unless the detecting effect has a counteract level of 20 or higher. For example, detect magic would still detect other magic in the area but not any magic on you, true seeing wouldn’t reveal you, locate or Scrying wouldn’t find you, and so on.</Description>
+		</Ability>
+		<Ability name="Cloud Step" level="16">
+			<Traits>Rogue</Traits>
+			<Requires>Legendary In Acrobatics</Requires>
+			<Description>Using fantastic acrobatic skill, you can walk for brief stretches across insubstantial surfaces. When you Stride, you can move across water, air, and solid surfaces that can hold only limited weight as if they were normal ground. If you Stride over a trap with a weight-sensitive pressure plate, you don’t trigger it. At the end of your turn, you sink, fall, break fragile surfaces, or trigger traps as normal for your current location.</Description>
+		</Ability>
+		<Ability name="Cognitive Loophole" level="16" cost="Reaction">
+			<Traits>Rogue</Traits>
+			<Trigger>Your turn ends.</Trigger>
+			<Description>Success The target is slowed 1 until the end of your next turn.Failure The target is slowed 2 until the end of your next turn.Critical Failure The target is paralyzed until the end of your next turn.</Description>
+		</Ability>
+		<Ability name="Fantastic Leap" level="12" cost="Two">
+			<Traits>Rogue</Traits>
+			<Description>You launch yourself through the air at a foe. Attempt a High Jump or Long Jump. If you attempt a High Jump, determine the distance you can travel using the scale of a Long Jump. At the end of your jump, you can make a melee Strike.After your Strike, you fall to the ground if you’re in the air.If the distance of your fall is no more than the height of your jump, you take no damage and land upright.</Description>
+		</Ability>
+		<Ability name="Felling Shot" level="12" cost="Two">
+			<Traits>Rogue</Traits>
+			<Description>Your ranged attacks can shoot an unprepared foe right out of the air. Make a Strike with a ranged weapon or a thrown weapon against a flat-footed creature. If the Strike is a success and deals damage, the target must attempt a Reflex save against your class DC with the following effects.Success The target is unaffected.Failure The target falls up to 120 feet. If it hits the ground, it takes no damage from the fall.Critical Failure As failure, and the target can’t fly, jump, levitate, or otherwise leave the ground until the end of your next turn.</Description>
+		</Ability>
+		<Ability name="Reactive Interference" level="12" cost="Reaction">
+			<Traits>Rogue</Traits>
+			<Trigger>An adjacent enemy begins to use a reaction.</Trigger>
+			<Description>Grabbing a sleeve, swiping with your weapon, or creating another obstruction, you reflexively foil an enemy’s response. If the triggering creature’s level is equal to or lower than yours, you disrupt the triggering reaction. If the triggering creature’s level is higher than yours, you must make an attack roll against its AC. On a success, you disrupt the reaction.</Description>
+		</Ability>
+		<Ability name="Spring From The Shadows" level="12" cost="One">
+			<Traits>Flourish, Rogue</Traits>
+			<Description>Leaping out from hiding, you assail your target when they least expect it. You Stride up to your Speed, but you must end your movement next to an enemy you’re hidden from or undetected by. You then Strike that enemy; you remain hidden from or undetected by that creature until after you Strike. You can use Spring from the Shadows while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.14TH LEVEL</Description>
+		</Ability>
+		<Ability name="Defensive Roll" level="14" cost="Free">
+			<Traits>Rogue</Traits>
+      <Trigger>A physical attack would reduce you to 0 Hit Points.</Trigger>
+			<Frequency>once per 10 minutes</Frequency>
+			<Requirements>You are currently affected by a mental effect that you gained by failing, but not critically failing, a saving throw.</Requirements>
+			<Description>You can find a loophole in a mental effect to temporarily overcome it. Until the end of your next turn, you ignore a single mental effect that meets the requirement. You can suppress a particular effect using Cognitive Loophole only once.Special You can use this reaction even if the mental effect is preventing you from using reactions.</Description>
+		</Ability>
+		<Ability name="Dispelling Slice" level="16" cost="Two">
+			<Traits>Rogue</Traits>
+			<Description>Your sneak attack slices through the threads binding magic to a target. Make a Strike against a flat-footed creature (your choice). If your Strike deals sneak attack damage, you attempt to counteract a single spell active on the target.Your counteract level is equal to your rogue level, and your counteract check modifier is equal to your class DC – 10.</Description>
+		</Ability>
+		<Ability name="Perfect Distraction" level="16" cost="One">
+			<Traits>Rogue</Traits>
+			<Requires>Legendary In Deception</Requires>
+			<Description>You use clever tactics to mislead your foes as you sneak away.You Sneak while leaving a decoy behind. The decoy acts as the spell mislead, though you aren’t invisible, just undetected.You can continue to concentrate to move your decoy, as with the spell, whether or not you remain hidden throughout the duration. Once you use Perfect Distraction, you need to spend 10 minutes to set up another decoy before you can use it again.18TH LEVEL</Description>
+		</Ability>
+		<Ability name="Implausible Infiltration" level="18" cost="Two">
+			<Traits>Magical, Move, Rogue</Traits>
+      <Prerequisites> Quick Squeeze</Prerequisites>
+      <Requires>Legendary In Acrobatics</Requires>
+			<Requirements>You are adjacent to a floor or vertical wall.</Requirements>
+			<Description>You find tiny holes or imperfections that no one else could see and try to somehow fit yourself through them, possibly moving directly through the wall or floor from one side to the other. Your movement attempt fails if the wall or floor is made of something other than wood, plaster, or stone; is thicker than 10 feet; or contains even a thin layer of metal. If you have a climb Speed, you can use this ability to attempt to move through a ceiling.</Description>
+		</Ability>
+		<Ability name="Powerful Sneak" level="18">
+			<Traits>Rogue</Traits>
+			<Description>You have learned to exploit your enemies’ lowered defenses.When you succeed or critically succeed at a Strike using your Strength modifier on the attack roll and you would deal sneak attack damage, you can change the additional damage from sneak attack into ordinary damage of the same type as your Strike, rather than precision damage.</Description>
+		</Ability>
+		<Ability name="Trickster’s Ace" level="18" cost="Reaction">
+			<Traits>Concentrate, Rogue</Traits>
+			<Trigger>You specify the trigger when you make your daily preparations (see Requirements below).</Trigger>
+			<Requirements>When you make your daily preparations, you must specify a trigger for this reaction using the same restrictions as the triggers for the Ready action. You also choose a single spell from the arcane, divine, occult, or primal list of 4th level or lower. The spell can’t have a cost, nor can its casting time be more than 10 minutes. The spell must be able to target a single creature, and you must be a valid target for it.</Requirements>
+			<Description>Whether from jury-rigged magic items, stolen magical essence, or other means, you have a contingency in your back pocket for desperate situations. When the trigger occurs, you cause the spell to come into effect. The spell targets only you, no matter how many creatures it would affect normally. If you define particularly complicated conditions, as determined by the GM, the trigger might fail.Once the contingency is triggered, the spell is expended until your next daily preparations.20TH LEVEL</Description>
+		</Ability>
+		<Ability name="Hidden Paragon" level="20" cost="Reaction">
+			<Traits>Rogue</Traits>
+			<Requires>Legendary In Stealth</Requires>
+      <Trigger>You successfully use Stealth to Hide and become hidden from all of your current foes, or use Stealth to Sneak and become undetected to all your current foes.</Trigger>
+      <Frequency>once per hour</Frequency>
+			<Description>When you put your mind to slipping out of sight, you disappear completely. You become invisible for 1 minute, even if you use a hostile action. Not even glitterdust, see invisibility, or similar effects can reveal you, though creatures can still use the Seek action to locate you as normal.</Description>
+		</Ability>
+		<Ability name="Impossible Striker" level="20">
+			<Traits>Rogue</Traits>
+			<Prerequisites>Sly Striker</Prerequisites>
+			<Description>Your attacks are swift and deadly beyond explanation.Nothing can prevent you from making a sneak attack, even if your opponent can see every blow coming. Instead of dealing the damage from Sly Striker, you can deal your full sneak attack damage to a target even if the target isn’t flat-footed.</Description>
+		</Ability>
+	</Feats>
+</pf2:class>

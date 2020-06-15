@@ -1,0 +1,58 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>Core Rulebook</Name>
+    <ShortName>CRB</ShortName>
+    <Ancestries>
+        <Ancestry name="Dwarf" path="ancestries/Dwarf.pfdyl" />
+        <Ancestry name="Elf" path="ancestries/Elf.pfdyl" />
+        <Ancestry name="Gnome" path="ancestries/Gnome.pfdyl" />
+        <Ancestry name="Goblin" path="ancestries/Goblin.pfdyl" />
+        <Ancestry name="Halfling" path="ancestries/Halfling.pfdyl" />
+        <Ancestry name="Human" path="ancestries/Human.pfdyl" />
+    </Ancestries>
+    <Backgrounds path="backgrounds.pfdyl" />
+    <Classes>
+        <Class name="Barbarian" path="classes/Barbarian.pfdyl" />
+        <Class name="Bard" path="classes/Bard.pfdyl" />
+        <Class name="Champion" path="classes/Champion.pfdyl" />
+        <Class name="Cleric" path="classes/Cleric.pfdyl" />
+        <Class name="Druid" path="classes/Druid.pfdyl" />
+        <Class name="Fighter" path="classes/Fighter.pfdyl" />
+        <Class name="Monk" path="classes/Monk.pfdyl" />
+        <Class name="Ranger" path="classes/Ranger.pfdyl" />
+        <Class name="Rogue" path="classes/Rogue.pfdyl" />
+        <Class name="Sorcerer" path="classes/Sorcerer.pfdyl" />
+        <Class name="Wizard" path="classes/Wizard.pfdyl" />
+    </Classes>
+    <Equipment>
+        <Category name="Adventuring Gear" path="equipment/adventuring_gear.pfdyl" />
+        <Category name="Alchemical Items" path="equipment/alchemical_items.pfdyl" />
+        <Category name="Consumables" path="equipment/consumables.pfdyl" />
+        <Category name="Held Items" path="equipment/held_items.pfdyl" />
+        <Category name="Materials" path="equipment/materials.pfdyl" />
+        <Category name="Runes" path="equipment/runes.pfdyl" />
+        <Category name="Services" path="equipment/services.pfdyl" />
+        <Category name="Snares" path="equipment/snares.pfdyl" />
+        <Category name="Staves" path="equipment/staves.pfdyl" />
+        <Category name="Structures" path="equipment/structures.pfdyl" />
+        <Category name="Wands" path="equipment/wands.pfdyl" />
+        <Category name="Worn Items" path="equipment/worn_items.pfdyl" />
+    </Equipment>
+    <Armor name="Armor" path="equipment/armor_and_shields.pfdyl" />
+    <Weapons name="Weapons" path="equipment/weapons.pfdyl" />
+    <Feats>
+        <Category name="Arcane School" path="feats/arcaneSchool.pfdyl" />
+        <Category name="Arcane Thesis" path="feats/arcaneThesis.pfdyl" />
+        <Category name="Bloodline" path="feats/bloodline.pfdyl" />
+        <Category name="General" path="feats/general.pfdyl" />
+        <Category name="Skill" path="feats/skill.pfdyl" />
+    </Feats>
+    <Setting>
+        <Category name="Deities" path="setting/deities.pfdyl" />
+        <Category name="Domains" path="setting/domains.pfdyl" />
+    </Setting>
+    <Spells>
+        <Category name="Focus Spells" path="spells/focus_spells.pfdyl" />
+        <Category name="Spells" path="spells/spells.pfdyl" />
+    </Spells>
+</Source>

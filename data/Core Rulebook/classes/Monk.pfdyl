@@ -1,0 +1,653 @@
+<?xml version = "1.0"?>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/class.xsd">
+    <Name>Monk</Name>
+    <HP>10</HP>
+    <AbilityChoices>Str or Dex</AbilityChoices>
+    <SkillIncreases>4</SkillIncreases>
+    <Description>The strength of your fist flows from your mind and spirit. You seek perfection—honing your body into a flawless instrument and your mind into an orderly bastion of wisdom. You’re a fierce combatant renowned for martial arts skills and combat stances that grant you unique fighting moves. While the challenge of mastering many fighting styles drives you to great heights, you also enjoy meditating on philosophical questions and discovering new ways to obtain peace and enlightenment.</Description>
+    <FeatureList level="1">
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
+        <AbilitySlot state="filled" name="Initial Proficiencies">
+            <Ability>
+                <AttributeMods Proficiency="Trained">Perception, Simple Weapons, Unarmed, Class DC</AttributeMods>
+                <AttributeMods Proficiency="Expert">Fortitude, Reflex, Will, Unarmored</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Flurry Of Blows">
+            <Ability cost="1" page="156">
+                <Traits>Flourish, Monk</Traits>
+                <Description>Make two unarmed Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple attack penalty to the Strikes normally. As it has the flourish trait, you can use Flurry of Blows only once per turn.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Monk Feat"/>
+        <AbilitySlot state="filled" name="Powerful Fist">
+            <Ability>
+                <Description>You know how to wield your fists as deadly weapons. The damage die for your fist increases to 1d6 instead of 1d4. Most people take a –2 circumstance penalty when making a lethal attack with nonlethal unarmed attacks, because they find it hard to use their fists with deadly force. You don’t take this penalty when making a lethal attack with your fist or any other unarmed attacks.</Description>
+                <Weapon>
+                    <Name>Fist</Name>
+                    <Damage>1d6 B</Damage>
+                    <Group>Brawling</Group>
+                    <Traits>Agile, Finesse, Nonlethal, Unarmed</Traits>
+                </Weapon>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Ki Spells">
+            <Ability>
+                <PrereqStrings>Ki Spells</PrereqStrings>
+                <Description>By tapping into a supernatural inner reserve called ki, you can create magical effects. Certain feats grant you special spells called ki spells, which are a type of focus spell. It costs 1 Focus Point to cast a focus spell. When you gain your first ki spell, you also gain a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you regain 1 Focus Point by spending 10 minutes using the Refocus activity to meditate in order to reach inner peace.
+
+                    When you first gain a ki spell, decide whether your ki spells are divine spells or occult spells. You become trained in spell attacks and spell DCs of that tradition and your key spellcasting ability is Wisdom.</Description>
+                <AbilitySlot state="choice" name="Ki Spells Tradition">
+                    <Ability name="Occult Ki Spells">
+                        <AttributeMods Proficiency="Trained">Occult Spell Attacks, Occult Spell DCs</AttributeMods>
+                    </Ability>
+                    <Ability name="Divine Ki Spells">
+                        <AttributeMods Proficiency="Trained">Divine Spell Attacks, Divine Spell DCs</AttributeMods>
+                    </Ability>
+                </AbilitySlot>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="2">
+        <AbilitySlot state="feat" type="Class Feat" name="Monk Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="3">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Incredible Movement">
+            <Ability>
+                <Description>You move like the wind. You gain a +10-foot status bonus to your Speed whenever you’re not wearing armor. The bonus increases by 5 feet for every 4 levels you have beyond 3rd.</Description>
+                <CustomMod>
+                    add("speed", 10 + 5 * Math.floor((level - 3)/4));
+                </CustomMod>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Mystic Strikes">
+            <Ability>
+                <Description>Focusing your will into your physical attacks imbues them with mystical energy. Your unarmed attacks become magical, allowing them to get past resistances to non-magical attacks. However, you still need an item such as handwraps of mighty blows to gain an item bonus to attack rolls or increase your attacks’ weapon damage dice.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="4">
+        <AbilitySlot state="feat" type="Class Feat" name="Monk Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="5">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Alertness">
+            <Ability>
+                <Description>You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</Description>
+                <AttributeMods Proficiency="Expert">Perception</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Expert Strikes">
+            <Ability>
+                <Description>You’ve practiced martial arts and have now surpassed your former skill. Your proficiency ranks for unarmed attacks and simple weapons increase to expert.</Description>
+                <AttributeMods Proficiency="Expert">Unarmed, Simple Weapons</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="6">
+        <AbilitySlot state="feat" type="Class Feat" name="Monk Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="7">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Path To Perfection">
+            <Ability>
+                <Description>You have progressed along your own path to enlightenment. Choose your Fortitude, Reflex, or Will saving throw. Your proficiency rank for the chosen saving throw increases to master. When you roll a success on the chosen saving throw, you get a critical success instead.</Description>
+                <AbilitySlot state="choice" name="Path To Perfection Choice">
+                    <Ability name="Path of Fortitude">
+                        <AttributeMods Proficiency="Master">Fortitude</AttributeMods>
+                    </Ability>
+                    <Ability name="Path of Reflex">
+                        <AttributeMods Proficiency="Master">Reflex</AttributeMods>
+                    </Ability>
+                    <Ability name="Path of Will">
+                        <AttributeMods Proficiency="Master">Will</AttributeMods>
+                    </Ability>
+                </AbilitySlot>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Weapon Specialization">
+            <Ability>
+                <Description>You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master, and 4 if you’re legendary.</Description>
+                <!--TODO: Support Weapon Specialization-->
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="8">
+        <AbilitySlot state="feat" type="Class Feat" name="Monk Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="9">
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Metal Strikes">
+            <Ability>
+                <Description>You can adjust your body to make unarmed attacks infused with the mystic energy of rare metals. Your unarmed attacks are treated as cold iron and silver. This allows you to deal more damage to a variety of supernatural creatures, such as demons, devils, and fey.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Monk Expertise">
+            <Ability>
+                <Description>Your proficiency rank for your monk class DC increases to expert. If you have ki spells, your proficiency rank for spell attacks and spell DCs with the tradition of magic you use for your ki spells increases to expert.</Description>
+                <AbilitySlot state="filled" name="Monk Expertise - Occult Spells">
+                    <Ability>
+                        <Prerequisites>Occult Ki Spells</Prerequisites>
+                        <AttributeMods Proficiency="Expert">Occult Spell Attacks, Occult Spell DCs</AttributeMods>
+                    </Ability>
+                </AbilitySlot>
+                <AbilitySlot state="filled" name="Monk Expertise - Divine Spells">
+                    <Ability>
+                        <Prerequisites>Divine Ki Spells</Prerequisites>
+                        <AttributeMods Proficiency="Expert">Divine Spell Attacks, Divine Spell DCs</AttributeMods>
+                    </Ability>
+                </AbilitySlot>
+                <AttributeMods Proficiency="Expert">Class DC</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="10">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Monk Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="11">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Second Path To Perfection">
+            <Ability>
+                <Description>You’ve learned to find perfection in every success. Choose a different saving throw than the one you chose for your path to perfection. Your proficiency rank for the chosen saving throw increases to master. If you roll a success with the chosen saving throw, you instead critically succeed.</Description>
+                <AbilitySlot state="choice" name="Second Path To Perfection Choice">
+                    <Ability name="Path of Fortitude">
+                        <Prerequisites>Path of Reflex or Path of Will</Prerequisites>
+                        <AttributeMods Proficiency="Master">Fortitude</AttributeMods>
+                    </Ability>
+                    <Ability name="Path of Reflex">
+                        <Prerequisites>Path of Fortitude or Path of Will</Prerequisites>
+                        <AttributeMods Proficiency="Master">Reflex</AttributeMods>
+                    </Ability>
+                    <Ability name="Path of Will">
+                        <Prerequisites>Path of Fortitude or Path of Reflex</Prerequisites>
+                        <AttributeMods Proficiency="Master">Will</AttributeMods>
+                    </Ability>
+                </AbilitySlot>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="12">
+        <AbilitySlot state="feat" type="Class Feat" name="Monk Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="13">
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Graceful Mastery">
+            <Ability>
+                <Description>You move with perpetual grace in battle, eluding and turning aside blows. Your proficiency rank for unarmored defense increases to master.</Description>
+                <AttributeMods Proficiency="Master">Unarmored</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Master Strikes">
+            <Ability>
+                <Description>You have honed your skill in using your body as a weapon. Your proficiency ranks for unarmed attacks and simple weapons increase to master.</Description>
+                <AttributeMods Proficiency="Master">Unarmed</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="14">
+        <AbilitySlot state="feat" type="Class Feat" name="Monk Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="15">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Greater Weapon Specialization">
+            <Ability>
+                <Description>Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you’re an expert, 6 if you’re a master, and 8 if you’re legendary.</Description>
+                <!--TODO: Support-->
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Third Path To Perfection">
+            <Ability>
+                <Description>You have made great progress in your personal studies of enlightenment. Choose one of the saving throws you selected for path to perfection or second path to perfection. Your proficiency rank for the chosen type of save increases to legendary. When you roll a critical failure on the chosen type of save, you get a failure instead. When you roll a failure on the chosen type of save against an effect that deals damage, you take half damage.</Description>
+                <AbilitySlot state="choice" name="Third Path To Perfection Choice">
+                    <Ability name="Great Path of Fortitude">
+                        <Prerequisites>Path of Fortitude</Prerequisites>
+                        <AttributeMods Proficiency="Legendary">Fortitude</AttributeMods>
+                    </Ability>
+                    <Ability name="Great Path of Reflex">
+                        <Prerequisites>Path of Reflex</Prerequisites>
+                        <AttributeMods Proficiency="Legendary">Reflex</AttributeMods>
+                    </Ability>
+                    <Ability name="Great Path of Will">
+                        <Prerequisites>Path of Will</Prerequisites>
+                        <AttributeMods Proficiency="Legendary">Will</AttributeMods>
+                    </Ability>
+                </AbilitySlot>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="16">
+        <AbilitySlot state="feat" type="Class Feat" name="Monk Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="17">
+        <AbilitySlot state="filled" name="Adamantine Strikes">
+            <Ability>
+                <Description>When you focus your will into your limbs, your blows are as unyielding as the hardest of metals. Your unarmed attacks are treated as adamantine.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Graceful Legend">
+            <Ability>
+                <Description>Your sublime movement grants you unparalleled protection and offense. Your proficiency rank for unarmored defense increases to legendary, and your proficiency rank for your monk class DC increases to master. If you have ki spells, your proficiency rank for spell attack rolls and spell DCs with the tradition of magic you use for your ki spells increases to master.</Description>
+                <AbilitySlot state="filled" name="Graceful Legend - Occult Spells">
+                    <Ability>
+                        <Prerequisites>Occult Ki Spells</Prerequisites>
+                        <AttributeMods Proficiency="Master">Occult Spell Attacks, Occult Spell DCs</AttributeMods>
+                    </Ability>
+                </AbilitySlot>
+                <AbilitySlot state="filled" name="Graceful Legend - Divine Spells">
+                    <Ability>
+                        <Prerequisites>Divine Ki Spells</Prerequisites>
+                        <AttributeMods Proficiency="Master">Divine Spell Attacks, Divine Spell DCs</AttributeMods>
+                    </Ability>
+                </AbilitySlot>
+                <AttributeMods Proficiency="Legendary">Unarmored</AttributeMods>
+                <AttributeMods Proficiency="Master">Class DC</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="18">
+        <AbilitySlot state="feat" type="Class Feat" name="Monk Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="19">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Perfected Form">
+            <Ability>
+                <Description>You have purged incompetence from your techniques. On your first Strike of your turn, if you roll lower than 10, you can treat the attack roll as a 10. This is a fortune effect.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="20">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Monk Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <Feats>
+        <Ability name="Crane Stance" level="1" page="158" cost="1">
+            <Traits>Monk, Stance</Traits>
+            <Requirements>You are unarmored.</Requirements>
+            <Description>You enter the stance of a crane, holding your arms in an imitation of a crane’s wings and using flowing, defensive motions. You gain a +1 circumstance bonus to AC, but the only Strikes you can make are crane wing attacks. These deal 1d6 bludgeoning damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits. While in Crane Stance, reduce the DC for High Jump and Long Jump by 5, and when you Leap, you can move an additional 5 feet horizontally or 2 feet vertically.</Description>
+            <Weapon>
+                <Name>Crane Wing</Name>
+                <Damage>1d6 B</Damage>
+                <Group>Brawling</Group>
+                <Traits>Agile, Finesse, Nonlethal, Unarmed</Traits>
+            </Weapon>
+        </Ability>
+        <Ability name="Dragon Stance" level="1" page="158" cost="1">
+            <Traits>Monk, Stance</Traits>
+            <Requirements>You are unarmored.</Requirements>
+            <Description>You enter the stance of a dragon and make powerful leg strikes like a lashing dragon’s tail. You can make dragon tail attacks that deal 1d10 bludgeoning damage. They are in the brawling group and have the backswing, nonlethal, and unarmed traits. While in Dragon Stance, you can ignore the first square of difficult terrain while Striding.</Description>
+            <Weapon>
+                <Name>Dragon Tail</Name>
+                <Damage>1d10 B</Damage>
+                <Group>Brawling</Group>
+                <Traits>Backswing, Nonlethal, Unarmed</Traits>
+            </Weapon>
+        </Ability>
+        <Ability name="Ki Rush" level="1" page="158">
+            <Traits>Monk</Traits>
+            <GivesPrerequisites>Ki Spells</GivesPrerequisites>
+            <Description>You can use ki to move with extraordinary speed and make yourself harder to hit. You gain the ki rush ki spell and a focus pool of 1 Focus Point. The rules for ki spells are summarized in the sidebar on page 157, and the full rules for focus spells appear on page 300.</Description>
+            <Spell name="Ki Rush" type="Focus"/>
+        </Ability>
+        <Ability name="Ki Strike" level="1" page="158">
+            <Traits>Monk</Traits>
+            <GivesPrerequisites>Ki Spells</GivesPrerequisites>
+            <Description>Your study of the flow of mystical energy allows you to harness it into your physical strikes. You gain the ki strike ki spell and a focus pool of 1 Focus Point. The rules for ki spells are summarized in the sidebar on page 157, and the full rules for focus spells appear on page 300.</Description>
+            <Spell name="Ki Strike" type="Focus"/>
+        </Ability>
+        <Ability name="Monastic Weaponry" level="1" page="158">
+            <Traits>Monk</Traits>
+            <Description>You have trained with the traditional weaponry of your monastery or school. You gain access to uncommon weapons that have the monk trait and become trained in simple and martial monk weapons. When your proficiency rank for unarmed attacks increases to expert or master, your proficiency rank for these weapons increases to expert or master as well. You can use melee monk weapons with any of your monk feats or monk abilities that normally require unarmed attacks, though not if the feat or ability requires you to use a single specific type of attack, such as Crane Stance.</Description>
+            <!--TODO: Monk weapon prof. follows unarmed prof-->
+        </Ability>
+        <Ability name="Mountain Stance" level="1" page="159" cost="1">
+            <Traits>Monk, Stance</Traits>
+            <Requirements>You are unarmored and touching the ground.</Requirements>
+            <Description>You enter the stance of an implacable mountain—a technique first discovered by dwarven monks—allowing you to strike with the weight of an avalanche. The only Strikes you can make are falling stone unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the forceful, nonlethal, and unarmed traits. While in Mountain Stance, you gain a +4 status bonus to AC and a +2 circumstance bonus to any defenses against being Shoved or Tripped. However, you have a Dexterity modifier cap to your AC of +0, meaning you don’t add your Dexterity to your AC, and your Speeds are all reduced by 5 feet.</Description>
+            <Weapon>
+                <Name>Falling Stone</Name>
+                <Damage>1d8 B</Damage>
+                <Group>Brawling</Group>
+                <Traits>Forceful, Nonlethal, Unarmed</Traits>
+            </Weapon>
+        </Ability>
+        <Ability name="Tiger Stance" level="1" page="159" cost="1">
+            <Traits>Monk, Stance</Traits>
+            <Requirements>You are unarmored.</Requirements>
+            <Description>You enter the stance of a tiger and can make tiger claw attacks. These deal 1d8 slashing damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits. On a critical success with your tiger claws, if you deal damage, the target takes 1d4 persistent bleed damage. As long as your Speed is at least 20 feet while in Tiger Stance, you can Step 10 feet.</Description>
+            <Weapon>
+                <Name>Tiger Claw</Name>
+                <Damage>1d8 S</Damage>
+                <Group>Brawling</Group>
+                <Traits>Agile, Finesse, Nonlethal, Unarmed</Traits>
+            </Weapon>
+        </Ability>
+        <Ability name="Wolf Stance" level="1" page="159" cost="1">
+            <Traits>Monk, Stance</Traits>
+            <Requirements>You are unarmored.</Requirements>
+            <Description>You enter the stance of a wolf, low to the ground with your hands held like fanged teeth. You can make wolf jaw unarmed attacks. These deal 1d8 piercing damage; are in the brawling group; and have the agile, backstabber, finesse, nonlethal, and unarmed traits. If you’re flanking a target while in Wolf Stance, your wolf jaw unarmed attacks also gain the trip trait.</Description>
+            <Weapon>
+                <Name>Wolf Jaw</Name>
+                <Damage>1d8 P</Damage>
+                <Group>Brawling</Group>
+                <Traits>Agile, Backstabber, Finesse, Nonlethal, Unarmed</Traits>
+            </Weapon>
+        </Ability>
+        <Ability name="Brawling Focus" level="2" page="160">
+            <Traits>Monk</Traits>
+            <Description>You know how to make the most of your attacks when fighting hand-to-hand. You gain access to the critical specialization effects of unarmed strikes in the brawling group and weapons in the brawling group. If you have Monastic Weaponry, you also gain the critical specialization effects of all monk weapons in which you are trained.</Description>
+        </Ability>
+        <Ability name="Crushing Grab" level="2" page="160">
+            <Traits>Monk</Traits>
+            <Description>Like a powerful constrictor, you crush targets in your unyielding grasp. When you successfully Grapple a creature, you can deal bludgeoning damage to that creature equal to your Strength modifier. You can make this attack nonlethal with no penalty.</Description>
+        </Ability>
+        <Ability name="Dancing Leaf" level="2" page="160">
+            <Traits>Monk</Traits>
+            <Description>You are as light as a leaf whirling in the breeze. When you Leap or succeed at a High Jump or Long Jump, increase the distance you jump by 5 feet. When calculating the damage you take from falling, don’t count any distance fallen while you are adjacent to a wall.</Description>
+        </Ability>
+        <Ability name="Elemental Fist" level="2" page="160">
+            <Traits>Monk</Traits>
+            <Prerequisites>Ki Strike</Prerequisites>
+            <Description>You call upon the power of the elements, infusing your ki with elemental energy and allowing your attacks to deal energy damage. When you cast ki strike, in addition to the damage types normally available, you can deliver the extra damage in the form of a gust of storm-tossed wind (dealing electricity damage and gaining the air trait), a chunk of stone (dealing bludgeoning damage and gaining the earth trait), a flickering flame (dealing fire damage), or a crashing wave of frigid water (dealing cold damage and gaining the water trait).</Description>
+        </Ability>
+        <Ability name="Stunning Fist" level="2" page="160">
+            <Traits>Monk</Traits>
+            <Prerequisites>Flurry Of Blows</Prerequisites>
+            <Description>The focused power of your flurry threatens to overwhelm your opponent. When you target the same creature with two Strikes from your Flurry of Blows, you can try to stun the creature. If either Strike hits and deals damage, the target must succeed at a Fortitude save against your class DC or be stunned 1 (or stunned 3 on a critical failure). This is an incapacitation effect.</Description>
+        </Ability>
+        <Ability name="Deflect Arrows" level="4" page="160" cost="Reaction">
+            <Traits>Monk</Traits>
+            <Trigger>You are the target of a physical ranged attack.</Trigger>
+            <Requirements>You’re aware of the attack, are not flat-footed against it, and have a hand free.</Requirements>
+            <Description>You gain a +4 circumstance bonus to AC against the triggering attack. If the attack misses, you have deflected it. You cannot use this feat to deflect unusually massive ranged projectiles (such as boulders or ballista bolts).</Description>
+        </Ability>
+        <Ability name="Flurry of Maneuvers" level="4" page="160">
+            <Traits>Monk</Traits>
+            <Prerequisites>Expert In Athletics</Prerequisites>
+            <Description>You flurry is a combination of maneuvers. You can replace one or both of your attacks during a Flurry of Blows with Grapples, Shoves, or Trips.</Description>
+        </Ability>
+        <Ability name="Flying Kick" level="4" page="160" cost="2">
+            <Traits>Monk</Traits>
+            <Description>You launch yourself at a foe. Make a Leap or attempt a High Jump or Long Jump. At the end of the jump, if you’re adjacent to a foe, you can immediately Strike that foe with an unarmed attack, even if the foe is in mid-air. You fall to the ground after the Strike. If the distance you fall is no more than the height of your jump, you land upright and take no damage.</Description>
+        </Ability>
+        <Ability name="Guarded Movement" level="4" page="160">
+            <Traits>Monk</Traits>
+            <Description>Your guard is up, even while moving. You gain a +4 circumstance bonus to AC against reactions triggered by your movement.</Description>
+        </Ability>
+        <Ability name="Stand Still" level="4" page="160" cost="Reaction">
+            <Traits>Monk</Traits>
+            <Trigger>A creature within your reach uses a move action or leaves a square during a move action it’s using.</Trigger>
+            <Description>You strike out when your foe tries to flee. Make a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a move action, you disrupt that action.</Description>
+        </Ability>
+        <Ability name="Wholeness of Body" level="4" page="160">
+            <Traits>Monk</Traits>
+            <PrereqStrings>Ki Spells</PrereqStrings>
+            <Description>You can restore your health by tapping into your ki. You gain the wholeness of body ki spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Wholeness of Body"/>
+        </Ability>
+        <Ability name="Abundant Step" level="6" page="160">
+            <Traits>Monk</Traits>
+            <Prerequisites>Incredible Movement</Prerequisites>
+            <PrereqStrings>Ki Spells</PrereqStrings>
+            <Description>You can teleport yourself a short distance. You gain the abundant step ki spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Abundant Step"/>
+        </Ability>
+        <Ability name="Crane Flutter" level="6" page="161" cost="Reaction">
+            <Traits>Monk</Traits>
+            <Prerequisites>Crane Stance</Prerequisites>
+            <Trigger>You are targeted with a melee attack by an attacker you can see.</Trigger>
+            <Description>You interpose your arm between yourself and your opponent. Your circumstance bonus to AC from Crane Stance increases to +3 against the triggering attack. If the attack misses you, you can immediately make a crane wing Strike against the attacker at a –2 penalty, even if the attacker isn’t within your reach.</Description>
+        </Ability>
+        <Ability name="Dragon Roar" level="6" page="161" cost="1">
+            <Traits>Auditory, Emotion, Fear, Mental, Monk</Traits>
+            <Prerequisites>Dragon Stance</Prerequisites>
+            <Requirements>You are in Dragon Stance.</Requirements>
+            <Description>You bellow, instilling fear in your enemies. Enemies within a 15-foot emanation must succeed at a Will save against your Intimidation DC or be frightened 1 (frightened 2 on a critical failure). When a creature frightened by the roar begins its turn adjacent to you, it can’t reduce its frightened value below 1 on that turn. Your first attack that hits a frightened creature after you roar and before the end of your next turn gains a +4 circumstance bonus to damage. After you use Dragon Roar, you can’t use it again for 1d4 rounds. Its effects end immediately if you leave Dragon Stance. Creatures in the area of your roar are then temporarily immune for 1 minute.</Description>
+        </Ability>
+        <Ability name="Ki Blast" level="6" page="161">
+            <Traits>Monk</Traits>
+            <PrereqStrings>Ki Spells</PrereqStrings>
+            <Description>You can unleash an impactful cone of force by channeling your ki. You gain the ki blast ki spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Ki Blast"/>
+        </Ability>
+        <Ability name="Mountain Stronghold" level="6" page="161" cost="1">
+            <Traits>Monk</Traits>
+            <Prerequisites>Mountain Stance</Prerequisites>
+            <Requirements>You are in Mountain Stance.</Requirements>
+            <Description>You focus on your connection to the earth and call upon the mountain to block attacks against you. You gain a +2 circumstance bonus to AC until the beginning of your next turn.Special If you have this feat, the Dexterity modifier cap to your AC while you’re in Mountain Stance increases from +0 to +1.</Description>
+        </Ability>
+        <Ability name="Tiger Slash" level="6" page="161" cost="2">
+            <Traits>Monk</Traits>
+            <Prerequisites>Tiger Stance</Prerequisites>
+            <Requirements>You are in Tiger Stance.</Requirements>
+            <Description>You make a fierce swipe with both hands. Make a tiger claw Strike. It deals two extra weapon damage dice (three extra dice if you’re 14th level or higher), and you can push the target 5 feet away as if you had successfully Shoved them. If the attack is a critical success and deals damage, add your Strength modifier to the persistent bleed damage from your tiger claw.</Description>
+        </Ability>
+        <Ability name="Water Step" level="6" page="162">
+            <Traits>Monk</Traits>
+            <Description>You can Stride across liquid and surfaces that don’t support your weight. This benefit lasts only during your movement. If you end your movement on a surface that can’t support you, you fall in or it collapses as normal.</Description>
+        </Ability>
+        <Ability name="Whirling Throw" level="6" page="162" cost="1">
+            <Traits>Monk</Traits>
+            <Requirements>You have a creature grabbed or restrained.</Requirements>
+            <Description>You propel your grabbed or restrained foe a great distance. You can throw the creature any distance up to 10 feet, plus 5 feet × your Strength modifier. If you successfully throw the creature, it takes bludgeoning damage equal to your Strength modifier plus 1d6 per 10 feet you threw it. Attempt an Athletics check against the foe’s Fortitude DC. You take a –2 circumstance penalty to your check if the target is one size larger than you and a –4 circumstance penalty if it’s larger than that. You gain a +2 circumstance bonus to your check if the target is one size smaller than you and a +4 circumstance bonus if it’s smaller than that. Critical Success You throw the creature the desired distance and it lands prone.Success You throw the creature the desired distance.Failure You don’t throw the creature.Critical Failure You don’t throw the creature, and it’s no longer grabbed or restrained by you.</Description>
+        </Ability>
+        <Ability name="Wolf Drag" level="6" page="162" cost="2">
+            <Traits>Monk</Traits>
+            <Prerequisites>Wolf Stance</Prerequisites>
+            <Requirements>You are in Wolf Stance.</Requirements>
+            <Description>You rip your enemy off their feet. Make a wolf jaw Strike. Your wolf jaw gains the fatal d12 trait for this Strike, and if the attack succeeds, you knock the target prone.</Description>
+        </Ability>
+        <Ability name="Arrow Snatching" level="8" page="162">
+            <Traits>Monk</Traits>
+            <Prerequisites>Deflect Arrow</Prerequisites>
+            <Description>You pluck missiles from the air and hurl them back at their source. When you successfully deflect an attack with Deflect Arrow, as part of that reaction, you can immediately make a ranged Strike against the attacker using the projectile you deflected. This is a thrown weapon with the same range increment and effect on a hit as the triggering attack.</Description>
+        </Ability>
+        <Ability name="Ironblood Stance" level="8" page="163" cost="1">
+            <Traits>Monk, Stance</Traits>
+            <Requirements>You are unarmored.</Requirements>
+            <Description>You enter the stance of impenetrable iron, refusing to yield to any blow. You can make iron sweep unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the nonlethal, parry, sweep, and unarmed traits.While in Ironblood Stance, you gain resistance 2 to all damage. The resistance increases to 3 at 12th level, to 4 at 16th level, and to 5 at 20th level.</Description>
+        </Ability>
+        <Ability name="Mixed Maneuver" level="8" page="163" cost="2">
+            <Traits>Monk</Traits>
+            <Requires>Master In Athletics</Requires>
+            <Description>You combine two different maneuvers together into a single flowing whole. Choose any two of Grapple, Shove, and Trip. Attempt both of the attacks you chose against the same or different creatures, but don’t apply the multiple attack penalty until after resolving both attacks.</Description>
+        </Ability>
+        <Ability name="Tangled Forest Stance" level="8" page="163" cost="1">
+            <Traits>Monk, Stance</Traits>
+            <Requirements>You are unarmored</Requirements>
+            <Description>You extend your arms like gnarled branches to interfere with your foes’ movements. You can make lashing branch unarmed attacks. These deal 1d8 slashing damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits. While you’re in Tangled Forest Stance and can act, every enemy in your reach that tries to move away from you must succeed at a Reflex save, Acrobatics check, or Athletics check against your class DC or be immobilized for that action. If you prefer, you can allow the enemy to move.</Description>
+        </Ability>
+        <Ability name="Wall Run" level="8" page="163" cost="1">
+            <Traits>Monk</Traits>
+            <Description>You defy gravity, traversing vertical planes as easily as the ground. Stride up to your Speed. You must start your movement on a horizontal surface. During this movement, you can run up vertical surfaces, like walls, at your full Speed. If you end the Stride off the ground, you fall after taking your next action or when your turn ends, whichever comes first (though you can Grab an Edge, if applicable). If you have Water Step or a similar ability, Wall Run lets you run along flimsy vertical surfaces, as well as vertical liquids, such as a waterfall.</Description>
+        </Ability>
+        <Ability name="Wild Winds Initiate" level="8" page="163">
+            <Traits>Monk</Traits>
+            <PrereqStrings>Ki Spells</PrereqStrings>
+            <Description>You learn a mystical stance that lets you attack from a distance. You gain the wild winds stance ki spell. Increase the number of Focus Points in your focus pool by 1. While entering the stance is a ki spell, the wind crash Strikes the stance grants are not, so you can use them as often as you like while in the stance.</Description>
+            <Spell type="Focus" name="Wild Winds Stance"/>
+        </Ability>
+        <Ability name="Knockback Strike" level="10" page="163" cost="2">
+            <Traits>Concentrate, Monk</Traits>
+            <Description>You focus your strength into a blow powerful enough to push an enemy away from you. Make an unarmed Strike. If you hit, attempt an Athletics check to Shove the target. This attack uses the same multiple attack penalty as your Strike, and doesn’t count toward your multiple attack penalty.</Description>
+        </Ability>
+        <Ability name="Sleeper Hold" level="10" page="163" cost="1">
+            <Traits>Attack, Incapacitation, Monk</Traits>
+            <Requirements>You have a creature grabbed or restrained.</Requirements>
+            <Description>You pinch crucial points of your target’s nervous system, impeding its ability to function. Attempt an Athletics check to Grapple the creature, with the following success and critical success effects instead of the usual effects. Critical Success The target falls unconscious for 1 minute, though it remains standing and doesn’t drop what it holds. Success The target is clumsy 1 until the end of its next turn.</Description>
+        </Ability>
+        <Ability name="Wind Jump" level="10" page="163">
+            <Traits>Monk</Traits>
+            <PrereqStrings>Ki Spells</PrereqStrings>
+            <Description>You gather the wind beneath you, allowing you to soar as you jump. You gain the wind jump ki spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Wind Jump"/>
+        </Ability>
+        <Ability name="Winding Flow" level="10" page="163" cost="1">
+            <Traits>Monk</Traits>
+            <Frequency>once per round</Frequency>
+            <Description>Any journey consists of more than simply reaching your destination. You use two of the following actions in any order: Stand, Step, and Stride. You can’t use the same action twice.</Description>
+        </Ability>
+        <Ability name="Diamond Soul" level="12" page="163">
+            <Traits>Monk</Traits>
+            <Description>You have fortified your body and mind against eldritch effects. You gain a +1 status bonus to saving throws against magic.</Description>
+        </Ability>
+        <Ability name="Disrupt Ki" level="12" page="163" cost="2">
+            <Traits>Monk, Negative</Traits>
+            <Description>Make an unarmed Strike. If it deals damage to a living creature, you block that creature’s inner life force. The creature takes 2d6 persistent negative damage and is enfeebled 1 until the persistent damage ends. If you’re 18th level or higher, this deals 3d6 persistent negative damage instead.</Description>
+        </Ability>
+        <Ability name="Improved Knockback" level="12" page="163">
+            <Traits>Monk</Traits>
+            <Requires>Master In Athletics</Requires>
+            <Description>When you successfully Shove a creature, increase both the distance you can push the creature and the distance you can move to follow along with the target by 5 feet on a success or 10 feet on a critical success. If you push the target into an obstacle, it takes bludgeoning damage equal to 6 plus your Strength modifier, or 8 plus your Strength modifier if you have legendary proficiency in Athletics.</Description>
+        </Ability>
+        <Ability name="Meditative Focus" level="12" page="164">
+            <Traits>Monk</Traits>
+            <PrereqStrings>Ki Spells</PrereqStrings>
+            <Description>Your meditation is so effective that you can achieve a deep focus. If you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1.</Description>
+        </Ability>
+        <Ability name="Stance Savant (Monk)" level="12" page="164" cost="Free">
+            <Traits>Monk</Traits>
+            <Trigger>You roll initiative.</Trigger>
+            <Description>You enter a stance without a thought. Use an action that has the stance trait.</Description>
+        </Ability>
+        <Ability name="Ironblood Surge" level="14" page="164" cost="1">
+            <Traits>Monk</Traits>
+            <Prerequisites>Ironblood Stance</Prerequisites>
+            <Requirements>You are in Ironblood Stance.</Requirements>
+            <Description>You steel yourself, preparing to resist oncoming attacks and using your muscles to absorb the impact. You gain the benefits of your iron sweep’s parry trait (a +1 circumstance bonus to AC until the start of your next turn) and your resistance from Ironblood Stance increases to your Strength modifier (if it’s higher) for the same duration.</Description>
+        </Ability>
+        <Ability name="Moutain Quake" level="14" page="164" cost="1">
+            <Traits>Monk</Traits>
+            <Prerequisites>Mountain Stronghold</Prerequisites>
+            <Requirements>You are in Mountain Stance.</Requirements>
+            <Description>You stomp, shaking the earth beneath you. Creatures on the ground within a 20-foot emanation take damage equal to your Strength modifier (minimum 0), which they can resist with a basic Fortitude save. On a failure, they also fall prone. After you use this action, you can’t use it again for 1d4 rounds.Special If you have this feat, the Dexterity modifier cap to your AC while using Mountain Stance increases from +1 to +2.</Description>
+        </Ability>
+        <Ability name="Tangled Forest Rake" level="14" page="164">
+            <Traits>Monk</Traits>
+            <Prerequisites>Tangled Forest Stance</Prerequisites>
+            <Requirements>You are in Tangled Forest Stance.</Requirements>
+            <Description>You reposition foes with raking attacks. Make a lashing branch Strike. If you hit and deal damage, you force the target to move 5 feet into a space within your reach. This follows the forced movement rules found on page 475.</Description>
+        </Ability>
+        <Ability name="Timeless Body" level="14" page="164">
+            <Traits>Monk</Traits>
+            <Description>You cease aging. In addition, you gain a +2 status bonus to saving throws against poisons and diseases, and you gain resistance to poison damage equal to half your level.</Description>
+        </Ability>
+        <Ability name="Tongue of the Sun and Moon" level="14" page="165">
+            <Traits>Monk</Traits>
+            <Description>You have transcended the barriers between words and meaning. You can speak and understand all spoken languages.</Description>
+        </Ability>
+        <Ability name="Enlightened Presence" level="16" page="165">
+            <Traits>Emotion, Mental, Monk</Traits>
+            <Description>You exude an aura of resolve. You and allies within 15 feet of you gain a +2 status bonus to Will saving throws against mental effects.</Description>
+        </Ability>
+        <Ability name="Master of Many Styles" level="16" page="165" cost="Free">
+            <Traits>Monk</Traits>
+            <Prerequisites>Stance Savant</Prerequisites>
+            <Requirements>This is the first action of your turn.</Requirements>
+            <Description>You move between stances in an unceasing dance. You use an action with the stance trait.</Description>
+        </Ability>
+        <Ability name="Quivering Palm" level="16" page="165">
+            <Traits>Monk</Traits>
+            <PrereqStrings>Ki Spells</PrereqStrings>
+            <Description>Your strikes can kill foes. You gain the quivering palm ki spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Quivering Palm"/>
+        </Ability>
+        <Ability name="Shattering Strike" level="16" page="165" cost="2">
+            <Traits>Monk</Traits>
+            <Description>The force of your considered blow shatters objects and defenses alike. Make an unarmed Strike. It bypasses the target’s resistances. If the target has Hardness, the Strike treats the Hardness as if it were half its value.</Description>
+        </Ability>
+        <Ability name="Wild Winds Gust" level="16" page="165" cost="2">
+            <Traits>Air, Concentrate, Evocation, Manipulate, Monk</Traits>
+            <Prerequisites>Wild Winds Initiate</Prerequisites>
+            <Requirements>You are in wild winds stance.</Requirements>
+            <Description>You store up energy and release it in an enormous gust of rushing wind. Make a wind crash Strike against each creature in your choice of a 30-foot cone or a 60 foot line. These attacks all count toward your multiple attack penalty, but the penalty doesn’t increase until after you make all the attacks.</Description>
+        </Ability>
+        <Ability name="Diamond Fists" level="18" page="165">
+            <Traits>Monk</Traits>
+            <Description>Your body hardens as you combine your attacks, making your finishing blows more damaging. Your unarmed attacks gain the forceful trait. Any that already had this trait instead increase their weapon damage dice by one step.</Description>
+        </Ability>
+        <Ability name="Empty Body" level="18" page="165">
+            <Traits>Monk</Traits>
+            <PrereqStrings>Ki Spells</PrereqStrings>
+            <Description>You transmute your body into an ethereal form. You gain the empty body ki spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Empty Body"/>
+        </Ability>
+        <Ability name="Meditative Wellspring" level="18" page="165">
+            <Traits>Monk</Traits>
+            <Prerequisites>Meditative Focus</Prerequisites>
+            <Description>When you clear your mind, your focus comes flowing back in a powerful rush. If you have spent at least 3 Focus Points since the last time you Refocused, you recover 3 Focus Points when you Refocus instead of 1.</Description>
+        </Ability>
+        <Ability name="Swift River" level="18" page="165" cost="Free">
+            <Traits>Monk</Traits>
+            <Trigger>Your turn ends and you have a status penalty to your Speed or are immobilized or slowed.</Trigger>
+            <Description>You flow like water, avoiding all restraints. End one status penalty to your speed, or end one immobilized or slowed condition affecting you.</Description>
+        </Ability>
+        <Ability name="Enduring Quickness" level="20" page="165">
+            <Traits>Monk</Traits>
+            <Description>You move as fast and as high as the wind itself. You’re permanently quickened. You can use your extra action to Stride or Leap, or to provide one of the actions needed for a High Jump or Long Jump.</Description>
+        </Ability>
+        <Ability name="Fuse Stance" level="20" page="165">
+            <Traits>Monk</Traits>
+            <Prerequisites>At Least Two Stances</Prerequisites>
+            <Description>You have combined two stances into a single stance all your own. When you take this feat, choose two stances you know and combine them into a single fused stance. Give your new fused stance a unique name. When you enter your fused stance, you gain all the effects of both stances, including the requirements and restrictions. You can’t fuse stances with fundamentally incompatible requirements or restrictions (such as Ironblood Stance and Crane Stance, which both require using only one type of Strike).</Description>
+        </Ability>
+        <Ability name="Impossible Technique" level="20" page="165" cost="Reaction">
+            <Traits>Fortune, Monk</Traits>
+            <Trigger>An enemy’s attack hits you or you fail a saving throw against an enemy’s ability.</Trigger>
+            <Requirements>You are not armored or fatigued.</Requirements>
+            <Description>You execute a maneuver that defies possibility. If the triggering effect was an enemy’s attack hitting you, the enemy rerolls the attack roll and uses the lower result. If the triggering effect was you failing a saving throw, you reroll the saving throw and use the higher result.</Description>
+        </Ability>
+    </Feats>
+</pf2:class>

@@ -1,0 +1,8 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>The Amar Vale</Name>
+    <ShortName>TAV</ShortName>
+    <Setting>
+        <Category name="Deities" path="setting/deities.pfdyl" />
+    </Setting>
+</Source>

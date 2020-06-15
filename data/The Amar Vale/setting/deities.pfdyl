@@ -1,0 +1,281 @@
+<pf2:deities xmlns:pf2="https://dylbrown.github.io"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/deity.xsd">
+    <Deity page="124">
+        <Name>Martin</Name>
+        <Title>The Nurturer</Title>
+        <DeityAlignment>N</DeityAlignment>
+        <Edicts>Care for your home and family, fulfill your duties, keep the peace, protect the community</Edicts>
+        <Anathema>Abandon your home in its time of need, choose yourself over your community, tarnish your reputation, tell lies</Anathema>
+        <FollowerAlignments>NG, N, CN, LN</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Nature</DivineSkill>
+        <FavoredWeapon>staff</FavoredWeapon>
+        <Domains>earth, family, nature, wealth</Domains>
+        <Spells>
+            <Spell level="1" name="true strike" />
+            <Spell level="3" name="wall of thorns" />
+            <Spell level="5" name="tree stride" />
+        </Spells>
+        <Description>Martin is the patron of tradesmen, travellers, and families, and is thought to be gentle and kind.</Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Anubis</Name>
+        <Title>Guardian of the Tomb</Title>
+        <DeityAlignment>LN</DeityAlignment>
+        <Edicts>Lay bodies to rest, destroy undead, be impartial in judgment</Edicts>
+        <Anathema>Desecrate a corpse, rob a tomb, trap a soul</Anathema>
+        <FollowerAlignments>LG, LN, N</FollowerAlignments>
+        <DivineFont>harm or heal</DivineFont>
+        <DivineSkill>Occultism</DivineSkill>
+        <FavoredWeapon>flail</FavoredWeapon>
+        <Domains>death, protection, soul, vigil</Domains>
+        <Spells>
+            <Spell level="1" name="unseen servant" />
+            <Spell level="3" name="shifting sand" />
+            <Spell level="5" name="wall of stone" />
+        </Spells>
+        <Description>Anubis, also known as Inpu(which means "decay"), is a jackal-headed god associated with mummification and the afterlife.
+            Anubis takes various titles in connection with his funerary role, such as He-Who-Is-Upon-His-Mountain, which underscores his importance as a protector of the deceased and their tombs, and the title He-Who-Is-In-The-Place-Of-Embalming, associating him with the process of mummification.</Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Bastet</Name>
+        <Title>The Sly Enchantress</Title>
+        <DeityAlignment>CN</DeityAlignment>
+        <Edicts>Learn secrets, tempt others into revelry, kill harmful snakes and evil spirits, heal diseases</Edicts>
+        <Anathema>Kill or abuse a house cat, abandon a child, choose to marry</Anathema>
+        <FollowerAlignments>CG, N, CN</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Deception</DivineSkill>
+        <FavoredWeapon>longspear</FavoredWeapon>
+        <Domains>nature, passion, protection, trickery</Domains>
+        <Spells>
+            <Spell level="1" name="pest form" />
+            <Spell level="3" name="animal vision" />
+            <Spell level="4" name="private sanctum" />
+        </Spells>
+        <Description>Bastet is the goddess of the home, domesticity, women's secrets, cats, fertility, and childbirth. She protects the home from evil spirits and disease, especially diseases associated with women and children. As with many deities, she also plays a role in the afterlife as a guide and helper to the dead although this is not one of her primary duties. She is the daughter of the sun god Ra and is associated with the concept of the Eye of Ra (the all-seeing eye) and the Distant Goddess (a female deity who leaves Ra and returns to bring transformation).</Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Bes</Name>
+        <Title>The Guardian Fool</Title>
+        <DeityAlignment>NG</DeityAlignment>
+        <Edicts>Aid childbirths, spread joy and celebration, protect sleeping creatures</Edicts>
+        <Anathema>Harm or neglect a child, separate families, use magic to corrupt dreams</Anathema>
+        <FollowerAlignments>LG, NG, CG</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Performance</DivineSkill>
+        <FavoredWeapon>katar</FavoredWeapon>
+        <Domains>earth, family, luck, protection</Domains>
+        <Spells>
+            <Spell level="1" name="sleep" />
+            <Spell level="2" name="hideous laughter" />
+            <Spell level="3" name="enthrall" />
+        </Spells>
+        <Description>Bes is the god of childbirth, fertility, sexuality, humor, and war, but serves primarily as a protector god of pregnant women and children. He regularly appears as a dwarf with large ears, long-haired and bearded, with prominent genitals, and bow-legged. Usually he is holding a rattle but sometimes a snake (or snakes), a knife, or sword. The image of Bes is often positioned at gates for protection and almost always appears outside of birth houses.</Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Hathor</Name>
+        <Title>Mistress of Jubilation</Title>
+        <DeityAlignment>CG</DeityAlignment>
+        <Edicts>Give wealth to new families, aid traders and miners, support musicians, protect and encourage lovers</Edicts>
+        <Anathema>Discriminate or slight someone based on appearance, intentionally disfigure a creature, refuse food to the starving</Anathema>
+        <FollowerAlignments>NG, CG</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Performance</DivineSkill>
+        <FavoredWeapon>shortsword</FavoredWeapon>
+        <Domains>family, passion, sun, wealth</Domains>
+        <Spells>
+            <Spell level="1" name="charm" />
+            <Spell level="2" name="tree shape" />
+            <Spell level="8" name="uncontrollable dance" />
+        </Spells>
+        <Description>A mother goddess who created and maintained all life on earth, Hathor is also worshipped as goddess of the sky, fertility, music, and dance and as the symbolic mother of the pharaoh, or ruler of Egypt. She is said to be the consort of Horus, the god of the sky. Hathor was created as the daughter of Ra, the sun god.</Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Horus</Name>
+        <Title>The Distant Falcon</Title>
+        <DeityAlignment>LN</DeityAlignment>
+        <Edicts>Protect those you have authority over, maintain harmony in your community</Edicts>
+        <Anathema>Undermine a rightful ruler, serve a usurper</Anathema>
+        <FollowerAlignments>LG, NG, LN, N</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Diplomacy</DivineSkill>
+        <FavoredWeapon>rapier</FavoredWeapon>
+        <Domains>air, moon, protection, sun</Domains>
+        <Spells>
+            <Spell level="1" name="floating disk" />
+            <Spell level="3" name="wall of wind" />
+            <Spell level="4" name="aerial form" />
+        </Spells>
+        <Description>Horus, also known as Her, Heru, or Hor, is the sky god. He is the son of Isis and Osiris, born after his father's death at the hands of Set, Horus' uncle (on both sides). He later avenged his father and became Pharaoh of Egypt. He is a god of the sky, war, and protection.</Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Isis</Name>
+        <Title>Queen of Miracles</Title>
+        <DeityAlignment>NG</DeityAlignment>
+        <Edicts>Provide aid to the sick and wounded, use magic to help others, mourn the cherished dead, ritually purify yourself before entering sacred areas</Edicts>
+        <Anathema>Reveal sacred rites to the uninitiated, betray your children or your lover, discriminate based on social status</Anathema>
+        <FollowerAlignments>LG, NG, CG</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Arcana</DivineSkill>
+        <FavoredWeapon>staff</FavoredWeapon>
+        <Domains>family, healing, magic, passion</Domains>
+        <Spells>
+            <Spell level="1" name="soothe" />
+            <Spell level="2" name="humanoid form" />
+            <Spell level="3" name="animal vision" />
+            <Spell level="4" name="creation" />
+            <Spell level="5" name="control water" />
+            <Spell level="6" name="wall of force" />
+            <Spell level="7" name="magnificent mansion" />
+            <Spell level="8" name="wind walk" />
+            <Spell level="9" name="shapechange" />
+        </Spells>
+        <Description>Isis is the goddess of the moon. As goddess of life and magic, Isis protects women and children, and heals the sick. She is also the consort of Osiris.</Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Ma'at</Name>
+        <Title>The Feather of Truth</Title>
+        <DeityAlignment>LN</DeityAlignment>
+        <Edicts>Defend civilization from chaos, live an honest and just life, be impartial in judgment and reveal the truth</Edicts>
+        <Anathema>Deal unfairly with your family or community, destroy the environment, lie</Anathema>
+        <FollowerAlignments>LG, LN, N</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Society</DivineSkill>
+        <FavoredWeapon>starknife</FavoredWeapon>
+        <Domains>knowledge, protection, star, truth</Domains>
+        <Spells>
+            <Spell level="1" name="feather fall" />
+            <Spell level="4" name="resilient sphere" />
+            <Spell level="5" name="mind probe" />
+        </Spells>
+        <Description>Ma’at was the goddess of truth, justice, balance, and most importantly - order. Ma’at was created when Ra arose from the waters of Nun (chaos). Ma’at is thus often considered to be the daughter of Ra, and is married to Thoth, god of wisdom.</Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Osiris</Name>
+        <Title>Lord of the Living</Title>
+        <DeityAlignment>LG</DeityAlignment>
+        <Edicts>Ensure the health of crops and vegetation, protect the bodies and souls of the worthy dead, avenge the wrongly murdered</Edicts>
+        <Anathema>Dismember a creature, desecrate a corpse, show ingratitude for a sincere gift</Anathema>
+        <FollowerAlignments>LG, NG</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Nature</DivineSkill>
+        <FavoredWeapon>flail</FavoredWeapon>
+        <Domains>change, healing, nature, soul</Domains>
+        <Spells>
+            <Spell level="1" name="soothe" />
+            <Spell level="2" name="false life" />
+            <Spell level="6" name="tangling creepers" />
+        </Spells>
+        <Description>Osiris is god of the afterlife, death, life, the dead, transition, resurrection, regeneration, fertility and the underworld. Osiris is the oldest son of the earth god Geb and the sky goddess Nut, as well as being brother and husband of Isis, with Horus being his posthumously begotten son. As ruler of the dead, Osiris is also sometimes called "king of the living": the blessed dead are considered "the living ones".</Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Ra</Name>
+        <Title>King of the Heavens</Title>
+        <DeityAlignment>LN</DeityAlignment>
+        <Edicts>Bring order to places of chaos, kill evil monsters and fiends, encourage just laws, provide warmth where needed</Edicts>
+        <Anathema>Avoid personal change, kill a plant or a creature with cold damage, seal a building to completely block sunlight</Anathema>
+        <FollowerAlignments>LG, LN, N</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Society</DivineSkill>
+        <FavoredWeapon>spear</FavoredWeapon>
+        <Domains>fire, nature, sun, time</Domains>
+        <Spells>
+            <Spell level="1" name="burning hands" />
+            <Spell level="2" name="flaming sphere" />
+            <Spell level="3" name="abyssal plague )" />
+        </Spells>
+        <Description></Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Sekhmet</Name>
+        <Title>Lady of Slaughter</Title>
+        <DeityAlignment>CN</DeityAlignment>
+        <Edicts>Slaughter your enemies, drink the blood of defeated foes, heal battle injuries</Edicts>
+        <Anathema>Spare an evil fiend, fail to placate Sekhmet with daily rituals</Anathema>
+        <FollowerAlignments>CG, N, CN, CE</FollowerAlignments>
+        <DivineFont>harm or heal</DivineFont>
+        <DivineSkill>Medicine</DivineSkill>
+        <FavoredWeapon>battle axe</FavoredWeapon>
+        <Domains>destruction, healing, indulgence, might</Domains>
+        <Spells>
+            <Spell level="1" name="true strike" />
+            <Spell level="4" name="wall of fire" />
+            <Spell level="5" name="moon frenzy" />
+        </Spells>
+        <Description></Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Selket</Name>
+        <Title>Mistress of the Beautiful House</Title>
+        <DeityAlignment>CG</DeityAlignment>
+        <Edicts>Avenge the wronged, protect the dead and the vulnerable, use poison and suffocation, heal others</Edicts>
+        <Anathema>Poison someone you didn't intend to, harm a creature as punishment for a different creature’s crime, desecrate a corpse</Anathema>
+        <FollowerAlignments>NG, CG, CN</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Medicine</DivineSkill>
+        <FavoredWeapon>whip</FavoredWeapon>
+        <Domains>healing, magic, nature, protection</Domains>
+        <Spells>
+            <Spell level="1" name="soothe" />
+            <Spell level="3" name="paralyze" />
+            <Spell level="6" name="purple worm sting" />
+        </Spells>
+        <Description></Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Sobek</Name>
+        <Title>The Raging Torrent</Title>
+        <DeityAlignment>CN</DeityAlignment>
+        <Edicts>Take what you want, indulge in base desires, feast on luxurious food, kill demons and evil creatures</Edicts>
+        <Anathema>Cower from fights, despoil the land, kill the innocent</Anathema>
+        <FollowerAlignments>CG, N, CN, CE</FollowerAlignments>
+        <DivineFont>harm or heal</DivineFont>
+        <DivineSkill>Athletics</DivineSkill>
+        <FavoredWeapon>falchion</FavoredWeapon>
+        <Domains>might, protection, water, wyrmkin</Domains>
+        <Spells>
+            <Spell level="1" name="hydraulic push" />
+            <Spell level="3" name="feet to fins" />
+            <Spell level="4" name="dinosaur form" />
+        </Spells>
+        <Description></Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Thoth</Name>
+        <Title>Lord of Divine Words</Title>
+        <DeityAlignment>LN</DeityAlignment>
+        <Edicts>Maintain order in society and the multiverse, innovate scientific and magical knowledge, record events</Edicts>
+        <Anathema>Upset stable mechanisms or ecosystems, fail to correct false information</Anathema>
+        <FollowerAlignments>LG, LN, N</FollowerAlignments>
+        <DivineFont>harm or heal</DivineFont>
+        <DivineSkill>Arcana</DivineSkill>
+        <FavoredWeapon>sickle</FavoredWeapon>
+        <Domains>glyph, knowledge, magic, moon</Domains>
+        <Spells>
+            <Spell level="1" name="message rune" />
+            <Spell level="2" name="comprehend language" />
+            <Spell level="3" name="secret page" />
+        </Spells>
+        <Description></Description>
+    </Deity>
+    <Deity page="124">
+        <Name>Wadjet</Name>
+        <Title>The Green Empress</Title>
+        <DeityAlignment>LG</DeityAlignment>
+        <Edicts>Defend your homelands and your people, aid childbirths, grow papyrus, protect sources of clean water</Edicts>
+        <Anathema>Refuse to help a drowning creature, harm a rightful ruler</Anathema>
+        <FollowerAlignments>LG, NG</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Nature</DivineSkill>
+        <FavoredWeapon>light mace</FavoredWeapon>
+        <Domains>protection, travel, water, zeal</Domains>
+        <Spells>
+            <Spell level="1" name="mage armor" />
+            <Spell level="2" name="animal form" />
+            <Spell level="4" name="fly" />
+        </Spells>
+        <Description></Description>
+    </Deity>
+</pf2:deities>

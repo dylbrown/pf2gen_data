@@ -1,0 +1,348 @@
+<pf2:Items category="Staves" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="3" page="595">
+	<Name>Staff of Fire</Name>
+	<Price>60 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This staff resembles a blackened and burned length of ashen wood. It smells faintly of soot and glows as if lit by embers. You can use an Interact action to touch the tip of this staff to a torch, tinder, or a flammable substance to ignite a flame.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="595">
+	<Name>Staff of Fire (Greater)</Name>
+	<Price>450 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This staff resembles a blackened and burned length of ashen wood. It smells faintly of soot and glows as if lit by embers. You can use an Interact action to touch the tip of this staff to a torch, tinder, or a flammable substance to ignite a flame.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="12" page="595">
+	<Name>Staff of Fire (Major)</Name>
+	<Price>1,800 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This staff resembles a blackened and burned length of ashen wood. It smells faintly of soot and glows as if lit by embers. You can use an Interact action to touch the tip of this staff to a torch, tinder, or a flammable substance to ignite a flame.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="593">
+	<Name>Animal Staff</Name>
+	<Price>90 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify animals.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="593">
+	<Name>Animal Staff (Greater)</Name>
+	<Price>460 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify animals.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="12" page="593">
+	<Name>Animal Staff (Major)</Name>
+	<Price>1,900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify animals.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="595">
+	<Name>Staff of Healing</Name>
+	<Price>90 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Made of smooth, white wood, this staff is capped at each end with a golden cross adorned with a multitude of ruby cabochons. A staff of healing grants an item bonus to the Hit Points you restore anytime you cast the &lt;i&gt;heal&lt;/i&gt; spell using your own spell slots or using charges from the staff.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;
+
+The item bonus granted to &lt;i&gt;heal&lt;/i&gt; spells is +1. &lt;b&gt;Cantrip&lt;/b&gt; &lt;i&gt;stabilize&lt;/i&gt; &lt;b&gt;1st&lt;/b&gt; &lt;i&gt;heal&lt;/i&gt;&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="595">
+	<Name>Staff of Healing (Greater)</Name>
+	<Price>470 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Made of smooth, white wood, this staff is capped at each end with a golden cross adorned with a multitude of ruby cabochons. A staff of healing grants an item bonus to the Hit Points you restore anytime you cast the &lt;i&gt;heal&lt;/i&gt; spell using your own spell slots or using charges from the staff.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;
+
+The item bonus granted to &lt;i&gt;heal&lt;/i&gt; spells is +2. &lt;b&gt;2nd&lt;/b&gt; &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;restoration&lt;/i&gt;, &lt;i&gt;restore senses&lt;/i&gt; &lt;b&gt;3rd&lt;/b&gt; &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;remove disease&lt;/i&gt;&lt;br&gt;</Description>
+</Item>
+<Item level="12" page="595">
+	<Name>Staff of Healing (Major)</Name>
+	<Price>1,800 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Made of smooth, white wood, this staff is capped at each end with a golden cross adorned with a multitude of ruby cabochons. A staff of healing grants an item bonus to the Hit Points you restore anytime you cast the &lt;i&gt;heal&lt;/i&gt; spell using your own spell slots or using charges from the staff.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;
+
+The item bonus granted to &lt;i&gt;heal&lt;/i&gt; spells is +3. &lt;b&gt;4th&lt;/b&gt; &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;restoration&lt;/i&gt; &lt;b&gt;5th&lt;/b&gt; breath of life, &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;remove disease&lt;/i&gt;&lt;br&gt;</Description>
+</Item>
+<Item level="16" page="595">
+	<Name>Staff of Healing (True)</Name>
+	<Price>9,200 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Made of smooth, white wood, this staff is capped at each end with a golden cross adorned with a multitude of ruby cabochons. A staff of healing grants an item bonus to the Hit Points you restore anytime you cast the &lt;i&gt;heal&lt;/i&gt; spell using your own spell slots or using charges from the staff.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;
+
+The item bonus granted to &lt;i&gt;heal&lt;/i&gt; spells is +4. &lt;b&gt;6th&lt;/b&gt; &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;restoration&lt;/i&gt;, &lt;i&gt;restore senses&lt;/i&gt; &lt;b&gt;7th&lt;/b&gt; &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;regenerate&lt;/i&gt;, &lt;i&gt;remove disease&lt;/i&gt;</Description>
+</Item>
+<Item level="4" page="593">
+	<Name>Mentalist's Staff</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This polished wooden staff bears a swirling motif reminiscent of the folds of a brain. While wielding the staff, you gain a +2 circumstance bonus to checks to identify mental magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="593">
+	<Name>Mentalist's Staff (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This polished wooden staff bears a swirling motif reminiscent of the folds of a brain. While wielding the staff, you gain a +2 circumstance bonus to checks to identify mental magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="12" page="593">
+	<Name>Mentalist's Staff (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This polished wooden staff bears a swirling motif reminiscent of the folds of a brain. While wielding the staff, you gain a +2 circumstance bonus to checks to identify mental magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="596">
+	<Name>Verdant Staff</Name>
+	<Price>225 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This oak branch grows leaves in spring that change color in autumn and shed in winter. While wielding it, you gain a +2 circumstance bonus to Nature checks to identify plants.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="12" page="596">
+	<Name>Verdant Staff (Greater)</Name>
+	<Price>1,750 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This oak branch grows leaves in spring that change color in autumn and shed in winter. While wielding it, you gain a +2 circumstance bonus to Nature checks to identify plants.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="594">
+	<Name>Staff of Abjuration</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This intricately carved wooden staff is warm to the touch and thrums with inner energy. While wielding the staff, you gain a +2 circumstance bonus to checks to identify abjuration magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="594">
+	<Name>Staff of Abjuration (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This intricately carved wooden staff is warm to the touch and thrums with inner energy. While wielding the staff, you gain a +2 circumstance bonus to checks to identify abjuration magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="14" page="594">
+	<Name>Staff of Abjuration (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This intricately carved wooden staff is warm to the touch and thrums with inner energy. While wielding the staff, you gain a +2 circumstance bonus to checks to identify abjuration magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="594">
+	<Name>Staff of Conjuration</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This ash staff is decorated with animals; wielding it, you gain a +2 circumstance bonus to checks to identify conjuration magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="594">
+	<Name>Staff of Conjuration (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This ash staff is decorated with animals; wielding it, you gain a +2 circumstance bonus to checks to identify conjuration magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="14" page="594">
+	<Name>Staff of Conjuration (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This ash staff is decorated with animals; wielding it, you gain a +2 circumstance bonus to checks to identify conjuration magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="594">
+	<Name>Staff of Divination</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Semiprecious gemstones emerge, seemingly at random, from the surface of this gnarled wooden staff. While wielding it, you gain a +2 circumstance bonus to checks to identify divination magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="594">
+	<Name>Staff of Divination (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Semiprecious gemstones emerge, seemingly at random, from the surface of this gnarled wooden staff. While wielding it, you gain a +2 circumstance bonus to checks to identify divination magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="14" page="594">
+	<Name>Staff of Divination (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Semiprecious gemstones emerge, seemingly at random, from the surface of this gnarled wooden staff. While wielding it, you gain a +2 circumstance bonus to checks to identify divination magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="594">
+	<Name>Staff of Enchantment</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A mesmerizing gemstone caps the head of this handsomely crafted wooden staff. While wielding the staff, you gain a +2 circumstance bonus to checks to identify enchantment magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="594">
+	<Name>Staff of Enchantment (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A mesmerizing gemstone caps the head of this handsomely crafted wooden staff. While wielding the staff, you gain a +2 circumstance bonus to checks to identify enchantment magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="14" page="594">
+	<Name>Staff of Enchantment (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A mesmerizing gemstone caps the head of this handsomely crafted wooden staff. While wielding the staff, you gain a +2 circumstance bonus to checks to identify enchantment magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="594">
+	<Name>Staff of Evocation</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This staff is tapered at the base and carved into a gem-studded twist at the top. While wielding the staff, you gain a +2 circumstance bonus to checks to identify evocation magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="594">
+	<Name>Staff of Evocation (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This staff is tapered at the base and carved into a gem-studded twist at the top. While wielding the staff, you gain a +2 circumstance bonus to checks to identify evocation magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="14" page="594">
+	<Name>Staff of Evocation (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This staff is tapered at the base and carved into a gem-studded twist at the top. While wielding the staff, you gain a +2 circumstance bonus to checks to identify evocation magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="595">
+	<Name>Staff of Illusion</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This ornately designed metal staff shines with precious inlays of gold. When you Cast a Spell from the staff, the illusory image of something you desire flashes across its surface. While wielding the staff, you gain a +2 circumstance bonus to checks to identify illusion magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="595">
+	<Name>Staff of Illusion (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This ornately designed metal staff shines with precious inlays of gold. When you Cast a Spell from the staff, the illusory image of something you desire flashes across its surface. While wielding the staff, you gain a +2 circumstance bonus to checks to identify illusion magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="14" page="595">
+	<Name>Staff of Illusion (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This ornately designed metal staff shines with precious inlays of gold. When you Cast a Spell from the staff, the illusory image of something you desire flashes across its surface. While wielding the staff, you gain a +2 circumstance bonus to checks to identify illusion magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="595">
+	<Name>Staff of Necromancy</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This twisted and grim-looking staff is adorned with hideous skull and bone motifs. While wielding the staff, you gain a +2 circumstance bonus to checks to identify necromancy magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="595">
+	<Name>Staff of Necromancy (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This twisted and grim-looking staff is adorned with hideous skull and bone motifs. While wielding the staff, you gain a +2 circumstance bonus to checks to identify necromancy magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="14" page="595">
+	<Name>Staff of Necromancy (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This twisted and grim-looking staff is adorned with hideous skull and bone motifs. While wielding the staff, you gain a +2 circumstance bonus to checks to identify necromancy magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="596">
+	<Name>Staff of Transmutation</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Staff, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A glass orb atop this metal staff contains fine, undulating sand. While wielding the staff, you gain a +2 circumstance bonus to checks to identify transmutation magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="596">
+	<Name>Staff of Transmutation (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Staff, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A glass orb atop this metal staff contains fine, undulating sand. While wielding the staff, you gain a +2 circumstance bonus to checks to identify transmutation magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="14" page="596">
+	<Name>Staff of Transmutation (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Staff, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A glass orb atop this metal staff contains fine, undulating sand. While wielding the staff, you gain a +2 circumstance bonus to checks to identify transmutation magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="594">
+	<Name>Staff of Illumination</Name>
+	<Price>425 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This simple iron staff is capped with a faceted, clear gem.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Interact; &lt;b&gt;Effect&lt;/b&gt; The gem at the top of the staff glows as a torch, shedding bright light in a 20-foot radius (and dim light to the next 20 feet) for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;b&gt;Cantrip&lt;/b&gt; &lt;i&gt;light&lt;/i&gt; &lt;b&gt;2nd&lt;/b&gt; &lt;i&gt;continual flame&lt;/i&gt; &lt;b&gt;3rd&lt;/b&gt; &lt;i&gt;continual flame&lt;/i&gt;, &lt;i&gt;searing light&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.</Description>
+</Item>
+<Item level="16" page="595">
+	<Name>Staff of Power</Name>
+	<Price>10,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This staff of magically hardened wood is topped with a silver sculpture depicting magical runic symbols. When used as a weapon, a staff of power is a +2 greater striking staff.&lt;br&gt;&lt;br&gt; Voluntarily destroying a staff of power unleashes an incredible blast of energy. When wielding the staff, you can Interact to break it. This releases a 30-foot-burst magical explosion centered on the staff. This deals 2d8 force damage per charge remaining in the staff (DC 40 basic Reflex save). You automatically critically fail your save. A creature reduced to 0 Hit Points by this damage dies instantly; this is a death effect.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;b&gt;1st&lt;/b&gt; &lt;i&gt;ray of enfeeblement&lt;/i&gt; &lt;b&gt;2nd&lt;/b&gt; &lt;i&gt;continual flame&lt;/i&gt; &lt;b&gt;3rd&lt;/b&gt; &lt;i&gt;levitate&lt;/i&gt; &lt;b&gt;4th&lt;/b&gt; &lt;i&gt;globe of invulnerability&lt;/i&gt;, &lt;i&gt;paralyze&lt;/i&gt; &lt;b&gt;5th&lt;/b&gt; &lt;i&gt;magic missile&lt;/i&gt; &lt;b&gt;6th&lt;/b&gt; &lt;i&gt;wall of force&lt;/i&gt; &lt;b&gt;7th&lt;/b&gt; &lt;i&gt;cone of cold&lt;/i&gt;, &lt;i&gt;fireball&lt;/i&gt;, &lt;i&gt;lightning bolt&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.</Description>
+</Item>
+<Item level="20" page="595">
+	<Name>Staff of the Magi</Name>
+	<Price>90,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Sigils and runes of ancient and powerful magic cover the iron cladding on this long wooden staff. A staff of the magi is a +3 major striking staff, and when wielding it you gain a +1 circumstance bonus to saving throws against spells.&lt;br&gt;&lt;br&gt; Voluntarily destroying a staff of the magi unleashes a truly devastating wave of arcane energy that surges out, dissipating with distance. When wielding the staff, you can break it using an Interact action. This releases a 30-foot‑burst magical explosion centered on the staff. This deals 2d10 force damage per charge remaining in the staff (DC 40 basic Reflex save), You automatically critically fail your save. The explosion continues to echo beyond the initial blast zone, dealing half as much damage to creatures beyond 30 feet but within a 60-foot burst. A creature reduced to 0 Hit Points by this damage dies instantly; this is a death effect.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;b&gt;Cantrip&lt;/b&gt; &lt;i&gt;detect magic&lt;/i&gt;, &lt;i&gt;light&lt;/i&gt;, &lt;i&gt;mage hand&lt;/i&gt;, &lt;i&gt;telekinetic projectile&lt;/i&gt; &lt;b&gt;1st&lt;/b&gt; &lt;i&gt;lock&lt;/i&gt; &lt;b&gt;2nd&lt;/b&gt; &lt;i&gt;enlarge&lt;/i&gt;, &lt;i&gt;glitterdust&lt;/i&gt;, &lt;i&gt;invisibility&lt;/i&gt;, &lt;i&gt;knock&lt;/i&gt;, &lt;i&gt;telekinetic maneuver&lt;/i&gt;, &lt;i&gt;web&lt;/i&gt; &lt;b&gt;3rd&lt;/b&gt; &lt;i&gt;dispel magic&lt;/i&gt;, &lt;i&gt;fireball&lt;/i&gt;, &lt;i&gt;lightning bolt&lt;/i&gt; &lt;b&gt;4th&lt;/b&gt; &lt;i&gt;invisibility&lt;/i&gt;, &lt;i&gt;enlarge&lt;/i&gt;, &lt;i&gt;fireball&lt;/i&gt;, &lt;i&gt;wall of fire&lt;/i&gt;, &lt;i&gt;web&lt;/i&gt; &lt;b&gt;5th&lt;/b&gt; &lt;i&gt;cone of cold&lt;/i&gt;, &lt;i&gt;passwall&lt;/i&gt;, &lt;i&gt;telekinetic haul&lt;/i&gt; &lt;b&gt;6th&lt;/b&gt; &lt;i&gt;disintegrate&lt;/i&gt;, &lt;i&gt;dispel magic&lt;/i&gt;, &lt;i&gt;fireball&lt;/i&gt;, &lt;i&gt;lightning bolt&lt;/i&gt; &lt;b&gt;7th&lt;/b&gt; &lt;i&gt;cone of cold&lt;/i&gt;, &lt;i&gt;passwall&lt;/i&gt;, &lt;i&gt;plane shift&lt;/i&gt;, &lt;i&gt;wall of fire&lt;/i&gt; &lt;b&gt;8th&lt;/b&gt; &lt;i&gt;fireball&lt;/i&gt;, &lt;i&gt;mage armor&lt;/i&gt; &lt;b&gt;9th&lt;/b&gt; &lt;i&gt;dispel magic&lt;/i&gt;, &lt;i&gt;meteor swarm&lt;/i&gt;, &lt;i&gt;summon dragon&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.</Description>
+</Item>
+</pf2:Items>

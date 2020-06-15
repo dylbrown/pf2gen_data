@@ -1,0 +1,579 @@
+<?xml version = "1.0"?>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/class.xsd">
+    <Name>Bard</Name>
+    <HP>8</HP>
+    <AbilityChoices>Cha</AbilityChoices>
+    <SkillIncreases>4</SkillIncreases>
+    <Description>Deities work their will upon the world in infinite ways, and you serve as one of their most stalwart mortal servants. Blessed with divine magic granted through the grace of your deity, you live the ideals of your faith, adorn yourself with the symbols of your church, and train diligently to wield the weapon favored by your deity. Your spells might protect and heal your allies, or they might punish foes and lay waste to enemies of your faith, as your deity wills. Yours is a life of devotion, spreading the teachings of your faith through both thought and deed.</Description>
+    <FeatureList level="1">
+        <AbilitySlot state="filled" name="Initial Proficiencies">
+            <Ability>
+                <AttributeMods Proficiency="Trained">
+                    Fortitude, Occultism, Performance, Perception, Reflex, Simple Weapons, Unarmed, Light Armor, Unarmored, Occult Spell Attacks, Occult Spell DCs
+                </AttributeMods>
+                <AttributeMods Proficiency="Expert">
+                    Perception, Will
+                </AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
+        <AbilitySlot state="filled" name="Occult Spellcasting">
+            <Ability>
+                <Description>You draw upon magic from esoteric knowledge. You can cast occult spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells (see Casting Spells on page 302). Because you're a bard, you can usually play an instrument for spells requiring somatic or material components, as long as it takes at least one of your hands to do so. If you use an instrument, you don't need a spell component pouch or another hand free. You can usually also play an instrument for spells requiring verbal components, instead of speaking.
+
+                    Each day, you can cast up to two 1st-level spells. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots. As you increase in level as a bard, your number of spells per day increases, as does the highest level of spells you can cast, as shown on Table 3–6: Bard Spells per Day on page 98.
+
+                    Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key ability is Charisma, your spell attack rolls and spell DCs use your Charisma modifier. Details on calculating these statistics appear on page 447.
+
+                    Heightening Spells
+                    When you get spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. This increases the spell's level to match the spell slot. You must have a spell in your spell repertoire at the level you want to cast in order to heighten it to that level. Many spells have specific improvements when they are heightened to certain levels (page 299). The signature spells class feature lets you heighten certain spells freely.
+
+                    Cantrips
+                    Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is automatically heightened to half your level rounded up, which equals the highest level of spell you can cast as a bard. For example, as a 1st-level bard, your cantrips are 1st-level spells, and as a 5th-level bard, your cantrips are 3rd-level spells.
+                </Description>
+                <Spellcasting type="Spontaneous" tradition="Occult"/>
+                <SpellSlots level="0" count="5"/>
+                <SpellSlots level="1" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Spell Repertoire">
+            <Ability>
+                <Description>The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-level occult spells of your choice and five occult cantrips of your choice. You choose these from the common spells from the occult list (page 311) or from other occult spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell level.
+
+                    You add to this spell repertoire as you increase in level. Each time you get a spell slot (see Table 3–6), you add a spell to your spell repertoire of the same level. At 2nd level, you select another 1st-level spell; at 3rd level, you select two 2nd-level spells, and so on. When you add spells, you might add a higher-level version of a spell you already have, so you can cast a heightened version of that spell.
+
+                    Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.
+
+                    Swapping Spells in Your Repertoire
+                    As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same level. This spell can be a cantrip. You can also swap out spells by retraining during downtime (page 481).
+                </Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Composition Spells">
+            <Ability>
+                <Description>You can infuse your performances with magic to create unique effects called compositions. Compositions are a special type of spell that often require you to use the Performance skill when casting them. Composition spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to perform, write a new composition, or otherwise engage your muse.
+
+                    Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear on page 300.
+
+                    You learn the counter performance composition spell (page 386), protecting against auditory and visual effects.
+
+                    Composition Cantrips
+                    Composition cantrips are special composition spells that don't cost Focus Points, so you can use them as often as you like. Composition cantrips are in addition to the cantrips you choose from the occult list. Generally, only feats can give you more composition cantrips. Unlike other cantrips, you can't swap out composition cantrips gained from bard feats at a later level, unless you swap out the specific feat via retraining (page 481).
+                    You learn the inspire courage composition cantrip (page 386), which boosts your allies' attacks, damage, and defense against fear.
+                </Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="choice" name="Muses">
+            <Ability name="Enigma Muse">
+                <Description>Your muse is a mystery, driving you to uncover the hidden secrets of the multiverse. If your muse is a creature, it might be a dragon or otherworldly being; if a deity, it might be Irori or Nethys. You gain the Bardic Lore feat and add true strike to your spell repertoire.</Description>
+                <AbilitySlot state="filled" type="Class Feat" name="Bardic Lore" contents="Bardic Lore"/>
+                <Spell type="Spell" name="True Strike"/>
+            </Ability>
+            <Ability name="Maestro Muse">
+                <Description>Your muse is a virtuoso, inspiring you to greater heights. If it's a creature, it might be a performance-loving creature such as a choral angel or lillend azata; if a deity, it might be Shelyn. As a bard with a maestro muse, you are an inspiration to your allies and confident of your musical and oratorical abilities. You gain the Lingering Composition feat and add soothe to your spell repertoire.</Description>
+                <AbilitySlot state="filled" type="Class Feat" name="Lingering Composition"
+                             contents="Lingering Composition"/>
+                <Spell type="Spell" name="Soothe"/>
+            </Ability>
+            <Ability name="Polymath Muse">
+                <Description>Your muse is a jack of all trades, flitting between skills and pursuits. If it's is a creature, it might be an eclectic creature like a fey; if a deity, it might be Desna or Calistria. As a bard with a polymath muse, you are interested in a wide array of topics but rarely dedicated to any one, and you rarely make up your mind—you want to try everything. You gain the Versatile Performance feat and add unseen servant to your spell repertoire.</Description>
+                <AbilitySlot state="filled" type="Class Feat" name="Versatile Performance"
+                             contents="Versatile Performance"/>
+                <Spell type="Spell" name="Unseen Servant"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="2">
+        <AbilitySlot state="feat" type="Class Feat" name="Bard Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="1" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="3">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Lightning Reflexes">
+            <Ability>
+                <Description>Your reflexes are lightning fast. Your proficiency rank in Reflex saves increases to expert.</Description>
+                <AttributeMods Proficiency="Expert">Reflex</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+
+        <AbilitySlot state="filled" name="Signature Spells">
+            <Ability>
+                <Description>Experience allows you to cast some spells more flexibly. For each spell level you have access to, choose one spell of that level to be a signature spell. You don't need to learn heightened versions of signature spells separately; instead, you can heighten these spells freely. If you've learned a signature spell at a higher level than its minimum, you can also cast all its lower-level versions without learning those separately. If you swap out a signature spell, you can choose a replacement signature spell of the same spell level at which you learned the previous spell. You can also retrain specifically to change a signature spell to a different spell of that level without swapping any spells; this takes as much time as retraining a spell normally does.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="2nd-level spells">
+            <Ability>
+                <SpellSlots level="2" count="2"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="4">
+        <AbilitySlot state="feat" type="Class Feat" name="Bard Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="2nd-level spells">
+            <Ability>
+                <SpellSlots level="2" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="5">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="3rd-level spells">
+            <Ability>
+                <SpellSlots level="3" count="2"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="6">
+        <AbilitySlot state="feat" type="Class Feat" name="Bard Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="3" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="7">
+        <AbilitySlot state="filled" name="4th-level spells">
+            <Ability>
+                <SpellSlots level="4" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Expert Spellcaster">
+            <Ability>
+                <Description>Your proficiency ranks for occult spell attack rolls and spell DCs increase to expert.</Description>
+                <AttributeMods Proficiency="Expert">Occult Spell Attacks, Occult Spell DCs</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="8">
+        <AbilitySlot state="feat" type="Class Feat" name="Bard Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="4" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="9">
+        <AbilitySlot state="filled" name="5th-level spells">
+            <Ability>
+                <SpellSlots level="5" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Great Fortitude">
+            <Ability>
+                <Description>Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert.</Description>
+                <AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Resolve">
+            <Ability>
+                <Description>You've steeled your mind with resolve. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.</Description>
+                <AttributeMods Proficiency="Master">Will</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="10">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Bard Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="5" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="11">
+        <AbilitySlot state="filled" name="6th-level spells">
+            <Ability>
+                <SpellSlots level="6" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Bard Weapon Expertise">
+            <Ability>
+                <Description>You have become thoroughly adept with bardic weapons.
+
+                    You gain expert proficiency in simple weapons, plus the longsword, rapier, sap, shortbow, shortsword, and whip.
+
+                    When you critically succeed at an attack roll using one of these weapons, or with an unarmed attack, while one of your compositions is active, you apply the critical specialization effect for that weapon.
+                </Description>
+                <AttributeMods Proficiency="Expert">Simple Weapons</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Vigilant Senses">
+            <Ability>
+                <Description>Through your adventures, you've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master.</Description>
+                <AttributeMods Proficiency="Master">Perception</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="12">
+        <AbilitySlot state="feat" type="Class Feat" name="Bard Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="6" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="13">
+        <AbilitySlot state="filled" name="7th-level spells">
+            <Ability>
+                <SpellSlots level="7" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Light Armor Expertise">
+            <Ability>
+                <Description>You've learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert.</Description>
+                <AttributeMods Proficiency="Expert">Light Armor, Unarmored</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Weapon Specialization">
+            <Ability>
+                <Description>You've learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 damage if you're a master, and 4 damage if you're legendary.</Description>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="14">
+        <AbilitySlot state="feat" type="Class Feat" name="Bard Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="7" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="15">
+        <AbilitySlot state="filled" name="8th-level spells">
+            <Ability>
+                <SpellSlots level="8" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Master Spellcaster">
+            <Ability>
+                <Description>You've mastered the occult. Your proficiency ranks for occult spell attack rolls and spell DCs increase to master.</Description>
+                <AttributeMods Proficiency="Master">Occult Spell Attacks, Occult Spell DCs</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="16">
+        <AbilitySlot state="feat" type="Class Feat" name="Bard Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="8" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="17">
+        <AbilitySlot state="filled" name="9th-level spells">
+            <Ability>
+                <SpellSlots level="9" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Greater Resolve">
+            <Ability>
+                <Description>Your unbelievable training grants you mental resiliency.
+
+                    Your proficiency rank for Will saves increases to legendary. When you roll a success at a Will save, you get a critical success. When you roll a critical failure at a Will save, you get a failure instead. When you fail a Will save against a damaging effect, you take half damage.
+                </Description>
+                <AttributeMods Proficiency="Legendary">Will</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="18">
+        <AbilitySlot state="feat" type="Class Feat" name="Bard Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="9" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="19">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Legendary Spellcaster">
+            <Ability>
+                <Description>Your command of occult magic is the stuff of legends.
+
+                    Your proficiency ranks for occult spell attack rolls and spell DCs increase to legendary.
+                </Description>
+                <AttributeMods Proficiency="Legendary">Occult Spell Attacks, Occult Spell DCs</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Magnum Opus">
+            <Ability>
+                <Description>You have tuned your spellcasting to the highest caliber.
+
+                    Add two common 10th-level occult spells to your repertoire. You gain a single 10th-level spell slot you can use to cast one of those two spells using bard spellcasting.
+
+                    You don't gain more 10th-level spells as you level up, unlike other spell slots, and you can't use 10th-level slots with abilities that give you more spell slots or that let you cast spells without expending spell slots.
+                </Description>
+                <SpellsKnown level="10" count="1"/>
+                <SpellSlots level="10" count="1"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="20">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Bard Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <Feats>
+        <Ability name="Bardic Lore" level="1" page="99">
+            <Traits>Bard</Traits>
+            <Prerequisites>Enigma Muse</Prerequisites>
+            <Description>Your studies make you informed on every subject. You are trained in Bardic Lore, a special Lore skill that can be used only to Recall Knowledge, but on any topic. If you have legendary proficiency in Occultism, you gain expert proficiency in Bardic Lore, but you can't increase your proficiency rank in Bardic Lore by any other means.</Description>
+        </Ability>
+        <Ability name="Lingering Composition" level="1" page="99">
+            <Traits>Bard</Traits>
+            <Prerequisites>Maestro Muse, Focus Pool</Prerequisites>
+            <Description>By adding a flourish, you make your compositions last longer. You learn the lingering composition focus spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Lingering Composition"/>
+        </Ability>
+        <Ability name="Reach Spell" level="1" page="122" cost="1">
+            <Traits>Bard, Concentrate, Metamagic</Traits>
+            <Description>You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell's range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</Description>
+        </Ability>
+        <Ability name="Versatile Performance" level="1" page="100">
+            <Traits>Bard</Traits>
+            <Prerequisites>Polymath Muse</Prerequisites>
+            <Description>You can rely on the grandeur of your performances rather than ordinary social skills. You can use Performance instead of Diplomacy to Make an Impression and instead of Intimidation to Demoralize. You can also use an acting Performance instead of Deception to Impersonate. You can use your proficiency rank in Performance to meet the requirements of skill feats that require a particular rank in Deception, Diplomacy, or Intimidation.</Description>
+            <!--TODO: Allow performance to meet the requirements of skill feats that require Deception, Diplomacy, Intimidation-->
+        </Ability>
+        <Ability name="Cantrip Expansion" level="2" page="100">
+            <Traits>Bard</Traits>
+            <Description>A greater understanding of your magic broadens your range of simple spells. Add two additional cantrips from your spell list to your repertoire.</Description>
+            <SpellSlots level="0" count="2"/>
+        </Ability>
+        <Ability name="Esoteric Polymath" level="2" page="100">
+            <Traits>Bard</Traits>
+            <Prerequisites>Polymath Muse</Prerequisites>
+            <Description>You keep a book of occult spells, similar to a wizard's spellbook, and can use its spells to supplement your spell repertoire. Add all the spells in your repertoire to this book for free. You can use the Occultism skill to Learn Spells (page 238) and add them to your spellbook by paying the appropriate cost, similar to a wizard. During your daily preparations, choose any one spell from your book of occult spells. If that spell is already in your spell repertoire, you can treat it as an additional signature spell that day. If it isn't in your repertoire, treat it as though it were until your next daily preparations.</Description>
+            <!--TODO: Support this weirdness somehow-->
+        </Ability>
+        <Ability name="Inspire Competence" level="2" page="100">
+            <Traits>Bard</Traits>
+            <Prerequisites>Maestro Muse</Prerequisites>
+            <Description>You learn the inspire competence composition cantrip, which aids your allies' skills.</Description>
+            <Spell type="Focus Cantrip" name="Inspire Competence"/>
+        </Ability>
+        <Ability name="Loremaster's Etude" level="2" page="100">
+            <Traits>Bard, Fortune</Traits>
+            <Prerequisites>Enigma Muse, Focus Pool</Prerequisites>
+            <Description>You magically unlock memories, making them easier to recall. You learn the loremaster's etude composition spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus Cantrip" name="Loremaster's Etude"/>
+        </Ability>
+        <Ability name="Multifarious Muse" level="2" page="100" multiple="true">
+            <Traits>Bard</Traits>
+            <Description>Your muse doesn't fall into a single label. Choose a type of muse other than that of your own. You gain a 1st-level feat that requires that muse, and your muse is now also a muse of that type, allowing you to take feats with the other muse as a prerequisite. You don't gain any of the other effects of the muse you chose.Special You can take this feat multiple times. Each time you do, you must choose a different type of muse other than that of your own.</Description>
+            <AbilitySlot state="choice" name="Multifarious Muse Choice">
+                <Ability name="Enigma Muse">
+                    <Prerequisites>Maestro Muse or Polymath Muse</Prerequisites>
+                    <AbilitySlot state="filled" type="Class Feat" name="Bardic Lore" contents="Bardic Lore"/>
+                </Ability>
+                <Ability name="Maestro Muse">
+                    <Prerequisites>Enigma Muse or Polymath Muse</Prerequisites>
+                    <AbilitySlot state="filled" type="Class Feat" name="Lingering Composition" contents="Lingering Composition"/>
+                </Ability>
+                <Ability name="Polymath Muse">
+                    <Prerequisites>Enigma Muse or Maestro Muse</Prerequisites>
+                    <AbilitySlot state="filled" type="Class Feat" name="Esoteric Polymath" contents="Esoteric Polymath"/>
+                </Ability>
+            </AbilitySlot>
+        </Ability>
+        <Ability name="Inspire Defense" level="4" page="100">
+            <Traits>Bard</Traits>
+            <Prerequisites>Maestro Muse</Prerequisites>
+            <Description>You learn the inspire defense composition cantrip (page 386), which protects you and allies.</Description>
+            <Spell type="Focus Cantrip" name="Inspire Defense"/>
+        </Ability>
+        <Ability name="Melodious Spell" level="4" page="101" cost="1">
+            <Traits>Bard, Concentrate, Manipulate, Metamagic</Traits>
+            <Description>You subtly weave your spellcasting into your performance. If the next action you take is to Cast a Spell, attempt a Performance check against all observers' Perception DCs. If your Performance check is successful against an observer's Perception DC, that observer doesn't notice that you are Casting a Spell, even though normally spells have sensory manifestations that would make spellcasting obvious to those around you, and verbal, somatic, and material components are extremely overt. You hide all of these as part of an ordinary performance. This hides only the spell's spellcasting actions and manifestations, not its effects, so an observer might still see a ray streak out from you or see you vanish.</Description>
+        </Ability>
+        <Ability name="Triple Time" level="4" page="101">
+            <Traits>Bard</Traits>
+            <Description>You learn the triple time composition cantrip, which speeds up you and your allies for a round.</Description>
+            <Spell type="Focus Cantrip" name="Triple Time"/>
+        </Ability>
+        <Ability name="Versatile Signature" level="4" page="101">
+            <Traits>Bard</Traits>
+            <Prerequisites>Polymath Muse</Prerequisites>
+            <Description>While most bards are known for certain signature performances and spells, you're always tweaking your available repertoire. When you make your daily preparations, you can change one of your signature spells to a different spell of that level from your repertoire.</Description>
+        </Ability>
+        <Ability name="Dirge of Doom" level="6" page="101">
+            <Traits>Bard</Traits>
+            <Description>You learn the dirge of doom composition cantrip, which frightens your enemies.</Description>
+            <Spell type="Focus Cantrip" name="Dirge of Doom"/>
+        </Ability>
+        <Ability name="Harmonize" level="6" page="101" cost="1">
+            <Traits>Bard, Concentrate, Manipulate, Metamagic</Traits>
+            <Prerequisites>Maestro Muse</Prerequisites>
+            <Description>You can perform multiple compositions simultaneously. If your next action is to cast a composition, it becomes a harmonized composition. Unlike a normal composition, a harmonized composition doesn't end if you cast another composition, and you can cast another composition on the same turn as a harmonized one. Casting another harmonized composition ends any harmonized composition you have in effect.</Description>
+        </Ability>
+        <Ability name="Steady Spellcasting" level="6" page="211">
+            <Traits>Bard</Traits>
+            <Description>Confident in your technique, you don't easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn't disrupted.</Description>
+        </Ability>
+        <Ability name="Eclectic Skill" level="8" page="101">
+            <Traits>Bard</Traits>
+            <Prerequisites>Polymath Muse, Master In Occultism</Prerequisites>
+            <Description>Your broad experiences translate to a range of skills. Your proficiency bonus to untrained skill checks is equal to your level. You can attempt any skill check that normally requires you to be trained, even if you are untrained. If you have legendary proficiency in Occultism, you can attempt any skill check that normally requires you to have expert proficiency, even if untrained or trained.</Description>
+        </Ability>
+        <Ability name="Inspire Heroics" level="8" page="102">
+            <Traits>Bard</Traits>
+            <Prerequisites>Maestro Muse, Focus Pool</Prerequisites>
+            <Description>Your performances inspire even greater deeds in your allies. You learn the inspire heroics metamagic focus spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Inspire Heroics"/>
+        </Ability>
+        <Ability name="Know-It-All" level="8" page="102">
+            <Traits>Bard</Traits>
+            <Prerequisites>Enigma Muse</Prerequisites>
+            <Description>When you succeed at a Knowledge check, you gain additional information or context. When you critically succeed at a Knowledge check, at the GM's discretion you might gain even more additional information or context than normal.</Description>
+        </Ability>
+        <Ability name="House of Imaginary Walls" level="10" page="102">
+            <Traits>Bard</Traits>
+            <Description>You erect an imaginary barrier others believe to be real. You learn the house of imaginary walls composition cantrip.</Description>
+            <Spell type="Focus Cantrip" name="House of Imaginary Walls"/>
+        </Ability>
+        <Ability name="Quickened Casting" level="10" page="102" cost="Free">
+            <Traits>Bard, Concentrate, Metamagic</Traits>
+            <Frequency>once per day</Frequency>
+            <Description>If your next action is to cast a cantrip or a spell that is at least 2 levels lower than the highest level spell you can cast, reduce the number of actions to cast it by 1 (minimum 1 action). Special This can only be used on a cantrip or spell from the class matching the one you gained this feat from.</Description>
+        </Ability>
+        <Ability name="Unusual Composition" level="10" page="102">
+            <Traits>Bard, Concentrate, Manipulate, Metamagic</Traits>
+            <Prerequisites>Polymath Muse</Prerequisites>
+            <Description>You can translate the emotion and power of a composition to other mediums. If your next action is to cast a composition spell, you can use a different kind of performance than usual for the composition to change any of its somatic components to verbal components or vice versa. As usual for composition spells, this changes whether the composition is auditory or visual.</Description>
+        </Ability>
+        <Ability name="Eclectic Polymath" level="12" page="102">
+            <Traits>Bard</Traits>
+            <Prerequisites>Esoteric Polymath</Prerequisites>
+            <Description>Your flexible mind can quickly shift spells. If you add a spell to your repertoire during your daily preparations using Esoteric Polymath, when you prepare again, you can choose to keep the new spell from Esoteric Polymath in your repertoire and instead lose access to another spell of the same level in your repertoire.</Description>
+        </Ability>
+        <Ability name="Inspirational Focus" level="12" page="103">
+            <Traits>Bard</Traits>
+            <Description>Your connection to your muse has granted you unusual focus. If you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1.</Description>
+        </Ability>
+        <Ability name="Allegro" level="14" page="103">
+            <Traits>Bard</Traits>
+            <Description>You can quicken your allies with a fast-paced performance. You learn the allegro composition cantrip.</Description>
+            <Spell type="Focus Cantrip" name="Allegro"/>
+        </Ability>
+        <Ability name="Soothing Ballad" level="14" page="103">
+            <Traits>Bard</Traits>
+            <Prerequisites>Focus Pool</Prerequisites>
+            <Description>You soothe your allies' wounds with the power of your performance. You learn the soothing ballad composition spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Soothing Ballad"/>
+        </Ability>
+        <Ability name="True Hypercognition" level="14" page="103" cost="1">
+            <Traits>Bard</Traits>
+            <Prerequisites>Enigma Muse</Prerequisites>
+            <Description>Your mind works at an incredible pace. You instantly use up to five Recall Knowledge actions. If you have any special abilities or free actions that would normally be triggered when you Recall Knowledge, you can't use them for these actions.</Description>
+        </Ability>
+        <Ability name="Effortless Concentration" level="16" page="103" cost="Free">
+            <Traits>Bard</Traits>
+            <Trigger>Your turn begins.</Trigger>
+            <Description>You maintain a spell with hardly a thought. You immediately gain the effects of the Sustain a Spell action, allowing you to extend the duration of one of your active class spells.</Description>
+        </Ability>
+        <Ability name="Studious Capacity" level="16" page="103">
+            <Traits>Bard</Traits>
+            <Prerequisites>Enigma Muse, Legendary In Occultism</Prerequisites>
+            <Description>Your continued study of occult magic has increased your magical capacity, allowing you to cast spells even when it seems impossible. You can cast one spell each day even after you've run out of spell slots of the appropriate spell level, but you can't use this ability to cast a spell of your highest spell level.</Description>
+        </Ability>
+        <Ability name="Deep Lore" level="18" page="103">
+            <Traits>Bard</Traits>
+            <Prerequisites>Enigma Muse, Legendary In Occultism</Prerequisites>
+            <Description>Your repertoire is vast, containing far more spells than usual. Add one spell to your repertoire of each level you can cast.</Description>
+            <SpellsKnown count="1" level="1"/>
+            <SpellsKnown count="1" level="2"/>
+            <SpellsKnown count="1" level="3"/>
+            <SpellsKnown count="1" level="4"/>
+            <SpellsKnown count="1" level="5"/>
+            <SpellsKnown count="1" level="6"/>
+            <SpellsKnown count="1" level="7"/>
+            <SpellsKnown count="1" level="8"/>
+            <SpellsKnown count="1" level="9"/>
+        </Ability>
+        <Ability name="Eternal Composition" level="18" page="103">
+            <Traits>Bard</Traits>
+            <Prerequisites>Maestro Muse</Prerequisites>
+            <Description>The world is a stage upon which you are always playing. You are permanently quickened; you can use your extra action only to cast a composition cantrip that requires 1 action to cast. While in exploration mode, you can declare that you are performing an eligible composition cantrip while using any exploration tactic. Even before your first turn in a combat encounter, that cantrip is active as if you had cast it on your previous turn.</Description>
+        </Ability>
+        <Ability name="Impossible Polymath" level="18" page="103">
+            <Traits>Bard</Traits>
+            <Prerequisites>Trained in Arcana or Nature or Religion, Esoteric Polymath</Prerequisites>
+            <Description>Your esoteric formulas are so unusual that they allow you to dabble in magic from diverse traditions that other bards don't understand. As long as you're trained in Arcana, you can add arcane spells to your book from Esoteric Polymath; as long as you're trained in Nature, you can add primal spells to your book; and as long as you are trained in Religion, you can add divine spells to your book. Like your other spells in your book, you can add one of these spells from another tradition to your repertoire as an occult spell each day using Esoteric Polymath, but you can't retain any spells from another tradition when you prepare again, even if you have Eclectic Polymath.</Description>
+        </Ability>
+        <Ability name="Fatal Aria" level="20" page="103">
+            <Traits>Bard</Traits>
+            <Prerequisites>Focus Pool</Prerequisites>
+            <Description>Your songs overwhelm the target with unbearable emotion, potentially striking them dead on the spot. You learn the fatal aria composition spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Fatal Aria"/>
+        </Ability>
+        <Ability name="Perfect Encore" level="20" page="103">
+            <Traits>Bard</Traits>
+            <Prerequisites>Magnum Opus</Prerequisites>
+            <Description>You develop another incredible creation. You gain an additional 10th-level spell slot.</Description>
+            <SpellSlots count="1" level="10"/>
+        </Ability>
+        <Ability name="Symphony of the Muses" level="20" page="103">
+            <Traits>Bard</Traits>
+            <Prerequisites>Harmonize</Prerequisites>
+            <Description>You are able to weave countless performances together into a solo symphony. You are no longer limited to a single composition each turn or a single composition at a time; when you use a new composition, all previous compositions' effects continue for their remaining duration.</Description>
+        </Ability>
+    </Feats>
+</pf2:class>

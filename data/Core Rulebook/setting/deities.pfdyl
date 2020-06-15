@@ -1,0 +1,391 @@
+<pf2:deities xmlns:pf2="https://dylbrown.github.io"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/deity.xsd">
+    <Deity page="437">
+        <Name>Abadar</Name>
+        <Title>Master of the First Vault</Title>
+        <DeityAlignment>LN</DeityAlignment>
+        <Edicts>bring civilization to the frontiers, earn wealth through hard work and trade, follow the rule of law</Edicts>
+        <Anathema>engage in banditry or piracy, steal, undermine a law-abiding court</Anathema>
+        <AreasOfConcern>cities, law, merchants, and wealth</AreasOfConcern>
+        <FollowerAlignments>LG, LN, LE</FollowerAlignments>
+        <DivineFont>harm or heal</DivineFont>
+        <DivineSkill>Society</DivineSkill>
+        <FavoredWeapon>crossbow</FavoredWeapon>
+        <Domains>cities, earth, travel, wealth</Domains>
+        <Spells>
+            <Spell level="1" name="illusory object" />
+            <Spell level="4" name="creation" />
+            <Spell level="7" name="magnificent mansion" />
+        </Spells>
+        <Description>Abadar is worshipped as the god of cities, law, merchants, and wealth. Abadar’s cathedral-banks are found in many cities and places where order thrives or is gaining a foothold. Aristocrats, city guards, merchants, and those working in legal practice or who have the well-being of their community on their mind are common worshippers of the god of cities, along with dwarves in general. Abadaran priests living in cities often serve as judges, lawyers, and clerks, while those who live on the frontier work as roving magistrates, acting as judge, jury, and executioners in the name of order.</Description>
+    </Deity>
+    <Deity page="437">
+        <Name>Asmodeus</Name>
+        <Title>The Prince of Darkness</Title>
+        <DeityAlignment>LE</DeityAlignment>
+        <Edicts>negotiate contracts to your best advantage, rule tyrannically and torture weaker beings, show subservience to your betters</Edicts>
+        <Anathema>break a contract, free a slave, insult Asmodeus by showing mercy to your enemies</Anathema>
+        <AreasOfConcern>contracts, pride, slavery, and tyranny</AreasOfConcern>
+        <FollowerAlignments>LE</FollowerAlignments>
+        <DivineFont>harm</DivineFont>
+        <DivineSkill>Deception</DivineSkill>
+        <FavoredWeapon>mace</FavoredWeapon>
+        <Domains>confidence, fire, trickery, tyranny</Domains>
+        <Spells>
+            <Spell level="1" name="charm" />
+            <Spell level="4" name="suggestion" />
+            <Spell level="6" name="mislead" />
+        </Spells>
+        <Description>Asmodeus is the First, the Dark Prince, the lord of darkness and law, and the ruler of the plane of Hell. If Asmodeus’s own scriptures are to believed—and they are corroborated by certain other accounts, like the angel-penned</Description>
+    </Deity>
+    <Deity page="437">
+        <Name>Calistria</Name>
+        <Title>The Savored Sting</Title>
+        <DeityAlignment>CN</DeityAlignment>
+        <Edicts>pursue your personal freedom, seek hedonistic thrills, take revenge</Edicts>
+        <Anathema>become too consumed by love or a need for revenge, let a slight go unanswered</Anathema>
+        <AreasOfConcern>lust, revenge, and trickery</AreasOfConcern>
+        <FollowerAlignments>CG, CN, CE</FollowerAlignments>
+        <DivineFont>harm or heal</DivineFont>
+        <DivineSkill>Deception</DivineSkill>
+        <FavoredWeapon>whip</FavoredWeapon>
+        <Domains>pain, passion, secrecy, trickery</Domains>
+        <Spells>
+            <Spell level="1" name="charm" />
+            <Spell level="3" name="enthrall" />
+            <Spell level="6" name="mislead" />
+        </Spells>
+        <Description>As symbolized by the three daggers of her religious symbol, Calistria has three aspects: lust, revenge, and trickery. Silver-tongued and charming, she is a master of weaving insults into compliments and laying intricate groundwork for retribution at its finest. She is a goddess of vengeance, but it would be a mistake to assume that means she pursues justice. Calistria is fickle, shifting her loyalties and interests as her whims take her—though she never forgets a slight, and any who think she has forgiven will surely find it is only a matter of time before they are targeted by a long-term plot of revenge to lay them thoroughly low.</Description>
+    </Deity>
+    <Deity page="437">
+        <Name>Cayden Cailean</Name>
+        <Title>The Accidental God</Title>
+        <DeityAlignment>CG</DeityAlignment>
+        <Edicts>drink, free slaves and aid the oppressed, seek glory and adventure</Edicts>
+        <Anathema>waste alcohol, be mean or standoffish when drunk, own a slave</Anathema>
+        <AreasOfConcern>ale, bravery, freedom, and wine</AreasOfConcern>
+        <FollowerAlignments>NG, CG, CN</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Athletics</DivineSkill>
+        <FavoredWeapon>rapier</FavoredWeapon>
+        <Domains>cities, freedom, indulgence, might</Domains>
+        <Spells>
+            <Spell level="1" name="fleet step" />
+            <Spell level="2" name="touch of idiocy" />
+            <Spell level="5" name="hallucination" />
+        </Spells>
+        <Description>Once a mortal human, Cayden Cailean is now one the few deities known as the Ascended. In his mortal years, Cayden was a sellsword of no small fame, known for his boisterous manner, skill with a blade, and fearless resolve. During a particularly rowdy night of drinking, a series of escalating dares led the wandering mercenary to attempt the Test of the Starstone. He emerged from the Starstone Cathedral 3 days later, laughing, a fully realized god. Divine responsibility did little to change Cayden’s attitude from what it was in his mortal life. He continues to crave adventure, drink, and pleasurable company while abhorring bullies, tyrants, and cowards.</Description>
+    </Deity>
+    <Deity page="438">
+        <Name>Desna</Name>
+        <Title>The Song of the Spheres</Title>
+        <DeityAlignment>CG</DeityAlignment>
+        <Edicts>aid fellow travelers, explore new places, express yourself through art and song, find what life has to offer</Edicts>
+        <Anathema>cause fear or despair, cast</Anathema>
+        <AreasOfConcern>dreams, luck, stars, and travelers</AreasOfConcern>
+        <FollowerAlignments>NG, CG, CN</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Acrobatics</DivineSkill>
+        <FavoredWeapon>starknife</FavoredWeapon>
+        <Domains>dreams, luck, moon, travel</Domains>
+        <Spells>
+            <Spell level="1" name="sleep" />
+            <Spell level="4" name="fly" />
+            <Spell level="5" name="dreaming potential" />
+        </Spells>
+        <Description>The night didn’t know beauty until Desna came into existence. While the other gods toiled away to create the world, she set her sights on the heavens, placing each star in the sky. After surveying her artistry, she hung the brightest star high in the north and made it her home. Her first gift to mortals was this beacon of hope, a twinkling sign in the dark sky that they could turn to when lost or unsure of themselves. Desna provides safe passage through the darkness to all, should they choose to follow.</Description>
+    </Deity>
+    <Deity page="438">
+        <Name>Erastil</Name>
+        <Title>Old Deadeye</Title>
+        <DeityAlignment>LG</DeityAlignment>
+        <Edicts>care for your home and family, fulfill your duties, keep the peace, protect the community</Edicts>
+        <Anathema>abandon your home in its time of need, choose yourself over your community, tarnish your reputation, tell lies</Anathema>
+        <AreasOfConcern>family, farming, hunting, and trade</AreasOfConcern>
+        <FollowerAlignments>LG, NG, LN</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Survival</DivineSkill>
+        <FavoredWeapon>longbow</FavoredWeapon>
+        <Domains>earth, family, nature, wealth</Domains>
+        <Spells>
+            <Spell level="1" name="true strike" />
+            <Spell level="3" name="wall of thorns" />
+            <Spell level="5" name="tree stride" />
+        </Spells>
+        <Description>Unlike many other good deities, Erastil does not send his followers out into the world to fight and crush evil. Eschewing crusades and other ventures that take his followers away from their homes, Erastil watches over those who devote their lives to family and community. He is primarily an agricultural deity, specifically focusing on those aspects of nature that either can be tamed or are of use to his followers. His domain encompasses the plants and animals that farmers, hunters, and ranchers deal with in their everyday lives. While he is a protective deity, Erastil steps in only when quiet, pastoral lives are threatened. He desires his followers to live their lives in peace, with no risk of being conscripted into armies, devoured by monsters, or destroyed by magic.</Description>
+    </Deity>
+    <Deity page="438">
+        <Name>Gorum</Name>
+        <Title>Our Lord in Iron</Title>
+        <DeityAlignment>CN</DeityAlignment>
+        <Edicts>attain victory in fair combat, push your limits, wear armor in combat</Edicts>
+        <Anathema>kill prisoners or surrendering foes, prevent conflict through negotiation, win a battle through underhanded tactics or indirect magic</Anathema>
+        <AreasOfConcern>battle, strength, and weapons</AreasOfConcern>
+        <FollowerAlignments>CN, CE</FollowerAlignments>
+        <DivineFont>harm or heal</DivineFont>
+        <DivineSkill>Athletics</DivineSkill>
+        <FavoredWeapon>greatsword</FavoredWeapon>
+        <Domains>confidence, destruction, might, zeal</Domains>
+        <Spells>
+            <Spell level="1" name="true strike" />
+            <Spell level="2" name="enlarge" />
+            <Spell level="4" name="weapon storm" />
+        </Spells>
+        <Description>The clash of steel, the cry of victory, the gasping denial of death: these are the sound of prayers to Our Lord in Iron, for to follow Gorum is to fight. Gorum does not care the reason for battle—a village’s desperate stand against raiders is no less worthwhile to him than a crusader army marching against demons in the Sarkoris Scar—nor does he choose sides in such clashes. Good or evil, law or chaos, the reason for the fight is irrelevant. It is the thrill of battle that finds his favor, the crucible of struggle in which victory is there for the taking.</Description>
+    </Deity>
+    <Deity page="438">
+        <Name>Gozreh</Name>
+        <Title>The Wind and the Waves</Title>
+        <DeityAlignment>N</DeityAlignment>
+        <Edicts>cherish, protect, and respect nature in all its forms</Edicts>
+        <Anathema>bring civilization to intrude on the wild, create undead, despoil areas of natural beauty</Anathema>
+        <AreasOfConcern>nature, the sea, and weather</AreasOfConcern>
+        <FollowerAlignments>NG, LN, N, CN, NE</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Survival</DivineSkill>
+        <FavoredWeapon>trident</FavoredWeapon>
+        <Domains>air, nature, travel, water</Domains>
+        <Spells>
+            <Spell level="1" name="gust of wind" />
+            <Spell level="3" name="lightning bolt" />
+            <Spell level="5" name="control water" />
+        </Spells>
+        <Description>A timeless entity birthed from the first wind to stir the vast oceans, Gozreh wanders the world in the air and the seas. Sailors drop boxes of cargo as offerings to avoid a fatal storm, hoping to please the Wind and the Waves, even though they know that such pleas are far more likely to go unnoticed as they are to draw their deity’s attention. The deity’s temperament is fickle and their fury swift, hurling bolts of lightning and dragging to the crushing depths those who dare befoul the natural world. Gozreh is the sea that encapsulates the land and the wind that moves its surface, the birds that traverse the sky and the clouds that shield them.</Description>
+    </Deity>
+    <Deity page="438">
+        <Name>Iomedae</Name>
+        <Title>The Inheritor</Title>
+        <DeityAlignment>LG</DeityAlignment>
+        <Edicts>be temperate, fight for justice and honor, hold valor in your heart</Edicts>
+        <Anathema>abandon a companion in need, dishonor yourself, refuse a challenge from an equal</Anathema>
+        <AreasOfConcern>honor, justice, rulership, and valor</AreasOfConcern>
+        <FollowerAlignments>LG, NG</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Intimidation</DivineSkill>
+        <FavoredWeapon>longsword</FavoredWeapon>
+        <Domains>confidence, might, truth, zeal</Domains>
+        <Spells>
+            <Spell level="1" name="true strike" />
+            <Spell level="2" name="enlarge" />
+            <Spell level="4" name="fire shield" />
+        </Spells>
+        <Description>Iomedae, the youngest among the prominent deities of the Inner Sea region, had already proven herself worthy of divinity before her ascension. Born in Cheliax, she followed the path of the sword and fought evil, eventually becoming a paladin of Aroden’s herald</Description>
+    </Deity>
+    <Deity page="438">
+        <Name>Irori</Name>
+        <Title>Master of Masters</Title>
+        <DeityAlignment>LN</DeityAlignment>
+        <Edicts>be humble; help others perfect themselves; hone your body, mind, and spirit to a more perfect state; practice discipline</Edicts>
+        <Anathema>become addicted to a substance, destroy an important historical text, repeatedly fail to maintain self-control</Anathema>
+        <AreasOfConcern>history, knowledge, and self-perfection</AreasOfConcern>
+        <FollowerAlignments>LG, LN, LE</FollowerAlignments>
+        <DivineFont>harm or heal</DivineFont>
+        <DivineSkill>Athletics</DivineSkill>
+        <FavoredWeapon>fist</FavoredWeapon>
+        <Domains>knowledge, might, perfection, truth</Domains>
+        <Spells>
+            <Spell level="1" name="jump" />
+            <Spell level="3" name="haste" />
+            <Spell level="4" name="stoneskin" />
+        </Spells>
+        <Description>Irori exemplifies the concepts of self-perfection. His dogma states that he was a mortal who gained godhood through achieving a physical and mental state that surpassed mortal limitations. His followers seek to emulate their god’s divine state by perfecting themselves using the words of the</Description>
+    </Deity>
+    <Deity page="439">
+        <Name>Lamashtu</Name>
+        <Title>Mother of Monsters</Title>
+        <DeityAlignment>CE</DeityAlignment>
+        <Edicts>bring power to outcasts and the downtrodden, indoctrinate children in Lamashtu’s teachings, make the beautiful monstrous, reveal the corruption and flaws in all things</Edicts>
+        <Anathema>attempt to treat a mental illness or deformity, provide succor to Lamashtu’s enemies</Anathema>
+        <AreasOfConcern>aberrance, monsters, and nightmares</AreasOfConcern>
+        <FollowerAlignments>CE</FollowerAlignments>
+        <DivineFont>harm or heal</DivineFont>
+        <DivineSkill>Survival</DivineSkill>
+        <FavoredWeapon>falchion</FavoredWeapon>
+        <Domains>family, might, nightmares, trickery</Domains>
+        <Spells>
+            <Spell level="1" name="magic fang" />
+            <Spell level="2" name="animal form" />
+            <Spell level="4" name="nightmare" />
+        </Spells>
+        <Description>For those who revel in the corruption of the pure or who find themselves spurned and neglected by a world that despises their differences, Lamashtu offers respite among her grotesque brood. The Mother of Monsters readily accepts mortals into her fold and has made it her goal to twist mortal life toward her abhorrent ideals. Her intervention is widely known to inflict corruptions and terrible nightmares. Ostracized individuals who share her ideals will find this intervention a boon, while others treat similar events as horrible curses.</Description>
+    </Deity>
+    <Deity page="439">
+        <Name>Nethys</Name>
+        <Title>The All-Seeing Eye</Title>
+        <DeityAlignment>N</DeityAlignment>
+        <Edicts>seek out magical power and use it</Edicts>
+        <Anathema>pursue mundane paths over magical ones</Anathema>
+        <AreasOfConcern>magic</AreasOfConcern>
+        <FollowerAlignments>NG, LN, N, CN, NE</FollowerAlignments>
+        <DivineFont>harm or heal</DivineFont>
+        <DivineSkill>Arcana</DivineSkill>
+        <FavoredWeapon>staff</FavoredWeapon>
+        <Domains>destruction, knowledge, magic, protection</Domains>
+        <Spells>
+            <Spell level="1" name="magic missile" />
+            <Spell level="2" name="magic mouth" />
+            <Spell level="3" name="levitate" />
+            <Spell level="4" name="blink" />
+            <Spell level="5" name="prying eye" />
+            <Spell level="6" name="wall of force" />
+            <Spell level="7" name="warp mind" />
+            <Spell level="8" name="maze" />
+            <Spell level="9" name="disjunction" />
+        </Spells>
+        <Description>To some, magic is a powerful weapon. To others, it’s a malleable tool. And to a few, it’s a source of purpose. With an understanding of spellcasting, creatures can cause fire to erupt from their hands, call otherworldly beings to aid them, bewitch the senses, and even bring the dead back to life. The ability to reshape reality to better suit one’s needs and desires is a powerful call that most only dream of being able to answer, and few are ever able to truly master such might.</Description>
+    </Deity>
+    <Deity page="439">
+        <Name>Norgorber</Name>
+        <Title>Blackfingers, Father Skinsaw, The Gray Master, Reaper of Reputation</Title>
+        <DeityAlignment>NE</DeityAlignment>
+        <Edicts>keep your true identity secret, sacrifice anyone necessary, take every advantage in a fight, work from the shadows</Edicts>
+        <Anathema>allow your true identity to be connected to your dark dealings, share a secret freely, show mercy</Anathema>
+        <AreasOfConcern>greed, murder, poison, secrets</AreasOfConcern>
+        <FollowerAlignments>LE, NE, CE, N</FollowerAlignments>
+        <DivineFont>harm</DivineFont>
+        <DivineSkill>Stealth</DivineSkill>
+        <FavoredWeapon>shortsword</FavoredWeapon>
+        <Domains>death, secrecy, trickery, wealth</Domains>
+        <Spells>
+            <Spell level="1" name="illusory disguise" />
+            <Spell level="2" name="invisibility" />
+            <Spell level="4" name="phantasmal killer" />
+        </Spells>
+        <Description>Norgorber is the most mysterious of the Ascended, the group of mortals who assumed godhood after passing the Test of the Starstone. Unlike Iomedae’s and Cayden Cailean’s mortal existences, Norgorber’s life before his ascension is a mystery; the god himself has shrouded details of his mortal life in secrecy. This is no surprise to those familiar with Norgorber—he is the master of all secrets, a calculating manipulator who cleverly and ruthlessly wields the power of hidden knowledge to achieve his own ends. Only his most trusted worshippers know enough about his goals to assist in the god’s plans, and even those worshippers often have their memories modified after their parts in Norgorber’s schemes are complete.</Description>
+    </Deity>
+    <Deity page="439">
+        <Name>Pharasma</Name>
+        <Title>Lady of Graves</Title>
+        <DeityAlignment>N</DeityAlignment>
+        <Edicts>strive to understand ancient prophecies, destroy undead, lay bodies to rest</Edicts>
+        <Anathema>create undead, desecrate a corpse, rob a tomb</Anathema>
+        <AreasOfConcern>birth, death, fate, prophecy, and time</AreasOfConcern>
+        <FollowerAlignments>NG, LN, N</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Medicine</DivineSkill>
+        <FavoredWeapon>dagger</FavoredWeapon>
+        <Domains>death, fate, healing, knowledge</Domains>
+        <Spells>
+            <Spell level="1" name="mindlink" />
+            <Spell level="3" name="ghostly weapon" />
+            <Spell level="4" name="phantasmal killer" />
+        </Spells>
+        <Description>No record of history, and not even other gods, can recall a time before Pharasma. Her throne lies within a vast, gothic cathedral located on the infinite Spire at the center of the planes. From here, she looks both forward and backward in time, observing the births, lives, and deaths of every soul, as she serves as the final arbiter of a soul’s destination after death. Psychopomp servants of Pharasma guide and safeguard newly dead souls along the River of Souls to her realm, where she judges each soul and ensures it is sent to the proper plane for its afterlife, according to its alignment and mortal deeds. Although she can see all possible fates and knows the fate of each individual, free will and choice can alter a soul’s final destination, and she places great weight on the individual’s actions and personal choices. Therefore, Pharasma withholds her final judgment until a soul stands before her. Her prophecies are cryptic, and their full meanings are rarely revealed until the foretold events occur.</Description>
+    </Deity>
+    <Deity page="439">
+        <Name>Rovagug</Name>
+        <Title>The Rough Beast</Title>
+        <DeityAlignment>CE</DeityAlignment>
+        <Edicts>destroy all things, free Rovagug from his prison</Edicts>
+        <Anathema>create something new, let material ties restrain you, torture a victim or otherwise delay its destruction</Anathema>
+        <AreasOfConcern>destruction, disaster, and wrath</AreasOfConcern>
+        <FollowerAlignments>NE, CE</FollowerAlignments>
+        <DivineFont>harm</DivineFont>
+        <DivineSkill>Athletics</DivineSkill>
+        <FavoredWeapon>greataxe</FavoredWeapon>
+        <Domains>air, destruction, earth, zeal</Domains>
+        <Spells>
+            <Spell level="1" name="burning hands" />
+            <Spell level="2" name="enlarge" />
+            <Spell level="6" name="disintegrate" />
+        </Spells>
+        <Description>Rovagug has no single holy scripture. He has little use for one, for his sole commandment is to destroy, and his followers need no instruction in how to accomplish that. The figurative and literal monsters who worship Rovagug share their myths and legends in secret shrines and hidden caves, calling him the Rough Beast, the Imprisoned King, the Tide of Fangs, the Unmaker, and the Worldbreaker. They tell each other that each life they snuff out, each piece of art they destroy, each work of labor they bring tumbling down puts a crack in the prison that holds their god. Each of their little efforts of destruction adds up and will one day free him, setting him loose to bring about the end of all things.</Description>
+    </Deity>
+    <Deity page="439">
+        <Name>Sarenrae</Name>
+        <Title>The Dawnflower</Title>
+        <DeityAlignment>NG</DeityAlignment>
+        <Edicts>destroy the Spawn of Rovagug, protect allies, provide aid to the sick and wounded, seek and allow redemption</Edicts>
+        <Anathema>create undead, lie, deny a repentant creature an opportunity for redemption, fail to strike down evil</Anathema>
+        <AreasOfConcern>healing, honesty, redemption, and the sun</AreasOfConcern>
+        <FollowerAlignments>LG, NG, CG</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Medicine</DivineSkill>
+        <FavoredWeapon>scimitar</FavoredWeapon>
+        <Domains>fire, healing, sun, truth</Domains>
+        <Spells>
+            <Spell level="1" name="burning hands" />
+            <Spell level="3" name="fireball" />
+            <Spell level="4" name="wall of fire" />
+        </Spells>
+        <Description>Sarenrae is one of the most popular deities on Golarion by virtue of her association with the life-giving sun and her perpetual offer to help anyone be their best, even when they have made mistakes. Most people thank her for her kind work to channel the sun’s power for everyone’s safety and livelihood, and thank her clergy for granting her healing power to all who need it. Mortals look to the Dawnflower as an example of boundless love, exquisite kindness, and true patience. They pray to her to heal the sick, lift up the downtrodden, and illuminate darkness of circumstance as well as darkness of spirit. Her followers aspire to emulate her through generosity, nurturing, truthfulness, and selfless courage. They oppose evil everywhere with words first, and when necessary, with scimitar and flame.</Description>
+    </Deity>
+    <Deity page="440">
+        <Name>Shelyn</Name>
+        <Title>The Eternal Rose</Title>
+        <DeityAlignment>NG</DeityAlignment>
+        <Edicts>be peaceful, choose and perfect an art, lead by example, see the beauty in all things</Edicts>
+        <Anathema>destroy art or allow it to be destroyed, unless saving a life or pursuing greater art; refuse to accept surrender</Anathema>
+        <AreasOfConcern>art, beauty, love, and music</AreasOfConcern>
+        <FollowerAlignments>LG, NG, CG</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Crafting or Performance</DivineSkill>
+        <FavoredWeapon>glaive</FavoredWeapon>
+        <Domains>creation, family, passion, protection</Domains>
+        <Spells>
+            <Spell level="1" name="color spray" />
+            <Spell level="3" name="enthrall" />
+            <Spell level="4" name="creation" />
+        </Spells>
+        <Description>Shelyn watches over existence with a kind and loving eye, encouraging mortals to make the best of their lives by spreading love, art, and beauty as best they can. Even the crudest artistic awakenings are worthy of praise in the goddess’s eyes, as they represent an individual’s expression of life’s trials and triumphs. She believes every creature is worthy of love and capable of creating art in their own way. Shelyn’s religion does not require chastity, fidelity, or a particular relationship structure, as the passion of early romance is a facet of love just as important and valid as the comfortable trust between a long-married couple. However, she does make the distinction between courtship and pure carnal desire, and she prefers that trysts blossom into more meaningful relationships along the way.</Description>
+    </Deity>
+    <Deity page="440">
+        <Name>Torag</Name>
+        <Title>The Forge Father</Title>
+        <DeityAlignment>LG</DeityAlignment>
+        <Edicts>be honorable and forthright, keep your word, respect the forge, serve your people</Edicts>
+        <Anathema>tell lies or cheat someone, intentionally create inferior works, show mercy to the enemies of your people</Anathema>
+        <AreasOfConcern>forge, protection, and strategy</AreasOfConcern>
+        <FollowerAlignments>LG, LN</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Crafting</DivineSkill>
+        <FavoredWeapon>warhammer</FavoredWeapon>
+        <Domains>creation, earth, family, protection</Domains>
+        <Spells>
+            <Spell level="1" name="mindlink" />
+            <Spell level="3" name="earthbind" />
+            <Spell level="4" name="creation" />
+        </Spells>
+        <Description>The head of the dwarven pantheon is the most visible of the dwarven deities, to the extent that Torag is the only dwarven deity most non-dwarves know of. While the other dwarven gods represent specific areas of dwarven life and culture, thus forming an expansive and comprehensive dwarven pantheon, Torag’s areas of concern are those most central to dwarven society. In his own family, Torag models the values of community and protection that have cemented deep-rooted relationships among dwarven clans. His focus on strategy and tactical acumen centers on protection, reflected in dwarves’ impenetrable fortresses and conservative military tactics, including their willingness to use offensive maneuvers as a form of defense. He also represents the forge: the creation of fine works from raw materials, practice and mastery of a craft, and pride in one’s work. His purview extends even to those activities that feed the forge and dwarven artisanship, such as mining the earth for raw ore and gemstones. Torag’s oversight over these core concepts has secured his place at the head of the dwarven pantheon for ages. It was Torag who sent the dwarves on their legendary Quest for Sky during the Age of Darkness, and his worship was long-established even then. Indeed, among dwarves, Torag is often called the Father of Creation.</Description>
+    </Deity>
+    <Deity page="440">
+        <Name>Urgathoa</Name>
+        <Title>Pallid Princess</Title>
+        <DeityAlignment>NE</DeityAlignment>
+        <Edicts>become undead upon death, create or protect the undead, sate your appetites</Edicts>
+        <Anathema>deny your appetites, destroy undead, sacrifice your life</Anathema>
+        <AreasOfConcern>disease, gluttony, and undeath</AreasOfConcern>
+        <FollowerAlignments>LE, NE, CE</FollowerAlignments>
+        <DivineFont>harm</DivineFont>
+        <DivineSkill>Intimidation</DivineSkill>
+        <FavoredWeapon>scythe</FavoredWeapon>
+        <Domains>indulgence, magic, might, undeath</Domains>
+        <Spells>
+            <Spell level="1" name="goblin pox" />
+            <Spell level="2" name="false life" />
+            <Spell level="7" name="mask of terror" />
+        </Spells>
+        <Description>The chosen of Urgathoa do not dread the flaws of mortal flesh, such as aging, disease, or even death, for so long as they indulge in excess above all else, their goddess offers eternal freedom from such fickle constraints. Urgathoa herself was once a mortal woman who challenged and rejected the tenets of deities whose followers expected mindless conformity, temperance, and restraint. Why would the gods craft Golarion into a near-endless buffet abundant with pleasures of the body and mind if the living weren’t destined to feast from it? Urgathoa so loved satiating her life’s appetites that in death, she spat in the face of</Description>
+    </Deity>
+    <Deity page="440">
+        <Name>Zon-Kuthon</Name>
+        <Title>Midnight Lord</Title>
+        <DeityAlignment>LE</DeityAlignment>
+        <Edicts>bring pain to the world, mutilate your body</Edicts>
+        <Anathema>create permanent or long-lasting sources of light, provide comfort to those who suffer</Anathema>
+        <AreasOfConcern>darkness, envy, loss, and pain</AreasOfConcern>
+        <FollowerAlignments>LN, LE, NE</FollowerAlignments>
+        <DivineFont>harm</DivineFont>
+        <DivineSkill>Intimidation</DivineSkill>
+        <FavoredWeapon>spiked chain</FavoredWeapon>
+        <Domains>ambition, darkness, destruction, pain</Domains>
+        <Spells>
+            <Spell level="1" name="phantom pain" />
+            <Spell level="3" name="wall of thorns" />
+            <Spell level="5" name="shadow walk" />
+        </Spells>
+        <Description>The Midnight Lord embodies and glorifies pain, shadows, and mutilation, and he is one of the most twisted and malevolent gods on the face of Golarion. Once known as Dou-Bral, he crafted the immense Star Towers that still help keep</Description>
+    </Deity>
+
+</pf2:deities>
