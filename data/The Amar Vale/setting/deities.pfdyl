@@ -1,23 +1,59 @@
 <pf2:deities xmlns:pf2="https://dylbrown.github.io"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/deity.xsd">
-    <Deity page="124">
+    <Deity page="1">
         <Name>Martin</Name>
         <Title>The Nurturer</Title>
         <DeityAlignment>N</DeityAlignment>
-        <Edicts>Care for your home and family, fulfill your duties, keep the peace, protect the community</Edicts>
+        <Edicts>Care for your home and family, fulfill your duties, grow the community.</Edicts>
         <Anathema>Abandon your home in its time of need, choose yourself over your community, tarnish your reputation, tell lies</Anathema>
         <FollowerAlignments>NG, N, CN, LN</FollowerAlignments>
         <DivineFont>heal</DivineFont>
         <DivineSkill>Nature</DivineSkill>
         <FavoredWeapon>staff</FavoredWeapon>
-        <Domains>earth, family, nature, wealth</Domains>
+        <Domains>earth, family, healing, nature</Domains>
         <Spells>
             <Spell level="1" name="true strike" />
             <Spell level="3" name="wall of thorns" />
             <Spell level="5" name="tree stride" />
         </Spells>
         <Description>Martin is the patron of tradesmen, travellers, and families, and is thought to be gentle and kind.</Description>
+    </Deity>
+    <Deity page="1">
+        <Name>Harold</Name>
+        <Title>The Watcher</Title>
+        <DeityAlignment>LN</DeityAlignment>
+        <Edicts>Protect the community, follow his traditions, hunt often.</Edicts>
+        <Anathema>Disrespect your elders, become lax, leave the woods unprotected.</Anathema>
+        <FollowerAlignments>LN, N, LG</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Survival</DivineSkill>
+        <FavoredWeapon>longbow</FavoredWeapon>
+        <Domains>confidence, might, moon, protection</Domains>
+        <Spells>
+            <Spell level="1" name="mindlink" />
+            <Spell level="3" name="haste" />
+            <Spell level="4" name="weapon storm" />
+        </Spells>
+        <Description>Harold is stoic and brave, the patron of warriors, hunters, and smiths, although he has been known to be harsh with worshippers who don’t follow his lifestyle.</Description>
+    </Deity>
+    <Deity page="1">
+        <Name>Nathan</Name>
+        <Title>The Sage</Title>
+        <DeityAlignment>CN</DeityAlignment>
+        <Edicts>Gain wealth and influence, uncover magical secrets, grow the village of Azj</Edicts>
+        <Anathema>Live humbly, seek safety over adventure, use no magic</Anathema>
+        <FollowerAlignments>N, CN, CG</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Society</DivineSkill>
+        <FavoredWeapon>dagger</FavoredWeapon>
+        <Domains>ambition, luck, magic, wealth</Domains>
+        <Spells>
+            <Spell level="1" name="identify" />
+            <Spell level="2" name="invisibility" />
+            <Spell level="5" name="prying eye" />
+        </Spells>
+        <Description>Nathan is the patron of merchants, casters, and entrepreneurs. He is capricious and lively, but his followers always seem to find a couple extra coins at the end of their dealings.</Description>
     </Deity>
     <Deity page="124">
         <Name>Anubis</Name>
