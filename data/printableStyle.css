@@ -1,8 +1,15 @@
 html {
     font-family: monospace;
 }
-
+.height_measure {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 @media print {
+    .height_measure {
+        height: 8.5in;
+    }
     .printBorder, .separator {
         display: none;
     }
@@ -19,21 +26,24 @@ html {
     .page {
         position: absolute;
         left: .4in;
-        width: calc((100vh * 11 / 8.5) - .8in);
-        height: calc(100vh - .8in);
+        width: 10.2in;
+        height: 7.7in;
         overflow:hidden;
     }
     .page:nth-child(1) {
         top: .4in;
     }
     .page:nth-child(2) {
-        top: calc(100vh + .4in);
+        top: calc(8.9in);
     }
     html {
-        font-size: 2.2vh;
+        font-size: 2.1vh;
     }
 }
 @media screen {
+    .height_measure {
+        height: 100vh;
+    }
     .printBorder {
         position: absolute;
         left: 0;
@@ -169,6 +179,15 @@ div{flex-grow: 1}
     justify-self: center;
     align-self: center;
 }
+.top-right {
+    flex-flow: column nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-self: flex-end;
+    align-self: flex-start;
+    padding-right: 5px;
+}
 .center-right {
     flex-flow: column nowrap;
     display: flex;
@@ -260,7 +279,9 @@ div{flex-grow: 1}
 .rounded {
     border-radius: 7px;
 }
-
+.dashed {
+    border-style: dashed;
+}
 .label {
     font-size: .5em;
     min-height:.5em;
@@ -417,9 +438,9 @@ div.action-label {
 }
 #ac-grid {
     display: grid;
-    grid-template-columns: 1fr 1.2fr 1fr repeat(4, .9fr);
+    grid-template-columns: 1fr 1.2fr repeat(6, .9fr);
     grid-template-rows: 1fr;
-    column-gap: 5px;
+    column-gap: 3px;
     align-items: start;
     justify-items: center;
 }

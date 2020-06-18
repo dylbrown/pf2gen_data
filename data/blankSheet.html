@@ -112,12 +112,15 @@
         </div>
         <div class="sectionLabel">Armor Class</div>
         <div id="ac-grid">
-            <div class="center-right rollLabel">AC</div>
+            <div class="top-right rollLabel" style="height: 1.5em">AC</div>
             <div class="line">
                 <div class="underlined"></div>
                 <div class="label">Total</div>
             </div>
-            <div class="center">10 +</div>
+            <div class="line">
+                <div class="center">10</div>
+                <div class="box-label">Base</div>
+            </div>
             <div class="line">
                 <div class="numBox rounded"></div>
                 <div class="box-label">DEX</div>
@@ -131,8 +134,12 @@
                 <div class="box-label">Item</div>
             </div>
             <div class="line">
-                <div class="numBox"></div>
+                <div class="numBox dashed"></div>
                 <div class="box-label">Temp</div>
+            </div>
+            <div class="line">
+                <div class="numBox" style="border-radius: 40%">+2</div>
+                <div class="box-label">Shield</div>
             </div>
         </div>
         <div class="sectionDivider">
@@ -140,7 +147,7 @@
         </div>
         <div class="sectionLabel">Senses + Saves</div>
         <div id="rolls-grid">
-            <div class="center-right rollLabel">PERCEPTION</div>
+            <div class="top-right rollLabel">PERCEPTION</div>
             <div class="line">
                 <div class="underlined"></div>
                 <div class="label">Mod</div>
@@ -158,14 +165,14 @@
                 <div class="label">Item</div>
             </div>
             <div class="line">
-                <div class="numBox"></div>
+                <div class="numBox dashed"></div>
                 <div class="label">Temp</div>
             </div>
             <div style="grid-column-end: span 6; justify-self: stretch; align-items: flex-end" class="row">
                 <div class="label">Senses</div>
                 <div class="underlined"></div>
             </div>
-            <div class="center-right rollLabel">FORTITUDE</div>
+            <div class="top-right rollLabel">FORTITUDE</div>
             <div class="line">
                 <div class="underlined"></div>
                 <div class="label">Mod</div>
@@ -183,10 +190,10 @@
                 <div class="label">Item</div>
             </div>
             <div class="line">
-                <div class="numBox"></div>
+                <div class="numBox dashed"></div>
                 <div class="label">Temp</div>
             </div>
-            <div class="center-right rollLabel">REFLEX</div>
+            <div class="top-right rollLabel">REFLEX</div>
             <div class="line">
                 <div class="underlined"></div>
                 <div class="label">Mod</div>
@@ -204,10 +211,10 @@
                 <div class="label">Item</div>
             </div>
             <div class="line">
-                <div class="numBox"></div>
+                <div class="numBox dashed"></div>
                 <div class="label">Temp</div>
             </div>
-            <div class="center-right rollLabel">WILL</div>
+            <div class="top-right rollLabel">WILL</div>
             <div class="line">
                 <div class="underlined"></div>
                 <div class="label">Mod</div>
@@ -225,7 +232,7 @@
                 <div class="label">Item</div>
             </div>
             <div class="line">
-                <div class="numBox"></div>
+                <div class="numBox dashed"></div>
                 <div class="label">Temp</div>
             </div>
         </div>
@@ -1620,12 +1627,21 @@
 </body>
 
 <script>
+    window.matchMedia("print").addListener(function () {
+        $(".abilities-flex:not(:first)").remove();
+        $(".separator:not(:first)").remove();
+        $(".abilities-flex").first().empty();
+        $(".abilities-flex").first().append(oldTableCopy.clone());
+        fixRows();
+    });
+
     let inventoryGrid = $("#inventory-grid");
     for(let i = 0; i < 10; i++) {
         inventoryGrid.append($("<div></div><div></div><div></div>"));
         if(inventoryGrid.children().last().position().top <= inventoryGrid.position().top) {
             for(let j = 0; j < 3; j++)
                 inventoryGrid.children().last().remove();
+            break;
         }
     }
     function moveLeft() {
@@ -1668,53 +1684,56 @@
             text.parent().css("border-bottom", "none");
         return contents.substring(start);
     }
-
-    let firstPage = $(".abilities-flex").first();
-    let currPage = firstPage; let numPages = 1;
-    let currentTop = 0;
-    let currentLeft = "4px"; let currentLeftIndex = 0;
-    let totalHeight = firstPage.outerHeight(true);
-    firstPage.children().each(function(index) {
-        // Move to a new line if it's the inventory or spells
-        if($(this).attr("id") === "inventory-grid"
-            || $(this).attr("id") === "spells-prepared"
-            || $(this).attr("id") === "spells-spontaneous") {
-            moveLeft();
-            currentTop = 0;
-        }
-        // Completely move to next if only small space left
-        let descTop = $(this).find(".ability-description");
-        let infoHeight = 0;
-        if(descTop.length > 0) {
-            descTop = descTop.first();
-            infoHeight = descTop.position().top;
-            if(currentTop + infoHeight >= totalHeight) {
-                currentTop = 0;
+    var oldTableCopy = $(".abilities-flex").first().children().clone();
+    fixRows();
+    function fixRows() {
+        firstPage = $(".abilities-flex").first();
+        currPage = firstPage; numPages = 1;
+        currentTop = 0;
+        currentLeft = "4px"; currentLeftIndex = 0;
+        totalHeight = firstPage.outerHeight(true);
+        firstPage.children().each(function(index) {
+            // Move to a new line if it's the inventory or spells
+            if($(this).attr("id") === "inventory-grid"
+                || $(this).attr("id") === "spells-prepared"
+                || $(this).attr("id") === "spells-spontaneous") {
                 moveLeft();
+                currentTop = 0;
             }
-        }
-        // Place the element
-        $(this).css("left", currentLeft);
-        $(this).css("top", currentTop);
-        if(currPage !== firstPage)
-            $(this).appendTo(currPage);
-        currentTop += $(this).outerHeight(true);
+            // Completely move to next if only small space left
+            let descTop = $(this).find(".ability-description");
+            let infoHeight = 0;
+            if(descTop.length > 0) {
+                descTop = descTop.first();
+                infoHeight = descTop.position().top;
+                if(currentTop + infoHeight >= totalHeight) {
+                    currentTop = 0;
+                    moveLeft();
+                }
+            }
+            // Place the element
+            $(this).css("left", currentLeft);
+            $(this).css("top", currentTop);
+            if(currPage !== firstPage)
+                $(this).appendTo(currPage);
+            currentTop += $(this).outerHeight(true);
 
-        // If overflows at all, clone remainder to next
-        if(currentTop >= totalHeight) {
-            currentTop -= totalHeight;
-            moveLeft();
-            let clone = $(this).clone();
-            clone.css("left", currentLeft);
-            clone.css("top", 0);
-            clone.children().last().html(binaryHeightSearch(descTop, totalHeight - $(this).position().top));
-            clone.children(":not(:last-child)").remove();
-            clone.appendTo(currPage);
-            currentTop = clone.outerHeight(true);
+            // If overflows at all, clone remainder to next
+            if(currentTop >= totalHeight) {
+                currentTop -= totalHeight;
+                moveLeft();
+                let clone = $(this).clone();
+                clone.css("left", currentLeft);
+                clone.css("top", 0);
+                clone.children().last().html(binaryHeightSearch(descTop, totalHeight - $(this).position().top));
+                clone.children(":not(:last-child)").remove();
+                clone.appendTo(currPage);
+                currentTop = clone.outerHeight(true);
+            }
+        });
+        for(let i = 1; i <= numPages; i++) {
+            $(".separator").last().after($("<div class='separator' style='top: calc("+i+"00vh - 3px)'></div>"));
         }
-    });
-    for(let i = 1; i <= numPages; i++) {
-        $(".separator").last().after($("<div class='separator' style='top: calc("+i+"00vh - 3px)'></div>"));
     }
 </script>
 </html>

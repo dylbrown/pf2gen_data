@@ -11,7 +11,7 @@
 		<AbilitySlot state="filled" name="Initial Proficiencies">
 			<Ability>
 				<AttributeMods Proficiency="Trained">
-                    Acrobatics or Athletics, Will, Advanced Weapons, Light Armor, Medium Armor, Heavy Armor, Unarmored, Shields
+                    Acrobatics or Athletics, Will, Advanced Weapons, Light Armor, Medium Armor, Heavy Armor, Unarmored, Shields, Class DC
 				</AttributeMods>
 				<AttributeMods Proficiency="Expert">
                     Fortitude, Reflex, Perception, Simple Weapons, Martial Weapons, Unarmed
