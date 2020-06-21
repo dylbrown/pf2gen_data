@@ -96,7 +96,7 @@
                 <hr>
             </div>
             <div class="sectionLabel">Health</div>
-            <div class="row-between" style="flex-grow: 5">
+            <div class="row-between" style="flex-grow: 1.5">
                 <div class="line" style="flex-grow: 0">
                     <div class="numBox rounded">${character.hp}</div>
                     <div class="label">Max</div>
@@ -449,6 +449,18 @@
                     [/#if]
                 [/#list]
             </div>
+            [#if character.spells.focusPointCount > 0]
+            <div id="focus">
+                <div class="line">
+                    <div class="numBox rounded"></div>
+                    <div class="label">Focus</div>
+                </div>
+                <div class="line">
+                    <div class="numBox rounded">${character.spells.focusPointCount}</div>
+                    <div class="label">Max Focus</div>
+                </div>
+            </div>
+            [/#if]
         </div>
     </div>
     <div id="rightThird">
@@ -624,34 +636,45 @@
         [/#if]
         [#list character.spells.spellsKnown as levelSpells]
             [#list levelSpells as spell]
-                <div class="spell-box">
-                    <div class="spell-attrs">
-                        <div class="spell-title">
-                            ${spell.name}
-                        </div>
-                        <div class="spell-cost">
-                            <div class="[#if spell.cast?seq_contains('Verbal')]spell-cost-yes[#else]spell-cost-no[/#if]">V</div>
-                            <div class="[#if spell.cast?seq_contains('Somatic')]spell-cost-yes[#else]spell-cost-no[/#if]">S</div>
-                            <div class="[#if spell.cast?seq_contains('Material')]spell-cost-yes[#else]spell-cost-no[/#if]">M</div>
-                        </div>
-                        [@linePart label="Casting Time" content=spell.castTime /]
-                        [@linePart label="Source" content=spell.source /]
-                        [@linePart label="Traits" content=spell.traits?join(", ") /]
-                        [@linePart label="Requirements" content=spell.requirements /]
-                        [@linePart label="Range" content=spell.range /]
-                        [@linePart label="Area" content=spell.area /]
-                        [@linePart label="Targets" content=spell.targets /]
-                        [@linePart label="Duration" content=spell.duration /]
-                        [@linePart label="Save" content=spell.save /]
-                    </div>
-                    <div class="ability-description">
-                        ${spell.description}
-                    </div>
-                </div>
+                [@spellBlock spell=spell /]
             [/#list]
         [/#list]
+        [#if character.spells.focusPointCount > 0]
+        <div style="position: absolute; width: calc(100% / 3 - 8px)">
+            <div class="spells-title col-section-title">Focus Spells</div>
+        </div>
+            [#list character.spells.focusSpells as spell]
+                [@spellBlock spell=spell /]
+            [/#list]
+        [/#if]
     </div>
 </div>
+[#macro spellBlock spell]
+    <div class="spell-box">
+        <div class="spell-attrs">
+            <div class="spell-title">
+                ${spell.name}
+            </div>
+            <div class="spell-cost">
+                <div class="[#if spell.cast?seq_contains('Verbal')]spell-cost-yes[#else]spell-cost-no[/#if]">V</div>
+                <div class="[#if spell.cast?seq_contains('Somatic')]spell-cost-yes[#else]spell-cost-no[/#if]">S</div>
+                <div class="[#if spell.cast?seq_contains('Material')]spell-cost-yes[#else]spell-cost-no[/#if]">M</div>
+            </div>
+            [@linePart label="Casting Time" content=spell.castTime /]
+            [@linePart label="Source" content=spell.source /]
+            [@linePart label="Traits" content=spell.traits?join(", ") /]
+            [@linePart label="Requirements" content=spell.requirements /]
+            [@linePart label="Range" content=spell.range /]
+            [@linePart label="Area" content=spell.area /]
+            [@linePart label="Targets" content=spell.targets /]
+            [@linePart label="Duration" content=spell.duration /]
+            [@linePart label="Save" content=spell.save /]
+        </div>
+        <div class="ability-description">
+            ${spell.description}
+        </div>
+    </div>
+[/#macro]
 <div class="separator" style="top: -3px"></div>
 <div class="height_measure"></div>
 </body>

@@ -469,6 +469,15 @@ div.action-label {
     justify-items: center;
     flex-grow: 0;
 }
+#focus {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.2em;
+    background-color: white;
+}
 #skills-grid {
     display: grid;
     grid-template-columns: 2fr 1.3fr .7fr 1fr 1fr;
