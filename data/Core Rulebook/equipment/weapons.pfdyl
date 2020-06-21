@@ -206,6 +206,14 @@
 				<Group>Brawling</Group>
 				<Traits>Agile, Finesse, Nonlethal, Unarmed</Traits>
 			</Weapon>
+			<Weapon>
+				<Name>Claw</Name>
+				<Price>0 sp</Price>
+				<Damage>1d4 S</Damage>
+				<Hands>1</Hands>
+				<Group>Brawling</Group>
+				<Traits>Agile, Finesse, Nonlethal, Unarmed</Traits>
+			</Weapon>
 		</Unarmed>
 		<Simple>
 			<Weapon>

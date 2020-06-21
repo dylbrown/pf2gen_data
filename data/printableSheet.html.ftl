@@ -528,12 +528,18 @@
                 <div>${item.stats.prettyWeight}</div>
             [/#list]
         </div>
-        [#if character.casterType == "Prepared"]
+        [#if character.spells.casterType == "Prepared"]
             <div id="spells-prepared">
                 <div class="spells-title col-section-title">Spells</div>
+                <div class="spells-stats">
+                    <div class="rollLabel">Spell Attack</div>
+                    <div class="numBox rounded">${(10 + character.attributes[character.spells.spellAttacksAttribute?lower_case].total)?string.@s}</div>
+                    <div class="rollLabel">Spell DC</div>
+                    <div class="numBox rounded">${(10 + character.attributes[character.spells.spellDCsAttribute?lower_case].total)?string}</div>
+                </div>
                 <div class="col-section-label" style="border-left: 1px solid black">Spell Name</div>
                 <div class="col-section-label col-center" style="border-right: 1px solid black">Slots</div>
-                [#list character.spellsKnown as levelSpells]
+                [#list character.spells.spellsKnown as levelSpells]
                     [#if levelSpells?size > 0]
                             [#assign level=levelSpells?index]
                         <div class="spells-level">
@@ -549,7 +555,7 @@
                         </div>
                         <div class="spells-level">
                             <div class="spells-line"></div>
-                            <div class="spells-level-label">${character.spellSlots[level]}</div>
+                            <div class="spells-level-label">${character.spells.spellSlots[level]}</div>
                             <div class="spells-line"></div>
                         </div>
                         [#list levelSpells as spell]
@@ -558,7 +564,7 @@
                                 [#if level == 0]
                                     <div class="spells-slot"></div>
                                 [#else]
-                                    [#assign slots=character.spellSlots[level]]
+                                    [#assign slots=character.spells.spellSlots[level]]
                                     [#list 1..((slots < 3)?then(slots, 3)) as i]
                                         <div class="spells-slot"></div>
                                     [/#list]
@@ -568,11 +574,17 @@
                     [/#if]
                 [/#list]
             </div>
-        [#elseif character.casterType == "Spontaneous"]
+        [#elseif character.spells.casterType == "Spontaneous"]
             <div id="spells-spontaneous">
                 <div class="spells-title col-section-title">Spells</div>
+                <div class="spells-stats">
+                    <div class="rollLabel">Spell Attack</div>
+                    <div class="numBox rounded">${character.attributes[character.spells.spellAttacksAttribute?lower_case].total?string.@s}</div>
+                    <div class="rollLabel">Spell DC</div>
+                    <div class="numBox rounded">${(10 + character.attributes[character.spells.spellDCsAttribute?lower_case].total)?string}</div>
+                </div>
                 <div id="spells-spontaneous-grid">
-                    [#list character.spellsKnown as levelSpells]
+                    [#list character.spells.spellsKnown as levelSpells]
                         [#if levelSpells?size > 0]
                             [#assign level=levelSpells?index]
                             [#if level == 0]
@@ -589,7 +601,7 @@
                                 </div>
                                 <div class="spells-level">
                                     <div class="spells-line"></div>
-                                    [#list 1..character.spellSlots[level] as i]
+                                    [#list 1..character.spells.spellSlots[level] as i]
                                         <div class="spells-slot"></div>
                                     [/#list]
                                     <div class="spells-line"></div>
@@ -610,7 +622,7 @@
                 </div>
             </div>
         [/#if]
-        [#list character.spellsKnown as levelSpells]
+        [#list character.spells.spellsKnown as levelSpells]
             [#list levelSpells as spell]
                 <div class="spell-box">
                     <div class="spell-attrs">
@@ -618,9 +630,9 @@
                             ${spell.name}
                         </div>
                         <div class="spell-cost">
-                            <div class="[#if spell.cast?seq_contains("Verbal")]spell-cost-yes[#else]spell-cost-no[/#if]">V</div>
-                            <div class="[#if spell.cast?seq_contains("Somatic")]spell-cost-yes[#else]spell-cost-no[/#if]">S</div>
-                            <div class="[#if spell.cast?seq_contains("Material")]spell-cost-yes[#else]spell-cost-no[/#if]">M</div>
+                            <div class="[#if spell.cast?seq_contains('Verbal')]spell-cost-yes[#else]spell-cost-no[/#if]">V</div>
+                            <div class="[#if spell.cast?seq_contains('Somatic')]spell-cost-yes[#else]spell-cost-no[/#if]">S</div>
+                            <div class="[#if spell.cast?seq_contains('Material')]spell-cost-yes[#else]spell-cost-no[/#if]">M</div>
                         </div>
                         [@linePart label="Casting Time" content=spell.castTime /]
                         [@linePart label="Source" content=spell.source /]
@@ -654,7 +666,7 @@
     });
 
     let inventoryGrid = $("#inventory-grid");
-    for(let i = 0; i < 10; i++) {
+    for(let i = 0; i < 7; i++) {
         inventoryGrid.append($("<div></div><div></div><div></div>"));
         if(inventoryGrid.children().last().position().top <= inventoryGrid.position().top) {
             for(let j = 0; j < 3; j++)
@@ -714,7 +726,8 @@
             // Move to a new line if it's the inventory or spells
             if($(this).attr("id") === "inventory-grid"
                 || $(this).attr("id") === "spells-prepared"
-                || $(this).attr("id") === "spells-spontaneous") {
+                || $(this).attr("id") === "spells-spontaneous"
+                && (totalHeight - currentTop) <= $(this).outerHeight(true)) {
                 moveLeft();
                 currentTop = 0;
             }

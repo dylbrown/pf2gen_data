@@ -83,7 +83,7 @@
         <FollowerAlignments>CG, N, CN</FollowerAlignments>
         <DivineFont>heal</DivineFont>
         <DivineSkill>Deception</DivineSkill>
-        <FavoredWeapon>longspear</FavoredWeapon>
+        <FavoredWeapon>claw</FavoredWeapon>
         <Domains>nature, passion, protection, trickery</Domains>
         <Spells>
             <Spell level="1" name="pest form" />
