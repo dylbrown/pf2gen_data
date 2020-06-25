@@ -640,11 +640,11 @@
             [/#list]
         [/#list]
         [#if character.spells.focusPointCount > 0]
-            <div style="position: absolute; width: calc(100% / 3 - 8px)">
+            <div style="position: absolute; width: calc(100% / 3 - 8px)" class="do-not-break">
                 <div class="spells-title col-section-title">Focus Spells</div>
             </div>
             [#if character.spells.casterType == "None"]
-                <div id="focus-rolls">
+                <div id="focus-rolls" class="do-not-break">
                     <div class="spells-stats">
                         <div class="rollLabel">Spell Attack</div>
                         <div class="numBox rounded">${character.attributes[character.spells.spellAttacksAttribute?lower_case].total?string.@s}</div>
@@ -756,15 +756,14 @@
         currentLeft = "4px"; currentLeftIndex = 0;
         totalHeight = firstPage.outerHeight(true);
         firstPage.children().each(function(index) {
-            // Move to a new line if it's the inventory or spells and would overflow
-            if($(this).attr("id") === "inventory-grid"
+            // Move to a new line if it would overflow and we don't want it to
+            if(($(this).attr("id") === "inventory-grid"
                 || $(this).attr("id") === "spells-prepared"
                 || $(this).attr("id") === "spells-spontaneous"
+                || $(this).hasClass("do-not-break"))
                 && (totalHeight - currentTop) <= $(this).outerHeight(true)) {
-                if(currentTop + $(this).outerHeight(true) >= totalHeight) {
-                    moveLeft();
-                    currentTop = 0;
-                }
+                moveLeft();
+                currentTop = 0;
             }
             // Completely move to next if only small space left
             let descTop = $(this).find(".ability-description");
