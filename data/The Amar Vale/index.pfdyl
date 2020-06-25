@@ -4,5 +4,6 @@
     <ShortName>TAV</ShortName>
     <Setting>
         <Category name="Deities" path="setting/deities.pfdyl" />
+        <Category name="Domains" path="setting/domains.pfdyl" />
     </Setting>
 </Source>

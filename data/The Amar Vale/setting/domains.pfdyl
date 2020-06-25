@@ -1,0 +1,46 @@
+<pf2:domains xmlns:pf2="https://dylbrown.github.io"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/domain.xsd">
+    <Domain page="112">
+        <Name>Change</Name>
+        <DomainSpell>Adapt Self</DomainSpell>
+        <AdvancedDomainSpell>Adaptive Ablation</AdvancedDomainSpell>
+        <Description>You can restructure the physical and metaphysical.</Description>
+    </Domain>
+    <Domain page="114">
+        <Name>Glyph</Name>
+        <DomainSpell>Redact</DomainSpell>
+        <AdvancedDomainSpell>Ghostly Transcription</AdvancedDomainSpell>
+        <Description>You wield power over written words and symbols.</Description>
+    </Domain>
+    <Domain page="117">
+        <Name>Soul</Name>
+        <DomainSpell>Eject Soul</DomainSpell>
+        <AdvancedDomainSpell>Ectoplasmic Interstice</AdvancedDomainSpell>
+        <Description>You wield power over the spiritual.</Description>
+    </Domain>
+    <Domain page="117">
+        <Name>Star</Name>
+        <DomainSpell>Zenith Star</DomainSpell>
+        <AdvancedDomainSpell>Asterism</AdvancedDomainSpell>
+        <Description>You command the power of the stars.</Description>
+    </Domain>
+    <Domain page="118">
+        <Name>Time</Name>
+        <DomainSpell>Delay Consequence</DomainSpell>
+        <AdvancedDomainSpell>Stasis</AdvancedDomainSpell>
+        <Description>You reign over the flow of time.</Description>
+    </Domain>
+    <Domain page="118">
+        <Name>Vigil</Name>
+        <DomainSpell>Object Memory</DomainSpell>
+        <AdvancedDomainSpell>Remember the Lost</AdvancedDomainSpell>
+        <Description>You watch over those long passed and guard their secrets.</Description>
+    </Domain>
+    <Domain page="119">
+        <Name>Wyrmkin</Name>
+        <DomainSpell>Draconic Barrage</DomainSpell>
+        <AdvancedDomainSpell>Roar of the Wyrm</AdvancedDomainSpell>
+        <Description>You draw on the power of dragons, linnorms, and other powerful reptilian creatures.</Description>
+    </Domain>
+</pf2:domains>

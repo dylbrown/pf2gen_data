@@ -640,9 +640,19 @@
             [/#list]
         [/#list]
         [#if character.spells.focusPointCount > 0]
-        <div style="position: absolute; width: calc(100% / 3 - 8px)">
-            <div class="spells-title col-section-title">Focus Spells</div>
-        </div>
+            <div style="position: absolute; width: calc(100% / 3 - 8px)">
+                <div class="spells-title col-section-title">Focus Spells</div>
+            </div>
+            [#if character.spells.casterType == "None"]
+                <div id="focus-rolls">
+                    <div class="spells-stats">
+                        <div class="rollLabel">Spell Attack</div>
+                        <div class="numBox rounded">${character.attributes[character.spells.spellAttacksAttribute?lower_case].total?string.@s}</div>
+                        <div class="rollLabel">Spell DC</div>
+                        <div class="numBox rounded">${(10 + character.attributes[character.spells.spellDCsAttribute?lower_case].total)?string}</div>
+                    </div>
+                </div>
+            [/#if]
             [#list character.spells.focusSpells as spell]
                 [@spellBlock spell=spell /]
             [/#list]
@@ -746,13 +756,15 @@
         currentLeft = "4px"; currentLeftIndex = 0;
         totalHeight = firstPage.outerHeight(true);
         firstPage.children().each(function(index) {
-            // Move to a new line if it's the inventory or spells
+            // Move to a new line if it's the inventory or spells and would overflow
             if($(this).attr("id") === "inventory-grid"
                 || $(this).attr("id") === "spells-prepared"
                 || $(this).attr("id") === "spells-spontaneous"
                 && (totalHeight - currentTop) <= $(this).outerHeight(true)) {
-                moveLeft();
-                currentTop = 0;
+                if(currentTop + $(this).outerHeight(true) >= totalHeight) {
+                    moveLeft();
+                    currentTop = 0;
+                }
             }
             // Completely move to next if only small space left
             let descTop = $(this).find(".ability-description");

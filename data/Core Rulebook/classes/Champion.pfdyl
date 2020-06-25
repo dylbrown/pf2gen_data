@@ -18,7 +18,7 @@
 				</AttributeMods>
 			</Ability>
 		</AbilitySlot>
-		<AbilitySlot state="feat" type="Class Feat" name="Paladin Feat"/>
+		<AbilitySlot state="feat" type="Class Feat" name="Champion Feat"/>
 		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
 		<AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
 		<AbilitySlot state="filled" type="General Feat" name="Shield Block (Champion)" contents="Shield Block"/>
@@ -28,6 +28,11 @@
                     Your deity’s power grants you special divine spells called devotion spells, which are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you regain 1 Focus Point by spending 10 minutes using the Refocus activity to pray to your deity or do service toward their causes.
 					Focus spells are automatically heightened to half your level rounded up. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules are on page 300. You gain a devotion spell depending on your cause, and you are trained in divine spell attack rolls and spell DCs. Your spellcasting ability is Charisma.
 				</Description>
+				<Spellcasting tradition="Divine" type="FocusOnly"/>
+				<SpellcastingAbility>Cha</SpellcastingAbility>
+				<AttributeMods Proficiency="Trained">
+					Divine Spell Attacks, Divine Spell DCs
+				</AttributeMods>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Deific Weapon">
@@ -55,6 +60,9 @@
 				<Description>
                     You’re honorable, forthright, and committed to pushing back the forces of cruelty. You gain the Retributive Strike champion’s reaction and the lay on hands devotion spell.
 				</Description>
+				<Ability name="Devotion Spell (Lay On Hands)">
+					<Spell type="Focus" name="Lay On Hands"/>
+				</Ability>
 				<Ability name="Champion's Code">
 					<Description>
                         1. You must never perform acts anathema to your deity or willingly commit an evil act, such as murder, torture, or the casting of an evil spell.
@@ -73,6 +81,9 @@
 				<Description>
                     You’re full of kindness and forgiveness. You gain the Glimpse of Redemption champion’s reaction and the lay on hands devotion spell
 				</Description>
+				<Ability name="Devotion Spell (Lay On Hands)">
+					<Spell type="Focus" name="Lay On Hands"/>
+				</Ability>
 				<Ability name="Champion's Code">
 					<Description>
                         1. You must never perform acts anathema to your deity or willingly commit an evil act, such as murder, torture, or the casting of an evil spell.
@@ -93,6 +104,9 @@
 				<Description>
                     You’re committed to defending the freedom of others. You gain the Liberating Step champion’s reaction and the lay on hands devotion spell
 				</Description>
+				<Ability name="Devotion Spell (Lay On Hands)">
+					<Spell type="Focus" name="Lay On Hands"/>
+				</Ability>
 				<Ability name="Champion's Code">
 					<Description>
                         1. You must never perform acts anathema to your deity or willingly commit an evil act, such as murder, torture, or the casting of an evil spell.
@@ -108,19 +122,16 @@
 				</Ability>
 			</AbilitySet>
 		</AbilitySlot>
-		<!--deity and cause, paladin's reaction.-->
 	</FeatureList>
 	<FeatureList level="2">
-		<AbilitySlot state="feat" type="Class Feat" name="Paladin Feat" />
+		<AbilitySlot state="feat" type="Class Feat" name="Champion Feat" />
 		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
 	</FeatureList>
 	<FeatureList level="3">
 		<AbilitySlot state="choice" name="Divine Ally">
 			<Description>Your devotion attracts a spirit of your deity’s alignment.
 
-Once you choose an ally, your choice can’t be changed.
-
-The following are divine allies:</Description>
+Once you choose an ally, your choice can’t be changed.</Description>
 			<Ability name="Blade Ally">
 				<Description>A spirit of battle dwells within your weapon. Select one weapon when you make your daily preparations. In your hands, the weapon gains the effect of a property Rune. For a champion following the tenets of good, choose disrupting, ghost touch, returning, or shifting. You also gain the weapon’s critical specialization effect.</Description>
 			</Ability>
@@ -137,7 +148,7 @@ The following are divine allies:</Description>
 		</AbilitySlot>
 	</FeatureList>
 	<FeatureList level="4">
-		<AbilitySlot state="feat" type="Class Feat" name="Paladin Feat" />
+		<AbilitySlot state="feat" type="Class Feat" name="Champion Feat" />
 		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
 	</FeatureList>
 	<FeatureList level="5">
@@ -343,6 +354,10 @@ Liberator: You can help your whole group get into position. When you use Liberat
 		<Ability name="Deity’s Domain" level="1">
 			<Traits>Champion</Traits>
 			<Description>You embody an aspect of your deity. Choose one of your deity’s domains from those listed. You gain the domain’s initial domain spell as a devotion spell.</Description>
+			<CustomMod>
+				def handler = {domain -> spell(domain.getDomainSpell())}
+				choose("DeityDomain", "Deity's Domain Choice", handler, null, 1);
+			</CustomMod>
 		</Ability>
 		<Ability name="Ranged Reprisal" level="1">
 			<Traits>Champion</Traits>
@@ -396,7 +411,7 @@ Liberator: You can help your whole group get into position. When you use Liberat
 		</Ability>
 		<Ability name="Mercy" level="4" cost="One">
 			<Traits>Champion, Concentrate, Metamagic</Traits>
-			<Prerequisites>Devotion Spell (lay On Hands)</Prerequisites>
+			<Prerequisites>Devotion Spell (Lay On Hands)</Prerequisites>
 			<Description>Your touch relieves fear and restores movement. If the next action you use is to cast lay on hands, you can attempt to counteract a fear effect or an effect imposing the paralyzed condition on the target, in addition to the other benefits of lay on hands.</Description>
 		</Ability>
 		<Ability name="Attack Of Opportunity" level="6" cost="Reaction">
