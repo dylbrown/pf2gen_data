@@ -217,7 +217,20 @@
         <AbilitySlot state="filled" name="Weapon Specialization">
             <Ability>
                 <Description>You’ve learned to inflict grave wounds with your practiced weapons. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master, and 4 if you’re legendary.</Description>
-                <!--TODO: Weapon Specialization-->
+                <CustomMod>
+                    def weaponSpecialization = {weapon, damage ->
+                    def proficiency = get("Attributes").getProficiency(weapon.getProficiency(), weapon);
+                    if (proficiency.toString() == "Legendary") {
+                    return damage.add(4);
+                    } else if (proficiency.toString() == "Master") {
+                    return damage.add(3);
+                    } else if (proficiency.toString() == "Expert") {
+                    return damage.add(2);
+                    }
+                    return damage;
+                    }
+                    damageModifier("Weapon Specialization", weaponSpecialization)
+                </CustomMod>
             </Ability>
         </AbilitySlot>
     </FeatureList>

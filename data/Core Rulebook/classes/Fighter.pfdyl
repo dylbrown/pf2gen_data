@@ -83,6 +83,20 @@
 		<AbilitySlot state="filled" name="Weapon Specialization">
 			<Ability>
 				<Description>You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master, and to 4 if you’re legendary.</Description>
+				<CustomMod>
+					def weaponSpecialization = {weapon, damage ->
+					def proficiency = get("Attributes").getProficiency(weapon.getProficiency(), weapon);
+					if (proficiency.toString() == "Legendary") {
+					return damage.add(4);
+					} else if (proficiency.toString() == "Master") {
+					return damage.add(3);
+					} else if (proficiency.toString() == "Expert") {
+					return damage.add(2);
+					}
+					return damage;
+					}
+					damageModifier("Weapon Specialization", weaponSpecialization)
+				</CustomMod>
 			</Ability>
 		</AbilitySlot>
 	</FeatureList>
@@ -170,6 +184,20 @@ You can select one weapon group and increase your proficiency ranks to legendary
 		<AbilitySlot state="filled" name="Greater Weapon Specialization">
 			<Ability>
 				<Description>Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you’re an expert, 6 if you’re a master, and 8 if you’re legendary.</Description>
+				<CustomMod>
+					def weaponSpecialization = {weapon, damage ->
+					def proficiency = get("Attributes").getProficiency(weapon.getProficiency(), weapon);
+					if (proficiency.toString() == "Legendary") {
+					return damage.add(4);
+					} else if (proficiency.toString() == "Master") {
+					return damage.add(3);
+					} else if (proficiency.toString() == "Expert") {
+					return damage.add(2);
+					}
+					return damage;
+					}
+					damageModifier("Weapon Specialization", weaponSpecialization)
+				</CustomMod>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Improved Flexibility">
