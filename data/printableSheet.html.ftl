@@ -545,7 +545,7 @@
                 <div class="spells-title col-section-title">Spells</div>
                 <div class="spells-stats">
                     <div class="rollLabel">Spell Attack</div>
-                    <div class="numBox rounded">${(10 + character.attributes[character.spells.spellAttacksAttribute?lower_case].total)?string.@s}</div>
+                    <div class="numBox rounded">${character.attributes[character.spells.spellAttacksAttribute?lower_case].total?string.@s}</div>
                     <div class="rollLabel">Spell DC</div>
                     <div class="numBox rounded">${(10 + character.attributes[character.spells.spellDCsAttribute?lower_case].total)?string}</div>
                 </div>

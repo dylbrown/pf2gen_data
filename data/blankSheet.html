@@ -1654,11 +1654,12 @@
         $(".separator:not(:first)").remove();
         $(".abilities-flex").first().empty();
         $(".abilities-flex").first().append(oldTableCopy.clone());
+        $(".page").slice(2).remove();
         fixRows();
     });
 
     let inventoryGrid = $("#inventory-grid");
-    for(let i = 0; i < 10; i++) {
+    for(let i = 0; i < 7; i++) {
         inventoryGrid.append($("<div></div><div></div><div></div>"));
         if(inventoryGrid.children().last().position().top <= inventoryGrid.position().top) {
             for(let j = 0; j < 3; j++)
@@ -1680,7 +1681,7 @@
                 currentLeft = "4px";
                 let futurePage = $("<div class='page'><div class='printBorder'></div><div class='abilities-flex'></div></div>")
                     .insertAfter(currPage.parent());
-                futurePage.css("top", "calc("+currPage.parent().css("top")+" + 100vh)");
+                futurePage.css("top", "calc("+currPage.parent().css("top")+" + "+$(".height_measure").css("height")+")");
                 currPage = futurePage.children(".abilities-flex");
                 numPages += 1;
                 break;
@@ -1715,10 +1716,12 @@
         currentLeft = "4px"; currentLeftIndex = 0;
         totalHeight = firstPage.outerHeight(true);
         firstPage.children().each(function(index) {
-            // Move to a new line if it's the inventory or spells
-            if($(this).attr("id") === "inventory-grid"
+            // Move to a new line if it would overflow and we don't want it to
+            if(($(this).attr("id") === "inventory-grid"
                 || $(this).attr("id") === "spells-prepared"
-                || $(this).attr("id") === "spells-spontaneous") {
+                || $(this).attr("id") === "spells-spontaneous"
+                || $(this).hasClass("do-not-break"))
+                && (totalHeight - currentTop) <= $(this).outerHeight(true)) {
                 moveLeft();
                 currentTop = 0;
             }
