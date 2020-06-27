@@ -25,6 +25,8 @@
                 <Description>As a cleric, you are a mortal servitor of a deity you revere above all others. The most common deities in Pathfinder appear on pages 437–440, along with their alignments, areas of concern, and the benefits you get for being a cleric of that deity. Your alignment must be one allowed by your deity, as listed in their entry. Your deity grants you the trained proficiency rank in one skill and with the deity's favored weapon. If the favored weapon is uncommon, you also get access to that weapon. Your deity also adds spells to your spell list. You can prepare these just like you can any spell on the divine spell list, once you can prepare spells of their level as a cleric. Some of these spells aren't normally on the divine list, but they're divine spells if you prepare them this way.</Description>
                 <CustomMod>
                     weaponProficiency("{Deity.FavoredWeapon}", "Trained");
+                    def callback = {attr -> proficiency(attr, "Trained")}
+                    choose("divineskill", "Cleric Divine Skill Choice", callback, null, 1);
                 </CustomMod>
             </Ability>
         </AbilitySlot>

@@ -1,0 +1,42 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/class.xsd">
+    <!--Cleric-->
+    <Ability name="Cleric Dedication" level="2" page="224">
+        <Traits>Archetype, Dedication, Multiclass</Traits>
+        <Archetype>Cleric</Archetype>
+        <Requires>Wisdom 14</Requires>
+        <Description>You cast spells like a cleric. You gain access to the Cast a Spell activity. You can prepare two common cantrips each day from the divine spell list in this book or any other cantrips you learn or discover. You can prepare common cantrips of your spellcasting tradition, whether from this book or other cantrips of that tradition you learn or discover. You’re trained in spell attack rolls and spell DCs for divine spells. Your key spellcasting ability for cleric archetype spells is Wisdom, and they are divine cleric spells. Choose a deity as you would if you were a cleric. You become bound by that deity’s anathema. You become trained in Religion and your deity’s associated skill; for each of these skills in which you were already trained, you instead become trained in a skill of your choice. You don’t gain any other abilities from your choice of deity.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot select another dedication feat until you have gained two other feats from the cleric archetype.</Description>
+        <CustomMod>
+            def callback = {attr -> proficiency(attr, "Trained")}
+            choose("divineskill", "Cleric Divine Skill Choice", callback, null, 1);
+        </CustomMod>
+        <Spellcasting tradition="Divine" type="Prepared"/>
+        <SpellcastingAbility>Wisdom</SpellcastingAbility>
+        <SpellSlots count="2" level="0"/>
+        <AttributeMods Proficiency="Trained">Divine Spell Attacks, Divine Spell DCs, Religion</AttributeMods>
+    </Ability>
+    <Ability name="Basic Cleric Spellcasting" level="4" page="224">
+        <Traits>Archetype</Traits>
+        <Archetype>Cleric</Archetype>
+        <Prerequisites>Cleric Dedication</Prerequisites>
+        <Description>You’re fully immersed in another ancestry’s culture and traditions, whether born into them, earned through rite of passage, or bonded through a deep friendship or romance.Choose a common ancestry. You can select ancestry feats from the ancestry you chose, in addition to your character’s own ancestry, as long as the ancestry feats don’t require any physiological feature that you lack, as determined by the GM.</Description>
+        <CustomMod>
+            if(level >= 6) {
+                spellSlot(2, 1);
+            }
+            if(level >= 8) {
+            spellSlot(3, 1);
+            }
+        </CustomMod>
+        <SpellSlots count="1" level="1" />
+    </Ability>
+    <Ability name="Basic Dogma" level="4" page="224">
+        <Traits>Archetype</Traits>
+        <Archetype>Cleric</Archetype>
+        <Prerequisites>Cleric Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level cleric feat.</Description>
+        <AbilitySlot state="feat" name="Cleric Feat" type="Class Feat (Cleric)" level="2" />
+    </Ability>
+</pf2:feats>

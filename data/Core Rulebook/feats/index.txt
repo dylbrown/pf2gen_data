@@ -1,5 +1,0 @@
-arcaneSchool
-arcaneThesis
-bloodline
-general
-skill
