@@ -401,6 +401,7 @@ div.action-label {
 
 .inverted {
     background-color: black;
+    border: 1px solid black;
     color: white;
     padding: 3px;
     font-weight: bold;
@@ -411,6 +412,7 @@ div.action-label {
 }
 .rollLabel {
     background-color: black;
+    border: 1px solid black;
     color: white;
     padding: 6px;
     font-weight: bold;
@@ -543,6 +545,7 @@ div.action-label {
 }
 .ability-title, .spell-title {
     background-color: black;
+    border: 1px solid black;
     border-radius: 5px;
     color: white;
     font-weight: bolder;
@@ -587,7 +590,7 @@ div.action-label {
 div.col-section-title {
     font-size: 1.5em;
     text-align: center;
-    border: none;
+    border: 1px solid black;
     background-color: black;
     border-radius: 5px;
     color: white;
@@ -712,6 +715,7 @@ div.col-section-label {
 }
 .spells-level-label {
     background-color: black;
+    border: 1px solid black;
     color: white;
     padding: 2px 5px;
     border-radius: 5px;
@@ -725,6 +729,7 @@ div.col-section-label {
 }
 .spells-line, .spells-line-set {
     background-color: black;
+    border: 1px solid black;
     content: "";
     display: inline-block;
     height: 4px;
@@ -802,4 +807,7 @@ div.spells-name.right {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.spell-cost-no > span {
+    visibility: hidden;
 }

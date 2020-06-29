@@ -666,9 +666,9 @@
                 ${spell.name}
             </div>
             <div class="spell-cost">
-                <div class="[#if spell.cast?seq_contains('Verbal')]spell-cost-yes[#else]spell-cost-no[/#if]">V</div>
-                <div class="[#if spell.cast?seq_contains('Somatic')]spell-cost-yes[#else]spell-cost-no[/#if]">S</div>
-                <div class="[#if spell.cast?seq_contains('Material')]spell-cost-yes[#else]spell-cost-no[/#if]">M</div>
+                <div class="[#if spell.cast?seq_contains('Verbal')]spell-cost-yes[#else]spell-cost-no[/#if]"><span>V</span></div>
+                <div class="[#if spell.cast?seq_contains('Somatic')]spell-cost-yes[#else]spell-cost-no[/#if]"><span>S</span></div>
+                <div class="[#if spell.cast?seq_contains('Material')]spell-cost-yes[#else]spell-cost-no[/#if]"><span>M</span></div>
             </div>
             [@linePart label="Casting Time" content=spell.castTime /]
             [@linePart label="Source" content=spell.source /]

@@ -212,7 +212,7 @@
 				<Damage>1d4 S</Damage>
 				<Hands>1</Hands>
 				<Group>Brawling</Group>
-				<Traits>Agile, Finesse, Nonlethal, Unarmed</Traits>
+				<Traits>Agile, Finesse, Unarmed</Traits>
 			</Weapon>
 		</Unarmed>
 		<Simple>
