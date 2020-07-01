@@ -665,12 +665,43 @@
             <div class="spell-title">
                 ${spell.name}
             </div>
+            [#assign numBoxes = 0]
+            [#switch spell.castTime?lower_case]
+                [#case "one action"]
+                [#case "single action"]
+                    [#assign numBoxes = 1]
+                    [#break]
+                [#case "two actions"]
+                    [#assign numBoxes = 2]
+                    [#break]
+                [#case "three actions"]
+                    [#assign numBoxes = 3]
+                    [#break]
+            [/#switch]
+            [#if numBoxes &gt; 0]
             <div class="spell-cost">
-                <div class="[#if spell.cast?seq_contains('Verbal')]spell-cost-yes[#else]spell-cost-no[/#if]"><span>V</span></div>
-                <div class="[#if spell.cast?seq_contains('Somatic')]spell-cost-yes[#else]spell-cost-no[/#if]"><span>S</span></div>
-                <div class="[#if spell.cast?seq_contains('Material')]spell-cost-yes[#else]spell-cost-no[/#if]"><span>M</span></div>
+                <div class="[#if numBoxes &gt;= 1] spell-cost-yes[#else]spell-cost-no[/#if]">
+                    <span>♦</span>
+                </div>
+                <div class="[#if numBoxes &gt;= 2] spell-cost-yes[#else]spell-cost-no[/#if]">
+                    <span>♦</span>
+                </div>
+                <div class="[#if numBoxes &gt;= 3] spell-cost-yes[#else]spell-cost-no[/#if]">
+                    <span>♦</span>
+                </div>
             </div>
-            [@linePart label="Casting Time" content=spell.castTime /]
+            [#else]
+                [@linePart label="Cast Time" content=spell.castTime /]
+            [/#if]
+            [#assign components_string = ""]
+            [#list spell.components as component]
+                [#if component?is_last]
+                    [#assign components_string = components_string + component[0..*1]]
+                [#else]
+                    [#assign components_string = components_string + component[0..*1] + ","]
+                [/#if]
+            [/#list]
+            [@linePart label="Components" content=components_string /]
             [@linePart label="Source" content=spell.source /]
             [@linePart label="Traits" content=spell.traits?join(", ") /]
             [@linePart label="Requirements" content=spell.requirements /]
@@ -689,14 +720,16 @@
 <div class="height_measure"></div>
 </body>
 <script>
-    window.matchMedia("print").addListener(function () {
+    function refresh() {
         $(".abilities-flex:not(:first)").remove();
         $(".separator:not(:first)").remove();
         $(".abilities-flex").first().empty();
         $(".abilities-flex").first().append(oldTableCopy.clone());
         $(".page").slice(2).remove();
         fixRows();
-    });
+    }
+    window.matchMedia("print").addListener(refresh);
+    window.matchMedia("screen").addListener(refresh);
 
     let inventoryGrid = $("#inventory-grid");
     for(let i = 0; i < 7; i++) {
@@ -721,7 +754,9 @@
                 currentLeft = "4px";
                 let futurePage = $("<div class='page'><div class='printBorder'></div><div class='abilities-flex'></div></div>")
                     .insertAfter(currPage.parent());
-                futurePage.css("top", "calc("+currPage.parent().css("top")+" + "+$(".height_measure").css("height")+")");
+                let size = Math.floor(parseFloat(currPage.parent().css("top").replace("px", "")))
+                futurePage.css("top", "calc("+size+"px + "+$(".height_measure").css("height")+")");
+                console.log();
                 currPage = futurePage.children(".abilities-flex");
                 numPages += 1;
                 break;

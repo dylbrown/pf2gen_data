@@ -15,7 +15,7 @@ html {
     }
     @page {
         size: letter landscape;
-        margin: 1in;
+        margin: .4in;
     }
 
     @page:left{
@@ -793,7 +793,7 @@ div.spells-name.right {
     flex-grow: 0;
     width: 25%;
 }
-.spell-cost > div {
+.spell-cost div {
     color: white;
     height: 1.8em;
     width: 1.8em;
@@ -802,8 +802,9 @@ div.spells-name.right {
     flex-grow: 0;
     border: 1px solid black;
 }
-.spell-cost-yes {
+div.spell-cost-yes {
     background-color: black;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;

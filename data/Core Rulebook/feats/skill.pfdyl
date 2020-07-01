@@ -326,9 +326,12 @@
 		<Requires>Trained In Society</Requires>
 		<Description>You learn the sign languages associated with the languages you know, allowing you to sign and understand signs. Sign languages typically require both hands to convey more complex concepts, and they are visual rather than auditory.Sign language is difficult to understand during combat due to the level of attention needed, unlike basic gestures like pointing at a foe to suggest a target. Sign language is hard to use in areas of low visibility, just like speech is difficult in a noisy environment.</Description>
 	</Ability>
-	<Ability name="Skill Training" level="1">
+	<Ability name="Skill Training" level="1" multiple="true">
 		<Requires>Intelligence 12</Requires>
-		<Description>You become trained in the skill of your choice.Special You can select this feat multiple times, choosing a new skill to become trained in each time.</Description>
+		<Description>You become trained in the skill of your choice. &lt;b&gt;Special&lt;/b&gt; You can select this feat multiple times, choosing a new skill to become trained in each time.</Description>
+		<CustomMod>
+			choose("skill", "Skill Training Choice", proficiency, "Trained", 1)
+		</CustomMod>
 	</Ability>
 	<Ability name="Slippery Secrets" level="7">
 		<Requires>Master In Deception</Requires>
