@@ -1,0 +1,9 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>Extinction Curse</Name>
+    <ShortName>EC</ShortName>
+    <Backgrounds path="backgrounds.pfdyl" />
+    <Feats>
+        <Category name="Skill" path="skill_feats.pfdyl" />
+    </Feats>
+</Source>

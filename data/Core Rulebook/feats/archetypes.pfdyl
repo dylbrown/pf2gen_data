@@ -12,8 +12,7 @@
             def callback = {attr -> proficiency(attr, "Trained")}
             choose("divineskill", "Cleric Divine Skill Choice", callback, null, 1);
         </CustomMod>
-        <Spellcasting tradition="Divine" type="Prepared"/>
-        <SpellcastingAbility>Wisdom</SpellcastingAbility>
+        <Spellcasting listName="Cleric" tradition="Divine" type="Prepared" ability="Wis" />
         <SpellSlots count="2" level="0"/>
         <AttributeMods Proficiency="Trained">Divine Spell Attacks, Divine Spell DCs, Religion</AttributeMods>
     </Ability>

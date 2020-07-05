@@ -47,36 +47,41 @@
         <b>AC</b> ${character.combat.ac}; <b>Fort</b> ${character.attributes.fortitude.total?string.@s}, <b>Ref</b> ${character.attributes.reflex.total?string.@s}, <b>Will</b> ${character.attributes.will.total?string.@s}<br />
 <b>HP</b> ${character.hp}&nbsp;&nbsp;<input type="number" min="0" max="${character.hp}" value="${character.hp}"><br />
 <b>Speed</b> ${character.speed} feet<br />
-[#if character.spells.casterType == "Prepared"]
-<hr />
-<b>Prepared ${character.spells.tradition} Spells (Attack ${character.attributes[character.spells.spellAttacksAttribute?lower_case].total?string.@s}, DC ${(10 + character.attributes[character.spells.spellDCsAttribute?lower_case].total)?string}) &#91;${character.spells.castingability}&#93;</b>
-    [#list character.spells.spellsKnown?reverse as levelSpells]
-        [#if levelSpells?size > 0]
-            <br>
-            [#assign level=character.spells.spellsKnown?size - levelSpells?index - 1]
-            <b>Level ${level} (${character.spells.spellSlots[level]}/Day)</b>: [#list levelSpells as spell]
-                ${spell.name}[#sep], [/#sep]
-            [/#list]
-        [/#if]
-    [/#list]
-[#elseif character.spells.casterType == "Spontaneous"]
-<hr />
-    <b>Spontaneous ${character.spells.tradition} Spells (Attack ${character.attributes[character.spells.spellAttacksAttribute?lower_case].total?string.@s}, DC ${(10 + character.attributes[character.spells.spellDCsAttribute?lower_case].total)?string}) &#91;${character.spells.castingability}&#93;</b>
-    [#list character.spells.spellsKnown?reverse as levelSpells]
-        [#if levelSpells?size > 0]
-            <br>
-            [#assign level=character.spells.spellsKnown?size - levelSpells?index - 1]
-            <b>Level ${level} (${character.spells.spellSlots[level]}/Day)</b>: [#list levelSpells as spell]
-                ${spell.name}[#sep], [/#sep]
-            [/#list]
-        [/#if]
-    [/#list]
-[/#if]
+[#list character.spells.spellLists as listName, spellList]
+    [#if spellList.casterType == "Prepared"]
+        <hr />
+        <b>Prepared ${spellList.tradition} ${listName} Spells (Attack ${character.attributes.get(spellList.spellAttacksAttribute?lower_case, listName).total?string.@s}, DC ${(10 + character.attributes.get(spellList.spellDCsAttribute?lower_case, listName).total)?string}) &#91;${spellList.castingability}&#93;</b>
+        [#list spellList.spellsKnown?reverse as levelSpells]
+            [#if levelSpells?size > 0]
+                <br>
+                [#assign level=spellList.spellsKnown?size - levelSpells?index - 1]
+                <b>Level ${level} (${spellList.spellSlots[level]}/Day)</b>: [#list levelSpells as spell]
+                    ${spell.name}[#sep], [/#sep]
+                [/#list]
+            [/#if]
+        [/#list]
+    [#elseif spellList.casterType == "Spontaneous"]
+        <hr />
+        <b>Spontaneous ${spellList.tradition} ${listName} Spells (Attack ${character.attributes.get(spellList.spellAttacksAttribute?lower_case, listName).total?string.@s}, DC ${(10 + character.attributes.get(spellList.spellDCsAttribute?lower_case, listName).total)?string}) &#91;${spellList.castingability}&#93;</b>
+        [#list spellList.spellsKnown?reverse as levelSpells]
+            [#if levelSpells?size > 0]
+                <br>
+                [#assign level=spellList.spellsKnown?size - levelSpells?index - 1]
+                <b>Level ${level} (${spellList.spellSlots[level]}/Day)</b>: [#list levelSpells as spell]
+                    ${spell.name}[#sep], [/#sep]
+                [/#list]
+            [/#if]
+        [/#list]
+    [/#if]
+[/#list]
+
 [#if character.spells.focusPointCount > 0]
-    <hr />
-    <b>Focus Spells (${character.spells.focusPointCount} Points):</b>
-    [#list character.spells.focusSpells as spell]
-        ${spell.name}[#sep], [/#sep]
+<hr />
+<b>Focus Spells (${character.spells.focusPointCount} Points):</b>
+    [#list character.spells.spellLists as listName, spellList]
+        [#list spellList.focusSpells as spell]
+            ${spell.name}[#sep], [/#sep]
+        [/#list]
     [/#list]
 [/#if]
     <hr />

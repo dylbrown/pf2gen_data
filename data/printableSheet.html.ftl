@@ -540,121 +540,125 @@
                 <div>${item.stats.prettyWeight}</div>
             [/#list]
         </div>
-        [#if character.spells.casterType == "Prepared"]
-            <div id="spells-prepared">
-                <div class="spells-title col-section-title">Spells</div>
-                <div class="spells-stats">
-                    <div class="rollLabel">Spell Attack</div>
-                    <div class="numBox rounded">${character.attributes[character.spells.spellAttacksAttribute?lower_case].total?string.@s}</div>
-                    <div class="rollLabel">Spell DC</div>
-                    <div class="numBox rounded">${(10 + character.attributes[character.spells.spellDCsAttribute?lower_case].total)?string}</div>
-                </div>
-                <div class="col-section-label" style="border-left: 1px solid black">Spell Name</div>
-                <div class="col-section-label col-center" style="border-right: 1px solid black">Slots</div>
-                [#list character.spells.spellsKnown as levelSpells]
-                    [#if levelSpells?size > 0]
-                            [#assign level=levelSpells?index]
-                        <div class="spells-level">
-                            <div class="spells-line fixed"></div>
-                            <div class="spells-level-label">
-                                [#if level == 0]
-                                    Cantrips
-                                [#else]
-                                    Level ${level}
-                                [/#if]
-                            </div>
-                            <div class="spells-line"></div>
-                        </div>
-                        <div class="spells-level">
-                            <div class="spells-line"></div>
-                            <div class="spells-level-label">${character.spells.spellSlots[level]}</div>
-                            <div class="spells-line"></div>
-                        </div>
-                        [#list levelSpells as spell]
-                            <div class="spells-name">${spell.name}</div>
-                            <div class="spells-slot-container">
-                                [#if level == 0]
-                                    <div class="spells-slot"></div>
-                                [#else]
-                                    [#assign slots=character.spells.spellSlots[level]]
-                                    [#list 1..((slots < 3)?then(slots, 3)) as i]
-                                        <div class="spells-slot"></div>
-                                    [/#list]
-                                [/#if]
-                            </div>
-                        [/#list]
-                    [/#if]
-                [/#list]
-            </div>
-        [#elseif character.spells.casterType == "Spontaneous"]
-            <div id="spells-spontaneous">
-                <div class="spells-title col-section-title">Spells</div>
-                <div class="spells-stats">
-                    <div class="rollLabel">Spell Attack</div>
-                    <div class="numBox rounded">${character.attributes[character.spells.spellAttacksAttribute?lower_case].total?string.@s}</div>
-                    <div class="rollLabel">Spell DC</div>
-                    <div class="numBox rounded">${(10 + character.attributes[character.spells.spellDCsAttribute?lower_case].total)?string}</div>
-                </div>
-                <div id="spells-spontaneous-grid">
-                    [#list character.spells.spellsKnown as levelSpells]
+        [#list character.spells.spellLists as listName, spellList]
+            [#if spellList.casterType == "Prepared"]
+                <div id="spells-prepared">
+                    <div class="spells-title col-section-title">${listName} Spells</div>
+                    <div class="spells-stats">
+                        <div class="rollLabel">Spell Attack</div>
+                        <div class="numBox rounded">${character.attributes.get(spellList.spellAttacksAttribute?lower_case, listName).total?string.@s}</div>
+                        <div class="rollLabel">Spell DC</div>
+                        <div class="numBox rounded">${(10 + character.attributes.get(spellList.spellDCsAttribute?lower_case, listName).total)?string}</div>
+                    </div>
+                    <div class="col-section-label" style="border-left: 1px solid black">Spell Name</div>
+                    <div class="col-section-label col-center" style="border-right: 1px solid black">Slots</div>
+                    [#list spellList.spellsKnown as levelSpells]
                         [#if levelSpells?size > 0]
-                            [#assign level=levelSpells?index]
-                            [#if level == 0]
-                                <div class="spells-level" style="grid-column-end: span 2">
-                                    <div class="spells-line"></div>
-                                    <div class="spells-level-label">Cantrips</div>
-                                    <div class="spells-line"></div>
+                                [#assign level=levelSpells?index]
+                            <div class="spells-level">
+                                <div class="spells-line fixed"></div>
+                                <div class="spells-level-label">
+                                    [#if level == 0]
+                                        Cantrips
+                                    [#else]
+                                        Level ${level}
+                                    [/#if]
                                 </div>
-                            [#else]
-                                <div class="spells-level">
-                                    <div class="spells-line"></div>
-                                    <div class="spells-level-label">Level ${level}</div>
-                                    <div class="spells-line"></div>
-                                </div>
-                                <div class="spells-level">
-                                    <div class="spells-line"></div>
-                                    [#list 1..character.spells.spellSlots[level] as i]
-                                        <div class="spells-slot"></div>
-                                    [/#list]
-                                    <div class="spells-line"></div>
-                                </div>
-                            [/#if]
+                                <div class="spells-line"></div>
+                            </div>
+                            <div class="spells-level">
+                                <div class="spells-line"></div>
+                                <div class="spells-level-label">${spellList.spellSlots[level]}</div>
+                                <div class="spells-line"></div>
+                            </div>
                             [#list levelSpells as spell]
-                                [#if spell?index % 2 == 0]
-                                    <div class="spells-name left">${spell.name}</div>
-                                [#else]
-                                    <div class="spells-name right">${spell.name}</div>
-                                [/#if]
+                                <div class="spells-name">${spell.name}</div>
+                                <div class="spells-slot-container">
+                                    [#if level == 0]
+                                        <div class="spells-slot"></div>
+                                    [#else]
+                                        [#assign slots=spellList.spellSlots[level]]
+                                        [#list 1..((slots < 3)?then(slots, 3)) as i]
+                                            <div class="spells-slot"></div>
+                                        [/#list]
+                                    [/#if]
+                                </div>
                             [/#list]
-                            [#if levelSpells?size % 2 == 1]
-                                <div class="spells-name right"></div>
-                            [/#if]
                         [/#if]
                     [/#list]
                 </div>
-            </div>
-        [/#if]
-        [#list character.spells.spellsKnown as levelSpells]
-            [#list levelSpells as spell]
-                [@spellBlock spell=spell /]
+            [#elseif spellList.casterType == "Spontaneous"]
+                <div id="spells-spontaneous">
+                    <div class="spells-title col-section-title">${listName} Spells</div>
+                    <div class="spells-stats">
+                        <div class="rollLabel">Spell Attack</div>
+                        <div class="numBox rounded">${character.attributes.get(spellList.spellAttacksAttribute?lower_case, listName).total?string.@s}</div>
+                        <div class="rollLabel">Spell DC</div>
+                        <div class="numBox rounded">${(10 + character.attributes.get(spellList.spellDCsAttribute?lower_case, listName).total)?string}</div>
+                    </div>
+                    <div id="spells-spontaneous-grid">
+                        [#list spellList.spellsKnown as levelSpells]
+                            [#if levelSpells?size > 0]
+                                [#assign level=levelSpells?index]
+                                [#if level == 0]
+                                    <div class="spells-level" style="grid-column-end: span 2">
+                                        <div class="spells-line"></div>
+                                        <div class="spells-level-label">Cantrips</div>
+                                        <div class="spells-line"></div>
+                                    </div>
+                                [#else]
+                                    <div class="spells-level">
+                                        <div class="spells-line"></div>
+                                        <div class="spells-level-label">Level ${level}</div>
+                                        <div class="spells-line"></div>
+                                    </div>
+                                    <div class="spells-level">
+                                        <div class="spells-line"></div>
+                                        [#list 1..spellList.spellSlots[level] as i]
+                                            <div class="spells-slot"></div>
+                                        [/#list]
+                                        <div class="spells-line"></div>
+                                    </div>
+                                [/#if]
+                                [#list levelSpells as spell]
+                                    [#if spell?index % 2 == 0]
+                                        <div class="spells-name left">${spell.name}</div>
+                                    [#else]
+                                        <div class="spells-name right">${spell.name}</div>
+                                    [/#if]
+                                [/#list]
+                                [#if levelSpells?size % 2 == 1]
+                                    <div class="spells-name right"></div>
+                                [/#if]
+                            [/#if]
+                        [/#list]
+                    </div>
+                </div>
+            [/#if]
+            [#list spellList.spellsKnown as levelSpells]
+                [#list levelSpells as spell]
+                    [@spellBlock spell=spell /]
+                [/#list]
             [/#list]
         [/#list]
         [#if character.spells.focusPointCount > 0]
             <div style="position: absolute; width: calc(100% / 3 - 8px)" class="do-not-break">
                 <div class="spells-title col-section-title">Focus Spells</div>
             </div>
-            [#if character.spells.casterType == "None"]
-                <div id="focus-rolls" class="do-not-break">
-                    <div class="spells-stats">
-                        <div class="rollLabel">Spell Attack</div>
-                        <div class="numBox rounded">${character.attributes[character.spells.spellAttacksAttribute?lower_case].total?string.@s}</div>
-                        <div class="rollLabel">Spell DC</div>
-                        <div class="numBox rounded">${(10 + character.attributes[character.spells.spellDCsAttribute?lower_case].total)?string}</div>
+            [#list character.spells.spellLists as listName, spellList]
+                [#if spellList.casterType == "None"]
+                    <div id="focus-rolls" class="do-not-break">
+                        <div class="spells-stats">
+                            <div class="rollLabel">Spell Attack</div>
+                            <div class="numBox rounded">${character.attributes.get(spellList.spellAttacksAttribute?lower_case, listName).total?string.@s}</div>
+                            <div class="rollLabel">Spell DC</div>
+                            <div class="numBox rounded">${(10 + character.attributes.get(character.spells.spellDCsAttribute?lower_case, spellList).total)?string}</div>
+                        </div>
                     </div>
-                </div>
-            [/#if]
-            [#list character.spells.focusSpells as spell]
-                [@spellBlock spell=spell /]
+                [/#if]
+                [#list spellList.focusSpells as spell]
+                    [@spellBlock spell=spell /]
+                [/#list]
             [/#list]
         [/#if]
     </div>

@@ -34,8 +34,7 @@
 
                     Each time you gain a level, you add two more arcane spells to your spellbook, of any level of spell you can cast. You can also use the Arcana skill to add other spells that you find in your adventures, as described on page 241.
                 </Description>
-                <Spellcasting tradition="Arcane" type="Prepared"/>
-                <SpellcastingAbility>Int</SpellcastingAbility>
+                <Spellcasting listName="Wizard" tradition="Arcane" type="Prepared" ability="Int" />
                 <SpellSlots count="5" level="0"/>
                 <SpellSlots count="2" level="1"/>
             </Ability>

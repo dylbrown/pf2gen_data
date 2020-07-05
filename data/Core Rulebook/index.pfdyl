@@ -49,7 +49,7 @@
         <Category name="Skill" path="feats/skill.pfdyl" />
     </Feats>
     <Setting>
-        <!--<Category name="Deities" path="setting/deities.pfdyl" />-->
+        <Category name="Deities" path="setting/deities.pfdyl" />
         <Category name="Domains" path="setting/domains.pfdyl" />
     </Setting>
     <Spells>

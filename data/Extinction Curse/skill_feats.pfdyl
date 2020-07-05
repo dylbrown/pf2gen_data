@@ -1,0 +1,10 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
+	<Ability name="Ravening's Desperation" level="1">
+		<Traits>General, Skill</Traits>
+		<Requires>Trained In Lore (Zevgavizeb)</Requires>
+		<Description>Your study of the Beast of Gluttondark has taught you how to make do in the most trying of circumstances rather than succumb to weakness. As long as your current Hit Points are less than half your maximum Hit Points, you gain a +1 circumstance bonus to Survival and Stealth checks. If your current Hit Points are less than a quarter your maximum Hit Points, the circumstance bonus is +2 instead.</Description>
+	</Ability>
+</pf2:feats>
