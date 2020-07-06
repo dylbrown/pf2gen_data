@@ -14,7 +14,7 @@
     <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
     <AbilitySlot state="filled" name="Initial Proficiencies">
       <Ability>
-        <AttributeMods Proficiency="Trained">Reflex, Athletics, Simple Weapons, Martial Weapons, Unarmed, Light Armor, Medium Armor, Unarmored, Class DC</AttributeMods>
+        <AttributeMods Proficiency="Trained">Reflex, Athletics, Simple Weapons, Martial Weapons, Unarmed, Light Armor, Medium Armor, Unarmored, Class DC (Barbarian)</AttributeMods>
         <AttributeMods Proficiency="Expert">Perception, Fortitude, Will</AttributeMods>
       </Ability>
     </AbilitySlot>
@@ -362,7 +362,7 @@
             <Description>Use an action that has the rage trait. Alternatively, you can increase the actions of the triggering Rage to 2 to instead use a 2-action activity with the rage trait.</Description>
           </Ability>
         </AbilitySlot>
-        <AttributeMods Proficiency="Expert">Class DC</AttributeMods>
+        <AttributeMods Proficiency="Expert">Class DC (Barbarian)</AttributeMods>
       </Ability>
     </AbilitySlot>
     <AbilitySlot state="filled" name="Skill Increase">
@@ -476,7 +476,7 @@ Your proficiency ranks for light armor, medium armor, and unarmored defense incr
 
           Your proficiency rank for your barbarian class DC increases to master. Your melee Strikes ignore 10 points of a creature’s resistance to their physical damage.
         </Description>
-        <AttributeMods Proficiency="Master">Class DC</AttributeMods>
+        <AttributeMods Proficiency="Master">Class DC (Barbarian)</AttributeMods>
       </Ability>
     </AbilitySlot>
     <AbilitySlot state="feat" type="General Feat" name="General Feat" />

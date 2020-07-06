@@ -55,6 +55,14 @@ You have accumulated a vast array of lived knowledge over the years. During your
 In addition, you gain access to all uncommon elf weapons.
 
 For the purpose of determining your proficiency, martial elf weapons are simple weapons and advanced elf weapons are martial weapons.</Description>
+            <CustomMod>
+                weaponProficiency("longbow", "Trained");
+                weaponProficiency("composite longbow", "Trained");
+                weaponProficiency("longsword", "Trained");
+                weaponProficiency("rapier", "Trained");
+                weaponProficiency("shortbow", "Trained");
+                weaponProficiency("composite shortbow", "Trained");
+            </CustomMod>
         </Ability>
 		<Ability name="Forlorn" level="1">
             <Description>Watching your friends age and die fills you with moroseness that protects you against harmful emotions. You gain a +1 circumstance bonus to saving throws against emotion effects.

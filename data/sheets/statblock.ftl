@@ -41,7 +41,7 @@
         <br />
         <b>Items</b>
         [#list character.inventory as item]
-            ${item.count} ${item.stats.name}[#sep], [/#sep]
+            ${item.count} ${item.name}[#sep], [/#sep]
         [#else]None[/#list]
         <hr />
         <b>AC</b> ${character.combat.ac}; <b>Fort</b> ${character.attributes.fortitude.total?string.@s}, <b>Ref</b> ${character.attributes.reflex.total?string.@s}, <b>Will</b> ${character.attributes.will.total?string.@s}<br />
@@ -94,8 +94,8 @@
             [#else]
                 <b>① Melee</b>
             [/#if]
-            ${item.stats.name} ${item.attack?string.@s}
-            [#list item.stats.traits]([#items as customTrait]${customTrait.name}[#sep], [/#sep][/#items])[/#list]
+            ${item.name} ${item.attack?string.@s}
+            [#list item.traits]([#items as customTrait]${customTrait.name}[#sep], [/#sep][/#items])[/#list]
 			, <b>Damage</b>
                         [#list item.damage.asList() as damage]
                             ${damage}[#sep]<br> + [/#sep]

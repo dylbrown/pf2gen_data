@@ -142,7 +142,7 @@
 		<AbilitySlot state="filled" name="Fighter Expertise">
 			<Ability>
 				<Description>You’ve practiced your techniques to make them harder to resist. Your proficiency rank for your fighter class DC increases to expert.</Description>
-				<AttributeMods Proficiency="Expert">Class DC</AttributeMods>
+				<AttributeMods Proficiency="Expert">Class DC (Fighter)</AttributeMods>
 			</Ability>
 		</AbilitySlot>
 	</FeatureList>
@@ -234,7 +234,7 @@ You can select one weapon group and increase your proficiency ranks to legendary
 		<AbilitySlot state="filled" name="Versatile Legend">
 			<Ability>
 				<Description>You are nigh-unmatched with any weapon. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to legendary, and your proficiency rank for advanced weapons increases to master. Your proficiency rank for your fighter class DC increases to master.</Description>
-				<AttributeMods Proficiency="Master">Class DC, Advanced Weapons</AttributeMods>
+				<AttributeMods Proficiency="Master">Class DC (Fighter), Advanced Weapons</AttributeMods>
 				<AttributeMods Proficiency="Legendary">Simple Weapons, Martial Weapons, Unarmed</AttributeMods>
 			</Ability>
 		</AbilitySlot>

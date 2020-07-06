@@ -523,7 +523,9 @@
             [@linePart label="Traits" content=ability.traits?join(", ") /]
             [@linePart label="Requirements" content=ability.requirements /]
             [@linePart label="Frequency" content=ability.frequency /]
+            [#if ability.hasExtension("Activity")]
             [@linePart label="Trigger" content=ability.getExtensionByName("Activity").trigger /]
+            [/#if]
             <div class="ability-description">${ability.desc}</div>
         </div>
         [/#list]

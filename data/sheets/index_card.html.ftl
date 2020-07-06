@@ -24,6 +24,10 @@
                             <div>${character.combat.ac}</div>
                             <div>AC</div>
                         </div>
+                        <div class="labelled-box">
+                            <div>${character.combat.shield.ac?string.@s}</div>
+                            <div>Shield</div>
+                        </div>
                         <div class="pipe"></div>
                         <div class="labelled-box">
                             <div>${character.attributes.fortitude.total?string.@s}</div>
@@ -55,8 +59,8 @@
                             <div>Sneak</div>
                         </div>
                         <div class="labelled-box">
-                            <div>${character.attributes.get("ClassDC", character.pclass.name).total?string.@s}</div>
-                            <div>Sneak</div>
+                            <div>${character.attributes.get("ClassDC", character.pclass.name).total + 10}</div>
+                            <div>DC</div>
                         </div>
                     </div>
                     [#macro attackBlock attack]

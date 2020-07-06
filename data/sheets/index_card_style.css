@@ -46,7 +46,7 @@ html {
     transform: translate(-50%, -50%);
     width: 5.8in;
     height: 3.8in;
-    border: 1px dashed grey;
+    /* border: 1px dashed grey; */
     box-sizing: border-box;
 }
 .page-col {
@@ -128,7 +128,7 @@ html {
     padding: 0 .2em;
 }
 div.attack-traits {
-    font-size: .5em;
+    font-size: .49em;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;

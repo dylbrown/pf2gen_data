@@ -13,7 +13,7 @@
         <AbilitySlot state="filled" name="Initial Proficiencies">
             <Ability>
                 <AttributeMods
-                        Proficiency="Trained">Perception, Fortitude, Reflex, Nature, Simple Weapons, Unarmed, Light Armor, Medium Armor, Unarmored, Class DC, Primal Spell Attacks, Primal Spell DCs
+                        Proficiency="Trained">Perception, Fortitude, Reflex, Nature, Simple Weapons, Unarmed, Light Armor, Medium Armor, Unarmored, Class DC (Druid), Primal Spell Attacks, Primal Spell DCs
                 </AttributeMods>
                 <AttributeMods Proficiency="Expert">Will</AttributeMods>
             </Ability>

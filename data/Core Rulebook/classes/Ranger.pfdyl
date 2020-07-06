@@ -10,7 +10,7 @@
 	<FeatureList level="1">
 		<AbilitySlot state="filled" name="Initial Proficiencies">
 			<Ability>
-				<AttributeMods Proficiency="Trained">Will, Nature, Survival, Simple Weapons, Martial Weapons, Unarmed, Light Armor, Medium Armor, Unarmored, Class DC</AttributeMods>
+				<AttributeMods Proficiency="Trained">Will, Nature, Survival, Simple Weapons, Martial Weapons, Unarmed, Light Armor, Medium Armor, Unarmored, Class DC (Ranger)</AttributeMods>
 				<AttributeMods Proficiency="Expert">Perception, Fortitude, Reflex</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -148,7 +148,7 @@ This damage increases to 3 if you’re a master, and to 4 if you’re legendary.
 		<AbilitySlot state="filled" name="Ranger Expertise">
 			<Ability>
 				<Description>You’ve practiced your techniques to make them harder to resist. Your proficiency rank for your ranger class DC increases to expert.</Description>
-				<AttributeMods Proficiency="Master">Class DC</AttributeMods>
+				<AttributeMods Proficiency="Master">Class DC (Ranger)</AttributeMods>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Skill Increase">
@@ -272,7 +272,7 @@ Flurry: You can blend your weapon mastery with skillful targeting to make a seri
 Precision: Your weapon mastery allows you to hit your prey’s vital areas multiple times. The second time in a round you hit your hunted prey, you also deal 1d8 precision damage. At 19th level, your second hit in a round against your hunted prey deals 2d8 precision damage, and your third hit in a round against your hunted prey deals 1d8 precision damage.
 
 Outwit: Your mastery of skills allows you to overwhelm your prey. If you have master proficiency in Deception, Intimidation, Stealth, or the skill you use to Recall Knowledge about your prey, increase the circumstance bonus against the prey with that skill from +2 to +4. If you have master proficiency with your armor, increase the circumstance bonus to AC against the prey from +1 to +2.</Description>
-				<AttributeMods Proficiency="Master">Class DC</AttributeMods>
+				<AttributeMods Proficiency="Master">Class DC (Ranger)</AttributeMods>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Skill Increase">

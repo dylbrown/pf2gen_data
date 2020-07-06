@@ -12,7 +12,7 @@
         <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
         <AbilitySlot state="filled" name="Initial Proficiencies">
             <Ability>
-                <AttributeMods Proficiency="Trained">Perception, Simple Weapons, Unarmed, Class DC</AttributeMods>
+                <AttributeMods Proficiency="Trained">Perception, Simple Weapons, Unarmed, Class DC (Monk)</AttributeMods>
                 <AttributeMods Proficiency="Expert">Fortitude, Reflex, Will, Unarmored</AttributeMods>
             </Ability>
         </AbilitySlot>
@@ -170,7 +170,7 @@
                         <AttributeMods Proficiency="Expert">Divine Spell Attacks, Divine Spell DCs</AttributeMods>
                     </Ability>
                 </AbilitySlot>
-                <AttributeMods Proficiency="Expert">Class DC</AttributeMods>
+                <AttributeMods Proficiency="Expert">Class DC (Monk)</AttributeMods>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="filled" name="Skill Increase">
@@ -309,7 +309,7 @@
                     </Ability>
                 </AbilitySlot>
                 <AttributeMods Proficiency="Legendary">Unarmored</AttributeMods>
-                <AttributeMods Proficiency="Master">Class DC</AttributeMods>
+                <AttributeMods Proficiency="Master">Class DC (Monk)</AttributeMods>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="filled" name="Skill Increase">

@@ -12,7 +12,7 @@
 		<AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
 		<AbilitySlot state="filled" name="Initial Proficiencies">
 			<Ability>
-				<AttributeMods Proficiency="Trained">Fortitude, Stealth, Simple Weapons, Light Armor, Unarmed, Unarmored, Class DC</AttributeMods>
+				<AttributeMods Proficiency="Trained">Fortitude, Stealth, Simple Weapons, Light Armor, Unarmed, Unarmored, Class DC (Rogue)</AttributeMods>
 				<AttributeMods Proficiency="Expert">Perception, Reflex, Will</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -205,7 +205,7 @@ When you critically succeed at an attack roll against a flat-footed creature whi
 		<AbilitySlot state="filled" name="Rogue Expertise">
 			<Ability>
 				<Description>Your techniques are now harder to resist. Your proficiency rank for your rogue class DC increases to expert.</Description>
-				<AttributeMods Proficiency="Expert">Class DC</AttributeMods>
+				<AttributeMods Proficiency="Expert">Class DC (Rogue)</AttributeMods>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
@@ -351,7 +351,7 @@ Failure The target is paralyzed for 4 rounds.
 Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2 hours, or killed (your choice).</Description>
 					</Ability>
 				</AbilitySlot>
-        <AttributeMods Proficiency="Master">Class DC</AttributeMods>
+        <AttributeMods Proficiency="Master">Class DC (Rogue)</AttributeMods>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
