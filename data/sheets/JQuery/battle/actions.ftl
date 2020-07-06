@@ -13,7 +13,7 @@
 	<tr class="actionHide">
 		<td colspan="2" class="font6">
 		<#if reaction>
-			<b>Trigger</b> ${action.trigger}<br><br>
+			<b>Trigger</b> ${action.getExtensionByName("Activity").trigger}<br><br>
 		</#if>
 		${action.desc}
 		</td>

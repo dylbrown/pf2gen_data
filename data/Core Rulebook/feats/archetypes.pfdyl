@@ -17,25 +17,24 @@
         <AttributeMods Proficiency="Trained">Divine Spell Attacks, Divine Spell DCs, Religion</AttributeMods>
     </Ability>
     <Ability name="Basic Cleric Spellcasting" level="4" page="224">
+        <Template>Basic Spellcasting Benefit</Template>
         <Traits>Archetype</Traits>
         <Archetype>Cleric</Archetype>
         <Prerequisites>Cleric Dedication</Prerequisites>
         <Description>You’re fully immersed in another ancestry’s culture and traditions, whether born into them, earned through rite of passage, or bonded through a deep friendship or romance.Choose a common ancestry. You can select ancestry feats from the ancestry you chose, in addition to your character’s own ancestry, as long as the ancestry feats don’t require any physiological feature that you lack, as determined by the GM.</Description>
-        <CustomMod>
-            if(level >= 6) {
-                spellSlot(2, 1);
-            }
-            if(level >= 8) {
-            spellSlot(3, 1);
-            }
-        </CustomMod>
-        <SpellSlots count="1" level="1" />
     </Ability>
     <Ability name="Basic Dogma" level="4" page="224">
         <Traits>Archetype</Traits>
         <Archetype>Cleric</Archetype>
         <Prerequisites>Cleric Dedication</Prerequisites>
         <Description>You gain a 1st- or 2nd-level cleric feat.</Description>
-        <AbilitySlot state="feat" name="Cleric Feat" type="Class Feat (Cleric)" level="2" />
+        <AbilitySlot state="feat" name="Cleric Feat" type="Class(Cleric) Feat" level="2" />
+    </Ability>
+    <Ability name="Advanced Dogma" level="4" page="224" multiple="true">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Cleric</Archetype>
+        <Prerequisites>Cleric Dedication</Prerequisites>
+        <Description>You gain one cleric feat. For the purpose of meeting its prerequisites, your cleric level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another cleric feat.</Description>
     </Ability>
 </pf2:feats>

@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<pf2:templates xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
+    <Ability name="Basic Spellcasting Benefit">
+        <CustomMod>
+            if(level >= 6) {
+            spellSlot(2, 1, ability);
+            }
+            if(level >= 8) {
+            spellSlot(3, 1, ability);
+            }
+        </CustomMod>
+        <SpellSlots count="1" level="1" />
+    </Ability>
+    <Ability name="Advanced Multiclass Feat">
+        <CustomMod>
+            def archetype = archetypeName(ability);
+            def level = 3;
+            featSlot("Advanced "+archetype+" Feat", level / 2, "Class("+archetype+") Feat");
+        </CustomMod>
+    </Ability>
+</pf2:templates>

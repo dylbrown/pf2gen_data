@@ -1,0 +1,146 @@
+html {
+    font-family: monospace;
+}
+@media print {
+    @page {
+        size: 4in 6in;
+        size: landscape;
+        margin: 0;
+    }
+    .page {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 6in;
+        height: 4in;
+        overflow:hidden;
+        box-sizing: border-box;
+        /* border: 1px solid black; */
+    }
+    html {
+        font-size: .28in;
+    }
+}
+@media screen {
+    body {
+        height: 100vh;
+        margin: 0;
+    }
+    .page {
+        position: absolute;
+        left: 50vw;
+        top: 50vh;
+        transform: translate(-50%, -50%);
+        width: calc(calc(100vh - 12px) * 6 / 4);
+        height: calc(100vh - 12px);
+        overflow:hidden;
+    }
+    html {
+        font-size: min(3.3vh, 24px);
+    }
+}
+.page-padding {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 5.8in;
+    height: 3.8in;
+    border: 1px dashed grey;
+    box-sizing: border-box;
+}
+.page-col {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+.page-row {
+    display: flex;
+    justify-content: space-between;
+}
+.main > div {
+    padding: .05in 0;
+    border-bottom: 1px dashed lightgrey;
+}
+.main > div.action, .main > div.attack, .main > div.spells {
+    border-bottom: none;
+}
+.main > div.separator {
+    padding: 0;
+}
+.info {
+    align-items: center;
+}
+#abc {
+    font-size: .7em;
+}
+.labelled-box {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.labelled-box > div:first-child {
+    min-height: 1.7em;
+    min-width: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: .3em;
+}
+.labelled-box > div:last-child {
+    font-size: .5em;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.pipe {
+    width: 2px;
+    background-color: black;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.stats > div:not(.pipe, :last-child) {
+    padding: 0 .05in;
+}
+.stats > div:first-child {
+    padding-left: 0;
+}
+.attack, .action {
+    justify-content: flex-start;
+    max-height: 1.25em;
+    font-size: .75em;
+}
+.action {
+    font-size: .6em;
+}
+.attack > div, .action > div {
+    margin-right: .1in;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: flex-end;
+}
+.attack-name, .action-name {
+    border-radius: .3em;
+    border: 1px solid black;
+    padding: 0 .2em;
+}
+div.attack-traits {
+    font-size: .5em;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    min-width: 8em;
+}
+.attack-traits > div {
+    padding-right: 1em;
+}
+.action > div:last-child {
+    font-size: .7em;
+}
+.spells {
+    display: initial;
+    font-size: .6em;
+}

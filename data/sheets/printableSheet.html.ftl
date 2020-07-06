@@ -371,8 +371,8 @@
             </div>
             <div class="sectionLabel">Melee Strikes</div>
             [#list character.combat.attacks as attack]
-                [#if item.category == "Weapon"]
-                    [@weaponBlock weapon=item type="melee"/]
+                [#if attack.category == "Weapon"]
+                    [@weaponBlock attack=attack type="melee"/]
                 [/#if]
             [/#list]
             [#list character.inventory as item]
@@ -385,8 +385,8 @@
             </div>
             <div class="sectionLabel">Ranged Strikes</div>
             [#list character.combat.attacks as attack]
-                [#if item.category == "Ranged Weapon"]
-                    [@weaponBlock weapon=item type="ranged"/]
+                [#if attack.category == "Ranged Weapon"]
+                    [@weaponBlock weapon=attack type="ranged"/]
                 [/#if]
             [/#list]
             [#list character.inventory as item]
@@ -401,7 +401,7 @@
 [#macro actionBlock action]
 [#assign reaction=false]
 <div class="row-stretch action" style="flex-grow: 0">
-    <div class="action-icon">[#switch action.cost]
+    <div class="action-icon">[#switch action.getExtensionByName("Activity").cost]
         [#case "Free"]F[#break]
         [#case "Reaction"]R[#assign reaction=true][#break]
         [#case "One"]1[#break]
@@ -418,7 +418,7 @@
         [/#if]
         [#if reaction]
         <div class="line">
-            <div class="underlined">${action.trigger}</div>
+            <div class="underlined">${action.getExtensionByName("Activity").trigger}</div>
             <div class="label">Trigger</div>
         </div>
         [/#if]
@@ -440,7 +440,7 @@
             <div class="column" style="flex-grow: 0">
                 [#assign notFirst=false]
                 [#list character.abilities as ability]
-                    [#if Activity.isInstance(ability)]
+                    [#if ability.hasExtension("Activity")]
                         [#if notFirst]
                             <div class="action-divider"></div>
                         [/#if]
@@ -507,8 +507,8 @@
     <div class="abilities-flex first-page">
         [#list character.abilities as ability]
         <div class="ability-box">
-            [#if Activity.isInstance(ability)]<div class="action-icon">
-                [#switch ability.cost]
+            [#if ability.hasExtension("Activity")]<div class="action-icon">
+                [#switch ability.getExtensionByName("Activity").cost]
                     [#case "Free"]F[#break]
                     [#case "Reaction"]R[#assign reaction=true][#break]
                     [#case "One"]1[#break]
@@ -523,7 +523,7 @@
             [@linePart label="Traits" content=ability.traits?join(", ") /]
             [@linePart label="Requirements" content=ability.requirements /]
             [@linePart label="Frequency" content=ability.frequency /]
-            [@linePart label="Trigger" content=ability.trigger /]
+            [@linePart label="Trigger" content=ability.getExtensionByName("Activity").trigger /]
             <div class="ability-description">${ability.desc}</div>
         </div>
         [/#list]
