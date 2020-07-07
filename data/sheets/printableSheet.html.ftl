@@ -654,7 +654,7 @@
                             <div class="rollLabel">Spell Attack</div>
                             <div class="numBox rounded">${character.attributes.get(spellList.spellAttacksAttribute?lower_case, listName).total?string.@s}</div>
                             <div class="rollLabel">Spell DC</div>
-                            <div class="numBox rounded">${(10 + character.attributes.get(character.spells.spellDCsAttribute?lower_case, spellList).total)?string}</div>
+                            <div class="numBox rounded">${(10 + character.attributes.get(spellList.spellDCsAttribute?lower_case, listName).total)?string}</div>
                         </div>
                     </div>
                 [/#if]
