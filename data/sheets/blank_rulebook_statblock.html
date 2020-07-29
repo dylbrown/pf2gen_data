@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PF2 Rulebook Style Sheet</title>
+        <link rel="stylesheet" href="style_rulebook_statblock.css">
+    </head>
+    <body>
+        <div id="statblock">
+            <div id="title">
+                <span id="name">Cultist</span>
+                <span id="creature"> CREATURE <span id="level">1</span></span>
+            </div>
+            <div id="statistics" class="info-block">
+                <div id="tags"><div class="tag-alignment">n </div>
+        <div class="tag-size">medium </div>
+        <div class="tag-other">humanoid </div></div>
+                <div id="info-other">
+                    <div class="info-line">
+                        <span class="line-heavy">Perception </span><span id="perception-modifier">+4</span><span id="senses">; low-light vision</span>
+                    </div>
+                    
+                    <div class="info-line">
+                    <span class="line-heavy">Skills </span><span id="skills">Intimidation +3, Stealth +6, Deception +3</span>
+                    </div>
+                    
+                    <div class="info-line">
+                        <span class="line-heavy">Str </span><span id="str-modifier">+4</span>,
+                        <span class="line-heavy">Dex </span><span id="dex-modifier">+3</span>,
+                        <span class="line-heavy">Con </span><span id="con-modifier">+2</span>,
+                        <span class="line-heavy">Int </span><span id="int-modifier">+1</span>,
+                        <span class="line-heavy">Wis </span><span id="wis-modifier">-1</span>,
+                        <span class="line-heavy">Cha </span><span id="cha-modifier">0</span>
+                    </div>
+                </div>
+            </div> <!-- statistics -->
+            <div id="defense" class="info-block">
+                <div class="info-line">
+                    <span class="line-heavy">AC </span><span id="ac">17</span>;
+                    <span class="line-heavy">Fort </span><span id="fort">+7</span>,
+                    <span class="line-heavy">Ref </span><span id="ref">+8</span>,
+                    <span class="line-heavy">Will </span><span id="will">+4</span>
+                </div>
+                
+                <div class="info-line">
+                    <span class="line-heavy">HP </span><span id="hp">20</span><span id="immunities"></span>
+                </div>
+                
+                <div class="info-line">
+                    <span id="reactions"></span>
+                </div>
+            </div> <!-- defense -->
+            <div id="offense" class="info-block">
+                <div class="info-line">
+                    <span class="line-heavy">Speed </span><span id="speed">25 feet</span><span id="otherSpeeds"></span>
+                </div>
+                <div class="info-line">
+                    <span class="line-heavy">Melee</span> <span id="attack"><img class="action-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAGxSURBVHja7JttqwFRFIWXe+8fJkkmiSSSJIWQIv/T/XJWae5lZsyZmbP3PquefEB5VvPmvAA502q1/pB+/91nX3x/5gg/vgsAMATwcAytFZA8yZPESgGDf+TJQHsB/TfypK+yAAC9HPKkp62AbgF50tVSQOcDedKRXkC7hDxpSy0g8SAfzi2yYAFbj/JkK6WATQXyZBN6AesK5ck61AJWNciTVTAFuNdljfJkGcoRsGhAniyaLmDeoDyZN3I6uIGMRyDM6i5gGpA8mdblPwlQnkyqPuzHAcuTcVUFjATIk5FP9x8Ae0HyZO9+e2n5u0B5ci9TwjeAm2B5cnMuhfIF4KpAnlydU77rHYCLInlycW6ZOSuUJ+cs+aNieXJ8JX8wIE8OafmdIXmyo/zJoDw5xQLiKRAvgvE2GB+E4qNw/DMU/w7HAZE4JJYds4Oiz7E7LG5+YiQV01NjjN3J0afYnB5PxcYCiYzoXyKTI7oXSeWM3mVyBaJzoWTB6Fsq+0F0LZb+MHqWy5eIjg0TJSN/y4yHyN405Slyt815jMyNkzXcIhMYi6zN0xUOqjS6ff53AA+L/8NN984kAAAAAElFTkSuQmCC" alt=">"> dagger +7 (agile, versatile S)</span>;
+                    <span class="line-heavy">Damage</span> <span id="damage">1d4+4 piercing</span>
+                </div>
+                <div class="info-line">
+                    <span class="line-heavy">Ranged</span> <span id="attack"><img class="action-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAGxSURBVHja7JttqwFRFIWXe+8fJkkmiSSSJIWQIv/T/XJWae5lZsyZmbP3PquefEB5VvPmvAA502q1/pB+/91nX3x/5gg/vgsAMATwcAytFZA8yZPESgGDf+TJQHsB/TfypK+yAAC9HPKkp62AbgF50tVSQOcDedKRXkC7hDxpSy0g8SAfzi2yYAFbj/JkK6WATQXyZBN6AesK5ck61AJWNciTVTAFuNdljfJkGcoRsGhAniyaLmDeoDyZN3I6uIGMRyDM6i5gGpA8mdblPwlQnkyqPuzHAcuTcVUFjATIk5FP9x8Ae0HyZO9+e2n5u0B5ci9TwjeAm2B5cnMuhfIF4KpAnlydU77rHYCLInlycW6ZOSuUJ+cs+aNieXJ8JX8wIE8OafmdIXmyo/zJoDw5xQLiKRAvgvE2GB+E4qNw/DMU/w7HAZE4JJYds4Oiz7E7LG5+YiQV01NjjN3J0afYnB5PxcYCiYzoXyKTI7oXSeWM3mVyBaJzoWTB6Fsq+0F0LZb+MHqWy5eIjg0TJSN/y4yHyN405Slyt815jMyNkzXcIhMYi6zN0xUOqjS6ff53AA+L/8NN984kAAAAAElFTkSuQmCC" alt=">"> dagger +6 (agile, thrown 10 ft., versatile S)</span>;
+                    <span class="line-heavy">Damage</span> <span id="damage">1d4+4 piercing</span>
+                </div>
+                <div class="info-line">
+                    <span class="line-heavy">Fanatical Frenzy</span> <span id="attack"><img class="action-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAGxSURBVHja7JttqwFRFIWXe+8fJkkmiSSSJIWQIv/T/XJWae5lZsyZmbP3PquefEB5VvPmvAA502q1/pB+/91nX3x/5gg/vgsAMATwcAytFZA8yZPESgGDf+TJQHsB/TfypK+yAAC9HPKkp62AbgF50tVSQOcDedKRXkC7hDxpSy0g8SAfzi2yYAFbj/JkK6WATQXyZBN6AesK5ck61AJWNciTVTAFuNdljfJkGcoRsGhAniyaLmDeoDyZN3I6uIGMRyDM6i5gGpA8mdblPwlQnkyqPuzHAcuTcVUFjATIk5FP9x8Ae0HyZO9+e2n5u0B5ci9TwjeAm2B5cnMuhfIF4KpAnlydU77rHYCLInlycW6ZOSuUJ+cs+aNieXJ8JX8wIE8OafmdIXmyo/zJoDw5xQLiKRAvgvE2GB+E4qNw/DMU/w7HAZE4JJYds4Oiz7E7LG5+YiQV01NjjN3J0afYnB5PxcYCiYzoXyKTI7oXSeWM3mVyBaJzoWTB6Fsq+0F0LZb+MHqWy5eIjg0TJSN/y4yHyN405Slyt815jMyNkzXcIhMYi6zN0xUOqjS6ff53AA+L/8NN984kAAAAAElFTkSuQmCC" alt=">"> <span class="line-heavy">Requirements</span> Damaged, not fatigued <span class="line-heavy">Effect</span> 1 minute. +1 status bonus to attack and +2 status bonus to damage,-2 status to AC. After their frenzy, the cultist is fatigued.
+                </div>
+            </div> <!-- offense -->
+        </div>
+    </body>
+</html>

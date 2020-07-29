@@ -10,8 +10,9 @@
 	<FeatureList level="1">
 		<AbilitySlot state="filled" name="Initial Proficiencies">
 			<Ability>
+				<GivesPrerequisites>Champion Devotion Spell, Champion's Reaction</GivesPrerequisites>
 				<AttributeMods Proficiency="Trained">
-                    Religion, Perception, Reflex, Simple Weapons, Martial Weapons, Unarmed, Light Armor, Medium Armor, Heavy Armor, Shields, Unarmored, Class DC, Divine Spell Attacks, Divine Spell DCs
+                    Religion, Perception, Reflex, Simple Weapons, Martial Weapons, Unarmed, Light Armor, Medium Armor, Heavy Armor, Shields, Unarmored, Class DC (Champion), Divine Spell Attacks, Divine Spell DCs
 				</AttributeMods>
 				<AttributeMods Proficiency="Expert">
                     Fortitude, Will
@@ -28,6 +29,10 @@
                     Your deity’s power grants you special divine spells called devotion spells, which are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you regain 1 Focus Point by spending 10 minutes using the Refocus activity to pray to your deity or do service toward their causes.
 					Focus spells are automatically heightened to half your level rounded up. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules are on page 300. You gain a devotion spell depending on your cause, and you are trained in divine spell attack rolls and spell DCs. Your spellcasting ability is Charisma.
 				</Description>
+				<CustomMod>
+					def callback = {attr -> proficiency(attr, "Trained")}
+					choose("divineskill", "Cleric Divine Skill Choice", callback, null, 1);
+				</CustomMod>
 				<Spellcasting listName="Champion" tradition="Divine" type="FocusOnly" ability="Cha" />
 				<AttributeMods Proficiency="Trained">
 					Divine Spell Attacks, Divine Spell DCs
@@ -54,12 +59,13 @@
 				</CustomMod>
 			</Ability>
 		</AbilitySlot>
-		<AbilitySlot state="choice" name="Alignment">
+		<AbilitySlot state="choice" name="Champion's Cause">
 			<AbilitySet name="Paladin Cause">
 				<Description>
                     You’re honorable, forthright, and committed to pushing back the forces of cruelty. You gain the Retributive Strike champion’s reaction and the lay on hands devotion spell.
 				</Description>
 				<Ability name="Devotion Spell (Lay On Hands)">
+					<PrereqStrings>Champion Devotion Spell</PrereqStrings>
 					<Spell type="Focus" name="Lay On Hands"/>
 				</Ability>
 				<Ability name="Champion's Code">
@@ -71,6 +77,7 @@
 					</Description>
 				</Ability>
 				<Ability name="Retributive Strike" cost="Reaction">
+					<PrereqStrings>Champion's Reaction</PrereqStrings>
 					<Trigger>An enemy damages your ally, and both are within 15 feet of you.</Trigger>
 					<Description>You protect your ally and strike your foe. The ally gains resistance to all damage against the triggering damage equal to 2 + your level. If the foe is within reach, make a melee Strike against it.
 					</Description>
@@ -81,6 +88,7 @@
                     You’re full of kindness and forgiveness. You gain the Glimpse of Redemption champion’s reaction and the lay on hands devotion spell
 				</Description>
 				<Ability name="Devotion Spell (Lay On Hands)">
+					<PrereqStrings>Champion Devotion Spell</PrereqStrings>
 					<Spell type="Focus" name="Lay On Hands"/>
 				</Ability>
 				<Ability name="Champion's Code">
@@ -92,6 +100,7 @@
 					</Description>
 				</Ability>
 				<Ability name="Glimpse of Redemption" cost="Reaction">
+					<PrereqStrings>Champion's Reaction</PrereqStrings>
 					<Trigger>An enemy damages your ally, and both are within 15 feet of you.</Trigger>
 					<Description>Your foe hesitates under the weight of sin as visions of redemption play in their mind’s eye. The foe must choose one of the following options:		
 					• The ally is unharmed by the triggering damage.
@@ -104,6 +113,7 @@
                     You’re committed to defending the freedom of others. You gain the Liberating Step champion’s reaction and the lay on hands devotion spell
 				</Description>
 				<Ability name="Devotion Spell (Lay On Hands)">
+					<PrereqStrings>Champion Devotion Spell</PrereqStrings>
 					<Spell type="Focus" name="Lay On Hands"/>
 				</Ability>
 				<Ability name="Champion's Code">
@@ -115,6 +125,7 @@
 					</Description>
 				</Ability>
 				<Ability name="Liberating Step" cost="Reaction">
+					<PrereqStrings>Champion's Reaction</PrereqStrings>
 					<Trigger>An enemy damages, Grabs, or Grapples your ally, and both are within 15 feet of you.</Trigger>
 					<Description>You free an ally from restraint. If the trigger was an ally taking damage, the ally gains resistance to all damage against the triggering damage equal to 2 + your level. The ally can attempt to break free of effects grabbing, restraining, immobilizing, or paralyzing them. They either attempt a new save against one such effect that allows a save, or attempt to Escape from one effect as a free action. If they can move, the ally can Step as a free action, even if they didn’t need to escape.
 					</Description>
@@ -127,7 +138,7 @@
 		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
 	</FeatureList>
 	<FeatureList level="3">
-		<AbilitySlot state="choice" name="Divine Ally">
+		<AbilitySlot state="choice" name="Divine Ally" contents="Divine Ally">
 			<Description>Your devotion attracts a spirit of your deity’s alignment.
 
 Once you choose an ally, your choice can’t be changed.</Description>

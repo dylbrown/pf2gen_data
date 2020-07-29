@@ -17,7 +17,7 @@
 	</Ability>
 	<Ability name="Canny Acumen" level="1">
 		<Description>Your avoidance or observation is beyond the ken of most in your profession. Choose Fortitude saves, Reflex saves, Will saves, or Perception. You become an expert in your choice. At 17th level, you become a master in your choice.</Description>
-		<CustomMod>
+		<CustomMod recalculate="On Level">
 			if(level >= 17){
 				choose("Attributes: Fortitude, Reflex, Will, Perception", "Canny Acumen Choice", proficiency, "Master", 1);
 			}else{
@@ -62,7 +62,7 @@
 	</Ability>
 	<Ability name="Toughness" level="1">
 		<Description>You can withstand more punishment than most before succumbing. Increase your maximum Hit Points by your level. You reduce the DC of recovery checks by 1.</Description>
-		<CustomMod>
+		<CustomMod recalculate="On Level">
             bonus("hp", level);
 		</CustomMod>
 	</Ability>

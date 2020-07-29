@@ -1,0 +1,127 @@
+body {
+    font-family: "Roboto", Geneva, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+}
+#banner {
+    font-family: Geneva, sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-variant: small-caps;
+    margin: 20px;
+    padding: 5px;
+    background-color: DarkRed;
+    color: white;
+}
+#statblock {
+    float: left;
+    width: 6in;
+    height: 4in;
+    padding: .2in;
+    box-sizing: border-box;
+}
+@media screen {
+    #statblock {
+        border: 1px solid black;
+    }
+}
+#title {
+    font-size: 23px;
+    font-weight: bold;
+    width: 100%;
+    text-transform: uppercase;
+}
+#name {
+    float: left;
+}
+#creature {
+    float: right;
+    text-align: right;
+}
+#tags {
+    height: 26px;
+    /*background-color: BurlyWood;*/
+    width: fit-content; 
+}
+#info-other {
+    clear: both;
+}
+.configTableCell,.configTableLabel,.configTableHeader,.configTableTEML {
+    box-sizing: border-box;
+    flex-grow: 1;
+    overflow: hidden;
+    list-style: none;
+}
+.configTableLabel,.configTableHeader {
+    width: 30%;
+    padding-left: 5px;
+}
+.configTableCell,.configTableTEML {
+    width: 70%;
+}
+.configTableHeader,.configTableTEML {
+    display: none;
+}
+.configText,.configSelect {
+    width: 100%;
+    font-size: 13px;
+    height: 30px;
+    line-height: 17px;
+    display: block;
+}
+.info-block {
+    clear: both;
+    border-top: 2px solid black;
+    padding-top: 5px;
+}
+.info-line {
+    padding-left: 18px;
+    text-indent: -18px;
+}
+.line-heavy {
+    font-weight: bold;
+}
+.tag-alignment,.tag-size,.tag-other,.tag-rarity-uncommon,.tag-rarity-rare,.tag-rarity-unique{
+    float: left;
+    height: 22px;
+    margin: 2px;
+    line-height: 22px;
+    font-family: Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+.tag-rarity-uncommon,.tag-rarity-rare,.tag-rarity-unique {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tag-rarity-uncommon {
+    background-color: Sienna;
+}
+.tag-rarity-rare {
+    background-color: DarkBlue;
+}
+.tag-rarity-unique {
+    background-color: Indigo;
+}
+.tag-alignment {
+    background-color: SteelBlue;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tag-size {
+    background-color: SeaGreen;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tag-other {
+    background-color: DarkRed;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.action-icon {
+    height: 16px;
+}

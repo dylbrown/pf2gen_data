@@ -18,7 +18,7 @@
         </Ability>
         <Ability name="Skilled Heritage" type="Heritage">
             <Description>Your ingenuity allows you to train in a wide variety of skills. You become trained in one skill of your choice. At 5th level, you become an expert in the chosen skill.</Description>
-            <CustomMod>
+            <CustomMod recalculate="On Level">
                 def skilled_heritage_proficiency = { skillChoice, unused ->
                     proficiency(skillChoice, "Trained");
                     if(level >= 5){

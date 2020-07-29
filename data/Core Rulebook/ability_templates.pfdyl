@@ -2,8 +2,9 @@
 <pf2:templates xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
-    <Ability name="Basic Spellcasting Benefit">
-        <CustomMod>
+    <Ability name="Basic Spellcasting Benefits">
+        <GivesPrerequisites>Basic Spellcasting Benefits</GivesPrerequisites>
+        <CustomMod recalculate="On Level">
             if(level >= 6) {
             spellSlot(2, 1, ability);
             }
@@ -13,11 +14,59 @@
         </CustomMod>
         <SpellSlots count="1" level="1" />
     </Ability>
-    <Ability name="Advanced Multiclass Feat">
-        <CustomMod>
+    <Ability name="Expert Spellcasting Benefits">
+        <GivesPrerequisites>Expert Spellcasting Benefits</GivesPrerequisites>
+        <CustomMod recalculate="On Level">
+            if(level >= 14) {
+            spellSlot(5, 1, ability);
+            }
+            if(level >= 16) {
+            spellSlot(6, 1, ability);
+            }
+        </CustomMod>
+        <SpellSlots count="1" level="4" />
+    </Ability>
+    <Ability name="Master Spellcasting Benefits">
+        <CustomMod recalculate="On Level">
+            if(level >= 20) {
+            spellSlot(8, 1, ability);
+            }
+        </CustomMod>
+        <SpellSlots count="1" level="7" />
+    </Ability>
+    <Ability name="Advanced Multiclass Feat" level="6+">
+        <CustomMod recalculate="On Level">
             def archetype = archetypeName(ability);
-            def level = 3;
-            featSlot("Advanced "+archetype+" Feat", level / 2, "Class("+archetype+") Feat");
+            featSlot("Advanced "+archetype+" Feat", Math.floor(ability.getLevel() / 2), "Class("+archetype+") Feat");
+        </CustomMod>
+    </Ability>
+    <Ability name="Spellcasting Breadth" level="8">
+        <CustomMod recalculate="Always">
+            def archetype = archetypeName(ability);
+            if(level >= 8) {
+                spellSlot(1, 1, ability);
+            }
+            if(archetypeHas(archetype, "Expert Spellcasting Benefits")) {
+                spellSlot(2, 1, ability);
+                if(level >= 14) {
+                    spellSlot(3, 1, ability);
+                }
+                if(level >= 16) {
+                    spellSlot(4, 1, ability);
+                }
+                if(archetypeHas(archetype, "Master Spellcasting Benefits")) {
+                    spellSlot(5, 1, ability);
+                    if(level >= 20) {
+                        spellSlot(6, 1, ability);
+                    }
+                }
+            }
+        </CustomMod>
+        <SpellSlots count="1" level="1" />
+    </Ability>
+    <Ability name="Multiclass Resiliency">
+        <CustomMod recalculate="Always">
+            bonus("hp", 3 * archetypeCount(ability));
         </CustomMod>
     </Ability>
 </pf2:templates>

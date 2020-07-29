@@ -2,39 +2,731 @@
 <pf2:feats xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/class.xsd">
-    <!--Cleric-->
-    <Ability name="Cleric Dedication" level="2" page="224">
+    <!--Alchemist-->
+    <Ability name="Basic Concoction" level="4" page="220">
+        <Traits>Archetype</Traits>
+        <Archetype>Alchemist</Archetype>
+        <Prerequisites>Alchemist Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level alchemist feat.</Description>
+        <AbilitySlot state="feat" name="Alchemist Feat" type="Class(Alchemist) Feat" level="2"/>
+    </Ability>
+    <Ability name="Expert Alchemy" level="6" page="220">
+        <Traits>Archetype</Traits>
+        <Archetype>Alchemist</Archetype>
+        <Prerequisites>Alchemist Dedication</Prerequisites>
+        <Requires>Expert In Crafting</Requires>
+        <Description>Your advanced alchemy level increases to 3. At 10th level, it increases to 5.</Description>
+    </Ability>
+    <Ability name="Advanced Concoction" level="6" page="220">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Alchemist</Archetype>
+        <Prerequisites>Basic Concoction</Prerequisites>
+        <Description>You gain one alchemist feat. For the purpose of meeting its prerequisites, your alchemist level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another alchemist feat.&lt;br&gt;</Description>
+    </Ability>
+    <Ability name="Quick Alchemy" level="4" page="220" cost="1">
+        <Traits>Archetype, Alchemist, Manipulate</Traits>
+        <Archetype>Alchemist</Archetype>
+        <Prerequisites>Alchemist Dedication</Prerequisites>
+        <Requirements>You have alchemist’s tools, the formula for the alchemical item you’re creating, and a free hand.</Requirements>
+        <Description>You gain the Quick Alchemy action. Quick AlchemyAlchemistManipulate&lt;br&gt;&lt;b&gt;Source&lt;/b&gt; Core Rulebook pg. 72&lt;br&gt;&lt;b&gt;Cost&lt;/b&gt; 1 batch of infused reagents&lt;br&gt;&lt;b&gt;Requirements&lt;/b&gt; You have alchemist’s tools, the formula for the alchemical item you’re creating, and a free hand.You swiftly mix up a short-lived alchemical item to use at a moment’s notice. You create a single alchemical item of your advanced alchemy level or lower that’s in your formula book without having to spend the normal monetary cost in alchemical reagents or needing to attempt a Crafting check. This item has the infused trait, but it remains potent only until the start of your next turn.
+        </Description>
+    </Ability>
+    <Ability name="Alchemist Dedication" level="2" page="220">
         <Traits>Archetype, Dedication, Multiclass</Traits>
-        <Archetype>Cleric</Archetype>
-        <Requires>Wisdom 14</Requires>
-        <Description>You cast spells like a cleric. You gain access to the Cast a Spell activity. You can prepare two common cantrips each day from the divine spell list in this book or any other cantrips you learn or discover. You can prepare common cantrips of your spellcasting tradition, whether from this book or other cantrips of that tradition you learn or discover. You’re trained in spell attack rolls and spell DCs for divine spells. Your key spellcasting ability for cleric archetype spells is Wisdom, and they are divine cleric spells. Choose a deity as you would if you were a cleric. You become bound by that deity’s anathema. You become trained in Religion and your deity’s associated skill; for each of these skills in which you were already trained, you instead become trained in a skill of your choice. You don’t gain any other abilities from your choice of deity.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot select another dedication feat until you have gained two other feats from the cleric archetype.</Description>
+        <Archetype>Alchemist</Archetype>
+        <Requires>Intelligence 14</Requires>
+        <Description>You put your alchemical interest into practice. You become trained in alchemical bombs and Crafting; if you were already trained in Crafting, you instead become trained in a skill of your choice. You become trained in alchemist class DC.&lt;br&gt;&lt;br&gt; You gain the alchemist’s infused reagents class feature, gaining a number of reagents each day equal to your level. You also gain the Alchemical Crafting feat and four additional formulas for 1st-level alchemical items, as well as the ability to create free items during your daily preparations. Your advanced alchemy level is 1 and doesn’t increase on its own.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot select another dedication feat until you have gained two other feats from the alchemist archetype.&lt;br&gt;</Description>
+    </Ability>
+    <Ability name="Mastery Alchemy" level="12" page="220">
+        <Traits>Archetype</Traits>
+        <Archetype>Alchemist</Archetype>
+        <Prerequisites>Expert Alchemy</Prerequisites>
+        <Requires>Master in Crafting</Requires>
+        <Description>Your advanced alchemy level increases to 7. For every level you gain beyond 12th, your advanced alchemy level increases by 1.</Description>
+    </Ability>
+    <!--Barbarian-->
+    <Ability name="Barbarian Dedication" level="2" page="221" cost="1">
+        <Traits>Archetype, Dedication, Multiclass, Barbarian, Concentrate, Emotion, Mental</Traits>
+        <Archetype>Barbarian</Archetype>
+        <Requires>Strength 14, Constitution 14</Requires>
+        <Description>You become trained in Athletics; if you were already trained in Athletics, you instead become trained in a skill of your choice. You become trained in barbarian class DC.&lt;br&gt;&lt;br&gt; You can use the Rage action.&lt;br&gt;&lt;br&gt; Choose an instinct as you would if you were a barbarian. You have that instinct for all purposes and become bound by its anathema, but you don’t gain any of the other abilities it grants.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot select another dedication feat until you have gained two other feats from the barbarian archetype.</Description>
+        <AbilitySlot state="filled" name="Rage">
+            <Ability cost="One">
+                <Traits>Barbarian, Concentrate, Emotion, Mental</Traits>
+                <Requirements>You aren’t fatigued or raging.</Requirements>
+                <Description>
+                    You tap into your inner fury and begin raging. You gain a number of temporary Hit Points equal to your level plus your Constitution modifier. This frenzy lasts for 1 minute, until there are no enemies you can perceive, or until you fall unconscious, whichever comes first. You can’t voluntarily stop raging. While you are raging:
+
+                    You deal 2 additional damage with melee weapons and unarmed attacks. This additional damage is halved if your weapon or unarmed attack is agile.
+                    You take a –1 penalty to AC.
+                    You can’t use actions with the concentrate trait unless they also have the rage trait. You can Seek while raging.
+                    After you stop raging, you lose any remaining temporary Hit Points from Rage, and you can’t Rage again for 1 minute.
+                </Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="choice" name="Barbarian Instinct" contents="Barbarian Instinct" />
+        <AttributeMods Proficiency="Trained">Athletics</AttributeMods>
+    </Ability>
+    <Ability name="Basic Fury" level="4" page="221">
+        <Traits>Archetype</Traits>
+        <Archetype>Barbarian</Archetype>
+        <Prerequisites>Barbarian Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level barbarian feat.</Description>
+        <AbilitySlot state="feat" name="Barbarian Feat" type="Class(Barbarian) Feat" level="2"/>
+    </Ability>
+    <Ability name="Instinct Ability" level="6" page="221">
+        <Traits>Archetype</Traits>
+        <Archetype>Barbarian</Archetype>
+        <Prerequisites>Barbarian Dedication</Prerequisites>
+        <GivesPrerequisites>Instinct Ability</GivesPrerequisites>
+        <Description>You gain the instinct ability for the instinct you chose for Barbarian Dedication.</Description>
+    </Ability>
+    <Ability name="Juggernaut's Fortitude" level="12" page="221">
+        <Traits>Archetype</Traits>
+        <Archetype>Barbarian</Archetype>
+        <Prerequisites>Barbarian Dedication</Prerequisites>
+        <Requires>Expert In Fortitude</Requires>
+        <Description>Your proficiency rank in Fortitude saves increases to master.</Description>
+        <AttributeMods Proficiency="Master">Fortitude</AttributeMods>
+    </Ability>
+    <Ability name="Barbarian Resiliency" level="4" page="221">
+        <Template>Multiclass Resiliency</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Barbarian</Archetype>
+        <Prerequisites>Barbarian Dedication</Prerequisites>
+        <Description>You gain 3 additional Hit Points for each barbarian archetype class feat you have. As you continue selecting barbarian archetype class feats, you continue to gain additional Hit Points in this way.</Description>
+    </Ability>
+    <Ability name="Advanced Fury" level="6" page="221">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Barbarian</Archetype>
+        <Prerequisites>Basic Fury</Prerequisites>
+        <Description>You gain one barbarian feat. For the purpose of meeting its prerequisites, your barbarian level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another barbarian feat.&lt;br&gt;</Description>
+    </Ability>
+    <!--Bard-->
+    <Ability name="Basic Muse's Whispers" level="4" page="222">
+        <Traits>Archetype</Traits>
+        <Archetype>Bard</Archetype>
+        <Prerequisites>Bard Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level bard feat.</Description>
+        <AbilitySlot state="feat" name="Bard Feat" type="Class(Bard) Feat" level="2"/>
+    </Ability>
+    <Ability name="Counter Perform" level="6" page="222">
+        <Traits>Archetype</Traits>
+        <Archetype>Bard</Archetype>
+        <Prerequisites>Bard Dedication</Prerequisites>
+        <Description>You gain the counter performance composition spell. If you don’t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by engaging your muse.</Description>
+        <Spell type="Focus Cantrip" name="Counter Performance"/>
+    </Ability>
+    <Ability name="Occult Breadth" level="8" page="222">
+        <Template>Spellcasting Breadth</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Bard</Archetype>
+        <Prerequisites>Basic Bard Spellcasting</Prerequisites>
+        <Description>Your repertoire expands, and you can cast more occult spells each day. Increase the number of spells in your repertoire and the number of spell slots you gain from bard archetype feats by 1 for each spell level other than your two highest spell levels.</Description>
+    </Ability>
+    <Ability name="Expert Bard Spellcasting" level="12" page="222">
+        <Template>Expert Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Bard</Archetype>
+        <Prerequisites>Basic Bard Spellcasting</Prerequisites>
+        <Requires>Master in Occultism</Requires>
+        <Description>You gain the expert spellcasting benefits.</Description>
+    </Ability>
+    <Ability name="Advanced Muse's Whispers" level="6" page="222">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Bard</Archetype>
+        <Prerequisites>Basic Muse’s Whispers</Prerequisites>
+        <Description>You gain one bard feat. For the purpose of meeting its prerequisites, your bard level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another bard feat.&lt;br&gt;</Description>
+    </Ability>
+    <Ability name="Bard Dedication" level="2" page="222">
+        <Traits>Archetype, Dedication, Multiclass</Traits>
+        <Archetype>Bard</Archetype>
+        <Requires>Charisma 14</Requires>
+        <Description>You cast spells like a bard and gain the Cast a Spell activity. You gain a spell repertoire with two common cantrips from the occult spell list, or any other cantrips you learn or discover. You can add to your repertoire common cantrips of your spellcasting tradition, whether from this book or other cantrips of that tradition you learn or discover. You’re trained in spell attack rolls and spell DCs for occult spells. Your key spellcasting ability for bard archetype spells is Charisma, and they are occult bard spells. You become trained in Occultism and Performance; for each of these skills in which you were already trained, you instead become trained in a skill of your choice.&lt;br&gt;&lt;br&gt; Choose a muse as you would if you were a bard. You have that muse for all purposes, allowing you to take that muse’s feats, but you don’t gain any of the other abilities it grants.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot select another dedication feat until you have gained two other feats from the bard archetype.&lt;br&gt;</Description>
+        <AbilitySlot state="choice" name="Bard Muse" contents="Bard Muse" />
+        <Spellcasting listName="Bard" tradition="Occult" type="Spontaneous" ability="Cha" />
+        <SpellSlots count="2" level="0" />
+        <AttributeMods Proficiency="Trained">
+            Occultism, Performance, Occult Spell Attacks, Occult Spell DCs
+        </AttributeMods>
+    </Ability>
+    <Ability name="Basic Bard Spellcasting" level="4" page="222">
+        <Template>Basic Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Bard</Archetype>
+        <Prerequisites>Bard Dedication</Prerequisites>
+        <Description>You gain the Basic Spellcasting Benefitss. Each time you gain a spell slot of a new level from the bard archetype, add a common occult spell or another spell you learned or discovered to your repertoire, of the appropriate spell level.</Description>
+    </Ability>
+    <Ability name="Inspirational Performance" level="8" page="222">
+        <Traits>Archetype</Traits>
+        <Archetype>Bard</Archetype>
+        <Prerequisites>Bard Dedication</Prerequisites>
+        <Description>You gain the inspire courage composition cantrip.</Description>
+        <Spell type="Focus Cantrip" name="Inspire Courage"/>
+    </Ability>
+    <Ability name="Master Bard Spellcasting" level="18" page="222">
+        <Template>Master Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Bard</Archetype>
+        <Prerequisites>Expert Bard Spellcasting</Prerequisites>
+        <Requires>Legendary In Occultism</Requires>
+        <Description>You gain the master spellcasting benefits.</Description>
+    </Ability>
+    <!--Champion-->
+    <Ability name="Champion Dedication" level="2" page="223">
+        <Traits>Archetype, Dedication, Multiclass</Traits>
+        <Archetype>Champion</Archetype>
+        <Requires>Strength 14, Charisma 14</Requires>
+        <Description>Choose a deity and cause as you would if you were a champion. You become trained in light, medium, and heavy armor. You become trained in Religion and your deity’s associated skill; for each of these skills in which you were already trained, you instead become trained in a skill of your choice. You become trained in champion class DC.&lt;br&gt;&lt;br&gt; You are bound by your deity’s anathema and must follow the champion’s code and alignment requirements for your cause. You don’t gain any other abilities from your choice of deity or cause.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot select another dedication feat until you have gained two other feats from the champion archetype.&lt;br&gt;</Description>
         <CustomMod>
             def callback = {attr -> proficiency(attr, "Trained")}
             choose("divineskill", "Cleric Divine Skill Choice", callback, null, 1);
         </CustomMod>
-        <Spellcasting listName="Cleric" tradition="Divine" type="Prepared" ability="Wis" />
-        <SpellSlots count="2" level="0"/>
-        <AttributeMods Proficiency="Trained">Divine Spell Attacks, Divine Spell DCs, Religion</AttributeMods>
+        <AttributeMods Proficiency="Trained">
+            Light Armor, Medium Armor, Heavy Armor, Religion, Class DC (Champion)
+        </AttributeMods>
     </Ability>
+    <Ability name="Champion's Reaction" level="6" page="223">
+        <Traits>Archetype</Traits>
+        <Archetype>Champion</Archetype>
+        <Prerequisites>Champion Dedication</Prerequisites>
+        <GivesPrerequisites>Champion's Reaction</GivesPrerequisites>
+        <Description>You can use the champion’s reaction associated with your cause.</Description>
+    </Ability>
+    <Ability name="Healing Touch" level="4" page="223">
+        <Traits>Archetype</Traits>
+        <Archetype>Champion</Archetype>
+        <Prerequisites>Champion Dedication</Prerequisites>
+        <GivesPrerequisites>Champion Devotion Spell</GivesPrerequisites>
+        <Description>You gain the appropriate devotion spell for your cause (lay on hands for the paladin, redeemer, and liberator). If you don’t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by praying or serving your deity.</Description>
+    </Ability>
+    <Ability name="Divine Ally" level="6" page="223">
+        <Traits>Archetype</Traits>
+        <Archetype>Champion</Archetype>
+        <Prerequisites>Champion Dedication</Prerequisites>
+        <Description>You gain a divine ally of your choice.</Description>
+        <AbilitySlot state="choice" name="Divine Ally" contents="Divine Ally" />
+    </Ability>
+    <Ability name="Basic Devotion" level="4" page="223">
+        <Traits>Archetype</Traits>
+        <Archetype>Champion</Archetype>
+        <Prerequisites>Champion Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level champion feat.</Description>
+        <AbilitySlot state="feat" name="Champion Feat" type="Class(Champion) Feat" level="2"/>
+    </Ability>
+    <Ability name="Champion Resiliency" level="4" page="223">
+        <Template>Multiclass Resiliency</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Champion</Archetype>
+        <Prerequisites>Champion Dedication</Prerequisites>
+        <!--, Class Granting No More Hit Points Per Level Than 8 + Your Constitution Modifier-->
+        <Description>You gain 3 additional Hit Points for each champion archetype class feat you have. As you continue selecting champion archetype class feats, you continue to gain additional Hit Points in this way.</Description>
+    </Ability>
+    <Ability name="Diverse Armor Expert" level="14" page="223">
+        <Traits>Archetype</Traits>
+        <Archetype>Champion</Archetype>
+        <Prerequisites>Champion Dedication</Prerequisites>
+        <Requires>Expert in Unarmored or Expert in Light Armor or Expert in Medium Armor or Expert in Heavy Armor</Requires>
+        <Description>Your proficiency ranks for light armor, medium armor, heavy armor, and unarmored defense increase to expert.</Description>
+        <AttributeMods Proficiency="Expert">Light Armor, Medium Armor, Heavy Armor, Unarmored</AttributeMods>
+    </Ability>
+    <Ability name="Advanced Devotion" level="6" page="223">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Champion</Archetype>
+        <Prerequisites>Basic Devotion</Prerequisites>
+        <Description>You gain one champion feat. For the purpose of meeting its prerequisites, your champion level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another champion feat.&lt;br&gt;</Description>
+    </Ability>
+    <!--Cleric-->
     <Ability name="Basic Cleric Spellcasting" level="4" page="224">
-        <Template>Basic Spellcasting Benefit</Template>
+        <Template>Basic Spellcasting Benefits</Template>
         <Traits>Archetype</Traits>
         <Archetype>Cleric</Archetype>
         <Prerequisites>Cleric Dedication</Prerequisites>
-        <Description>You’re fully immersed in another ancestry’s culture and traditions, whether born into them, earned through rite of passage, or bonded through a deep friendship or romance.Choose a common ancestry. You can select ancestry feats from the ancestry you chose, in addition to your character’s own ancestry, as long as the ancestry feats don’t require any physiological feature that you lack, as determined by the GM.</Description>
+        <Description>You gain the Basic Spellcasting Benefitss. You can prepare your deity’s spells in your spell slots of the appropriate level from the cleric archetype.</Description>
+    </Ability>
+    <Ability name="Advanced Dogma" level="6" page="224">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Cleric</Archetype>
+        <Prerequisites>Basic Dogma</Prerequisites>
+        <Description>You gain one cleric feat. For the purpose of meeting its prerequisites, your cleric level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another cleric feat.&lt;br&gt;</Description>
     </Ability>
     <Ability name="Basic Dogma" level="4" page="224">
         <Traits>Archetype</Traits>
         <Archetype>Cleric</Archetype>
         <Prerequisites>Cleric Dedication</Prerequisites>
         <Description>You gain a 1st- or 2nd-level cleric feat.</Description>
-        <AbilitySlot state="feat" name="Cleric Feat" type="Class(Cleric) Feat" level="2" />
+        <AbilitySlot state="feat" name="Cleric Feat" type="Class(Cleric) Feat" level="2"/>
     </Ability>
-    <Ability name="Advanced Dogma" level="4" page="224" multiple="true">
-        <Template>Advanced Multiclass Feat</Template>
+    <Ability name="Divine Breadth" level="8" page="224">
+        <Template>Spellcasting Breadth</Template>
         <Traits>Archetype</Traits>
         <Archetype>Cleric</Archetype>
-        <Prerequisites>Cleric Dedication</Prerequisites>
-        <Description>You gain one cleric feat. For the purpose of meeting its prerequisites, your cleric level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another cleric feat.</Description>
+        <Prerequisites>Basic Cleric Spellcasting</Prerequisites>
+        <Description>You can cast more divine spells each day. Increase the spell slots you gain from cleric archetype feats by 1 for each spell level other than your two highest spell levels.</Description>
+    </Ability>
+    <Ability name="Cleric Dedication" level="2" page="224">
+        <Traits>Archetype, Dedication, Multiclass</Traits>
+        <Archetype>Cleric</Archetype>
+        <Requires>Wisdom 14</Requires>
+        <Description>You cast spells like a cleric. You gain access to the Cast a Spell activity. You can prepare two common cantrips each day from the divine spell list in this book or any other cantrips you learn or discover. You can prepare common cantrips of your spellcasting tradition, whether from this book or other cantrips of that tradition you learn or discover. You’re trained in spell attack rolls and spell DCs for divine spells. Your key spellcasting ability for cleric archetype spells is Wisdom, and they are divine cleric spells. Choose a deity as you would if you were a cleric. You become bound by that deity’s anathema. You become trained in Religion and your deity’s associated skill; for each of these skills in which you were already trained, you instead become trained in a skill of your choice. You don’t gain any other abilities from your choice of deity.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot select another dedication feat until you have gained two other feats from the cleric archetype.&lt;br&gt;</Description>
+        <CustomMod>
+            def callback = {attr -> proficiency(attr, "Trained")}
+            choose("divineskill", "Cleric Divine Skill Choice", callback, null, 1);
+        </CustomMod>
+        <Spellcasting listName="Cleric" tradition="Divine" type="Prepared" ability="Wis" />
+        <SpellSlots count="2" level="0" />
+        <AttributeMods Proficiency="Trained">
+            Religion, Divine Spell Attacks, Divine Spell DCs
+        </AttributeMods>
+    </Ability>
+    <Ability name="Expert Cleric Spellcasting" level="12" page="224">
+        <Template>Expert Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Cleric</Archetype>
+        <Prerequisites>Basic Cleric Spellcasting</Prerequisites>
+        <Requires>Master in Religion</Requires>
+        <Description>You gain the expert spellcasting benefits.</Description>
+    </Ability>
+    <Ability name="Master Cleric Spellcasting" level="18" page="224">
+        <Template>Master Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Cleric</Archetype>
+        <Prerequisites>Expert Cleric Spellcasting</Prerequisites>
+        <Requires>Legendary In Religion</Requires>
+        <Description>You gain the master spellcasting benefits.</Description>
+    </Ability>
+    <!--Druid-->
+    <Ability name="Basic Wilding" level="4" page="225">
+        <Traits>Archetype</Traits>
+        <Archetype>Druid</Archetype>
+        <Prerequisites>Druid Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level druid feat.</Description>
+        <AbilitySlot state="feat" name="Druid Feat" type="Class(Druid) Feat" level="2"/>
+    </Ability>
+    <Ability name="Basic Druid Spellcasting" level="4" page="225">
+        <Template>Basic Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Druid</Archetype>
+        <Prerequisites>Druid Dedication</Prerequisites>
+        <Description>You gain the Basic Spellcasting Benefitss.</Description>
+    </Ability>
+    <Ability name="Master Druid Spellcasting" level="18" page="225">
+        <Template>Master Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Druid</Archetype>
+        <Prerequisites>Expert Druid Spellcasting</Prerequisites>
+        <Requires>Legendary In Nature</Requires>
+        <Description>You gain the master spellcasting benefits.</Description>
+    </Ability>
+    <Ability name="Expert Druid Spellcasting" level="12" page="225">
+        <Template>Expert Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Druid</Archetype>
+        <Prerequisites>Basic Druid Spellcasting</Prerequisites>
+        <Requires>Master In Nature</Requires>
+        <Description>You gain the expert spellcasting benefits.</Description>
+    </Ability>
+    <Ability name="Druid Dedication" level="2" page="225">
+        <Traits>Archetype, Dedication, Multiclass</Traits>
+        <Archetype>Druid</Archetype>
+        <Requires>Wisdom 14</Requires>
+        <Description>You cast spells like a druid. You gain access to the Cast a Spell activity. You can prepare two common cantrips each day from the primal spell list in this book or any other cantrips you learn or discover. You can prepare common cantrips of your spellcasting tradition, whether from this book or other cantrips of that tradition you learn or discover. You’re trained in spell attack rolls and spell DCs for primal spells. Your key spellcasting ability for druid archetype spells is Wisdom, and they are primal druid spells.&lt;br&gt;&lt;br&gt; You learn the Druidic language.&lt;br&gt;&lt;br&gt; Choose an order as you would if you were a druid. You become a member of that order and are bound by its anathema, allowing you to take the order’s feats. You become trained in Nature and your order’s associated skill; for each of these skills in which you were already trained, you become trained in a skill of your choice. You don’t gain any other abilities from your choice of order.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot select another dedication feat until you have gained two other feats from the druid archetype.&lt;br&gt;</Description>
+        <AbilitySlot state="choice" name="Druidic Order" contents="Druidic Order" />
+        <Spellcasting listName="Cleric" tradition="Divine" type="Prepared" ability="Wis" />
+        <SpellSlots count="2" level="0" />
+        <AttributeMods Proficiency="Trained">
+            Nature, Primal Spell Attacks, Primal Spell DCs
+        </AttributeMods>
+    </Ability>
+    <Ability name="Advanced Wilding" level="6" page="225">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Druid</Archetype>
+        <Prerequisites>Basic Wilding</Prerequisites>
+        <Description>You gain one druid feat. For the purpose of meeting its prerequisites, your druid level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another druid feat.&lt;br&gt;</Description>
+    </Ability>
+    <Ability name="Order Spell" level="4" page="225">
+        <Traits>Archetype</Traits>
+        <Archetype>Druid</Archetype>
+        <Prerequisites>Druid Dedication</Prerequisites>
+        <GivesPrerequisites>Druidic Order Spell</GivesPrerequisites>
+        <Description>You gain the initial order spell from your order. If you don’t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by being one with nature.</Description>
+    </Ability>
+    <Ability name="Primal Breadth" level="8" page="225">
+        <Template>Spellcasting Breadth</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Druid</Archetype>
+        <Prerequisites>Basic Druid Spellcasting</Prerequisites>
+        <Description>Increase the spell slots you gain from druid archetype feats by 1 for each spell level other than your two highest spell levels.</Description>
+    </Ability>
+    <!--Fighter-->
+    <Ability name="Basic Maneuver" level="4" page="226">
+        <Traits>Archetype</Traits>
+        <Archetype>Fighter</Archetype>
+        <Prerequisites>Fighter Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level fighter feat.</Description>
+        <AbilitySlot state="feat" name="Fighter Feat" type="Class(Fighter) Feat" level="2"/>
+    </Ability>
+    <Ability name="Diverse Weapon Expert" level="12" page="226">
+        <Traits>Archetype</Traits>
+        <Archetype>Fighter</Archetype>
+        <Prerequisites>Fighter Dedication</Prerequisites>
+        <Requires>Expert in Unarmed or Expert in Simple Weapons or Expert in Martial Weapons or Expert in Advanced Weapons</Requires>
+        <Description>Your proficiency ranks for simple weapons and martial weapons increase to expert, and your proficiency rank for advanced weapons increases to trained.</Description>
+        <AttributeMods Proficiency="Expert">
+            Simple Weapons, Martial Weapons
+        </AttributeMods>
+        <AttributeMods Proficiency="Trained">
+            Advanced Weapons
+        </AttributeMods>
+    </Ability>
+    <Ability name="Fighter Resiliency" level="4" page="226">
+        <Template>Multiclass Resiliency</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Fighter</Archetype>
+        <Prerequisites>Fighter Dedication, Class Granting No More Hit Points Per Level Than 8 + Your Constitution Modifier</Prerequisites>
+        <Description>You gain 3 additional Hit Points for each fighter archetype class feat you have. As you continue selecting fighter archetype class feats, you continue to gain additional Hit Points in this way.</Description>
+    </Ability>
+    <Ability name="Fighter Dedication" level="2" page="226">
+        <Traits>Archetype, Dedication, Multiclass</Traits>
+        <Archetype>Fighter</Archetype>
+        <Requires>Strength 14, Dexterity 14</Requires>
+        <Description>You become trained in simple weapons and martial weapons. You become trained in your choice of Acrobatics or Athletics; if you are already trained in both of these skills, you instead become trained in a skill of your choice. You become trained in fighter class DC.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot select another dedication feat until you have gained two other feats from the fighter archetype.&lt;br&gt;</Description>
+        <AttributeMods Proficiency="Trained">
+            Simple Weapons, Martial Weapons, Acrobatics or Athletics, Class DC (Fighter)
+        </AttributeMods>
+    </Ability>
+    <Ability name="Opportunist" level="4" page="226" cost="Reaction">
+        <Traits>Archetype</Traits>
+        <Archetype>Fighter</Archetype>
+        <Prerequisites>Fighter Dedication</Prerequisites>
+        <Trigger>A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it’s using.</Trigger>
+        <Description>You gain the Attack of Opportunity reaction.</Description>
+        <AbilitySlot state="filled" name="Attack Of Opportunity">
+            <Ability name="Attack Of Opportunity" cost="Reaction">
+                <Trigger>A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</Trigger>
+                <Description>You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</Description>
+            </Ability>
+        </AbilitySlot>
+    </Ability>
+    <Ability name="Advanced Maneuver" level="6" page="226">
+        <Traits>Archetype</Traits>
+        <Archetype>Fighter</Archetype>
+        <Prerequisites>Basic Maneuver</Prerequisites>
+        <Description>You gain a fighter feat. For the purpose of meeting its prerequisites, your fighter level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another fighter feat.&lt;br&gt;</Description>
+    </Ability>
+    <!--Monk-->
+    <Ability name="Perfection's Path" level="12" page="227">
+        <Traits>Archetype</Traits>
+        <Archetype>Monk</Archetype>
+        <Prerequisites>Monk Dedication</Prerequisites>
+        <Requires>Expert in Fortitude or Expert in Reflex or Expert in Will</Requires>
+        <Description>Choose one saving throw (Fortitude, Reflex, or Will) in which you are an expert. Your proficiency rank in the chosen saving throw increases to master.</Description>
+        <CustomMod>
+            choose("Saving Throw (Expert)", "Perfection's Path Choice", proficiency, "Master", 1);
+        </CustomMod>
+    </Ability>
+    <Ability name="Monk Moves" level="8" page="227">
+        <Traits>Archetype</Traits>
+        <Archetype>Monk</Archetype>
+        <Prerequisites>Monk Dedication</Prerequisites>
+        <Description>You gain a +10-foot status bonus to your Speed when you’re not wearing armor.</Description>
+    </Ability>
+    <Ability name="Monk Dedication" level="2" page="227">
+        <Traits>Archetype, Dedication, Multiclass</Traits>
+        <Archetype>Monk</Archetype>
+        <Requires>Strength 14, Dexterity 14</Requires>
+        <Description>You become trained in unarmed attacks and gain the powerful fist class feature. You become trained in your choice of Acrobatics or Athletics; if you are already trained in both of these skills, you become trained in a skill of your choice. You become trained in monk class DC.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can’t select another dedication feat until you have gained two other feats from the monk archetype.&lt;br&gt;</Description>
+        <AbilitySlot state="filled" name="Powerful Fist">
+            <Ability>
+                <Description>You know how to wield your fists as deadly weapons. The damage die for your fist increases to 1d6 instead of 1d4. Most people take a –2 circumstance penalty when making a lethal attack with nonlethal unarmed attacks, because they find it hard to use their fists with deadly force. You don’t take this penalty when making a lethal attack with your fist or any other unarmed attacks.</Description>
+                <Weapon>
+                    <Name>Fist</Name>
+                    <Damage>1d6 B</Damage>
+                    <Group>Brawling</Group>
+                    <Traits>Agile, Finesse, Nonlethal, Unarmed</Traits>
+                </Weapon>
+            </Ability>
+        </AbilitySlot>
+        <AttributeMods Proficiency="Trained">Unarmed, Acrobatics or Athletics, Class DC (Monk)</AttributeMods>
+    </Ability>
+    <Ability name="Advanced Kata" level="6" page="227">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Monk</Archetype>
+        <Prerequisites>Basic Kata</Prerequisites>
+        <Description>You gain one monk feat. For the purpose of meeting its prerequisites, your monk level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another monk feat.&lt;br&gt;</Description>
+    </Ability>
+    <Ability name="Monk's Flurry" level="10" page="227" cost="1">
+        <Traits>Archetype, Flourish, Monk</Traits>
+        <Archetype>Monk</Archetype>
+        <Prerequisites>Monk Dedication</Prerequisites>
+        <Description>You gain the Flurry of Blows action.</Description>
+        <AbilitySlot state="filled" name="Flurry Of Blows">
+            <Ability cost="1" page="156">
+                <Traits>Flourish, Monk</Traits>
+                <Description>Make two unarmed Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple attack penalty to the Strikes normally. As it has the flourish trait, you can use Flurry of Blows only once per turn.</Description>
+            </Ability>
+        </AbilitySlot>
+    </Ability>
+    <Ability name="Basic Kata" level="4" page="227">
+        <Traits>Archetype</Traits>
+        <Archetype>Monk</Archetype>
+        <Prerequisites>Monk Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level monk feat.</Description>
+        <AbilitySlot state="feat" name="Monk Feat" type="Class(Monk) Feat" level="2"/>
+    </Ability>
+    <Ability name="Monk Resiliency" level="4" page="227">
+        <Template>Multiclass Resiliency</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Monk</Archetype>
+        <Prerequisites>Monk Dedication, Class Granting No More Hit Points Per Level Than 8 + Your Constitution Modifier</Prerequisites>
+        <Description>You gain 3 additional Hit Points for each monk archetype class feat you have. As you continue selecting monk archetype class feats, you continue to gain additional Hit Points in this way.</Description>
+    </Ability>
+    <!--Ranger-->
+    <Ability name="Basic Hunter's Trick" level="4" page="228">
+        <Traits>Archetype</Traits>
+        <Archetype>Ranger</Archetype>
+        <Prerequisites>Ranger Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level ranger feat.</Description>
+        <AbilitySlot state="feat" name="Ranger Feat" type="Class(Ranger) Feat" level="2"/>
+    </Ability>
+    <Ability name="Ranger Resiliency" level="4" page="228">
+        <Template>Multiclass Resiliency</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Ranger</Archetype>
+        <Prerequisites>Ranger Dedication, Class Granting No More Hit Points Per Level Than 8 + Your Constitution Modifier</Prerequisites>
+        <Description>You gain 3 additional Hit Points for each ranger archetype class feat you have. As you continue selecting ranger archetype class feats, you continue to gain additional Hit Points in this way.</Description>
+    </Ability>
+    <Ability name="Advanced Hunter's Trick" level="6" page="228">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Ranger</Archetype>
+        <Prerequisites>Basic Hunter’s Trick</Prerequisites>
+        <Description>You gain one ranger feat. For the purpose of meeting its prerequisites, your ranger level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another ranger feat.&lt;br&gt;</Description>
+    </Ability>
+    <Ability name="Ranger Dedication" level="2" page="228" cost="1">
+        <Traits>Archetype, Dedication, Multiclass, Concentrate, Ranger</Traits>
+        <Archetype>Ranger</Archetype>
+        <Requires>Dexterity 14</Requires>
+        <Description>You become trained in Survival; if you were already trained in Survival, you instead become trained in another skill of your choice. You become trained in ranger class DC.&lt;br&gt;&lt;br&gt; You can use the Hunt Prey action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot select another dedication feat until you have gained two other feats from the ranger archetype.</Description>
+        <AbilitySlot state="filled" name="Hunt Prey">
+            <Ability name="Hunt Prey" cost="1">
+                <Traits>Concentrate</Traits>
+                <Description>You designate a single creature as your prey and focus your attacks against that creature. You must be able to see or hear the prey, or you must be tracking the prey during exploration. You gain a +2 circumstance bonus to Perception checks when you Seek your prey and a +2 circumstance bonus to Survival checks when you Track your prey. You also ignore the penalty for making ranged attacks within your second range increment against the prey you're hunting.
+                    You can have only one creature designated as your prey at a time. If you use Hunt Prey against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next daily preparations.
+                </Description>
+            </Ability>
+        </AbilitySlot>
+        <AttributeMods Proficiency="Trained">Survival, Class DC (Ranger)</AttributeMods>
+    </Ability>
+    <Ability name="Master Spotter" level="12" page="228">
+        <Traits>Archetype</Traits>
+        <Archetype>Ranger</Archetype>
+        <Prerequisites>Ranger Dedication</Prerequisites>
+        <Requires>Expert In Perception</Requires>
+        <Description>Your proficiency rank in Perception increases to master.</Description>
+        <AttributeMods Proficiency="Master">Perception</AttributeMods>
+    </Ability>
+    <!--Rogue-->
+    <Ability name="Sneak Attacker" level="4" page="229">
+        <Traits>Archetype</Traits>
+        <Archetype>Rogue</Archetype>
+        <Prerequisites>Rogue Dedication</Prerequisites>
+        <Description>You gain the sneak attack class feature, except it deals 1d4 damage, increasing to 1d6 at 6th level. You don’t increase the number of dice as you gain levels.</Description>
+        <AbilitySlot state="filled" name="Sneak Attack">
+            <Ability>
+                <Description>When your enemy can’t properly defend itself, you take advantage to deal extra damage. If you Strike a creature that has the flat-footed condition with an agile or finesse melee weapon, an agile or finesse unarmed attack, or a ranged weapon attack, you deal an extra 1d4 precision damage. For a ranged attack with a thrown melee weapon, that weapon must also be agile or finesse.&lt;br&gt;&lt;br&gt;When you reach level 6, the damage increases to 1d6.</Description>
+            </Ability>
+        </AbilitySlot>
+    </Ability>
+    <Ability name="Evasiveness" level="12" page="229">
+        <Traits>Archetype</Traits>
+        <Archetype>Rogue</Archetype>
+        <Prerequisites>Rogue Dedication</Prerequisites>
+        <Requires>Expert in Reflex</Requires>
+        <Description>Your proficiency rank for Reflex saves increases to master.</Description>
+        <AttributeMods Proficiency="Master">Reflex</AttributeMods>
+    </Ability>
+    <Ability name="Skill Mastery" level="8" page="229" multiple="true">
+        <Traits>Archetype</Traits>
+        <Archetype>Rogue</Archetype>
+        <Prerequisites>Rogue Dedication</Prerequisites>
+        <Description>Increase your proficiency rank in one of your skills from expert to master and in another of your skills from trained to expert. You gain a skill feat associated with one of the skills you chose.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat up to five times.&lt;br&gt;</Description>
+        <!--TODO: Support this really weird feat-->
+        <AbilitySlot state="feat" name="Skill Mastery Feat" type="Skill Feat" />
+        <CustomMod>
+            choose("Saving Throw (Trained)", "Skill Mastery (Expert)", proficiency, "Expert", 1);
+            choose("Saving Throw (Expert)", "Skill Mastery (Master)", proficiency, "Master", 1);
+        </CustomMod>
+    </Ability>
+    <Ability name="Rogue Dedication" level="2" page="229">
+        <Traits>Archetype, Dedication, Multiclass</Traits>
+        <Archetype>Rogue</Archetype>
+        <Requires>Dexterity 14</Requires>
+        <Description>You gain a skill feat and the rogue’s surprise attack class feature. You become trained in light armor. In addition, you become trained in Stealth or Thievery plus one skill of your choice; if you are already trained in both Stealth and Thievery, you become trained in an additional skill of your choice. You become trained in rogue class DC.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot gain another dedication feat until you have gained two other feats from the rogue archetype.&lt;br&gt;</Description>
+        <AbilitySlot state="feat" name="Rogue Skill Feat" type="Skill Feat" />
+        <AbilitySlot state="filled" name="Skill Increase" level="1">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Surprise Attack">
+            <Ability>
+                <Description>You spring into combat faster than foes can react. On the first round of combat, if you roll Deception or Stealth for initiative, creatures that haven’t acted are flat-footed to you.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AttributeMods Proficiency="Trained">Light Armor, Stealth or Thievery, Class DC (Rogue)</AttributeMods>
+    </Ability>
+    <Ability name="Uncanny Dodge" level="10" page="229">
+        <Traits>Archetype</Traits>
+        <Archetype>Rogue</Archetype>
+        <Prerequisites>Rogue Dedication</Prerequisites>
+        <Description>You gain the deny advantage class feature.</Description>
+        <AbilitySlot state="filled" name="Deny Advantage">
+            <Ability>
+                <Description>As someone who takes advantage of others’ defenses, you are careful not to leave such openings yourself.
+
+                    You aren’t flat-footed to hidden, undetected, or flanking creatures of your level or lower, or creatures of your level or lower using surprise attack. However, they can still help their allies flank.</Description>
+            </Ability>
+        </AbilitySlot>
+    </Ability>
+    <Ability name="Basic Trickery" level="4" page="229">
+        <Traits>Archetype</Traits>
+        <Archetype>Rogue</Archetype>
+        <Prerequisites>Rogue Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level rogue feat.</Description>
+        <AbilitySlot state="feat" name="Rogue Feat" type="Class(Rogue) Feat" level="2"/>
+    </Ability>
+    <Ability name="Advanced Trickery" level="6" page="229">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Rogue</Archetype>
+        <Prerequisites>Basic Trickery</Prerequisites>
+        <Description>You gain one rogue feat. For the purpose of meeting its prerequisites, your rogue level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another rogue feat.&lt;br&gt;</Description>
+    </Ability>
+    <!--Sorcerer-->
+    <Ability name="Master Sorcerer Spellcasting" level="18" page="230">
+        <Template>Master Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Sorcerer</Archetype>
+        <Prerequisites>Expert Sorcerer Spellcasting</Prerequisites>
+        <Requires>Legendary in Arcana or Legendary in Nature or Legendary in Occultism or Legendary in Religion</Requires>
+        <Description>You gain the master spellcasting benefits.</Description>
+    </Ability>
+    <Ability name="Expert Sorcerer Spellcasting" level="12" page="230">
+        <Template>Expert Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Sorcerer</Archetype>
+        <Prerequisites>Basic Sorcerer Spellcasting</Prerequisites>
+        <Requires>Master in Arcana or Master in Nature or Master in Occultism or Master in Religion</Requires>
+        <Description>You gain the expert spellcasting benefits.</Description>
+    </Ability>
+    <Ability name="Basic Bloodline Spell" level="4" page="230">
+        <Traits>Archetype</Traits>
+        <Archetype>Sorcerer</Archetype>
+        <Prerequisites>Sorcerer Dedication</Prerequisites>
+        <GivesPrerequisites>Sorcerer Bloodline Spell</GivesPrerequisites>
+        <Description>You gain your bloodline’s initial bloodline spell. If you don’t already have one, you also gain a focus pool of 1 Focus Point, which you can Refocus without any special effort.</Description>
+    </Ability>
+    <Ability name="Basic Blood Potency" level="4" page="230">
+        <Traits>Archetype</Traits>
+        <Archetype>Sorcerer</Archetype>
+        <Prerequisites>Sorcerer Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level sorcerer feat.</Description>
+        <AbilitySlot state="feat" name="Sorcerer Feat" type="Class(Sorcerer) Feat" level="2"/>
+    </Ability>
+    <Ability name="Bloodline Breadth" level="8" page="230">
+        <Template>Spellcasting Breadth</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Sorcerer</Archetype>
+        <Prerequisites>Basic Sorcerer Spellcasting</Prerequisites>
+        <Description>Your repertoire expands, and you can cast more spells of your bloodline’s tradition each day. Increase the number of spells in your repertoire and number of spell slots you gain from sorcerer archetype feats by 1 for each spell level other than your two highest spell levels.</Description>
+    </Ability>
+    <Ability name="Sorcerer Dedication" level="2" page="230">
+        <Traits>Archetype, Dedication, Multiclass</Traits>
+        <Archetype>Sorcerer</Archetype>
+        <Requires>Charisma 14</Requires>
+        <Description>Choose a bloodline. You become trained in the bloodline’s two skills; for each of these skills in which you were already trained, you become trained in a skill of your choice. &lt;br&gt;&lt;br&gt;You cast spells like a sorcerer. You gain access to the Cast a Spell activity. You gain a spell repertoire with two common cantrips from the spell list associated with your bloodline, from the spells granted by your bloodline, or any other cantrips of that tradition you learn or discover. You can add to your repertoire common cantrips of your spellcasting tradition, whether from this book or other cantrips of that tradition you learn or discover. You’re trained in spell attack rolls and spell DCs for your tradition’s spells. Your key spellcasting ability for sorcerer archetype spells is Charisma, and they are sorcerer spells of your bloodline’s tradition. You don’t gain any other abilities from your choice of bloodline.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot select another dedication feat until you have gained two other feats from the sorcerer archetype.&lt;br&gt;</Description>
+        <AbilitySlot state="feat" name="Bloodline" type="Bloodline"/>
+        <Spellcasting listName="Sorcerer" ability="Cha" />
+        <SpellSlots count="2" level="0" />
+    </Ability>
+    <Ability name="Advanced Blood Potency" level="6" page="230">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Sorcerer</Archetype>
+        <Prerequisites>Basic Blood Potency</Prerequisites>
+        <Description>You gain one sorcerer feat. For the purpose of prerequisites, your sorcerer level is half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you do, you gain another sorcerer feat.&lt;br&gt;</Description>
+    </Ability>
+    <Ability name="Basic Sorcerer Spellcasting" level="4" page="230">
+        <Template>Basic Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Sorcerer</Archetype>
+        <Prerequisites>Sorcerer Dedication</Prerequisites>
+        <Description>You gain the Basic Spellcasting Benefitss. Each time you gain a spell slot of a new level from the sorcerer archetype, add a spell of the appropriate spell level to your repertoire: a common spell of your bloodline’s tradition, one of your bloodline’s granted spells, or another spell you have learned or discovered.</Description>
+    </Ability>
+    <!--Wizard-->
+    <Ability name="Expert Wizard Spellcasting" level="12" page="231">
+        <Template>Expert Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Wizard</Archetype>
+        <Prerequisites>Basic Wizard Spellcasting</Prerequisites>
+        <Requires>Master in Arcana</Requires>
+        <Description>You gain the expert spellcasting benefits.</Description>
+    </Ability>
+    <Ability name="Advanced Arcana" level="6" page="231">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Wizard</Archetype>
+        <Prerequisites>Basic Arcana</Prerequisites>
+        <Description>You gain one wizard feat. For the purpose of meeting its prerequisites, your wizard level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another wizard feat.&lt;br&gt;</Description>
+    </Ability>
+    <Ability name="Basic Wizard Spellcasting" level="4" page="231">
+        <Template>Basic Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Wizard</Archetype>
+        <Prerequisites>Wizard Dedication</Prerequisites>
+        <Description>You gain the Basic Spellcasting Benefitss. Each time you gain a spell slot of a new level from the wizard archetype, add two common spells of that level to your spellbook.</Description>
+    </Ability>
+    <Ability name="Master Wizard Spellcasting" level="18" page="231">
+        <Template>Master Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Wizard</Archetype>
+        <Prerequisites>Expert Wizard Spellcasting</Prerequisites>
+        <Requires>Legendary In Arcana</Requires>
+        <Description>You gain the master spellcasting benefits.</Description>
+    </Ability>
+    <Ability name="Arcane Breadth" level="8" page="231">
+        <Template>Spellcasting Breadth</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Wizard</Archetype>
+        <Prerequisites>Basic Wizard Spellcasting</Prerequisites>
+        <Description>You can cast more arcane spells each day. Increase the spell slots you gain from wizard archetype feats by 1 for each spell level other than your two highest spell levels.</Description>
+    </Ability>
+    <Ability name="Basic Arcana" level="4" page="231">
+        <Traits>Archetype</Traits>
+        <Archetype>Wizard</Archetype>
+        <Prerequisites>Wizard Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level wizard feat of your choice.</Description>
+    </Ability>
+    <Ability name="Arcane School Spell" level="4" page="231">
+        <Traits>Archetype</Traits>
+        <Archetype>Wizard</Archetype>
+        <Prerequisites>Wizard Dedication</Prerequisites>
+        <Description>Select one arcane school of magic. You gain the school’s initial school spell. If you don’t already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by studying.</Description>
+        <AbilitySlot state="feat" name="Arcane School" type="ArcaneSchool"/>
+    </Ability>
+    <Ability name="Wizard Dedication" level="2" page="231">
+        <Traits>Archetype, Dedication, Multiclass</Traits>
+        <Archetype>Wizard</Archetype>
+        <Requires>Intelligence 14</Requires>
+        <Description>You cast spells like a wizard, gaining a spellbook with four common arcane cantrips of your choice. You gain the Cast a Spell activity. You can prepare two cantrips each day from your spellbook. You’re trained in arcane spell attack rolls and spell DCs. Your key spellcasting ability for wizard archetype spells is Intelligence, and they are arcane wizard spells. You become trained in Arcana; if you were already trained in Arcana, you instead become trained in a skill of your choice.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can’t select another dedication feat until you have gained two other feats from the wizard archetype.&lt;br&gt;</Description>
+        <Spellcasting listName="Wizard" type="Prepared" tradition="Arcane" ability="Int" />
+        <SpellSlots count="2" level="0" />
+        <AttributeMods Proficiency="Trained">Arcane Spell Attacks, Arcane Spell DCs, Arcana</AttributeMods>
     </Ability>
 </pf2:feats>

@@ -17,7 +17,7 @@
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="feat" type="Class Feat" name="Rogue Feat"/>
-		<AbilitySlot state="choice" name="Rogue's Racket">
+		<AbilitySlot state="choice" name="Rogue's Racket" contents="Rogue's Racket">
 			<Ability name="Ruffian">
 				<Description>
 				You prefer to strong-arm or intimidate others rather than rely on finesse or fancy tricks. You might be an enforcer for organized crime, a highway bandit, or a noble who bullies others with threats of your family’s power. Or, you might use your skills on the up and up, in a private security detail or as a guard in a city with the right temperament.

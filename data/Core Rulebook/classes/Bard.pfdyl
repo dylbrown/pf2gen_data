@@ -10,6 +10,7 @@
     <FeatureList level="1">
         <AbilitySlot state="filled" name="Initial Proficiencies">
             <Ability>
+                <GivesPrerequisites>Bard Muse Features</GivesPrerequisites>
                 <AttributeMods Proficiency="Trained">
                     Fortitude, Occultism, Performance, Perception, Reflex, Simple Weapons, Unarmed, Light Armor, Unarmored, Occult Spell Attacks, Occult Spell DCs
                 </AttributeMods>
@@ -67,23 +68,38 @@
                 <Spell type="Focus Cantrip" name="Inspire Courage" />
             </Ability>
         </AbilitySlot>
-        <AbilitySlot state="choice" name="Muses">
+        <AbilitySlot state="choice" name="Bard Muse" contents="Bard Muse">
             <Ability name="Enigma Muse">
                 <Description>Your muse is a mystery, driving you to uncover the hidden secrets of the multiverse. If your muse is a creature, it might be a dragon or otherworldly being; if a deity, it might be Irori or Nethys. You gain the Bardic Lore feat and add true strike to your spell repertoire.</Description>
-                <AbilitySlot state="filled" type="Class Feat" name="Bardic Lore" contents="Bardic Lore"/>
-                <Spell type="Spell" name="True Strike"/>
+                <AbilitySlot state="filled" name="Bard Muse Features">
+                    <Ability>
+                        <PrereqStrings>Bard Muse Features</PrereqStrings>
+                        <AbilitySlot state="filled" type="Class Feat" name="Bardic Lore" contents="Bardic Lore"/>
+                        <Spell type="Spell" name="True Strike"/>
+                    </Ability>
+                </AbilitySlot>
             </Ability>
             <Ability name="Maestro Muse">
                 <Description>Your muse is a virtuoso, inspiring you to greater heights. If it's a creature, it might be a performance-loving creature such as a choral angel or lillend azata; if a deity, it might be Shelyn. As a bard with a maestro muse, you are an inspiration to your allies and confident of your musical and oratorical abilities. You gain the Lingering Composition feat and add soothe to your spell repertoire.</Description>
-                <AbilitySlot state="filled" type="Class Feat" name="Lingering Composition"
-                             contents="Lingering Composition"/>
-                <Spell type="Spell" name="Soothe"/>
+                <AbilitySlot state="filled" name="Bard Muse Features">
+                    <Ability>
+                        <PrereqStrings>Bard Muse Features</PrereqStrings>
+                        <AbilitySlot state="filled" type="Class Feat" name="Lingering Composition"
+                                     contents="Lingering Composition"/>
+                        <Spell type="Spell" name="Soothe"/>
+                    </Ability>
+                </AbilitySlot>
             </Ability>
             <Ability name="Polymath Muse">
                 <Description>Your muse is a jack of all trades, flitting between skills and pursuits. If it's is a creature, it might be an eclectic creature like a fey; if a deity, it might be Desna or Calistria. As a bard with a polymath muse, you are interested in a wide array of topics but rarely dedicated to any one, and you rarely make up your mind—you want to try everything. You gain the Versatile Performance feat and add unseen servant to your spell repertoire.</Description>
-                <AbilitySlot state="filled" type="Class Feat" name="Versatile Performance"
-                             contents="Versatile Performance"/>
-                <Spell type="Spell" name="Unseen Servant"/>
+                <AbilitySlot state="filled" name="Bard Muse Features">
+                    <Ability>
+                        <PrereqStrings>Bard Muse Features</PrereqStrings>
+                        <AbilitySlot state="filled" type="Class Feat" name="Versatile Performance"
+                                     contents="Versatile Performance"/>
+                        <Spell type="Spell" name="Unseen Servant"/>
+                    </Ability>
+                </AbilitySlot>
             </Ability>
         </AbilitySlot>
     </FeatureList>

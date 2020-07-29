@@ -92,7 +92,7 @@ Whenever you critically hit using a battle axe, pick, warhammer, or a dwarf weap
 Increase your maximum Hit Points by your level. You also decrease the DC of recovery checks when you have the dying condition by 1.
 
 If you also have the Toughness feat, the Hit Points gained from it and this feat are cumulative, and you decrease the DC of recovery checks by 4.</Description>
-        <CustomMod>
+        <CustomMod recalculate="On Level">
             bonus("hp", level);
         </CustomMod>
         </Ability>

@@ -14,6 +14,7 @@
     <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
     <AbilitySlot state="filled" name="Initial Proficiencies">
       <Ability>
+        <GivesPrerequisites>Instinct Ability, Barbarian Specialization Ability</GivesPrerequisites>
         <AttributeMods Proficiency="Trained">Reflex, Athletics, Simple Weapons, Martial Weapons, Unarmed, Light Armor, Medium Armor, Unarmored, Class DC (Barbarian)</AttributeMods>
         <AttributeMods Proficiency="Expert">Perception, Fortitude, Will</AttributeMods>
       </Ability>
@@ -33,7 +34,7 @@
         </Description>
       </Ability>
     </AbilitySlot>
-    <AbilitySlot state="choice" name="Instinct">
+    <AbilitySlot state="choice" name="Barbarian Instinct" contents="Barbarian Instinct">
       <Description>Your rage wells up from a dominant instinct—one you learned from a tradition or that comes naturally to you. Your instinct gives you an ability, requires you to avoid certain behaviors, grants you increased damage and resistances at higher levels, and allows you to select feats tied to your instinct. </Description>
       <AbilitySet name="Animal Instinct">
         <Description>The fury of a wild predator fills you when you Rage, granting you ferocious unarmed attacks. Cultures that revere vicious animals (such as apes or bears) give rise to barbarians with this instinct. You might also be at war with an uncontrollable, animalistic side of your personality, or you might be a descendant of a werewolf or another werecreature.</Description>
@@ -41,6 +42,7 @@
           <Description>Flagrantly disrespecting an animal of your chosen kind is anathema to your instinct, as is using weapons while raging.</Description>
         </Ability>
         <Ability name="Bestial Rage">
+          <PrereqStrings>Instinct Ability</PrereqStrings>
           <Description>
             When you Rage, you gain your chosen animal’s unarmed attack (or attacks). The specific attack gained, the damage it deals, and its traits are listed on Table 3–3: Animal Instincts.
 
@@ -141,6 +143,7 @@
         </Ability>
         <Ability name="Specialization Ability">
           <Prerequisites>Weapon Specialization</Prerequisites>
+          <PrereqStrings>Barbarian Specialization Ability</PrereqStrings>
           <Description>Increase the damage die size for the unarmed attacks granted by your chosen animal by one step, and increase the additional damage from Rage from 2 to 5 for your chosen animal’s unarmed attacks. The frog’s tongue attack and deer’s antler attack gain reach 10 feet. If you have greater weapon specialization, increase the damage from Rage from 5 to 12 for your chosen animal’s unarmed attacks.</Description>
         </Ability>
         <Ability name="Raging Resistance (Animal)">
@@ -158,6 +161,7 @@
           <Description>Letting a personal insult against you slide is anathema to your instinct. Choose whether your character respects or abhors your dragon type. If you respect it, defying such a dragon is anathema, and if you abhor it, failing to defeat such a dragon you come across is anathema.</Description>
         </Ability>
         <Ability name="Draconic Rage">
+          <PrereqStrings>Instinct Ability</PrereqStrings>
           <Description>While raging, you can increase the additional damage from Rage from 2 to 4 and change its damage type to match that of your dragon’s breath weapon instead of the damage type for your weapon or unarmed attack. If you do this, your Rage action gains the arcane and evocation traits, as well as the trait matching the damage type.</Description>
           <AbilitySlot state="choice" name="Dragon Choice">
             <Ability name="Black">
@@ -194,6 +198,7 @@
         </Ability>
         <Ability name="Specialization Ability">
           <Prerequisites>Weapon Specialization</Prerequisites>
+          <PrereqStrings>Barbarian Specialization Ability</PrereqStrings>
           <Description>When you use draconic rage, you increase the additional damage from Rage from 4 to 8. If you have greater weapon specialization, instead increase the damage from Rage when using draconic rage from 8 to 16.</Description>
         </Ability>
         <Ability name="Raging Resistance (Dragon)">
@@ -204,11 +209,13 @@
       <AbilitySet name="Fury Instinct">
         <Description>Your rage comes from a deep and purely personal well within you. You use your rage as you choose.</Description>
         <Ability name="Fury Bonus Feat">
+          <PrereqStrings>Instinct Ability</PrereqStrings>
           <Description>You don’t have an anathema or an instinct ability. Instead, you gain an additional 1st-level barbarian feat.</Description>
           <AbilitySlot state="feat" type="Class Feat" name="Instinct Bonus Feat"/>
         </Ability>
         <Ability name="Specialization Ability">
           <Prerequisites>Weapon Specialization</Prerequisites>
+          <PrereqStrings>Barbarian Specialization Ability</PrereqStrings>
           <Description>Increase the additional damage from Rage from 2 to 6. If you have greater weapon specialization, instead increase the additional damage from Rage to 12.</Description>
         </Ability>
         <Ability name="Raging Resistance (Fury)">
@@ -222,10 +229,12 @@
           <Description>Failing to face a personal challenge of strength is anathema.</Description>
         </Ability>
         <Ability name="Titan Mauler">
+          <PrereqStrings>Instinct Ability</PrereqStrings>
           <Description>You can use a weapon built for a Large creature if you are Small or Medium (both normally and when raging). If you’re not Small or Medium, you can use a weapon built for a creature one size larger than you. You gain access to one weapon one size larger than you, of any weapon type otherwise available at character creation. It has the normal Price and Bulk for a weapon of its size. When wielding such a weapon in combat, increase your additional damage from Rage from 2 to 6, but you have the clumsy 1 condition because of the weapon’s unwieldy size. You can’t remove this clumsy condition or ignore its penalties by any means while wielding the weapon.  </Description>
         </Ability>
         <Ability name="Specialization Ability">
           <Prerequisites>Weapon Specialization</Prerequisites>
+          <PrereqStrings>Barbarian Specialization Ability</PrereqStrings>
           <Description>Increase the damage from Rage when using a larger weapon from 6 to 10; if you have greater weapon specialization, increase it from 10 to 18.</Description>
         </Ability>
         <Ability name="Raging Resistance (Giant)">
@@ -239,10 +248,12 @@
           <Description>Disrespecting corpses or spirits is anathema to your instinct; defending yourself against undead creatures is not.</Description>
         </Ability>
         <Ability name="Spirit Rage">
+          <PrereqStrings>Instinct Ability</PrereqStrings>
           <Description>When you are raging, you can increase your damage from Rage from 2 to 3 and deal negative or positive damage, instead of the normal damage type for your weapon or unarmed attack (choose each time you Rage). If you choose to deal negative or positive damage, your weapon or unarmed attack gains the effects of the ghost touch property Rune, which makes it more effective against incorporeal creatures, and your Rage action gains the divine and necromancy traits, plus negative or positive, as appropriate.</Description>
         </Ability>
         <Ability name="Specialization Ability">
           <Prerequisites>Weapon Specialization</Prerequisites>
+          <PrereqStrings>Barbarian Specialization Ability</PrereqStrings>
           <Description>When using spirit rage, increase the damage from Rage from 3 to 7. If you have greater weapon specialization, instead increase the damage when using spirit rage to 13.</Description>
         </Ability>
         <Ability name="Raging Resistance (Spirit)">
