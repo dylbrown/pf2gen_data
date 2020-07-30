@@ -1461,8 +1461,7 @@
         <Range>30 feet</Range>
         <Targets>you and up to 9 allies</Targets>
         <Description>You draw upon your muse to soothe your allies. Choose one of the following three effects: The spell attempts to counteract fear effects on the targets. The spell attempts to counteract effects imposing paralysis on the targets. The spell restores 7d8 Hit Points to the targets.</Description>
-        <Heightened every="1"> When used to heal, </Heightened>
-        <Heightened level="1"> restores 1d8 more Hit Points.</Heightened>
+        <Heightened every="1"> When used to heal, soothing ballad restores 1d8 more Hit Points.</Heightened>
     </Spell>
     <Spell page="400" type="Focus">
         <Name>Impaling Briars</Name>
