@@ -1,0 +1,6 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>Bestiary 1</Name>
+    <ShortName>B1</ShortName>
+    <Creatures name="Creatures" path="creatures.pfdyl" />
+</Source>
