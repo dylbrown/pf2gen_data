@@ -15,7 +15,7 @@
 		<#if reaction>
 			<b>Trigger</b> ${action.getExtensionByName("Activity").trigger}<br><br>
 		</#if>
-		${action.desc}
+		${action.description}
 		</td>
 	</tr>
 </#macro>

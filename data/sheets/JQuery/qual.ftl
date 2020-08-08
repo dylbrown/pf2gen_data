@@ -91,7 +91,7 @@
 <#list character.abilities as ability>
 			<tr class="feat-row">
 				<td valign="top" class="font8 feat-name"><b>${ability.name}</b></td>
-				<td valign="top" align="left" class="font6 feat-desc">${ability.desc}</td>
+				<td valign="top" align="left" class="font6 feat-desc">${ability.description}</td>
 			</tr>
 </#list>
 </table></div>

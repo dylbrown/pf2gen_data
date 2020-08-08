@@ -156,8 +156,16 @@
 			<Description>You add half your Strength modifier (if Positive) to damage rolls with a propulsive ranged weapon. If you have a negative Strength modifier, you add your full Strength modifier instead.</Description>
 		</WeaponTrait>
 		<WeaponTrait>
+			<Name>Range</Name>
+			<Description>Ranged and thrown weapons have a range increment. Attacks with these weapons work normally up to that distance. Attack rolls beyond a weapon’s range increment take a –2 penalty for each additional multiple of that increment between you and the target. Attacks beyond the sixth range increment are impossible.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
 			<Name>Reach</Name>
 			<Description>This weapon is long and can be used to attack creatures up to 10 feet away instead of only adjacent creatures. For creatures that already have reach with the limb or limbs that wield the weapon, the weapon increases their reach by 5 feet.</Description>
+		</WeaponTrait>
+		<WeaponTrait>
+			<Name>Reload</Name>
+			<Description>While all weapons need some amount of time to get into position, many ranged weapons also need to be loaded and reloaded. This entry indicates how many Interact actions it takes to reload such weapons.</Description>
 		</WeaponTrait>
 		<WeaponTrait>
 			<Name>Shove</Name>

@@ -95,7 +95,7 @@
                     [#case "Two"]2[#break]
                     [#case "Three"]3[#break]
                 [/#switch])</div>
-                                <div>[#if ability.desc?length > 45]${ability.desc[0..!45]}[#else]${ability.desc}[/#if]</div>
+                                <div>[#if ability.description?length > 45]${ability.description[0..!45]}[#else]${ability.description}[/#if]</div>
                             </div>
                         [/#if]
                     [/#list]

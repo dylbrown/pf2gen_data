@@ -526,7 +526,7 @@
             [#if ability.hasExtension("Activity")]
             [@linePart label="Trigger" content=ability.getExtensionByName("Activity").trigger /]
             [/#if]
-            <div class="ability-description">${ability.desc}</div>
+            <div class="ability-description">${ability.description}</div>
         </div>
         [/#list]
         <div id="inventory-grid">

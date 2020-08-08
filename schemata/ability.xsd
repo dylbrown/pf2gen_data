@@ -5,10 +5,24 @@
   <xs:include schemaLocation="weapon.xsd"/>
   <xs:complexType name="Ability">
     <xs:sequence>
+      <xs:element name="Template" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            A template to start construction from.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
       <xs:element name="Traits" minOccurs="0" type="xs:string">
         <xs:annotation>
           <xs:documentation>
             A comma-separated list of traits ie. Flourish, Oath, Mental, etc.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Archetype" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            An archetype to which this feat belongs.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -33,12 +47,17 @@
           </xs:documentation>
         </xs:annotation>
       </xs:element>
-      <xs:element name="Requires" minOccurs="0" type="xs:string">
+      <xs:element name="Requires" minOccurs="0">
         <xs:annotation>
           <xs:documentation>
             A comma-separated list of requirements such as "Trained in Athletics", "Expert in Medicine", etc.
           </xs:documentation>
         </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="((Trained|Expert|Master|Legendary) [iI]n \w+( \w+)?( \(\w+\))?|\w+ \d+)((, | or )?((Trained|Expert|Master|Legendary) [iI]n \w+( \w+)?( \(\w+\))?|\w+ \d+))*" />
+          </xs:restriction>
+        </xs:simpleType>
       </xs:element>
       <xs:element name="Trigger" minOccurs="0" type="xs:string">
         <xs:annotation>
@@ -70,16 +89,37 @@
       </xs:element>
       <xs:element name="AbilitySlot" type="pf2:AbilitySlot" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="Weapon" type="pf2:Weapon" minOccurs="0" maxOccurs="unbounded"/>
-      <xs:element name="CustomMod" minOccurs="0" type="xs:string">
+      <xs:element name="CustomMod" minOccurs="0">
         <xs:annotation>
           <xs:documentation>
             Allows for customized Javascript-based functionality.
           </xs:documentation>
         </xs:annotation>
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:restriction base="xs:string">
+              <xs:attribute name="recalculate">
+                <xs:annotation>
+                  <xs:documentation>
+                    What should trigger recalculating this mod? Default is Never.
+                  </xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="On Level"/>
+                    <xs:enumeration value="Always"/>
+                    <xs:enumeration value="Never"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+            </xs:restriction>
+          </xs:simpleContent>
+        </xs:complexType>
       </xs:element>
       <xs:element name="Spellcasting" minOccurs="0">
         <xs:complexType>
-          <xs:attribute name="tradition" use="required">
+          <xs:attribute name="listName" use="required" type="xs:string" />
+          <xs:attribute name="tradition">
             <xs:simpleType>
               <xs:restriction base="xs:string">
                 <xs:enumeration value="Arcane"/>
@@ -89,7 +129,7 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
-          <xs:attribute name="type" use="required">
+          <xs:attribute name="type">
             <xs:simpleType>
               <xs:restriction base="xs:string">
                 <xs:enumeration value="Spontaneous"/>
@@ -98,14 +138,14 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
+          <xs:attribute name="ability">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:pattern value="(Str(ength)?|Dex(terity)?|Con(stitution)?|Int(elligence)?|Wis(dom)?|Cha(risma)?)" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
         </xs:complexType>
-      </xs:element>
-      <xs:element name="SpellcastingAbility" minOccurs="0">
-        <xs:simpleType>
-          <xs:restriction base="xs:string">
-            <xs:pattern value="(Str|Dex|Con|Int|Wis|Cha)" />
-          </xs:restriction>
-        </xs:simpleType>
       </xs:element>
       <xs:element name="SpellsKnown" minOccurs="0" maxOccurs="unbounded">
         <xs:complexType>
@@ -153,7 +193,7 @@
         <xs:complexType>
           <xs:simpleContent>
             <xs:restriction base="pf2:attrmods">
-                  <xs:pattern value="[^\w]*((Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore ?\([^()]*\)|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery|Fortitude|Reflex|Will|Perception|Simple Weapons|Martial Weapons|Advanced Weapons|Unarmed|Light Armor|Medium Armor|Heavy Armor|Unarmored|Shields|(Arcane|Divine|Occult|Primal) Spell (Attacks|D[cC]s)|Class D[cC]|None)(, ?| or ))*(Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore ?\([^()]*\)|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery|Fortitude|Reflex|Will|Perception|Simple Weapons|Martial Weapons|Advanced Weapons|Unarmed|Light Armor|Medium Armor|Heavy Armor|Unarmored|Shields|(Arcane|Divine|Occult|Primal) Spell (Attacks|D[cC]s)|Class D[cC]|None)[^\w]*"/>
+                  <xs:pattern value="[^\w]*((Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore ?\([^()]*\)|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery|Fortitude|Reflex|Will|Perception|Simple Weapons|Martial Weapons|Advanced Weapons|Unarmed|Light Armor|Medium Armor|Heavy Armor|Unarmored|Shields|(Arcane|Divine|Occult|Primal) Spell (Attacks|D[cC]s)|Class D[cC]( \(\w+\))?|None)(, ?| or ))*(Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore ?\([^()]*\)|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery|Fortitude|Reflex|Will|Perception|Simple Weapons|Martial Weapons|Advanced Weapons|Unarmed|Light Armor|Medium Armor|Heavy Armor|Unarmored|Shields|(Arcane|Divine|Occult|Primal) Spell (Attacks|D[cC]s)|Class D[cC]( \(\w+\))?|None)[^\w]*"/>
             </xs:restriction>
           </xs:simpleContent>
         </xs:complexType>
@@ -275,7 +315,7 @@
       </xs:annotation>
       <xs:simpleType>
         <xs:restriction base="xs:string">
-          <xs:pattern value="((Heritage|Ancestry|Class|Skill|General|Bloodline|Arcane(Thesis|School)) ?)*(Feat)?"/>
+          <xs:pattern value="((Heritage|Ancestry|Class(\(\w+\))?|Skill|General|Bloodline|Arcane(Thesis|School)) ?)*(Feat)?"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
@@ -295,8 +335,8 @@
     </xs:attribute>
   </xs:complexType>
   <xs:simpleType name="level">
-    <xs:restriction base="xs:positiveInteger">
-      <xs:maxInclusive value="20"/>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([1-9]|1\d|20)\+?"/>
     </xs:restriction>
   </xs:simpleType>
   <xs:complexType name="AbilitySet">
@@ -314,7 +354,7 @@
   <xs:complexType name="attrmods">
     <xs:simpleContent>
       <xs:extension base="xs:string">
-        <xs:attribute name="Proficiency">
+        <xs:attribute name="Proficiency" use="required">
           <xs:annotation>
             <xs:documentation>
               Proficiency granted to the given attributes
@@ -333,6 +373,13 @@
     </xs:simpleContent>
   </xs:complexType>
   <xs:element name="feats">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Ability" type="pf2:Ability" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="templates">
     <xs:complexType>
       <xs:sequence>
         <xs:element name="Ability" type="pf2:Ability" maxOccurs="unbounded"/>

@@ -131,7 +131,7 @@
 			[#case "One"]① [#break]
 			[#case "Two"]② [#break]
 			[#case "Three"]③ [#break]
-		[/#switch] </b> [/#if]${ability.desc}
+		[/#switch] </b> [/#if]${ability.description}
 		[#if reaction]
 			<br><b>Trigger</b> ${ability.getExtensionByName("Activity").trigger}
 		[/#if]
