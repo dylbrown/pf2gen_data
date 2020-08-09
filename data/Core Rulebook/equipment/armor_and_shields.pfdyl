@@ -18,24 +18,6 @@
             <Effect>The sturdy plate provides no purchase for a cutting edge. You gain resistance to slashing damage equal to 1 + the value of the armor’s Potency Rune for medium armor, or 2 + the value of the armor’s Potency Rune for heavy armor.</Effect>
         </ArmorGroup>
 	</Groups>
-    <Traits>
-        <ArmorTrait>
-            <Name>Bulwark</Name>
-            <Description>The armor covers you so completely that it provides benefits against some damaging effects. On Reflex saves to avoid a damaging effect, such as a fireball, you add a +3 modifier instead of your Dexterity modifier.</Description>
-        </ArmorTrait>
-        <ArmorTrait>
-            <Name>Comfort</Name>
-            <Description>The armor is so comfortable that you can rest normally while wearing it.</Description>
-        </ArmorTrait>
-        <ArmorTrait>
-            <Name>Flexible</Name>
-            <Description>The armor is flexible enough that it doesn’t hinder most actions. You don’t apply its check penalty to Acrobatics or Athletics checks.</Description>
-        </ArmorTrait>
-        <ArmorTrait>
-            <Name>Noisy</Name>
-            <Description>This armor is loud and likely to alert others to your presence when you’re using the Avoid Notice exploration activity.</Description>
-        </ArmorTrait>
-    </Traits>
     <Light>
         <Armor>
             <Name>Padded Armor</Name>

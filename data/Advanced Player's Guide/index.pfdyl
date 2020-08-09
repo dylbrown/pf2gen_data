@@ -2,5 +2,5 @@
 <Source>
     <Name>Advanced Player's Guide</Name>
     <ShortName>APG</ShortName>
-    <Weapons name="Weapons" path="weapons.pfdyl" />
+    <Traits name="Traits" path="traits.pfdyl" />
 </Source>

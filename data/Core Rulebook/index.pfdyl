@@ -57,4 +57,5 @@
         <Category name="Spells" path="spells/spells.pfdyl" />
     </Spells>
     <Templates name="Templates" path="ability_templates.pfdyl" />
+    <Traits name="Traits" path="traits.pfdyl" />
 </Source>

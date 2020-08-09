@@ -1,0 +1,57 @@
+<?xml version = "1.0"?>
+<traits>
+    <Category name="Class">
+        <Trait page="268">
+            <Name>Investigator</Name>
+            <Description>This trait indicates abilities from the investigator class.</Description>
+        </Trait>
+        <Trait page="270">
+            <Name>Swashbuckler</Name>
+            <Description>This trait indicates abilities from the swashbuckler class.</Description>
+        </Trait>
+        <Trait page="271">
+            <Name>Witch</Name>
+            <Description>This trait indicates abilities from the witch class.</Description>
+        </Trait>
+        <Trait page="269">
+            <Name>Oracle</Name>
+            <Description>This trait indicates abilities from the oracle class.</Description>
+        </Trait>
+    </Category>
+    <Category name="Weapon">
+        <Trait page="266">
+            <Name>Concealable</Name>
+            <Description>This weapon is designed to be inconspicuous or easily concealed. You gain a +2 circumstance bonus to Stealth checks and DCs to hide or conceal a weapon with this trait.</Description>
+        </Trait>
+        <Trait page="269">
+            <Name>Ranged Trip</Name>
+            <Description>This weapon can be used to Trip with the Athletics skill at a distance up to the weapon's first range increment. The skill check takes a –2 circumstance penalty. You can add the weapon's item bonus to attack rolls as a bonus to the check. As with using a melee weapon to trip, a ranged trip doesn't deal any damage when used to Trip. This trait usually appears only on a thrown weapon.</Description>
+        </Trait>
+    </Category>
+    <Category name="Core">
+        <Trait page="268">
+            <Name>Hex</Name>
+            <Description>A hex is a short-term effect generated on the fly from your patron's magic, requiring your familiar to draw from your patron. As such, you can cast only one spell with the hex trait each turn; attempts to cast a second hex spell on the same turn fail, and the spellcasting actions are lost.</Description>
+        </Trait>
+        <Trait page="268">
+            <Name>Lineage</Name>
+            <Description>A feat with this trait indicates a character's descendance from a particular type of creature. You can have only one lineage feat. You can select a lineage feat only at 1st level, and you can't retrain into or out of these feats.</Description>
+        </Trait>
+        <Trait page="271">
+            <Name>Vigilante</Name>
+            <Description>Using actions and abilities with the vigilante trait while in your social identity risks exposing you as a vigilante.</Description>
+        </Trait>
+        <Trait page="267">
+            <Name>Cursebound</Name>
+            <Description>Spells with this trait increase the severity of your oracular curse when cast. Usually only revelation spells have this trait. You can't cast a cursebound spell if you don't have an oracular curse.</Description>
+        </Trait>
+        <Trait page="270">
+            <Name>Social</Name>
+            <Description>Actions and abilities with the social trait can be used only while a vigilante is in their social identity.</Description>
+        </Trait>
+        <Trait page="267">
+            <Name>Finisher</Name>
+            <Description>Finishers are spectacular finishing moves that use your panache. You can use a finisher only if you have panache, and you lose your panache immediately after performing a finisher. Once you use a finisher, you can't use any actions that have the attack trait for the rest of your turn.&lt;br&gt;&lt;br&gt; Some actions that have the finisher trait also grant an effect on a failure. Effects added on a failure don't apply on a critical failure. If your finisher action succeeds, you can still choose to apply the failure effect instead. For example, you might do this when an attack deals no damage due to resistance.</Description>
+        </Trait>
+    </Category>
+</traits>
