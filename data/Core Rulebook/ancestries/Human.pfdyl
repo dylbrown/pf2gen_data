@@ -102,48 +102,48 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<!--Half-Orc Specific Ancestry Feats-->
 		<Ability name="Monstrous Peacemaker" level="1">
+			<Prerequisites>Half-Orc</Prerequisites>
 			<Description>Your dual human and orc nature has given you a unique perspective, allowing you to bridge the gap between humans and the many intelligent creatures in the world that humans consider monsters. You gain a +1 circumstance bonus to Diplomacy checks against non-humanoid intelligent creatures and against humanoids that are marginalized in human society (at the GM's discretion, but typically at least including giants, goblins, kobolds, and orcs). You also gain this bonus on Perception checks to Sense the Motives of such creatures. </Description>
-			<Prerequisites>Half-Orc</Prerequisites>
         </Ability>
-		<Ability name="Orc Ferocity" level="1" cost="reaction">
-			<Frequency>1/Day</Frequency>
-			<Trigger>You would be reduced to 0 Hit Points but not immediately killed.</Trigger>
-			<Description>Fierceness in battle runs through your blood, and you refuse to fall from your injuries. You avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1.</Description>
+		<Ability name="Orc Ferocity" level="1" cost="Reaction">
 			<Prerequisites>Half-Orc</Prerequisites>
+			<Trigger>You would be reduced to 0 Hit Points but not immediately killed.</Trigger>
+			<Frequency>1/Day</Frequency>
+			<Description>Fierceness in battle runs through your blood, and you refuse to fall from your injuries. You avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1.</Description>
         </Ability>
 		<Ability name="Orc Sight" level="1" >
-			<Description>Your orc blood is strong enough to grant you the keen vision of your orc forebears. You gain darkvision, allowing you to see in darkness and dim light just as well as you can in bright light. However, in darkness, you see in black and white only.&lt;br&gt;&lt;br&gt;Special You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</Description>
 			<Prerequisites>Half-Orc</Prerequisites>
+			<Description>Your orc blood is strong enough to grant you the keen vision of your orc forebears. You gain darkvision, allowing you to see in darkness and dim light just as well as you can in bright light. However, in darkness, you see in black and white only.&lt;br&gt;&lt;br&gt;Special You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</Description>
         </Ability>
-		<Ability name="Orc Superstition" level="1" cost="reaction">
+		<Ability name="Orc Superstition" level="1" cost="Reaction">
+			<Prerequisites>Half-Orc</Prerequisites>
 			<Trigger>You attempt a saving throw against a spell or magical effect, before rolling.</Trigger>
 			<Description>You defend yourself against magic by relying on techniques derived from orc cultural superstitions. You gain a +1 circumstance bonus to your saving throw against the triggering spell or magical effect. </Description>
-			<Prerequisites>Half-Orc</Prerequisites>
         </Ability>
 		<Ability name="Orc Weapon Familiarity" level="1" >
-			<Description>In combat, you favor the brutal weapons that are traditional for your orc ancestors. You are trained with the falchion and greataxe. In addition, you gain access to all uncommon orc weapons.&lt;br&gt;&lt;br&gt;For you, martial orc weapons are simple weapons, and advanced orc weapons are martial weapons. </Description>
 			<Prerequisites>Half-Orc</Prerequisites>
+			<Description>In combat, you favor the brutal weapons that are traditional for your orc ancestors. You are trained with the falchion and greataxe. In addition, you gain access to all uncommon orc weapons.&lt;br&gt;&lt;br&gt;For you, martial orc weapons are simple weapons, and advanced orc weapons are martial weapons. </Description>
         </Ability>
 		<Ability name="Orc Weapon Carnage" level="5" >
-			<Description>You are brutally efficient with the weapons of your orc ancestors. Whenever you critically hit using a falchion, a greataxe, or an orc weapon, you apply the weapon's critical specialization effect. </Description>
 			<Prerequisites>Orc Weapon Familiarity, Half-Orc</Prerequisites>
+			<Description>You are brutally efficient with the weapons of your orc ancestors. Whenever you critically hit using a falchion, a greataxe, or an orc weapon, you apply the weapon's critical specialization effect. </Description>
         </Ability>
-		<Ability name="Victorious Vigor" level="5" cost="free">
+		<Ability name="Victorious Vigor" level="5" cost="Free">
+			<Prerequisites>Half-Orc</Prerequisites>
 			<Trigger>You bring a foe to 0 Hit Points.</Trigger>
 			<Description>Your victories in battle fill you with pride and imbue you with the energy to fight a bit longer despite your wounds. You gain temporary Hit Points equal to your Constitution modifier until the end of your next turn. </Description>
-			<Prerequisites>Half-Orc</Prerequisites>
         </Ability>
 		<Ability name="Pervasive Superstition" level="9">
-			<Description>You steep yourself in superstition and practice ancient orc mental exercises for shrugging off the effects of magic. You gain a +1 circumstance bonus to saving throws against spells and magical effects at all times. </Description>
 			<Prerequisites>Orc Superstition, Half-Orc</Prerequisites>
+			<Description>You steep yourself in superstition and practice ancient orc mental exercises for shrugging off the effects of magic. You gain a +1 circumstance bonus to saving throws against spells and magical effects at all times. </Description>
         </Ability>
 		<Ability name="Incredible Ferocity" level="13">
-            <Description>Given time to collect yourself after a near-death scrape, you can rebuild your ferocity and withstand additional finishing blows. You can use Orc Ferocity with a frequency of once per hour, rather than once per day.</Description>
 			<Prerequisites>Orc Ferocity, Half-Orc</Prerequisites>
+            <Description>Given time to collect yourself after a near-death scrape, you can rebuild your ferocity and withstand additional finishing blows. You can use Orc Ferocity with a frequency of once per hour, rather than once per day.</Description>
         </Ability>
 		<Ability name="Orc Weapon Expertise" level="13">
-            <Description>You've continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for Unconventional Weaponry. </Description>
 			<Prerequisites>Weapon Familiarity (Orc), Half-Orc</Prerequisites>
+            <Description>You've continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for Unconventional Weaponry. </Description>
         </Ability>
 	</Feats>
-</ancestry>
+</pf2:ancestry>
