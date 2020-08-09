@@ -1,5 +1,7 @@
 <?xml version = "1.0"?>
-<traits>
+<pf2:traits xmlns:pf2="https://dylbrown.github.io"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="https://dylbrown.github.io ../../schemata/trait.xsd">
     <Category name="Tradition">
         <Trait page="634">
             <Name>Occult</Name>
@@ -866,4 +868,4 @@
             <Description>This feat belongs to an archetype.</Description>
         </Trait>
     </Category>
-</traits>
+</pf2:traits>

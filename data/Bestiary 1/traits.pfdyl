@@ -1,5 +1,7 @@
 <?xml version = "1.0"?>
-<traits>
+<pf2:traits xmlns:pf2="https://dylbrown.github.io"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="https://dylbrown.github.io ../../schemata/trait.xsd">
     <Category name="Monster">
         <Trait page="345">
             <Name>Amphibious</Name>
@@ -218,4 +220,4 @@
             <Description>&lt;i&gt;No Description&lt;/i&gt;</Description>
         </Trait>
     </Category>
-</traits>
+</pf2:traits>

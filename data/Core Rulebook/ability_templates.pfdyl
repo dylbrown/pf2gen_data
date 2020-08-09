@@ -1,7 +1,7 @@
 <?xml version = "1.0"?>
 <pf2:templates xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="https://dylbrown.github.io ../../schemata/class.xsd">
+           xsi:schemaLocation="https://dylbrown.github.io ../../schemata/abc/class.xsd">
     <Ability name="Basic Spellcasting Benefits">
         <GivesPrerequisites>Basic Spellcasting Benefits</GivesPrerequisites>
         <CustomMod recalculate="On Level">

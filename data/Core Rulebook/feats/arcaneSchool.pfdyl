@@ -1,7 +1,7 @@
 <?xml version = "1.0"?>
 <pf2:feats xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/class.xsd">
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
     <Ability name="Abjuration School" page="207">
         <Description>As an abjurer, you master the art of protection, strengthening defenses, preventing attacks, and even turning magic against itself. You understand that an ounce of prevention is worth a pound of cure. You add one 1st-level abjuration spell (such as feather fall) to your spellbook. You learn the protective ward school spell.</Description>
         <AbilitySlot state="filled" name="Advanced Abjuration Spell">

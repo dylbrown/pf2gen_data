@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" ?>
 <pf2:class xmlns:pf2="https://dylbrown.github.io"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/class.xsd">
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
 	<Name>Ranger</Name>
 	<HP>10</HP>
 	<AbilityChoices>Str or Dex</AbilityChoices>
@@ -54,7 +54,7 @@ You can have only one creature designated as your prey at a time. If you use Hun
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Weapon Expertise">
 			<Ability>
-				<Description>Your proficiency rank increases to expert for the simple and martial weapons of that group (Axes). You gain access to the critical specialization effects of all simple and martial weapons in that group.</Description>
+				<Description>Your proficiency rank increases to Expert for the simple and martial weapons of that group (Axes). You gain access to the critical specialization effects of all simple and martial weapons in that group.</Description>
 				<CustomMod>
                     choose("WeaponGroup", "Weapon Expertise Choice", weaponGroupProficiency, "Expert", 1);
 				</CustomMod>
@@ -62,7 +62,7 @@ You can have only one creature designated as your prey at a time. If you use Hun
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Iron Will">
 			<Ability>
-				<Description>Your training has hardened your resolve. Your proficiency rank for Will saves increases to expert.</Description>
+				<Description>Your training has hardened your resolve. Your proficiency rank for Will saves increases to Expert.</Description>
 				<AttributeMods Proficiency="Expert">Will</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -86,7 +86,7 @@ You can have only one creature designated as your prey at a time. If you use Hun
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Weapon Expertise">
 			<Ability>
-				<Description>You’ve dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple and martial weapons increases to expert. You gain access to the critical specialization effects of all simple and martial weapons when attacking your hunted prey.</Description>
+				<Description>You’ve dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple and martial weapons increases to Expert. You gain access to the critical specialization effects of all simple and martial weapons when attacking your hunted prey.</Description>
 				<AttributeMods Proficiency="Expert">Simple Weapons, Martial Weapons</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -98,7 +98,7 @@ You can have only one creature designated as your prey at a time. If you use Hun
 	<FeatureList level="7">
 		<AbilitySlot state="filled" name="Evasion">
 			<Ability>
-				<Description>You’ve learned to move quickly to avoid explosions, dragons’ breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</Description>
+				<Description>You’ve learned to move quickly to avoid explosions, dragons’ breath, and worse. Your proficiency rank for Reflex saves increases to Master. When you roll a success on a Reflex save, you get a critical success instead.</Description>
 				<AttributeMods Proficiency="Master">Reflex</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -108,15 +108,15 @@ You can have only one creature designated as your prey at a time. If you use Hun
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Vigilant Senses">
 			<Ability>
-				<Description>Through your adventuring, you’ve developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master.</Description>
+				<Description>Through your adventuring, you’ve developed keen awareness and attention to detail. Your proficiency rank for Perception increases to Master.</Description>
 				<AttributeMods Proficiency="Master">Perception</AttributeMods>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Weapon Specialization">
 			<Ability>
-				<Description>You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert.
+				<Description>You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an Expert.
 
-This damage increases to 3 if you’re a master, and to 4 if you’re legendary.</Description>
+This damage increases to 3 if you’re a Master, and to 4 if you’re Legendary.</Description>
 				<CustomMod>
 					def weaponSpecialization = {weapon, damage ->
 					def proficiency = get("Attributes").getProficiency(weapon.getProficiency(), weapon);
@@ -147,7 +147,7 @@ This damage increases to 3 if you’re a master, and to 4 if you’re legendary.
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Ranger Expertise">
 			<Ability>
-				<Description>You’ve practiced your techniques to make them harder to resist. Your proficiency rank for your ranger class DC increases to expert.</Description>
+				<Description>You’ve practiced your techniques to make them harder to resist. Your proficiency rank for your ranger class DC increases to Expert.</Description>
 				<AttributeMods Proficiency="Master">Class DC (Ranger)</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -166,7 +166,7 @@ This damage increases to 3 if you’re a master, and to 4 if you’re legendary.
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
 		<AbilitySlot state="filled" name="Juggernaut">
 			<Ability>
-				<Description>Your body is accustomed to physical hardship and resistant to ailments. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead.</Description>
+				<Description>Your body is accustomed to physical hardship and resistant to ailments. Your proficiency rank for Fortitude saves increases to Master. When you roll a success on a Fortitude save, you get a critical success instead.</Description>
 				<AttributeMods Proficiency="Master">Fortitude</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -174,7 +174,7 @@ This damage increases to 3 if you’re a master, and to 4 if you’re legendary.
 			<Ability>
 				<Description>You’ve learned to defend yourself better against attacks.
 
-Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert.</Description>
+Your proficiency ranks for light armor, medium armor, and unarmored defense increase to Expert.</Description>
 				<AttributeMods Proficiency="Expert">Light Armor, Medium Armor, Unarmored</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -202,7 +202,7 @@ You can ignore the effects of non-magical difficult terrain. As normal for ignor
 			<Ability>
 				<Description>You fully understand the intricacies of your weapons.
 
-Your proficiency ranks for simple and martial weapons increase to master.</Description>
+Your proficiency ranks for simple and martial weapons increase to Master.</Description>
 				<AttributeMods Proficiency="Expert">Simple Weapons, Martial Weapons</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -218,7 +218,7 @@ Your proficiency ranks for simple and martial weapons increase to master.</Descr
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
 		<AbilitySlot state="filled" name="Greater Weapon Specialization">
 			<Ability>
-				<Description>Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you’re an expert, 6 if you’re a master, and 8 if you’re legendary.</Description>
+				<Description>Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you’re an Expert, 6 if you’re a Master, and 8 if you’re Legendary.</Description>
 				<CustomMod>
 					def weaponSpecialization = {weapon, damage ->
 					def proficiency = get("Attributes").getProficiency(weapon.getProficiency(), weapon);
@@ -237,7 +237,7 @@ Your proficiency ranks for simple and martial weapons increase to master.</Descr
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Improved Evasion">
 			<Ability>
-				<Description>Your ability to elude danger is matchless. Your proficiency rank for Reflex saves increases to legendary. When you roll a critical failure on a Reflex save, you get a failure instead.
+				<Description>Your ability to elude danger is matchless. Your proficiency rank for Reflex saves increases to Legendary. When you roll a critical failure on a Reflex save, you get a failure instead.
 
 When you fail a Reflex save against a damaging effect, you take half damage.</Description>
 				<AttributeMods Proficiency="Legendary">Reflex</AttributeMods>
@@ -245,7 +245,7 @@ When you fail a Reflex save against a damaging effect, you take half damage.</De
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Incredible Senses">
 			<Ability>
-				<Description>You notice things almost impossible for an ordinary person to detect. Your proficiency rank for Perception increases to legendary.</Description>
+				<Description>You notice things almost impossible for an ordinary person to detect. Your proficiency rank for Perception increases to Legendary.</Description>
 				<AttributeMods Proficiency="Legendary">Perception</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -261,17 +261,17 @@ When you fail a Reflex save against a damaging effect, you take half damage.</De
 		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
 		<AbilitySlot state="filled" name="Masterful Hunter">
 			<Ability>
-				<Description>You have honed your abilities as a hunter to incredible levels. Your proficiency rank for your ranger class DC increases to master. When using a ranged weapon that you have master proficiency in, you can ignore the penalty if attacking your hunted prey within the weapon’s second and third range increments.
+				<Description>You have honed your abilities as a hunter to incredible levels. Your proficiency rank for your ranger class DC increases to Master. When using a ranged weapon that you have Master proficiency in, you can ignore the penalty if attacking your hunted prey within the weapon’s second and third range increments.
 
-If you have master proficiency in Perception, you gain a +4 circumstance bonus to Perception checks when you Seek your prey, and if you have master proficiency in Survival, you gain a +4 circumstance bonus to Survival checks when you Track your prey.
+If you have Master proficiency in Perception, you gain a +4 circumstance bonus to Perception checks when you Seek your prey, and if you have Master proficiency in Survival, you gain a +4 circumstance bonus to Survival checks when you Track your prey.
 
 You also gain an additional benefit depending on your hunter’s edge.
 
-Flurry: You can blend your weapon mastery with skillful targeting to make a series of precise attacks. If you have master proficiency with your weapon, your multiple attack penalty for attacks against your hunted prey is –2 (–1 with an agile weapon) on your second attack of the turn, and –4 (–2 with an agile weapon) on your third and subsequent attacks of the turn.
+Flurry: You can blend your weapon Mastery with skillful targeting to make a series of precise attacks. If you have Master proficiency with your weapon, your multiple attack penalty for attacks against your hunted prey is –2 (–1 with an agile weapon) on your second attack of the turn, and –4 (–2 with an agile weapon) on your third and subsequent attacks of the turn.
 
-Precision: Your weapon mastery allows you to hit your prey’s vital areas multiple times. The second time in a round you hit your hunted prey, you also deal 1d8 precision damage. At 19th level, your second hit in a round against your hunted prey deals 2d8 precision damage, and your third hit in a round against your hunted prey deals 1d8 precision damage.
+Precision: Your weapon Mastery allows you to hit your prey’s vital areas multiple times. The second time in a round you hit your hunted prey, you also deal 1d8 precision damage. At 19th level, your second hit in a round against your hunted prey deals 2d8 precision damage, and your third hit in a round against your hunted prey deals 1d8 precision damage.
 
-Outwit: Your mastery of skills allows you to overwhelm your prey. If you have master proficiency in Deception, Intimidation, Stealth, or the skill you use to Recall Knowledge about your prey, increase the circumstance bonus against the prey with that skill from +2 to +4. If you have master proficiency with your armor, increase the circumstance bonus to AC against the prey from +1 to +2.</Description>
+Outwit: Your Mastery of skills allows you to overwhelm your prey. If you have Master proficiency in Deception, Intimidation, Stealth, or the skill you use to Recall Knowledge about your prey, increase the circumstance bonus against the prey with that skill from +2 to +4. If you have Master proficiency with your armor, increase the circumstance bonus to AC against the prey from +1 to +2.</Description>
 				<AttributeMods Proficiency="Master">Class DC (Ranger)</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -287,7 +287,7 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
 		<AbilitySlot state="filled" name="Second Skin">
 			<Ability>
-				<Description>Your armor has become akin to a second skin for you. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to master. When wearing light or medium armor, you can rest normally, rather than receiving poor rest that leaves you fatigued.</Description>
+				<Description>Your armor has become akin to a second skin for you. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to Master. When wearing light or medium armor, you can rest normally, rather than receiving poor rest that leaves you fatigued.</Description>
 				<AttributeMods Proficiency="Master">Light Armor, Medium Armor, Unarmored</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -383,7 +383,7 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 			<Traits>Ranger</Traits>
       <Prerequisites> Snare Crafting</Prerequisites>
       <Requires>Expert in Crafting</Requires>
-			<Description>You specialize in creating quick traps to obstruct your enemies on the battlefield. If your proficiency rank in Crafting is expert, you gain the formulas for three common or uncommon snares. If your rank is master, you gain 6. If your rank is legendary, you gain 9.Each day during your daily preparations, you can prepare four snares from your formula book for quick deployment; if they normally take 1 minute to Craft, you can Craft them with 3 Interact actions. The number of snares increases to six if you have master proficiency in Crafting and eight if you have legendary proficiency in Crafting. Snares prepared in this way don’t cost you any resources to Craft.</Description>
+			<Description>You specialize in creating quick traps to obstruct your enemies on the battlefield. If your proficiency rank in Crafting is Expert, you gain the formulas for three common or uncommon snares. If your rank is Master, you gain 6. If your rank is Legendary, you gain 9.Each day during your daily preparations, you can prepare four snares from your formula book for quick deployment; if they normally take 1 minute to Craft, you can Craft them with 3 Interact actions. The number of snares increases to six if you have Master proficiency in Crafting and eight if you have Legendary proficiency in Crafting. Snares prepared in this way don’t cost you any resources to Craft.</Description>
 		</Ability>
 		<Ability name="Twin Parry" level="4" cost="One">
 			<Traits>Ranger</Traits>
@@ -398,7 +398,7 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		<Ability name="Quick Snares" level="6">
 			<Traits>Ranger</Traits>
       <Prerequisites> Snare Specialist</Prerequisites>
-      <Requires>expert in Crafting</Requires>
+      <Requires>Expert in Crafting</Requires>
 			<Description>You can rig a snare in only moments. You can Craft snares that normally take 1 minute to Craft with 3 Interact actions, even if you haven’t prepared them.</Description>
 		</Ability>
 		<Ability name="Skirmish Strike" level="6" cost="One">
@@ -412,12 +412,12 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		<Ability name="Swift Tracker" level="6">
 			<Traits>Ranger</Traits>
       <Prerequisites> Experienced Tracker</Prerequisites>
-      <Requires>expert in Survival</Requires>
-			<Description>Your keen eyes catch signs of passage even when you’re moving.You can move at your full Speed while you Track. If you have master proficiency in Survival, you don’t need to attempt a new Survival check every hour while Tracking. If you have legendary proficiency in Survival, you can use another exploration activity while Tracking.If you roll Survival for initiative while tracking your hunted prey, when you start your first turn of the encounter, you can Stride toward your hunted prey as a free action.</Description>
+      <Requires>Expert in Survival</Requires>
+			<Description>Your keen eyes catch signs of passage even when you’re moving.You can move at your full Speed while you Track. If you have Master proficiency in Survival, you don’t need to attempt a new Survival check every hour while Tracking. If you have Legendary proficiency in Survival, you can use another exploration activity while Tracking.If you roll Survival for initiative while tracking your hunted prey, when you start your first turn of the encounter, you can Stride toward your hunted prey as a free action.</Description>
 		</Ability>
 		<Ability name="Blind-fight" level="8">
 			<Traits>Ranger</Traits>
-			<Requires>master in Perception</Requires>
+			<Requires>Master in Perception</Requires>
 			<Description>Your battle instincts make you more aware of concealed and invisible opponents. You don’t need to succeed at a flat check to target concealed creatures. You’re not flat-footed to creatures that are hidden from you (unless you’re flat-footed to them for reasons other than the hidden condition), and you need only a successful DC 5 flat check to target a hidden creature.While you’re adjacent to an undetected creature of your level or lower, it is instead only hidden from you.</Description>
 		</Ability>
 		<Ability name="Deadly Aim" level="8" cost="One">
@@ -432,13 +432,13 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		<Ability name="Powerful Snares" level="8">
 			<Traits>Ranger</Traits>
       <Prerequisites> Snare Specialist</Prerequisites>
-      <Requires>master in Crafting</Requires>
+      <Requires>Master in Crafting</Requires>
 			<Description>Your snares are particularly difficult for enemies to avoid.When you set a snare, the saving throw DC for that snare is equal to its normal DC or your class DC, whichever is higher.</Description>
 		</Ability>
 		<Ability name="Terrain Master" level="8">
 			<Traits>Ranger</Traits>
       <Prerequisites>wild stride,  Favored Terrain</Prerequisites>
-      <Requires> master in Survival</Requires>
+      <Requires>Master in Survival</Requires>
 			<Description>You adapt to your surroundings in any natural terrain. You can spend 1 hour practicing in your current terrain in order to make it your favored terrain, replacing your current favored terrain temporarily. If you spend a full day out of the new favored terrain, your favored terrain reverts back to your original choice when you took the Favored Terrain feat.</Description>
 		</Ability>
 		<Ability name="Warden’s Boon" level="8" cost="One">
@@ -447,7 +447,7 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		</Ability>
 		<Ability name="Camouflage" level="10">
 			<Traits>Ranger</Traits>
-			<Requires>master in Stealth</Requires>
+			<Requires>Master in Stealth</Requires>
 			<Description>You alter your appearance to blend in to the wilderness. In natural terrain, you can Sneak even if you’re observed.</Description>
 		</Ability>
 		<Ability name="Incredible Companion" level="10">
@@ -458,7 +458,7 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		<Ability name="Master Monster Hunter" level="10">
 			<Traits>Ranger</Traits>
 			<Prerequisites> Monster Hunter</Prerequisites>
-			<Requires>master in Nature</Requires>
+			<Requires>Master in Nature</Requires>
 			<Description>You have a nearly encyclopedic knowledge of all creatures of the world. You can use Nature to Recall Knowledge to identify any creature. In addition, you gain the benefits of Monster Hunter (and Monster Warden, if you have it) on a success as well as a critical success.</Description>
 		</Ability>
 		<Ability name="Penetrating Shot" level="10" cost="Two">
@@ -474,7 +474,7 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		</Ability>
 		<Ability name="Warden’s Step" level="10">
 			<Traits>Ranger</Traits>
-			<Requires>master in Stealth</Requires>
+			<Requires>Master in Stealth</Requires>
 			<Description>You can guide your allies to move quietly through the wilderness. When you Sneak during exploration in natural terrain, you can designate any number of your allies to gain the benefits as if they were using that activity during that exploration. This requires no action on their part.</Description>
 		</Ability>
 		<Ability name="Distracting Shot" level="12">
@@ -488,7 +488,7 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		<Ability name="Lightning Snares" level="12">
 			<Traits>Ranger</Traits>
       <Prerequisites> Snare Specialist</Prerequisites>
-      <Requires>master in Crafting</Requires>
+      <Requires>Master in Crafting</Requires>
 			<Description>You can rig a trap with incredible speed. When you create a snare that normally takes 1 minute to Craft, you can Craft it using a single Interact action instead.</Description>
 		</Ability>
 		<Ability name="Second Sting" level="12" cost="One">
@@ -513,7 +513,7 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		<Ability name="Stealthy Companion" level="14">
 			<Traits>Ranger</Traits>
 			<Prerequisites>Camouflage</Prerequisites>
-			<Description>You’ve trained your animal companion to blend in to its surroundings. Your animal companion gains the benefit of the Camouflage feat. If your companion is a specialized ambusher, its proficiency rank for Stealth increases to master (or legendary if it was already master).</Description>
+			<Description>You’ve trained your animal companion to blend in to its surroundings. Your animal companion gains the benefit of the Camouflage feat. If your companion is a specialized ambusher, its proficiency rank for Stealth increases to Master (or Legendary if it was already Master).</Description>
 		</Ability>
 		<Ability name="Targeting Shot" level="14" cost="One">
 			<Traits>Concentrate, Press, Ranger</Traits>
@@ -536,7 +536,7 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		<Ability name="Legendary Monster Hunter" level="16">
 			<Traits>Ranger</Traits>
       <Prerequisites>Master Monster Hunter</Prerequisites>
-      <Requires>legendary in Nature</Requires>
+      <Requires>Legendary in Nature</Requires>
 			<Description>Your knowledge of monsters is so incredible that it reveals glaring flaws in your prey. Your bonus from Monster Hunter (and the bonus from Monster Warden if you have it) increases from +1 to +2 for you and any allies who benefit.</Description>
 		</Ability>
 		<Ability name="Specialized Companion" level="16">
@@ -561,13 +561,13 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		</Ability>
 		<Ability name="Manifold Edge" level="18">
 			<Traits>Ranger</Traits>
-			<Prerequisites>hunter’s edge,  masterful hunter</Prerequisites>
-			<Description>You’ve learned every possible edge to use against your foes.When you use Hunt Prey, you can gain a hunter’s edge benefit other than the one you selected at . If you do, you don’t gain the additional benefit from masterful hunter.</Description>
+			<Prerequisites>hunter’s edge,  Masterful hunter</Prerequisites>
+			<Description>You’ve learned every possible edge to use against your foes.When you use Hunt Prey, you can gain a hunter’s edge benefit other than the one you selected at . If you do, you don’t gain the additional benefit from Masterful hunter.</Description>
 		</Ability>
 		<Ability name="Masterful Companion" level="18">
 			<Traits>Ranger</Traits>
-			<Prerequisites>masterful hunter,  Animal Companion</Prerequisites>
-			<Description>Your animal companion shares your incredible hunting skills, allowing it to take down your shared prey with ease. When you Hunt Prey, your animal companion gains the masterful hunter benefit associated with your hunter’s edge, rather than just your original hunter’s edge benefit.</Description>
+			<Prerequisites>Masterful hunter,  Animal Companion</Prerequisites>
+			<Description>Your animal companion shares your incredible hunting skills, allowing it to take down your shared prey with ease. When you Hunt Prey, your animal companion gains the Masterful hunter benefit associated with your hunter’s edge, rather than just your original hunter’s edge benefit.</Description>
 		</Ability>
 		<Ability name="Perfect Shot" level="18" cost="Three">
 			<Traits>Flourish, Ranger</Traits>
@@ -581,14 +581,14 @@ Outwit: Your mastery of skills allows you to overwhelm your prey. If you have ma
 		</Ability>
 		<Ability name="Legendary Shot" level="20">
 			<Traits>Ranger</Traits>
-      <Prerequisites>masterful hunter,  Far Shot</Prerequisites>
-      <Requires> legendary in Perception</Requires>
-			<Description>You focus on your hunted prey, perceiving angles, air resistance, and every variable that would affect your ranged attack. If you have master proficiency with your ranged weapon, you can ignore the penalty for attacking up to five range increments away when attacking your hunted prey.</Description>
+      <Prerequisites>Masterful hunter,  Far Shot</Prerequisites>
+      <Requires>Legendary in Perception</Requires>
+			<Description>You focus on your hunted prey, perceiving angles, air resistance, and every variable that would affect your ranged attack. If you have Master proficiency with your ranged weapon, you can ignore the penalty for attacking up to five range increments away when attacking your hunted prey.</Description>
 		</Ability>
 		<Ability name="To The Ends Of The Earth" level="20">
 			<Traits>Ranger</Traits>
-			<Requires>legendary in Survival</Requires>
-			<Description>Your ability to track your prey has surpassed explanation, allowing you to trace your prey’s movements and predict its location with ease. When you use Hunt Prey on a creature within 100 feet, you can follow that creature’s movements, allowing you to know the creature’s exact location no matter how far away it becomes, as long as it remains your prey. You must be legendary in Nature to track your prey’s location across teleportation or planar travel. This feat gains the detection, divination, and primal traits if you’re legendary in Nature.</Description>
+			<Requires>Legendary in Survival</Requires>
+			<Description>Your ability to track your prey has surpassed explanation, allowing you to trace your prey’s movements and predict its location with ease. When you use Hunt Prey on a creature within 100 feet, you can follow that creature’s movements, allowing you to know the creature’s exact location no matter how far away it becomes, as long as it remains your prey. You must be Legendary in Nature to track your prey’s location across teleportation or planar travel. This feat gains the detection, divination, and primal traits if you’re Legendary in Nature.</Description>
 		</Ability>
 		<Ability name="Triple Threat" level="20">
 			<Traits>Ranger</Traits>

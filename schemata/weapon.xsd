@@ -6,28 +6,28 @@
     <xs:complexType name="Weapon">
         <xs:sequence>
             <xs:element name="Name" type="xs:string"/>
-            <xs:element name="Price" type="xs:string" minOccurs="0">
+            <xs:element name="Price" minOccurs="0">
                 <xs:simpleType>
                     <xs:restriction base="xs:token">
                         <xs:pattern value="[\d.]+ [sgpc]p"/>
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="Damage" type="xs:string">
+            <xs:element name="Damage">
                 <xs:simpleType>
                     <xs:restriction base="xs:token">
                         <xs:pattern value="\d+d\d+( ?\+ ?\d+)?( ?[SBP])?"/>
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="Bulk" type="xs:string" minOccurs="0">
+            <xs:element name="Bulk" minOccurs="0">
                 <xs:simpleType>
                     <xs:restriction base="xs:token">
                         <xs:pattern value="(L|\d+)"/>
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="Hands" type="xs:string" minOccurs="0">
+            <xs:element name="Hands" minOccurs="0">
                 <xs:simpleType>
                     <xs:restriction base="xs:token">
                         <xs:pattern value="[012]"/>

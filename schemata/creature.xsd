@@ -10,36 +10,36 @@
             <xs:element name="Traits" type="xs:string"/>
             <xs:element name="Perception">
                 <xs:simpleType>
-                    <xs:restriction>
-                        <xs:pattern value="\+\d{1,2}(;( \w+)+)?" />
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="\+\d{1,2}(;( [\w(),\+\-;]+)+)?" />
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
             <xs:element name="Languages" minOccurs="0">
                 <xs:simpleType>
-                    <xs:restriction>
-                        <xs:pattern value="\w+(, \w+)*" />
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="\w+(, \w+)*(;[\w ;()',.]*)?" />
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
             <xs:element name="Skills">
                 <xs:simpleType>
-                    <xs:restriction>
-                        <xs:pattern value="(Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore ?\([^()]*\)|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery) \+\d{1,2}(\([^)]+\))?(, (Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore ?\([^()]*\)|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery) \+\d{1,2}(\([^)]+\))?)*" />
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="(Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|([\w\-]+ )?Lore|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery) \+\d{1,2} ?(\([^)]+\))?(, (Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|([\w\-]+ )?Lore|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery) \+\d{1,2} ?(\([^)]+\))?)*" />
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
             <xs:element name="AbilityScores">
                 <xs:simpleType>
-                    <xs:restriction>
-                        <xs:pattern value="Str \+\d{1,2}, Dex \+\d{1,2}, Con \+\d{1,2}, Int \+\d{1,2}, Wis \+\d{1,2}, Cha \+\d{1,2}" />
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="Str [\+\-]\d{1,2}, Dex [\+\-]\d{1,2}, Con [\+\-]\d{1,2}, Int [\+\-]\d{1,2}, Wis [\+\-]\d{1,2}, Cha [\+\-]\d{1,2}" />
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
             <xs:element name="Items" minOccurs="0">
                 <xs:simpleType>
-                    <xs:restriction>
-                        <xs:pattern value="[\w() ]+(, [\w() ]+)*" />
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[\w() '\+\-\d]+(, [\w() '\+\-\d]+)*" />
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
@@ -103,8 +103,7 @@
                         <xs:element name="Spells" maxOccurs="unbounded">
                             <xs:complexType>
                                 <xs:simpleContent>
-                                    <xs:restriction base="xs:string">
-                                        <xs:pattern value="[\w ]+(\([\w \d]+\))?(, [\w ]+(\([\w \d]+\))?)*" />
+                                    <xs:extension base="pf2:CreatureSpells">
                                         <xs:attribute name="level">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
@@ -113,7 +112,7 @@
                                             </xs:simpleType>
                                         </xs:attribute>
                                         <xs:attribute name="slots" type="xs:positiveInteger"/>
-                                    </xs:restriction>
+                                    </xs:extension>
                                 </xs:simpleContent>
                             </xs:complexType>
                         </xs:element>
@@ -141,6 +140,11 @@
         </xs:attribute>
         <xs:attribute name="page" type="xs:nonNegativeInteger" />
     </xs:complexType>
+    <xs:simpleType name="CreatureSpells">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[\w ]+(\([\w \d,;]+\))?(, [\w ]+(\([\w \d,;]+\))?)*" />
+        </xs:restriction>
+    </xs:simpleType>
     <xs:element name="creatures">
         <xs:complexType>
             <xs:sequence>
@@ -148,4 +152,18 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:element name="families">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Family" type="pf2:Family" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="Family">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Description" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="page" type="xs:integer"/>
+    </xs:complexType>
 </xs:schema>

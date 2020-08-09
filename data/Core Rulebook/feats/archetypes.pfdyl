@@ -1,7 +1,7 @@
 <?xml version = "1.0"?>
 <pf2:feats xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/class.xsd">
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
     <!--Alchemist-->
     <Ability name="Basic Concoction" level="4" page="220">
         <Traits>Archetype</Traits>

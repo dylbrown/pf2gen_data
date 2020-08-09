@@ -1,7 +1,7 @@
 <?xml version = "1.0"?>
 <pf2:Bloodlines xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/bloodline.xsd">
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/bloodline.xsd">
     <Bloodline name="Aberrant" page="195">
         <Description>Something speaks to you from beyond the stars or below the earth. Ancient and unknowable, this alien infiuence presses against your mind.</Description>
         <Tradition>Occult</Tradition>

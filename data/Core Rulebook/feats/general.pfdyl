@@ -1,7 +1,7 @@
 <?xml version = "1.0"?>
 <pf2:feats xmlns:pf2="https://dylbrown.github.io"
 	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/class.xsd">
+	   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
 	<Ability name="Adopted Ancestry" level="1">
 		<Description>You’re fully immersed in another ancestry’s culture and traditions, whether born into them, earned through rite of passage, or bonded through a deep friendship or romance.Choose a common ancestry. You can select ancestry feats from the ancestry you chose, in addition to your character’s own ancestry, as long as the ancestry feats don’t require any physiological feature that you lack, as determined by the GM.</Description>
 	</Ability>

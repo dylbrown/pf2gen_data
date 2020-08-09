@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:pf2="https://dylbrown.github.io"
+           targetNamespace="https://dylbrown.github.io">
+    <xs:include schemaLocation="../ability.xsd"/>
+    <xs:element name="backgrounds">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Background" type="pf2:Background" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="Background">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string" />
+            <xs:element name="Description" type="xs:string" />
+            <xs:element name="Skill" type="pf2:CommaWordList" />
+            <xs:element name="AbilityBonuses" type="pf2:AbilityScoreList" />
+            <xs:element name="Feat">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[\w ]+"></xs:pattern>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="page" type="xs:string">
+            <xs:annotation>
+                <xs:documentation>
+                    Reference Page for Background
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+</xs:schema>

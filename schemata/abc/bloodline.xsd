@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:pf2="https://dylbrown.github.io"
            targetNamespace="https://dylbrown.github.io">
-    <xs:include schemaLocation="ability.xsd"/>
+    <xs:include schemaLocation="../ability.xsd"/>
     <xs:complexType name="Bloodline">
         <xs:sequence>
             <xs:element name="Description" type="xs:string"/>

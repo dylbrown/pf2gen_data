@@ -3850,7 +3850,7 @@
         <Spells>
             <Title>Druid Order Spells</Title>
             <DC>21</DC>
-            <Spells level="2">wild morph, wild shape (1 Focus Point), All Monsters in "Changeling", NameLevelChangeling Exile3, Changeling</Spells>
+            <Spells level="2">wild morph, wild shape (1 Focus Point)</Spells>
         </Spells>
         <Description>This changeling exile is the child of a night hag or dreamthief hag.&lt;br&gt;&lt;br&gt;&lt;b&gt;Recall Knowledge - Humanoid (Society)&lt;/b&gt;: DC 18</Description>
     </Creature>
@@ -4632,7 +4632,7 @@
             <Spells level="3">blindness, meld into stone</Spells>
             <Spells level="2">acid arrow, deafness, spider climb</Spells>
             <Spells level="1">ant haul, shocking grasp, ventriloquism</Spells>
-            <Spells level="0 (3rd)">acid splash, detect magic, prestidigitation, produce flame, read aura, All Monsters in "Deep Gnome", NameLevelDeep Gnome Rockwarden5Deep Gnome Scout1Deep Gnome Warrior2, Deep Gnome</Spells>
+            <Spells level="0 (3rd)">acid splash, detect magic, prestidigitation, produce flame, read aura</Spells>
         </Spells>
         <Description>Deep gnome rockwardens follow druidic teachings and commune with the natural elemental influences and denizens of the Darklands. They know that not everything that lives below ground is sinister and evil, but they also understand that all primal spirits and entities must be respected.&lt;br&gt;&lt;br&gt;&lt;b&gt;Recall Knowledge - Humanoid (Society)&lt;/b&gt;: DC 20</Description>
     </Creature>
@@ -4710,7 +4710,7 @@
         <Spells>
             <Title>Primal Innate Spells</Title>
             <DC>15</DC>
-            <Spells level="1">illusory disguise, All Monsters in "Deep Gnome", NameLevelDeep Gnome Rockwarden5Deep Gnome Scout1Deep Gnome Warrior2, Deep Gnome</Spells>
+            <Spells level="1">illusory disguise</Spells>
         </Spells>
         <Description>Deep gnome warriors are quick to charge into battle but focus on defending their kin and their homes over more aggressive tactics when a choice is available.&lt;br&gt;&lt;br&gt;&lt;b&gt;Recall Knowledge - Humanoid (Society)&lt;/b&gt;: DC 16</Description>
     </Creature>
@@ -5176,7 +5176,7 @@
             <DC>18</DC>
             <Attack>+8</Attack>
             <Spells level="1">command, grim tendrils (x2), magic missile</Spells>
-            <Spells level="0 (1st)">chill touch, detect magic, prestidigitation, ray of frost, shield, All Monsters in "Dhampir", NameLevelDhampir Wizard2, Dhampir</Spells>
+            <Spells level="0 (1st)">chill touch, detect magic, prestidigitation, ray of frost, shield</Spells>
         </Spells>
         <Description>This dhampir is a svetocher, the child of a moroi vampire.&lt;br&gt;&lt;br&gt;&lt;b&gt;Recall Knowledge - Humanoid (Society)&lt;/b&gt;: DC 16</Description>
     </Creature>
@@ -5567,7 +5567,7 @@
             <Spells level="3">dispel magic, levitate (x3)</Spells>
             <Spells level="2">darkness (at will), faerie fire (at will)</Spells>
             <Spells level="1">command (at will)</Spells>
-            <Spells level="0 (4th)">dancing lights, All Monsters in "Drow", NameLevelDrow Fighter1Drow Priestess3Drow Rogue2, Drow</Spells>
+            <Spells level="0 (4th)">dancing lights</Spells>
         </Spells>
         <OffensiveAbilities>
             <Ability name="lethargy poison">
@@ -6432,7 +6432,7 @@
         <Languages>Celestial, Common, Draconic, Infernal; telepathy 100 feet</Languages>
         <Skills>Acrobatics +17, Crafting +14, Deception +19, Diplomacy +15, Intimidation +19, Religion +16, Stealth +17</Skills>
         <AbilityScores>Str +5, Dex +5, Con +5, Int +2, Wis +4, Cha +5</AbilityScores>
-        <Items>+1 striking composite longbow (60 arrows), 100 feet of erinys-hair rope, breastplate, longsword</Items>
+        <Items>+1 striking composite longbow (60 arrows), 100 feet of erinyes-hair rope, breastplate, longsword</Items>
         <AC>27</AC>
         <Saves>Fort +17, Ref +19, Will +16; +1 status to all saves vs. magic</Saves>
         <HP>120</HP>
@@ -8632,7 +8632,7 @@
             <DC>16</DC>
             <Attack>+6</Attack>
             <Spells level="1" slots="3">burning hands, grease</Spells>
-            <Spells level="0 (1st)">light, mage hand, produce flame, tanglefoot, All Monsters in "Goblin", NameLevelGoblin Commando1Goblin Pyro1Goblin War Chanter1Goblin Warrior-1, Goblin</Spells>
+            <Spells level="0 (1st)">light, mage hand, produce flame, tanglefoot</Spells>
         </Spells>
         <Description>Some goblins take their people's admiration of fire fully into the realm of deadly obsession. These pyromaniacs can be a great boon to a band of goblin raiders eager to torch their enemies and wreak havoc. More often, however, their presence is a double-edged sword; in the heat of the moment, goblin pyros sometimes lose sight of their tribe's goals and simply set fire to anything that will burn—including their own allies.&lt;br&gt;&lt;br&gt;&lt;b&gt;Recall Knowledge - Humanoid (Society)&lt;/b&gt;: DC 15</Description>
     </Creature>
@@ -8958,7 +8958,7 @@
         <Traits>Uncommon, CE, Huge, Giant, Humanoid, Mutant</Traits>
         <Perception>+22; low-light vision</Perception>
         <Languages>Common, Cyclops, Jotun</Languages>
-        <Skills>any one Lore +18, Athletics +25, Survival +22</Skills>
+        <Skills>one Lore +18, Athletics +25, Survival +22</Skills>
         <AbilityScores>Str +7, Dex +1, Con +6, Int -2, Wis +4, Cha -1</AbilityScores>
         <Items>greatclub, hide armor</Items>
         <AC>32</AC>
@@ -10739,7 +10739,7 @@
         <Spells>
             <Title>Divine Rituals</Title>
             <DC>32</DC>
-            <Spells level="3">geas,  Inevitable Fates, All Monsters in "Aeon", NameLevelArbiter1Axiomite8Bythos16Kolyarut12Marut15Pleroma20Theletos7Zelekhut9, Aeon</Spells>
+            <Spells level="3">geas, Inevitable Fates</Spells>
         </Spells>
         <Description>Kolyarut inevitables are enforcers of bargains and punishers of those who fail to uphold them. Their humanoid shape, ability to disguise themselves among a humanoid population, and diplomatic leanings make them the most approachable inevitables, and thus more likely to ally themselves with others. They are among the most talkative of all inevitables, naturally possessing a courtly grace and an encyclopedic knowledge of social customs, which they use to assist their efforts in gathering information on their targets or issuing challenges in a legal manner.&lt;br&gt;&lt;br&gt;&lt;b&gt;Recall Knowledge - Monitor (Religion)&lt;/b&gt;: DC 30</Description>
     </Creature>
@@ -13926,7 +13926,7 @@
         <Name>Pugwampi</Name>
         <Family>Gremlin</Family>
         <Traits>NE, Tiny, Fey, Gremlin</Traits>
-        <Perception>+6; (–2 to hear things); darkvision</Perception>
+        <Perception>+6; (-2 to hear things); darkvision</Perception>
         <Languages>Gnoll, Undercommon</Languages>
         <Skills>Crafting +2, Deception +2, Nature +4, Stealth +5, Thievery +5</Skills>
         <AbilityScores>Str -3, Dex +3, Con +0, Int +0, Wis +2, Cha -2</AbilityScores>
@@ -13960,7 +13960,7 @@
             <Title>Primal Innate Spells</Title>
             <DC>16</DC>
             <Spells level="2">speak with animals (at will)</Spells>
-            <Spells level="0 (1st)">prestidigitation, All Monsters in "Gremlin", NameLevelJinkin1Mitflit-1Nuglub2Pugwampi0Vexgit1, Gremlin</Spells>
+            <Spells level="0 (1st)">prestidigitation</Spells>
         </Spells>
         <Description>Mean, dog-faced, and craven, pugwampis take disproportionate enjoyment from the accidents and missteps of other creatures—something that happens often due to the supernatural aura of ill fortune these gremlins project. They enjoy preparing pranks involving spikes, excrement, pits full of spiders, and the like. Pugwampis are somewhat deaf and thus often yell loudly to each other when not hiding. Many pugwampis worship gnolls as gods and aspire to be more like gnolls, although gnolls hate pugwampis even more than most creatures do, due to their sycophantic fawning.&lt;br&gt;&lt;br&gt;&lt;b&gt;Recall Knowledge - Fey (Nature)&lt;/b&gt;: DC 14</Description>
     </Creature>
@@ -16292,7 +16292,7 @@
             <Title>Primal Innate Spells</Title>
             <DC>16</DC>
             <Spells level="1">color spray</Spells>
-            <Spells level="0 (1st)">dancing lights, daze, detect magic, All Monsters in "Sprite", NameLevelGrig1Pixie4Sprite-1, Sprite</Spells>
+            <Spells level="0 (1st)">dancing lights, daze, detect magic</Spells>
         </Spells>
         <Description>Common sprites are primeval guardians that latch onto a person, place, or object and defend it for their own inscrutable reasons. Their dispositions vary from kind to spiteful, but all sprites have a capricious streak. Being only about 9 inches tall, they are wary of animals that might hunt them, particularly house cats, and prefer flight to a fight. On the other hand, sprites are incredibly curious about all forms of magic and heedlessly gather around ley line nexuses or other places of power.&lt;br&gt;&lt;br&gt;&lt;b&gt;Recall Knowledge - Fey (Nature)&lt;/b&gt;: DC 13</Description>
     </Creature>

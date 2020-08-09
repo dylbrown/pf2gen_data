@@ -1,5 +1,7 @@
 <?xml version = "1.0"?>
-<ancestry>
+<pf2:ancestry xmlns:pf2="https://dylbrown.github.io"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/ancestry.xsd">
     <Name>Halfling</Name>
     <HP>6</HP>
     <Size>Small</Size>
@@ -37,9 +39,9 @@
 			<AttributeMods Proficiency="Trained">Acrobatics, Stealth, Lore(Halfling)</AttributeMods>
         </Ability>
 		<Ability name="Halfling Luck" level="1" cost="Reaction">
-			<Frequency>1/Day</Frequency>
-			<Trigger>You fail a skill check or saving throw.	</Trigger>
 			<Traits>Fortune</Traits>
+			<Trigger>You fail a skill check or saving throw.</Trigger>
+			<Frequency>1/Day</Frequency>
             <Description>Your happy-go-lucky nature makes it seem like misfortune avoids you, and to an extent, that might even be true. You can reroll the triggering check, but you must use the new result, even if it’s worse than your first roll.</Description>
         </Ability>
 		<Ability name="Halfling Weapon Familiarity" level="1">
@@ -61,23 +63,23 @@
             <Description>During your adventures, you’ve honed your ability to adapt to the culture of the predominant ancestry around you. You gain the Adopted Ancestry general feat, and you also gain one 1st-level ancestry feat from the ancestry you chose for the Adopted Ancestry feat.</Description>
         </Ability>
 		<Ability name="Halfling Weapon Trickster" level="5">
-            <Description>You are particularly adept at fighting with your people’s favored weapons. Whenever you critically succeed at an attack roll using a shortsword, a sling, or a halfling weapon, you apply the weapon’s critical specialization effect.</Description>
 			<Prerequisites>Halfling Weapon Familiarity</Prerequisites>
+            <Description>You are particularly adept at fighting with your people’s favored weapons. Whenever you critically succeed at an attack roll using a shortsword, a sling, or a halfling weapon, you apply the weapon’s critical specialization effect.</Description>
         </Ability>
 		<Ability name="Guiding Luck" level="9">
-            <Description>Your luck guides you to look the right way and aim your blows unerringly. You can use Halfling Luck twice per day: once in response to its normal trigger, and once when you fail a Perception check or attack roll instead of the normal trigger.</Description>
 			<Prerequisites>Halfling Luck</Prerequisites>
+            <Description>Your luck guides you to look the right way and aim your blows unerringly. You can use Halfling Luck twice per day: once in response to its normal trigger, and once when you fail a Perception check or attack roll instead of the normal trigger.</Description>
         </Ability>
 		<Ability name="Irrepressible" level="9">
             <Description>You are easily able to ward off attempts to play on your fears and emotions. When you roll a success on a saving throw against an emotion effect, you get a critical success instead. If your heritage is gutsy halfling, when you roll a critical failure on a saving throw against an emotion effect, you get a failure instead.</Description>
         </Ability>
 		<Ability name="Ceaseless Shadows" level="13">
+            <Prerequisites>Distracting Shadows</Prerequisites>
             <Description>You excel at going unnoticed, especially among a crowd. You no longer need to have cover or be concealed to Hide or Sneak. If you would have lesser cover from creatures, you gain cover and can Take Cover, and if you would have cover from creatures, you gain greater cover.</Description>
-			<Prerequisites>Distracting Shadows</Prerequisites>
         </Ability>
 		<Ability name="Halfling Weapon Expertise" level="13">
+            <Prerequisites>Halfling Weapon Familiarity</Prerequisites>
             <Description>Your halfling affinity blends with your class training, granting you great skill with halfling weapons. Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency in the sling, halfling sling staff, shortsword, and all halfling weapons in which you are trained</Description>
-			<Prerequisites>Halfling Weapon Familiarity</Prerequisites>
         </Ability>
 	</Feats>
-</ancestry>
+</pf2:ancestry>

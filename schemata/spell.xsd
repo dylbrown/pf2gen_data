@@ -15,7 +15,7 @@
             <xs:element name="Name" type="xs:string"/>
             <xs:element name="Level" type="xs:nonNegativeInteger"/>
             <xs:element name="Traits" type="xs:string"/>
-            <xs:element name="Traditions" type="xs:string" minOccurs="0">
+            <xs:element name="Traditions" minOccurs="0">
                 <xs:simpleType>
                     <xs:restriction base="xs:token">
                         <xs:pattern value="([dD]ivine|[oO]ccult|[pP]rimal|[aA]rcane)(, ?([dD]ivine|[oO]ccult|[pP]rimal|[aA]rcane)){0,3}"/>

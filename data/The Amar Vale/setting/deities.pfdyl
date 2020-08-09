@@ -1,6 +1,6 @@
 <pf2:deities xmlns:pf2="https://dylbrown.github.io"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/deity.xsd">
+             xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/setting/deity.xsd">
     <Deity page="1">
         <Name>Martin</Name>
         <Title>The Nurturer</Title>

@@ -1,6 +1,6 @@
 <pf2:domains xmlns:pf2="https://dylbrown.github.io"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/domain.xsd">
+             xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/setting/domain.xsd">
     <Domain page="112">
         <Name>Change</Name>
         <DomainSpell>Adapt Self</DomainSpell>

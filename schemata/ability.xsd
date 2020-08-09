@@ -97,7 +97,7 @@
         </xs:annotation>
         <xs:complexType>
           <xs:simpleContent>
-            <xs:restriction base="xs:string">
+            <xs:extension base="xs:string">
               <xs:attribute name="recalculate">
                 <xs:annotation>
                   <xs:documentation>
@@ -112,7 +112,7 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:attribute>
-            </xs:restriction>
+            </xs:extension>
           </xs:simpleContent>
         </xs:complexType>
       </xs:element>
@@ -239,7 +239,7 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="type" type="pf2:level">
+    <xs:attribute name="type">
       <xs:annotation>
         <xs:documentation>
           (Optional) Denotes an attack, or labels an activity with no associated cost.
@@ -248,7 +248,7 @@
       <xs:simpleType>
         <xs:restriction base="xs:string">
           <xs:enumeration value="Attack"/>
-          <xs:enumeration value="Activity"/>
+          <xs:enumeration value="Heritage"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
@@ -315,7 +315,7 @@
       </xs:annotation>
       <xs:simpleType>
         <xs:restriction base="xs:string">
-          <xs:pattern value="((Heritage|Ancestry|Class(\(\w+\))?|Skill|General|Bloodline|Arcane(Thesis|School)) ?)*(Feat)?"/>
+          <xs:pattern value="((Dedication|Heritage|Ancestry|Class(\(\w+\))?|Skill|General|Bloodline|Arcane(Thesis|School)) ?)*(Feat)?"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
@@ -386,4 +386,15 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:simpleType name="AbilityScoreList">
+      <xs:restriction base="xs:string">
+          <xs:pattern value="(Str|Dex|Con|Int|Wis|Cha|Free)((, | or )(Str|Dex|Con|Int|Wis|Cha|Free))*"/>
+      </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="CommaWordList">
+      <xs:restriction base="xs:string">
+          <xs:pattern value="[\w \-()]+(, [\w \-()]+)*"/>
+      </xs:restriction>
+  </xs:simpleType>
 </xs:schema>

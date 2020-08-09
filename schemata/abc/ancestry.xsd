@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:pf2="https://dylbrown.github.io"
+           targetNamespace="https://dylbrown.github.io">
+  <xs:include schemaLocation="../ability.xsd"/>
+  <xs:element name="ancestry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Name" type="xs:string"/>
+        <xs:element name="HP" type="xs:nonNegativeInteger"/>
+        <xs:element name="Size">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="Small"/>
+                    <xs:enumeration value="Medium"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:element>
+        <xs:element name="Speed" type="xs:nonNegativeInteger"/>
+        <xs:element name="AbilityBonuses" type="pf2:AbilityScoreList"/>
+        <xs:element name="AbilityPenalties" type="pf2:AbilityScoreList" minOccurs="0"/>
+        <xs:element name="Languages" type="pf2:CommaWordList"/>
+        <xs:element name="BonusLanguages" type="pf2:CommaWordList"/>
+        <xs:element name="Senses" type="pf2:CommaWordList" minOccurs="0"/>
+        <xs:element name="Description" type="xs:string"/>
+        <xs:element name="Feats">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:choice maxOccurs="unbounded">
+                <xs:element name="Ability" type="pf2:Ability"/>
+                <xs:element name="AbilitySet" type="pf2:AbilitySet"/>
+              </xs:choice>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
