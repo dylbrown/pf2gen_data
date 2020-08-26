@@ -2,5 +2,6 @@
 <Source>
     <Name>Advanced Player's Guide</Name>
     <ShortName>APG</ShortName>
+    <Category>Rulebooks</Category>
     <Traits name="Traits" path="traits.pfdyl" />
 </Source>

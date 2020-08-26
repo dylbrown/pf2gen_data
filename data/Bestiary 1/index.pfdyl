@@ -2,6 +2,7 @@
 <Source>
     <Name>Bestiary 1</Name>
     <ShortName>B1</ShortName>
+    <Category>Bestiaries</Category>
     <Creatures name="Creatures" path="creatures.pfdyl" />
     <Traits name="Traits" path="traits.pfdyl" />
 </Source>

@@ -2,6 +2,7 @@
 <Source>
     <Name>The Amar Vale</Name>
     <ShortName>TAV</ShortName>
+    <Category>Homebrew</Category>
     <Setting>
         <Category name="Deities" path="setting/deities.pfdyl" />
         <Category name="Domains" path="setting/domains.pfdyl" />

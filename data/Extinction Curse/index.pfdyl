@@ -2,6 +2,7 @@
 <Source>
     <Name>Extinction Curse</Name>
     <ShortName>EC</ShortName>
+    <Category>Adventure Paths</Category>
     <Backgrounds path="backgrounds.pfdyl" />
     <Feats>
         <Category name="Skill" path="skill_feats.pfdyl" />

@@ -2,6 +2,11 @@
 <pf2:deities xmlns:pf2="https://dylbrown.github.io"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/setting/deity.xsd">
+    <Deity page="-1">
+        <Name>No Deity</Name>
+        <Title>No Title</Title>
+        <DeityAlignment>N</DeityAlignment>
+    </Deity>
     <Deity page="437">
         <Name>Abadar</Name>
         <Title>Master of the First Vault</Title>

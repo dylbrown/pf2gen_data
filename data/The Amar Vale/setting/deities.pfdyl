@@ -220,7 +220,7 @@
         <Spells>
             <Spell level="1" name="burning hands" />
             <Spell level="2" name="flaming sphere" />
-            <Spell level="3" name="abyssal plague )" />
+            <Spell level="3" name="abyssal plague" />
         </Spells>
         <Description></Description>
     </Deity>
@@ -290,7 +290,7 @@
         <FavoredWeapon>sickle</FavoredWeapon>
         <Domains>glyph, knowledge, magic, moon</Domains>
         <Spells>
-            <Spell level="1" name="message rune" />
+            <Spell level="1" name="alarm" />
             <Spell level="2" name="comprehend language" />
             <Spell level="3" name="secret page" />
         </Spells>

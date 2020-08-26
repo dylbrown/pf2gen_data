@@ -3338,6 +3338,23 @@
         <Description>You create a shimmering barrier that attempts to counteract teleportation effects and planar travel into or out of the area, including items that allow access to extradimensional spaces (such as a &lt;i&gt;bag of holding&lt;/i&gt;). &lt;i&gt;Dimensional lock&lt;/i&gt; tries to counteract any attempt to summon a creature into the area but doesn't stop the creature from departing when the summoning ends.</Description>
     </Spell>
     <Spell page="331">
+        <Name>Divine Decree</Name>
+        <Level>7</Level>
+        <Traits>Evocation</Traits>
+        <Traditions>divine</Traditions>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>40 feet</Range>
+        <Area>40-foot emanation</Area>
+        <Duration>varies</Duration>
+        <Save>Fortitude</Save>
+        <Description>You utter a potent litany from your faith, a mandate that harms those who oppose your ideals. Choose an alignment your deity has (chaotic, evil, good, or lawful). You can't cast this spell if you don't have a deity or your deity is true neutral. This spell gains the trait of the alignment you chose. You deal 7d10 damage to creatures in the area; each creature must attempt a Fortitude save. Creatures with an alignment that matches the one you chose are unaffected by the spell. Those that neither match nor oppose it treat the result of their saving throw as one degree better and don't suffer effects other than damage.&lt;br&gt;&lt;br&gt;
+            &lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;
+            &lt;b&gt;Success&lt;/b&gt; The creature takes half damage.&lt;br&gt;
+            &lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and is enfeebled 2 for 1 minute.&lt;br&gt;
+            &lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage and is enfeebled 2 for 1 minute. On your home plane, a creature that critically fails is banished with the effect of a failed banishment save. A 10th-level creature or lower must attempt a Will save. On a failure, it's paralyzed for 1 minute; on a critical failure, it dies.</Description>
+        <Heightened every="1">The damage increases by 1d10, and the level of creatures that must attempt a second save on a critical failure increases by 2.</Heightened>
+    </Spell>
+    <Spell page="331">
         <Name>Divine Vessel</Name>
         <Level>7</Level>
         <Traits>Morph, Necromancy</Traits>

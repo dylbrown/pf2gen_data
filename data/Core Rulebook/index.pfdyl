@@ -2,6 +2,18 @@
 <Source>
     <Name>Core Rulebook</Name>
     <ShortName>CRB</ShortName>
+    <Category>Rulebooks</Category>
+    <Description>&lt;h2&gt;Core Rulebook&lt;/h2&gt;This comprehensive 640-page guide to the Pathfinder roleplaying game provides everything you need to set out into a world of limitless fantasy adventure! Choose from ancestries like elf, human, and goblin and classes like alchemist, fighter, and sorcerer to create a hero of your own design, destined to become a legend! The new Pathfinder rules are easier to learn and faster to play, and they offer deeper customization than ever before!&lt;br&gt;&lt;br&gt;
+        This indispensable volume contains the core rules for players and Game Masters, and is your first step on a heroic new journey!&lt;br&gt;&lt;br&gt;
+    The Pathfinder Core Rulebook includes:&lt;ul&gt;
+        &lt;li&gt;More than 600 pages of game rules, advice, character options, treasure, and more for players and Game Masters!&lt;/li&gt;
+        &lt;li&gt;Six heroic player character ancestries, including elf, dwarf, gnome, goblin, halfling, and human, with variant heritages for half-elf and half-orc!&lt;/li&gt;
+        &lt;li&gt;More than 30 backgrounds like bartender, soldier, or apprentice to further immerse yourself in your hero's backstory!&lt;/li&gt;
+        &lt;li&gt;Twelve character classes, including the alchemist, barbarian, bard, champion, cleric, druid, fighter, monk, ranger, rogue, sorcerer, and wizard!&lt;/li&gt;
+        &lt;li&gt;Hundreds and hundreds of spells, class feats, and other exciting abilities to help you customize your character to become the hero YOU envision her to be!&lt;/li&gt;
+        &lt;li&gt;Streamlined and revised rules to help ease new players into the game while providing the depth of character options and tactical interest that have defined Pathfinder from the beginning!&lt;/li&gt;
+        &lt;/ul&gt;
+        Written by: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter</Description>
     <Ancestries>
         <Ancestry name="Dwarf" path="ancestries/Dwarf.pfdyl" />
         <Ancestry name="Elf" path="ancestries/Elf.pfdyl" />

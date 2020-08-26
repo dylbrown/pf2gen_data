@@ -241,6 +241,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             <Name>Abjuration</Name>
             <Description>Effects and magic items with this trait are associated with the evocation school of magic, typically involving protection or wards.</Description>
         </Trait>
+        <Trait page="628">
+            <Name>Divination</Name>
+            <Description>The divination school of magic typically involves obtaining or transferring information, or predicting events..</Description>
+        </Trait>
         <Trait page="631">
             <Name>Evocation</Name>
             <Description>Effects and magic items with this trait are associated with the abjuration school of magic, typically involving energy and elemental forces.</Description>
@@ -627,6 +631,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             <Name>Consecration</Name>
             <Description>A consecration spell enhances an area for an extended period of time. A given area can have only a single consecration effect at a time. The new effect attempts to counteract any existing one in areas of overlap.</Description>
         </Trait>
+        <Trait page="630">
+            <Name>Curse</Name>
+            <Description>A curse is an effect that places some long-term affliction on a creature. Curses are always magical and are typically the result of a spell or trap.</Description>
+        </Trait>
+        <Trait page="630">
+            <Name>Darkness</Name>
+            <Description>Darkness effects extinguish non-magical light in the area, and can counteract less powerful magical light. You must usually target light magic with your darkness magic directly to counteract the light, but some darkness spells automatically attempt to counteract light.</Description>
+        </Trait>
         <Trait page="631">
             <Name>Environmental</Name>
             <Description>A hazard with this trait is something dangerous that’s part of the natural world, such as quicksand or harmful mold.</Description>
@@ -758,6 +770,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <Trait page="632">
             <Name>Fortune</Name>
             <Description>A fortune effect beneficially alters how you roll your dice. You can never have more than one fortune effect alter a single roll. If multiple fortune effects would apply, you have to pick which to use. If a fortune effect and a misfortune effect would apply to the same roll, the two cancel each other out, and you roll normally.</Description>
+        </Trait>
+        <Trait page="634">
+            <Name>Misfortune</Name>
+            <Description>A misfortune effect detrimentally alters how you roll your dice. You can never have more tha one misfortune effect alter a single roll. If multiple misfortune effects would apply, the GM decides which is worse and applies it. If a fortune effect and a misfortune effect would apply to the same roll, the two cancel each out, and you roll normally.</Description>
         </Trait>
         <Trait page="631">
             <Name>Emotion</Name>

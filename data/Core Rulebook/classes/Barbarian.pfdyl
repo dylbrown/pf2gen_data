@@ -98,7 +98,7 @@
                 <Name>Antler</Name>
                 <Damage>1d8 P</Damage>
                 <Group>Brawling</Group>
-                <Traits>Charge, unarmed</Traits>
+                <Traits>unarmed</Traits>
               </Weapon>
             </Ability>
             <Ability name="Frog" type="Attack">

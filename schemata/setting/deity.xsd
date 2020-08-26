@@ -13,16 +13,16 @@
         <xs:sequence>
             <xs:element name="Name" type="xs:string" />
             <xs:element name="Title" type="xs:string" minOccurs="0" />
-            <xs:element name="DeityAlignment" type="xs:string" />
-            <xs:element name="Edicts" type="xs:string" />
-            <xs:element name="Anathema" type="xs:string" />
+            <xs:element name="DeityAlignment" type="xs:string" minOccurs="0" />
+            <xs:element name="Edicts" type="xs:string" minOccurs="0" />
+            <xs:element name="Anathema" type="xs:string" minOccurs="0" />
             <xs:element name="AreasOfConcern" type="xs:string" minOccurs="0" />
-            <xs:element name="FollowerAlignments" type="xs:string" />
-            <xs:element name="DivineFont" type="xs:string" />
-            <xs:element name="DivineSkill" type="xs:string" />
-            <xs:element name="FavoredWeapon" type="xs:string" />
-            <xs:element name="Domains" type="xs:string" />
-            <xs:element name="Spells">
+            <xs:element name="FollowerAlignments" type="xs:string" minOccurs="0" />
+            <xs:element name="DivineFont" type="xs:string" minOccurs="0" />
+            <xs:element name="DivineSkill" type="xs:string" minOccurs="0" />
+            <xs:element name="FavoredWeapon" type="xs:string" minOccurs="0" />
+            <xs:element name="Domains" type="xs:string" minOccurs="0" />
+            <xs:element name="Spells" minOccurs="0">
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="Spell" minOccurs="0" maxOccurs="unbounded">
@@ -34,9 +34,9 @@
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
-            <xs:element name="Description" type="xs:string" />
+            <xs:element name="Description" type="xs:string" minOccurs="0" />
         </xs:sequence>
-        <xs:attribute name="page" type="xs:string">
+        <xs:attribute name="page" type="xs:string" use="required">
             <xs:annotation>
                 <xs:documentation>
                     Reference Page for Domain
