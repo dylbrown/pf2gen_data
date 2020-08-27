@@ -3,5 +3,17 @@
     <Name>Advanced Player's Guide</Name>
     <ShortName>APG</ShortName>
     <Category>Rulebooks</Category>
+    <Dependencies>
+        <Dependency>Core Rulebook</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Advanced Player's Guide&lt;/h2&gt;Ready to go beyond the basics? Expand the limits of what's possible with the Pathfinder Advanced Player's Guide! This 272-page Pathfinder Second Edition rulebook contains exciting new rules options for player characters, adding even more depth of choice to your Pathfinder game! Inside you will find brand new ancestries, heritages, and four new classes: the shrewd investigator, the mysterious oracle, the daring swashbuckler, and the hex-slinging witch! The must-have Advanced Player's Guide also includes exciting new options for all your favorite Core Rulebook classes and tons of new backgrounds, general feats, spells, items, and 40 flexible archetypes to customize your play experience even further!&lt;br&gt;&lt;br&gt;
+        The Pathfinder Advanced Player's Guide includes:
+        &lt;ul&gt;
+        &lt;li&gt;Four new classes: the investigator, oracle, swashbuckler, and witch!&lt;/li&gt;
+        &lt;li&gt;Five new ancestries and five heritages for any ancestry: celestial aasimars, curious catfolk, hagspawned changelings, vampiric dhampirs, fate-touched duskwalkers, scaled kobolds, fierce orcs, fiendish tieflings, industrious ratfolk, and feathered tengu!&lt;/li&gt;
+        &lt;li&gt;40 new archetypes including multiclass archetypes for the four new classes, Pathfinder favorites like the cavalier, dragon disciple, shadowdancer, and vigilante, and brand-new archetypes like the familiar master and the shield-bearing iron wall!&lt;/li&gt;
+        &lt;li&gt;New class options for all twelve classes from the Pathfinder Core Rulebook including champions of evil, genie and shadow sorcerers, zen archer monks, rogue masterminds, spellcasting rangers, and more!&lt;/li&gt;
+        &lt;li&gt;Even more exciting new rules, from rare and unique backgrounds to investigative skill feats, from spells and rituals like reincarnate and create demiplane to new items including special wands with unusual effects and exciting potions worthy of a witch's cauldron.&lt;/li&gt;
+        &lt;/ul&gt;</Description>
     <Traits name="Traits" path="traits.pfdyl" />
 </Source>

@@ -3,6 +3,20 @@
     <Name>Bestiary 1</Name>
     <ShortName>B1</ShortName>
     <Category>Bestiaries</Category>
+    <Dependencies>
+        <Dependency>Core Rulebook</Dependency>
+        <Dependency>Advanced Player's Guide</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Bestiary 1&lt;/h2&gt;Over 400 of fantasy's fiercest foes burst from the pages of this enormous 360-page compendium of the most popular and commonly encountered creatures in the world of Pathfinder! From familiar enemies like orcs, dragons, and vampires to new horrors like the nightmarish nilith and the three-headed mukradi, to suitable servants for summoners of every alignment, this must-have companion to the Pathfinder Core Rulebook is crawling with creatures to challenge characters of any level.&lt;br&gt;&lt;br&gt;The Pathfinder Bestiary includes:
+&lt;ul&gt;
+        &lt;li&gt;More than 400 monsters!&lt;/li&gt;
+    &lt;li&gt;Gorgeous full-color illustrations on nearly every page!&lt;/li&gt;
+    &lt;li&gt;Detailed monster lists sorted by level, type, and rarity to help you find the right monster for any situation!&lt;/li&gt;
+    &lt;li&gt;Universal monster rules to simplify special attacks, defenses, and qualities like grab, swallow whole, and regeneration.&lt;/li&gt;
+    &lt;li&gt;Guidelines for providing appropriate monstrous treasures for any occasion.&lt;/li&gt;
+    &lt;li&gt;Detailed lore sidebars offering additional information about Pathfinder's most popular monstrous friends and foes!&lt;/li&gt;
+&lt;/ul&gt;
+    </Description>
     <Creatures name="Creatures" path="creatures.pfdyl" />
     <Traits name="Traits" path="traits.pfdyl" />
 </Source>

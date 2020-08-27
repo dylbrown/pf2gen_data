@@ -3,6 +3,10 @@
     <Name>Extinction Curse</Name>
     <ShortName>EC</ShortName>
     <Category>Adventure Paths</Category>
+    <Dependencies>
+        <Dependency>Core Rulebook</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Extinction Curse&lt;/h2&gt;Come one, come all! Humble performers become leaders of the Circus of Wayward Wonders when tragedy strikes. But as these heroes lead their motley band of performers and roustabouts around the Isle of Kortos, they uncover a sinister plot to exterminate life from the Starstone Isle. The dead god Aroden may be gone, but his legacy lives on, as do his old enemies who would destroy the wonders he raised from the sea. Spectacle meets savagery as the heroes strive to stop the Extinction Curse!</Description>
     <Backgrounds path="backgrounds.pfdyl" />
     <Feats>
         <Category name="Skill" path="skill_feats.pfdyl" />
