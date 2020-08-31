@@ -49,7 +49,7 @@
         <FavoredWeapon>dagger</FavoredWeapon>
         <Domains>ambition, luck, magic, wealth</Domains>
         <Spells>
-            <Spell level="1" name="identify" />
+            <Spell level="1" name="sleep" />
             <Spell level="2" name="invisibility" />
             <Spell level="5" name="prying eye" />
         </Spells>
