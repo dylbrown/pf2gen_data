@@ -84,7 +84,7 @@
                     <div class="label">Speed</div>
                 </div>
                 <div class="line">
-                    <div class="numBox rounded">${(10 + character.attributes.classdc.total)?string}</div>
+                    <div class="numBox rounded">${(10 + character.attributes.get("classdc", character.pclass).total)?string}</div>
                     <div class="label">Class DC</div>
                 </div>
                 <div class="line">

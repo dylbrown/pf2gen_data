@@ -46,8 +46,8 @@
 				</Description>
 				<CustomMod>
 					def increaseFavoredWeapon = {weapon, damage ->
-						def deityWeapon = get("Deity.FavoredWeapon.Name");
-						if(deityWeapon != null &amp;&amp; weapon.getName().toLowerCase() == deityWeapon.toLowerCase()
+						def deityWeapon = get("Deity.FavoredWeapon.BaseItem.Name");
+						if(deityWeapon != null &amp;&amp; weapon.getBaseItem().getName().toLowerCase() == deityWeapon.toLowerCase()
 							&amp;&amp; (weapon.getSubCategory() == "Simple" ||
 							(weapon.getSubCategory() == "Unarmed" &amp;&amp; weapon.getDamageDice().getSize() == 4)))
 
