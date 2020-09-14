@@ -57,6 +57,7 @@
         <Category name="Arcane Thesis" path="feats/arcaneThesis.pfdyl" />
         <Category name="Archetype" path="feats/archetypes.pfdyl" />
         <Category name="Bloodline" path="feats/bloodline.pfdyl" />
+        <Category name="ClassFeature" path="feats/base_class.pfdyl" />
         <Category name="General" path="feats/general.pfdyl" />
         <Category name="Skill" path="feats/skill.pfdyl" />
     </Feats>

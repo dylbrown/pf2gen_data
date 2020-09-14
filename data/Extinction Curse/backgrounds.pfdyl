@@ -11,7 +11,7 @@
 	<background>
 		<Name>Animal Wrangler (Athletics)</Name>
 		<Source>Extinction Curse</Source>
-		<Description>You have a long history of working with large circus animals for the Celestial Menagerie, such as performing in an animal act, jostling animals back into their cages, or even sweeping dung out of squalid pens. Mistress Dusklight’s ongoing mistreatment of her animals compelled you to quit, and you now strive to ensure animals aren’t abused.</Description>
+		<Description>You have a long history of working with large circus animals for the Celestial Menagerie, such as performing in an animal act, jostling animals back into their cages, or even sweeping dung out of squalid pens. Mistress Dusklight's ongoing mistreatment of her animals compelled you to quit, and you now strive to ensure animals aren't abused.</Description>
 		<Skill>Athletics, Lore (An Animal)</Skill>
 		<AbilityBonuses>Str or Wis, Free</AbilityBonuses>
 		<Feat>Titan Wrestler</Feat>
@@ -19,7 +19,7 @@
 	<background>
 		<Name>Animal Wrangler (Nature)</Name>
 		<Source>Extinction Curse</Source>
-		<Description>You have a long history of working with large circus animals for the Celestial Menagerie, such as performing in an animal act, jostling animals back into their cages, or even sweeping dung out of squalid pens. Mistress Dusklight’s ongoing mistreatment of her animals compelled you to quit, and you now strive to ensure animals aren’t abused.</Description>
+		<Description>You have a long history of working with large circus animals for the Celestial Menagerie, such as performing in an animal act, jostling animals back into their cages, or even sweeping dung out of squalid pens. Mistress Dusklight's ongoing mistreatment of her animals compelled you to quit, and you now strive to ensure animals aren't abused.</Description>
 		<Skill>Nature, Lore (An Animal)</Skill>
 		<AbilityBonuses>Str or Wis, Free</AbilityBonuses>
 		<Feat>Train Animal</Feat>
@@ -27,7 +27,7 @@
 	<background>
 		<Name>Barker</Name>
 		<Source>Extinction Curse</Source>
-		<Description>You’re skilled at shouting to catch and keep the attention of passersby. A few well-timed and forcefully spoken words not only get people to notice you but also engage them to respond to you. You may have previously worked as a crier or in a more formal barker capacity with Mistress Dusklight’s Celestial Menagerie. Either way, your ability to bully a crowd is impressive.</Description>
+		<Description>You're skilled at shouting to catch and keep the attention of passersby. A few well-timed and forcefully spoken words not only get people to notice you but also engage them to respond to you. You may have previously worked as a crier or in a more formal barker capacity with Mistress Dusklight's Celestial Menagerie. Either way, your ability to bully a crowd is impressive.</Description>
 		<Skill>Intimidation, Lore (Crowd)</Skill>
 		<AbilityBonuses>Con or Cha, Free</AbilityBonuses>
 		<Feat>Cat Fall</Feat>
@@ -35,7 +35,7 @@
 	<background>
 		<Name>Blow-In (Deception)</Name>
 		<Source>Extinction Curse</Source>
-		<Description>You never expected to join a circus, but you were looking for a good place to lie low for reasons of your own. The Circus of Wayward Wonders came together with several different workers and performers a few months ago. Many came from a circus in Escadar called the Celestial Menagerie, but not all of them. It was easy to slip in among the roustabouts. Although you’d planned to move on quickly, the circus folk have adopted you as one of their own, and they don’t ask questions about your past.</Description>
+		<Description>You never expected to join a circus, but you were looking for a good place to lie low for reasons of your own. The Circus of Wayward Wonders came together with several different workers and performers a few months ago. Many came from a circus in Escadar called the Celestial Menagerie, but not all of them. It was easy to slip in among the roustabouts. Although you'd planned to move on quickly, the circus folk have adopted you as one of their own, and they don't ask questions about your past.</Description>
 		<Skill>Deception, Lore (Crowd)</Skill>
 		<AbilityBonuses>Dex or Cha, Free</AbilityBonuses>
 		<Feat>Lengthy Diversion</Feat>
@@ -43,7 +43,7 @@
 	<background>
 		<Name>Blow-In (Thievery)</Name>
 		<Source>Extinction Curse</Source>
-		<Description>You never expected to join a circus, but you were looking for a good place to lie low for reasons of your own. The Circus of Wayward Wonders came together with several different workers and performers a few months ago. Many came from a circus in Escadar called the Celestial Menagerie, but not all of them. It was easy to slip in among the roustabouts. Although you’d planned to move on quickly, the circus folk have adopted you as one of their own, and they don’t ask questions about your past.</Description>
+		<Description>You never expected to join a circus, but you were looking for a good place to lie low for reasons of your own. The Circus of Wayward Wonders came together with several different workers and performers a few months ago. Many came from a circus in Escadar called the Celestial Menagerie, but not all of them. It was easy to slip in among the roustabouts. Although you'd planned to move on quickly, the circus folk have adopted you as one of their own, and they don't ask questions about your past.</Description>
 		<Skill>Thievery, Lore (Underworld)</Skill>
 		<AbilityBonuses>Dex or Cha, Free</AbilityBonuses>
 		<Feat>Subtle Thievery</Feat>
@@ -51,7 +51,7 @@
 	<background>
 		<Name>Butcher</Name>
 		<Source>Extinction Curse</Source>
-		<Description>You’ve spent uncounted hours walking up and down crowded and noisy circus stands, inventing innovative means to sell refreshments, food, and novelties at inflated prices. (You might know very little about slaughtering animals; “butcher” is a circus slang term for a vendor.) The Celestial Menagerie constantly pushed you to figure out how to sell increasingly shoddy toys to children and how to conceal the taste of spoiled treats that should have been discarded days earlier. You peddled disappointment and hated it, so you left to seek a new line of work—although you’re not yet willing to leave the circus life altogether.</Description>
+		<Description>You've spent uncounted hours walking up and down crowded and noisy circus stands, inventing innovative means to sell refreshments, food, and novelties at inflated prices. (You might know very little about slaughtering animals; “butcher” is a circus slang term for a vendor.) The Celestial Menagerie constantly pushed you to figure out how to sell increasingly shoddy toys to children and how to conceal the taste of spoiled treats that should have been discarded days earlier. You peddled disappointment and hated it, so you left to seek a new line of work—although you're not yet willing to leave the circus life altogether.</Description>
 		<Skill>Society, Lore (Mercantile)</Skill>
 		<AbilityBonuses>Con or Int, Free</AbilityBonuses>
 		<Feat>Read Lips</Feat>
@@ -59,7 +59,7 @@
 	<background>
 		<Name>Circus Born</Name>
 		<Source>Extinction Curse</Source>
-		<Description>The itinerant life of a traveling circus performer is nothing new to you; you were born and raised in the circus. You’ve seen more acts than you can count and grew up hearing the tall tales of circus performers while gathered around their campfires. You’ve experienced the thrill of captivating crowd ever since you were young. You may have tried a few times to settle down, but the lure of the open road and the glamor of the big top always called you back.</Description>
+		<Description>The itinerant life of a traveling circus performer is nothing new to you; you were born and raised in the circus. You've seen more acts than you can count and grew up hearing the tall tales of circus performers while gathered around their campfires. You've experienced the thrill of captivating crowd ever since you were young. You may have tried a few times to settle down, but the lure of the open road and the glamor of the big top always called you back.</Description>
 		<Skill>Performance, Lore (Circus)</Skill>
 		<AbilityBonuses>Int or Cha, Free</AbilityBonuses>
 		<Feat>Experienced Professional</Feat>
@@ -67,7 +67,7 @@
 	<background>
 		<Name>Clown</Name>
 		<Source>Extinction Curse</Source>
-		<Description>Although you’ve spent time in greasepaint and colorful clothing to amuse crowds, your skills with buffoonery and physical comedy are exceptional whether or not you’re in costume. In the employ of Mistress Dusklight’s Celestial Menagerie, you spent too many routines distracting an audience from an ill-timed accident or evidence of abused animals or performers. You’ve had enough of that, and the Celestial Menagerie isn’t your home any longer.</Description>
+		<Description>Although you've spent time in greasepaint and colorful clothing to amuse crowds, your skills with buffoonery and physical comedy are exceptional whether or not you're in costume. In the employ of Mistress Dusklight's Celestial Menagerie, you spent too many routines distracting an audience from an ill-timed accident or evidence of abused animals or performers. You've had enough of that, and the Celestial Menagerie isn't your home any longer.</Description>
 		<Skill>Performance, Lore (Clown)</Skill>
 		<AbilityBonuses>Dex or Cha, Free</AbilityBonuses>
 		<Feat>Virtuosic Performer</Feat>
@@ -75,7 +75,7 @@
 	<background>
 		<Name>Dreamer of the Verdant Moon</Name>
 		<Source>Extinction Curse</Source>
-		<Description>You spent your early days in the aftermath of one of the great ravenings. You survived thanks to your resourcefulness and perhaps your patron’s favor and were blessed with skills and drive thereafter, but you must always hold to his standards, lest the hunger from the depths seek you out once again.</Description>
+		<Description>You spent your early days in the aftermath of one of the great ravenings. You survived thanks to your resourcefulness and perhaps your patron's favor and were blessed with skills and drive thereafter, but you must always hold to his standards, lest the hunger from the depths seek you out once again.</Description>
 		<Skill>Survival, Lore (Zevgavizeb)</Skill>
 		<AbilityBonuses>Dex or Cha, Free</AbilityBonuses>
 		<Feat>Ravening's Desperation</Feat>
@@ -91,7 +91,7 @@
 	<background>
 		<Name>Rigger</Name>
 		<Source>Extinction Curse</Source>
-		<Description>You’ve worked as a roustabout to erect tents and set up rigging for acrobatic performances; you’ve sometimes even aided aerialists and acrobats in their death-defying training. Even though your work is often done before the crowds arrive, you know your skills contribute to the success and safety of the circus. Mistress Dusklight treats her roustabouts as little more than slaves, and you’ve resolved to join a company where your expertise is appreciated.</Description>
+		<Description>You've worked as a roustabout to erect tents and set up rigging for acrobatic performances; you've sometimes even aided aerialists and acrobats in their death-defying training. Even though your work is often done before the crowds arrive, you know your skills contribute to the success and safety of the circus. Mistress Dusklight treats her roustabouts as little more than slaves, and you've resolved to join a company where your expertise is appreciated.</Description>
 		<Skill>Athletics, Lore (Circus)</Skill>
 		<AbilityBonuses>Str or Dex, Free</AbilityBonuses>
 		<Feat>Combat Climber</Feat>

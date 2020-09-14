@@ -3,7 +3,7 @@
 	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
 	<Ability name="Adopted Ancestry" level="1">
-		<Description>You’re fully immersed in another ancestry’s culture and traditions, whether born into them, earned through rite of passage, or bonded through a deep friendship or romance.Choose a common ancestry. You can select ancestry feats from the ancestry you chose, in addition to your character’s own ancestry, as long as the ancestry feats don’t require any physiological feature that you lack, as determined by the GM.</Description>
+		<Description>You're fully immersed in another ancestry's culture and traditions, whether born into them, earned through rite of passage, or bonded through a deep friendship or romance.Choose a common ancestry. You can select ancestry feats from the ancestry you chose, in addition to your character's own ancestry, as long as the ancestry feats don't require any physiological feature that you lack, as determined by the GM.</Description>
 	</Ability>
 	<Ability name="Ancestral Paragon" level="3">
 		<Description>Whether through instinct, study, or magic, you feel a deeper connection to your ancestry. You gain a 1st-level ancestry feat.</Description>
@@ -30,7 +30,7 @@
 	</Ability>
 	<Ability name="Expeditious Search" level="7">
 		<Requires>Master in Perception</Requires>
-		<Description>You have a system that lets you search at great speed, finding details and secrets twice as quickly as others can. When Searching, you take half as long as usual to Search a given area. This means that while exploring, you double the Speed you can move while ensuring you’ve Searched an area before walking into it (up to half your Speed). If you’re legendary in Perception, you instead Search areas four times as quickly.</Description>
+		<Description>You have a system that lets you search at great speed, finding details and secrets twice as quickly as others can. When Searching, you take half as long as usual to Search a given area. This means that while exploring, you double the Speed you can move while ensuring you've Searched an area before walking into it (up to half your Speed). If you're legendary in Perception, you instead Search areas four times as quickly.</Description>
 	</Ability>
 	<Ability name="Fast Recovery" level="1">
 		<Requires>Constitution 14</Requires>
@@ -54,7 +54,7 @@
 		<Description>You have an incredible ability to invest more magic items. Increase your limit on invested items from 10 to 12.</Description>
 	</Ability>
 	<Ability name="Ride" level="1">
-		<Description>When you Command an Animal you’re mounted on to take a move action (such as Stride), you automatically succeed instead of needing to attempt a check. Any animal you’re mounted on acts on your turn, like a minion. If you Mount an animal in the middle of an encounter, it skips its next turn and then acts on your next turn.</Description>
+		<Description>When you Command an Animal you're mounted on to take a move action (such as Stride), you automatically succeed instead of needing to attempt a check. Any animal you're mounted on acts on your turn, like a minion. If you Mount an animal in the middle of an encounter, it skips its next turn and then acts on your next turn.</Description>
 	</Ability>
 	<Ability name="Shield Block" level="1" cost="Reaction">
 		<Trigger>While you have your shield raised, you would take damage from a physical attack.</Trigger>
@@ -67,6 +67,6 @@
 		</CustomMod>
 	</Ability>
 	<Ability name="Untrained Improvisation" level="3">
-		<Description>You’ve learned how to handle situations when you’re out of your depth. Your proficiency bonus to untrained skill checks is equal to half your level instead of +0. If you’re 7th level or higher, the bonus increases to your full level instead. This doesn’t allow you to use the skill’s trained actions.</Description>
+		<Description>You've learned how to handle situations when you're out of your depth. Your proficiency bonus to untrained skill checks is equal to half your level instead of +0. If you're 7th level or higher, the bonus increases to your full level instead. This doesn't allow you to use the skill's trained actions.</Description>
 	</Ability>
 </pf2:feats>

@@ -47,7 +47,7 @@ You gain a +3 item bonus to attack rolls. The bomb deals 4d6 persistent acid dam
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Bomb, Consumable, Fire, Splash</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Alchemist’s fire is a combination of volatile liquids that ignite when exposed to air. Alchemist’s fire deals the listed fire damage, persistent fire damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
+	<Description>Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals the listed fire damage, persistent fire damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
 
 The bomb deals 1d8 fire damage, 1 persistent fire damage, and 1 fire splash damage.&lt;br&gt;</Description>
 </Item>
@@ -57,7 +57,7 @@ The bomb deals 1d8 fire damage, 1 persistent fire damage, and 1 fire splash dama
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Bomb, Consumable, Fire, Splash</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Alchemist’s fire is a combination of volatile liquids that ignite when exposed to air. Alchemist’s fire deals the listed fire damage, persistent fire damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
+	<Description>Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals the listed fire damage, persistent fire damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
 
 You gain a +1 item bonus to attack rolls. The bomb deals 2d8 fire damage, 2 persistent fire damage, and 2 fire splash damage.&lt;br&gt;</Description>
 </Item>
@@ -67,7 +67,7 @@ You gain a +1 item bonus to attack rolls. The bomb deals 2d8 fire damage, 2 pers
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Bomb, Consumable, Fire, Splash</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Alchemist’s fire is a combination of volatile liquids that ignite when exposed to air. Alchemist’s fire deals the listed fire damage, persistent fire damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
+	<Description>Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals the listed fire damage, persistent fire damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
 
 You gain a +2 item bonus to attack rolls. The bomb deals 3d8 fire damage, 3 persistent fire damage, and 3 fire splash damage.&lt;br&gt;</Description>
 </Item>
@@ -77,7 +77,7 @@ You gain a +2 item bonus to attack rolls. The bomb deals 3d8 fire damage, 3 pers
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Bomb, Consumable, Fire, Splash</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Alchemist’s fire is a combination of volatile liquids that ignite when exposed to air. Alchemist’s fire deals the listed fire damage, persistent fire damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
+	<Description>Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals the listed fire damage, persistent fire damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
 
 You gain a +3 item bonus to attack rolls. The bomb deals 4d8 fire damage, 4 persistent fire damage, and 4 fire splash damage.</Description>
 </Item>
@@ -167,7 +167,7 @@ You gain a +3 item bonus to attack rolls, the bomb deals 4d6 cold damage and 4 c
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Bomb, Consumable</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>A tanglefoot bag is filled with sticky substances. When you hit a creature with a tanglefoot bag, that creature takes a status penalty to its Speeds for 1 minute. Many types of tanglefoot bag also grant an item bonus on attack rolls.&lt;br&gt;&lt;br&gt; On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Tanglefoot bags are not effective when used on a creature that is in water.&lt;br&gt;&lt;br&gt; The target can end any effects by Escaping or spending a total of 3 Interact actions to carefully remove the sticky substances. These Interact actions don’t have to be consecutive, and other creatures can provide the actions as well.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
+	<Description>A tanglefoot bag is filled with sticky substances. When you hit a creature with a tanglefoot bag, that creature takes a status penalty to its Speeds for 1 minute. Many types of tanglefoot bag also grant an item bonus on attack rolls.&lt;br&gt;&lt;br&gt; On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Tanglefoot bags are not effective when used on a creature that is in water.&lt;br&gt;&lt;br&gt; The target can end any effects by Escaping or spending a total of 3 Interact actions to carefully remove the sticky substances. These Interact actions don't have to be consecutive, and other creatures can provide the actions as well.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
 
 The target takes a –10-foot penalty, and the Escape DC is 17.&lt;br&gt;</Description>
 </Item>
@@ -177,7 +177,7 @@ The target takes a –10-foot penalty, and the Escape DC is 17.&lt;br&gt;</Descr
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Bomb, Consumable</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>A tanglefoot bag is filled with sticky substances. When you hit a creature with a tanglefoot bag, that creature takes a status penalty to its Speeds for 1 minute. Many types of tanglefoot bag also grant an item bonus on attack rolls.&lt;br&gt;&lt;br&gt; On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Tanglefoot bags are not effective when used on a creature that is in water.&lt;br&gt;&lt;br&gt; The target can end any effects by Escaping or spending a total of 3 Interact actions to carefully remove the sticky substances. These Interact actions don’t have to be consecutive, and other creatures can provide the actions as well.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
+	<Description>A tanglefoot bag is filled with sticky substances. When you hit a creature with a tanglefoot bag, that creature takes a status penalty to its Speeds for 1 minute. Many types of tanglefoot bag also grant an item bonus on attack rolls.&lt;br&gt;&lt;br&gt; On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Tanglefoot bags are not effective when used on a creature that is in water.&lt;br&gt;&lt;br&gt; The target can end any effects by Escaping or spending a total of 3 Interact actions to carefully remove the sticky substances. These Interact actions don't have to be consecutive, and other creatures can provide the actions as well.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
 
 You gain a +1 item bonus to attack rolls, the target takes a –15-foot penalty, and the Escape DC is 19.&lt;br&gt;</Description>
 </Item>
@@ -187,7 +187,7 @@ You gain a +1 item bonus to attack rolls, the target takes a –15-foot penalty,
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Bomb, Consumable</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>A tanglefoot bag is filled with sticky substances. When you hit a creature with a tanglefoot bag, that creature takes a status penalty to its Speeds for 1 minute. Many types of tanglefoot bag also grant an item bonus on attack rolls.&lt;br&gt;&lt;br&gt; On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Tanglefoot bags are not effective when used on a creature that is in water.&lt;br&gt;&lt;br&gt; The target can end any effects by Escaping or spending a total of 3 Interact actions to carefully remove the sticky substances. These Interact actions don’t have to be consecutive, and other creatures can provide the actions as well.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
+	<Description>A tanglefoot bag is filled with sticky substances. When you hit a creature with a tanglefoot bag, that creature takes a status penalty to its Speeds for 1 minute. Many types of tanglefoot bag also grant an item bonus on attack rolls.&lt;br&gt;&lt;br&gt; On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Tanglefoot bags are not effective when used on a creature that is in water.&lt;br&gt;&lt;br&gt; The target can end any effects by Escaping or spending a total of 3 Interact actions to carefully remove the sticky substances. These Interact actions don't have to be consecutive, and other creatures can provide the actions as well.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
 
 You gain a +2 item bonus to attack rolls, the target takes a –15-foot penalty, and the Escape DC is 28.&lt;br&gt;</Description>
 </Item>
@@ -197,7 +197,7 @@ You gain a +2 item bonus to attack rolls, the target takes a –15-foot penalty,
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Bomb, Consumable</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>A tanglefoot bag is filled with sticky substances. When you hit a creature with a tanglefoot bag, that creature takes a status penalty to its Speeds for 1 minute. Many types of tanglefoot bag also grant an item bonus on attack rolls.&lt;br&gt;&lt;br&gt; On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Tanglefoot bags are not effective when used on a creature that is in water.&lt;br&gt;&lt;br&gt; The target can end any effects by Escaping or spending a total of 3 Interact actions to carefully remove the sticky substances. These Interact actions don’t have to be consecutive, and other creatures can provide the actions as well.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
+	<Description>A tanglefoot bag is filled with sticky substances. When you hit a creature with a tanglefoot bag, that creature takes a status penalty to its Speeds for 1 minute. Many types of tanglefoot bag also grant an item bonus on attack rolls.&lt;br&gt;&lt;br&gt; On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Tanglefoot bags are not effective when used on a creature that is in water.&lt;br&gt;&lt;br&gt; The target can end any effects by Escaping or spending a total of 3 Interact actions to carefully remove the sticky substances. These Interact actions don't have to be consecutive, and other creatures can provide the actions as well.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Strike&lt;br&gt;
 
 You gain a +3 item bonus to attack rolls, the target takes a –20-foot penalty, and the Escape DC is 37.</Description>
 </Item>
@@ -287,7 +287,7 @@ You gain a +4 item bonus, and when you drink the antidote, you can immediately a
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Antiplague can fortify the body’s defenses against diseases. Upon drinking an antiplague, you gain an item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease’s progression.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Antiplague can fortify the body's defenses against diseases. Upon drinking an antiplague, you gain an item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease's progression.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 You gain a +2 item bonus.&lt;br&gt;</Description>
 </Item>
@@ -297,7 +297,7 @@ You gain a +2 item bonus.&lt;br&gt;</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Antiplague can fortify the body’s defenses against diseases. Upon drinking an antiplague, you gain an item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease’s progression.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Antiplague can fortify the body's defenses against diseases. Upon drinking an antiplague, you gain an item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease's progression.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 You gain a +3 item bonus.&lt;br&gt;</Description>
 </Item>
@@ -307,7 +307,7 @@ You gain a +3 item bonus.&lt;br&gt;</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Antiplague can fortify the body’s defenses against diseases. Upon drinking an antiplague, you gain an item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease’s progression.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Antiplague can fortify the body's defenses against diseases. Upon drinking an antiplague, you gain an item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease's progression.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 You gain a +4 item bonus.&lt;br&gt;</Description>
 </Item>
@@ -317,7 +317,7 @@ You gain a +4 item bonus.&lt;br&gt;</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Antiplague can fortify the body’s defenses against diseases. Upon drinking an antiplague, you gain an item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease’s progression.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Antiplague can fortify the body's defenses against diseases. Upon drinking an antiplague, you gain an item bonus to Fortitude saving throws against diseases for 24 hours; this applies to your daily save against a disease's progression.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 You gain a +4 item bonus, and when you drink the antiplague, you can immediately attempt a saving throw against one disease of 14th level or lower affecting you. If you succeed, you are cured of the disease.</Description>
 </Item>
@@ -357,7 +357,7 @@ The bonus is +10 feet, and the duration is 1 hour.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Elixirs of life accelerate the body’s natural healing processes and immune system. Upon drinking this elixir, you regain the listed number of Hit Points and gain an item bonus to saving throws against diseases and poisons for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Elixirs of life accelerate the body's natural healing processes and immune system. Upon drinking this elixir, you regain the listed number of Hit Points and gain an item bonus to saving throws against diseases and poisons for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The elixir restores 1d6 Hit Points, and the bonus is +1.&lt;br&gt;</Description>
 </Item>
@@ -367,7 +367,7 @@ The elixir restores 1d6 Hit Points, and the bonus is +1.&lt;br&gt;</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Elixirs of life accelerate the body’s natural healing processes and immune system. Upon drinking this elixir, you regain the listed number of Hit Points and gain an item bonus to saving throws against diseases and poisons for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Elixirs of life accelerate the body's natural healing processes and immune system. Upon drinking this elixir, you regain the listed number of Hit Points and gain an item bonus to saving throws against diseases and poisons for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The elixir restores 3d6+6 Hit Points and the bonus is +1.&lt;br&gt;</Description>
 </Item>
@@ -377,7 +377,7 @@ The elixir restores 3d6+6 Hit Points and the bonus is +1.&lt;br&gt;</Description
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Elixirs of life accelerate the body’s natural healing processes and immune system. Upon drinking this elixir, you regain the listed number of Hit Points and gain an item bonus to saving throws against diseases and poisons for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Elixirs of life accelerate the body's natural healing processes and immune system. Upon drinking this elixir, you regain the listed number of Hit Points and gain an item bonus to saving throws against diseases and poisons for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The elixir restores 5d6+12 Hit Points, and the bonus is +2.&lt;br&gt;</Description>
 </Item>
@@ -387,7 +387,7 @@ The elixir restores 5d6+12 Hit Points, and the bonus is +2.&lt;br&gt;</Descripti
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Elixirs of life accelerate the body’s natural healing processes and immune system. Upon drinking this elixir, you regain the listed number of Hit Points and gain an item bonus to saving throws against diseases and poisons for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Elixirs of life accelerate the body's natural healing processes and immune system. Upon drinking this elixir, you regain the listed number of Hit Points and gain an item bonus to saving throws against diseases and poisons for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The elixir restores 7d6+18 Hit Points, and the bonus is +2.&lt;br&gt;</Description>
 </Item>
@@ -397,7 +397,7 @@ The elixir restores 7d6+18 Hit Points, and the bonus is +2.&lt;br&gt;</Descripti
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Elixirs of life accelerate the body’s natural healing processes and immune system. Upon drinking this elixir, you regain the listed number of Hit Points and gain an item bonus to saving throws against diseases and poisons for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Elixirs of life accelerate the body's natural healing processes and immune system. Upon drinking this elixir, you regain the listed number of Hit Points and gain an item bonus to saving throws against diseases and poisons for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The elixir restores 8d6+21 Hit Points, and the bonus is +3.&lt;br&gt;</Description>
 </Item>
@@ -407,7 +407,7 @@ The elixir restores 8d6+21 Hit Points, and the bonus is +3.&lt;br&gt;</Descripti
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Elixirs of life accelerate the body’s natural healing processes and immune system. Upon drinking this elixir, you regain the listed number of Hit Points and gain an item bonus to saving throws against diseases and poisons for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Elixirs of life accelerate the body's natural healing processes and immune system. Upon drinking this elixir, you regain the listed number of Hit Points and gain an item bonus to saving throws against diseases and poisons for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The elixir restores 10d6+27 Hit Points, and the bonus is +4.</Description>
 </Item>
@@ -417,7 +417,7 @@ The elixir restores 10d6+27 Hit Points, and the bonus is +4.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This tingly solution increases the elasticity and contraction of your leg muscles. For 1 minute after drinking this elixir, you can High Jump or Long Jump as a single action instead of 2 actions. If you do, you don’t perform the initial Stride (nor do you fail if you don’t Stride 10 feet).&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;</Description>
+	<Description>This tingly solution increases the elasticity and contraction of your leg muscles. For 1 minute after drinking this elixir, you can High Jump or Long Jump as a single action instead of 2 actions. If you do, you don't perform the initial Stride (nor do you fail if you don't Stride 10 feet).&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;</Description>
 </Item>
 <Item level="7" page="549">
 	<Name>Leaper's Elixir (Greater)</Name>
@@ -425,7 +425,7 @@ The elixir restores 10d6+27 Hit Points, and the bonus is +4.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This tingly solution increases the elasticity and contraction of your leg muscles. For 1 minute after drinking this elixir, you can High Jump or Long Jump as a single action instead of 2 actions. If you do, you don’t perform the initial Stride (nor do you fail if you don’t Stride 10 feet).&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>This tingly solution increases the elasticity and contraction of your leg muscles. For 1 minute after drinking this elixir, you can High Jump or Long Jump as a single action instead of 2 actions. If you do, you don't perform the initial Stride (nor do you fail if you don't Stride 10 feet).&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The maximum vertical distance you can jump with a High Jump is the same as you can jump horizontally with a Long Jump.</Description>
 </Item>
@@ -595,7 +595,7 @@ The bonus is +4, you gain 45 temporary Hit Points, and the duration is 1 hour. W
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Your features become thin and angular. You become swifter and nimbler, but your body also becomes fragile. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain an item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and ranged attack rolls, and you gain the listed status bonus to your Speed.&lt;br&gt;&lt;br&gt;&lt;b&gt;Drawback&lt;/b&gt; You take damage equal to twice your level; you can’t recover Hit Points lost in this way by any means while the mutagen lasts. You take a –2 penalty to Fortitude saves.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Your features become thin and angular. You become swifter and nimbler, but your body also becomes fragile. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain an item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and ranged attack rolls, and you gain the listed status bonus to your Speed.&lt;br&gt;&lt;br&gt;&lt;b&gt;Drawback&lt;/b&gt; You take damage equal to twice your level; you can't recover Hit Points lost in this way by any means while the mutagen lasts. You take a –2 penalty to Fortitude saves.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The bonus to rolls is +1, the bonus to Speed is +5 feet, and the duration is 1 minute.&lt;br&gt;</Description>
 </Item>
@@ -605,7 +605,7 @@ The bonus to rolls is +1, the bonus to Speed is +5 feet, and the duration is 1 m
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Your features become thin and angular. You become swifter and nimbler, but your body also becomes fragile. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain an item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and ranged attack rolls, and you gain the listed status bonus to your Speed.&lt;br&gt;&lt;br&gt;&lt;b&gt;Drawback&lt;/b&gt; You take damage equal to twice your level; you can’t recover Hit Points lost in this way by any means while the mutagen lasts. You take a –2 penalty to Fortitude saves.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Your features become thin and angular. You become swifter and nimbler, but your body also becomes fragile. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain an item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and ranged attack rolls, and you gain the listed status bonus to your Speed.&lt;br&gt;&lt;br&gt;&lt;b&gt;Drawback&lt;/b&gt; You take damage equal to twice your level; you can't recover Hit Points lost in this way by any means while the mutagen lasts. You take a –2 penalty to Fortitude saves.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The bonus to rolls is +2, the bonus to Speed is +10 feet, and the duration is 10 minutes.&lt;br&gt;</Description>
 </Item>
@@ -615,7 +615,7 @@ The bonus to rolls is +2, the bonus to Speed is +10 feet, and the duration is 10
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Your features become thin and angular. You become swifter and nimbler, but your body also becomes fragile. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain an item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and ranged attack rolls, and you gain the listed status bonus to your Speed.&lt;br&gt;&lt;br&gt;&lt;b&gt;Drawback&lt;/b&gt; You take damage equal to twice your level; you can’t recover Hit Points lost in this way by any means while the mutagen lasts. You take a –2 penalty to Fortitude saves.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Your features become thin and angular. You become swifter and nimbler, but your body also becomes fragile. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain an item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and ranged attack rolls, and you gain the listed status bonus to your Speed.&lt;br&gt;&lt;br&gt;&lt;b&gt;Drawback&lt;/b&gt; You take damage equal to twice your level; you can't recover Hit Points lost in this way by any means while the mutagen lasts. You take a –2 penalty to Fortitude saves.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The bonus to rolls is +3, the bonus to Speed is +15 feet, and the duration is 1 hour.&lt;br&gt;</Description>
 </Item>
@@ -625,7 +625,7 @@ The bonus to rolls is +3, the bonus to Speed is +15 feet, and the duration is 1 
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Your features become thin and angular. You become swifter and nimbler, but your body also becomes fragile. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain an item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and ranged attack rolls, and you gain the listed status bonus to your Speed.&lt;br&gt;&lt;br&gt;&lt;b&gt;Drawback&lt;/b&gt; You take damage equal to twice your level; you can’t recover Hit Points lost in this way by any means while the mutagen lasts. You take a –2 penalty to Fortitude saves.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>Your features become thin and angular. You become swifter and nimbler, but your body also becomes fragile. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain an item bonus to Acrobatics checks, Stealth checks, Thievery checks, Reflex saves, and ranged attack rolls, and you gain the listed status bonus to your Speed.&lt;br&gt;&lt;br&gt;&lt;b&gt;Drawback&lt;/b&gt; You take damage equal to twice your level; you can't recover Hit Points lost in this way by any means while the mutagen lasts. You take a –2 penalty to Fortitude saves.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The bonus to rolls is +4, the bonus to Speed is +20 feet, and the duration is 1 hour.</Description>
 </Item>
@@ -745,7 +745,7 @@ The duration is 24 hours.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Polymorph</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Favored by spies and tricksters, an infiltrator’s elixir is used to alter your appearance. When imbibed, you take the shape of a humanoid creature of your size, but different enough so you might be unrecognizable. If you aren’t a humanoid, you might take on a form more similar to your own, at the GM’s discretion.&lt;br&gt;&lt;br&gt; The creator of the elixir decides the basics of the appearance you transform into when you imbibe the elixir, including eye color, skin tone, and hair color. The elixir can’t change your form into that of a specific person. After the form takes hold, you retain it for the next 10 minutes. &lt;br&gt;&lt;br&gt; Drinking this elixir counts as setting up a disguise to Impersonate. You gain a +4 status bonus to your Deception DC to avoid others seeing through your disguise, and you add your level to this DC even if untrained. &lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
+	<Description>Favored by spies and tricksters, an infiltrator's elixir is used to alter your appearance. When imbibed, you take the shape of a humanoid creature of your size, but different enough so you might be unrecognizable. If you aren't a humanoid, you might take on a form more similar to your own, at the GM's discretion.&lt;br&gt;&lt;br&gt; The creator of the elixir decides the basics of the appearance you transform into when you imbibe the elixir, including eye color, skin tone, and hair color. The elixir can't change your form into that of a specific person. After the form takes hold, you retain it for the next 10 minutes. &lt;br&gt;&lt;br&gt; Drinking this elixir counts as setting up a disguise to Impersonate. You gain a +4 status bonus to your Deception DC to avoid others seeing through your disguise, and you add your level to this DC even if untrained. &lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
 </Item>
 <Item level="2" page="547">
 	<Name>Bravo's Brew (Lesser)</Name>
@@ -783,7 +783,7 @@ The bonus on Will saves is +3, or +4 against fear. If you roll a success on a sa
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>After you consume this elixir, your vision sharpens and you become sensitive to even the most minute movements. For the next minute, you reduce the flat check to target hidden creatures to 5, and you don’t need to attempt a flat check to target concealed creatures. These benefits apply only against creatures within 30 feet of you. &lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
+	<Description>After you consume this elixir, your vision sharpens and you become sensitive to even the most minute movements. For the next minute, you reduce the flat check to target hidden creatures to 5, and you don't need to attempt a flat check to target concealed creatures. These benefits apply only against creatures within 30 feet of you. &lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
 </Item>
 <Item level="2" page="547">
 	<Name>Comprehension Elixir (Lesser)</Name>
@@ -791,7 +791,7 @@ The bonus on Will saves is +3, or +4 against fear. If you roll a success on a sa
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Mental</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This bitter draught opens your mind to the potential of the written word. For the listed duration after drinking this elixir, you can understand any words you read, so long as they are written in a common language. This elixir doesn’t automatically allow you to understand codes or extremely esoteric passages—you still need to attempt a skill check to Decipher Writing.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>This bitter draught opens your mind to the potential of the written word. For the listed duration after drinking this elixir, you can understand any words you read, so long as they are written in a common language. This elixir doesn't automatically allow you to understand codes or extremely esoteric passages—you still need to attempt a skill check to Decipher Writing.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The duration is 1 minute.&lt;br&gt;</Description>
 </Item>
@@ -801,7 +801,7 @@ The duration is 1 minute.&lt;br&gt;</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Mental</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This bitter draught opens your mind to the potential of the written word. For the listed duration after drinking this elixir, you can understand any words you read, so long as they are written in a common language. This elixir doesn’t automatically allow you to understand codes or extremely esoteric passages—you still need to attempt a skill check to Decipher Writing.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>This bitter draught opens your mind to the potential of the written word. For the listed duration after drinking this elixir, you can understand any words you read, so long as they are written in a common language. This elixir doesn't automatically allow you to understand codes or extremely esoteric passages—you still need to attempt a skill check to Decipher Writing.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The duration is 10 minutes.</Description>
 </Item>
@@ -821,7 +821,7 @@ The duration is 10 minutes.</Description>
 	<Usage>held in 1 hand</Usage>
 	<Description>This tincture lets you pinpoint your foes. For the next 5 minutes, your alchemical bomb Strikes reduce the circumstance bonus to AC your targets gain from cover.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
-Reduce your targets’ circumstance bonus by 1.&lt;br&gt;</Description>
+Reduce your targets' circumstance bonus by 1.&lt;br&gt;</Description>
 </Item>
 <Item level="14" page="547">
 	<Name>Bomber's Eye Elixir (Greater)</Name>
@@ -831,7 +831,7 @@ Reduce your targets’ circumstance bonus by 1.&lt;br&gt;</Description>
 	<Usage>held in 1 hand</Usage>
 	<Description>This tincture lets you pinpoint your foes. For the next 5 minutes, your alchemical bomb Strikes reduce the circumstance bonus to AC your targets gain from cover.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
-Reduce your targets’ circumstance bonus by 2.</Description>
+Reduce your targets' circumstance bonus by 2.</Description>
 </Item>
 <Item level="4" page="549">
 	<Name>Salamander Elixir (Lesser)</Name>
@@ -849,7 +849,7 @@ Reduce your targets’ circumstance bonus by 2.</Description>
 	<Usage>held in 1 hand</Usage>
 	<Description>This elixir is made from salamander scales to withstand fire. For 24 hours, you are protected from the effects of severe heat.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
-You’re also protected from extreme heat.&lt;br&gt;</Description>
+You're also protected from extreme heat.&lt;br&gt;</Description>
 </Item>
 <Item level="16" page="549">
 	<Name>Salamander Elixir (Greater)</Name>
@@ -859,7 +859,7 @@ You’re also protected from extreme heat.&lt;br&gt;</Description>
 	<Usage>held in 1 hand</Usage>
 	<Description>This elixir is made from salamander scales to withstand fire. For 24 hours, you are protected from the effects of severe heat.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
-You’re also protected from extreme and incredible heat.</Description>
+You're also protected from extreme and incredible heat.</Description>
 </Item>
 <Item level="4" page="550">
 	<Name>Winter Wolf Elixir (Lesser)</Name>
@@ -877,7 +877,7 @@ You’re also protected from extreme and incredible heat.</Description>
 	<Usage>held in 1 hand</Usage>
 	<Description>This elixir warms your core and improves your circulation. For 24 hours, you are protected from the effects of severe cold.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
-You’re also protected from extreme cold.&lt;br&gt;</Description>
+You're also protected from extreme cold.&lt;br&gt;</Description>
 </Item>
 <Item level="16" page="550">
 	<Name>Winter Wolf Elixir (Greater)</Name>
@@ -887,7 +887,7 @@ You’re also protected from extreme cold.&lt;br&gt;</Description>
 	<Usage>held in 1 hand</Usage>
 	<Description>This elixir warms your core and improves your circulation. For 24 hours, you are protected from the effects of severe cold.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
-You’re also protected from extreme and incredible cold.</Description>
+You're also protected from extreme and incredible cold.</Description>
 </Item>
 <Item level="4" page="549">
 	<Name>Mistform Elixir (Lesser)</Name>
@@ -895,7 +895,7 @@ You’re also protected from extreme and incredible cold.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Illusion, Visual</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>A faint mist emanates from your skin, making you concealed for the listed duration. As usual being concealed when your position is still obvious, you can’t use this concealment to Hide or Sneak.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>A faint mist emanates from your skin, making you concealed for the listed duration. As usual being concealed when your position is still obvious, you can't use this concealment to Hide or Sneak.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The duration is 3 rounds.&lt;br&gt;</Description>
 </Item>
@@ -905,7 +905,7 @@ The duration is 3 rounds.&lt;br&gt;</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Illusion, Visual</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>A faint mist emanates from your skin, making you concealed for the listed duration. As usual being concealed when your position is still obvious, you can’t use this concealment to Hide or Sneak.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>A faint mist emanates from your skin, making you concealed for the listed duration. As usual being concealed when your position is still obvious, you can't use this concealment to Hide or Sneak.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The duration is 1 minute.&lt;br&gt;</Description>
 </Item>
@@ -915,7 +915,7 @@ The duration is 1 minute.&lt;br&gt;</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir, Illusion, Visual</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>A faint mist emanates from your skin, making you concealed for the listed duration. As usual being concealed when your position is still obvious, you can’t use this concealment to Hide or Sneak.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
+	<Description>A faint mist emanates from your skin, making you concealed for the listed duration. As usual being concealed when your position is still obvious, you can't use this concealment to Hide or Sneak.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;
 
 The duration is 5 minutes.</Description>
 </Item>
@@ -954,7 +954,7 @@ The duration is 24 hours, and you can breathe underwater.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Elixir</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>The elixir of rejuvenation restores a creature to full health and eradicates toxins affecting it. When you drink this elixir, you’re restored to your maximum Hit Points, and all afflictions of 20th level or lower affecting you are removed.&lt;br&gt;&lt;br&gt; You can instead administer this elixir to a creature that has been dead for a week or less. When you do, that creature is instantly brought back to life with 1 Hit Point and no spell slots, Focus Points, or other daily resources.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; philosopher’s stone, true elixir of life</Description>
+	<Description>The elixir of rejuvenation restores a creature to full health and eradicates toxins affecting it. When you drink this elixir, you're restored to your maximum Hit Points, and all afflictions of 20th level or lower affecting you are removed.&lt;br&gt;&lt;br&gt; You can instead administer this elixir to a creature that has been dead for a week or less. When you do, that creature is instantly brought back to life with 1 Hit Point and no spell slots, Focus Points, or other daily resources.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; philosopher's stone, true elixir of life</Description>
 </Item>
 </SubCategory><SubCategory name="Alchemical Poisons"><Item level="1" page="550">
 	<Name>Arsenic</Name>
@@ -962,7 +962,7 @@ The duration is 24 hours, and you can breathe underwater.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Ingested, Poison</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This toxin is a compound of arsenic and other substances. You can’t reduce your sickened condition while affected.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 18 Fortitude; &lt;b&gt;Onset&lt;/b&gt;10 minutes; &lt;b&gt;Maximum Duration&lt;/b&gt; 5 minutes; &lt;b&gt;Stage 1&lt;/b&gt; 1d4 poison damage and sickened 1 (1 minute); &lt;b&gt;Stage 2&lt;/b&gt; 1d6 poison damage and sickened 2 (1 minute); &lt;b&gt;Stage 3&lt;/b&gt; 2d6 poison damage and sickened 3 (1 minute)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
+	<Description>This toxin is a compound of arsenic and other substances. You can't reduce your sickened condition while affected.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 18 Fortitude; &lt;b&gt;Onset&lt;/b&gt;10 minutes; &lt;b&gt;Maximum Duration&lt;/b&gt; 5 minutes; &lt;b&gt;Stage 1&lt;/b&gt; 1d4 poison damage and sickened 1 (1 minute); &lt;b&gt;Stage 2&lt;/b&gt; 1d6 poison damage and sickened 2 (1 minute); &lt;b&gt;Stage 3&lt;/b&gt; 2d6 poison damage and sickened 3 (1 minute)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
 </Item>
 <Item level="1" page="551">
 	<Name>Giant Centipede Venom</Name>
@@ -1018,7 +1018,7 @@ The duration is 24 hours, and you can breathe underwater.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Injury, Poison</Traits>
 	<Usage>held in 2 hands</Usage>
-	<Description>This venom erodes its target’s defenses, aiding the spider in securing prey.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 21 Fortitude; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 rounds; &lt;b&gt;Stage 1&lt;/b&gt; 1d10 poison damage and flat-footed (1 round); &lt;b&gt;Stage 2&lt;/b&gt; 1d12 poison damage, clumsy 1, and flat-footed (1 round); &lt;b&gt;Stage 3&lt;/b&gt; 2d6 poison damage, clumsy 2, and flat-footed (1 round)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact</Description>
+	<Description>This venom erodes its target's defenses, aiding the spider in securing prey.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 21 Fortitude; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 rounds; &lt;b&gt;Stage 1&lt;/b&gt; 1d10 poison damage and flat-footed (1 round); &lt;b&gt;Stage 2&lt;/b&gt; 1d12 poison damage, clumsy 1, and flat-footed (1 round); &lt;b&gt;Stage 3&lt;/b&gt; 2d6 poison damage, clumsy 2, and flat-footed (1 round)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact</Description>
 </Item>
 <Item level="6" page="551">
 	<Name>Giant Scorpion Venom</Name>
@@ -1034,7 +1034,7 @@ The duration is 24 hours, and you can breathe underwater.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Injury, Poison</Traits>
 	<Usage>held in 2 hands</Usage>
-	<Description>Giant wasp venom interferes with a victim’s movement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 25 Fortitude; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 rounds; &lt;b&gt;Stage 1&lt;/b&gt; 2d6 poison damage and clumsy 1 (1 round); &lt;b&gt;Stage 2&lt;/b&gt; 3d6 poison damage and clumsy 2 (1 round); &lt;b&gt;Stage 3&lt;/b&gt; 4d6 poison and clumsy 2 (1 round)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact</Description>
+	<Description>Giant wasp venom interferes with a victim's movement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 25 Fortitude; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 rounds; &lt;b&gt;Stage 1&lt;/b&gt; 2d6 poison damage and clumsy 1 (1 round); &lt;b&gt;Stage 2&lt;/b&gt; 3d6 poison damage and clumsy 2 (1 round); &lt;b&gt;Stage 3&lt;/b&gt; 4d6 poison and clumsy 2 (1 round)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact</Description>
 </Item>
 <Item level="7" page="552">
 	<Name>Malyass Root Paste</Name>
@@ -1058,7 +1058,7 @@ The duration is 24 hours, and you can breathe underwater.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Injury, Poison</Traits>
 	<Usage>held in 2 hands</Usage>
-	<Description>Properly harvested and preserved, the poison from a wyvern’s sting is effective and direct.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 26 Fortitude; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 rounds; &lt;b&gt;Stage 1&lt;/b&gt; 5d6 poison damage (1 round); &lt;b&gt;Stage 2&lt;/b&gt; 6d6 poison damage (1 round); &lt;b&gt;Stage 3&lt;/b&gt; 8d6 poison damage (1 round)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact</Description>
+	<Description>Properly harvested and preserved, the poison from a wyvern's sting is effective and direct.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 26 Fortitude; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 rounds; &lt;b&gt;Stage 1&lt;/b&gt; 5d6 poison damage (1 round); &lt;b&gt;Stage 2&lt;/b&gt; 6d6 poison damage (1 round); &lt;b&gt;Stage 3&lt;/b&gt; 8d6 poison damage (1 round)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact</Description>
 </Item>
 <Item level="9" page="552">
 	<Name>Lich Dust</Name>
@@ -1082,7 +1082,7 @@ The duration is 24 hours, and you can breathe underwater.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Ingested, Poison</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Wolfsbane appears in folklore for its link to werecreatures. If you are afflicted with lycanthropy and survive &lt;b&gt;Stage 3&lt;/b&gt; of wolfsbane, you’re immediately cured of the lycanthropy.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 30 Fortitude; &lt;b&gt;Onset&lt;/b&gt;10 minutes; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 minutes; &lt;b&gt;Stage 1&lt;/b&gt; 12d6 poison damage (1 minute); &lt;b&gt;Stage 2&lt;/b&gt; 16d6 poison damage (1 minute); &lt;b&gt;Stage 3&lt;/b&gt; 20d6 poison damage (1 minute)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
+	<Description>Wolfsbane appears in folklore for its link to werecreatures. If you are afflicted with lycanthropy and survive &lt;b&gt;Stage 3&lt;/b&gt; of wolfsbane, you're immediately cured of the lycanthropy.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 30 Fortitude; &lt;b&gt;Onset&lt;/b&gt;10 minutes; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 minutes; &lt;b&gt;Stage 1&lt;/b&gt; 12d6 poison damage (1 minute); &lt;b&gt;Stage 2&lt;/b&gt; 16d6 poison damage (1 minute); &lt;b&gt;Stage 3&lt;/b&gt; 20d6 poison damage (1 minute)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
 </Item>
 <Item level="10" page="553">
 	<Name>Shadow Essence</Name>
@@ -1106,7 +1106,7 @@ The duration is 24 hours, and you can breathe underwater.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Ingested, Poison, Sleep</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Slumber wine sees its greatest use in games of intrigue, where an absence can be more devastating than injury. Characters unconscious from slumber wine can’t wake up by any means while the poison lasts, don’t need to eat or drink while unconscious in this way, and appear to be recently dead unless an examiner succeeds at a DC 40 Medicine check.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 32 Fortitude; &lt;b&gt;Onset&lt;/b&gt;1 hour; &lt;b&gt;Maximum Duration&lt;/b&gt; 7 days; &lt;b&gt;Stage 1&lt;/b&gt; unconscious (1 day); &lt;b&gt;Stage 2&lt;/b&gt; unconscious (2 days); &lt;b&gt;Stage 3&lt;/b&gt; unconscious (3 days).&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
+	<Description>Slumber wine sees its greatest use in games of intrigue, where an absence can be more devastating than injury. Characters unconscious from slumber wine can't wake up by any means while the poison lasts, don't need to eat or drink while unconscious in this way, and appear to be recently dead unless an examiner succeeds at a DC 40 Medicine check.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 32 Fortitude; &lt;b&gt;Onset&lt;/b&gt;1 hour; &lt;b&gt;Maximum Duration&lt;/b&gt; 7 days; &lt;b&gt;Stage 1&lt;/b&gt; unconscious (1 day); &lt;b&gt;Stage 2&lt;/b&gt; unconscious (2 days); &lt;b&gt;Stage 3&lt;/b&gt; unconscious (3 days).&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
 </Item>
 <Item level="13" page="551">
 	<Name>Deathcap Powder</Name>
@@ -1138,7 +1138,7 @@ The duration is 24 hours, and you can breathe underwater.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Inhaled, Poison</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Mindfog mist can be used to undermine spellcasters, as its effect on a victim’s mental faculties are swift and powerful.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 35 Fortitude; &lt;b&gt;Onset&lt;/b&gt;1 round; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 rounds; &lt;b&gt;Stage 1&lt;/b&gt; stupefied 2 (1 round); &lt;b&gt;Stage 2&lt;/b&gt; confused and stupefied 3 (1 round); &lt;b&gt;Stage 3&lt;/b&gt; confused and stupefied 4 (1 round)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
+	<Description>Mindfog mist can be used to undermine spellcasters, as its effect on a victim's mental faculties are swift and powerful.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 35 Fortitude; &lt;b&gt;Onset&lt;/b&gt;1 round; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 rounds; &lt;b&gt;Stage 1&lt;/b&gt; stupefied 2 (1 round); &lt;b&gt;Stage 2&lt;/b&gt; confused and stupefied 3 (1 round); &lt;b&gt;Stage 3&lt;/b&gt; confused and stupefied 4 (1 round)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
 </Item>
 <Item level="16" page="553">
 	<Name>Nightmare Vapor</Name>
@@ -1162,7 +1162,7 @@ The duration is 24 hours, and you can breathe underwater.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Ingested, Poison</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>Concentrated hemlock is a particularly deadly toxin that halts muscle action—including that of the victim’s heart.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 40 Fortitude; &lt;b&gt;Onset&lt;/b&gt;30 minutes; &lt;b&gt;Maximum Duration&lt;/b&gt; 60 minutes; &lt;b&gt;Stage 1&lt;/b&gt; 17d6 poison damage and enfeebled 2 (10 minutes); &lt;b&gt;Stage 2&lt;/b&gt; 21d6 poison damage and enfeebled 3 (10 minutes); &lt;b&gt;Stage 3&lt;/b&gt; 26d6 poison damage and enfeebled 4 (10 minutes) &lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
+	<Description>Concentrated hemlock is a particularly deadly toxin that halts muscle action—including that of the victim's heart.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 40 Fortitude; &lt;b&gt;Onset&lt;/b&gt;30 minutes; &lt;b&gt;Maximum Duration&lt;/b&gt; 60 minutes; &lt;b&gt;Stage 1&lt;/b&gt; 17d6 poison damage and enfeebled 2 (10 minutes); &lt;b&gt;Stage 2&lt;/b&gt; 21d6 poison damage and enfeebled 3 (10 minutes); &lt;b&gt;Stage 3&lt;/b&gt; 26d6 poison damage and enfeebled 4 (10 minutes) &lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
 </Item>
 <Item level="18" page="552">
 	<Name>King's Sleep</Name>
@@ -1170,7 +1170,7 @@ The duration is 24 hours, and you can breathe underwater.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Ingested, Poison, Virulent</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>King’s sleep is an insidious long-term poison that can seem like a disease or even death from natural causes on a venerable target. The drained condition from king’s sleep is cumulative with each failed save and can’t be removed while the poison lasts.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 41 Fortitude; &lt;b&gt;Onset&lt;/b&gt;1 day; &lt;b&gt;Stage 1&lt;/b&gt; drained 1 (1 day); &lt;b&gt;Stage 2&lt;/b&gt; drained 1 (1 day); &lt;b&gt;Stage 3&lt;/b&gt; drained 2 (1 day)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
+	<Description>King's sleep is an insidious long-term poison that can seem like a disease or even death from natural causes on a venerable target. The drained condition from king's sleep is cumulative with each failed save and can't be removed while the poison lasts.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 41 Fortitude; &lt;b&gt;Onset&lt;/b&gt;1 day; &lt;b&gt;Stage 1&lt;/b&gt; drained 1 (1 day); &lt;b&gt;Stage 2&lt;/b&gt; drained 1 (1 day); &lt;b&gt;Stage 3&lt;/b&gt; drained 2 (1 day)&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
 </Item>
 <Item level="19" page="551">
 	<Name>Black Lotus Extract</Name>
@@ -1201,7 +1201,7 @@ The duration is 24 hours, and you can breathe underwater.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable</Traits>
 	<Usage>held in 2 hands</Usage>
-	<Description>You can apply snake oil onto a wound or other outward symptom of an affliction or condition (such as sores from a disease or discoloration from a poison). For the next hour, the symptom disappears and the wounded or afflicted creature doesn’t feel as if it still has the wound or affliction, though all effects remain. A creature can uncover the ruse by succeeding at a DC 17 Perception check, but only if it uses a Seek action to specifically examine the snake oil’s effects.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
+	<Description>You can apply snake oil onto a wound or other outward symptom of an affliction or condition (such as sores from a disease or discoloration from a poison). For the next hour, the symptom disappears and the wounded or afflicted creature doesn't feel as if it still has the wound or affliction, though all effects remain. A creature can uncover the ruse by succeeding at a DC 17 Perception check, but only if it uses a Seek action to specifically examine the snake oil's effects.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
 </Item>
 <Item level="1" page="554">
 	<Name>Smokestick (Lesser)</Name>
@@ -1229,7 +1229,7 @@ The radius of the burst is 20 feet.</Description>
 	<Bulk>L</Bulk>
 	<Traits>Alchemical, Consumable, Light</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This 1-foot-long, gold-tipped rod glows after it’s struck on a hard surface. For the next 6 hours, it sheds bright light in a 20-foot radius (and dim light to the next 40 feet).&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
+	<Description>This 1-foot-long, gold-tipped rod glows after it's struck on a hard surface. For the next 6 hours, it sheds bright light in a 20-foot radius (and dim light to the next 40 feet).&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact</Description>
 </Item>
 <Item level="2" page="554">
 	<Name>Silversheen</Name>
@@ -1244,6 +1244,6 @@ The radius of the burst is 20 feet.</Description>
 	<Bulk>2</Bulk>
 	<Traits>Alchemical, Consumable</Traits>
 	<Usage>held in 2 hands</Usage>
-	<Description>An alchemist with the Craft Philosopher’s Stone feat can create a philosopher’s stone once per month by spending 1 batch of infused reagents during their daily preparations using the advanced alchemy class feature. This is the only way to create a philosopher’s stone.&lt;br&gt;&lt;br&gt; At a glance, a philosopher’s stone appears to be an ordinary, sooty piece of natural rock. Breaking the rock open with a Force Open action (DC 35) reveals a cavity at the stone’s heart. The cavity is lined with a rare type of quicksilver that can transmute base metals into precious metals or create an elixir of rejuvenation. &lt;br&gt;&lt;br&gt; To use the quicksilver, you must be legendary in Crafting and have the Alchemical Crafting feat. You can then use the stone’s quicksilver for one of two effects: You can apply the stone’s quicksilver to an infused true elixir of life using an Interact action. This turns the elixir into an infused elixir of rejuvenation instantaneously. This doesn’t require any crafting time or additional materials. You can spend up to a month of downtime applying the quicksilver either to iron to create silver or to lead to create gold. Treat this as a 20th-level task to Earn Income using Crafting, except that you create 500 gp worth of your chosen metal per day on a success or 750 gp worth per day on a critical success.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact or 1 or more days; see below</Description>
+	<Description>An alchemist with the Craft Philosopher's Stone feat can create a philosopher's stone once per month by spending 1 batch of infused reagents during their daily preparations using the advanced alchemy class feature. This is the only way to create a philosopher's stone.&lt;br&gt;&lt;br&gt; At a glance, a philosopher's stone appears to be an ordinary, sooty piece of natural rock. Breaking the rock open with a Force Open action (DC 35) reveals a cavity at the stone's heart. The cavity is lined with a rare type of quicksilver that can transmute base metals into precious metals or create an elixir of rejuvenation. &lt;br&gt;&lt;br&gt; To use the quicksilver, you must be legendary in Crafting and have the Alchemical Crafting feat. You can then use the stone's quicksilver for one of two effects: You can apply the stone's quicksilver to an infused true elixir of life using an Interact action. This turns the elixir into an infused elixir of rejuvenation instantaneously. This doesn't require any crafting time or additional materials. You can spend up to a month of downtime applying the quicksilver either to iron to create silver or to lead to create gold. Treat this as a 20th-level task to Earn Income using Crafting, except that you create 500 gp worth of your chosen metal per day on a success or 750 gp worth per day on a critical success.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact or 1 or more days; see below</Description>
 </Item>
 </SubCategory></pf2:Items>

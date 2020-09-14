@@ -218,12 +218,7 @@
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
-        <AbilitySlot state="filled" name="Resolve">
-            <Ability>
-                <Description>You’ve steeled your mind with resolve. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.</Description>
-                <AttributeMods Proficiency="Master">Will</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Resolve" type="ClassFeature" contents="Resolve" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
@@ -282,25 +277,7 @@
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Weapon Specialization">
-            <Ability>
-                <Description>You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master, and to 4 if you’re legendary.</Description>
-                <CustomMod>
-                    def weaponSpecialization = {weapon, damage ->
-                    def proficiency = get("Attributes").getProficiency(weapon.getProficiency(), weapon);
-                    if (proficiency.toString() == "Legendary") {
-                    return damage.add(4);
-                    } else if (proficiency.toString() == "Master") {
-                    return damage.add(3);
-                    } else if (proficiency.toString() == "Expert") {
-                    return damage.add(2);
-                    }
-                    return damage;
-                    }
-                    damageModifier("Weapon Specialization", weaponSpecialization)
-                </CustomMod>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Weapon Specialization" type="ClassFeature" contents="Weapon Specialization" />
     </FeatureList>
     <FeatureList level="14">
         <AbilitySlot state="feat" type="Class Feat" name="Cleric Feat"/>
@@ -358,7 +335,7 @@
         <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
         <AbilitySlot state="filled" name="Miraculous Spell">
             <Ability>
-                <Description>You’re exalted by your deity and gain truly incredible spells. You gain a single 10th-level spell slot and can prepare a spell in that slot using divine spellcasting. You don’t gain more 10th-level spells as you level up, though you can take the Maker of Miracles feat to gain a second slot.</Description>
+                <Description>You're exalted by your deity and gain truly incredible spells. You gain a single 10th-level spell slot and can prepare a spell in that slot using divine spellcasting. You don't gain more 10th-level spells as you level up, though you can take the Maker of Miracles feat to gain a second slot.</Description>
                 <SpellSlots level="10" count="1"/>
             </Ability>
         </AbilitySlot>
@@ -376,12 +353,12 @@
     <Feats>
         <Ability name="Deadly Simplicity" level="1" page="121">
             <Traits>Cleric</Traits>
-            <Requirements>Deity With A Simple Favored Weapon, Trained With Your Deity’s Favored Weapon</Requirements>
-            <Description>Your deity’s weapon is especially powerful in your hands. When you are wielding your deity’s favored weapon, increase the damage die size of that weapon by one step. If your deity’s favored weapon is an unarmed attack (such as a fist, if you worship Irori) and its damage die is smaller than d6, instead increase its damage die size to d6.</Description>
+            <Requirements>Deity With A Simple Favored Weapon, Trained With Your Deity's Favored Weapon</Requirements>
+            <Description>Your deity's weapon is especially powerful in your hands. When you are wielding your deity's favored weapon, increase the damage die size of that weapon by one step. If your deity's favored weapon is an unarmed attack (such as a fist, if you worship Irori) and its damage die is smaller than d6, instead increase its damage die size to d6.</Description>
         </Ability>
         <Ability name="Domain Initiate" level="1" page="121">
             <Traits>Cleric</Traits>
-            <Description>Your deity bestows a special spell related to their powers. Select one domain—a subject of particular interest to you within your religion—from your deity’s list. You gain an initial domain spell for that domain, a spell unique to the domain and not available to other clerics. Each domain’s theme and domain spells appear in Table 8–2: Domains on page 441. Domain spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to pray to your deity or do service toward their causes. Focus spells are automatically heightened to half your level rounded up. Focus spells don’t require spell slots, nor can you cast them using spell slots. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear on page 300.Special You can select this feat multiple times, selecting a different domain each time and gaining its domain spell.
+            <Description>Your deity bestows a special spell related to their powers. Select one domain—a subject of particular interest to you within your religion—from your deity's list. You gain an initial domain spell for that domain, a spell unique to the domain and not available to other clerics. Each domain's theme and domain spells appear in Table 8–2: Domains on page 441. Domain spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to pray to your deity or do service toward their causes. Focus spells are automatically heightened to half your level rounded up. Focus spells don't require spell slots, nor can you cast them using spell slots. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear on page 300.Special You can select this feat multiple times, selecting a different domain each time and gaining its domain spell.
             </Description>
         </Ability>
         <Ability name="Harming Hands" level="1" page="121">
@@ -401,7 +378,7 @@
         </Ability>
         <Ability name="Reach Spell" level="1" page="122" cost="1">
             <Traits>Cleric, Concentrate, Druid, Metamagic</Traits>
-            <Description>You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell’s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</Description>
+            <Description>You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell's range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</Description>
         </Ability>
         <Ability name="Cantrip Expansion" level="2" page="100">
             <Traits>Cleric</Traits>
@@ -409,15 +386,15 @@
         </Ability>
         <Ability name="Communal Healing" level="2" page="122">
             <Traits>Cleric, Healing, Positive</Traits>
-            <Description>You’re a conduit for positive energy, and as you cit through you, it heals some of your minor injuries. When you cast the heal spell to heal a single creature other than yourself, you regain Hit Points equal to the spell level of the heal spell.</Description>
+            <Description>You're a conduit for positive energy, and as you cit through you, it heals some of your minor injuries. When you cast the heal spell to heal a single creature other than yourself, you regain Hit Points equal to the spell level of the heal spell.</Description>
         </Ability>
         <Ability name="Emblazon Armament" level="2" page="122">
             <Traits>Cleric, Exploration</Traits>
-            <Description>Carefully etching a sacred image into a physical object, you steel yourself for battle. You can spend 10 minutes emblazoning a symbol of your deity upon a weapon or shield. The symbol doesn’t fade until 1 year has passed, but if you Emblazon an Armament, any symbol you previously emblazoned and any symbol already emblazoned on that item instantly disappears. The item becomes a religious symbol of your deity and can be used as a divine focus while emblazoned, and it gains another benefit determined by the type of item. This benefit applies only to followers of the deity the symbol represents. Shield The shield gains a +1 status bonus to its Hardness. (This causes it to reduce more damage with the Shield Block reaction.) Weapon The wielder gains a +1 status bonus to damage rolls.</Description>
+            <Description>Carefully etching a sacred image into a physical object, you steel yourself for battle. You can spend 10 minutes emblazoning a symbol of your deity upon a weapon or shield. The symbol doesn't fade until 1 year has passed, but if you Emblazon an Armament, any symbol you previously emblazoned and any symbol already emblazoned on that item instantly disappears. The item becomes a religious symbol of your deity and can be used as a divine focus while emblazoned, and it gains another benefit determined by the type of item. This benefit applies only to followers of the deity the symbol represents. Shield The shield gains a +1 status bonus to its Hardness. (This causes it to reduce more damage with the Shield Block reaction.) Weapon The wielder gains a +1 status bonus to damage rolls.</Description>
         </Ability>
         <Ability name="Sap Life" level="2" page="122">
             <Traits>Cleric, Healing</Traits>
-            <Description>You draw the life force out of your enemies to heal your own wounds. When you cast a harm spell and damage at least one living creature, you regain Hit Points equal to the spell level of your harm spell. If you aren’t a living creature, you gain no benefit from this feat.</Description>
+            <Description>You draw the life force out of your enemies to heal your own wounds. When you cast a harm spell and damage at least one living creature, you regain Hit Points equal to the spell level of your harm spell. If you aren't a living creature, you gain no benefit from this feat.</Description>
         </Ability>
         <Ability name="Turn Undead" level="2" page="122">
             <Traits>Cleric</Traits>
@@ -427,18 +404,18 @@
             <Traits>Cleric</Traits>
             <Prerequisites>Harmful Font Or Healing Font</Prerequisites>
             <Requirements>Deity That Allows Clerics To Have Both Fonts</Requirements>
-            <Description>As you explore your deity’s aspects, you move beyond restrictions on healing or harming. You can prepare either harm or heal in the spell slots gained from the harmful font or healing font.</Description>
+            <Description>As you explore your deity's aspects, you move beyond restrictions on healing or harming. You can prepare either harm or heal in the spell slots gained from the harmful font or healing font.</Description>
         </Ability>
         <Ability name="Channel Smite" level="4" page="122" cost="2">
             <Traits>Cleric, Divine, Necromancy</Traits>
             <Prerequisites>Harmful Font Or Healing Font</Prerequisites>
-            <Description>You siphon the destructive energies of positive or negative energy through a melee attack and into your foe. Make a melee Strike and add the spell’s damage to the Strike’s damage. This is negative damage if you expended a harm spell or positive damage if you expended a heal spell. The spell is expended with no effect if your Strike fails or hits a creature that isn’t damaged by that energy type (such as if you hit a non-undead creature with a heal spell).</Description>
+            <Description>You siphon the destructive energies of positive or negative energy through a melee attack and into your foe. Make a melee Strike and add the spell's damage to the Strike's damage. This is negative damage if you expended a harm spell or positive damage if you expended a heal spell. The spell is expended with no effect if your Strike fails or hits a creature that isn't damaged by that energy type (such as if you hit a non-undead creature with a heal spell).</Description>
         </Ability>
         <Ability name="Command Undead" level="4" page="123" cost="1">
             <Traits>Cleric, Concentrate, Metamagic</Traits>
             <Prerequisites>Harmful Font</Prerequisites>
             <Requirements>Evil Alignment</Requirements>
-            <Description>You grasp the animating force within an undead creature and bend it to your will. If the next action you use is to cast harm targeting one undead creature, you transform the effects of that harm spell. Instead of harm’s normal effects, the target becomes controlled by you if its level is equal to or lower than your level – 3. It can attempt a Will saving throw to resist being controlled by you. If the target is already under someone else’s command, the controlling creature also rolls a saving throw, and the undead uses the better result. Critical Success The target is unaffected and is temporarily immune for 24 hours.Success The target is unaffected.Failure The undead creature becomes a minion under your control. The spell gains a duration of 1 minute, but it is dismissed if you or an ally attacks the minion undead.Critical Failure As failure, but the duration is 1 hour.</Description>
+            <Description>You grasp the animating force within an undead creature and bend it to your will. If the next action you use is to cast harm targeting one undead creature, you transform the effects of that harm spell. Instead of harm's normal effects, the target becomes controlled by you if its level is equal to or lower than your level – 3. It can attempt a Will saving throw to resist being controlled by you. If the target is already under someone else's command, the controlling creature also rolls a saving throw, and the undead uses the better result. Critical Success The target is unaffected and is temporarily immune for 24 hours.Success The target is unaffected.Failure The undead creature becomes a minion under your control. The spell gains a duration of 1 minute, but it is dismissed if you or an ally attacks the minion undead.Critical Failure As failure, but the duration is 1 hour.</Description>
         </Ability>
         <Ability name="Directed Channel" level="4" page="123">
             <Traits>Cleric</Traits>
@@ -464,7 +441,7 @@
             <Traits>Cleric</Traits>
             <Trigger>You finish Casting a Spell using one of your divine spell slots on your turn.</Trigger>
             <Frequency>once per turn</Frequency>
-            <Description>You siphon residual spell energy into a weapon you’re wielding. Until the end of your turn, the weapon deals an additional 1d4 force damage. You can instead deal an additional 1d6 damage of an alignment type that matches one of your deity’s alignment components. As usual for aligned damage, this can damage only creatures of the opposite alignment.</Description>
+            <Description>You siphon residual spell energy into a weapon you're wielding. Until the end of your turn, the weapon deals an additional 1d4 force damage. You can instead deal an additional 1d6 damage of an alignment type that matches one of your deity's alignment components. As usual for aligned damage, this can damage only creatures of the opposite alignment.</Description>
         </Ability>
         <Ability name="Selective Energy" level="6" page="123">
             <Traits>Cleric</Traits>
@@ -472,36 +449,36 @@
         </Ability>
         <Ability name="Steady Spellcasting" level="6" page="211">
             <Traits>Cleric, Druid</Traits>
-            <Description>Confident in your technique, you don’t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn’t disrupted.</Description>
+            <Description>Confident in your technique, you don't easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn't disrupted.</Description>
         </Ability>
         <Ability name="Advanced Domain" level="8" page="123">
             <Traits>Cleric</Traits>
             <Prerequisites>Domain Initiate</Prerequisites>
-            <Description>Your studies or prayers have unlocked deeper secrets of your deity’s domain. You gain an advanced domain spell from one of your domains (as listed in Table 8–2: Domains on page 441). Increase the number of Focus Points in your focus pool by 1.Special You can select this feat multiple times. Each time, you must select a different advanced domain spell from a domain for which you have an initial domain spell.</Description>
+            <Description>Your studies or prayers have unlocked deeper secrets of your deity's domain. You gain an advanced domain spell from one of your domains (as listed in Table 8–2: Domains on page 441). Increase the number of Focus Points in your focus pool by 1.Special You can select this feat multiple times. Each time, you must select a different advanced domain spell from a domain for which you have an initial domain spell.</Description>
         </Ability>
         <Ability name="Align Armament" level="8" page="124" cost="1">
             <Traits>Cleric, Divine, Evocation</Traits>
             <Requirements>Chaotic, Evil, Good, Or Lawful Deity</Requirements>
             <Frequency>once per round</Frequency>
-            <Description>You bring a weapon into metaphysical concordance with your deity’s beliefs. When you select this feat, choose chaotic, evil, good, or lawful. Your choice must match one of your deity’s alignment components. This action has the trait corresponding to the chosen alignment component. When you use this action, you touch a weapon. For 1 round, that weapon deals an additional 1d6 damage of the chosen type to creatures of the opposed alignment. For example, if you chose good, the weapon would deal an extra 1d6 good damage to evil creatures. If you Align an Armament again, any previously aligned armament loses its additional damage.Special You can select this feat a second time, choosing your deity’s other alignment component. When you Align an Armament, you can choose either alignment component.</Description>
+            <Description>You bring a weapon into metaphysical concordance with your deity's beliefs. When you select this feat, choose chaotic, evil, good, or lawful. Your choice must match one of your deity's alignment components. This action has the trait corresponding to the chosen alignment component. When you use this action, you touch a weapon. For 1 round, that weapon deals an additional 1d6 damage of the chosen type to creatures of the opposed alignment. For example, if you chose good, the weapon would deal an extra 1d6 good damage to evil creatures. If you Align an Armament again, any previously aligned armament loses its additional damage.Special You can select this feat a second time, choosing your deity's other alignment component. When you Align an Armament, you can choose either alignment component.</Description>
         </Ability>
         <Ability name="Channeled Succor" level="8" page="124">
             <Traits>Cleric</Traits>
             <Prerequisites>Healing Font</Prerequisites>
-            <Description>You can remove conditions with divine grace. You can sacrifice one heal spell you’ve prepared in your extra slots from healing font to cast one of the following spells instead: remove curse, remove disease, remove paralysis, or restoration. The spell is heightened to the same level as the heal spell you sacrificed.</Description>
+            <Description>You can remove conditions with divine grace. You can sacrifice one heal spell you've prepared in your extra slots from healing font to cast one of the following spells instead: remove curse, remove disease, remove paralysis, or restoration. The spell is heightened to the same level as the heal spell you sacrificed.</Description>
         </Ability>
         <Ability name="Cremate Undead" level="8" page="124">
             <Traits>Cleric</Traits>
-            <Description>Your positive energy sets undead alight. When you use a heal spell to damage undead, each undead that takes damage also takes persistent fire damage equal to the spell’s level.</Description>
+            <Description>Your positive energy sets undead alight. When you use a heal spell to damage undead, each undead that takes damage also takes persistent fire damage equal to the spell's level.</Description>
         </Ability>
         <Ability name="Emblazon Energy" level="8" page="124">
             <Traits>Cleric</Traits>
-            <Description>With elemental forces, you make your emblazoned symbols more potent. When you Emblazon an Armament, you can choose from the following effects instead of the effects listed in that feat. These effects have the same restrictions as the base options. Shield Choose acid, cold, electricity, fire, or sonic. The wielder gain the shield’s circumstance bonus to saving throws against that damage type and can use Shield Block against damage of that type. The shield also gains resistance to that damage type equal to half your level if you have a domain spell with a trait matching that type (such as fire). Weapon Choose acid, cold, electricity, fire, or sonic. The weapon deals an extra 1d4 damage of that type. Increase this extra damage to 1d6 if you have a domain spell with a trait matching that type (such as fire).</Description>
+            <Description>With elemental forces, you make your emblazoned symbols more potent. When you Emblazon an Armament, you can choose from the following effects instead of the effects listed in that feat. These effects have the same restrictions as the base options. Shield Choose acid, cold, electricity, fire, or sonic. The wielder gain the shield's circumstance bonus to saving throws against that damage type and can use Shield Block against damage of that type. The shield also gains resistance to that damage type equal to half your level if you have a domain spell with a trait matching that type (such as fire). Weapon Choose acid, cold, electricity, fire, or sonic. The weapon deals an extra 1d4 damage of that type. Increase this extra damage to 1d6 if you have a domain spell with a trait matching that type (such as fire).</Description>
         </Ability>
         <Ability name="Castigating Weapon" level="10" page="125">
             <Traits>Cleric</Traits>
             <Prerequisites>Holy Castigation</Prerequisites>
-            <Description>The force of your deity’s castigation strengthens your body so you can strike down the wicked. After you damage a fiend using a heal spell, your weapon or unarmed Strikes deal extra good damage to fiends equal to half the level of the heal spell until the end of your next turn. This is cumulative with any good damage the weapon already deals (such as from a holy rune).</Description>
+            <Description>The force of your deity's castigation strengthens your body so you can strike down the wicked. After you damage a fiend using a heal spell, your weapon or unarmed Strikes deal extra good damage to fiends equal to half the level of the heal spell until the end of your next turn. This is cumulative with any good damage the weapon already deals (such as from a holy rune).</Description>
         </Ability>
         <Ability name="Heroic Recovery" level="10" page="125" cost="1">
             <Traits>Cleric, Concentrate, Metamagic</Traits>
@@ -513,12 +490,12 @@
             <Traits>Cleric</Traits>
             <Prerequisites>Harmful Font, Command Undead</Prerequisites>
             <Requirements>Evil Alignment</Requirements>
-            <Description>Undead creatures find it all but impossible to resist your commands. When you use Command Undead, if the undead succeeds at its save but doesn’t critically succeed, it is your minion for 1 round. If the undead fails its save, it is your minion for 10 minutes. If it critically fails, it is your minion for 24 hours.</Description>
+            <Description>Undead creatures find it all but impossible to resist your commands. When you use Command Undead, if the undead succeeds at its save but doesn't critically succeed, it is your minion for 1 round. If the undead fails its save, it is your minion for 10 minutes. If it critically fails, it is your minion for 24 hours.</Description>
         </Ability>
         <Ability name="Replenishment of War" level="10" page="125">
             <Traits>Cleric</Traits>
-            <Requirements>Expert In Your Deity’s Favored Weapon</Requirements>
-            <Description>Striking out against your enemies draws praise and protection from your deity. When you damage a creature with a Strike using your deity’s favored weapon, you gain a number of temporary Hit Points equal to half your level, or equal to your level if the Strike was a critical hit. These temporary Hit Points last until the start of your next turn.</Description>
+            <Requirements>Expert In Your Deity's Favored Weapon</Requirements>
+            <Description>Striking out against your enemies draws praise and protection from your deity. When you damage a creature with a Strike using your deity's favored weapon, you gain a number of temporary Hit Points equal to half your level, or equal to your level if the Strike was a critical hit. These temporary Hit Points last until the start of your next turn.</Description>
         </Ability>
         <Ability name="Defensive Recovery" level="12" page="125" cost="1">
             <Traits>Cleric, Concentrate, Metamagic</Traits>
@@ -528,12 +505,12 @@
         <Ability name="Domain Focus" level="12" page="125">
             <Traits>Cleric</Traits>
             <Requirements>One Or More Domain Spells</Requirements>
-            <Description>Your devotion to your deity’s domains grows greater, and so does the power granted to you. If you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1.</Description>
+            <Description>Your devotion to your deity's domains grows greater, and so does the power granted to you. If you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1.</Description>
         </Ability>
         <Ability name="Emblazon Antimagic" level="12" page="125">
             <Traits>Cleric</Traits>
             <Prerequisites>Emblazon Armament</Prerequisites>
-            <Description>Your deity’s symbol protects against offensive magic. When you Emblazon an Armament, you can choose from the following effects instead of the effects listed in that feat. These effects have the same restrictions as the base options. Shield When the wielder has the shield raised, they gain the shield’s circumstance bonus to saving throws against magic, and they can use Shield Block against damage from their enemies’ spells. Weapon When the weapon’s wielder critically hits with the weapon, they can attempt to counteract a spell on their target, using their level as the counteract level. If they attempt to do so, the emblazoned symbol immediately disappears.</Description>
+            <Description>Your deity's symbol protects against offensive magic. When you Emblazon an Armament, you can choose from the following effects instead of the effects listed in that feat. These effects have the same restrictions as the base options. Shield When the wielder has the shield raised, they gain the shield's circumstance bonus to saving throws against magic, and they can use Shield Block against damage from their enemies' spells. Weapon When the weapon's wielder critically hits with the weapon, they can attempt to counteract a spell on their target, using their level as the counteract level. If they attempt to do so, the emblazoned symbol immediately disappears.</Description>
         </Ability>
         <Ability name="Shared Replenishment" level="12" page="125">
             <Traits>Cleric</Traits>
@@ -543,7 +520,7 @@
         <Ability name="Deity's Protection" level="14" page="125">
             <Traits>Cleric</Traits>
             <Prerequisites>Advanced Domain</Prerequisites>
-            <Description>When you call upon your deity’s power to fulfill the promise of their domain, you gain divine protection. After you cast a domain spell, you gain resistance to all damage until the start of your next turn. The amount of resistance is equal to the level of the domain spell you cast.</Description>
+            <Description>When you call upon your deity's power to fulfill the promise of their domain, you gain divine protection. After you cast a domain spell, you gain resistance to all damage until the start of your next turn. The amount of resistance is equal to the level of the domain spell you cast.</Description>
         </Ability>
         <Ability name="Extend Armament Alignment" level="14" page="125">
             <Traits>Cleric</Traits>
@@ -564,12 +541,12 @@
         <Ability name="Eternal Bane" level="16" page="126">
             <Traits>Cleric</Traits>
             <Requirements>Evil Alignment</Requirements>
-            <Description>A life of evil has made you a nexus for your deity’s vile power. You’re continuously surrounded by a bane spell with a spell level equal to half your level (rounded up). The radius is 15 feet, and you can’t increase it. You can Dismiss the spell; if you do, it returns automatically after 1 minute.</Description>
+            <Description>A life of evil has made you a nexus for your deity's vile power. You're continuously surrounded by a bane spell with a spell level equal to half your level (rounded up). The radius is 15 feet, and you can't increase it. You can Dismiss the spell; if you do, it returns automatically after 1 minute.</Description>
         </Ability>
         <Ability name="Eternal Blessing" level="16" page="126">
             <Traits>Cleric</Traits>
             <Requirements>Good Alignment</Requirements>
-            <Description>Your good deeds have brought your deity’s grace to you for all of eternity. You’re continuously surrounded by a bless spell with a spell level equal to half your level (rounded up). The radius is 15 feet, and you can’t increase it. You can Dismiss the spell; if you do, it returns automatically after 1 minute.</Description>
+            <Description>Your good deeds have brought your deity's grace to you for all of eternity. You're continuously surrounded by a bless spell with a spell level equal to half your level (rounded up). The radius is 15 feet, and you can't increase it. You can Dismiss the spell; if you do, it returns automatically after 1 minute.</Description>
         </Ability>
         <Ability name="Resurrectionist" level="16" page="126">
             <Traits>Cleric</Traits>
@@ -578,20 +555,20 @@
         <Ability name="Domain Wellspring" level="18" page="126">
             <Traits>Cleric</Traits>
             <Prerequisites>Domain Focus</Prerequisites>
-            <Description>The intensity of your focus grows from the investment you’ve placed in your domains. If you have spent at least 3 Focus Points since the last time you Refocused, you recover 3 Focus Points when you Refocus instead of 1.</Description>
+            <Description>The intensity of your focus grows from the investment you've placed in your domains. If you have spent at least 3 Focus Points since the last time you Refocused, you recover 3 Focus Points when you Refocus instead of 1.</Description>
         </Ability>
         <Ability name="Echoing Channel" level="18" page="127" cost="1">
             <Traits>Cleric, Concentrate, Metamagic</Traits>
-            <Description>When you pull forth positive or negative energy, you also create a smaller pocket of that energy. If the next action you use is to cast a 2-action harm or heal to heal or damage a single creature, choose one additional creature adjacent to either you or the target. Target that creature with a 1-action version of the same spell. This spell is the same level as the 2-action harm or heal you cast and doesn’t cost another spell slot.</Description>
+            <Description>When you pull forth positive or negative energy, you also create a smaller pocket of that energy. If the next action you use is to cast a 2-action harm or heal to heal or damage a single creature, choose one additional creature adjacent to either you or the target. Target that creature with a 1-action version of the same spell. This spell is the same level as the 2-action harm or heal you cast and doesn't cost another spell slot.</Description>
         </Ability>
         <Ability name="Improved Swift Banishment" level="18" page="127">
             <Traits>Cleric</Traits>
             <Prerequisites>Swift Banishment</Prerequisites>
-            <Description>You easily banish creatures with your weapon. You can use Swift Banishment as long as you have a spell slot of 5th level or higher remaining, even if you don’t have banishment prepared. You must sacrifice a prepared spell of 5th level or higher, and the banishment effect you create is heightened to the level of that spell. Your weapon serves as the special material component of banishment, causing the target to take the –2 penalty to its save against any banishment you cast using Swift Banishment.</Description>
+            <Description>You easily banish creatures with your weapon. You can use Swift Banishment as long as you have a spell slot of 5th level or higher remaining, even if you don't have banishment prepared. You must sacrifice a prepared spell of 5th level or higher, and the banishment effect you create is heightened to the level of that spell. Your weapon serves as the special material component of banishment, causing the target to take the –2 penalty to its save against any banishment you cast using Swift Banishment.</Description>
         </Ability>
         <Ability name="Avatar's Audience" level="20" page="127">
             <Traits>Cleric</Traits>
-            <Description>Your extensive service has made you a lesser herald of your deity, which affords you certain privileges. First, any creature you encounter knows instinctively that you speak for your deity. Second, if you conduct the commune ritual to contact your deity, you don’t have to pay any cost and you automatically get a critical success. Third, once per day, you can cast plane shift as a divine innate spell, but only to travel to the realm of your deity. When you cast it this way, its casting time is 1 minute, your religious symbol is a sufficient tuning fork for this spell, and you appear exactly where you want to be. If you’re in your deity’s realm due to this spell, you can return to the point you left when you cast it by spending a single action, which has the concentrate and divine traits.</Description>
+            <Description>Your extensive service has made you a lesser herald of your deity, which affords you certain privileges. First, any creature you encounter knows instinctively that you speak for your deity. Second, if you conduct the commune ritual to contact your deity, you don't have to pay any cost and you automatically get a critical success. Third, once per day, you can cast plane shift as a divine innate spell, but only to travel to the realm of your deity. When you cast it this way, its casting time is 1 minute, your religious symbol is a sufficient tuning fork for this spell, and you appear exactly where you want to be. If you're in your deity's realm due to this spell, you can return to the point you left when you cast it by spending a single action, which has the concentrate and divine traits.</Description>
         </Ability>
         <Ability name="Maker of Miracles" level="20" page="127">
             <Traits>Cleric</Traits>

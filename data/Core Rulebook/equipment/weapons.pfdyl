@@ -7,15 +7,15 @@
 	<Groups>
 		<WeaponGroup>
 			<Name>Axe</Name>
-			<CritEffect>Choose one creature adjacent to the initial target and within reach. If its AC is lower than your attack roll result for the critical hit, you deal damage to that creature equal to the result of the weapon damage die you rolled (including extra dice for its Potency Rune, if any). This amount isn’t doubled, and no bonuses or other additional dice apply to this damage.</CritEffect>
+			<CritEffect>Choose one creature adjacent to the initial target and within reach. If its AC is lower than your attack roll result for the critical hit, you deal damage to that creature equal to the result of the weapon damage die you rolled (including extra dice for its Potency Rune, if any). This amount isn't doubled, and no bonuses or other additional dice apply to this damage.</CritEffect>
 		</WeaponGroup>
 		<WeaponGroup>
 			<Name>Bomb</Name>
-			<CritEffect>Increase the radius of the bomb’s splash damage (if any) to 10 feet.</CritEffect>
+			<CritEffect>Increase the radius of the bomb's splash damage (if any) to 10 feet.</CritEffect>
 		</WeaponGroup>
 		<WeaponGroup>
 			<Name>Bow</Name>
-			<CritEffect>If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can’t move from its space until it succeeds. The creature doesn’t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.</CritEffect>
+			<CritEffect>If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can't move from its space until it succeeds. The creature doesn't become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.</CritEffect>
 		</WeaponGroup>
 		<WeaponGroup>
 			<Name>Brawling</Name>
@@ -27,7 +27,7 @@
 		</WeaponGroup>
 		<WeaponGroup>
 			<Name>Dart</Name>
-			<CritEffect>The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon’s item bonus to attack rolls.</CritEffect>
+			<CritEffect>The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon's item bonus to attack rolls.</CritEffect>
 		</WeaponGroup>
 		<WeaponGroup>
 			<Name>Flail</Name>
@@ -39,7 +39,7 @@
 		</WeaponGroup>
 		<WeaponGroup>
 			<Name>Knife</Name>
-			<CritEffect>The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon’s item bonus to attack rolls.</CritEffect>
+			<CritEffect>The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon's item bonus to attack rolls.</CritEffect>
 		</WeaponGroup>
 		<WeaponGroup>
 			<Name>Pick</Name>
@@ -567,7 +567,7 @@
 				</Traits>
 			</Weapon>
 			<Weapon Uncommon="true">
-				<Name>Filcher’s fork</Name>
+				<Name>Filcher's fork</Name>
 				<Price>1 gp</Price>
 				<Damage>1d4 P</Damage>
 				<Bulk>L</Bulk>

@@ -6,7 +6,7 @@
     <HP>6</HP>
     <AbilityChoices>Cha</AbilityChoices>
     <SkillIncreases>3</SkillIncreases>
-    <Description>You didn’t choose to become a spellcaster—you were born one. There’s magic in your blood, whether a divinity touched one of your ancestors, a forebear communed with a primal creature, or a powerful occult ritual influenced your line. Self-reflection and study allow you to refine your inherent magical skills and unlock new, more powerful abilities. The power in your blood carries a risk, however, and you constantly face the choice of whether you’ll rise to become a master spellcaster or fall into destruction.</Description>
+    <Description>You didn't choose to become a spellcaster—you were born one. There's magic in your blood, whether a divinity touched one of your ancestors, a forebear communed with a primal creature, or a powerful occult ritual influenced your line. Self-reflection and study allow you to refine your inherent magical skills and unlock new, more powerful abilities. The power in your blood carries a risk, however, and you constantly face the choice of whether you'll rise to become a master spellcaster or fall into destruction.</Description>
     <FeatureList level="1">
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
         <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
@@ -20,7 +20,7 @@
         <AbilitySlot state="feat" name="Bloodline" type="Bloodline"/>
         <AbilitySlot state="filled" name="Sorcerer Spellcasting">
             <Ability>
-                <Description>Your bloodline provides you with incredible magical power. You can cast spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells (see Casting Spells on page 302). Because you’re a sorcerer, you can usually replace material components with somatic components, so you don’t need to use a spell component pouch. Each day, you can cast up to three 1st-level spells. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots. As you increase in level as a sorcerer, your number of spells per day increases, as does the highest level of spells you can cast, as shown on Table 3–17: Sorcerer Spells per Day on page 193. Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key ability is Charisma, your spell attack rolls and spell DCs use your Charisma modifier. Details on calculating these statistics appear on page 447.Heightening SpellsWhen you get spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. This increases the spell’s level to match the spell slot. You must have a spell in your spell repertoire at the level you want to cast in order to heighten it to that level. Many spells have specific improvements when they are heightened to certain levels (page 299). The signature spells class feature lets you heighten certain spells freely.CantripsA cantrip is a special type of spell that doesn’t use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest level of spell you can cast as a sorcerer. For example, as a 1st-level sorcerer, your cantrips are 1st-level spells, and as a 5th-level sorcerer, your cantrips are 3rd-level spells.
+                <Description>Your bloodline provides you with incredible magical power. You can cast spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells (see Casting Spells on page 302). Because you're a sorcerer, you can usually replace material components with somatic components, so you don't need to use a spell component pouch. Each day, you can cast up to three 1st-level spells. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots. As you increase in level as a sorcerer, your number of spells per day increases, as does the highest level of spells you can cast, as shown on Table 3–17: Sorcerer Spells per Day on page 193. Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key ability is Charisma, your spell attack rolls and spell DCs use your Charisma modifier. Details on calculating these statistics appear on page 447.Heightening SpellsWhen you get spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. This increases the spell's level to match the spell slot. You must have a spell in your spell repertoire at the level you want to cast in order to heighten it to that level. Many spells have specific improvements when they are heightened to certain levels (page 299). The signature spells class feature lets you heighten certain spells freely.CantripsA cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest level of spell you can cast as a sorcerer. For example, as a 1st-level sorcerer, your cantrips are 1st-level spells, and as a 5th-level sorcerer, your cantrips are 3rd-level spells.
                 </Description>
                 <SpellSlots level="0" count="5"/>
                 <SpellSlots level="1" count="3"/>
@@ -28,7 +28,7 @@
         </AbilitySlot>
         <AbilitySlot state="filled" name="Spell Repertoire">
             <Ability>
-                <Description>The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-level spells of your choice and four cantrips of your choice, as well as an additional spell and cantrip from your bloodline (page 194). You choose these from the common spells from the tradition corresponding to your bloodline, or from other spells from that tradition to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell level. You add to this spell repertoire as you increase in level. Each time you get a spell slot (see Table 3–17), you add a spell of the same level to your spell repertoire. When you gain access to a new level of spells, your first new spell is always your bloodline spell, but you can choose the other spells you gain. At 2nd level, you select another 1st-level spell; at 3rd level, you gain a new bloodline spell and two other 2nd-level spells, and so on. When you add spells, you might choose a higher-level version of a spell you already have so that you can cast a heightened version of that spell. Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn’t give you another spell slot, and vice versa.Swapping Spells in your RepertoireAs you gain new spells in your spell repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same level. This spell can be a cantrip, but you can’t swap out bloodline spells. You can also swap out spells by retraining during downtime (page 481).
+                <Description>The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-level spells of your choice and four cantrips of your choice, as well as an additional spell and cantrip from your bloodline (page 194). You choose these from the common spells from the tradition corresponding to your bloodline, or from other spells from that tradition to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell level. You add to this spell repertoire as you increase in level. Each time you get a spell slot (see Table 3–17), you add a spell of the same level to your spell repertoire. When you gain access to a new level of spells, your first new spell is always your bloodline spell, but you can choose the other spells you gain. At 2nd level, you select another 1st-level spell; at 3rd level, you gain a new bloodline spell and two other 2nd-level spells, and so on. When you add spells, you might choose a higher-level version of a spell you already have so that you can cast a heightened version of that spell. Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.Swapping Spells in your RepertoireAs you gain new spells in your spell repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same level. This spell can be a cantrip, but you can't swap out bloodline spells. You can also swap out spells by retraining during downtime (page 481).
                 </Description>
                 <Spellcasting listName="Sorcerer" />
             </Ability>
@@ -52,7 +52,7 @@
         <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
         <AbilitySlot state="filled" name="Signature Spells">
             <Ability>
-                <Description>You’ve learned to cast some of your spells more flexibly. For each spell level you have access to, choose one spell of that level to be a signature spell. You don’t need to learn heightened versions of signature spells separately; instead, you can heighten these spells freely. If you’ve learned a signature spell at a higher level than its minimum, you can also cast all its lower-level versions without learning those separately. If you swap out a signature spell, you can choose a replacement signature spell of the same spell level at which you learned the previous spell. You can also retrain specifically to change a signature spell to a different spell of that level without swapping any spells; this takes as much time as retraining a spell normally does.</Description>
+                <Description>You've learned to cast some of your spells more flexibly. For each spell level you have access to, choose one spell of that level to be a signature spell. You don't need to learn heightened versions of signature spells separately; instead, you can heighten these spells freely. If you've learned a signature spell at a higher level than its minimum, you can also cast all its lower-level versions without learning those separately. If you swap out a signature spell, you can choose a replacement signature spell of the same spell level at which you learned the previous spell. You can also retrain specifically to change a signature spell to a different spell of that level without swapping any spells; this takes as much time as retraining a spell normally does.</Description>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="filled" name="Skill Increase">
@@ -80,7 +80,7 @@
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
         <AbilitySlot state="filled" name="Magical Fortitude">
             <Ability>
-                <Description>Magical power has improved your body’s resiliency. Your proficiency rank for Fortitude saves increases to expert.</Description>
+                <Description>Magical power has improved your body's resiliency. Your proficiency rank for Fortitude saves increases to expert.</Description>
                 <AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
             </Ability>
         </AbilitySlot>
@@ -105,7 +105,7 @@
         </AbilitySlot>
         <AbilitySlot state="filled" name="Expert Spellcaster">
             <Ability>
-                <Description>Your inherent magic responds easily and powerfully to your command. Your proficiency ranks for spell attack rolls and spell DCs for spells of your bloodline’s tradition increase to expert.</Description>
+                <Description>Your inherent magic responds easily and powerfully to your command. Your proficiency ranks for spell attack rolls and spell DCs for spells of your bloodline's tradition increase to expert.</Description>
                 <AbilitySlot state="filled" name="Arcane Expert">
                     <Ability><PrereqStrings>Arcane Bloodline</PrereqStrings>
                     <AttributeMods Proficiency="Expert">Arcane Spell Attacks, Arcane Spell DCs</AttributeMods>
@@ -215,25 +215,7 @@
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Weapon Specialization">
-            <Ability>
-                <Description>You’ve learned to inflict grave wounds with your practiced weapons. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master, and 4 if you’re legendary.</Description>
-                <CustomMod>
-                    def weaponSpecialization = {weapon, damage ->
-                    def proficiency = get("Attributes").getProficiency(weapon.getProficiency(), weapon);
-                    if (proficiency.toString() == "Legendary") {
-                    return damage.add(4);
-                    } else if (proficiency.toString() == "Master") {
-                    return damage.add(3);
-                    } else if (proficiency.toString() == "Expert") {
-                    return damage.add(2);
-                    }
-                    return damage;
-                    }
-                    damageModifier("Weapon Specialization", weaponSpecialization)
-                </CustomMod>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Weapon Specialization" type="ClassFeature" contents="Weapon Specialization" />
     </FeatureList>
     <FeatureList level="14">
         <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
@@ -256,7 +238,7 @@
         <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
         <AbilitySlot state="filled" name="Master Spellcaster">
             <Ability>
-                <Description>You have achieved mastery over the magic in your blood. Your proficiency ranks for spell attack rolls and spell DCs for spells of your bloodline’s tradition increase to master.</Description>
+                <Description>You have achieved mastery over the magic in your blood. Your proficiency ranks for spell attack rolls and spell DCs for spells of your bloodline's tradition increase to master.</Description>
                 <AbilitySlot state="filled" name="Arcane Master">
                     <Ability><PrereqStrings>Arcane Bloodline</PrereqStrings>
                         <AttributeMods Proficiency="Master">Arcane Spell Attacks, Arcane Spell DCs</AttributeMods>
@@ -311,7 +293,7 @@
     <FeatureList level="19">
         <AbilitySlot state="filled" name="Bloodline Paragon">
             <Ability>
-                <Description>You have perfected the magic in your bloodline. Add two common 10th-level spells of your tradition to your repertoire. You gain a single 10th-level spell slot you can use to cast these spells, using sorcerer spellcasting. Unlike other spell slots, you don’t gain more 10th-level spells as you level up, and they can’t be used for abilities that let you cast spells without expending spell slots or abilities that give you more spell slots. You can take the Bloodline Perfection sorcerer feat to gain a second slot.</Description>
+                <Description>You have perfected the magic in your bloodline. Add two common 10th-level spells of your tradition to your repertoire. You gain a single 10th-level spell slot you can use to cast these spells, using sorcerer spellcasting. Unlike other spell slots, you don't gain more 10th-level spells as you level up, and they can't be used for abilities that let you cast spells without expending spell slots or abilities that give you more spell slots. You can take the Bloodline Perfection sorcerer feat to gain a second slot.</Description>
                 <SpellsKnown count="1" level="10"/>
                 <SpellSlots count="1" level="10"/>
             </Ability>
@@ -319,7 +301,7 @@
         <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
         <AbilitySlot state="filled" name="Legendary Spellcaster">
             <Ability>
-                <Description>You demonstrate prodigious talent for spellcasting. Your proficiency ranks for spell attack rolls and spell DCs for spells of your bloodline’s tradition increase to legendary.</Description>
+                <Description>You demonstrate prodigious talent for spellcasting. Your proficiency ranks for spell attack rolls and spell DCs for spells of your bloodline's tradition increase to legendary.</Description>
                 <AbilitySlot state="filled" name="Arcane Legend">
                     <Ability><PrereqStrings>Arcane Bloodline</PrereqStrings>
                         <AttributeMods Proficiency="Legendary">Arcane Spell Attacks, Arcane Spell DCs</AttributeMods>
@@ -354,11 +336,11 @@
             <Traits>Abjuration, Sorcerer</Traits>
             <Trigger>A creature casts a spell that you have in your repertoire.</Trigger>
             <Requirements>You have an unexpended spell slot you could use to cast the triggering spell.</Requirements>
-            <Description>When a foe Casts a Spell you know and you can see its manifestations, you can use your own magic to disrupt it. You expend one of your spell slots to counter the triggering creature’s casting of a spell that you have in your repertoire. You lose your spell slot as if you had cast the triggering spell. You then attempt to counteract the triggering spell (page 458). Special This feat has the trait corresponding to the tradition of spells you cast (arcane, divine, natural, or occult).</Description>
+            <Description>When a foe Casts a Spell you know and you can see its manifestations, you can use your own magic to disrupt it. You expend one of your spell slots to counter the triggering creature's casting of a spell that you have in your repertoire. You lose your spell slot as if you had cast the triggering spell. You then attempt to counteract the triggering spell (page 458). Special This feat has the trait corresponding to the tradition of spells you cast (arcane, divine, natural, or occult).</Description>
         </Ability>
         <Ability name="Dangerous Sorcery" level="1" page="198">
             <Traits>Sorcerer</Traits>
-            <Description>Your legacy grants you great destructive power. When you Cast a Spell from your spell slots, if the spell deals damage and doesn’t have a duration, you gain a status bonus to that spell’s damage equal to the spell’s level.</Description>
+            <Description>Your legacy grants you great destructive power. When you Cast a Spell from your spell slots, if the spell deals damage and doesn't have a duration, you gain a status bonus to that spell's damage equal to the spell's level.</Description>
         </Ability>
         <Ability name="Familiar" level="1" page="198">
             <Traits>Sorcerer</Traits>
@@ -366,7 +348,7 @@
         </Ability>
         <Ability name="Reach Spell" level="1" page="122" cost="1">
             <Traits>Concentrate, Metamagic, Sorcerer</Traits>
-            <Description>You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell’s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</Description>
+            <Description>You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell's range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</Description>
         </Ability>
         <Ability name="Widen Spell" level="1" page="134" cost="1">
             <Traits>Manipulate, Metamagic, Sorcerer</Traits>
@@ -380,33 +362,33 @@
         <Ability name="Enhanced Familiar" level="2" page="134">
             <Traits>Sorcerer</Traits>
             <Prerequisites>A Familiar</Prerequisites>
-            <Description>You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two.Special (Wizard) If your arcane thesis is improved familiar attunement, your familiar’s base number of familiar abilities, before adding any extra abilities from the arcane thesis, is four.</Description>
+            <Description>You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two.Special (Wizard) If your arcane thesis is improved familiar attunement, your familiar's base number of familiar abilities, before adding any extra abilities from the arcane thesis, is four.</Description>
         </Ability>
         <Ability name="Arcane Evolution" level="4" page="199">
             <Traits>Arcane, Sorcerer</Traits>
             <PrereqStrings>Arcane Bloodline</PrereqStrings>
-            <Description>Your arcane legacy grants you an exceptional aptitude for intellectual and academic pursuits. You become trained in one skill of your choice. Additionally, you keep a book of arcane spells similar to a wizard’s spellbook. You add all the spells in your spell repertoire to this book for free, and you can add additional arcane spells to the book by paying the appropriate cost and using your Arcana skill, similarly to how a wizard can Learn Spells to add those spells to his spellbook. During your daily preparations, choose any one spell from your book of arcane spells. If it isn’t in your spell repertoire, add it to your spell repertoire until the next time you prepare. If it’s already in your spell repertoire, add it as an additional signature spell for that day.</Description>
+            <Description>Your arcane legacy grants you an exceptional aptitude for intellectual and academic pursuits. You become trained in one skill of your choice. Additionally, you keep a book of arcane spells similar to a wizard's spellbook. You add all the spells in your spell repertoire to this book for free, and you can add additional arcane spells to the book by paying the appropriate cost and using your Arcana skill, similarly to how a wizard can Learn Spells to add those spells to his spellbook. During your daily preparations, choose any one spell from your book of arcane spells. If it isn't in your spell repertoire, add it to your spell repertoire until the next time you prepare. If it's already in your spell repertoire, add it as an additional signature spell for that day.</Description>
         </Ability>
         <Ability name="Bespell Weapon" level="4" page="199" cost="Free">
             <Traits>Sorcerer</Traits>
             <Frequency>once per turn</Frequency>
             <Requirements>Your most recent action was to cast a non-cantrip spell.</Requirements>
-            <Description>You siphon the residual energy from the last spell you cast into one weapon you’re wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast. Abjuration force damage Conjuration or Transmutation the same type as the weapon Divination, Enchantment, or Illusion mental damage Evocation a type the spell dealt, or force damage if the spell didn’t deal damage Necromancy negative damage</Description>
+            <Description>You siphon the residual energy from the last spell you cast into one weapon you're wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast. Abjuration force damage Conjuration or Transmutation the same type as the weapon Divination, Enchantment, or Illusion mental damage Evocation a type the spell dealt, or force damage if the spell didn't deal damage Necromancy negative damage</Description>
         </Ability>
         <Ability name="Divine Evolution" level="4" page="199">
             <Traits>Divine, Sorcerer</Traits>
             <PrereqStrings>Divine Bloodline</PrereqStrings>
-            <Description>The divine might provided by your bloodline fiows through you. You gain an additional spell slot of your highest level, which you can use only to cast your choice of heal or harm. You can cast either of these spells using that spell slot, even if they aren’t in your spell repertoire.</Description>
+            <Description>The divine might provided by your bloodline fiows through you. You gain an additional spell slot of your highest level, which you can use only to cast your choice of heal or harm. You can cast either of these spells using that spell slot, even if they aren't in your spell repertoire.</Description>
         </Ability>
         <Ability name="Occult Evolution" level="4" page="199">
             <Traits>Occult, Sorcerer</Traits>
             <PrereqStrings>Occult Bloodline</PrereqStrings>
-            <Description>Glimpses of the obscure secrets of the universe loan you power. You become trained in one skill of your choice. Additionally, once per day, you can spend 1 minute to choose one mental occult spell you don’t know and add it to your spell repertoire. You lose this temporary spell the next time you make your daily preparations (though you can use this ability to add it again later).</Description>
+            <Description>Glimpses of the obscure secrets of the universe loan you power. You become trained in one skill of your choice. Additionally, once per day, you can spend 1 minute to choose one mental occult spell you don't know and add it to your spell repertoire. You lose this temporary spell the next time you make your daily preparations (though you can use this ability to add it again later).</Description>
         </Ability>
         <Ability name="Primal Evolution" level="4" page="199">
             <Traits>Primal, Sorcerer</Traits>
             <PrereqStrings>Primal Bloodline</PrereqStrings>
-            <Description>You can call upon the creatures of the wild for aid. You gain an additional spell slot of your highest level, which you can use only to cast summon animal or summon plants and fungi. You can cast either of these spells using that spell slot, even if it they aren’t in your spell repertoire.</Description>
+            <Description>You can call upon the creatures of the wild for aid. You gain an additional spell slot of your highest level, which you can use only to cast summon animal or summon plants and fungi. You can cast either of these spells using that spell slot, even if it they aren't in your spell repertoire.</Description>
         </Ability>
         <Ability name="Advanced Bloodline" level="6" page="200">
             <Traits>Sorcerer</Traits>
@@ -416,7 +398,7 @@
         </Ability>
         <Ability name="Steady Spellcasting" level="6" page="211">
             <Traits>Sorcerer</Traits>
-            <Description>Confident in your technique, you don’t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn’t disrupted.</Description>
+            <Description>Confident in your technique, you don't easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn't disrupted.</Description>
         </Ability>
         <Ability name="Bloodline Resistance" level="8" page="200">
             <Traits>Sorcerer</Traits>
@@ -424,7 +406,7 @@
         </Ability>
         <Ability name="Crossblooded Evolution" level="8" page="200">
             <Traits>Sorcerer</Traits>
-            <Description>Odd interactions in your bloodline provide you with unexpected spells. You can have one spell in your spell repertoire from a tradition other than the one that matches your bloodline. You cast that spell as a spell from your bloodline’s tradition. You can swap which spell you add and from which tradition as you could any other sorcerer spell, but you can’t have more than one spell from another tradition in your spell repertoire at the same time using this feat.</Description>
+            <Description>Odd interactions in your bloodline provide you with unexpected spells. You can have one spell in your spell repertoire from a tradition other than the one that matches your bloodline. You cast that spell as a spell from your bloodline's tradition. You can swap which spell you add and from which tradition as you could any other sorcerer spell, but you can't have more than one spell from another tradition in your spell repertoire at the same time using this feat.</Description>
         </Ability>
         <Ability name="Greater Bloodline" level="10" page="200">
             <Traits>Sorcerer</Traits>
@@ -434,7 +416,7 @@
         </Ability>
         <Ability name="Overwhelming Energy" level="10" page="200" cost="1">
             <Traits>Manipulate, Metamagic, Sorcerer</Traits>
-            <Description>You alter your spells to overcome resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target’s resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by wall of fire. A creature’s immunities are unaffected.</Description>
+            <Description>You alter your spells to overcome resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target's resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by wall of fire. A creature's immunities are unaffected.</Description>
         </Ability>
         <Ability name="Quickened Casting" level="10" page="102" cost="Free">
             <Traits>Concentrate, Metamagic, Sorcerer</Traits>
@@ -457,7 +439,7 @@
         <Ability name="Reflect Spell" level="14" page="201">
             <Traits>Sorcerer</Traits>
             <Prerequisites>Counterspell</Prerequisites>
-            <Description>When you successfully use Counterspell to counteract a spell that affects targeted creatures or an area, you can turn that spell’s effect back on its caster. When reflected, the spell affects only the original caster, even if it’s an area spell or it would normally affect more than one creature. The original caster can attempt a save and use other defenses against the reflected spell as normal.</Description>
+            <Description>When you successfully use Counterspell to counteract a spell that affects targeted creatures or an area, you can turn that spell's effect back on its caster. When reflected, the spell affects only the original caster, even if it's an area spell or it would normally affect more than one creature. The original caster can attempt a save and use other defenses against the reflected spell as normal.</Description>
         </Ability>
         <Ability name="Effortless Concentration" level="16" page="103" cost="Free">
             <Traits>Sorcerer</Traits>
@@ -467,7 +449,7 @@
         <Ability name="Greater Mental Evolution" level="16" page="201">
             <Traits>Sorcerer</Traits>
             <Prerequisites>Arcane Evolution Or Occult Evolution</Prerequisites>
-            <Description>Your bloodline’s deep connection to mental essence greatly enhances your spell repertoire. Add one spell to your spell repertoire for each spell level you can cast.</Description>
+            <Description>Your bloodline's deep connection to mental essence greatly enhances your spell repertoire. Add one spell to your spell repertoire for each spell level you can cast.</Description>
             <SpellsKnown count="1" level="1"/>
             <SpellsKnown count="1" level="2"/>
             <SpellsKnown count="1" level="3"/>
@@ -481,22 +463,22 @@
         <Ability name="Greater Vital Evolution" level="16" page="201">
             <Traits>Sorcerer</Traits>
             <Prerequisites>Divine Evolution Or Primal Evolution</Prerequisites>
-            <Description>Vital power surges through you like a font of energy. Twice per day, you can cast a spell after you’ve run out of spell slots of the appropriate spell level; the two spells you cast with this feat must be of different spell levels.</Description>
+            <Description>Vital power surges through you like a font of energy. Twice per day, you can cast a spell after you've run out of spell slots of the appropriate spell level; the two spells you cast with this feat must be of different spell levels.</Description>
         </Ability>
         <Ability name="Bloodline Wellspring" level="18" page="201">
             <Traits>Sorcerer</Traits>
             <Prerequisites>Bloodline Focus</Prerequisites>
-            <Description>Your blood’s power replenishes your focus. If you have spent at least 3 Focus Points since the last time you Refocused, you recover 3 Focus Points when you Refocus instead of 1.</Description>
+            <Description>Your blood's power replenishes your focus. If you have spent at least 3 Focus Points since the last time you Refocused, you recover 3 Focus Points when you Refocus instead of 1.</Description>
         </Ability>
         <Ability name="Greater Crossblooded Evolution" level="18" page="201">
             <Traits>Sorcerer</Traits>
             <Prerequisites>Crossblooded Evolution</Prerequisites>
-            <Description>Your bloodline is extraordinarily complex. You can have up to three spells from other traditions in your spell repertoire, rather than just one. These spells must each be of a different spell level, but they don’t need to be from the same tradition.</Description>
+            <Description>Your bloodline is extraordinarily complex. You can have up to three spells from other traditions in your spell repertoire, rather than just one. These spells must each be of a different spell level, but they don't need to be from the same tradition.</Description>
         </Ability>
         <Ability name="Bloodline Conduit" level="20" page="201" cost="1">
             <Traits>Metamagic, Sorcerer</Traits>
             <Frequency>once per minute</Frequency>
-            <Description>Your inborn magical nature lets you redirect ambient energies to fuel your spells. If your next action is to Cast a Spell of 5th level or lower that has no duration, you don’t expend the spell’s slot when you cast it.</Description>
+            <Description>Your inborn magical nature lets you redirect ambient energies to fuel your spells. If your next action is to Cast a Spell of 5th level or lower that has no duration, you don't expend the spell's slot when you cast it.</Description>
         </Ability>
         <Ability name="Bloodline Perfection" level="20" page="201">
             <Traits>Sorcerer</Traits>
@@ -506,7 +488,7 @@
         </Ability>
         <Ability name="Metamagic Mastery" level="20" page="201">
             <Traits>Sorcerer</Traits>
-            <Description>Altering your spells doesn’t take any longer than casting them normally. You can use metamagic single actions as free actions.</Description>
+            <Description>Altering your spells doesn't take any longer than casting them normally. You can use metamagic single actions as free actions.</Description>
         </Ability>
     </Feats>
 </pf2:class>

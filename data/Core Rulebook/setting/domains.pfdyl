@@ -108,7 +108,7 @@
         <Name>Luck</Name>
         <DomainSpell>Bit of Luck</DomainSpell>
         <AdvancedDomainSpell>Lucky Break</AdvancedDomainSpell>
-        <Description>You’re unnaturally lucky and keep out of harm’s way.</Description>
+        <Description>You're unnaturally lucky and keep out of harm's way.</Description>
     </Domain>
     <Domain page="441">
         <Name>Magic</Name>

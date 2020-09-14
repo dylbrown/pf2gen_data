@@ -25,7 +25,7 @@
         <Spell type="Focus" name="Augment Summoning"/>
     </Ability>
     <Ability name="Divination School" page="208">
-        <Description>As a diviner, you master remote viewing and prescience, learning information that can transform investigations, research, and battle strategies. You understand that knowledge is power. You add one 1st-level divination spell (such as true strike) to your spellbook. You learn the diviner’s sight school spell.</Description>
+        <Description>As a diviner, you master remote viewing and prescience, learning information that can transform investigations, research, and battle strategies. You understand that knowledge is power. You add one 1st-level divination spell (such as true strike) to your spellbook. You learn the diviner's sight school spell.</Description>
         <AbilitySlot state="filled" name="Advanced Divination Spell">
             <Ability>
                 <Prerequisites>Advanced School Spell</Prerequisites>
@@ -36,7 +36,7 @@
         <Spell type="Focus" name="Diviner's Sight"/>
     </Ability>
     <Ability name="Enchantment School" page="208">
-        <Description>As an enchanter, you use magic to manipulate others’ minds. You might use your abilities to subtly influence others or seize control over them. You understand that the mind surpasses matter. You add one 1st-level enchantment spell (such as charm) to your spellbook. You learn the charming words school spell.</Description>
+        <Description>As an enchanter, you use magic to manipulate others' minds. You might use your abilities to subtly influence others or seize control over them. You understand that the mind surpasses matter. You add one 1st-level enchantment spell (such as charm) to your spellbook. You learn the charming words school spell.</Description>
         <AbilitySlot state="filled" name="Advanced Enchantment Spell">
             <Ability>
                 <Prerequisites>Advanced School Spell</Prerequisites>

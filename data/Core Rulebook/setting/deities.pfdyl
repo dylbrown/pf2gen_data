@@ -24,7 +24,7 @@
             <Spell level="4" name="creation" />
             <Spell level="7" name="magnificent mansion" />
         </Spells>
-        <Description>Abadar is worshipped as the god of cities, law, merchants, and wealth. Abadar’s cathedral-banks are found in many cities and places where order thrives or is gaining a foothold. Aristocrats, city guards, merchants, and those working in legal practice or who have the well-being of their community on their mind are common worshippers of the god of cities, along with dwarves in general. Abadaran priests living in cities often serve as judges, lawyers, and clerks, while those who live on the frontier work as roving magistrates, acting as judge, jury, and executioners in the name of order.</Description>
+        <Description>Abadar is worshipped as the god of cities, law, merchants, and wealth. Abadar's cathedral-banks are found in many cities and places where order thrives or is gaining a foothold. Aristocrats, city guards, merchants, and those working in legal practice or who have the well-being of their community on their mind are common worshippers of the god of cities, along with dwarves in general. Abadaran priests living in cities often serve as judges, lawyers, and clerks, while those who live on the frontier work as roving magistrates, acting as judge, jury, and executioners in the name of order.</Description>
     </Deity>
     <Deity page="437">
         <Name>Asmodeus</Name>
@@ -43,7 +43,7 @@
             <Spell level="4" name="suggestion" />
             <Spell level="6" name="mislead" />
         </Spells>
-        <Description>Asmodeus is the First, the Dark Prince, the lord of darkness and law, and the ruler of the plane of Hell. If Asmodeus’s own scriptures are to believed—and they are corroborated by certain other accounts, like the angel-penned</Description>
+        <Description>Asmodeus is the First, the Dark Prince, the lord of darkness and law, and the ruler of the plane of Hell. If Asmodeus's own scriptures are to believed—and they are corroborated by certain other accounts, like the angel-penned</Description>
     </Deity>
     <Deity page="437">
         <Name>Calistria</Name>
@@ -81,7 +81,7 @@
             <Spell level="2" name="touch of idiocy" />
             <Spell level="5" name="hallucination" />
         </Spells>
-        <Description>Once a mortal human, Cayden Cailean is now one the few deities known as the Ascended. In his mortal years, Cayden was a sellsword of no small fame, known for his boisterous manner, skill with a blade, and fearless resolve. During a particularly rowdy night of drinking, a series of escalating dares led the wandering mercenary to attempt the Test of the Starstone. He emerged from the Starstone Cathedral 3 days later, laughing, a fully realized god. Divine responsibility did little to change Cayden’s attitude from what it was in his mortal life. He continues to crave adventure, drink, and pleasurable company while abhorring bullies, tyrants, and cowards.</Description>
+        <Description>Once a mortal human, Cayden Cailean is now one the few deities known as the Ascended. In his mortal years, Cayden was a sellsword of no small fame, known for his boisterous manner, skill with a blade, and fearless resolve. During a particularly rowdy night of drinking, a series of escalating dares led the wandering mercenary to attempt the Test of the Starstone. He emerged from the Starstone Cathedral 3 days later, laughing, a fully realized god. Divine responsibility did little to change Cayden's attitude from what it was in his mortal life. He continues to crave adventure, drink, and pleasurable company while abhorring bullies, tyrants, and cowards.</Description>
     </Deity>
     <Deity page="438">
         <Name>Desna</Name>
@@ -100,7 +100,7 @@
             <Spell level="4" name="fly" />
             <Spell level="5" name="dreaming potential" />
         </Spells>
-        <Description>The night didn’t know beauty until Desna came into existence. While the other gods toiled away to create the world, she set her sights on the heavens, placing each star in the sky. After surveying her artistry, she hung the brightest star high in the north and made it her home. Her first gift to mortals was this beacon of hope, a twinkling sign in the dark sky that they could turn to when lost or unsure of themselves. Desna provides safe passage through the darkness to all, should they choose to follow.</Description>
+        <Description>The night didn't know beauty until Desna came into existence. While the other gods toiled away to create the world, she set her sights on the heavens, placing each star in the sky. After surveying her artistry, she hung the brightest star high in the north and made it her home. Her first gift to mortals was this beacon of hope, a twinkling sign in the dark sky that they could turn to when lost or unsure of themselves. Desna provides safe passage through the darkness to all, should they choose to follow.</Description>
     </Deity>
     <Deity page="438">
         <Name>Erastil</Name>
@@ -138,7 +138,7 @@
             <Spell level="2" name="enlarge" />
             <Spell level="4" name="weapon storm" />
         </Spells>
-        <Description>The clash of steel, the cry of victory, the gasping denial of death: these are the sound of prayers to Our Lord in Iron, for to follow Gorum is to fight. Gorum does not care the reason for battle—a village’s desperate stand against raiders is no less worthwhile to him than a crusader army marching against demons in the Sarkoris Scar—nor does he choose sides in such clashes. Good or evil, law or chaos, the reason for the fight is irrelevant. It is the thrill of battle that finds his favor, the crucible of struggle in which victory is there for the taking.</Description>
+        <Description>The clash of steel, the cry of victory, the gasping denial of death: these are the sound of prayers to Our Lord in Iron, for to follow Gorum is to fight. Gorum does not care the reason for battle—a village's desperate stand against raiders is no less worthwhile to him than a crusader army marching against demons in the Sarkoris Scar—nor does he choose sides in such clashes. Good or evil, law or chaos, the reason for the fight is irrelevant. It is the thrill of battle that finds his favor, the crucible of struggle in which victory is there for the taking.</Description>
     </Deity>
     <Deity page="438">
         <Name>Gozreh</Name>
@@ -157,7 +157,7 @@
             <Spell level="3" name="lightning bolt" />
             <Spell level="5" name="control water" />
         </Spells>
-        <Description>A timeless entity birthed from the first wind to stir the vast oceans, Gozreh wanders the world in the air and the seas. Sailors drop boxes of cargo as offerings to avoid a fatal storm, hoping to please the Wind and the Waves, even though they know that such pleas are far more likely to go unnoticed as they are to draw their deity’s attention. The deity’s temperament is fickle and their fury swift, hurling bolts of lightning and dragging to the crushing depths those who dare befoul the natural world. Gozreh is the sea that encapsulates the land and the wind that moves its surface, the birds that traverse the sky and the clouds that shield them.</Description>
+        <Description>A timeless entity birthed from the first wind to stir the vast oceans, Gozreh wanders the world in the air and the seas. Sailors drop boxes of cargo as offerings to avoid a fatal storm, hoping to please the Wind and the Waves, even though they know that such pleas are far more likely to go unnoticed as they are to draw their deity's attention. The deity's temperament is fickle and their fury swift, hurling bolts of lightning and dragging to the crushing depths those who dare befoul the natural world. Gozreh is the sea that encapsulates the land and the wind that moves its surface, the birds that traverse the sky and the clouds that shield them.</Description>
     </Deity>
     <Deity page="438">
         <Name>Iomedae</Name>
@@ -176,7 +176,7 @@
             <Spell level="2" name="enlarge" />
             <Spell level="4" name="fire shield" />
         </Spells>
-        <Description>Iomedae, the youngest among the prominent deities of the Inner Sea region, had already proven herself worthy of divinity before her ascension. Born in Cheliax, she followed the path of the sword and fought evil, eventually becoming a paladin of Aroden’s herald</Description>
+        <Description>Iomedae, the youngest among the prominent deities of the Inner Sea region, had already proven herself worthy of divinity before her ascension. Born in Cheliax, she followed the path of the sword and fought evil, eventually becoming a paladin of Aroden's herald</Description>
     </Deity>
     <Deity page="438">
         <Name>Irori</Name>
@@ -195,14 +195,14 @@
             <Spell level="3" name="haste" />
             <Spell level="4" name="stoneskin" />
         </Spells>
-        <Description>Irori exemplifies the concepts of self-perfection. His dogma states that he was a mortal who gained godhood through achieving a physical and mental state that surpassed mortal limitations. His followers seek to emulate their god’s divine state by perfecting themselves using the words of the</Description>
+        <Description>Irori exemplifies the concepts of self-perfection. His dogma states that he was a mortal who gained godhood through achieving a physical and mental state that surpassed mortal limitations. His followers seek to emulate their god's divine state by perfecting themselves using the words of the</Description>
     </Deity>
     <Deity page="439">
         <Name>Lamashtu</Name>
         <Title>Mother of Monsters</Title>
         <DeityAlignment>CE</DeityAlignment>
-        <Edicts>bring power to outcasts and the downtrodden, indoctrinate children in Lamashtu’s teachings, make the beautiful monstrous, reveal the corruption and flaws in all things</Edicts>
-        <Anathema>attempt to treat a mental illness or deformity, provide succor to Lamashtu’s enemies</Anathema>
+        <Edicts>bring power to outcasts and the downtrodden, indoctrinate children in Lamashtu's teachings, make the beautiful monstrous, reveal the corruption and flaws in all things</Edicts>
+        <Anathema>attempt to treat a mental illness or deformity, provide succor to Lamashtu's enemies</Anathema>
         <AreasOfConcern>aberrance, monsters, and nightmares</AreasOfConcern>
         <FollowerAlignments>CE</FollowerAlignments>
         <DivineFont>harm or heal</DivineFont>
@@ -239,7 +239,7 @@
             <Spell level="8" name="maze" />
             <Spell level="9" name="disjunction" />
         </Spells>
-        <Description>To some, magic is a powerful weapon. To others, it’s a malleable tool. And to a few, it’s a source of purpose. With an understanding of spellcasting, creatures can cause fire to erupt from their hands, call otherworldly beings to aid them, bewitch the senses, and even bring the dead back to life. The ability to reshape reality to better suit one’s needs and desires is a powerful call that most only dream of being able to answer, and few are ever able to truly master such might.</Description>
+        <Description>To some, magic is a powerful weapon. To others, it's a malleable tool. And to a few, it's a source of purpose. With an understanding of spellcasting, creatures can cause fire to erupt from their hands, call otherworldly beings to aid them, bewitch the senses, and even bring the dead back to life. The ability to reshape reality to better suit one's needs and desires is a powerful call that most only dream of being able to answer, and few are ever able to truly master such might.</Description>
     </Deity>
     <Deity page="439">
         <Name>Norgorber</Name>
@@ -258,7 +258,7 @@
             <Spell level="2" name="invisibility" />
             <Spell level="4" name="phantasmal killer" />
         </Spells>
-        <Description>Norgorber is the most mysterious of the Ascended, the group of mortals who assumed godhood after passing the Test of the Starstone. Unlike Iomedae’s and Cayden Cailean’s mortal existences, Norgorber’s life before his ascension is a mystery; the god himself has shrouded details of his mortal life in secrecy. This is no surprise to those familiar with Norgorber—he is the master of all secrets, a calculating manipulator who cleverly and ruthlessly wields the power of hidden knowledge to achieve his own ends. Only his most trusted worshippers know enough about his goals to assist in the god’s plans, and even those worshippers often have their memories modified after their parts in Norgorber’s schemes are complete.</Description>
+        <Description>Norgorber is the most mysterious of the Ascended, the group of mortals who assumed godhood after passing the Test of the Starstone. Unlike Iomedae's and Cayden Cailean's mortal existences, Norgorber's life before his ascension is a mystery; the god himself has shrouded details of his mortal life in secrecy. This is no surprise to those familiar with Norgorber—he is the master of all secrets, a calculating manipulator who cleverly and ruthlessly wields the power of hidden knowledge to achieve his own ends. Only his most trusted worshippers know enough about his goals to assist in the god's plans, and even those worshippers often have their memories modified after their parts in Norgorber's schemes are complete.</Description>
     </Deity>
     <Deity page="439">
         <Name>Pharasma</Name>
@@ -277,7 +277,7 @@
             <Spell level="3" name="ghostly weapon" />
             <Spell level="4" name="phantasmal killer" />
         </Spells>
-        <Description>No record of history, and not even other gods, can recall a time before Pharasma. Her throne lies within a vast, gothic cathedral located on the infinite Spire at the center of the planes. From here, she looks both forward and backward in time, observing the births, lives, and deaths of every soul, as she serves as the final arbiter of a soul’s destination after death. Psychopomp servants of Pharasma guide and safeguard newly dead souls along the River of Souls to her realm, where she judges each soul and ensures it is sent to the proper plane for its afterlife, according to its alignment and mortal deeds. Although she can see all possible fates and knows the fate of each individual, free will and choice can alter a soul’s final destination, and she places great weight on the individual’s actions and personal choices. Therefore, Pharasma withholds her final judgment until a soul stands before her. Her prophecies are cryptic, and their full meanings are rarely revealed until the foretold events occur.</Description>
+        <Description>No record of history, and not even other gods, can recall a time before Pharasma. Her throne lies within a vast, gothic cathedral located on the infinite Spire at the center of the planes. From here, she looks both forward and backward in time, observing the births, lives, and deaths of every soul, as she serves as the final arbiter of a soul's destination after death. Psychopomp servants of Pharasma guide and safeguard newly dead souls along the River of Souls to her realm, where she judges each soul and ensures it is sent to the proper plane for its afterlife, according to its alignment and mortal deeds. Although she can see all possible fates and knows the fate of each individual, free will and choice can alter a soul's final destination, and she places great weight on the individual's actions and personal choices. Therefore, Pharasma withholds her final judgment until a soul stands before her. Her prophecies are cryptic, and their full meanings are rarely revealed until the foretold events occur.</Description>
     </Deity>
     <Deity page="439">
         <Name>Rovagug</Name>
@@ -315,7 +315,7 @@
             <Spell level="3" name="fireball" />
             <Spell level="4" name="wall of fire" />
         </Spells>
-        <Description>Sarenrae is one of the most popular deities on Golarion by virtue of her association with the life-giving sun and her perpetual offer to help anyone be their best, even when they have made mistakes. Most people thank her for her kind work to channel the sun’s power for everyone’s safety and livelihood, and thank her clergy for granting her healing power to all who need it. Mortals look to the Dawnflower as an example of boundless love, exquisite kindness, and true patience. They pray to her to heal the sick, lift up the downtrodden, and illuminate darkness of circumstance as well as darkness of spirit. Her followers aspire to emulate her through generosity, nurturing, truthfulness, and selfless courage. They oppose evil everywhere with words first, and when necessary, with scimitar and flame.</Description>
+        <Description>Sarenrae is one of the most popular deities on Golarion by virtue of her association with the life-giving sun and her perpetual offer to help anyone be their best, even when they have made mistakes. Most people thank her for her kind work to channel the sun's power for everyone's safety and livelihood, and thank her clergy for granting her healing power to all who need it. Mortals look to the Dawnflower as an example of boundless love, exquisite kindness, and true patience. They pray to her to heal the sick, lift up the downtrodden, and illuminate darkness of circumstance as well as darkness of spirit. Her followers aspire to emulate her through generosity, nurturing, truthfulness, and selfless courage. They oppose evil everywhere with words first, and when necessary, with scimitar and flame.</Description>
     </Deity>
     <Deity page="440">
         <Name>Shelyn</Name>
@@ -334,7 +334,7 @@
             <Spell level="3" name="enthrall" />
             <Spell level="4" name="creation" />
         </Spells>
-        <Description>Shelyn watches over existence with a kind and loving eye, encouraging mortals to make the best of their lives by spreading love, art, and beauty as best they can. Even the crudest artistic awakenings are worthy of praise in the goddess’s eyes, as they represent an individual’s expression of life’s trials and triumphs. She believes every creature is worthy of love and capable of creating art in their own way. Shelyn’s religion does not require chastity, fidelity, or a particular relationship structure, as the passion of early romance is a facet of love just as important and valid as the comfortable trust between a long-married couple. However, she does make the distinction between courtship and pure carnal desire, and she prefers that trysts blossom into more meaningful relationships along the way.</Description>
+        <Description>Shelyn watches over existence with a kind and loving eye, encouraging mortals to make the best of their lives by spreading love, art, and beauty as best they can. Even the crudest artistic awakenings are worthy of praise in the goddess's eyes, as they represent an individual's expression of life's trials and triumphs. She believes every creature is worthy of love and capable of creating art in their own way. Shelyn's religion does not require chastity, fidelity, or a particular relationship structure, as the passion of early romance is a facet of love just as important and valid as the comfortable trust between a long-married couple. However, she does make the distinction between courtship and pure carnal desire, and she prefers that trysts blossom into more meaningful relationships along the way.</Description>
     </Deity>
     <Deity page="440">
         <Name>Torag</Name>
@@ -353,7 +353,7 @@
             <Spell level="3" name="earthbind" />
             <Spell level="4" name="creation" />
         </Spells>
-        <Description>The head of the dwarven pantheon is the most visible of the dwarven deities, to the extent that Torag is the only dwarven deity most non-dwarves know of. While the other dwarven gods represent specific areas of dwarven life and culture, thus forming an expansive and comprehensive dwarven pantheon, Torag’s areas of concern are those most central to dwarven society. In his own family, Torag models the values of community and protection that have cemented deep-rooted relationships among dwarven clans. His focus on strategy and tactical acumen centers on protection, reflected in dwarves’ impenetrable fortresses and conservative military tactics, including their willingness to use offensive maneuvers as a form of defense. He also represents the forge: the creation of fine works from raw materials, practice and mastery of a craft, and pride in one’s work. His purview extends even to those activities that feed the forge and dwarven artisanship, such as mining the earth for raw ore and gemstones. Torag’s oversight over these core concepts has secured his place at the head of the dwarven pantheon for ages. It was Torag who sent the dwarves on their legendary Quest for Sky during the Age of Darkness, and his worship was long-established even then. Indeed, among dwarves, Torag is often called the Father of Creation.</Description>
+        <Description>The head of the dwarven pantheon is the most visible of the dwarven deities, to the extent that Torag is the only dwarven deity most non-dwarves know of. While the other dwarven gods represent specific areas of dwarven life and culture, thus forming an expansive and comprehensive dwarven pantheon, Torag's areas of concern are those most central to dwarven society. In his own family, Torag models the values of community and protection that have cemented deep-rooted relationships among dwarven clans. His focus on strategy and tactical acumen centers on protection, reflected in dwarves' impenetrable fortresses and conservative military tactics, including their willingness to use offensive maneuvers as a form of defense. He also represents the forge: the creation of fine works from raw materials, practice and mastery of a craft, and pride in one's work. His purview extends even to those activities that feed the forge and dwarven artisanship, such as mining the earth for raw ore and gemstones. Torag's oversight over these core concepts has secured his place at the head of the dwarven pantheon for ages. It was Torag who sent the dwarves on their legendary Quest for Sky during the Age of Darkness, and his worship was long-established even then. Indeed, among dwarves, Torag is often called the Father of Creation.</Description>
     </Deity>
     <Deity page="440">
         <Name>Urgathoa</Name>
@@ -372,7 +372,7 @@
             <Spell level="2" name="false life" />
             <Spell level="7" name="mask of terror" />
         </Spells>
-        <Description>The chosen of Urgathoa do not dread the flaws of mortal flesh, such as aging, disease, or even death, for so long as they indulge in excess above all else, their goddess offers eternal freedom from such fickle constraints. Urgathoa herself was once a mortal woman who challenged and rejected the tenets of deities whose followers expected mindless conformity, temperance, and restraint. Why would the gods craft Golarion into a near-endless buffet abundant with pleasures of the body and mind if the living weren’t destined to feast from it? Urgathoa so loved satiating her life’s appetites that in death, she spat in the face of</Description>
+        <Description>The chosen of Urgathoa do not dread the flaws of mortal flesh, such as aging, disease, or even death, for so long as they indulge in excess above all else, their goddess offers eternal freedom from such fickle constraints. Urgathoa herself was once a mortal woman who challenged and rejected the tenets of deities whose followers expected mindless conformity, temperance, and restraint. Why would the gods craft Golarion into a near-endless buffet abundant with pleasures of the body and mind if the living weren't destined to feast from it? Urgathoa so loved satiating her life's appetites that in death, she spat in the face of</Description>
     </Deity>
     <Deity page="440">
         <Name>Zon-Kuthon</Name>

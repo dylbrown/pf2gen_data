@@ -61,7 +61,7 @@ The item bonus is +3.</Description>
 	<Usage>etched onto armor</Usage>
 	<Description>This armor can be disguised with a mere thought.</Description>
 	<Ability name="Glamered Armor" page="583" cost="1">
-		<Description>You change the shape and appearance of this armor to appear as ordinary or fine clothes of your imagining. The armor’s statistics do not change. Only a creature that is benefiting from &lt;i&gt;true seeing&lt;/i&gt; or a similar effect can attempt to disbelieve this illusion, with a DC of 25.</Description>
+		<Description>You change the shape and appearance of this armor to appear as ordinary or fine clothes of your imagining. The armor's statistics do not change. Only a creature that is benefiting from &lt;i&gt;true seeing&lt;/i&gt; or a similar effect can attempt to disbelieve this illusion, with a DC of 25.</Description>
 	</Ability>
 </ArmorRune>
 <ArmorRune level="8" page="582">
@@ -107,14 +107,14 @@ You gain resistance 10 to the specified damage type.</Description>
 	<Price>2,000 gp</Price>
 	<Traits>Abjuration, Magical</Traits>
 	<Usage>etched onto medium or heavy armor</Usage>
-	<Description>A &lt;i&gt;fortification&lt;/i&gt; rune wards against the most deadly attacks. Each time you’re critically hit while wearing the etched armor, attempt a DC 17 flat check. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 2.&lt;br&gt;</Description>
+	<Description>A &lt;i&gt;fortification&lt;/i&gt; rune wards against the most deadly attacks. Each time you're critically hit while wearing the etched armor, attempt a DC 17 flat check. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 2.&lt;br&gt;</Description>
 </ArmorRune>
 <ArmorRune level="18" page="582">
 	<Name>Fortification (Greater)</Name>
 	<Price>24,000 gp</Price>
 	<Traits>Abjuration, Magical</Traits>
 	<Usage>etched onto medium or heavy armor</Usage>
-	<Description>A &lt;i&gt;fortification&lt;/i&gt; rune wards against the most deadly attacks. Each time you’re critically hit while wearing the etched armor, attempt a DC 17 flat check. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 2.&lt;br&gt;
+	<Description>A &lt;i&gt;fortification&lt;/i&gt; rune wards against the most deadly attacks. Each time you're critically hit while wearing the etched armor, attempt a DC 17 flat check. On a success, it becomes a normal hit. This property thickens the armor, increasing its Bulk by 1 and the Strength required to reduce its penalties by 2.&lt;br&gt;
 
 The flat check DC is 14.</Description>
 </ArmorRune>
@@ -138,7 +138,7 @@ The flat check DC is 14.</Description>
 	<Description>An &lt;i&gt;ethereal rune&lt;/i&gt; replicates armor on the Ethereal Plane.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of 9th level &lt;i&gt;ethereal jaunt&lt;/i&gt;.</Description>
 	<Ability name="Ethereal Armor" page="582" cost="1">
 		<Frequency>1/Day</Frequency>
-		<Description>You gain the effects of an &lt;i&gt;ethereal jaunt&lt;/i&gt; spell. This doesn’t require concentration and lasts for 10 minutes or until you choose to return to material form as a free action.</Description>
+		<Description>You gain the effects of an &lt;i&gt;ethereal jaunt&lt;/i&gt; spell. This doesn't require concentration and lasts for 10 minutes or until you choose to return to material form as a free action.</Description>
 	</Ability>
 </ArmorRune>
 </SubCategory>
@@ -149,7 +149,7 @@ The flat check DC is 14.</Description>
 	<Usage>etched onto armor</Usage>
     <BonusAC>1</BonusAC>
     <GrantsProperties>1</GrantsProperties>
-	<Description>Magic wards deflect attacks. Increase the armor’s item bonus to AC by 1. The armor can be etched with one property rune.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.&lt;br&gt;</Description>
+	<Description>Magic wards deflect attacks. Increase the armor's item bonus to AC by 1. The armor can be etched with one property rune.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.&lt;br&gt;</Description>
 </ArmorRune>
 <ArmorRune level="11" page="581" fundamental="true">
 	<Name>Armor Potency (+2)</Name>
@@ -158,7 +158,7 @@ The flat check DC is 14.</Description>
 	<Usage>etched onto armor</Usage>
     <BonusAC>2</BonusAC>
     <GrantsProperties>2</GrantsProperties>
-	<Description>Magic wards deflect attacks. Increase the armor’s item bonus to AC by 2. The armor can be etched with two property runes.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; You are a master in Crafting.&lt;br&gt;</Description>
+	<Description>Magic wards deflect attacks. Increase the armor's item bonus to AC by 2. The armor can be etched with two property runes.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; You are a master in Crafting.&lt;br&gt;</Description>
 </ArmorRune>
 <ArmorRune level="18" page="581" fundamental="true">
 	<Name>Armor Potency (+3)</Name>
@@ -167,7 +167,7 @@ The flat check DC is 14.</Description>
 	<Usage>etched onto armor</Usage>
     <BonusAC>3</BonusAC>
     <GrantsProperties>3</GrantsProperties>
-	<Description>Magic wards deflect attacks. Increase the armor’s item bonus to AC by 1. The armor can be etched with one property rune.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; You are legendary in Crafting.</Description>
+	<Description>Magic wards deflect attacks. Increase the armor's item bonus to AC by 1. The armor can be etched with one property rune.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;armor potency&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; You are legendary in Crafting.</Description>
 </ArmorRune>
 <ArmorRune level="8" page="581" fundamental="true">
 	<Name>Resilient</Name>
@@ -175,7 +175,7 @@ The flat check DC is 14.</Description>
 	<Traits>Abjuration, Magical</Traits>
 	<Usage>etched onto armor</Usage>
     <Bonuses>+1 Fortitude, +1 Reflex, +1 Will</Bonuses>
-	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +1 item bonus to saving throws.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.&lt;br&gt;</Description>
+	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +1 item bonus to saving throws.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.&lt;br&gt;</Description>
 </ArmorRune>
 <ArmorRune level="14" page="581" fundamental="true">
 	<Name>Resilient (Greater)</Name>
@@ -183,7 +183,7 @@ The flat check DC is 14.</Description>
 	<Traits>Abjuration, Magical</Traits>
 	<Usage>etched onto armor</Usage>
     <Bonuses>+2 Fortitude, +2 Reflex, +2 Will</Bonuses>
-	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +2 item bonus to saving throws.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.</Description>
+	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +2 item bonus to saving throws.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.</Description>
 </ArmorRune>
 <ArmorRune level="20" page="581" fundamental="true">
 	<Name>Resilient (Major)</Name>
@@ -191,7 +191,7 @@ The flat check DC is 14.</Description>
 	<Traits>Abjuration, Magical</Traits>
 	<Usage>etched onto armor</Usage>
     <Bonuses>+3 Fortitude, +3 Reflex, +3 Will</Bonuses>
-	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +3 item bonus to saving throws.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.</Description>
+	<Description>&lt;i&gt;Resilient&lt;/i&gt; runes imbue armor with additional protective magic. This grants the wearer a +3 item bonus to saving throws.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;resilient&lt;/i&gt; rune already etched on a suit of armor to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.</Description>
 </ArmorRune>
 </SubCategory><SubCategory name="Fundamental Weapon Runes"><WeaponRune level="2" page="581" fundamental="true">
 	<Name>Weapon Potency (+1)</Name>
@@ -200,7 +200,7 @@ The flat check DC is 14.</Description>
 	<Usage>etched onto a weapon</Usage>
     <AttackBonus>1</AttackBonus>
     <GrantsProperties>1</GrantsProperties>
-	<Description>Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +1 item bonus, and the weapon can be etched with one property rune.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;weapon potency&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.&lt;br&gt;</Description>
+	<Description>Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +1 item bonus, and the weapon can be etched with one property rune.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;weapon potency&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.&lt;br&gt;</Description>
 </WeaponRune>
 <WeaponRune level="10" page="581" fundamental="true">
 	<Name>Weapon Potency (+2)</Name>
@@ -209,7 +209,7 @@ The flat check DC is 14.</Description>
 	<Usage>etched onto a weapon</Usage>
     <AttackBonus>2</AttackBonus>
     <GrantsProperties>2</GrantsProperties>
-	<Description>Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +2 item bonus, and the weapon can be etched with two property runes.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;weapon potency&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; You are a master in Crafting.&lt;br&gt;</Description>
+	<Description>Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +2 item bonus, and the weapon can be etched with two property runes.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;weapon potency&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; You are a master in Crafting.&lt;br&gt;</Description>
 </WeaponRune>
 <WeaponRune level="16" page="581" fundamental="true">
 	<Name>Weapon Potency (+3)</Name>
@@ -218,7 +218,7 @@ The flat check DC is 14.</Description>
 	<Usage>etched onto a weapon</Usage>
     <AttackBonus>3</AttackBonus>
     <GrantsProperties>3</GrantsProperties>
-	<Description>Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +3 item bonus, and the weapon can be etched with three property runes.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;weapon potency&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; You are legendary in Crafting.</Description>
+	<Description>Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +3 item bonus, and the weapon can be etched with three property runes.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;weapon potency&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; You are legendary in Crafting.</Description>
 </WeaponRune>
 <WeaponRune level="4" page="581" fundamental="true">
 	<Name>Striking</Name>
@@ -226,7 +226,7 @@ The flat check DC is 14.</Description>
 	<Traits>Evocation, Magical</Traits>
 	<Usage>etched onto a weapon</Usage>
     <WeaponDice>2</WeaponDice>
-	<Description>A &lt;i&gt;striking&lt;/i&gt; rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to two instead of one. For instance, a &lt;i&gt;+1 striking dagger&lt;/i&gt; would deal 2d4 damage instead of 1d4 damage.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;striking&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.&lt;br&gt;</Description>
+	<Description>A &lt;i&gt;striking&lt;/i&gt; rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to two instead of one. For instance, a &lt;i&gt;+1 striking dagger&lt;/i&gt; would deal 2d4 damage instead of 1d4 damage.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;striking&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.&lt;br&gt;</Description>
 </WeaponRune>
 <WeaponRune level="12" page="581" fundamental="true">
 	<Name>Striking (Greater)</Name>
@@ -234,7 +234,7 @@ The flat check DC is 14.</Description>
 	<Traits>Evocation, Magical</Traits>
 	<Usage>etched onto a weapon</Usage>
     <WeaponDice>3</WeaponDice>
-	<Description>A &lt;i&gt;striking&lt;/i&gt; rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to three instead of one. For instance, a &lt;i&gt;+2 greater striking dagger&lt;/i&gt; would deal 3d4 damage instead of 1d4 damage.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;striking&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.</Description>
+	<Description>A &lt;i&gt;striking&lt;/i&gt; rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to three instead of one. For instance, a &lt;i&gt;+2 greater striking dagger&lt;/i&gt; would deal 3d4 damage instead of 1d4 damage.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;striking&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.</Description>
 </WeaponRune>
 <WeaponRune level="19" page="581" fundamental="true">
 	<Name>Striking (Major)</Name>
@@ -242,7 +242,7 @@ The flat check DC is 14.</Description>
 	<Traits>Evocation, Magical</Traits>
 	<Usage>etched onto a weapon</Usage>
     <WeaponDice>4</WeaponDice>
-	<Description>A &lt;i&gt;striking&lt;/i&gt; rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to four instead of one. For instance, a &lt;i&gt;+3 major striking dagger&lt;/i&gt; would deal 4d4 damage instead of 1d4 damage.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;striking&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes’ Prices.</Description>
+	<Description>A &lt;i&gt;striking&lt;/i&gt; rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to four instead of one. For instance, a &lt;i&gt;+3 major striking dagger&lt;/i&gt; would deal 4d4 damage instead of 1d4 damage.&lt;br&gt;&lt;br&gt; You can upgrade the &lt;i&gt;striking&lt;/i&gt; rune already etched on a weapon to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.</Description>
 </WeaponRune>
 </SubCategory><SubCategory name="Weapon Property Runes"><WeaponRune level="3" page="584">
 	<Name>Returning</Name>
@@ -272,7 +272,7 @@ The flat check DC is 14.</Description>
 	<Traits>Magical, Necromancy</Traits>
 	<Usage>etched onto a melee weapon</Usage>
     <BonusDamage>2d6 positive</BonusDamage>
-	<Description>A &lt;i&gt;disrupting&lt;/i&gt; weapon pulses with positive energy, dealing an extra 2d6 positive damage to undead. On a critical hit, the undead creature must attempt a DC 34 Fortitude save with the following effects. This is an incapacitation effect.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; It’s enfeebled 1 until the end of your next turn.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; It’s enfeebled 2 until the end of your next turn.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; It’s enfeebled 3 until the end of your next turn.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; It’s destroyed.</Description>
+	<Description>A &lt;i&gt;disrupting&lt;/i&gt; weapon pulses with positive energy, dealing an extra 2d6 positive damage to undead. On a critical hit, the undead creature must attempt a DC 34 Fortitude save with the following effects. This is an incapacitation effect.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; It's enfeebled 1 until the end of your next turn.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; It's enfeebled 2 until the end of your next turn.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; It's enfeebled 3 until the end of your next turn.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; It's destroyed.</Description>
 </WeaponRune>
 <WeaponRune level="6" page="585">
 	<Name>Shifting</Name>
@@ -281,7 +281,7 @@ The flat check DC is 14.</Description>
 	<Usage>etched onto a melee weapon</Usage>
 	<Description>With a moment of manipulation, you can shift this weapon into a different weapon with a similar form.</Description>
     <Ability name="Shifting Weapon" cost="1">
-        <Description>The weapon takes the shape of another melee weapon that requires the same number of hands to wield. The weapon’s runes and any precious material it’s made of apply to the weapon’s new shape. Any property runes that can’t apply to the new form are suppressed until the item takes a shape to which they can apply.</Description>
+        <Description>The weapon takes the shape of another melee weapon that requires the same number of hands to wield. The weapon's runes and any precious material it's made of apply to the weapon's new shape. Any property runes that can't apply to the new form are suppressed until the item takes a shape to which they can apply.</Description>
     </Ability>
 </WeaponRune>
 <WeaponRune level="7" page="585">
@@ -298,7 +298,7 @@ The flat check DC is 14.</Description>
 	<Traits>Acid, Conjuration, Magical</Traits>
 	<Usage>etched onto a weapon</Usage>
     <BonusDamage>1d6 acid</BonusDamage>
-	<Description>Acid sizzles across the surface of the weapon. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target’s armor (if any) takes 3d6 acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.&lt;br&gt;</Description>
+	<Description>Acid sizzles across the surface of the weapon. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target's armor (if any) takes 3d6 acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.&lt;br&gt;</Description>
 </WeaponRune>
 <WeaponRune level="15" page="583">
 	<Name>Corrosive (Greater)</Name>
@@ -306,9 +306,9 @@ The flat check DC is 14.</Description>
 	<Traits>Acid, Conjuration, Magical</Traits>
 	<Usage>etched onto a weapon</Usage>
     <BonusDamage>1d6 acid</BonusDamage>
-	<Description>Acid sizzles across the surface of the weapon. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target’s armor (if any) takes 3d6 acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.&lt;br&gt;
+	<Description>Acid sizzles across the surface of the weapon. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target's armor (if any) takes 3d6 acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.&lt;br&gt;
 
-The acid damage dealt by this weapon ignores the target’s acid resistance. Increase the acid damage dealt to armor or a shield on a critical hit to 6d6.</Description>
+The acid damage dealt by this weapon ignores the target's acid resistance. Increase the acid damage dealt to armor or a shield on a critical hit to 6d6.</Description>
 </WeaponRune>
 <WeaponRune level="8" page="584">
 	<Name>Flaming</Name>
@@ -324,7 +324,7 @@ The acid damage dealt by this weapon ignores the target’s acid resistance. Inc
 	<Traits>Conjuration, Fire, Magical</Traits>
 	<Usage>etched onto a weapon</Usage>
     <BonusDamage>1d6 fire</BonusDamage>
-	<Description>This weapon is empowered by flickering flame. The weapon deals an additional 1d6 fire damage on a successful Strike, plus 2d10 persistent fire damage on a critical hit.&lt;br&gt;Fire damage dealt by this weapon (including the persistent fire damage) ignores the target’s fire resistance.</Description>
+	<Description>This weapon is empowered by flickering flame. The weapon deals an additional 1d6 fire damage on a successful Strike, plus 2d10 persistent fire damage on a critical hit.&lt;br&gt;Fire damage dealt by this weapon (including the persistent fire damage) ignores the target's fire resistance.</Description>
 </WeaponRune>
 <WeaponRune level="8" page="584">
 	<Name>Frost</Name>
@@ -340,7 +340,7 @@ The acid damage dealt by this weapon ignores the target’s acid resistance. Inc
 	<Traits>Cold, Conjuration, Magical</Traits>
 	<Usage>etched onto a weapon</Usage>
     <BonusDamage>1d6 cold</BonusDamage>
-	<Description>This weapon is empowered with freezing ice. It deals an additional 1d6 cold damage on a successful Strike. On a critical hit, the target is also slowed 1 until the end of your next turn unless it succeeds at a DC 34 Fortitude save.&lt;br&gt; Cold damage dealt by this weapon ignores the target’s cold resistance. </Description>
+	<Description>This weapon is empowered with freezing ice. It deals an additional 1d6 cold damage on a successful Strike. On a critical hit, the target is also slowed 1 until the end of your next turn unless it succeeds at a DC 34 Fortitude save.&lt;br&gt; Cold damage dealt by this weapon ignores the target's cold resistance. </Description>
 </WeaponRune>
 <WeaponRune level="8" page="585">
 	<Name>Shock</Name>
@@ -356,7 +356,7 @@ The acid damage dealt by this weapon ignores the target’s acid resistance. Inc
 	<Traits>Electricity, Evocation, Magical</Traits>
 	<Usage>etched onto a weapon</Usage>
     <BonusDamage>1d6 electricity</BonusDamage>
-	<Description>Electric arcs crisscross this weapon, dealing an extra 1d6 electricity damage on a hit. On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target.&lt;br&gt;Electricity damage dealt by this weapon ignores the target’s electricity resistance (and the other creatures’ on a critical hit).</Description>
+	<Description>Electric arcs crisscross this weapon, dealing an extra 1d6 electricity damage on a hit. On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target.&lt;br&gt;Electricity damage dealt by this weapon ignores the target's electricity resistance (and the other creatures' on a critical hit).</Description>
 </WeaponRune>
 <WeaponRune level="8" page="585">
 	<Name>Thundering</Name>
@@ -372,14 +372,14 @@ The acid damage dealt by this weapon ignores the target’s acid resistance. Inc
 	<Traits>Evocation, Magical, Sonic</Traits>
 	<Usage>etched onto a weapon</Usage>
     <BonusDamage>1d6 sonic</BonusDamage>
-	<Description>This weapon lets out a peal of thunder when it hits, dealing an extra 1d6 sonic damage on a successful Strike. On a critical hit, the target has to succeed at a DC 34 Fortitude save or be permanently deafened.&lt;br&gt; Sonic damage dealt by this weapon ignores the target’s sonic resistance.</Description>
+	<Description>This weapon lets out a peal of thunder when it hits, dealing an extra 1d6 sonic damage on a successful Strike. On a critical hit, the target has to succeed at a DC 34 Fortitude save or be permanently deafened.&lt;br&gt; Sonic damage dealt by this weapon ignores the target's sonic resistance.</Description>
 </WeaponRune>
 <WeaponRune level="9" page="584">
 	<Name>Grievous</Name>
 	<Price>700 gp</Price>
 	<Traits>Enchantment, Magical</Traits>
 	<Usage>etched onto a weapon</Usage>
-	<Description>When your attack roll with this weapon is a critical hit and gains the critical specialization effect, you gain an additional benefit depending on the weapon group. &lt;br&gt;&lt;br&gt;&lt;b&gt;Axe&lt;/b&gt; You can damage a third creature, with the same restrictions. &lt;br&gt;&lt;br&gt;&lt;b&gt;Bow&lt;/b&gt; The Athletics check to pull the missile free is DC 20. &lt;br&gt;&lt;br&gt;&lt;b&gt;Brawling&lt;/b&gt; The target takes a –4 circumstance penalty to its save. &lt;br&gt;&lt;br&gt;&lt;b&gt;Club&lt;/b&gt; You can knock the target up to 15 feet away.  &lt;br&gt;&lt;br&gt;&lt;b&gt;Dart&lt;/b&gt; The base persistent bleed damage increases to 2d6. &lt;br&gt;&lt;br&gt;&lt;b&gt;Flail&lt;/b&gt; You move the target 5 feet. You can’t move it away from you, but you can move it in another direction of your choice. &lt;br&gt;&lt;br&gt;&lt;b&gt;Hammer&lt;/b&gt; You can also knock the target 5 feet away from you. &lt;br&gt;&lt;br&gt;&lt;b&gt;Knife&lt;/b&gt; The target takes a –5-foot status penalty to its Speed while it has the persistent bleed damage. &lt;br&gt;&lt;br&gt;&lt;b&gt;Pick&lt;/b&gt; The extra damage from the critical specialization effect increases to 4 per weapon damage die. &lt;br&gt;&lt;br&gt;&lt;b&gt;Polearm&lt;/b&gt; You can move the target up to 10 feet. &lt;br&gt;&lt;br&gt;&lt;b&gt;Shield&lt;/b&gt; You can knock the target up to 10 feet away. &lt;br&gt;&lt;br&gt;&lt;b&gt;Sling&lt;/b&gt; The target also takes a –10-foot status penalty to its Speed for 1 round if it fails the save. &lt;br&gt;&lt;br&gt;&lt;b&gt;Spear&lt;/b&gt; The clumsy condition lasts for 2 rounds. &lt;br&gt;&lt;br&gt;&lt;b&gt;Sword&lt;/b&gt; The target is flat-footed until the end of your next turn.</Description>
+	<Description>When your attack roll with this weapon is a critical hit and gains the critical specialization effect, you gain an additional benefit depending on the weapon group. &lt;br&gt;&lt;br&gt;&lt;b&gt;Axe&lt;/b&gt; You can damage a third creature, with the same restrictions. &lt;br&gt;&lt;br&gt;&lt;b&gt;Bow&lt;/b&gt; The Athletics check to pull the missile free is DC 20. &lt;br&gt;&lt;br&gt;&lt;b&gt;Brawling&lt;/b&gt; The target takes a –4 circumstance penalty to its save. &lt;br&gt;&lt;br&gt;&lt;b&gt;Club&lt;/b&gt; You can knock the target up to 15 feet away.  &lt;br&gt;&lt;br&gt;&lt;b&gt;Dart&lt;/b&gt; The base persistent bleed damage increases to 2d6. &lt;br&gt;&lt;br&gt;&lt;b&gt;Flail&lt;/b&gt; You move the target 5 feet. You can't move it away from you, but you can move it in another direction of your choice. &lt;br&gt;&lt;br&gt;&lt;b&gt;Hammer&lt;/b&gt; You can also knock the target 5 feet away from you. &lt;br&gt;&lt;br&gt;&lt;b&gt;Knife&lt;/b&gt; The target takes a –5-foot status penalty to its Speed while it has the persistent bleed damage. &lt;br&gt;&lt;br&gt;&lt;b&gt;Pick&lt;/b&gt; The extra damage from the critical specialization effect increases to 4 per weapon damage die. &lt;br&gt;&lt;br&gt;&lt;b&gt;Polearm&lt;/b&gt; You can move the target up to 10 feet. &lt;br&gt;&lt;br&gt;&lt;b&gt;Shield&lt;/b&gt; You can knock the target up to 10 feet away. &lt;br&gt;&lt;br&gt;&lt;b&gt;Sling&lt;/b&gt; The target also takes a –10-foot status penalty to its Speed for 1 round if it fails the save. &lt;br&gt;&lt;br&gt;&lt;b&gt;Spear&lt;/b&gt; The clumsy condition lasts for 2 rounds. &lt;br&gt;&lt;br&gt;&lt;b&gt;Sword&lt;/b&gt; The target is flat-footed until the end of your next turn.</Description>
 </WeaponRune>
 <WeaponRune level="11" page="583">
 	<Name>Anarchic</Name>
@@ -407,7 +407,7 @@ The acid damage dealt by this weapon ignores the target’s acid resistance. Inc
     <Ability name="Holy Weapon" cost="Reaction">
         <Frequency>1/Day</Frequency>
         <Trigger>You critically succeed at an attack roll against an evil creature with the weapon.</Trigger>
-        <Description>You regain HP equal to double the evil creature’s level. This is a good, positive, healing effect.</Description>
+        <Description>You regain HP equal to double the evil creature's level. This is a good, positive, healing effect.</Description>
     </Ability>
 </WeaponRune>
 <WeaponRune level="11" page="585">
@@ -430,7 +430,7 @@ The acid damage dealt by this weapon ignores the target’s acid resistance. Inc
 	<Usage>etched onto a melee weapon</Usage>
 	<Description>A dancing weapon flies autonomously and strikes your foes.</Description>
     <Ability name="Dancing Weapon" cost="2">
-        <Description>You Release the weapon and it dances through the air, fighting on its own against the last enemy you attacked, or the nearest enemy to it if your target has been defeated. At the end of your turn each round, the weapon can Fly up to its fly Speed of 40 feet, and then can either Fly again or Strike one creature within its reach.&lt;br&gt;&lt;br&gt; The weapon has a space of 5 feet, but it doesn’t block or impede enemies attempting to move though that space, nor does it benefit from or provide flanking. The weapon can’t move through an enemy’s space. The weapon can’t use reactions, and its Fly actions don’t trigger reactions.&lt;br&gt;&lt;br&gt; While it’s activated, a &lt;i&gt;dancing&lt;/i&gt; weapon makes Strikes with an attack modifier of +24 plus its item bonus to attack rolls. It uses the weapon’s normal damage but has a +0 Strength modifier. The weapon’s abilities that automatically trigger on a hit or critical hit still function, but the weapon can’t be activated or benefit from any of your abilities while dancing.&lt;br&gt;&lt;br&gt; Each round, when the weapon is finished using its actions, attempt a DC 6 flat check. On a failure, the activation ends and the weapon falls to the ground. You can’t activate the item again for 10 minutes.</Description>
+        <Description>You Release the weapon and it dances through the air, fighting on its own against the last enemy you attacked, or the nearest enemy to it if your target has been defeated. At the end of your turn each round, the weapon can Fly up to its fly Speed of 40 feet, and then can either Fly again or Strike one creature within its reach.&lt;br&gt;&lt;br&gt; The weapon has a space of 5 feet, but it doesn't block or impede enemies attempting to move though that space, nor does it benefit from or provide flanking. The weapon can't move through an enemy's space. The weapon can't use reactions, and its Fly actions don't trigger reactions.&lt;br&gt;&lt;br&gt; While it's activated, a &lt;i&gt;dancing&lt;/i&gt; weapon makes Strikes with an attack modifier of +24 plus its item bonus to attack rolls. It uses the weapon's normal damage but has a +0 Strength modifier. The weapon's abilities that automatically trigger on a hit or critical hit still function, but the weapon can't be activated or benefit from any of your abilities while dancing.&lt;br&gt;&lt;br&gt; Each round, when the weapon is finished using its actions, attempt a DC 6 flat check. On a failure, the activation ends and the weapon falls to the ground. You can't activate the item again for 10 minutes.</Description>
     </Ability>
 </WeaponRune>
 <WeaponRune level="13" page="585">
@@ -438,7 +438,7 @@ The acid damage dealt by this weapon ignores the target’s acid resistance. Inc
 	<Price>2,700 gp</Price>
 	<Traits>Abjuration, Magical</Traits>
 	<Usage>etched onto a melee weapon</Usage>
-	<Description>A &lt;i&gt;spell-storing&lt;/i&gt; rune creates a reservoir of eldritch energy within the etched weapon. A spellcaster can spend 1 minute to cast a spell of 3rd level or lower into the weapon. The spell must have a casting of 2 actions or fewer and must be able to target a creature other than the caster. The spell has no immediate effect—it is instead stored for later. When you wield a &lt;i&gt;spell-storing&lt;/i&gt; weapon, you immediately know the name and level of the stored spell. A &lt;i&gt;spell-storing&lt;/i&gt; weapon found as treasure has a 50% chance of having a spell of the GM’s choice stored in it.</Description>
+	<Description>A &lt;i&gt;spell-storing&lt;/i&gt; rune creates a reservoir of eldritch energy within the etched weapon. A spellcaster can spend 1 minute to cast a spell of 3rd level or lower into the weapon. The spell must have a casting of 2 actions or fewer and must be able to target a creature other than the caster. The spell has no immediate effect—it is instead stored for later. When you wield a &lt;i&gt;spell-storing&lt;/i&gt; weapon, you immediately know the name and level of the stored spell. A &lt;i&gt;spell-storing&lt;/i&gt; weapon found as treasure has a 50% chance of having a spell of the GM's choice stored in it.</Description>
     <Ability name="Unleash Stored Spell" cost="1">
         <Requirements>On your previous action this turn, you hit and damaged a creature with this weapon.</Requirements>
         <Description>You unleash the stored spell, which uses the target of the triggering attack as the target of the spell. This empties the spell from the weapon and allows a spell to be cast into it again. If the spell requires a spell attack roll, the result of your attack roll with the weapon determines the degree of success of the spell, and if the spell requires a saving throw, the DC is 30.</Description>
@@ -469,7 +469,7 @@ The acid damage dealt by this weapon ignores the target’s acid resistance. Inc
 	<Description>Originally created as a means of slaying the legendary jabberwock, &lt;i&gt;vorpal&lt;/i&gt; weapons prove equally effective against nearly any foe with a head. </Description>
     <Ability name="Decapitate" cost="Reaction">
         <Trigger>You roll a natural 20 on a Strike with the weapon, critically succeed, and deal slashing damage. The target must have a head.</Trigger>
-        <Description>The target must succeed at a DC 37 Fortitude save or be decapitated. This kills any creature except ones that don’t require a head to live. For creatures with multiple heads, this usually kills the creature only if you sever its last head.</Description>
+        <Description>The target must succeed at a DC 37 Fortitude save or be decapitated. This kills any creature except ones that don't require a head to live. For creatures with multiple heads, this usually kills the creature only if you sever its last head.</Description>
     </Ability>
 </WeaponRune>
 </SubCategory></pf2:Items>

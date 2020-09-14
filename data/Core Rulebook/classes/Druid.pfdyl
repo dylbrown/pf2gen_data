@@ -250,12 +250,7 @@
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
-        <AbilitySlot state="filled" name="Resolve">
-            <Ability>
-                <Description>You've steeled your mind with incredible resolve. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.</Description>
-                <AttributeMods Proficiency="Master">Will</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Resolve" type="ClassFeature" contents="Resolve" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
@@ -285,25 +280,7 @@
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Weapon Specialization">
-            <Ability>
-                <Description>You've learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and to 4 if you're legendary.</Description>
-                <CustomMod>
-                    def weaponSpecialization = {weapon, damage ->
-                    def proficiency = get("Attributes").getProficiency(weapon.getProficiency(), weapon);
-                    if (proficiency.toString() == "Legendary") {
-                    return damage.add(4);
-                    } else if (proficiency.toString() == "Master") {
-                    return damage.add(3);
-                    } else if (proficiency.toString() == "Expert") {
-                    return damage.add(2);
-                    }
-                    return damage;
-                    }
-                    damageModifier("Weapon Specialization", weaponSpecialization)
-                </CustomMod>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Weapon Specialization" type="ClassFeature" contents="Weapon Specialization" />
     </FeatureList>
     <FeatureList level="14">
         <AbilitySlot state="feat" type="Class Feat" name="Druid Feat"/>
@@ -455,7 +432,8 @@
         </Ability>
         <Ability name="Form Control" level="4" page="135" cost="1">
             <Traits>Druid, Manipulate, Metamagic</Traits>
-            <Prerequisites>Strength 14, Wild Shape</Prerequisites>
+            <Requires>Strength 14</Requires>
+            <Prerequisites>Wild Shape</Prerequisites>
             <Description>With additional care and effort, you can take on an alternate form for a longer period of time. If your next action is to cast wild shape, wild shape's spell level is 2 lower than normal (minimum 1st level), but you can remain transformed for up to 1 hour or the listed duration (whichever is longer). You can still Dismiss the form at any time, as permitted by the spell.</Description>
         </Ability>
         <Ability name="Mature Animal Companion (Druid)" level="4" page="135">
@@ -630,7 +608,8 @@
         </Ability>
         <Ability name="Perfect Form Control" level="18" page="139">
             <Traits>Druid</Traits>
-            <Prerequisites>Form Control, Strength 18</Prerequisites>
+            <Prerequisites>Form Control</Prerequisites>
+            <Requires>Strength 18</Requires>
             <Description>Thanks to magic and muscle memory, you can stay in your alternate forms indefinitely; you may have even forgotten your original form. When you use Form Control, instead of lasting 1 hour, wild shape is permanent until you Dismiss it.</Description>
         </Ability>
         <Ability name="Primal Wellspring" level="18" page="139">

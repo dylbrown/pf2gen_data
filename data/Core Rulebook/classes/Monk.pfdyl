@@ -6,7 +6,7 @@
     <HP>10</HP>
     <AbilityChoices>Str or Dex</AbilityChoices>
     <SkillIncreases>4</SkillIncreases>
-    <Description>The strength of your fist flows from your mind and spirit. You seek perfection—honing your body into a flawless instrument and your mind into an orderly bastion of wisdom. You’re a fierce combatant renowned for martial arts skills and combat stances that grant you unique fighting moves. While the challenge of mastering many fighting styles drives you to great heights, you also enjoy meditating on philosophical questions and discovering new ways to obtain peace and enlightenment.</Description>
+    <Description>The strength of your fist flows from your mind and spirit. You seek perfection—honing your body into a flawless instrument and your mind into an orderly bastion of wisdom. You're a fierce combatant renowned for martial arts skills and combat stances that grant you unique fighting moves. While the challenge of mastering many fighting styles drives you to great heights, you also enjoy meditating on philosophical questions and discovering new ways to obtain peace and enlightenment.</Description>
     <FeatureList level="1">
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
         <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
@@ -25,7 +25,7 @@
         <AbilitySlot state="feat" type="Class Feat" name="Monk Feat"/>
         <AbilitySlot state="filled" name="Powerful Fist">
             <Ability>
-                <Description>You know how to wield your fists as deadly weapons. The damage die for your fist increases to 1d6 instead of 1d4. Most people take a –2 circumstance penalty when making a lethal attack with nonlethal unarmed attacks, because they find it hard to use their fists with deadly force. You don’t take this penalty when making a lethal attack with your fist or any other unarmed attacks.</Description>
+                <Description>You know how to wield your fists as deadly weapons. The damage die for your fist increases to 1d6 instead of 1d4. Most people take a –2 circumstance penalty when making a lethal attack with nonlethal unarmed attacks, because they find it hard to use their fists with deadly force. You don't take this penalty when making a lethal attack with your fist or any other unarmed attacks.</Description>
                 <Weapon>
                     <Name>Fist</Name>
                     <Damage>1d6 B</Damage>
@@ -59,7 +59,7 @@
         <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
         <AbilitySlot state="filled" name="Incredible Movement">
             <Ability>
-                <Description>You move like the wind. You gain a +10-foot status bonus to your Speed whenever you’re not wearing armor. The bonus increases by 5 feet for every 4 levels you have beyond 3rd.</Description>
+                <Description>You move like the wind. You gain a +10-foot status bonus to your Speed whenever you're not wearing armor. The bonus increases by 5 feet for every 4 levels you have beyond 3rd.</Description>
                 <CustomMod recalculate="On Level">
                     add("speed", 10 + 5 * Math.floor((level - 3)/4));
                 </CustomMod>
@@ -67,7 +67,7 @@
         </AbilitySlot>
         <AbilitySlot state="filled" name="Mystic Strikes">
             <Ability>
-                <Description>Focusing your will into your physical attacks imbues them with mystical energy. Your unarmed attacks become magical, allowing them to get past resistances to non-magical attacks. However, you still need an item such as handwraps of mighty blows to gain an item bonus to attack rolls or increase your attacks’ weapon damage dice.</Description>
+                <Description>Focusing your will into your physical attacks imbues them with mystical energy. Your unarmed attacks become magical, allowing them to get past resistances to non-magical attacks. However, you still need an item such as handwraps of mighty blows to gain an item bonus to attack rolls or increase your attacks' weapon damage dice.</Description>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="filled" name="Skill Increase">
@@ -91,7 +91,7 @@
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
         <AbilitySlot state="filled" name="Expert Strikes">
             <Ability>
-                <Description>You’ve practiced martial arts and have now surpassed your former skill. Your proficiency ranks for unarmed attacks and simple weapons increase to expert.</Description>
+                <Description>You've practiced martial arts and have now surpassed your former skill. Your proficiency ranks for unarmed attacks and simple weapons increase to expert.</Description>
                 <AttributeMods Proficiency="Expert">Unarmed, Simple Weapons</AttributeMods>
             </Ability>
         </AbilitySlot>
@@ -124,25 +124,7 @@
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Weapon Specialization">
-            <Ability>
-                <Description>You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master, and 4 if you’re legendary.</Description>
-                <CustomMod>
-                    def weaponSpecialization = {weapon, damage ->
-                    def proficiency = get("Attributes").getProficiency(weapon.getProficiency(), weapon);
-                    if (proficiency.toString() == "Legendary") {
-                    return damage.add(4);
-                    } else if (proficiency.toString() == "Master") {
-                    return damage.add(3);
-                    } else if (proficiency.toString() == "Expert") {
-                    return damage.add(2);
-                    }
-                    return damage;
-                    }
-                    damageModifier("Weapon Specialization", weaponSpecialization)
-                </CustomMod>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Weapon Specialization" type="ClassFeature" contents="Weapon Specialization" />
     </FeatureList>
     <FeatureList level="8">
         <AbilitySlot state="feat" type="Class Feat" name="Monk Feat"/>
@@ -188,7 +170,7 @@
         <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
         <AbilitySlot state="filled" name="Second Path To Perfection">
             <Ability>
-                <Description>You’ve learned to find perfection in every success. Choose a different saving throw than the one you chose for your path to perfection. Your proficiency rank for the chosen saving throw increases to master. If you roll a success with the chosen saving throw, you instead critically succeed.</Description>
+                <Description>You've learned to find perfection in every success. Choose a different saving throw than the one you chose for your path to perfection. Your proficiency rank for the chosen saving throw increases to master. If you roll a success with the chosen saving throw, you instead critically succeed.</Description>
                 <AbilitySlot state="choice" name="Second Path To Perfection Choice">
                     <Ability name="Path of Fortitude">
                         <Prerequisites>Path of Reflex or Path of Will</Prerequisites>
@@ -240,25 +222,7 @@
             <Ability abilityBoosts="4"/>
         </AbilitySlot>
         <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
-        <AbilitySlot state="filled" name="Greater Weapon Specialization">
-            <Ability>
-                <Description>Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you’re an expert, 6 if you’re a master, and 8 if you’re legendary.</Description>
-                <CustomMod>
-                    def weaponSpecialization = {weapon, damage ->
-                    def proficiency = get("Attributes").getProficiency(weapon.getProficiency(), weapon);
-                    if (proficiency.toString() == "Legendary") {
-                    return damage.add(4);
-                    } else if (proficiency.toString() == "Master") {
-                    return damage.add(3);
-                    } else if (proficiency.toString() == "Expert") {
-                    return damage.add(2);
-                    }
-                    return damage;
-                    }
-                    damageModifier("Weapon Specialization", weaponSpecialization)
-                </CustomMod>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Greater Weapon Specialization" type="ClassFeature" contents="Greater Weapon Specialization" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
@@ -342,7 +306,7 @@
         <Ability name="Crane Stance" level="1" page="158" cost="1">
             <Traits>Monk, Stance</Traits>
             <Requirements>You are unarmored.</Requirements>
-            <Description>You enter the stance of a crane, holding your arms in an imitation of a crane’s wings and using flowing, defensive motions. You gain a +1 circumstance bonus to AC, but the only Strikes you can make are crane wing attacks. These deal 1d6 bludgeoning damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits. While in Crane Stance, reduce the DC for High Jump and Long Jump by 5, and when you Leap, you can move an additional 5 feet horizontally or 2 feet vertically.</Description>
+            <Description>You enter the stance of a crane, holding your arms in an imitation of a crane's wings and using flowing, defensive motions. You gain a +1 circumstance bonus to AC, but the only Strikes you can make are crane wing attacks. These deal 1d6 bludgeoning damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits. While in Crane Stance, reduce the DC for High Jump and Long Jump by 5, and when you Leap, you can move an additional 5 feet horizontally or 2 feet vertically.</Description>
             <Weapon>
                 <Name>Crane Wing</Name>
                 <Damage>1d6 B</Damage>
@@ -353,7 +317,7 @@
         <Ability name="Dragon Stance" level="1" page="158" cost="1">
             <Traits>Monk, Stance</Traits>
             <Requirements>You are unarmored.</Requirements>
-            <Description>You enter the stance of a dragon and make powerful leg strikes like a lashing dragon’s tail. You can make dragon tail attacks that deal 1d10 bludgeoning damage. They are in the brawling group and have the backswing, nonlethal, and unarmed traits. While in Dragon Stance, you can ignore the first square of difficult terrain while Striding.</Description>
+            <Description>You enter the stance of a dragon and make powerful leg strikes like a lashing dragon's tail. You can make dragon tail attacks that deal 1d10 bludgeoning damage. They are in the brawling group and have the backswing, nonlethal, and unarmed traits. While in Dragon Stance, you can ignore the first square of difficult terrain while Striding.</Description>
             <Weapon>
                 <Name>Dragon Tail</Name>
                 <Damage>1d10 B</Damage>
@@ -381,7 +345,7 @@
         <Ability name="Mountain Stance" level="1" page="159" cost="1">
             <Traits>Monk, Stance</Traits>
             <Requirements>You are unarmored and touching the ground.</Requirements>
-            <Description>You enter the stance of an implacable mountain—a technique first discovered by dwarven monks—allowing you to strike with the weight of an avalanche. The only Strikes you can make are falling stone unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the forceful, nonlethal, and unarmed traits. While in Mountain Stance, you gain a +4 status bonus to AC and a +2 circumstance bonus to any defenses against being Shoved or Tripped. However, you have a Dexterity modifier cap to your AC of +0, meaning you don’t add your Dexterity to your AC, and your Speeds are all reduced by 5 feet.</Description>
+            <Description>You enter the stance of an implacable mountain—a technique first discovered by dwarven monks—allowing you to strike with the weight of an avalanche. The only Strikes you can make are falling stone unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the forceful, nonlethal, and unarmed traits. While in Mountain Stance, you gain a +4 status bonus to AC and a +2 circumstance bonus to any defenses against being Shoved or Tripped. However, you have a Dexterity modifier cap to your AC of +0, meaning you don't add your Dexterity to your AC, and your Speeds are all reduced by 5 feet.</Description>
             <Weapon>
                 <Name>Falling Stone</Name>
                 <Damage>1d8 B</Damage>
@@ -403,7 +367,7 @@
         <Ability name="Wolf Stance" level="1" page="159" cost="1">
             <Traits>Monk, Stance</Traits>
             <Requirements>You are unarmored.</Requirements>
-            <Description>You enter the stance of a wolf, low to the ground with your hands held like fanged teeth. You can make wolf jaw unarmed attacks. These deal 1d8 piercing damage; are in the brawling group; and have the agile, backstabber, finesse, nonlethal, and unarmed traits. If you’re flanking a target while in Wolf Stance, your wolf jaw unarmed attacks also gain the trip trait.</Description>
+            <Description>You enter the stance of a wolf, low to the ground with your hands held like fanged teeth. You can make wolf jaw unarmed attacks. These deal 1d8 piercing damage; are in the brawling group; and have the agile, backstabber, finesse, nonlethal, and unarmed traits. If you're flanking a target while in Wolf Stance, your wolf jaw unarmed attacks also gain the trip trait.</Description>
             <Weapon>
                 <Name>Wolf Jaw</Name>
                 <Damage>1d8 P</Damage>
@@ -421,7 +385,7 @@
         </Ability>
         <Ability name="Dancing Leaf" level="2" page="160">
             <Traits>Monk</Traits>
-            <Description>You are as light as a leaf whirling in the breeze. When you Leap or succeed at a High Jump or Long Jump, increase the distance you jump by 5 feet. When calculating the damage you take from falling, don’t count any distance fallen while you are adjacent to a wall.</Description>
+            <Description>You are as light as a leaf whirling in the breeze. When you Leap or succeed at a High Jump or Long Jump, increase the distance you jump by 5 feet. When calculating the damage you take from falling, don't count any distance fallen while you are adjacent to a wall.</Description>
         </Ability>
         <Ability name="Elemental Fist" level="2" page="160">
             <Traits>Monk</Traits>
@@ -436,7 +400,7 @@
         <Ability name="Deflect Arrows" level="4" page="160" cost="Reaction">
             <Traits>Monk</Traits>
             <Trigger>You are the target of a physical ranged attack.</Trigger>
-            <Requirements>You’re aware of the attack, are not flat-footed against it, and have a hand free.</Requirements>
+            <Requirements>You're aware of the attack, are not flat-footed against it, and have a hand free.</Requirements>
             <Description>You gain a +4 circumstance bonus to AC against the triggering attack. If the attack misses, you have deflected it. You cannot use this feat to deflect unusually massive ranged projectiles (such as boulders or ballista bolts).</Description>
         </Ability>
         <Ability name="Flurry of Maneuvers" level="4" page="160">
@@ -446,7 +410,7 @@
         </Ability>
         <Ability name="Flying Kick" level="4" page="160" cost="2">
             <Traits>Monk</Traits>
-            <Description>You launch yourself at a foe. Make a Leap or attempt a High Jump or Long Jump. At the end of the jump, if you’re adjacent to a foe, you can immediately Strike that foe with an unarmed attack, even if the foe is in mid-air. You fall to the ground after the Strike. If the distance you fall is no more than the height of your jump, you land upright and take no damage.</Description>
+            <Description>You launch yourself at a foe. Make a Leap or attempt a High Jump or Long Jump. At the end of the jump, if you're adjacent to a foe, you can immediately Strike that foe with an unarmed attack, even if the foe is in mid-air. You fall to the ground after the Strike. If the distance you fall is no more than the height of your jump, you land upright and take no damage.</Description>
         </Ability>
         <Ability name="Guarded Movement" level="4" page="160">
             <Traits>Monk</Traits>
@@ -454,7 +418,7 @@
         </Ability>
         <Ability name="Stand Still" level="4" page="160" cost="Reaction">
             <Traits>Monk</Traits>
-            <Trigger>A creature within your reach uses a move action or leaves a square during a move action it’s using.</Trigger>
+            <Trigger>A creature within your reach uses a move action or leaves a square during a move action it's using.</Trigger>
             <Description>You strike out when your foe tries to flee. Make a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a move action, you disrupt that action.</Description>
         </Ability>
         <Ability name="Wholeness of Body" level="4" page="160">
@@ -474,13 +438,13 @@
             <Traits>Monk</Traits>
             <Prerequisites>Crane Stance</Prerequisites>
             <Trigger>You are targeted with a melee attack by an attacker you can see.</Trigger>
-            <Description>You interpose your arm between yourself and your opponent. Your circumstance bonus to AC from Crane Stance increases to +3 against the triggering attack. If the attack misses you, you can immediately make a crane wing Strike against the attacker at a –2 penalty, even if the attacker isn’t within your reach.</Description>
+            <Description>You interpose your arm between yourself and your opponent. Your circumstance bonus to AC from Crane Stance increases to +3 against the triggering attack. If the attack misses you, you can immediately make a crane wing Strike against the attacker at a –2 penalty, even if the attacker isn't within your reach.</Description>
         </Ability>
         <Ability name="Dragon Roar" level="6" page="161" cost="1">
             <Traits>Auditory, Emotion, Fear, Mental, Monk</Traits>
             <Prerequisites>Dragon Stance</Prerequisites>
             <Requirements>You are in Dragon Stance.</Requirements>
-            <Description>You bellow, instilling fear in your enemies. Enemies within a 15-foot emanation must succeed at a Will save against your Intimidation DC or be frightened 1 (frightened 2 on a critical failure). When a creature frightened by the roar begins its turn adjacent to you, it can’t reduce its frightened value below 1 on that turn. Your first attack that hits a frightened creature after you roar and before the end of your next turn gains a +4 circumstance bonus to damage. After you use Dragon Roar, you can’t use it again for 1d4 rounds. Its effects end immediately if you leave Dragon Stance. Creatures in the area of your roar are then temporarily immune for 1 minute.</Description>
+            <Description>You bellow, instilling fear in your enemies. Enemies within a 15-foot emanation must succeed at a Will save against your Intimidation DC or be frightened 1 (frightened 2 on a critical failure). When a creature frightened by the roar begins its turn adjacent to you, it can't reduce its frightened value below 1 on that turn. Your first attack that hits a frightened creature after you roar and before the end of your next turn gains a +4 circumstance bonus to damage. After you use Dragon Roar, you can't use it again for 1d4 rounds. Its effects end immediately if you leave Dragon Stance. Creatures in the area of your roar are then temporarily immune for 1 minute.</Description>
         </Ability>
         <Ability name="Ki Blast" level="6" page="161">
             <Traits>Monk</Traits>
@@ -492,22 +456,22 @@
             <Traits>Monk</Traits>
             <Prerequisites>Mountain Stance</Prerequisites>
             <Requirements>You are in Mountain Stance.</Requirements>
-            <Description>You focus on your connection to the earth and call upon the mountain to block attacks against you. You gain a +2 circumstance bonus to AC until the beginning of your next turn.Special If you have this feat, the Dexterity modifier cap to your AC while you’re in Mountain Stance increases from +0 to +1.</Description>
+            <Description>You focus on your connection to the earth and call upon the mountain to block attacks against you. You gain a +2 circumstance bonus to AC until the beginning of your next turn.Special If you have this feat, the Dexterity modifier cap to your AC while you're in Mountain Stance increases from +0 to +1.</Description>
         </Ability>
         <Ability name="Tiger Slash" level="6" page="161" cost="2">
             <Traits>Monk</Traits>
             <Prerequisites>Tiger Stance</Prerequisites>
             <Requirements>You are in Tiger Stance.</Requirements>
-            <Description>You make a fierce swipe with both hands. Make a tiger claw Strike. It deals two extra weapon damage dice (three extra dice if you’re 14th level or higher), and you can push the target 5 feet away as if you had successfully Shoved them. If the attack is a critical success and deals damage, add your Strength modifier to the persistent bleed damage from your tiger claw.</Description>
+            <Description>You make a fierce swipe with both hands. Make a tiger claw Strike. It deals two extra weapon damage dice (three extra dice if you're 14th level or higher), and you can push the target 5 feet away as if you had successfully Shoved them. If the attack is a critical success and deals damage, add your Strength modifier to the persistent bleed damage from your tiger claw.</Description>
         </Ability>
         <Ability name="Water Step" level="6" page="162">
             <Traits>Monk</Traits>
-            <Description>You can Stride across liquid and surfaces that don’t support your weight. This benefit lasts only during your movement. If you end your movement on a surface that can’t support you, you fall in or it collapses as normal.</Description>
+            <Description>You can Stride across liquid and surfaces that don't support your weight. This benefit lasts only during your movement. If you end your movement on a surface that can't support you, you fall in or it collapses as normal.</Description>
         </Ability>
         <Ability name="Whirling Throw" level="6" page="162" cost="1">
             <Traits>Monk</Traits>
             <Requirements>You have a creature grabbed or restrained.</Requirements>
-            <Description>You propel your grabbed or restrained foe a great distance. You can throw the creature any distance up to 10 feet, plus 5 feet × your Strength modifier. If you successfully throw the creature, it takes bludgeoning damage equal to your Strength modifier plus 1d6 per 10 feet you threw it. Attempt an Athletics check against the foe’s Fortitude DC. You take a –2 circumstance penalty to your check if the target is one size larger than you and a –4 circumstance penalty if it’s larger than that. You gain a +2 circumstance bonus to your check if the target is one size smaller than you and a +4 circumstance bonus if it’s smaller than that. Critical Success You throw the creature the desired distance and it lands prone.Success You throw the creature the desired distance.Failure You don’t throw the creature.Critical Failure You don’t throw the creature, and it’s no longer grabbed or restrained by you.</Description>
+            <Description>You propel your grabbed or restrained foe a great distance. You can throw the creature any distance up to 10 feet, plus 5 feet × your Strength modifier. If you successfully throw the creature, it takes bludgeoning damage equal to your Strength modifier plus 1d6 per 10 feet you threw it. Attempt an Athletics check against the foe's Fortitude DC. You take a –2 circumstance penalty to your check if the target is one size larger than you and a –4 circumstance penalty if it's larger than that. You gain a +2 circumstance bonus to your check if the target is one size smaller than you and a +4 circumstance bonus if it's smaller than that. Critical Success You throw the creature the desired distance and it lands prone.Success You throw the creature the desired distance.Failure You don't throw the creature.Critical Failure You don't throw the creature, and it's no longer grabbed or restrained by you.</Description>
         </Ability>
         <Ability name="Wolf Drag" level="6" page="162" cost="2">
             <Traits>Monk</Traits>
@@ -528,12 +492,12 @@
         <Ability name="Mixed Maneuver" level="8" page="163" cost="2">
             <Traits>Monk</Traits>
             <Requires>Master In Athletics</Requires>
-            <Description>You combine two different maneuvers together into a single flowing whole. Choose any two of Grapple, Shove, and Trip. Attempt both of the attacks you chose against the same or different creatures, but don’t apply the multiple attack penalty until after resolving both attacks.</Description>
+            <Description>You combine two different maneuvers together into a single flowing whole. Choose any two of Grapple, Shove, and Trip. Attempt both of the attacks you chose against the same or different creatures, but don't apply the multiple attack penalty until after resolving both attacks.</Description>
         </Ability>
         <Ability name="Tangled Forest Stance" level="8" page="163" cost="1">
             <Traits>Monk, Stance</Traits>
             <Requirements>You are unarmored</Requirements>
-            <Description>You extend your arms like gnarled branches to interfere with your foes’ movements. You can make lashing branch unarmed attacks. These deal 1d8 slashing damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits. While you’re in Tangled Forest Stance and can act, every enemy in your reach that tries to move away from you must succeed at a Reflex save, Acrobatics check, or Athletics check against your class DC or be immobilized for that action. If you prefer, you can allow the enemy to move.</Description>
+            <Description>You extend your arms like gnarled branches to interfere with your foes' movements. You can make lashing branch unarmed attacks. These deal 1d8 slashing damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits. While you're in Tangled Forest Stance and can act, every enemy in your reach that tries to move away from you must succeed at a Reflex save, Acrobatics check, or Athletics check against your class DC or be immobilized for that action. If you prefer, you can allow the enemy to move.</Description>
         </Ability>
         <Ability name="Wall Run" level="8" page="163" cost="1">
             <Traits>Monk</Traits>
@@ -547,12 +511,12 @@
         </Ability>
         <Ability name="Knockback Strike" level="10" page="163" cost="2">
             <Traits>Concentrate, Monk</Traits>
-            <Description>You focus your strength into a blow powerful enough to push an enemy away from you. Make an unarmed Strike. If you hit, attempt an Athletics check to Shove the target. This attack uses the same multiple attack penalty as your Strike, and doesn’t count toward your multiple attack penalty.</Description>
+            <Description>You focus your strength into a blow powerful enough to push an enemy away from you. Make an unarmed Strike. If you hit, attempt an Athletics check to Shove the target. This attack uses the same multiple attack penalty as your Strike, and doesn't count toward your multiple attack penalty.</Description>
         </Ability>
         <Ability name="Sleeper Hold" level="10" page="163" cost="1">
             <Traits>Attack, Incapacitation, Monk</Traits>
             <Requirements>You have a creature grabbed or restrained.</Requirements>
-            <Description>You pinch crucial points of your target’s nervous system, impeding its ability to function. Attempt an Athletics check to Grapple the creature, with the following success and critical success effects instead of the usual effects. Critical Success The target falls unconscious for 1 minute, though it remains standing and doesn’t drop what it holds. Success The target is clumsy 1 until the end of its next turn.</Description>
+            <Description>You pinch crucial points of your target's nervous system, impeding its ability to function. Attempt an Athletics check to Grapple the creature, with the following success and critical success effects instead of the usual effects. Critical Success The target falls unconscious for 1 minute, though it remains standing and doesn't drop what it holds. Success The target is clumsy 1 until the end of its next turn.</Description>
         </Ability>
         <Ability name="Wind Jump" level="10" page="163">
             <Traits>Monk</Traits>
@@ -563,7 +527,7 @@
         <Ability name="Winding Flow" level="10" page="163" cost="1">
             <Traits>Monk</Traits>
             <Frequency>once per round</Frequency>
-            <Description>Any journey consists of more than simply reaching your destination. You use two of the following actions in any order: Stand, Step, and Stride. You can’t use the same action twice.</Description>
+            <Description>Any journey consists of more than simply reaching your destination. You use two of the following actions in any order: Stand, Step, and Stride. You can't use the same action twice.</Description>
         </Ability>
         <Ability name="Diamond Soul" level="12" page="163">
             <Traits>Monk</Traits>
@@ -571,7 +535,7 @@
         </Ability>
         <Ability name="Disrupt Ki" level="12" page="163" cost="2">
             <Traits>Monk, Negative</Traits>
-            <Description>Make an unarmed Strike. If it deals damage to a living creature, you block that creature’s inner life force. The creature takes 2d6 persistent negative damage and is enfeebled 1 until the persistent damage ends. If you’re 18th level or higher, this deals 3d6 persistent negative damage instead.</Description>
+            <Description>Make an unarmed Strike. If it deals damage to a living creature, you block that creature's inner life force. The creature takes 2d6 persistent negative damage and is enfeebled 1 until the persistent damage ends. If you're 18th level or higher, this deals 3d6 persistent negative damage instead.</Description>
         </Ability>
         <Ability name="Improved Knockback" level="12" page="163">
             <Traits>Monk</Traits>
@@ -592,13 +556,13 @@
             <Traits>Monk</Traits>
             <Prerequisites>Ironblood Stance</Prerequisites>
             <Requirements>You are in Ironblood Stance.</Requirements>
-            <Description>You steel yourself, preparing to resist oncoming attacks and using your muscles to absorb the impact. You gain the benefits of your iron sweep’s parry trait (a +1 circumstance bonus to AC until the start of your next turn) and your resistance from Ironblood Stance increases to your Strength modifier (if it’s higher) for the same duration.</Description>
+            <Description>You steel yourself, preparing to resist oncoming attacks and using your muscles to absorb the impact. You gain the benefits of your iron sweep's parry trait (a +1 circumstance bonus to AC until the start of your next turn) and your resistance from Ironblood Stance increases to your Strength modifier (if it's higher) for the same duration.</Description>
         </Ability>
         <Ability name="Moutain Quake" level="14" page="164" cost="1">
             <Traits>Monk</Traits>
             <Prerequisites>Mountain Stronghold</Prerequisites>
             <Requirements>You are in Mountain Stance.</Requirements>
-            <Description>You stomp, shaking the earth beneath you. Creatures on the ground within a 20-foot emanation take damage equal to your Strength modifier (minimum 0), which they can resist with a basic Fortitude save. On a failure, they also fall prone. After you use this action, you can’t use it again for 1d4 rounds.Special If you have this feat, the Dexterity modifier cap to your AC while using Mountain Stance increases from +1 to +2.</Description>
+            <Description>You stomp, shaking the earth beneath you. Creatures on the ground within a 20-foot emanation take damage equal to your Strength modifier (minimum 0), which they can resist with a basic Fortitude save. On a failure, they also fall prone. After you use this action, you can't use it again for 1d4 rounds.Special If you have this feat, the Dexterity modifier cap to your AC while using Mountain Stance increases from +1 to +2.</Description>
         </Ability>
         <Ability name="Tangled Forest Rake" level="14" page="164">
             <Traits>Monk</Traits>
@@ -632,13 +596,13 @@
         </Ability>
         <Ability name="Shattering Strike" level="16" page="165" cost="2">
             <Traits>Monk</Traits>
-            <Description>The force of your considered blow shatters objects and defenses alike. Make an unarmed Strike. It bypasses the target’s resistances. If the target has Hardness, the Strike treats the Hardness as if it were half its value.</Description>
+            <Description>The force of your considered blow shatters objects and defenses alike. Make an unarmed Strike. It bypasses the target's resistances. If the target has Hardness, the Strike treats the Hardness as if it were half its value.</Description>
         </Ability>
         <Ability name="Wild Winds Gust" level="16" page="165" cost="2">
             <Traits>Air, Concentrate, Evocation, Manipulate, Monk</Traits>
             <Prerequisites>Wild Winds Initiate</Prerequisites>
             <Requirements>You are in wild winds stance.</Requirements>
-            <Description>You store up energy and release it in an enormous gust of rushing wind. Make a wind crash Strike against each creature in your choice of a 30-foot cone or a 60 foot line. These attacks all count toward your multiple attack penalty, but the penalty doesn’t increase until after you make all the attacks.</Description>
+            <Description>You store up energy and release it in an enormous gust of rushing wind. Make a wind crash Strike against each creature in your choice of a 30-foot cone or a 60 foot line. These attacks all count toward your multiple attack penalty, but the penalty doesn't increase until after you make all the attacks.</Description>
         </Ability>
         <Ability name="Diamond Fists" level="18" page="165">
             <Traits>Monk</Traits>
@@ -662,18 +626,18 @@
         </Ability>
         <Ability name="Enduring Quickness" level="20" page="165">
             <Traits>Monk</Traits>
-            <Description>You move as fast and as high as the wind itself. You’re permanently quickened. You can use your extra action to Stride or Leap, or to provide one of the actions needed for a High Jump or Long Jump.</Description>
+            <Description>You move as fast and as high as the wind itself. You're permanently quickened. You can use your extra action to Stride or Leap, or to provide one of the actions needed for a High Jump or Long Jump.</Description>
         </Ability>
         <Ability name="Fuse Stance" level="20" page="165">
             <Traits>Monk</Traits>
             <Prerequisites>At Least Two Stances</Prerequisites>
-            <Description>You have combined two stances into a single stance all your own. When you take this feat, choose two stances you know and combine them into a single fused stance. Give your new fused stance a unique name. When you enter your fused stance, you gain all the effects of both stances, including the requirements and restrictions. You can’t fuse stances with fundamentally incompatible requirements or restrictions (such as Ironblood Stance and Crane Stance, which both require using only one type of Strike).</Description>
+            <Description>You have combined two stances into a single stance all your own. When you take this feat, choose two stances you know and combine them into a single fused stance. Give your new fused stance a unique name. When you enter your fused stance, you gain all the effects of both stances, including the requirements and restrictions. You can't fuse stances with fundamentally incompatible requirements or restrictions (such as Ironblood Stance and Crane Stance, which both require using only one type of Strike).</Description>
         </Ability>
         <Ability name="Impossible Technique" level="20" page="165" cost="Reaction">
             <Traits>Fortune, Monk</Traits>
-            <Trigger>An enemy’s attack hits you or you fail a saving throw against an enemy’s ability.</Trigger>
+            <Trigger>An enemy's attack hits you or you fail a saving throw against an enemy's ability.</Trigger>
             <Requirements>You are not armored or fatigued.</Requirements>
-            <Description>You execute a maneuver that defies possibility. If the triggering effect was an enemy’s attack hitting you, the enemy rerolls the attack roll and uses the lower result. If the triggering effect was you failing a saving throw, you reroll the saving throw and use the higher result.</Description>
+            <Description>You execute a maneuver that defies possibility. If the triggering effect was an enemy's attack hitting you, the enemy rerolls the attack roll and uses the lower result. If the triggering effect was you failing a saving throw, you reroll the saving throw and use the higher result.</Description>
         </Ability>
     </Feats>
 </pf2:class>

@@ -8,10 +8,10 @@
         <Skills>Intimidation, Occultism</Skills>
         <GrantedSpells>cantrip daze, 1st: spider sting, 2nd: touch of idiocy, 3rd: vampiric touch, 4th: confusion, 5th: black tentacles, 6th: feeblemind, 7th: warp mind, 8th: uncontrollable dance, 9th: unfathomable song</GrantedSpells>
         <BloodlineSpells>initial: tentacular limbs, advanced: aberrant whispers, greater: unusual anatomy</BloodlineSpells>
-        <BloodMagic>Aberrant whispers shield one target’s mind or your own, granting a +2 status bonus to Will saving throws for 1 round.</BloodMagic>
+        <BloodMagic>Aberrant whispers shield one target's mind or your own, granting a +2 status bonus to Will saving throws for 1 round.</BloodMagic>
     </Bloodline>
     <Bloodline name="Angelic" page="195">
-        <Description>One of your forebears hailed from a celestial realm, or your ancestors’ devotion led to their lineage being blessed.</Description>
+        <Description>One of your forebears hailed from a celestial realm, or your ancestors' devotion led to their lineage being blessed.</Description>
         <Tradition>Divine</Tradition>
         <Skills>Diplomacy, Religion</Skills>
         <GrantedSpells>cantrip light, 1st: heal, 2nd: spiritual weapon, 3rd: searing light, 4th: divine wrath, 5th: flame strike, 6th: blade barrier, 7th: divine decree, 8th: divine aura, 9th: foresight</GrantedSpells>
@@ -24,7 +24,7 @@
         <Skills>Intimidation, Religion</Skills>
         <GrantedSpells>cantrip acid splash, 1st: fear, 2nd: enlarge, 3rd: slow, 4th: divine wrath, 5th: abyssal plague, 6th: disintegrate, 7th: divine decree, 8th: divine aura, 9th: implosion</GrantedSpells>
         <BloodlineSpells>initial: glutton's jaw, advanced: swamp of sloth, greater: abyssal wrath</BloodlineSpells>
-        <BloodMagic>The corruption of sin weakens a target’s defenses or makes you more imposing. Either a target takes a –1 status penalty to AC for 1 round, or you gain a +1 status bonus to Intimidation checks for 1 round.</BloodMagic>
+        <BloodMagic>The corruption of sin weakens a target's defenses or makes you more imposing. Either a target takes a –1 status penalty to AC for 1 round, or you gain a +1 status bonus to Intimidation checks for 1 round.</BloodMagic>
     </Bloodline>
     <Bloodline name="Diabolic" page="196">
         <Description>Devils are evil with a silver tongue, and one of your ancestors dallied in darkness or made an infernal pact.</Description>
@@ -32,7 +32,7 @@
         <Skills>Deception, Religion</Skills>
         <GrantedSpells>cantrip produce flame, 1st: charm, 2nd: flaming sphere, 3rd: enthrall, 4th: suggestion, 5th: crushing despair, 6th: true seeing, 7th: divine decree, 8th: divine aura, 9th: meteor swarm</GrantedSpells>
         <BloodlineSpells>initial: diabolic edict, advanced: embrace the pit, greater: hellfire plume</BloodlineSpells>
-        <BloodMagic>Hellfire scorches a target or fills your tongue with lies. Either a target takes 1 fire damage per spell level (if the spell already deals initial fire damage, combine this with the spell’s initial damage before determining weaknesses and resistances), or you gain a +1 status bonus to Deception checks for 1 round.</BloodMagic>
+        <BloodMagic>Hellfire scorches a target or fills your tongue with lies. Either a target takes 1 fire damage per spell level (if the spell already deals initial fire damage, combine this with the spell's initial damage before determining weaknesses and resistances), or you gain a +1 status bonus to Deception checks for 1 round.</BloodMagic>
     </Bloodline>
     <Bloodline name="Draconic" page="196">
         <Description>The blood of dragons flows through your veins. These beasts are both fearsome in combat and skilled at magic.</Description>
@@ -43,34 +43,34 @@
         <BloodMagic>Draconic scales grow briefly on you or one target, granting a +1 status bonus to AC for 1 round.</BloodMagic>
         <AbilitySlot state="choice" name="Dragon Type">
             <Ability name="Brass (Good)">
-                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can’t change your dragon type later. This affects how some of your bloodline spells function. Your dragon is good, and your damage type is fire.</Description>
+                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can't change your dragon type later. This affects how some of your bloodline spells function. Your dragon is good, and your damage type is fire.</Description>
             </Ability>
             <Ability name="Bronze (Good)">
-                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can’t change your dragon type later. This affects how some of your bloodline spells function. Your dragon is good, and your damage type is electricity.</Description>
+                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can't change your dragon type later. This affects how some of your bloodline spells function. Your dragon is good, and your damage type is electricity.</Description>
             </Ability>
             <Ability name="Copper (Good)">
-                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can’t change your dragon type later. This affects how some of your bloodline spells function. Your dragon is good, and your damage type is acid.</Description>
+                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can't change your dragon type later. This affects how some of your bloodline spells function. Your dragon is good, and your damage type is acid.</Description>
             </Ability>
             <Ability name="Gold (Good)">
-                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can’t change your dragon type later. This affects how some of your bloodline spells function. Your dragon is good, and your damage type is fire.</Description>
+                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can't change your dragon type later. This affects how some of your bloodline spells function. Your dragon is good, and your damage type is fire.</Description>
             </Ability>
             <Ability name="Silver (Good)">
-                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can’t change your dragon type later. This affects how some of your bloodline spells function. Your dragon is good, and your damage type is cold.</Description>
+                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can't change your dragon type later. This affects how some of your bloodline spells function. Your dragon is good, and your damage type is cold.</Description>
             </Ability>
             <Ability name="Black (Evil)">
-                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can’t change your dragon type later. This affects how some of your bloodline spells function. Your dragon is evil, and your damage type is acid.</Description>
+                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can't change your dragon type later. This affects how some of your bloodline spells function. Your dragon is evil, and your damage type is acid.</Description>
             </Ability>
             <Ability name="Blue (Evil)">
-                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can’t change your dragon type later. This affects how some of your bloodline spells function. Your dragon is evil, and your damage type is electricity.</Description>
+                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can't change your dragon type later. This affects how some of your bloodline spells function. Your dragon is evil, and your damage type is electricity.</Description>
             </Ability>
             <Ability name="Green (Evil)">
-                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can’t change your dragon type later. This affects how some of your bloodline spells function. Your dragon is evil, and your damage type is poison.</Description>
+                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can't change your dragon type later. This affects how some of your bloodline spells function. Your dragon is evil, and your damage type is poison.</Description>
             </Ability>
             <Ability name="Red (Evil)">
-                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can’t change your dragon type later. This affects how some of your bloodline spells function. Your dragon is evil, and your damage type is fire.</Description>
+                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can't change your dragon type later. This affects how some of your bloodline spells function. Your dragon is evil, and your damage type is fire.</Description>
             </Ability>
             <Ability name="White (Evil)">
-                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can’t change your dragon type later. This affects how some of your bloodline spells function. Your dragon is evil, and your damage type is cold.</Description>
+                <Description>At 1st level, choose the type of dragon that influenced your bloodline. You can't change your dragon type later. This affects how some of your bloodline spells function. Your dragon is evil, and your damage type is cold.</Description>
             </Ability>
         </AbilitySlot>
     </Bloodline>
@@ -80,29 +80,29 @@
         <Skills>Intimidation, Nature</Skills>
         <GrantedSpells>cantrip produce flame, 1st: burning hands, 2nd: resist energy, 3rd: fireball, 4th: freedom of movement, 5th: elemental form, 6th: repulsion, 7th: energy aegis, 8th: prismatic wall, 9th: storm of vengeance</GrantedSpells>
         <BloodlineSpells>initial: elemental toss, advanced: elemental motion, greater: elemental blast</BloodlineSpells>
-        <BloodMagic>Elemental energy surrounds you or a target. Either you gain a +1 status bonus to Intimidation checks for 1 round, or a target takes 1 damage per spell level. The damage is bludgeoning or fire, according to your elemental type (see below). If the spell already deals that type of damage, combine it with the spell’s initial damage before determining weaknesses and resistances.</BloodMagic>
+        <BloodMagic>Elemental energy surrounds you or a target. Either you gain a +1 status bonus to Intimidation checks for 1 round, or a target takes 1 damage per spell level. The damage is bludgeoning or fire, according to your elemental type (see below). If the spell already deals that type of damage, combine it with the spell's initial damage before determining weaknesses and resistances.</BloodMagic>
         <AbilitySlot state="choice" name="Elemental Type">
             <Ability name="Air">
-                <Description>At 1st level, choose the type of elemental that infiuenced your bloodline: air, earth, fire, or water. If your element is air, you buffet your foes with powerful winds; if it’s earth, you toss huge chunks of rock; if it’s fire, you incinerate your foes with fiame; and if it’s water, you inundate your foes with torrents of water. For fire, all marked spells deal fire damage. For other elements, they deal bludgeoning damage. Replace any existing elemental traits with the trait of the element you chose.</Description>
+                <Description>At 1st level, choose the type of elemental that infiuenced your bloodline: air, earth, fire, or water. If your element is air, you buffet your foes with powerful winds; if it's earth, you toss huge chunks of rock; if it's fire, you incinerate your foes with fiame; and if it's water, you inundate your foes with torrents of water. For fire, all marked spells deal fire damage. For other elements, they deal bludgeoning damage. Replace any existing elemental traits with the trait of the element you chose.</Description>
             </Ability>
             <Ability name="Earth">
-                <Description>At 1st level, choose the type of elemental that infiuenced your bloodline: air, earth, fire, or water. If your element is air, you buffet your foes with powerful winds; if it’s earth, you toss huge chunks of rock; if it’s fire, you incinerate your foes with fiame; and if it’s water, you inundate your foes with torrents of water. For fire, all marked spells deal fire damage. For other elements, they deal bludgeoning damage. Replace any existing elemental traits with the trait of the element you chose.</Description>
+                <Description>At 1st level, choose the type of elemental that infiuenced your bloodline: air, earth, fire, or water. If your element is air, you buffet your foes with powerful winds; if it's earth, you toss huge chunks of rock; if it's fire, you incinerate your foes with fiame; and if it's water, you inundate your foes with torrents of water. For fire, all marked spells deal fire damage. For other elements, they deal bludgeoning damage. Replace any existing elemental traits with the trait of the element you chose.</Description>
             </Ability>
             <Ability name="Fire">
-                <Description>At 1st level, choose the type of elemental that infiuenced your bloodline: air, earth, fire, or water. If your element is air, you buffet your foes with powerful winds; if it’s earth, you toss huge chunks of rock; if it’s fire, you incinerate your foes with fiame; and if it’s water, you inundate your foes with torrents of water. For fire, all marked spells deal fire damage. For other elements, they deal bludgeoning damage. Replace any existing elemental traits with the trait of the element you chose.</Description>
+                <Description>At 1st level, choose the type of elemental that infiuenced your bloodline: air, earth, fire, or water. If your element is air, you buffet your foes with powerful winds; if it's earth, you toss huge chunks of rock; if it's fire, you incinerate your foes with fiame; and if it's water, you inundate your foes with torrents of water. For fire, all marked spells deal fire damage. For other elements, they deal bludgeoning damage. Replace any existing elemental traits with the trait of the element you chose.</Description>
             </Ability>
             <Ability name="Water">
-                <Description>At 1st level, choose the type of elemental that infiuenced your bloodline: air, earth, fire, or water. If your element is air, you buffet your foes with powerful winds; if it’s earth, you toss huge chunks of rock; if it’s fire, you incinerate your foes with fiame; and if it’s water, you inundate your foes with torrents of water. For fire, all marked spells deal fire damage. For other elements, they deal bludgeoning damage. Replace any existing elemental traits with the trait of the element you chose.</Description>
+                <Description>At 1st level, choose the type of elemental that infiuenced your bloodline: air, earth, fire, or water. If your element is air, you buffet your foes with powerful winds; if it's earth, you toss huge chunks of rock; if it's fire, you incinerate your foes with fiame; and if it's water, you inundate your foes with torrents of water. For fire, all marked spells deal fire damage. For other elements, they deal bludgeoning damage. Replace any existing elemental traits with the trait of the element you chose.</Description>
             </Ability>
         </AbilitySlot>
     </Bloodline>
     <Bloodline name="Fey" page="197">
-        <Description>Fey whimsy or a tryst in a moonlit grove put the bewitching magic of the First World into your family’s bloodline.</Description>
+        <Description>Fey whimsy or a tryst in a moonlit grove put the bewitching magic of the First World into your family's bloodline.</Description>
         <Tradition>Primal</Tradition>
         <Skills>Deception, Nature</Skills>
         <GrantedSpells>cantrip ghost sound, 1st: charm, 2nd: hideous laughter, 3rd: enthrall, 4th: suggestion, 5th: cloak of colors, 6th: mislead, 7th: visions of danger, 8th: uncontrollable dance, 9th: resplendent mansion</GrantedSpells>
         <BloodlineSpells>initial: faerie dust, advanced: fey disappearance, greater: fey glamour</BloodlineSpells>
-        <BloodMagic>Colorful fey glamours dance around you or one target, causing them to be concealed for 1 round. Such obvious concealment can’t be used to Hide.</BloodMagic>
+        <BloodMagic>Colorful fey glamours dance around you or one target, causing them to be concealed for 1 round. Such obvious concealment can't be used to Hide.</BloodMagic>
     </Bloodline>
     <Bloodline name="Hag" page="197">
         <Description>A hag long ago cursed your family, or you are a descendant of a hag or changeling, and their accursed corruption infests your blood and soul.</Description>
@@ -126,6 +126,6 @@
         <Skills>Intimidation, Religion</Skills>
         <GrantedSpells>cantrip chill touch, 1st: harm, 2nd: false life, 3rd: bind undead, 4th: talking corpse, 5th: cloudkill, 6th: vampiric exsanguination, 7th: finger of death, 8th: horrid wilting, 9th: wail of the banshee</GrantedSpells>
         <BloodlineSpells>initial: undeath's blessing, advanced: drain life, greater: grasping grave</BloodlineSpells>
-        <BloodMagic>Necromantic energy flows through you or one target. Either you gain temporary Hit Points equal to the spell’s level for 1 round, or a target takes 1 negative damage per spell level (if the spell already deals initial negative damage, combine this with the spell’s initial damage before determining weaknesses and resistances).</BloodMagic>
+        <BloodMagic>Necromantic energy flows through you or one target. Either you gain temporary Hit Points equal to the spell's level for 1 round, or a target takes 1 negative damage per spell level (if the spell already deals initial negative damage, combine this with the spell's initial damage before determining weaknesses and resistances).</BloodMagic>
     </Bloodline>
 </pf2:Bloodlines>

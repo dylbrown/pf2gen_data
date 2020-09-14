@@ -528,7 +528,7 @@ A hooded lantern sheds light in a 30-foot radius (and dim light in the next 30 f
 	<Price>1 gp</Price>
 	<Bulk>L</Bulk>
 	<Hands>1</Hands>
-	<Description>A formula book holds the formulas necessary to make items other than the common equipment from this chapter; alchemists typically get one for free. Each formula book can hold the formulas for up to 100 different items. Formulas can also appear on parchment sheets, tablets, and almost any other medium; there's no need for you to copy them into a specific book as long as you can keep them on hand to reference them.</Description>
+	<Description>A formula book holds the formulas necessary to make items other than the common item from this chapter; alchemists typically get one for free. Each formula book can hold the formulas for up to 100 different items. Formulas can also appear on parchment sheets, tablets, and almost any other medium; there's no need for you to copy them into a specific book as long as you can keep them on hand to reference them.</Description>
 </Item>
 <Item level="0" page="288">
 	<Name>Mirror</Name>

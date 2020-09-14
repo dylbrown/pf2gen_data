@@ -35,7 +35,7 @@
             <Spell level="3" name="haste" />
             <Spell level="4" name="weapon storm" />
         </Spells>
-        <Description>Harold is stoic and brave, the patron of warriors, hunters, and smiths, although he has been known to be harsh with worshippers who don’t follow his lifestyle.</Description>
+        <Description>Harold is stoic and brave, the patron of warriors, hunters, and smiths, although he has been known to be harsh with worshippers who don't follow his lifestyle.</Description>
     </Deity>
     <Deity page="1">
         <Name>Nathan</Name>
@@ -186,7 +186,7 @@
             <Spell level="4" name="resilient sphere" />
             <Spell level="5" name="mind probe" />
         </Spells>
-        <Description>Ma’at was the goddess of truth, justice, balance, and most importantly - order. Ma’at was created when Ra arose from the waters of Nun (chaos). Ma’at is thus often considered to be the daughter of Ra, and is married to Thoth, god of wisdom.</Description>
+        <Description>Ma'at was the goddess of truth, justice, balance, and most importantly - order. Ma'at was created when Ra arose from the waters of Nun (chaos). Ma'at is thus often considered to be the daughter of Ra, and is married to Thoth, god of wisdom.</Description>
     </Deity>
     <Deity page="124">
         <Name>Osiris</Name>
@@ -247,7 +247,7 @@
         <Title>Mistress of the Beautiful House</Title>
         <DeityAlignment>CG</DeityAlignment>
         <Edicts>Avenge the wronged, protect the dead and the vulnerable, use poison and suffocation, heal others</Edicts>
-        <Anathema>Poison someone you didn't intend to, harm a creature as punishment for a different creature’s crime, desecrate a corpse</Anathema>
+        <Anathema>Poison someone you didn't intend to, harm a creature as punishment for a different creature's crime, desecrate a corpse</Anathema>
         <FollowerAlignments>NG, CG, CN</FollowerAlignments>
         <DivineFont>heal</DivineFont>
         <DivineSkill>Medicine</DivineSkill>
