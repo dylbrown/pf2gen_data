@@ -3,7 +3,7 @@
     <Melee>
         <Martial>
             <Weapon category="Artifacts">
-                <Traits>Uncommon, Divine, Evocation, Good, Positive</Traits>
+                <!--<Traits>Uncommon, Divine, Evocation, Good, Positive</Traits>-->
                 <Name>Sword Of Dawn</Name>
                 <Price>1000 gp</Price>
                 <Damage>1d12 S</Damage>
