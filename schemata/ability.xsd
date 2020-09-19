@@ -315,7 +315,7 @@
       </xs:annotation>
       <xs:simpleType>
         <xs:restriction base="xs:string">
-          <xs:pattern value="((Dedication|Heritage|Ancestry|Class(\(\w+\))?|Skill|General|Bloodline|Arcane(Thesis|School)) ?)*(Feat)?"/>
+          <xs:pattern value="((Dedication|ClassFeature(\(\w+\))?|Heritage|Ancestry|Class(\(\w+\))?|Skill|General|Bloodline|Arcane(Thesis|School)) ?)*(Feat)?"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>

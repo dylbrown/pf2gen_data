@@ -6,7 +6,8 @@
     <Dependencies>
         <Dependency>Core Rulebook</Dependency>
     </Dependencies>
-    <Equipment path="equipment.pfdyl" />
+    <Equipment path="equipment/equipment.pfdyl" />
+    <Weapons name="Weapons" path="equipment/weapons.pfdyl" />
     <Setting>
         <Category name="Deities" path="setting/deities.pfdyl" />
         <Category name="Domains" path="setting/domains.pfdyl" />
