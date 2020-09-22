@@ -81,7 +81,7 @@
                         [@attackBlock attack=attack /]
                     [/#list]
                     [#list character.inventory as item]
-                        [#if item.category == "Weapon" || item.category == "Ranged Weapon"]
+                        [#if item.hasExtension("Weapon")]
                             [@attackBlock attack=item /]
                         [/#if]
                     [/#list]

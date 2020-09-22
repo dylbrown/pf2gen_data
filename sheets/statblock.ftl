@@ -87,7 +87,7 @@
     <hr />
 	[#assign count=0]
     [#list character.combat.attacks as item]
-        [#if item.category == "Weapon" || item.category == "Ranged Weapon"]
+        [#if item.hasExtension("Weapon")]
 			[#assign count++]
             [#if item.category == "Ranged Weapon"]
                 <b>① Ranged</b>
@@ -104,7 +104,7 @@
         [/#if]
 	[/#list]
     [#list character.inventory as item]
-        [#if item.category == "Weapon" || item.category == "Ranged Weapon"]
+        [#if item.hasExtension("Weapon")]
 			[#assign count++]
             [#if item.category == "Ranged Weapon"]
                 <b>① Ranged</b>

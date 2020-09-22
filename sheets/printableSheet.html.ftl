@@ -371,12 +371,12 @@
             </div>
             <div class="sectionLabel">Melee Strikes</div>
             [#list character.combat.attacks as attack]
-                [#if attack.category == "Weapon"]
+                [#if attack.hasExtension("Weapon")]
                     [@weaponBlock attack=attack type="melee"/]
                 [/#if]
             [/#list]
             [#list character.inventory as item]
-                [#if item.category == "Weapon"]
+                [#if item.hasExtension("Weapon")]
                     [@weaponBlock weapon=item type="melee"/]
                 [/#if]
             [/#list]
