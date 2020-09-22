@@ -6,7 +6,7 @@
     <Ability name="Acrobat Dedication" level="2" page="155">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Acrobat</Archetype>
-        <Prerequisites>Trained In Acrobatics</Prerequisites>
+        <Requires>Trained In Acrobatics</Requires>
         <Description>You become an expert in Acrobatics. At 7th level, you become a master in Acrobatics, and at 15th level, you become legendary in Acrobatics. Whenever you critically succeed at an Acrobatics check to Tumble Through an enemy's space, you don't treat the enemy's space as difficult terrain.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the acrobat archetype.</Description>
     </Ability>
     <Ability name="Contortionist" level="4" page="155">
@@ -48,7 +48,7 @@
     <Ability name="Archaeologist Dedication" level="2" page="156">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Archaeologist</Archetype>
-        <Prerequisites>Trained In Perception, Society, And Thievery</Prerequisites>
+        <Requires>Trained In Perception, Trained In Society, Trained In Thievery</Requires>
         <Description>You are a student of peoples and their histories, and are in constant pursuit of knowledge and artifacts from the past. You become an expert in Society and Thievery, and you gain a +1 circumstance bonus to Recall Knowledge about ancient history, peoples, and cultures.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the archaeologist archetype.</Description>
     </Ability>
     <Ability name="Settlement Scholastics" level="4" page="156">
@@ -194,7 +194,7 @@
     <Ability name="Beastmaster Dedication" level="2" page="160">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Beastmaster</Archetype>
-        <Prerequisites>Trained In Nature</Prerequisites>
+        <Requires>Trained In Nature</Requires>
         <Description>You gain the service of a young animal companion that travels with you and obeys your commands. The rules for animal companions appear here. Contrary to the usual rules for animal companions, this feat can grant you a second animal companion. If you ever have more than one animal companion, you gain the Call Companion action. See the Beastmaster Animal Companions sidebar for details on this action.&lt;br&gt;&lt;br&gt; Certain beastmaster feats give you primal focus spells. The rules for focus spells appear here. When you gain your first beastmaster focus spell, you become trained in primal spell attack rolls and spell DCs, and your spellcasting ability for these spells is Charisma. Feats that grant beastmaster focus spells tell you to increase the number of Focus Points in your pool, but if you don't already have a focus pool, you instead get a focus pool with 1 Focus Point. You can Refocus by grooming, feeding, playing with, or otherwise tending to an animal companion.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the beastmaster archetype.</Description>
     </Ability>
     <Ability name="Beastmaster's Trance" level="6" page="160">
@@ -270,7 +270,7 @@
     <Ability name="Bounty Hunter Dedication" level="2" page="163">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Bounty Hunter</Archetype>
-        <Prerequisites>Trained In Survival</Prerequisites>
+        <Requires>Trained In Survival</Requires>
         <Description>When focused on finding your quarry, you're relentless. You gain the Hunt Prey action. You can use Hunt Prey to designate only a creature that you've seen, heard about, or learned about through some other means, such as a bounty board or wanted poster. In addition to the other benefits of Hunt Prey, you gain a +2 circumstance bonus to checks to Gather Information regarding your prey.&lt;br&gt;&lt;br&gt; If you already have Hunt Prey, you become an expert in Survival and gain the circumstance bonus to Gather Information about your prey; you can still designate a creature you're tracking during exploration, in addition to the conditions above.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the bounty hunter archetype.</Description>
     </Ability>
     <Ability name="Keep Pace" level="6" page="163" cost="Reaction">
@@ -312,7 +312,7 @@
     <Ability name="Cavalier Dedication" level="2" page="164">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Cavalier</Archetype>
-        <Prerequisites>Trained In Nature Or Society</Prerequisites>
+        <Requires>Trained In Nature or Trained in Society</Requires>
         <Description>You gain a young animal companion that serves as your mount. You can choose from animal companions with the mount special ability, as well as any additional options from your pledge, as determined by your GM. You must choose an animal companion that's at least one size larger than you, but if the animal usually starts as Small, you can begin with a Medium version of that animal (changing no statistics other than its size).
             &lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot select another dedication feat until you have gained two other feats from the cavalier archetype. This restriction is waived if you have pledged to the organization associated with the other dedication feat. For example, if you are pledged to a Hellknight order, you could take Hellknight dedication feats without needing to gain other feats from the cavalier archetype first.</Description>
     </Ability>
@@ -412,7 +412,7 @@
     <Ability name="Dandy Dedication" level="2" page="167">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Dandy</Archetype>
-        <Prerequisites>Trained In Diplomacy</Prerequisites>
+        <Requires>Trained In Diplomacy</Requires>
         <Description>You are a consummate student of dignity, etiquette, and fashion. You can use the Diplomacy skill to perform the special downtime activity Influence Rumor, spending at least one day of downtime to manipulate the course, tone, or content of a rumor to your benefit. The difficulty of Influencing a Rumor is determined by the GM based on the size of the community, the relative perceptiveness of the inhabitants, and the agency of other rumormongers, but it typically starts with at least DC 15 for a small village and increases to at least DC 20 for a town, at least DC 30 for a city, and at least DC 40 for a metropolis.&lt;br&gt;&lt;br&gt; You become trained in Deception and Society; if you were already trained, you become an expert instead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another Dedication feat until you have gained two other feats from the dandy archetype.</Description>
     </Ability>
     <Ability name="Fabricated Connections" level="7" page="167">
@@ -543,7 +543,7 @@
     <Ability name="Duelist Dedication" level="2" page="171">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Duelist</Archetype>
-        <Prerequisites>Trained In Light Armor And Simple Weapons</Prerequisites>
+        <Requires>Trained In Light Armor, Trained in Simple Weapons</Requires>
         <Description>You are always ready to draw your weapon and begin a duel, no matter the circumstances. You gain the Quick Draw ranger feat, enabling you to both draw and attack with a weapon as 1 action. This serves as Quick Draw for the purpose of meeting prerequisites.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You cannot select another dedication feat until you have gained two other feats from the duelist archetype.</Description>
     </Ability>
     <Ability name="Selfless Parry" level="8" page="171">
@@ -742,7 +742,7 @@
     <Ability name="Horizon Walker Dedication" level="2" page="177">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Horizon Walker</Archetype>
-        <Prerequisites>Trained In Survival</Prerequisites>
+        <Requires>Trained In Survival</Requires>
         <Description>You've mastered travel within a specific type of terrain. You gain the Favored Terrain feat. When in your favored terrain, you gain a +10-foot circumstance bonus to your travel Speed. When other creatures Follow the Expert with you as a guide in your favored terrain, they gain both the ability to ignore non-magical difficult terrain for the purpose of their travel Speed and the bonus to travel Speed.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the horizon walker archetype.</Description>
     </Ability>
     <Ability name="Sure Foot" level="4" page="177">
@@ -864,7 +864,7 @@
     <Ability name="Loremaster Dedication" level="2" page="179">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Loremaster</Archetype>
-        <Prerequisites>Trained In At Least One Skill To Decipher Writing</Prerequisites>
+        <Requires>Trained In Society or Trained in Lore (Scribing)</Requires>
         <Description>You've compiled a vast repository of information that touches on nearly every subject. You are trained in Loremaster Lore, a special Lore skill that can be used only to Recall Knowledge, but on any topic. If you have legendary proficiency in a skill used to Decipher Writing, you gain expert proficiency in Loremaster Lore, but you can't increase your proficiency rank in Loremaster Lore by any other means. You can take feats in the loremaster's additional feats entry even if you don't meet the enigma muse prerequisite. &lt;br&gt;&lt;br&gt;If you have the Bardic Lore class feat, you gain a +1 circumstance bonus to skill checks with Bardic Lore.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the loremaster archetype.</Description>
     </Ability>
     <Ability name="Magical Edification" level="4" page="179">
@@ -895,7 +895,7 @@
     <Ability name="Marshal Dedication" level="2" page="180">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Marshal</Archetype>
-        <Prerequisites>Trained In Martial Weapons And Either Diplomacy Or Intimidation</Prerequisites>
+        <Requires>Trained In Martial Weapons, Trained in Diplomacy or Trained in Intimidation</Requires>
         <Description>You've combined your social skills and combat training to become a talented combat leader. Choose Diplomacy or Intimidation. You become trained in that skill or become an expert if you were already trained in it.&lt;br&gt;&lt;br&gt; In addition, you're surrounded by a marshal's aura in a 10-foot emanation. Your aura has the emotion, mental, and visual traits and grants you and allies within the aura a +1 status bonus to saving throws against fear.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the marshal archetype.</Description>
     </Ability>
     <Ability name="Dread Marshal Stance" level="4" page="180" cost="1">
@@ -1040,7 +1040,7 @@
     <Ability name="Medic Dedication" level="2" page="184">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Medic</Archetype>
-        <Prerequisites>Trained In Medicine, Battle Medicine</Prerequisites>
+        <Prerequisites>Battle Medicine, Trained in Medicine</Prerequisites>
         <Description>You become an expert in Medicine. When you succeed with Battle Medicine or Treat Wounds, the target regains 5 additional HP at DC 20, 10 HP at DC 30, or 15 HP at DC 40. Once per day, you can use Battle Medicine on a creature that's temporarily immune. If you're a master in Medicine, you can do so once per hour.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you gain two other feats from the medic archetype.</Description>
     </Ability>
     <Ability name="Doctor's Visitation" level="4" page="184" cost="1">
@@ -1059,7 +1059,8 @@
     <Ability name="Holistic Care" level="6" page="184">
         <Traits>Archetype, Skill</Traits>
         <Archetype>Medic</Archetype>
-        <Prerequisites>Trained In Diplomacy, Treat Condition</Prerequisites>
+        <Prerequisites>Treat Condition</Prerequisites>
+        <Requires>Trained In Diplomacy</Requires>
         <Description>You provide emotional and spiritual care. Add frightened, stupefied, and stunned to the list of conditions you can reduce with Treat Condition. If the stunned condition has a duration instead of a value, you can't use Treat Condition to reduce it.</Description>
     </Ability>
     <Ability name="Treat Condition" level="4" page="184" cost="2">
@@ -1126,7 +1127,7 @@
     <Ability name="Pirate Dedication" level="2" page="185" cost="2">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Pirate</Archetype>
-        <Prerequisites>Trained In Intimidation</Prerequisites>
+        <Requires>Trained In Intimidation</Requires>
         <Description>As a pirate, you sail the seas in search of enemy ships to plunder. You become trained in Sailing Lore, or become an expert in it if you were already trained. You ignore the effects of difficult terrain or uneven ground caused by a ship's movement. Additionally, you gain the Boarding Assault action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (Flourish) Boarding Assault; &lt;b&gt;Effect&lt;/b&gt; Either Stride twice or attempt an Acrobatics check (DC determined by the GM, but usually DC 20) to swing on a rope up to twice your Speed. If you boarded or disembarked from a boat or similar vehicle during this movement, you can make a melee Strike that deals one additional weapon damage die.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the pirate archetype.</Description>
     </Ability>
     <Ability name="Pirate Weapon Training" level="4" page="185">
@@ -1144,14 +1145,15 @@
     <Ability name="Rope Runner" level="4" page="185">
         <Traits>Archetype, Skill</Traits>
         <Archetype>Pirate</Archetype>
-        <Prerequisites>Trained In Acrobatics And Athletics, Pirate Dedication</Prerequisites>
+        <Prerequisites>Pirate Dedication</Prerequisites>
+        <Requires>Trained In Acrobatics, Trained In Athletics</Requires>
         <Description>You run and climb across ropes and rigging almost as easily as on the ground. You gain a climb Speed of 15 feet, but only on ship's rigging or similar ropes. Whenever you succeed at an Athletics check to Climb a rope or an Acrobatics check to Balance on a rope, you get a critical success instead. You aren't flat-footed while Climbing or Balancing on a rope.</Description>
     </Ability>
     <!--Poisoner-->
     <Ability name="Poisoner Dedication" level="2" page="186">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Poisoner</Archetype>
-        <Prerequisites>Trained In Crafting</Prerequisites>
+        <Requires>Trained In Crafting</Requires>
         <Description>You make a point of always having a few toxins near at hand—you never know when some arsenic or the like might prove useful. You gain the basic alchemy benefits, though they can be used only for alchemical poisons. You gain batches of infused reagents per day equal to your level. Your advanced alchemy level for creating these is 1 and doesn't increase on its own.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained at least two other feats from the poisoner archetype.</Description>
     </Ability>
     <Ability name="Poisoner's Twist" level="4" page="186" cost="1">
@@ -1229,7 +1231,7 @@
     <Ability name="Scout Dedication" level="2" page="188">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Scout</Archetype>
-        <Prerequisites>Trained In Stealth And Survival</Prerequisites>
+        <Requires>Trained In Stealth, Trained in Survival</Requires>
         <Description>You are a highly skilled scout, capable of providing your allies a timely warning of any danger. You gain the Scout's Warning ranger feat. When you're using the Scout exploration activity, you grant your allies a +2 circumstance bonus to their initiative rolls instead of a +1 circumstance bonus.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the scout archetype.</Description>
     </Ability>
     <Ability name="Scout's Charge" level="4" page="188" cost="2">
@@ -1267,7 +1269,7 @@
     <Ability name="Scroll Trickster" level="2" page="189">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Scroll Trickster</Archetype>
-        <Prerequisites>Trained In Arcana, Nature, Occultism, Or Religion</Prerequisites>
+        <Requires>Trained In Arcana or Trained In Nature or Trained In Occultism or Trained In Religion</Requires>
         <Description>You've studied scrolls in depth. This might have been a comprehensive education in formal setting, or the sort of education where you somehow obtain a number of scrolls and try not to explode anything you didn't mean to explode. You gain the Trick Magic Item feat, and you gain a +2 circumstance bonus to skill checks to Trick scrolls. If you roll a critical failure to Trick a Magic Item that's a scroll, you get a failure instead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the scroll trickster archetype.</Description>
     </Ability>
     <Ability name="Master Scroll Cache" level="18" page="189">
@@ -1310,7 +1312,7 @@
     <Ability name="Scrounger Dedication" level="2" page="190">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Scrounger</Archetype>
-        <Prerequisites>Trained In Crafting</Prerequisites>
+        <Requires>Trained In Crafting</Requires>
         <Description>You can Craft items even without appropriate tools or a workshop, though you take a –2 item penalty to your Crafting check. Additionally, you don't need a physical formula book to remember all of your formulas; you pay the same cost as normal to learn them, but you memorize them all.&lt;br&gt;&lt;br&gt; You can Craft temporary items out of anything, anywhere, with whatever materials happen to be on hand, spending only 10 minutes to perform the initial Crafting check. The temporary item must be common, non-magical, 1st level or lower, and must be a weapon, armor, or a nonconsumable piece of adventuring gear. Instead of a single item, you can create 10 pieces of a single type of ammunition. This is a shoddy item, but you don't take the normal penalty when using shoddy items you made using this feat. Your temporary item lasts for 1d4 hours before falling apart into its raw components; the GM rolls the number of hours secretly. You can create only the physical item, not any information or magic, so for example, while you could create a blank journal or one of random pages, you couldn't use it as a scholarly journal or a religious text.&lt;br&gt;&lt;br&gt; You can incorporate any materials or items that you have on hand, even if they're not the type of materials that would ordinarily be used to Craft a given item, though you must have enough volume of material to make the item you want. Unless all the materials you used were an appropriate type to make the item, you take a –5 penalty to the Crafting check (or a –10 penalty if the materials you used were particularly unsuitable, as determined by the GM).&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the scrounger archetype.</Description>
     </Ability>
     <!--Sentinel-->
@@ -1342,7 +1344,8 @@
     <Ability name="Steel Skin" level="4" page="191">
         <Traits>Archetype, Skill</Traits>
         <Archetype>Sentinel</Archetype>
-        <Prerequisites>Trained In Survival, Sentinel Dedication</Prerequisites>
+        <Prerequisites>Sentinel Dedication</Prerequisites>
+        <Requires>Trained In Survival</Requires>
         <Description>You wear your armor like a second skin. You can rest normally while wearing medium armor. If you are a master in heavy armor, you can also rest normally while wearing heavy armor.</Description>
     </Ability>
     <!--Shadowdancer-->
@@ -1392,7 +1395,8 @@
     <Ability name="Snarecrafter Dedication" level="2" page="194">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Snarecrafter</Archetype>
-        <Prerequisites>Trained In Crafting, Snare Crafting</Prerequisites>
+        <Prerequisites>Snare Crafting</Prerequisites>
+        <Requires>Trained In Crafting</Requires>
         <Description>You've learned to create a limited number of snares at no cost. Each day during your daily preparations, you can prepare four snares from your formula book for quick deployment; if they normally take 1 minute to Craft, you can Craft them with 3 Interact actions. The number of snares increases to six if you're a master in Crafting and eight if you're legendary. Snares prepared in this way don't cost you any resources to Craft.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; The feat counts as Snare Specialist for the purpose of feat prerequisites. If you also have the Snare Specialist ranger feat, the quick snares from both feats are cumulative. You can't select another dedication feat until you have gained two other feats from the snarecrafter archetype.</Description>
     </Ability>
     <Ability name="Plentiful Snares" level="12" page="194">
@@ -1530,7 +1534,7 @@
     <Ability name="Vigilante Dedication" level="2" page="196">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Vigilante</Archetype>
-        <Prerequisites>Trained In Deception</Prerequisites>
+        <Requires>Trained In Deception</Requires>
         <Description>You have two identities, each with its own name, alignment, and abilities. Your social identity is an upstanding member of society, while your vigilante identity is a skilled and cunning warrior. Neither of these identities is a false front; you really are both of these people, and as such, your two identities can be at most one alignment step from each other (for instance, you could be neutral in one identity and neutral evil in the other, but not chaotic evil in the other). If someone attempts to discern your other identity, they must use a Seek action to attempt a Perception check against your Deception DC, as if you were using the Impersonate action. Your Deception DC against such attempts is 20 + your proficiency modifier instead of the normal DC. Unlike with Impersonate, you don't have to attempt a Deception check to interact with someone to conceal your other identity—a check happens only if someone else specifically tries to uncover your other identity.&lt;br&gt;&lt;br&gt; Changing from one identity to the other takes 1 minute and must be done out of sight from other creatures. As this process involves both physical changes such as clothing and makeup along with an altered state of mind, other effects that change your appearance don't reduce the time required to change identities.&lt;br&gt;&lt;br&gt; Your two identities are completely distinct. You have your current identity's alignment for effects that rely on alignment, though you are eligible for abilities that require a certain alignment (such as a cleric's deity) only if both of your identities qualify. Checks to Recall Knowledge about one of your identities don't reveal information about the other unless the person attempting the check knows both identities are the same person. Effects that detect you based on your identity, such as the detect alignment spell, work only if you are currently in the identity the effect is trying to detect; otherwise, the effect fails as if the target didn't exist.&lt;br&gt;&lt;br&gt; To maintain the separation between your identities, some of your abilities have one of two traits: social or vigilante. You can use social feats only while in your social identity. Your class feats and vigilante feats are associated with your vigilante identity, and using them while in your social identity risks exposing you as a vigilante. This means that if you were particularly meek or inconspicuous before you took this feat, your identity could be at greater risk of exposure. If your identity is exposed to the public, you lose the benefits of Vigilante Dedication to disguising yourself, but you can otherwise use both social and vigilante abilities in either identity unless they rely on your identity being a secret. You can use feats that don't have either trait regardless of your current identity.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the vigilante archetype.</Description>
     </Ability>
     <Ability name="Quick Change" level="7" page="197">
@@ -1585,7 +1589,7 @@
     <Ability name="Viking Dedication" level="2" page="198">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Viking</Archetype>
-        <Prerequisites>Trained In Athletics</Prerequisites>
+        <Requires>Trained In Athletics</Requires>
         <Description>Vikings spend long periods of time at sea, only to leap from their boats at a moment's notice, charge through the surf, and take their enemies by storm. You're trained in Sailing Lore. When moving through water using your land Speed, you ignore difficult terrain resulting from shallow water, such as in bogs or on beaches. In addition, if you roll a success for your Athletics check to Swim, you get a critical success instead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the viking archetype.</Description>
     </Ability>
     <Ability name="Viking Weapon Familiarity" level="4" page="198">
@@ -1605,7 +1609,7 @@
     <Ability name="Weapon Improviser Dedication" level="2" page="199">
         <Traits>Archetype, Dedication</Traits>
         <Archetype>Weapon Improviser</Archetype>
-        <Prerequisites>Trained In All Martial Weapons</Prerequisites>
+        <Requires>Trained In Martial Weapons</Requires>
         <Description>You don't take the normal –2 penalty to attack rolls with improvised weapons. Additionally, whenever you gain a class feature that grants you expert or greater proficiency with any weapon, you also gain that proficiency with improvised weapons.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the weapon improviser archetype.</Description>
     </Ability>
     <Ability name="Improvised Critical" level="8" page="199">

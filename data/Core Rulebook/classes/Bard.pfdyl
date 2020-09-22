@@ -478,7 +478,8 @@
         </Ability>
         <Ability name="Eclectic Skill" level="8" page="101">
             <Traits>Bard</Traits>
-            <Prerequisites>Polymath Muse, Master In Occultism</Prerequisites>
+            <Prerequisites>Polymath Muse</Prerequisites>
+            <Requires>Master In Occultism</Requires>
             <Description>Your broad experiences translate to a range of skills. Your proficiency bonus to untrained skill checks is equal to your level. You can attempt any skill check that normally requires you to be trained, even if you are untrained. If you have legendary proficiency in Occultism, you can attempt any skill check that normally requires you to have expert proficiency, even if untrained or trained.</Description>
         </Ability>
         <Ability name="Inspire Heroics" level="8" page="102">
@@ -539,7 +540,8 @@
         </Ability>
         <Ability name="Studious Capacity" level="16" page="103">
             <Traits>Bard</Traits>
-            <Prerequisites>Enigma Muse, Legendary In Occultism</Prerequisites>
+            <Prerequisites>Enigma Muse</Prerequisites>
+            <Requires>Legendary In Occultism</Requires>
             <Description>Your continued study of occult magic has increased your magical capacity, allowing you to cast spells even when it seems impossible. You can cast one spell each day even after you've run out of spell slots of the appropriate spell level, but you can't use this ability to cast a spell of your highest spell level.</Description>
         </Ability>
         <Ability name="Deep Lore" level="18" page="103">
@@ -563,7 +565,8 @@
         </Ability>
         <Ability name="Impossible Polymath" level="18" page="103">
             <Traits>Bard</Traits>
-            <Prerequisites>Trained in Arcana or Nature or Religion, Esoteric Polymath</Prerequisites>
+            <Prerequisites>Esoteric Polymath</Prerequisites>
+            <Requires>Trained in Arcana or Trained in Nature or Trained in Religion</Requires>
             <Description>Your esoteric formulas are so unusual that they allow you to dabble in magic from diverse traditions that other bards don't understand. As long as you're trained in Arcana, you can add arcane spells to your book from Esoteric Polymath; as long as you're trained in Nature, you can add primal spells to your book; and as long as you are trained in Religion, you can add divine spells to your book. Like your other spells in your book, you can add one of these spells from another tradition to your repertoire as an occult spell each day using Esoteric Polymath, but you can't retain any spells from another tradition when you prepare again, even if you have Eclectic Polymath.</Description>
         </Ability>
         <Ability name="Fatal Aria" level="20" page="103">
