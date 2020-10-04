@@ -1,0 +1,28 @@
+<?xml version = "1.0"?>
+<weapons>
+    <Melee>
+        <Martial>
+            <Weapon>
+                <Name>Baton</Name>
+                <Price>4 sp</Price>
+                <Damage>1d4 B</Damage>
+                <Bulk>L</Bulk>
+                <Hands>1</Hands>
+                <Group>Club</Group>
+                <Traits>Agile, finesse, shove</Traits>
+            </Weapon>
+        </Martial>
+        <Advanced>
+            <Weapon>
+                <Name>Aklys</Name>
+                <Price>5 gp</Price>
+                <Damage>1d6 B</Damage>
+                <Bulk>1</Bulk>
+                <Hands>1</Hands>
+                <Group>Club</Group>
+                <Traits>Ranged Trip, Tethered, Thrown 20 feet, Trip, Uncommon</Traits>
+                <Description>The aklys is a throwing club with a hook on one end and a lengthy cord attached to the other. Though aklyses aren’t available in most shops, one might be purchased for 5 gp from a vendor that specializes in strange weapons.</Description>
+            </Weapon>
+        </Advanced>
+    </Melee>
+</weapons>

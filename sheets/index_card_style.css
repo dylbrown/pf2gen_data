@@ -31,8 +31,9 @@ html {
         left: 50vw;
         top: 50vh;
         transform: translate(-50%, -50%);
-        width: calc(calc(100vh - 12px) * 6 / 4);
-        height: calc(100vh - 12px);
+        width: 6in;
+        height: 4in;
+        border: 1px dashed grey;
         overflow:hidden;
     }
     html {
@@ -46,8 +47,8 @@ html {
     transform: translate(-50%, -50%);
     width: 5.8in;
     height: 3.8in;
-    /* border: 1px dashed grey; */
-    box-sizing: border-box;
+    box-sizing: content-box;
+    border: 1px dashed grey;
 }
 .page-col {
     display: flex;
@@ -108,9 +109,19 @@ html {
 .stats > div:first-child {
     padding-left: 0;
 }
+#skills{
+    position: absolute;
+    left: 60%;
+    top: 0;
+    width: 40%;
+    justify-content: space-around;
+    border: none;
+    border-left: 1px dashed lightgray;
+    padding-top: 0.025in;
+    font-size: .75em;
+}
 .attack, .action {
     justify-content: flex-start;
-    max-height: 1.25em;
     font-size: .75em;
 }
 .action {
@@ -126,12 +137,17 @@ html {
     border-radius: .3em;
     border: 1px solid black;
     padding: 0 .2em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 div.attack-traits {
     font-size: .49em;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
+    justify-content: flex-end;
     min-width: 8em;
 }
 .attack-traits > div {
@@ -143,4 +159,5 @@ div.attack-traits {
 .spells {
     display: initial;
     font-size: .6em;
+    position: relative;
 }

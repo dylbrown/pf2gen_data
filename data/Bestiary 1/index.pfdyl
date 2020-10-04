@@ -17,6 +17,15 @@
     &lt;li&gt;Detailed lore sidebars offering additional information about Pathfinder's most popular monstrous friends and foes!&lt;/li&gt;
 &lt;/ul&gt;
     </Description>
-    <Creatures name="Creatures" path="creatures.pfdyl" />
+    <Equipment path="equipment/equipment.pfdyl" />
+    <Weapons name="Weapons" path="equipment/weapons.pfdyl" />
+    <Creatures>
+        <Category name="Monsters" path="creatures.pfdyl" />
+        <Category name="NPCs" path="npcs.pfdyl" />
+    </Creatures>
+    <CreatureFamilies>
+        <Category name="Monster Families" path="creature_families.pfdyl" />
+        <Category name="NPC Families" path="npc_families.pfdyl" />
+    </CreatureFamilies>
     <Traits name="Traits" path="traits.pfdyl" />
 </Source>

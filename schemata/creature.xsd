@@ -25,7 +25,7 @@
             <xs:element name="Skills">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
-                        <xs:pattern value="(Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|([\w\-]+ )?Lore|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery) \+\d{1,2} ?(\([^)]+\))?(, (Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|([\w\-]+ )?Lore|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery) \+\d{1,2} ?(\([^)]+\))?)*" />
+                        <xs:pattern value="(Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|([\w\-]+ )?Lore|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery) \+\d{1,2} ?(\([^)]+\))?(, (Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|([\w\-]+ ){1,2}Lore|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery) \+\d{1,2} ?(\([^)]+\))?)*" />
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
@@ -39,7 +39,7 @@
             <xs:element name="Items" minOccurs="0">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
-                        <xs:pattern value="[\w() '\+\-\d]+(, [\w() '\+\-\d]+)*" />
+                        <xs:pattern value="[\w() '\+\-\d;]+(, ?[\w() '\+\-\d;]+)*" />
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
@@ -142,7 +142,7 @@
     </xs:complexType>
     <xs:simpleType name="CreatureSpells">
         <xs:restriction base="xs:string">
-            <xs:pattern value="[\w ]+(\([\w \d,;]+\))?(, [\w ]+(\([\w \d,;]+\))?)*" />
+            <xs:pattern value="[\w ']+(\([\w \d,;']+\))?(, [\w ']+(\([\w \d,;']+\))?)*" />
         </xs:restriction>
     </xs:simpleType>
     <xs:element name="creatures">

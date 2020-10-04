@@ -10,7 +10,7 @@
         <Languages>Celestial, Common</Languages>
         <Skills>Athletics +11, Diplomacy +12, Medicine +9, Religion +11, Society +7</Skills>
         <AbilityScores>Str +4, Dex +1, Con +3, Int +0, Wis +2, Cha +3</AbilityScores>
-        <Items>crossbow (10 bolts), half plate, longsword, steel shield (Hardness 5, HP 20, BT 10)</Items>
+        <Items>crossbow (10 bolts), half plate, longsword, steel shield</Items>
         <AC>23 (25 with shield raised)</AC>
         <Saves>Fort +12, Ref +8, Will +11; +1 status to all saves vs. disease (against diseases, critical failures become failures)</Saves>
         <HP>73</HP>
@@ -2031,7 +2031,7 @@
         <Languages>Arboreal, Common, Sylvan</Languages>
         <Skills>Athletics +13, Stealth +9 (+14 in forests)</Skills>
         <AbilityScores>Str +5, Dex +1, Con +3, Int +1, Wis +3, Cha +1</AbilityScores>
-        <Items>large bark shield (Hardness 3, Hit Points 20, BT 10), stone longsword</Items>
+        <Items>wooden shield, longsword</Items>
         <AC>20 (22 with shield raised)</AC>
         <Saves>Fort +13, Ref +9, Will +11</Saves>
         <HP>75</HP>
@@ -2237,7 +2237,7 @@
         <Languages>Abyssal, Celestial, Common, Draconic, Infernal, Utopian</Languages>
         <Skills>Acrobatics +16, Axis Lore +17, Crafting +21, Diplomacy +15, Occultism +17, Religion +17</Skills>
         <AbilityScores>Str +5, Dex +4, Con +3, Int +5, Wis +5, Cha +3</AbilityScores>
-        <Items>+1 striking warhammer, sterling artisan's tools</Items>
+        <Items>+1 striking warhammer, artisan's tools (sterling)</Items>
         <AC>26</AC>
         <Saves>Fort +13, Ref +16, Will +18; +1 status to all saves vs. magic</Saves>
         <HP>155</HP>
@@ -3417,7 +3417,7 @@
         <Languages>Caligni</Languages>
         <Skills>Acrobatics +7, Performance +6, Stealth +7, Thievery +7</Skills>
         <AbilityScores>Str +0, Dex +4, Con +2, Int -1, Wis +1, Cha +3</AbilityScores>
-        <Items>baton (light mace), dagger</Items>
+        <Items>baton, dagger</Items>
         <AC>17</AC>
         <Saves>Fort +7, Ref +9, Will +4</Saves>
         <HP>18 (death flare)</HP>
@@ -3695,7 +3695,7 @@
         <Languages>Common, Elven, Sylvan</Languages>
         <Skills>Athletics +11, Diplomacy +6, Intimidation +6, Nature +7, Survival +7</Skills>
         <AbilityScores>Str +4, Dex +2, Con +1, Int +0, Wis +2, Cha +1</AbilityScores>
-        <Items>breastplate, longsword, spear (3), steel shield (Hardness 5, HP 20, BT 10)</Items>
+        <Items>breastplate, longsword, spear (3), steel shield</Items>
         <AC>20 (22 with shield raised)</AC>
         <Saves>Fort +8, Ref +9, Will +9</Saves>
         <HP>40</HP>
@@ -4683,7 +4683,7 @@
         <Languages>Gnomish, Undercommon</Languages>
         <Skills>Athletics +8, Intimidation +5, Stealth +5</Skills>
         <AbilityScores>Str +4, Dex +2, Con +3, Int +0, Wis +1, Cha -1</AbilityScores>
-        <Items>heavy crossbow (20 bolts), spear, steel shield (Hardness 5, HP 20, BT 10), studded leather armor</Items>
+        <Items>heavy crossbow (20 bolts), spear, steel shield, studded leather armor</Items>
         <AC>18 (20 with shield raised)</AC>
         <Saves>Fort +9, Ref +8, Will +5</Saves>
         <HP>34</HP>
@@ -5529,7 +5529,7 @@
         <Languages>Abyssal, Elven, Undercommon</Languages>
         <Skills>Deception +8, Intimidation +8, Religion +9, Society +5, Stealth +7</Skills>
         <AbilityScores>Str +1, Dex +2, Con +1, Int +0, Wis +4, Cha +1</AbilityScores>
-        <Items>chain mail, hand crossbow (10 bolts), lethargy poison (4 doses), rapier, religious symbol, steel shield (Hardness 5, HP 20, BT 10)</Items>
+        <Items>chain mail, hand crossbow (10 bolts), lethargy poison (4 doses), rapier, religious symbol, steel shield</Items>
         <AC>20 (22 with shield raised)</AC>
         <Saves>Fort +8, Ref +7, Will +11; +1 status to all saves vs. magic, +2 status to all saves vs. mental</Saves>
         <HP>39</HP>
@@ -6664,7 +6664,7 @@
         <Languages>Common, Jotun</Languages>
         <Skills>Athletics +25, Crafting +22, Intimidation +23</Skills>
         <AbilityScores>Str +7, Dex +0, Con +5, Int +2, Wis +2, Cha +0</AbilityScores>
-        <Items>+1 striking greatsword, +1 half-plate, sack with 5 rocks</Items>
+        <Items>+1 striking greatsword, +1 half plate, sack with 5 rocks</Items>
         <AC>31</AC>
         <Saves>Fort +23, Ref +16, Will +18</Saves>
         <HP>175</HP>
@@ -9877,7 +9877,7 @@
         <Languages>Common, Goblin</Languages>
         <Skills>Athletics +6, Stealth +6</Skills>
         <AbilityScores>Str +3, Dex +3, Con +2, Int +0, Wis +2, Cha -1</AbilityScores>
-        <Items>hide armor, longsword, shortbow (10 arrows), wooden shield (Hardness 3, HP 12, BT 6)</Items>
+        <Items>hide armor, longsword, shortbow (10 arrows), wooden shield</Items>
         <AC>18 (20 with shield raised)</AC>
         <Saves>Fort +5, Ref +6, Will +5</Saves>
         <HP>20</HP>
@@ -11598,7 +11598,7 @@
         <Languages>Draconic, Iruxi</Languages>
         <Skills>Acrobatics +5, Athletics +6, Survival +5</Skills>
         <AbilityScores>Str +3, Dex +2, Con +3, Int -1, Wis +2, Cha +0</AbilityScores>
-        <Items>flail, javelin (3), wooden shield (Hardness 3, HP 12, BT 6)</Items>
+        <Items>flail, javelin (3), wooden shield</Items>
         <AC>16 (18 with shield raised)</AC>
         <Saves>Fort +8, Ref +7, Will +5</Saves>
         <HP>21</HP>
@@ -11652,7 +11652,7 @@
         <Languages>Common, Draconic, Iruxi</Languages>
         <Skills>Acrobatics +6, Athletics +5, Diplomacy +4, Nature +6, Stealth +6, Survival +8</Skills>
         <AbilityScores>Str +2, Dex +3, Con +1, Int -1, Wis +3, Cha +1</AbilityScores>
-        <Items>blowgun (10 darts, 1 of which is coated with giant centipede venom)</Items>
+        <Items>blowgun (10 darts), giant centipede venom</Items>
         <AC>17</AC>
         <Saves>Fort +6, Ref +8, Will +6</Saves>
         <HP>17</HP>
@@ -15757,7 +15757,7 @@
         <Languages>Common, Necril</Languages>
         <Skills>Acrobatics +8, Athletics +8, Intimidation +7</Skills>
         <AbilityScores>Str +4, Dex +4, Con +1, Int -1, Wis +2, Cha +1</AbilityScores>
-        <Items>chain mail, lance, longsword, steel shield (Hardness 5, HP 20, BT 10)</Items>
+        <Items>chain mail, lance, longsword, steel shield</Items>
         <AC>19 (21 with shield raised)</AC>
         <Saves>Fort +7, Ref +10, Will +6</Saves>
         <HP>25 (negative healing)</HP>

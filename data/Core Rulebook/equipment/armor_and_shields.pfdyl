@@ -18,6 +18,17 @@
             <Effect>The sturdy plate provides no purchase for a cutting edge. You gain resistance to slashing damage equal to 1 + the value of the armor's Potency Rune for medium armor, or 2 + the value of the armor's Potency Rune for heavy armor.</Effect>
         </ArmorGroup>
 	</Groups>
+    <Unarmored>
+        <Armor>
+            <Name>Explorer's Clothing</Name>
+            <Price>1 sp</Price>
+            <AC>0</AC>
+            <MaxDex>+5</MaxDex>
+            <Strength>0</Strength>
+            <Bulk>L</Bulk>
+            <Traits>Comfort</Traits>
+        </Armor>
+    </Unarmored>
     <Light>
         <Armor>
             <Name>Padded Armor</Name>

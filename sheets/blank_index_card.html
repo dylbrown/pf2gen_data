@@ -3,16 +3,17 @@
     <head>
         <title>PF2 Index Card</title>
         <link rel="stylesheet" href="index_card_style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
         <div class="page">
             <div class="page-padding">
-                <div class="page-col main">
+                <div class="page-col main" style="position: relative;">
                     <div class="page-row info">
                         <div id="name">Dave The Great</div>
                         <div id="abc">Versatile Human Fighter 1</div>
                     </div>
-                    <div class="page-row stats">
+                    <div class="page-row stats" style="width: 60%;">
                         <div class="labelled-box">
                             <div>26</div>
                             <div>HP</div>
@@ -39,25 +40,86 @@
                             <div>Will</div>
                         </div>
                         <div class="pipe"></div>
-                        <div class="labelled-box">
-                            <div>+7</div>
-                            <div>Spot</div>
+                        <div></div>
+                    </div>
+                    <div class="page-col" id="skills">
+                        <div class="page-row">
+                            <div class="labelled-box">
+                                <div>+7</div>
+                                <div>Str</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+8</div>
+                                <div>Dex</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+4</div>
+                                <div>Con</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+8</div>
+                                <div>Int</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+1</div>
+                                <div>Wis</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+2</div>
+                                <div>Cha</div>
+                            </div>
                         </div>
-                        <div class="labelled-box">
-                            <div>+8</div>
-                            <div>Athl</div>
+                        <div class="page-row">
+                            <div class="labelled-box">
+                                <div>+7</div>
+                                <div>Spot</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>18</div>
+                                <div>DC</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+8</div>
+                                <div>Athl</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+4</div>
+                                <div>Acro</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+8</div>
+                                <div>Sneak</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+4</div>
+                                <div>Acro</div>
+                            </div>
                         </div>
-                        <div class="labelled-box">
-                            <div>+4</div>
-                            <div>Acro</div>
-                        </div>
-                        <div class="labelled-box">
-                            <div>+8</div>
-                            <div>Sneak</div>
-                        </div>
-                        <div class="labelled-box">
-                            <div>18</div>
-                            <div>DC</div>
+                        <div class="page-row">
+                            <div class="labelled-box">
+                                <div>+7</div>
+                                <div>Spot</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+8</div>
+                                <div>Athl</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+4</div>
+                                <div>Acro</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+8</div>
+                                <div>Sneak</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+4</div>
+                                <div>Acro</div>
+                            </div>
+                            <div class="labelled-box">
+                                <div>+4</div>
+                                <div>Acro</div>
+                            </div>
                         </div>
                     </div>
                     <div class="page-row attack">
@@ -86,5 +148,18 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript">
+            function align(){
+                const statsTop = $(".stats").first().position().top;
+                let skills = $("#skills").first();
+                let spells = $(".spells").first();
+                skills.css("top", statsTop);
+                const gap = spells.position().top - skills.position().top;
+                skills.css("min-height", "calc("+gap+"px - .05in)");
+                spells.css("top", Math.max(skills.height() - gap, 0))
+            }
+            $('document').ready(align);
+            $('document').resize(align);
+        </script>
     </body>
 </html>

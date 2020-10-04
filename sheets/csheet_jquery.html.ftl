@@ -66,15 +66,15 @@
 		</tr>
 		<tr>
 			<td width="50%" valign="top">
-				<#include "/JQuery/equipment/equipment.ftl">
+				<#include "/JQuery/item/item.ftl">
 			</td>
 		</tr>
 		<tr>
 			<td width="50%" valign="top">
-				<#include "/JQuery/equipment/weight.ftl">
-				<#include "/JQuery/equipment/money.ftl">
+				<#include "/JQuery/item/weight.ftl">
+				<#include "/JQuery/item/money.ftl">
 				<font style="font-size:2pt"><br /></font>
-				<#include "/JQuery/equipment/companion.ftl">
+				<#include "/JQuery/item/companion.ftl">
 				</td>
 		</tr>
 	</table>

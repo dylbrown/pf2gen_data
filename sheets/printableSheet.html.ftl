@@ -107,7 +107,7 @@
                 </div>
                 <div class="line">
                     <div class="numBox"></div>
-                    <div class="label">Temporary</div>
+                    <div class="label">Conditions</div>
                 </div>
             </div>
             <div class="sectionDivider">
@@ -366,38 +366,56 @@
         </div>
     </div>
 [/#macro]
+            [#assign melee = character.combat.attacks?size > 0]
+            [#assign ranged = character.combat.attacks?size > 0]
+            [#list character.inventory as item]
+                [#if item.category == "Weapons"]
+                    [#assign melee = true]
+                [#elseif item.category == "Ranged Weapons"]
+                    [#assign ranged = true]
+                [/#if]
+                [#if melee == true && ranged == true]
+                    [#break]
+                [/#if]
+            [/#list]
+            [#if melee]
             <div class="sectionDivider">
                 <hr>
             </div>
             <div class="sectionLabel">Melee Strikes</div>
+            [/#if]
             [#list character.combat.attacks as attack]
                 [#if attack.hasExtension("Weapon")]
                     [@weaponBlock attack=attack type="melee"/]
                 [/#if]
             [/#list]
             [#list character.inventory as item]
-                [#if item.hasExtension("Weapon")]
+                [#if item.category == "Weapons"]
                     [@weaponBlock weapon=item type="melee"/]
                 [/#if]
             [/#list]
+            [#if ranged]
             <div class="sectionDivider">
                 <hr>
             </div>
             <div class="sectionLabel">Ranged Strikes</div>
+            [/#if]
             [#list character.combat.attacks as attack]
-                [#if attack.category == "Ranged Weapon"]
+                [#if attack.category == "Ranged Weapons"]
                     [@weaponBlock weapon=attack type="ranged"/]
                 [/#if]
             [/#list]
             [#list character.inventory as item]
-                [#if item.category == "Ranged Weapon"]
+                [#if item.category == "Ranged Weapons"]
                     [@weaponBlock weapon=item type="ranged"/]
                 [/#if]
             [/#list]
+            [#if character.abilities?size > 0]
             <div class="sectionDivider">
                 <hr>
             </div>
             <div class="sectionLabel">Actions and Activities</div>
+            [/#if]
 [#macro actionBlock action]
 [#assign reaction=false]
 <div class="row-stretch action" style="flex-grow: 0">
@@ -726,6 +744,7 @@
 <div class="height_measure"></div>
 </body>
 <script>
+    $( document ).ready(function() {
     function refresh() {
         $(".abilities-flex:not(:first)").remove();
         $(".separator:not(:first)").remove();
@@ -738,14 +757,19 @@
     window.matchMedia("screen").addListener(refresh);
 
     let inventoryGrid = $("#inventory-grid");
-    for(let i = 0; i < 7; i++) {
+    while(true) {
         inventoryGrid.append($("<div></div><div></div><div></div>"));
-        if(inventoryGrid.children().last().position().top <= inventoryGrid.position().top) {
+		let bottom = inventoryGrid.children().last();
+		bottom = bottom.position().top + bottom.outerHeight(true);
+		let height = inventoryGrid.parent().outerHeight(true);
+        if(bottom > height) {
             for(let j = 0; j < 3; j++)
                 inventoryGrid.children().last().remove();
             break;
         }
     }
+
+    fixRows();
     function moveLeft() {
         currentLeftIndex += 1;
         switch(currentLeftIndex) {
@@ -789,7 +813,6 @@
         return contents.substring(start);
     }
     var oldTableCopy = $(".abilities-flex").first().children().clone();
-    fixRows();
     function fixRows() {
         firstPage = $(".abilities-flex").first();
         currPage = firstPage; numPages = 1;
@@ -841,5 +864,6 @@
             $(".separator").last().after($("<div class='separator' style='top: calc("+i+"00vh - 3px)'></div>"));
         }
     }
+    });
 </script>
 </html>
