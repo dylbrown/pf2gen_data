@@ -572,9 +572,9 @@
                     </div>
                     <div class="col-section-label" style="border-left: 1px solid black">Spell Name</div>
                     <div class="col-section-label col-center" style="border-right: 1px solid black">Slots</div>
-                    [#list spellList.spellsKnown as levelSpells]
+                    [#list spellList.spellsKnown?reverse as levelSpells]
                         [#if levelSpells?size > 0]
-                                [#assign level=levelSpells?index]
+                                [#assign level=spellList.spellsKnown?size-levelSpells?index-1]
                             <div class="spells-level">
                                 <div class="spells-line fixed"></div>
                                 <div class="spells-level-label">
@@ -617,9 +617,9 @@
                         <div class="numBox rounded">${(10 + character.attributes.get(spellList.spellDCsAttribute?lower_case, listName).total)?string}</div>
                     </div>
                     <div id="spells-spontaneous-grid">
-                        [#list spellList.spellsKnown as levelSpells]
+                        [#list spellList.spellsKnown?reverse as levelSpells]
                             [#if levelSpells?size > 0]
-                                [#assign level=levelSpells?index]
+                                [#assign level=spellList.spellsKnown?size-levelSpells?index-1]
                                 [#if level == 0]
                                     <div class="spells-level" style="grid-column-end: span 2">
                                         <div class="spells-line"></div>
@@ -655,7 +655,7 @@
                     </div>
                 </div>
             [/#if]
-            [#list spellList.spellsKnown as levelSpells]
+            [#list spellList.spellsKnown?reverse as levelSpells]
                 [#list levelSpells as spell]
                     [@spellBlock spell=spell /]
                 [/#list]
@@ -745,6 +745,26 @@
 </body>
 <script>
     $( document ).ready(function() {
+        window.matchMedia("print").addListener(refresh);
+        window.matchMedia("screen").addListener(refresh);
+        window.addEventListener('resize', refresh);
+
+        let inventoryGrid = $("#inventory-grid");
+        while(true) {
+            inventoryGrid.append($("<div></div><div></div><div></div>"));
+            let bottom = inventoryGrid.children().last();
+            bottom = bottom.position().top + bottom.outerHeight(true);
+            let height = inventoryGrid.parent().outerHeight(true);
+            if(bottom > height) {
+                for(let j = 0; j < 3; j++)
+                    inventoryGrid.children().last().remove();
+                break;
+            }
+        }
+
+        oldTableCopy = $(".abilities-flex").first().children().clone();
+        fixRows();
+    });
     function refresh() {
         $(".abilities-flex:not(:first)").remove();
         $(".separator:not(:first)").remove();
@@ -753,23 +773,6 @@
         $(".page").slice(2).remove();
         fixRows();
     }
-    window.matchMedia("print").addListener(refresh);
-    window.matchMedia("screen").addListener(refresh);
-
-    let inventoryGrid = $("#inventory-grid");
-    while(true) {
-        inventoryGrid.append($("<div></div><div></div><div></div>"));
-		let bottom = inventoryGrid.children().last();
-		bottom = bottom.position().top + bottom.outerHeight(true);
-		let height = inventoryGrid.parent().outerHeight(true);
-        if(bottom > height) {
-            for(let j = 0; j < 3; j++)
-                inventoryGrid.children().last().remove();
-            break;
-        }
-    }
-
-    fixRows();
     function moveLeft() {
         currentLeftIndex += 1;
         switch(currentLeftIndex) {
@@ -812,7 +815,6 @@
             text.parent().css("border-bottom", "none");
         return contents.substring(start);
     }
-    var oldTableCopy = $(".abilities-flex").first().children().clone();
     function fixRows() {
         firstPage = $(".abilities-flex").first();
         currPage = firstPage; numPages = 1;
@@ -864,6 +866,5 @@
             $(".separator").last().after($("<div class='separator' style='top: calc("+i+"00vh - 3px)'></div>"));
         }
     }
-    });
 </script>
 </html>
