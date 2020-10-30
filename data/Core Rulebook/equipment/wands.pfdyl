@@ -2,83 +2,139 @@
 		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
 <SubCategory name="Magic Wands"><Item level="3" page="597">
-	<Name>Magic Wand (1st-Level Spell)</Name>
+	<Name>Magic Wand (${get("1st-Level Spell")})</Name>
 	<Price>60 gp</Price>
 	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast the Spell at the indicated level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast ${get("1st-Level Spell", "the Spell")} at level 1.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
 	<Choices>
 		<Spell>
-			<Name>Spell</Name>
+			<Name>1st-Level Spell</Name>
 			<Levels>1</Levels>
 			<Traditions>Arcane, Divine, Primal, Occult</Traditions>
 		</Spell>
 	</Choices>
 </Item>
 <Item level="5" page="597">
-	<Name>Magic Wand (2nd-Level Spell)</Name>
+	<Name>Magic Wand (${get("2nd-Level Spell")})</Name>
 	<Price>160 gp</Price>
 	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast the Spell at the indicated level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast ${get("2nd-Level Spell", "the Spell")} at level 2.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Choices>
+		<Spell>
+			<Name>2nd-Level Spell</Name>
+			<Levels>2</Levels>
+			<Traditions>Arcane, Divine, Primal, Occult</Traditions>
+		</Spell>
+	</Choices>
 </Item>
 <Item level="7" page="597">
-	<Name>Magic Wand (3rd-Level Spell)</Name>
+	<Name>Magic Wand (${get("3rd-Level Spell")})</Name>
 	<Price>360 gp</Price>
 	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast the Spell at the indicated level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast ${get("3rd-Level Spell", "the Spell")} at level 3.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Choices>
+		<Spell>
+			<Name>3rd-Level Spell</Name>
+			<Levels>3</Levels>
+			<Traditions>Arcane, Divine, Primal, Occult</Traditions>
+		</Spell>
+	</Choices>
 </Item>
 <Item level="9" page="597">
-	<Name>Magic Wand (4th-Level Spell)</Name>
+	<Name>Magic Wand (${get("4th-Level Spell")})</Name>
 	<Price>700 gp</Price>
 	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast the Spell at the indicated level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast ${get("4th-Level Spell", "the Spell")} at level 4.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Choices>
+		<Spell>
+			<Name>4th-Level Spell</Name>
+			<Levels>4</Levels>
+			<Traditions>Arcane, Divine, Primal, Occult</Traditions>
+		</Spell>
+	</Choices>
 </Item>
 <Item level="11" page="597">
-	<Name>Magic Wand (5th-Level Spell)</Name>
+	<Name>Magic Wand (${get("5th-Level Spell")})</Name>
 	<Price>1,500 gp</Price>
 	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast the Spell at the indicated level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast ${get("5th-Level Spell", "the Spell")} at level 5.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Choices>
+		<Spell>
+			<Name>5th-Level Spell</Name>
+			<Levels>5</Levels>
+			<Traditions>Arcane, Divine, Primal, Occult</Traditions>
+		</Spell>
+	</Choices>
 </Item>
 <Item level="13" page="597">
-	<Name>Magic Wand (6th-Level Spell)</Name>
+	<Name>Magic Wand (${get("6th-Level Spell")})</Name>
 	<Price>3,000 gp</Price>
 	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast the Spell at the indicated level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast ${get("6th-Level Spell", "the Spell")} at level 6.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Choices>
+		<Spell>
+			<Name>6th-Level Spell</Name>
+			<Levels>6</Levels>
+			<Traditions>Arcane, Divine, Primal, Occult</Traditions>
+		</Spell>
+	</Choices>
 </Item>
 <Item level="15" page="597">
-	<Name>Magic Wand (7th-Level Spell)</Name>
+	<Name>Magic Wand (${get("7th-Level Spell")})</Name>
 	<Price>6,500 gp</Price>
 	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast the Spell at the indicated level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast ${get("7th-Level Spell", "the Spell")} at level 7.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Choices>
+		<Spell>
+			<Name>7th-Level Spell</Name>
+			<Levels>7</Levels>
+			<Traditions>Arcane, Divine, Primal, Occult</Traditions>
+		</Spell>
+	</Choices>
 </Item>
 <Item level="17" page="597">
-	<Name>Magic Wand (8th-Level Spell)</Name>
+	<Name>Magic Wand (${get("8th-Level Spell")})</Name>
 	<Price>15,000 gp</Price>
 	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast the Spell at the indicated level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast ${get("8th-Level Spell", "the Spell")} at level 8.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Choices>
+		<Spell>
+			<Name>8th-Level Spell</Name>
+			<Levels>8</Levels>
+			<Traditions>Arcane, Divine, Primal, Occult</Traditions>
+		</Spell>
+	</Choices>
 </Item>
 <Item level="19" page="597">
-	<Name>Magic Wand (9th-Level Spell)</Name>
+	<Name>Magic Wand (${get("9th-Level Spell")})</Name>
 	<Price>40,000 gp</Price>
 	<Bulk>L</Bulk>
 	<Traits>Magical, Wand</Traits>
 	<Usage>held in 1 hand</Usage>
-	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast the Spell at the indicated level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Description>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You Cast ${get("9th-Level Spell", "the Spell")} at level 9.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a listed-level casting of the spell.&lt;br&gt;</Description>
+	<Choices>
+		<Spell>
+			<Name>9th-Level Spell</Name>
+			<Levels>9</Levels>
+			<Traditions>Arcane, Divine, Primal, Occult</Traditions>
+		</Spell>
+	</Choices>
 </Item>
 </SubCategory><SubCategory name="Specialty Wands"><Item level="4" page="598">
 	<Name>Wand of Widening (1st-Level Spell)</Name>

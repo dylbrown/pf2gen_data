@@ -55,7 +55,7 @@ You are trained in Thievery.
 					if(strScore >= dexScore) {
 						return damage;
 					}
-					for(trait in weapon.getBaseItem().getTraits()) {
+					for(trait in weapon.getItem().getTraits()) {
 						if(trait.getName() == "Finesse") {
 							return damage.add(dexScore - strScore)
 						}
