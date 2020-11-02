@@ -568,7 +568,7 @@
     <Ability name="Eldritch Archer Dedication" level="6" page="172" cost="3">
         <Traits>Archetype, Dedication, Magical</Traits>
         <Archetype>Eldritch Archer</Archetype>
-        <Prerequisites>Expert In At Least One Type Of Bow</Prerequisites>
+        <Prerequisites>Expert with a Longbow or Expert with a Shortbow</Prerequisites>
         <Requirements>You are wielding a bow</Requirements>
         <Description>You blend magic with your archery, leading to powerful results.&lt;br&gt;&lt;br&gt; If you don't already cast spells from spell slots, you learn to cast spontaneous spells and gain the Cast a Spell activity. You gain a spell repertoire with one cantrip of your choice, from a spell list of your choice. You choose this cantrip from the common spells on your chosen spell list or from other spells to which you have access on that list. This cantrip must require a spell attack roll. You're trained in spell attack rolls and spell DCs for that tradition. Your key spellcasting ability for these spells is Charisma.&lt;br&gt;&lt;br&gt; If you already cast spells from spell slots, you learn one additional cantrip from that tradition. If you're a prepared caster, you can prepare this spell in addition to your usual cantrips per day; if you're a spontaneous caster, you add this cantrip to your spell repertoire.&lt;br&gt;&lt;br&gt; You also gain Eldritch Shot.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Eldritch Shot; &lt;b&gt;Requirements&lt;/b&gt; You are wielding a bow; &lt;b&gt;Effect&lt;/b&gt; You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell do not occur immediately but are imbued into the bow you're wielding. Make a Strike with that bow. Your spell flies with the ammunition, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed both attacks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the eldritch archer archetype.</Description>
     </Ability>
@@ -748,7 +748,7 @@
     <Ability name="Sure Foot" level="4" page="177">
         <Traits>Archetype, Skill</Traits>
         <Archetype>Horizon Walker</Archetype>
-        <Prerequisites>Horizon Walker Dedication, Expert In Acrobatics And Athletics</Prerequisites>
+        <Prerequisites>Horizon Walker Dedication, Expert in Acrobatics, Expert in Athletics</Prerequisites>
         <Description>You know the secrets of moving in your favored terrain. You gain a +2 circumstance bonus to skill checks to move within your favored terrain, such as Acrobatics checks to Balance on ice, Athletics checks to Swim in rough water, Acrobatics checks to Fly in windy conditions, and so forth.</Description>
     </Ability>
     <Ability name="Magical Adaptation" level="10" page="177">
@@ -781,7 +781,8 @@
     <Ability name="Skill Mastery (Investigator)" level="8" page="151">
         <Traits>Archetype</Traits>
         <Archetype>Investigator</Archetype>
-        <Prerequisites>Investigator Dedication, Trained In At Least One Skill And Expert In At Least One Skill</Prerequisites>
+        <Prerequisites>Investigator Dedication</Prerequisites>
+        <!--TODO: Trained In At Least One Skill And Expert In At Least One Skill-->
         <Description>Increase your proficiency rank in one of your skills from expert to master and in another of your skills from trained to expert. You gain a skill feat associated with one of the skills you chose.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat up to five times.</Description>
     </Ability>
     <Ability name="Basic Deduction" level="4" page="151">
@@ -832,7 +833,7 @@
     <Ability name="Analyze Idiolect" level="6" page="178">
         <Traits>Archetype, Skill</Traits>
         <Archetype>Linguist</Archetype>
-        <Prerequisites>Linguist Dedication, Expert In Deception And Society</Prerequisites>
+        <Prerequisites>Linguist Dedication, Expert in Deception, Expert in Society</Prerequisites>
         <Description>You break down a specific individual's idiolect, memorizing their speech mannerisms and habits. If you interact with someone for at least 10 minutes, when you later attempt to Impersonate that individual, you gain a +4 circumstance bonus to your Deception checks and DCs. Due to the intense character study required, you can't remember more than one idiolect at a time.</Description>
     </Ability>
     <Ability name="Multilingual Cipher" level="4" page="178">
@@ -1478,7 +1479,7 @@
     <Ability name="Evasiveness (Swashbuckler)" level="12" page="153">
         <Traits>Archetype</Traits>
         <Archetype>Swashbuckler</Archetype>
-        <Prerequisites>Swashbuckler Dedication, Expert In Reflex Saves</Prerequisites>
+        <Prerequisites>Swashbuckler Dedication, Expert In Reflex</Prerequisites>
         <Description>Your proficiency rank for Reflex saves increases to master.</Description>
     </Ability>
     <!--Talisman Dabbler-->
@@ -1675,14 +1676,16 @@
         <Template>Expert Spellcasting Benefits</Template>
         <Traits>Archetype</Traits>
         <Archetype>Witch</Archetype>
-        <Prerequisites>Basic Witch Spellcasting, Master In The Skill Associated With Your Patron's Tradition</Prerequisites>
+        <!--TODO: Master In The Skill Associated With Your Patron's Tradition-->
+        <Prerequisites>Basic Witch Spellcasting</Prerequisites>
         <Description>You gain the expert spellcasting benefits.</Description>
     </Ability>
     <Ability name="Master Witch Spellcasting" level="18" page="154">
         <Template>Master Spellcasting Benefits</Template>
         <Traits>Archetype</Traits>
         <Archetype>Witch</Archetype>
-        <Prerequisites>Expert Witch Spellcasting, Legendary In The Skill Associated With Your Patron's Tradition</Prerequisites>
+        <!--TODO: Legendary In The Skill Associated With Your Patron's Tradition-->
+        <Prerequisites>Expert Witch Spellcasting</Prerequisites>
         <Description>You gain the master spellcasting benefits.</Description>
     </Ability>
     <Ability name="Patron's Breadth" level="8" page="154">
