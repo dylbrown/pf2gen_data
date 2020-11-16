@@ -18,7 +18,7 @@
 		</AbilitySlot>
 		<AbilitySlot state="feat" type="Class Feat" name="Rogue Feat"/>
 		<AbilitySlot state="choice" name="Rogue's Racket" contents="Rogue's Racket">
-			<Ability name="Ruffian">
+			<Ability name="Ruffian Racket">
 				<Description>
 				You prefer to strong-arm or intimidate others rather than rely on finesse or fancy tricks. You might be an enforcer for organized crime, a highway bandit, or a noble who bullies others with threats of your family's power. Or, you might use your skills on the up and up, in a private security detail or as a guard in a city with the right temperament.
 
@@ -28,7 +28,7 @@ You're trained in Intimidation and medium armor. You can choose Strength as your
 				</Description>
 				<AttributeMods Proficiency="Trained">Intimidation, Medium Armor</AttributeMods>
 			</Ability>
-			<Ability name="Scoundrel">
+			<Ability name="Scoundrel Racket">
 				<Description>
 				You use fast-talking, flattery, and a silver tongue to avoid danger and escape tricky situations. You might be a grifter or con artist, traveling from place to place with a new story or scheme. Your racket is also ideal for certain reputable professions, like barrister, diplomat, or politician.
 
@@ -38,7 +38,7 @@ You're trained in Deception and Diplomacy. You can choose Charisma as your key a
 				</Description>
 				<AttributeMods Proficiency="Trained">Deception, Diplomacy</AttributeMods>
 			</Ability>
-			<Ability name="Thief">
+			<Ability name="Thief Racket">
 				<Description>
 				Nothing beats the thrill of taking something that belongs to someone else, especially if you can do so completely unnoticed. You might be a pickpocket working the streets, a cat burglar sneaking through windows and escaping via rooftops, or a safecracker breaking into carefully guarded vaults. You might even work as a consultant, testing clients' defenses by trying to steal something Precious.
 
@@ -366,13 +366,13 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		<Ability name="Twin Feint" level="1" cost="Two">
 			<Traits>Rogue</Traits>
 			<Requirements>You are wielding two melee weapons, each in a different hand.</Requirements>
-			<Description>You make a dazzling series of attacks with both weapons, using the first attack to throw your foe off guard against a second attack at a different angle. Make one Strike with each of your two melee weapons, both against the same target. The target is automatically flat?footed against the second attack. Apply your multiple attack penalty to the Strikes normally.</Description>
+			<Description>You make a dazzling series of attacks with both weapons, using the first attack to throw your foe off guard against a second attack at a different angle. Make one Strike with each of your two melee weapons, both against the same target. The target is automatically flat-footed against the second attack. Apply your multiple attack penalty to the Strikes normally.</Description>
 		</Ability>
 		<Ability name="You're Next" level="1" cost="Reaction">
 			<Traits>Emotion, Fear, Mental, Rogue</Traits>
 			<Requires>Trained In Intimidation</Requires>
 			<Trigger>You reduce an enemy to 0 hit points.</Trigger>
-			<Description>After downing a foe, you menacingly remind another foe that you're coming after them next. Attempt an Intimidation check with a +2 circumstance bonus to Demoralize a single creature that you can see and that can see you. If you have legendary proficiency in Intimidation, you can use this as a free action with the same trigger.2ND LEVEL</Description>
+			<Description>After downing a foe, you menacingly remind another foe that you're coming after them next. Attempt an Intimidation check with a +2 circumstance bonus to Demoralize a single creature that you can see and that can see you. If you have legendary proficiency in Intimidation, you can use this as a free action with the same trigger.</Description>
 		</Ability>
 		<Ability name="Brutal Beating" level="2">
 			<Traits>Rogue</Traits>
@@ -399,7 +399,7 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		<Ability name="Unbalancing Blow" level="2">
 			<Traits>Rogue</Traits>
 			<Prerequisites>Thief Racket</Prerequisites>
-			<Description>Interweaving your most powerful attacks in a graceful flow, you temporarily unbalance your foes. Whenever your Strike is a critical hit and deals damage, the target is flat?footed against your attacks until the end of your next turn.4TH LEVEL</Description>
+			<Description>Interweaving your most powerful attacks in a graceful flow, you temporarily unbalance your foes. Whenever your Strike is a critical hit and deals damage, the target is flat-footed against your attacks until the end of your next turn.</Description>
 		</Ability>
 		<Ability name="Battle Assessment" level="4" cost="One">
 			<Traits>Rogue, Secret</Traits>
@@ -426,12 +426,12 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		<Ability name="Poison Weapon" level="4" cost="One">
 			<Traits>Manipulate, Rogue</Traits>
 			<Requirements>You are wielding a piercing or slashing weapon and have a free hand.</Requirements>
-			<Description>You apply a poison to the required weapon. If your next attack with that weapon before the end of your next turn hits and deals damage, it applies the effects of the poison, provided that poison can be delivered by contact or injury. If you critically fail the attack roll, the poison is wasted as normal.Special During your daily preparations, you can prepare a number of simple injury poisons equal to your rogue level. These poisons deal 1d4 poison damage. Only you can apply these poisons properly, and they expire the next time you prepare.</Description>
+			<Description>You apply a poison to the required weapon. If your next attack with that weapon before the end of your next turn hits and deals damage, it applies the effects of the poison, provided that poison can be delivered by contact or injury. If you critically fail the attack roll, the poison is wasted as normal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; During your daily preparations, you can prepare a number of simple injury poisons equal to your rogue level. These poisons deal 1d4 poison damage. Only you can apply these poisons properly, and they expire the next time you prepare.</Description>
 		</Ability>
 		<Ability name="Scout's Warning" level="4" cost="Free">
 			<Traits>Rogue</Traits>
 			<Trigger>You are about to roll a Perception or Survival check for initiative.</Trigger>
-			<Description>You visually or audibly warn your allies of danger, granting them each a +1 circumstance bonus to their initiative rolls.Depending on whether you use gestures or call out, this action gains either the visual or auditory trait, respectively.6TH LEVEL</Description>
+			<Description>You visually or audibly warn your allies of danger, granting them each a +1 circumstance bonus to their initiative rolls.Depending on whether you use gestures or call out, this action gains either the visual or auditory trait, respectively.</Description>
 		</Ability>
 		<Ability name="Gang Up" level="6">
 			<Traits>Rogue</Traits>
@@ -448,7 +448,7 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		<Ability name="Twist The Knife" level="6" cost="One">
 			<Traits>Rogue</Traits>
 			<Requirements>Your last action was a melee Strike that dealt sneak attack damage to a flat-footed target.</Requirements>
-			<Description>After stabbing your opponent in a weak spot, you tear the wound open. You deal persistent bleed damage to the target equal to your number of sneak attack damage dice.8TH LEVEL</Description>
+			<Description>After stabbing your opponent in a weak spot, you tear the wound open. You deal persistent bleed damage to the target equal to your number of sneak attack damage dice.</Description>
 		</Ability>
 		<Ability name="Blind-fight" level="8">
 			<Traits>Rogue</Traits>
@@ -483,12 +483,12 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		<Ability name="Sly Striker" level="8">
 			<Traits>Rogue</Traits>
 			<Prerequisites>Sneak Attack</Prerequisites>
-			<Description>Your attacks deal more damage, even against creatures that aren't flat-footed. When you succeed or critically succeed at a Strike against a creature that isn't flat-footed, you also deal 1d6 precision damage. This applies only if you're using a weapon or unarmed attack you could deal sneak attack damage with. At 14th level, if you would normally deal 3d6 or more sneak attack damage to flat-footed creatures, you deal 2d6 precision damage to creatures that aren't flat?footed.10TH LEVEL</Description>
+			<Description>Your attacks deal more damage, even against creatures that aren't flat-footed. When you succeed or critically succeed at a Strike against a creature that isn't flat-footed, you also deal 1d6 precision damage. This applies only if you're using a weapon or unarmed attack you could deal sneak attack damage with. At 14th level, if you would normally deal 3d6 or more sneak attack damage to flat-footed creatures, you deal 2d6 precision damage to creatures that aren't flat-footed.</Description>
 		</Ability>
 		<Ability name="Precise Debilitations" level="10">
 			<Traits>Rogue</Traits>
-			<Prerequisites>Thief Racket,  Debilitating Strike</Prerequisites>
-			<Description>You carefully aim and gracefully deliver your debilitations.Add the following debilitations to the list you can choose from when you use Debilitating Strike.Debilitation The target takes an additional 2d6 precision damage from your attacks.Debilitation The target becomes flat-footed.</Description>
+			<Prerequisites>Thief Racket, Debilitating Strike</Prerequisites>
+			<Description>You carefully aim and gracefully deliver your debilitations.Add the following debilitations to the list you can choose from when you use Debilitating Strike.&lt;br&gt;&lt;b&gt;Debilitation&lt;/b&gt; The target takes an additional 2d6 precision damage from your attacks.&lt;br&gt;&lt;b&gt;Debilitation&lt;/b&gt; The target becomes flat-footed.</Description>
 		</Ability>
 		<Ability name="Sneak Savant" level="10">
 			<Traits>Rogue</Traits>
@@ -497,18 +497,18 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		</Ability>
 		<Ability name="Tactical Debilitations" level="10">
 			<Traits>Rogue</Traits>
-			<Prerequisites>Scoundrel Racket,  Debilitating Strike</Prerequisites>
-			<Description>You learn new debilitations that grant you tactical advantages against your foes. Add the following debilitations to the list you can choose from when you use Debilitating Strike.Debilitation The target can't use reactions.Debilitation The target can't flank or contribute to allies' flanking.</Description>
+			<Prerequisites>Scoundrel Racket, Debilitating Strike</Prerequisites>
+			<Description>You learn new debilitations that grant you tactical advantages against your foes. Add the following debilitations to the list you can choose from when you use Debilitating Strike.&lt;br&gt;&lt;b&gt;Debilitation&lt;/b&gt; The target can't use reactions.&lt;br&gt;&lt;b&gt;Debilitation&lt;/b&gt; The target can't flank or contribute to allies' flanking.</Description>
 		</Ability>
 		<Ability name="Vicious Debilitations" level="10">
 			<Traits>Rogue</Traits>
-			<Prerequisites>Ruffian Racket,  Debilitating Strike</Prerequisites>
-			<Description>The debilitations you dish out seriously impair your foes. Add the following debilitations to the list you can choose from when you use Debilitating Strike.Debilitation The target gains weakness 5 to your choice of bludgeoning, piercing, or slashing damage.Debilitation The target becomes clumsy 1.12TH LEVEL</Description>
+			<Prerequisites>Ruffian Racket, Debilitating Strike</Prerequisites>
+			<Description>The debilitations you dish out seriously impair your foes. Add the following debilitations to the list you can choose from when you use Debilitating Strike.&lt;br&gt;&lt;b&gt;Debilitation&lt;/b&gt; The target gains weakness 5 to your choice of bludgeoning, piercing, or slashing damage.&lt;br&gt;&lt;b&gt;Debilitation&lt;/b&gt; The target becomes clumsy 1.</Description>
 		</Ability>
 		<Ability name="Critical Debilitation" level="12">
 			<Traits>Incapacitation, Rogue</Traits>
 			<Prerequisites>Debilitating Strike</Prerequisites>
-			<Description>Your debilitations are especially effective on your most powerful attacks. Whenever you critically succeed at an attack roll against an enemy and use Debilitating Strike, add the following debilitation to the list you can choose from.Debilitation The target attempts a Fortitude save against your class DC with the following effects.Critical Success The target is unaffected.Dropping into a roll to disperse the force of the blow, you can partially evade a lethal attack and stay conscious. You take half damage from the triggering attack.</Description>
+			<Description>Your debilitations are especially effective on your most powerful attacks. Whenever you critically succeed at an attack roll against an enemy and use Debilitating Strike, add the following debilitation to the list you can choose from.&lt;br&gt;&lt;b&gt;Debilitation&lt;/b&gt; The target attempts a Fortitude save against your class DC with the following effects.Critical Success The target is unaffected.Dropping into a roll to disperse the force of the blow, you can partially evade a lethal attack and stay conscious. You take half damage from the triggering attack.</Description>
 		</Ability>
 		<Ability name="Instant Opening" level="14" cost="One">
 			<Traits>Concentrate, Rogue</Traits>
@@ -516,12 +516,12 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		</Ability>
 		<Ability name="Leave An Opening" level="14">
 			<Traits>Rogue</Traits>
-			<Description>When you hit hard enough, you leave an opening so your ally can jump in on the action. Whenever you critically hit a flat?footed opponent with a melee attack and deal damage, the target triggers an Attack of Opportunity reaction from one ally of your choice who has that reaction, as if the enemy had used a manipulate action.</Description>
+			<Description>When you hit hard enough, you leave an opening so your ally can jump in on the action. Whenever you critically hit a flat-footed opponent with a melee attack and deal damage, the target triggers an Attack of Opportunity reaction from one ally of your choice who has that reaction, as if the enemy had used a manipulate action.</Description>
 		</Ability>
 		<Ability name="Sense The Unseen" level="14" cost="Reaction">
 			<Traits>Rogue</Traits>
 			<Trigger>You fail a check to Seek.</Trigger>
-			<Description>When you look for foes, you catch the slightest of cues. Even though you failed at the triggering check, you automatically sense any undetected creatures in the area where you're Seeking, making them merely hidden to you.16TH LEVEL</Description>
+			<Description>When you look for foes, you catch the slightest of cues. Even though you failed at the triggering check, you automatically sense any undetected creatures in the area where you're Seeking, making them merely hidden to you.</Description>
 		</Ability>
 		<Ability name="Blank Slate" level="16">
 			<Traits>Rogue</Traits>
@@ -553,14 +553,14 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		</Ability>
 		<Ability name="Spring From The Shadows" level="12" cost="One">
 			<Traits>Flourish, Rogue</Traits>
-			<Description>Leaping out from hiding, you assail your target when they least expect it. You Stride up to your Speed, but you must end your movement next to an enemy you're hidden from or undetected by. You then Strike that enemy; you remain hidden from or undetected by that creature until after you Strike. You can use Spring from the Shadows while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.14TH LEVEL</Description>
+			<Description>Leaping out from hiding, you assail your target when they least expect it. You Stride up to your Speed, but you must end your movement next to an enemy you're hidden from or undetected by. You then Strike that enemy; you remain hidden from or undetected by that creature until after you Strike. You can use Spring from the Shadows while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.</Description>
 		</Ability>
 		<Ability name="Defensive Roll" level="14" cost="Free">
 			<Traits>Rogue</Traits>
-      <Trigger>A physical attack would reduce you to 0 Hit Points.</Trigger>
+      		<Trigger>A physical attack would reduce you to 0 Hit Points.</Trigger>
 			<Frequency>once per 10 minutes</Frequency>
 			<Requirements>You are currently affected by a mental effect that you gained by failing, but not critically failing, a saving throw.</Requirements>
-			<Description>You can find a loophole in a mental effect to temporarily overcome it. Until the end of your next turn, you ignore a single mental effect that meets the requirement. You can suppress a particular effect using Cognitive Loophole only once.Special You can use this reaction even if the mental effect is preventing you from using reactions.</Description>
+			<Description>You can find a loophole in a mental effect to temporarily overcome it. Until the end of your next turn, you ignore a single mental effect that meets the requirement. You can suppress a particular effect using Cognitive Loophole only once.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can use this reaction even if the mental effect is preventing you from using reactions.</Description>
 		</Ability>
 		<Ability name="Dispelling Slice" level="16" cost="Two">
 			<Traits>Rogue</Traits>

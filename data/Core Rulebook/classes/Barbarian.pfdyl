@@ -488,7 +488,7 @@
         </Ability>
         <Ability name="Sudden Charge" level="1" cost="Two">
             <Traits>BARBARIAN, FLOURISH, OPEN</Traits>
-            <Description>With a quick sprint, you dash up to your foe and swing. Stride twice. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy. You can use Sudden Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.2ND LEVEL</Description>
+            <Description>With a quick sprint, you dash up to your foe and swing. Stride twice. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy. You can use Sudden Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.</Description>
         </Ability>
         <Ability name="Acute Scent" level="2">
             <Traits>Barbarian</Traits>
@@ -510,7 +510,7 @@
         </Ability>
         <Ability name="Shake It Off" level="2" cost="One">
             <Traits>Barbarian, Concentrate, Rage</Traits>
-            <Description>You concentrate on your rage, overcoming fear and fighting back sickness. Reduce your frightened condition value by 1, and attempt a Fortitude save to recover from the sickened condition as if you had spent an action retching; you reduce your sickened condition value by 1 on a failure (but not on a critical failure), by 2 on a success, or by 3 on a critical success.4TH LEVEL</Description>
+            <Description>You concentrate on your rage, overcoming fear and fighting back sickness. Reduce your frightened condition value by 1, and attempt a Fortitude save to recover from the sickened condition as if you had spent an action retching; you reduce your sickened condition value by 1 on a failure (but not on a critical failure), by 2 on a success, or by 3 on a critical success.</Description>
         </Ability>
         <Ability name="Fast Movement" level="4">
             <Traits>Barbarian</Traits>
@@ -528,7 +528,7 @@
         <Ability name="Wounded Rage" level="4" cost="Reaction">
             <Traits>Barbarian, Rage</Traits>
             <Trigger>You take damage and are capable of entering a rage.</Trigger>
-            <Description>You roar in pain, awakening the rage within you. You Rage.6TH LEVEL</Description>
+            <Description>You roar in pain, awakening the rage within you. You Rage.</Description>
         </Ability>
         <Ability name="Animal Skin" level="6">
             <Traits>Barbarian, Instinct, Morph, Primal, Transmutation</Traits>
@@ -565,7 +565,7 @@
         <Ability name="Spirits' Interference" level="6" cost="One">
             <Traits>Barbarian, Divine, Instinct, Necromancy, Rage</Traits>
             <Prerequisites>Spirit Instinct</Prerequisites>
-            <Description>You call forth protective spirits to ward off ranged attacks. Until your rage ends, anyone making a ranged attack against you must succeed at a DC 5 flat check or the attack misses with no effect.8TH LEVEL</Description>
+            <Description>You call forth protective spirits to ward off ranged attacks. Until your rage ends, anyone making a ranged attack against you must succeed at a DC 5 flat check or the attack misses with no effect.</Description>
         </Ability>
         <Ability name="Animal Rage" level="8" cost="One">
             <Traits>Barbarian, Concentrate, Instinct, Polymorph, Primal, Rage, Transmutation</Traits>
@@ -593,7 +593,7 @@
         <Ability name="Thrash" level="8" cost="One">
             <Traits>Barbarian, Rage</Traits>
             <Requirements>You have a foe grabbed.</Requirements>
-            <Description>You thrash the grabbed foe around. It takes bludgeoning damage equal to your Strength modifier plus your ferocious specialization damage plus your Rage damage. The foe must attempt a basic Fortitude save against your class DC.10TH LEVEL</Description>
+            <Description>You thrash the grabbed foe around. It takes bludgeoning damage equal to your Strength modifier plus your ferocious specialization damage plus your Rage damage. The foe must attempt a basic Fortitude save against your class DC.1</Description>
         </Ability>
         <Ability name="Come And Get Me" level="10" cost="One">
             <Traits>Barbarian, Concentrate, Rage</Traits>
@@ -616,7 +616,7 @@
         <Ability name="Terrifying Howl" level="10" cost="One">
             <Traits>Auditory, Barbarian, Rage</Traits>
             <Prerequisites>Intimidating Glare</Prerequisites>
-            <Description>You unleash a terrifying howl. Attempt Intimidation checks to Demoralize each creature within 30 feet. Regardless of the results of your checks, each creature is then temporarily immune to Terrifying Howl for 1 minute.12TH LEVEL</Description>
+            <Description>You unleash a terrifying howl. Attempt Intimidation checks to Demoralize each creature within 30 feet. Regardless of the results of your checks, each creature is then temporarily immune to Terrifying Howl for 1 minute.1</Description>
         </Ability>
         <Ability name="Dragon's Rage Wings" level="12" cost="One">
             <Traits>Barbarian, Instinct, Morph, Primal, Rage, Transmutation</Traits>
@@ -642,7 +642,7 @@
         <Ability name="Titan's Stature" level="12">
             <Traits>Barbarian, Instinct, Polymorph, Transmutation</Traits>
             <Prerequisites>Giant Instinct, Giant's Stature</Prerequisites>
-            <Description>You grow to even greater size. When using Giant's Stature, you can instead become Huge (increasing your reach by 10 feet if you were Medium or smaller) while you are raging.You have the clumsy 1 condition as long as you are Huge.14TH LEVEL</Description>
+            <Description>You grow to even greater size. When using Giant's Stature, you can instead become Huge (increasing your reach by 10 feet if you were Medium or smaller) while you are raging.You have the clumsy 1 condition as long as you are Huge.1</Description>
         </Ability>
         <Ability name="Awesome Blow" level="14">
             <Traits>Barbarian, Concentrate, Rage</Traits>
@@ -663,7 +663,7 @@
         </Ability>
         <Ability name="Whirlwind Strike" level="14" cost="Three">
             <Traits>Barbarian, Flourish, Open</Traits>
-            <Description>You attack all nearby adversaries. Make a melee Strike against each enemy within your melee reach. Each attack counts toward your multiple attack penalty, but do not increase your penalty until you have made all your attacks.16TH LEVEL</Description>
+            <Description>You attack all nearby adversaries. Make a melee Strike against each enemy within your melee reach. Each attack counts toward your multiple attack penalty, but do not increase your penalty until you have made all your attacks.1</Description>
         </Ability>
         <Ability name="Collateral Thrash" level="16">
             <Traits>Barbarian, Rage</Traits>
@@ -678,7 +678,7 @@
         <Ability name="Reckless Abandon" level="16" cost="Free">
             <Traits>Barbarian, Rage</Traits>
             <Trigger>Your turn begins, and you are at half or fewer Hit Points.</Trigger>
-            <Description>Your blood boils when you take a beating, and you throw caution to the wind to finish the fight. You gain a +2 circumstance bonus to attack rolls, a –2 penalty to AC, and a –1 penalty to saves. These bonuses and penalties last until your Rage ends or until you are above half Hit Points, whichever comes first.18TH LEVEL</Description>
+            <Description>Your blood boils when you take a beating, and you throw caution to the wind to finish the fight. You gain a +2 circumstance bonus to attack rolls, a –2 penalty to AC, and a –1 penalty to saves. These bonuses and penalties last until your Rage ends or until you are above half Hit Points, whichever comes first.1</Description>
         </Ability>
         <Ability name="Brutal Critical" level="18">
             <Traits>Barbarian</Traits>
@@ -691,7 +691,7 @@
         </Ability>
         <Ability name="Vicious Evisceration" level="18">
             <Traits>Barbarian, Rage</Traits>
-            <Description>You make a vicious attack that maims your enemy. Make a melee Strike. If the Strike hits and deals damage, the target is drained 1, or drained 2 on a critical success.20TH LEVEL</Description>
+            <Description>You make a vicious attack that maims your enemy. Make a melee Strike. If the Strike hits and deals damage, the target is drained 1, or drained 2 on a critical success.2</Description>
         </Ability>
         <Ability name="Contagious Rage" level="20">
             <Traits>Auditory, Barbarian, Rage, Visual</Traits>

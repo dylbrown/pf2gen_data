@@ -362,7 +362,7 @@
         <Ability name="Enhanced Familiar" level="2" page="134">
             <Traits>Sorcerer</Traits>
             <Prerequisites>A Familiar</Prerequisites>
-            <Description>You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two.Special (Wizard) If your arcane thesis is improved familiar attunement, your familiar's base number of familiar abilities, before adding any extra abilities from the arcane thesis, is four.</Description>
+            <Description>You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; (Wizard) If your arcane thesis is improved familiar attunement, your familiar's base number of familiar abilities, before adding any extra abilities from the arcane thesis, is four.</Description>
         </Ability>
         <Ability name="Arcane Evolution" level="4" page="199">
             <Traits>Arcane, Sorcerer</Traits>
@@ -430,7 +430,7 @@
         </Ability>
         <Ability name="Magic Sense" level="12" page="211">
             <Traits>Detection, Divination, Sorcerer</Traits>
-            <Description>You have a literal sixth sense for ambient magic in your vicinity. You can sense the presence of magic auras as though you were always using a 1st-level detect magic spell. This detects magic in your field of vision only. When you Seek, you gain the benefits of a 3rd-level detect magic spell on things you see (in addition to the normal benefits of Seeking). You can turn this sense off and on with a free action at the start or the end of your turn.Special (Wizard) This feat has the Arcane trait.</Description>
+            <Description>You have a literal sixth sense for ambient magic in your vicinity. You can sense the presence of magic auras as though you were always using a 1st-level detect magic spell. This detects magic in your field of vision only. When you Seek, you gain the benefits of a 3rd-level detect magic spell on things you see (in addition to the normal benefits of Seeking). You can turn this sense off and on with a free action at the start or the end of your turn.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; (Wizard) This feat has the Arcane trait.</Description>
         </Ability>
         <Ability name="Interweave Dispel" level="14" page="201" cost="1">
             <Traits>Metamagic, Sorcerer</Traits>

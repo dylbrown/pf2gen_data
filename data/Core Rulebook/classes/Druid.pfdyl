@@ -406,7 +406,7 @@
         </Ability>
         <Ability name="Order Explorer" level="2" page="134">
             <Traits>Druid</Traits>
-            <Description>You have learned the secrets of another druidic order, passing whatever rites of initiation that order requires and gaining access to its secrets. Choose an order other than your own. You gain a 1st-level feat that lists that order as a prerequisite, and you are now a member of that order for the purpose of meeting feat prerequisites. If you commit acts anathema to your new order, you lose all feats and abilities requiring that order but retain your other druid feats and abilities. You don't gain any of the other benefits of the order you chose.Special You can take this feat multiple times. Each time you do, you must choose a different order other than your own.</Description>
+            <Description>You have learned the secrets of another druidic order, passing whatever rites of initiation that order requires and gaining access to its secrets. Choose an order other than your own. You gain a 1st-level feat that lists that order as a prerequisite, and you are now a member of that order for the purpose of meeting feat prerequisites. If you commit acts anathema to your new order, you lose all feats and abilities requiring that order but retain your other druid feats and abilities. You don't gain any of the other benefits of the order you chose.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat multiple times. Each time you do, you must choose a different order other than your own.</Description>
             <AbilitySlot state="choice" name="Extra Order">
                 <Ability name="Animal Order">
                     <Description>Committing wanton cruelty to animals or killing animals unnecessarily is anathema to your order. (This doesn't prevent you from defending yourself against animals or killing them cleanly for food.)</Description>
@@ -444,7 +444,7 @@
         <Ability name="Order Magic" level="4" page="135">
             <Traits>Druid</Traits>
             <Prerequisites>Order Explorer</Prerequisites>
-            <Description>You have delved deeper into the teaching of a new order, gaining access to a coveted order spell. Choose an order you have selected with Order Explorer. You gain the initial order spell from that order.Special You can take this feat multiple times. Each time you do, you must choose a different order you have selected with Order Explorer.</Description>
+            <Description>You have delved deeper into the teaching of a new order, gaining access to a coveted order spell. Choose an order you have selected with Order Explorer. You gain the initial order spell from that order.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat multiple times. Each time you do, you must choose a different order you have selected with Order Explorer.</Description>
             <AbilitySlot state="choice" name="Extra Order Magic">
                 <Ability name="Animal Order Magic">
                     <Prerequisites>Animal Order</Prerequisites>
