@@ -171,12 +171,7 @@
         <AbilitySlot state="filled" name="Ability Boosts">
             <Ability abilityBoosts="4"/>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Alertness">
-            <Ability>
-                <Description>You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</Description>
-                <AttributeMods Proficiency="Expert">Perception</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Alertness" type="ClassFeature" contents="Alertness" />
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
@@ -242,12 +237,7 @@
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
-        <AbilitySlot state="filled" name="Lightning Reflexes">
-            <Ability>
-                <Description>Your reflexes are lightning fast. Your proficiency rank for Reflex saves increases to expert.</Description>
-                <AttributeMods Proficiency="Expert">Reflex</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Lightning Reflexes" type="ClassFeature" contents="Lightning Reflexes" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
@@ -415,7 +405,7 @@
             <Traits>Cleric, Concentrate, Metamagic</Traits>
             <Prerequisites>Harmful Font</Prerequisites>
             <Requirements>Evil Alignment</Requirements>
-            <Description>You grasp the animating force within an undead creature and bend it to your will. If the next action you use is to cast harm targeting one undead creature, you transform the effects of that harm spell. Instead of harm's normal effects, the target becomes controlled by you if its level is equal to or lower than your level – 3. It can attempt a Will saving throw to resist being controlled by you. If the target is already under someone else's command, the controlling creature also rolls a saving throw, and the undead uses the better result. Critical Success The target is unaffected and is temporarily immune for 24 hours.Success The target is unaffected.Failure The undead creature becomes a minion under your control. The spell gains a duration of 1 minute, but it is dismissed if you or an ally attacks the minion undead.Critical Failure As failure, but the duration is 1 hour.</Description>
+            <Description>You grasp the animating force within an undead creature and bend it to your will. If the next action you use is to cast harm targeting one undead creature, you transform the effects of that harm spell. Instead of harm's normal effects, the target becomes controlled by you if its level is equal to or lower than your level – 3. It can attempt a Will saving throw to resist being controlled by you. If the target is already under someone else's command, the controlling creature also rolls a saving throw, and the undead uses the better result. Critical Success The target is unaffected and is temporarily immune for 24 hours.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The undead creature becomes a minion under your control. The spell gains a duration of 1 minute, but it is dismissed if you or an ally attacks the minion undead.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but the duration is 1 hour.</Description>
         </Ability>
         <Ability name="Directed Channel" level="4" page="123">
             <Traits>Cleric</Traits>

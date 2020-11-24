@@ -19,9 +19,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<Ability name="Cavern Elf" type="Heritage">
             <Description>You were born or spent many years in underground tunnels or caverns where light is scarce. You gain darkvision.</Description>
+            <!--TODO: Support this-->
         </Ability>
 		<Ability name="Seer Elf" type="Heritage">
             <Description>You have an inborn ability to detect and understand magical phenomena. You can cast the detect magic cantrip as an arcane innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.&lt;br&gt;&lt;br&gt;In addition, you gain a +1 circumstance bonus to checks to Identify Magic and to Decipher Writing of a magical nature. These skill actions typically use the Arcana, Nature, Occultism, or Religion skill.</Description>
+            <Spell type="Focus" name="Detect Magic"/>
         </Ability>
 		<Ability name="Whisper Elf" type="Heritage">
             <Description>Your ears are finely tuned, able to detect even the slightest whispers of sound. As long as you can hear normally, you can use the Seek action to sense undetected creatures in a 60-foot cone instead of a 30-foot cone. You also gain a +2 circumstance bonus to locate undetected creatures that you could hear within 30 feet with a Seek action.</Description>
@@ -40,12 +42,26 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		<Ability name="Elven Weapon Familiarity" level="1">
             <Description>You favor bows and other elegant weapons. You are trained with longbows, composite longbows, longswords, rapiers, shortbows, and composite shortbows.&lt;br&gt;&lt;br&gt;In addition, you gain access to all uncommon elf weapons.&lt;br&gt;&lt;br&gt;For the purpose of determining your proficiency, martial elf weapons are simple weapons and advanced elf weapons are martial weapons.</Description>
             <CustomMod>
+                import model.items.weapons.Weapon;
+                import model.enums.Trait;
+                import model.enums.WeaponProficiency;
                 weaponProficiency("longbow", "Trained");
                 weaponProficiency("composite longbow", "Trained");
                 weaponProficiency("longsword", "Trained");
                 weaponProficiency("rapier", "Trained");
                 weaponProficiency("shortbow", "Trained");
                 weaponProficiency("composite shortbow", "Trained");
+                weaponProficiencyTranslator({item,proficiency -> {
+                    def weapon = item.getExtension(Weapon.class);
+                    if(item.getTraits().contains(get("sources.traits").find("Elf"))) {
+                        if(proficiency == WeaponProficiency.Martial) {
+                            proficiency = WeaponProficiency.Simple;
+                        } else if(proficiency == WeaponProficiency.Advanced) {
+                            proficiency = WeaponProficiency.Martial;
+                        }
+                    }
+                    return proficiency;
+                }});
             </CustomMod>
         </Ability>
 		<Ability name="Forlorn" level="1">
@@ -53,6 +69,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<Ability name="Nimble Elf" level="1">
             <Description>Your muscles are tightly honed. Your Speed increases by 5 feet.</Description>
+            <CustomMod recalculate="Never">
+                bonus("speed", 5);
+            </CustomMod>
         </Ability>
 		<Ability name="Otherworldly Magic" level="1">
             <Description>Your elven magic manifests as a simple arcane spell, even if you aren't formally trained in magic. Choose one cantrip from the arcane spell list. You can cast this cantrip as an arcane innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</Description>
@@ -78,11 +97,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<Ability name="Universal Longevity" level="13" cost="1">
 			<Frequency>1/Day</Frequency>
-            <Description>Frequency: once per day&lt;br&gt;&lt;br&gt;You've perfected your ability to keep up with all the skills you've learned over your long life, so you're almost never truly untrained at a skill. You reflect on your life experiences, changing the skills you selected with Elven Longevity and Expert Longevity.</Description>
+            <Description>You've perfected your ability to keep up with all the skills you've learned over your long life, so you're almost never truly untrained at a skill. You reflect on your life experiences, changing the skills you selected with Elven Longevity and Expert Longevity.</Description>
         </Ability>
 		<Ability name="Elven Weapon Expertise" level="13">
 			<Prerequisites>Elven Weapon Familiarity</Prerequisites>
             <Description>Your elven affinity blends with your class training, granting you great skill with elven weapons. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in longbows, composite longbows, longswords, rapiers, shortbows, composite shortbows, and all elf weapons in which you are trained.</Description>
+            <!--TODO: Support this-->
         </Ability>
     </Feats>
 </pf2:ancestry>

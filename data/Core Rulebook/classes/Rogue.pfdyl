@@ -5,6 +5,7 @@
 	<Name>Rogue</Name>
 	<HP>8</HP>
 	<AbilityChoices>Str or Dex or Cha</AbilityChoices>
+	<!--TODO: Replace these ability choices with added by racket-->
 	<SkillIncreases>7</SkillIncreases>
 	<Description> You are skilled and opportunistic. Using your sharp wits and quick reactions, you take advantage of your opponents' missteps and strike where it hurts most. You play a dangerous game, seeking thrills and testing your skills, and likely don't care much for any laws that happen to get in your way. While the path of every rogue is unique and riddled with danger, the one thing you all share in common is the breadth and depth of your skills.</Description>
 	<FeatureList level="1">
@@ -123,6 +124,12 @@ You aren't flat-footed to hidden, undetected, or flanking creatures of your leve
 				<Description>You have become thoroughly familiar with the tools of your trade. You gain expert proficiency in simple weapons, as well as the rapier, sap, shortbow, and shortsword.
 
 When you critically succeed at an attack roll against a flat-footed creature while using an agile or finesse simple weapon or any of the listed weapons, you apply the critical specialization effect for the weapon you're wielding.</Description>
+				<CustomMod>
+					weaponProficiency("rapier", "Expert");
+					weaponProficiency("sap", "Expert");
+					weaponProficiency("shortbow", "Expert");
+					weaponProficiency("shortsword", "Expert");
+				</CustomMod>
 				<AttributeMods Proficiency="Expert">Simple Weapons</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -135,23 +142,13 @@ When you critically succeed at an attack roll against a flat-footed creature whi
 		</AbilitySlot>
 	</FeatureList>
 	<FeatureList level="7">
-		<AbilitySlot state="filled" name="Evasion">
-			<Ability>
-				<Description>You've learned to move quickly to avoid explosions, dragons' breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</Description>
-				<AttributeMods Proficiency="Master">Reflex</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Evasion" type="ClassFeature" contents="Evasion" />
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
 		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
 		<AbilitySlot state="filled" name="Skill Increase">
 			<Ability skillIncrease="true"/>
 		</AbilitySlot>
-		<AbilitySlot state="filled" name="Vigilant Senses">
-			<Ability>
-				<Description>Through your adventures, you've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master.</Description>
-				<AttributeMods Proficiency="Master">Perception</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Vigilant Senses" type="ClassFeature" contents="Vigilant Senses" />
 		<AbilitySlot state="filled" name="Weapon Specialization" type="ClassFeature" contents="Weapon Specialization" />
 	</FeatureList>
 	<FeatureList level="8">
@@ -179,12 +176,7 @@ When you critically succeed at an attack roll against a flat-footed creature whi
 				</AbilitySlot>
 			</Ability>
 		</AbilitySlot>
-		<AbilitySlot state="filled" name="Great Fortitude">
-			<Ability>
-				<Description>Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert.</Description>
-				<AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Great Fortitude" type="ClassFeature" contents="Great Fortitude" />
 		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
 		<AbilitySlot state="filled" name="Skill Increase">
 			<Ability skillIncrease="true"/>
@@ -222,29 +214,18 @@ When you critically succeed at an attack roll against a flat-footed creature whi
 	</FeatureList>
 	<FeatureList level="13">
 		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
-		<AbilitySlot state="filled" name="Improved Evasion">
-			<Ability>
-				<Description>You elude danger to a degree that few can match.
-
-Your proficiency rank for Reflex saves increases to legendary. When you roll a critical failure on a Reflex save, you get a failure instead. When you fail a Reflex save against a damaging effect, you take half damage.</Description>
-				<AttributeMods Proficiency="Legendary">Reflex</AttributeMods>
-			</Ability>
-		</AbilitySlot>
-		<AbilitySlot state="filled" name="Incredible Senses">
-			<Ability>
-				<Description>You notice things almost impossible for an ordinary person to detect. Your proficiency rank for Perception increases to legendary.</Description>
-				<AttributeMods Proficiency="Legendary">Perception</AttributeMods>
-			</Ability>
-		</AbilitySlot>
-		<AbilitySlot state="filled" name="Light Armor Expertise">
-			<Ability>
-				<Description>You've learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert.</Description>
-				<AttributeMods Proficiency="Expert">Light Armor, Unarmored</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Improved Evasion" type="ClassFeature" contents="Improved Evasion" />
+		<AbilitySlot state="filled" name="Incredible Senses" type="ClassFeature" contents="Incredible Senses" />
+		<AbilitySlot state="filled" name="Light Armor Expertise" type="ClassFeature" contents="Light Armor Expertise" />
 		<AbilitySlot state="filled" name="Master Tricks">
 			<Ability>
 				<Description>You've mastered a rogue's fighting moves. Your proficiency ranks increase to master for all simple weapons plus the rapier, sap, shortbow, and shortsword.</Description>
+				<CustomMod>
+					weaponProficiency("rapier", "Master");
+					weaponProficiency("sap", "Master");
+					weaponProficiency("shortbow", "Master");
+					weaponProficiency("shortsword", "Master");
+				</CustomMod>
 				<AttributeMods Proficiency="Master">Simple Weapons</AttributeMods>
 			</Ability>
 		</AbilitySlot>
@@ -266,9 +247,7 @@ Your proficiency rank for Reflex saves increases to legendary. When you roll a c
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Double Debilitation">
 			<Ability>
-				<Description>Your opportunistic attacks are particularly detrimental.
-
-When you use Debilitating Strike, you can apply two debilitations simultaneously; removing one removes both.</Description>
+				<Description>Your opportunistic attacks are particularly detrimental. When you use Debilitating Strike, you can apply two debilitations simultaneously; removing one removes both.</Description>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
@@ -307,12 +286,7 @@ When you use Debilitating Strike, you can apply two debilitations simultaneously
 	</FeatureList>
 	<FeatureList level="19">
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
-		<AbilitySlot state="filled" name="Light Armor Mastery">
-			<Ability>
-				<Description>Your skill with light armor improves, increasing your ability to dodge blows. Your proficiency ranks for light armor and unarmored defense increase to master.</Description>
-				<AttributeMods Proficiency="Master">Light Armor, Unarmored</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Light Armor Mastery" type="ClassFeature" contents="Light Armor Mastery" />
 		<AbilitySlot state="filled" name="Master Strike">
 			<Ability>
 				<Description>You can incapacitate an unwary foe with a single strike.
@@ -322,18 +296,10 @@ Your proficiency rank for your rogue class DC increases to master. You gain the 
 					<Ability cost="Free">
 						<Traits>Incapacitation, Rogue</Traits>
 						<Trigger>Your Strike hits a flat-footed creature and deals damage.</Trigger>
-						<Description>The target attempts a Fortitude save at your class DC. It then becomes temporarily immune to your Master Strike for 1 day.
-
-Critical Success The target is unaffected.
-
-Success The target is enfeebled 2 until the end of your next turn.
-
-Failure The target is paralyzed for 4 rounds.
-
-Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2 hours, or killed (your choice).</Description>
+						<Description>The target attempts a Fortitude save at your class DC. It then becomes temporarily immune to your Master Strike for 1 day.&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is enfeebled 2 until the end of your next turn.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target is paralyzed for 4 rounds.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target is paralyzed for 4 rounds, knocked unconscious for 2 hours, or killed (your choice).</Description>
 					</Ability>
 				</AbilitySlot>
-        <AttributeMods Proficiency="Master">Class DC (Rogue)</AttributeMods>
+       	 		<AttributeMods Proficiency="Master">Class DC (Rogue)</AttributeMods>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
@@ -403,7 +369,7 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		</Ability>
 		<Ability name="Battle Assessment" level="4" cost="One">
 			<Traits>Rogue, Secret</Traits>
-			<Description>With careful observation during battle, you identify an enemy's strengths and weaknesses. The GM rolls a secret Perception check for you against the Deception or Stealth DC (whichever is higher) of an enemy of your choice who is not concealed from you, hidden from you, or undetected by you, and who is engaged in combat. The GM might apply a penalty for the distance between you and the enemy. The enemy is then temporarily immune to your Battle Assessment for 1 day.Critical Success The GM chooses two of the following pieces of information about the enemy to tell you: which of the enemy's weaknesses is highest, which of the enemy's saving throws has the lowest modifier, one immunity the enemy has, or which of the enemy's resistances is highest.If the event of a tie, the GM should pick one at random.Success The GM chooses one piece of information from the above list to tell you about the enemy.Critical Failure The GM gives you false information (the GM makes up the information).</Description>
+			<Description>With careful observation during battle, you identify an enemy's strengths and weaknesses. The GM rolls a secret Perception check for you against the Deception or Stealth DC (whichever is higher) of an enemy of your choice who is not concealed from you, hidden from you, or undetected by you, and who is engaged in combat. The GM might apply a penalty for the distance between you and the enemy. The enemy is then temporarily immune to your Battle Assessment for 1 day.&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The GM chooses two of the following pieces of information about the enemy to tell you: which of the enemy's weaknesses is highest, which of the enemy's saving throws has the lowest modifier, one immunity the enemy has, or which of the enemy's resistances is highest.If the event of a tie, the GM should pick one at random.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The GM chooses one piece of information from the above list to tell you about the enemy.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The GM gives you false information (the GM makes up the information).</Description>
 		</Ability>
 		<Ability name="Dread Striker" level="4">
 			<Traits>Rogue</Traits>
@@ -417,7 +383,7 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		<Ability name="Sabotage" level="4" cost="One">
 			<Traits>Incapacitation, Rogue</Traits>
 			<Requirements>You have a free hand.</Requirements>
-			<Description>You subtly damage others' equipment. Choose one item that a creature within your reach wields or carries. The item must have moving parts that you could possibly sabotage (a shortbow could be sabotaged, but a longsword could not). Attempt a Thievery check against the Reflex DC of the creature. Damage dealt by Sabotage can't take the item below its Break Threshold.Critical Success You deal damage equal to four times your Thievery proficiency bonus.Success You deal damage equal to double your Thievery proficiency bonus.Critical Failure Temporarily immune to your Sabotage for 1 day.</Description>
+			<Description>You subtly damage others' equipment. Choose one item that a creature within your reach wields or carries. The item must have moving parts that you could possibly sabotage (a shortbow could be sabotaged, but a longsword could not). Attempt a Thievery check against the Reflex DC of the creature. Damage dealt by Sabotage can't take the item below its Break Threshold.&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; You deal damage equal to four times your Thievery proficiency bonus.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; You deal damage equal to double your Thievery proficiency bonus.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; Temporarily immune to your Sabotage for 1 day.</Description>
 		</Ability>
 		<Ability name="Magical Trickster" level="4">
 			<Traits>Rogue</Traits>
@@ -426,7 +392,7 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		<Ability name="Poison Weapon" level="4" cost="One">
 			<Traits>Manipulate, Rogue</Traits>
 			<Requirements>You are wielding a piercing or slashing weapon and have a free hand.</Requirements>
-			<Description>You apply a poison to the required weapon. If your next attack with that weapon before the end of your next turn hits and deals damage, it applies the effects of the poison, provided that poison can be delivered by contact or injury. If you critically fail the attack roll, the poison is wasted as normal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; During your daily preparations, you can prepare a number of simple injury poisons equal to your rogue level. These poisons deal 1d4 poison damage. Only you can apply these poisons properly, and they expire the next time you prepare.</Description>
+			<Description>You apply a poison to the required weapon. If your next attack with that weapon before the end of your next turn hits and deals damage, it applies the effects of the poison, provided that poison can be delivered by contact or injury. If you critically fail the attack roll, the poison is wasted as normal.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; During your daily preparations, you can prepare a number of simple injury poisons equal to your rogue level. These poisons deal 1d4 poison damage. Only you can apply these poisons properly, and they expire the next time you prepare.</Description>
 		</Ability>
 		<Ability name="Scout's Warning" level="4" cost="Free">
 			<Traits>Rogue</Traits>
@@ -458,7 +424,7 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		<Ability name="Delay Trap" level="8" cost="Reaction">
 			<Traits>Rogue</Traits>
 			<Trigger>A trap within your reach is triggered.</Trigger>
-			<Description>You can jam the workings of a trap to delay its effects. Attempt a Thievery check to Disable a Device on the trap; the DC to do so is increased by 5, and the effects are as follows.Critical Success You prevent the trap from being triggered, or you delay the activation until the start or end of your next turn (your choice).Success You prevent the trap from being triggered, or you delay the activation until the end of your next turn (whichever is worse for you; GM's choice).Failure No effect.Critical Failure You're flat-footed until the start of your next turn.</Description>
+			<Description>You can jam the workings of a trap to delay its effects. Attempt a Thievery check to Disable a Device on the trap; the DC to do so is increased by 5, and the effects are as follows.&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; You prevent the trap from being triggered, or you delay the activation until the start or end of your next turn (your choice).&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; You prevent the trap from being triggered, or you delay the activation until the end of your next turn (whichever is worse for you; GM's choice).&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; No effect.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You're flat-footed until the start of your next turn.</Description>
 		</Ability>
 		<Ability name="Improved Poison Weapon" level="8">
 			<Traits>Rogue</Traits>
@@ -508,7 +474,7 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		<Ability name="Critical Debilitation" level="12">
 			<Traits>Incapacitation, Rogue</Traits>
 			<Prerequisites>Debilitating Strike</Prerequisites>
-			<Description>Your debilitations are especially effective on your most powerful attacks. Whenever you critically succeed at an attack roll against an enemy and use Debilitating Strike, add the following debilitation to the list you can choose from.&lt;br&gt;&lt;b&gt;Debilitation&lt;/b&gt; The target attempts a Fortitude save against your class DC with the following effects.Critical Success The target is unaffected.Dropping into a roll to disperse the force of the blow, you can partially evade a lethal attack and stay conscious. You take half damage from the triggering attack.</Description>
+			<Description>Your debilitations are especially effective on your most powerful attacks. Whenever you critically succeed at an attack roll against an enemy and use Debilitating Strike, add the following debilitation to the list you can choose from.&lt;br&gt;&lt;b&gt;Debilitation&lt;/b&gt; The target attempts a Fortitude save against your class DC with the following effects.&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.Dropping into a roll to disperse the force of the blow, you can partially evade a lethal attack and stay conscious. You take half damage from the triggering attack.</Description>
 		</Ability>
 		<Ability name="Instant Opening" level="14" cost="One">
 			<Traits>Concentrate, Rogue</Traits>
@@ -536,7 +502,7 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		<Ability name="Cognitive Loophole" level="16" cost="Reaction">
 			<Traits>Rogue</Traits>
 			<Trigger>Your turn ends.</Trigger>
-			<Description>Success The target is slowed 1 until the end of your next turn.Failure The target is slowed 2 until the end of your next turn.Critical Failure The target is paralyzed until the end of your next turn.</Description>
+			<Description>Success The target is slowed 1 until the end of your next turn.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target is slowed 2 until the end of your next turn.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target is paralyzed until the end of your next turn.</Description>
 		</Ability>
 		<Ability name="Fantastic Leap" level="12" cost="Two">
 			<Traits>Rogue</Traits>
@@ -544,7 +510,7 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		</Ability>
 		<Ability name="Felling Shot" level="12" cost="Two">
 			<Traits>Rogue</Traits>
-			<Description>Your ranged attacks can shoot an unprepared foe right out of the air. Make a Strike with a ranged weapon or a thrown weapon against a flat-footed creature. If the Strike is a success and deals damage, the target must attempt a Reflex save against your class DC with the following effects.Success The target is unaffected.Failure The target falls up to 120 feet. If it hits the ground, it takes no damage from the fall.Critical Failure As failure, and the target can't fly, jump, levitate, or otherwise leave the ground until the end of your next turn.</Description>
+			<Description>Your ranged attacks can shoot an unprepared foe right out of the air. Make a Strike with a ranged weapon or a thrown weapon against a flat-footed creature. If the Strike is a success and deals damage, the target must attempt a Reflex save against your class DC with the following effects.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target falls up to 120 feet. If it hits the ground, it takes no damage from the fall.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, and the target can't fly, jump, levitate, or otherwise leave the ground until the end of your next turn.</Description>
 		</Ability>
 		<Ability name="Reactive Interference" level="12" cost="Reaction">
 			<Traits>Rogue</Traits>
@@ -560,7 +526,7 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
       		<Trigger>A physical attack would reduce you to 0 Hit Points.</Trigger>
 			<Frequency>once per 10 minutes</Frequency>
 			<Requirements>You are currently affected by a mental effect that you gained by failing, but not critically failing, a saving throw.</Requirements>
-			<Description>You can find a loophole in a mental effect to temporarily overcome it. Until the end of your next turn, you ignore a single mental effect that meets the requirement. You can suppress a particular effect using Cognitive Loophole only once.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can use this reaction even if the mental effect is preventing you from using reactions.</Description>
+			<Description>You can find a loophole in a mental effect to temporarily overcome it. Until the end of your next turn, you ignore a single mental effect that meets the requirement. You can suppress a particular effect using Cognitive Loophole only once.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can use this reaction even if the mental effect is preventing you from using reactions.</Description>
 		</Ability>
 		<Ability name="Dispelling Slice" level="16" cost="Two">
 			<Traits>Rogue</Traits>
@@ -573,8 +539,8 @@ Critical Failure The target is paralyzed for 4 rounds, knocked unconscious for 2
 		</Ability>
 		<Ability name="Implausible Infiltration" level="18" cost="Two">
 			<Traits>Magical, Move, Rogue</Traits>
-      <Prerequisites> Quick Squeeze</Prerequisites>
-      <Requires>Legendary In Acrobatics</Requires>
+			<Prerequisites> Quick Squeeze</Prerequisites>
+			<Requires>Legendary In Acrobatics</Requires>
 			<Requirements>You are adjacent to a floor or vertical wall.</Requirements>
 			<Description>You find tiny holes or imperfections that no one else could see and try to somehow fit yourself through them, possibly moving directly through the wall or floor from one side to the other. Your movement attempt fails if the wall or floor is made of something other than wood, plaster, or stone; is thicker than 10 feet; or contains even a thin layer of metal. If you have a climb Speed, you can use this ability to attempt to move through a ceiling.</Description>
 		</Ability>

@@ -1,0 +1,459 @@
+<?xml version = "1.0"?>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Name>Investigator</Name>
+    <HP>8</HP>
+    <AbilityChoices>Int</AbilityChoices>
+    <SkillIncreases>4</SkillIncreases>
+    <Description>You seek to uncover the truth, doggedly pursuing leads to reveal the plots of devious villains, discover ancient secrets, or unravel other mysteries. Your analytical mind quickly formulates solutions to complicated problems and your honed senses identify even the most obscure clues. Wielding knowledge as a weapon, you study the creatures and dangers you encounter to exploit their weaknesses.</Description>
+    <FeatureList level="1">
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
+        <AbilitySlot state="filled" name="Initial Proficiencies">
+            <Ability>
+                <AttributeMods Proficiency="Trained">
+                    Fortitude, Society, Simple Weapons, Martial Weapons, Unarmed, Unarmored, Light Armor, Class DC (Investigator)
+                </AttributeMods>
+                <AttributeMods Proficiency="Expert">
+                    Perception, Reflex, Will
+                </AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="On The Case">
+            <Ability>
+                <Description>As an investigator, you think of your adventures as cases waiting to be solved. You gain one activity and one reaction you can use to investigate cases: Pursue a Lead and Clue In.</Description>
+                <AbilitySlot state="filled" name="Pursue a Lead">
+                    <Ability page="56" cost="Exploration">
+                        <Traits>Concentrate, Exploration, Investigator</Traits>
+                        <Trigger>Another creature attempts a check to investigate a lead you're pursuing.</Trigger>
+                        <Frequency>once per 10 minutes</Frequency>
+                        <Description>You spend 1 minute examining the details of one potential clue, designating the subject related to that clue as the target of your active investigation. This subject is typically a single creature, item, or small location (such as a room or corridor), but the GM might allow a different scope for your investigation. You don't need to know the identity, purpose, or nature of the subject, but you do need to be aware of its existence. For instance, finding a footprint is enough to investigate the creature that left it, and seeing a hasty sketch of an item or location can be enough to start your investigation of that subject.&lt;br&gt;&lt;br&gt;Whenever you attempt a Perception or skill check to investigate a designated subject, you gain a +1 circumstance bonus to the check. The exact checks this applies to depend on the actions you use to investigate and are determined by the GM, but checks to investigate are typically Perception checks or skill checks that use Intelligence, Wisdom, or Charisma.&lt;br&gt;&lt;br&gt;You can maintain two active investigations at a time. If you Pursue another Lead after that, the subject must be different from any of your current investigations (or rather, they must be different as far as you know), and you give up on a current subject of your choice. Once you've given up pursuit of a subject, you can't Pursue that Lead again until after the next time you make your daily preparations.</Description>
+                    </Ability>
+                </AbilitySlot>
+                <AbilitySlot state="filled" name="Clue In">
+                    <Ability page="56" cost="Reaction">
+                        <Traits>Concentrate, Investigator</Traits>
+                        <Frequency>once per 10 minutes</Frequency>
+                        <Description>You share information with the triggering creature. They gain a circumstance bonus to their check equal to your circumstance bonus to checks investigating your subject from Pursue a Lead. The GM can add any relevant traits to this reaction depending on the situation, such as auditory and linguistic if you're conveying information verbally.</Description>
+                    </Ability>
+                </AbilitySlot>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Devise A Stratagem">
+            <Ability cost="1" page="56">
+                <Traits>Concentrate, Fortune, Investigator</Traits>
+                <Frequency>once per round</Frequency>
+                <Description>You assess a foe's weaknesses in combat and use them to formulate a plan of attack against your enemy. Choose a creature you can see and roll a d20. If you Strike the chosen creature later this round, you must use the result of the roll you made to Devise a Stratagem for your Strike's attack roll instead of rolling. You make this substitution only for the first Strike you make against the creature this round, not any subsequent attacks.&lt;br&gt;&lt;br&gt;When you make this substitution, you can also add your Intelligence modifier to your attack roll instead of your Strength or Dexterity modifier, provided your Strike uses an agile or finesse melee weapon, an agile or finesse unarmed attack, a ranged weapon (which must be agile or finesse if it's a melee weapon with the thrown trait), or a sap.&lt;br&gt;&lt;br&gt;If you're aware that the creature you choose is the subject of a lead you're pursuing, you can use this ability as a free action.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="choice" name="Investigator's Methodology" contents="Investigator's Methodology">
+            <Description>Your studies have made you savvy in many areas, but one in particular drew your intense interest. Choose a methodology.</Description>
+            <Ability name="Alchemical Sciences Methodology" page="57">
+                <Traits>Investigator</Traits>
+                <Description>Your methodology emphasizes chemical and alchemical analysis, collecting information from unusual particles and fluids found on the scene. You possess enough alchemical know-how to whip up a few tinctures to help you with your cases.&lt;br&gt;&lt;br&gt;You're trained in Crafting and gain the Alchemical Crafting skill feat. In addition, you gain a standard formula book for free and learn the formulas for two additional common 1st-level alchemical items, which must be elixirs or tools. Each time you gain a level, you learn the formula for one common alchemical elixir or alchemical tool of any level of item you can create.&lt;br&gt;&lt;br&gt;During your daily preparations, you can create a number of versatile vials—alchemical concoctions that can quickly be turned into elixirs and tools— equal to your Intelligence modifier. You can use the Quick Tincture action to turn one of these vials into an elixir or alchemical tool for which you know the formula.</Description>
+                <AbilitySlot state="filled" name="Alchemical Crafting" type="Skill Feat" />
+                <AbilitySlot state="filled" name="Quick Tincture">
+                    <Ability page="57" cost="1">
+                        <Traits>Investigator, Manipulate</Traits>
+                        <Requirements>You know the formula for the alchemical item you're creating, you are holding or wearing alchemist's tools, and you have a free hand.</Requirements>
+                        <Description>You quickly brew up a short-lived tincture. You consume a versatile vial to create a single alchemical elixir or tool of your level or lower without having to spend the normal monetary cost in alchemical reagents or needing to attempt a Crafting check. This item has the infused trait, but it remains potent only until the end of the current turn.</Description>
+                    </Ability>
+                </AbilitySlot>
+                <AttributeMods Proficiency="Trained">Crafting</AttributeMods>
+            </Ability>
+            <Ability name="Empiricism Methodology">
+                <Traits>Investigator</Traits>
+                <Description>Everything comes down to data. Calculating statistics, running numbers, and using inductive reasoning allows you to determine the most likely outcome of any scenario, and anything out of place draws your keen attention.&lt;br&gt;&lt;br&gt;You are trained in one Intelligence-based skill of your choice. You gain the That's Odd investigator feat, and you gain the Expeditious Inspection free action.</Description>
+                <AbilitySlot state="filled" name="That's Odd" contents="That's Odd" type="Class(Investigator) Feat" />
+                <AbilitySlot state="filled" name="Expeditious Investigation">
+                    <Ability page="57" cost="Free">
+                        <Traits>Investigator</Traits>
+                        <Frequency>once per 10 minutes</Frequency>
+                        <Description>You observe and assess your surroundings with great speed. You Recall Knowledge, Seek, or Sense Motive.</Description>
+                    </Ability>
+                </AbilitySlot>
+                <AttributeMods Proficiency="Trained">Arcana or Crafting or Occultism or Society</AttributeMods>
+            </Ability>
+            <Ability name="Forensic Medicine Methodology" page="58">
+                <Description>You've learned that in most cases, especially murders, criminals tend to leave more evidence of the crime on the body than they'd like to believe. Information from bruising, bone fractures, blood spatters, and even the life cycle of carrion insects can provide valuable clues that help reconstruct the scene.&lt;br&gt;&lt;br&gt;You're trained in Medicine and gain the Forensic Acumen and Battle Medicine skill feats. When you use Battle Medicine, on a success the target recovers additional Hit Points equal to your level, and the target becomes temporarily immune for only 1 hour, not 1 day.</Description>
+                <AbilitySlot state="filled" name="Forensic Acumen" contents="Forensic Acumen" type="Skill Feat" />
+                <AbilitySlot state="filled" name="Battle Medicine" contents="Forensic Acumen" type="Skill Feat" />
+                <AttributeMods Proficiency="Trained">Medicine</AttributeMods>
+            </Ability>
+            <Ability name="Interrogation Methodology" page="58">
+                <Description>People can't help but trust you, whether through your inherent likableness or your firm insistence on sticking to the truth. You have a way about you that gets others talking, and you've developed interrogative techniques to help you get to the truth of your investigations.&lt;br&gt;&lt;br&gt;You are trained in Diplomacy. You gain the No Cause for Alarm skill feat. You can also Pursue a Lead over the course of a conversation rather than spending dedicated time looking into the lead, provided the conversation lasts 1 minute or longer. For example, while trying to Make an Impression, you could pursue the creature you're conversing with as a lead, and you could Pursue a Lead about an object while someone is telling you information about that object. You also gain the Pointed Question action.</Description>
+                <AbilitySlot state="filled" name="No Cause for Alarm" contents="Forensic Acumen" type="Skill Feat" />
+                <AbilitySlot state="filled" name="Pointed Question">
+                    <Ability page="58" cost="1">
+                        <Traits>Auditory, Concentrate, Investigator, Linguistic, Mental</Traits>
+                        <Description>You ask a question that charms or needles someone in just the right way. Ask a question of a non-allied creature that you can see and have been conversing with. Attempt a Diplomacy check against the creature's Will DC. The creature is then temporarily immune for 1 hour.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target must directly answer your question. It doesn't have to answer truthfully, but you gain a +4 circumstance bonus to your Perception DC if the creature attempts to Lie to you.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; As critical success, but the circumstance bonus is +2.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target can refuse to answer you as normal.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target can refuse to answer you as normal, and its attitude toward you decreases by one step due to your aggravating attention.</Description>
+                    </Ability>
+                </AbilitySlot>
+                <AttributeMods Proficiency="Trained">Diplomacy</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Investigator Feat"/>
+        <AbilitySlot state="filled" name="Strategic Strike">
+            <Ability>
+                <Description>When you strike carefully and with forethought, you deal a telling blow. When making a Strike that adds your Intelligence modifier on your attack roll due to Devising a Stratagem, you deal an additional 1d6 precision damage.&lt;br&gt;As your investigator level increases, so too does the deadliness of your strategic strike. Increase the number of dice by one at 5th, 9th, 13th, and 17th levels.</Description>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="2">
+        <AbilitySlot state="feat" type="Class Feat" name="Investigator Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="3">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat" />
+        <AbilitySlot state="filled" name="Keen Recollection">
+            <Ability>
+                <Description>You can recall pertinent facts on topics that aren't your specialty. Your proficiency bonus to untrained skill checks to Recall Knowledge is equal to your level instead of +0.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skillful Lesson" />
+    </FeatureList>
+    <FeatureList level="4">
+        <AbilitySlot state="feat" type="Class Feat" name="Investigator Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="5">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skillful Lesson" />
+        <AbilitySlot state="filled" name="Weapon Expertise">
+            <Ability>
+                <Description>You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</Description>
+                <AttributeMods Proficiency="Expert">Simple Weapons, Martial Weapons, Unarmed</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="6">
+        <AbilitySlot state="feat" type="Class Feat" name="Investigator Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="7">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skillful Lesson" />
+        <AbilitySlot state="filled" name="Vigilant Senses" type="ClassFeature" contents="Vigilant Senses" />
+        <AbilitySlot state="filled" name="Weapon Specialization" type="ClassFeature" contents="Weapon Specialization" />
+    </FeatureList>
+    <FeatureList level="8">
+        <AbilitySlot state="feat" type="Class Feat" name="Investigator Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="9">
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Great Fortitude" type="ClassFeature" contents="Great Fortitude" />
+        <AbilitySlot state="filled" name="Investigator Expertise">
+            <Ability>
+                <Description>You've refined your investigative techniques to an exceptional degree. Your circumstance bonus from Pursue a Lead increases to +2. Your proficiency rank for your investigator class DC increases to expert.</Description>
+                <AttributeMods Proficiency="Expert">Class DC (Investigator)</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skillful Lesson" />
+    </FeatureList>
+    <FeatureList level="10">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Investigator Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="11">
+        <AbilitySlot state="filled" name="Deductive Improvisation">
+            <Ability>
+                <Description>You use your skills at deduction to perform whatever task is necessary to solve the case. You can attempt any check that requires you to be trained in a skill, even if you're untrained in it; you can attempt any check that requires you to have expert proficiency in a skill so long as you're trained in it; and you can attempt any check that requires you to have master proficiency in a skill as long as you have expert proficiency in it.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat" />
+        <AbilitySlot state="filled" name="Resolve" type="ClassFeature" contents="Resolve" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skillful Lesson" />
+    </FeatureList>
+    <FeatureList level="12">
+        <AbilitySlot state="feat" type="Class Feat" name="Investigator Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="13">
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Incredible Senses" type="ClassFeature" contents="Incredible Senses" />
+        <AbilitySlot state="filled" name="Light Armor Expertise" type="ClassFeature" contents="Light Armor Expertise" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skillful Lesson" />
+        <AbilitySlot state="filled" name="Weapon Mastery" type="ClassFeature" contents="Weapon Mastery" />
+    </FeatureList>
+    <FeatureList level="14">
+        <AbilitySlot state="feat" type="Class Feat" name="Investigator Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="15">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Evasion" type="ClassFeature" contents="Evasion" />
+        <AbilitySlot state="feat" type="General Feat" name="General Feat" />
+        <AbilitySlot state="filled" name="Greater Weapon Specialization" type="ClassFeature" contents="Greater Weapon Specialization" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skillful Lesson" />
+    </FeatureList>
+    <FeatureList level="16">
+        <AbilitySlot state="feat" type="Class Feat" name="Investigator Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="17">
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Greater Resolve" type="ClassFeature" contents="Greater Resolve" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skillful Lesson" />
+    </FeatureList>
+    <FeatureList level="18">
+        <AbilitySlot state="feat" type="Class Feat" name="Investigator Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="19">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat" />
+        <AbilitySlot state="filled" name="Light Armor Mastery" type="ClassFeature" contents="Light Armor Mastery" />
+        <AbilitySlot state="filled" name="Master Detective">
+            <Ability>
+                <Description>As a master detective, you can solve any case and find all the clues available. If you're pursuing the subject of a lead and you enter a new location that includes another clue toward solving the mystery, the GM informs you of the existence of the clue and its type: an object, person, spell effect, or the like. When you find the clue, the GM informs you that you've done so. If there is more than one clue in the location, the GM chooses one to inform you about. When you find any of the clues in that location, the GM informs you that you've done so, even if it wasn't the clue they'd chosen or there are other clues you haven't found. Your proficiency rank for your investigator class DC increases to master.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skillful Lesson" />
+    </FeatureList>
+    <FeatureList level="20">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Investigator Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <Feats>
+        <Ability name="Flexible Studies" level="1" page="60">
+            <Traits>Investigator</Traits>
+            <Description>You've collected a cross-section of information on various disciplines you can refer to when preparing for various tasks. During your daily preparations, you can cram on a certain subject to become temporarily trained in one skill of your choice. This proficiency lasts until you prepare again. As this proficiency is temporary, you can't use it as a prerequisite for a skill increase or a permanent character option like a feat.</Description>
+        </Ability>
+        <Ability name="Known Weaknesses" level="1" page="60">
+            <Traits>Investigator</Traits>
+            <Description>Whenever you Devise a Stratagem, you can also attempt a check to Recall Knowledge as part of that action. If you critically succeed at the Recall Knowledge check, you notice a weakness and gain a +1 circumstance bonus to your attack roll from Devise a Stratagem. If you immediately convey this information to your allies as part of the check, each ally gains a +1 circumstance bonus to their next attack roll against the subject, as long as their attack is made before the beginning of your next turn.</Description>
+        </Ability>
+        <Ability name="Takedown Expert" level="1" page="60">
+            <Traits>Investigator</Traits>
+            <Description>You've mastered combat practices that let you get up close and bring down perpetrators alive. You can use your Intelligence modifier on attack rolls when you Devise a Stratagem if you're using a weapon of the club group in one hand (like a club, staff, or sap), in addition to the usual weapons, and those Strikes qualify for your strategic strike. Additionally, you can make any of your Strikes nonlethal without taking the normal –2 penalty.</Description>
+        </Ability>
+        <Ability name="That's Odd" level="1" page="60">
+            <Traits>Investigator</Traits>
+            <Description>When you enter a new location, such as a room or corridor, you immediately notice one thing out of the ordinary. The GM determines what it is, or whether there's nothing reasonable to pick up, skipping obvious clues that can be easily noticed without a check or specifically looking for them. You learn only that an area or object is suspicious, but not why it's suspicious. For example, if you entered a study with a large bloodstain on the ground, the bloodstain is so obviously suspicious it's evident to you already, so the GM might note that there's something suspicious about the desk drawer instead. You would then need to investigate the drawer further to find out what specifically is out of the ordinary. That's Odd doesn't reveal whether creatures are suspicious.&lt;br&gt;&lt;br&gt; You don't typically get any benefit when you leave and come back to a place, though if a major change has happened there and time has passed, the GM might determine that you do.</Description>
+        </Ability>
+        <Ability name="Trap Finder" level="1" page="60">
+            <Traits>Investigator, Rogue</Traits>
+            <Archetype>Archaeologist*</Archetype>
+            <Description>You have an intuitive sense that alerts you to the dangers and presence of traps. You gain a +1 circumstance bonus to Perception checks to find traps, to AC against attacks made by traps, and to saves against traps. Even if you aren’t Searching, you get a check to find traps that normally require you to be Searching. You still need to meet any other requirements to find the trap.&lt;br&gt;&lt;br&gt; You can disable traps that require a proficiency rank of master in Thievery. If you have master proficiency in Thievery, you can disable traps that require a proficiency rank of legendary instead, and your circumstance bonuses against traps increase to +2.Archetype UseThis feat can be used for one or more Archetypes in addition to the listed Classes. When selected this way, the feat is not considered to have its class traits.</Description>
+        </Ability>
+        <Ability name="Underworld Investigator" level="1" page="60">
+            <Traits>Investigator</Traits>
+            <Description>Your work as an investigator makes you familiar with the criminal element. You might be a criminal yourself, or you might have gained an understanding of how they operate from the outside. You become trained in Underworld Lore, and you gain your Pursue a Lead circumstance bonus to Thievery checks to investigate the subject of your lead (such as checks to Steal a clue from a suspect or Pick a Lock to open a safe with damning documents).</Description>
+            <AttributeMods Proficiency="Trained">Lore (Underworld)</AttributeMods>
+        </Ability>
+        <Ability name="Athletic Strategist" level="2" page="60">
+            <Traits>Investigator</Traits>
+            <Prerequisites>Trained In Athletics</Prerequisites>
+            <Description>You know how to calculatedly manipulate joints and body weight. In addition to using Devise a Stratagem to modify a Strike, you can use it to modify a Disarm, Grapple, Shove, or Trip attempt, substituting your Devise a Stratagem roll for the Athletics check. You must apply the substitution to the first eligible attack you make, whether it's a Strike or one of the Athletics actions.&lt;br&gt;&lt;br&gt; You can also use your Intelligence modifier instead of Strength for the Athletics check when you substitute your Devise a Stratagem roll, unless you're using a weapon for the maneuver and the weapon doesn't fit the restrictions for using Intelligence with a stratagem.</Description>
+        </Ability>
+        <Ability name="Red Herring" level="2" page="61">
+            <Traits>Investigator</Traits>
+            <Description>You have a keen sense for avoiding spurious lines of inquiry. When you Pursue a Lead, the GM tells you if the lead you chose is inconsequential. For example, if you found a splatter of gray mud on the wall, thought it was suspicious, and Pursued it as a Lead, the GM would tell you if there was no greater mystery related to it. When the GM tells you a lead is inconsequential, you can decline to Pursue the Lead, keeping any leads you were already pursuing. You still can't use Pursue a Lead again for 10 minutes, as normal.</Description>
+        </Ability>
+        <Ability name="Shared Stratagem" level="2" page="61">
+            <Traits>Investigator</Traits>
+            <Description>The plans you make include your allies as well as yourself. When you hit a creature with an attack on which you substituted your attack roll due to Devising a Stratagem, designate one ally. The creature you hit is flat-footed to that ally on the next attack the designated ally makes against that creature before the start of your next turn.</Description>
+        </Ability>
+        <Ability name="Solid Lead" level="2" page="61">
+            <Traits>Investigator</Traits>
+            <Description>Sometimes your case splinters into smaller mysteries, but you never lose sight of the big picture. Once per day when you give up on the subject of a lead due to using Pursue a Lead again, you can designate the lead you stopped pursuing as your solid lead for the day. Even though you stopped following the solid lead, you can change back to your solid lead any number of times by using a single action, which has the concentrate trait. Doing so ends one of your current leads as normal.&lt;br&gt;&lt;br&gt; During your next daily preparations, you can maintain your solid lead or you can remove it; removing it allows you to designate a new solid lead later that day.</Description>
+        </Ability>
+        <Ability name="Alchemical Discoveries" level="4" page="61">
+            <Traits>Investigator</Traits>
+            <Prerequisites>Alchemical Sciences Methodology</Prerequisites>
+            <Description>You've devoted extra time in the lab to improve your knowledge of alchemy. You learn the formulas for two alchemical items each time you level up instead of one; these must still be elixirs or tools. The number of versatile vials you can create each day increases by 1 if you're an expert in Crafting, 2 if you're a master, or 3 if you're legendary.</Description>
+        </Ability>
+        <Ability name="Detective's Readiness" level="4" page="61">
+            <Traits>Investigator</Traits>
+            <Description>When you're on a case, you stay watchful and resolute to avoid tricks your suspect might pull. You gain your circumstance bonus from Pursue a Lead on saving throws (and their DCs, as normal) against the subject of a lead, and you can use Clue In to assist an ally's saving throw against that subject.</Description>
+        </Ability>
+        <Ability name="Lie Detector" level="4" page="62">
+            <Traits>Investigator</Traits>
+            <Prerequisites>Empiricism Or Interrogation Methodology</Prerequisites>
+            <Description>You're adept at noticing the tells of a liar—sweat, flushing, a quavering voice, a quickening pulse. You gain a +1 circumstance bonus to Perception checks to Sense Motive and to Perception DCs against attempts to Lie to you. When you determine someone is lying to you, you can use their deceit to your advantage to gain a +1 circumstance bonus to the next Deception, Diplomacy, Intimidation, or Performance check you attempt against that creature within the next minute.</Description>
+        </Ability>
+        <Ability name="Ongoing Investigation" level="4" page="62">
+            <Traits>Investigator</Traits>
+            <Description>You're always investigating what's around you, even as you perform other activities. You can move at full Speed while using the Investigate exploration activity, and you can use another exploration activity while Investigating.</Description>
+        </Ability>
+        <Ability name="Scalpel's Point" level="4" page="62">
+            <Traits>Investigator</Traits>
+            <Prerequisites>Forensic Medicine Methodology</Prerequisites>
+            <Description>Your stratagems benefit from your precise knowledge of anatomy. When you critically hit with an attack on which you substituted your attack roll due to Devising a Stratagem, if your attack dealt piercing or slashing damage, you also deal 1d6 persistent bleed damage to your target.</Description>
+        </Ability>
+        <Ability name="Strategic Assessment" level="4" page="62">
+            <Traits>Investigator</Traits>
+            <Description>You learn your foes' strengths and weaknesses by watching them move. When you critically hit a creature with a Strike on which you substituted your attack roll due to Devising a Stratagem, the GM chooses one of the following pieces of information about the enemy to tell you. Which of the enemy's weaknesses is highest Which of the enemy's resistances is highest Which of the enemy's saving throws is lowest One immunity the enemy has The GM can choose deliberately or at random, but they can't choose information that doesn't apply (such as choosing an immunity for an enemy that has no immunities). This applies only the first time you critically hit a given creature.</Description>
+        </Ability>
+        <Ability name="Connect the Dots" level="6" page="62">
+            <Traits>Concentrate, Investigator, Secret</Traits>
+            <Requirements>You must be pursuing at least two leads.</Requirements>
+            <Description>Ephemeral connections between people, places, and concepts are invisible to most, but seeing them is your stock and trade. You spend 10 minutes considering two different leads you're pursuing. You then attempt a check to investigate how connected the two are. Unless the GM determines otherwise, this is a Crafting check if they're both items or a Society check for other combinations of leads. If any subjects are creatures, this check usually uses the highest DC among their Deception and Will DCs. If no subjects are creatures, but at least one is an item, the DC is usually a hard DC for the level of the highest-level item. If neither case applies, the DC is usually a hard expert or hard master DC (22 or 32). Once you try to Connect the Dots between two particular leads, you can never try to Connect the Dots between those same leads again unless the GM allows it after you've learned a substantial amount of new information. &lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The GM tells you how connected the two leads are to one another: highly connected, somewhat connected, tangentially connected, or not connected. The GM also tells you one specific way in which they're connected, if they are.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; As critical success, but the GM doesn't tell you a specific connection.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; Your results are inconclusive.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You misconstrue the information. As success, but the GM provides an incorrect degree of connection.TraitsConcentrate: An action with this trait requires a degree of mental concentration and discipline.Secret: The GM rolls the check for this ability in secret.Uncommon: Something of uncommon rarity requires special training or comes from a particular culture or part of the world. Some character choices give access to uncommon options, and the GM can choose to allow access for anyone. Less is known about uncommon creatures than common creatures. They typically can’t be summoned. The DC of Recall Knowledge checks related to these creature is increased by 2.</Description>
+        </Ability>
+        <Ability name="Predictive Purchase (Investigator)" level="6" page="63">
+            <Traits>Investigator</Traits>
+            <Description>You have just the thing for the situation. You gain the Prescient Planner and Prescient Consumable feats. When using Prescient Planner, you can pull out the item as a 2-action activity to remove your backpack (or a similar container) and draw the item, rather than taking 1 minute.</Description>
+        </Ability>
+        <Ability name="Thorough Research" level="6" page="63">
+            <Traits>Investigator</Traits>
+            <Description>When you succeed at a Recall Knowledge check, you learn an additional fact about the subject. When you critically succeed at a Recall Knowledge check, you can gain even more additional information or context than normal, at the GM's discretion.</Description>
+        </Ability>
+        <Ability name="Blind-Fight" level="8" page="63">
+            <Traits>Fighter, Investigator, Ranger, Rogue</Traits>
+            <Archetype>Horizon Walker*</Archetype>
+            <Prerequisites>Master In Perception</Prerequisites>
+            <Description>Your battle instincts make you more aware of concealed and invisible opponents. You don’t need to succeed at a flat check to target concealed creatures. You’re not flat-footed to creatures that are hidden from you (unless you’re flat-footed to them for reasons other than the hidden condition), and you need only a successful DC 5 flat check to target a hidden creature.&lt;br&gt;&lt;br&gt; While you’re adjacent to an undetected creature of your level or lower, it is instead only hidden from you.Archetype UseThis feat can be used for one or more Archetypes in addition to the listed Classes. When selected this way, the feat is not considered to have its class traits.</Description>
+        </Ability>
+        <Ability name="Clue Them All In" level="8" page="63">
+            <Traits>Investigator</Traits>
+            <Description>You can clue in all your allies at once. When you use the Clue In reaction, any of your allies who are attempting the same check to investigate a lead receive the circumstance bonus from Clue In. If you use this ability during an encounter, they must attempt their check within 1 round of when you Clued them In.</Description>
+        </Ability>
+        <Ability name="Whodunnit?" level="8" page="63">
+            <Traits>Investigator</Traits>
+            <Frequency>once per day</Frequency>
+            <Description>You carefully consider your case and narrow down some of the details. When you Pursue a Lead, you can spend 10 minutes instead of 1 minute to ask two questions of the GM as you complete the activity. The GM must answer truthfully with “yes” or “no,” though if the answer would be misleading or have no practical application to your investigation the GM can answer “immaterial.” You can't use Who Dunnit? more than once for the same lead, even across different days.&lt;br&gt;&lt;br&gt; Your questions must come from the following list, applying to either the creature or the clue you found: Was the clue left by a [creature trait]? (Choose a creature trait such as humanoid, undead, or dwarf; this trait must be accurate as of the time the clue was left.) Was this clue left within the last hour? Was this clue left within the last day? Was the creature that left the clue in a heightened emotional state when it left the clue? Did the creature attempt to conceal this clue?TraitsUncommon: Something of uncommon rarity requires special training or comes from a particular culture or part of the world. Some character choices give access to uncommon options, and the GM can choose to allow access for anyone. Less is known about uncommon creatures than common creatures. They typically can’t be summoned. The DC of Recall Knowledge checks related to these creature is increased by 2.</Description>
+        </Ability>
+        <Ability name="Just One More Thing" level="10" page="63" cost="1">
+            <Traits>Fortune, Investigator</Traits>
+            <Requirements>Your most recent action was to Feint, Request, or Demoralize, and you failed but didn't critically fail.</Requirements>
+            <Description>After your attempt to influence someone goes poorly, you add another bit of information or ask a pointed question, possibly salvaging your previous attempt. Reroll the failed check and use the new result. If the target of the failed check is the subject of a lead you're pursuing, double your bonus from Pursue a Lead on the rerolled check. That creature is temporarily immune to Just One More Thing for 1 day.&lt;br&gt;&lt;br&gt; You can also use this action if you failed, but didn't critically fail, at a check to Lie, Gather Information, Make an Impression, or Coerce. In this case, rather than spending 1 action, adding Just One More Thing takes you half the amount of time you initially spent on the check, to a minimum of 1 more round.TraitsFortune: A fortune effect beneficially alters how you roll your dice. You can never have more than one fortune effect alter a single roll. If multiple fortune effects would apply, you have to pick which to use. If a fortune effect and a misfortune effect would apply to the same roll, the two cancel each other out, and you roll normally.</Description>
+        </Ability>
+        <Ability name="Ongoing Strategy" level="10" page="63">
+            <Traits>Investigator</Traits>
+            <Prerequisites>Strategic Strike</Prerequisites>
+            <Description>You're constantly studying small aspects of everyone's movements, even if you don't have a stratagem in place ahead of time. On any Strike for which you didn't Devise a Stratagem, you still deal precision damage equal to your number of strategic strike damage dice so long as the weapon or unarmed attack you used is one that would have let you use your Intelligence modifier had you Devised a Stratagem.</Description>
+        </Ability>
+        <Ability name="Suspect of Opportunity" level="10" page="63" cost="Reaction">
+            <Traits>Investigator</Traits>
+            <Trigger>A foe takes a hostile action against you in combat.</Trigger>
+            <Frequency>once per hour</Frequency>
+            <Description>Sometimes something intrudes upon your case unexpectedly, such as an ambush sent to bring your investigation to a close. You've learned how to compartmentalize your main lead and pursue a new one for your current predicament. You Pursue a Lead against the triggering foe, setting aside but not ending one of your currently active leads, if you have two leads. At the end of the combat encounter, you stop Pursuing the Lead against the triggering foe and return to the original lead, if you have one.</Description>
+        </Ability>
+        <Ability name="Foresee Danger" level="12" page="64" cost="Reaction">
+            <Traits>Concentrate, Investigator</Traits>
+            <Trigger>A creature targets you with an attack and you can see the attacker.</Trigger>
+            <Description>You perceive every possible way your foe's attack could land and attempt to avoid them all. The triggering attack roll targets your Perception DC instead of your AC. Though this allows you to avoid taking penalties to your AC, it doesn't remove any conditions or other effects causing such penalties. For example, an enemy with sneak attack would still deal extra damage to you for being flat-footed, even though you wouldn't take the –2 circumstance penalty when defending against the attack.TraitsConcentrate: An action with this trait requires a degree of mental concentration and discipline.</Description>
+        </Ability>
+        <Ability name="Reason Rapidly" level="12" page="64" cost="1">
+            <Traits>Investigator</Traits>
+            <Description>Your mind works through clues at an unbelievable speed. You instantly use up to five Recall Knowledge actions. If you have any special abilities or free actions that would normally be triggered when you Recall Knowledge, you can't use them for these actions.</Description>
+        </Ability>
+        <Ability name="Plot the Future" level="14" page="64">
+            <Traits>Concentrate, Investigator, Prediction</Traits>
+            <Description>You spend 10 minutes in contemplation to uncannily predict how events will play out. Choose a particular goal or activity you plan to engage in within 1 week, or an event you expect might happen within 1 week. You analyze whether it's likely to come to pass, learning whether it's highly likely, somewhat likely, somewhat unlikely, or highly unlikely. You also gain a piece of advice suggesting a course of action you or your allies could take that might make the chosen event more or less likely, whichever you prefer. The GM determines the likeliness of the event and the piece of advice you learn.TraitsConcentrate: An action with this trait requires a degree of mental concentration and discipline.Prediction: Effects with this trait determine what is likely to happen in the near future. Most predictions are divinations.Uncommon: Something of uncommon rarity requires special training or comes from a particular culture or part of the world. Some character choices give access to uncommon options, and the GM can choose to allow access for anyone. Less is known about uncommon creatures than common creatures. They typically can’t be summoned. The DC of Recall Knowledge checks related to these creature is increased by 2.</Description>
+        </Ability>
+        <Ability name="Sense the Unseen" level="14" page="64" cost="Reaction">
+            <Traits>Investigator, Ranger, Rogue</Traits>
+            <Archetype>Shadowdancer*</Archetype>
+            <Trigger>You fail a check to Seek.</Trigger>
+            <Description>When you look for foes, you can catch even the slightest cues, such as their minute movements or the shifting of air currents on your skin. Even though you failed at the triggering check, you automatically sense any undetected creatures in the area where you’re Seeking, making them merely hidden to you.Archetype UseThis feat can be used for one or more Archetypes in addition to the listed Classes. When selected this way, the feat is not considered to have its class traits.</Description>
+        </Ability>
+        <Ability name="Strategic Bypass" level="14" page="65">
+            <Traits>Investigator</Traits>
+            <Description>Your plans account for your foes' resistances, enabling you to strike a telling blow. When you hit with a Strike on which you substituted your attack roll due to Devising a Stratagem, you ignore an amount of resistance equal to your Intelligence modifier for each resistance that applies against your attack.</Description>
+        </Ability>
+        <Ability name="Didactic Strike" level="16" page="65">
+            <Traits>Investigator</Traits>
+            <Prerequisites>Shared Stratagem</Prerequisites>
+            <Description>When you find a glaring weakness, you can set your allies up to annihilate your foe. When you use Shared Stratagem, you can designate up to 10 allies instead of just one. The foe is flat-footed against the first attack from each designated ally before your next turn, and each ally's first attack deals an extra 2d6 precision damage to the target if it hits.</Description>
+        </Ability>
+        <Ability name="Implausible Purchase (Investigator)" level="16" page="65">
+            <Traits>Investigator</Traits>
+            <Prerequisites>Predictive Purchase</Prerequisites>
+            <Description>It seems impossible, but you've analyzed every angle and are able to just keep pulling out exactly the item you need, even in far-flung locations. You can use Prescient Planner even if you have already used it after purchasing goods, and you can use it as a single action instead of a 2-action activity, during which you Interact to draw the item. In addition, five times per day, you can use Prescient Planner to pull out a common consumable item up to 6 levels lower than your level.</Description>
+        </Ability>
+        <Ability name="Reconstruct the Scene" level="16" page="65">
+            <Traits>Concentrate, Investigator, Rogue</Traits>
+            <Description>You spend 1 minute surveying a small location (such as a single room) to get an impression of events that occurred there in the last day. This involves moving about the area and studying footprints, the placement of objects, spilled drinks or blood, and so forth. You get an indistinct mental impression of significant events that happened there. This gives you clues and details of the past, including the overall events and their time frame, but it's not a perfect record. This also isn't enough to identify who was involved in these events if you weren't already aware the person was there. As determined by the GM, you also pick out various seemingly small details that could serve as important clues, like a memorable weapon someone used for a murder or the type of cloak someone wore when passing through.TraitsConcentrate: An action with this trait requires a degree of mental concentration and discipline.</Description>
+        </Ability>
+        <Ability name="Lead Investigator" level="18" page="65">
+            <Traits>Exploration, Investigator</Traits>
+            <Prerequisites>Clue Them All In</Prerequisites>
+            <Description>You spend 1 minute briefing up to four allies about one lead you're pursuing. Those allies gain the same circumstance bonus you do from Pursue a Lead to checks to investigate that lead. This bonus lasts until you cease pursing that lead or for 1 day, whichever comes first. This doesn't confer any other benefits of pursuing a lead, such as adding the circumstance bonus to your saves with Detective's Readiness.TraitsExploration: An activity with this trait takes more than a turn to use, and can usually be used only during exploration mode.</Description>
+        </Ability>
+        <Ability name="Trickster's Ace" level="18" page="65" cost="Reaction">
+            <Traits>Concentrate, Investigator, Rogue</Traits>
+            <Trigger>You specify the trigger when you make your daily preparations (see Requirements below).</Trigger>
+            <Requirements>When you make your daily preparations, you must specify a trigger for this reaction using the same restrictions as the triggers for the Ready action. You also choose a single spell from the arcane, divine, occult, or primal list of 4th level or lower. The spell can’t have a cost, nor can its casting time be more than 10 minutes. The spell must be able to target a single creature, and you must be a valid target for it.</Requirements>
+            <Description>Whether from jury-rigged magic items, stolen magical essence, or other means, you have a contingency in your back pocket for desperate situations. When the trigger occurs, you cause the spell to come into effect. The spell targets only you, no matter how many creatures it would affect normally. If you define particularly complicated conditions, as determined by the GM, the trigger might fail. Once the contingency is triggered, the spell is expended until your next daily preparations.TraitsConcentrate: An action with this trait requires a degree of mental concentration and discipline.</Description>
+        </Ability>
+        <Ability name="Everyone's a Suspect" level="20" page="65">
+            <Traits>Investigator</Traits>
+            <Description>You are so suspicious of everyone you meet that you keep mental notes on how to defeat them all—even your own allies. After interacting with a creature for at least 1 minute, you automatically Pursue a Lead with that creature as the subject. You can have any number of such leads at any given time, and when you Pursue a Lead again, you don't give up any of these automatic subjects.</Description>
+        </Ability>
+        <Ability name="Just the Facts" level="20" page="65">
+            <Traits>Investigator</Traits>
+            <Prerequisites>Thorough Research</Prerequisites>
+            <Description>You fundamentally understand everything to the point where your research can't possibly be wrong. You are permanently quickened and can use the extra action to Recall Knowledge. Your checks to Recall Knowledge are no longer secret. When you Recall Knowledge, you use the outcome for one degree of success better than the result of your check, and if an effect (such as Dubious Knowledge) would give you inaccurate information from your Recall Knowledge check, you know which information is inaccurate. When one of your allies Recalls Knowledge and gains false information, you also know that information is inaccurate if they share it with you.</Description>
+        </Ability>
+    </Feats>
+</pf2:class>

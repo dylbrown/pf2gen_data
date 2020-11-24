@@ -98,12 +98,7 @@
             <Ability abilityBoosts="4"/>
         </AbilitySlot>
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
-        <AbilitySlot state="filled" name="Lightning Reflexes">
-            <Ability>
-                <Description>Your reflexes are lightning fast. Your proficiency rank for Reflex saves increases to expert.</Description>
-                <AttributeMods Proficiency="Expert">Reflex</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Lightning Reflexes" type="ClassFeature" contents="Lightning Reflexes" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
@@ -150,12 +145,7 @@
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
-        <AbilitySlot state="filled" name="Magical Fortitude">
-            <Ability>
-                <Description>Magical power has improved your body's resiliency. Your proficiency rank for Fortitude saves increases to expert.</Description>
-                <AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Magical Fortitude" type="ClassFeature" contents="Magical Fortitude" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
@@ -178,12 +168,7 @@
                 <SpellSlots level="6" count="2"/>
             </Ability>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Alertness">
-            <Ability>
-                <Description>You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</Description>
-                <AttributeMods Proficiency="Expert">Perception</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Alertness" type="ClassFeature" contents="Alertness" />
         <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
@@ -211,12 +196,7 @@
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
-        <AbilitySlot state="filled" name="Defensive Robes">
-            <Ability>
-                <Description>The flow of magic and your training combine to help you avoid attacks. Your proficiency rank in unarmored defense increases to expert.</Description>
-                <AttributeMods Proficiency="Expert">Unarmored</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Defensive Robes" type="ClassFeature" contents="Defensive Robes" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>

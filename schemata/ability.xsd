@@ -233,6 +233,8 @@
           <xs:enumeration value="Three"/>
           <xs:enumeration value="Free"/>
           <xs:enumeration value="Reaction"/>
+          <xs:enumeration value="Exploration"/>
+          <xs:enumeration value="Downtime"/>
           <xs:enumeration value="1"/>
           <xs:enumeration value="2"/>
           <xs:enumeration value="3"/>
@@ -315,7 +317,7 @@
       </xs:annotation>
       <xs:simpleType>
         <xs:restriction base="xs:string">
-          <xs:pattern value="((Dedication|ClassFeature(\(\w+\))?|Heritage|Ancestry|Class(\(\w+\))?|Skill|General|Bloodline|Arcane(Thesis|School)) ?)*(Feat)?"/>
+          <xs:pattern value="((Dedication|MulticlassDedication|ClassFeature(\(\w+\))?|Heritage|Ancestry|Class(\(\w+\))?|Skill|General|Bloodline|Arcane(Thesis|School)) ?)*(Feat)?"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>

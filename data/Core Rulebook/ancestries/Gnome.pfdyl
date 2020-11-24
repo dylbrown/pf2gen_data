@@ -19,31 +19,39 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<Ability name="Fey-Touched Gnome" type="Heritage">
             <Description>The blood of the fey is so strong within you that you're truly one of them. You gain the fey trait, in addition to the gnome and humanoid traits. Choose one cantrip from the primal spell list. You can cast this spell as a primal innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.&lt;br&gt;&lt;br&gt;You can change this cantrip to a different one from the same list once per day by meditating to realign yourself with the Fey World; this is a 10-minute activity that has the concentrate trait.</Description>
+            <Spellcasting listName="Gnome" tradition="Primal" type="Spontaneous" ability="Cha" />
+            <SpellSlots count="1" level="0" />
         </Ability>
 		<Ability name="Sensate Gnome" type="Heritage">
             <Description>You see all colors as brighter, hear all sounds as richer, and especially smell all scents with incredible detail.&lt;br&gt;&lt;br&gt;You gain a special sense: imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine the exact location of a creature. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.&lt;br&gt;&lt;br&gt;In addition, you gain a +2 circumstance bonus to Perception checks whenever you're trying to locate an undetected creature that is within the range of your scent.</Description>
         </Ability>
 		<Ability name="Umbral Gnome" type="Heritage">
             <Description>Whether from a connection to dark or shadowy fey, from the underground deep gnomes also known as svirfneblin, or another source, you can see in complete darkness. You gain darkvision.</Description>
+            <!--TODO: Support this-->
         </Ability>
 		<Ability name="Wellspring Gnome" type="Heritage">
             <Description>Some other source of magic has a greater hold on you than the primal magic of your fey lineage does.&lt;br&gt;&lt;br&gt;This connection might come from an occult plane or an ancient occult song; a deity, celestial, or fiend; magical effluent left behind by a mage war; or ancient Rune magic.&lt;br&gt;&lt;br&gt;Choose arcane, divine, or occult. You gain one cantrip from that magical tradition's spell list. You can cast this spell as an innate spell at will, as a spell of your chosen tradition. A cantrip is heightened to a spell level equal to half your level rounded up. Whenever you gain a primal innate spell from a gnome ancestry feat, change its tradition from primal to your chosen tradition.</Description>
+            <!--TODO: Support this-->
         </Ability>
 		<!--Regular Feats-->
         <Ability name="Animal Accomplice" level="1">
             <Description>You build a rapport with an animal, which becomes magically bonded to you. You gain a familiar. The type of animal is up to you, but most gnomes choose animals with a burrow Speed.</Description>
+            <!--TODO: Support this-->
         </Ability>
 		<Ability name="Burrow Elocutionist" level="1">
             <Description>You recognize the chittering of ground creatures as its own peculiar language. You can ask questions of, receive answers from, and use the Diplomacy skill with animals that have a burrow Speed, such as badgers, ground squirrels, moles, and prairie dogs. The GM determines which animals count for this ability.</Description>
         </Ability>
 		<Ability name="Fey Fellowship" level="1">
-            <Description>Your enhanced fey connection affords you a warmer reception from creatures of the Fey World as well as tools to foil their tricks. You gain a +2 circumstance bonus to both Perception checks and saving throws against fey.&lt;br&gt;&lt;br&gt;In addition, whenever you meet a fey creature in a social situation, you can immediately attempt a Diplomacy check to Make an Impression on that creature rather than needing to converse for 1 minute. You take a –5 penalty to the check.&lt;br&gt;&lt;br&gt;If you fail, you can engage in 1 minute of conversation and attempt a new check at the end of that time rather than accepting the failure or critical failure result.&lt;br&gt;&lt;br&gt;Special If you have the Glad-Hand skill feat, you don't take the penalty on your immediate Diplomacy check if the target is a fey.</Description>
+            <Description>Your enhanced fey connection affords you a warmer reception from creatures of the Fey World as well as tools to foil their tricks. You gain a +2 circumstance bonus to both Perception checks and saving throws against fey.&lt;br&gt;&lt;br&gt;In addition, whenever you meet a fey creature in a social situation, you can immediately attempt a Diplomacy check to Make an Impression on that creature rather than needing to converse for 1 minute. You take a –5 penalty to the check.&lt;br&gt;&lt;br&gt;If you fail, you can engage in 1 minute of conversation and attempt a new check at the end of that time rather than accepting the failure or critical failure result.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If you have the Glad-Hand skill feat, you don't take the penalty on your immediate Diplomacy check if the target is a fey.</Description>
         </Ability>
 		<Ability name="Fey World Magic" level="1">
             <Description>Your connection to the Fey World grants you a primal innate spell, much like those of the fey. Choose one cantrip from the primal spell list. You can cast this spell as a primal innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</Description>
+            <Spellcasting listName="Gnome" tradition="Primal" type="Spontaneous" ability="Cha" />
+            <SpellSlots count="1" level="0" />
         </Ability>
 		<Ability name="Gnome Obsession" level="1">
             <Description>You might have a flighty nature, but when a topic captures your attention, you dive into it headfirst. Pick a Lore skill. You gain the trained proficiency rank in that skill. At 2nd level, you gain expert proficiency in the chosen Lore as well as the Lore granted by your background, if any. At 7th level you gain master proficiency in these Lore skills, and at 15th level you gain legendary proficiency in them.</Description>
+            <!--TODO: Support this-->
         </Ability>
 		<Ability name="Gnome Weapon Familiarity" level="1">
             <Description>You favor unusual weapons tied to your people, such as blades with curved and peculiar shapes. You are trained with the glaive and kukri.&lt;br&gt;&lt;br&gt;In addition, you gain access to all uncommon gnome weapons. For the purpose of determining your proficiency, martial gnome weapons are simple weapons and advanced gnome weapons are martial weapons.</Description>
@@ -54,15 +62,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 weaponProficiency("glaive", "Trained");
                 weaponProficiency("kukri", "Trained");
                 weaponProficiencyTranslator({item,proficiency -> {
-					def weapon = item.getExtension(Weapon.class);
-					if(item.getTraits().contains(get("sources.traits").find("Gnome"))) {
-						if(proficiency == WeaponProficiency.Martial) {
-							proficiency = WeaponProficiency.Simple;
-						} else if(proficiency == WeaponProficiency.Advanced) {
-							proficiency = WeaponProficiency.Martial;
-						}
-					}
-					return proficiency;
+                    def weapon = item.getExtension(Weapon.class);
+                    if(item.getTraits().contains(get("sources.traits").find("Gnome"))) {
+                        if(proficiency == WeaponProficiency.Martial) {
+                            proficiency = WeaponProficiency.Simple;
+                        } else if(proficiency == WeaponProficiency.Advanced) {
+                            proficiency = WeaponProficiency.Martial;
+                        }
+                    }
+                    return proficiency;
                 }});
             </CustomMod>
         </Ability>
@@ -75,7 +83,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<Ability name="Energized Font" level="5" cost="1">
             <Description>The magic within you provides increased energy you can use to focus. You regain 1 Focus Point, up to your usual maximum.</Description>
-			<!--focus pool, at least one innate spell from a gnome heritage or ancestry feat that shares a tradition with at least one of your focus spells-->
+			<!--TODO: Prerequisites: focus pool, at least one innate spell from a gnome heritage or ancestry feat that shares a tradition with at least one of your focus spells-->
         </Ability>
 		<Ability name="Gnome Weapon Innovator" level="5">
             <Prerequisites>Gnome Weapon Familiarity</Prerequisites>
@@ -83,7 +91,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<Ability name="Fey World Adept" level="9">
             <Description>Over time your fey magic has grown stronger. You gain faerie fire and invisibility as 2nd-level primal innate spells. You can cast each of these primal innate spells once per day.</Description>
-			<!--at least one primal innate spell-->
+			<!--TODO: at least one primal innate spell-->
         </Ability>
 		<Ability name="Vivacious Conduit" level="9">
             <Description>Your connection to the Fey World has grown, and its Positive energy flows into you rapidly. If you rest for 10 minutes, you gain Hit Points equal to your Constitution modifier × half your level. This is cumulative with any Healing you receive from Treat Wounds.</Description>

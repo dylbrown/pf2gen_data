@@ -61,7 +61,7 @@
             <Ability>
                 <Description>You move like the wind. You gain a +10-foot status bonus to your Speed whenever you're not wearing armor. The bonus increases by 5 feet for every 4 levels you have beyond 3rd.</Description>
                 <CustomMod recalculate="On Level">
-                    add("speed", 10 + 5 * Math.floor((level - 3)/4));
+                    bonus("speed", 10 + 5 * Math.floor((level - 3)/4));
                 </CustomMod>
             </Ability>
         </AbilitySlot>
@@ -82,12 +82,7 @@
         <AbilitySlot state="filled" name="Ability Boosts">
             <Ability abilityBoosts="4"/>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Alertness">
-            <Ability>
-                <Description>You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</Description>
-                <AttributeMods Proficiency="Expert">Perception</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Alertness" type="ClassFeature" contents="Alertness" />
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
         <AbilitySlot state="filled" name="Expert Strikes">
             <Ability>
@@ -471,7 +466,7 @@
         <Ability name="Whirling Throw" level="6" page="162" cost="1">
             <Traits>Monk</Traits>
             <Requirements>You have a creature grabbed or restrained.</Requirements>
-            <Description>You propel your grabbed or restrained foe a great distance. You can throw the creature any distance up to 10 feet, plus 5 feet × your Strength modifier. If you successfully throw the creature, it takes bludgeoning damage equal to your Strength modifier plus 1d6 per 10 feet you threw it. Attempt an Athletics check against the foe's Fortitude DC. You take a –2 circumstance penalty to your check if the target is one size larger than you and a –4 circumstance penalty if it's larger than that. You gain a +2 circumstance bonus to your check if the target is one size smaller than you and a +4 circumstance bonus if it's smaller than that. Critical Success You throw the creature the desired distance and it lands prone.Success You throw the creature the desired distance.Failure You don't throw the creature.Critical Failure You don't throw the creature, and it's no longer grabbed or restrained by you.</Description>
+            <Description>You propel your grabbed or restrained foe a great distance. You can throw the creature any distance up to 10 feet, plus 5 feet × your Strength modifier. If you successfully throw the creature, it takes bludgeoning damage equal to your Strength modifier plus 1d6 per 10 feet you threw it. Attempt an Athletics check against the foe's Fortitude DC. You take a –2 circumstance penalty to your check if the target is one size larger than you and a –4 circumstance penalty if it's larger than that. You gain a +2 circumstance bonus to your check if the target is one size smaller than you and a +4 circumstance bonus if it's smaller than that. Critical Success You throw the creature the desired distance and it lands prone.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; You throw the creature the desired distance.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You don't throw the creature.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You don't throw the creature, and it's no longer grabbed or restrained by you.</Description>
         </Ability>
         <Ability name="Wolf Drag" level="6" page="162" cost="2">
             <Traits>Monk</Traits>

@@ -2,6 +2,11 @@
 <pf2:feats xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <!--Weapons-->
+    <Ability name="Weapon Mastery">
+        <Description>You fully understand your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master.</Description>
+        <AttributeMods Proficiency="Master">Simple Weapons, Martial Weapons, Unarmed</AttributeMods>
+    </Ability>
     <Ability name="Weapon Specialization">
         <Description>You've learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and to 4 if you're legendary.</Description>
         <CustomMod>
@@ -36,8 +41,65 @@
             damageModifier("Greater Weapon Specialization", weaponSpecialization)
         </CustomMod>
     </Ability>
+    <!--Fortitude-->
+    <Ability name="Great Fortitude">
+        <Description>Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert.</Description>
+        <AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
+    </Ability>
+    <Ability name="Magical Fortitude">
+        <Description>Magical power has improved your body's resiliency. Your proficiency rank for Fortitude saves increases to expert.</Description>
+        <AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
+    </Ability>
+    <Ability name="Juggernaut">
+        <Description>Your body is accustomed to physical hardship and resistant to ailments. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead.</Description>
+        <AttributeMods Proficiency="Master">Fortitude</AttributeMods>
+    </Ability>
+    <!--Reflex-->
+    <Ability name="Lightning Reflexes">
+        <Description>Your reflexes are Lightning fast. Your proficiency rank for Reflex saves increases to expert.</Description>
+        <AttributeMods Proficiency="Expert">Reflex</AttributeMods>
+    </Ability>
+    <Ability name="Evasion">
+        <Description>You've learned to move quickly to avoid explosions, a dragon's breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</Description>
+        <AttributeMods Proficiency="Master">Reflex</AttributeMods>
+    </Ability>
+    <Ability name="Improved Evasion">
+        <Description>You elude danger to a degree that few can match. Your proficiency rank for Reflex saves increases to legendary. When you roll a critical failure on a Reflex save, you get a failure instead. When you fail a Reflex save against a damaging effect, you take half damage.</Description>
+        <AttributeMods Proficiency="Legendary">Reflex</AttributeMods>
+    </Ability>
+    <!--Will-->
     <Ability name="Resolve">
         <Description>You've steeled your mind with resolve. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.</Description>
         <AttributeMods Proficiency="Master">Will</AttributeMods>
+    </Ability>
+    <Ability name="Greater Resolve">
+        <Description>Your unbelievable training grants you mental resiliency. Your proficiency rank for Will saves increases to legendary. When you roll a success on a Will save, you get a critical success. When you roll a critical failure on a Will save, you get a failure instead. When you fail a Will save against a damaging effect, you take half damage.</Description>
+        <AttributeMods Proficiency="Legendary">Will</AttributeMods>
+    </Ability>
+    <!--Perception-->
+    <Ability name="Alertness">
+        <Description>You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</Description>
+        <AttributeMods Proficiency="Expert">Perception</AttributeMods>
+    </Ability>
+    <Ability name="Vigilant Senses">
+        <Description>Through your adventuring, you've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to Master.</Description>
+        <AttributeMods Proficiency="Master">Perception</AttributeMods>
+    </Ability>
+    <Ability name="Incredible Senses">
+        <Description>You notice things that are almost impossible for an ordinary person to detect. Your proficiency rank for Perception increases to legendary.</Description>
+        <AttributeMods Proficiency="Legendary">Perception</AttributeMods>
+    </Ability>
+    <!--Armor-->
+    <Ability name="Defensive Robes">
+        <Description>The flow of magic and your defensive training combine to help you get out of the way before an attack. Your proficiency rank in unarmored defense increases to expert.</Description>
+        <AttributeMods Proficiency="Expert">Unarmed</AttributeMods>
+    </Ability>
+    <Ability name="Light Armor Expertise">
+        <Description>You've learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert.</Description>
+        <AttributeMods Proficiency="Expert">Light Armor, Unarmored</AttributeMods>
+    </Ability>
+    <Ability name="Light Armor Mastery">
+        <Description>Your skill with light armor improves, increasing your ability to dodge blows. Your proficiency ranks for light armor and unarmored defense increase to master.</Description>
+        <AttributeMods Proficiency="Master">Light Armor, Unarmored</AttributeMods>
     </Ability>
 </pf2:feats>

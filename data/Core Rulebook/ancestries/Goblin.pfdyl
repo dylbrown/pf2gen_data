@@ -22,6 +22,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<Ability name="Razortooth Goblin" type="Heritage">
             <Description>Your family's teeth are formidable weapons. You gain a jaws unarmed attack that deals 1d6 piercing damage.&lt;br&gt;&lt;br&gt;Your jaws are in the brawling group and have the finesse and unarmed traits.</Description>
+            <Weapon>
+                <Name>Jaws</Name>
+                <Damage>1d6 P</Damage>
+                <Group>Brawling</Group>
+                <Traits>Finesse, Unarmed</Traits>
+            </Weapon>
         </Ability>
 		<Ability name="Snow Goblin" type="Heritage">
             <Description>You are acclimated to living in frigid lands and have skin ranging from sky blue to navy in color, as well as blue fur. You gain cold resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).</Description>
@@ -34,7 +40,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             <Description>Fire fascinates you. Your spells and alchemical items that deal fire damage gain a status bonus to damage equal to half the spell's level or one-quarter the item's level (minimum 1). You also gain a +1 status bonus to any persistent fire damage you deal.</Description>
         </Ability>
 		<Ability name="City Scavenger" level="1">
-            <Description>You know that the greatest treasures often look like refuse, and you scoff at those who throw away perfectly good scraps. You gain a +1 circumstance bonus to checks to Subsist, and you can use Society or Survival when you Subsist in a settlement.&lt;br&gt;&lt;br&gt;When you Subsist in a city, you also gather valuable junk that silly longshanks threw away. You can Earn Income using Society or Survival in the same time as you Subsist, without spending any additional days of downtime. You also gain a +1 circumstance bonus to this check.&lt;br&gt;&lt;br&gt;Special If you have the irongut goblin heritage, increase the bonuses to +2.</Description>
+            <Description>You know that the greatest treasures often look like refuse, and you scoff at those who throw away perfectly good scraps. You gain a +1 circumstance bonus to checks to Subsist, and you can use Society or Survival when you Subsist in a settlement.&lt;br&gt;&lt;br&gt;When you Subsist in a city, you also gather valuable junk that silly longshanks threw away. You can Earn Income using Society or Survival in the same time as you Subsist, without spending any additional days of downtime. You also gain a +1 circumstance bonus to this check.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If you have the irongut goblin heritage, increase the bonuses to +2.</Description>
         </Ability>
 		<Ability name="Goblin Lore" level="1">
             <Description>You've picked up skills and tales from your goblin community.&lt;br&gt;&lt;br&gt;You gain the trained proficiency rank in Nature and Stealth.&lt;br&gt;&lt;br&gt;If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Goblin Lore.</Description>
@@ -49,6 +55,24 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<Ability name="Goblin Weapon Familiarity" level="1">
             <Description>Others might look upon them with disdain, but you know that the weapons of your people are as effective as they are sharp.&lt;br&gt;&lt;br&gt;You are trained with the dogslicer and horsechopper.&lt;br&gt;&lt;br&gt;In addition, you gain access to all uncommon goblin weapons.&lt;br&gt;&lt;br&gt;For the purpose of determining your proficiency, martial goblin weapons are simple weapons and advanced goblin weapons are martial weapons.</Description>
+            <CustomMod>
+                import model.items.weapons.Weapon;
+                import model.enums.Trait;
+                import model.enums.WeaponProficiency;
+                weaponProficiency("dogslicer", "Trained");
+                weaponProficiency("horsechopper", "Trained");
+                weaponProficiencyTranslator({item,proficiency -> {
+                    def weapon = item.getExtension(Weapon.class);
+                    if(item.getTraits().contains(get("sources.traits").find("Goblin"))) {
+                        if(proficiency == WeaponProficiency.Martial) {
+                            proficiency = WeaponProficiency.Simple;
+                        } else if(proficiency == WeaponProficiency.Advanced) {
+                            proficiency = WeaponProficiency.Martial;
+                        }
+                    }
+                    return proficiency;
+                }});
+            </CustomMod>
         </Ability>
 		<Ability name="Junk Tinker" level="1">
             <Description>You can make useful tools out of even twisted or rusted scraps.&lt;br&gt;&lt;br&gt;When using the Crafting skill to Craft, you can make level 0 items, including weapons but not armor, out of junk. This reduces the Price to one-quarter the usual amount but always results in a shoddy item. Shoddy items normally give a penalty, but you don't take this penalty when using shoddy items you made.&lt;br&gt;&lt;br&gt;You can also incorporate junk to save money while you Craft any item. This grants you a discount on the item as if you had spent 1 additional day working to reduce the cost, but the item is obviously made of junk. At the GM's discretion, this might affect the item's resale value depending on the buyer's tastes.</Description>
@@ -74,6 +98,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		<Ability name="Goblin Weapon Expertise" level="13">
 			<Prerequisites>Goblin Weapon Familiarity</Prerequisites>
             <Description>Your goblin affinity blends with your class training, granting you great skill with goblin weapons. Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency in the dogslicer, horsechopper, and all goblin weapons in which you are trained.</Description>
+            <!--TODO: Support this-->
         </Ability>
 		<Ability name="Very, Very Sneaky" level="13">
 			<Prerequisites>Very Sneaky</Prerequisites>

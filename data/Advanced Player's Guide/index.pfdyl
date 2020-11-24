@@ -16,6 +16,7 @@
         &lt;li&gt;Even more exciting new rules, from rare and unique backgrounds to investigative skill feats, from spells and rituals like reincarnate and create demiplane to new items including special wands with unusual effects and exciting potions worthy of a witch's cauldron.&lt;/li&gt;
         &lt;/ul&gt;</Description>
     <Classes>
+        <Class name="Investigator" path="classes/Investigator.pfdyl" />
         <Class name="Swashbuckler" path="classes/Swashbuckler.pfdyl" />
     </Classes>
     <Feats>

@@ -14,9 +14,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		<!--Heritages-->
         <Ability name="Half-Elf" type="Heritage">
             <Description>Either one of your parents was an elf, or one or both were half-elves. You have pointed ears and other telltale signs of elf heritage. You gain the elf trait and low-light vision. In addition, you can select elf, half-elf, and human feats whenever you gain an ancestry feat.</Description>
+            <!--TODO: Support this-->
         </Ability>
         <Ability name="Half-Orc" type="Heritage">
             <Description>One of your parents was an orc, or one or both were half-orcs. You have a green tinge to your skin and other indicators of orc heritage. You gain the orc trait and low-light vision. In addition, you can select orc, half-orc, and human feats whenever you gain an ancestry feat. </Description>
+            <!--TODO: Support this-->
         </Ability>
         <Ability name="Skilled Heritage" type="Heritage">
             <Description>Your ingenuity allows you to train in a wide variety of skills. You become trained in one skill of your choice. At 5th level, you become an expert in the chosen skill.</Description>
@@ -42,8 +44,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <Ability name="Cooperative Nature" level="1">
             <Description>The short human life span lends perspective and has taught you from a young age to set aside differences and work with others to achieve greatness. You gain a +4 circumstance bonus on checks to Aid. </Description>
         </Ability>
-        <Ability name="General Training" level="1">
-            <Description>Your adaptability manifests in your mastery of a range of useful abilities. You gain a 1st-level general feat. You must meet the feat's prerequisites, but if you select this feat during character creation, you can select the feat later in the process in order to determine which prerequisites you meet.&lt;br&gt;&lt;br&gt;Special You can select this feat multiple times, choosing a different feat each time.</Description>
+        <Ability name="General Training" level="1" multiple="true">
+            <Description>Your adaptability manifests in your mastery of a range of useful abilities. You gain a 1st-level general feat. You must meet the feat's prerequisites, but if you select this feat during character creation, you can select the feat later in the process in order to determine which prerequisites you meet.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat multiple times, choosing a different feat each time.</Description>
 			<AbilitySlot state="feat" type="General Feat" name="General Feat" />
         </Ability>
         <Ability name="Haughty Obstinacy" level="1">
@@ -60,11 +62,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </AbilitySet>
         <Ability name="Unconventional Weaponry" level="1">
             <Description>You've familiarized yourself with a particular weapon, potentially from another ancestry or culture. Choose an uncommon simple or martial weapon with a trait corresponding to an ancestry (such as dwarf, goblin, or orc) or that is common in another culture. You gain access to that weapon, and for the purpose of determining your proficiency, that weapon is a simple weapon.&lt;br&gt;&lt;br&gt;If you are trained in all martial weapons, you can choose an uncommon advanced weapon with such a trait. You gain access to that weapon, and for the purpose of determining your proficiency, that weapon is a martial weapon. </Description>
-			<!--TODO Implementation-->
+            <!--TODO: Support this-->
         </Ability>
         <Ability name="Adaptive Adept" level="5">
             <Prerequisites>Adapted Cantrip</Prerequisites>
             <Description>You've continued adapting your magic to blend your class's tradition with your adapted tradition. Choose a cantrip or 1st-level spell from the same magical tradition as your cantrip from Adapted Cantrip. You gain that spell, adding it to your spell repertoire, spellbook, or prepared spells just like the cantrip from Adapted Spell. You can cast this spell as a spell of your class's magical tradition. If you choose a 1st-level spell, you don't gain access to the heightened versions of that spell, meaning you can't prepare them if you prepare spells and you can't learn them or select the spell as a signature spell if you have a spell repertoire. </Description>
+            <!--TODO: Support this-->
         </Ability>
 		<Ability name="Clever Improviser" level="5">
             <Description>You've learned how to handle situations when you're out of your depth. You gain the Untrained Improvisation general feat. In addition, you can attempt skill actions that normally require you to be trained, even if you are untrained. </Description>
@@ -81,16 +84,18 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
         <Ability name="Multitalented" level="9">
             <Description>You've learned to split your focus between multiple classes with ease. You gain a 2nd-level multiclass dedication feat (for more about multiclass archetypes, see page 219), even if you normally couldn't take another dedication feat until you take more feats from your current archetype.&lt;br&gt;&lt;br&gt;If you're a half-elf, you don't need to meet the feat's ability score prerequisites. </Description>
-			<AbilitySlot state="feat" type="Dedication Feat" name="Multitalented Dedication Feat"/>
+			<AbilitySlot state="feat" type="MulticlassDedication Feat" name="Multitalented Dedication Feat" level="2"/>
         </Ability>
         <Ability name="Unconventional Expertise" level="13">
 			<Prerequisites>Unconventional Weaponry</Prerequisites>
             <Description>You've continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for Unconventional Weaponry. </Description>
+            <!--TODO: Support this-->
         </Ability>
 		<!--Half-Elf Specific Ancestry Feats-->
 		<Ability name="Elf Atavism" level="1">
 			<Prerequisites>Half-Elf</Prerequisites>
-			<Description>Your elven blood runs particularly strong, granting you features far more elven than those of a typical half-elf. You may also have been raised among elves, steeped in your elven ancestors' heritage. You gain the benefits of the elf heritage of your elven parent or ancestors. You typically can't select a heritage that depends on or improves an elven feature you don't have. For example, you couldn't gain the cavern elf's darkvision ability if you didn't have low-light vision. In these cases, at the GM's discretion, you might gain a different benefit.&lt;br&gt;&lt;br&gt;Special You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</Description>
+            <!--TODO: Support this-->
+			<Description>Your elven blood runs particularly strong, granting you features far more elven than those of a typical half-elf. You may also have been raised among elves, steeped in your elven ancestors' heritage. You gain the benefits of the elf heritage of your elven parent or ancestors. You typically can't select a heritage that depends on or improves an elven feature you don't have. For example, you couldn't gain the cavern elf's darkvision ability if you didn't have low-light vision. In these cases, at the GM's discretion, you might gain a different benefit.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</Description>
         </Ability>
 		<Ability name="Inspire Imitation" level="5">
 			<Prerequisites>Half-Elf</Prerequisites>
@@ -99,6 +104,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		<Ability name="Supernatural Charm" level="5">
 			<Prerequisites>Half-Elf</Prerequisites>
 			<Description>The elven magic in your blood manifests as a force you can use to become more appealing or alluring. You can cast 1st-level charm as an arcane innate spell once per day. </Description>
+            <Spell type="Focus" name="Charm"/>
         </Ability>
 		<!--Half-Orc Specific Ancestry Feats-->
 		<Ability name="Monstrous Peacemaker" level="1">
@@ -113,7 +119,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<Ability name="Orc Sight" level="1" >
 			<Prerequisites>Half-Orc</Prerequisites>
-			<Description>Your orc blood is strong enough to grant you the keen vision of your orc forebears. You gain darkvision, allowing you to see in darkness and dim light just as well as you can in bright light. However, in darkness, you see in black and white only.&lt;br&gt;&lt;br&gt;Special You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</Description>
+			<Description>Your orc blood is strong enough to grant you the keen vision of your orc forebears. You gain darkvision, allowing you to see in darkness and dim light just as well as you can in bright light. However, in darkness, you see in black and white only.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</Description>
+            <!--TODO: Support this-->
         </Ability>
 		<Ability name="Orc Superstition" level="1" cost="Reaction">
 			<Prerequisites>Half-Orc</Prerequisites>
@@ -123,6 +130,24 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		<Ability name="Orc Weapon Familiarity" level="1" >
 			<Prerequisites>Half-Orc</Prerequisites>
 			<Description>In combat, you favor the brutal weapons that are traditional for your orc ancestors. You are trained with the falchion and greataxe. In addition, you gain access to all uncommon orc weapons.&lt;br&gt;&lt;br&gt;For you, martial orc weapons are simple weapons, and advanced orc weapons are martial weapons. </Description>
+            <CustomMod>
+                import model.items.weapons.Weapon;
+                import model.enums.Trait;
+                import model.enums.WeaponProficiency;
+                weaponProficiency("falchion", "Trained");
+                weaponProficiency("greataxe", "Trained");
+                weaponProficiencyTranslator({item,proficiency -> {
+                    def weapon = item.getExtension(Weapon.class);
+                    if(item.getTraits().contains(get("sources.traits").find("Orc"))) {
+                        if(proficiency == WeaponProficiency.Martial) {
+                            proficiency = WeaponProficiency.Simple;
+                        } else if(proficiency == WeaponProficiency.Advanced) {
+                            proficiency = WeaponProficiency.Martial;
+                        }
+                    }
+                    return proficiency;
+                }});
+            </CustomMod>
         </Ability>
 		<Ability name="Orc Weapon Carnage" level="5" >
 			<Prerequisites>Orc Weapon Familiarity, Half-Orc</Prerequisites>
@@ -144,6 +169,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		<Ability name="Orc Weapon Expertise" level="13">
 			<Prerequisites>Weapon Familiarity (Orc), Half-Orc</Prerequisites>
             <Description>You've continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for Unconventional Weaponry. </Description>
+            <!--TODO: Support this-->
         </Ability>
 	</Feats>
 </pf2:ancestry>

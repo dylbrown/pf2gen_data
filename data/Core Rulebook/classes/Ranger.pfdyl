@@ -96,22 +96,12 @@ You can have only one creature designated as your prey at a time. If you use Hun
 		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
 	</FeatureList>
 	<FeatureList level="7">
-		<AbilitySlot state="filled" name="Evasion">
-			<Ability>
-				<Description>You've learned to move quickly to avoid explosions, dragons' breath, and worse. Your proficiency rank for Reflex saves increases to Master. When you roll a success on a Reflex save, you get a critical success instead.</Description>
-				<AttributeMods Proficiency="Master">Reflex</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Evasion" type="ClassFeature" contents="Evasion" />
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
 		<AbilitySlot state="filled" name="Skill Increase">
 			<Ability skillIncrease="true"/>
 		</AbilitySlot>
-		<AbilitySlot state="filled" name="Vigilant Senses">
-			<Ability>
-				<Description>Through your adventuring, you've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to Master.</Description>
-				<AttributeMods Proficiency="Master">Perception</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Vigilant Senses" type="ClassFeature" contents="Vigilant Senses" />
 		<AbilitySlot state="filled" name="Weapon Specialization" type="ClassFeature" contents="Weapon Specialization" />
 	</FeatureList>
 	<FeatureList level="8">
@@ -144,12 +134,7 @@ You can have only one creature designated as your prey at a time. If you use Hun
 	</FeatureList>
 	<FeatureList level="11">
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
-		<AbilitySlot state="filled" name="Juggernaut">
-			<Ability>
-				<Description>Your body is accustomed to physical hardship and resistant to ailments. Your proficiency rank for Fortitude saves increases to Master. When you roll a success on a Fortitude save, you get a critical success instead.</Description>
-				<AttributeMods Proficiency="Master">Fortitude</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Juggernaut" type="ClassFeature" contents="Juggernaut" />
 		<AbilitySlot state="filled" name="Medium Armor Expertise">
 			<Ability>
 				<Description>You've learned to defend yourself better against attacks.
@@ -178,14 +163,7 @@ You can ignore the effects of non-magical difficult terrain. As normal for ignor
 		<AbilitySlot state="filled" name="Skill Increase">
 			<Ability skillIncrease="true"/>
 		</AbilitySlot>
-		<AbilitySlot state="filled" name="Weapon Mastery">
-			<Ability>
-				<Description>You fully understand the intricacies of your weapons.
-
-Your proficiency ranks for simple and martial weapons increase to Master.</Description>
-				<AttributeMods Proficiency="Expert">Simple Weapons, Martial Weapons</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Weapon Mastery" type="ClassFeature" contents="Weapon Mastery" />
 	</FeatureList>
 	<FeatureList level="14">
 		<AbilitySlot state="feat" type="Class Feat" name="Ranger Feat"/>
@@ -197,20 +175,8 @@ Your proficiency ranks for simple and martial weapons increase to Master.</Descr
 		</AbilitySlot>
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
 		<AbilitySlot state="filled" name="Greater Weapon Specialization" type="ClassFeature" contents="Greater Weapon Specialization" />
-		<AbilitySlot state="filled" name="Improved Evasion">
-			<Ability>
-				<Description>Your ability to elude danger is matchless. Your proficiency rank for Reflex saves increases to Legendary. When you roll a critical failure on a Reflex save, you get a failure instead.
-
-When you fail a Reflex save against a damaging effect, you take half damage.</Description>
-				<AttributeMods Proficiency="Legendary">Reflex</AttributeMods>
-			</Ability>
-		</AbilitySlot>
-		<AbilitySlot state="filled" name="Incredible Senses">
-			<Ability>
-				<Description>You notice things almost impossible for an ordinary person to detect. Your proficiency rank for Perception increases to Legendary.</Description>
-				<AttributeMods Proficiency="Legendary">Perception</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Improved Evasion" type="ClassFeature" contents="Improved Evasion" />
+		<AbilitySlot state="filled" name="Incredible Senses" type="ClassFeature" contents="Incredible Senses" />
 		<AbilitySlot state="filled" name="Skill Increase">
 			<Ability skillIncrease="true"/>
 		</AbilitySlot>
@@ -456,7 +422,7 @@ Outwit: Your Mastery of skills allows you to overwhelm your prey. If you have Ma
 		<Ability name="Second Sting" level="12" cost="One">
 			<Traits>Press, Ranger</Traits>
 			<Requirements>You are wielding two melee weapons, each in a different hand.</Requirements>
-			<Description>You read your prey's movements and transform them into openings, so failures with one weapon set up glancing blows with the other. Make a melee Strike with one of the required weapons against your hunted prey. The Strike gains the following failure effect.Failure You deal the damage the other required weapon would have dealt on a hit, excluding all damage dice. (This removes dice from weapon Runes, spells, and special abilities, not just weapon damage dice.)</Description>
+			<Description>You read your prey's movements and transform them into openings, so failures with one weapon set up glancing blows with the other. Make a melee Strike with one of the required weapons against your hunted prey. The Strike gains the following failure effect.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You deal the damage the other required weapon would have dealt on a hit, excluding all damage dice. (This removes dice from weapon Runes, spells, and special abilities, not just weapon damage dice.)</Description>
 		</Ability>
 		<Ability name="Side By Side" level="12">
 			<Traits>Ranger</Traits>

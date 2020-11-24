@@ -40,6 +40,25 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
         <Ability name="Dwarven Weapon Familiarity" level="1">
             <Description>Your kin have instilled in you an affinity for hard-hitting weapons, and you prefer these to more elegant arms. You are trained with the battle axe, pick, and warhammer.&lt;br&gt;&lt;br&gt;You also gain access to all uncommon dwarf weapons. For the purpose of determining your proficiency, martial dwarf weapons are simple weapons and advanced dwarf weapons are martial weapons.</Description>
+            <CustomMod>
+                import model.items.weapons.Weapon;
+                import model.enums.Trait;
+                import model.enums.WeaponProficiency;
+                weaponProficiency("battle axe", "Trained");
+                weaponProficiency("pick", "Trained");
+                weaponProficiency("warhammer", "Trained");
+                weaponProficiencyTranslator({item,proficiency -> {
+                    def weapon = item.getExtension(Weapon.class);
+                    if(item.getTraits().contains(get("sources.traits").find("Dwarf"))) {
+                        if(proficiency == WeaponProficiency.Martial) {
+                            proficiency = WeaponProficiency.Simple;
+                        } else if(proficiency == WeaponProficiency.Advanced) {
+                            proficiency = WeaponProficiency.Martial;
+                        }
+                    }
+                    return proficiency;
+                }});
+            </CustomMod>
         </Ability>
         <Ability name="Rock Runner" level="1">
             <Description>Your innate connection to stone makes you adept at moving across uneven surfaces. You can ignore difficult terrain caused by rubble and uneven ground made of stone and earth.&lt;br&gt;&lt;br&gt;In addition, when you use the Acrobatics skill to Balance on narrow surfaces or uneven ground made of stone or earth, you aren't flat-footed, and when you roll a success at one of these Acrobatics checks, you get a critical success instead.</Description>
@@ -51,7 +70,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             <Description>You've learned techniques first devised by your ancestors during their ancient wars, allowing you to comfortably wear massive suits of armor. Ignore the reduction to your Speed from any armor you wear.&lt;br&gt;&lt;br&gt;In addition, any time you're taking a penalty to your Speed from some other reason (such as from the encumbered condition or from a spell), deduct 5 feet from the penalty.&lt;br&gt;&lt;br&gt;For example, the encumbered condition normally gives a –10-foot penalty to Speed, but it gives you only a –5-foot penalty. If your Speed is taking multiple penalties, pick only one penalty to reduce.</Description>
         </Ability>
         <Ability name="Vengeful Hatred" level="1">
-            <Description>You heart aches for vengeance against those who have wronged your people. Choose one of the following dwarven ancestral foes when you gain Vengeful Hatred: drow, duergar, giant, or orc. You gain a +1 circumstance bonus to damage with weapons and unarmed attacks against creatures with that trait. If your attack would deal more than one weapon die of damage (as is common at higher levels than 1st), the bonus is equal to the number of weapon dice or unarmed attack dice.&lt;br&gt;&lt;br&gt;In addition, if a creature critically succeeds at an attack against you and deals damage to you, you gain your bonus to damage against that creature for 1 minute regardless of whether it has the chosen trait.&lt;br&gt;&lt;br&gt;Special Your GM can add appropriate creature traits to the ancestral foes list if your character is from a community that commonly fights other types of enemies.</Description>
+            <Description>You heart aches for vengeance against those who have wronged your people. Choose one of the following dwarven ancestral foes when you gain Vengeful Hatred: drow, duergar, giant, or orc. You gain a +1 circumstance bonus to damage with weapons and unarmed attacks against creatures with that trait. If your attack would deal more than one weapon die of damage (as is common at higher levels than 1st), the bonus is equal to the number of weapon dice or unarmed attack dice.&lt;br&gt;&lt;br&gt;In addition, if a creature critically succeeds at an attack against you and deals damage to you, you gain your bonus to damage against that creature for 1 minute regardless of whether it has the chosen trait.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; Your GM can add appropriate creature traits to the ancestral foes list if your character is from a community that commonly fights other types of enemies.</Description>
+            <!--TODO: Support choice in description-->
         </Ability>
         <Ability name="Boulder Roll" level="5" cost="2">
 			<Prerequisites>Rock Runner</Prerequisites>
@@ -63,9 +83,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
         <Ability name="Mountain's Stoutness" level="9">
             <Description>Your hardiness lets you withstand more punishment than most before going down.&lt;br&gt;&lt;br&gt;Increase your maximum Hit Points by your level. You also decrease the DC of recovery checks when you have the dying condition by 1.&lt;br&gt;&lt;br&gt;If you also have the Toughness feat, the Hit Points gained from it and this feat are cumulative, and you decrease the DC of recovery checks by 4.</Description>
-        <CustomMod recalculate="On Level">
-            bonus("hp", level);
-        </CustomMod>
+            <CustomMod recalculate="On Level">
+                bonus("hp", level);
+            </CustomMod>
         </Ability>
         <Ability name="Stonewalker" level="9">
             <Description>You have a deep reverence for and connection to stone. You gain meld into stone as a 3rd-level divine innate spell that you can cast once per day.&lt;br&gt;&lt;br&gt;If you have the Stonecunning dwarf ancestry feat, you can attempt to find unusual stonework and stonework traps that require legendary proficiency in Perception. If you have both Stonecunning and legendary proficiency in Perception, when you're not Seeking and the GM rolls a secret check for you to notice unusual stonework, you keep the bonus from Stonecunning and don't take the –2 circumstance penalty.</Description>

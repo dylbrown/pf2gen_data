@@ -306,12 +306,7 @@
     </FeatureList>
     <FeatureList level="7">
         <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
-        <AbilitySlot state="filled" name="Juggernaut">
-            <Ability>
-                <Description>Your body is accustomed to physical hardship and resistant to ailments. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead.</Description>
-                <AttributeMods Proficiency="Master">Fortitude</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Juggernaut" type="ClassFeature" contents="Juggernaut" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
@@ -323,12 +318,7 @@
     </FeatureList>
     <FeatureList level="9">
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
-        <AbilitySlot state="filled" name="Lightning Reflexes">
-            <Ability>
-                <Description>Your reflexes are Lightning fast. Your proficiency rank for Reflex saves increases to expert.</Description>
-                <AttributeMods Proficiency="Expert">Reflex</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Lightning Reflexes" type="ClassFeature" contents="Lightning Reflexes" />
         <AbilitySlot state="filled" name="Raging Resistance">
             <Ability>
                 <Description>Repeated exposure and toughened skin allow you to fend off harm. While raging, you gain resistance equal to 3 + your Constitution modifier to damage types based on your instinct.</Description>
@@ -647,7 +637,7 @@
         <Ability name="Awesome Blow" level="14">
             <Traits>Barbarian, Concentrate, Rage</Traits>
             <Prerequisites>Knockback</Prerequisites>
-            <Description>Your attacks are so powerful, they can flatten your opponents.When you use Knockback, you can attempt an Athletics check against your target's Fortitude DC.Critical Success You gain the critical success effect of a Shove, then the critical success effect of a Trip against the target.Success You gain the success effect of a Shove, then the success effect of a Trip against the target.Failure You gain the normal effect of Knockback.</Description>
+            <Description>Your attacks are so powerful, they can flatten your opponents.When you use Knockback, you can attempt an Athletics check against your target's Fortitude DC.&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; You gain the critical success effect of a Shove, then the critical success effect of a Trip against the target.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; You gain the success effect of a Shove, then the success effect of a Trip against the target.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You gain the normal effect of Knockback.</Description>
         </Ability>
         <Ability name="Giant's Lunge" level="14" cost="One">
             <Traits>Barbarian, Concentrate, Instinct, Rage</Traits>

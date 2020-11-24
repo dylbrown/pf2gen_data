@@ -48,12 +48,7 @@
     </FeatureList>
     <FeatureList level="3">
         <AbilitySlot state="feat" type="General Feat" name="General Feat" />
-        <AbilitySlot state="filled" name="Great Fortitude">
-            <Ability>
-                <Description>Your physique is incredibly hardy, granting you increased endurance. Your proficiency rank for Fortitude saves increases to expert.</Description>
-                <AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Great Fortitude" type="ClassFeature" contents="Great Fortitude" />
         <AbilitySlot state="filled" name="Opportune Riposte">
             <Ability page="86" cost="Reaction">
                 <Trigger>A foe within your reach critically fails a Strike against you.</Trigger>
@@ -99,12 +94,7 @@
         <AbilitySlot state="feat" type="Class Feat" name="Swashbuckler Feat"/>
     </FeatureList>
     <FeatureList level="7">
-        <AbilitySlot state="filled" name="Evasion">
-            <Ability>
-                <Description>You've learned to move quickly to avoid explosions, a dragon's breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</Description>
-                <AttributeMods Proficiency="Master">Reflex</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Evasion" type="ClassFeature" contents="Evasion" />
         <AbilitySlot state="feat" type="General Feat" name="General Feat" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
@@ -154,12 +144,7 @@
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Vigilant Senses">
-            <Ability>
-                <Description>Through your adventures, you've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master.</Description>
-                <AttributeMods Proficiency="Master">Perception</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Vigilant Senses" type="ClassFeature" contents="Vigilant Senses" />
     </FeatureList>
     <FeatureList level="12">
         <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
@@ -167,27 +152,12 @@
     </FeatureList>
     <FeatureList level="13">
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
-        <AbilitySlot state="filled" name="Improved Evasion">
-            <Ability>
-                <Description>Your ability to elude danger is matchless. Your proficiency rank for Reflex saves increases to legendary. When you roll a critical failure on a Reflex save, you get a failure instead. When you roll a failure on a Reflex save against a damaging effect, you take half damage.</Description>
-                <AttributeMods Proficiency="Legendary">Reflex</AttributeMods>
-            </Ability>
-        </AbilitySlot>
-        <AbilitySlot state="filled" name="Light Armor Expertise">
-            <Ability>
-                <Description>You've learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert.</Description>
-                <AttributeMods Proficiency="Expert">Light Armor, Unarmored</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Improved Evasion" type="ClassFeature" contents="Improved Evasion" />
+        <AbilitySlot state="filled" name="Light Armor Expertise" type="ClassFeature" contents="Light Armor Expertise" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Weapon Mastery">
-            <Ability>
-                <Description>You fully understand your weapons. Your proficiency ranks for simple and martial weapons and unarmed attacks increase to master.</Description>
-                <AttributeMods Proficiency="Master">Simple Weapons, Martial Weapons, Unarmed</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Weapon Mastery" type="ClassFeature" contents="Weapon Mastery" />
     </FeatureList>
     <FeatureList level="14">
         <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
@@ -235,12 +205,7 @@
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="feat" type="General Feat" name="General Feat" />
-        <AbilitySlot state="filled" name="Light Armor Mastery">
-            <Ability>
-                <Description>Your skill with light armor improves, increasing your ability to dodge blows. Your proficiency ranks for light armor and unarmored defense increase to master.</Description>
-                <AttributeMods Proficiency="Master">Light Armor, Unarmored</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Light Armor Mastery" type="ClassFeature" contents="Light Armor Mastery" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>

@@ -55,7 +55,7 @@
 				</CustomMod>
 			</Ability>
 		</AbilitySlot>
-		<AbilitySlot state="choice" name="Champion's Cause">
+		<AbilitySlot state="choice" name="Champion's Cause" contents="Champion's Cause">
 			<AbilitySet name="Paladin Cause">
 				<Description>
                     You're honorable, forthright, and committed to pushing back the forces of cruelty. You gain the Retributive Strike champion's reaction and the lay on hands devotion spell.
@@ -214,20 +214,11 @@ Paladin: You surround evil targets in a punishing halo. If you hit with your Ret
 Redeemer: A guilty conscience assails foes who spurn your Glimpse of Redemption. A foe that responds to your Glimpse of Redemption by dealing damage takes persistent good damage equal to your Charisma modifier.
 
 Liberator: You punish those who ensnare your allies in bondage. If the triggering enemy was using any effects to make your ally grabbed, restrained, immobilized, or paralyzed when you used Liberating Step, that enemy takes persistent good damage equal to your Charisma modifier.</Description>
+				<!--TODO: Split this-->
 			</Ability>
 		</AbilitySlot>
-		<AbilitySlot state="filled" name="Juggernaut">
-			<Ability>
-				<Description>Your body is accustomed to physical hardship and resistant to ailments. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead.</Description>
-				<AttributeMods Proficiency="Master">Fortitude</AttributeMods>
-			</Ability>
-		</AbilitySlot>
-		<AbilitySlot state="filled" name="Lightning Reflexes">
-			<Ability>
-				<Description>Your reflexes are Lightning fast. Your proficiency rank for Reflex saves increases to expert.</Description>
-				<AttributeMods Proficiency="Expert">Reflex</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Juggernaut" type="ClassFeature" contents="Juggernaut" />
+		<AbilitySlot state="filled" name="Lightning Reflexes" type="ClassFeature" contents="Lightning Reflexes" />
 		<AbilitySlot state="filled" name="Skill Increase">
 			<Ability skillIncrease="true"/>
 		</AbilitySlot>
@@ -240,12 +231,7 @@ Liberator: You punish those who ensnare your allies in bondage. If the triggerin
 		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
 	</FeatureList>
 	<FeatureList level="11">
-		<AbilitySlot state="filled" name="Alertness">
-			<Ability>
-				<Description>You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</Description>
-				<AttributeMods Proficiency="Expert">Perception</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Alertness" type="ClassFeature" contents="Alertness" />
 		<AbilitySlot state="filled" name="Divine Will">
 			<Ability>
 				<Description>Your faith grants mastery of your will. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead.</Description>
@@ -261,6 +247,7 @@ Paladin: When you use Retributive Strike, each ally within 15 feet of you with t
 Redeemer: You protect multiple allies. You can apply the resistance granted by Glimpse of Redemption to yourself and all allies within 15 feet of you, including the triggering ally, except the resistance is reduced by 2 for all.
 
 Liberator: You can help your whole group get into position. When you use Liberating Step, if your ally doesn't attempt to break free of an effect, you and all allies within 15 feet can Step, in addition to the triggering ally.</Description>
+				<!--TODO: Split this-->
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
@@ -283,12 +270,7 @@ Liberator: You can help your whole group get into position. When you use Liberat
 		<AbilitySlot state="filled" name="Skill Increase">
 			<Ability skillIncrease="true"/>
 		</AbilitySlot>
-		<AbilitySlot state="filled" name="Weapon Mastery">
-			<Ability>
-				<Description>You fully understand your weapons. Your proficiency ranks for simple and martial weapons increase to master.</Description>
-				<AttributeMods Proficiency="Master">Simple Weapons, Martial Weapons</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Weapon Mastery" type="ClassFeature" contents="Weapon Mastery" />
 	</FeatureList>
 	<FeatureList level="14">
 		<AbilitySlot state="feat" type="Class Feat" name="Champion Feat"/>
@@ -335,6 +317,7 @@ Liberator: You can help your whole group get into position. When you use Liberat
 		<AbilitySlot state="filled" name="Hero's Defiance">
 			<Ability>
 				<Description>You can defy fate and continue fighting as long as you have divine energy. You gain the hero's defiance devotion spell.</Description>
+				<Spell type="Focus" name="Hero's Defiance"/>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Skill Increase">
@@ -419,8 +402,9 @@ Liberator: You can help your whole group get into position. When you use Liberat
 		</Ability>
 		<Ability name="Litany Against Wrath" level="6">
 			<Traits>Champion</Traits>
-			<Prerequisites>Devotion Spells,  Tenets Of Good</Prerequisites>
+			<Prerequisites>Devotion Spells, Tenets Of Good</Prerequisites>
 			<Description>You excoriate a foe for its wrath against goodly creatures. You can cast the litany against wrath devotion spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+			<Spell type="Focus" name="Litany Against Wrath"/>
 		</Ability>
 		<Ability name="Loyal Warhorse" level="6">
 			<Traits>Champion</Traits>
@@ -441,6 +425,13 @@ Liberator: You can help your whole group get into position. When you use Liberat
 			<Traits>Champion</Traits>
 			<Prerequisites>Deity's Domain</Prerequisites>
 			<Description>Through your conviction, you have glimpsed the deeper secrets of your deity's domain. You gain an advanced domain spell from the domain you chose with Deity's Domain. You can cast that spell as a devotion spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+			<CustomMod recalculate="Always">
+				def choices = getChoices("Deity's Domain Choice");
+				if (choices.size() == 1) {
+					spell(choices.get(0).getAdvancedDomainSpell(), "Champion");
+				}
+			</CustomMod>
+			<!--TODO: Link refresh to choice-->
 		</Ability>
 		<Ability name="Greater Mercy" level="8">
 			<Traits>Champion</Traits>
@@ -460,6 +451,7 @@ Liberator: You can help your whole group get into position. When you use Liberat
 			<Traits>Champion</Traits>
 			<Prerequisites>Divine Ally</Prerequisites>
 			<Description>Your inner grace attracts the attention of a second protective spirit. Choose a second type of divine ally and gain its benefits.</Description>
+			<!--TODO: Support adding additional choice-->
 		</Ability>
 		<Ability name="Sense Evil" level="8">
 			<Traits>Champion</Traits>
@@ -473,22 +465,23 @@ Liberator: You can help your whole group get into position. When you use Liberat
 		</Ability>
 		<Ability name="Imposing Destrier" level="10">
 			<Traits>Champion</Traits>
-			<Prerequisites>Divine Ally (steed),  Loyal Warhorse</Prerequisites>
+			<Prerequisites>Steed Ally, Loyal Warhorse</Prerequisites>
 			<Description>Under your care, your mount has realized its innate potential.The mount you gained through the divine ally class feature is now a nimble or savage animal companion. During an encounter, even if you don't use the Command an Animal action, your mount can still use 1 action on your turn to Stride or Strike.</Description>
 		</Ability>
 		<Ability name="Litany Against Sloth" level="10">
 			<Traits>Champion</Traits>
-			<Prerequisites>Devotion Spells,  Tenets Of Good</Prerequisites>
+			<Prerequisites>Devotion Spells, Tenets Of Good</Prerequisites>
 			<Description>You rail against the sin of sloth, turning a foe's laziness against it. You can cast the litany against sloth devotion spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+			<Spell type="Focus" name="Litany Against Sloth"/>
 		</Ability>
 		<Ability name="Radiant Blade Spirit" level="10">
 			<Traits>Champion</Traits>
-			<Prerequisites>Divine Ally (blade)</Prerequisites>
+			<Prerequisites>Blade Ally</Prerequisites>
 			<Description>Your divine ally radiates power, enhancing your chosen weapon. When you choose the weapon for your blade ally during your daily preparations, add the following property Runes to the list of effects you can choose from: flaming and any aligned properties (anarchic, axiomatic, holy, or unholy) that match your cause's alignment.</Description>
 		</Ability>
 		<Ability name="Shield Of Reckoning" level="10" cost="Reaction">
 			<Traits>Champion, Flourish</Traits>
-			<Prerequisites>Champion's Reaction,  Divine Ally (shield),  Tenets Of Good,  Shield Warden</Prerequisites>
+			<Prerequisites>Champion's Reaction, Shield Ally, Tenets Of Good, Shield Warden</Prerequisites>
 			<Trigger>A foe's attack against an ally matches the trigger for both your Shield Block reaction and your champion's reaction.</Trigger>
 			<Description>When you shield your ally against an attack, you call upon your power to protect your ally further. You use the Shield Block reaction to prevent damage to an ally and also use your champion's reaction against the foe that attacked your ally.</Description>
 		</Ability>
@@ -555,6 +548,7 @@ Liberator: You can help your whole group get into position. When you use Liberat
 			<Traits>Champion</Traits>
 			<Prerequisites>Tenets Of Good</Prerequisites>
 			<Description>You call upon righteousness to expose an evil foe's weakness.You can cast the litany of righteousness devotion spell.Increase the number of Focus Points in your focus pool by 1.</Description>
+			<Spell type="Focus" name="Litany Of Righteousness"/>
 		</Ability>
 		<Ability name="Wyrmbane Aura" level="14">
 			<Traits>Champion</Traits>
@@ -564,11 +558,11 @@ Liberator: You can help your whole group get into position. When you use Liberat
 		<Ability name="Auspicious Mount" level="16">
 			<Traits>Champion</Traits>
 			<Prerequisites>Steed Ally</Prerequisites>
-			<Description>Auspice mounts gain the following benefits: Your companion is marked by your deity's religious symbol as a sacred creature of your deity. Its proficiency rank in Religion increases to expert, it can speak the language associated with your deity's servitors (Celestial for champions who follow the tenets of good), and itsIntelligence modifier increases by 2 and its Wisdom modifier by 1.</Description>
+			<Description>Auspice mounts gain the following benefits: Your companion is marked by your deity's religious symbol as a sacred creature of your deity. Its proficiency rank in Religion increases to expert, it can speak the language associated with your deity's servitors (Celestial for champions who follow the tenets of good), and its Intelligence modifier increases by 2 and its Wisdom modifier by 1.</Description>
 		</Ability>
 		<Ability name="Instrument Of Zeal" level="16">
 			<Traits>Champion</Traits>
-			<Prerequisites>Blade Ally,  Tenets Of Good</Prerequisites>
+			<Prerequisites>Blade Ally, Tenets Of Good</Prerequisites>
 			<Description>Divine energy fills your weapon. Whenever you critically hit a foe with Smite Evil or a Retributive Strike, your attack adds an extra damage die, and the target is slowed 1 on its next turn.</Description>
 		</Ability>
 		<Ability name="Shield Of Grace" level="16">
@@ -580,6 +574,7 @@ Liberator: You can help your whole group get into position. When you use Liberat
 			<Traits>Champion</Traits>
 			<Prerequisites>Tenets Of Good</Prerequisites>
 			<Description>You take on a celestial countenance, appearing like a type of celestial who serves your deity; for example, as an angel, you would gain a halo and feathery wings. You gain a fly Speed equal to your Speed. You gain darkvision if you don't already have it, and you gain the celestial trait and the trait appropriate to the type of servitor you've become (archon, angel, or azata, for example).</Description>
+			<!--TODO: Support this-->
 		</Ability>
 		<Ability name="Ultimate Mercy" level="18">
 			<Traits>Champion</Traits>
@@ -588,12 +583,12 @@ Liberator: You can help your whole group get into position. When you use Liberat
 		</Ability>
 		<Ability name="Celestial Mount" level="20">
 			<Traits>Champion</Traits>
-			<Prerequisites>Steed Ally,  Tenets Of Good</Prerequisites>
+			<Prerequisites>Steed Ally, Tenets Of Good</Prerequisites>
 			<Description>Your steed gains incredible celestial powers granted by your deity. It gains darkvision, its maximum Hit Points increase by 40, and it gains weakness 10 to evil damage.Additionally, it grows wings appropriate to a servitor of your deity (such as metallic wings for an archon), granting it a fly Speed equal to its Speed. It gains the celestial trait and the trait appropriate to the type of servitor it has become (archon, angel, or azata, for example).</Description>
 		</Ability>
 		<Ability name="Radiant Blade Master" level="20">
 			<Traits>Champion</Traits>
-			<Prerequisites>Blade Ally,  Radiant Blade Spirit</Prerequisites>
+			<Prerequisites>Blade Ally, Radiant Blade Spirit</Prerequisites>
 			<Description>Your divine ally turns your chosen weapon into a paragon of its type. When you choose the weapon for your blade divine ally during your preparations, add the following property Runes to the list of effects you can choose from: dancing, greater disrupting, and keen.</Description>
 		</Ability>
 		<Ability name="Shield Paragon" level="20">

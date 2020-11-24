@@ -133,19 +133,9 @@
                 <SpellSlots level="2" count="2"/>
             </Ability>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Alertness">
-            <Ability>
-                <Description>Experience has made you increasingly aware of threats around you, and you react more quickly to danger. Your proficiency rank for Perception increases to expert.</Description>
-                <AttributeMods Proficiency="Expert">Perception</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Alertness" type="ClassFeature" contents="Alertness" />
         <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
-        <AbilitySlot state="filled" name="Great Fortitude">
-            <Ability>
-                <Description>Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert.</Description>
-                <AttributeMods Proficiency="Expert">Fortitude</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Great Fortitude" type="ClassFeature" contents="Great Fortitude" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
@@ -169,12 +159,7 @@
             <Ability abilityBoosts="4"/>
         </AbilitySlot>
         <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
-        <AbilitySlot state="filled" name="Lightning Reflexes">
-            <Ability>
-                <Description>Your reflexes are lightning fast. Your proficiency rank for Reflex saves increases to expert.</Description>
-                <AttributeMods Proficiency="Expert">Reflex</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Lightning Reflexes" type="ClassFeature" contents="Lightning Reflexes" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>
@@ -436,7 +421,7 @@
             <Requires>Strength 14</Requires>
             <Description>With additional care and effort, you can take on an alternate form for a longer period of time. If your next action is to cast wild shape, wild shape's spell level is 2 lower than normal (minimum 1st level), but you can remain transformed for up to 1 hour or the listed duration (whichever is longer). You can still Dismiss the form at any time, as permitted by the spell.</Description>
         </Ability>
-        <Ability name="Mature Animal Companion (Druid)" level="4" page="135">
+        <Ability name="Mature Animal Companion" level="4" page="135">
             <Traits>Druid</Traits>
             <Prerequisites>Animal Companion</Prerequisites>
             <Description>Your animal companion grows up, becoming a mature animal companion, which grants it additional capabilities. See the animal companion rules on page 214 for more information. Your animal companion is better trained than most. During an encounter, even if you don't use the Command an Animal action, your animal companion can still use 1 action on your turn that round to Stride or Strike.</Description>
@@ -512,7 +497,7 @@
             <Spell type="Spell" name="Illusory Scene"/>
             <Spell type="Spell" name="Veil"/>
         </Ability>
-        <Ability name="Incredible Companion (Druid)" level="8" page="137">
+        <Ability name="Incredible Companion" level="8" page="137">
             <Traits>Druid</Traits>
             <Prerequisites>Mature Animal Companion</Prerequisites>
             <Description>Your animal companion continues to grow and develop. It becomes a nimble or savage animal companion (your choice), gaining additional capabilities determined by the type of companion (page 214).</Description>
@@ -570,7 +555,7 @@
             <Prerequisites>Call Of The Wild</Prerequisites>
             <Description>Whenever you summon an ally, you can empower it with the elemental power of air, earth, fire, or water. You gain the primal summons order spell.</Description>
         </Ability>
-        <Ability name="Specialized Companion (Druid)" level="14" page="139">
+        <Ability name="Specialized Companion" level="14" page="139">
             <Traits>Druid</Traits>
             <Prerequisites>Incredible Companion</Prerequisites>
             <Description>Your animal companion continues to grow in power and ability, and it is now cunning enough to become specialized. Your animal companion gains one specialization of your choice. (See the Animal Companion section on page 214.)Special You can select this feat up to three times. Each time, add a different specialization to your companion.</Description>

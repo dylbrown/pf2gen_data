@@ -96,12 +96,7 @@
 				<Description>Through your experience in battle, you can prepare your tactics to suit different situations. When you make your daily preparations, you gain one fighter feat of 8th level or lower that you don't already have. You can use that feat until your next daily preparations. You must meet all of the feat's other prerequisites.</Description>
 			</Ability>
 		</AbilitySlot>
-		<AbilitySlot state="filled" name="Juggernaut">
-			<Ability>
-				<Description>Your body is accustomed to physical hardship and resistant to ailments. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead.</Description>
-				<AttributeMods Proficiency="Master">Fortitude</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Juggernaut" type="ClassFeature" contents="Juggernaut" />
 	</FeatureList>
 	<FeatureList level="10">
 		<AbilitySlot state="filled" name="Ability Boosts">
@@ -157,12 +152,7 @@ You can select one weapon group and increase your proficiency ranks to legendary
 			<Ability skillIncrease="true"/>
 		</AbilitySlot>
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
-		<AbilitySlot state="filled" name="Evasion">
-			<Ability>
-				<Description>You've learned to move quickly to avoid explosions, a dragon's breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</Description>
-				<AttributeMods Proficiency="Expert">Reflex</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Evasion" type="ClassFeature" contents="Evasion" />
 		<AbilitySlot state="filled" name="Greater Weapon Specialization" type="ClassFeature" contents="Greater Weapon Specialization" />
 		<AbilitySlot state="filled" name="Improved Flexibility">
 			<Ability>
@@ -218,7 +208,7 @@ You can select one weapon group and increase your proficiency ranks to legendary
 		</Ability>
 		<Ability name="Exacting Strike" level="1" cost="One">
 			<Traits>Fighter, Press</Traits>
-			<Description>You make a controlled attack, fully accounting for your momentum. Make a Strike. The Strike gains the following failure effect.Failure This attack does not count toward your multiple attack penalty.</Description>
+			<Description>You make a controlled attack, fully accounting for your momentum. Make a Strike. The Strike gains the following failure effect.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; This attack does not count toward your multiple attack penalty.</Description>
 		</Ability>
 		<Ability name="Point-blank Shot" level="1" cost="One">
 			<Traits>Fighter, Open, Stance</Traits>
@@ -256,7 +246,7 @@ You can select one weapon group and increase your proficiency ranks to legendary
 		<Ability name="Brutish Shove" level="2" cost="One">
 			<Traits>Fighter, Press</Traits>
 			<Requirements>You are wielding a two-handed melee weapon.</Requirements>
-			<Description>Throwing your weight behind your attack, you hit your opponent hard enough to make it stumble back. Make a Strike with a two-handed melee weapon. If you hit a target that is your size or smaller, that creature is flat-footed until the end of your current turn, and you can automatically Shove it, with the same benefits as the Shove action (including the critical success effect, if your Strike was a critical hit). If you move to follow the target, your movement doesn't trigger reactions.This Strike has the following failure effect.Failure The target becomes flat-footed until the end of your current turn.</Description>
+			<Description>Throwing your weight behind your attack, you hit your opponent hard enough to make it stumble back. Make a Strike with a two-handed melee weapon. If you hit a target that is your size or smaller, that creature is flat-footed until the end of your current turn, and you can automatically Shove it, with the same benefits as the Shove action (including the critical success effect, if your Strike was a critical hit). If you move to follow the target, your movement doesn't trigger reactions.This Strike has the following failure effect.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target becomes flat-footed until the end of your current turn.</Description>
 		</Ability>
 		<Ability name="Combat Grab" level="2" cost="One">
 			<Traits>Fighter, Press</Traits>
@@ -320,7 +310,7 @@ You can select one weapon group and increase your proficiency ranks to legendary
 		</Ability>
 		<Ability name="Advantageous Assault" level="6" cost="One">
 			<Traits>Fighter, Press</Traits>
-			<Description>When an enemy's movement is compromised, you deliver a more deadly blow. Make a Strike against a creature that is grabbed, prone, or restrained. You gain a circumstance bonus to damage on this Strike equal to the number of weapon damage dice, or that number + 2 if you're wielding the weapon in two hands. The Strike gains the following failure effect.Failure You deal damage to the target equal to the number of weapon damage dice, or that number + 2 if you're wielding the weapon in two hands. This damage has the same damage type as the weapon.</Description>
+			<Description>When an enemy's movement is compromised, you deliver a more deadly blow. Make a Strike against a creature that is grabbed, prone, or restrained. You gain a circumstance bonus to damage on this Strike equal to the number of weapon damage dice, or that number + 2 if you're wielding the weapon in two hands. The Strike gains the following failure effect.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You deal damage to the target equal to the number of weapon damage dice, or that number + 2 if you're wielding the weapon in two hands. This damage has the same damage type as the weapon.</Description>
 		</Ability>
 		<Ability name="Disarming Stance" level="6" cost="One">
 			<Traits>Fighter, Stance</Traits>
@@ -407,7 +397,7 @@ You can select one weapon group and increase your proficiency ranks to legendary
 		</Ability>
 		<Ability name="Certain Strike" level="10" cost="One">
 			<Traits>Fighter, Press</Traits>
-			<Description>Even when you don't hit squarely, you can still score a glancing blow. Make a melee Strike. It gains the following failure effect.Failure Your attack deals any damage it would have dealt on a hit, excluding all damage dice. (This removes damage dice from weapon Runes, spells, and special abilities, in addition to weapon damage dice.)</Description>
+			<Description>Even when you don't hit squarely, you can still score a glancing blow. Make a melee Strike. It gains the following failure effect.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; Your attack deals any damage it would have dealt on a hit, excluding all damage dice. (This removes damage dice from weapon Runes, spells, and special abilities, in addition to weapon damage dice.)</Description>
 		</Ability>
 		<Ability name="Combat Reflexes" level="10">
 			<Traits>Fighter</Traits>
@@ -421,7 +411,7 @@ You can select one weapon group and increase your proficiency ranks to legendary
 			<Traits>Fighter, Press</Traits>
 			<Requires>trained in Athletics</Requires>
 			<Requirements>You are wielding only a single one-handed melee weapon and have your other hand or hands free.</Requirements>
-			<Description>After your initial attack redirects your foe's defenses, your follow-up wrests their weapon from their grasp. Make a melee Strike with the required weapon. In addition to its other effects, this Strike gains the success and critical success effects of the Disarm action. The Strike also has the following failure effect.Failure The target is flat-footed until the end of your current turn.</Description>
+			<Description>After your initial attack redirects your foe's defenses, your follow-up wrests their weapon from their grasp. Make a melee Strike with the required weapon. In addition to its other effects, this Strike gains the success and critical success effects of the Disarm action. The Strike also has the following failure effect.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target is flat-footed until the end of your current turn.</Description>
 		</Ability>
 		<Ability name="Disruptive Stance" level="10" cost="One">
 			<Traits>Fighter, Stance</Traits>
@@ -451,7 +441,7 @@ You can select one weapon group and increase your proficiency ranks to legendary
 		<Ability name="Brutal Finish" level="12" cost="One">
 			<Traits>Fighter, Press</Traits>
 			<Requirements>You are wielding a melee weapon in two hands.</Requirements>
-			<Description>Your final blow can make an impact even if it rebounds off a foe's defenses. Make a Strike with the required weapon. After the Strike, your turn ends. The Strike deals one extra weapon damage die, or two extra weapon damage dice if you're at least . The Strike also gains the following failure effect.Failure You deal damage equal to one weapon damage die of the required weapon. Increase this to two dice if you're at least .</Description>
+			<Description>Your final blow can make an impact even if it rebounds off a foe's defenses. Make a Strike with the required weapon. After the Strike, your turn ends. The Strike deals one extra weapon damage die, or two extra weapon damage dice if you're at least . The Strike also gains the following failure effect.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You deal damage equal to one weapon damage die of the required weapon. Increase this to two dice if you're at least .</Description>
 		</Ability>
 		<Ability name="Dueling Dance" level="12" cost="One">
 			<Traits>Fighter, Stance</Traits>
@@ -503,7 +493,7 @@ You can select one weapon group and increase your proficiency ranks to legendary
 		<Ability name="Guiding Finish" level="14" cost="One">
 			<Traits>Fighter, Press</Traits>
 			<Requirements>You are wielding only a single one-handed melee weapon and have your other hand or hands free.</Requirements>
-			<Description>Using your weapon as a lever, you force your opponent to end up right where you want them. Make a Strike with the required weapon. If the Strike hits, you can move the target up to 10 feet into a space in your reach.You can move the target through your space during this movement. This follows the forced movement rules. Your Strike gains the following failure effect.Failure You can force the creature to move as you would on a success, but you can move the target only 5 feet.</Description>
+			<Description>Using your weapon as a lever, you force your opponent to end up right where you want them. Make a Strike with the required weapon. If the Strike hits, you can move the target up to 10 feet into a space in your reach.You can move the target through your space during this movement. This follows the forced movement rules. Your Strike gains the following failure effect.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You can force the creature to move as you would on a success, but you can move the target only 5 feet.</Description>
 		</Ability>
 		<Ability name="Guiding Riposte" level="14">
 			<Traits>Fighter</Traits>
