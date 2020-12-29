@@ -1,0 +1,403 @@
+<?xml version = "1.0"?>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Name>Oracle</Name>
+    <HP>8</HP>
+    <AbilityChoices>Cha</AbilityChoices>
+    <SkillIncreases>3</SkillIncreases>
+    <Description>Your conduit to divine power eschews the traditional channels of prayer and servitude—you instead glean divine truths that extend beyond any single deity. You understand the great mysteries of the universe embodied in overarching concepts that transcend good and evil or chaos and law, whether because you perceive the common ground across multiple deities or circumvent their power entirely. You explore one of these mysteries and draw upon its power to cast miraculous spells, but that power comes with a terrible price: a curse that grows stronger the more you draw upon it. Your abilities are a double-edged sword, which you might uphold as an instrument of the divine or view as a curse from the gods.</Description>
+    <FeatureList level="1">
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
+        <AbilitySlot state="filled" name="Initial Proficiencies">
+            <Ability>
+                <AttributeMods Proficiency="Expert">Will</AttributeMods>
+                <AttributeMods Proficiency="Trained">Perception, Fortitude, Reflex, Simple Weapons, Unarmed, Light Armor, Unarmored, Divine Spell Attacks, Divine Spell DCs</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Divine Spellcasting">
+            <Ability>
+                <Description>Your mystery provides you with divine magical power. You can cast spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells. Your unconventional access to this divine power means you can usually replace material components with somatic components, so you don't need to use a material component pouch when casting spells.&lt;br&gt;&lt;br&gt; At 1st level, you can cast up to two 1st-level spells per day. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots. As you increase in level as an oracle, your number of spells per day increases, as does the highest level of spells you can cast, as shown on Table 2–3: Oracle Spells per Day.&lt;br&gt;&lt;br&gt; Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key ability is Charisma, your spell attack rolls and spell DCs use your Charisma modifier. &lt;h3&gt;Heightening Spells&lt;/h3&gt; When you get spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. To cast a heightened spell, you must have the heightened version in your repertoire; for example, you can't cast a 3rd-level version of a spell that is only in your repertoire at 1st level. Many spells have specific improvements when they are heightened to certain levels. The signature spells class feature lets you heighten certain spells freely. &lt;h3&gt;Cantrips&lt;/h3&gt;Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is automatically heightened to half your level rounded up—this is usually equal to the highest level of oracle spell slot you have. For example, as a 1st-level oracle, your cantrips are 1st-level spells, and as a 5th-level oracle, your cantrips are 3rd-level spells.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Spell Repertoire">
+            <Ability>
+                <Description>The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-level spells of your choice and five cantrips of your choice. You choose these from the common spells from the divine spell list, or from other divine spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell level.&lt;br&gt;&lt;br&gt; You add to this spell repertoire as you increase in level. Each time you get a spell slot (see Table 2–3), you add a spell of the same level to your spell repertoire. At 2nd level, you select another 1st-level spell; at 3rd level, you select two 2nd-level spells, and so on. When you add spells, you might add a higher-level version of a spell you already have, so you can cast a heightened version of that spell.&lt;br&gt;&lt;br&gt; Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa. &lt;h3&gt;Swapping Spells In Your Repertoire&lt;/h3&gt; As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same level. You can also instead swap a cantrip. You can also swap out spells by retraining during downtime.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Mystery">
+            <Ability>
+                <Description>An oracle wields divine power, but not from a single divine being. This power could come from a potent concept or ideal, the attention of multiple divine entities whose areas of concern all touch on that subject, or a direct and dangerous conduit to raw divine power. This is the oracle's mystery, a source of divine magic not beholden to any deity. &lt;br&gt;&lt;br&gt;Choose the mystery that empowers your magic. Your mystery grants you special spells called revelation spells and might later grant you divine domain spells. It dictates the effects of your oracular curse, adds an additional cantrip to your repertoire, and gives you one or more trained skills. Drawing insight and power from the collective divine influences that fuel your magic also provides you with a special benefit.&lt;br&gt;&lt;br&gt;The list of oracle mysteries can be found here.  &lt;h3&gt;Revelation Spells&lt;/h3&gt; The powers of your mystery manifest in the form of revelation spells, which are a type of focus spell. Casting a revelation spell costs 1 Focus Point and increases the effects of your oracular curse. You start with a focus pool of 2 Focus Points. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to reconcile the conflicting or unconventional nature of your divine mystery.&lt;br&gt;&lt;br&gt; Focus spells are automatically heightened to half your level rounded up. Focus spells don't require spell slots, and you can't cast them using spell slots (see Divine Spellcasting). Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear here.&lt;br&gt;&lt;br&gt; Revelation spells have the cursebound trait, unlike other focus spells. This trait means they increase the severity of your oracular curse (see below) when cast. You can't cast a cursebound spell if you don't have an oracular curse.&lt;br&gt;&lt;br&gt; You learn two revelation spells at 1st level. The first is an initial revelation spell determined by your mystery. The second is an initial domain spell you select from one of the domains associated with your mystery, which you cast as a revelation spell, causing it to gain the cursebound trait. &lt;h3&gt;Oracular Curse&lt;/h3&gt; Drawing on multiple disparate sources of power inevitably places an incredible stress on your body, manifesting as a supernatural curse. The more revelation spells you cast, the worse the effects of your curse, but these increasingly conflicting energies can also provide you with divine benefits.&lt;br&gt;&lt;br&gt; The specific effects of your curse are tied to your mystery, but all curses follow the same progression. A curse continually gives you a mild but constant reminder that you carry otherworldly power. As you cast revelation spells, your curse intensifies, first to a minor effect and then to a moderate effect.&lt;br&gt;&lt;br&gt; Your curse progresses to its minor stage the first time you finish casting a revelation spell after your daily preparations. Once your minor curse has manifested, it remains in effect until you rest for 8 hours and again make your daily preparations. If you cast a revelation spell while your minor curse is in effect, you progress to the moderate curse effect immediately after you finish Casting the Spell. The minor effect continues to affect you, though some moderate curse effects might alter the specifics of your minor curse. At higher levels, you can cast more revelation spells, progressing your curse to its major stage and then an extreme stage; these stronger curses are cumulative with the effects of the lower stages and can alter them. When you Refocus while under the effects of your moderate or stronger curse, you reduce your curse's severity to minor in addition to regaining a Focus Point.&lt;br&gt;&lt;br&gt; Drawing upon your mystery's power while your curse is at its worst causes an irreconcilable conflict between you and the sources of your power. Immediately after casting a revelation spell while under the moderate effect of your curse, you are overwhelmed. While overwhelmed, you can't Cast or Sustain any revelation spells— you effectively lose access to those spells. You can still Refocus to reduce the effects of your curse and regain a Focus Point, but doing so doesn't allow you to cast further revelation spells. These effects last until you rest for 8 hours and make your daily preparations, at which point your curse returns to its basic state. At higher levels, you can grow to withstand your curse's major and even extreme effects, enabling you to cast more revelation spells without becoming overwhelmed.&lt;br&gt;&lt;br&gt; Your curse has the curse, divine, and necromancy traits. You can't mitigate, reduce, or remove the effects of your oracular curse by any means other than Refocusing and resting for 8 hours. For example, if your curse makes creatures concealed from you, you can't negate that concealed condition through a magic item or spell, such as &lt;i&gt;true strike&lt;/i&gt; (though you would still benefit from the other effects of that item or spell). Likewise, &lt;i&gt;remove curse&lt;/i&gt; and similar spells don't affect your curse at all.</Description>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="2">
+        <AbilitySlot state="feat" type="Class Feat" name="Oracle Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="1" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="3">
+        <AbilitySlot state="filled" name="2nd-level spells">
+            <Ability>
+                <SpellSlots level="2" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat" />
+        <AbilitySlot state="filled" name="Signature Spells">
+            <Ability>
+                <Description>Experience enables you to cast some spells more flexibly. For each spell level you have access to, choose one spell of that level to be a signature spell. You don't need to learn heightened versions of signature spells separately; instead, you can heighten these spells freely. If you've learned a signature spell at a higher level than its minimum, you can also cast all its lower-level versions without learning those separately. If you swap out a signature spell, you can replace it with any spell you could have chosen when you first selected it (i.e., of the same spell level or lower). You can also retrain specifically to change a signature spell to a different spell of that level without swapping any spells; this takes as much time as retraining a spell normally does.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="4">
+        <AbilitySlot state="feat" type="Class Feat" name="Oracle Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="2" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="5">
+        <AbilitySlot state="filled" name="3rd-level spells">
+            <Ability>
+                <SpellSlots level="3" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="6">
+        <AbilitySlot state="feat" type="Class Feat" name="Oracle Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="3" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="7">
+        <AbilitySlot state="filled" name="4th-level spells">
+            <Ability>
+                <SpellSlots level="4" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Expert Spellcaster">
+            <Ability>
+                <Description>The intricacy of your divine power has grown clearer over time. Your proficiency ranks for divine spell attack rolls and spell DCs increase to expert.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat" />
+        <AbilitySlot state="filled" name="Resolve" type="ClassFeature" contents="Resolve" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="8">
+        <AbilitySlot state="feat" type="Class Feat" name="Oracle Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="4" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="9">
+        <AbilitySlot state="filled" name="5th-level spells">
+            <Ability>
+                <SpellSlots level="5" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Magical Fortitude" type="ClassFeature" contents="Magical Fortitude" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="10">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Oracle Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="5" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="11">
+        <AbilitySlot state="filled" name="6th-level spells">
+            <Ability>
+                <SpellSlots level="6" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Alertness" type="ClassFeature" contents="Alertness" />
+        <AbilitySlot state="feat" type="General Feat" name="General Feat" />
+        <AbilitySlot state="filled" name="Major Curse">
+            <Ability>
+                <Description>You've learned to better balance the conflicting powers wreaking havoc on your body. Immediately after completing the casting of a revelation spell while you are affected by your moderate curse, your curse progresses to its major effect, rather than overwhelming you. This effect lasts until you Refocus, which reduces your curse to its minor effect. If you cast a revelation spell while under the effects of your major curse, you are overwhelmed by your curse.&lt;br&gt;&lt;br&gt; In addition, increase the number of Focus Points in your focus pool from 2 to 3. If you spend at least 2 Focus Points before you again Refocus, you recover 2 Focus Points when you Refocus instead of 1.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Weapon Expertise">
+            <Ability>
+                <Description>You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons and unarmed attacks increase to expert.</Description>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="12">
+        <AbilitySlot state="feat" type="Class Feat" name="Oracle Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="6" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="13">
+        <AbilitySlot state="filled" name="7th-level spells">
+            <Ability>
+                <SpellSlots level="7" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Light Armor Expertise" type="ClassFeature" contents="Light Armor Expertise" />
+        <AbilitySlot state="filled" name="Lightning Reflexes" type="ClassFeature" contents="Lightning Reflexes" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Weapon Specialization" type="ClassFeature" contents="Weapon Specialization" />
+    </FeatureList>
+    <FeatureList level="14">
+        <AbilitySlot state="feat" type="Class Feat" name="Oracle Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="7" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="15">
+        <AbilitySlot state="filled" name="8th-level spells">
+            <Ability>
+                <SpellSlots level="8" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat" />
+        <AbilitySlot state="filled" name="Master Spellcaster">
+            <Ability>
+                <Description>You truly understand the deep and complex divine power within your mystery. Your proficiency ranks for divine spell attack rolls and spell DCs increase to master.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="16">
+        <AbilitySlot state="feat" type="Class Feat" name="Oracle Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="8" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="17">
+        <AbilitySlot state="filled" name="9th-level spells">
+            <Ability>
+                <SpellSlots level="9" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Extreme Curse">
+            <Ability>
+                <Description>You have mastered a perilous balance between the conflicting divine powers of your mystery, gaining the power to change your fate, but straining both body and soul. When you cast a revelation spell while affected by your major curse, your curse intensifies to an extreme effect instead of overwhelming you. All mysteries share the same effects for their extreme curse.&lt;br&gt;&lt;br&gt; When affected by your extreme curse, you become doomed 2 (or increase your doomed condition by 2 if you were already doomed). Once every 10 minutes, when you fail an attack roll, skill or Perception check, or saving throw, you can reroll it and use the second result. The reroll has the fortune trait and doesn't require you to spend an action, meaning you can use the reroll even if you can't act. These effects are in addition to all the effects of your major curse, and they can't be removed by any means until you Refocus to reduce your curse to its minor effect.&lt;br&gt;&lt;br&gt; If you cast a revelation spell while under the effects of this extreme curse, you are overwhelmed by your curse, and you remain doomed 2 even if you Refocus. Additionally, if you spend at least 3 Focus Points before you again Refocus, you recover 3 Focus Points when you Refocus instead of 1.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Greater Resolve" type="ClassFeature" contents="Greater Resolve" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="18">
+        <AbilitySlot state="feat" type="Class Feat" name="Oracle Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="9" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="19">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat" />
+        <AbilitySlot state="filled" name="Legendary Spellcaster">
+            <Ability>
+                <Description>You can harness divine power at a level few others can match. Your proficiency ranks for divine spell attack rolls and spell DCs increase to legendary.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Oracular Clarity">
+            <Ability>
+                <Description>You now fully grasp the nature of the divine power behind your mystery, allowing you to work magic akin to miracles. Add two common 10th-level divine spells to your repertoire. You gain a single 10th-level spell slot you can use to cast one of those two spells using oracle spellcasting. You don't gain more 10th-level spells as you level up, unlike other spell slots, and you can't use 10th-level slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You can take the Oracular Providence feat to gain a second slot.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="20">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Oracle Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+    </FeatureList>
+    <Feats>
+        <Ability name="Glean Lore" level="1" page="78" cost="1">
+            <Traits>Divination, Divine, Oracle, Secret</Traits>
+            <Description>You tap into the collected lore of the divine, accessing a variety of potentially useful information. Attempt a Religion check to understand the information you gain. The GM sets the DC (similar to the DC to Recall Knowledge), potentially adjusting the DC of the check for topics far removed from your mystery.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; You comprehend the lore accurately or gain a useful clue from the divine about your situation.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; You learn two pieces of information about the topic, one true and one erroneous, but you don't know which is which.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You recall incorrect information or gain an erroneous or misleading clue.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You recall two pieces of incorrect information or gain two erroneous or misleading clues.</Description>
+        </Ability>
+        <Ability name="Reach Spell" level="1" page="79" cost="1">
+            <Traits>Bard, Cleric, Concentrate, Druid, Metamagic, Oracle, Sorcerer, Witch, Wizard</Traits>
+            <Description>You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell’s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</Description>
+        </Ability>
+        <Ability name="Widen Spell" level="1" page="79" cost="1">
+            <Traits>Druid, Manipulate, Metamagic, Oracle, Sorcerer, Witch, Wizard</Traits>
+            <Description>You manipulate the energy of your spell, causing it to spread out and affect a wider area. If the next action you use is to Cast a Spell that has an area of a burst, cone, or line and does not have a duration, increase the area of that spell. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet (a burst with a smaller radius is not affected). Add 5 feet to the length of a cone or line that is normally 15 feet long or smaller, and add 10 feet to the length of a larger cone or line.</Description>
+        </Ability>
+        <Ability name="Cantrip Expansion" level="2" page="101">
+            <Traits>Bard, Cleric, Oracle, Sorcerer, Witch, Wizard</Traits>
+            <Description>A greater understanding of your magic broadens your range of simple spells.&lt;br&gt;&lt;br&gt;&lt;b&gt;Prepared Caster (Cleric, Wizard, etc.)&lt;/b&gt;: You can prepare two additional cantrips each day.&lt;br&gt;&lt;b&gt;Spontaneous Caster (Bard, Sorcerer, etc.)&lt;/b&gt;: Add two additional cantrips from your spell list to your repertoire.</Description>
+        </Ability>
+        <Ability name="Divine Aegis" level="2" page="79" cost="Reaction">
+            <Traits>Abjuration, Divine, Oracle</Traits>
+            <Trigger>You attempt a saving throw against a magical effect, but you haven't rolled yet.</Trigger>
+            <Description>You summon divine energy to shield yourself, offering protection against other traditions but leaving you exposed to other divine effects. Until the beginning of your next turn, you gain a +1 circumstance bonus to saving throws against non-divine magical effects, but you also take a –1 circumstance penalty to saves against divine effects.</Description>
+        </Ability>
+        <Ability name="Domain Acumen" level="2" page="79">
+            <Traits>Oracle</Traits>
+            <Description>Every oracle's mystery touches on a divine domain of the deities that fuel it; you can access that power. Choose one of the domains associated with your mystery for which you don't already have an initial domain spell. You gain an initial domain spell from that domain, which you cast as a revelation spell. It gains the cursebound trait. Increase the number of Focus Points in your focus pool by 1.</Description>
+        </Ability>
+        <Ability name="Bespell Weapon" level="4" page="79" cost="Free">
+            <Traits>Oracle, Sorcerer, Wizard</Traits>
+            <Frequency>once per turn</Frequency>
+            <Requirements>Your most recent action was to cast a non-cantrip spell.</Requirements>
+            <Description>You siphon the residual energy from the last spell you cast into one weapon you're wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast. Abjuration force damage Conjuration or Transmutation the same type as the weapon Divination, Enchantment, or Illusion mental damage Evocation a type the spell dealt, or force damage if the spell didn't deal damage Necromancy negative damage</Description>
+        </Ability>
+        <Ability name="Divine Access" level="4" page="79">
+            <Traits>Oracle</Traits>
+            <Description>Your ability to tap into divine magic surpasses the spells traditionally available to you (the divine spell list). Choose one deity who grants one of your mystery's granted domains. Add up to three cleric spells of your choice granted by that deity to your spell list. You can select from these spells when you add or swap spells in your spell repertoire.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. You can't choose the same spells more than once, but you can choose a different domain or a different deity with the same domain you've previously selected with this feat.</Description>
+        </Ability>
+        <Ability name="Vision of Weakness" level="4" page="79">
+            <Traits>Oracle</Traits>
+            <Description>You can call upon divine insights to single out your foes' weak points. You learn the vision of weakness revelation spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+        </Ability>
+        <Ability name="Advanced Revelation" level="6" page="79">
+            <Traits>Oracle</Traits>
+            <Prerequisites>Initial Revelation Spell</Prerequisites>
+            <Description>You learn an advanced revelation spell associated with your mystery. Increase the number of Focus Points in your focus pool by 1.</Description>
+        </Ability>
+        <Ability name="Spiritual Sense" level="6" page="79">
+            <Traits>Divination, Divine, Oracle</Traits>
+            <Description>You have a vague connection to the Ethereal Plane that enables you to notice spirits. While you're exploring but not Searching, the GM rolls a secret check for you to find haunts that usually require Searching, as well as spirits, creatures on the Ethereal Plane, and beings made entirely of spiritual essence such as celestials, fiends, and monitors.&lt;br&gt;&lt;br&gt; You can also potentially notice ethereal creatures and spirits inside solid objects, provided they are within 30 feet of you. This applies while Searching, while Seeking, and on the automatic secret check you gain while exploring even if you aren't Searching. You can still notice spirits only on a successful check, and you can't see them if they're more than 5 feet inside an object.&lt;br&gt;&lt;br&gt; When you notice a creature with your Spiritual Sense, you also learn its location, making it hidden to you if it had been undetected.</Description>
+        </Ability>
+        <Ability name="Steady Spellcasting" level="6" page="80">
+            <Traits>Bard, Cleric, Druid, Oracle, Sorcerer, Witch, Wizard</Traits>
+            <Description>Confident in your technique, you don’t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn’t disrupted.</Description>
+        </Ability>
+        <Ability name="Debilitating Dichotomy" level="8" page="80">
+            <Traits>Oracle</Traits>
+            <Description>You can give others a glimpse of the impossible conflicts and unchecked power that courses through your body. You learn the debilitating dichotomy revelation spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+        </Ability>
+        <Ability name="Read Disaster" level="8" page="80">
+            <Traits>Divination, Exploration, Oracle, Prediction</Traits>
+            <Description>You spend 10 minutes and open yourself to the divine mysteries of the world, peering into the most sinister portents of the future. You gain the effects of augury, except you learn only about the dangers ahead; any results of “weal” are instead “nothing,” and results of “weal and woe” are instead “woe.” If you are legendary in Religion, you take only 1 minute to Read Disaster.</Description>
+        </Ability>
+        <Ability name="Oracular Warning" level="10" page="80" cost="Free">
+            <Traits>Divination, Divine, Oracle</Traits>
+            <Trigger>You are about to roll initiative.</Trigger>
+            <Description>You have a flash of insight about impending danger related to one ally, and you can shout or gesture to warn that ally of the threat a moment before it materializes. One ally of your choice can roll twice for initiative and use the better result; this is a fortune effect. If you are legendary in Religion, you receive two visions and can warn two allies, granting them both this benefit.&lt;br&gt;&lt;br&gt; You are momentarily thrown off by the divine insight, however, and you must roll twice for your initiative roll and use the worse result. This is a misfortune effect. The two effects are tied together; if you would avoid the misfortune effect for any reason, or if any of your allies would negate their fortune effect, your Oracular Warning does nothing. Depending on whether you use gestures or call out, this action gains either the visual or auditory trait, respectively.</Description>
+        </Ability>
+        <Ability name="Quickened Casting" level="10" page="80" cost="Free">
+            <Traits>Bard, Concentrate, Metamagic, Oracle, Sorcerer, Witch, Wizard</Traits>
+            <Frequency>once per day</Frequency>
+            <Description>If your next action is to cast a cantrip or a spell that is at least 2 levels lower than the highest level spell slot you have, reduce the number of actions to cast it by 1 (minimum 1 action).&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; This can only be used on a cantrip or spell from the class matching the one you gained this feat from.</Description>
+        </Ability>
+        <Ability name="Surging Might" level="10" page="80" cost="1">
+            <Traits>Manipulate, Metamagic, Oracle</Traits>
+            <Description>With a complex gesture, you focus the divine power of your spell to overcome enemies' resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target's resistance equal to your level against all the following types of damage: chaotic, evil, good, lawful, negative, and positive. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the positive energy within a field of life. This doesn't cause the spell to ignore immunities, only resistances.</Description>
+        </Ability>
+        <Ability name="Domain Fluency" level="12" page="80">
+            <Traits>Oracle</Traits>
+            <Prerequisites>Initial Domain Spell</Prerequisites>
+            <Description>You command a deep understanding of the divine domains related to your mystery. Choose one of the domains associated with your mystery for which you have an initial domain spell. You gain an advanced domain spell from that domain, which you cast as a revelation spell, causing it to gain the cursebound trait. Increase the number of Focus Points in your focus pool by 1.</Description>
+        </Ability>
+        <Ability name="Greater Revelation" level="12" page="80">
+            <Traits>Oracle</Traits>
+            <Prerequisites>Initial Revelation Spell</Prerequisites>
+            <Description>You learn a greater revelation spell associated with your mystery. Increase the number of Focus Points in your focus pool by 1.</Description>
+        </Ability>
+        <Ability name="Magic Sense" level="12" page="80">
+            <Traits>Detection, Divination, Oracle, Sorcerer, Wizard</Traits>
+            <Description>You have a literal sixth sense for ambient magic in your vicinity. You can sense the presence of magic auras as though you were always using a 1st-level detect magic spell. This detects magic in your field of vision only. When you Seek, you gain the benefits of a 3rd-level detect magic spell on things you see (in addition to the normal benefits of Seeking). You can turn this sense off and on with a free action at the start or the end of your turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; This feat has the trait corresponding to the tradition of spells you cast (arcane, divine, natural, or occult).</Description>
+        </Ability>
+        <Ability name="Forestall Curse" level="14" page="80" cost="1">
+            <Traits>Concentrate, Metamagic, Oracle</Traits>
+            <Frequency>once per day</Frequency>
+            <Description>You've learned to forestall the effects of your curse somewhat. If the next action you use is to cast a revelation spell, the severity of your curse doesn't increase.</Description>
+        </Ability>
+        <Ability name="Mysterious Repertoire" level="14" page="81">
+            <Traits>Oracle</Traits>
+            <Description>Your mystery holds unknowable depths of magic not always associated with the divine. You can have one spell in your spell repertoire not on the divine spell list, in addition to spells you've added to your spell list from feats like Divine Access. You cast that spell as a divine spell. You can swap which spell you add and from which tradition as you could any other oracle spell, but you can't use this feat to have more than one spell from another tradition in your spell repertoire at the same time.</Description>
+        </Ability>
+        <Ability name="Diverse Mystery" level="16" page="81">
+            <Traits>Oracle</Traits>
+            <Prerequisites>Advanced Revelation</Prerequisites>
+            <Description>You have broadened your understanding of the divine and can tap into the wonders of a different mystery. Select one revelation spell from a mystery other than your own. You can choose only an initial revelation spell or an advanced revelation spell.&lt;br&gt;&lt;br&gt; When you cast this revelation spell, you gain the effects of the minor curse from that mystery in addition to the normal curse effects you gain from casting a revelation spell. This additional minor curse effect remains until your next daily preparations. Any ability that lets you cast a revelation spell without increasing the severity of your curse also prevents you from gaining this additional curse effect.&lt;br&gt;&lt;br&gt; You can't cast your chosen revelation spell if any of the following conditions are true: its mystery's curse effects directly conflict with or negate the effects of your own mystery's curse, the curse would have no effect on you (for example, removing an ability from your original mystery that you lack), or either of these criteria would be met once you finish Casting the Spell.</Description>
+        </Ability>
+        <Ability name="Portentous Spell" level="16" page="81" cost="1">
+            <Traits>Manipulate, Mental, Metamagic, Oracle, Visual</Traits>
+            <Description>Your spellcasting is rife with strange lights, esoteric gestures, and other captivating effects that befuddle your foes. If the next action you use is to Cast a Spell, any creature that attempts to use a reaction triggered by your Cast a Spell activity takes a –2 circumstance penalty to attack rolls and skill checks rolled as part of the reaction. In addition, if the spell includes a spell attack roll or requires a saving throw, creatures you hit or that fail their saves are fascinated with you until the start of your next turn.</Description>
+        </Ability>
+        <Ability name="Blaze of Revelation" level="18" page="81">
+            <Traits>Oracle</Traits>
+            <Description>Your mind and body can, for a short time, withstand the devastation of overdrawing your curse. When you would become overwhelmed by your curse, you can forestall the effects for up to 1 minute. On each of your turns during that time, you can cast one revelation spell granted by your mystery (but not domain spells, spells from Diverse Mystery, or other revelation spells you gained from other abilities) without spending Focus Points or taking any further negative effects.&lt;br&gt;&lt;br&gt; At the end of the minute, the durations of any revelation spells you cast during that time end, you take the normal effects from being overwhelmed by your curse, and you must attempt a DC 40 Fortitude save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; You aren't otherwise affected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; You are drained 2 and can't reduce or remove this condition until your next preparations.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You are drained 4 and can't reduce or remove this condition until your next preparations.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You die.</Description>
+        </Ability>
+        <Ability name="Divine Effusion" level="18" page="81">
+            <Traits>Oracle</Traits>
+            <Description>The power of your mystery surges through you like a font of divine energy, even when your own magic dwindles. Twice per day, you can cast a spell after you've run out of spell slots of the appropriate spell level; the two spells you cast with this feat must be of different spell levels.</Description>
+        </Ability>
+        <Ability name="Mystery Conduit" level="20" page="81">
+            <Traits>Oracle</Traits>
+            <Description>The power of your mystery enables you to cast more than just revelation spells. When you cast a spell of 5th level or lower that has no duration, instead of spending a spell slot, you can advance the effects of your oracular curse in the same manner as when you cast a revelation spell. A spell cast in this way gains the cursebound trait.</Description>
+        </Ability>
+        <Ability name="Oracular Providence" level="20" page="81">
+            <Traits>Oracle</Traits>
+            <Prerequisites>Oracular Clarity</Prerequisites>
+            <Description>Your mystery grants you access to deep reserves of truly miraculous divine power. You gain an additional 10th-level spell slot.</Description>
+        </Ability>
+        <Ability name="Paradoxical Mystery" level="20" page="81">
+            <Traits>Oracle</Traits>
+            <Prerequisites>Greater Revelation</Prerequisites>
+            <Description>The truest depths of your divine mystery are fathomless and contradictory, granting you changing powers that even you can barely begin to fathom. Each day during your daily preparations, choose one basic or advanced domain spell from any domain from the &lt;i&gt;Core Rulebook&lt;/i&gt; or another domain to which you have access, or any initial or advanced revelation spell from another mystery. You gain that spell as a revelation spell until your next daily preparations, and it has the cursebound trait.</Description>
+        </Ability>
+    </Feats>
+</pf2:class>

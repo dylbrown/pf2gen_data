@@ -17,7 +17,9 @@
         &lt;/ul&gt;</Description>
     <Classes>
         <Class name="Investigator" path="classes/Investigator.pfdyl" />
+        <Class name="Oracle" path="classes/Oracle.pfdyl" />
         <Class name="Swashbuckler" path="classes/Swashbuckler.pfdyl" />
+        <Class name="Witch" path="classes/Witch.pfdyl" />
     </Classes>
     <Feats>
         <Category name="Archetype" path="feats/archetypes.pfdyl" />
