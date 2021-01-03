@@ -524,7 +524,7 @@
         <Level>1</Level>
         <Traits>Healing, Necromancy, Positive</Traits>
         <Traditions>divine, primal</Traditions>
-        <Cast>Single Action (Somatic)</Cast>
+        <Cast>Single Action (Somatic)</Cast><!--Support Variable Cost-->
         <Range>varies</Range>
         <Targets>1 willing living creature or 1 undead</Targets>
         <Description>You channel positive energy to heal the living or damage the undead. If the target is a willing living creature, you restore 1d8 Hit Points. If the target is undead, you deal that amount of positive damage to it, and it gets a basic Fortitude save. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.&lt;br&gt;&lt;br&gt;[[Single Action]] &lt;b&gt;(somatic)&lt;/b&gt; The spell has a range of touch.&lt;br&gt;[[Two Actions]] &lt;b&gt;(verbal, somatic)&lt;/b&gt; The spell has a range of 30 feet. If you're healing a living creature, increase the Hit Points restored by 8.&lt;br&gt;[[Three Actions]] &lt;b&gt;(material, somatic, verbal)&lt;/b&gt; You disperse positive energy in a 30-foot emanation. This targets all living and undead creatures in the burst.</Description>

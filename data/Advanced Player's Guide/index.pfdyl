@@ -25,5 +25,9 @@
         <Category name="Archetype" path="feats/archetypes.pfdyl" />
         <Category name="Skill" path="feats/skill.pfdyl" />
     </Feats>
+    <Spells>
+        <Category name="Focus Spells" path="spells/focus_spells.pfdyl" />
+        <Category name="Spells" path="spells/spells.pfdyl" />
+    </Spells>
     <Traits name="Traits" path="traits.pfdyl" />
 </Source>

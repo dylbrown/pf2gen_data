@@ -1,0 +1,865 @@
+<?xml version = "1.0"?>
+<pf2:spells xmlns:pf2="https://dylbrown.github.io"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/spell.xsd">
+    <Spell page="229" type="Focus">
+        <Name>Access Lore</Name>
+        <Level>3</Level>
+        <Traits>Cursebound, Divination, Fortune, Oracle</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You sift through the multiverse's divine knowledge, seeking out tidbits related to a particular subject. Choose one Lore skill. You temporarily gain the same proficiency rank in that Lore skill as your proficiency rank for your oracle spellcasting.</Description>
+    </Spell>
+    <Spell page="230" type="Focus">
+        <Name>Ancestral Defense</Name>
+        <Level>3</Level>
+        <Traits>Abjuration, Cursebound, Fortune, Mental, Oracle</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Description>Your ancestor protects you against those who would bend your will. You roll the triggering save twice and use the better result. If you're in an encounter when you cast this spell, you immediately roll to change your predominant ancestor.</Description>
+    </Spell>
+    <Spell page="230" type="Focus">
+        <Name>Ancestral Form</Name>
+        <Level>6</Level>
+        <Traits>Cursebound, Oracle, Transmutation</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>You take the form of your ancestral spirits, becoming invisible and quasi-corporeal. You gain resistance 10 to all damage (except force and damage from Strikes with the &lt;i&gt;ghost touch&lt;/i&gt; property rune), and this resistance is doubled against non-magical and precision damage. You gain a fly Speed equal to your land Speed; when Flying, moving upward isn't difficult terrain for you. You can't move through solid objects, but you can float through tiny gaps. You can't Cast Spells (but you can Sustain a Spell), activate items, or use actions that have the attack or manipulate trait.</Description>
+        <Heightened every="2"> The resistance increases by 5.</Heightened>
+    </Spell>
+    <Spell page="230" type="Focus">
+        <Name>Ancestral Touch</Name>
+        <Level>1</Level>
+        <Traits>Cursebound, Emotion, Enchantment, Fear, Mental, Oracle</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>touch</Range>
+        <Targets>1 living creature</Targets>
+        <Save>Will</Save>
+        <Description>You touch a creature and force them to see and feel the ancestors surrounding you. The target takes 1d4 mental damage, with results depending on a Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target is frightened 1 and takes full damage.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target is frightened 2 and takes double damage.</Description>
+        <Heightened every="1"> The mental damage increases by 1d4.</Heightened>
+    </Spell>
+    <Spell page="234" type="Focus">
+        <Name>Animal Feature</Name>
+        <Level>2</Level>
+        <Traits>Morph, Ranger, Transmutation</Traits>
+        <Cast>Single Action (Somatic, Verbal)</Cast>
+        <Duration>1 minute</Duration>
+        <Description>Without fully transforming your body, you gain one animalistic feature, which you select from the list below each time you Cast the Spell.&lt;b&gt;Cat Eyes&lt;/b&gt; You gain low-light vision.&lt;b&gt;Claws&lt;/b&gt; You gain a claw attack that deals 1d6 slashing damage and has the agile, finesse, and unarmed traits.&lt;b&gt;Jaws&lt;/b&gt; You gain a jaws attack that deals 1d8 piercing damage and has the unarmed trait.</Description>
+        <Heightened level="4"> Add the following options to the list you can choose from. </Heightened>
+    </Spell>
+    <Spell page="230" type="Focus">
+        <Name>Armor of Bones</Name>
+        <Level>3</Level>
+        <Traits>Cursebound, Necromancy, Oracle</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You ossify your physical form, mimicking the durability of bone. You gain resistance 3 to cold, electricity, fire, piercing, and slashing damage.</Description>
+        <Heightened every="1"> Increase the resistance by 1.</Heightened>
+    </Spell>
+    <Spell page="230" type="Focus">
+        <Name>Battlefield Persistence</Name>
+        <Level>3</Level>
+        <Traits>Cursebound, Divination, Divine, Oracle</Traits>
+        <Cast>Reaction (Verbal)</Cast>
+        <Description>You're difficult to remove from battle. You gain a +2 status bonus to the triggering save, and if the triggering save is against an incapacitation effect, it treats you as if you were 2 levels higher.</Description>
+    </Spell>
+    <Spell page="161" type="Focus">
+        <Name>Beastmaster Trance</Name>
+        <Level>3</Level>
+        <Traits>Archetype, Concentrate, Divination, Mental</Traits>
+        <Cast>Three Actions (Somatic, Verbal)</Cast>
+        <Range>1 mile</Range>
+        <Targets>one of your animal companions you can precieve</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>You enter a magical trance that allows you to perceive through the senses of the target companion. You attempt Perception checks using your own Perception, but you have any special senses the target has, such as low-light vision or darkvision. This spell grants no special method of communication with the chosen animal, so it follows any instructions you gave it before you entered the trance and, failing that, it does as it wishes.&lt;br&gt;&lt;br&gt; For the duration of the trance, your own senses are muted, though you can still communicate. This lack of awareness makes you flat-footed. You can't take actions with the attack or move traits.</Description>
+        <Heightened level="6"> Increase the range to 100 miles and the duration to sustained up to 10 minutes. The target can hear you through the spell, allowing you to Command the Animal or use other actions that have the auditory trait.</Heightened>
+    </Spell>
+    <Spell page="235" type="Focus">
+        <Name>Blinding Beauty</Name>
+        <Level>3</Level>
+        <Traits>Emotion, Enchantment, Incapacitation, Sorcerer, Visual</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Area>30-foot cone</Area>
+        <Save>Will</Save>
+        <Description>You channel the allure of your nymph bloodline into a terribly beautiful glance. Each enemy in the area must attempt a Will saving throw.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is dazzled until the start of its next turn.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is blinded until the start of its next turn.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is blinded for 1 minute.</Description>
+    </Spell>
+    <Spell page="237" type="Focus">
+        <Name>Blood Ward</Name>
+        <Level>1</Level>
+        <Traits>Abjuration, Hex, Witch</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>You consolidate warding energies with a gesture, guarding a creature against attacks from a certain type of foe. Designate one of the following creature traits: aberration, animal, beast, celestial, construct, dragon, elemental, fey, fiend, fungus, monitor, ooze, plant, or undead. The target gains a +1 status bonus to its saving throws and AC against creatures with that trait. The target is temporarily immune for 10 minutes.</Description>
+        <Heightened level="5"> The status bonus increases to +2.</Heightened>
+    </Spell>
+    <Spell page="230" type="Focus">
+        <Name>Brain Drain</Name>
+        <Level>1</Level>
+        <Traits>Cursebound, Enchantment, Mental, Oracle</Traits>
+        <Cast>Two Actions (Material, Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Save>Will</Save>
+        <Description>You probe the target's mind to glean knowledge. This deals 1d8 mental damage with a basic Will save. If the target fails the save, you sort through the stolen memories to attempt a single check to Recall Knowledge. Choose a skill that has the Recall Knowledge action, and use the target's skill modifier for the check.</Description>
+        <Heightened every="1"> The mental damage increases by 1d8.</Heightened>
+    </Spell>
+    <Spell page="237" type="Focus">
+        <Name>Cackle</Name>
+        <Level>1</Level>
+        <Traits>Enchantment, Hex, Witch</Traits>
+        <Cast>Free Action (Verbal)</Cast>
+        <Description>With a quick burst of laughter, you prolong a magical effect you created. You Sustain a Spell.</Description>
+    </Spell>
+    <Spell page="230" type="Focus">
+        <Name>Call to Arms</Name>
+        <Level>1</Level>
+        <Traits>Auditory, Cursebound, Emotion, Enchantment, Mental, Oracle</Traits>
+        <Cast>Reaction (Verbal)</Cast>
+        <Area>20-foot emanation</Area>
+        <Duration>1 minute</Duration>
+        <Description>You cry out a call to arms, inspiring your allies to enter the fray. Each ally in the area gains a +2 status bonus to their initiative roll and gains temporary Hit Points equal to the spell's level; these temporary Hit Points last for the spell's duration.</Description>
+        <Heightened level="6"> The bonus increases to +3.</Heightened>
+    </Spell>
+    <Spell page="230" type="Focus">
+        <Name>Claim Undead</Name>
+        <Level>6</Level>
+        <Traits>Cursebound, Incapacitation, Necromancy, Oracle</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 undead creature</Targets>
+        <Duration>10 minutes</Duration>
+        <Save>Will</Save>
+        <Description>You attempt to wrest control of a target undead or force it to recognize you as its master. If the target is controlled by another creature, that controller attempts a Will saving throw to retain control; otherwise, the target must attempt a Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is stunned 1 as it fights off your commands.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target becomes controlled by you and follows your orders. It (or the creature previously controlling it) can attempt a new Will save at the end of each of its turns, and the spell ends on a success. If you issue an obviously self-destructive order, the target doesn't act until you issue a new order.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but the target (or the creature previously controlling it) receives a new save only if you give it a new order that is against its nature.</Description>
+    </Spell>
+    <Spell page="237" type="Cantrip">
+        <Name>Clinging Ice</Name>
+        <Level>1</Level>
+        <Traits>Cantrip, Cold, Conjuration, Hex, Witch</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Save>Reflex</Save>
+        <Description>Freezing sleet and heavy snowfall collect on the target's feet and legs, dealing 1d4 cold damage and other effects depending on its Reflex save. Once this spell ends, the target becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target takes full damage, and takes a –5-foot circumstance penalty to its Speeds until the spell ends.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target takes double damage and a –10-foot circumstance penalty to its Speeds until the spell ends.</Description>
+        <Heightened every="1"> The damage increases by 1d4.</Heightened>
+    </Spell>
+    <Spell page="229" type="Focus">
+        <Name>Clinging Shadows Stance</Name>
+        <Level>4</Level>
+        <Traits>Evocation, Monk, Shadow, Stance</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Duration>until you leave the stance</Duration>
+        <Description>You adopt the stance of clinging shadows. You can make shadow grasp Strikes. These deal 1d4 negative damage; are in the brawling group; and have the agile, grapple, reach, and unarmed traits. &lt;br&gt;&lt;br&gt;While in &lt;i&gt;clinging shadows stance&lt;/i&gt;, you gain a +2 circumstance bonus to Athletics checks to Grapple, and to the DC for creatures to Escape from you.</Description>
+    </Spell>
+    <Spell page="235" type="Focus">
+        <Name>Consuming Darkness</Name>
+        <Level>5</Level>
+        <Traits>Evocation, Shadow, Sorcerer</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Area>10-foot emanation</Area>
+        <Targets>enemies in the area</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Save>Reflex</Save>
+        <Description>Your shadow wriggles before spreading out from you, forming a gateway of clinging, consuming shadow through which the horrors of another plane can barely be seen. The first time each turn you Sustain the Spell, the radius increases by 5 feet. Each enemy that enters the area or begins its turn in the area takes 2d6 negative damage and must attempt a Reflex save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature sinks partially into the shadow, taking half damage and a –5-foot circumstance penalty to its Speeds for as long it remains in the area.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; As success, but the creature takes full damage and a –10-foot circumstance penalty.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is absorbed into the shadows, where it can be seen below the surface; it takes double damage and is immobilized for 1 round or until it Escapes.</Description>
+        <Heightened every="1"> The damage increases by 1d6.</Heightened>
+    </Spell>
+    <Spell page="237" type="Focus">
+        <Name>Curse of Death</Name>
+        <Level>5</Level>
+        <Traits>Curse, Death, Hex, Necromancy, Witch</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Save>Fortitude</Save>
+        <Description>You focus your malevolent gaze on a target, causing their heart to seize in dread. The target must attempt a Fortitude saving throw. Regardless of the result, the target is temporarily immune to further castings of &lt;i&gt;curse of death&lt;/i&gt; for 1 day.&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is afflicted with the curse of death at stage 1, and the stage of the curse can't increase beyond stage 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target is afflicted with the curse of death at stage 1.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target is afflicted with the curse of death at stage 2.&lt;br&gt;&lt;br&gt;&lt;b&gt;Curse of Death&lt;/b&gt; (curse) This curse ends immediately when the spell ends; &lt;b&gt;Stage 1&lt;/b&gt; 4d6 negative damage and fatigued (1 round); &lt;b&gt;Stage 2&lt;/b&gt; 8d6 negative damage and fatigued (1 round); &lt;b&gt;Stage 3&lt;/b&gt; 12d6 negative damage and fatigued (1 round); &lt;b&gt;Stage 4&lt;/b&gt; death</Description>
+        <Heightened every="1"> Increase the negative damage taken on a success and during the first three stages of the curse by 1d6.</Heightened>
+    </Spell>
+    <Spell page="193" type="Focus">
+        <Name>Dance of Darkness</Name>
+        <Level>5</Level>
+        <Traits>Darkness, Evocation</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Duration>varies</Duration>
+        <Description>You dance, Striding up to half your Speed. At either the start or end of your Stride, you create an area of magical darkness in a 10-foot burst centered on your location. This area is filled with magical darkness that works the same way as that created by a &lt;i&gt;darkness&lt;/i&gt; spell of the same level. When you create the darkness, attempt a Performance check to dance, with a standard DC for your level, to determine the duration of the darkness.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; 1 minute&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; 2 rounds&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; 1 round</Description>
+    </Spell>
+    <Spell page="231" type="Focus">
+        <Name>Debilitating Dichotomy</Name>
+        <Level>4</Level>
+        <Traits>Cursebound, Evocation, Mental, Oracle</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature other than you</Targets>
+        <Duration>Will</Duration>
+        <Description>You reveal a glimpse of the impossible conflicts between the divine anathema behind your curse, forcing you to reckon with another's conflicts as well. You and the target each take 9d6 mental damage with a basic Will save, and the target is stunned 1 if it critically fails its save. You get a degree of success one better than you rolled for your saving throw.</Description>
+        <Heightened every="1"> The damage increases by 3d6.</Heightened>
+    </Spell>
+    <Spell page="238" type="Focus">
+        <Name>Deceiver's Cloak</Name>
+        <Level>3</Level>
+        <Traits>Hex, Illusion, Witch</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Duration>sustained</Duration>
+        <Description>You wrap yourself in a cloak of illusion, appearing as another creature of the same body shape with roughly similar height and weight as yourself. This has the effects of a 3rd-level &lt;i&gt;illusory disguise&lt;/i&gt;.</Description>
+        <Heightened level="6"> You can appear as any creature of the same size, even with a completely different body shape.</Heightened>
+    </Spell>
+    <Spell page="231" type="Focus">
+        <Name>Delay Affliction</Name>
+        <Level>3</Level>
+        <Traits>Cursebound, Healing, Necromancy, Oracle, Positive</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Description>With a surge of healing energy, you push back against an affliction threatening the target and grant a small amount of healing. The target recovers 3d8 Hit Points. You attempt to counteract any one affliction you are aware the target has, suspending its effects for 1 hour on a success rather than removing it. The target is then temporarily immune to &lt;i&gt;delay affliction&lt;/i&gt; for 1 day. You don't need to have identified the name of the specific affliction, but you do need to be aware of it; for instance, you couldn't delay an ingested poison during its onset period unless you were aware of the poison.</Description>
+        <Heightened every="1"> The target recovers an additional 1d8 Hit Points and you can attempt to suspend an additional affliction.</Heightened>
+    </Spell>
+    <Spell page="236" type="Focus">
+        <Name>Dim the Light</Name>
+        <Level>1</Level>
+        <Traits>Darkness, Evocation, Sorcerer</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Description>You magnify the darkness from the triggering effect, causing the ambient light level to flicker briefly so you can slip from sight. You can immediately attempt a Stealth check to Hide, and you can become hidden to a creature even if you don't have cover and aren't otherwise concealed from that creature. You cease being hidden at the end of your turn unless you move into cover or become concealed before then.</Description>
+    </Spell>
+    <Spell page="238" type="Cantrip">
+        <Name>Discern Secrets</Name>
+        <Level>1</Level>
+        <Traits>Cantrip, Divination, Hex, Witch</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>You call upon your patron's power to better uncover secrets. When you Cast the Spell, the target can Recall Knowledge, Seek, or Sense Motive. The target gains a +1 status bonus to the skill or Perception used for the roll, and this bonus remains as long as you Sustain the Spell. The target is temporarily immune to &lt;i&gt;discern secrets&lt;/i&gt; for 1 minute.</Description>
+        <Heightened level="5"> You can target two creatures instead of one.</Heightened>
+    </Spell>
+    <Spell page="231" type="Focus">
+        <Name>Dread Secret</Name>
+        <Level>6</Level>
+        <Traits>Cursebound, Divination, Emotion, Fear, Mental, Oracle</Traits>
+        <Cast>Two Actions (Material, Somatic)</Cast>
+        <Range>60 feet</Range>
+        <Targets>up to 6 creatures</Targets>
+        <Duration>until the start of your next turn</Duration>
+        <Save>Will</Save>
+        <Description>You utter a powerful secret at odds with the fundamental nature of the target creatures. Choose a specific resistance or weakness that you believe one or more of the targets have due to Recall Knowledge or previous experience with the targets, such as resistance to fire or weakness to silver. If the information is incorrect for a given target, the spell has no effect on that target. Affected targets must attempt a Will saving throw.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes 1 damage of the type of weakness you chose (thus triggering the creature's weakness), or loses its resistance until the end of your next turn if you chose a resistance.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; As success, and the creature becomes frightened 1 from the revelation of its dread secret.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, except the creature is frightened 3.</Description>
+    </Spell>
+    <Spell page="238" type="Focus">
+        <Name>Elemental Betrayal</Name>
+        <Level>1</Level>
+        <Traits>Evocation, Hex, Witch</Traits>
+        <Cast>Single Action (Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>You call upon the elements to undermine your foe. When you Cast this Spell, choose air, earth, fire, or water. Each time the target takes damage from a spell or effect with the chosen trait, it takes an additional 2 damage of one damage type dealt by the spell or effect. If you chose fire or water, the target also takes this additional damage when taking fire or cold damage, respectively, from effects or spells without the chosen trait.</Description>
+        <Heightened every="2"> Increase the additional damage by 1.</Heightened>
+    </Spell>
+    <Spell page="234" type="Focus">
+        <Name>Enlarge Companion</Name>
+        <Level>4</Level>
+        <Traits>Polymorph, Ranger, Transmutation</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>your animal companion</Targets>
+        <Duration>1 minute</Duration>
+        <Description>Your animal companion grows much larger, towering over its foes in battle. Your animal companion becomes Huge, gaining the effects of a 4th-level &lt;i&gt;enlarge&lt;/i&gt; spell.</Description>
+    </Spell>
+    <Spell page="234" type="Focus">
+        <Name>Ephemeral Tracking</Name>
+        <Level>3</Level>
+        <Traits>Divination, Ranger</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Duration>1 hour</Duration>
+        <Description>You can look at currents in the air and water and see tracks that you can follow just as you would on land. You can use Survival to Track through both air and water, noticing aerial or aquatic “tracks” of all creatures who passed nearby in the last hour. It's more difficult to Track in this way: the DC to Track through air or water is always at least 30, or higher after precipitation or wind (in the air) or heavy tides or currents (in the water). It's possible to Cover Tracks against this spell, but creatures might not realize they need to do so.</Description>
+    </Spell>
+    <Spell page="236" type="Focus">
+        <Name>Establish Ward</Name>
+        <Level>5</Level>
+        <Traits>Abjuration, Sorcerer</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Area>30-foot burst</Area>
+        <Duration>1 minute</Duration>
+        <Description>You bind a part of your essence to your surroundings, creating a warded area that grants you power within it, but drains you outside of it. While within the area, you can make nature's wrath Strikes by commanding plants, wind, rocks, and other natural features to attack enemies. These are melee Strikes that use your spell attack modifier, can target any creature within the ward, and deal bludgeoning, piercing, or slashing damage equal to 2d8 plus your spellcasting ability modifier.&lt;br&gt;&lt;br&gt; Upon Casting the Spell, you can immediately make a single nature's wrath Strike. You are quickened while inside the ward, and can use the additional action only to make nature's wrath Strikes. You are slowed 1 while outside the area.</Description>
+        <Heightened every="2"> The area increases by 5 feet, and the Strikes deal an additional 1d8 damage.</Heightened>
+    </Spell>
+    <Spell page="238" type="Cantrip">
+        <Name>Evil Eye</Name>
+        <Level>1</Level>
+        <Traits>Cantrip, Curse, Emotion, Enchantment, Fear, Hex, Mental, Witch</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Save>Will</Save>
+        <Description>Your fix your eye on the target, imposing a malevolent hex. The target becomes frightened based on the results of its Will save. This condition value can't be reduced below 1 while the spell is active and you can see the target. Regardless of the outcome, the target is then temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target is frightened 1.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target is frightened 2.</Description>
+    </Spell>
+    <Spell page="232" type="Focus">
+        <Name>Flaming Fusillade</Name>
+        <Level>6</Level>
+        <Traits>Cursebound, Evocation, Fire, Oracle</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You call upon an endless barrage of flames, producing miniature fireballs in your hands to hurl at foes. You cast &lt;i&gt;produce flame&lt;/i&gt; as part of casting &lt;i&gt;flaming fusillade&lt;/i&gt;. For the duration of &lt;i&gt;flaming fusillade&lt;/i&gt;, &lt;i&gt;produce flame's&lt;/i&gt; casting time is reduced from 2 actions to 1.</Description>
+        <Heightened level="9"> For the duration, you also gain a status bonus to the damage dealt by </Heightened>
+        <Heightened level="1"> equal to </Heightened>
+        <Heightened level="1"> spell level.</Heightened>
+    </Spell>
+    <Spell page="236" type="Focus">
+        <Name>Genie's Veil</Name>
+        <Level>1</Level>
+        <Traits>Abjuration, Sorcerer</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 willing creature</Targets>
+        <Description>With a flourish, you fulfill a creature's wish for protection, bending reality to keep them from harm. The target vanishes in a burst of brightly colored smoke and sparkles, reappearing an instant later. They become concealed against the triggering attack and until the end of the current creature's turn.</Description>
+    </Spell>
+    <Spell page="234" type="Focus">
+        <Name>Gravity Weapon</Name>
+        <Level>1</Level>
+        <Traits>Evocation, Ranger</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You build up gravitational force and funnel it into your blows, leading to more powerful attacks with blade and bow alike. On your first weapon Strike each round, you gain a status bonus to damage equal to twice the number of weapon damage dice.</Description>
+    </Spell>
+    <Spell page="234" type="Focus">
+        <Name>Heal Companion</Name>
+        <Level>1</Level>
+        <Traits>Healing, Necromancy, Positive, Ranger</Traits>
+        <Cast>Single Action (Somatic)</Cast><!--Support Variable Cost-->
+        <Range>touch or 30 feet</Range>
+        <Targets>your animal companion</Targets>
+        <Description>You harness positive energy to heal your animal companion's wounds. You restore 1d10 Hit Points to your animal companion. The number of actions you spend Casting this Spell determines range and other parameters.&lt;br&gt; [[Single Action]] (somatic) The spell has a range of touch.&lt;br&gt; [[Two Actions]] (verbal) The spell has a range of 30 feet and restores an additional 8 Hit Points to the target.</Description>
+        <Heightened every="1"> The amount of healing increases by 1d10, and the additional healing for the 2-action version increases by 8.</Heightened>
+    </Spell>
+    <Spell page="236" type="Focus">
+        <Name>Heart's Desire</Name>
+        <Level>3</Level>
+        <Traits>Emotion, Illusion, Mental, Sorcerer</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>60 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>varies</Duration>
+        <Save>Will</Save>
+        <Description>You surround your target with wondrous illusions of their greatest desires, which distract them from reality. The target must attempt a Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target disbelieves the illusion and is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; For 1 round, the target is stupefied 2 and takes a –2 status penalty to any checks it makes to determine the effects of reactions.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; For 1 minute, the target is stupefied 2 and can't use reactions.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, and all spaces are difficult terrain for the target.</Description>
+        <Heightened every="2"> You can target one additional creature.</Heightened>
+    </Spell>
+    <Spell page="232" type="Focus">
+        <Name>Heroic Feat</Name>
+        <Level>6</Level>
+        <Traits>Cursebound, Divination, Mental, Oracle</Traits>
+        <Cast>Two Actions (Verbal, Somatic)</Cast><!--Support Variable Cost-->
+        <Description>You gain the ability to perform a specialized combat technique from the vast wealth of martial knowledge your mystery provides. When you Cast this Spell, you use the action granted by one common fighter feat from the &lt;i&gt;Core Rulebook&lt;/i&gt; or the &lt;i&gt;Advanced Player's Guide&lt;/i&gt; (your GM might add feats to this list). If you Cast this Spell using 2 actions, the granted action must be a single action, and if you Cast this Spell using 3 actions, you can instead choose a feat that grants a 2-action activity. The chosen feat's level can be no higher than &lt;i&gt;heroic feat's&lt;/i&gt; spell level. The feat can't have a Frequency entry, and you must meet its prerequisites and requirements in order to select it.</Description>
+    </Spell>
+    <Spell page="235" type="Focus">
+        <Name>Hunter's Luck</Name>
+        <Level>2</Level>
+        <Traits>Divination, Fortune, Ranger</Traits>
+        <Cast>Free Action (Verbal)</Cast>
+        <Description>You have a preternatural ability to remember details about your foes. Roll the triggering check twice and use the better result.</Description>
+    </Spell>
+    <Spell page="235" type="Focus">
+        <Name>Hunter's Vision</Name>
+        <Level>5</Level>
+        <Traits>Divination, Ranger</Traits>
+        <Cast>Single Action (Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 hunted prey</Targets>
+        <Duration>10 minutes</Duration>
+        <Description>Your target glows with a magical aura visible only to you and those who follow your lead. Your target is visible to you and others sharing your Hunt Prey benefits even if it wouldn't normally be due to lighting or the concealed or invisible conditions, though cover from opaque objects still blocks your sight. You ignore the flat check against the target due to the concealed condition, and the target isn't automatically hidden from you due to darkness or being invisible.</Description>
+    </Spell>
+    <Spell page="228" type="Focus">
+        <Name>Hymn of Healing</Name>
+        <Level>1</Level>
+        <Traits>Bard, Composition, Healing, Necromancy, Positive</Traits>
+        <Cast>Two Actions (Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>you or 1 ally</Targets>
+        <Duration>sustained up to 4 rounds</Duration>
+        <Description>Your divine singing mends wounds and provides a temporary respite from harm. The target gains fast healing 2. When you Cast the Spell and each time you Sustain the Spell, the target gains 2 temporary Hit Points, which last for 1 round.</Description>
+        <Heightened every="1"> The fast healing and temporary Hit Points each increase by 2.</Heightened>
+    </Spell>
+    <Spell page="232" type="Focus">
+        <Name>Incendiary Aura</Name>
+        <Level>1</Level>
+        <Traits>Cursebound, Evocation, Fire, Oracle</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Area>10-foot emanation</Area>
+        <Duration>1 minute</Duration>
+        <Description>You surround yourself with a combustible aura. Each time a creature within the emanation takes fire damage, it catches on fire, taking 2d4 persistent fire damage.</Description>
+        <Heightened every="2"> Increase the persistent damage by 1d4 and the radius of the emanation by 5 feet.</Heightened>
+    </Spell>
+    <Spell page="232" type="Focus">
+        <Name>Interstellar Void</Name>
+        <Level>3</Level>
+        <Traits>Cold, Cursebound, Evocation, Oracle</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Save>Fortitude</Save>
+        <Description>You call upon the frigid depths of outer space to bring a terrible chill to your enemy. The target is cloaked in the freezing void, which deals 3d6 cold damage immediately and when you Sustain the Spell on future turns, with a basic Fortitude save. The target is fatigued for as long as the effect persists.</Description>
+        <Heightened every="1"> The cold damage increases by 1d6.</Heightened>
+    </Spell>
+    <Spell page="229" type="Focus">
+        <Name>Ki Form</Name>
+        <Level>9</Level>
+        <Traits>Monk, Polymorph</Traits>
+        <Cast>Single Action (Verbal)</Cast>
+        <Duration>1 minute</Duration>
+        <Description>Drawing from deep wells of spiritual power, you take on a special ki form. In your ki form, your hair, feathers, skin, or scales change color and begin to glow. In this form you gain a fly Speed equal to your land Speed. Choose force, lawful (only if you are lawful), negative, or positive damage. All your Strikes deal 1d6 additional damage of the chosen type. Your entire body is also surrounded by a glowing corona of the same color as your inner ki; this is a light effect. Your corona is a 5-foot emanation that deals 2d6 damage of the chosen type to creatures who start their turn within the emanation. If the emanation overlaps with a darkness effect, the corona's glow attempts to counteract the darkness effect. Regardless of the outcome, the corona can't attempt to counteract that effect again for 1 day. As a single action, which has the concentrate trait, you can flare your corona out to become a 30-foot emanation.&lt;br&gt;&lt;br&gt; In your ki form, your emotions surge to the forefront and it's difficult to moderate your attacks. Your weapons and unarmed attacks lose the nonlethal trait. You take a –2 status penalty to saves against emotion effects but gain a +2 status bonus to saves against all other mental effects.</Description>
+    </Spell>
+    <Spell page="238" type="Focus">
+        <Name>Life Boost</Name>
+        <Level>1</Level>
+        <Traits>Healing, Hex, Necromancy, Witch</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>4 rounds</Duration>
+        <Description>You temporarily bolster the target's vitality. The target gains fast healing equal to double the spell's level.</Description>
+    </Spell>
+    <Spell page="232" type="Focus">
+        <Name>Life Link</Name>
+        <Level>1</Level>
+        <Traits>Cursebound, Healing, Necromancy, Oracle, Positive</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature other than you</Targets>
+        <Duration>1 minute</Duration>
+        <Description>You forge a connection of life energy between you and your target, distributing harm between both of you. When you first Cast the Spell, the target recovers 1d4 Hit Points. The first time each round that the target takes damage, reduce the damage it takes by 3 (to a minimum of 0 damage). You lose 3 Hit Points each time, or the total damage dealt, if less than 3; this damage ignores any immunities or resistances you have and can't otherwise be mitigated in any way.&lt;br&gt;&lt;br&gt;The spell ends immediately if you fall unconscious. You can Dismiss the spell.</Description>
+        <Heightened level="3"> You can target 2 creatures other than you. Increase the initial healing to 3d4 and the maximum damage reduced and Hit Points lost to 5.</Heightened>
+    </Spell>
+    <Spell page="232" type="Focus">
+        <Name>Life-Giving Form</Name>
+        <Level>6</Level>
+        <Traits>Cursebound, Healing, Light, Necromancy, Oracle, Positive</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You transcend your physical form, becoming a beacon of healing energy. Your body exudes bright light like a torch. You gain resistance 5 to precision damage and weakness 5 to negative damage, and your unarmed Strikes deal an extra 1d4 positive damage.&lt;br&gt;&lt;br&gt; You can touch a living creature with an Interact action to restore 6d8 Hit Points to it, and when a creature touches you with an Interact action you can allow it to gain the same healing; either way, the creature becomes temporarily immune to &lt;i&gt;life-giving form's&lt;/i&gt; healing for 1 minute. This is a positive healing effect. You can't heal yourself with &lt;i&gt;life-giving form&lt;/i&gt;. A creature harmed by positive damage (such as an undead) that touches you or damages you with an unarmed attack or non-reach melee weapon instead takes 3d4 positive damage, and it doesn't become temporarily immune.&lt;br&gt;&lt;br&gt; You can Dismiss this spell.</Description>
+        <Heightened every="1"> Increase the Hit Points restored with an Interact action by 1d8, the positive damage by 1, and the resistance and weakness by 1.</Heightened>
+    </Spell>
+    <Spell page="228" type="Focus">
+        <Name>Litany of Depravity</Name>
+        <Level>7</Level>
+        <Traits>Champion, Evil, Evocation, Litany</Traits>
+        <Cast>Single Action (Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 good creature</Targets>
+        <Duration>1 round</Duration>
+        <Description>Your litany calls into question the morals your foe claims to hold dear. The target gains weakness 7 to evil, then becomes temporarily immune to all your litanies for 1 minute.</Description>
+        <Heightened every="1"> The weakness increases by 1.</Heightened>
+    </Spell>
+    <Spell page="229" type="Focus">
+        <Name>Litany of Self-Interest</Name>
+        <Level>5</Level>
+        <Traits>Champion, Enchantment, Evil, Litany, Mental</Traits>
+        <Cast>Single Action (Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>1 round</Duration>
+        <Save>Will</Save>
+        <Description>You give a speech that fills your target with a drive to improve themself to the exclusion of assisting others. A creature that wants to gain the benefit of this spell and doesn't care about its limitations can voluntarily fail the save. The target then becomes temporarily immune to all your litanies for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target gains a +2 status bonus to attack rolls, Perception checks, saving throws, and skill checks. The target can't Aid other creatures, consider any creature an ally, or use spells or abilities that directly benefit another creature (as determined by the GM), even if they also benefit the target. Other creatures allied with the spell's target can still consider the target an ally and affect it accordingly.</Description>
+        <Heightened level="8"> The status bonus increases to +3.</Heightened>
+    </Spell>
+    <Spell page="235" type="Focus">
+        <Name>Magic Hide</Name>
+        <Level>1</Level>
+        <Traits>Abjuration, Ranger</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>your animal companion</Targets>
+        <Duration>1 minute</Duration>
+        <Description>Your animal companion grows a thicker hide, matted fur, or a harder shell, granting it a +1 status bonus to AC.</Description>
+    </Spell>
+    <Spell page="238" type="Focus">
+        <Name>Malicious Shadow</Name>
+        <Level>3</Level>
+        <Traits>Evocation, Hex, Shadow, Witch</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>You reshape the target's shadow into a deadly form, such as strangling hands, a dangerous weapon, harrying runes, or the like, and command it to attack the target. When you Cast the Spell, and each time you Sustain the Spell, the shadow makes a Strike against the target. The shadow moves along with the foe, always remaining within reach. If you Sustain the Spell multiple times in a round, you gain this effect each time. The shadow uses and contributes to your multiple attack penalty.&lt;br&gt;&lt;br&gt; The shadow's Strikes are melee spell attacks. Regardless of its shape, the shadow's Strikes deal damage equal to 1d10 plus your spellcasting ability modifier. You choose the type of damage when you Cast the Spell, choosing from bludgeoning, piercing, or slashing damage. The shadow doesn't take up space, grant flanking, or have any other attributes a creature would. The shadow can't make any attacks other than its Strike.&lt;br&gt;&lt;br&gt; The shadow vanishes if the target moves into an area of complete darkness or enters an area with light from all directions such that the target doesn't cast a shadow. If another effect is controlling the target's shadow when you cast &lt;i&gt;malicious shadow&lt;/i&gt;, you can attempt to counteract that effect to temporarily take control of the shadow, but the original effect resumes when &lt;i&gt;malicious shadow&lt;/i&gt; ends.</Description>
+        <Heightened every="2"> The Strike damage increases by 1d10.</Heightened>
+    </Spell>
+    <Spell page="229" type="Focus">
+        <Name>Medusa's Wrath</Name>
+        <Level>8</Level>
+        <Traits>Monk, Transmutation</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Description>You make an attack filled with a medusa's petrifying power. Make an unarmed Strike with the following additional effects.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is slowed 2 and must attempt a Fortitude save at the end of each of its turns; this ongoing save has the incapacitation trait. On a failed save, the slowed condition increases by 1 (2 on a critical failure). A successful save reduces the slowed condition by 1. When a creature is unable to act due to the slowed condition from medusa's wrath, it is petrified permanently. The spell ends if the creature is petrified or the slowed condition is removed.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; As critical success, but the target is initially slowed 1.</Description>
+    </Spell>
+    <Spell page="233" type="Focus">
+        <Name>Moonlight Bridge</Name>
+        <Level>6</Level>
+        <Traits>Conjuration, Cursebound, Light, Oracle</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Duration>10 minutes</Duration>
+        <Description>You summon a bridge of radiant, shimmering moonlight. The 10-foot-wide span must start at the ground on a point within range, and it extends as a horizontal plane, either in a straight line or at any angle up to 45 degrees upward or downward, for up to 120 feet. This bridge has AC 10, Hardness 30, and 60 Hit Points, and it's immune to critical hits and precision damage. You and your allies can cross the bridge normally, but other creatures simply pass through it if they try to do so. The bridge blocks physical, ethereal, and incorporeal attacks from crossing, whether from above or below. You can Dismiss the spell.</Description>
+        <Heightened every="1"> The length of the bridge increases by 20 feet, and its Hit Points increase by 20.</Heightened>
+    </Spell>
+    <Spell page="238" type="Focus">
+        <Name>Needle of Vengeance</Name>
+        <Level>1</Level>
+        <Traits>Enchantment, Hex, Mental, Witch</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 enemy</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Save>basic Will</Save>
+        <Description>A long, jagged needle jabs into the target foe's psyche whenever it tries to attack a specifically forbidden creature. Name yourself or one of your allies. The target takes 2 mental damage any time it uses a hostile action against the named creature.</Description>
+        <Heightened every="1"> Increase the damage by 2.</Heightened>
+    </Spell>
+    <Spell page="239" type="Cantrip">
+        <Name>Nudge Fate</Name>
+        <Level>1</Level>
+        <Traits>Cantrip, Divination, Hex, Witch</Traits>
+        <Cast>Single Action (Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Save>Will</Save>
+        <Description>You read slightly into the future and give fate a tiny push to achieve the result you desire. Once during the duration, when the target fails an attack roll, skill check, or saving throw and a +1 status bonus would turn a critical failure into a failure, or failure into a success, you grant the target a +1 status bonus to the check retroactively, changing the outcome appropriately. The spell then ends, and the target is temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt; If you cast &lt;i&gt;nudge fate&lt;/i&gt; while a previous casting of this hex is still in effect, the previous effect ends.</Description>
+    </Spell>
+    <Spell page="236" type="Focus">
+        <Name>Nymph's Token</Name>
+        <Level>1</Level>
+        <Traits>Enchantment, Sorcerer</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You grant an ally a token of favor. You create a token, such as a lock of your hair or a flower, that persists for the spell's duration; as part of Casting the Spell, you can Interact to pass the token to an ally within your reach. As long as the ally has the token on their person, they gain a +1 status bonus to Performance checks and Will saves. You can Dismiss the spell as a free action.</Description>
+        <Heightened level="4"> As long as the ally has the token on their person, you can cast spells that have a range of touch on them at a range of 30 feet.</Heightened>
+    </Spell>
+    <Spell page="228" type="Focus">
+        <Name>Ode to Ouroboros</Name>
+        <Level>5</Level>
+        <Traits>Bard, Composition, Necromancy</Traits>
+        <Cast>Reaction (Verbal)</Cast>
+        <Range>60 feet</Range>
+        <Targets>the triggering creature</Targets>
+        <Description>Your ode temporarily staves off death. The target's dying condition remains 1 below the value at which it dies. This doesn't help prevent death from effects that kill the target without increasing its dying condition, such as &lt;i&gt;disintegrate&lt;/i&gt; and death effects.</Description>
+    </Spell>
+    <Spell page="239" type="Focus">
+        <Name>Personal Blizzard</Name>
+        <Level>3</Level>
+        <Traits>Conjuration, Hex, Witch</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Save>Fortitude</Save>
+        <Description>You summon an isolated blizzard of obscuring, scouring ice to follow your target. The target attempts a Fortitude save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target takes 1d6 cold damage, and the spell ends.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target takes 1d6 cold damage and 1d6 persistent cold damage. (The persistent damage automatically ends when the spell ends.) It is concealed to other creatures, and other creatures are concealed to it.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but both the cold damage and the persistent cold damage increase to 2d6.</Description>
+        <Heightened every="1"> The cold damage and persistent cold damage increase by 1 (2 on a critical failure).</Heightened>
+    </Spell>
+    <Spell page="239" type="Focus">
+        <Name>Phase Familiar</Name>
+        <Level>1</Level>
+        <Traits>Abjuration, Hex, Witch</Traits>
+        <Cast>Reaction (Somatic)</Cast>
+        <Range>60 feet</Range>
+        <Targets>your familiar</Targets>
+        <Description>You draw upon your patron's power to momentarily shift your familiar from its solid, physical form into an ephemeral version of itself shaped of mist. Your familiar gains resistance 5 to all damage and is immune to precision damage. These apply only against the triggering damage.</Description>
+        <Heightened every="1"> Increase the resistance by 2.</Heightened>
+    </Spell>
+    <Spell page="228" type="Focus">
+        <Name>Pied Piping</Name>
+        <Level>10</Level>
+        <Traits>Bard, Composition, Enchantment, Incapacitation, Mental, Sonic</Traits>
+        <Cast>Two Actions (Verbal)</Cast>
+        <Area>5-foot emanation</Area>
+        <Duration>1 minute</Duration>
+        <Save>Will</Save>
+        <Description>Your performance enraptures those who hear it, compelling them to follow you about in admiration. Each creature within the emanation must attempt a Will save when you Cast the Spell or the first time they enter the area, after which they become temporarily immune for 1 day. Once per turn, you can spend a single action, which has the concentrate trait, to increase the emanation's radius by 5 feet. You can Dismiss the spell.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is fascinated with you.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature uses all its actions to move toward you and compliment your performance. This effect ends if a hostile action is used against the affected creature.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target gains the minion trait and is controlled by you. This effect ends if a hostile action is used against the affected creature, or if you direct the creature to use any action that causes it harm.</Description>
+    </Spell>
+    <Spell page="235" type="Focus">
+        <Name>Ranger's Bramble</Name>
+        <Level>3</Level>
+        <Traits>Plant, Ranger, Transmutation</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>100 feet</Range>
+        <Area>all squares that contain plants in a 5-foot burst</Area>
+        <Duration>1 minute</Duration>
+        <Description>You cause plants in the area to entangle your foes, with the effects of &lt;i&gt;entangle&lt;/i&gt;. A creature that critically fails the save takes 2d4 persistent bleed damage in addition to being immobilized. Escaping your bramble doesn't end the bleed damage.</Description>
+        <Heightened every="1"> The bleed damage on a critical failure increases by 1d4.</Heightened>
+    </Spell>
+    <Spell page="239" type="Focus">
+        <Name>Restorative Moment</Name>
+        <Level>5</Level>
+        <Traits>Hex, Necromancy, Witch</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Description>You manipulate the threads of time around the target, giving them some of the benefits of a day's passage. The target decreases the values of any doomed and drained conditions it has by 1 and can immediately attempt one saving throw against each affliction it has with a stage length of 1 day or less. The target is then temporarily immune for 1 day.</Description>
+    </Spell>
+    <Spell page="236" type="Focus">
+        <Name>Sepulchral Mask</Name>
+        <Level>1</Level>
+        <Traits>Divination, Emotion, Mental, Sorcerer, Visual</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Area>5-foot emanation</Area>
+        <Targets>enemies in the area</Targets>
+        <Duration>1 minute</Duration>
+        <Save>Will</Save>
+        <Description>You manifest a supernatural funerary mask, granting you a +1 status bonus to Will saving throws against emotion effects for 1 minute. Its somber countenance forces your foes to confront their regrets and sins. Each enemy in the area when you Cast the Spell or that starts its turn in the area takes 1d4 mental damage and must attempt a Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and takes a –1 status penalty to Will saves against emotion effects for 1 round.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage and a –1 status penalty to Will saves against emotion effects for 1 minute.</Description>
+        <Heightened every="2"> Increase the mental damage by 2d4 and the emanation's radius by 5 feet.</Heightened>
+    </Spell>
+    <Spell page="193" type="Focus">
+        <Name>Shadow Illusion</Name>
+        <Level>5</Level>
+        <Traits>Auditory, Illusion, Shadow, Visual</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>500 feet</Range>
+        <Duration>sustained</Duration>
+        <Description>You create a shadowy illusion of a creature or a stationary object, but the illusion can exist only in an area of dim light or darkness. The spell ends if the illusion is ever out of an area of dim light or darkness. If the illusion is an object, it must fit within a 20-foot burst, and the creature can be of any size up to Gargantuan, filling a 20-foot-by-20-foot space.&lt;br&gt;&lt;br&gt; The object or creature appears to animate naturally; it even generates the appropriate sounds and smells, and feels believable to the touch, though its coloring is always muted. &lt;br&gt;&lt;br&gt;If the illusion is a creature, &lt;i&gt;shadow illusion&lt;/i&gt; has the effects of an &lt;i&gt;illusory creature&lt;/i&gt; spell of the same level, except it deals 2d8 damage plus your spellcasting ability modifier, instead of the amount listed in &lt;i&gt;illusory creature&lt;/i&gt;.</Description>
+        <Heightened every="2"> The area that an illusory object can fit in increases by 10 feet. The damage of the illusory creature's Strike increases by 1d8.</Heightened>
+    </Spell>
+    <Spell page="193" type="Focus">
+        <Name>Shadow Jump</Name>
+        <Level>5</Level>
+        <Traits>Conjuration, Shadow, Teleportation</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Requirements>You are in dim light or darkness</Requirements>
+        <Range>120 feet</Range>
+        <Description>You instantly transport yourself from one shadow to another. Teleport yourself and any items you're wearing and holding from your current space to a clear space you can see that's in dim light or darkness and within range. You can transport your familiar with this spell, but if &lt;i&gt;shadow jump&lt;/i&gt; would bring any other creature with you—even if you're carrying the creature in an extradimensional container—the spell is disrupted.</Description>
+        <Heightened level="8"> When you arrive at your destination, you can become </Heightened>
+        <Heightened level="1"> until the end of your next turn or until you are no longer in an area of dim light or darkness, whichever comes first. The invisibility is an </Heightened>
+        <Heightened level="1"> effect.</Heightened>
+    </Spell>
+    <Spell page="229" type="Focus">
+        <Name>Shadow's Web</Name>
+        <Level>7</Level>
+        <Traits>Evocation, Monk</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Area>30-foot burst</Area>
+        <Save>Fortitude</Save>
+        <Description>Grasping darkness surges from you, dealing 14d4 negative damage. Each creature in the area must attempt a Fortitude save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage and is enfeebled 1 for 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and is enfeebled 2 for 1 round.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage and is stunned 1, enfeebled 2 for 1 round, and immobilized for 1 round or until it Escapes, whichever comes first.</Description>
+        <Heightened every="1"> The negative damage increases by 2d4.</Heightened>
+    </Spell>
+    <Spell page="236" type="Focus">
+        <Name>Shepherd of Souls</Name>
+        <Level>5</Level>
+        <Traits>Healing, Necromancy, Sorcerer</Traits>
+        <Cast>Reaction (Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Area>1 creature</Area>
+        <Description>You stay the hand of fate for one not yet destined to die, sacrificing some of your own vitality to heal them. You lose up to 15 Hit Points as a sacrifice, and the target reduces the damage by twice the number of Hit Points sacrificed. If this reduction exceeds the amount of damage, the target recovers Hit Points equal to the excess amount.</Description>
+        <Heightened every="2"> The maximum number of Hit Points you can sacrifice increases by 5.</Heightened>
+    </Spell>
+    <Spell page="239" type="Cantrip">
+        <Name>Shroud of Night</Name>
+        <Level>1</Level>
+        <Traits>Cantrip, Darkness, Evocation, Hex, Witch</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Save>Will</Save>
+        <Description>Drawing your hand in a sweeping gesture, you shroud the target in a veil of night. The target's eyes are blanketed in darkness. If you cast this hex on a willing ally (for instance, one with light blindness), the ally can choose which result it gets without rolling. Regardless of the outcome, the target is then temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target is shrouded in murky darkness. Unless the target has darkvision, other creatures are concealed to it.</Description>
+    </Spell>
+    <Spell page="235" type="Focus">
+        <Name>Snare Hopping</Name>
+        <Level>1</Level>
+        <Traits>Conjuration, Ranger, Teleportation</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>10 feet</Range>
+        <Targets>one snare you built</Targets>
+        <Description>You may not have placed your snare in the right place, but you can magically move it there. You teleport the target snare to another unoccupied location in range.</Description>
+        <Heightened every="1"> The range of the spell increases by 10 feet.</Heightened>
+    </Spell>
+    <Spell page="228" type="Cantrip">
+        <Name>Song of Marching</Name>
+        <Level>3</Level>
+        <Traits>Bard, Cantrip, Composition, Enchantment, Mental</Traits>
+        <Cast>Single Action (Verbal)</Cast>
+        <Area>60-foot emanation</Area>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>You maintain a brisk performance that keeps allies on the move. You and your allies in the area can Hustle for the spell's duration, even though you are also Sustaining the Spell. You and your allies then become temporarily immune for 1 day.</Description>
+        <Heightened level="6"> You can Sustain the Spell for up to 2 hours.</Heightened>
+    </Spell>
+    <Spell page="228" type="Cantrip">
+        <Name>Song of Strength</Name>
+        <Level>1</Level>
+        <Traits>Bard, Cantrip, Composition, Emotion, Enchantment, Mental</Traits>
+        <Cast>Single Action (Verbal)</Cast>
+        <Area>60-foot emanation</Area>
+        <Duration>1 round</Duration>
+        <Description>You bolster your allies' physical strength with a hearty exhortation. You and your allies gain a +1 status bonus to Athletics checks and to their DCs against Athletics skill actions such as Disarm, Shove, and Trip. &lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If you have the inspire heroics composition spell, you can use that composition to improve the bonus granted by &lt;i&gt;song of strength&lt;/i&gt; in the same way as &lt;i&gt;inspire courage&lt;/i&gt; or inspire defense.</Description>
+    </Spell>
+    <Spell page="235" type="Focus">
+        <Name>Soothing Mist</Name>
+        <Level>2</Level>
+        <Traits>Healing, Necromancy, Positive, Ranger</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 willing living creature or 1 undead creature</Targets>
+        <Description>You call forth a magical mist of positive energy that envelops a creature. The mist restores 2d8 Hit Points to a target living creature and ends one source of persistent acid, bleed, fire, negative, or poison damage affecting it. If the creature is taking persistent damage from multiple sources, you select which one is removed. Against an undead target, you deal 2d8 positive damage (basic Fortitude save); if it fails the save, it also takes 2 persistent positive damage.</Description>
+        <Heightened every="1"> The amount of healing (or damage to an undead target) increases by 1d8, and the persistent positive damage to an undead creature increases by 1.</Heightened>
+    </Spell>
+    <Spell page="233" type="Focus">
+        <Name>Soul Siphon</Name>
+        <Level>1</Level>
+        <Traits>Cursebound, Necromancy, Negative, Oracle</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 living creature</Targets>
+        <Save>Fortitude</Save>
+        <Description>You siphon off a portion of the target's soul to bolster your own vitality. The target must attempt a Fortitude save or take 1d4 negative damage. You gain temporary Hit Points equal to the total amount of HP the target loses, including the HP lost from becoming drained.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and becomes drained 1.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage and becomes drained 2.</Description>
+        <Heightened every="1"> Increase the damage by 1d4.</Heightened>
+    </Spell>
+    <Spell page="237" type="Focus">
+        <Name>Spirit Veil</Name>
+        <Level>3</Level>
+        <Traits>Illusion, Sorcerer</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You draw an occluding veil of spirits around yourself, blocking yourself especially well from undead eyes. You become concealed to all creatures, and you are hidden from undead creatures regardless of what precise senses they have; this grants the effects of &lt;i&gt;invisibility&lt;/i&gt;, but against all the undead creature's precise senses. If you physically interact with an undead creature or use a hostile action, the spell ends.</Description>
+        <Heightened every="1"> You can target one additional willing creature within 30 feet. The spell ends if any target physically interacts with an undead creature or uses a hostile action</Heightened>
+    </Spell>
+    <Spell page="233" type="Focus">
+        <Name>Spray of Stars</Name>
+        <Level>1</Level>
+        <Traits>Cursebound, Evocation, Fire, Light, Oracle</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Area>15-foot cone</Area>
+        <Save>Reflex</Save>
+        <Description>You fling a spray of tiny shooting stars, dealing 1d4 fire damage. Each creature in the area must attempt a Reflex save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage and is dazzled for 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and is dazzled for 3 rounds.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage and is dazzled for 1 minute.</Description>
+        <Heightened every="1"> Increase the damage by 1d4.</Heightened>
+    </Spell>
+    <Spell page="237" type="Focus">
+        <Name>Steal Shadow</Name>
+        <Level>3</Level>
+        <Traits>Necromancy, Shadow, Sorcerer</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>60 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Save>Fortitude</Save>
+        <Description>You steal a creature's shadow, leaving it weakened and vulnerable. The target must attempt a Fortitude save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is enfeebled 1 for 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target takes 3d4 negative damage and is enfeebled 1 for the spell's duration as you tear its shadow away, collecting it in your hand. On subsequent rounds, when you Sustain the Spell, you can throttle the shadow to deal 3d4 negative damage to the target (basic Fortitude save). Until the spell ends, the target doesn't cast a shadow.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but the target is enfeebled 2.</Description>
+        <Heightened every="1"> The damage when the spell is cast and when it is sustained increases by 1d4.</Heightened>
+    </Spell>
+    <Spell page="239" type="Cantrip">
+        <Name>Stoke the Heart</Name>
+        <Level>1</Level>
+        <Traits>Cantrip, Emotion, Enchantment, Hex, Witch</Traits>
+        <Cast>Single Action (Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>Intense fervor fills the target creature, empowering their blows. The target gains a +2 status bonus to damage rolls. Once this spell ends, the target becomes temporarily immune for 1 minute.</Description>
+        <Heightened every="2"> The status bonus to damage increases by 1.</Heightened>
+    </Spell>
+    <Spell page="228" type="Focus">
+        <Name>Symphony of the Unfettered Heart</Name>
+        <Level>5</Level>
+        <Traits>Abjuration, Bard, Composition</Traits>
+        <Cast>Two Actions (Verbal, Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>you or 1 ally</Targets>
+        <Description>Your symphony lifts listeners from their worldly concerns. Attempt a Performance check to counteract one of the following conditions affecting the target: grabbed, immobilized, paralyzed, restrained, slowed, or stunned. If you fail, you can't target that effect on the target for 1 day. Use the condition's source to determine the counteract DC (for example, the Escape DC for grabbed).</Description>
+        <Heightened level="9"> You can target up to four creatures.</Heightened>
+    </Spell>
+    <Spell page="233" type="Focus">
+        <Name>Tempest Form</Name>
+        <Level>6</Level>
+        <Traits>Cursebound, Oracle, Polymorph, Transmutation</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>Your body becomes fluid to better suit your surroundings. When you Cast this Spell, choose whether to become air, water, or mist. The spell gains the air trait if you choose air or mist, and the water trait if you choose water or mist. You become amorphous, as does your armor. You lose any item bonus to AC and use your proficiency bonus for unarmored defense to determine your AC. You also gain resistance 10 to physical damage and become immune to precision damage. You can slip through tiny cracks and don't need to breathe. You can't cast spells, activate items, or use actions that have the attack or manipulate trait. You also gain the following effects based on your form.&lt;b&gt;Air&lt;/b&gt; You gain a fly Speed of 20 feet and become invisible while you are in the air. You can create the effects of a &lt;i&gt;gust of wind&lt;/i&gt; from your space as a 2-action activity, which has the manipulate trait. &lt;b&gt;Mist&lt;/b&gt; You gain a fly Speed of 20 feet, and it becomes hard to see through you. Any creature on one side of your space who is targeted by a creature on the opposite side is concealed to the targeting creature.&lt;b&gt;Water&lt;/b&gt; You gain a swim Speed of 20 feet and become invisible while you are in the water. You can electrically charge yourself by taking a single action, which has the manipulate trait. If you do, you are no longer invisible in the water due to electricity indicating your location, but any creature that makes a melee attack against you takes 1d6 electricity damage; if it touches you, this is cumulative with the damage from your major curse.</Description>
+        <Heightened every="2"> Increase the resistance by 5 and the electricity damage from the charged water form by 1.</Heightened>
+    </Spell>
+    <Spell page="233" type="Focus">
+        <Name>Tempest Touch</Name>
+        <Level>1</Level>
+        <Traits>Cold, Cursebound, Evocation, Oracle, Water</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>touch</Range>
+        <Targets>1 creature</Targets>
+        <Save>Fortitude</Save>
+        <Description>Your touch calls forth a churning mass of icy water that clings to your target, dealing 1d4 bludgeoning damage and 1d4 cold damage. The target must attempt a Fortitude save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target takes half damage and a –5-foot circumstance penalty to its Speeds until the end of your next turn.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target takes full damage and a –10-foot circumstance penalty to its Speeds until the end of your next turn.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but the target takes double damage.</Description>
+        <Heightened every="1"> The bludgeoning and cold damage each increase by 1d4.</Heightened>
+    </Spell>
+    <Spell page="235" type="Focus">
+        <Name>Terrain Transposition</Name>
+        <Level>5</Level>
+        <Traits>Conjuration, Ranger, Teleportation</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>90 feet</Range>
+        <Description>You mystically transpose your current location with another. While in a wilderness environment, you transport yourself and items you're holding to a clear space you can see within range. If you have Favored Terrain and both your starting and ending position are in your favored terrain, the range increases to 180 feet. If you have an animal companion and it is adjacent to you, you can transport it along with you to an adjacent open space, but if this spell would bring any other creature with you, even in an extradimensional container, the spell is lost.</Description>
+    </Spell>
+    <Spell page="234" type="Focus">
+        <Name>Thunderburst</Name>
+        <Level>3</Level>
+        <Traits>Air, Cursebound, Evocation, Oracle, Sonic</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>100 feet</Range>
+        <Area>20-foot burst</Area>
+        <Save>Fortitude</Save>
+        <Description>You create a powerful blast of air and a loud peal of thunder, dealing 2d6 bludgeoning damage and 2d6 sonic damage. Each creature in the area must attempt a Fortitude save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and is deafened for 1 minute.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage and is deafened for 1 hour.</Description>
+        <Heightened every="2"> Increase each type of damage by 2d6 and the area by 5 feet.</Heightened>
+    </Spell>
+    <Spell page="229" type="Focus">
+        <Name>Touch of Corruption</Name>
+        <Level>1</Level>
+        <Traits>Champion, Necromancy, Negative</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>touch</Range>
+        <Targets>1 willing undead creature or 1 living creature</Targets>
+        <Description>You infuse the target with negative energy. If the target is living, this deals 1d6 negative damage (basic Fortitude save); on a failed save, the target also takes a –2 status penalty to AC for 1 round.&lt;br&gt;&lt;br&gt; If the target is a willing undead creature, the target instead regains 6 Hit Points, and if you are the undead target, you also gain a +2 status bonus to damage rolls for 1 round.</Description>
+        <Heightened every="1"> Increase the damage dealt to a living creature by 1d6 or increase the Hit Points regained by undead by 6.</Heightened>
+    </Spell>
+    <Spell page="239" type="Focus">
+        <Name>Veil of Dreams</Name>
+        <Level>1</Level>
+        <Traits>Enchantment, Hex, Mental, Witch</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Save>Will</Save>
+        <Description>You draw the target into a drowsy state, causing daydreams and sluggishness. The target must attempt a Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target takes a –1 status penalty to Perception, attack rolls, and Will saves. This penalty increases to –2 for Will saves against sleep effects.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; As success, and any time the target uses a concentrate action, it must succeed at a DC 5 flat check or the action is disrupted.</Description>
+    </Spell>
+    <Spell page="234" type="Focus">
+        <Name>Vision of Weakness</Name>
+        <Level>2</Level>
+        <Traits>Cursebound, Divination, Oracle</Traits>
+        <Cast>Single Action (Somatic)</Cast>
+        <Targets>1 creature</Targets>
+        <Description>You focus your gaze on a creature and gain a flash of divine insight into its nature. If the creature has any weaknesses, you learn them, as well as which of its three saving throw modifiers is lowest. You also learn an inherent understanding of its movements and gain a +2 status bonus to your next attack roll (or skill check made as part of an attack action) against that foe before the end of your turn. The target is then temporarily immune to &lt;i&gt;vision of weakness&lt;/i&gt; for 1 day.</Description>
+    </Spell>
+    <Spell page="234" type="Focus">
+        <Name>Whirling Flames</Name>
+        <Level>3</Level>
+        <Traits>Cursebound, Evocation, Fire, Oracle</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Area>up to two 5-foot bursts that don't overlap</Area>
+        <Save>basic Reflex</Save>
+        <Description>You call forth a storm of whirling flames, engulfing all creatures in that area and dealing 5d6 fire damage with a basic Reflex save.</Description>
+        <Heightened every="2"> The damage increases by 3d6, and you can add another nonoverlapping 5-foot burst to the area.</Heightened>
+    </Spell>
+    <Spell page="239" type="Cantrip">
+        <Name>Wilding Word</Name>
+        <Level>1</Level>
+        <Traits>Cantrip, Enchantment, Hex, Witch</Traits>
+        <Cast>Single Action (Verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 animal, fungus, or plant</Targets>
+        <Duration>sustained up to 1 minute</Duration>
+        <Save>Will</Save>
+        <Description>With a few words, you convince a wild creature you are a kindred spirit, making it reluctant to harm you. The target must attempt a Will save. Regardless of the outcome, the target is then temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; When the target attempts an attack roll or skill check that would harm you, it takes a –2 status penalty to its roll.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; As success, but the target also becomes sickened 1 each time it damages you.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As success, but the target also becomes sickened 2 each time it damages you.</Description>
+    </Spell>
+    <Spell page="237" type="Focus">
+        <Name>Wish-Twisted Form</Name>
+        <Level>5</Level>
+        <Traits>Sorcerer, Transmutation</Traits>
+        <Cast>Two Actions (Somatic, Verbal)</Cast>
+        <Range>60 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>varies</Duration>
+        <Save>Will</Save>
+        <Description>You focus your magic upon an enemy, wishing for their defenses to fail and turning their strengths into weaknesses. The target must attempt one Will saving throw for all of the following effects. The target gains weakness 5 to one energy type of your choice.The target's resistances are reduced by 5.The target takes a –10-foot status penalty to all its Speeds.The target takes a –1 status penalty to its saving throws.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target takes the penalties for 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target takes the penalties for 1 minute.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, and the target takes a –1 status penalty to AC for the duration.</Description>
+        <Heightened every="1"> Increase the weakness and the reduction to resistances by 1.</Heightened>
+    </Spell>
+
+</pf2:spells>
