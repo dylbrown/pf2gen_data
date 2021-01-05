@@ -325,7 +325,7 @@
         <Name>Heal Companion</Name>
         <Level>1</Level>
         <Traits>Healing, Necromancy, Positive, Ranger</Traits>
-        <Cast>Single Action (Somatic)</Cast><!--Support Variable Cost-->
+        <Cast>One to Two Actions (Somatic)</Cast>
         <Range>touch or 30 feet</Range>
         <Targets>your animal companion</Targets>
         <Description>You harness positive energy to heal your animal companion's wounds. You restore 1d10 Hit Points to your animal companion. The number of actions you spend Casting this Spell determines range and other parameters.&lt;br&gt; [[Single Action]] (somatic) The spell has a range of touch.&lt;br&gt; [[Two Actions]] (verbal) The spell has a range of 30 feet and restores an additional 8 Hit Points to the target.</Description>
@@ -347,7 +347,7 @@
         <Name>Heroic Feat</Name>
         <Level>6</Level>
         <Traits>Cursebound, Divination, Mental, Oracle</Traits>
-        <Cast>Two Actions (Verbal, Somatic)</Cast><!--Support Variable Cost-->
+        <Cast>Two to Three Actions (Verbal, Somatic)</Cast>
         <Description>You gain the ability to perform a specialized combat technique from the vast wealth of martial knowledge your mystery provides. When you Cast this Spell, you use the action granted by one common fighter feat from the &lt;i&gt;Core Rulebook&lt;/i&gt; or the &lt;i&gt;Advanced Player's Guide&lt;/i&gt; (your GM might add feats to this list). If you Cast this Spell using 2 actions, the granted action must be a single action, and if you Cast this Spell using 3 actions, you can instead choose a feat that grants a 2-action activity. The chosen feat's level can be no higher than &lt;i&gt;heroic feat's&lt;/i&gt; spell level. The feat can't have a Frequency entry, and you must meet its prerequisites and requirements in order to select it.</Description>
     </Spell>
     <Spell page="235" type="Focus">

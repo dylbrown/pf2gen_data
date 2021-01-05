@@ -714,6 +714,34 @@
                     <span>♦</span>
                 </div>
             </div>
+            [#elseif spell.castTime?lower_case?contains(" to ")]
+                [#switch spell.castTime?lower_case?keep_before(" to ")]
+                    [#case "one"]
+                        [#assign minimumBoxes = 1]
+                        [#break]
+                    [#case "two"]
+                        [#assign minimumBoxes = 2]
+                        [#break]
+                [/#switch]
+                [#switch spell.castTime?lower_case?keep_after(" to ")]
+                    [#case "two actions"]
+                        [#assign maximumBoxes = 2]
+                        [#break]
+                    [#case "three actions"]
+                        [#assign maximumBoxes = 3]
+                        [#break]
+                [/#switch]
+            <div class="spell-cost">
+                <div class="spell-cost-yes">
+                    <span>♦</span>
+                </div>
+                <div class="spell-cost-yes[#if minimumBoxes == 1] spell-cost-optional[/#if]">
+                    <span>♦</span>
+                </div>
+                <div class="[#if maximumBoxes == 3]spell-cost-yes spell-cost-optional[#else]spell-cost-no[/#if]">
+                    <span>♦</span>
+                </div>
+            </div>
             [#else]
                 [@linePart label="Cast Time" content=spell.castTime /]
             [/#if]
@@ -744,10 +772,15 @@
 <div class="height_measure"></div>
 </body>
 <script>
+    function checkRefresh() {
+        setTimeout(function (){
+            refresh();
+        }, 1000);
+    }
     $( document ).ready(function() {
         window.matchMedia("print").addListener(refresh);
         window.matchMedia("screen").addListener(refresh);
-        window.addEventListener('resize', refresh);
+        window.addEventListener('resize', checkRefresh);
 
         let inventoryGrid = $("#inventory-grid");
         while(true) {

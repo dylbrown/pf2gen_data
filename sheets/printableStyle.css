@@ -809,6 +809,16 @@ div.spell-cost-yes {
     justify-content: center;
     align-items: center;
 }
+div.spell-cost-optional.spell-cost-yes {
+    background: linear-gradient(135deg, black 50%, white 50%);
+    color: transparent;
+}
+div.spell-cost-optional > span {
+    border: 1px solid black;
+    width: 100%;
+    height: 0;
+    transform: rotate(135deg);
+}
 .spell-cost-no > span {
     visibility: hidden;
 }

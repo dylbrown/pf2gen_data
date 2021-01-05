@@ -456,7 +456,7 @@
         <Level>1</Level>
         <Traits>Necromancy, Positive</Traits>
         <Traditions>divine, primal</Traditions>
-        <Cast>Single Action (Verbal, Somatic)</Cast><!--Support Variable Cost-->
+        <Cast>One to Three Actions (Verbal, Somatic)</Cast>
         <Range>touch</Range>
         <Targets>1 to 3 non-magical stones or sling bullets</Targets>
         <Duration>1 minute</Duration>
