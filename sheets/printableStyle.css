@@ -521,8 +521,14 @@ div.action-label {
     justify-content: flex-start;
     box-sizing: border-box;
 }
-.ability-box:first-child, .spell-box:first-child {
-    padding: 0 3px 6px 3px;
+div.ability-section {
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .abilities-flex .action-icon {
     font-size: 1.2em;
@@ -694,7 +700,7 @@ div.col-section-label {
 #spells-prepared > div.col-section-label:nth-child(2) {
     padding-left: 4px;
 }
-#spells-prepared > div:nth-last-child(1), #spells-prepared > div:nth-last-child(2) {
+#spells-prepared:not(.no-bottom) > div:nth-last-child(1), #spells-prepared:not(.no-bottom) > div:nth-last-child(2) {
     border-bottom: 1px solid black;
     padding-bottom: 2px;
 }

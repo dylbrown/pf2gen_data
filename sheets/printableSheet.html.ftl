@@ -520,32 +520,50 @@
         </div>
     [/#if]
 [/#macro]
+[#macro abilityBox ability]
+<div class="ability-box">
+    [#if ability.hasExtension("Activity")]<div class="action-icon">
+        [#switch ability.getExtensionByName("Activity").cost]
+            [#case "Free"]F[#break]
+            [#case "Reaction"]R[#assign reaction=true][#break]
+            [#case "One"]1[#break]
+            [#case "Two"]2[#break]
+            [#case "Three"]3[#break]
+        [/#switch]
+    </div>[/#if]
+    <div class="ability-title">
+        ${ability.name}
+    </div>
+    [@linePart label="Source" content=ability.source /]
+    [@linePart label="Traits" content=ability.traits?join(", ") /]
+    [@linePart label="Requirements" content=ability.requirements /]
+    [@linePart label="Frequency" content=ability.frequency /]
+    [#if ability.hasExtension("Activity")]
+    [@linePart label="Trigger" content=ability.getExtensionByName("Activity").trigger /]
+    [/#if]
+    <div class="ability-description">${ability.description}</div>
+</div>
+[/#macro]
 <div class="page">
     <div class="printBorder"></div>
     <div class="abilities-flex first-page">
+        <div class="ability-box ability-section do-not-break">Class Feats</div>
         [#list character.abilities as ability]
-        <div class="ability-box">
-            [#if ability.hasExtension("Activity")]<div class="action-icon">
-                [#switch ability.getExtensionByName("Activity").cost]
-                    [#case "Free"]F[#break]
-                    [#case "Reaction"]R[#assign reaction=true][#break]
-                    [#case "One"]1[#break]
-                    [#case "Two"]2[#break]
-                    [#case "Three"]3[#break]
-                [/#switch]
-            </div>[/#if]
-            <div class="ability-title">
-                ${ability.name}
-            </div>
-            [@linePart label="Source" content=ability.source /]
-            [@linePart label="Traits" content=ability.traits?join(", ") /]
-            [@linePart label="Requirements" content=ability.requirements /]
-            [@linePart label="Frequency" content=ability.frequency /]
-            [#if ability.hasExtension("Activity")]
-            [@linePart label="Trigger" content=ability.getExtensionByName("Activity").trigger /]
+            [#if ability.getType() == "Class"]
+            [@abilityBox ability=ability /]
             [/#if]
-            <div class="ability-description">${ability.description}</div>
-        </div>
+        [/#list]
+        <div class="ability-box ability-section do-not-break">General & Skill Feats</div>
+        [#list character.abilities as ability]
+            [#if ability.getType() != "Class" && ability.getType() != "Ancestry"]
+            [@abilityBox ability=ability /]
+            [/#if]
+        [/#list]
+        <div class="ability-box ability-section do-not-break">Ancestry Feats</div>
+        [#list character.abilities as ability]
+            [#if ability.getType() == "Ancestry"]
+            [@abilityBox ability=ability /]
+            [/#if]
         [/#list]
         <div id="inventory-grid">
             <div class="inventory-title col-section-title">Inventory</div>
@@ -848,6 +866,29 @@
             text.parent().css("border-bottom", "none");
         return contents.substring(start);
     }
+    function binaryDivHeightSearch(original, clone, maxHeight) {
+        let contents = original.children();
+        if (contents === null || contents === undefined) return "";
+        let start = 0;
+        let end = contents.length;
+        while(start < end) {
+            let middle = contents.eq(Math.floor((start + end) / 2));
+            if(middle.position().top + middle.outerHeight(true) > maxHeight) {
+                end = Math.floor((start + end) / 2);
+            } else {
+                start = Math.floor((start + end) / 2) + 1;
+            }
+        }
+        for(let i = contents.length; i >= 0; i--) {
+            if(i < start) {
+                clone.children().eq(i).remove();
+            }else{
+                original.children().eq(i).remove();
+            }
+        }
+        if(end < contents.length)
+            original.addClass("no-bottom");
+    }
     function fixRows() {
         firstPage = $(".abilities-flex").first();
         currPage = firstPage; numPages = 1;
@@ -867,7 +908,7 @@
             // Completely move to next if only small space left
             let descTop = $(this).find(".ability-description");
             let infoHeight = 0;
-            if(descTop.length > 0) {
+            if(descTop != null && descTop != undefined && descTop.length > 0) {
                 descTop = descTop.first();
                 infoHeight = descTop.position().top;
                 if(currentTop + infoHeight >= totalHeight) {
@@ -889,8 +930,14 @@
                 let clone = $(this).clone();
                 clone.css("left", currentLeft);
                 clone.css("top", 0);
-                clone.children().last().html(binaryHeightSearch(descTop, totalHeight - $(this).position().top));
-                clone.children(":not(:last-child)").remove();
+                if($(this).attr("id") === "inventory-grid"
+                || $(this).attr("id") === "spells-prepared"
+                || $(this).attr("id") === "spells-spontaneous") {
+                    binaryDivHeightSearch($(this), clone, totalHeight - $(this).position().top);
+                }else{
+                    clone.children().last().html(binaryHeightSearch(descTop, totalHeight - $(this).position().top));
+                    clone.children(":not(:last-child)").remove();
+                }
                 clone.appendTo(currPage);
                 currentTop = clone.outerHeight(true);
             }
