@@ -3,6 +3,9 @@
     <Name>Core Rulebook</Name>
     <ShortName>CRB</ShortName>
     <Category>Rulebooks</Category>
+    <Dependencies>
+        <Dependency>Bestiary 1</Dependency>
+    </Dependencies>
     <Description>&lt;h2&gt;Core Rulebook&lt;/h2&gt;This comprehensive 640-page guide to the Pathfinder roleplaying game provides everything you need to set out into a world of limitless fantasy adventure! Choose from ancestries like elf, human, and goblin and classes like alchemist, fighter, and sorcerer to create a hero of your own design, destined to become a legend! The new Pathfinder rules are easier to learn and faster to play, and they offer deeper customization than ever before!&lt;br&gt;&lt;br&gt;
         This indispensable volume contains the core rules for players and Game Masters, and is your first step on a heroic new journey!&lt;br&gt;&lt;br&gt;
     The Pathfinder Core Rulebook includes:&lt;ul&gt;
@@ -53,8 +56,6 @@
     <Armor name="Armor" path="equipment/armor_and_shields.pfdyl" />
     <Weapons name="Weapons" path="equipment/weapons.pfdyl" />
     <Feats>
-        <Category name="Arcane School" path="feats/arcaneSchool.pfdyl" />
-        <Category name="Arcane Thesis" path="feats/arcaneThesis.pfdyl" />
         <Category name="Archetype" path="feats/archetypes.pfdyl" />
         <Category name="Bloodline" path="feats/bloodline.pfdyl" />
         <Category name="ClassFeature" path="feats/base_class.pfdyl" />

@@ -768,7 +768,7 @@ The bonus to Speed is +10 feet, and the bonus to High Jump and Long Jump is +3.<
 <Item level="7" page="610">
 	<Name>Gloves of Storing</Name>
 	<Price>340 gp</Price>
-	<Traits>Extradimensional, Invested, Magical, Transmutation</Traits>
+	<Traits>Uncommon, Extradimensional, Invested, Magical, Transmutation</Traits>
 	<Usage>worn gloves</Usage>
 	<Description>An item can be stored inside these supple leather gloves, held in an extradimensional space. When an item is inside the glove, an image of the item appears as a simple, stitched pattern on the back of each glove. Many &lt;i&gt;gloves of storing&lt;/i&gt; are found with an item already inside.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; No item is stored in the gloves; &lt;b&gt;Effect&lt;/b&gt; One item you're holding with a Bulk of 1 or less vanishes into the gloves' extradimensional space.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; An item is stored in the gloves, and you have a free hand; &lt;b&gt;Effect&lt;/b&gt; The item stored in the gloves appears in your hand. The gloves can't be activated again for 1 minute.</Description>
 </Item>

@@ -39,12 +39,102 @@
                 <SpellSlots count="2" level="1"/>
             </Ability>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Arcane School">
-            <Ability>
-                <Description>Many arcane spellcasters delve deeply into a single school of magic in an attempt to master its secrets. If you want to be a specialist wizard, choose a school in which to specialize. You gain additional spells and spell slots for spells of your school.
+        <AbilitySlot state="choice" name="Arcane School" contents="Arcane School">
+            <Description>Many arcane spellcasters delve deeply into a single school of magic in an attempt to master its secrets. If you want to be a specialist wizard, choose a school in which to specialize. You gain additional spells and spell slots for spells of your school.
 
-                    If you don't choose a school, you're a universalist, a wizard who believes that the path to true knowledge of magic requires a multidisciplinary understanding of all eight schools working together. Though a universalist lacks the focus of a specialist wizard, they have greater flexibility.</Description>
-                <AbilitySlot state="feat" name="Arcane School" type="ArcaneSchool"/>
+                If you don't choose a school, you're a universalist, a wizard who believes that the path to true knowledge of magic requires a multidisciplinary understanding of all eight schools working together. Though a universalist lacks the focus of a specialist wizard, they have greater flexibility.</Description>
+            <Ability name="Abjuration School" page="207">
+                <Description>As an abjurer, you master the art of protection, strengthening defenses, preventing attacks, and even turning magic against itself. You understand that an ounce of prevention is worth a pound of cure. You add one 1st-level abjuration spell (such as feather fall) to your spellbook. You learn the protective ward school spell.</Description>
+                <AbilitySlot state="filled" name="Advanced Abjuration Spell">
+                    <Ability>
+                        <Prerequisites>Advanced School Spell</Prerequisites>
+                        <Spell type="Focus" name="Energy Absorption"/>
+                    </Ability>
+                </AbilitySlot>
+                <SpellsKnown count="1" level="1" traits="Abjuration"/>
+                <Spell type="Focus" name="Protective Ward"/>
+            </Ability>
+            <Ability name="Conjuration School" page="207">
+                <Description>As a conjurer, you summon creatures and objects from places beyond, and use magic to transport to distant locales. You understand that the true key to victory is strength in numbers. You add one 1st-level conjuration spell (such as summon animal) to your spellbook. You learn the augment summoning school spell).</Description>
+                <AbilitySlot state="filled" name="Advanced Conjuration Spell">
+                    <Ability>
+                        <Prerequisites>Advanced School Spell</Prerequisites>
+                        <Spell type="Focus" name="Dimensional Steps"/>
+                    </Ability>
+                </AbilitySlot>
+                <SpellsKnown count="1" level="1" traits="Conjuration"/>
+                <Spell type="Focus" name="Augment Summoning"/>
+            </Ability>
+            <Ability name="Divination School" page="208">
+                <Description>As a diviner, you master remote viewing and prescience, learning information that can transform investigations, research, and battle strategies. You understand that knowledge is power. You add one 1st-level divination spell (such as true strike) to your spellbook. You learn the diviner's sight school spell.</Description>
+                <AbilitySlot state="filled" name="Advanced Divination Spell">
+                    <Ability>
+                        <Prerequisites>Advanced School Spell</Prerequisites>
+                        <Spell type="Focus" name="Vigilant Eye"/>
+                    </Ability>
+                </AbilitySlot>
+                <SpellsKnown count="1" level="1" traits="Divination"/>
+                <Spell type="Focus" name="Diviner's Sight"/>
+            </Ability>
+            <Ability name="Enchantment School" page="208">
+                <Description>As an enchanter, you use magic to manipulate others' minds. You might use your abilities to subtly influence others or seize control over them. You understand that the mind surpasses matter. You add one 1st-level enchantment spell (such as charm) to your spellbook. You learn the charming words school spell.</Description>
+                <AbilitySlot state="filled" name="Advanced Enchantment Spell">
+                    <Ability>
+                        <Prerequisites>Advanced School Spell</Prerequisites>
+                        <Spell type="Focus" name="Dread Aura"/>
+                    </Ability>
+                </AbilitySlot>
+                <SpellsKnown count="1" level="1" traits="Enchantment"/>
+                <Spell type="Focus" name="Charming Words"/>
+            </Ability>
+            <Ability name="Evocation School" page="208">
+                <Description>As an evoker, you revel in the raw power of magic, using it to create and destroy with ease. You can call forth elements, forces, and energy to devastate your foes or to assist you in other ways. You understand that the most direct approach is the most elegant. You add one 1st-level evocation spell (such as shocking grasp) to your spellbook. You learn the force bolt school spell.</Description>
+                <AbilitySlot state="filled" name="Advanced Evocation Spell">
+                    <Ability>
+                        <Prerequisites>Advanced School Spell</Prerequisites>
+                        <Spell type="Focus" name="Elemental Tempest"/>
+                    </Ability>
+                </AbilitySlot>
+                <SpellsKnown count="1" level="1" traits="Evocation"/>
+                <Spell type="Focus" name="Force Bolt"/>
+            </Ability>
+            <Ability name="Illusion School" page="208">
+                <Description>As an illusionist, you use magic to create images, figments, and phantasms to baffle your enemies. You understand that perception is reality. You add one 1st-level illusion spell (such as illusory object) to your spellbook. You learn the warped terrain school spell.</Description>
+                <AbilitySlot state="filled" name="Advanced Illusion Spell">
+                    <Ability>
+                        <Prerequisites>Advanced School Spell</Prerequisites>
+                        <Spell type="Focus" name="Invisibility Cloak"/>
+                    </Ability>
+                </AbilitySlot>
+                <SpellsKnown count="1" level="1" traits="Illusion"/>
+                <Spell type="Focus" name="Warped Terrain"/>
+            </Ability>
+            <Ability name="Necromancy School" page="208">
+                <Description>As a necromancer, you call upon the powers of life and death. While your school is often vilified for its association with raising the undead, you understand that control over life also means control over healing. You add one 1st-level necromancy spell (such as grim tendrils) to your spellbook. You learn the call of the grave school spell.</Description>
+                <AbilitySlot state="filled" name="Advanced Necromancy Spell">
+                    <Ability>
+                        <Prerequisites>Advanced School Spell</Prerequisites>
+                        <Spell type="Focus" name="Life Siphon"/>
+                    </Ability>
+                </AbilitySlot>
+                <SpellsKnown count="1" level="1" traits="Necromancy"/>
+                <Spell type="Focus" name="Call of the Grave"/>
+            </Ability>
+            <Ability name="Transmutation School" page="208">
+                <Description>As a transmuter, you alter the physical properties of things, transforming creatures, objects, the natural world, and even yourself at your whim. You understand that change is inevitable. You add one 1st-level transmutation spell (such as magic weapon) to your spellbook. You learn the physical boost school spell.</Description>
+                <AbilitySlot state="filled" name="Advanced Transmutation Spell">
+                    <Ability>
+                        <Prerequisites>Advanced School Spell</Prerequisites>
+                        <Spell type="Focus" name="Shifting Form"/>
+                    </Ability>
+                </AbilitySlot>
+                <SpellsKnown count="1" level="1" traits="Transmutation"/>
+                <Spell type="Focus" name="Physical Boost"/>
+            </Ability>
+            <Ability name="Universalist Wizard" page="210">
+                <Description>Instead of specializing narrowly in an arcane school, you can become a universalist wizard—by studying all the schools equally, you devote yourself to understanding the full breadth of the arcane arts. For each level of spell you can cast, you can use Drain Bonded item once per day to recall a spell of that level (instead of using it only once per day in total). You gain an extra wizard class feat, and you add one 1st-level spell of your choice to your spellbook.</Description>
+                <AbilitySlot state="feat" name="Universalist Class Feat" type="Class Feat"/>
+                <SpellsKnown count="1" level="1"/>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="filled" name="Arcane Bond">
@@ -52,10 +142,21 @@
                 <Description>You place some of your magical power in a bonded item. Each day when you prepare your spells, you can designate a single item you own as your bonded item. This is typically an item associated with spellcasting, such as a wand, ring, or staff, but you are free to designate a weapon or other item. You gain the Drain Bonded Item free action.Drain Bonded ItemArcaneWizardSource Core Rulebook pg. 205Frequency once per dayRequirements You haven't acted yet on your turnYou expend the power stored in your bonded item. During your turn, you gain the ability to cast one spell you prepared today and already cast, without spending a spell slot. You must still Cast the Spell and meet the spell's other requirements.</Description>
             </Ability>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Arcane Thesis">
-            <Ability>
-                <Description>During your studies to become a full-fledged wizard, you produced a thesis of unique magical research on one of a variety of topics. You gain a special benefit depending on the topic of your thesis research. The arcane thesis topics presented in this book are below; your specific thesis probably has a much longer and more technical title like “On the Methods of Spell Interpolation and the Genesis of a New Understanding of the Building Blocks of Magic.”</Description>
-                <AbilitySlot state="feat" name="Arcane Thesis" type="ArcaneThesis"/>
+        <AbilitySlot state="choice" name="Arcane Thesis">
+            <Description>During your studies to become a full-fledged wizard, you produced a thesis of unique magical research on one of a variety of topics. You gain a special benefit depending on the topic of your thesis research. The arcane thesis topics presented in this book are below; your specific thesis probably has a much longer and more technical title like “On the Methods of Spell Interpolation and the Genesis of a New Understanding of the Building Blocks of Magic.”</Description>
+            <Ability name="Improved Familiar Attunement" page="205">
+                <Description>You've long held that fine-tuning the magic that bonds wizard and familiar can improve the mystic connection, compared to the safe yet generic bond most wizards currently use. You've formed such a pact with your familiar, gaining more advantages from it than most wizards. You gain the Familiar wizard feat as a bonus feat. Your familiar gains an extra ability, and it gains an additional extra ability when you reach 6th, 12th, and 18th levels. Your connection with your familiar alters your arcane bond class feature so that you store your magical energy in your familiar, rather than an item you own; you also gain the Drain Familiar free action instead of Drain Bonded Item. Drain Familiar can be used any time an ability would allow you to use Drain Bonded Item and functions identically, except that you draw magic from your familiar instead of an item.</Description>
+                <AbilitySlot state="filled" name="Familiar" contents="Familiar" type="Class Feat"/>
+            </Ability>
+            <Ability name="Metamagical Experimentation" page="205">
+                <Description>You've realized that the practice known as metamagic is a holdover from a time long ago, when wizards had to work out their own spells and variations rather than rely on spells recorded by others and passed down over the years. This allows you efficient access to various metamagic effects. You gain a 1st-level metamagic wizard feat as a bonus feat. Starting at 4th level, during your daily preparations, you can gain a metamagic wizard feat of your choice that has a level requirement of no more than half your level, which you can use until your next daily preparations.</Description>
+                <AbilitySlot state="feat" name="Bonus Metamagic Feat" level="1" type="Class Feat"/>
+            </Ability>
+            <Ability name="Spell Blending" page="206">
+                <Description>You theorize that spell slots are a shorthand for an underlying energy that powers all spellcasting, and you've found a way to tinker with the hierarchy of spell slots, combining them to fuel more powerful spells. When you make your daily preparations, you can trade two spell slots of the same level for a bonus spell slot of up to 2 levels higher than the traded spell slots. You can exchange as many spell slots as you have available. Bonus spell slots must be of a level you can normally cast, and each bonus spell slot must be of a different spell level. You can also trade any spell slot for two additional cantrips, though you cannot trade more than one spell slot at a time for additional cantrips in this way.</Description>
+            </Ability>
+            <Ability name="Spell Substitution" page="206">
+                <Description>You don't accept the fact that once spells are prepared, they can't be changed until your next daily preparation, and you have uncovered a shortcut allowing you to substitute new spells for those you originally prepared. You can spend 10 minutes to empty one of your prepared spell slots and prepare a different spell from your spellbook in its place. If you are interrupted during such a swap, the original spell remains prepared and can still be cast. You can try again to swap out the spell later, but you must start the process over again.</Description>
             </Ability>
         </AbilitySlot>
     </FeatureList>
@@ -287,7 +388,7 @@
         <AbilitySlot state="feat" type="Class Feat" name="Wizard Feat"/>
     </FeatureList>
     <Feats>
-        <Ability name="Counterspell (Prepared)" level="1" page="209" cost="Reaction">
+        <Ability name="Counterspell" level="1" page="209" cost="Reaction">
             <Traits>Abjuration, Arcane, Wizard</Traits>
             <Trigger>A creature Casts a Spell that you have prepared.</Trigger>
             <Description>When a foe Casts a Spell and you can see its manifestations, you can use your own magic to disrupt it. You expend a prepared spell to counter the triggering creature's casting of that same spell. You lose your spell slot as if you had cast the triggering spell. You then attempt to counteract the triggering spell (page 458).</Description>

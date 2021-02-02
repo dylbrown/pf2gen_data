@@ -9,6 +9,7 @@
 	<Ability name="Alchemical Crafting" level="1">
 		<Requires>Trained In Crafting</Requires>
 		<Description>You can use the Craft activity to create alchemical items. When you select this feat, you immediately add the formulas for four common 1st-level alchemical items to your formula book.</Description>
+		<FormulasKnown category="Alchemical Items" level="1" count="4" />
 	</Ability>
 	<Ability name="Arcane Sense" level="1">
 		<Requires>Trained In Arcana</Requires>
