@@ -23,7 +23,9 @@
     </Classes>
     <Feats>
         <Category name="Archetype" path="feats/archetypes.pfdyl" />
+        <Category name="General" path="feats/general.pfdyl" />
         <Category name="Skill" path="feats/skill.pfdyl" />
+        <Category name="Ancestry" path="ancestries/versatile_heritages.pfdyl" />
     </Feats>
     <Spells>
         <Category name="Focus Spells" path="spells/focus_spells.pfdyl" />

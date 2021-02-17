@@ -2,6 +2,28 @@
 <pf2:traits xmlns:pf2="https://dylbrown.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="https://dylbrown.github.io ../../schemata/trait.xsd">
+    <Category name="Monster">
+        <Trait page="266">
+            <Name>Aasimar</Name>
+            <Description>A creature with this trait has the aasimar versatile heritage. Aasimars are planar scions descended from celestial beings. An ability with this trait can be used or selected only by aasimars.</Description>
+        </Trait>
+        <Trait page="266">
+            <Name>Changeling</Name>
+            <Description>A creature with this trait has the changeling versatile heritage. Changelings are the children of hags and members of other humanoid ancestries. An ability with this trait can be used or selected only by changelings.</Description>
+        </Trait>
+        <Trait page="267">
+            <Name>Dhampir</Name>
+            <Description>A creature with this trait has the dhampir versatile heritage. These humanoids are the immortal offspring of vampires and members of other ancestries.</Description>
+        </Trait>
+        <Trait page="267">
+            <Name>Duskwalker</Name>
+            <Description>A creature with this trait has the duskwalker versatile heritage. Duskwalkers are planar scions infused with the supernatural energy of psychopomps. An ability with this trait can be used or selected only by duskwalkers.</Description>
+        </Trait>
+        <Trait page="270">
+            <Name>Tiefling</Name>
+            <Description>A creature with this trait has the tiefling versatile heritage. Tieflings are planar scions descended from fiends. An ability with this trait can be used or selected only by tieflings.</Description>
+        </Trait>
+    </Category>
     <Category name="Class">
         <Trait page="268">
             <Name>Investigator</Name>
