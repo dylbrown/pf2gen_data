@@ -1,0 +1,111 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Ability name="Ancestral Blood Magic" level="1" page="139">
+        <Traits>Sorcerer</Traits>
+        <Description>The magic of your bloodline mixes with that of your ancestry. You gain your blood magic effect when you cast a non-cantrip spell you gained from a heritage or an ancestry feat, in addition to the normal circumstances that trigger your blood magic.Ancestral Blood Magic Leads To...Ancestral Mage</Description>
+    </Ability>
+    <Ability name="Anoint Ally" level="2" page="139" cost="1">
+        <Traits>Manipulate, Sorcerer</Traits>
+        <Description>You forge a mystical connection with an ally using your body as a focus, allowing them to benefit from your magic. You place a blood rune on an adjacent ally that lasts for 1 minute. When you would gain a blood magic effect, you can forgo it, granting it to your ally instead. You can anoint only one ally at a time; if you place another rune, your previous designation ends.</Description>
+    </Ability>
+    <Ability name="Entreat with Forebears" level="2" page="139">
+        <Traits>Sorcerer</Traits>
+        <Prerequisites>A Bloodline That Corresponds With A Creature Trait</Prerequisites>
+        <Description>Something about your presence causes creatures of your bloodline to, consciously or not, recognize you as one of their own, and you become inured to their tricks. You gain a +1 circumstance bonus to Diplomacy, Deception, and Intimidation checks when interacting with creatures that have the trait corresponding to your bloodline, and you gain a +1 circumstance bonus to Perception and saving throws against such creatures. For example, an aberrant bloodline sorcerer would gain this benefit against creatures with the aberration trait. The GM is the final arbiter of which creatures match your bloodline.</Description>
+    </Ability>
+    <Ability name="Elaborate Flourish" level="4" page="139" cost="1">
+        <Traits>Concentrate, Manipulate, Metamagic, Sorcerer</Traits>
+        <Description>You embellish your spellcasting with entrancing flourishes and grand pronouncements, making it harder to identify or counter. If the next action you use is to Cast a Spell, creatures with the ability to Cast that Spell don't automatically know what the spell is. In addition, creatures that witness your spellcasting take a –2 circumstance penalty to checks to identify the spell with Recall Knowledge and checks to counteract the spell during its casting (such as with Counterspell).</Description>
+    </Ability>
+    <Ability name="Split Shot" level="4" page="139" cost="1">
+        <Traits>Concentrate, Metamagic, Sorcerer</Traits>
+        <Description>You fragment a ranged spell into a pair of smaller shots. If your next action is to Cast a Spell without a duration that requires an attack roll against a single target and has no effect beyond dealing damage, you roll a single attack roll and compare the result to the AC of two targets within the spell's range. The spell deals only half its usual damage to each target. This counts as one attack for your multiple attack penalty.</Description>
+    </Ability>
+    <Ability name="Diverting Vortex" level="6" page="139" cost="1">
+        <Traits>Sorcerer</Traits>
+        <Requirements>Your most recent action was to cast a non-cantrip spell.</Requirements>
+        <Description>You transfer vestiges of magical energy to the air around you, creating a vortex that deflects ranged attacks. Until the start of your next turn, you gain a +1 status bonus to AC against ranged weapon attacks and physical ranged unarmed attacks.</Description>
+    </Ability>
+    <Ability name="Energetic Resonance" level="6" page="139" cost="Reaction">
+        <Traits>Abjuration, Sorcerer</Traits>
+        <Trigger>You would take acid, cold, electricity, fire, or sonic damage from a spell.</Trigger>
+        <Requirements>You have an unexpended spell slot of a level equal to or higher than the triggering spell.</Requirements>
+        <Description>Your blood resonates with magical energy, mitigating the effects of harmful spells. Expend one of your spell slots of a level equal to or higher than that of the triggering spell. You gain resistance to one of the triggering effect's damage types equal to twice the expended spell slot's level.</Description>
+    </Ability>
+    <Ability name="Spell Relay" level="6" page="139" cost="Reaction">
+        <Traits>Concentrate, Sorcerer</Traits>
+        <Trigger>An ally Casts a Spell and you are within that spell's range.</Trigger>
+        <Description>You open the power in your blood to your ally's spellcasting, using your magic to boost their range. Your ally can use you as the point of origin for their spell, calculating range and cover from your space instead of their own.</Description>
+    </Ability>
+    <Ability name="Safeguarded Spell" level="8" page="139" cost="1">
+        <Traits>Concentrate, Metamagic, Sorcerer</Traits>
+        <Description>You bring the magical wavelengths of your spell into sync with the ones produced by your own body. If the next action you take is to Cast a Spell with an area, you aren't affected by the spell even if you are within the area.</Description>
+    </Ability>
+    <Ability name="Soulsight" level="8" page="113">
+        <Traits>Bard, Sorcerer</Traits>
+        <PrereqStrings>Divine Bloodline or Occult Bloodline</PrereqStrings>
+        <Description>Your muse has opened your senses to the world beyond. You gain spiritsense as an imprecise sense with a range of 60 feet. Spiritsense enables you to sense the spirits of creatures, including living creatures, most non-mindless undead, and haunts within the listed range. As with your hearing and other imprecise senses, you still need to Seek to locate an undetected creature. As spiritsense detects spiritual essence, not physical bodies, it can detect spirits projected by spells such as project image or possessing otherwise soulless objects. It can't detect soulless bodies, constructs, or objects, and like most senses, it doesn't penetrate through solid objects.</Description>
+    </Ability>
+    <Ability name="Ancestral Mage" level="10" page="140">
+        <Traits>Sorcerer</Traits>
+        <Prerequisites>Ancestral Blood Magic</Prerequisites>
+        <Description>The magic of your ancestry and bloodline are one and the same. Add any innate spells you have from a heritage or an ancestry feat to your spell repertoire, meaning you can cast them using your spell slots.</Description>
+    </Ability>
+    <Ability name="Energy Fusion" level="10" page="140" cost="1">
+        <Traits>Concentrate, Metamagic, Sorcerer</Traits>
+        <Description>You fuse two spells together, combining their energy types. If the next action you use is to Cast a Spell that deals acid, cold, electricity, fire, or sonic damage, select a non-cantrip spell in your spell repertoire that deals a different type of energy damage from that list, and expend an additional spell slot of the same level as this secondary spell. The spell you cast deals additional damage equal to the level of the secondary spell slot expended. The spell's total damage is divided evenly between the energy type of the spell you cast and the energy type of the secondary spell.</Description>
+    </Ability>
+    <Ability name="Energy Ward" level="10" page="140" cost="Free">
+        <Traits>Abjuration, Sorcerer</Traits>
+        <Frequency>once per turn</Frequency>
+        <Requirements>Your most recent action was to cast a non-cantrip spell that dealt energy damage.</Requirements>
+        <Description>You trap energy from the last spell you cast within your body, coating your flesh in a protective ward. Until the start of your next turn, you gain resistance 5 to one type of energy damage dealt by the spell you just cast.</Description>
+    </Ability>
+    <Ability name="Signature Spell Expansion" level="10" page="140">
+        <Traits>Sorcerer</Traits>
+        <Description>Your innate connection to magic lets you cast more spells with greater freedom. You gain two additional signature spells, each of which must have a minimum level of 3rd or lower.</Description>
+    </Ability>
+    <Ability name="Blood Component Substitution" level="12" page="140">
+        <Traits>Sorcerer</Traits>
+        <Description>You can bypass the need for incantations and gestures by drawing energy directly from your blood, causing you to visibly glow the color of your blood and crackle with magical energy. When you Cast a Spell, you can replace all verbal, material, or somatic spellcasting components with a blood component. To use a blood component, you lose Hit Points equal to twice the spell's level as the energy in your blood is depleted, and you can't decrease the Hit Points lost in any way. As usual for altering components, this has no effect on the number of actions required to Cast the Spell, and your Cast a Spell activity gains the concentrate trait but not the manipulate trait. You can't use blood components to replace any required part of a spell's cost.</Description>
+    </Ability>
+    <Ability name="Greater Physical Evolution" level="12" page="141">
+        <Traits>Sorcerer</Traits>
+        <Prerequisites>Arcane Evolution Or Primal Evolution</Prerequisites>
+        <Description>You hold a deep understanding of the innate fundamental structures of the physical world, and you can enforce your will upon that structure as far as your own blood is concerned. Once per day, you can use a sorcerer spell slot to cast any common polymorph battle form spell of the spell slot's level as if it were a signature spell in your repertoire.&lt;br&gt;&lt;br&gt; If you have Arcane Evolution, you can also choose from any battle form spell in your spellbook. If you have Primal Evolution, you can Cast a Spell listed in that feat using the extra spell slot the feat grants (instead of a sorcerer spell slot).</Description>
+    </Ability>
+    <Ability name="Greater Spiritual Evolution" level="12" page="141">
+        <Traits>Sorcerer</Traits>
+        <Prerequisites>Divine Evolution Or Occult Evolution</Prerequisites>
+        <Description>Your magical blood is rich with spiritual essence, and this infusion within you allows your spells to be fully effective against incorporeal creatures, spirits, and creatures on the Ethereal Plane. Your spells have the effects of a ghost touch property rune. They can target or affect a creature projecting its consciousness (such as via project image) or possessing another creature, even if its body is elsewhere, though you must know about the possession or projection and choose to do so. Your spells can affect creatures on the Ethereal Plane, though this doesn't grant you any particular ability to locate them.</Description>
+    </Ability>
+    <Ability name="Consume Spell" level="14" page="141">
+        <Traits>Sorcerer</Traits>
+        <Prerequisites>Counterspell</Prerequisites>
+        <Description>When you successfully Counterspell a spell of the tradition that matches your bloodline, you consume it, replenishing yourself with its energy. When you do, you are nourished as if you had eaten a meal and regain Hit Points equal to twice the level of the counteracted spell.</Description>
+    </Ability>
+    <Ability name="Spell Shroud" level="14" page="141" cost="1">
+        <Traits>Concentrate, Metamagic, Sorcerer</Traits>
+        <Description>Your spell shrouds you in a billowing cloud. If your next action is to Cast a Spell that targets you, you surround yourself in a 15-foot emanation of dense magical mist that lasts until the start of your next turn. All creatures within the cloud become concealed, and all creatures outside the cloud are concealed to creatures within it.</Description>
+    </Ability>
+    <Ability name="Scintillating Spell" level="16" page="141" cost="1">
+        <Traits>Concentrate, Light, Metamagic, Sorcerer</Traits>
+        <Description>Your spells become a radiant display of light and color. If your next action is to Cast a Spell that doesn't have the darkness trait, has no duration, and requires creatures to attempt a Reflex save, the spell explodes in a spray of scintillating lights, in addition to its other effects. Each creature that failed its Reflex save against the spell is dazzled for 1 round, and those who critically failed are instead blinded for 1 round.</Description>
+    </Ability>
+    <Ability name="Terraforming Spell" level="16" page="141" cost="1">
+        <Traits>Concentrate, Earth, Metamagic, Sorcerer, Transmutation</Traits>
+        <Description>You capture transformative fragments of magic and slam them into the ground, creating a shock wave that alters your surroundings. If your next action is to Cast a non-cantrip transmutation Spell, either each space adjacent to you becomes difficult terrain, or each space adjacent to you is no longer difficult terrain. This doesn't have any effect on greater difficult terrain and doesn't remove the damaging effects of hazardous terrain.</Description>
+    </Ability>
+    <Ability name="Echoing Spell" level="18" page="141" cost="1">
+        <Traits>Concentrate, Metamagic, Sorcerer</Traits>
+        <Description>You time the components of your spell with exacting precision, setting up a resonance that duplicates the spell's effects. If your next action is to Cast a Spell of 4th level or lower that has no duration, the spell's energy reverberates and echoes. You can Cast the Spell a second time before the end of your next turn without expending a spell slot.</Description>
+    </Ability>
+    <Ability name="Bloodline Mutation" level="20" page="141">
+        <Traits>Sorcerer</Traits>
+        <Prerequisites>A Bloodline Based On A Specific Type Of Creature</Prerequisites>
+        <Description>You permanently mutate to become more like the creatures of your bloodline. You gain the appropriate trait or traits for those types of creatures (aberration for aberrant, angel and celestial for angelic, psychopomp and monitor for psychopomp, and so on). You gain low-light vision or darkvision, if one is appropriate for creatures with those traits. Choose one of the following. If the creatures associated with your bloodline have the ability to fly, you gain a fly Speed equal to your land Speed. If the creatures associated with your bloodline are aquatic or amphibious, you become amphibious, able to breathe water and air equally well, and you gain a swim Speed equal to your Speed. If creatures associated with your bloodline have a resistance or immunity to acid, cold, electricity, fire, negative, or sonic, choose an energy type your bloodline is immune or resistant to and gain resistance 20 against that energy type.</Description>
+    </Ability>
+
+</pf2:feats>

@@ -1,0 +1,157 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Ability name="Hymn of Healing" level="1" page="112">
+        <Traits>Bard</Traits>
+        <Description>You learn the hymn of healing composition spell, which imbues your music with rich melodies that help your allies recover from harm.</Description>
+    </Ability>
+    <Ability name="Martial Performance" level="1" page="112">
+        <Traits>Bard</Traits>
+        <Prerequisites>Warrior Muse</Prerequisites>
+        <Description>Your muse has taught you how to handle a wider variety of weapons than most bards, empowering you to effortlessly blend your performance into combat even with the most inelegant tools. You become trained with all martial weapons. If you gain the bard weapon expertise class feature, your proficiency rank with martial weapons increases to expert.</Description>
+    </Ability>
+    <Ability name="Well-Versed" level="1" page="112">
+        <Traits>Bard</Traits>
+        <Description>You're resilient to performative influences that aren't your own. You gain a +1 circumstance bonus to saving throws against effects with the auditory, illusion, linguistic, sonic, or visual traits.Well-Versed Leads To...Educate Allies</Description>
+    </Ability>
+    <Ability name="Directed Audience" level="2" page="112">
+        <Traits>Bard</Traits>
+        <Description>You can shape the area of your composition spells. Whenever you cast a composition spell whose area is an emanation, you can change the spell's area to a cone 10 feet larger, to a maximum of twice the original area. For example, you could modify a composition spell that affects a 30-foot emanation to affect a 40-foot cone, but a 5-foot emanation could only become a 10-foot cone.</Description>
+    </Ability>
+    <Ability name="Song of Strength" level="2" page="112">
+        <Traits>Bard</Traits>
+        <Prerequisites>Warrior Muse</Prerequisites>
+        <Description>Your performances inspire strength in your allies. You learn the song of strength composition cantrip.</Description>
+    </Ability>
+    <Ability name="Combat Reading" level="4" page="112" cost="1">
+        <Traits>Bard, Secret</Traits>
+        <Description>You use a performer's cold reading techniques, aura reading, and other tricks to discover your foe's strengths and weaknesses. The GM rolls a secret Occultism check for you against the Deception or Stealth DC (whichever is higher) of an enemy of your choice who is engaged in combat and isn't concealed from you, hidden from you, or undetected by you. The GM might apply a penalty for the distance between you and the enemy. The enemy is then temporarily immune to your Combat Reading for 1 day.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The GM chooses and tells you two of the following pieces of information about the enemy: which of the enemy's weaknesses is highest, which of the enemy's saving throws has the lowest modifier, one immunity the enemy has, or which of the enemy's resistances is highest. In the event of a tie, the GM should pick one at random.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The GM chooses one piece of information from the above list to tell you about the enemy.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The GM gives you false information (the GM makes up the information).</Description>
+    </Ability>
+    <Ability name="Courageous Advance" level="4" page="112" cost="1">
+        <Traits>Auditory, Bard, Concentrate, Metamagic</Traits>
+        <Prerequisites>Warrior Muse</Prerequisites>
+        <Description>With a rousing call, you exhort an ally to advance. If your next action is to cast the inspire courage composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to Stride.Courageous Advance Leads To...Courageous Onslaught</Description>
+    </Ability>
+    <Ability name="Ritual Researcher" level="4" page="112">
+        <Traits>Bard</Traits>
+        <Prerequisites>Enigma Muse, Expert In Occultism</Prerequisites>
+        <Description>Careful research into the art of rituals has made you better at performing them. You gain a +2 circumstance bonus to all primary and secondary checks you attempt as part of casting a ritual.</Description>
+    </Ability>
+    <Ability name="Assured Knowledge" level="6" page="113">
+        <Traits>Bard</Traits>
+        <Prerequisites>Enigma Muse</Prerequisites>
+        <Description>You can procure information with confidence. Whenever you Recall Knowledge using any skill (including Bardic Lore), you can forgo rolling your check to instead receive a result of 10 + your proficiency bonus (don't apply any other bonuses, penalties, or modifiers). As long as you are an expert in a skill, you meet the prerequisites for the Automatic Knowledge skill feat in that skill, even if you don't have Assurance in that skill.</Description>
+    </Ability>
+    <Ability name="Defensive Coordination" level="6" page="113" cost="1">
+        <Traits>Auditory, Bard, Concentrate, Metamagic</Traits>
+        <Prerequisites>Warrior Muse, Inspire Defense</Prerequisites>
+        <Description>Like the storied heroes who persist in the face of overwhelming odds, you and your allies will hold the line. If your next action is to cast the inspire defense composition cantrip, you can Raise a Shield, and one ally who gains a status bonus from the spell can immediately use a reaction to Raise a Shield.</Description>
+    </Ability>
+    <Ability name="Educate Allies" level="6" page="113" cost="Reaction">
+        <Traits>Abjuration, Bard, Concentrate</Traits>
+        <Prerequisites>Well-versed</Prerequisites>
+        <Trigger>An ally benefiting from one of your composition spells is subject to an effect with the auditory, illusion, linguistic, sonic, or visual trait.</Trigger>
+        <Description>You tweak the properties of your composition spell to convey a bit of your defensive knowledge. All allies affected by your composition spell gain your +1 circumstance bonus from Well-Versed until the start of your next turn. Teaching your allies also bolsters your own skills; your personal circumstance bonus from Well-Versed also increases to +2 until the start of your next turn.</Description>
+    </Ability>
+    <Ability name="Song of Marching" level="6" page="113">
+        <Traits>Bard</Traits>
+        <Description>You learn the song of marching composition cantrip, which enables you and your allies to cross vast distances without strain.</Description>
+    </Ability>
+    <Ability name="Accompany" level="8" page="113" cost="Reaction">
+        <Traits>Bard, Concentrate, Manipulate</Traits>
+        <Trigger>An ally within 30 feet Casts a Spell.</Trigger>
+        <Description>You use your performances to supplement an ally's spellcasting, providing magical energy for their spells. Attempt a Performance check, using a very high DC for the ally's level, and either spend a Focus Point (if the triggering spell is a focus spell) or expend a spell slot at least 1 level higher than the triggering spell. If you succeed at the Performance check, your ally's spell doesn't cost the Focus Point or spell slot.</Description>
+    </Ability>
+    <Ability name="Call and Response" level="8" page="113" cost="1">
+        <Traits>Auditory, Bard, Concentrate, Metamagic</Traits>
+        <Description>Your composition takes the form of a call-and-response chant, which lets your allies continue the effect without you. If your next action is to cast a composition cantrip with a duration of 1 round, it becomes a call. While the spell is active, one ally affected by the spell can respond to your call as a single action that has the auditory and concentrate traits to extend the spell's duration by 1 round. Only one ally can respond to a given call, and responding to the ally's response has no additional effect.</Description>
+    </Ability>
+    <Ability name="Courageous Opportunity" level="8" page="113" cost="Reaction">
+        <Traits>Auditory, Bard, Concentrate</Traits>
+        <Prerequisites>Warrior Muse</Prerequisites>
+        <Trigger>A creature within your reach uses an auditory effect, manipulate action, or move action, makes a ranged attack, or leaves a square during its move action.</Trigger>
+        <Requirements>You are affected by inspire courage.</Requirements>
+        <Description>You bellow a ferocious call to arms, inspiring yourself to lash out at a foe. Make a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the action is disrupted.</Description>
+    </Ability>
+    <Ability name="Soulsight" level="8" page="113">
+        <Traits>Bard, Sorcerer</Traits>
+        <Description>Your muse has opened your senses to the world beyond. You gain spiritsense as an imprecise sense with a range of 60 feet. Spiritsense enables you to sense the spirits of creatures, including living creatures, most non-mindless undead, and haunts within the listed range. As with your hearing and other imprecise senses, you still need to Seek to locate an undetected creature. As spiritsense detects spiritual essence, not physical bodies, it can detect spirits projected by spells such as project image or possessing otherwise soulless objects. It can't detect soulless bodies, constructs, or objects, and like most senses, it doesn't penetrate through solid objects.</Description>
+    </Ability>
+    <Ability name="Annotate Composition" level="10" page="113">
+        <Traits>Bard, Exploration, Linguistic</Traits>
+        <Description>By putting composition to paper, you can create a source of stirring words or song that others can read and understand. You spend 10 minutes and 1 Focus Point to transpose a composition spell on a special scroll that you or another creature can later activate. This composition spell must take a single action to cast. If the chosen composition spell requires a Performance check as part of the casting, the GM rolls this check as a secret check when you annotate your score. If you have inspire heroics or lingering composition and the chosen composition spell allows, you can also use one of those spells to modify the annotated composition, with the GM rolling the secret Performance check. If you do, you spend an additional Focus Point, even if the secret check fails.&lt;br&gt;&lt;br&gt; Any creature that can read the language you used when annotating your composition can Activate the Item by spending a single action, which has the concentrate trait. This produces the effects of the composition as though the activating creature had Cast the Spell.&lt;br&gt;&lt;br&gt; A composition you create this way loses its power the next time you make your daily preparations. While the composition is in your possession, you can render it inert using a single action that has the concentrate trait. You can't regain the Focus Points you spent to create the annotated composition until it is activated or loses its magic.</Description>
+    </Ability>
+    <Ability name="Courageous Assault" level="10" page="114" cost="1">
+        <Traits>Auditory, Bard, Concentrate, Metamagic</Traits>
+        <Prerequisites>Warrior Muse</Prerequisites>
+        <Description>With a mighty shout, you can stir an ally to attack. If your next action is to cast the inspire courage composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to make a melee Strike.Courageous Assault Leads To...Courageous Onslaught, Shared Assault</Description>
+    </Ability>
+    <Ability name="Ode to Ouroboros" level="10" page="114">
+        <Traits>Bard</Traits>
+        <Description>You learn the ode to ouroboros composition spell, which enables you to temporarily spare your allies from death.</Description>
+    </Ability>
+    <Ability name="Symphony of the Unfettered Heart" level="10" page="114">
+        <Traits>Bard</Traits>
+        <Description>You learn the symphony of the unfettered heart composition spell, which enables you to protect an ally against incapacitating conditions.</Description>
+    </Ability>
+    <Ability name="Enigma's Knowledge" level="12" page="114">
+        <Traits>Bard</Traits>
+        <Prerequisites>Assured Knowledge</Prerequisites>
+        <Description>Your muse whispers knowledge to you at all the right times. You gain the benefits of the Automatic Knowledge skill feat with any skill you can use to Recall Knowledge. As per the special clause in the Automatic Knowledge feat, you can still only use Automatic Knowledge once per round.</Description>
+    </Ability>
+    <Ability name="Reverberate" level="12" page="114" cost="Reaction">
+        <Traits>Bard</Traits>
+        <Trigger>You would take sonic damage from a spell.</Trigger>
+        <Description>You can manipulate the acoustics around you to deflect sonic damage back at its source. Attempt a Performance check against the spell DC of the creature that cast the triggering spell.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; You reduce the triggering damage by an amount up to four times your level. The caster takes sonic damage equal to the amount of damage you reduced in this way.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; As critical success, but you reduce the triggering damage by an amount up to twice your level.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You misdirect the sonic waves at yourself, taking twice the triggering damage.</Description>
+    </Ability>
+    <Ability name="Shared Assault" level="12" page="114">
+        <Traits>Bard</Traits>
+        <Prerequisites>Courageous Assault</Prerequisites>
+        <Description>In the triumph of battle, you can share the glory with another ally. When the ally you chose for Courageous Assault critically succeeds at the Strike granted by that action, another ally affected by your inspire courage composition spell can immediately use a reaction to make a melee Strike. Since the second ally wasn't the ally you chose for Courageous Assault, this effect doesn't continue to a third ally, even if the second ally also critically succeeds at their Strike.</Description>
+    </Ability>
+    <Ability name="Earworm" level="14" page="114">
+        <Traits>Bard, Exploration</Traits>
+        <Description>By endlessly repeating a motif, you implant an earworm, a memorable song that repeats over and over again in your allies' heads, preparing them to respond to it later. Choose a composition cantrip and spend 10 minutes repeating a melody, chant, speech, series of motions, or a similar performance that embodies that cantrip. This activity gains the traits appropriate to the type of performance. You implant the earworm within all allies who can see or hear you (as appropriate for the type of performance) for the entire activity.&lt;br&gt;&lt;br&gt; Once you've created the earworm, you can attempt a Performance check as a free action to activate it. This check uses a very hard DC of a level equal to that of the highest-level target of the earworm present at the time of activation. On a success, you cast the cantrip on all allies who learned the earworm and can perceive your performance; on a failure, the earworm is corrupted and lost. Because it is based on the earlier repetitions, you can't use further free actions like lingering composition or inspire heroics to modify the activated earworm. Allies forget the earworm after it is activated, if you spend 10 minutes to implant another earworm, or during your next daily preparations, whichever comes first.</Description>
+    </Ability>
+    <Ability name="Triumphant Inspiration" level="14" page="114" cost="Free">
+        <Traits>Bard</Traits>
+        <Prerequisites>Warrior Muse</Prerequisites>
+        <Trigger>You critically hit a foe with a melee weapon Strike or a melee unarmed attack.</Trigger>
+        <Description>With a triumphant shout, you inspire your allies. You cast a composition cantrip you know that normally takes a single action to cast.</Description>
+    </Ability>
+    <Ability name="Vigorous Inspiration" level="14" page="115" cost="1">
+        <Traits>Auditory, Bard, Concentrate, Metamagic</Traits>
+        <Description>You instill magical vigor in your allies when you inspire them to attack. If your next action is to cast the inspire courage composition cantrip, you and all affected allies gain temporary Hit Points equal to 3 + your Charisma modifier that last for 1 minute.</Description>
+    </Ability>
+    <Ability name="Courageous Onslaught" level="16" page="115" cost="1">
+        <Traits>Auditory, Bard, Concentrate, Metamagic</Traits>
+        <Prerequisites>Courageous Advance, Courageous Assault</Prerequisites>
+        <Description>You use your performance to orchestrate an onslaught against your enemies. If your next action is to cast the inspire courage composition cantrip, one ally who gains a status bonus from the spell can immediately use a reaction to Stride and then make a melee Strike.</Description>
+    </Ability>
+    <Ability name="Resounding Finale" level="16" page="115" cost="Reaction">
+        <Traits>Abjuration, Bard, Concentrate</Traits>
+        <Prerequisites>Maestro Muse</Prerequisites>
+        <Trigger>You or an ally benefiting from your composition spell would take sonic damage.</Trigger>
+        <Description>You bring your performance to a sudden, dramatic finish, drowning out other sounds. Your composition spell ends immediately, and all allies that had been benefiting from the spell's effects gain sonic resistance against the triggering damage equal to twice the composition spell's level.</Description>
+    </Ability>
+    <Ability name="All in my Head" level="18" page="115" cost="Reaction">
+        <Traits>Bard, Illusion, Mental</Traits>
+        <Trigger>You would take damage from a Strike or spell that doesn't have the death trait or otherwise cause instant death (such as disintegrate).</Trigger>
+        <Description>Using your occult connections and incredible powers of persuasion, you convince yourself that the triggering damage is a figment of your imagination. The damage changes from its usual damage type to mental damage, and the damaging effect gains the nonlethal trait. You can't use this reaction if you are immune to mental effects or mental damage.</Description>
+    </Ability>
+    <Ability name="Discordant Voice" level="18" page="115">
+        <Traits>Bard, Evocation, Sonic</Traits>
+        <Prerequisites>Inspire Courage</Prerequisites>
+        <Description>Your inspire courage lets loose a discordant shriek that imbues your allies' attacks with powerful sonic reverberations. While your allies are affected by your inspire courage, their weapon Strikes and unarmed attacks deal an additional 1d6 sonic damage.</Description>
+    </Ability>
+    <Ability name="Pied Piping" level="20" page="115">
+        <Traits>Bard</Traits>
+        <Description>You learn the pied piping composition spell, which enables you to control the actions of weak-minded individuals.</Description>
+    </Ability>
+    <Ability name="Ultimate Polymath" level="20" page="115">
+        <Traits>Bard</Traits>
+        <Prerequisites>Polymath Muse</Prerequisites>
+        <Description>You can flexibly cast all of your spells, granting a dizzying array of possible options. All of the spells in your repertoire are signature spells for you.</Description>
+    </Ability>
+</pf2:feats>

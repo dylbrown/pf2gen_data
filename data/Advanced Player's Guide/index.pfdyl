@@ -29,6 +29,7 @@
         <Category name="General" path="feats/general.pfdyl" />
         <Category name="Skill" path="feats/skill.pfdyl" />
         <Category name="Ancestry" path="ancestries/versatile_heritages.pfdyl" />
+        <Category name="Monk" path="classes/Monk_feats.pfdyl" type="Class" />
     </Feats>
     <Spells>
         <Category name="Focus Spells" path="spells/focus_spells.pfdyl" />
