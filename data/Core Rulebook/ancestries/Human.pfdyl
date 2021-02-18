@@ -13,10 +13,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <Feats>
 		<!--Heritages-->
         <Ability name="Half-Elf" type="Heritage">
+            <GivesTraits>Elf, Half-Elf</GivesTraits>
             <Description>Either one of your parents was an elf, or one or both were half-elves. You have pointed ears and other telltale signs of elf heritage. You gain the elf trait and low-light vision. In addition, you can select elf, half-elf, and human feats whenever you gain an ancestry feat.</Description>
             <!--TODO: Support this-->
         </Ability>
         <Ability name="Half-Orc" type="Heritage">
+            <GivesTraits>Orc, Half-Orc</GivesTraits>
             <Description>One of your parents was an orc, or one or both were half-orcs. You have a green tinge to your skin and other indicators of orc heritage. You gain the orc trait and low-light vision. In addition, you can select orc, half-orc, and human feats whenever you gain an ancestry feat. </Description>
             <!--TODO: Support this-->
         </Ability>
@@ -93,82 +95,27 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<!--Half-Elf Specific Ancestry Feats-->
 		<Ability name="Elf Atavism" level="1">
-			<Prerequisites>Half-Elf</Prerequisites>
+			<Traits>Half-Elf</Traits>
             <!--TODO: Support this-->
 			<Description>Your elven blood runs particularly strong, granting you features far more elven than those of a typical half-elf. You may also have been raised among elves, steeped in your elven ancestors' heritage. You gain the benefits of the elf heritage of your elven parent or ancestors. You typically can't select a heritage that depends on or improves an elven feature you don't have. For example, you couldn't gain the cavern elf's darkvision ability if you didn't have low-light vision. In these cases, at the GM's discretion, you might gain a different benefit.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</Description>
         </Ability>
 		<Ability name="Inspire Imitation" level="5">
-			<Prerequisites>Half-Elf</Prerequisites>
+            <Traits>Half-Elf</Traits>
 			<Description>Your own actions inspire your allies to great achievements. Whenever you critically succeed at a skill check, you automatically qualify to use the Aid reaction when attempting to help an ally using the same skill, even without spending an action to prepare to do so. </Description>
         </Ability>
 		<Ability name="Supernatural Charm" level="5">
-			<Prerequisites>Half-Elf</Prerequisites>
+            <Traits>Half-Elf</Traits>
 			<Description>The elven magic in your blood manifests as a force you can use to become more appealing or alluring. You can cast 1st-level charm as an arcane innate spell once per day. </Description>
             <Spell type="Focus" name="Charm"/>
         </Ability>
 		<!--Half-Orc Specific Ancestry Feats-->
 		<Ability name="Monstrous Peacemaker" level="1">
-			<Prerequisites>Half-Orc</Prerequisites>
+            <Traits>Half-Orc</Traits>
 			<Description>Your dual human and orc nature has given you a unique perspective, allowing you to bridge the gap between humans and the many intelligent creatures in the world that humans consider monsters. You gain a +1 circumstance bonus to Diplomacy checks against non-humanoid intelligent creatures and against humanoids that are marginalized in human society (at the GM's discretion, but typically at least including giants, goblins, kobolds, and orcs). You also gain this bonus on Perception checks to Sense the Motives of such creatures. </Description>
         </Ability>
-		<Ability name="Orc Ferocity" level="1" cost="Reaction">
-			<Prerequisites>Half-Orc</Prerequisites>
-			<Trigger>You would be reduced to 0 Hit Points but not immediately killed.</Trigger>
-			<Frequency>1/Day</Frequency>
-			<Description>Fierceness in battle runs through your blood, and you refuse to fall from your injuries. You avoid being knocked out and remain at 1 Hit Point, and your wounded condition increases by 1.</Description>
-        </Ability>
-		<Ability name="Orc Sight" level="1" >
-			<Prerequisites>Half-Orc</Prerequisites>
-			<Description>Your orc blood is strong enough to grant you the keen vision of your orc forebears. You gain darkvision, allowing you to see in darkness and dim light just as well as you can in bright light. However, in darkness, you see in black and white only.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</Description>
-            <!--TODO: Support this-->
-        </Ability>
-		<Ability name="Orc Superstition" level="1" cost="Reaction">
-			<Prerequisites>Half-Orc</Prerequisites>
-			<Trigger>You attempt a saving throw against a spell or magical effect, before rolling.</Trigger>
-			<Description>You defend yourself against magic by relying on techniques derived from orc cultural superstitions. You gain a +1 circumstance bonus to your saving throw against the triggering spell or magical effect. </Description>
-        </Ability>
-		<Ability name="Orc Weapon Familiarity" level="1" >
-			<Prerequisites>Half-Orc</Prerequisites>
-			<Description>In combat, you favor the brutal weapons that are traditional for your orc ancestors. You are trained with the falchion and greataxe. In addition, you gain access to all uncommon orc weapons.&lt;br&gt;&lt;br&gt;For you, martial orc weapons are simple weapons, and advanced orc weapons are martial weapons. </Description>
-            <CustomMod>
-                import model.items.weapons.Weapon;
-                import model.enums.Trait;
-                import model.enums.WeaponProficiency;
-                weaponProficiency("falchion", "Trained");
-                weaponProficiency("greataxe", "Trained");
-                weaponProficiencyTranslator({item,proficiency -> {
-                    def weapon = item.getExtension(Weapon.class);
-                    if(item.getTraits().contains(get("sources.traits").find("Orc"))) {
-                        if(proficiency == WeaponProficiency.Martial) {
-                            proficiency = WeaponProficiency.Simple;
-                        } else if(proficiency == WeaponProficiency.Advanced) {
-                            proficiency = WeaponProficiency.Martial;
-                        }
-                    }
-                    return proficiency;
-                }});
-            </CustomMod>
-        </Ability>
-		<Ability name="Orc Weapon Carnage" level="5" >
-			<Prerequisites>Orc Weapon Familiarity, Half-Orc</Prerequisites>
-			<Description>You are brutally efficient with the weapons of your orc ancestors. Whenever you critically hit using a falchion, a greataxe, or an orc weapon, you apply the weapon's critical specialization effect. </Description>
-        </Ability>
-		<Ability name="Victorious Vigor" level="5" cost="Free">
-			<Prerequisites>Half-Orc</Prerequisites>
-			<Trigger>You bring a foe to 0 Hit Points.</Trigger>
-			<Description>Your victories in battle fill you with pride and imbue you with the energy to fight a bit longer despite your wounds. You gain temporary Hit Points equal to your Constitution modifier until the end of your next turn. </Description>
-        </Ability>
-		<Ability name="Pervasive Superstition" level="9">
-			<Prerequisites>Orc Superstition, Half-Orc</Prerequisites>
-			<Description>You steep yourself in superstition and practice ancient orc mental exercises for shrugging off the effects of magic. You gain a +1 circumstance bonus to saving throws against spells and magical effects at all times. </Description>
-        </Ability>
-		<Ability name="Incredible Ferocity" level="13">
-			<Prerequisites>Orc Ferocity, Half-Orc</Prerequisites>
-            <Description>Given time to collect yourself after a near-death scrape, you can rebuild your ferocity and withstand additional finishing blows. You can use Orc Ferocity with a frequency of once per hour, rather than once per day.</Description>
-        </Ability>
-		<Ability name="Orc Weapon Expertise" level="13">
-			<Prerequisites>Weapon Familiarity (Orc), Half-Orc</Prerequisites>
-            <Description>You've continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for Unconventional Weaponry. </Description>
+        <Ability name="Orc Sight" level="1" >
+            <Traits>Half-Orc</Traits>
+            <Description>Your orc blood is strong enough to grant you the keen vision of your orc forebears. You gain darkvision, allowing you to see in darkness and dim light just as well as you can in bright light. However, in darkness, you see in black and white only.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</Description>
             <!--TODO: Support this-->
         </Ability>
 	</Feats>

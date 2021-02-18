@@ -56,6 +56,7 @@
     <Armor name="Armor" path="equipment/armor_and_shields.pfdyl" />
     <Weapons name="Weapons" path="equipment/weapons.pfdyl" />
     <Feats>
+        <Category name="Ancestry" path="feats/ancestry.pfdyl" />
         <Category name="Archetype" path="feats/archetypes.pfdyl" />
         <Category name="Bloodline" path="feats/bloodline.pfdyl" />
         <Category name="ClassFeature" path="feats/base_class.pfdyl" />

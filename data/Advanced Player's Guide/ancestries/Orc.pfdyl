@@ -1,0 +1,93 @@
+<?xml version = "1.0"?>
+<pf2:ancestry xmlns:pf2="https://dylbrown.github.io"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/ancestry.xsd">
+    <Name>Orc</Name>
+    <HP>10</HP>
+    <Size>Medium</Size>
+    <Speed>25</Speed>
+    <AbilityBonuses>Strength, Free</AbilityBonuses>
+    <Languages>Common, Orcish</Languages>
+    <BonusLanguages>Goblin, Jotun, Terran, Undercommon</BonusLanguages>
+    <Senses>Darkvision, Low-light Vision</Senses>
+    <Description>Orcs are forged in the fires of violence and conflict, often from the moment they are born. As they live lives that are frequently cut brutally short, orcs revel in testing their strength against worthy foes, whether by challenging a higher-ranking member of their community for dominance or raiding a neighboring settlement. Many orcs seek glory as soon as they can walk and carry a blade or club, taming wild beasts or hunting deadly monsters.</Description>
+    <Feats>
+        <!--Heritages-->
+        <Ability name="Badlands Orc" level="1" page="18" type="Heritage">
+            <Traits>Orc</Traits>
+            <Description>You come from sun-scorched badlands, where long legs and an ability to withstand the elements helped you thrive. You can Hustle twice as long while exploring before you have to stop, and you treat environmental heat effects as if they were one step less extreme (incredible heat becomes extreme, extreme heat becomes severe, and so on).</Description>
+        </Ability>
+        <Ability name="Deep Orc" level="1" page="18" type="Heritage">
+            <Traits>Orc</Traits>
+            <Description>Your calloused hands and red eyes speak to a life spent in the deep darkness of mountain caverns, where you learned to battle on rocky cliffs and survive with minimal resources. You gain the Terrain Expertise skill feat for underground terrain and the Combat Climber skill feat.</Description>
+            <AbilitySlot state="filled" name="Terrain Expertise (Orc)" type="Skill Feat" contents="Terrain Expertise" />
+            <AbilitySlot state="filled" name="Combat Climber (Orc)" type="Skill Feat" contents="Combat Climber" />
+        </Ability>
+        <Ability name="Hold-Scarred Orc" level="1" page="18" type="Heritage">
+            <Traits>Orc</Traits>
+            <Description>You are part of an orc community that participates in ritual scarification or tattooing. The marks on your skin show your exceptional hardiness and vitality. You gain 12 Hit Points from your ancestry instead of 10. You also gain the Diehard feat.</Description>
+            <AbilitySlot state="filled" name="Diehard (Orc)" type="General Feat" contents="Diehard" />
+            <CustomMod>
+                bonus("hp", 2);
+            </CustomMod>
+        </Ability>
+        <Ability name="Rainfall Orc" level="1" page="18" type="Heritage">
+            <Traits>Orc</Traits>
+            <Description>You were born in a rain forest with only tangles of trees providing protection from torrential rainstorms and flash floods. You've learned to move adeptly through jungle terrain and resist the various ailments common in humid environs. You gain a +2 circumstance bonus to Athletics checks to Climb or Swim and a +1 circumstance bonus to saving throws against diseases.</Description>
+        </Ability>
+        <!--Regular Feats-->
+        <Ability name="Beast Trainer" level="1" page="18">
+            <Traits>Orc</Traits>
+            <Description>You have an impressive innate ability to tame and command ferocious beasts. You become trained in the Nature skill and gain the Train Animal skill feat.</Description>
+        </Ability>
+        <Ability name="Iron Fists" level="1" page="18">
+            <Traits>Orc</Traits>
+            <Description>Your fists have been forged by battle, your naturally tough skin and dense bone further hardened by conflict. Your fist unarmed attacks no longer have the nonlethal trait and gain the shove weapon trait.</Description>
+        </Ability>
+        <Ability name="Orc Lore" level="1" page="18">
+            <Traits>Orc</Traits>
+            <Description>The hold elders taught you your people's histories, told tales of great athletic feats, and shared with you the hardships your ancestors endured so that you can pass this wisdom down to future generations. You become trained in Athletics and Survival. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Orc Lore.</Description>
+        </Ability>
+        <Ability name="Tusks" level="1" page="18">
+            <Traits>Orc</Traits>
+            <Description>You have particularly long, jagged tusks perfect for tearing meat from bone. You gain a tusks unarmed attack that deals 1d6 piercing damage. Your tusks are in the brawling group and have the finesse and unarmed traits.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat only at 1st level, and you can't retrain into this feat. You can retrain out of this feat only through drastic measures such as breaking or filing your tusks.</Description>
+        </Ability>
+        <Ability name="Athletic Might" level="5" page="18">
+            <Traits>Orc</Traits>
+            <Description>Surviving in hostile terrain has given you a great talent for mobility. Whenever you roll a success on an Athletics check to Climb or Swim, you get a critical success instead.</Description>
+        </Ability>
+        <Ability name="Bloody Blows" level="5" page="18">
+            <Traits>Orc</Traits>
+            <Description>Your lethal unarmed attacks leave bloody gouges or cause severe internal bleeding. When you critically hit with a Strike using an unarmed attack that isn't nonlethal, the target takes 1d4 persistent bleed damage. This can be because you're taking the penalty to use a fist for a lethal attack or because you have an unarmed attack without the nonlethal trait due to Iron Fists, Tusks, or a similar ability.</Description>
+        </Ability>
+        <Ability name="Hold Mark" level="5" page="18">
+            <Traits>Orc</Traits>
+            <Description>You bear scars or tattoos enhanced by the mark of your community's prowess. When you select this feat, choose one of the options on the following page. When you critically hit using a weapon of the listed group, you apply the weapon's critical specialization effect. You gain a large brand or tattoo in the shape of the chosen emblem or a similar image (for example, the axe could be a bear or other symbol of ferocious strength, while the shield might be a turtle or another symbol associated with a strong defense) and gain the listed benefit. Axe axe or pick Shield hammer or shield Torch bomb or knife </Description>
+        </Ability>
+        <Ability name="Death's Drums" level="9" page="19">
+            <Traits>Orc</Traits>
+            <Description>Your life has been spent challenging death itself, and proximity to that implacable foe only makes your heart beat harder. When you are taking persistent damage or your wounded value is 1 or greater, you gain a +2 circumstance bonus to Fortitude saving throws.</Description>
+        </Ability>
+        <Ability name="Undying Ferocity" level="9" page="19">
+            <Traits>Orc</Traits>
+            <Prerequisites>Orc Ferocity</Prerequisites>
+            <Description>You resist death's clutches with supernatural vigor. When you use Orc Ferocity, you gain temporary Hit Points equal to your level.</Description>
+        </Ability>
+        <Ability name="Ferocious Beasts" level="13" page="19">
+            <Traits>Orc</Traits>
+            <Prerequisites>Beast Trainer Or Animal Companion, Orc Ferocity</Prerequisites>
+            <Description>Since ancient times, the mightiest orc beast tamers would draw out the true fighting spirit of their companion beasts by feeding the creatures a draft incorporating the orc's own blood. Animal companions or bonded animals you have gain the Orc Ferocity feat, and they gain a reaction they can use only for Orc Ferocity. If you have the Undying Ferocity ancestry feat, all animal companions or bonded animals you have also gain the benefits of that feat when using the Orc Ferocity reaction.</Description>
+        </Ability>
+        <Ability name="Spell Devourer" level="13" page="19">
+            <Traits>Orc</Traits>
+            <Prerequisites>Pervasive Superstition</Prerequisites>
+            <Description>You don't just resist magic; you devour it. Whenever you succeed at a saving throw against a spell or magical effect, you gain temporary Hit Points equal to double the spell's level, or equal to the level if the magical effect isn't a spell. These temporary Hit Points last until the end of your next turn.</Description>
+        </Ability>
+        <Ability name="Rampaging Ferocity" level="17" page="19" cost="Free">
+            <Traits>Orc</Traits>
+            <Prerequisites>Orc Ferocity</Prerequisites>
+            <Trigger>You use Orc Ferocity</Trigger>
+            <Description>You lash out viciously even as you fend off death. Make a single melee Strike. If this Strike brings a foe to 0 Hit Points, this activation of Orc Ferocity doesn't count against its frequency.</Description>
+        </Ability>
+    </Feats>
+</pf2:ancestry>

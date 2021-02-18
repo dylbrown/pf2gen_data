@@ -5,11 +5,11 @@
     <!--========Aasimar========-->
     <Ability name="Aasimar" level="1" type="Heritage">
         <Traits>Uncommon</Traits>
+        <GivesTraits>Aasimar</GivesTraits>
         <Description>You descend from celestials or were touched by the celestial realms, gaining an air of awe and grace, as well as features distinctive to your celestial forebears. You gain the aasimar trait, in addition to the traits from your ancestry. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can choose from aasimar feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
     </Ability>
     <Ability name="Angelkin" level="1" page="35">
         <Traits>Aasimar, Lineage</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <GivesPrerequisites>Aasimar Lineage</GivesPrerequisites>
         <Description>You descend from an angel—a winged messenger from Nirvana or one of the other celestial realms—which gives you a knack for cultures and languages. You gain the trained proficiency rank in Society. If you would automatically become trained in Society (from your background or class, for example), you instead become trained in a skill of your choice. You know the Celestial language, and you gain the Multilingual skill feat.</Description>
         <AbilitySlot state="filled" type="Skill Feat" name="Multilingual (Aasimar)" contents="Multilingual"/>
@@ -18,47 +18,39 @@
     </Ability>
     <Ability name="Celestial Eyes" level="1" page="35">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <Prerequisites>Low-light Vision</Prerequisites>
         <Description>You can see through darkness. You gain darkvision.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat only at 1st level, and you can't retrain into or out of this feat.</Description>
     </Ability>
     <Ability name="Celestial Lore" level="1" page="35">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <Description>You were raised with an aasimar or celestial relative, or you've devoted yourself to researching the secrets of the celestial realms. You gain the trained proficiency rank in Diplomacy and Religion. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in a Lore skill related to the celestial realm from which you trace your lineage (usually Elysium Lore, Heaven Lore, or Nirvana Lore).</Description>
         <AttributeMods Proficiency="Trained">Diplomacy, Religion</AttributeMods>
         <!--TODO: Lore Choice-->
     </Ability>
     <Ability name="Halo" level="1" page="35">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <Description>You are surrounded by a halo of light and goodness at all times. Your halo sheds light with the effects of a divine light cantrip. A cantrip is heightened to a spell level equal to half your level rounded up. You can suppress or reestablish the halo with a single action, which has the concentrate trait.</Description>
     </Ability>
     <Ability name="Lawbringer" level="1" page="35">
         <Traits>Aasimar, Lineage</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <GivesPrerequisites>Aasimar Lineage</GivesPrerequisites>
         <Description>You trace your lineage to archons: embodiments of heavenly virtues, guardians of the seven-tiered mountain of Heaven, and nurturers of law and virtue within mortals. Your own virtue and orderly mind protect you from foes who would turn your emotions against you. You gain a +1 circumstance bonus to saves against emotion effects, and if you roll a success on a save against an emotion effect, you get a critical success instead.</Description>
     </Ability>
     <Ability name="Musetouched" level="1" page="35">
         <Traits>Aasimar, Lineage</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <GivesPrerequisites>Aasimar Lineage</GivesPrerequisites>
         <Description>Your blood sings with the liberating power of the azatas, living embodiments of freedom from the wild realm of Elysium. You gain a +1 circumstance bonus to Escape. When you roll a critical failure on a check to Escape, you get a failure instead, and when you roll a success, you get a critical success instead.</Description>
     </Ability>
     <Ability name="Blessed Blood (Aasimar)" level="5" page="36">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <Description>Your freshly spilled blood is sanctified, and ingesting it causes effects similar to those of holy water. Whenever a fiend, undead, or creature with a weakness to good damage drinks your blood or deals piercing or slashing damage to you with jaws, fangs, or a similar attack, that creature takes 1d6 good damage. You gain a +4 circumstance bonus to Crafting checks to Craft holy water using your own blood as one of the ingredients.</Description>
     </Ability>
     <Ability name="Celestial Resistance" level="5" page="36">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <Description>Your growing connection to your celestial forebears has granted you one of their resistances as well. Choose one of the following energy damage types: acid, cold, electricity, fire, or sonic. You gain resistance 5 to that damage type. &lt;br&gt;&lt;br&gt;Though you can choose any of these energy damage types, the damage type typically matches a celestial associated with your bloodline. For instance, an angelkin might choose resistance to cold or fire with a cassisian forebear, resistance to fire with a balisse forebear, or resistance to sonic with a choral forebear.</Description>
     </Ability>
     <Ability name="Empyreal Blessing" level="5" page="36">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <Description>You can call forth a benediction upon your allies, whether you pray to a deity of the celestial realms or just find the power within yourself. You can cast bless once per day as a 1st-level divine innate spell.</Description>
         <Spellcasting listName="Aasimar" tradition="Divine" type="Spontaneous" ability="Cha" />
         <Spell type="Spell" name="Bless"/>
@@ -66,7 +58,6 @@
     </Ability>
     <Ability name="Angelic Magic" level="9" page="36">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Angelkin</Prerequisites>
         <Description>You can tap into the magic of angels that runs through your blood. You can cast humanoid form and remove fear each once per day as 2nd-level divine innate spells.</Description>
         <Spellcasting listName="Aasimar" tradition="Divine" type="Spontaneous" ability="Cha" />
         <Spell type="Spell" name="Humanoid Form"/>
@@ -75,7 +66,6 @@
     </Ability>
     <Ability name="Archon Magic" level="9" page="36">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Lawbringer</Prerequisites>
         <Description>You can tap into the heavenly magic that is your birthright. You can cast continual flame and shield other each once per day as 2nd-level divine innate spells.</Description>
         <Spellcasting listName="Aasimar" tradition="Divine" type="Spontaneous" ability="Cha" />
         <Spell type="Spell" name="Continual Flame"/>
@@ -84,7 +74,6 @@
     </Ability>
     <Ability name="Azata Magic" level="9" page="36">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Musetouched</Prerequisites>
         <Description>Your lineage traces back to the realm of Elysium, and you can harness its magic using this connection. You can cast glitterdust and remove paralysis each once per day as 2nd-level divine innate spells.</Description>
         <Spellcasting listName="Aasimar" tradition="Divine" type="Spontaneous" ability="Cha" />
         <Spell type="Spell" name="Glitterdust"/>
@@ -93,18 +82,15 @@
     </Ability>
     <Ability name="Celestial Wings" level="9" page="36" cost="2">
         <Traits>Aasimar, Divine, Morph, Transmutation</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <Frequency>once per day</Frequency>
         <Description>With effort, you can call forth magical wings from your back, similar in appearance to those of your celestial forebears. These wings remain for 10 minutes. You gain a fly Speed equal to your Speed while you've manifested your wings.</Description>
     </Ability>
     <Ability name="Divine Countermeasures" level="9" page="36">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <Description>You've studied your celestial heritage with the intent of better defending yourself, and you've found that your techniques are equally powerful against celestials, fiends, and other divine entities. You gain a +1 circumstance bonus to all saving throws against divine effects.</Description>
     </Ability>
     <Ability name="Aasimar's Mercy" level="13" page="36">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <Description>Your celestial powers allow you to remove lesser afflictions with ease. Each day, you can cast two 4th-level divine innate spells. You can choose from the following spells each time you cast: remove curse, remove disease, and neutralize poison.</Description>
         <Spellcasting listName="Aasimar" tradition="Divine" type="Spontaneous" ability="Cha" />
         <SpellSlots count="2" level="4" />
@@ -114,7 +100,6 @@
     </Ability>
     <Ability name="Celestial Strikes" level="13" page="36">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <Description>Your connection to good arms all your attacks against forces of evil. All your weapon and unarmed Strikes deal 1 additional good damage and have the good and magical traits.</Description>
         <!-- TODO: Implement this-->
     </Ability>
@@ -128,7 +113,6 @@
     </Ability>
     <Ability name="Celestial Word" level="17" page="36">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Aasimar</Prerequisites>
         <Description>You can call forth a holy word from the celestial realms to punish your foes. Once per day, you can cast divine decree as a 7th-level divine innate spell. You must choose good for the spell's alignment, and you can Cast the Spell regardless of whether you worship a deity or what their alignment is.</Description>
         <Spellcasting listName="Aasimar" tradition="Divine" type="Spontaneous" ability="Cha" />
         <Spell type="Spell" name="Divine Decree"/>
@@ -142,33 +126,29 @@
     <!--========Changeling========-->
     <Ability name="Changeling" level="1" type="Heritage">
         <Traits>Uncommon</Traits>
+        <GivesTraits>Changeling</GivesTraits>
         <Description>Tales of children stolen away and replaced by monsters exist across countless cultures— but the true monsters are the hag mothers of these strange children. After the hag seduces, uses, and disposes of their father, the changeling child is usually abandoned in their father’s community to be raised among them. Such a child faces no end of challenges, often beginning life as an orphaned outsider.</Description>
     </Ability>
     <Ability name="Brine May" level="1" page="31">
         <Traits>Changeling, Lineage</Traits>
-        <Prerequisites>Changeling</Prerequisites>
         <Description>Your mother was a sea hag, granting you one sea-green or blue eye. You find comfort both in the sea and on the shore. Whenever you roll a success on an Athletics check to Swim, you get a critical success instead. If you end your turn in water without having succeeded at a Swim action that round, you don't sink (but you might still be moved by the current).</Description>
     </Ability>
     <Ability name="Callow May" level="1" page="31">
         <Traits>Changeling, Lineage</Traits>
-        <Prerequisites>Changeling</Prerequisites>
         <Description>You are among the most common of changelings—those born to green hags—and a vibrant green eye signifies that parentage. Your mother's manipulative nature and versatile voice gives you an edge when deceiving others. You gain the Charming Liar skill feat. If you roll Deception for initiative, foes in that combat encounter that haven't acted yet are flat-footed against you.</Description>
         <AbilitySlot state="filled" name="Charming Liar (Changeling)" type="Skill Feat" contents="Charming Liar" />
     </Ability>
     <Ability name="Changeling Lore" level="1" page="31">
         <Traits>Changeling</Traits>
-        <Prerequisites>Changeling</Prerequisites>
         <Description>All too aware of your true nature, you’ve studied hags and their powers. You gain the trained proficiency rank in Deception and Occultism. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Hag Lore.</Description>
         <AttributeMods Proficiency="Trained">Deception, Occultism, Lore(Hag)</AttributeMods>
     </Ability>
     <Ability name="Dream May" level="1" page="31">
         <Traits>Changeling, Lineage</Traits>
-        <Prerequisites>Changeling</Prerequisites>
         <Description>You are the child of a night hag, making one of your eyes violet or even black. Your mother's powers over sleep and dreams have given you a degree of resistance to those effects, granting you a +2 circumstance bonus to all saving throws against sleep effects and effects that cause or alter dreams.&lt;br&gt;&lt;br&gt; In addition, sleep is more restorative for you. You regain HP equal to your Constitution modifier times double your level instead of just times your level, and you reduce any drained and doomed conditions you have by 2 instead of by 1.</Description>
     </Ability>
     <Ability name="Hag Claws" level="1" page="31">
         <Traits>Changeling</Traits>
-        <Prerequisites>Changeling</Prerequisites>
         <GivesPrerequisites>Claw Unarmed Attack</GivesPrerequisites>
         <Description>When you came of age, your fingernails grew long and sharp. You gain a claw unarmed attack that deals 1d4 slashing damage. Your claws are in the brawling group and have the agile, finesse, and unarmed traits.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; claws can develop at any point in a changeling's life, allowing you to select this feat anytime you would gain an ancestry feat, but once you've selected it, you can't retrain out of it.</Description>
         <Weapon>
@@ -180,12 +160,10 @@
     </Ability>
     <Ability name="Hag's Sight" level="1" page="31">
         <Traits>Changeling</Traits>
-        <Prerequisites>Changeling</Prerequisites>
         <Description>You've nurtured the supernatural abilities gifted by your hag mother, particularly your sight. You gain darkvision.</Description>
     </Ability>
     <Ability name="Slag May" level="1" page="31">
         <Traits>Changeling, Lineage</Traits>
-        <Prerequisites>Changeling</Prerequisites>
         <GivesPrerequisites>Claw Unarmed Attack</GivesPrerequisites>
         <Description>Your mother was an annis hag, known for physical prowess, and you have one violet or steel-gray eye. You have thick, sturdy claws made of cold iron that grow naturally from your body. You gain a claw unarmed attack that deals 1d6 slashing damage. Your claws are in the brawling group, have the unarmed and grapple traits, and are cold iron.</Description>
         <Weapon>
@@ -197,45 +175,40 @@
     </Ability>
     <Ability name="Called" level="5" page="31">
         <Traits>Changeling</Traits>
-        <Prerequisites>Changeling</Prerequisites>
         <Description>You have heard the Call, and in constantly resisting that persistent demand, you've developed a mental bulwark against effects that would target your mind. You gain a +1 circumstance bonus to Will saving throws against mental effects. If you roll a success on your saving throw against a mental effect that would make you controlled, you get a critical success instead.</Description>
     </Ability>
     <Ability name="Mist Child" level="5" page="31">
         <Traits>Changeling</Traits>
-        <Prerequisites>Changeling</Prerequisites>
         <Description>You blend in with unnatural subtlety. When you are concealed or hidden, increase the DC of the flat check to target you to 6 if you're concealed or 12 if you're hidden.</Description>
     </Ability>
     <Ability name="Accursed Claws" level="9" page="31">
         <Traits>Changeling</Traits>
-        <Prerequisites>Changeling</Prerequisites>
         <PrereqStrings>Claw Unarmed Attack</PrereqStrings>
         <Description>Your claws carry your mother's hag magic. When you critically hit with a claw Strike, the target takes an additional 1d4 persistent mental damage.</Description>
     </Ability>
     <Ability name="Occult Resistance" level="9" page="31">
         <Traits>Changeling</Traits>
-        <Prerequisites>Changeling, Expert In Occultism</Prerequisites>
+        <Prerequisites>Expert In Occultism</Prerequisites>
         <Description>Your study of occult practices has shown you how to best defend against them. You gain a +1 circumstance bonus to all saving throws against occult effects.</Description>
     </Ability>
     <Ability name="Hag Magic" level="13" page="31">
         <Traits>Changeling</Traits>
-        <Prerequisites>Changeling</Prerequisites>
         <Description>Through your heritage, you can replicate some of a hag's magic. Choose one common spell of 4th level or lower from those available to a coven, including the spells contributed to a coven by a hag of your mother's type. You can cast this spell once per day as a 4th-level occult innate spell.&lt;br&gt;&lt;br&gt; Spells available to all covens are augury, charm, clairaudience, clairvoyance, dream message, and illusory disguise. The eligible spells granted by the most prominent types of hag are: &lt;b&gt;Sea Hag&lt;/b&gt; acid arrow, water walk; &lt;b&gt;Green Hag&lt;/b&gt; entangle, outcast's curse, wall of thorns; &lt;b&gt;Annis Hag&lt;/b&gt; earthbind; &lt;b&gt;Night Hag&lt;/b&gt; nightmare</Description>
         <!--TODO: Implement this-->
     </Ability>
     <!--========Dhampir========-->
     <Ability name="Dhampir" level="1" type="Heritage">
         <Traits>Uncommon</Traits>
+        <GivesTraits>Dhampir</GivesTraits>
         <Description>You are the scion of a vampire, half living and half undead, gifted with uncanny charm and grace, a bloodless pallor, and elongated incisors. You gain the dhampir trait, in addition to the traits from your ancestry. You have the negative healing ability, which means you are harmed by positive damage and healed by negative effects as if you were undead. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can choose from dhampir feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
     </Ability>
     <Ability name="Eyes of the Night" level="1" page="33">
         <Traits>Dhampir</Traits>
-        <Prerequisites>Dhampir</Prerequisites>
         <!--TODO: Prereq of Low-light vision-->
         <Description>You can see in the darkness as easily as a true vampire. You gain darkvision.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat only at 1st level, and you can't retrain into or out of this feat.</Description>
     </Ability>
     <Ability name="Fangs" level="1" page="33">
         <Traits>Dhampir</Traits>
-        <Prerequisites>Dhampir</Prerequisites>
         <GivesPrerequisites>Fangs Unarmed Attack</GivesPrerequisites>
         <Description>Your incisors have grown into true fangs: long, sharp, and well-suited to drawing blood. You gain a fangs unarmed attack that deals 1d6 piercing damage. Your fangs are in the brawling group and have the grapple and unarmed traits.</Description>
         <Weapon>
@@ -247,52 +220,43 @@
     </Ability>
     <Ability name="Straveika" level="1" page="33">
         <Traits>Dhampir, Lineage</Traits>
-        <Prerequisites>Dhampir</Prerequisites>
         <Description>You descend from one of the truly ancient vampires, a nosferatu cursed to eternal life but not eternal youth. People call you straveika, or ancient-born. The vestiges of your forebear's powers of domination have left you with an understanding of how a creature's intentions change its behaviors. You gain a +1 circumstance bonus to Perception checks to Sense Motive and Perception DCs against attempts to Lie to you.</Description>
     </Ability>
     <Ability name="Svetocher" level="1" page="33">
         <Traits>Dhampir, Lineage</Traits>
-        <Prerequisites>Dhampir</Prerequisites>
         <Description>You were born to one of the moroi, the most common vampires, and you share their supernatural fortitude and power of persuasion. When you have the drained condition, calculate the penalty to your Fortitude saves and your Hit Point reduction as though the condition value were 1 lower. You are trained in Diplomacy. If you would automatically be trained in it, you instead become trained in a skill of your choice.</Description>
         <AttributeMods Proficiency="Trained">Diplomacy</AttributeMods>
     </Ability>
     <Ability name="Vampire Lore" level="1" page="33">
         <Traits>Dhampir</Traits>
-        <Prerequisites>Dhampir</Prerequisites>
         <Description>You were raised by your vampiric parent, or you've invested substantial time and energy researching the secrets of your undead progenitors. You gain the trained proficiency rank in Religion and Society. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Vampire Lore.</Description>
         <AttributeMods Proficiency="Trained">Religion, Society, Lore(Vampire)</AttributeMods>
     </Ability>
     <Ability name="Voice of the Night" level="1" page="33">
         <Traits>Dhampir</Traits>
-        <Prerequisites>Dhampir</Prerequisites>
         <Description>You hear and understand the words of creatures you share the darkness with. You can ask questions of, receive answers from, and use Diplomacy with bats, rats, and wolves. You also gain a +1 circumstance bonus to Make an Impression on such animals.</Description>
     </Ability>
     <Ability name="Enthralling Allure" level="5" page="33">
         <Traits>Dhampir</Traits>
-        <Prerequisites>Dhampir</Prerequisites>
         <Description>The powers of domination employed by your progenitors have manifested in you as well. Once per day, you can cast charm as a 1st-level divine innate spell.</Description>
         <Spellcasting listName="Dhampir" tradition="Divine" type="Spontaneous" ability="Cha"/>
         <Spell type="Spell" name="Charm"/>
     </Ability>
     <Ability name="Necromantic Physiology" level="5" page="33">
         <Traits>Dhampir</Traits>
-        <Prerequisites>Dhampir</Prerequisites>
         <Description>Your unusual physiology has developed in a way that makes it difficult for parasites and other infestations to prey upon you. You gain a +2 circumstance bonus to saves against diseases.</Description>
     </Ability>
     <Ability name="Undead Slayer" level="5" page="33">
         <Traits>Dhampir</Traits>
-        <Prerequisites>Dhampir</Prerequisites>
         <Description>Your knowledge of your own not-quite-living anatomy, combined with your experience in combat, helps you take down undead foes with ease. Against undead creatures, you gain a circumstance bonus to damage with weapons and unarmed attacks equal to the number of weapon damage dice for the Strike. This bonus increases to double the number of weapon damage dice if your target has the vampire trait.</Description>
     </Ability>
     <Ability name="Bloodletting Fangs" level="9" page="33">
         <Traits>Dhampir</Traits>
-        <Prerequisites>Dhampir</Prerequisites>
         <PrereqStrings>Fangs Unarmed Attack</PrereqStrings>
         <Description>You emulate your vampiric parent's techniques for drawing blood from a victim. Your fangs Strikes deal an additional 1d4 persistent bleed damage on a critical hit.</Description>
     </Ability>
     <Ability name="Night Magic" level="9" page="33">
         <Traits>Dhampir</Traits>
-        <Prerequisites>Dhampir</Prerequisites>
         <Description>You can tap into the magic that runs through your blood. You gain animal form (wolf only, using the statistics for a canine) and obscuring mist as 2nd-level divine innate spells. You can cast each of these spells once per day.</Description>
         <Spellcasting listName="Dhampir" tradition="Divine" type="Spontaneous" ability="Cha"/>
         <Spell type="Spell" name="Animal Form"/>
@@ -300,7 +264,6 @@
     </Ability>
     <Ability name="Form of the Bat" level="13" page="33" cost="1">
         <Traits>Concentrate, Dhampir, Divine, Polymorph, Transmutation</Traits>
-        <Prerequisites>Dhampir</Prerequisites>
         <Frequency>once per hour</Frequency>
         <Description>You can transform into a harmless bat. You gain the effects of a 4th-level pest form, except you always transform into a bat.</Description>
         <Spellcasting listName="Dhampir" tradition="Divine" type="Spontaneous" ability="Cha"/>
@@ -308,7 +271,6 @@
     </Ability>
     <Ability name="Symphony of Blood" level="17" page="33">
         <Traits>Dhampir</Traits>
-        <Prerequisites>Dhampir</Prerequisites>
         <Description>You call forth the blood of your foes to grant you vigor. Once per day, you can cast vampiric exsanguination as a 7th-level divine innate spell.</Description>
         <Spellcasting listName="Dhampir" tradition="Divine" type="Spontaneous" ability="Cha"/>
         <Spell type="Spell" name="Vampiric Exsanguination"/>
@@ -316,43 +278,37 @@
     <!--========Duskwalker========-->
     <Ability name="Duskwalker" level="1" type="Heritage">
         <Traits>Uncommon</Traits>
+        <GivesTraits>Duskwalker</GivesTraits>
         <Description>Thanks to an ancient bargain, your soul has been reborn as a duskwalker, a planar scion with a connection to psychopomps and the Boneyard. You gain the duskwalker trait in addition to the traits from your ancestry. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. Neither your body nor your spirit can ever become undead. You can choose from duskwalker feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
     </Ability>
     <Ability name="Duskwalker Lore" level="1" page="38">
         <Traits>Duskwalker</Traits>
-        <Prerequisites>Duskwalker</Prerequisites>
         <Description>You either found another duskwalker who taught you the secrets of your kind, or you managed to research your unusual heritage. You gain the trained proficiency rank in Medicine and Religion. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Boneyard Lore.</Description>
         <AttributeMods Proficiency="Trained">Medicine, Religion, Lore(Boneyard)</AttributeMods>
     </Ability>
     <Ability name="Ghost Hunter" level="1" page="38">
         <Traits>Duskwalker</Traits>
-        <Prerequisites>Duskwalker</Prerequisites>
         <Description>Your connection to the Boneyard ensures that your blows strike true against spectral beings. Your weapon and unarmed attack Strikes against incorporeal creatures become magical. If they are already magical, they instead gain the effects of a ghost touch property rune.</Description>
     </Ability>
     <Ability name="Gravesight" level="1" page="38">
         <Traits>Duskwalker</Traits>
-        <Prerequisites>Duskwalker</Prerequisites>
         <!--TODO: Low-Light Vision prereq-->
         <Description>You can see in the darkness as easily as a psychopomp. You gain darkvision.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat only at 1st level, and you can't retrain into or out of this feat.</Description>
     </Ability>
     <Ability name="Lifesense" level="5" page="38">
         <Traits>Divination, Divine, Duskwalker</Traits>
-        <Prerequisites>Duskwalker</Prerequisites>
         <Description>You have a limited ability to sense life force, like your psychopomp forebears. You gain lifesense as an imprecise sense with a range of 10 feet. This allows you to sense the life force within living creatures and its counterforce that animates the undead, though you can't distinguish between the two.</Description>
     </Ability>
     <Ability name="Spirit Soother" level="5" page="38">
         <Traits>Duskwalker</Traits>
-        <Prerequisites>Duskwalker</Prerequisites>
         <Description>You are attuned to the minute sounds and sensations of restless spirits. Even if you aren't Searching, you can attempt a check to find haunts that normally require you to be Searching. You still need to meet any other requirements to find the haunt.</Description>
     </Ability>
     <Ability name="Ward Against Corruption" level="5" page="38">
         <Traits>Duskwalker</Traits>
-        <Prerequisites>Duskwalker</Prerequisites>
         <Description>Your soul is warded against the power of undeath and plague, as well as that of the evil former psychopomps known as sahkils. You gain a +1 circumstance bonus to saving throws against death effects, disease, and all effects from undead or sahkils. This bonus increases to +2 against an undead or sahkil's death effect or disease.</Description>
     </Ability>
     <Ability name="Duskwalker Magic" level="9" page="38">
         <Traits>Duskwalker</Traits>
-        <Prerequisites>Duskwalker</Prerequisites>
         <Description>Your connection to psychopomps gives you the power to glimpse the near future and protect corpses from the ravages of undeath. You can cast augury and gentle repose each once per day as 2nd-level divine innate spells.</Description>
         <Spellcasting listName="Duskwalker" tradition="Divine" type="Spontaneous" ability="Cha"/>
         <Spell type="Spell" name="Augury"/>
@@ -360,12 +316,10 @@
     </Ability>
     <Ability name="Spirit Strikes" level="9" page="38">
         <Traits>Duskwalker</Traits>
-        <Prerequisites>Duskwalker</Prerequisites>
         <Description>Your connection to the Boneyard empowers you to bring death to all forms of life and unlife, exploiting their weaknesses. All your weapon and unarmed Strikes are magical and deal 1 additional negative damage to living creatures and 1 additional positive damage to undead.</Description>
     </Ability>
     <Ability name="Resist Ruin" level="13" page="38">
         <Traits>Duskwalker</Traits>
-        <Prerequisites>Duskwalker</Prerequisites>
         <Description>Your duskwalker heritage allows you to extend protection against negative energy to yourself or an ally in need. You gain resistance 5 to negative energy, and once per day, you can cast death ward as a divine innate spell.</Description>
         <Spellcasting listName="Duskwalker" tradition="Divine" type="Spontaneous" ability="Cha"/>
         <Spell type="Spell" name="Death Ward"/>
@@ -379,24 +333,22 @@
     <!--========Tiefling========-->
     <Ability name="Tiefling" level="1" type="Heritage">
         <Traits>Uncommon</Traits>
+        <GivesTraits>Tiefling</GivesTraits>
         <Description>You descend from fiends or bear the mark of the fiendish realms, manifesting as some unusual feature that belies your heritage, such as horns or a tail. You gain the tiefling trait, in addition to the traits from your ancestry. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can choose from tiefling feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
     </Ability>
     <Ability name="Fiendish Eyes" level="1" page="39">
         <Traits>Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <!--TODO: Low-Light Vision prereq-->
         <Description>You can see in the darkness as easily as a fiend. You gain darkvision.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat only at 1st level, and you can't retrain into or out of this feat.</Description>
     </Ability>
     <Ability name="Fiendish Lore" level="1" page="39">
         <Traits>Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <Description>You were raised by a tiefling or a fiendish relative, or you've devoted yourself to researching the secrets of the fiendish realms. You gain the trained proficiency rank in Intimidation and Religion. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in a Lore skill related to the fiendish plane from which you trace your lineage (usually Abaddon Lore, Abyss Lore, or Hell Lore).</Description>
         <AttributeMods Proficiency="Trained">Intimidation, Religion</AttributeMods>
         <!--TODO: Lore Choice-->
     </Ability>
     <Ability name="Form of the Fiend" level="1" page="40">
         <Traits>Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <Description>Part of your body has an obvious, fiendish appearance. Your hands end in razor-sharp claws, you have hooves instead of feet, sharp teeth fill your mouth, or a whipping tail extends from your spine. You gain your choice of one of the following unarmed attacks. The attack is in the brawling group and has the listed damage die and traits.&lt;br&gt;&lt;br&gt;
             &lt;b&gt;Claw&lt;/b&gt; 1d4 slashing (agile, finesse, unarmed, versatile piercing) &lt;br&gt;
             &lt;b&gt;Hoof&lt;/b&gt; 1d6 bludgeoning (finesse, unarmed) &lt;br&gt;
@@ -440,14 +392,12 @@
     </Ability>
     <Ability name="Grimspawn" level="1" page="40">
         <Traits>Lineage, Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <GivesPrerequisites>Tiefling Lineage</GivesPrerequisites>
         <Description>Your lineage traces back to a daemon, one of the manifestations of horrific forms of death that devour souls within their foul home of Abaddon. As a result, you cling tenaciously to the last shreds of your own life force. You gain the Diehard feat.</Description>
         <AbilitySlot state="filled" name="Diehard (Tiefling)" type="General Feat" contents="Diehard" />
     </Ability>
     <Ability name="Hellspawn" level="1" page="40">
         <Traits>Lineage, Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <GivesPrerequisites>Tiefling Lineage</GivesPrerequisites>
         <Description>Your lineage descends from devils, the conniving schemers of Hell's malevolent hierarchy. You're as skilled at noticing lies and twisted wordings as you are at constructing them. You are trained in Deception and Legal Lore. If you were already trained in Deception (from your background or class, for example), you instead become trained in a skill of your choice. You also gain the Lie to Me skill feat.</Description>
         <AbilitySlot state="filled" name="Lie To Me (Tiefling)" type="Skill Feat" contents="Lie To Me" />
@@ -455,12 +405,10 @@
     </Ability>
     <Ability name="Nimble Hooves" level="1" page="40">
         <Traits>Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <Description>Your legs end in hooves rather than feet, with joints and tendons that allow you to move with great haste. Your Speed increases by 5 feet.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; The Speed increase from this feat isn't cumulative with any Speed increase from your ancestry feats (such as Nimble Elf).</Description>
     </Ability>
     <Ability name="Pitborn" level="1" page="40">
         <Traits>Lineage, Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <GivesPrerequisites>Tiefling Lineage</GivesPrerequisites>
         <Description>Your blood bears the mark of a demon, a living embodiment of sin from the fetid depths of the Abyss. Demonic power pulses through your veins and manifests in a different way for each pitborn, whether you have webbed fingers and thrive in the water, large hands capable of wrestling larger foes, or some other manifestation. You are trained in Athletics. If you were already trained in Athletics (from your background or class, for example), you instead become trained in a skill of your choice.&lt;br&gt;&lt;br&gt; You also gain any one common 1st-level skill feat with a prerequisite of trained in Athletics, as reflects the manifestation of your Abyssal blood.</Description>
         <AbilitySlot state="feat" name="Pitborn Athletics-based Feat" type="Skill Feat"/>
@@ -469,19 +417,16 @@
     </Ability>
     <Ability name="Fiendish Resistance" level="5" page="40">
         <Traits>Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <Description>Your connection to your fiendish forebears has granted you one of their resistances as well. Choose one of the following energy damage types: acid, cold, electricity, fire, or sonic. You gain resistance 5 to that damage type.&lt;br&gt;&lt;br&gt; Though you can choose any of these, the damage type typically matches a fiend associated with your bloodline. For instance, a hellspawn might choose resistance to fire, or a pitborn with a vrock ancestor might choose resistance to electricity.</Description>
     </Ability>
     <Ability name="Malicious Bane" level="5" page="40">
         <Traits>Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <Description>Whether your heart is pure or corrupt, you can call forth a malediction upon your foes. You can cast bane once per day as a 1st-level divine innate spell.</Description>
         <Spellcasting listName="Tiefling" tradition="Divine" type="Spontaneous" ability="Cha"/>
         <Spell type="Spell" name="Bane"/>
     </Ability>
     <Ability name="Skillful Tail" level="5" page="40">
         <Traits>Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <Description>You've always had a tail, but with practice, you've learned to use it for more than signaling your mood. You can perform simple Interact actions with your tail such as opening an unlocked door. Your tail can't perform actions that require fingers or significant manual dexterity, including any action that would require a check to accomplish, and you can't use it to hold items.</Description>
     </Ability>
     <Ability name="Daemon Magic" level="9" page="40">
@@ -510,39 +455,32 @@
     </Ability>
     <Ability name="Fiendish Wings" level="9" page="41" cost="2">
         <Traits>Divine, Morph, Tiefling, Transmutation</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <Frequency>once per day</Frequency>
         <Description>You can strain to call forth bat-like or otherwise fiendish wings from your back, similar in appearance to those of your fiendish ancestors. Once manifested, these wings remain for 10 minutes. You gain a fly Speed equal to your land Speed while you've manifested your wings.</Description>
     </Ability>
     <Ability name="Light from Darkness" level="9" page="41">
         <Traits>Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <Description>You've battled the fiendish power within your nature and come out on top; whatever you decide to do with your life, for good or evil, will be your choice and your choice alone. This struggle has granted you powerful resistance against the divine. You gain a +1 circumstance bonus to all saving throws against divine effects.</Description>
     </Ability>
     <Ability name="Fiendish Strikes" level="13" page="41">
         <Traits>Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <Description>Your festering connection to the forces of evil infuses your weapons with debilitating malevolence, tearing down creatures of good with every attack. All your weapon and unarmed Strikes deal 1 additional evil damage and have the evil and magical traits.</Description>
         <!-- TODO: Implement this-->
     </Ability>
     <Ability name="Fiend's Door" level="13" page="41">
         <Traits>Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <Description>Like many fiends, you have the supernatural ability to teleport yourself to safety. Once per day, you can cast dimension door as a 5th-level divine innate spell.</Description>
     </Ability>
     <Ability name="Summon Fiendish Kin" level="13" page="41">
         <Traits>Tiefling</Traits>
-        <Prerequisites>Tiefling Lineage</Prerequisites>
         <Description>You have a deep connection to the fiendish realms, allowing you to summon a fiend matching your own lineage. Once per day, you can cast summon fiend as a 5th-level divine innate spell. The fiend you summon must match your own lineage.</Description>
     </Ability>
     <Ability name="Fiendish Word" level="17" page="41">
         <Traits>Tiefling</Traits>
-        <Prerequisites>Tiefling</Prerequisites>
         <Description>You can call forth a blasphemous word from the fiendish realms to punish your foes. Once per day, you can cast divine decree as a 7th-level divine innate spell. You must choose evil for the spell, and you can Cast the Spell regardless of whether you have a deity or what their alignment is.</Description>
     </Ability>
     <Ability name="Relentless Wings" level="17" page="41">
         <Traits>Tiefling</Traits>
-        <Prerequisites>Fiendish Wings</Prerequisites>
         <Description>Your wings are now a permanent part of your physiology. You gain the effects of Fiendish Wings at all times, rather than just once per day for 10 minutes.</Description>
     </Ability>
 </pf2:feats>

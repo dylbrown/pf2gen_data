@@ -2,7 +2,7 @@
 <pf2:traits xmlns:pf2="https://dylbrown.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="https://dylbrown.github.io ../../schemata/trait.xsd">
-    <Category name="Monster">
+    <Category name="Ancestry">
         <Trait page="266">
             <Name>Aasimar</Name>
             <Description>A creature with this trait has the aasimar versatile heritage. Aasimars are planar scions descended from celestial beings. An ability with this trait can be used or selected only by aasimars.</Description>

@@ -19,6 +19,13 @@
           </xs:documentation>
         </xs:annotation>
       </xs:element>
+      <xs:element name="GivesTraits" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            A comma-separated list of traits ie. Flourish, Oath, Mental, etc.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
       <xs:element name="Archetype" minOccurs="0" type="xs:string">
         <xs:annotation>
           <xs:documentation>
@@ -145,6 +152,13 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="FormulasKnown" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="count" type="xs:positiveInteger" use="required"/>
+          <xs:attribute name="level" type="xs:nonNegativeInteger" use="required"/>
+          <xs:attribute name="category" type="xs:string"/>
         </xs:complexType>
       </xs:element>
       <xs:element name="SpellsKnown" minOccurs="0" maxOccurs="unbounded">
@@ -390,7 +404,7 @@
   </xs:element>
   <xs:simpleType name="AbilityScoreList">
       <xs:restriction base="xs:string">
-          <xs:pattern value="(Str|Dex|Con|Int|Wis|Cha|Free)((, | or )(Str|Dex|Con|Int|Wis|Cha|Free))*"/>
+          <xs:pattern value="(Str|Dex|Con|Int|Wis|Cha|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma|Free)((, | or )(Str|Dex|Con|Int|Wis|Cha|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma|Free))*"/>
       </xs:restriction>
   </xs:simpleType>
 

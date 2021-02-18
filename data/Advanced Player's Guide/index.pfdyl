@@ -15,6 +15,9 @@
         &lt;li&gt;New class options for all twelve classes from the Pathfinder Core Rulebook including champions of evil, genie and shadow sorcerers, zen archer monks, rogue masterminds, spellcasting rangers, and more!&lt;/li&gt;
         &lt;li&gt;Even more exciting new rules, from rare and unique backgrounds to investigative skill feats, from spells and rituals like reincarnate and create demiplane to new items including special wands with unusual effects and exciting potions worthy of a witch's cauldron.&lt;/li&gt;
         &lt;/ul&gt;</Description>
+    <Ancestries>
+        <Ancestry name="Orc" path="ancestries/Orc.pfdyl" />
+    </Ancestries>
     <Classes>
         <Class name="Investigator" path="classes/Investigator.pfdyl" />
         <Class name="Oracle" path="classes/Oracle.pfdyl" />
