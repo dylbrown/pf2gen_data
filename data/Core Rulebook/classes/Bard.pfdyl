@@ -65,6 +65,7 @@
                     Composition cantrips are special composition spells that don't cost Focus Points, so you can use them as often as you like. Composition cantrips are in addition to the cantrips you choose from the occult list. Generally, only feats can give you more composition cantrips. Unlike other cantrips, you can't swap out composition cantrips gained from bard feats at a later level, unless you swap out the specific feat via retraining (page 481).
                     You learn the inspire courage composition cantrip (page 386), which boosts your allies' attacks, damage, and defense against fear.
                 </Description>
+                <Spell type="Focus" name="Counter Performance" />
                 <Spell type="Focus Cantrip" name="Inspire Courage" />
             </Ability>
         </AbilitySlot>

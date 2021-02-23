@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<pf2:backgrounds xmlns:pf2="https://dylbrown.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dylbrown.github.io ../../schemata/abc/background.xsd">
+	<Background>
+		<Name>Minstrel</Name>
+		<Description>You spent your early days on the road, performing as you went. You may have done it out of necessity or out of a desire to perform, but either way the road will never quite leave you.</Description>
+		<Skill>Performance, Lore (Performer)</Skill>
+		<AbilityBonuses>Wis or Cha, Free</AbilityBonuses>
+		<Feat>Impressive Performance</Feat>
+	</Background>
+</pf2:backgrounds>

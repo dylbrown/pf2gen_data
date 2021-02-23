@@ -6,6 +6,7 @@
     <Dependencies>
         <Dependency>Core Rulebook</Dependency>
     </Dependencies>
+    <Backgrounds path="backgrounds.pfdyl" />
     <Equipment path="equipment/equipment.pfdyl" />
     <Weapons name="Weapons" path="equipment/weapons.pfdyl" />
     <Setting>
