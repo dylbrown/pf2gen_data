@@ -86,22 +86,21 @@
 [/#if]
     <hr />
 	[#assign count=0]
-    [#list character.combat.attacks as item]
-        [#if item.hasExtension("Weapon")]
-			[#assign count++]
-            [#if item.category == "Ranged Weapon"]
-                <b>① Ranged</b>
-            [#else]
-                <b>① Melee</b>
-            [/#if]
-            ${item.name} ${item.attack?string.@s}
-            [#list item.traits]([#items as customTrait]${customTrait.name}[#sep], [/#sep][/#items])[/#list]
-			, <b>Damage</b>
-                        [#list item.damage.asList() as damage]
-                            ${damage}[#sep]<br> + [/#sep]
-                        [/#list]
-			[#sep]<br>[/#sep]
+    [#list character.combat.attacks as weapon]
+        [#assign item=weapon.getItem()]
+        [#assign count++]
+        [#if item.category == "Ranged Weapon"]
+            <b>① Ranged</b>
+        [#else]
+            <b>① Melee</b>
         [/#if]
+        ${item.name} ${item.attack?string.@s}
+        [#list item.traits]([#items as customTrait]${customTrait.name}[#sep], [/#sep][/#items])[/#list]
+        , <b>Damage</b>
+                    [#list item.damage.asList() as damage]
+                        ${damage}[#sep]<br> + [/#sep]
+                    [/#list]
+        [#sep]<br>[/#sep]
 	[/#list]
     [#list character.inventory as item]
         [#if item.hasExtension("Weapon")]
