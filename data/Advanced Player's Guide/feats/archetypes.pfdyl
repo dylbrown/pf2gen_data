@@ -874,6 +874,8 @@
         <Archetype>Loremaster</Archetype>
         <Requires>Trained In Society or Trained in Lore (Scribing)</Requires>
         <Description>You've compiled a vast repository of information that touches on nearly every subject. You are trained in Loremaster Lore, a special Lore skill that can be used only to Recall Knowledge, but on any topic. If you have legendary proficiency in a skill used to Decipher Writing, you gain expert proficiency in Loremaster Lore, but you can't increase your proficiency rank in Loremaster Lore by any other means. You can take feats in the loremaster's additional feats entry even if you don't meet the enigma muse prerequisite. &lt;br&gt;&lt;br&gt;If you have the Bardic Lore class feat, you gain a +1 circumstance bonus to skill checks with Bardic Lore.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the loremaster archetype.</Description>
+		<AttributeMods Proficiency="Trained">Lore (Loremaster)</AttributeMods>
+		<!--TODO: Support scaling lore-->
     </Ability>
     <Ability name="Magical Edification" level="4" page="179">
         <Traits>Archetype</Traits>
