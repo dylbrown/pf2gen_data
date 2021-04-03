@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>Character Guide</Name>
+    <ShortName>CG</ShortName>
+    <Category>Lost Omens</Category>
+    <Dependencies>
+        <Dependency>Core Rulebook</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Character Guide&lt;/h2&gt;&lt;p&gt;An adventurer's life can be difficult, but long journeys and heavy burdens are easier when you have company. This guide to the world of Pathfinder presents the people and organizations that can help—or hinder—heroes like you!&lt;/p&gt;
+
+        &lt;p&gt;The &lt;em&gt;Lost Omens Character Guide&lt;/em&gt; features new heritages and feats for existing ancestries, as well as three brand–new ancestries for unusual heroes forging a place for themselves in an uncertain age. Join five of Golarion's most influential organizations, fight alongside the rank–and–file members provided in these pages, or clash against them in pursuit of your own passions and goals!&lt;/p&gt;
+
+        &lt;p&gt;This must-have 136-page guidebook for characters of all types introduces three new ancestries to the Second Edition of the Pathfinder Roleplaying Game—the regimented and warlike hobgoblin, the plant-like leshy, and the inquisitive lizardfolk—provides 10 new heritages for the game's core ancestries, offers nearly 100 new ancestry feats, and presents 10 new archetypes to allow characters of any class to participate in the world's most notable organizations, from the adventurous Pathfinder Society to the rabble-rousing Firebrands to the magical masters of the Magaambya!&lt;/p&gt;
+
+        &lt;p&gt;Written by: John Compton, Sasha Lindley Hall, Amanda Hamon, Mike Kimmel, Luis Loza, Ron Lundeen, Matt Morris, Patchen Mortimer, Andrew Mullen, Mikhail Rekun, Michael Sayre, Owen K.C. Stephens, Isabelle Thorne, Linda Zayas-Palmer&lt;/p&gt;</Description>
+    <Ancestries>
+        <Ancestry name="Leshy" path="ancestries/Leshy.pfdyl" />
+    </Ancestries>
+    <Traits name="Traits" path="traits.pfdyl" />
+</Source>

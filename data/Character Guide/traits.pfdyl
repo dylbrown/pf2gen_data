@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+<pf2:traits xmlns:pf2="https://dylbrown.github.io"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="https://dylbrown.github.io ../../schemata/trait.xsd">
+    <Category name="Ancestry">
+        <Trait page="133">
+            <Name>Leshy</Name>
+            <Description>Leshies are living plants animated by primal magic.</Description>
+        </Trait>
+    </Category>
+</pf2:traits>

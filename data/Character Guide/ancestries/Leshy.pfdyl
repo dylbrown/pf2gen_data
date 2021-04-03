@@ -1,0 +1,90 @@
+<?xml version = "1.0"?>
+<pf2:ancestry xmlns:pf2="https://dylbrown.github.io"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/ancestry.xsd">
+    <Name>Leshy</Name>
+    <HP>8</HP>
+    <Size>Small</Size>
+    <Speed>25</Speed>
+    <AbilityBonuses>Con, Wis, Free</AbilityBonuses>
+    <AbilityPenalties>Int</AbilityPenalties>
+    <Languages>Common, Sylvan</Languages>
+    <BonusLanguages>Draconic, Elven, Gnomish, Goblin, Halfling, Undercommon</BonusLanguages>
+    <Senses>Low-Light Vision</Senses>
+    <Description>Guardians and emissaries of the environment, leshies are immortal spirits of nature temporarily granted a physical form.</Description>
+    <Feats>
+        <!--Heritages-->
+        <Ability name="Fungus Leshy" level="1" page="53" type="Heritage">
+            <Traits>Leshy</Traits>
+            <Description>Your body was made from fungi that grows in the shade of caves and trees, and you are at home in dark caverns and warrens. You gain darkvision.</Description>
+        </Ability>
+        <Ability name="Gourd Leshy" level="1" page="53" type="Heritage">
+            <Traits>Leshy</Traits>
+            <Description>You have a large gourd for a skull. Your knowledge comes from within your spirit, rather than a physical brain, and you have found a handier use for the space inside your head. You can store a collection of up to 1 Bulk of objects within your head. The DC of checks to Steal objects from inside your head increases by 4. Additionally, if you store only one object within your head, you can draw it effortlessly into your hand as part of another action to use the object. Drawing the item grants this other action the manipulate trait.</Description>
+        </Ability>
+        <Ability name="Leaf Leshy" level="1" page="53" type="Heritage">
+            <Traits>Leshy</Traits>
+            <Description>Your body is made mostly from natural foliage, and like a leaf tumbling from a tree, you land from falls with particular grace. You take no damage from falling, regardless of the distance you fall.</Description>
+        </Ability>
+        <Ability name="Vine Leshy" level="1" page="53" type="Heritage">
+            <Traits>Leshy</Traits>
+            <Description>The prehensile vines woven into your body grant you unmatched skill at climbing. You do not need to have any hands free to Climb. Additionally, if you roll a success on an Athletics check to Climb, you get a critical success instead.</Description>
+        </Ability>
+        <!--Regular Feats-->
+        <Ability name="Grasping Reach" level="1" page="54">
+            <Traits>Leshy</Traits>
+            <Description>You can extend a tangle of vines or tendrils to support your arms and extend your reach. When you wield a melee weapon that requires two hands, doesn’t have reach, and deals at least 1d6 damage, you can change between a typical two-handed grip and an extended two-handed grasp using an Interact action. Weapons wielded in your extended grasp gain reach of 10 feet. This grasp is less stable and powerful than a typical grip, reducing the weapon’s damage die by 1 step.</Description>
+        </Ability>
+        <Ability name="Harmlessly Cute" level="1" page="54">
+            <Traits>Leshy</Traits>
+            <Description>Your size and demeanor make it easy for you to convince others that you mean no harm. You gain the Shameless Request skill feat as a bonus feat. Additionally, you gain a +1 circumstance bonus to initiative checks when you roll Deception for initiative.</Description>
+        </Ability>
+        <Ability name="Leshy Lore" level="1" page="54">
+            <Traits>Leshy</Traits>
+            <Description>You deeply understand your people’s cultural traditions and innate strengths. You gain the trained proficiency rank in Nature and Stealth. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Leshy Lore.</Description>
+        </Ability>
+        <Ability name="Leshy Superstition" level="1" page="54" cost="Reaction">
+            <Traits>Leshy</Traits>
+            <Trigger>You attempt a saving throw against a spell or magical effect, but haven’t rolled yet.</Trigger>
+            <Description>You notice spirits that inhabit objects, learning which bring good fortune and which are unlucky. You focus on the power of a lucky object, granting you a +1 circumstance bonus to your saving throw against the triggering effect.Leshy Superstition Leads To...Lucky Keepsake</Description>
+        </Ability>
+        <Ability name="Seedpod" level="1" page="54">
+            <Traits>Leshy</Traits>
+            <Description>Your body produces a nearly endless supply of hard seedpods. You gain a seedpod ranged unarmed attack that deals 1d4 bludgeoning damage; these Strikes have the manipulate trait. On a critical hit, a seedpod bursts, issuing forth a tangle of vegetation that imposes a –10-foot circumstance penalty on the target’s Speed for 1 round. Seedpods do not add critical specialization effects.Seedpod Leads To...Thorned Seedpod</Description>
+        </Ability>
+        <Ability name="Shadow of the Wilds" level="1" page="54">
+            <Traits>Leshy</Traits>
+            <Description>It’s difficult to notice your passage through wild areas. As long as you’re not in an urban environment, you’re always considered to be Covering Tracks, even if you chose a different activity in exploration mode.</Description>
+        </Ability>
+        <Ability name="Undaunted" level="1" page="54">
+            <Traits>Leshy</Traits>
+            <Description>Your spirit has endured many challenges over its long existence, and you are certain you can overcome whatever hardships life throws your way. You gain a +1 circumstance bonus to saves against emotion effects. If you roll a success on a saving throw against an emotion effect, you get a critical success instead.</Description>
+        </Ability>
+        <Ability name="Leshy Glide" level="5" page="55" cost="1">
+            <Traits>Leshy</Traits>
+            <Prerequisites>Leaf Leshy Heritage Or Cat Fall</Prerequisites>
+            <Description>Using your own leaves, you can control your descent. You glide slowly toward the ground, 5 feet down and up to 25 feet forward through the air. As long as you spend at least 1 action gliding each round and have not yet reached the ground, you remain in the air at the end of your turn.</Description>
+        </Ability>
+        <Ability name="Ritual Reversion" level="5" page="55" cost="2">
+            <Traits>Leshy, Polymorph, Primal, Transmutation</Traits>
+            <Description>You can temporarily revert to a less conspicuous form without diminishing your senses. You take the form of an ordinary specimen of the type of plant or fungus that most closely resembles you, reverting to your body’s appearance just before your spirit joined with it. This otherwise has the effects of tree shape, except that your size remains Small.</Description>
+        </Ability>
+        <Ability name="Speak with Kindred" level="5" page="55">
+            <Traits>Leshy</Traits>
+            <Description>You have a connection with creatures that share your physiology. You can ask questions of, receive answers from, and use the Diplomacy skill with plants or fungi that match your leshy heritage. Generally, fungus leshies can speak to mushrooms and fungi; gourd leshies can speak to gourds, melons, and similar fruiting plants; leaf leshies can speak with deciduous trees; and vine leshies can speak with vines and climbing plants. The GM determines which plants or fungi count for this ability.</Description>
+        </Ability>
+        <Ability name="Bark and Tendril" level="9" page="55">
+            <Traits>Leshy</Traits>
+            <Description>You wield primal magic. You can cast barkskin and entangle as 2nd-level primal innate spells once per day each.</Description>
+        </Ability>
+        <Ability name="Lucky Keepsake" level="9" page="55">
+            <Traits>Leshy</Traits>
+            <Prerequisites>Leshy Superstition</Prerequisites>
+            <Description>You have a keepsake that grants you luck. You gain a +1 circumstance bonus to saves against spells and magical effects at all times, not just when you use Leshy Superstition. If you lose the keepsake, you lose the bonus until you designate a new keepsake, typically over the course of a week.</Description>
+        </Ability>
+        <Ability name="Solar Rejuvenation" level="9" page="55">
+            <Traits>Leshy</Traits>
+            <Description>If you rest outdoors for 10 minutes during the day, you regain Hit Points equal to your Constitution modifier × half your level. You gain this benefit in addition to any healing from Treat Wounds. Leshies whose plant nourishment does not rely on photosynthesis require a similarly suitable environment. For example, fungus leshies need dark, damp environments and a pile of decaying plant matter.</Description>
+        </Ability>
+    </Feats>
+</pf2:ancestry>
