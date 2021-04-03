@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:pf2="https://dylbrown.github.io"
+           targetNamespace="https://dylbrown.github.io">
+    <xs:include schemaLocation="item.xsd"/>
+    <xs:complexType name="Armor">
+        <xs:sequence>
+            <xs:group ref="pf2:NameAndPrice"/>
+            <xs:element name="AC">
+                <xs:simpleType>
+                    <xs:restriction>
+                        <xs:pattern value="\+\d+" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:choice>
+                <xs:sequence>
+                    <xs:element name="MaxDex">
+                        <xs:simpleType>
+                            <xs:restriction>
+                                <xs:pattern value="\+\d+" />
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="ACP" type="xs:nonPositiveInteger" minOccurs="0"/>
+                    <xs:element name="SpeedPenalty" type="xs:nonPositiveInteger" minOccurs="0"/>
+                    <xs:element name="Strength" type="xs:nonNegativeInteger" minOccurs="0"/>
+                </xs:sequence>
+                <xs:sequence>
+                    <xs:element name="SpeedPenalty" type="xs:nonPositiveInteger" minOccurs="0"/>
+                    <xs:element name="Hardness" type="xs:nonNegativeInteger"/>
+                    <xs:element name="HP" type="xs:nonNegativeInteger"/>
+                    <xs:element name="BT" type="xs:nonNegativeInteger"/>
+                </xs:sequence>
+            </xs:choice>
+            <xs:group ref="pf2:BulkAndHands"/>
+            <xs:element name="Group" type="xs:string" minOccurs="0"/>
+            <xs:group ref="pf2:ItemDetails"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ArmorList">
+        <xs:sequence>
+            <xs:element name="Armor" type="pf2:Armor" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="armorAndShields">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Groups" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ArmorGroup" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Name" type="xs:string" />
+                                        <xs:element name="Effect" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Unarmored" minOccurs="0" type="pf2:ArmorList" />
+                <xs:element name="Light" minOccurs="0" type="pf2:ArmorList" />
+                <xs:element name="Medium" minOccurs="0" type="pf2:ArmorList" />
+                <xs:element name="Heavy" minOccurs="0" type="pf2:ArmorList" />
+                <xs:element name="Shield" minOccurs="0" type="pf2:ArmorList" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
