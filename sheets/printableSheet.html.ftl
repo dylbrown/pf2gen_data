@@ -385,9 +385,7 @@
             <div class="sectionLabel">Melee Strikes</div>
             [/#if]
             [#list character.combat.attacks as attack]
-                [#if attack.hasExtension("Weapon")]
-                    [@weaponBlock attack=attack type="melee"/]
-                [/#if]
+                [@weaponBlock weapon=attack.item type="melee"/]
             [/#list]
             [#list character.inventory as item]
                 [#if item.category == "Weapons"]
@@ -401,8 +399,8 @@
             <div class="sectionLabel">Ranged Strikes</div>
             [/#if]
             [#list character.combat.attacks as attack]
-                [#if attack.category == "Ranged Weapons"]
-                    [@weaponBlock weapon=attack type="ranged"/]
+                [#if attack.item.category == "Ranged Weapons"]
+                    [@weaponBlock weapon=attack.item type="ranged"/]
                 [/#if]
             [/#list]
             [#list character.inventory as item]
@@ -549,7 +547,7 @@
     <div class="abilities-flex first-page">
         <div class="ability-box ability-section do-not-break">Class Feats</div>
         [#list character.abilities as ability]
-            [#if ability.getType() == "Class"]
+            [#if ability.type == "Class" || ability.type == "ClassFeature"]
             [@abilityBox ability=ability /]
             [/#if]
         [/#list]
