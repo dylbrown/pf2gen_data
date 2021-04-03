@@ -17,6 +17,7 @@
         &lt;/ul&gt;</Description>
     <Ancestries>
         <Ancestry name="Orc" path="ancestries/Orc.pfdyl" />
+        <Ancestry name="Tengu" path="ancestries/Tengu.pfdyl" />
     </Ancestries>
     <Classes>
         <Class name="Investigator" path="classes/Investigator.pfdyl" />

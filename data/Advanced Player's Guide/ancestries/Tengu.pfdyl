@@ -1,0 +1,105 @@
+<?xml version = "1.0"?>
+<pf2:ancestry xmlns:pf2="https://dylbrown.github.io"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/ancestry.xsd">
+    <Name>Tengu</Name>
+    <HP>6</HP>
+    <Size>Medium</Size>
+    <Speed>25</Speed>
+    <AbilityBonuses>Dexterity, Free</AbilityBonuses>
+    <Languages>Common, Tengu</Languages>
+    <BonusLanguages>Dwarven, Elven, Halfling, Gnomish, Goblin, Sylvan</BonusLanguages>
+    <Senses>Low-Light Vision</Senses>
+    <Description>Tengus are a gregarious and resourceful people that have spread far and wide from their ancestral home in Tian Xia, collecting and combining whatever innovations and traditions they happen across with those from their own long history.</Description>
+    <Feats>
+        <!--Heritages-->
+        <Ability name="Jinxed Tengu" level="1" page="25" type="Heritage">
+            <Traits>Tengu</Traits>
+            <Description>Your lineage has been exposed to curse after curse, and now, they slide off your feathers like rain. If you succeed at a saving throw against a curse or misfortune effect, you get a critical success instead. When you would gain the doomed condition, attempt a DC 17 flat check. On a success, reduce the value of the doomed condition you would gain by 1.</Description>
+        </Ability>
+        <Ability name="Mountainkeeper Tengu" level="1" page="25" type="Heritage">
+            <Traits>Tengu</Traits>
+            <Description>You come from a line of tengu ascetics, leaving you with a link to the spirits of the world and the Great Beyond. You can cast the disrupt undead cantrip as a primal innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up. Each time you cast a spell from a tengu heritage or ancestry feat, you can decide whether it’s a divine or primal spell.</Description>
+        </Ability>
+        <Ability name="Skyborn Tengu" level="1" page="26" type="Heritage">
+            <Traits>Tengu</Traits>
+            <Description>Your bones may be especially light, you may be a rare tengu with wings, or your connection to the spirits of wind and sky might be stronger than most, slowing your descent through the air. You take no damage from falling, regardless of the distance you fall.</Description>
+        </Ability>
+        <Ability name="Stormtossed Tengu" level="1" page="26" type="Heritage">
+            <Traits>Tengu</Traits>
+            <Description>Whether due to a blessing from Hei Feng or hatching from your egg during a squall, you are resistant to storms. You gain electricity resistance equal to half your level (minimum 1). You automatically succeed at the flat check to target a concealed creature if that creature is concealed only by rain or fog.</Description>
+        </Ability>
+        <Ability name="Taloned Tengu" level="1" page="26" type="Heritage">
+            <Traits>Tengu</Traits>
+            <Description>Your talons are every bit as sharp and strong as your beak. You gain a talons unarmed attack that deals 1d4 slashing damage. Your talons are in the brawling group and have the agile, finesse, unarmed, and versatile piercing traits.</Description>
+            <Weapon>
+                <Name>Talons</Name>
+                <Damage>1d4 S</Damage>
+                <Group>Brawling</Group>
+                <Traits>agile, finesse, unarmed, versatile</Traits>
+            </Weapon>
+        </Ability>
+        <!--Regular Feats-->
+        <Ability name="Scavenger's Search" level="1" page="26">
+            <Traits>Tengu</Traits>
+            <Description>You're always on the lookout for supplies and valuables. Each time you use the Seek action to search for objects (including secret doors and hazards), you can search for objects in your choice of a 10-foot emanation around you or an adjacent 15-foot-by-15-foot area, rather than a single adjacent 10-foot-by-10-foot area. </Description>
+        </Ability>
+        <Ability name="Squawk!" level="1" page="26" cost="Reaction">
+            <Traits>Tengu</Traits>
+            <Trigger>You critically fail a Deception, Diplomacy, or Intimidation check against a creature that doesn't have the tengu trait.</Trigger>
+            <Description>You let out an awkward squawk, ruffle your feathers, or fake some other birdlike tic to cover up a social misstep or faux pas. You get a failure on the triggering check, rather than a critical failure. All creatures that witnessed you Squawk are temporarily immune for 24 hours.</Description>
+        </Ability>
+        <Ability name="Storm's Lash" level="1" page="26">
+            <Traits>Tengu</Traits>
+            <Description>Wind and lightning have always been close friends to you. You can cast the electric arc cantrip as a primal innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.Storm's Lash Leads To...Hurricane Swing</Description>
+        </Ability>
+        <Ability name="Tengu Lore" level="1" page="26">
+            <Traits>Tengu</Traits>
+            <Description>You learned skills for surviving in the place where your people were dispersed. You gain the trained proficiency rank in Society and Survival. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Tengu Lore.</Description>
+        </Ability>
+        <Ability name="Tengu Weapon Familiarity" level="1" page="26">
+            <Traits>Tengu</Traits>
+            <Description>You've trained with a blade and other tengu weapons ever since you hatched. You gain access to khakkaras. Additionally, choose two weapons from the sword group. You can choose from among all common martial swords, plus the katana, temple sword, and wakizashi. For the purpose of determining your proficiency, that weapon is a simple weapon, and if the weapon isn't common, you gain access to it. If you are trained in all martial weapons, you add common advanced swords to the swords you can choose from.&lt;br&gt;&lt;br&gt; You also gain access to all uncommon tengu weapons. For the purpose of determining your proficiency, martial tengu weapons are simple weapons, and advanced tengu weapons are martial weapons.Tengu Weapon Familiarity Leads To...Eclectic Sword Training, Tengu Weapon Expertise, Tengu Weapon Study</Description>
+        </Ability>
+        <Ability name="Eat Fortune" level="5" page="26" cost="Reaction">
+            <Traits>Concentrate, Divination, Divine, Tengu</Traits>
+            <Trigger>A creature within 60 feet uses a fortune or misfortune effect.</Trigger>
+            <Frequency>once per day</Frequency>
+            <Description>As someone tries to twist fate, you consume the interference. The triggering effect is disrupted. If it's a misfortune effect, Eat Fortune gains the fortune trait; if it's a fortune effect, Eat Fortune gains the misfortune trait. This fortune or misfortune applies to the same roll the triggering effect would have, so you couldn't negate a fortune effect with Eat Fortune and then apply a misfortune effect to the same roll.Eat Fortune Leads To...Jinx Glutton</Description>
+        </Ability>
+        <Ability name="Long-Nosed Form" level="5" page="26" cost="1">
+            <Traits>Concentrate, Polymorph, Primal, Tengu, Transmutation</Traits>
+            <Description>You can transform into a specific, curious-looking human form. This human form is the same age and body type as your tengu form and has roughly analogous physical traits, such as height, though your nose remains as long as your beak and your complexion has red undertones, no matter the skin color of your human form. Using Long-Nosed Form counts as creating a disguise for the Impersonate use of Deception. Due to your imperfect transformation, your transformation doesn't automatically defeat Perception DCs to determine whether you are human, though you may be able to explain away or hide your tengu traits. You lose your beak unarmed Strike in your human form, as well as any other unarmed Strikes you gained from a tengu heritage or ancestry feat. You can remain in your human form indefinitely, and you can shift back to your tengu form by using this action again.Long-Nosed Form Leads To...Great Tengu Form</Description>
+        </Ability>
+        <Ability name="One-Toed Hop" level="5" page="27" cost="1">
+            <Traits>Tengu</Traits>
+            <Description>Assuming a peculiar stance, you make a short hop on each toe. You make a vertical Leap without triggering reactions that can be triggered by move actions or upon leaving or entering a square.</Description>
+        </Ability>
+        <Ability name="Tengu Weapon Study" level="5" page="27">
+            <Traits>Tengu</Traits>
+            <Prerequisites>Tengu Weapon Familiarity</Prerequisites>
+            <Description>You've learned techniques for using blades and other tengu weapons. Whenever you critically hit using one of the weapons from your Tengu Weapon Familiarity, you apply the weapon's critical specialization effect.</Description>
+        </Ability>
+        <Ability name="Eclectic Sword Training" level="9" page="27">
+            <Traits>Tengu</Traits>
+            <Prerequisites>Tengu Weapon Familiarity</Prerequisites>
+            <Description>You were always taught that you needed to be able to use whatever weapon came your way. You can change any of the swords designated in your Tengu Weapon Familiarity to different swords that meet the same specifications. You have to practice with a sword during your daily preparations to designate it, and the designation only lasts until your next daily preparations. This changes only your proficiency; it doesn't change your access.Eclectic Sword Training Leads To...Eclectic Sword Mastery</Description>
+        </Ability>
+        <Ability name="Soaring Flight" level="9" page="27" cost="2">
+            <Traits>Morph, Primal, Tengu, Transmutation</Traits>
+            <Prerequisites>Skyborn Tengu Heritage</Prerequisites>
+            <Frequency>once per day</Frequency>
+            <Description>To be a tengu is to be unburdened by the concerns of the world below. You grow a pair of magical wings or expand your existing ones. For 5 minutes, you gain a fly Speed equal to your land Speed or 20 feet, whichever is greater.Soaring Flight Leads To...Soaring Form</Description>
+        </Ability>
+        <Ability name="Tengu Weapon Expertise" level="13" page="27">
+            <Traits>Tengu</Traits>
+            <Prerequisites>Tengu Weapon Familiarity</Prerequisites>
+            <Description>Study has made you an expert with tengu weapons. Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency for the weapons from your Tengu Weapon Familiarity.</Description>
+        </Ability>
+        <Ability name="Great Tengu Form" level="17" page="27">
+            <Traits>Tengu</Traits>
+            <Prerequisites>Long-nosed Form</Prerequisites>
+            <Description>You take on the imposing form of a large, winged oni. Once per day, as part of using Long-Nosed Form, you also gain the benefits of 4th-level enlarge and fly. This lasts for 5 minutes or until you shift out of your Long-Nosed Form, whichever happens first.</Description>
+        </Ability>
+    </Feats>
+</pf2:ancestry>
