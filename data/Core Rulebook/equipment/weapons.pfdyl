@@ -577,7 +577,6 @@
 				<Bulk>0</Bulk>
 				<Hands>1</Hands>
 				<Group>Shield</Group>
-				<Traits>—</Traits>
 				<Description>A shield bash is not actually a weapon, but a maneuver in which you thrust or swing your shield to hit your foe with an impromptu attack.&lt;br&gt;</Description>
 			</Weapon>
 			<Weapon>
@@ -587,7 +586,6 @@
 				<Bulk>0</Bulk>
 				<Hands>1</Hands>
 				<Group>Shield</Group>
-				<Traits>Attached to Shield</Traits>
 				<Description>Typically a round, convex, or conical piece of thick metal attached to the center of a shield, a shield boss increases the bludgeoning damage of a shield bash.</Description>
 			</Weapon>
 			<Weapon>
@@ -597,7 +595,6 @@
 				<Bulk>0</Bulk>
 				<Hands>1</Hands>
 				<Group>Shield</Group>
-				<Traits>Attached to Shield</Traits>
 				<Description>These metal spikes are strategically placed on the defensive side of the shield to deal piercing damage with a shield bash.</Description>
 			</Weapon>
 			<Weapon>
@@ -747,7 +744,6 @@
 				<Bulk>1</Bulk>
 				<Hands>2</Hands>
 				<Group>Bow</Group>
-				<Traits>—</Traits>
 				<Description>This ranged weapon has a bow-like assembly mounted on a handled frame called a tiller. The tiller has a mechanism to lock the bowstring in place, attached to a trigger mechanism that releases the tension and launches a bolt.&lt;br&gt;</Description>
 			</Weapon>
 			<Weapon>
@@ -769,7 +765,6 @@
 				<Bulk>L</Bulk>
 				<Hands>1</Hands>
 				<Group>Bow</Group>
-				<Traits>—</Traits>
 				<Description>Sometimes referred to as an alley bow by rogues or ruffians, this small crossbow fires small bolts that are sometimes used to deliver poison to the target. It’s small enough to be shot one-handed, but it still requires two hands to load.&lt;br&gt;</Description>
 			</Weapon>
 			<Weapon>
@@ -781,7 +776,6 @@
 				<Bulk>2</Bulk>
 				<Hands>2</Hands>
 				<Group>Bow</Group>
-				<Traits>—</Traits>
 				<Description>This large crossbow is harder to load and more substantial than a regular crossbow, but it packs a greater punch.&lt;br&gt;</Description>
 			</Weapon>
 			<Weapon>
@@ -815,7 +809,6 @@
 				<Bulk>L</Bulk>
 				<Hands>1</Hands>
 				<Group>Bomb</Group>
-				<Traits>Varies</Traits>
 				<Description>These bombs come in a variety of types and levels of power, but no matter the variety, you throw the bomb at the target and it explodes, unleashing its alchemical blast. &lt;br&gt;</Description>
 			</Weapon>
 			<Weapon>
