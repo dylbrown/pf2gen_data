@@ -3,14 +3,13 @@
     <Melee>
         <Martial>
             <Weapon category="Artifacts">
-                <!--<Traits>Uncommon, Divine, Evocation, Good, Positive</Traits>-->
                 <Name>Sword Of Dawn</Name>
                 <Price>1000 gp</Price>
                 <Damage>1d12 S</Damage>
                 <Bulk>2</Bulk>
                 <Hands>2</Hands>
                 <Group>Sword</Group>
-                <Traits>Versatile P</Traits>
+                <Traits>Versatile P, Uncommon, Divine, Evocation, Good, Positive</Traits>
                 <Description>The Sword of Dawn is a powerful symbol of a byegone age, and as the sunlight catches it you can glimpse its radiant nature.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate 2&lt;/b&gt;; &lt;b&gt;Frequency 2&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The weapon is sheathed in holy light, and its damage type changes to either positive or good. Killing an evil creature with The Sword of Dawn recharges this ability.</Description>
             </Weapon>
         </Martial>

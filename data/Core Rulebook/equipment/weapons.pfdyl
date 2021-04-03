@@ -1,9 +1,7 @@
 <?xml version = "1.0"?>
-<!--([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)
-<Weapon>\n<Name>\1</Name>\n<Price>\2</Price>\n<Damage>\3</Damage>\n<Bulk>\4</Bulk>\n<Hands>\5</Hands>\n<Group>\6</Group>\n<Traits>\7</Traits>\n</Weapon>
-([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)	([^	\n]*)
-<Weapon>\n<Name>\1</Name>\n<Price>\2</Price>\n<Damage>\3</Damage>\n<Range>\4</Range>\n<Reload>\5</Reload>\n<Bulk>\6</Bulk>\n<Hands>\7</Hands>\n<Group>\8</Group>\n<Traits>\9</Traits>\n</Weapon>-->
-<weapons>
+<pf2:weapons xmlns:pf2="https://dylbrown.github.io"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/weapon.xsd">
 	<Groups>
 		<WeaponGroup>
 			<Name>Axe</Name>
@@ -196,24 +194,23 @@
 				<Traits>Two-hand d8
 				</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Clan dagger</Name>
 				<Price>2 gp</Price>
 				<Damage>1d4 P</Damage>
 				<Bulk>L</Bulk>
 				<Hands>1</Hands>
 				<Group>Knife</Group>
-				<Traits>Agile, dwarf, parry, versatile B
-				</Traits>
+				<Traits>Agile, dwarf, parry, versatile B, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Katar</Name>
 				<Price>3 sp</Price>
 				<Damage>1d4 P</Damage>
 				<Bulk>L</Bulk>
 				<Hands>1</Hands>
 				<Group>Knife</Group>
-				<Traits>Agile, deadly d6, monk</Traits>
+				<Traits>Agile, deadly d6, monk, uncommon</Traits>
 			</Weapon>
 		</Simple>
 		<Martial>
@@ -546,166 +543,151 @@
 				<Group>Flail</Group>
 				<Traits>Disarm, finesse, nonlethal, reach, trip</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Dogslicer</Name>
 				<Price>1 sp</Price>
 				<Damage>1d6 S</Damage>
 				<Bulk>L</Bulk>
 				<Hands>1</Hands>
 				<Group>Sword</Group>
-				<Traits>Agile, backstabber, finesse, goblin
-				</Traits>
+				<Traits>Agile, backstabber, finesse, goblin, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Elven curve blade</Name>
 				<Price>4 gp</Price>
 				<Damage>1d8 S</Damage>
 				<Bulk>2</Bulk>
 				<Hands>2</Hands>
 				<Group>Sword</Group>
-				<Traits>Elf, finesse, forceful
-				</Traits>
+				<Traits>Elf, finesse, forceful, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Filcher's fork</Name>
 				<Price>1 gp</Price>
 				<Damage>1d4 P</Damage>
 				<Bulk>L</Bulk>
 				<Hands>1</Hands>
 				<Group>Spear</Group>
-				<Traits>Agile, backstabber, deadly d6, finesse, halfling, thrown 20 ft.
-				</Traits>
+				<Traits>Agile, backstabber, deadly d6, finesse, halfling, thrown 20 ft., uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Gnome hooked hammer</Name>
 				<Price>2 gp</Price>
 				<Damage>1d6 B</Damage>
 				<Bulk>1</Bulk>
 				<Hands>1</Hands>
 				<Group>Hammer</Group>
-				<Traits>Gnome, trip, two-hand d10, versatile P
-				</Traits>
+				<Traits>Gnome, trip, two-hand d10, versatile P, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Horsechopper</Name>
 				<Price>9 sp</Price>
 				<Damage>1d8 S</Damage>
 				<Bulk>2</Bulk>
 				<Hands>2</Hands>
 				<Group>Polearm</Group>
-				<Traits>Goblin, reach, trip, versatile P
-				</Traits>
+				<Traits>Goblin, reach, trip, versatile P, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Kama</Name>
 				<Price>1 gp</Price>
 				<Damage>1d6 S</Damage>
 				<Bulk>L</Bulk>
 				<Hands>1</Hands>
 				<Group>Knife</Group>
-				<Traits>Agile, monk, trip
-				</Traits>
+				<Traits>Agile, monk, trip, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Katana</Name>
 				<Price>2 gp</Price>
 				<Damage>1d6 S</Damage>
 				<Bulk>1</Bulk>
 				<Hands>1</Hands>
 				<Group>Sword</Group>
-				<Traits>Deadly d8, two-hand d10, versatile P
-				</Traits>
+				<Traits>Deadly d8, two-hand d10, versatile P, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Kukri</Name>
 				<Price>6 sp</Price>
 				<Damage>1d6 S</Damage>
 				<Bulk>L</Bulk>
 				<Hands>1</Hands>
 				<Group>Knife</Group>
-				<Traits>Agile, finesse, trip
-				</Traits>
+				<Traits>Agile, finesse, trip, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Nunchaku</Name>
 				<Price>2 sp</Price>
 				<Damage>1d6 B</Damage>
 				<Bulk>L</Bulk>
 				<Hands>1</Hands>
 				<Group>Club</Group>
-				<Traits>Backswing, disarm, finesse, monk
-				</Traits>
+				<Traits>Backswing, disarm, finesse, monk, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Orc knuckle dagger</Name>
 				<Price>7 sp</Price>
 				<Damage>1d6 P</Damage>
 				<Bulk>L</Bulk>
 				<Hands>1</Hands>
 				<Group>Knife</Group>
-				<Traits>Agile, disarm, orc
-				</Traits>
+				<Traits>Agile, disarm, orc, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Sai</Name>
 				<Price>6 sp</Price>
 				<Damage>1d4 P</Damage>
 				<Bulk>L</Bulk>
 				<Hands>1</Hands>
 				<Group>Knife</Group>
-				<Traits>Agile, disarm, finesse, monk, versatile B
-				</Traits>
+				<Traits>Agile, disarm, finesse, monk, versatile B, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Spiked chain</Name>
 				<Price>3 gp</Price>
 				<Damage>1d8 S</Damage>
 				<Bulk>1</Bulk>
 				<Hands>2</Hands>
 				<Group>Flail</Group>
-				<Traits>Disarm, finesse, trip
-				</Traits>
+				<Traits>Disarm, finesse, trip, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Temple sword</Name>
 				<Price>2 gp</Price>
 				<Damage>1d8 S</Damage>
 				<Bulk>1</Bulk>
 				<Hands>1</Hands>
 				<Group>Sword</Group>
-				<Traits>Monk, trip</Traits>
+				<Traits>Monk, trip, uncommon</Traits>
 			</Weapon>
 		</Martial>
 		<Advanced>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Dwarven waraxe</Name>
 				<Price>3 gp</Price>
 				<Damage>1d8 S</Damage>
 				<Bulk>2</Bulk>
 				<Hands>1</Hands>
 				<Group>Axe</Group>
-				<Traits>Dwarf, sweep, two-hand d12
-				</Traits>
+				<Traits>Dwarf, sweep, two-hand d12, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Gnome flickmace</Name>
 				<Price>3 gp</Price>
 				<Damage>1d8 B</Damage>
 				<Bulk>2</Bulk>
 				<Hands>1</Hands>
 				<Group>Flail</Group>
-				<Traits>Gnome, reach
-				</Traits>
+				<Traits>Gnome, reach, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Orc necksplitter</Name>
 				<Price>2 gp</Price>
 				<Damage>1d8 S</Damage>
 				<Bulk>1</Bulk>
 				<Hands>1</Hands>
 				<Group>Axe</Group>
-				<Traits>Forceful, orc, sweep
-				</Traits>
+				<Traits>Forceful, orc, sweep, uncommon</Traits>
 			</Weapon>
 		</Advanced>
 	</Melee>
@@ -837,7 +819,7 @@
 				<Group>Bow</Group>
 				<Traits>Deadly d10</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Halfling sling staff</Name>
 				<Price>5 gp</Price>
 				<Damage>1d10 B</Damage>
@@ -846,9 +828,9 @@
 				<Bulk>1</Bulk>
 				<Hands>2</Hands>
 				<Group>Sling</Group>
-				<Traits>Halfling, propulsive</Traits>
+				<Traits>Halfling, propulsive, uncommon</Traits>
 			</Weapon>
-			<Weapon Uncommon="true">
+			<Weapon>
 				<Name>Shuriken</Name>
 				<Price>1 cp</Price>
 				<Damage>1d4 P</Damage>
@@ -857,8 +839,8 @@
 				<Bulk>0</Bulk>
 				<Hands>1</Hands>
 				<Group>Dart</Group>
-				<Traits>Agile, monk, thrown</Traits>
+				<Traits>Agile, monk, thrown, uncommon</Traits>
 			</Weapon>
 		</Martial>
 	</Ranged>
-</weapons>
+</pf2:weapons>

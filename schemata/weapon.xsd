@@ -2,17 +2,10 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:pf2="https://dylbrown.github.io"
            targetNamespace="https://dylbrown.github.io">
-    <xs:include schemaLocation="weapon.xsd"/>
+    <xs:include schemaLocation="item.xsd"/>
     <xs:complexType name="Weapon">
         <xs:sequence>
-            <xs:element name="Name" type="xs:string"/>
-            <xs:element name="Price" minOccurs="0">
-                <xs:simpleType>
-                    <xs:restriction base="xs:token">
-                        <xs:pattern value="[\d.]+ [sgpc]p"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
+            <xs:group ref="pf2:NameAndPrice"/>
             <xs:element name="Damage">
                 <xs:simpleType>
                     <xs:restriction base="xs:token">
@@ -20,22 +13,10 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="Bulk" minOccurs="0">
-                <xs:simpleType>
-                    <xs:restriction base="xs:token">
-                        <xs:pattern value="(L|\d+)"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            <xs:element name="Hands" minOccurs="0">
-                <xs:simpleType>
-                    <xs:restriction base="xs:token">
-                        <xs:pattern value="[012]"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            <xs:element name="Group" type="xs:string"/>
-            <xs:element name="Traits" type="xs:string"/>
+            <xs:group ref="pf2:RangedWeaponInfo" minOccurs="0" />
+            <xs:group ref="pf2:BulkAndHands"/>
+            <xs:element name="Group" type="xs:string" />
+            <xs:group ref="pf2:ItemDetails"/>
         </xs:sequence>
         <xs:attribute name="type">
             <xs:annotation>
@@ -52,5 +33,73 @@
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
+        <xs:attribute name="level" type="pf2:level">
+            <xs:annotation>
+                <xs:documentation>
+                    Level associated with this list
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="category" type="xs:string">
+            <xs:annotation>
+                <xs:documentation>
+                    Manually specified category for the item.
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="page" type="xs:nonNegativeInteger">
+            <xs:annotation>
+                <xs:documentation>
+                    Page number of this item in its book.
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
     </xs:complexType>
+    <xs:group name="RangedWeaponInfo">
+        <xs:sequence>
+            <xs:element name="Range">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:pattern value="\d+ ft\."/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Reload" type="xs:nonNegativeInteger"/>
+        </xs:sequence>
+    </xs:group>
+    <xs:complexType name="WeaponsList">
+        <xs:sequence>
+            <xs:element name="Weapon" type="pf2:Weapon" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="WeaponsTypeList">
+        <xs:sequence>
+            <xs:element name="Unarmed" minOccurs="0" type="pf2:WeaponsList" />
+            <xs:element name="Simple" minOccurs="0" type="pf2:WeaponsList" />
+            <xs:element name="Martial" minOccurs="0" type="pf2:WeaponsList" />
+            <xs:element name="Advanced" minOccurs="0" type="pf2:WeaponsList" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="weapons">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Groups" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="WeaponGroup" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Name" type="xs:string" />
+                                        <xs:element name="CritEffect" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Melee" minOccurs="0" type="pf2:WeaponsTypeList" />
+                <xs:element name="Ranged" minOccurs="0" type="pf2:WeaponsTypeList" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>
