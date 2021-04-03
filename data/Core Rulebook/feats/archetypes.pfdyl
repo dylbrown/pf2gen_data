@@ -65,7 +65,7 @@
                 </Description>
             </Ability>
         </AbilitySlot>
-        <AbilitySlot state="choice" name="Barbarian Instinct" contents="Barbarian Instinct" />
+        <AbilitySlot state="choice" name="Barbarian Instinct" type="ClassFeature(Barbarian)" contents="Barbarian Instinct" />
         <AttributeMods Proficiency="Trained">Athletics</AttributeMods>
     </Ability>
     <Ability name="Basic Fury" level="4" page="221">

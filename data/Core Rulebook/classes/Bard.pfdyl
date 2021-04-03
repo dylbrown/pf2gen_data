@@ -11,6 +11,14 @@
         <AbilitySlot state="filled" name="Initial Proficiencies">
             <Ability>
                 <GivesPrerequisites>Bard Muse Features</GivesPrerequisites>
+                <CustomMod>
+                    weaponProficiency("longsword", "Trained");
+                    weaponProficiency("rapier", "Trained");
+                    weaponProficiency("sap", "Trained");
+                    weaponProficiency("shortbow", "Trained");
+                    weaponProficiency("shortsword", "Trained");
+                    weaponProficiency("whip", "Trained");
+                </CustomMod>
                 <AttributeMods Proficiency="Trained">
                     Fortitude, Occultism, Performance, Perception, Reflex, Simple Weapons, Unarmed, Light Armor, Unarmored, Occult Spell Attacks, Occult Spell DCs
                 </AttributeMods>
@@ -227,6 +235,14 @@
 
                     When you critically succeed at an attack roll using one of these weapons, or with an unarmed attack, while one of your compositions is active, you apply the critical specialization effect for that weapon.
                 </Description>
+                <CustomMod>
+                    weaponProficiency("longsword", "Expert");
+                    weaponProficiency("rapier", "Expert");
+                    weaponProficiency("sap", "Expert");
+                    weaponProficiency("shortbow", "Expert");
+                    weaponProficiency("shortsword", "Expert");
+                    weaponProficiency("whip", "Expert");
+                </CustomMod>
                 <AttributeMods Proficiency="Expert">Simple Weapons</AttributeMods>
             </Ability>
         </AbilitySlot>

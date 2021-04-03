@@ -13,6 +13,12 @@
 		<AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
 		<AbilitySlot state="filled" name="Initial Proficiencies">
 			<Ability>
+				<CustomMod>
+					weaponProficiency("rapier", "Trained");
+					weaponProficiency("sap", "Trained");
+					weaponProficiency("shortbow", "Trained");
+					weaponProficiency("shortsword", "Trained");
+				</CustomMod>
 				<AttributeMods Proficiency="Trained">Fortitude, Stealth, Simple Weapons, Light Armor, Unarmed, Unarmored, Class DC (Rogue)</AttributeMods>
 				<AttributeMods Proficiency="Expert">Perception, Reflex, Will</AttributeMods>
 			</Ability>

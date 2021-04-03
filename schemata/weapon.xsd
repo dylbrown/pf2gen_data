@@ -37,5 +37,20 @@
             <xs:element name="Group" type="xs:string"/>
             <xs:element name="Traits" type="xs:string"/>
         </xs:sequence>
+        <xs:attribute name="type">
+            <xs:annotation>
+                <xs:documentation>
+                    Used to individually specify proficiency
+                </xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="Simple"/>
+                    <xs:enumeration value="Martial"/>
+                    <xs:enumeration value="Advanced"/>
+                    <xs:enumeration value="Unarmed"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
     </xs:complexType>
 </xs:schema>
