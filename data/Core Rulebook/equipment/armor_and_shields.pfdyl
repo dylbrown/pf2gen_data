@@ -1,6 +1,8 @@
 <?xml version = "1.0"?>
-<armorAndShields>
-	<Groups>
+<pf2:armorAndShields xmlns:pf2="https://dylbrown.github.io"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/armorAndShields.xsd">
+    <Groups>
         <ArmorGroup>
             <Name>Chain</Name>
             <Effect>The armor is so flexible it can bend with a critical hit and absorb some of the blow. Reduce the damage from critical hits by either 4 + the value of the armor's Potency Rune for medium armor, or 6 + the value of the armor's Potency Rune for heavy armor. This can't reduce the damage to less than the damage rolled for the hit before doubling for a critical hit.</Effect>
@@ -17,79 +19,78 @@
             <Name>Plate</Name>
             <Effect>The sturdy plate provides no purchase for a cutting edge. You gain resistance to slashing damage equal to 1 + the value of the armor's Potency Rune for medium armor, or 2 + the value of the armor's Potency Rune for heavy armor.</Effect>
         </ArmorGroup>
-	</Groups>
+    </Groups>
     <Unarmored>
         <Armor>
             <Name>Explorer's Clothing</Name>
             <Price>1 sp</Price>
-            <AC>0</AC>
+            <AC>+0</AC>
             <MaxDex>+5</MaxDex>
-            <Strength>0</Strength>
             <Bulk>L</Bulk>
+            <Group>Cloth</Group>
             <Traits>Comfort</Traits>
+            <Description>Adventurers who don’t wear armor travel in durable clothing. Though it’s not armor and uses your unarmored defense proficiency, it still has a Dex Cap and can grant an item bonus to AC if etched with potency runes.</Description>
         </Armor>
     </Unarmored>
     <Light>
-        <Armor>
-            <Name>Padded Armor</Name>
-            <Price>2 sp</Price>
-            <AC>+1</AC>
-            <MaxDex>+3</MaxDex>
-			<Strength>10</Strength>
-            <Bulk>L</Bulk>
-            <Traits>Comfort</Traits>
-        </Armor>
-        <Armor>
-            <Name>Leather</Name>
-            <Price>2 gp</Price>
-            <AC>+1</AC>
-            <MaxDex>+4</MaxDex>
-			<ACP>-1</ACP>
-			<Strength>10</Strength>
-            <Bulk>1</Bulk>
-        </Armor>
-        <Armor>
-            <Name>Studded Leather</Name>
-            <Price>3 gp</Price>
-            <AC>+2</AC>
-            <MaxDex>+3</MaxDex>
-			<ACP>-1</ACP>
-			<Strength>12</Strength>
-            <Bulk>1</Bulk>
-        </Armor>
         <Armor>
             <Name>Chain Shirt</Name>
             <Price>5 gp</Price>
             <AC>+2</AC>
             <MaxDex>+3</MaxDex>
-			<ACP>-1</ACP>
-			<Strength>12</Strength>
+            <ACP>-1</ACP>
+            <Strength>12</Strength>
             <Bulk>1</Bulk>
+            <Group>Chain</Group>
             <Traits>Flexible, Noisy</Traits>
-        </Armor>	
+            <Description>Sometimes called a hauberk, this is a long shirt constructed of the same metal rings as chainmail. However, it is much lighter than chainmail and protects only the torso, upper arms, and upper legs of its wearer.</Description>
+        </Armor>
+        <Armor>
+            <Name>Leather Armor</Name>
+            <Price>2 gp</Price>
+            <AC>+1</AC>
+            <MaxDex>+4</MaxDex>
+            <ACP>-1</ACP>
+            <Strength>10</Strength>
+            <Bulk>1</Bulk>
+            <Group>Leather</Group>
+            <Description>A mix of flexible and molded boiled leather, a suit of this type of armor provides some protection with maximum flexibility.&lt;br&gt;</Description>
+        </Armor>
+        <Armor>
+            <Name>Padded Armor</Name>
+            <Price>2 sp</Price>
+            <AC>+1</AC>
+            <MaxDex>+3</MaxDex>
+            <Strength>10</Strength>
+            <Bulk>L</Bulk>
+            <Group>Cloth</Group>
+            <Traits>Comfort</Traits>
+            <Description>This armor is simply a layer of heavy, quilted cloth, but it is sometimes used because it’s so inexpensive. Padded armor is easier to damage and destroy than other types of armor. Heavy armor comes with a padded armor undercoat included in its Price, though it loses the comfort trait when worn under heavy armor. You can wear just that padded armor undercoat to sleep in, if your heavy armor is destroyed, or when otherwise not wearing the full heavy armor. This allows you to keep the armor invested and benefit from the power of any runes on the associated heavy armor, but no one else can wear your heavy armor without the padded undercoat.</Description>
+        </Armor>
+        <Armor>
+            <Name>Studded Leather Armor</Name>
+            <Price>3 gp</Price>
+            <AC>+2</AC>
+            <MaxDex>+3</MaxDex>
+            <ACP>-1</ACP>
+            <Strength>12</Strength>
+            <Bulk>1</Bulk>
+            <Group>Leather</Group>
+            <Description>This leather armor is reinforced with metal studs and sometimes small metal plates, providing most of the flexibility of leather armor with more robust protection.&lt;br&gt;</Description>
+        </Armor>
     </Light>
     <Medium>
         <Armor>
-            <Name>Hide</Name>
-            <Price>2 gp</Price>
-            <AC>+3</AC>
-            <MaxDex>+2</MaxDex>
+            <Name>Breastplate</Name>
+            <Price>8 gp</Price>
+            <AC>+4</AC>
+            <MaxDex>+1</MaxDex>
             <ACP>-2</ACP>
             <SpeedPenalty>-5</SpeedPenalty>
-			<Strength>14</Strength>
+            <Strength>16</Strength>
             <Bulk>2</Bulk>
-			<Group>Leather</Group>
-        </Armor>
-        <Armor>
-            <Name>Scale Mail</Name>
-            <Price>4 gp</Price>
-            <AC>+3</AC>
-            <MaxDex>+2</MaxDex>
-            <ACP>-2</ACP>
-            <SpeedPenalty>-5</SpeedPenalty>
-			<Strength>14</Strength>
-            <Bulk>2</Bulk>
-			<Group>Composite</Group>
+            <Group>Plate</Group>
+            <Description>Though referred to as a breastplate, this type of armor consists of several pieces of plate or half-plate armor that protect the torso, chest, neck, and sometimes the hips and lower legs. It strategically grants some of the protection of plate while allowing greater flexibility and speed.&lt;br&gt;</Description>
         </Armor>
         <Armor>
             <Name>Chain Mail</Name>
@@ -98,34 +99,50 @@
             <MaxDex>+1</MaxDex>
             <ACP>-2</ACP>
             <SpeedPenalty>-5</SpeedPenalty>
-			<Strength>16</Strength>
+            <Strength>16</Strength>
             <Bulk>2</Bulk>
-			<Group>Chain</Group>
+            <Group>Chain</Group>
             <Traits>Flexible, Noisy</Traits>
+            <Description>A suit of chain mail consists of several pieces of armor composed of small metal rings linked together in a protective mesh. It typically includes a chain shirt, leggings, a pair of arms, and a coif, collectively protecting most of the body.</Description>
         </Armor>
         <Armor>
-            <Name>Breastplate</Name>
-            <Price>8 gp</Price>
-            <AC>+4</AC>
-            <MaxDex>+1</MaxDex>
+            <Name>Hide Armor</Name>
+            <Price>2 gp</Price>
+            <AC>+3</AC>
+            <MaxDex>+2</MaxDex>
             <ACP>-2</ACP>
             <SpeedPenalty>-5</SpeedPenalty>
-			<Strength>16</Strength>
+            <Strength>14</Strength>
             <Bulk>2</Bulk>
-			<Group>Plate</Group>
+            <Group>Leather</Group>
+            <Description>A mix of furs, sturdy hide, and sometimes molded boiled leather, this armor provides protection due to its layers of leather, though its bulkiness slows the wearer down and decreases mobility.&lt;br&gt;</Description>
+        </Armor>
+        <Armor>
+            <Name>Scale Mail</Name>
+            <Price>4 gp</Price>
+            <AC>+3</AC>
+            <MaxDex>+2</MaxDex>
+            <ACP>-2</ACP>
+            <SpeedPenalty>-5</SpeedPenalty>
+            <Strength>14</Strength>
+            <Bulk>2</Bulk>
+            <Group>Composite</Group>
+            <Description>Scale mail consists of many metal scales sewn onto a reinforced leather backing, often in the form of a long shirt that protects the torso, arms, and legs.&lt;br&gt;</Description>
         </Armor>
     </Medium>
     <Heavy>
         <Armor>
-            <Name>Splint Mail</Name>
-            <Price>13 gp</Price>
-            <AC>+5</AC>
-            <MaxDex>+1</MaxDex>
+            <Name>Full Plate</Name>
+            <Price>30 gp</Price>
+            <AC>+6</AC>
+            <MaxDex>+0</MaxDex>
             <ACP>-3</ACP>
             <SpeedPenalty>-10</SpeedPenalty>
-			<Strength>16</Strength>
-            <Bulk>3</Bulk>
-			<Group>Composite</Group>
+            <Strength>18</Strength>
+            <Bulk>4</Bulk>
+            <Group>Plate</Group>
+            <Traits>Bulwark</Traits>
+            <Description>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.</Description>
         </Armor>
         <Armor>
             <Name>Half Plate</Name>
@@ -134,21 +151,22 @@
             <MaxDex>+1</MaxDex>
             <ACP>-3</ACP>
             <SpeedPenalty>-10</SpeedPenalty>
-			<Strength>16</Strength>
+            <Strength>16</Strength>
             <Bulk>3</Bulk>
-			<Group>Plate</Group>
+            <Group>Plate</Group>
+            <Description>Half plate consists of most of the upper body plates used in full plate, with lighter or sparser steel plate protection for the arms and legs. This provides some of the protection of full plate with greater flexibility and speed. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.&lt;br&gt;</Description>
         </Armor>
         <Armor>
-            <Name>Full Plate</Name>
-            <Price>30 gp</Price>
-            <AC>+6</AC>
-            <MaxDex>0</MaxDex>
+            <Name>Splint Mail</Name>
+            <Price>13 gp</Price>
+            <AC>+5</AC>
+            <MaxDex>+1</MaxDex>
             <ACP>-3</ACP>
             <SpeedPenalty>-10</SpeedPenalty>
-			<Strength>18</Strength>
-            <Bulk>4</Bulk>
-			<Group>Plate</Group>
-			<Traits>Bulwark</Traits>
+            <Strength>16</Strength>
+            <Bulk>3</Bulk>
+            <Group>Composite</Group>
+            <Description>This type of armor is chain mail reinforced with flexible, interlocking metal plates, typically located on the wearer’s torso, upper arms, and legs. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.&lt;br&gt;</Description>
         </Armor>
     </Heavy>
     <Shield>
@@ -156,38 +174,42 @@
             <Name>Buckler</Name>
             <Price>1 gp</Price>
             <AC>+1</AC>
-			<Hardness>3</Hardness>
-			<HP>6</HP>
-			<BT>3</BT>
+            <Hardness>3</Hardness>
+            <HP>6</HP>
+            <BT>3</BT>
             <Bulk>L</Bulk>
-        </Armor>
-        <Armor>
-            <Name>Wooden Shield</Name>
-            <Price>1 gp</Price>
-            <AC>+2</AC>
-			<Hardness>3</Hardness>
-			<HP>12</HP>
-			<BT>6</BT>
-            <Bulk>1</Bulk>
+            <Description>This very small shield is a favorite of duelists and quick, lightly armored warriors. It’s typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that’s not a weapon in that hand.</Description>
         </Armor>
         <Armor>
             <Name>Steel Shield</Name>
             <Price>2 gp</Price>
             <AC>+2</AC>
-			<Hardness>5</Hardness>
-			<HP>20</HP>
-			<BT>10</BT>
+            <Hardness>5</Hardness>
+            <HP>20</HP>
+            <BT>10</BT>
             <Bulk>1</Bulk>
+            <Description>Like wooden shields, steel shields come in a variety of shapes and sizes. Though more expensive than wooden shields, they are much more durable.</Description>
         </Armor>
         <Armor>
             <Name>Tower Shield</Name>
             <Price>10 gp</Price>
             <AC>+2</AC>
-			<Hardness>5</Hardness>
-			<SpeedPenalty>-5</SpeedPenalty>
-			<HP>20</HP>
-			<BT>10</BT>
+            <SpeedPenalty>-5</SpeedPenalty>
+            <Hardness>5</Hardness>
+            <HP>20</HP>
+            <BT>10</BT>
             <Bulk>4</Bulk>
+            <Description>These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.&lt;br&gt;&lt;br&gt;Getting the +4 bonus for a tower shield requires using the Take Cover action while the shield is raised.</Description>
+        </Armor>
+        <Armor>
+            <Name>Wooden Shield</Name>
+            <Price>1 gp</Price>
+            <AC>+2</AC>
+            <Hardness>3</Hardness>
+            <HP>12</HP>
+            <BT>6</BT>
+            <Bulk>1</Bulk>
+            <Description>Though they come in a variety of shapes and sizes, the protection offered by wooden shields comes from the stoutness of their materials. While wooden shields are less expensive than steel shields, they break more easily.</Description>
         </Armor>
     </Shield>
-</armorAndShields>
+</pf2:armorAndShields>
