@@ -15,14 +15,14 @@
       <xs:element name="Traits" minOccurs="0" type="xs:string">
         <xs:annotation>
           <xs:documentation>
-            A comma-separated list of traits ie. Flourish, Oath, Mental, etc.
+            A comma-separated list of traits e.g. Flourish, Oath, Mental, etc.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
       <xs:element name="GivesTraits" minOccurs="0" type="xs:string">
         <xs:annotation>
           <xs:documentation>
-            A comma-separated list of traits ie. Flourish, Oath, Mental, etc.
+            A comma-separated list of traits e.g. Flourish, Oath, Mental, etc.
           </xs:documentation>
         </xs:annotation>
       </xs:element>
@@ -211,6 +211,13 @@
             </xs:restriction>
           </xs:simpleContent>
         </xs:complexType>
+      </xs:element>
+      <xs:element name="Senses" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            A comma-separated list of senses e.g. Darkvision, Low-Light Vision, etc.
+          </xs:documentation>
+        </xs:annotation>
       </xs:element>
     </xs:sequence>
     <xs:attribute name="name" type="xs:string">

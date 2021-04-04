@@ -63,6 +63,7 @@
         <Category name="General" path="feats/general.pfdyl" />
         <Category name="Skill" path="feats/skill.pfdyl" />
     </Feats>
+    <Senses name="Senses" path="senses.pfdyl" />
     <Setting>
         <Category name="Deities" path="setting/deities.pfdyl" />
         <Category name="Domains" path="setting/domains.pfdyl" />
