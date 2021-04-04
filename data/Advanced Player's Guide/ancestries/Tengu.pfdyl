@@ -11,6 +11,17 @@
     <BonusLanguages>Dwarven, Elven, Halfling, Gnomish, Goblin, Sylvan</BonusLanguages>
     <Senses>Low-Light Vision</Senses>
     <Description>Tengus are a gregarious and resourceful people that have spread far and wide from their ancestral home in Tian Xia, collecting and combining whatever innovations and traditions they happen across with those from their own long history.</Description>
+    <Abilities>
+        <Ability name="Sharp Beak">
+            <Description>With your sharp beak, you are never without a weapon. You have a beak unarmed attack that deals 1d6 piercing damage. Your beak is in the brawling weapon group and has the finesse and unarmed traits.</Description>
+            <Weapon>
+                <Name>Beak</Name>
+                <Damage>1d6 P</Damage>
+                <Group>Brawling</Group>
+                <Traits>finesse, unarmed</Traits>
+            </Weapon>
+        </Ability>
+    </Abilities>
     <Feats>
         <!--Heritages-->
         <Ability name="Jinxed Tengu" level="1" page="25" type="Heritage">

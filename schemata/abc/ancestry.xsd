@@ -23,6 +23,16 @@
         <xs:element name="BonusLanguages" type="pf2:CommaWordList"/>
         <xs:element name="Senses" type="pf2:CommaWordList" minOccurs="0"/>
         <xs:element name="Description" type="xs:string"/>
+        <xs:element name="Abilities" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:choice maxOccurs="unbounded">
+                <xs:element name="Ability" type="pf2:Ability"/>
+                <xs:element name="AbilitySet" type="pf2:AbilitySet"/>
+              </xs:choice>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
         <xs:element name="Feats">
           <xs:complexType>
             <xs:sequence>
