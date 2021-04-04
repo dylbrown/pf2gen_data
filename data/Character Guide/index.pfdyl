@@ -15,6 +15,7 @@
         &lt;p&gt;Written by: John Compton, Sasha Lindley Hall, Amanda Hamon, Mike Kimmel, Luis Loza, Ron Lundeen, Matt Morris, Patchen Mortimer, Andrew Mullen, Mikhail Rekun, Michael Sayre, Owen K.C. Stephens, Isabelle Thorne, Linda Zayas-Palmer&lt;/p&gt;</Description>
     <Ancestries>
         <Ancestry name="Leshy" path="ancestries/Leshy.pfdyl" />
+        <Ancestry name="Lizardfolk" path="ancestries/Lizardfolk.pfdyl" />
     </Ancestries>
     <Traits name="Traits" path="traits.pfdyl" />
 </Source>

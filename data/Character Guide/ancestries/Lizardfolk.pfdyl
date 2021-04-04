@@ -1,0 +1,122 @@
+<?xml version = "1.0"?>
+<pf2:ancestry xmlns:pf2="https://dylbrown.github.io"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/ancestry.xsd">
+    <Name>Lizardfolk</Name>
+    <HP>8</HP>
+    <Size>Medium</Size>
+    <Speed>25</Speed>
+    <AbilityBonuses>Strength, Wisdom, Free</AbilityBonuses>
+    <Languages>Common, Iruxi</Languages>
+    <BonusLanguages>Aquan, Boggard, Draconic, Elven, Jotun, Sylvan</BonusLanguages>
+    <Description> Add Amurrun to the list in the lizardfolk base statistics sidebar of additional languages you can choose if you have a positive Intelligence modifier.</Description>
+    <Feats>
+        <!--Heritages-->
+        <Ability name="Cliffscale Lizardfolk" page="57" type="Heritage">
+            <Traits>Lizardfolk</Traits>
+            <Description>Your toes are adapted for gripping and climbing. You gain the Combat Climber feat as a bonus feat, and as long as you aren’t wearing footwear, you can use the sticky pads on your feet to climb, leaving your hands free. Additionally, if you roll a success on an Athletics check to climb, you get a critical success instead.</Description>
+            <AbilitySlot state="filled" name="Combat Climber (Lizardfolk)" type="General Feat" />
+        </Ability>
+        <Ability name="Frilled Lizardfolk" page="57" type="Heritage">
+            <Traits>Lizardfolk</Traits>
+            <Description>You can flare your neck frill and flex your dorsal spines, Demoralizing your foes. When you do, Demoralize loses the auditory trait and gains the visual trait, and you don’t take a penalty when you attempt to Demoralize a creature that doesn’t understand your language. You also gain the Threatening Approach action.</Description>
+            <AbilitySlot state="filled" name="Threatening Approach">
+                <Ability page="57" cost="2">
+                    <Description>You Stride to be adjacent to a foe and Demoralize that foe. If you succeed, the foe is frightened 2 instead of frightened 1.</Description>
+                </Ability>
+            </AbilitySlot>
+        </Ability>
+        <Ability name="Sandstrider Lizardfolk" page="57" type="Heritage">
+            <Traits>Lizardfolk</Traits>
+            <Description>Your thick scales help you retain water and combat the sun’s glare. You gain fire resistance equal to half your level (minimum 1). Environmental heat effects are one step less extreme for you, and you can go 10 times as long as normal before you are affected by starvation or thirst. However, unless you wear protective gear or take shelter, environmental cold effects are one step more extreme for you.</Description>
+        </Ability>
+        <Ability name="Unseen Lizardfolk" page="57" type="Heritage">
+            <Traits>Lizardfolk</Traits>
+            <Description>You can change your skin color to blend in with your surroundings, making minor shifts with a single action and dramatic changes over the course of an hour. When you’re in an area where your coloration is roughly similar to the environment (for instance, forest green in a forest), you can use the minor, singleaction application of this ability to make localized changes that help you blend into your surroundings, gaining a +2 circumstance bonus to Stealth checks until your surroundings change in coloration or pattern.</Description>
+        </Ability>
+        <Ability name="Wetlander Lizardfolk" page="57" type="Heritage">
+            <Traits>Lizardfolk</Traits>
+            <Description>Your family is descended from the most common lizardfolk heritage, and you are accustomed to aquatic environments. You gain a 15-foot swim Speed.</Description>
+        </Ability>
+        <!--Regular Feats-->
+        <Ability name="Lizardfolk Lore" level="1" page="58">
+            <Traits>Lizardfolk</Traits>
+            <Description>You listened carefully to the tales passed down among your community. You gain the trained proficiency rank in Nature and Survival. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Iruxi Lore.</Description>
+            <AttributeMods Proficiency="Trained">Nature, Survival, Lore (Iruxi)</AttributeMods>
+        </Ability>
+        <Ability name="Marsh Runner" level="1" page="58">
+            <Traits>Lizardfolk</Traits>
+            <Prerequisites>You Have A Swim Speed</Prerequisites>
+            <Description>You are adept at moving through marshy terrain. When you use the Step action, you can ignore difficult terrain caused by flooding, swamps, or quicksand. In addition, when you use the Acrobatics skill to Balance on narrow surfaces or uneven marshy ground, you aren’t flat-footed, and if you roll a success on the Acrobatics check, you get a critical success instead.</Description>
+        </Ability>
+        <Ability name="Parthenogenic Hatchling" level="1" page="58">
+            <Traits>Lizardfolk</Traits>
+            <Description>You were hatched from an unfertilized egg during hard times for your people, and you are a biological copy of your mother. You gain a +1 circumstance bonus to saving throws against diseases. Each of your successful saving throws against a disease reduces its stage by 2, or by 1 for a virulent disease. Each critical success against an ongoing disease reduces its stage by 3, or by 2 for a virulent disease. You take damage only every 2 hours from thirst and every 2 days from starvation, rather than every hour and every day.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat only at 1st level.</Description>
+        </Ability>
+        <Ability name="Razor Claws" level="1" page="58">
+            <Traits>Lizardfolk</Traits>
+            <Description>Your have honed your claws to be deadly. Your claw attack deals 1d6 slashing damage instead of 1d4 and gains the versatile (piercing) trait.</Description>
+            <!--TODO: Support this-->
+        </Ability>
+        <Ability name="Reptile Speaker" level="1" page="58">
+            <Traits>Lizardfolk</Traits>
+            <Description>You hear the sounds of reptiles as language. You can ask questions of, receive answers from, and use the Diplomacy skill with animals that are reptiles (the GM determines which animals count as reptiles).</Description>
+        </Ability>
+        <Ability name="Sharp Fangs" level="1" page="58">
+            <Traits>Lizardfolk</Traits>
+            <Description>Your teeth are formidable weapons. You gain a fangs unarmed attack that deals 1d8 piercing damage.</Description>
+            <Weapon>
+                <Name>Fangs</Name>
+                <Damage>1d8 P</Damage>
+                <Group>Brawling</Group>
+            </Weapon>
+        </Ability>
+        <Ability name="Tail Whip" level="1" page="58">
+            <Traits>Lizardfolk</Traits>
+            <Description>By birth or through training, your tail is strong enough to make for a powerful melee weapon. You gain a tail unarmed attack that deals 1d6 bludgeoning damage and has the sweep trait.</Description>
+            <Weapon>
+                <Name>Tail</Name>
+                <Damage>1d6 B</Damage>
+                <Group>Brawling</Group>
+                <Traits>Sweep</Traits>
+            </Weapon>
+        </Ability>
+        <Ability name="Envenom Fangs" level="5" page="59" cost="1">
+            <Traits>Lizardfolk</Traits>
+            <Prerequisites>Sharp Fangs</Prerequisites>
+            <Frequency>a number of times per day equal to your level</Frequency>
+            <Description>You envenom your fangs. If the next fangs Strike you make before the end of your next turn hits and deals damage, the Strike deals an additional 1d6 poison damage. On a critical failure, the poison is wasted as normal.</Description>
+        </Ability>
+        <Ability name="Gecko's Grip" level="5" page="59">
+            <Traits>Lizardfolk</Traits>
+            <Prerequisites>Cliffscale Lizardfolk Heritage</Prerequisites>
+            <Description>You stick to walls with a preternatural grip. You gain a climb Speed of 15 feet.</Description>
+        </Ability>
+        <Ability name="Iruxi Unarmed Cunning" level="5" page="59">
+            <Traits>Lizardfolk</Traits>
+            <Description>You make the most of your iruxi unarmed attacks. Whenever you score a critical hit with a claw or an unarmed attack you gained from a lizardfolk ancestry feat, you apply the unarmed attack’s critical specialization effect.</Description>
+        </Ability>
+        <Ability name="Shed Tail" level="5" page="59" cost="Reaction">
+            <Traits>Lizardfolk</Traits>
+            <Prerequisites>Tail Whip</Prerequisites>
+            <Trigger>You become grabbed.</Trigger>
+            <Requirements>You have a fully grown tail.</Requirements>
+            <Description>You can shed your tail to escape. You cease being grabbed, then Stride without triggering any reactions from the creature that grabbed you. It takes 1 week for your tail to fully grow back. Until it does, you can’t use your tail unarmed attack, and you take a –2 circumstance penalty on checks to Balance.</Description>
+        </Ability>
+        <Ability name="Swift Swimmer" level="5" page="59">
+            <Traits>Lizardfolk</Traits>
+            <Prerequisites>Wetlander Lizardfolk Heritage</Prerequisites>
+            <Description>You swim faster than most iruxi. Your swim Speed increases to 25 feet.</Description>
+        </Ability>
+        <Ability name="Terrain Advantage" level="9" page="59">
+            <Traits>Lizardfolk</Traits>
+            <Description>You can take advantage of the terrain to bypass foes’ defenses. Non-lizardfolk creatures in difficult terrain are flat-footed to you. If you have a swim Speed, non-lizardfolk creatures that are in water and lack a swim Speed are also flat-footed to you.</Description>
+        </Ability>
+        <Ability name="Iruxi Unarmed Expertise" level="13" page="59">
+            <Traits>Lizardfolk</Traits>
+            <Prerequisites>Iruxi Unarmed Cunning</Prerequisites>
+            <Description>Your unarmed attacks blend tradition and training. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the claw and unarmed attacks you gained from lizardfolk ancestry feats.</Description>
+            <!--TODO: Support This-->
+        </Ability>
+    </Feats>
+</pf2:ancestry>

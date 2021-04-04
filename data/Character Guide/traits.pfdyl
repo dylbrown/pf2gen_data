@@ -7,5 +7,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             <Name>Leshy</Name>
             <Description>Leshies are living plants animated by primal magic.</Description>
         </Trait>
+        <Trait page="133">
+            <Name>Lizardfolk</Name>
+            <Description>These reptilian humanoids, also known as iruxi, are extremely adaptable and patient.</Description>
+        </Trait>
     </Category>
 </pf2:traits>
