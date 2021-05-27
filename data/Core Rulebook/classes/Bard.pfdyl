@@ -377,6 +377,7 @@
             <Traits>Bard</Traits>
             <Prerequisites>Maestro Muse, Focus Pool</Prerequisites>
             <Description>By adding a flourish, you make your compositions last longer. You learn the lingering composition focus spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spellcasting listName="Bard" type="Spontaneous" tradition="Occult" ability="Cha" />
             <Spell type="Focus" name="Lingering Composition"/>
         </Ability>
         <Ability name="Reach Spell" level="1" page="122" cost="1">

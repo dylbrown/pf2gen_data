@@ -337,6 +337,7 @@
         <Ability name="Cantrip Expansion" level="2" page="100">
             <Traits>Sorcerer</Traits>
             <Description>A greater understanding of your magic broadens your range of simple spells.Prepared Caster (Cleric, etc.): You can prepare two additional cantrips each day.Spontaneous Caster (Sorcerer, etc.): Add two additional cantrips from your spell list to your repertoire.</Description>
+            <Spellcasting listName="Sorcerer" />
             <SpellSlots count="2" level="0"/>
         </Ability>
         <Ability name="Enhanced Familiar" level="2" page="134">

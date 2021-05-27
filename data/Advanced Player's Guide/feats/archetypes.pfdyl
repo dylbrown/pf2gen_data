@@ -877,6 +877,14 @@
 		<AttributeMods Proficiency="Trained">Lore (Loremaster)</AttributeMods>
 		<!--TODO: Support scaling lore-->
     </Ability>
+    <Ability name="Loremaster's Etude" level="4" page="179">
+		<!--Borrowed From Bard-->
+        <Traits>Archetype, Fortune</Traits>
+        <Archetype>Loremaster</Archetype>
+        <Prerequisites>Loremaster Dedication</Prerequisites>
+        <Description>You magically unlock memories, making them easier to recall. You learn the loremaster’s etude composition spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+		<Spell type="Focus Cantrip" name="Loremaster's Etude"/>
+    </Ability>
     <Ability name="Magical Edification" level="4" page="179">
         <Traits>Archetype</Traits>
         <Archetype>Loremaster</Archetype>
@@ -895,12 +903,33 @@
         <Prerequisites>Loremaster Dedication</Prerequisites>
         <Description>During your daily preparations, you can study a particular subject to gain the trained proficiency rank in one Lore skill of your choice. You must have interacted with that subject in some way on the previous day, whether by reading about it, talking to someone knowledgeable on the topic, or experiencing it yourself. Alternatively, you can reference your notes to instead choose a Lore skill you've prepared before with Quick Study. This proficiency lasts until you prepare again. Since this proficiency is temporary, you can't use it as a prerequisite for a skill increase or a permanent character option like a feat.</Description>
     </Ability>
+    <Ability name="Assured Knowledge" level="8" page="179">
+		<!--Borrowed From Bard-->
+        <Traits>Archetype</Traits>
+        <Archetype>Loremaster</Archetype>
+        <Prerequisites>Loremaster Dedication</Prerequisites>
+        <Description>You can procure information with confidence. Whenever you Recall Knowledge using any skill (including Bardic Lore), you can forgo rolling your check to instead receive a result of 10 + your proficiency bonus (don't apply any other bonuses, penalties, or modifiers). As long as you are an expert in a skill, you meet the prerequisites for the Automatic Knowledge skill feat in that skill, even if you don't have Assurance in that skill.</Description>
+    </Ability>
     <Ability name="Greater Magical Edification" level="10" page="179">
         <Traits>Archetype</Traits>
         <Archetype>Loremaster</Archetype>
         <Prerequisites>Magical Edification</Prerequisites>
         <Description>You've continued to expand your compendium of tools to compile knowledge. You can cast comprehend language, mindlink, and secret page as innate occult spells, each once per day. When you cast &lt;i&gt;secret page&lt;/i&gt;, it is automatically heightened to the same spell level as your cantrips from Magical Edification.</Description>
     </Ability>
+    <Ability name="Enigma's Knowledge" level="14" page="179">
+		<!--Borrowed From Bard-->
+        <Traits>Archetype</Traits>
+        <Archetype>Loremaster</Archetype>
+        <Prerequisites>Loremaster Dedication, Assured Knowledge</Prerequisites>
+        <Description>Your muse whispers knowledge to you at all the right times. You gain the benefits of the Automatic Knowledge skill feat with any skill you can use to Recall Knowledge. As per the special clause in the Automatic Knowledge feat, you can still only use Automatic Knowledge once per round.</Description>
+    </Ability>
+	<Ability name="True Hypercognition" level="16" page="179" cost="1">
+		<!--Borrowed From Bard-->
+        <Traits>Archetype</Traits>
+        <Archetype>Loremaster</Archetype>
+        <Prerequisites>Loremaster Dedication</Prerequisites>
+		<Description>Your mind works at an incredible pace. You instantly use up to five Recall Knowledge actions. If you have any special abilities or free actions that would normally be triggered when you Recall Knowledge, you can't use them for these actions.</Description>
+	</Ability>
     <!--Marshal-->
     <Ability name="Marshal Dedication" level="2" page="180">
         <Traits>Archetype, Dedication</Traits>
