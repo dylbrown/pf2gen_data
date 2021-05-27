@@ -1195,6 +1195,12 @@
         <Requires>Trained In Crafting</Requires>
         <Description>You make a point of always having a few toxins near at hand—you never know when some arsenic or the like might prove useful. You gain the basic alchemy benefits, though they can be used only for alchemical poisons. You gain batches of infused reagents per day equal to your level. Your advanced alchemy level for creating these is 1 and doesn't increase on its own.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained at least two other feats from the poisoner archetype.</Description>
     </Ability>
+	<Ability name="Poison Resistance" level="4" page="186">
+		<Traits>Archetype</Traits>
+        <Archetype>Poisoner</Archetype>
+        <Prerequisites>Poisoner Dedication</Prerequisites>
+		<Description>Your body has become fortified against toxins. You gain poison resistance equal to half your level, and you gain a +1 status bonus to saving throws against poisons.</Description>
+	</Ability>
     <Ability name="Poisoner's Twist" level="4" page="186" cost="1">
         <Traits>Archetype</Traits>
         <Archetype>Poisoner</Archetype>
@@ -1202,6 +1208,12 @@
         <Requirements>Your last action was a successful melee Strike that dealt damage against a target that is afflicted by a poison, and you know which poison.</Requirements>
         <Description>Poisons attack specific parts of the body—one venom might target the lungs, another the circulatory system, while another deteriorates the nerves. You know how to take advantage of such weaknesses. You deal 1d6 damage of the required Strike's damage type and 1d6 poison damage to the target. If you're at least 18th level, you deal 2d6 damage of each type.</Description>
     </Ability>
+	<Ability name="Subtle Delivery" level="4" page="186">
+		<Traits>Archetype</Traits>
+        <Archetype>Poisoner</Archetype>
+        <Prerequisites>Poisoner Dedication</Prerequisites>
+		<Description>You can capably deliver toxins with a blowgun. Your blowgun Strikes can apply injury poisons even if they deal no damage due to a creature's resistance. If you critically succeed at an attack roll using a blowgun loaded with a dart you've poisoned and the target rolls a failure on the poison's initial save, the target critically fails instead.</Description>
+	</Ability>
     <Ability name="Expert Poisoner" level="6" page="186">
         <Traits>Archetype</Traits>
         <Archetype>Poisoner</Archetype>
@@ -1216,12 +1228,50 @@
         <Requirements>You have prepared your clothing to poison attackers (see below).</Requirements>
         <Description>In nature, certain animals are covered in venomous spines, such that even touching them is deadly. To use this reaction, you must have brushed poison onto your clothing or woven sharp poisoned needles into the garment's fabric. This takes 10 minutes and uses one dose of contact or injury poison. You can have only one such poison suffused into your clothing at a time.&lt;br&gt;&lt;br&gt; When you use this reaction, the triggering creature is exposed to the suffused poison.</Description>
     </Ability>
+	<Ability name="Poison Weapon" level="6" cost="One" page="186">
+        <Traits>Archetype</Traits>
+        <Archetype>Poisoner</Archetype>
+        <Prerequisites>Poisoner Dedication</Prerequisites>
+		<Requirements>You are wielding a piercing or slashing weapon and have a free hand.</Requirements>
+		<Description>You apply a poison to the required weapon. If your next attack with that weapon before the end of your next turn hits and deals damage, it applies the effects of the poison, provided that poison can be delivered by contact or injury. If you critically fail the attack roll, the poison is wasted as normal.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; During your daily preparations, you can prepare a number of simple injury poisons equal to your rogue level. These poisons deal 1d4 poison damage. Only you can apply these poisons properly, and they expire the next time you prepare.</Description>
+	</Ability>
+    <Ability name="Tenacious Toxins" level="6" page="186">
+        <Traits>Archetype</Traits>
+        <Archetype>Poisoner</Archetype>
+        <Prerequisites>Poisoner Dedication</Prerequisites>
+        <Description>Your victims tend to expire long before your poisons, since the latter have been specifically formulated to last longer. The maximum duration of any poison you create increases by an amount equal to the poison's stage 1 interval, to a maximum of twice the poison's maximum duration.</Description>
+    </Ability>
     <Ability name="Acquired Tolerance" level="8" page="186" cost="Reaction">
         <Traits>Archetype, Fortune</Traits>
         <Archetype>Poisoner</Archetype>
         <Prerequisites>Poisoner Dedication</Prerequisites>
         <Trigger>You fail a save against a poison.</Trigger>
         <Description>A small amount of poison, taken at nonlethal doses, can help the body build up a resistance against a more deadly dosage. Reroll the triggering check and use the second result. Once you use Acquired Tolerance, you can continue to use it against the same type of poison that day, but you can't use it against a different type of poison until after you make your next daily preparations. For instance, if you used the reaction on a save against giant scorpion venom, you could use it again against giant scorpion venom even if it came from a different source, but you couldn't use it against nettleweed residue, lich dust, or another poison.</Description>
+    </Ability>
+    <Ability name="Sticky Poison" level="8" page="186">
+        <Traits>Archetype</Traits>
+        <Archetype>Poisoner</Archetype>
+        <Prerequisites>Poisoner Dedication</Prerequisites>
+        <Description>A combination of additional viscosity and careful application keeps your weapons poisoned even when suffering significant wear and tear. If your Strike with a poisoned weapon would expend its poison without your target attempting an initial save (due to resistance or your Strike being a critical failure, for example), attempt a DC 5 flat check. On a success, your weapon remains poisoned. If your Strike with a poisoned weapon succeeds, attempt a DC 17 flat check. On a success, your weapon remains poisoned until the end of your next turn.</Description>
+    </Ability>
+	<Ability name="Improved Poison Weapon" level="10" page="186">
+        <Traits>Archetype</Traits>
+        <Archetype>Poisoner</Archetype>
+        <Prerequisites>Poisoner Dedication, Poison Weapon</Prerequisites>
+		<Description>You deliver poisons in ways that maximize their harmful effects. When you apply a simple poison with Poison Weapon, the poison deals 2d4 poison damage instead of 1d4 poison damage. You don't waste a poison you apply with Poison Weapon on a critically failed attack roll.</Description>
+	</Ability>
+    <Ability name="Pinpoint Poisoner" level="10" page="186">
+        <Traits>Archetype</Traits>
+        <Archetype>Poisoner</Archetype>
+        <Prerequisites>Poisoner Dedication</Prerequisites>
+        <Description>Unsuspecting targets are especially vulnerable to your poisons. When you successfully Strike a flat-footed creature with a poisoned weapon or expose a flat-footed creature to an inhaled poison, the flat-footed condition also gives that creature a –2 circumstance penalty to its initial save against that poison.</Description>
+    </Ability>
+    <Ability name="Chemical Contagion" level="18" page="186" cost="Reaction">
+        <Traits>Archetype, Fortune</Traits>
+        <Archetype>Poisoner</Archetype>
+        <Prerequisites>Poisoner Dedication</Prerequisites>
+        <Trigger>A creature within 30 feet critically fails its initial saving throw against a poison you created.</Trigger>
+        <Description>With carefully engineered enzymes, you coax some of your poison to infect another target, using the original victim as a carrier. A creature adjacent to the triggering creature is exposed to the triggering poison.</Description>
     </Ability>
     <!--Ritualist-->
     <Ability name="Ritualist Dedication" level="4" page="187">
