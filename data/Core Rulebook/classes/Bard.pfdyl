@@ -372,6 +372,8 @@
             <Traits>Bard</Traits>
             <Prerequisites>Enigma Muse</Prerequisites>
             <Description>Your studies make you informed on every subject. You are trained in Bardic Lore, a special Lore skill that can be used only to Recall Knowledge, but on any topic. If you have legendary proficiency in Occultism, you gain expert proficiency in Bardic Lore, but you can't increase your proficiency rank in Bardic Lore by any other means.</Description>
+            <AttributeMods Proficiency="Trained">Lore (Bardic)</AttributeMods>
+            <!--TODO: Support scaling lore-->
         </Ability>
         <Ability name="Lingering Composition" level="1" page="99">
             <Traits>Bard</Traits>
