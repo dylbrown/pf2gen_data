@@ -883,7 +883,8 @@
         <Archetype>Loremaster</Archetype>
         <Prerequisites>Loremaster Dedication</Prerequisites>
         <Description>You magically unlock memories, making them easier to recall. You learn the loremaster’s etude composition spell. Increase the number of Focus Points in your focus pool by 1.</Description>
-		<Spell type="Focus Cantrip" name="Loremaster's Etude"/>
+		<Spellcasting listName="Loremaster" tradition="Occult" type="FocusOnly" />
+        <Spell type="Focus Cantrip" name="Loremaster's Etude"/>
     </Ability>
     <Ability name="Magical Edification" level="4" page="179">
         <Traits>Archetype</Traits>
