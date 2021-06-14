@@ -12,7 +12,6 @@
         <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
         <AbilitySlot state="filled" name="Initial Proficiencies">
             <Ability>
-                <GivesPrerequisites></GivesPrerequisites>
                 <AttributeMods Proficiency="Trained">Perception, Fortitude, Reflex, Simple Weapons, Unarmed, Unarmored</AttributeMods>
                 <AttributeMods Proficiency="Expert">Will</AttributeMods>
             </Ability>

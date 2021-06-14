@@ -684,6 +684,7 @@
             [#list character.spells.spellLists as listName, spellList]
                 [#if spellList.casterType == "None"]
                     <div id="focus-rolls" class="do-not-break">
+                        <div class="spells-title col-section-title">${listName}</div>
                         <div class="spells-stats">
                             <div class="rollLabel">Spell Attack</div>
                             <div class="numBox rounded">${character.attributes.get(spellList.spellAttacksAttribute?lower_case, listName).total?string.@s}</div>

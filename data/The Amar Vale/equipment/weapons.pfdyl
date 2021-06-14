@@ -2,6 +2,12 @@
 <weapons>
     <Melee>
         <Martial>
+            <Weapon>
+                <Name>Claw</Name>
+                <Damage>1d6 S</Damage>
+                <Group>Brawling</Group>
+                <Traits>Agile, unarmed</Traits>
+            </Weapon>
             <Weapon category="Artifacts">
                 <Name>Sword Of Dawn</Name>
                 <Price>1000 gp</Price>
