@@ -85,10 +85,12 @@
     [/#list]
 [/#if]
     <hr />
-	[#assign count=0]
+	[#assign anyStrike=false]
+    [#assign attack=false]
     [#list character.combat.attacks as weapon]
         [#assign item=weapon.getItem()]
-        [#assign count++]
+        [#assign anyStrike=true]
+        [#assign attack=true]
         [#if item.category == "Ranged Weapon"]
             <b>① Ranged</b>
         [#else]
@@ -102,9 +104,10 @@
                     [/#list]
         [#sep]<br>[/#sep]
 	[/#list]
+    [#if attack]<br>[/#if]
     [#list character.inventory as item]
         [#if item.hasExtension("Weapon")]
-			[#assign count++]
+            [#assign anyStrike=true]
             [#if item.category == "Ranged Weapon"]
                 <b>① Ranged</b>
             [#else]
@@ -119,7 +122,7 @@
 			[#sep]<br>[/#sep]
         [/#if]
 	[/#list]
-	[#if count gt 0]<hr />[/#if]
+	[#if anyStrike]<hr />[/#if]
 	[#list character.abilities as ability]
 		<p>
 		<b>${ability.name}</b><br>

@@ -254,47 +254,41 @@ A &lt;i&gt;vanishing wayfinder&lt;/i&gt; is crafted of ivory chased with gold an
 
 You can activate the hat as a 2-action activity, you can activate it any number of times per day, and the &lt;i&gt;illusory disguise&lt;/i&gt; is 2nd level.</Description>
 </Item>
-<Item level="2" page="611">
-	<Name>Handwraps of Mighty Blows (+1)</Name>
+<Item level="0" page="611">
+	<Name>Handwraps of Mighty Blows</Name>
 	<Price>35 gp</Price>
 	<Traits>Invested, Magical, Transmutation</Traits>
+	<Enchantable>Weapon Runes</Enchantable>
 	<Usage>worn gloves</Usage>
 	<Description>As you invest these embroidered strips of cloth, you must meditate and slowly wrap them around your hands. These handwraps have weapon runes etched into them to give your unarmed attacks the benefits of those runes, making your unarmed attacks work like magic weapons. For example, &lt;i&gt;+1 striking handwraps of mighty blows&lt;/i&gt; would give you a +1 item bonus to attack rolls with your unarmed attacks and increase the damage of your unarmed attacks from one weapon die to two (normally 2d4 instead of 1d4, but if your fists have a different weapon damage die or you have other unarmed attacks, use two of that die size instead).&lt;br&gt;&lt;br&gt; You can upgrade, add, and transfer runes to and from the handwraps just as you would for a weapon, and you can attach talismans to the handwraps. Treat the handwraps as melee weapons of the brawling group with light Bulk for these purposes. Property runes apply only when they would be applicable to the unarmed attack you're using. For example, a property that must be applied to a slashing weapon wouldn't function when you attacked with a fist, but you would gain its benefits if you attacked with a claw or some other slashing unarmed attack.&lt;br&gt;&lt;br&gt; The entries below list the most typical combinations of fundamental runes.&lt;br&gt;</Description>
-</Item>
-<Item level="4" page="611">
-	<Name>Handwraps of Mighty Blows (+1 Striking)</Name>
-	<Price>100 gp</Price>
-	<Traits>Invested, Magical, Transmutation</Traits>
-	<Usage>worn gloves</Usage>
-	<Description>As you invest these embroidered strips of cloth, you must meditate and slowly wrap them around your hands. These handwraps have weapon runes etched into them to give your unarmed attacks the benefits of those runes, making your unarmed attacks work like magic weapons. For example, &lt;i&gt;+1 striking handwraps of mighty blows&lt;/i&gt; would give you a +1 item bonus to attack rolls with your unarmed attacks and increase the damage of your unarmed attacks from one weapon die to two (normally 2d4 instead of 1d4, but if your fists have a different weapon damage die or you have other unarmed attacks, use two of that die size instead).&lt;br&gt;&lt;br&gt; You can upgrade, add, and transfer runes to and from the handwraps just as you would for a weapon, and you can attach talismans to the handwraps. Treat the handwraps as melee weapons of the brawling group with light Bulk for these purposes. Property runes apply only when they would be applicable to the unarmed attack you're using. For example, a property that must be applied to a slashing weapon wouldn't function when you attacked with a fist, but you would gain its benefits if you attacked with a claw or some other slashing unarmed attack.&lt;br&gt;&lt;br&gt; The entries below list the most typical combinations of fundamental runes.&lt;br&gt;</Description>
-</Item>
-<Item level="10" page="611">
-	<Name>Handwraps of Mighty Blows (+2 Striking)</Name>
-	<Price>1,000 gp</Price>
-	<Traits>Invested, Magical, Transmutation</Traits>
-	<Usage>worn gloves</Usage>
-	<Description>As you invest these embroidered strips of cloth, you must meditate and slowly wrap them around your hands. These handwraps have weapon runes etched into them to give your unarmed attacks the benefits of those runes, making your unarmed attacks work like magic weapons. For example, &lt;i&gt;+1 striking handwraps of mighty blows&lt;/i&gt; would give you a +1 item bonus to attack rolls with your unarmed attacks and increase the damage of your unarmed attacks from one weapon die to two (normally 2d4 instead of 1d4, but if your fists have a different weapon damage die or you have other unarmed attacks, use two of that die size instead).&lt;br&gt;&lt;br&gt; You can upgrade, add, and transfer runes to and from the handwraps just as you would for a weapon, and you can attach talismans to the handwraps. Treat the handwraps as melee weapons of the brawling group with light Bulk for these purposes. Property runes apply only when they would be applicable to the unarmed attack you're using. For example, a property that must be applied to a slashing weapon wouldn't function when you attacked with a fist, but you would gain its benefits if you attacked with a claw or some other slashing unarmed attack.&lt;br&gt;&lt;br&gt; The entries below list the most typical combinations of fundamental runes.&lt;br&gt;</Description>
-</Item>
-<Item level="12" page="611">
-	<Name>Handwraps of Mighty Blows (+2 Greater Striking)</Name>
-	<Price>2,000 gp</Price>
-	<Traits>Invested, Magical, Transmutation</Traits>
-	<Usage>worn gloves</Usage>
-	<Description>As you invest these embroidered strips of cloth, you must meditate and slowly wrap them around your hands. These handwraps have weapon runes etched into them to give your unarmed attacks the benefits of those runes, making your unarmed attacks work like magic weapons. For example, &lt;i&gt;+1 striking handwraps of mighty blows&lt;/i&gt; would give you a +1 item bonus to attack rolls with your unarmed attacks and increase the damage of your unarmed attacks from one weapon die to two (normally 2d4 instead of 1d4, but if your fists have a different weapon damage die or you have other unarmed attacks, use two of that die size instead).&lt;br&gt;&lt;br&gt; You can upgrade, add, and transfer runes to and from the handwraps just as you would for a weapon, and you can attach talismans to the handwraps. Treat the handwraps as melee weapons of the brawling group with light Bulk for these purposes. Property runes apply only when they would be applicable to the unarmed attack you're using. For example, a property that must be applied to a slashing weapon wouldn't function when you attacked with a fist, but you would gain its benefits if you attacked with a claw or some other slashing unarmed attack.&lt;br&gt;&lt;br&gt; The entries below list the most typical combinations of fundamental runes.&lt;br&gt;</Description>
-</Item>
-<Item level="16" page="611">
-	<Name>Handwraps of Mighty Blows (+3 Greater Striking)</Name>
-	<Price>10,000 gp</Price>
-	<Traits>Invested, Magical, Transmutation</Traits>
-	<Usage>worn gloves</Usage>
-	<Description>As you invest these embroidered strips of cloth, you must meditate and slowly wrap them around your hands. These handwraps have weapon runes etched into them to give your unarmed attacks the benefits of those runes, making your unarmed attacks work like magic weapons. For example, &lt;i&gt;+1 striking handwraps of mighty blows&lt;/i&gt; would give you a +1 item bonus to attack rolls with your unarmed attacks and increase the damage of your unarmed attacks from one weapon die to two (normally 2d4 instead of 1d4, but if your fists have a different weapon damage die or you have other unarmed attacks, use two of that die size instead).&lt;br&gt;&lt;br&gt; You can upgrade, add, and transfer runes to and from the handwraps just as you would for a weapon, and you can attach talismans to the handwraps. Treat the handwraps as melee weapons of the brawling group with light Bulk for these purposes. Property runes apply only when they would be applicable to the unarmed attack you're using. For example, a property that must be applied to a slashing weapon wouldn't function when you attacked with a fist, but you would gain its benefits if you attacked with a claw or some other slashing unarmed attack.&lt;br&gt;&lt;br&gt; The entries below list the most typical combinations of fundamental runes.&lt;br&gt;</Description>
-</Item>
-<Item level="19" page="611">
-	<Name>Handwraps of Mighty Blows (+3 Major Striking)</Name>
-	<Price>40,000 gp</Price>
-	<Traits>Invested, Magical, Transmutation</Traits>
-	<Usage>worn gloves</Usage>
-	<Description>As you invest these embroidered strips of cloth, you must meditate and slowly wrap them around your hands. These handwraps have weapon runes etched into them to give your unarmed attacks the benefits of those runes, making your unarmed attacks work like magic weapons. For example, &lt;i&gt;+1 striking handwraps of mighty blows&lt;/i&gt; would give you a +1 item bonus to attack rolls with your unarmed attacks and increase the damage of your unarmed attacks from one weapon die to two (normally 2d4 instead of 1d4, but if your fists have a different weapon damage die or you have other unarmed attacks, use two of that die size instead).&lt;br&gt;&lt;br&gt; You can upgrade, add, and transfer runes to and from the handwraps just as you would for a weapon, and you can attach talismans to the handwraps. Treat the handwraps as melee weapons of the brawling group with light Bulk for these purposes. Property runes apply only when they would be applicable to the unarmed attack you're using. For example, a property that must be applied to a slashing weapon wouldn't function when you attacked with a fist, but you would gain its benefits if you attacked with a claw or some other slashing unarmed attack.&lt;br&gt;&lt;br&gt; The entries below list the most typical combinations of fundamental runes.&lt;br&gt;</Description>
+	<CustomMod recalculate="Never">
+		import model.items.runes.runedItems.RunedWeapon;
+		def isUnarmed = {weapon ->
+			for(trait in weapon.getItem().getTraits()) {
+				if(trait.getName() == "Unarmed") {
+					return true;
+				}
+			}
+			return false;
+		}
+		def attackModifier = {targetWeapon, applyingItem, attack ->
+			if(!isUnarmed(targetWeapon)) return attack;
+			def runedWeapon = applyingItem.getExtension(RunedWeapon.class);
+			if(runedWeapon != null) {
+				return attack + runedWeapon.getAttackBonus();
+			}
+			return attack;
+		}
+		def damageModifier = {targetWeapon, applyingItem, damage ->
+			if(!isUnarmed(targetWeapon)) return damage;
+			def runedWeapon = applyingItem.getExtension(RunedWeapon.class);
+			if(runedWeapon != null) {
+				return runedWeapon.getDamage(targetWeapon, damage);
+			}
+			return damage;
+		}
+		strikeModifier("Handwraps of Mighty Blows", attackModifier, damageModifier, item)
+	</CustomMod>
 </Item>
 <Item level="3" page="609">
 	<Name>Doubling Rings</Name>
