@@ -457,6 +457,7 @@ The goggles grant a +2 bonus. If you fail a check to Track, you can try again af
 	<Traits>Illusion, Invested, Magical</Traits>
 	<Usage>worn</Usage>
 	<Description>This elegant copper ring has miniature images of songbirds engraved around its circumference. You gain a +1 item bonus to Deception checks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; Twisting the ring around your finger allows you to magically throw your voice, with the effects of a &lt;i&gt;ventriloquism&lt;/i&gt; spell (DC 19).&lt;br&gt;</Description>
+	<Bonuses>+1 Deception</Bonuses>
 </Item>
 <Item level="9" page="617">
 	<Name>Ventriloquist's Ring (Greater)</Name>
@@ -466,6 +467,7 @@ The goggles grant a +2 bonus. If you fail a check to Track, you can try again af
 	<Description>This elegant copper ring has miniature images of songbirds engraved around its circumference. You gain a +1 item bonus to Deception checks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; Twisting the ring around your finger allows you to magically throw your voice, with the effects of a &lt;i&gt;ventriloquism&lt;/i&gt; spell (DC 19).&lt;br&gt;
 
 The ring grants a +2 bonus. When you activate the ring, you gain the effects of 2nd-level &lt;i&gt;ventriloquism&lt;/i&gt; (DC 27). You can activate the ring any number of times per day.</Description>
+	<Bonuses>+2 Deception</Bonuses>
 </Item>
 <Item level="4" page="612">
 	<Name>Healer's Gloves</Name>

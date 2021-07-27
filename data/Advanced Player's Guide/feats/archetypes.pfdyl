@@ -830,6 +830,9 @@
         <Archetype>Linguist</Archetype>
         <Prerequisites>You Speak At Least Three Languages.</Prerequisites>
         <Description>You have studied languages and their development. You become trained in Society; if you were already trained in Society, you instead become an expert in Society. You gain the Multilingual skill feat twice.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the linguist archetype.</Description>
+        <AbilitySlot state="filled" name="Multilingual" type="Skill Feat" contents="Multilingual" />
+        <AbilitySlot state="filled" name="Multilingual" type="Skill Feat" contents="Multilingual" />
+        <AttributeMods Proficiency="Expert">Society</AttributeMods> <!--TODO: Support instead clause -->
     </Ability>
     <Ability name="Read Shibboleths" level="7" page="178">
         <Traits>Archetype, Linguistic, Skill</Traits>
