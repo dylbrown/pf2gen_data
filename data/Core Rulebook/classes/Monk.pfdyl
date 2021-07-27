@@ -42,12 +42,15 @@
                     When you first gain a ki spell, decide whether your ki spells are divine spells or occult spells. You become trained in spell attacks and spell DCs of that tradition and your key spellcasting ability is Wisdom.</Description>
                 <AbilitySlot state="choice" name="Ki Spells Tradition">
                     <Ability name="Occult Ki Spells">
+                        <Spellcasting listName="Monk" tradition="Occult" type="FocusOnly" ability="Wis" />
                         <AttributeMods Proficiency="Trained">Occult Spell Attacks, Occult Spell DCs</AttributeMods>
                     </Ability>
                     <Ability name="Divine Ki Spells">
+                        <Spellcasting listName="Monk" tradition="Divine" type="FocusOnly" ability="Wis" />
                         <AttributeMods Proficiency="Trained">Divine Spell Attacks, Divine Spell DCs</AttributeMods>
                     </Ability>
                 </AbilitySlot>
+                <Spellcasting listName="Monk" type="FocusOnly" ability="Wis" />
             </Ability>
         </AbilitySlot>
     </FeatureList>
@@ -330,6 +333,7 @@
             <Traits>Monk</Traits>
             <GivesPrerequisites>Ki Spells</GivesPrerequisites>
             <Description>Your study of the flow of mystical energy allows you to harness it into your physical strikes. You gain the ki strike ki spell and a focus pool of 1 Focus Point. The rules for ki spells are summarized in the sidebar on page 157, and the full rules for focus spells appear on page 300.</Description>
+            <Spellcasting listName="Monk" type="FocusOnly" ability="Wis" />
             <Spell name="Ki Strike" type="Focus"/>
         </Ability>
         <Ability name="Monastic Weaponry" level="1" page="158">

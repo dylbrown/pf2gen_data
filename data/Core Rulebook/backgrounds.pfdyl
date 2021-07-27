@@ -103,7 +103,7 @@
 		<Description>In the chaotic rush of battle, you learned to adapt to rapidly changing conditions as you administered to battle casualties. You patched up soldiers, guards, or other combatants, and learned a fair amount about the logistics of war. </Description>
 		<Skill>Medicine, Lore (Warfare)</Skill>
 		<AbilityBonuses>Con or Wis, Free</AbilityBonuses>
-		<Feat>Battle Medic</Feat>
+		<Feat>Battle Medicine</Feat>
 	</Background>
 	<Background>
 		<Name>Fortune Teller</Name>

@@ -256,7 +256,7 @@ You can activate the hat as a 2-action activity, you can activate it any number 
 </Item>
 <Item level="0" page="611">
 	<Name>Handwraps of Mighty Blows</Name>
-	<Price>35 gp</Price>
+	<Price>0 sp</Price>
 	<Traits>Invested, Magical, Transmutation</Traits>
 	<Enchantable>Weapon Runes</Enchantable>
 	<Usage>worn gloves</Usage>
