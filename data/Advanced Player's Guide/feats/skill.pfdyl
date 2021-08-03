@@ -2,9 +2,360 @@
 <pf2:feats xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
-    <Ability name="Bon Mot" level="1">
+    <Ability name="Armor Assist" level="1" page="203">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Trained In Athletics or Trained in Lore(Warfare)</Prerequisites>
+        <Description>After your service aiding armored combatants, you are practiced in helping yourself and others don heavy gear. You can attempt an Athletics or Warfare Lore check with a DC determined by the GM (but usually 15 for common armor, DC 20 for uncommon armor, and DC 25 for rare armor) to halve the time you take to don armor. You can halve an ally's time to don armor by working with them to don the armor and succeeding at an Athletics or Warfare Lore check against the same DC.</Description>
+    </Ability>
+    <Ability name="Bon Mot" level="1" page="203" cost="1">
         <Traits>Auditory, Concentrate, Emotion, General, Linguistic, Mental, Skill</Traits>
-        <Requires>Trained In Diplomacy</Requires>
+        <Prerequisites>Trained In Diplomacy</Prerequisites>
         <Description>You launch an insightful quip at a foe, distracting them. Choose a foe within 30 feet and roll a Diplomacy check against the target's Will DC.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is distracted and takes a –3 status penalty to Perception and Will saves for 1 minute. The target can end the effect early with a retort to your Bon Mot. This can either be a single action that has the concentrate trait or an appropriate skill action to frame their retort. The GM determines which skill actions qualify, though they must take at least 1 action. Typically, the retort needs to use a linguistic Charisma-based skill action.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; As critical success, but the penalty is –2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; Your quip is atrocious. You take the same penalty an enemy would take had you succeeded. This ends after 1 minute or if you issue another Bon Mot and succeed.</Description>
+    </Ability>
+    <Ability name="Concealing Legerdemain" level="1" page="204">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Trained In Thievery</Prerequisites>
+        <Description>Rather than hide an object somewhere the inspectors won't search, you're skilled at keeping the object on the move so it's never where they look. When you Conceal an Object of light Bulk or less, you can use Thievery instead of Stealth for your checks and for the DC of an active searcher's Perception check. You roll the check only once, but you must continue to use actions to Conceal an Object throughout the process.</Description>
+    </Ability>
+    <Ability name="Crafter's Appraisal" level="1" page="204">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Trained In Crafting</Prerequisites>
+        <Description>Your knowledge of items' construction allows you to discern their magical effects as well. You can use Crafting instead of a skill associated with a magic tradition to Identify Magic on magic items, though not on any other sorts of magic.</Description>
+    </Ability>
+    <Ability name="Deceptive Worship" level="1" page="204">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Trained In Occultism</Prerequisites>
+        <Description>Members of your cult frequently pass themselves off as worshippers of other religions. You can use Occultism instead of Deception to Impersonate a typical worshipper of another faith or to Lie specifically to claim you are a member of the faith you are Impersonating. You still need to use the Deception skill to Impersonate a specific worshipper or to perform other deceptive actions, such as attempting to Lie about any other matter.</Description>
+    </Ability>
+    <Ability name="Express Rider" level="1" page="206">
+        <Traits>Exploration, General, Move, Skill</Traits>
+        <Prerequisites>Trained In Nature</Prerequisites>
+        <Description>You know how to encourage your mount to cover ground quickly. When calculating your travel speed for the day while mounted, you can attempt a Nature check to Command an Animal to increase your mount's travel speed. The DC is determined by the GM, but is typically based on the mount's level or the difficulty of the environment, whichever is harder. On a success, increase your mount's travel speed by half. This has no effect on your mount's movement in encounters.</Description>
+    </Ability>
+    <Ability name="Eye for Numbers" level="1" page="206" cost="1">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Trained In Society</Prerequisites>
+        <Description>You've learned to subitize, quickly estimating the number of items in a group with relative accuracy at only a glance. You immediately learn the number of visually similar items in a group you can see (such as coins, books, or people), rounded to the first digit in the total number. For example, you could look at a case of potion vials and learn that it held about 30 vials, but you wouldn't know that it was exactly 33 vials, how many different types of potions there were, or how many of which type. Similarly, you could look at a pile of 2,805 coins and know that there were about 3,000 coins in all. You can use this ability only on items that can typically be counted, so you can't use it on grains of sand or stars in the sky, for example.&lt;br&gt;&lt;br&gt; In addition, when you attempt to Decipher Writing that is primarily numerical or mathematical, you gain a +2 circumstance bonus to your check.</Description>
+    </Ability>
+    <Ability name="Forensic Acumen" level="1" page="206">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Trained In Medicine</Prerequisites>
+        <Description>You understand the principles of forensic medicine, making you better at examining a body to determine the cause of death or injury. You can perform a forensic examination on a body, as described under Recall Knowledge in the Medicine skill, in half the normal amount of time it would take (to a minimum of 5 minutes). If you succeed at your check, you can attempt an immediate check to Recall Knowledge to follow up on something you found, with a +2 circumstance bonus. This check is usually related to the cause of injury or death, such as a Crafting check to identify a poison or weapon that was used or an additional Medicine check to identify a specific disease. If you prefer, you can instead attempt to Recall Knowledge about the type of creature whose body you were examining, using the appropriate skill and gaining the same circumstance bonus.&lt;br&gt;&lt;br&gt; The circumstance bonus increases to +3 if you have master proficiency in Medicine and +4 if you have legendary proficiency.</Description>
+    </Ability>
+    <Ability name="Glean Contents" level="1" page="206">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Trained In Society</Prerequisites>
+        <Description>You are adept at quickly scanning loose papers and carefully discerning the contents of sealed letters without damaging the seal. You can attempt Society checks to Decipher Writing on a message that is only partially glimpsed, upside down or reversed from your perspective, or even sealed. However, on a critical failure, the recipient is made aware of your efforts (for instance, you damage the seal or disturb the papers in some way). When using this feat to decipher sealed letters, your attempt to Decipher Writing gains the manipulate trait. This feat doesn't prevent witnesses from noticing your efforts, particularly with sealed letters which you must manipulate directly in order to read; you might need to attempt Deception or Stealth checks to avoid being noticed.</Description>
+    </Ability>
+    <Ability name="Improvise Tool" level="1" page="206">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Trained In Crafting</Prerequisites>
+        <Description>You can jury-rig solutions when you don't have the proper tools on hand. You can attempt to Repair damaged items without a repair kit.&lt;br&gt;&lt;br&gt; If you have the raw materials available, you can Craft a basic caltrop set, candle, compass, crowbar, fishing tackle, flint and steel, hammer, ladder, piton, rope, 10-foot pole, replacement thieves' picks, long or short tool, or torch without consulting a basic crafter's book.</Description>
+    </Ability>
+    <Ability name="Inoculation" level="1" page="207">
+        <Traits>General, Healing, Skill</Traits>
+        <Prerequisites>Trained In Medicine</Prerequisites>
+        <Description>You have practice combating plague, and your patients are less likely to succumb to the same disease again for a time. When you successfully Treat a Disease on someone and they fully recover from the disease, they gain a +2 circumstance bonus to saving throws against that same disease for 1 week.</Description>
+    </Ability>
+    <Ability name="No Cause for Alarm" level="1" page="208" cost="3">
+        <Traits>Auditory, Concentrate, Emotion, General, Linguistic, Mental, Skill</Traits>
+        <Prerequisites>Trained In Diplomacy</Prerequisites>
+        <Description>You attempt to reduce panic. Attempt a Diplomacy check, comparing it to the Will DC of creatures in a 10-foot emanation around you who are frightened. Each of them is temporarily immune for 1 hour.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; Reduce the creature's frightened value by 2.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; Reduce the creature's frightened value by 1.</Description>
+    </Ability>
+    <Ability name="Pilgrim's Token" level="1" page="208">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Trained In Religion</Prerequisites>
+        <Description>You carry a small token of protection from a site holy to your faith, or you touched your religious symbol to a relic or altar at such a site. So long as this token is in your possession, when you tie an adversary's initiative roll, you go first.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If you select this feat at 1st level, you receive your pilgrim's token for free. Alternately, if you have a religious symbol, it is already attuned, as described above.&lt;br&gt;&lt;br&gt; If you select this feat at a later level, or if you lose your pilgrim's token, you must purchase or Craft a replacement and attune it at a holy site. Such a token usually costs at least 2 sp, and the attunement takes 10 minutes of prayer and requires a successful DC 20 Religion check. Your GM might adjust the price and DC depending on the token's material and quality and the religious significance of the site; the more significant the location, the easier the attunement.</Description>
+    </Ability>
+    <Ability name="Risky Surgery" level="1" page="208">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Trained In Medicine</Prerequisites>
+        <Description>Your surgery can bring a patient back from the brink of death, but might push them over the edge. When you Treat Wounds, you can deal 1d8 slashing damage to your patient just before applying the effects of Treat Wounds. If you do, you gain a +2 circumstance bonus to your Medicine check to Treat Wounds, and if you roll a success, you get a critical success instead.</Description>
+    </Ability>
+    <Ability name="Root Magic" level="1" page="208">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Trained In Occultism</Prerequisites>
+        <Description>Your talismans ward against foul magic. During your daily preparations, you can assemble a small pouch with bits of herbs, hair, sacred oils, and other ritual ingredients, which you give to one ally. The first time that day the ally attempts a saving throw against a spell or haunt, they gain a +1 circumstance bonus to the roll. This bonus increases to +2 if you're an expert in Occultism or +3 if you're legendary.</Description>
+    </Ability>
+    <Ability name="Schooled in Secrets" level="1" page="208">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Trained In Occultism</Prerequisites>
+        <Description>You notice the signs and symbols that members of mystery cults and other secret societies use to declare their affiliation to fellow members. You can use Occultism in place of Diplomacy to Gather Information about such groups. If you belong to a secret cult, lodge, sect, or similar organization, you automatically recognize members of your group unless they are specifically attempting to conceal their presence from you.</Description>
+    </Ability>
+    <Ability name="Seasoned" level="1" page="209">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Trained In Lore(Alcohol) or Trained In Lore(Cooking) or Trained In Crafting</Prerequisites>
+        <Description>You've mastered the preparation of many types of food and drink. You gain a +1 circumstance bonus to checks to Craft food and drink, including potions. If you are a master in one of the prerequisite skills, this bonus increases to +2.</Description>
+    </Ability>
+    <Ability name="Armored Stealth" level="2" page="203">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Expert In Stealth</Prerequisites>
+        <Description>You have learned techniques to adjust and modify your armor and movements to reduce the noise you make. When you wear non-noisy armor with which you are trained, your penalty to Stealth checks is reduced by 1 (to a minimum penalty of 0). If you're a master in Stealth, reduce the penalty by 2, and if you're legendary, reduce the penalty by 3. If your armor has the noisy trait, instead of reducing the penalty to Stealth checks, you ignore the effects of the noisy trait, enabling you to remove the penalty with a sufficient Strength score as normal.</Description>
+    </Ability>
+    <Ability name="Assured Identification" level="2" page="203">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Expert In Arcana or Expert in Nature or Expert in Occultism or Expert in Religion</Prerequisites>
+        <Description>You rarely misidentify an item. When using Arcana, Nature, Occultism, or Religion checks to Identify Magic, if you roll a critical failure, you get a failure instead. If you would misidentify a cursed item because you roll a success but not a critical success, you simply can't identify it instead.</Description>
+    </Ability>
+    <Ability name="Battle Planner" level="2" page="203">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Expert In Lore(Warfare)</Prerequisites>
+        <Description>You are constantly drawing up plans and battle scenarios, assembling strategies and gathered intelligence for later use. When you scout an enemy's position or receive a detailed report from an ally who scouted the enemy's position, if you have a clear indication of the number, position, and identities of your potential foes, you can spend 1 minute to come up with a battle plan that takes such potential factors into account and reduces the role luck plays in the equation. Roll a Warfare Lore check. As long as the information was accurate and remains accurate when you roll initiative against those enemies, you can use the Warfare Lore result you previously rolled for your initiative roll; if you do, this is a fortune effect.</Description>
+    </Ability>
+    <Ability name="Criminal Connections" level="2" page="204">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Streetwise, Expert In Society</Prerequisites>
+        <Description>You have dealings with a variety of unsavory characters, which you can leverage to trade favors or meet powerful people. When you're in an area where you have connections (typically a settlement where you've spent downtime building connections or possibly another area in the same nation), you can attempt a Society check to arrange a meeting with an important criminal, such as a thieves' guild leader, or ask for a favor in exchange for a later favor of your contact's choice. The GM decides the DC based on the difficulty of the favor and the figure's prominence.Criminal Connections Leads To...Quick Contacts</Description>
+    </Ability>
+    <Ability name="Discreet Inquiry" level="2" page="204">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Expert In Deception or Expert in Diplomacy</Prerequisites>
+        <Description>You are subtle in your efforts to learn the things you need to know. When Gathering Information, you can hide the true subject of your inquiry among other topics of little interest to you without increasing the difficulty of the check or taking more time to Gather Information. Anyone trying to Gather Information to determine if someone else was asking around about the topic in question must exceed your Deception DC or the normal DC to Gather Information about your inquiries, whichever is higher, or else they don't learn of your efforts.</Description>
+    </Ability>
+    <Ability name="Distracting Performance" level="2" page="205">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Expert In Performance</Prerequisites>
+        <Description>Your performances are especially distracting, allowing your allies to Sneak away with ease. When you Aid an ally who is trying to Create a Diversion, instead of the usual effects of Aid, you can roll a Performance check and use that result to determine the outcome of the diversion, instead of the ally rolling a Deception check.</Description>
+    </Ability>
+    <Ability name="Exhort the Faithful" level="2" page="205">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Expert In Religion</Prerequisites>
+        <Requirements>Follower Of A Specific Religion</Requirements>
+        <Description>Your knowledge of the tenets of your faith gives you insight into the best ways to get others of your faith to help you or to follow your directions. When you Request something of or Coerce members of your own faith, you can attempt a Religion check instead of Diplomacy or Intimidation, and you gain a +2 circumstance bonus to the check. On a critically failed attempt to make a Request, the target's attitude toward you doesn't worsen.</Description>
+    </Ability>
+    <Ability name="Fresh Ingredients" level="2" page="176">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Herbalist</Archetype>
+        <Prerequisites>Herbalist Dedication, Expert In Nature</Prerequisites>
+        <Description>When using Natural Medicine to Treat Wounds, you can spend a batch of herbs to gain the +2 circumstance bonus from having fresh ingredients, even if not in wilderness. If you spend a batch of herbs in wilderness, you gain a +4 circumstance bonus instead.</Description>
+    </Ability>
+    <Ability name="Lead Climber" level="2" page="207">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Expert In Athletics</Prerequisites>
+        <Description>When climbing, you can prepare routes for others to follow, and you can pull your allies up to avoid disaster. When your allies attempt to Climb a route you set using the Follow the Expert exploration activity, if any of them critically fail their checks to Climb, you can attempt an Athletics check against the same DC. If you succeed, your ally fails instead of critically failing. If you also critically fail, you both experience the consequences of the critical failure.</Description>
+    </Ability>
+    <Ability name="Quick Contacts" level="2" page="208">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Connections or Underworld Connections, Expert In Society</Prerequisites>
+        <Description>You know where to go, who to talk to, and how to make new connections, fast. Upon entering a new settlement, spending 1 day of downtime allows you to build enough connections to make use of the Connections or Underworld Connections feats. If you're legendary in Society, you can form the required connections within 1 hour of entering a new settlement.</Description>
+    </Ability>
+    <Ability name="Shadow Mark" level="2" page="209">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Expert In Stealth</Prerequisites>
+        <Description>You have learned special tricks that help you follow individuals without them noticing you. When you attempt a Stealth check to Avoid Notice while following a specific target, the target takes a –2 circumstance penalty to their Perception DC. If you have master proficiency in Stealth, the penalty is –3 or –4 if you're legendary. If you start an encounter with the target while shadowing them, the target takes this penalty to their initiative roll and to their Perception DC to determine if they notice you, as normal for Sneak.</Description>
+    </Ability>
+    <Ability name="Terrifying Resistance" level="2" page="209">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Expert In Intimidation</Prerequisites>
+        <Description>The spells of those you have Demoralized are less effective on you. If you succeed in Demoralizing a creature, for the next 24 hours you gain a +1 circumstance bonus to saving throws against that creature's spells.</Description>
+    </Ability>
+    <Ability name="Underground Network" level="2" page="209">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Streetwise or Expert In Society</Prerequisites>
+        <Description>You're connected to groups that know what's going on in the streets, and you can get information out of them quickly. When you use Society to Gather Information in an area where you have a network (typically a settlement where you've spent at least a week or spent a day of downtime to build a network faster), you can contact a member of these groups to get information directly from them. This usually takes about an hour, and it doesn't draw as much attention as Gathering Information in public might. The check and information gained otherwise follow the normal rules for Gather Information.&lt;br&gt;&lt;br&gt; In addition, if you have successfully consulted the underground network, you get a +1 circumstance bonus to the next check to Recall Knowledge you attempt about the subject you were Gathering Information on, or a +2 circumstance bonus if you're using Underworld Lore for the check. The GM might change the Lore skill related to the network depending on your location or the specifics of the network you're tapping into.</Description>
+    </Ability>
+    <Ability name="Distracting Flattery" level="4" page="167" cost="Reaction">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Dandy</Archetype>
+        <Prerequisites>Dandy Dedication, Expert In Deception</Prerequisites>
+        <Trigger>You observe a target's attitude toward yourself or your allies decrease as a result of an ally's behavior.</Trigger>
+        <Description>You know how to maintain a good impression and manage your image, even while keeping uncouth company. Make a Deception check against the target's Will DC. Regardless of your result, the target is temporarily immune to your Distracting Flattery for 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target's attitude doesn't decrease as a result of your ally's social blunder.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target's attitude decreases, as normal.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; Your attempt makes matters worse, decreasing the target's attitude toward you by one step, in addition to any changes from the behavior that triggered this reaction.</Description>
+    </Ability>
+    <Ability name="Fancy Moves" level="4" page="175">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Gladiator</Archetype>
+        <Prerequisites>Gladiator Dedication, Expert In Performance</Prerequisites>
+        <Description>You show off your fighting style to discourage your foes. You can use Performance to Demoralize.</Description>
+    </Ability>
+    <Ability name="Hidden Magic" level="4" page="196">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Vigilante</Archetype>
+        <Prerequisites>Vigilante Dedication, Expert In Arcana or Expert in Nature or Expert in Occultism or Expert in Religion</Prerequisites>
+        <Description>You've learned to hide the magical auras of your gear. During your daily preparations, you carefully tweak any or all of your magic items to appear non-magical. Objects adjusted in this way remain so until your next preparations. A spellcaster using detect magic or read aura must succeed at a Perception check against your Deception DC to see through your obfuscations.</Description>
+    </Ability>
+    <Ability name="Minion Guise" level="4" page="196">
+        <Traits>Archetype, Skill, Social</Traits>
+        <Archetype>Vigilante</Archetype>
+        <Prerequisites>Animal Companion or Familiar, Vigilante Dedication, Expert In Deception</Prerequisites>
+        <Description>When you are in your social identity, you can also grant a social identity to an animal companion, familiar, or other minion you gained from a class feature. When changing to your social identity, you also change your minion's appearance to that of a socially acceptable creature of its type, such as grooming a wolf to appear as a large dog or disguising a familiar to appear as an exotic pet. Commanding your minion to use unusual magical or combat abilities it gained from your class features or feats while in this social identity risks exposing your vigilante identity.</Description>
+    </Ability>
+    <Ability name="Multilingual Cipher" level="4" page="178">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Linguist</Archetype>
+        <Prerequisites>Linguist Dedication, Expert In Society</Prerequisites>
+        <Description>You use multiple languages to create and break codes. You gain a +1 circumstance bonus to Decipher Writing. If another creature attempts to Decipher Writing you encoded, they take a –2 circumstance penalty unless they speak all the languages you used when you created the writing.</Description>
+    </Ability>
+    <Ability name="Orthographic Mastery" level="4" page="179">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Loremaster</Archetype>
+        <Prerequisites>Loremaster Dedication</Prerequisites>
+        <Description>You understand the principles that underlie all written words, allowing you to read nearly any text. You can attempt to Decipher Writing using Loremaster Lore in place of the required skill.</Description>
+    </Ability>
+    <Ability name="Phonetic Training" level="4" page="178">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Linguist</Archetype>
+        <Prerequisites>Linguist Dedication, Expert In Society</Prerequisites>
+        <Description>You can pronounce and repeat words with near-perfect accuracy even if you don't understand their meaning, and you can write them down in a phonetic script that allows you or another creature with Phonetic Training to read it later. Even if the words are in a language with sound you can't pronounce, you can faithfully transcribe them. Memorizing long sequences of words remains just as difficult as it is normally.</Description>
+    </Ability>
+    <Ability name="Quick Mount" level="4" page="164" cost="1">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Cavalier</Archetype>
+        <Prerequisites>Cavalier Dedication, Expert In Nature</Prerequisites>
+        <Requirements>You are adjacent to a creature that is at least one size larger than you and is willing to be your mount.</Requirements>
+        <Description>You and your mount can spring into action at a moment's notice. You Mount the creature and Command an Animal to issue it an order of your choice.</Description>
+    </Ability>
+    <Ability name="Reverse Engineering" level="4" page="190">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Scrounger</Archetype>
+        <Prerequisites>Scrounger Dedication, Expert In Crafting</Prerequisites>
+        <Description>You are able to reverse engineer items into formulas more effectively than most. You gain a +2 circumstance bonus to Crafting checks to reverse engineer a formula from an item. Additionally, if you get a critical success on your Crafting check, you can opt to not only create the formula but also reassemble the original item at the same time, leaving you with the formula and the item instead of the formula and raw materials equal to half the item's value.</Description>
+    </Ability>
+    <Ability name="Rope Runner" level="4" page="185">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Pirate</Archetype>
+        <Prerequisites>Pirate Dedication, Trained In Acrobatics, Trained In Athletics</Prerequisites>
+        <Description>You run and climb across ropes and rigging almost as easily as on the ground. You gain a climb Speed of 15 feet, but only on ship's rigging or similar ropes. Whenever you succeed at an Athletics check to Climb a rope or an Acrobatics check to Balance on a rope, you get a critical success instead. You aren't flat-footed while Climbing or Balancing on a rope.</Description>
+    </Ability>
+    <Ability name="Settlement Scholastics" level="4" page="156">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Archaeologist</Archetype>
+        <Prerequisites>Archaeologist Dedication</Prerequisites>
+        <Description>Your studies open up new horizons. You become an expert in a Lore skill about a specific settlement; if you were already trained in that Lore skill, you also become trained in the Lore skill for a different settlement of your choice. Choose a single common or uncommon language prevalent in that settlement. You learn that language.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat multiple times. When you take this feat again, choose a different settlement.</Description>
+    </Ability>
+    <Ability name="Steel Skin" level="4" page="191">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Sentinel</Archetype>
+        <Prerequisites>Sentinel Dedication, Trained In Survival</Prerequisites>
+        <Description>You wear your armor like a second skin. You can rest normally while wearing medium armor. If you are a master in heavy armor, you can also rest normally while wearing heavy armor.</Description>
+    </Ability>
+    <Ability name="Sure Foot" level="4" page="177">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Horizon Walker</Archetype>
+        <Prerequisites>Horizon Walker Dedication, Expert In Acrobatics, Expert in Athletics</Prerequisites>
+        <Description>You know the secrets of moving in your favored terrain. You gain a +2 circumstance bonus to skill checks to move within your favored terrain, such as Acrobatics checks to Balance on ice, Athletics checks to Swim in rough water, Acrobatics checks to Fly in windy conditions, and so forth.</Description>
+    </Ability>
+    <Ability name="Treat Condition" level="4" page="184" cost="2">
+        <Traits>Archetype, Healing, Manipulate, Skill</Traits>
+        <Archetype>Medic</Archetype>
+        <Prerequisites>Medic Dedication</Prerequisites>
+        <Requirements>You are holding healer's tools, or you are wearing them and have a hand free.</Requirements>
+        <Description>You treat an adjacent creature in an attempt to reduce the clumsy, enfeebled, or sickened condition. If a creature has multiple conditions from this list, choose one. Attempt a counteract check against the condition, using your Medicine modifier as your counteract modifier and the condition's source to determine the DC. You can't treat a condition that came from an artifact or effect above 20th level unless you have Legendary Medic; even if you do, the counteract DC increases by 10. Treating a Condition that is continually applied under certain circumstances (for instance, the enfeebled condition a good character gains from carrying an unholy weapon) has no effect as long as the circumstances continue.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; Reduce the condition value by 2.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; Reduce the condition value by 1.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; Increase the condition value by 1.Treat Condition Leads To...Holistic Care</Description>
+    </Ability>
+    <Ability name="Analyze Idiolect" level="6" page="178">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Linguist</Archetype>
+        <Prerequisites>Linguist Dedication, Expert In Deception, Expert in Society</Prerequisites>
+        <Description>You break down a specific individual's idiolect, memorizing their speech mannerisms and habits. If you interact with someone for at least 10 minutes, when you later attempt to Impersonate that individual, you gain a +4 circumstance bonus to your Deception checks and DCs. Due to the intense character study required, you can't remember more than one idiolect at a time.</Description>
+    </Ability>
+    <Ability name="Armor Specialist" level="6" page="191">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Sentinel</Archetype>
+        <Prerequisites>Sentinel Dedication</Prerequisites>
+        <Description>You have trained hard to optimize your armor's protective qualities. You gain the armor specialization effects of medium and heavy armor.</Description>
+    </Ability>
+    <Ability name="Holistic Care" level="6" page="184">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Medic</Archetype>
+        <Prerequisites>Treat Condition, Trained In Diplomacy</Prerequisites>
+        <Description>You provide emotional and spiritual care. Add frightened, stupefied, and stunned to the list of conditions you can reduce with Treat Condition. If the stunned condition has a duration instead of a value, you can't use Treat Condition to reduce it.</Description>
+    </Ability>
+    <Ability name="Resourceful Ritualist" level="6" page="187">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Ritualist</Archetype>
+        <Prerequisites>Ritualist Dedication</Prerequisites>
+        <Description>You can cast difficult rituals that might otherwise be just beyond your skill. You can attempt checks to cast a ritual that requires expert proficiency if you are trained, master proficiency if you are an expert, or legendary proficiency if you are a master.</Description>
+    </Ability>
+    <Ability name="Advanced First Aid" level="7" page="202">
+        <Traits>General, Healing, Manipulate, Skill</Traits>
+        <Prerequisites>Master In Medicine</Prerequisites>
+        <Description>You use your medical training to ameliorate sickness or assuage fears. When you use Medicine to Administer First Aid, instead of Stabilizing a character or Stopping Bleeding, you can reduce an ally's frightened or sickened condition by 2, or remove either of those conditions entirely on a critical success. You can remove only one condition at a time. The DC for the Medicine check is usually the DC of the effect that caused the condition.</Description>
+    </Ability>
+    <Ability name="Aerobatics Mastery" level="7" page="202">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Master In Acrobatics</Prerequisites>
+        <Description>You move with grace in flight and can perform amazing aerial stunts. You gain a +2 circumstance bonus to Acrobatics checks to Maneuver in Flight and can combine two maneuvers into a single action, such as reversing direction while making a steep ascent or descent or hovering in gale-force winds. The DC of the Acrobatics check is equal to the DC of the most difficult maneuver + 5. If you're legendary in Acrobatics, you can combine three such maneuvers into a single action; the DC of the Acrobatics check is equal to the DC of the most difficult maneuver + 10. Regardless of the combination, these maneuvers rarely allow you to move farther than your fly Speed.</Description>
+    </Ability>
+    <Ability name="Biographical Eye" level="7" page="203">
+        <Traits>General, Secret, Skill</Traits>
+        <Prerequisites>Master In Society</Prerequisites>
+        <Description>In even a brief conversation or social interaction, you pick up on subtle social and visual cues to learn a great deal about a person's origin and history. You might notice bits of green under the person's fingernails and determine they're an herbalist, a pin indicating their membership in a secret society, or something similar. You pick up on only details that have to do with their societal role, so you might learn the city district where a vampire lives, but wouldn't learn any of their weaknesses, nor necessarily even that they are a vampire. &lt;br&gt;&lt;br&gt;Spend 1 minute in the presence of someone you haven't met before, or haven't met since you first gained Biographical Eye, then attempt a DC 30 Society check. You gain a +1 circumstance bonus to the check if you engaged the person in conversation during this time. If the person is deliberately trying to conceal their nature or present a false identity, you learn about their false biography rather than their true one unless the result of your Society check exceeds their Will DC.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; You learn the creature's profession, their specialty within that profession, and a major accomplishment or controversy from their career. You also learn the nation and settlement where they live, as well as the district in a city large enough to have districts. In addition, you learn the nation or settlement where they spent their formative years.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; You learn the creature's profession and specialty within that profession. You learn the nation or settlement where they normally live.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You learn the creature's profession and the region of the world they hail from, but no more.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You learn a piece of erroneous information about the creature.</Description>
+    </Ability>
+    <Ability name="Consult the Spirits" level="7" page="204">
+        <Traits>General, Secret, Skill</Traits>
+        <Prerequisites>Master In Nature or Master in Occultism or Master in Religion</Prerequisites>
+        <Frequency>once per day</Frequency>
+        <Description>You have learned rites or meditations that enable you to perceive minor, invisible spirits within a place. Choose Nature, Occultism, or Religion when you select this feat. Nature allows you to contact the spirits of nature that form leshies, who are born of pure life essence rather than spiritual energy and can answer questions about natural features like the location of nearby water or plant life. Religion reveals the presence of angelic, demonic, or other spirits in service to divine beings, who provide information about sources of powerful positive or negative energy, sacred or profane influences, or the presence of undead. Occultism allows you to contact lingering spirits, psychic echoes of the departed dead, and spirits from beyond reality, who tell you about things like strange auras, effects, or the presence of unnatural occult beings.&lt;br&gt;&lt;br&gt; Spend 10 minutes and attempt a check to Recall Knowledge with the chosen skill; the DC is determined by the GM (usually a very high DC for the level of the highest-level creature you might encounter in the area). If you're legendary in the chosen skill, you can use this feat once per hour, instead of only once per day, but you can't use it again on any area that overlaps a previous area.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat multiple times, each time picking a different skill in which you have the master proficiency rank. You can use this feat with each skill once per day (or once per hour, if you're legendary).&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The spirits reveal themselves to you and have a helpful attitude toward you. Only you can perceive these spirits. They answer three simple questions about the environment within 100 feet of you, depending on the skill you chose and thus the type of spirits you contact. Their answers are almost always a single word, and their knowledge is limited to within their area of interest.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; As with a critical success, but the spirits are indifferent to you and answer only one question.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You are unable to contact the spirits of this place.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You contact one or more malevolent spirits. They are hostile toward you, though they may not immediately appear so. They answer up to three questions but give you information that is harmful to you in some way, as determined by the GM.</Description>
+    </Ability>
+    <Ability name="Disturbing Knowledge" level="7" page="205" cost="2">
+        <Traits>Emotion, Fear, General, Mental, Skill</Traits>
+        <Prerequisites>Master In Occultism</Prerequisites>
+        <Description>You utter a litany of dreadful names, prophecies, and descriptions of realms beyond mortal comprehension, drawn from your study of forbidden tomes and scrolls. Even those who don't understand your language are unsettled by these dire secrets. Attempt an Occultism check and compare the result to the Will DC of an enemy within 30 feet, or to the Will DCs of any number of enemies within 30 feet if you are legendary in Occultism. Those creatures are temporarily immune for 24 hours.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target becomes confused for 1 round and frightened 1.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target becomes frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You get overly caught up in your own words and become frightened 1.</Description>
+    </Ability>
+    <Ability name="Doublespeak" level="7" page="205">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Master In Deception</Prerequisites>
+        <Description>You are skilled at saying one thing while meaning something different. You disguise your true meaning behind other words and phrases, relying on subtle emphasis and shared experience to convey meaning that only your allies understand. Any allies who have traveled alongside you for at least 1 full week automatically discern your meaning. Other observers must succeed at a Perception check against your Deception DC to realize you are passing a secret message, and they must critically succeed to understand the message itself.</Description>
+    </Ability>
+    <Ability name="Expert Disassembler" level="7" page="190">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Scrounger</Archetype>
+        <Prerequisites>Scrounger Dedication, Master In Crafting</Prerequisites>
+        <Description>You can apply the same techniques you use to reverse engineer objects to disable them. You can use Crafting instead of Thievery to Disable a Device or Pick a Lock.</Description>
+    </Ability>
+    <Ability name="Fabricated Connections" level="7" page="167">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Dandy</Archetype>
+        <Prerequisites>Dandy Dedication, Master In Deception</Prerequisites>
+        <Description>You can lie about having taken an action so convincingly that you acquire all the tangible benefits of having successfully completed it. You can roll Deception in place of a different skill when attempting to Earn Income, Make an Impression, Request, or Subsist. You can use Fabricated Connections to Make an Impression or Request once per day, and you can also use it once per week to Earn Income or Subsist.</Description>
+    </Ability>
+    <Ability name="Graceful Leaper" level="7" page="155">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Acrobat</Archetype>
+        <Prerequisites>Acrobat Dedication, Master In Acrobatics</Prerequisites>
+        <Description>Mass and muscle are meaningless when you leap; only grace and balance matter. You can roll an Acrobatics check instead of an Athletics check when making a High Jump or Long Jump.</Description>
+    </Ability>
+    <Ability name="Influence Nature" level="7" page="207">
+        <Traits>Downtime, General, Skill</Traits>
+        <Prerequisites>Master In Nature</Prerequisites>
+        <Description>With patience and time, you can make bird calls, leave game trails, and ultimately influence the behavior of a certain type of animals in the region to favor and even aid you in the days to come. The GM determines the DC of any check required and the amount of time your work requires (usually at least a day or two of downtime). While you can't directly control how you've influenced nature, you can hope for certain effects, such as easier hunts or birds falling silent whenever danger is approaching. If you're legendary in Nature, you can elicit these same adjustments to animal behavior in the area by spending only 10 minutes.</Description>
+    </Ability>
+    <Ability name="Party Crasher" level="7" page="167">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Dandy</Archetype>
+        <Prerequisites>Dandy Dedication, Master In Society</Prerequisites>
+        <Description>You attend all the fashionable society parties, no matter how exclusive they might be. Any time you encounter a social event you would ordinarily be denied access to, such as a coronation, royal gala, or other society function, you can spend 1d4 hours to secure entry without the need for a skill check. You find invitations, invitees looking for fashionable dates, temporary jobs with the caterers, event staff willing to look the other way, or some other mode of access for yourself and your allies. This ability doesn't apply to secret events or other small private gatherings with no staff, dates, or outsiders involved.</Description>
+    </Ability>
+    <Ability name="Rapid Affixture" level="7" page="208">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Master In Crafting</Prerequisites>
+        <Description>You take only 1 minute to Affix a Talisman. If you're legendary in Crafting, you can Affix a Talisman as a 3-action activity.</Description>
+    </Ability>
+    <Ability name="Read Shibboleths" level="7" page="178">
+        <Traits>Archetype, Linguistic, Skill</Traits>
+        <Archetype>Linguist</Archetype>
+        <Prerequisites>Linguist Dedication, Master In Society</Prerequisites>
+        <Description>All communication is filled with slight tells and signals. If you interact with someone for at least 10 minutes, their regional words, pronunciation changes, and nonverbal cues provide you with a minor fact about their social environment, such as their hometown or certain groups they might belong to. If a target of this ability is being deceptive about their social environment, such as a commoner pretending to be a noble, they must attempt a Deception, Society, or appropriate Lore check against your Society DC, providing you a false minor fact consistent with their assumed identity on a success.&lt;br&gt;&lt;br&gt; Once you've gleaned one or more true minor facts about a person, you can then incorporate these mannerisms into your speech to present yourself in a way that they find familiar. This grants you a +1 circumstance bonus to your Diplomacy and Deception checks with them.</Description>
+    </Ability>
+    <Ability name="Scholastic Identification" level="7" page="156">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Archaeologist</Archetype>
+        <Prerequisites>Archaeologist Dedication, Master In Society</Prerequisites>
+        <Description>You have the knowledge needed to understand ancient texts and cultural artifacts. You can use Society when Deciphering Writing, no matter the type of writing you are examining. You can also use Society to Identify Magic when examining a magic item or location with cultural significance.</Description>
+    </Ability>
+    <Ability name="Subjective Truth" level="7" page="197">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Vigilante</Archetype>
+        <Prerequisites>Vigilante Dedication, Master In Deception</Prerequisites>
+        <Description>Your disparate identities allow you to defeat magic that detects lies. As long as what you say is true from the point of view of your current identity, you can say it even under effects like zone of truth that force you to speak the truth.</Description>
+    </Ability>
+    <Ability name="Water Sprint" level="7" page="209">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Master In Athletics</Prerequisites>
+        <Description>Experience and training have taught you that water has just enough surface tension for a master sprinter to traverse the surface. When you Stride in a straight line, if you move at least half your Speed over ground, you can move any amount of the remaining distance across a level body of water. If you don't end your Stride on solid ground, you fall into the water. &lt;br&gt;&lt;br&gt;If you're legendary in Athletics, as long as you start on solid ground, any part of your Stride can cross the water's surface, even if you aren't moving a straight line, though you still fall into the water if you don't end your movement on solid ground.</Description>
+    </Ability>
+    <Ability name="Legendary Guide" level="15" page="207">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Legendary In Survival</Prerequisites>
+        <Description>You know the wilderness so well that you can help your party travel through it with ease. When you are setting the path for your party through wilderness terrain, your party gains a +10-foot circumstance bonus to its Speed for the purpose of calculating the party's travel speed, your party's travel speed doesn't decrease in difficult terrain, and greater difficult terrain halves your party's travel speed instead of reducing it to a third. This doesn't increase your party's Speed during an encounter or allow your party to ignore difficult terrain during an encounter.</Description>
     </Ability>
 </pf2:feats>
