@@ -16,6 +16,79 @@
                 <AttributeMods Proficiency="Trained">Perception, Fortitude, Reflex, Simple Weapons, Unarmed, Unarmored</AttributeMods>
             </Ability>
         </AbilitySlot>
+
+        <AbilitySlot state="choice" name="Witch's Patron Theme" contents="Witch's Patron Theme">
+            <Ability name="Curse Theme" page="99">
+                <Description>
+                    Foiling foes and undermining those who stand in your way are the tools of the curse patrons.
+                </Description>
+                <Spellcasting listName="Witch" tradition="Occult" type="Prepared" ability="Intelligence" />
+                <Spell type="Focus Cantrip" name="Evil Eye"/>
+                <Spell type="Spell" name="Ray of Enfeeblement"/>
+                <AttributeMods Proficiency="Trained">Occultism</AttributeMods>
+            </Ability>
+            <Ability name="Fate Theme" page="99">
+                <Description>
+                    Through your patron, you gain glimpses of the future and insight into the ever-woven tapestry of time.
+                </Description>
+                <Spellcasting listName="Witch" tradition="Occult" type="Prepared" ability="Intelligence" />
+                <Spell type="Focus Cantrip" name="Nudge Fate"/>
+                <Spell type="Spell" name="True Strike"/>
+                <AttributeMods Proficiency="Trained">Occultism</AttributeMods>
+            </Ability>
+            <Ability name="Fervor Theme" page="99">
+                <Description>
+                    Your patron represents a grand ideal or goal, granting you magic to further their mission and bring others to the cause.
+                </Description>
+                <Spellcasting listName="Witch" tradition="Divine" type="Prepared" ability="Intelligence" />
+                <Spell type="Focus Cantrip" name="Stoke the Heart"/>
+                <Spell type="Spell" name="Command"/>
+                <AttributeMods Proficiency="Trained">Religion</AttributeMods>
+            </Ability>
+            <Ability name="Night Theme" page="99">
+                <Description>
+                    Your patron speaks from the shadows, granting you power over darkness and dreams.
+                </Description>
+                <Spellcasting listName="Witch" tradition="Occult" type="Prepared" ability="Intelligence" />
+                <Spell type="Focus Cantrip" name="Shroud of Night"/>
+                <Spell type="Spell" name="Sleep"/>
+                <AttributeMods Proficiency="Trained">Occultism</AttributeMods>
+            </Ability>
+            <Ability name="Rune Theme" page="99">
+                <Description>
+                    Your patron is one of sigils and symbols, tomes and texts, words and wisdom.
+                </Description>
+                <Spellcasting listName="Witch" tradition="Arcane" type="Prepared" ability="Intelligence" />
+                <Spell type="Focus Cantrip" name="Discern Secrets"/>
+                <Spell type="Spell" name="Magic Weapon"/>
+                <AttributeMods Proficiency="Trained">Arcana</AttributeMods>
+            </Ability>
+            <Ability name="Wild Theme" page="99">
+                <Description>
+                    The wild places of the world feel the touch of your patron.
+                </Description>
+                <AbilitySlot state="choice" name="Patron Theme Granted Spell">
+                    <Ability name="Summon Animal">
+                        <Spell type="Spell" name="Summon Animal"/>
+                    </Ability>
+                    <Ability name="Summon Plant or Fungus">
+                        <Spell type="Spell" name="Summon Plant or Fungus"/>
+                    </Ability>
+                </AbilitySlot>
+                <Spellcasting listName="Witch" tradition="Primal" type="Prepared" ability="Intelligence" />
+                <Spell type="Focus Cantrip" name="Wilding Word"/>
+                <AttributeMods Proficiency="Trained">Nature</AttributeMods>
+            </Ability>
+            <Ability name="Winter Theme" page="99">
+                <Description>
+                    Your patron reflects the frozen reaches of the world, bitterly cruel to those who underestimate that power.
+                </Description>
+                <Spellcasting listName="Witch" tradition="Primal" type="Prepared" ability="Intelligence" />
+                <Spell type="Focus Cantrip" name="Clinging Ice"/>
+                <Spell type="Spell" name="Gust of Wind"/>
+                <AttributeMods Proficiency="Trained">Nature</AttributeMods>
+            </Ability>
+        </AbilitySlot>
         <AbilitySlot state="filled" name="Patron">
             <Ability>
                 <Description>You weren't born with the power to cast spells, nor have you spent years in devotion to tomes, deities, or mystical secrets. Your power comes through a potent being that has chosen you as their vessel to carry forth some agenda in the world. This entity is typically mysterious and distant, revealing little of their identity and motivations, and they grant you spells and other magical powers through a familiar, which serves as a conduit for their power.&lt;br&gt;&lt;br&gt; A patron might be a deity or demigod, a coven of powerful hags, a fey lord, an archdevil, or a similarly powerful entity, or perhaps multiple such figures working in tandem. As you gain more of your patron's power, you might learn more about who or what they are—certain combinations of themes and lessons suggest particular patrons or agendas—but patrons empower witches for their own secretive reasons, which they rarely reveal in full.&lt;br&gt;&lt;br&gt; At 1st level, choose your patron's theme, which determines your spellcasting tradition, a skill, a special cantrip you gain, and a spell added to your familiar. The patron themes can be found here.</Description>
@@ -29,6 +102,7 @@
         <AbilitySlot state="filled" name="Witch Spellcasting">
             <Ability>
                 <Description>Using your familiar as a conduit, your patron provides you the power to cast spells. You can cast spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells.&lt;br&gt;&lt;br&gt; At 1st level, you can prepare up to two 1st-level spells and five cantrips each morning from the spells your familiar knows. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots.&lt;br&gt;&lt;br&gt; As you increase in level as a witch, your number of spell slots and the highest level of spells you can cast from spell slots increase, as shown in Table 2–7: Witch Spells per Day.&lt;br&gt;&lt;br&gt; Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key ability is Intelligence, your spell attack rolls and spell DCs use your Intelligence modifier. &lt;h3&gt;Heightening Spells&lt;/h3&gt; When you get spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. This increases the spell's level, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain levels. &lt;h3&gt;Cantrips&lt;/h3&gt;Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is automatically heightened to half your level rounded up—this is usually equal to the highest level of witch spell slot you have. For example, as a 1st-level witch, your cantrips are 1st-level spells, and as a 5th-level witch, your cantrips are 3rd-level spells.</Description>
+                <Spellcasting listName="Witch" />
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="filled" name="Hexes">
@@ -82,11 +156,6 @@
         </AbilitySlot>
     </FeatureList>
     <FeatureList level="6">
-        <AbilitySlot state="filled" name="Familiar Ability">
-            <Ability>
-                <Description></Description>
-            </Ability>
-        </AbilitySlot>
         <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
         <AbilitySlot state="feat" type="Class Feat" name="Witch Feat"/>
         <AbilitySlot state="filled" name="Spell Slots">
@@ -278,10 +347,13 @@
         <Ability name="Cackle" level="1" page="100">
             <Traits>Witch</Traits>
             <Description>You can extend one of your spells with a quick burst of laughter. You learn the cackle hex. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <Spell type="Focus" name="Cackle"/>
         </Ability>
         <Ability name="Cauldron" level="1" page="100">
             <Traits>Witch</Traits>
             <Description>You can use the Craft activity to create oils and potions. You immediately gain the formulas for four common 1st-level oils or potions. At 4th level and every 2 levels beyond that, you gain the formula for a common oil or potion of that level or lower (a 4th-level potion if you're 4th level, a 6th-level potion if you're 6th level, and so on). If you have a familiar, you can have your familiar learn these formulas rather than storing them in a formula book. Your familiar can learn new formulas in the same way it learns new spells, and these formulas are transferred from a slain familiar to a new familiar in the same way spells are.&lt;br&gt;&lt;br&gt; You can brew a great deal of magic within your cauldron. When you Craft a batch of oils or potions, you can make up to six in a batch instead of the usual four per batch.</Description>
+            <FormulasKnown count="4" level="1" />
+            <!--TODO: add higher level formulas known-->
         </Ability>
         <Ability name="Counterspell (Prepared)" level="1" page="100" cost="Reaction">
             <Traits>Abjuration, Arcane, Witch, Wizard</Traits>
@@ -303,10 +375,51 @@
         <Ability name="Basic Lesson" level="2" page="101">
             <Traits>Witch</Traits>
             <Description>Your patron grants you a special lesson, revealing a hidden facet of its nature. Choose a basic lesson. You gain its associated hex, and your familiar learns the associated spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+            <AbilitySlot state="choice" name="Basic Lesson Choice" contents="Basic Lesson">
+                <Ability name="Lesson of Dreams">
+                    <Description>You gain the veil of dreams hex, and your familiar learns sleep.</Description>
+                    <Spell type="Focus" name="Veil of Dreams"/>
+                    <Spell type="Spell" name="Sleep"/>
+                </Ability>
+                <Ability name="Lesson of Life">
+                    <Description>You gain the life boost hex, and your familiar learns spirit link.</Description>
+                    <Spell type="Focus" name="Life Boost"/>
+                    <Spell type="Spell" name="Spirit Link"/>
+                </Ability>
+                <Ability name="Lesson of Protection">
+                    <Description>You gain the blood ward hex, and your familiar learns mage armor.</Description>
+                    <Spell type="Focus" name="Blood Ward"/>
+                    <Spell type="Spell" name="Mage Armor"/>
+                </Ability>
+                <Ability name="Lesson of the Elements">
+                    <Description>You gain the Elemental Betrayal hex. Your familiar learns your choice of burning hands, air bubble, hydraulic push, or pummeling rubble.</Description>
+                    <AbilitySlot state="choice" name="Lesson of the Elements Spell Choice">
+                        <Ability name="Burning Hands">
+                            <Spell type="Spell" name="Burning Hands"/>
+                        </Ability>
+                        <Ability name="Air Bubble">
+                            <Spell type="Spell" name="Air Bubble"/>
+                        </Ability>
+                        <Ability name="Hydraulic Push">
+                            <Spell type="Spell" name="Hydraulic Push"/>
+                        </Ability>
+                        <Ability name="Pummeling Rubble">
+                            <Spell type="Spell" name="Pummeling Rubble"/>
+                        </Ability>
+                    </AbilitySlot>
+                    <Spell type="Focus" name="Elemental Betrayal"/>
+                </Ability>
+                <Ability name="Lesson of Protection">
+                    <Description>You gain the needle of vengeance hex, and your familiar learns phantom pain.</Description>
+                    <Spell type="Focus" name="Needle of Vengeance"/>
+                    <Spell type="Spell" name="Phantom Pain"/>
+                </Ability>
+            </AbilitySlot>
         </Ability>
         <Ability name="Cantrip Expansion" level="2" page="101">
             <Traits>Bard, Cleric, Oracle, Sorcerer, Witch, Wizard</Traits>
-            <Description>A greater understanding of your magic broadens your range of simple spells.&lt;br&gt;&lt;br&gt;&lt;b&gt;Prepared Caster (Cleric, Wizard, etc.)&lt;/b&gt;: You can prepare two additional cantrips each day.&lt;br&gt;&lt;b&gt;Spontaneous Caster (Bard, Sorcerer, etc.)&lt;/b&gt;: Add two additional cantrips from your spell list to your repertoire.</Description>
+            <Description>A greater understanding of your magic broadens your range of simple spells.You can prepare two additional cantrips each day.</Description>
+            <SpellSlots count="2" level="0" />
         </Ability>
         <Ability name="Conceal Spell" level="2" page="101" cost="1">
             <Traits>Concentrate, Manipulate, Metamagic, Witch, Wizard</Traits>
@@ -326,10 +439,22 @@
         <Ability name="Living Hair" level="2" page="102">
             <Traits>Witch</Traits>
             <Description>You can instantly grow or shrink your hair, eyebrows, beard, or mustache by up to several feet and manipulate your hair for use as a weapon, though your control isn't fine enough for more dexterous tasks. You gain a hair unarmed attack that deals 1d4 bludgeoning damage; is in the brawling group; and has the agile, disarm, finesse, trip, and unarmed traits.</Description>
+            <Weapon>
+                <Name>Hair</Name>
+                <Damage>1d4 B</Damage>
+                <Group>Brawling</Group>
+                <Traits>agile, disarm, finesse, trip, unarmed</Traits>
+            </Weapon>
         </Ability>
         <Ability name="Eldritch Nails" level="4" page="102">
             <Traits>Witch</Traits>
             <Description>Your nails are supernaturally long and sharp. You gain a nails unarmed attack that deals 1d6 slashing damage. Your nails are in the brawling group and have the agile and unarmed traits. You can etch your nails with runes with the same cost and restrictions as for etching runes onto handwraps of mighty blows; runes etched onto your nails apply to nails unarmed attacks with both hands but not to other unarmed attacks.&lt;br&gt;&lt;br&gt; You can deliver hexes through your nails. When you successfully cast a non-cantrip hex that requires 2 actions or more to cast and that doesn't require a spell attack roll, if your target is within your reach, as part of the spellcasting activity you can make a nails Strike against the foe before applying any effects of the hex. If this Strike misses, the hex has no effect.</Description>
+            <Weapon>
+                <Name>Nails</Name>
+                <Damage>1d6 S</Damage>
+                <Group>Brawling</Group>
+                <Traits>agile, unarmed</Traits>
+            </Weapon>
         </Ability>
         <Ability name="Improved Familiar (Witch)" level="4" page="102">
             <Traits>Witch</Traits>
@@ -338,6 +463,7 @@
         <Ability name="Rites of Convocation" level="4" page="102">
             <Traits>Witch</Traits>
             <Description>Your patron grants you the power to summon other creatures to aid you. Choose one &lt;i&gt;summon&lt;/i&gt; spell (such as summon animal, summon construct, and so forth) that appears on the spell list of your spellcasting tradition. You can spend 10 minutes in communion with your familiar to replace one spell you've prepared in one of your witch spell slots with the spell you chose, heightened to the same level. The spell you replaced must be of at least the &lt;i&gt;summon&lt;/i&gt; spell's minimum spell level.</Description>
+            <!--TODO: Support this-->
         </Ability>
         <Ability name="Greater Lesson" level="6" page="102">
             <Traits>Witch</Traits>
