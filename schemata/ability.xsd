@@ -96,32 +96,12 @@
       </xs:element>
       <xs:element name="AbilitySlot" type="pf2:AbilitySlot" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="Weapon" type="pf2:Weapon" minOccurs="0" maxOccurs="unbounded"/>
-      <xs:element name="CustomMod" minOccurs="0">
+      <xs:element name="CustomMod" minOccurs="0" type="pf2:CustomMod">
         <xs:annotation>
           <xs:documentation>
             Allows for customized Javascript-based functionality.
           </xs:documentation>
         </xs:annotation>
-        <xs:complexType>
-          <xs:simpleContent>
-            <xs:extension base="xs:string">
-              <xs:attribute name="recalculate">
-                <xs:annotation>
-                  <xs:documentation>
-                    What should trigger recalculating this mod? Default is Never.
-                  </xs:documentation>
-                </xs:annotation>
-                <xs:simpleType>
-                  <xs:restriction base="xs:string">
-                    <xs:enumeration value="On Level"/>
-                    <xs:enumeration value="Always"/>
-                    <xs:enumeration value="Never"/>
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:attribute>
-            </xs:extension>
-          </xs:simpleContent>
-        </xs:complexType>
       </xs:element>
       <xs:element name="Spellcasting" minOccurs="0">
         <xs:complexType>
@@ -338,7 +318,7 @@
       </xs:annotation>
       <xs:simpleType>
         <xs:restriction base="xs:string">
-          <xs:pattern value="((Dedication|MulticlassDedication|ClassFeature(\(\w+\))?|Heritage|Ancestry|Class(\(\w+\))?|Skill|General|Bloodline|Arcane(Thesis|School)) ?)*(Feat)?"/>
+          <xs:pattern value="((Dedication|MulticlassDedication|ClassFeature(\(\w+\))?|Heritage|Ancestry|Class(\(\w+\))?|Skill|General|Bloodline|Mystery|Arcane(Thesis|School)) ?)*(Feat)?"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
@@ -417,7 +397,28 @@
 
   <xs:simpleType name="CommaWordList">
       <xs:restriction base="xs:string">
-          <xs:pattern value="[\w \-()]+(, [\w \-()]+)*"/>
+          <xs:pattern value="[\w' \-()]+(, [\w' \-()]+)*"/>
       </xs:restriction>
   </xs:simpleType>
+
+  <xs:complexType name="CustomMod">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="recalculate">
+          <xs:annotation>
+            <xs:documentation>
+              What should trigger recalculating this mod? Default is Never.
+            </xs:documentation>
+          </xs:annotation>
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="On Level"/>
+              <xs:enumeration value="Always"/>
+              <xs:enumeration value="Never"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
 </xs:schema>

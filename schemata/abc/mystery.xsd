@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:pf2="https://dylbrown.github.io"
+           targetNamespace="https://dylbrown.github.io">
+    <xs:include schemaLocation="../ability.xsd"/>
+    <xs:complexType name="Mystery">
+        <xs:sequence>
+            <xs:element name="Description" type="xs:string"/>
+            <xs:element name="Benefit" type="pf2:Ability"/>
+            <xs:element name="Skill">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="(Acrobatics|Arcana|Athletics|Crafting|Deception|Diplomacy|Intimidation|Lore ?\([^()]*\)|Medicine|Nature|Occultism|Performance|Religion|Society|Stealth|Survival|Thievery|Fortitude|Reflex|Will|Perception|Simple Weapons|Martial Weapons|Advanced Weapons|Unarmed|Light Armor|Medium Armor|Heavy Armor|Unarmored|Shields|(Arcane|Divine|Occult|Primal) Spell (Attacks|D[cC]s)|Class D[cC]|None)"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Cantrip" type="xs:string"/>
+            <xs:element name="RevelationSpells">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="initial: [^,]+, advanced: [^,]+, greater: [^,]+"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Domains" type="xs:string" />
+            <xs:element name="Curse">
+                <xs:complexType mixed="true">
+                    <xs:attribute name="name" type="xs:string" use="required"/>
+                    <xs:attribute name="page" type="xs:string"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="page" type="xs:string"/>
+    </xs:complexType>
+    <xs:element name="Mysteries">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Mystery" type="pf2:Mystery" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

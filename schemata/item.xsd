@@ -66,6 +66,16 @@
     <xs:group name="ItemDetails">
         <xs:sequence>
             <xs:element name="Traits" type="xs:string" minOccurs="0"/>
+            <xs:element name="Enchantable" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="No" />
+                        <xs:enumeration value="Armor Runes" />
+                        <xs:enumeration value="Weapon Runes" />
+                        <xs:enumeration value="Both" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
             <xs:element name="Bonuses" type="xs:string" minOccurs="0">
                 <xs:simpleType>
                     <xs:restriction base="xs:token">
@@ -103,6 +113,13 @@
                         </xs:choice>
                     </xs:sequence>
                 </xs:complexType>
+            </xs:element>
+            <xs:element name="CustomMod" minOccurs="0" type="pf2:CustomMod">
+                <xs:annotation>
+                    <xs:documentation>
+                        Allows for customized Javascript-based functionality.
+                    </xs:documentation>
+                </xs:annotation>
             </xs:element>
         </xs:sequence>
     </xs:group>
