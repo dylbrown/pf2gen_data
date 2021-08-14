@@ -67,6 +67,7 @@
     <Setting>
         <Category name="Deities" path="setting/deities.pfdyl" />
         <Category name="Domains" path="setting/domains.pfdyl" />
+        <Category name="Languages" path="setting/languages.pfdyl" />
     </Setting>
     <Spells>
         <Category name="Focus Spells" path="spells/focus_spells.pfdyl" />

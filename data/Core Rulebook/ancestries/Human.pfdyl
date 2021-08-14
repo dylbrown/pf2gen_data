@@ -8,7 +8,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <Speed>25</Speed>
     <AbilityBonuses>Free, Free</AbilityBonuses>
     <Languages>Common, Free</Languages>
-    <BonusLanguages>All</BonusLanguages>
+    <BonusLanguages>All Common Languages</BonusLanguages>
     <Description>As unpredictable and varied as any the peoples on Golarion, humans have the exceptional drive and capacity to endure and expand. Though many civilizations thrived before humanity rose to prominence, humans have built some of the greatest and the most terrible societies throughout the course of history, and today they are the most populous people in the realms around the Inner Sea.</Description>
     <Feats>
 		<!--Heritages-->

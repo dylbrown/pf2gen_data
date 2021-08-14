@@ -5,6 +5,7 @@
     <Category>Lost Omens</Category>
     <Dependencies>
         <Dependency>Core Rulebook</Dependency>
+        <Dependency>Bestiary 1</Dependency>
     </Dependencies>
     <Description>&lt;h2&gt;Character Guide&lt;/h2&gt;&lt;p&gt;An adventurer's life can be difficult, but long journeys and heavy burdens are easier when you have company. This guide to the world of Pathfinder presents the people and organizations that can help—or hinder—heroes like you!&lt;/p&gt;
 

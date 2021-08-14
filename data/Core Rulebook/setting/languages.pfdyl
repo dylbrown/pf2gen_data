@@ -1,0 +1,45 @@
+<?xml version = "1.0"?>
+<pf2:languages xmlns:pf2="https://dylbrown.github.io"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/setting/language.xsd">
+    <Common>
+        <Language>Common</Language>
+        <Language>Draconic</Language>
+        <Language>Dwarven</Language>
+        <Language>Elven</Language>
+        <Language>Gnomish</Language>
+        <Language>Goblin</Language>
+        <Language>Halfling</Language>
+        <Language>Jotun</Language>
+        <Language>Orcish</Language>
+        <Language>Sylvan</Language>
+        <Language>Undercommon</Language>
+        <Language>Free</Language><!--Special Placeholder-->
+    </Common>
+    <Uncommon>
+        <Language>Abyssal</Language>
+        <Language>Adlet</Language>
+        <Language>Aklo</Language>
+        <Language>Aquan</Language>
+        <Language>Auran</Language>
+        <Language>Celestial</Language>
+        <Language>Gnoll</Language>
+        <Language>Hallit</Language>
+        <Language>Ignan</Language>
+        <Language>Infernal</Language>
+        <Language>Kelish</Language>
+        <Language>Mwangi</Language>
+        <Language>Necril</Language>
+        <Language>Osiriani</Language>
+        <Language>Shadowtongue</Language>
+        <Language>Shoanti</Language>
+        <Language>Skald</Language>
+        <Language>Terran</Language>
+        <Language>Tien</Language>
+        <Language>Varisian</Language>
+        <Language>Vudrani</Language>
+    </Uncommon>
+    <Secret>
+        <Language>Druidic</Language>
+    </Secret>
+</pf2:languages>

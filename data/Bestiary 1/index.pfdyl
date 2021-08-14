@@ -27,5 +27,8 @@
         <Category name="Monster Families" path="creature_families.pfdyl" />
         <Category name="NPC Families" path="npc_families.pfdyl" />
     </CreatureFamilies>
+    <Setting>
+        <Category name="Languages" path="languages.pfdyl" />
+    </Setting>
     <Traits name="Traits" path="traits.pfdyl" />
 </Source>

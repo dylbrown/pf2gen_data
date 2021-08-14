@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<pf2:languages xmlns:pf2="https://dylbrown.github.io"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://dylbrown.github.io ../../schemata/setting/language.xsd">
+    <Uncommon>
+        <Language>Alghollthu</Language>
+        <Language>Amurrun</Language>
+        <Language>Arboreal</Language>
+        <Language>Boggard</Language>
+        <Language>Caligni</Language>
+        <Language>Cyclops</Language>
+        <Language>Daemonic</Language>
+        <Language>Iruxi</Language>
+        <Language>Protean</Language>
+        <Language>Requian</Language>
+        <Language>Sphinx</Language>
+        <Language>Tengu</Language>
+        <Language>Utopian</Language>
+    </Uncommon>
+</pf2:languages>
