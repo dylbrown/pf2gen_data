@@ -1,0 +1,14 @@
+<pf2:Items category="alchemical_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<SubCategory name="Alchemical Elixirs">
+<Item level="1" page="92">
+	<Name>Lastwall Soup</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Crimson Reclaimers make this rich, hearty soup using herbs that baffle the senses of the undead. A bowl of Lastwall soup is as nourishing as a full meal. In addition, for 1 hour after consuming a bowl of Lastwall soup, you gain a +2 item bonus to Stealth checks and DCs against undead.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

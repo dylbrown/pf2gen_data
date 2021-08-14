@@ -69,9 +69,11 @@
                 </Description>
                 <AbilitySlot state="choice" name="Patron Theme Granted Spell">
                     <Ability name="Summon Animal">
+                        <Spellcasting listName="Witch" />
                         <Spell type="Spell" name="Summon Animal"/>
                     </Ability>
                     <Ability name="Summon Plant or Fungus">
+                        <Spellcasting listName="Witch" />
                         <Spell type="Spell" name="Summon Plant or Fungus"/>
                     </Ability>
                 </AbilitySlot>
@@ -380,16 +382,19 @@
             <AbilitySlot state="choice" name="Basic Lesson Choice" contents="Basic Lesson">
                 <Ability name="Lesson of Dreams">
                     <Description>You gain the veil of dreams hex, and your familiar learns sleep.</Description>
+                    <Spellcasting listName="Witch" />
                     <Spell type="Focus" name="Veil of Dreams"/>
                     <Spell type="Spell" name="Sleep"/>
                 </Ability>
                 <Ability name="Lesson of Life">
                     <Description>You gain the life boost hex, and your familiar learns spirit link.</Description>
+                    <Spellcasting listName="Witch" />
                     <Spell type="Focus" name="Life Boost"/>
                     <Spell type="Spell" name="Spirit Link"/>
                 </Ability>
                 <Ability name="Lesson of Protection">
                     <Description>You gain the blood ward hex, and your familiar learns mage armor.</Description>
+                    <Spellcasting listName="Witch" />
                     <Spell type="Focus" name="Blood Ward"/>
                     <Spell type="Spell" name="Mage Armor"/>
                 </Ability>
@@ -397,15 +402,19 @@
                     <Description>You gain the Elemental Betrayal hex. Your familiar learns your choice of burning hands, air bubble, hydraulic push, or pummeling rubble.</Description>
                     <AbilitySlot state="choice" name="Lesson of the Elements Spell Choice">
                         <Ability name="Burning Hands">
+                            <Spellcasting listName="Witch" />
                             <Spell type="Spell" name="Burning Hands"/>
                         </Ability>
                         <Ability name="Air Bubble">
+                            <Spellcasting listName="Witch" />
                             <Spell type="Spell" name="Air Bubble"/>
                         </Ability>
                         <Ability name="Hydraulic Push">
+                            <Spellcasting listName="Witch" />
                             <Spell type="Spell" name="Hydraulic Push"/>
                         </Ability>
                         <Ability name="Pummeling Rubble">
+                            <Spellcasting listName="Witch" />
                             <Spell type="Spell" name="Pummeling Rubble"/>
                         </Ability>
                     </AbilitySlot>
@@ -413,6 +422,7 @@
                 </Ability>
                 <Ability name="Lesson of Vengeance">
                     <Description>You gain the needle of vengeance hex, and your familiar learns phantom pain.</Description>
+                    <Spellcasting listName="Witch" />
                     <Spell type="Focus" name="Needle of Vengeance"/>
                     <Spell type="Spell" name="Phantom Pain"/>
                 </Ability>

@@ -1,0 +1,104 @@
+<pf2:Items category="runes" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<SubCategory name="Armor Property Runes">
+<Item level="6" page="262">
+	<Name>Ready</Name>
+	<Price>200 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>A &lt;i&gt;ready&lt;/i&gt; rune draws component pieces of a suit of armor toward one another, making it easier and faster to get into. You can don light armor with this rune as a 3-action activity or medium or heavy armor with this rune in 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="262">
+	<Name>Ready (Greater)</Name>
+	<Price>1,200 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>A &lt;i&gt;ready&lt;/i&gt; rune draws component pieces of a suit of armor toward one another, making it easier and faster to get into. You can don light armor with this rune as a 3-action activity or medium or heavy armor with this rune in 1 minute.&lt;br&gt;
+
+You can don light armor with a &lt;i&gt;greater ready rune&lt;/i&gt; as a single action, or medium or heavy armor with a &lt;i&gt;greater ready rune&lt;/i&gt; as a 3-action activity.</Description>
+</Item>
+<Item level="6" page="262">
+	<Name>Ready</Name>
+	<Price>200 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>A &lt;i&gt;ready&lt;/i&gt; rune draws component pieces of a suit of armor toward one another, making it easier and faster to get into. You can don light armor with this rune as a 3-action activity or medium or heavy armor with this rune in 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="262">
+	<Name>Ready (Greater)</Name>
+	<Price>1,200 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>A &lt;i&gt;ready&lt;/i&gt; rune draws component pieces of a suit of armor toward one another, making it easier and faster to get into. You can don light armor with this rune as a 3-action activity or medium or heavy armor with this rune in 1 minute.&lt;br&gt;
+
+You can don light armor with a &lt;i&gt;greater ready rune&lt;/i&gt; as a single action, or medium or heavy armor with a &lt;i&gt;greater ready rune&lt;/i&gt; as a 3-action activity.</Description>
+</Item>
+<Item level="13" page="265">
+	<Name>Winged</Name>
+	<Price>2,500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This rune is a swirling glyph on the front of the armor. A large pair of transparent, ephemeral wings floats out from the back of the armor.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You trace the rune on the front of the breastplate and the armor's ephemeral wings grow tangible, granting you a fly Speed of 25 feet or your land Speed, whichever is slower. This effect lasts for 5 minutes or until you Dismiss it. Once the effect ends, the wings disappear completely, reappearing in their ephemeral form 1 hour later.&lt;br&gt;</Description>
+</Item>
+<Item level="13" page="265">
+	<Name>Winged (Greater)</Name>
+	<Price>35,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This rune is a swirling glyph on the front of the armor. A large pair of transparent, ephemeral wings floats out from the back of the armor.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You trace the rune on the front of the breastplate and the armor's ephemeral wings grow tangible, granting you a fly Speed of 25 feet or your land Speed, whichever is slower. This effect lasts for 5 minutes or until you Dismiss it. Once the effect ends, the wings disappear completely, reappearing in their ephemeral form 1 hour later.&lt;br&gt;
+
+Once activated, the wings remain tangible indefinitely. You can Dismiss the activation if you choose, and you don't have to wait an hour to activate the rune again.</Description>
+</Item>
+<Item level="13" page="265">
+	<Name>Winged</Name>
+	<Price>2,500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This rune is a swirling glyph on the front of the armor. A large pair of transparent, ephemeral wings floats out from the back of the armor.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You trace the rune on the front of the breastplate and the armor's ephemeral wings grow tangible, granting you a fly Speed of 25 feet or your land Speed, whichever is slower. This effect lasts for 5 minutes or until you Dismiss it. Once the effect ends, the wings disappear completely, reappearing in their ephemeral form 1 hour later.&lt;br&gt;</Description>
+</Item>
+<Item level="13" page="265">
+	<Name>Winged (Greater)</Name>
+	<Price>35,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>This rune is a swirling glyph on the front of the armor. A large pair of transparent, ephemeral wings floats out from the back of the armor.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You trace the rune on the front of the breastplate and the armor's ephemeral wings grow tangible, granting you a fly Speed of 25 feet or your land Speed, whichever is slower. This effect lasts for 5 minutes or until you Dismiss it. Once the effect ends, the wings disappear completely, reappearing in their ephemeral form 1 hour later.&lt;br&gt;
+
+Once activated, the wings remain tangible indefinitely. You can Dismiss the activation if you choose, and you don't have to wait an hour to activate the rune again.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Weapon Property Runes">
+<Item level="5" page="260">
+	<Name>Fearsome</Name>
+	<Price>160 gp</Price>
+	<Traits>Emotion, Enchantment, Fear, Magical, Mental</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>When you critically hit with this weapon, the target becomes frightened 1.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="260">
+	<Name>Fearsome (Greater)</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Emotion, Enchantment, Fear, Magical, Mental</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>When you critically hit with this weapon, the target becomes frightened 1.&lt;br&gt;
+
+When you critically hit with this weapon, the target becomes frightened 2.</Description>
+</Item>
+<Item level="5" page="260">
+	<Name>Fearsome</Name>
+	<Price>160 gp</Price>
+	<Traits>Emotion, Enchantment, Fear, Magical, Mental</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>When you critically hit with this weapon, the target becomes frightened 1.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="260">
+	<Name>Fearsome (Greater)</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Emotion, Enchantment, Fear, Magical, Mental</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>When you critically hit with this weapon, the target becomes frightened 1.&lt;br&gt;
+
+When you critically hit with this weapon, the target becomes frightened 2.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

@@ -1,0 +1,16 @@
+<?xml version = "1.0"?>
+<pf2:spells xmlns:pf2="https://dylbrown.github.io"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/spell.xsd">
+    <Spell page="112">
+        <Name>Snowball</Name>
+        <Level>1</Level>
+        <Traits>Attack, Cold, Evocation, Water</Traits>
+        <Traditions>arcane, primal</Traditions>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Description>You throw a magically propelled and chilled ball of dense snow. The target takes 2d4 cold damage and potentially other effects, depending on the result of your spell attack roll.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target takes double damage and a –10-foot status penalty to its Speeds for 1 round.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt;  The target takes full damage and a –5-foot status penalty to its Speeds for 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; No effect.</Description>
+        <Heightened every="1">  The damage increases by 2d4.</Heightened>
+    </Spell>
+</pf2:spells>

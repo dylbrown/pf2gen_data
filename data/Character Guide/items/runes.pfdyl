@@ -1,0 +1,22 @@
+<pf2:Items category="runes" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<SubCategory name="Armor Property Runes">
+<Item level="8" page="92">
+	<Name>Sinister Knight</Name>
+	<Price>500 gp</Price>
+	<Traits>Abjuration, Illusion, Magical</Traits>
+	<Usage>etched onto heavy armor</Usage>
+	<Description>&lt;i&gt;Sinister knight&lt;/i&gt; armor shrouds the wearer’s identity in secrecy, allowing Crimson Reclaimers to pass among foes without being immediately unmasked. The wearer gains a +1 item bonus to Deception checks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; With a thought, the wearer activates a disguise. While the &lt;i&gt;sinister knight&lt;/i&gt; armor’s disguise is active, any identifying insignia or aesthetic of the armor is replaced by generic malevolent aesthetics such as spikes or demonic faces. While in the disguise, the wearer is always considered to be taking precautions against lifesense, and even a creature that successfully notices the wearer with its lifesense mistakes the wearer for an undead unless it critically succeeds at its Perception check or the wearer critically fails a Deception or Stealth check. Finally, while in the disguise, the rune attempts to counteract any effects that would reveal your alignment; on a successful counteract check, rather than negate the effect, the rune causes the effect to perceive your alignment as evil (maintaining any lawful or chaotic component of your alignment).&lt;br&gt;&lt;br&gt; The wearer can Dismiss the disguise, and if the wearer’s armor is removed, the disguise deactivates automatically.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Weapon Property Runes">
+<Item level="10" page="93">
+	<Name>Serrating</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a slashing melee weapon</Usage>
+	<Description>A &lt;i&gt;serrating&lt;/i&gt; weapon’s bladed edge separates into jagged, swirling shards that spin along the blade. When dealing slashing damage, the weapon deals an additional 1d4 damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; You brandish the weapon and focus its power, causing the serrated shards to buzz as they spin at a dizzying speed. On your next hit with the weapon this turn that deals slashing damage, the &lt;i&gt;serrating&lt;/i&gt; rune adds an additional 1d12 damage instead of the additional 1d4 damage, and then the shards return to their usual speed.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

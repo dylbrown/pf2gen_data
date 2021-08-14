@@ -1,0 +1,1346 @@
+<pf2:Items category="alchemical_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<SubCategory name="Alchemical Tools">
+<Item level="1" page="254">
+	<Name>Forensic Dye</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Activating this vial of colorless liquid requires inserting a small amount of another chemical or material, such as blood or mud. The vial reacts rapidly, transforming into a murky, reddish-brown substance.&lt;br&gt;&lt;br&gt; Once activated, the dye remains potent for up to 10 minutes, during which time you can spend 1 minute to brush it onto a single object of up to 1 Bulk or across the ground in a single 5-foot square. Where the dye comes in contact with an exact match for the activating chemical, it takes on a bright blue hue, while staying transparent in areas where there is no activating component present.</Description>
+</Item>
+<Item level="1" page="255">
+	<Name>Ghost Ink</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This pale-blue ink dries rapidly, becoming fully transparent 1 minute after application. The ink glows red when exposed to heat, such as that from a torch or other open flame. This glow lasts only as long as the ink is exposed to heat, after which the ink becomes invisible again. The crafter of the ghost ink can alter the formula slightly to instead make the ink sensitive to sunlight, starlight, magical light, or heatless light created by an alchemical effect such as a sunrod.&lt;br&gt;&lt;br&gt; While the text isn't glowing, a creature closely examining a surface marked with ghost ink can detect the presence of the ink with a successful DC 25 Perception check. On a critical success, they can make out the ink well enough to use Society to Decipher Writing. One vial of ghost ink is sufficient to write a page worth of text.</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Bloodhound Mask (Lesser)</Name>
+	<Price>6 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with the listed range. You can't wear other masks while you're wearing a bloodhound mask. When you use Survival to Track a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you the listed item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.&lt;br&gt;
+
+The range is 15 feet, the item bonus is +1, and the duration is 10 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Bloodhound Mask (Moderate)</Name>
+	<Price>40 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with the listed range. You can't wear other masks while you're wearing a bloodhound mask. When you use Survival to Track a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you the listed item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.&lt;br&gt;
+
+The range is 30 feet, the item bonus is +2, and the duration is 1 hour.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Bloodhound Mask (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with the listed range. You can't wear other masks while you're wearing a bloodhound mask. When you use Survival to Track a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you the listed item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.&lt;br&gt;
+
+The range is 60 feet, the item bonus is +3, and the duration is 8 hours.</Description>
+</Item>
+<Item level="2" page="255">
+	<Name>Origin Unguent</Name>
+	<Price>6 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This shimmering, violet unguent forms mild chemical bonds between objects with a matching composition. You apply the adhesive to two objects, or to an object and a creature. You can check if the two share an origin (such as if they were broken from the same whole, or if a poison sample or body part came from the same creature) by holding them together with the unguent between; if they match, the unguent becomes sticky.</Description>
+</Item>
+<Item level="4" page="255">
+	<Name>Timeless Salts</Name>
+	<Price>14 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>You sprinkle these salts onto a single object up to 10 cubic feet in volume and no more than 40 Bulk to preserve it for 1 week. The object doesn't decay, and effects that require the object to be fresh don't count the time passing during this duration as having elapsed. When sprinkled on a corpse, this extends the period in which a creature can be revived by magic, as well as the wait time required before a corpse can be targeted again with &lt;i&gt;talking corpse&lt;/i&gt;. The salts prevent ordinary pests from consuming the target (such as maggots for a corpse or moths for a piece of clothing). Any creature can use an Interact action to disperse the salts from an unattended object and end this effect.</Description>
+</Item>
+<Item level="5" page="255">
+	<Name>Universal Solvent (Moderate)</Name>
+	<Price>21 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Originally formulated as a means of dissolving sovereign glue, this powerful solvent can break almost any adhesive's grip. As universal solvent is particularly effective against sovereign glue, it automatically dissolves sovereign glue. It attempts to counteract any other adhesives, such as &lt;i&gt;tanglefoot bags&lt;/i&gt;, with a counteract modifier depending on the type. &lt;br&gt;
+
+The serum has a counteract modifier of +9.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="255">
+	<Name>Universal Solvent (Greater)</Name>
+	<Price>325 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Originally formulated as a means of dissolving sovereign glue, this powerful solvent can break almost any adhesive's grip. As universal solvent is particularly effective against sovereign glue, it automatically dissolves sovereign glue. It attempts to counteract any other adhesives, such as &lt;i&gt;tanglefoot bags&lt;/i&gt;, with a counteract modifier depending on the type. &lt;br&gt;
+
+The serum has a counteract modifier of +19.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="255">
+	<Name>Universal Solvent (Major)</Name>
+	<Price>3,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Originally formulated as a means of dissolving sovereign glue, this powerful solvent can break almost any adhesive's grip. As universal solvent is particularly effective against sovereign glue, it automatically dissolves sovereign glue. It attempts to counteract any other adhesives, such as &lt;i&gt;tanglefoot bags&lt;/i&gt;, with a counteract modifier depending on the type. &lt;br&gt;
+
+The serum has a counteract modifier of +28.</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Bloodhound Mask (Lesser)</Name>
+	<Price>6 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with the listed range. You can't wear other masks while you're wearing a bloodhound mask. When you use Survival to Track a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you the listed item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.&lt;br&gt;
+
+The range is 15 feet, the item bonus is +1, and the duration is 10 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Bloodhound Mask (Moderate)</Name>
+	<Price>40 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with the listed range. You can't wear other masks while you're wearing a bloodhound mask. When you use Survival to Track a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you the listed item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.&lt;br&gt;
+
+The range is 30 feet, the item bonus is +2, and the duration is 1 hour.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Bloodhound Mask (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with the listed range. You can't wear other masks while you're wearing a bloodhound mask. When you use Survival to Track a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you the listed item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.&lt;br&gt;
+
+The range is 60 feet, the item bonus is +3, and the duration is 8 hours.</Description>
+</Item>
+<Item level="7" page="255">
+	<Name>Skinstitch Salve</Name>
+	<Price>55 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This sticky salve stubbornly holds wounds closed and encourages swift natural healing. You can activate the salve in either of the following ways.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; You Administer First Aid without requiring healer's tools. You either gain a +2 item bonus to the Medicine check, or you can use the skinstitch salve's Medicine modifier of +13 instead of your own.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You Treat Wounds or use Battle Medicine; &lt;b&gt;Effect&lt;/b&gt; You gain a +2 item bonus to the triggering Medicine check. If you roll a success on the Medicine check, you get a critical success instead. </Description>
+</Item>
+<Item level="7" page="255">
+	<Name>Sovereign Glue</Name>
+	<Price>55 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This peculiar amber glue bonds two surfaces together almost inseparably. A single flask covers an area up to 1 square foot and must be used all at once to form a single bond between two surfaces. If the activation is interrupted, the bond fails and the glue is wasted.&lt;br&gt;&lt;br&gt; Once two surfaces are joined with sovereign glue, they can be separated only with a successful DC 50 Athletics check. The adhered objects tend to break before the glue does unless they're particularly durable, though a creature determined to separate the objects can break off the parts connected by the sovereign glue and later Repair the objects.&lt;br&gt;&lt;br&gt; Sovereign glue can affect creatures only if they are willing, and its bond can be harmlessly broken by carefully exfoliating the outermost layer of skin or waiting a short while for the skin to shed.</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Bloodhound Mask (Lesser)</Name>
+	<Price>6 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with the listed range. You can't wear other masks while you're wearing a bloodhound mask. When you use Survival to Track a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you the listed item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.&lt;br&gt;
+
+The range is 15 feet, the item bonus is +1, and the duration is 10 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Bloodhound Mask (Moderate)</Name>
+	<Price>40 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with the listed range. You can't wear other masks while you're wearing a bloodhound mask. When you use Survival to Track a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you the listed item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.&lt;br&gt;
+
+The range is 30 feet, the item bonus is +2, and the duration is 1 hour.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Bloodhound Mask (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wide, single-use mask is designed to be slipped over your mouth and nose and its alchemical filter activated all with one hand. Once activated, the mask sharpens odors, giving you imprecise scent with the listed range. You can't wear other masks while you're wearing a bloodhound mask. When you use Survival to Track a creature by its scent, your proficiency bonus is equal to your level even if you're untrained, and the mask grants you the listed item bonus to your Survival check. The GM sets the Survival DC based on the area's ability to hold scent rather than on visual clues, as normal for using scent.&lt;br&gt;
+
+The range is 60 feet, the item bonus is +3, and the duration is 8 hours.</Description>
+</Item>
+<Item level="5" page="255">
+	<Name>Universal Solvent (Moderate)</Name>
+	<Price>21 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Originally formulated as a means of dissolving sovereign glue, this powerful solvent can break almost any adhesive's grip. As universal solvent is particularly effective against sovereign glue, it automatically dissolves sovereign glue. It attempts to counteract any other adhesives, such as &lt;i&gt;tanglefoot bags&lt;/i&gt;, with a counteract modifier depending on the type. &lt;br&gt;
+
+The serum has a counteract modifier of +9.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="255">
+	<Name>Universal Solvent (Greater)</Name>
+	<Price>325 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Originally formulated as a means of dissolving sovereign glue, this powerful solvent can break almost any adhesive's grip. As universal solvent is particularly effective against sovereign glue, it automatically dissolves sovereign glue. It attempts to counteract any other adhesives, such as &lt;i&gt;tanglefoot bags&lt;/i&gt;, with a counteract modifier depending on the type. &lt;br&gt;
+
+The serum has a counteract modifier of +19.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="255">
+	<Name>Universal Solvent (Major)</Name>
+	<Price>3,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Originally formulated as a means of dissolving sovereign glue, this powerful solvent can break almost any adhesive's grip. As universal solvent is particularly effective against sovereign glue, it automatically dissolves sovereign glue. It attempts to counteract any other adhesives, such as &lt;i&gt;tanglefoot bags&lt;/i&gt;, with a counteract modifier depending on the type. &lt;br&gt;
+
+The serum has a counteract modifier of +28.</Description>
+</Item>
+<Item level="5" page="255">
+	<Name>Universal Solvent (Moderate)</Name>
+	<Price>21 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Originally formulated as a means of dissolving sovereign glue, this powerful solvent can break almost any adhesive's grip. As universal solvent is particularly effective against sovereign glue, it automatically dissolves sovereign glue. It attempts to counteract any other adhesives, such as &lt;i&gt;tanglefoot bags&lt;/i&gt;, with a counteract modifier depending on the type. &lt;br&gt;
+
+The serum has a counteract modifier of +9.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="255">
+	<Name>Universal Solvent (Greater)</Name>
+	<Price>325 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Originally formulated as a means of dissolving sovereign glue, this powerful solvent can break almost any adhesive's grip. As universal solvent is particularly effective against sovereign glue, it automatically dissolves sovereign glue. It attempts to counteract any other adhesives, such as &lt;i&gt;tanglefoot bags&lt;/i&gt;, with a counteract modifier depending on the type. &lt;br&gt;
+
+The serum has a counteract modifier of +19.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="255">
+	<Name>Universal Solvent (Major)</Name>
+	<Price>3,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Originally formulated as a means of dissolving sovereign glue, this powerful solvent can break almost any adhesive's grip. As universal solvent is particularly effective against sovereign glue, it automatically dissolves sovereign glue. It attempts to counteract any other adhesives, such as &lt;i&gt;tanglefoot bags&lt;/i&gt;, with a counteract modifier depending on the type. &lt;br&gt;
+
+The serum has a counteract modifier of +28.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Alchemical Poisons">
+<Item level="4" page="254">
+	<Name>Leadenleg</Name>
+	<Price>15 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Injury, Poison</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Once injected, this synthetic toxin sinks into the extremities, numbing them nearly to paralysis.&lt;br&gt;&lt;br&gt; &lt;b&gt;Saving Throw&lt;/b&gt; DC 20 Fortitude; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 rounds; &lt;b&gt;Stage 1&lt;/b&gt; 1d10 poison damage and –5-foot status penalty to all Speeds (1 round); &lt;b&gt;Stage 2&lt;/b&gt; 2d6 poison damage and –10-foot status penalty to all Speeds (1 round); &lt;b&gt;Stage 3&lt;/b&gt; 2d6 poison damage and –20-foot status penalty to all Speeds (1 round)</Description>
+</Item>
+<Item level="16" page="254">
+	<Name>Cerulean Scourge</Name>
+	<Price>1,450 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Injury, Poison</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Made from a carefully distilled blend of serpentine hemotoxins, the fast-acting cerulean scourge is infamous for transforming the blood vessels near the original wound, which glow with a bright blue light before painfully bursting.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 36 Fortitude; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 rounds; &lt;b&gt;Stage 1&lt;/b&gt; 9d6 poison damage (1 round); &lt;b&gt;Stage 2&lt;/b&gt; 12d6 poison damage (1 round); &lt;b&gt;Stage 3&lt;/b&gt; 15d6 poison damage (1 round)</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Alchemical Bombs">
+<Item level="1" page="252">
+	<Name>Blight Bomb (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 1d6 poison damage, 1d4 persistent poison damage, and 1 poison splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d6 poison damage, 2d4 persistent poison damage, and 2 poison splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d6 poison damage, 3d4 persistent poison damage, and 3 poison splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d6 poison damage, 4d4 persistent poison damage, and 4 poison splash damage.</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 1d6 mental damage and 1 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d6 mental damage and 2 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d6 mental damage and 3 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d6 mental damage and 4 mental splash damage.</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 1d8 positive damage and 1 positive splash damage, and the target is enfeebled 1 until the start of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d8 positive damage and 2 positive splash damage, and the target is enfeebled 1 until the start of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d8 positive damage and 3 positive splash damage, and the target is enfeebled 2 until the start of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 4d8 positive damage and 4 positive splash damage, and the target is enfeebled 2 until the start of your next turn.</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 1d6 poison damage, 1d4 persistent poison damage, and 1 poison splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d6 poison damage, 2d4 persistent poison damage, and 2 poison splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d6 poison damage, 3d4 persistent poison damage, and 3 poison splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d6 poison damage, 4d4 persistent poison damage, and 4 poison splash damage.</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 1d6 mental damage and 1 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d6 mental damage and 2 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d6 mental damage and 3 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d6 mental damage and 4 mental splash damage.</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 1d8 positive damage and 1 positive splash damage, and the target is enfeebled 1 until the start of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d8 positive damage and 2 positive splash damage, and the target is enfeebled 1 until the start of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d8 positive damage and 3 positive splash damage, and the target is enfeebled 2 until the start of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 4d8 positive damage and 4 positive splash damage, and the target is enfeebled 2 until the start of your next turn.</Description>
+</Item>
+<Item level="4" page="252">
+	<Name>Crystal Shards (Moderate)</Name>
+	<Price>16 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Earth, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask holds a pressurized red-brown gas flecked with bits of sublimated crystal. You gain the listed item bonus to attack rolls. When the bomb explodes, it deals the listed piercing damage and piercing splash damage as the mixture suddenly turns into solid crystals flying at high speeds.&lt;br&gt;&lt;br&gt; Surfaces in the splash area grow brittle, gleaming red crystals that crumble to dust after 1 minute. The crystals on level surfaces are caltrops. The crystals on vertical surfaces can be used briefly as handholds, granting the listed item bonus to the next Athletics check to Climb each space. The crystals in each space crumble after the creature leaves, whether Climbing or moving through the caltrops.&lt;br&gt;
+
+The item bonus is +1. The bomb deals 2d4 piercing damage and 4 piercing splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="252">
+	<Name>Crystal Shards (Greater)</Name>
+	<Price>350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Earth, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask holds a pressurized red-brown gas flecked with bits of sublimated crystal. You gain the listed item bonus to attack rolls. When the bomb explodes, it deals the listed piercing damage and piercing splash damage as the mixture suddenly turns into solid crystals flying at high speeds.&lt;br&gt;&lt;br&gt; Surfaces in the splash area grow brittle, gleaming red crystals that crumble to dust after 1 minute. The crystals on level surfaces are caltrops. The crystals on vertical surfaces can be used briefly as handholds, granting the listed item bonus to the next Athletics check to Climb each space. The crystals in each space crumble after the creature leaves, whether Climbing or moving through the caltrops.&lt;br&gt;
+
+The item bonus is +2. The bomb deals 3d4 piercing damage and 5 piercing splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="252">
+	<Name>Crystal Shards (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Earth, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask holds a pressurized red-brown gas flecked with bits of sublimated crystal. You gain the listed item bonus to attack rolls. When the bomb explodes, it deals the listed piercing damage and piercing splash damage as the mixture suddenly turns into solid crystals flying at high speeds.&lt;br&gt;&lt;br&gt; Surfaces in the splash area grow brittle, gleaming red crystals that crumble to dust after 1 minute. The crystals on level surfaces are caltrops. The crystals on vertical surfaces can be used briefly as handholds, granting the listed item bonus to the next Athletics check to Climb each space. The crystals in each space crumble after the creature leaves, whether Climbing or moving through the caltrops.&lt;br&gt;
+
+The item bonus is +3. The bomb deals 4d4 piercing damage and 6 piercing splash damage.</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 1d6 poison damage, 1d4 persistent poison damage, and 1 poison splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d6 poison damage, 2d4 persistent poison damage, and 2 poison splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d6 poison damage, 3d4 persistent poison damage, and 3 poison splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d6 poison damage, 4d4 persistent poison damage, and 4 poison splash damage.</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 1d8 positive damage and 1 positive splash damage, and the target is enfeebled 1 until the start of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d8 positive damage and 2 positive splash damage, and the target is enfeebled 1 until the start of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d8 positive damage and 3 positive splash damage, and the target is enfeebled 2 until the start of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 4d8 positive damage and 4 positive splash damage, and the target is enfeebled 2 until the start of your next turn.</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 1d6 mental damage and 1 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d6 mental damage and 2 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d6 mental damage and 3 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d6 mental damage and 4 mental splash damage.</Description>
+</Item>
+<Item level="4" page="252">
+	<Name>Crystal Shards (Moderate)</Name>
+	<Price>16 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Earth, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask holds a pressurized red-brown gas flecked with bits of sublimated crystal. You gain the listed item bonus to attack rolls. When the bomb explodes, it deals the listed piercing damage and piercing splash damage as the mixture suddenly turns into solid crystals flying at high speeds.&lt;br&gt;&lt;br&gt; Surfaces in the splash area grow brittle, gleaming red crystals that crumble to dust after 1 minute. The crystals on level surfaces are caltrops. The crystals on vertical surfaces can be used briefly as handholds, granting the listed item bonus to the next Athletics check to Climb each space. The crystals in each space crumble after the creature leaves, whether Climbing or moving through the caltrops.&lt;br&gt;
+
+The item bonus is +1. The bomb deals 2d4 piercing damage and 4 piercing splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="252">
+	<Name>Crystal Shards (Greater)</Name>
+	<Price>350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Earth, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask holds a pressurized red-brown gas flecked with bits of sublimated crystal. You gain the listed item bonus to attack rolls. When the bomb explodes, it deals the listed piercing damage and piercing splash damage as the mixture suddenly turns into solid crystals flying at high speeds.&lt;br&gt;&lt;br&gt; Surfaces in the splash area grow brittle, gleaming red crystals that crumble to dust after 1 minute. The crystals on level surfaces are caltrops. The crystals on vertical surfaces can be used briefly as handholds, granting the listed item bonus to the next Athletics check to Climb each space. The crystals in each space crumble after the creature leaves, whether Climbing or moving through the caltrops.&lt;br&gt;
+
+The item bonus is +2. The bomb deals 3d4 piercing damage and 5 piercing splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="252">
+	<Name>Crystal Shards (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Earth, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask holds a pressurized red-brown gas flecked with bits of sublimated crystal. You gain the listed item bonus to attack rolls. When the bomb explodes, it deals the listed piercing damage and piercing splash damage as the mixture suddenly turns into solid crystals flying at high speeds.&lt;br&gt;&lt;br&gt; Surfaces in the splash area grow brittle, gleaming red crystals that crumble to dust after 1 minute. The crystals on level surfaces are caltrops. The crystals on vertical surfaces can be used briefly as handholds, granting the listed item bonus to the next Athletics check to Climb each space. The crystals in each space crumble after the creature leaves, whether Climbing or moving through the caltrops.&lt;br&gt;
+
+The item bonus is +3. The bomb deals 4d4 piercing damage and 6 piercing splash damage.</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 1d6 poison damage, 1d4 persistent poison damage, and 1 poison splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d6 poison damage, 2d4 persistent poison damage, and 2 poison splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d6 poison damage, 3d4 persistent poison damage, and 3 poison splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="252">
+	<Name>Blight Bomb (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals the listed poison damage, persistent poison damage, and splash damage. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d6 poison damage, 4d4 persistent poison damage, and 4 poison splash damage.</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 1d8 positive damage and 1 positive splash damage, and the target is enfeebled 1 until the start of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d8 positive damage and 2 positive splash damage, and the target is enfeebled 1 until the start of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d8 positive damage and 3 positive splash damage, and the target is enfeebled 2 until the start of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Ghost Charge (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Positive, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals the listed positive damage and splash damage, though as usual for positive damage, this damage harms only undead and creatures with negative healing. Ghost charges are designed to explode even on contact with a spiritual substance, making them ideal for damaging incorporeal undead. A primary target that takes damage from a ghost charge becomes enfeebled until the start of your next turn. Many types grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 4d8 positive damage and 4 positive splash damage, and the target is enfeebled 2 until the start of your next turn.</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+The bomb deals 1d6 mental damage and 1 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d6 mental damage and 2 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d6 mental damage and 3 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Dread Ampoule (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Emotion, Fear, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals the listed mental damage and mental splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit. Many types also grant an item bonus to attack rolls.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d6 mental damage and 4 mental splash damage.</Description>
+</Item>
+<Item level="4" page="252">
+	<Name>Crystal Shards (Moderate)</Name>
+	<Price>16 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Earth, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask holds a pressurized red-brown gas flecked with bits of sublimated crystal. You gain the listed item bonus to attack rolls. When the bomb explodes, it deals the listed piercing damage and piercing splash damage as the mixture suddenly turns into solid crystals flying at high speeds.&lt;br&gt;&lt;br&gt; Surfaces in the splash area grow brittle, gleaming red crystals that crumble to dust after 1 minute. The crystals on level surfaces are caltrops. The crystals on vertical surfaces can be used briefly as handholds, granting the listed item bonus to the next Athletics check to Climb each space. The crystals in each space crumble after the creature leaves, whether Climbing or moving through the caltrops.&lt;br&gt;
+
+The item bonus is +1. The bomb deals 2d4 piercing damage and 4 piercing splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="252">
+	<Name>Crystal Shards (Greater)</Name>
+	<Price>350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Earth, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask holds a pressurized red-brown gas flecked with bits of sublimated crystal. You gain the listed item bonus to attack rolls. When the bomb explodes, it deals the listed piercing damage and piercing splash damage as the mixture suddenly turns into solid crystals flying at high speeds.&lt;br&gt;&lt;br&gt; Surfaces in the splash area grow brittle, gleaming red crystals that crumble to dust after 1 minute. The crystals on level surfaces are caltrops. The crystals on vertical surfaces can be used briefly as handholds, granting the listed item bonus to the next Athletics check to Climb each space. The crystals in each space crumble after the creature leaves, whether Climbing or moving through the caltrops.&lt;br&gt;
+
+The item bonus is +2. The bomb deals 3d4 piercing damage and 5 piercing splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="252">
+	<Name>Crystal Shards (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Earth, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask holds a pressurized red-brown gas flecked with bits of sublimated crystal. You gain the listed item bonus to attack rolls. When the bomb explodes, it deals the listed piercing damage and piercing splash damage as the mixture suddenly turns into solid crystals flying at high speeds.&lt;br&gt;&lt;br&gt; Surfaces in the splash area grow brittle, gleaming red crystals that crumble to dust after 1 minute. The crystals on level surfaces are caltrops. The crystals on vertical surfaces can be used briefly as handholds, granting the listed item bonus to the next Athletics check to Climb each space. The crystals in each space crumble after the creature leaves, whether Climbing or moving through the caltrops.&lt;br&gt;
+
+The item bonus is +3. The bomb deals 4d4 piercing damage and 6 piercing splash damage.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Alchemical Elixirs">
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +4, the item bonus to Perception is +1, and the duration is 1 minute or until you use Final Surge, whichever comes first.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +5, the item bonus to Perception is +2, and the duration is 10 minutes or until you use Final Surge, whichever comes first.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +6, the item bonus to Perception is +3, and the duration is 1 hour or until you use Final Surge, whichever comes first.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +7, the item bonus to Perception is +4, and the duration is 1 hour or until you use Final Surge, whichever comes first.</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Lesser)</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +6 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Moderate)</Name>
+	<Price>15 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +8 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Greater)</Name>
+	<Price>325 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +19 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Major)</Name>
+	<Price>3,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +28 counteract modifier.</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Lesser)</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +6 modifier for the roll.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Moderate)</Name>
+	<Price>15 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +8 modifier for the roll.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Greater)</Name>
+	<Price>325 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +19 modifier for the roll.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Major)</Name>
+	<Price>3,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +28 modifier for the roll.</Description>
+</Item>
+<Item level="3" page="254">
+	<Name>Olfactory Obfuscator</Name>
+	<Price>9 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This frothing fluid causes the drinker's body to exude trace odor-absorbing oils. For the listed duration after drinking this elixir, your scent is nearly unnoticeable. Creatures with imprecise scent don't detect you with that sense unless they Seek for you, and you are concealed from creatures that perceive you with precise scent. You gain a +4 item bonus against attempts to Seek you by creatures using only scent-based senses; if they use any other senses as well, the bonus doesn't apply.&lt;br&gt;
+
+The duration is 10 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="254">
+	<Name>Olfactory Obfuscator (Greater)</Name>
+	<Price>225 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This frothing fluid causes the drinker's body to exude trace odor-absorbing oils. For the listed duration after drinking this elixir, your scent is nearly unnoticeable. Creatures with imprecise scent don't detect you with that sense unless they Seek for you, and you are concealed from creatures that perceive you with precise scent. You gain a +4 item bonus against attempts to Seek you by creatures using only scent-based senses; if they use any other senses as well, the bonus doesn't apply.&lt;br&gt;
+
+The duration is 8 hours.</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +4, the item bonus to Perception is +1, and the duration is 1 minute or until you use Final Surge, whichever comes first.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +5, the item bonus to Perception is +2, and the duration is 10 minutes or until you use Final Surge, whichever comes first.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +6, the item bonus to Perception is +3, and the duration is 1 hour or until you use Final Surge, whichever comes first.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +7, the item bonus to Perception is +4, and the duration is 1 hour or until you use Final Surge, whichever comes first.</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Lesser)</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +6 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Moderate)</Name>
+	<Price>15 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +8 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Greater)</Name>
+	<Price>325 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +19 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Major)</Name>
+	<Price>3,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +28 counteract modifier.</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Lesser)</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +6 modifier for the roll.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Moderate)</Name>
+	<Price>15 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +8 modifier for the roll.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Greater)</Name>
+	<Price>325 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +19 modifier for the roll.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Major)</Name>
+	<Price>3,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +28 modifier for the roll.</Description>
+</Item>
+<Item level="3" page="254">
+	<Name>Olfactory Obfuscator</Name>
+	<Price>9 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This frothing fluid causes the drinker's body to exude trace odor-absorbing oils. For the listed duration after drinking this elixir, your scent is nearly unnoticeable. Creatures with imprecise scent don't detect you with that sense unless they Seek for you, and you are concealed from creatures that perceive you with precise scent. You gain a +4 item bonus against attempts to Seek you by creatures using only scent-based senses; if they use any other senses as well, the bonus doesn't apply.&lt;br&gt;
+
+The duration is 10 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="254">
+	<Name>Olfactory Obfuscator (Greater)</Name>
+	<Price>225 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This frothing fluid causes the drinker's body to exude trace odor-absorbing oils. For the listed duration after drinking this elixir, your scent is nearly unnoticeable. Creatures with imprecise scent don't detect you with that sense unless they Seek for you, and you are concealed from creatures that perceive you with precise scent. You gain a +4 item bonus against attempts to Seek you by creatures using only scent-based senses; if they use any other senses as well, the bonus doesn't apply.&lt;br&gt;
+
+The duration is 8 hours.</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +4, the item bonus to Perception is +1, and the duration is 1 minute or until you use Final Surge, whichever comes first.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +5, the item bonus to Perception is +2, and the duration is 10 minutes or until you use Final Surge, whichever comes first.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +6, the item bonus to Perception is +3, and the duration is 1 hour or until you use Final Surge, whichever comes first.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +7, the item bonus to Perception is +4, and the duration is 1 hour or until you use Final Surge, whichever comes first.</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Lesser)</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +6 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Moderate)</Name>
+	<Price>15 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +8 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Greater)</Name>
+	<Price>325 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +19 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Major)</Name>
+	<Price>3,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +28 counteract modifier.</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Lesser)</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +6 modifier for the roll.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Moderate)</Name>
+	<Price>15 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +8 modifier for the roll.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Greater)</Name>
+	<Price>325 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +19 modifier for the roll.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Major)</Name>
+	<Price>3,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +28 modifier for the roll.</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +4, the item bonus to Perception is +1, and the duration is 1 minute or until you use Final Surge, whichever comes first.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +5, the item bonus to Perception is +2, and the duration is 10 minutes or until you use Final Surge, whichever comes first.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +6, the item bonus to Perception is +3, and the duration is 1 hour or until you use Final Surge, whichever comes first.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="253">
+	<Name>Drakeheart Mutagen (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Mutagen, Polymorph</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your skin grows tough scales like a drake, your eyesight become sharp and your pupils slitted, and your limbs grow wiry and quick, but your mind and reflexes become slow. &lt;br&gt;&lt;br&gt;&lt;b&gt;Benefit&lt;/b&gt; You gain the listed bonus to AC, a Dexterity cap of +2 (as usual, use your lowest Dexterity cap if you have more than one), and an item bonus to Perception checks. If you're wearing armor, you still calculate your proficiency bonus to AC based on your proficiency in the armor you're wearing, even if the drakeheart mutagen has a higher item bonus. You also gain the Final Surge action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Final Surge; &lt;b&gt;Effect&lt;/b&gt; You Stride twice. The drakeheart mutagen's duration ends.&lt;br&gt;&lt;br&gt; &lt;b&gt;Drawback&lt;/b&gt; You take a –1 penalty to Will saves, Reflex saves, and all skill checks to Recall Knowledge. &lt;br&gt;
+
+The item bonus to AC is +7, the item bonus to Perception is +4, and the duration is 1 hour or until you use Final Surge, whichever comes first.</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Lesser)</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +6 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Moderate)</Name>
+	<Price>15 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +8 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Greater)</Name>
+	<Price>325 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +19 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Focus Cathartic (Major)</Name>
+	<Price>3,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with the listed counteract modifier to remove the confused or stupefied condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +28 counteract modifier.</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Lesser)</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +6 modifier for the roll.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Moderate)</Name>
+	<Price>15 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +8 modifier for the roll.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Greater)</Name>
+	<Price>325 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +19 modifier for the roll.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="254">
+	<Name>Sinew-Shock Serum (Major)</Name>
+	<Price>3,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir, Healing</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This serum jolts the body to help shake off physical debilitations. When you drink this elixir, it attempts a counteract check with the listed counteract modifier to remove the clumsy or enfeebled condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The serum has a +28 modifier for the roll.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

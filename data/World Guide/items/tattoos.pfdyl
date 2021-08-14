@@ -1,0 +1,11 @@
+<pf2:Items category="tattoos" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<Item level="4" page="92">
+	<Name>Blessed Tattoo</Name>
+	<Price>90 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattoo</Usage>
+	<Description>You can activate the tattoo as a reaction instead of a two-action activity, triggered when a demon attacks you or you attempt a saving throw against a demon’s ability. &lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] envision, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You gain the effect of &lt;i&gt;protection against evil&lt;/i&gt;.</Description>
+</Item>
+</pf2:Items>

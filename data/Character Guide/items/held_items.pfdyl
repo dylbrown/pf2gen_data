@@ -1,0 +1,239 @@
+<pf2:Items category="held_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<Item level="2" page="110">
+	<Name>Pathfinder's Coin</Name>
+	<Price>30 gp</Price>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This coin usually resembles ancient currency. An intricate matrix of gold and platinum wires inside the coin causes it to float an inch in the air and spin if placed on a &lt;i&gt;wayfinder&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Requirements&lt;/b&gt; The coin is levitating above a &lt;i&gt;wayfinder&lt;/i&gt;; &lt;b&gt;Effect&lt;/b&gt; You give the coin a message of 25 words or fewer. The message repeats in your voice the next time the coin is floated above a &lt;i&gt;wayfinder&lt;/i&gt;. A &lt;i&gt;Pathfinder’s coin&lt;/i&gt; can hold only one message at a time, and it replays its message only once.</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Arcane Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;alarm&lt;/i&gt; or &lt;i&gt;unseen servant&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Divine Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;heal&lt;/i&gt; or &lt;i&gt;purify food and drink&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Occult Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;illusory disguise&lt;/i&gt; or &lt;i&gt;soothe&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Primal Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;longstrider&lt;/i&gt; or &lt;i&gt;pass without trace&lt;/i&gt;.</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Arcane Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;alarm&lt;/i&gt; or &lt;i&gt;unseen servant&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Divine Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;heal&lt;/i&gt; or &lt;i&gt;purify food and drink&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Occult Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;illusory disguise&lt;/i&gt; or &lt;i&gt;soothe&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Primal Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;longstrider&lt;/i&gt; or &lt;i&gt;pass without trace&lt;/i&gt;.</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Arcane Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;alarm&lt;/i&gt; or &lt;i&gt;unseen servant&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Divine Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;heal&lt;/i&gt; or &lt;i&gt;purify food and drink&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Occult Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;illusory disguise&lt;/i&gt; or &lt;i&gt;soothe&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Primal Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;longstrider&lt;/i&gt; or &lt;i&gt;pass without trace&lt;/i&gt;.</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Arcane Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;alarm&lt;/i&gt; or &lt;i&gt;unseen servant&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Divine Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;heal&lt;/i&gt; or &lt;i&gt;purify food and drink&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Occult Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;illusory disguise&lt;/i&gt; or &lt;i&gt;soothe&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="111">
+	<Name>Primal Scroll Case of Simplicity</Name>
+	<Price>100 gp</Price>
+	<Traits>Invested, Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The four different types of &lt;i&gt;scroll cases of simplicity&lt;/i&gt; often bear adornments appropriate to their magical tradition, such as angelic wings or otherworldly lettering. On the inside, intricate runic diagrams spiral out to surround the scroll stored within. A scroll placed within the case can be converted into energy to cast consistently useful spells depending on its type. You must be able to cast spells of a given tradition to use a &lt;i&gt;scroll case of simplicity&lt;/i&gt; of a corresponding type.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; The scroll case contains a single scroll of a 1st-level spell; &lt;b&gt;Effect&lt;/b&gt; You transfer the scroll’s energy into the scroll case, consuming the scroll, and you can immediately begin casting one of the scroll case’s spells. If you use any action other than to Cast a Spell from the scroll case after activating the &lt;i&gt;scroll case of simplicity&lt;/i&gt;, the scroll and its energy are lost.&lt;br&gt;
+
+The scroll case can be used to cast &lt;i&gt;longstrider&lt;/i&gt; or &lt;i&gt;pass without trace&lt;/i&gt;.</Description>
+</Item>
+<Item level="6" page="72">
+	<Name>Insistent Door Knocker</Name>
+	<Price>225 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This dark iron door knocker comes in a variety of shapes, such as a bird clutching a ring in its talons or a gargoyle holding a ring in its mouth. Placing the door knocker on the surface of a door (an Interact action) causes it to attach and remain in place. While in place, the door knocker whispers hints to you while you attempt to unlock the door, granting a +1 item bonus to Thievery checks to Pick a Lock. Removing the door knocker from a surface requires you to use an Interact action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You place the door knocker against a wall, floor, or ceiling. The door knocker fuses in place and creates a usable door within the surface. Any creature can move through the door normally, as if the door had always been there. The door can penetrate up to 1 foot of material, so thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. A thin layer of metal in a wall, floor, or ceiling also causes the effect to fail. You can use an Interact action to release the door knocker from the surface and return the surface to its previous shape.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="72">
+	<Name>Insistent Door Knocker (Greater)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This dark iron door knocker comes in a variety of shapes, such as a bird clutching a ring in its talons or a gargoyle holding a ring in its mouth. Placing the door knocker on the surface of a door (an Interact action) causes it to attach and remain in place. While in place, the door knocker whispers hints to you while you attempt to unlock the door, granting a +1 item bonus to Thievery checks to Pick a Lock. Removing the door knocker from a surface requires you to use an Interact action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You place the door knocker against a wall, floor, or ceiling. The door knocker fuses in place and creates a usable door within the surface. Any creature can move through the door normally, as if the door had always been there. The door can penetrate up to 1 foot of material, so thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. A thin layer of metal in a wall, floor, or ceiling also causes the effect to fail. You can use an Interact action to release the door knocker from the surface and return the surface to its previous shape.&lt;br&gt;
+
+The item bonus is +2, and the door knocker can penetrate up to 5 feet of material when activated.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="72">
+	<Name>Insistent Door Knocker (Major)</Name>
+	<Price>13,500 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This dark iron door knocker comes in a variety of shapes, such as a bird clutching a ring in its talons or a gargoyle holding a ring in its mouth. Placing the door knocker on the surface of a door (an Interact action) causes it to attach and remain in place. While in place, the door knocker whispers hints to you while you attempt to unlock the door, granting a +1 item bonus to Thievery checks to Pick a Lock. Removing the door knocker from a surface requires you to use an Interact action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You place the door knocker against a wall, floor, or ceiling. The door knocker fuses in place and creates a usable door within the surface. Any creature can move through the door normally, as if the door had always been there. The door can penetrate up to 1 foot of material, so thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. A thin layer of metal in a wall, floor, or ceiling also causes the effect to fail. You can use an Interact action to release the door knocker from the surface and return the surface to its previous shape.&lt;br&gt;
+
+The item bonus is +3, and the door knocker can penetrate up to 10 feet of material when activated.</Description>
+</Item>
+<Item level="6" page="72">
+	<Name>Insistent Door Knocker</Name>
+	<Price>225 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This dark iron door knocker comes in a variety of shapes, such as a bird clutching a ring in its talons or a gargoyle holding a ring in its mouth. Placing the door knocker on the surface of a door (an Interact action) causes it to attach and remain in place. While in place, the door knocker whispers hints to you while you attempt to unlock the door, granting a +1 item bonus to Thievery checks to Pick a Lock. Removing the door knocker from a surface requires you to use an Interact action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You place the door knocker against a wall, floor, or ceiling. The door knocker fuses in place and creates a usable door within the surface. Any creature can move through the door normally, as if the door had always been there. The door can penetrate up to 1 foot of material, so thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. A thin layer of metal in a wall, floor, or ceiling also causes the effect to fail. You can use an Interact action to release the door knocker from the surface and return the surface to its previous shape.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="72">
+	<Name>Insistent Door Knocker (Greater)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This dark iron door knocker comes in a variety of shapes, such as a bird clutching a ring in its talons or a gargoyle holding a ring in its mouth. Placing the door knocker on the surface of a door (an Interact action) causes it to attach and remain in place. While in place, the door knocker whispers hints to you while you attempt to unlock the door, granting a +1 item bonus to Thievery checks to Pick a Lock. Removing the door knocker from a surface requires you to use an Interact action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You place the door knocker against a wall, floor, or ceiling. The door knocker fuses in place and creates a usable door within the surface. Any creature can move through the door normally, as if the door had always been there. The door can penetrate up to 1 foot of material, so thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. A thin layer of metal in a wall, floor, or ceiling also causes the effect to fail. You can use an Interact action to release the door knocker from the surface and return the surface to its previous shape.&lt;br&gt;
+
+The item bonus is +2, and the door knocker can penetrate up to 5 feet of material when activated.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="72">
+	<Name>Insistent Door Knocker (Major)</Name>
+	<Price>13,500 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This dark iron door knocker comes in a variety of shapes, such as a bird clutching a ring in its talons or a gargoyle holding a ring in its mouth. Placing the door knocker on the surface of a door (an Interact action) causes it to attach and remain in place. While in place, the door knocker whispers hints to you while you attempt to unlock the door, granting a +1 item bonus to Thievery checks to Pick a Lock. Removing the door knocker from a surface requires you to use an Interact action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You place the door knocker against a wall, floor, or ceiling. The door knocker fuses in place and creates a usable door within the surface. Any creature can move through the door normally, as if the door had always been there. The door can penetrate up to 1 foot of material, so thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. A thin layer of metal in a wall, floor, or ceiling also causes the effect to fail. You can use an Interact action to release the door knocker from the surface and return the surface to its previous shape.&lt;br&gt;
+
+The item bonus is +3, and the door knocker can penetrate up to 10 feet of material when activated.</Description>
+</Item>
+<Item level="6" page="72">
+	<Name>Insistent Door Knocker</Name>
+	<Price>225 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This dark iron door knocker comes in a variety of shapes, such as a bird clutching a ring in its talons or a gargoyle holding a ring in its mouth. Placing the door knocker on the surface of a door (an Interact action) causes it to attach and remain in place. While in place, the door knocker whispers hints to you while you attempt to unlock the door, granting a +1 item bonus to Thievery checks to Pick a Lock. Removing the door knocker from a surface requires you to use an Interact action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You place the door knocker against a wall, floor, or ceiling. The door knocker fuses in place and creates a usable door within the surface. Any creature can move through the door normally, as if the door had always been there. The door can penetrate up to 1 foot of material, so thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. A thin layer of metal in a wall, floor, or ceiling also causes the effect to fail. You can use an Interact action to release the door knocker from the surface and return the surface to its previous shape.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="72">
+	<Name>Insistent Door Knocker (Greater)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This dark iron door knocker comes in a variety of shapes, such as a bird clutching a ring in its talons or a gargoyle holding a ring in its mouth. Placing the door knocker on the surface of a door (an Interact action) causes it to attach and remain in place. While in place, the door knocker whispers hints to you while you attempt to unlock the door, granting a +1 item bonus to Thievery checks to Pick a Lock. Removing the door knocker from a surface requires you to use an Interact action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You place the door knocker against a wall, floor, or ceiling. The door knocker fuses in place and creates a usable door within the surface. Any creature can move through the door normally, as if the door had always been there. The door can penetrate up to 1 foot of material, so thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. A thin layer of metal in a wall, floor, or ceiling also causes the effect to fail. You can use an Interact action to release the door knocker from the surface and return the surface to its previous shape.&lt;br&gt;
+
+The item bonus is +2, and the door knocker can penetrate up to 5 feet of material when activated.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="72">
+	<Name>Insistent Door Knocker (Major)</Name>
+	<Price>13,500 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This dark iron door knocker comes in a variety of shapes, such as a bird clutching a ring in its talons or a gargoyle holding a ring in its mouth. Placing the door knocker on the surface of a door (an Interact action) causes it to attach and remain in place. While in place, the door knocker whispers hints to you while you attempt to unlock the door, granting a +1 item bonus to Thievery checks to Pick a Lock. Removing the door knocker from a surface requires you to use an Interact action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You place the door knocker against a wall, floor, or ceiling. The door knocker fuses in place and creates a usable door within the surface. Any creature can move through the door normally, as if the door had always been there. The door can penetrate up to 1 foot of material, so thick material, such as heavy stone walls, can cause this effect to fail, expending its use for the day. A thin layer of metal in a wall, floor, or ceiling also causes the effect to fail. You can use an Interact action to release the door knocker from the surface and return the surface to its previous shape.&lt;br&gt;
+
+The item bonus is +3, and the door knocker can penetrate up to 10 feet of material when activated.</Description>
+</Item>
+</pf2:Items>

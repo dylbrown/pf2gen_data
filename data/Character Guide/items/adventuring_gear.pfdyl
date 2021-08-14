@@ -1,0 +1,34 @@
+<pf2:Items category="adventuring_gear" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<Item level="0" page="91">
+	<Name>Armored Skirt</Name>
+	<Price>2 gp</Price>
+	<Bulk>1</Bulk>
+	<Description>These armor-plated skirts, which are also known as armored kilts, are favored by Knights of Lastwall for their versatility and aesthetic appeal. An armored skirt can be donned with 2 Interact actions when it’s worn with light or medium armor, or as part of donning heavy armor.&lt;br&gt;&lt;br&gt; When worn with a breastplate, chain shirt, chain mail, or scale mail, an armored skirt increases the armor’s item bonus to AC by 1, worsens the armor’s check penalty by 1, reduces the armor’s Dex cap by 1, increases the Strength score required to ignore the check penalty and reduce the Speed penalty by 2, and adds the noisy trait. This also makes the armor one step heavier (from light to medium, or medium to heavy), and you use the proficiency bonus appropriate to this adjusted armor type.&lt;br&gt;&lt;br&gt; Alternatively, when wearing an armored skirt to replace appropriate portions of a set of half plate or full plate, reduce the armor’s item bonus to AC by 1, lessen the check penalty by 1, decrease the Strength score required to ignore the check penalty and reduce the Speed penalty by 2, increase the armor’s Dex cap by 1, and add the noisy trait to the armor. An armored skirt grants no benefit when worn by itself or with armors other than those listed here.</Description>
+</Item>
+<Item level="3" page="291">
+	<Name>Scholarly Journal</Name>
+	<Price>6 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>Scholarly journals are uncommon. Each scholarly journal is a folio on a very specific topic, such as vampires or the history of a single town or neighborhood of a city. If you spend 1 minute referencing an academic journal before attempting a skill check to Recall Knowledge about the subject, you gain a +1 item bonus to the check. A compendium of journals costs five times as much as a single journal and requires both hands to use; each compendium contains several journals and grants its bonus on a broader topic, such as all undead or a whole city. The GM determines what scholarly journals are available in any location.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="291">
+	<Name>Scholarly Journal (Compendium)</Name>
+	<Price>30 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>Scholarly journals are uncommon. Each scholarly journal is a folio on a very specific topic, such as vampires or the history of a single town or neighborhood of a city. If you spend 1 minute referencing an academic journal before attempting a skill check to Recall Knowledge about the subject, you gain a +1 item bonus to the check. A compendium of journals costs five times as much as a single journal and requires both hands to use; each compendium contains several journals and grants its bonus on a broader topic, such as all undead or a whole city. The GM determines what scholarly journals are available in any location.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="110">
+	<Name>Pathfinder Chronicle</Name>
+	<Price>6 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Usage>held in 1 hand</Usage>
+	<Description>Scholarly journals are uncommon. Each scholarly journal is a folio on a very specific topic, such as vampires or the history of a single town or neighborhood of a city. If you spend 1 minute referencing an academic journal before attempting a skill check to Recall Knowledge about the subject, you gain a +1 item bonus to the check. A compendium of journals costs five times as much as a single journal and requires both hands to use; each compendium contains several journals and grants its bonus on a broader topic, such as all undead or a whole city. The GM determines what scholarly journals are available in any location.&lt;br&gt;
+
+This item is uncommon, but characters who are members of the Pathfinder Society have access to it.&lt;br&gt;&lt;br&gt;Numerous volumes and editions of the Pathfinder Chronicles exist, each cataloging different adventures. Pathfinder Chronicles are a type of scholarly journal that specifically devotes topics to Pathfinder discoveries, rather than more theoretical academic topics. Because Pathfinders have better access to these chronicles than other scholarly journals, they are particularly common among Pathfinder agents building a library of reference texts.</Description>
+</Item>
+</pf2:Items>

@@ -1,0 +1,522 @@
+<pf2:Items category="wands" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<SubCategory name="Specialty Wands">
+<Item level="6" page="265">
+	<Name>Wand of Hopeless Night (2nd-Level Spell)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Darkness, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is a length of wrought black iron.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;darkness&lt;/i&gt;. Each creature that ends its turn within the spell's area must succeed at a DC 20 Will save or become frightened 1 (frightened 2 on a critical failure).&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;darkness&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="6" page="265">
+	<Name>Wand of Hopeless Night (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Darkness, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is a length of wrought black iron.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;darkness&lt;/i&gt;. Each creature that ends its turn within the spell's area must succeed at a DC 20 Will save or become frightened 1 (frightened 2 on a critical failure).&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;darkness&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="7" page="265">
+	<Name>Wand of the Spider (2nd-Level Spell)</Name>
+	<Price>360 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Magical, Poison, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The handle of this wand is a 5-inch-long piece of rosewood, but most of its length is a pair of twisted spider legs covered in gossamer webbing.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;web&lt;/i&gt;, but the strands of webbing are envenomed. Any creature that fails their Athletics check or Reflex save to navigate the web takes 1d6 poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;web&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="265">
+	<Name>Wand of the Spider (4th-Level Spell)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Magical, Poison, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The handle of this wand is a 5-inch-long piece of rosewood, but most of its length is a pair of twisted spider legs covered in gossamer webbing.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;web&lt;/i&gt;, but the strands of webbing are envenomed. Any creature that fails their Athletics check or Reflex save to navigate the web takes 1d6 poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;web&lt;/i&gt; of the appropriate level.&lt;br&gt;
+
+The strands deal 2d6 poison damage plus 1d6 persistent poison damage.</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (3rd-Level Spell)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (6th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (8th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (3rd-Level Spell)</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (4th-Level Spell)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (5th-Level Spell)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (6th-Level Spell)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (7th-Level Spell)</Name>
+	<Price>15,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (8th-Level Spell)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (3rd-Level Spell)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (6th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (8th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="6" page="265">
+	<Name>Wand of Hopeless Night (2nd-Level Spell)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Darkness, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is a length of wrought black iron.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;darkness&lt;/i&gt;. Each creature that ends its turn within the spell's area must succeed at a DC 20 Will save or become frightened 1 (frightened 2 on a critical failure).&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;darkness&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="6" page="265">
+	<Name>Wand of Hopeless Night (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Darkness, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is a length of wrought black iron.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;darkness&lt;/i&gt;. Each creature that ends its turn within the spell's area must succeed at a DC 20 Will save or become frightened 1 (frightened 2 on a critical failure).&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;darkness&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (3rd-Level Spell)</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (4th-Level Spell)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (5th-Level Spell)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (6th-Level Spell)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (7th-Level Spell)</Name>
+	<Price>15,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (8th-Level Spell)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="7" page="265">
+	<Name>Wand of the Spider (2nd-Level Spell)</Name>
+	<Price>360 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Magical, Poison, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The handle of this wand is a 5-inch-long piece of rosewood, but most of its length is a pair of twisted spider legs covered in gossamer webbing.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;web&lt;/i&gt;, but the strands of webbing are envenomed. Any creature that fails their Athletics check or Reflex save to navigate the web takes 1d6 poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;web&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="265">
+	<Name>Wand of the Spider (4th-Level Spell)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Magical, Poison, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The handle of this wand is a 5-inch-long piece of rosewood, but most of its length is a pair of twisted spider legs covered in gossamer webbing.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;web&lt;/i&gt;, but the strands of webbing are envenomed. Any creature that fails their Athletics check or Reflex save to navigate the web takes 1d6 poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;web&lt;/i&gt; of the appropriate level.&lt;br&gt;
+
+The strands deal 2d6 poison damage plus 1d6 persistent poison damage.</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (3rd-Level Spell)</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (4th-Level Spell)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (5th-Level Spell)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (6th-Level Spell)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (7th-Level Spell)</Name>
+	<Price>15,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (8th-Level Spell)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (3rd-Level Spell)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (6th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (8th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="14" page="265">
+	<Name>Wand of the Snowfields (5th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Cold, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is a slender length of ice-blue glass.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;cone of cold&lt;/i&gt;. The ground within the spell's area is swathed in deep snow, becoming difficult terrain for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;cone of cold&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="14" page="265">
+	<Name>Wand of the Snowfields (7th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Cold, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is a slender length of ice-blue glass.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;cone of cold&lt;/i&gt;. The ground within the spell's area is swathed in deep snow, becoming difficult terrain for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;cone of cold&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (3rd-Level Spell)</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (4th-Level Spell)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (5th-Level Spell)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (6th-Level Spell)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (7th-Level Spell)</Name>
+	<Price>15,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (8th-Level Spell)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (3rd-Level Spell)</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (4th-Level Spell)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (5th-Level Spell)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (6th-Level Spell)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (7th-Level Spell)</Name>
+	<Price>15,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (8th-Level Spell)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (3rd-Level Spell)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (6th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="8" page="265">
+	<Name>Wand of Crackling Lightning (8th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is made of two copper plates separated by a ceramic center.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;lightning bolt&lt;/i&gt;, but the spell's area is twice as wide (two adjacent and parallel 120-foot lines) and creatures that fail their save are flat-footed for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;lightning bolt&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="14" page="265">
+	<Name>Wand of the Snowfields (5th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Cold, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is a slender length of ice-blue glass.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;cone of cold&lt;/i&gt;. The ground within the spell's area is swathed in deep snow, becoming difficult terrain for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;cone of cold&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="14" page="265">
+	<Name>Wand of the Snowfields (7th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Cold, Evocation, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand is a slender length of ice-blue glass.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;cone of cold&lt;/i&gt;. The ground within the spell's area is swathed in deep snow, becoming difficult terrain for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;cone of cold&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (3rd-Level Spell)</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (4th-Level Spell)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (5th-Level Spell)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (6th-Level Spell)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (7th-Level Spell)</Name>
+	<Price>15,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+<Item level="9" page="265">
+	<Name>Wand of Overflowing Life (8th-Level Spell)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Healing, Magical, Necromancy, Positive, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This alabaster wand has a clear crystal at the tip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;heal&lt;/i&gt; at the indicated level. After you cast the spell, at the start of your next turn, excess healing magic wells up from the wand and heals you, as though you cast the 1-action version of &lt;i&gt;heal&lt;/i&gt; on yourself at the same spell level. You gain this benefit only once, even if you cast multiple &lt;i&gt;heal&lt;/i&gt; spells from &lt;i&gt;wands of overflowing life&lt;/i&gt; in the same turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;heal&lt;/i&gt; of the appropriate level. &lt;br&gt;</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

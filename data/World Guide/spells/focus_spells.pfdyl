@@ -1,0 +1,65 @@
+<?xml version = "1.0"?>
+<pf2:spells xmlns:pf2="https://dylbrown.github.io"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/spell.xsd">
+    <Spell page="95" type="Focus">
+        <Name>Magic Warrior Aspect</Name>
+        <Level>2</Level>
+        <Traits>Uncommon, Morph, Transmutation</Traits>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Duration>5 minutes</Duration>
+        <Description>You call upon the aspect of the animal from your mask, gaining physical features reminiscent of that animal. You morph slightly into that creature, gaining the Speeds and senses you would gain from using &lt;i&gt;animal form&lt;/i&gt; to turn into the type of animal your mask represents; these special Speeds can’t be increased by status bonuses or item bonuses.</Description>
+    </Spell>
+    <Spell page="95" type="Focus">
+        <Name>Magic Warrior Transformation</Name>
+        <Level>2</Level>
+        <Traits>Uncommon, Polymorph, Transmutation</Traits>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You transform into the animal from your mask. You gain the effects of &lt;i&gt;animal form&lt;/i&gt;, heightened to &lt;i&gt;magic warrior transformation’s&lt;/i&gt; level, and you can transform into only the type of animal your mask represents.</Description>
+    </Spell>
+    <Spell page="83" type="Focus">
+        <Name>Perfect Strike</Name>
+        <Level>2</Level>
+        <Traits>Uncommon, Divination, Fortune</Traits>
+        <Cast>Reaction (verbal)</Cast>
+        <Description>You call upon insight from your training to recover accuracy. Reroll the missed attack roll and keep the new result.</Description>
+    </Spell>
+    <Spell page="83" type="Focus">
+        <Name>Unblinking Flame Revelation</Name>
+        <Level>3</Level>
+        <Traits>Uncommon, Abjuration</Traits>
+        <Cast>Single Action (verbal)</Cast>
+        <Requirements>Your previous action was a successful unarmed Strike.</Requirements>
+        <Targets>the creature you hit</Targets>
+        <Duration>2 rounds</Duration>
+        <Description>You light your foe with revealing flame. The GM attempts a secret counteract check against each illusion affecting the creature; on a success, you suppress the illusion for the duration, rather than end the effect.</Description>
+    </Spell>
+    <Spell page="83" type="Focus">
+        <Name>Unbreaking Wave Advance</Name>
+        <Level>3</Level>
+        <Traits>Uncommon, Evocation, Water</Traits>
+        <Cast>Single Action (verbal)</Cast>
+        <Area>15-foot cone</Area>
+        <Save>Fortitude</Save>
+        <Description>You unleash a mighty wave from your hand that buffets back your foes. Each creature in the area must attempt a Fortitude saving throw. If a creature pushed by &lt;i&gt;unbreaking wave advance&lt;/i&gt; would be pushed into a solid barrier or another creature, it stops at that point and takes 3d6 damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is pushed 10 feet.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is pushed 20 feet.</Description>
+        <Heightened every="1"> The damage for pushing a creature into a solid barrier increases by 1d6.</Heightened>
+    </Spell>
+    <Spell page="83" type="Focus">
+        <Name>Unfolding Wind Rush</Name>
+        <Level>3</Level>
+        <Traits>Uncommon, Evocation</Traits>
+        <Cast>Single Action (verbal)</Cast>
+        <Description>You travel on a rushing wind. Move two times: two Strides, two Steps, or one Stride and one Step (in either order). You can Stride or Step into the air during this movement, moving upward at a 45-degree angle at most; if you end your movement in the air, you fall after taking one action or when your turn ends, whichever comes first. A &lt;i&gt;wall of wind&lt;/i&gt; appears in all the spaces you left during this movement, lasting for 1 round.</Description>
+        <Heightened level="5"> The </Heightened>
+        <Heightened level="1"> lasts 3 rounds.</Heightened>
+    </Spell>
+    <Spell page="83" type="Focus">
+        <Name>Untwisting Iron Buffer</Name>
+        <Level>3</Level>
+        <Traits>Uncommon, Abjuration</Traits>
+        <Cast>Single Action (verbal)</Cast>
+        <Description>You send currents of protective ki to the surface of your body that protect you from harm, at least until your enemies dissipate them. You gain 15 temporary Hit Points, which last for up to 3 rounds.</Description>
+        <Heightened every="1"> The temporary Hit Points increase by 5.</Heightened>
+    </Spell>
+</pf2:spells>

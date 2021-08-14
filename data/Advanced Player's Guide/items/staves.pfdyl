@@ -1,0 +1,332 @@
+<pf2:Items category="staves" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions (Greater)</Name>
+	<Price>1,800 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions (Major)</Name>
+	<Price>10,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions (True)</Name>
+	<Price>70,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence (Major)</Name>
+	<Price>4,100 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence (True)</Name>
+	<Price>64,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="263">
+	<Name>Staff of Nature's Vengeance</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This stout staff is made from gnarled hawthorn. When used as a weapon, a &lt;i&gt;staff of nature's vengeance&lt;/i&gt; permanently has the effects of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells, plus one casting of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="263">
+	<Name>Staff of Nature's Vengeance (Greater)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This stout staff is made from gnarled hawthorn. When used as a weapon, a &lt;i&gt;staff of nature's vengeance&lt;/i&gt; permanently has the effects of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells, plus one casting of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="263">
+	<Name>Staff of Nature's Vengeance (Major)</Name>
+	<Price>24,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This stout staff is made from gnarled hawthorn. When used as a weapon, a &lt;i&gt;staff of nature's vengeance&lt;/i&gt; permanently has the effects of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells, plus one casting of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence (Major)</Name>
+	<Price>4,100 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence (True)</Name>
+	<Price>64,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions (Greater)</Name>
+	<Price>1,800 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions (Major)</Name>
+	<Price>10,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions (True)</Name>
+	<Price>70,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="263">
+	<Name>Staff of Nature's Vengeance</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This stout staff is made from gnarled hawthorn. When used as a weapon, a &lt;i&gt;staff of nature's vengeance&lt;/i&gt; permanently has the effects of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells, plus one casting of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="263">
+	<Name>Staff of Nature's Vengeance (Greater)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This stout staff is made from gnarled hawthorn. When used as a weapon, a &lt;i&gt;staff of nature's vengeance&lt;/i&gt; permanently has the effects of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells, plus one casting of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="263">
+	<Name>Staff of Nature's Vengeance (Major)</Name>
+	<Price>24,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This stout staff is made from gnarled hawthorn. When used as a weapon, a &lt;i&gt;staff of nature's vengeance&lt;/i&gt; permanently has the effects of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells, plus one casting of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence (Major)</Name>
+	<Price>4,100 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence (True)</Name>
+	<Price>64,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions (Greater)</Name>
+	<Price>1,800 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions (Major)</Name>
+	<Price>10,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions (True)</Name>
+	<Price>70,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="263">
+	<Name>Staff of Nature's Vengeance</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This stout staff is made from gnarled hawthorn. When used as a weapon, a &lt;i&gt;staff of nature's vengeance&lt;/i&gt; permanently has the effects of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells, plus one casting of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="263">
+	<Name>Staff of Nature's Vengeance (Greater)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This stout staff is made from gnarled hawthorn. When used as a weapon, a &lt;i&gt;staff of nature's vengeance&lt;/i&gt; permanently has the effects of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells, plus one casting of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="263">
+	<Name>Staff of Nature's Vengeance (Major)</Name>
+	<Price>24,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This stout staff is made from gnarled hawthorn. When used as a weapon, a &lt;i&gt;staff of nature's vengeance&lt;/i&gt; permanently has the effects of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells, plus one casting of &lt;i&gt;shillelagh&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence (Major)</Name>
+	<Price>4,100 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="264">
+	<Name>Staff of Providence (True)</Name>
+	<Price>64,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A large, stylized symbol of an eye adorns the top of this wooden staff, representing the watchful eye of the divine powers. The bearer of the staff can guide and protect, seeing bounties and tragedies that could befall them in the future. When wielding this staff, you gain a +1 item bonus on Survival checks to Sense Direction or Subsist, and to Religion checks to Recall Knowledge.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions (Greater)</Name>
+	<Price>1,800 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions (Major)</Name>
+	<Price>10,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="263">
+	<Name>Staff of Impossible Visions (True)</Name>
+	<Price>70,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bizarre staff is made from oak, capped with a cluster of eye-shaped gemstones that seem to move and undulate at the corner of your vision. While wielding the staff, you can peer through the eyes, using your normal visual senses (including any benefits of spells affecting your vision, like &lt;i&gt;see invisibility&lt;/i&gt;). You can maneuver the staff to see things around corners, at higher elevations, or in places where the staff can fit but your head can't. This doesn't provide sufficient line of effect to target creatures around corners. The eyes are as vulnerable as your eyes and can be affected by anything that alters your vision, such as a blinding flash of light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+</pf2:Items>

@@ -20,4 +20,11 @@
 
             &lt;b&gt;Craft Requirements&lt;/b&gt; Demilich eye gems can't be crafted.</Description>
     </Item>
+    <Item level="9" page="203" category="Worn Items">
+        <Name>Heartstone</Name>
+        <Price>600 gp (200 gp when nonmagical)</Price>
+        <Traits>Abjuration, Invested, Occult</Traits>
+        <Usage>worn</Usage>
+        <Description>This gemstone grants its wearer a +2 item bonus to saving throws.&lt;br&gt;&lt;br&gt;Each &lt;i&gt;heartstone&lt;/i&gt; is powered by the spirit of a specific night hag. If it’s separated from her for 24 hours (or she’s been dead for 24 hours), it becomes a nonmagical gemstone. A &lt;i&gt;heartstone&lt;/i&gt; allows the hag to use additional occult innate spells: &lt;i&gt;ethereal jaunt&lt;/i&gt; (9th level) and &lt;i&gt;bind soul&lt;/i&gt; at will, and &lt;i&gt;shadow blast&lt;/i&gt; twice per day.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Requirements&lt;/b&gt; You must be touching the &lt;i&gt;heartstone&lt;/i&gt;.; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;heartstone&lt;/i&gt; attempts to counteract one disease affecting you (counteract level 5, counteract modifier +18).&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; You must be a night hag.</Description>
+    </Item>
 </pf2:Items>

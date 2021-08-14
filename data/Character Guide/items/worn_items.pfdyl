@@ -1,0 +1,587 @@
+<pf2:Items category="worn_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<SubCategory name="Other Worn Items">
+<Item level="4" page="72">
+	<Name>Cloak of Repute</Name>
+	<Price>90 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +1 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="72">
+	<Name>Cloak of Repute (Greater)</Name>
+	<Price>1,300 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +1 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead.&lt;br&gt;
+
+The item bonus is +2. You can activate the cloak twice per day.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="72">
+	<Name>Cloak of Repute (Major)</Name>
+	<Price>21,750 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +1 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead.&lt;br&gt;
+
+The item bonus is +3. You can activate the cloak three times per day. If you roll a critical failure on your Diplomacy check when you activate the cloak, you get a failure instead.</Description>
+</Item>
+<Item level="2" page="617">
+	<Name>Wayfinder</Name>
+	<Price>28 gp</Price>
+	<Traits>Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. A &lt;i&gt;wayfinder&lt;/i&gt; functions as a compass.&lt;br&gt;&lt;br&gt; An indentation in the middle of the &lt;i&gt;wayfinder&lt;/i&gt; can hold a single &lt;i&gt;aeon stone&lt;/i&gt;. Placing an &lt;i&gt;aeon stone&lt;/i&gt; in this indentation provides you all the benefits of having the &lt;i&gt;aeon stone&lt;/i&gt; orbiting your head, but it protects the stone from being noticed or stolen as easily. You invest a &lt;i&gt;wayfinder&lt;/i&gt; and the &lt;i&gt;aeon stone&lt;/i&gt; within it simultaneously, and they count as only one item toward your investiture limit. An invested &lt;i&gt;aeon stone&lt;/i&gt; slotted in a &lt;i&gt;wayfinder&lt;/i&gt; also grants its resonant power.&lt;br&gt;&lt;br&gt; If you have more than one &lt;i&gt;wayfinder&lt;/i&gt; with an invested &lt;i&gt;aeon stone&lt;/i&gt; on your person at a given time, destructive interference from their resonance prevents you from gaining benefits from any of them. You can still benefit from additional &lt;i&gt;aeon stones&lt;/i&gt; orbiting your head, just not in &lt;i&gt;wayfinders&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; is targeted by a 1st-level &lt;i&gt;light&lt;/i&gt; spell.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="17">
+	<Name>Archaic Wayfinder</Name>
+	<Price>30 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+An &lt;i&gt;archaic wayfinder&lt;/i&gt; functions as a compass and acts as a repository for one cantrip cast into it. To fill an &lt;i&gt;archaic wayfinder&lt;/i&gt;, a spellcaster casts the chosen cantrip into the empty device, providing any necessary cost; the spell cannot be one that is normally cast as a free action or reaction. Activating an &lt;i&gt;archaic wayfinder&lt;/i&gt; is the same as the casting for the relevant spell. Once it has been activated, it becomes empty again. An &lt;i&gt;archaic wayfinder&lt;/i&gt; can hold an aeon stone and activate its resonant power. An &lt;i&gt;archaic wayfinder&lt;/i&gt; counts against the limit of one &lt;i&gt;wayfinder&lt;/i&gt; with a slotted resonant &lt;i&gt;aeon stone&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="42">
+	<Name>Wayfinder of Rescue</Name>
+	<Price>80 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+As a standard &lt;i&gt;wayfinder&lt;/i&gt;, but once per day you can activate it to cast &lt;i&gt;heal&lt;/i&gt; on a creature other than yourself, using either the one-action or two-action version of &lt;i&gt;heal&lt;/i&gt; as a 1st-level spell.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="110">
+	<Name>Bi-Resonant Wayfinder</Name>
+	<Price>200 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+This magic item is uncommon, but characters who are members of the Pathfinder Society have access to it.&lt;br&gt;&lt;br&gt;A &lt;i&gt;bi-resonant wayfinder&lt;/i&gt; is inlaid with intricate platinum wires in a complex array of conduits for magical energy. These conduits control the resonant interference of &lt;i&gt;aeon stones&lt;/i&gt;. A &lt;i&gt;bi-resonant wayfinder&lt;/i&gt; works just like a regular &lt;i&gt;wayfinder&lt;/i&gt; except it has two &lt;i&gt;aeon stone&lt;/i&gt; slots, and the &lt;i&gt;aeon stones&lt;/i&gt; in both slots grant their resonant powers without interfering with each other. The &lt;i&gt;bi-resonant wayfinder&lt;/i&gt; and the two &lt;i&gt;aeon stones&lt;/i&gt; count as two items toward your investiture limit.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="111">
+	<Name>Shining Wayfinder</Name>
+	<Price>100 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+This magic item is uncommon, but characters who are members of the Pathfinder Society have access to it.&lt;br&gt;&lt;br&gt;A &lt;i&gt;shining wayfinder&lt;/i&gt; is a polished silver compass blessed by the power of benevolent deities. It has the usual functions of a &lt;i&gt;wayfinder&lt;/i&gt;, except instead of an activation to cast &lt;i&gt;light&lt;/i&gt;, the shining wayfinder has the following two activations.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; You hold the &lt;i&gt;wayfinder&lt;/i&gt; and ask for guidance. The wayfinder casts &lt;i&gt;guidance&lt;/i&gt; on you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You call upon the wayfinder’s divine blessings for yourself and your allies. The wayfinder casts &lt;i&gt;bless&lt;/i&gt;, with an emanation centered on itself. Once per turn, you can use a single action, which has the concentrate trait, to increase the emanation’s radius by 5 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="112">
+	<Name>Vanishing Wayfinder</Name>
+	<Price>150 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+This magic item is uncommon, but characters who are members of the Pathfinder Society have access to it.&lt;br&gt;&lt;br&gt;A &lt;i&gt;vanishing wayfinder&lt;/i&gt; is crafted of ivory chased with gold and silver. It has the usual functions of a &lt;i&gt;wayfinder&lt;/i&gt; and the following additional activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You turn the &lt;i&gt;wayfinder&lt;/i&gt; in a circle while invoking its command word, gaining the effects of a 2nd-level &lt;i&gt;invisibility&lt;/i&gt; spell for 5 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="30">
+	<Name>Chronicler Wayfinder</Name>
+	<Price>200 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+ bear a mystical connection to the &lt;i&gt;Pathfinder Chronicles&lt;/i&gt; themselves, granting them the ability to assist in situations where unusual lore is needed by drawing on lore from a particular topic. Each &lt;i&gt;chronicler wayfinder&lt;/i&gt; is attuned to a specific Lore skill, chosen at the time of creation. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, a chronicler wayfinder has the following activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; You tap into the &lt;i&gt;Pathfinder Chronicles&lt;/i&gt; on the &lt;i&gt;chronicler wayfinder's&lt;/i&gt; attuned topic, gaining the effects of a Recall Knowledge action with the chosen Lore skill. For the Lore check's modifier, use whichever is better of +12 or your own modifier, using your level as your proficiency bonus even if you're untrained in the attuned Lore skill.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="72">
+	<Name>Razmiri Wayfinder</Name>
+	<Price>900 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Worn on a chain around the neck, a &lt;i&gt;Razmiri wayfinder&lt;/i&gt; functions as a compass and provides its wearer a +1 item bonus to Deception checks to Lie or Impersonate. &lt;i&gt;Razmiri wayfinders&lt;/i&gt; can also be used to grant temporary healing, making it easier for the wearer to impersonate a divine spellcaster.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Frequency&lt;/b&gt; three times per day; &lt;b&gt;Effect&lt;/b&gt; You touch an adjacent creature, granting them 3d8 temporary Hit Points for 1 hour.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] manipulate; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You touch an adjacent creature and attempt a counteract check against one poison or disease afflicting the creature. On a success, you halt the effects of the poison or disease for 1 day, rather than removing it. This temporarily relieves any penalties imposed by the affliction but doesn't cure the effect or count against its duration; the poison or disease is merely halted for a time, and it resumes where it left off once this effect ends. &lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Elemental Wayfinder (Air)</Name>
+	<Price>650 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Pathfinder Society researchers recently created &lt;i&gt;elemental wayfinders&lt;/i&gt; with the assistance of the Society's elemental allies. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, these &lt;i&gt;wayfinders&lt;/i&gt; each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Additionally, you can cast &lt;i&gt;feather fall&lt;/i&gt; as a primal innate spell once every 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; casts a 4th-level &lt;i&gt;lightning bolt&lt;/i&gt;. &lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Elemental Wayfinder (Earth)</Name>
+	<Price>600 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Pathfinder Society researchers recently created &lt;i&gt;elemental wayfinders&lt;/i&gt; with the assistance of the Society's elemental allies. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, these &lt;i&gt;wayfinders&lt;/i&gt; each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Additionally, you dig twice as quickly as normal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; casts a 4th-level &lt;i&gt;stoneskin&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Elemental Wayfinder (Fire)</Name>
+	<Price>700 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Pathfinder Society researchers recently created &lt;i&gt;elemental wayfinders&lt;/i&gt; with the assistance of the Society's elemental allies. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, these &lt;i&gt;wayfinders&lt;/i&gt; each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Additionally, you gain resistance 5 to fire.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; casts a 4th-level &lt;i&gt;fireball&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Elemental Wayfinder (Water)</Name>
+	<Price>900 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical, Evocation, Invested, Magical, Water</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Pathfinder Society researchers recently created &lt;i&gt;elemental wayfinders&lt;/i&gt; with the assistance of the Society's elemental allies. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, these &lt;i&gt;wayfinders&lt;/i&gt; each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Additionally, you gain the constant effects of &lt;i&gt;water breathing&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; casts a 4th-level &lt;i&gt;hydraulic torrent&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Fashionable Wayfinder</Name>
+	<Price>50 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical, Evocation, Invested, Magical, Water, Conjuration, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+ allow you to be dressed for success in almost any situation. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, a &lt;i&gt;fashionable wayfinder&lt;/i&gt; can attune to up to three sets of mundane clothing in your possession during your daily preparations. A &lt;i&gt;fashionable wayfinder&lt;/i&gt; has the following activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; You call one of the attuned sets of clothing onto yourself, changing clothes instantly and leaving you either holding the old set of clothing or with the old set folded neatly on the floor if you don't have a free hand to hold it. This activation can't change you into or out of a suit of armor of any kind. While the activation can transport the chosen attuned set of clothing onto you from up to 60 feet away, it can't transport any other creatures or items that might have been stored in the clothing.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Homeward Wayfinder</Name>
+	<Price>2,750 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical, Evocation, Invested, Magical, Water, Conjuration, Invested, Magical, Conjuration, Evocation, Invested, Magical, Teleportation</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+ are powerful escape tools in the hands of a Pathfinder agent, drawing upon a special connection to the Maze of the Open Road. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, a &lt;i&gt;homeward wayfinder&lt;/i&gt; attunes itself to the most recent Pathfinder Lodge you've visited and has the following activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  10 minutes (command, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You teleport back to the attuned Pathfinder Lodge, as long as you are no more than 100 miles away. This teleportation effect fails if you would bring another creature with you, even if you're carrying it in an extradimensional space.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Hummingbird Wayfinder</Name>
+	<Price>1,750 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical, Evocation, Invested, Magical, Water, Conjuration, Invested, Magical, Conjuration, Evocation, Invested, Magical, Teleportation, Evocation, Invested, Magical, Transmutation</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+ blend a few Arcadian secrets into the original &lt;i&gt;wayfinder&lt;/i&gt; design, allowing the &lt;i&gt;wayfinder&lt;/i&gt; to gain mobility for a time and act as a spy. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, a &lt;i&gt;hummingbird wayfinder&lt;/i&gt; has the following activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You cause the &lt;i&gt;wayfinder&lt;/i&gt; to transform into a Tiny bee hummingbird, only 2 inches long. Other than the &lt;i&gt;wayfinder&lt;/i&gt; being a visible bird, this has the effects of &lt;i&gt;prying eye&lt;/i&gt;. In addition to Seeking through the hummingbird, you can activate any &lt;i&gt;aeon stone&lt;/i&gt; within the &lt;i&gt;wayfinder&lt;/i&gt; as if the &lt;i&gt;wayfinder&lt;/i&gt; were still on your person. When the effect ends, the &lt;i&gt;wayfinder&lt;/i&gt; transforms back to normal in its current position. Damaging the bird ends the effect but does not destroy the &lt;i&gt;wayfinder&lt;/i&gt;.</Description>
+</Item>
+<Item level="2" page="617">
+	<Name>Wayfinder</Name>
+	<Price>28 gp</Price>
+	<Traits>Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. A &lt;i&gt;wayfinder&lt;/i&gt; functions as a compass.&lt;br&gt;&lt;br&gt; An indentation in the middle of the &lt;i&gt;wayfinder&lt;/i&gt; can hold a single &lt;i&gt;aeon stone&lt;/i&gt;. Placing an &lt;i&gt;aeon stone&lt;/i&gt; in this indentation provides you all the benefits of having the &lt;i&gt;aeon stone&lt;/i&gt; orbiting your head, but it protects the stone from being noticed or stolen as easily. You invest a &lt;i&gt;wayfinder&lt;/i&gt; and the &lt;i&gt;aeon stone&lt;/i&gt; within it simultaneously, and they count as only one item toward your investiture limit. An invested &lt;i&gt;aeon stone&lt;/i&gt; slotted in a &lt;i&gt;wayfinder&lt;/i&gt; also grants its resonant power.&lt;br&gt;&lt;br&gt; If you have more than one &lt;i&gt;wayfinder&lt;/i&gt; with an invested &lt;i&gt;aeon stone&lt;/i&gt; on your person at a given time, destructive interference from their resonance prevents you from gaining benefits from any of them. You can still benefit from additional &lt;i&gt;aeon stones&lt;/i&gt; orbiting your head, just not in &lt;i&gt;wayfinders&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; is targeted by a 1st-level &lt;i&gt;light&lt;/i&gt; spell.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="17">
+	<Name>Archaic Wayfinder</Name>
+	<Price>30 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+An &lt;i&gt;archaic wayfinder&lt;/i&gt; functions as a compass and acts as a repository for one cantrip cast into it. To fill an &lt;i&gt;archaic wayfinder&lt;/i&gt;, a spellcaster casts the chosen cantrip into the empty device, providing any necessary cost; the spell cannot be one that is normally cast as a free action or reaction. Activating an &lt;i&gt;archaic wayfinder&lt;/i&gt; is the same as the casting for the relevant spell. Once it has been activated, it becomes empty again. An &lt;i&gt;archaic wayfinder&lt;/i&gt; can hold an aeon stone and activate its resonant power. An &lt;i&gt;archaic wayfinder&lt;/i&gt; counts against the limit of one &lt;i&gt;wayfinder&lt;/i&gt; with a slotted resonant &lt;i&gt;aeon stone&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="42">
+	<Name>Wayfinder of Rescue</Name>
+	<Price>80 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+As a standard &lt;i&gt;wayfinder&lt;/i&gt;, but once per day you can activate it to cast &lt;i&gt;heal&lt;/i&gt; on a creature other than yourself, using either the one-action or two-action version of &lt;i&gt;heal&lt;/i&gt; as a 1st-level spell.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="110">
+	<Name>Bi-Resonant Wayfinder</Name>
+	<Price>200 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+This magic item is uncommon, but characters who are members of the Pathfinder Society have access to it.&lt;br&gt;&lt;br&gt;A &lt;i&gt;bi-resonant wayfinder&lt;/i&gt; is inlaid with intricate platinum wires in a complex array of conduits for magical energy. These conduits control the resonant interference of &lt;i&gt;aeon stones&lt;/i&gt;. A &lt;i&gt;bi-resonant wayfinder&lt;/i&gt; works just like a regular &lt;i&gt;wayfinder&lt;/i&gt; except it has two &lt;i&gt;aeon stone&lt;/i&gt; slots, and the &lt;i&gt;aeon stones&lt;/i&gt; in both slots grant their resonant powers without interfering with each other. The &lt;i&gt;bi-resonant wayfinder&lt;/i&gt; and the two &lt;i&gt;aeon stones&lt;/i&gt; count as two items toward your investiture limit.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="111">
+	<Name>Shining Wayfinder</Name>
+	<Price>100 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+This magic item is uncommon, but characters who are members of the Pathfinder Society have access to it.&lt;br&gt;&lt;br&gt;A &lt;i&gt;shining wayfinder&lt;/i&gt; is a polished silver compass blessed by the power of benevolent deities. It has the usual functions of a &lt;i&gt;wayfinder&lt;/i&gt;, except instead of an activation to cast &lt;i&gt;light&lt;/i&gt;, the shining wayfinder has the following two activations.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; You hold the &lt;i&gt;wayfinder&lt;/i&gt; and ask for guidance. The wayfinder casts &lt;i&gt;guidance&lt;/i&gt; on you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You call upon the wayfinder’s divine blessings for yourself and your allies. The wayfinder casts &lt;i&gt;bless&lt;/i&gt;, with an emanation centered on itself. Once per turn, you can use a single action, which has the concentrate trait, to increase the emanation’s radius by 5 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="112">
+	<Name>Vanishing Wayfinder</Name>
+	<Price>150 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+This magic item is uncommon, but characters who are members of the Pathfinder Society have access to it.&lt;br&gt;&lt;br&gt;A &lt;i&gt;vanishing wayfinder&lt;/i&gt; is crafted of ivory chased with gold and silver. It has the usual functions of a &lt;i&gt;wayfinder&lt;/i&gt; and the following additional activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You turn the &lt;i&gt;wayfinder&lt;/i&gt; in a circle while invoking its command word, gaining the effects of a 2nd-level &lt;i&gt;invisibility&lt;/i&gt; spell for 5 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="30">
+	<Name>Chronicler Wayfinder</Name>
+	<Price>200 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+ bear a mystical connection to the &lt;i&gt;Pathfinder Chronicles&lt;/i&gt; themselves, granting them the ability to assist in situations where unusual lore is needed by drawing on lore from a particular topic. Each &lt;i&gt;chronicler wayfinder&lt;/i&gt; is attuned to a specific Lore skill, chosen at the time of creation. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, a chronicler wayfinder has the following activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; You tap into the &lt;i&gt;Pathfinder Chronicles&lt;/i&gt; on the &lt;i&gt;chronicler wayfinder's&lt;/i&gt; attuned topic, gaining the effects of a Recall Knowledge action with the chosen Lore skill. For the Lore check's modifier, use whichever is better of +12 or your own modifier, using your level as your proficiency bonus even if you're untrained in the attuned Lore skill.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="72">
+	<Name>Razmiri Wayfinder</Name>
+	<Price>900 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Worn on a chain around the neck, a &lt;i&gt;Razmiri wayfinder&lt;/i&gt; functions as a compass and provides its wearer a +1 item bonus to Deception checks to Lie or Impersonate. &lt;i&gt;Razmiri wayfinders&lt;/i&gt; can also be used to grant temporary healing, making it easier for the wearer to impersonate a divine spellcaster.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Frequency&lt;/b&gt; three times per day; &lt;b&gt;Effect&lt;/b&gt; You touch an adjacent creature, granting them 3d8 temporary Hit Points for 1 hour.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] manipulate; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You touch an adjacent creature and attempt a counteract check against one poison or disease afflicting the creature. On a success, you halt the effects of the poison or disease for 1 day, rather than removing it. This temporarily relieves any penalties imposed by the affliction but doesn't cure the effect or count against its duration; the poison or disease is merely halted for a time, and it resumes where it left off once this effect ends. &lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Elemental Wayfinder (Air)</Name>
+	<Price>650 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Pathfinder Society researchers recently created &lt;i&gt;elemental wayfinders&lt;/i&gt; with the assistance of the Society's elemental allies. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, these &lt;i&gt;wayfinders&lt;/i&gt; each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Additionally, you can cast &lt;i&gt;feather fall&lt;/i&gt; as a primal innate spell once every 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; casts a 4th-level &lt;i&gt;lightning bolt&lt;/i&gt;. &lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Elemental Wayfinder (Earth)</Name>
+	<Price>600 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Pathfinder Society researchers recently created &lt;i&gt;elemental wayfinders&lt;/i&gt; with the assistance of the Society's elemental allies. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, these &lt;i&gt;wayfinders&lt;/i&gt; each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Additionally, you dig twice as quickly as normal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; casts a 4th-level &lt;i&gt;stoneskin&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Elemental Wayfinder (Fire)</Name>
+	<Price>700 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Pathfinder Society researchers recently created &lt;i&gt;elemental wayfinders&lt;/i&gt; with the assistance of the Society's elemental allies. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, these &lt;i&gt;wayfinders&lt;/i&gt; each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Additionally, you gain resistance 5 to fire.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; casts a 4th-level &lt;i&gt;fireball&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Elemental Wayfinder (Water)</Name>
+	<Price>900 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical, Evocation, Invested, Magical, Water</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Pathfinder Society researchers recently created &lt;i&gt;elemental wayfinders&lt;/i&gt; with the assistance of the Society's elemental allies. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, these &lt;i&gt;wayfinders&lt;/i&gt; each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Additionally, you gain the constant effects of &lt;i&gt;water breathing&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; casts a 4th-level &lt;i&gt;hydraulic torrent&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Fashionable Wayfinder</Name>
+	<Price>50 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical, Evocation, Invested, Magical, Water, Conjuration, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+ allow you to be dressed for success in almost any situation. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, a &lt;i&gt;fashionable wayfinder&lt;/i&gt; can attune to up to three sets of mundane clothing in your possession during your daily preparations. A &lt;i&gt;fashionable wayfinder&lt;/i&gt; has the following activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; You call one of the attuned sets of clothing onto yourself, changing clothes instantly and leaving you either holding the old set of clothing or with the old set folded neatly on the floor if you don't have a free hand to hold it. This activation can't change you into or out of a suit of armor of any kind. While the activation can transport the chosen attuned set of clothing onto you from up to 60 feet away, it can't transport any other creatures or items that might have been stored in the clothing.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Homeward Wayfinder</Name>
+	<Price>2,750 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical, Evocation, Invested, Magical, Water, Conjuration, Invested, Magical, Conjuration, Evocation, Invested, Magical, Teleportation</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+ are powerful escape tools in the hands of a Pathfinder agent, drawing upon a special connection to the Maze of the Open Road. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, a &lt;i&gt;homeward wayfinder&lt;/i&gt; attunes itself to the most recent Pathfinder Lodge you've visited and has the following activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  10 minutes (command, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You teleport back to the attuned Pathfinder Lodge, as long as you are no more than 100 miles away. This teleportation effect fails if you would bring another creature with you, even if you're carrying it in an extradimensional space.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Hummingbird Wayfinder</Name>
+	<Price>1,750 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical, Evocation, Invested, Magical, Water, Conjuration, Invested, Magical, Conjuration, Evocation, Invested, Magical, Teleportation, Evocation, Invested, Magical, Transmutation</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+ blend a few Arcadian secrets into the original &lt;i&gt;wayfinder&lt;/i&gt; design, allowing the &lt;i&gt;wayfinder&lt;/i&gt; to gain mobility for a time and act as a spy. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, a &lt;i&gt;hummingbird wayfinder&lt;/i&gt; has the following activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You cause the &lt;i&gt;wayfinder&lt;/i&gt; to transform into a Tiny bee hummingbird, only 2 inches long. Other than the &lt;i&gt;wayfinder&lt;/i&gt; being a visible bird, this has the effects of &lt;i&gt;prying eye&lt;/i&gt;. In addition to Seeking through the hummingbird, you can activate any &lt;i&gt;aeon stone&lt;/i&gt; within the &lt;i&gt;wayfinder&lt;/i&gt; as if the &lt;i&gt;wayfinder&lt;/i&gt; were still on your person. When the effect ends, the &lt;i&gt;wayfinder&lt;/i&gt; transforms back to normal in its current position. Damaging the bird ends the effect but does not destroy the &lt;i&gt;wayfinder&lt;/i&gt;.</Description>
+</Item>
+<Item level="2" page="617">
+	<Name>Wayfinder</Name>
+	<Price>28 gp</Price>
+	<Traits>Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. A &lt;i&gt;wayfinder&lt;/i&gt; functions as a compass.&lt;br&gt;&lt;br&gt; An indentation in the middle of the &lt;i&gt;wayfinder&lt;/i&gt; can hold a single &lt;i&gt;aeon stone&lt;/i&gt;. Placing an &lt;i&gt;aeon stone&lt;/i&gt; in this indentation provides you all the benefits of having the &lt;i&gt;aeon stone&lt;/i&gt; orbiting your head, but it protects the stone from being noticed or stolen as easily. You invest a &lt;i&gt;wayfinder&lt;/i&gt; and the &lt;i&gt;aeon stone&lt;/i&gt; within it simultaneously, and they count as only one item toward your investiture limit. An invested &lt;i&gt;aeon stone&lt;/i&gt; slotted in a &lt;i&gt;wayfinder&lt;/i&gt; also grants its resonant power.&lt;br&gt;&lt;br&gt; If you have more than one &lt;i&gt;wayfinder&lt;/i&gt; with an invested &lt;i&gt;aeon stone&lt;/i&gt; on your person at a given time, destructive interference from their resonance prevents you from gaining benefits from any of them. You can still benefit from additional &lt;i&gt;aeon stones&lt;/i&gt; orbiting your head, just not in &lt;i&gt;wayfinders&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; is targeted by a 1st-level &lt;i&gt;light&lt;/i&gt; spell.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="17">
+	<Name>Archaic Wayfinder</Name>
+	<Price>30 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+An &lt;i&gt;archaic wayfinder&lt;/i&gt; functions as a compass and acts as a repository for one cantrip cast into it. To fill an &lt;i&gt;archaic wayfinder&lt;/i&gt;, a spellcaster casts the chosen cantrip into the empty device, providing any necessary cost; the spell cannot be one that is normally cast as a free action or reaction. Activating an &lt;i&gt;archaic wayfinder&lt;/i&gt; is the same as the casting for the relevant spell. Once it has been activated, it becomes empty again. An &lt;i&gt;archaic wayfinder&lt;/i&gt; can hold an aeon stone and activate its resonant power. An &lt;i&gt;archaic wayfinder&lt;/i&gt; counts against the limit of one &lt;i&gt;wayfinder&lt;/i&gt; with a slotted resonant &lt;i&gt;aeon stone&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="42">
+	<Name>Wayfinder of Rescue</Name>
+	<Price>80 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+As a standard &lt;i&gt;wayfinder&lt;/i&gt;, but once per day you can activate it to cast &lt;i&gt;heal&lt;/i&gt; on a creature other than yourself, using either the one-action or two-action version of &lt;i&gt;heal&lt;/i&gt; as a 1st-level spell.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="110">
+	<Name>Bi-Resonant Wayfinder</Name>
+	<Price>200 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+This magic item is uncommon, but characters who are members of the Pathfinder Society have access to it.&lt;br&gt;&lt;br&gt;A &lt;i&gt;bi-resonant wayfinder&lt;/i&gt; is inlaid with intricate platinum wires in a complex array of conduits for magical energy. These conduits control the resonant interference of &lt;i&gt;aeon stones&lt;/i&gt;. A &lt;i&gt;bi-resonant wayfinder&lt;/i&gt; works just like a regular &lt;i&gt;wayfinder&lt;/i&gt; except it has two &lt;i&gt;aeon stone&lt;/i&gt; slots, and the &lt;i&gt;aeon stones&lt;/i&gt; in both slots grant their resonant powers without interfering with each other. The &lt;i&gt;bi-resonant wayfinder&lt;/i&gt; and the two &lt;i&gt;aeon stones&lt;/i&gt; count as two items toward your investiture limit.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="111">
+	<Name>Shining Wayfinder</Name>
+	<Price>100 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+This magic item is uncommon, but characters who are members of the Pathfinder Society have access to it.&lt;br&gt;&lt;br&gt;A &lt;i&gt;shining wayfinder&lt;/i&gt; is a polished silver compass blessed by the power of benevolent deities. It has the usual functions of a &lt;i&gt;wayfinder&lt;/i&gt;, except instead of an activation to cast &lt;i&gt;light&lt;/i&gt;, the shining wayfinder has the following two activations.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; You hold the &lt;i&gt;wayfinder&lt;/i&gt; and ask for guidance. The wayfinder casts &lt;i&gt;guidance&lt;/i&gt; on you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You call upon the wayfinder’s divine blessings for yourself and your allies. The wayfinder casts &lt;i&gt;bless&lt;/i&gt;, with an emanation centered on itself. Once per turn, you can use a single action, which has the concentrate trait, to increase the emanation’s radius by 5 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="112">
+	<Name>Vanishing Wayfinder</Name>
+	<Price>150 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+This magic item is uncommon, but characters who are members of the Pathfinder Society have access to it.&lt;br&gt;&lt;br&gt;A &lt;i&gt;vanishing wayfinder&lt;/i&gt; is crafted of ivory chased with gold and silver. It has the usual functions of a &lt;i&gt;wayfinder&lt;/i&gt; and the following additional activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You turn the &lt;i&gt;wayfinder&lt;/i&gt; in a circle while invoking its command word, gaining the effects of a 2nd-level &lt;i&gt;invisibility&lt;/i&gt; spell for 5 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="30">
+	<Name>Chronicler Wayfinder</Name>
+	<Price>200 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+ bear a mystical connection to the &lt;i&gt;Pathfinder Chronicles&lt;/i&gt; themselves, granting them the ability to assist in situations where unusual lore is needed by drawing on lore from a particular topic. Each &lt;i&gt;chronicler wayfinder&lt;/i&gt; is attuned to a specific Lore skill, chosen at the time of creation. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, a chronicler wayfinder has the following activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; You tap into the &lt;i&gt;Pathfinder Chronicles&lt;/i&gt; on the &lt;i&gt;chronicler wayfinder's&lt;/i&gt; attuned topic, gaining the effects of a Recall Knowledge action with the chosen Lore skill. For the Lore check's modifier, use whichever is better of +12 or your own modifier, using your level as your proficiency bonus even if you're untrained in the attuned Lore skill.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="72">
+	<Name>Razmiri Wayfinder</Name>
+	<Price>900 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Worn on a chain around the neck, a &lt;i&gt;Razmiri wayfinder&lt;/i&gt; functions as a compass and provides its wearer a +1 item bonus to Deception checks to Lie or Impersonate. &lt;i&gt;Razmiri wayfinders&lt;/i&gt; can also be used to grant temporary healing, making it easier for the wearer to impersonate a divine spellcaster.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Frequency&lt;/b&gt; three times per day; &lt;b&gt;Effect&lt;/b&gt; You touch an adjacent creature, granting them 3d8 temporary Hit Points for 1 hour.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] manipulate; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You touch an adjacent creature and attempt a counteract check against one poison or disease afflicting the creature. On a success, you halt the effects of the poison or disease for 1 day, rather than removing it. This temporarily relieves any penalties imposed by the affliction but doesn't cure the effect or count against its duration; the poison or disease is merely halted for a time, and it resumes where it left off once this effect ends. &lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Elemental Wayfinder (Air)</Name>
+	<Price>650 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Pathfinder Society researchers recently created &lt;i&gt;elemental wayfinders&lt;/i&gt; with the assistance of the Society's elemental allies. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, these &lt;i&gt;wayfinders&lt;/i&gt; each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Additionally, you can cast &lt;i&gt;feather fall&lt;/i&gt; as a primal innate spell once every 10 minutes.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; casts a 4th-level &lt;i&gt;lightning bolt&lt;/i&gt;. &lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Elemental Wayfinder (Earth)</Name>
+	<Price>600 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Pathfinder Society researchers recently created &lt;i&gt;elemental wayfinders&lt;/i&gt; with the assistance of the Society's elemental allies. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, these &lt;i&gt;wayfinders&lt;/i&gt; each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Additionally, you dig twice as quickly as normal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; casts a 4th-level &lt;i&gt;stoneskin&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Elemental Wayfinder (Fire)</Name>
+	<Price>700 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Pathfinder Society researchers recently created &lt;i&gt;elemental wayfinders&lt;/i&gt; with the assistance of the Society's elemental allies. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, these &lt;i&gt;wayfinders&lt;/i&gt; each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Additionally, you gain resistance 5 to fire.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; casts a 4th-level &lt;i&gt;fireball&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Elemental Wayfinder (Water)</Name>
+	<Price>900 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical, Evocation, Invested, Magical, Water</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+Pathfinder Society researchers recently created &lt;i&gt;elemental wayfinders&lt;/i&gt; with the assistance of the Society's elemental allies. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, these &lt;i&gt;wayfinders&lt;/i&gt; each grant the ability to cast a particular elemental spell once per day, and can assist Pathfinders in exploring areas associated with their element. Additionally, you gain the constant effects of &lt;i&gt;water breathing&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;wayfinder&lt;/i&gt; casts a 4th-level &lt;i&gt;hydraulic torrent&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Fashionable Wayfinder</Name>
+	<Price>50 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical, Evocation, Invested, Magical, Water, Conjuration, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+ allow you to be dressed for success in almost any situation. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, a &lt;i&gt;fashionable wayfinder&lt;/i&gt; can attune to up to three sets of mundane clothing in your possession during your daily preparations. A &lt;i&gt;fashionable wayfinder&lt;/i&gt; has the following activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Effect&lt;/b&gt; You call one of the attuned sets of clothing onto yourself, changing clothes instantly and leaving you either holding the old set of clothing or with the old set folded neatly on the floor if you don't have a free hand to hold it. This activation can't change you into or out of a suit of armor of any kind. While the activation can transport the chosen attuned set of clothing onto you from up to 60 feet away, it can't transport any other creatures or items that might have been stored in the clothing.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Homeward Wayfinder</Name>
+	<Price>2,750 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical, Evocation, Invested, Magical, Water, Conjuration, Invested, Magical, Conjuration, Evocation, Invested, Magical, Teleportation</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+ are powerful escape tools in the hands of a Pathfinder agent, drawing upon a special connection to the Maze of the Open Road. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, a &lt;i&gt;homeward wayfinder&lt;/i&gt; attunes itself to the most recent Pathfinder Lodge you've visited and has the following activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  10 minutes (command, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You teleport back to the attuned Pathfinder Lodge, as long as you are no more than 100 miles away. This teleportation effect fails if you would bring another creature with you, even if you're carrying it in an extradimensional space.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="122">
+	<Name>Hummingbird Wayfinder</Name>
+	<Price>1,750 gp</Price>
+	<Traits>Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Abjuration, Divination, Evocation, Invested, Magical, Evocation, Illusion, Invested, Magical, Evocation, Invested, Magical, Illusion, Magical, Necromancy, Air, Evocation, Invested, Magical, Earth, Evocation, Invested, Magical, Evocation, Fire, Invested, Magical, Evocation, Invested, Magical, Water, Conjuration, Invested, Magical, Conjuration, Evocation, Invested, Magical, Teleportation, Evocation, Invested, Magical, Transmutation</Traits>
+	<Usage>worn</Usage>
+	<Description>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called &lt;i&gt;aeon stones&lt;/i&gt;. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. &lt;br&gt;
+
+ blend a few Arcadian secrets into the original &lt;i&gt;wayfinder&lt;/i&gt; design, allowing the &lt;i&gt;wayfinder&lt;/i&gt; to gain mobility for a time and act as a spy. In addition to the effects of a &lt;i&gt;wayfinder&lt;/i&gt;, a &lt;i&gt;hummingbird wayfinder&lt;/i&gt; has the following activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You cause the &lt;i&gt;wayfinder&lt;/i&gt; to transform into a Tiny bee hummingbird, only 2 inches long. Other than the &lt;i&gt;wayfinder&lt;/i&gt; being a visible bird, this has the effects of &lt;i&gt;prying eye&lt;/i&gt;. In addition to Seeking through the hummingbird, you can activate any &lt;i&gt;aeon stone&lt;/i&gt; within the &lt;i&gt;wayfinder&lt;/i&gt; as if the &lt;i&gt;wayfinder&lt;/i&gt; were still on your person. When the effect ends, the &lt;i&gt;wayfinder&lt;/i&gt; transforms back to normal in its current position. Damaging the bird ends the effect but does not destroy the &lt;i&gt;wayfinder&lt;/i&gt;.</Description>
+</Item>
+<Item level="6" page="111">
+	<Name>Pathfinder's Pouch</Name>
+	<Price>200 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Extradimensional, Invested, Magical</Traits>
+	<Usage>worn belt pouch</Usage>
+	<Description>This unobtrusive belt pouch is popular among Pathfinders who operate in places where the Society is not welcome. It is constantly under the effects of a 3rd-level &lt;i&gt;magic aura&lt;/i&gt; spell to appear non-magical. The pouch’s normal space holds as much as an ordinary belt pouch, but it also has a small extradimensional space that holds up to 1 Bulk of items. A creature actively inspecting the pouch in its ordinary state discovers the existence of the extradimensional space only on a critical success to Search the pouch (see the Concealing an Item action of the Stealth skill), though when the extradimensional space is active, it’s obvious to anyone examining the pouch that it is more than it seems.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; You switch the pouch to allow access to its extradimensional space instead of its normal space, or vice versa. This lasts until you next activate it. Items in the other space are inaccessible and hard to find until you switch the pouch back.</Description>
+</Item>
+<Item level="7" page="73">
+	<Name>Unmemorable Mantle</Name>
+	<Price>300 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This long, shoddy cloak bears a hood and a simple brass clasp. While wearing the cloak, you gain a +1 item bonus to Deception checks to Impersonate an individual and to Lie while in character as that individual.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; You are Impersonating someone else; &lt;b&gt;Effect&lt;/b&gt; While conversing or otherwise casually interacting with other creatures, you can adjust the mantle’s clasp to modify those creatures’ recollections of the last 5 minutes of their interaction with you. Each creature must attempt a DC 25 Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature recalls the interaction clearly and realizes you were trying to alter their memory.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature recalls the interaction clearly.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter minor details the creature recalls about the interaction, such as the time, place, and whether the interaction was favorable, as determined by the GM.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter major details the creature recalls about the interaction, such as believing you to be another individual or that the creature agreed to a favor, as determined by the GM.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="73">
+	<Name>Unmemorable Mantle (Greater)</Name>
+	<Price>1,300 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This long, shoddy cloak bears a hood and a simple brass clasp. While wearing the cloak, you gain a +1 item bonus to Deception checks to Impersonate an individual and to Lie while in character as that individual.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; You are Impersonating someone else; &lt;b&gt;Effect&lt;/b&gt; While conversing or otherwise casually interacting with other creatures, you can adjust the mantle’s clasp to modify those creatures’ recollections of the last 5 minutes of their interaction with you. Each creature must attempt a DC 25 Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature recalls the interaction clearly and realizes you were trying to alter their memory.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature recalls the interaction clearly.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter minor details the creature recalls about the interaction, such as the time, place, and whether the interaction was favorable, as determined by the GM.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter major details the creature recalls about the interaction, such as believing you to be another individual or that the creature agreed to a favor, as determined by the GM.&lt;br&gt;
+
+The item bonus is +2, and the Will save DC is 28.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="73">
+	<Name>Unmemorable Mantle (Major)</Name>
+	<Price>21,750 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This long, shoddy cloak bears a hood and a simple brass clasp. While wearing the cloak, you gain a +1 item bonus to Deception checks to Impersonate an individual and to Lie while in character as that individual.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; You are Impersonating someone else; &lt;b&gt;Effect&lt;/b&gt; While conversing or otherwise casually interacting with other creatures, you can adjust the mantle’s clasp to modify those creatures’ recollections of the last 5 minutes of their interaction with you. Each creature must attempt a DC 25 Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature recalls the interaction clearly and realizes you were trying to alter their memory.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature recalls the interaction clearly.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter minor details the creature recalls about the interaction, such as the time, place, and whether the interaction was favorable, as determined by the GM.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter major details the creature recalls about the interaction, such as believing you to be another individual or that the creature agreed to a favor, as determined by the GM.&lt;br&gt;
+
+The item bonus is +3, the Will save DC is 38, and you can activate the mantle once every 10 minutes.</Description>
+</Item>
+<Item level="4" page="72">
+	<Name>Cloak of Repute</Name>
+	<Price>90 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +1 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="72">
+	<Name>Cloak of Repute (Greater)</Name>
+	<Price>1,300 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +1 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead.&lt;br&gt;
+
+The item bonus is +2. You can activate the cloak twice per day.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="72">
+	<Name>Cloak of Repute (Major)</Name>
+	<Price>21,750 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +1 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead.&lt;br&gt;
+
+The item bonus is +3. You can activate the cloak three times per day. If you roll a critical failure on your Diplomacy check when you activate the cloak, you get a failure instead.</Description>
+</Item>
+<Item level="7" page="73">
+	<Name>Unmemorable Mantle</Name>
+	<Price>300 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This long, shoddy cloak bears a hood and a simple brass clasp. While wearing the cloak, you gain a +1 item bonus to Deception checks to Impersonate an individual and to Lie while in character as that individual.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; You are Impersonating someone else; &lt;b&gt;Effect&lt;/b&gt; While conversing or otherwise casually interacting with other creatures, you can adjust the mantle’s clasp to modify those creatures’ recollections of the last 5 minutes of their interaction with you. Each creature must attempt a DC 25 Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature recalls the interaction clearly and realizes you were trying to alter their memory.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature recalls the interaction clearly.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter minor details the creature recalls about the interaction, such as the time, place, and whether the interaction was favorable, as determined by the GM.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter major details the creature recalls about the interaction, such as believing you to be another individual or that the creature agreed to a favor, as determined by the GM.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="73">
+	<Name>Unmemorable Mantle (Greater)</Name>
+	<Price>1,300 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This long, shoddy cloak bears a hood and a simple brass clasp. While wearing the cloak, you gain a +1 item bonus to Deception checks to Impersonate an individual and to Lie while in character as that individual.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; You are Impersonating someone else; &lt;b&gt;Effect&lt;/b&gt; While conversing or otherwise casually interacting with other creatures, you can adjust the mantle’s clasp to modify those creatures’ recollections of the last 5 minutes of their interaction with you. Each creature must attempt a DC 25 Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature recalls the interaction clearly and realizes you were trying to alter their memory.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature recalls the interaction clearly.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter minor details the creature recalls about the interaction, such as the time, place, and whether the interaction was favorable, as determined by the GM.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter major details the creature recalls about the interaction, such as believing you to be another individual or that the creature agreed to a favor, as determined by the GM.&lt;br&gt;
+
+The item bonus is +2, and the Will save DC is 28.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="73">
+	<Name>Unmemorable Mantle (Major)</Name>
+	<Price>21,750 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This long, shoddy cloak bears a hood and a simple brass clasp. While wearing the cloak, you gain a +1 item bonus to Deception checks to Impersonate an individual and to Lie while in character as that individual.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; You are Impersonating someone else; &lt;b&gt;Effect&lt;/b&gt; While conversing or otherwise casually interacting with other creatures, you can adjust the mantle’s clasp to modify those creatures’ recollections of the last 5 minutes of their interaction with you. Each creature must attempt a DC 25 Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature recalls the interaction clearly and realizes you were trying to alter their memory.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature recalls the interaction clearly.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter minor details the creature recalls about the interaction, such as the time, place, and whether the interaction was favorable, as determined by the GM.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter major details the creature recalls about the interaction, such as believing you to be another individual or that the creature agreed to a favor, as determined by the GM.&lt;br&gt;
+
+The item bonus is +3, the Will save DC is 38, and you can activate the mantle once every 10 minutes.</Description>
+</Item>
+<Item level="4" page="72">
+	<Name>Cloak of Repute</Name>
+	<Price>90 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +1 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="72">
+	<Name>Cloak of Repute (Greater)</Name>
+	<Price>1,300 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +1 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead.&lt;br&gt;
+
+The item bonus is +2. You can activate the cloak twice per day.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="72">
+	<Name>Cloak of Repute (Major)</Name>
+	<Price>21,750 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This gaudy and extravagant cloak is adorned with brilliant gems and a fur trim. While wearing the cloak, you gain instant fame and notoriety, granting you a +1 item bonus to Diplomacy checks to Make an Impression. Creatures attempting to learn about you gain the same bonus to Gather Information about you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You wield your great stature to make a Request of a creature. If you roll a success on the check, you get a critical success instead.&lt;br&gt;
+
+The item bonus is +3. You can activate the cloak three times per day. If you roll a critical failure on your Diplomacy check when you activate the cloak, you get a failure instead.</Description>
+</Item>
+<Item level="7" page="73">
+	<Name>Unmemorable Mantle</Name>
+	<Price>300 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This long, shoddy cloak bears a hood and a simple brass clasp. While wearing the cloak, you gain a +1 item bonus to Deception checks to Impersonate an individual and to Lie while in character as that individual.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; You are Impersonating someone else; &lt;b&gt;Effect&lt;/b&gt; While conversing or otherwise casually interacting with other creatures, you can adjust the mantle’s clasp to modify those creatures’ recollections of the last 5 minutes of their interaction with you. Each creature must attempt a DC 25 Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature recalls the interaction clearly and realizes you were trying to alter their memory.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature recalls the interaction clearly.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter minor details the creature recalls about the interaction, such as the time, place, and whether the interaction was favorable, as determined by the GM.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter major details the creature recalls about the interaction, such as believing you to be another individual or that the creature agreed to a favor, as determined by the GM.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="73">
+	<Name>Unmemorable Mantle (Greater)</Name>
+	<Price>1,300 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This long, shoddy cloak bears a hood and a simple brass clasp. While wearing the cloak, you gain a +1 item bonus to Deception checks to Impersonate an individual and to Lie while in character as that individual.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; You are Impersonating someone else; &lt;b&gt;Effect&lt;/b&gt; While conversing or otherwise casually interacting with other creatures, you can adjust the mantle’s clasp to modify those creatures’ recollections of the last 5 minutes of their interaction with you. Each creature must attempt a DC 25 Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature recalls the interaction clearly and realizes you were trying to alter their memory.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature recalls the interaction clearly.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter minor details the creature recalls about the interaction, such as the time, place, and whether the interaction was favorable, as determined by the GM.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter major details the creature recalls about the interaction, such as believing you to be another individual or that the creature agreed to a favor, as determined by the GM.&lt;br&gt;
+
+The item bonus is +2, and the Will save DC is 28.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="73">
+	<Name>Unmemorable Mantle (Major)</Name>
+	<Price>21,750 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This long, shoddy cloak bears a hood and a simple brass clasp. While wearing the cloak, you gain a +1 item bonus to Deception checks to Impersonate an individual and to Lie while in character as that individual.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; You are Impersonating someone else; &lt;b&gt;Effect&lt;/b&gt; While conversing or otherwise casually interacting with other creatures, you can adjust the mantle’s clasp to modify those creatures’ recollections of the last 5 minutes of their interaction with you. Each creature must attempt a DC 25 Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature recalls the interaction clearly and realizes you were trying to alter their memory.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature recalls the interaction clearly.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter minor details the creature recalls about the interaction, such as the time, place, and whether the interaction was favorable, as determined by the GM.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You decide whether or not the creature recalls the interaction. You can also alter major details the creature recalls about the interaction, such as believing you to be another individual or that the creature agreed to a favor, as determined by the GM.&lt;br&gt;
+
+The item bonus is +3, the Will save DC is 38, and you can activate the mantle once every 10 minutes.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

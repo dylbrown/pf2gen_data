@@ -1,0 +1,20 @@
+<pf2:Items category="consumables" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<SubCategory name="Talismans">
+<Item level="3" page="73">
+	<Name>Snapleaf</Name>
+	<Price>9 gp</Price>
+	<Traits>Consumable, Illusion, Magical, Talisman</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description>This small, crystalline carving takes the shape of a tree leaf and attaches to armor or clothing with a simple strap. When you activate the &lt;i&gt;snapleaf&lt;/i&gt;, you gain the benefits of &lt;i&gt;feather fall&lt;/i&gt; and a 2nd-level &lt;i&gt;invisibility&lt;/i&gt; spell for 1 minute or until you stop falling, whichever comes first.</Description>
+</Item>
+<Item level="4" page="110">
+	<Name>Fortifying Pebble</Name>
+	<Price>13 gp</Price>
+	<Traits>Abjuration, Consumable, Magical, Talisman</Traits>
+	<Usage>affixed to armor, shield, or weapon</Usage>
+	<Description>This small pebble is strangely dense and surprisingly durable, affixed to an object by a sturdy steel chain. When you activate the pebble, the affixed object takes 10 less damage.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

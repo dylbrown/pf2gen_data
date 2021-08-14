@@ -1,0 +1,805 @@
+<pf2:Items category="consumables" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<SubCategory name="Potions">
+<Item level="1" page="257">
+	<Name>Gecko Potion</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Potion, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A gecko potion is a sticky, tawny brown liquid with flecks of sand suspended in it. For 5 minutes after drinking this potion, your fingertips sprout thousands of microscopic, bristled hairs that cling to objects, granting you a +1 item bonus to Climb and Palm an Object, and to your Reflex DC against Disarm attempts.</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Potion of Expeditious Retreat</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Potion, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The stopper for a &lt;i&gt;potion of expeditious retreat&lt;/i&gt; is crafted to easily snap open in dire circumstances. When you drink this potion, you become fleeing for 1 minute, and you gain a +40-foot status bonus to all your Speeds for the duration as long as you are fleeing. You immediately Stride.</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Ration Tonic</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Consumable, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This slender vial appears to hold clean, clear water with a faintly fruity scent. Drinking a &lt;i&gt;ration tonic&lt;/i&gt; magically nourishes you with the equivalent of a day's worth of food and water. The tonic has a subtle, pleasant taste, its particulars chosen when the potion is crafted.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Ration Tonic (Greater)</Name>
+	<Price>55 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Consumable, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This slender vial appears to hold clean, clear water with a faintly fruity scent. Drinking a &lt;i&gt;ration tonic&lt;/i&gt; magically nourishes you with the equivalent of a day's worth of food and water. The tonic has a subtle, pleasant taste, its particulars chosen when the potion is crafted.&lt;br&gt;
+
+A &lt;i&gt;greater ration tonic&lt;/i&gt; nourishes you for 1 week instead of 1 day, distributing the nourishment in a constant and healthy flow across the week.</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Minor)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 1 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Lesser)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 1d4 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Moderate)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 2d4 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Greater)</Name>
+	<Price>400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 3d6 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Major)</Name>
+	<Price>5,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 4d8 damage.</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Shared Memories</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Divination, Magical, Mental, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of shared memories&lt;/i&gt; can transfer recollections from one creature to another. To place a memory in the potion, you must hold the vial and focus on a particular memory for 1 minute. This memory must be of a single event, location, person, or otherwise encompass a span of about 1 minute. The clear fluid takes on a shimmering hue reminiscent of the stored memory and gains a slightly sweet taste. &lt;br&gt;&lt;br&gt;Upon consuming the potion, the drinker vividly recalls the memory, and thereafter can remember it as easily as a memory they actually experienced. An unwilling drinker can refuse to absorb the memory.</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Minor)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 1 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Lesser)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 1d4 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Moderate)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 2d4 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Greater)</Name>
+	<Price>400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 3d6 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Major)</Name>
+	<Price>5,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 4d8 damage.</Description>
+</Item>
+<Item level="5" page="258">
+	<Name>Potion of Disguise (Lesser)</Name>
+	<Price>30 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Polymorph, Potion, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Upon imbibing this potion, you take on the appearance of a specific type of creature for 2d12 hours. The type of creature is determined when the potion is created. For example, you might have a &lt;i&gt;potion of elf disguise&lt;/i&gt; or &lt;i&gt;potion of frog disguise&lt;/i&gt;. Drinking the potion doesn't impart the knowledge of how long the effect lasts; the GM rolls the duration in secret.&lt;br&gt;&lt;br&gt; The disguise doesn't change your traits or statistics, nor does it give you any of the special abilities of the creature you're imitating. It might affect what items you can hold or wear (for example, your new form might lack opposable thumbs). The potion shrinks you down to a minimum of size Small, or maintains your size if the creature is your size or larger. For example, if you are Medium and drink a &lt;i&gt;potion of fire giant disguise&lt;/i&gt;, you'll take on the appearance of a fire giant but remain Medium. The creature has to be of a specific kind, such as “leopard” or “lion” rather than just “cat,” or “fire giant” or “ogre” rather than just “giant,” but the potion can't cause you to mimic a specific individual creature.&lt;br&gt;&lt;br&gt; The effects of this potion use the same rules as the Impersonate activity of Deception. Onlookers always assume you're the chosen type of creature unless they're actively Seeking. You gain a +4 status bonus to your Deception DC against such Perception checks and add your level even if untrained.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="258">
+	<Name>Potion of Disguise (Moderate)</Name>
+	<Price>100 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Polymorph, Potion, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Upon imbibing this potion, you take on the appearance of a specific type of creature for 2d12 hours. The type of creature is determined when the potion is created. For example, you might have a &lt;i&gt;potion of elf disguise&lt;/i&gt; or &lt;i&gt;potion of frog disguise&lt;/i&gt;. Drinking the potion doesn't impart the knowledge of how long the effect lasts; the GM rolls the duration in secret.&lt;br&gt;&lt;br&gt; The disguise doesn't change your traits or statistics, nor does it give you any of the special abilities of the creature you're imitating. It might affect what items you can hold or wear (for example, your new form might lack opposable thumbs). The potion shrinks you down to a minimum of size Small, or maintains your size if the creature is your size or larger. For example, if you are Medium and drink a &lt;i&gt;potion of fire giant disguise&lt;/i&gt;, you'll take on the appearance of a fire giant but remain Medium. The creature has to be of a specific kind, such as “leopard” or “lion” rather than just “cat,” or “fire giant” or “ogre” rather than just “giant,” but the potion can't cause you to mimic a specific individual creature.&lt;br&gt;&lt;br&gt; The effects of this potion use the same rules as the Impersonate activity of Deception. Onlookers always assume you're the chosen type of creature unless they're actively Seeking. You gain a +4 status bonus to your Deception DC against such Perception checks and add your level even if untrained.&lt;br&gt;
+
+The potion can increase your size if the creature is larger than you, to a maximum of Large, and it can shrink you to a creature of size Tiny. This doesn't change any of your statistics, with the exception of reducing your reach to 0 feet as a Tiny creature.&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Initial raw materials must include a bit of blood, hair, or flesh of the creature the potion will allow the drinker to imitate.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="258">
+	<Name>Potion of Disguise (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Polymorph, Potion, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Upon imbibing this potion, you take on the appearance of a specific type of creature for 2d12 hours. The type of creature is determined when the potion is created. For example, you might have a &lt;i&gt;potion of elf disguise&lt;/i&gt; or &lt;i&gt;potion of frog disguise&lt;/i&gt;. Drinking the potion doesn't impart the knowledge of how long the effect lasts; the GM rolls the duration in secret.&lt;br&gt;&lt;br&gt; The disguise doesn't change your traits or statistics, nor does it give you any of the special abilities of the creature you're imitating. It might affect what items you can hold or wear (for example, your new form might lack opposable thumbs). The potion shrinks you down to a minimum of size Small, or maintains your size if the creature is your size or larger. For example, if you are Medium and drink a &lt;i&gt;potion of fire giant disguise&lt;/i&gt;, you'll take on the appearance of a fire giant but remain Medium. The creature has to be of a specific kind, such as “leopard” or “lion” rather than just “cat,” or “fire giant” or “ogre” rather than just “giant,” but the potion can't cause you to mimic a specific individual creature.&lt;br&gt;&lt;br&gt; The effects of this potion use the same rules as the Impersonate activity of Deception. Onlookers always assume you're the chosen type of creature unless they're actively Seeking. You gain a +4 status bonus to your Deception DC against such Perception checks and add your level even if untrained.&lt;br&gt;
+
+While drinking a &lt;i&gt;greater potion of disguise&lt;/i&gt;, if you picture the specific form you want to transform into, the potion will change you into that form. You can attempt to Impersonate a specific individual, though you still need to roll Deception.</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Minor)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 1 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Lesser)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 1d4 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Moderate)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 2d4 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Greater)</Name>
+	<Price>400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 3d6 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Major)</Name>
+	<Price>5,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 4d8 damage.</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Ration Tonic</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Consumable, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This slender vial appears to hold clean, clear water with a faintly fruity scent. Drinking a &lt;i&gt;ration tonic&lt;/i&gt; magically nourishes you with the equivalent of a day's worth of food and water. The tonic has a subtle, pleasant taste, its particulars chosen when the potion is crafted.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Ration Tonic (Greater)</Name>
+	<Price>55 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Consumable, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This slender vial appears to hold clean, clear water with a faintly fruity scent. Drinking a &lt;i&gt;ration tonic&lt;/i&gt; magically nourishes you with the equivalent of a day's worth of food and water. The tonic has a subtle, pleasant taste, its particulars chosen when the potion is crafted.&lt;br&gt;
+
+A &lt;i&gt;greater ration tonic&lt;/i&gt; nourishes you for 1 week instead of 1 day, distributing the nourishment in a constant and healthy flow across the week.</Description>
+</Item>
+<Item level="5" page="258">
+	<Name>Potion of Disguise (Lesser)</Name>
+	<Price>30 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Polymorph, Potion, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Upon imbibing this potion, you take on the appearance of a specific type of creature for 2d12 hours. The type of creature is determined when the potion is created. For example, you might have a &lt;i&gt;potion of elf disguise&lt;/i&gt; or &lt;i&gt;potion of frog disguise&lt;/i&gt;. Drinking the potion doesn't impart the knowledge of how long the effect lasts; the GM rolls the duration in secret.&lt;br&gt;&lt;br&gt; The disguise doesn't change your traits or statistics, nor does it give you any of the special abilities of the creature you're imitating. It might affect what items you can hold or wear (for example, your new form might lack opposable thumbs). The potion shrinks you down to a minimum of size Small, or maintains your size if the creature is your size or larger. For example, if you are Medium and drink a &lt;i&gt;potion of fire giant disguise&lt;/i&gt;, you'll take on the appearance of a fire giant but remain Medium. The creature has to be of a specific kind, such as “leopard” or “lion” rather than just “cat,” or “fire giant” or “ogre” rather than just “giant,” but the potion can't cause you to mimic a specific individual creature.&lt;br&gt;&lt;br&gt; The effects of this potion use the same rules as the Impersonate activity of Deception. Onlookers always assume you're the chosen type of creature unless they're actively Seeking. You gain a +4 status bonus to your Deception DC against such Perception checks and add your level even if untrained.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="258">
+	<Name>Potion of Disguise (Moderate)</Name>
+	<Price>100 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Polymorph, Potion, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Upon imbibing this potion, you take on the appearance of a specific type of creature for 2d12 hours. The type of creature is determined when the potion is created. For example, you might have a &lt;i&gt;potion of elf disguise&lt;/i&gt; or &lt;i&gt;potion of frog disguise&lt;/i&gt;. Drinking the potion doesn't impart the knowledge of how long the effect lasts; the GM rolls the duration in secret.&lt;br&gt;&lt;br&gt; The disguise doesn't change your traits or statistics, nor does it give you any of the special abilities of the creature you're imitating. It might affect what items you can hold or wear (for example, your new form might lack opposable thumbs). The potion shrinks you down to a minimum of size Small, or maintains your size if the creature is your size or larger. For example, if you are Medium and drink a &lt;i&gt;potion of fire giant disguise&lt;/i&gt;, you'll take on the appearance of a fire giant but remain Medium. The creature has to be of a specific kind, such as “leopard” or “lion” rather than just “cat,” or “fire giant” or “ogre” rather than just “giant,” but the potion can't cause you to mimic a specific individual creature.&lt;br&gt;&lt;br&gt; The effects of this potion use the same rules as the Impersonate activity of Deception. Onlookers always assume you're the chosen type of creature unless they're actively Seeking. You gain a +4 status bonus to your Deception DC against such Perception checks and add your level even if untrained.&lt;br&gt;
+
+The potion can increase your size if the creature is larger than you, to a maximum of Large, and it can shrink you to a creature of size Tiny. This doesn't change any of your statistics, with the exception of reducing your reach to 0 feet as a Tiny creature.&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Initial raw materials must include a bit of blood, hair, or flesh of the creature the potion will allow the drinker to imitate.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="258">
+	<Name>Potion of Disguise (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Polymorph, Potion, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Upon imbibing this potion, you take on the appearance of a specific type of creature for 2d12 hours. The type of creature is determined when the potion is created. For example, you might have a &lt;i&gt;potion of elf disguise&lt;/i&gt; or &lt;i&gt;potion of frog disguise&lt;/i&gt;. Drinking the potion doesn't impart the knowledge of how long the effect lasts; the GM rolls the duration in secret.&lt;br&gt;&lt;br&gt; The disguise doesn't change your traits or statistics, nor does it give you any of the special abilities of the creature you're imitating. It might affect what items you can hold or wear (for example, your new form might lack opposable thumbs). The potion shrinks you down to a minimum of size Small, or maintains your size if the creature is your size or larger. For example, if you are Medium and drink a &lt;i&gt;potion of fire giant disguise&lt;/i&gt;, you'll take on the appearance of a fire giant but remain Medium. The creature has to be of a specific kind, such as “leopard” or “lion” rather than just “cat,” or “fire giant” or “ogre” rather than just “giant,” but the potion can't cause you to mimic a specific individual creature.&lt;br&gt;&lt;br&gt; The effects of this potion use the same rules as the Impersonate activity of Deception. Onlookers always assume you're the chosen type of creature unless they're actively Seeking. You gain a +4 status bonus to your Deception DC against such Perception checks and add your level even if untrained.&lt;br&gt;
+
+While drinking a &lt;i&gt;greater potion of disguise&lt;/i&gt;, if you picture the specific form you want to transform into, the potion will change you into that form. You can attempt to Impersonate a specific individual, though you still need to roll Deception.</Description>
+</Item>
+<Item level="5" page="258">
+	<Name>Potion of Disguise (Lesser)</Name>
+	<Price>30 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Polymorph, Potion, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Upon imbibing this potion, you take on the appearance of a specific type of creature for 2d12 hours. The type of creature is determined when the potion is created. For example, you might have a &lt;i&gt;potion of elf disguise&lt;/i&gt; or &lt;i&gt;potion of frog disguise&lt;/i&gt;. Drinking the potion doesn't impart the knowledge of how long the effect lasts; the GM rolls the duration in secret.&lt;br&gt;&lt;br&gt; The disguise doesn't change your traits or statistics, nor does it give you any of the special abilities of the creature you're imitating. It might affect what items you can hold or wear (for example, your new form might lack opposable thumbs). The potion shrinks you down to a minimum of size Small, or maintains your size if the creature is your size or larger. For example, if you are Medium and drink a &lt;i&gt;potion of fire giant disguise&lt;/i&gt;, you'll take on the appearance of a fire giant but remain Medium. The creature has to be of a specific kind, such as “leopard” or “lion” rather than just “cat,” or “fire giant” or “ogre” rather than just “giant,” but the potion can't cause you to mimic a specific individual creature.&lt;br&gt;&lt;br&gt; The effects of this potion use the same rules as the Impersonate activity of Deception. Onlookers always assume you're the chosen type of creature unless they're actively Seeking. You gain a +4 status bonus to your Deception DC against such Perception checks and add your level even if untrained.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="258">
+	<Name>Potion of Disguise (Moderate)</Name>
+	<Price>100 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Polymorph, Potion, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Upon imbibing this potion, you take on the appearance of a specific type of creature for 2d12 hours. The type of creature is determined when the potion is created. For example, you might have a &lt;i&gt;potion of elf disguise&lt;/i&gt; or &lt;i&gt;potion of frog disguise&lt;/i&gt;. Drinking the potion doesn't impart the knowledge of how long the effect lasts; the GM rolls the duration in secret.&lt;br&gt;&lt;br&gt; The disguise doesn't change your traits or statistics, nor does it give you any of the special abilities of the creature you're imitating. It might affect what items you can hold or wear (for example, your new form might lack opposable thumbs). The potion shrinks you down to a minimum of size Small, or maintains your size if the creature is your size or larger. For example, if you are Medium and drink a &lt;i&gt;potion of fire giant disguise&lt;/i&gt;, you'll take on the appearance of a fire giant but remain Medium. The creature has to be of a specific kind, such as “leopard” or “lion” rather than just “cat,” or “fire giant” or “ogre” rather than just “giant,” but the potion can't cause you to mimic a specific individual creature.&lt;br&gt;&lt;br&gt; The effects of this potion use the same rules as the Impersonate activity of Deception. Onlookers always assume you're the chosen type of creature unless they're actively Seeking. You gain a +4 status bonus to your Deception DC against such Perception checks and add your level even if untrained.&lt;br&gt;
+
+The potion can increase your size if the creature is larger than you, to a maximum of Large, and it can shrink you to a creature of size Tiny. This doesn't change any of your statistics, with the exception of reducing your reach to 0 feet as a Tiny creature.&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Initial raw materials must include a bit of blood, hair, or flesh of the creature the potion will allow the drinker to imitate.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="258">
+	<Name>Potion of Disguise (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Polymorph, Potion, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Upon imbibing this potion, you take on the appearance of a specific type of creature for 2d12 hours. The type of creature is determined when the potion is created. For example, you might have a &lt;i&gt;potion of elf disguise&lt;/i&gt; or &lt;i&gt;potion of frog disguise&lt;/i&gt;. Drinking the potion doesn't impart the knowledge of how long the effect lasts; the GM rolls the duration in secret.&lt;br&gt;&lt;br&gt; The disguise doesn't change your traits or statistics, nor does it give you any of the special abilities of the creature you're imitating. It might affect what items you can hold or wear (for example, your new form might lack opposable thumbs). The potion shrinks you down to a minimum of size Small, or maintains your size if the creature is your size or larger. For example, if you are Medium and drink a &lt;i&gt;potion of fire giant disguise&lt;/i&gt;, you'll take on the appearance of a fire giant but remain Medium. The creature has to be of a specific kind, such as “leopard” or “lion” rather than just “cat,” or “fire giant” or “ogre” rather than just “giant,” but the potion can't cause you to mimic a specific individual creature.&lt;br&gt;&lt;br&gt; The effects of this potion use the same rules as the Impersonate activity of Deception. Onlookers always assume you're the chosen type of creature unless they're actively Seeking. You gain a +4 status bonus to your Deception DC against such Perception checks and add your level even if untrained.&lt;br&gt;
+
+While drinking a &lt;i&gt;greater potion of disguise&lt;/i&gt;, if you picture the specific form you want to transform into, the potion will change you into that form. You can attempt to Impersonate a specific individual, though you still need to roll Deception.</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Minor)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 1 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Lesser)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 1d4 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Moderate)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 2d4 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Greater)</Name>
+	<Price>400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 3d6 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Major)</Name>
+	<Price>5,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 4d8 damage.</Description>
+</Item>
+<Item level="13" page="259">
+	<Name>Time Shield Potion</Name>
+	<Price>600 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Potion, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This purple potion has a bitter taste and seems to blur with motion. When you drink a &lt;i&gt;time shield potion&lt;/i&gt;, you are frozen in time for 2d4 rounds. You can't act or be targeted, you become immune to all effects, and you vanish from your space; as far as the universe is concerned, you simply don't exist as long as the potion lasts. The durations of any effects targeting you when you drink the potion are suspended until it wears off. &lt;br&gt;&lt;br&gt;Once the potion's duration expires, you return to the normal flow of time and your former space; if that space is now occupied, you get shunted to the nearest unoccupied space. Effects with durations immediately resume affecting you, elapsing as though no time has passed. If you are within the area of an effect created while you were outside of time, you immediately take those effects upon returning. The GM might determine that other changes that occurred while you were outside of time (such as the ground beneath you crumbling) also affect you upon your return.</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Minor)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 1 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Lesser)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 1d4 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Moderate)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 2d4 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Greater)</Name>
+	<Price>400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 3d6 damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Potion of Retaliation (Major)</Name>
+	<Price>5,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A &lt;i&gt;potion of retaliation&lt;/i&gt; is available in four varieties—acid, cold, electricity, and fire—each with a faint shimmer reminiscent of the energy it contains. For 1 minute after drinking a &lt;i&gt;potion of retaliation&lt;/i&gt;, you glow with a faint aura of that energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) takes damage of that type. The moderate, greater, and major versions also damage an adjacent creature that hits you with a melee weapon Strike.&lt;br&gt;
+
+The aura deals 4d8 damage.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Oils">
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Minor)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 1d8 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Lesser)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 2d8+5 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Moderate)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 3d8+10 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Greater)</Name>
+	<Price>400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 6d8+20 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Major)</Name>
+	<Price>5,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 8d8+30 Hit Points.</Description>
+</Item>
+<Item level="1" page="259">
+	<Name>Shielding Salve</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Consumable, Magical, Oil</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This shimmering paste has many properties of a &lt;i&gt;shield&lt;/i&gt; spell. When you slather it onto a creature or object, the target gains a +1 circumstance bonus to AC for 1 round. The first time a physical attack or a &lt;i&gt;magic missile&lt;/i&gt; hits the target during that round, the oil prevents 5 damage from that attack or spell, and then the oil's effect ends.</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Minor)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 1d8 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Lesser)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 2d8+5 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Moderate)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 3d8+10 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Greater)</Name>
+	<Price>400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 6d8+20 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Major)</Name>
+	<Price>5,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 8d8+30 Hit Points.</Description>
+</Item>
+<Item level="5" page="258">
+	<Name>Oil of Revelation</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical, Oil</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This bright oil, first created by humans as a tool to help them fight in darkness, holds flecks of tiny gemstones in suspension and smells like a struck tindertwig.&lt;br&gt;&lt;br&gt; The first time a weapon coated with this oil damages a creature, the wound glows with light for 1 minute. If the creature is invisible, the light's position means it is merely hidden to creatures that would otherwise be unable to see it, rather than undetected. The light also negates the concealed condition due to lighting conditions. If the coated weapon doesn't damage a creature within 1 hour, the oil sloughs off and loses its power.</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Minor)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 1d8 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Lesser)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 2d8+5 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Moderate)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 3d8+10 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Greater)</Name>
+	<Price>400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 6d8+20 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Major)</Name>
+	<Price>5,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 8d8+30 Hit Points.</Description>
+</Item>
+<Item level="8" page="258">
+	<Name>Oil of Object Animation</Name>
+	<Price>85 gp</Price>
+	<Traits>Consumable, Magical, Oil, Transmutation</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This fine golden oil comes in a small blue canister. Carefully spreading the oil over an object turns it into an animated object of the same type. For example, sprinkling it on a statue makes an animated statue. If the animated object's level would be greater than 3, the oil struggles to animate it and ultimately fails.&lt;br&gt;&lt;br&gt; This animated object has the minion trait, meaning it can use 2 actions when you Command it. You can issue a Command for the current turn as part of the activation. The object remains animated for 1 minute before falling inert. As usual, you can have a maximum of four minions under your control.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="258">
+	<Name>Oil of Object Animation (Greater)</Name>
+	<Price>1,400 gp</Price>
+	<Traits>Consumable, Magical, Oil, Transmutation</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This fine golden oil comes in a small blue canister. Carefully spreading the oil over an object turns it into an animated object of the same type. For example, sprinkling it on a statue makes an animated statue. If the animated object's level would be greater than 3, the oil struggles to animate it and ultimately fails.&lt;br&gt;&lt;br&gt; This animated object has the minion trait, meaning it can use 2 actions when you Command it. You can issue a Command for the current turn as part of the activation. The object remains animated for 1 minute before falling inert. As usual, you can have a maximum of four minions under your control.&lt;br&gt;
+
+You can animate an object with a level of 11 or lower.</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Minor)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 1d8 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Lesser)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 2d8+5 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Moderate)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 3d8+10 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Greater)</Name>
+	<Price>400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 6d8+20 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Major)</Name>
+	<Price>5,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 8d8+30 Hit Points.</Description>
+</Item>
+<Item level="8" page="258">
+	<Name>Oil of Object Animation</Name>
+	<Price>85 gp</Price>
+	<Traits>Consumable, Magical, Oil, Transmutation</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This fine golden oil comes in a small blue canister. Carefully spreading the oil over an object turns it into an animated object of the same type. For example, sprinkling it on a statue makes an animated statue. If the animated object's level would be greater than 3, the oil struggles to animate it and ultimately fails.&lt;br&gt;&lt;br&gt; This animated object has the minion trait, meaning it can use 2 actions when you Command it. You can issue a Command for the current turn as part of the activation. The object remains animated for 1 minute before falling inert. As usual, you can have a maximum of four minions under your control.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="258">
+	<Name>Oil of Object Animation (Greater)</Name>
+	<Price>1,400 gp</Price>
+	<Traits>Consumable, Magical, Oil, Transmutation</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This fine golden oil comes in a small blue canister. Carefully spreading the oil over an object turns it into an animated object of the same type. For example, sprinkling it on a statue makes an animated statue. If the animated object's level would be greater than 3, the oil struggles to animate it and ultimately fails.&lt;br&gt;&lt;br&gt; This animated object has the minion trait, meaning it can use 2 actions when you Command it. You can issue a Command for the current turn as part of the activation. The object remains animated for 1 minute before falling inert. As usual, you can have a maximum of four minions under your control.&lt;br&gt;
+
+You can animate an object with a level of 11 or lower.</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Minor)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 1d8 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Lesser)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 2d8+5 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Moderate)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 3d8+10 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Greater)</Name>
+	<Price>400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 6d8+20 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="258">
+	<Name>Oil of Unlife (Major)</Name>
+	<Price>5,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Negative, Oil</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, black liquid imparts a bone-deep chill while rapidly repairing an undead creature's physical or spiritual form. When you dash &lt;i&gt;oil of unlife&lt;/i&gt; onto an undead creature, or a living creature with negative healing, the oil absorbs quickly into its body, and the creature regains the listed number of Hit Points. You can pour &lt;i&gt;oil of unlife&lt;/i&gt; on an incorporeal undead; in this case, the creature absorbs the oil into itself.&lt;br&gt;
+
+The oil restores 8d8+30 Hit Points.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Other Consumables">
+<Item level="7" page="257">
+	<Name>Candle of Revealing</Name>
+	<Price>60 gp</Price>
+	<Traits>Consumable, Divination, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>When lit, this black candle's eerie blue flame reveals the presence of invisible creatures. Within a 10-foot radius of the lit candle, creatures don't benefit from the invisible condition. Their bodies are outlined, not fully visible, so they are concealed. Once lit, the candle burns for 1 minute, after which the effect ends. If extinguished, it can't be relit.</Description>
+</Item>
+<Item level="8" page="257">
+	<Name>Dust of Corpse Animation</Name>
+	<Price>100 gp</Price>
+	<Traits>Consumable, Magical, Necromancy</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This black pouch contains what appears to be fine bone dust. Pouring the dust in a special pattern over a corpse turns it into an undead creature. The type of undead created depends on the condition of the corpse, resulting in either a skeleton or a zombie. If the undead's level would be greater than 3, the dust fails to animate it. The body must be of an appropriate size and type for the undead you wish to create—for example, you must sprinkle the dust on a horse's skeleton to animate a skeletal horse. If more than one undead in the level range is appropriate, such as skeletal guard or skeletal champion for a Medium humanoid skeleton, you choose.&lt;br&gt;&lt;br&gt; The animated undead has the minion trait, meaning it can use 2 actions when you Command it. You can issue a Command for the current turn as part of the activation. The undead creature remains animated for 1 minute before collapsing back into its corpse form. As usual, you can have a maximum of four minions under your control.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="257">
+	<Name>Dust of Corpse Animation (Greater)</Name>
+	<Price>1,500 gp</Price>
+	<Traits>Consumable, Magical, Necromancy</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This black pouch contains what appears to be fine bone dust. Pouring the dust in a special pattern over a corpse turns it into an undead creature. The type of undead created depends on the condition of the corpse, resulting in either a skeleton or a zombie. If the undead's level would be greater than 3, the dust fails to animate it. The body must be of an appropriate size and type for the undead you wish to create—for example, you must sprinkle the dust on a horse's skeleton to animate a skeletal horse. If more than one undead in the level range is appropriate, such as skeletal guard or skeletal champion for a Medium humanoid skeleton, you choose.&lt;br&gt;&lt;br&gt; The animated undead has the minion trait, meaning it can use 2 actions when you Command it. You can issue a Command for the current turn as part of the activation. The undead creature remains animated for 1 minute before collapsing back into its corpse form. As usual, you can have a maximum of four minions under your control.&lt;br&gt;
+
+You can animate an undead with a level of 11 or lower.</Description>
+</Item>
+<Item level="12" page="257">
+	<Name>Incense of Distilled Death</Name>
+	<Price>350 gp</Price>
+	<Traits>Consumable, Magical, Necromancy, Negative</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This black incense smells of fresh earth and ash. You activate the incense by lighting it, whereupon it fills a 10-foot emanation with oily smoke and potent negative energy. Undead creatures, including incorporeal undead, gain fast healing 4 while in the area; though this healing comes from negative energy, it doesn't negatively impact living creatures. Once lit, the incense burns for 1 minute, and it can't be extinguished.</Description>
+</Item>
+<Item level="8" page="257">
+	<Name>Dust of Corpse Animation</Name>
+	<Price>100 gp</Price>
+	<Traits>Consumable, Magical, Necromancy</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This black pouch contains what appears to be fine bone dust. Pouring the dust in a special pattern over a corpse turns it into an undead creature. The type of undead created depends on the condition of the corpse, resulting in either a skeleton or a zombie. If the undead's level would be greater than 3, the dust fails to animate it. The body must be of an appropriate size and type for the undead you wish to create—for example, you must sprinkle the dust on a horse's skeleton to animate a skeletal horse. If more than one undead in the level range is appropriate, such as skeletal guard or skeletal champion for a Medium humanoid skeleton, you choose.&lt;br&gt;&lt;br&gt; The animated undead has the minion trait, meaning it can use 2 actions when you Command it. You can issue a Command for the current turn as part of the activation. The undead creature remains animated for 1 minute before collapsing back into its corpse form. As usual, you can have a maximum of four minions under your control.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="257">
+	<Name>Dust of Corpse Animation (Greater)</Name>
+	<Price>1,500 gp</Price>
+	<Traits>Consumable, Magical, Necromancy</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This black pouch contains what appears to be fine bone dust. Pouring the dust in a special pattern over a corpse turns it into an undead creature. The type of undead created depends on the condition of the corpse, resulting in either a skeleton or a zombie. If the undead's level would be greater than 3, the dust fails to animate it. The body must be of an appropriate size and type for the undead you wish to create—for example, you must sprinkle the dust on a horse's skeleton to animate a skeletal horse. If more than one undead in the level range is appropriate, such as skeletal guard or skeletal champion for a Medium humanoid skeleton, you choose.&lt;br&gt;&lt;br&gt; The animated undead has the minion trait, meaning it can use 2 actions when you Command it. You can issue a Command for the current turn as part of the activation. The undead creature remains animated for 1 minute before collapsing back into its corpse form. As usual, you can have a maximum of four minions under your control.&lt;br&gt;
+
+You can animate an undead with a level of 11 or lower.</Description>
+</Item>
+<Item level="16" page="256">
+	<Name>Candle of Invocation</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Conjuration, Consumable, Divine</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This golden candle bears the symbol of a specific deity emblazoned on its surface, surrounded by the iconography of that deity's faith. Once lit, this candle burns for 1 hour, and it can't be extinguished.&lt;br&gt;&lt;br&gt; Characters who cast divine spells and worship the deity emblazoned on the candle can perform their daily preparations within 10 feet of the lit candle to gain two additional spell slots for the day, each at half the highest spell level the character can cast (for example, 4th level slots if the caster can cast 8th-level spells). Prepared casters must prepare spells in these spell slots as they do for all their other spell slots.&lt;br&gt;&lt;br&gt; A caster's additional spell slots from the candle are lost the next time that caster performs their daily preparations. No one can benefit from more than one &lt;i&gt;candle of invocation&lt;/i&gt; in a day, but multiple characters can benefit from a single candle's effects.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Ammunition">
+<Item level="2" page="256">
+	<Name>Antler Arrow</Name>
+	<Price>7 gp</Price>
+	<Traits>Conjuration, Consumable, Magical</Traits>
+	<Description>Creation of these arrows was inspired by an encounter with a horned archon scout who sought to peacefully restrain their foes. When an activated &lt;i&gt;antler arrow&lt;/i&gt; hits a target, bone antlers extend to pin it down. The target must succeed at a DC 16 Reflex save or become stuck to the surface, taking the critical specialization effects of a bow.&lt;br&gt;&lt;br&gt; If the hit with the &lt;i&gt;antler arrow&lt;/i&gt; is a critical hit and you have access to the bow critical specialization effect, the DC of the Athletics check increases to 15.</Description>
+</Item>
+<Item level="5" page="257">
+	<Name>Freezing Ammunition</Name>
+	<Price>25 gp</Price>
+	<Traits>Cold, Consumable, Evocation, Magical</Traits>
+	<Description>This chilly ammunition is dark blue and cold to the touch. When activated &lt;i&gt;freezing ammunition&lt;/i&gt; hits a target, the target must succeed at a DC 19 Fortitude save or be slowed 1 for 1 round by the intense cold (slowed 1 for 1 minute on a critical failure).</Description>
+</Item>
+<Item level="6" page="259">
+	<Name>Terrifying Ammunition</Name>
+	<Price>50 gp</Price>
+	<Traits>Consumable, Emotion, Enchantment, Fear, Magical, Mental</Traits>
+	<Description>This black-and-gray ammunition is etched with occult symbols and tiny, grinning skulls. When activated &lt;i&gt;terrifying ammunition&lt;/i&gt; damages a creature, it fills the creature's mind with visions of their own failures, tragedies, and eventually, their own death. The creature must attempt a DC 20 Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 1 and can't reduce its frightened value below 1 until it spends an action, which has the concentrate trait, to calm itself down.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but the creature is frightened 2.</Description>
+</Item>
+<Item level="7" page="257">
+	<Name>Corrosive Ammunition</Name>
+	<Price>70 gp</Price>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Description>This peculiar ammunition is coated in yellow dust that leaves a stain on anything it touches. When activated &lt;i&gt;corrosive ammunition&lt;/i&gt; hits a target, it dissolves across the target's armor. The armor takes 1d8 persistent acid damage that ignores the armor's Hardness; if the target isn't wearing armor, it takes the acid damage instead. This damage occurs at the end of the target's turns.&lt;br&gt;&lt;br&gt; The creature can end this effect by spending an Interact action to wipe off the corrosive dust, and otherwise the effect ends once the armor becomes broken.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Talismans">
+<Item level="9" page="256">
+	<Name>Basilisk Eye</Name>
+	<Price>150 gp</Price>
+	<Traits>Consumable, Magical, Talisman, Transmutation, Visual</Traits>
+	<Usage>affixed to a shield</Usage>
+	<Description> a melee attack with the affixed shield.This slimy green stone glows with a strong light whenever the shield it adorns blocks a melee attack. When the eye is activated, the attacker must succeed at a DC 25 Fortitude save or become slowed 1 for 1 minute as its body slowly stiffens in partial petrification.</Description>
+</Item>
+<Item level="12" page="256">
+	<Name>Balisse Feather</Name>
+	<Price>400 gp</Price>
+	<Traits>Consumable, Divine, Evocation, Magical, Talisman</Traits>
+	<Usage>affixed to a weapon</Usage>
+	<Description>This long, fire-red feather seems to catch flame every time the weapon it adorns strikes a purveyor of evil. When you activate the feather, the creature you damaged burns with holy light. The creature must succeed at a DC 29 Will save or take a –2 status penalty to AC and saving throws and reduce its resistances by 5. These effects last until the end of your next turn.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

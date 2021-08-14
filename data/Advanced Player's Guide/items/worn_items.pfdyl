@@ -1,0 +1,110 @@
+<pf2:Items category="worn_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<SubCategory name="Other Worn Items">
+<Item level="4" page="263">
+	<Name>Sleeves of Storage</Name>
+	<Price>100 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Extradimensional, Invested, Magical</Traits>
+	<Usage>worn garment</Usage>
+	<Description>This loose robe has wide, voluminous sleeves that each contain an extradimensional space. These spaces each function as a &lt;i&gt;bag of holding&lt;/i&gt; that can hold up to 5 Bulk of items (for a total of 10 Bulk), though no individual item can be of more than 1 Bulk; the sleeves grow slightly heavy as you reach maximum capacity. You can add or remove an item from a sleeve with a single hand free as an Interact action.&lt;br&gt;&lt;br&gt; If a sleeve is completely empty, you can place your own familiar into that extradimensional space. It can survive comfortably in your sleeve for up to 1 hour, after which it begins to suffocate. While in your sleeve, it can't be affected or targeted by any effects, but you don't benefit from any master abilities. A familiar can exit the sleeve of its own volition with a single action that has the manipulate and move traits. You can't place any other creature into your sleeves, nor can you place your familiar in a sleeve if it's larger than Tiny. If your familiar is in your sleeve, you can't place any items in the sleeve.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="263">
+	<Name>Sleeves of Storage (Greater)</Name>
+	<Price>600 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Extradimensional, Invested, Magical</Traits>
+	<Usage>worn garment</Usage>
+	<Description>This loose robe has wide, voluminous sleeves that each contain an extradimensional space. These spaces each function as a &lt;i&gt;bag of holding&lt;/i&gt; that can hold up to 5 Bulk of items (for a total of 10 Bulk), though no individual item can be of more than 1 Bulk; the sleeves grow slightly heavy as you reach maximum capacity. You can add or remove an item from a sleeve with a single hand free as an Interact action.&lt;br&gt;&lt;br&gt; If a sleeve is completely empty, you can place your own familiar into that extradimensional space. It can survive comfortably in your sleeve for up to 1 hour, after which it begins to suffocate. While in your sleeve, it can't be affected or targeted by any effects, but you don't benefit from any master abilities. A familiar can exit the sleeve of its own volition with a single action that has the manipulate and move traits. You can't place any other creature into your sleeves, nor can you place your familiar in a sleeve if it's larger than Tiny. If your familiar is in your sleeve, you can't place any items in the sleeve.&lt;br&gt;
+
+Each sleeve can hold up to 20 Bulk of items, and a familiar can survive within a sleeve for up to 4 hours.</Description>
+</Item>
+<Item level="8" page="261">
+	<Name>Lover's Gloves</Name>
+	<Price>500 gp</Price>
+	<Traits>Emotion, Enchantment, Invested, Magical, Mental</Traits>
+	<Usage>worn gloves</Usage>
+	<Description>These white silk gloves are adorned in red hearts that glow faintly whenever you are adjacent to someone you feel particularly strongly toward. They buoy your spirit, giving you a +1 item bonus to Diplomacy checks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You grasp the hands of a willing creature you have strong positive feelings about, regardless of the nature of those feelings. The creature gains a +1 status bonus to saving throws and 10 temporary Hit Points for 10 minutes. If the creature shares your feelings, you gain the same benefits, and for the duration, when you both roll a success on a saving throw against an emotion effect that causes negative emotions, you both get a critical success instead.</Description>
+</Item>
+<Item level="4" page="263">
+	<Name>Sleeves of Storage</Name>
+	<Price>100 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Extradimensional, Invested, Magical</Traits>
+	<Usage>worn garment</Usage>
+	<Description>This loose robe has wide, voluminous sleeves that each contain an extradimensional space. These spaces each function as a &lt;i&gt;bag of holding&lt;/i&gt; that can hold up to 5 Bulk of items (for a total of 10 Bulk), though no individual item can be of more than 1 Bulk; the sleeves grow slightly heavy as you reach maximum capacity. You can add or remove an item from a sleeve with a single hand free as an Interact action.&lt;br&gt;&lt;br&gt; If a sleeve is completely empty, you can place your own familiar into that extradimensional space. It can survive comfortably in your sleeve for up to 1 hour, after which it begins to suffocate. While in your sleeve, it can't be affected or targeted by any effects, but you don't benefit from any master abilities. A familiar can exit the sleeve of its own volition with a single action that has the manipulate and move traits. You can't place any other creature into your sleeves, nor can you place your familiar in a sleeve if it's larger than Tiny. If your familiar is in your sleeve, you can't place any items in the sleeve.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="263">
+	<Name>Sleeves of Storage (Greater)</Name>
+	<Price>600 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Extradimensional, Invested, Magical</Traits>
+	<Usage>worn garment</Usage>
+	<Description>This loose robe has wide, voluminous sleeves that each contain an extradimensional space. These spaces each function as a &lt;i&gt;bag of holding&lt;/i&gt; that can hold up to 5 Bulk of items (for a total of 10 Bulk), though no individual item can be of more than 1 Bulk; the sleeves grow slightly heavy as you reach maximum capacity. You can add or remove an item from a sleeve with a single hand free as an Interact action.&lt;br&gt;&lt;br&gt; If a sleeve is completely empty, you can place your own familiar into that extradimensional space. It can survive comfortably in your sleeve for up to 1 hour, after which it begins to suffocate. While in your sleeve, it can't be affected or targeted by any effects, but you don't benefit from any master abilities. A familiar can exit the sleeve of its own volition with a single action that has the manipulate and move traits. You can't place any other creature into your sleeves, nor can you place your familiar in a sleeve if it's larger than Tiny. If your familiar is in your sleeve, you can't place any items in the sleeve.&lt;br&gt;
+
+Each sleeve can hold up to 20 Bulk of items, and a familiar can survive within a sleeve for up to 4 hours.</Description>
+</Item>
+<Item level="9" page="261">
+	<Name>Mask of the Banshee</Name>
+	<Price>700 gp</Price>
+	<Traits>Auditory, Invested, Magical, Necromancy, Negative</Traits>
+	<Usage>worn mask</Usage>
+	<Description>This ice-blue half-mask is adorned with a wicked silver grin that covers the wearer's mouth, leaving the rest of the face uncovered. You gain a +2 item bonus to Intimidation checks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] envision, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The mask emits a soul-chilling scream that deals 6d10 negative damage to each living creature in a 20-foot emanation (DC 25 basic Fortitude save).&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;wail of the banshee&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="261">
+	<Name>Mask of the Banshee (Greater)</Name>
+	<Price>35,000 gp</Price>
+	<Traits>Auditory, Invested, Magical, Necromancy, Negative</Traits>
+	<Usage>worn mask</Usage>
+	<Description>This ice-blue half-mask is adorned with a wicked silver grin that covers the wearer's mouth, leaving the rest of the face uncovered. You gain a +2 item bonus to Intimidation checks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] envision, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The mask emits a soul-chilling scream that deals 6d10 negative damage to each living creature in a 20-foot emanation (DC 25 basic Fortitude save).&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;wail of the banshee&lt;/i&gt;.&lt;br&gt;
+
+The item bonus to Intimidation is +3. Activating a &lt;i&gt;greater mask of the banshee&lt;/i&gt; casts a 9th-level &lt;i&gt;wail of the banshee&lt;/i&gt; (DC 41) affecting all living creatures in the area.</Description>
+</Item>
+<Item level="10" page="260">
+	<Name>Fire-Jump Ring</Name>
+	<Price>940 gp</Price>
+	<Traits>Conjuration, Fire, Invested, Magical, Teleportation</Traits>
+	<Usage>worn</Usage>
+	<Description>This dark-red ring is engraved with ashen symbols and smells faintly of smoke.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] envision, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You Stride (or Burrow or Fly, if you have the corresponding Speed) into any fire large enough to contain you, including magical fires. You vanish into the fire and take no damage from it. You can sense all sufficiently large fires within 100 feet of where you vanish, and you reemerge from any of those fires, either within the fire or adjacent to it. If you end your movement in the fire, it affects you as normal.</Description>
+</Item>
+<Item level="11" page="260">
+	<Name>Envisioning Mask</Name>
+	<Price>1,200 gp</Price>
+	<Traits>Divination, Invested, Magical, Mental</Traits>
+	<Usage>worn mask</Usage>
+	<Description>These strange masks consist of a thin stone hood and a shimmering purple veil reminiscent of the pleroma aeon who first gifted them to mortals in the hope that sharing the means of aeon communication would reduce the misunderstandings and conflicts among mortal civilizations. An &lt;i&gt;envisioning mask&lt;/i&gt; covers your entire face, though it doesn't hinder your vision or other senses.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You lose the ability to produce language and instead communicate wordlessly through a series of psychic projections. This acts as telepathy with a range of 100 feet, but it is understandable to all creatures regardless of whether they have a language. When communicating with non-aeons, however, your meaning is often vague and mysterious. This effect lasts for 10 minutes.</Description>
+</Item>
+<Item level="13" page="261">
+	<Name>Hellfire Boots</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Evocation, Fire, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>These heavy boots are made of blackened metal and always feel warm to the touch, with streams of glowing embers cascading off their heels. While wearing &lt;i&gt;hellfire boots&lt;/i&gt;, you gain resistance 10 to fire damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per minute; &lt;b&gt;Effect&lt;/b&gt; Stride. Each square you move through during your Stride is scorched with hellish flames, becoming hazardous terrain for 1 minute. A creature that moves through one of these spaces takes 3d6 fire damage.</Description>
+</Item>
+<Item level="15" page="260">
+	<Name>Earthglide Cloak</Name>
+	<Price>6,500 gp</Price>
+	<Traits>Earth, Invested, Magical, Transmutation</Traits>
+	<Usage>worn cloak</Usage>
+	<Description>This brown-and-gold robe covers you from head to toe. Its weighty fabric doesn't move with the wind, instead hanging still as if carved of stone.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You Burrow through dirt and stone up to your land Speed, leaving no tunnels or signs of your passing. If you end your movement inside solid stone, you are forcibly expelled into the nearest open area, taking 1d6 bludgeoning damage for every 5 feet between the end of your movement and the open area. </Description>
+</Item>
+<Item level="9" page="261">
+	<Name>Mask of the Banshee</Name>
+	<Price>700 gp</Price>
+	<Traits>Auditory, Invested, Magical, Necromancy, Negative</Traits>
+	<Usage>worn mask</Usage>
+	<Description>This ice-blue half-mask is adorned with a wicked silver grin that covers the wearer's mouth, leaving the rest of the face uncovered. You gain a +2 item bonus to Intimidation checks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] envision, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The mask emits a soul-chilling scream that deals 6d10 negative damage to each living creature in a 20-foot emanation (DC 25 basic Fortitude save).&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;wail of the banshee&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="261">
+	<Name>Mask of the Banshee (Greater)</Name>
+	<Price>35,000 gp</Price>
+	<Traits>Auditory, Invested, Magical, Necromancy, Negative</Traits>
+	<Usage>worn mask</Usage>
+	<Description>This ice-blue half-mask is adorned with a wicked silver grin that covers the wearer's mouth, leaving the rest of the face uncovered. You gain a +2 item bonus to Intimidation checks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] envision, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The mask emits a soul-chilling scream that deals 6d10 negative damage to each living creature in a 20-foot emanation (DC 25 basic Fortitude save).&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;wail of the banshee&lt;/i&gt;.&lt;br&gt;
+
+The item bonus to Intimidation is +3. Activating a &lt;i&gt;greater mask of the banshee&lt;/i&gt; casts a 9th-level &lt;i&gt;wail of the banshee&lt;/i&gt; (DC 41) affecting all living creatures in the area.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

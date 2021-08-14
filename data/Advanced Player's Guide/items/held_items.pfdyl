@@ -1,0 +1,126 @@
+<pf2:Items category="held_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<Item level="1" page="262">
+	<Name>Predictable Silver Piece</Name>
+	<Price>3 gp</Price>
+	<Traits>Divination, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This seemingly unremarkable, weathered silver coin bears the bust of an unnamed monarch on the face and a majestic bird on the tail. You can toss the coin without activating it, in which case it follows the normal laws of probability.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; You rub your thumb on one side of the coin with the intent of slightly tweaking the strands of fate, then flip the coin into the air in a coin toss. No matter how the toss is resolved—letting the coin fall to the ground, slapping it down on the back of your hand, or catching it on your open palm—it always lands with the side you rubbed face up.</Description>
+</Item>
+<Item level="3" page="262">
+	<Name>Rope of Climbing (Lesser)</Name>
+	<Price>45 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This silk rope measures 50 feet long and is capable of holding up to 3,000 pounds. If the rope is ever cut, only the longest remaining portion retains its magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You hold one end of the rope and point to a destination. The rope animates for 1 minute, moving 10 feet per round until it reaches the destination or runs out of length. The rope can move across any non-damaging horizontal or vertical surface, but it can't extend upward without a surface to support it. At any point while the rope is animated, you can use an Interact action to wiggle the rope, giving it one of the following commands: stop in place, fasten securely to the nearest available object, detach from an object, or knot or unknot itself.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="262">
+	<Name>Rope of Climbing (Moderate)</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This silk rope measures 50 feet long and is capable of holding up to 3,000 pounds. If the rope is ever cut, only the longest remaining portion retains its magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You hold one end of the rope and point to a destination. The rope animates for 1 minute, moving 10 feet per round until it reaches the destination or runs out of length. The rope can move across any non-damaging horizontal or vertical surface, but it can't extend upward without a surface to support it. At any point while the rope is animated, you can use an Interact action to wiggle the rope, giving it one of the following commands: stop in place, fasten securely to the nearest available object, detach from an object, or knot or unknot itself.&lt;br&gt;
+
+You can activate the &lt;i&gt;moderate rope of climbing&lt;/i&gt; once per hour instead of once per day.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="262">
+	<Name>Rope of Climbing (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This silk rope measures 50 feet long and is capable of holding up to 3,000 pounds. If the rope is ever cut, only the longest remaining portion retains its magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You hold one end of the rope and point to a destination. The rope animates for 1 minute, moving 10 feet per round until it reaches the destination or runs out of length. The rope can move across any non-damaging horizontal or vertical surface, but it can't extend upward without a surface to support it. At any point while the rope is animated, you can use an Interact action to wiggle the rope, giving it one of the following commands: stop in place, fasten securely to the nearest available object, detach from an object, or knot or unknot itself.&lt;br&gt;
+
+You can activate the &lt;i&gt;greater rope of climbing&lt;/i&gt; without any frequency limit.</Description>
+</Item>
+<Item level="3" page="262">
+	<Name>Rope of Climbing (Lesser)</Name>
+	<Price>45 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This silk rope measures 50 feet long and is capable of holding up to 3,000 pounds. If the rope is ever cut, only the longest remaining portion retains its magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You hold one end of the rope and point to a destination. The rope animates for 1 minute, moving 10 feet per round until it reaches the destination or runs out of length. The rope can move across any non-damaging horizontal or vertical surface, but it can't extend upward without a surface to support it. At any point while the rope is animated, you can use an Interact action to wiggle the rope, giving it one of the following commands: stop in place, fasten securely to the nearest available object, detach from an object, or knot or unknot itself.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="262">
+	<Name>Rope of Climbing (Moderate)</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This silk rope measures 50 feet long and is capable of holding up to 3,000 pounds. If the rope is ever cut, only the longest remaining portion retains its magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You hold one end of the rope and point to a destination. The rope animates for 1 minute, moving 10 feet per round until it reaches the destination or runs out of length. The rope can move across any non-damaging horizontal or vertical surface, but it can't extend upward without a surface to support it. At any point while the rope is animated, you can use an Interact action to wiggle the rope, giving it one of the following commands: stop in place, fasten securely to the nearest available object, detach from an object, or knot or unknot itself.&lt;br&gt;
+
+You can activate the &lt;i&gt;moderate rope of climbing&lt;/i&gt; once per hour instead of once per day.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="262">
+	<Name>Rope of Climbing (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This silk rope measures 50 feet long and is capable of holding up to 3,000 pounds. If the rope is ever cut, only the longest remaining portion retains its magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You hold one end of the rope and point to a destination. The rope animates for 1 minute, moving 10 feet per round until it reaches the destination or runs out of length. The rope can move across any non-damaging horizontal or vertical surface, but it can't extend upward without a surface to support it. At any point while the rope is animated, you can use an Interact action to wiggle the rope, giving it one of the following commands: stop in place, fasten securely to the nearest available object, detach from an object, or knot or unknot itself.&lt;br&gt;
+
+You can activate the &lt;i&gt;greater rope of climbing&lt;/i&gt; without any frequency limit.</Description>
+</Item>
+<Item level="3" page="262">
+	<Name>Rope of Climbing (Lesser)</Name>
+	<Price>45 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This silk rope measures 50 feet long and is capable of holding up to 3,000 pounds. If the rope is ever cut, only the longest remaining portion retains its magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You hold one end of the rope and point to a destination. The rope animates for 1 minute, moving 10 feet per round until it reaches the destination or runs out of length. The rope can move across any non-damaging horizontal or vertical surface, but it can't extend upward without a surface to support it. At any point while the rope is animated, you can use an Interact action to wiggle the rope, giving it one of the following commands: stop in place, fasten securely to the nearest available object, detach from an object, or knot or unknot itself.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="262">
+	<Name>Rope of Climbing (Moderate)</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This silk rope measures 50 feet long and is capable of holding up to 3,000 pounds. If the rope is ever cut, only the longest remaining portion retains its magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You hold one end of the rope and point to a destination. The rope animates for 1 minute, moving 10 feet per round until it reaches the destination or runs out of length. The rope can move across any non-damaging horizontal or vertical surface, but it can't extend upward without a surface to support it. At any point while the rope is animated, you can use an Interact action to wiggle the rope, giving it one of the following commands: stop in place, fasten securely to the nearest available object, detach from an object, or knot or unknot itself.&lt;br&gt;
+
+You can activate the &lt;i&gt;moderate rope of climbing&lt;/i&gt; once per hour instead of once per day.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="262">
+	<Name>Rope of Climbing (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This silk rope measures 50 feet long and is capable of holding up to 3,000 pounds. If the rope is ever cut, only the longest remaining portion retains its magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You hold one end of the rope and point to a destination. The rope animates for 1 minute, moving 10 feet per round until it reaches the destination or runs out of length. The rope can move across any non-damaging horizontal or vertical surface, but it can't extend upward without a surface to support it. At any point while the rope is animated, you can use an Interact action to wiggle the rope, giving it one of the following commands: stop in place, fasten securely to the nearest available object, detach from an object, or knot or unknot itself.&lt;br&gt;
+
+You can activate the &lt;i&gt;greater rope of climbing&lt;/i&gt; without any frequency limit.</Description>
+</Item>
+<Item level="9" page="260">
+	<Name>Earthsight Box</Name>
+	<Price>575 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Magical, Scrying</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This fine wooden box is inlaid with Dwarven runes, with hinges and a clasp of forged iron. The box contains a few handfuls of fine sand.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (envision, Interact); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You hold the box closed and, while envisioning the earth around you, turn the box clockwise three times and then give it three slow shakes. When you open the box, the sand has arranged itself to replicate, in miniature, the stone terrain surrounding you, to a range of 60 feet. This shows details of paths; hills; embankments; boulders; and even artificial structures like walls, ditches, and tunnels, as long as they're made of stone and earth. If you're underground, it reveals tunnels and voids in the earth within 60 feet at your current depth. The sand maintains its shape until you close the box.</Description>
+</Item>
+<Item level="9" page="264">
+	<Name>Urn of Ashes</Name>
+	<Price>700 gp</Price>
+	<Traits>Magical, Necromancy, Negative</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This sealed pewter urn contains the ashes of a benevolent ancestor, with a sliver of lingering spirit that strives to protect you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Trigger&lt;/b&gt; You would become doomed or your doomed value would increase; &lt;b&gt;Requirements&lt;/b&gt; The ashes aren't doomed; &lt;b&gt;Effect&lt;/b&gt; The ashes in the urn intervene, taking the doomed condition in your place, and you don't gain or increase the value of your own doomed condition. Each night when you get a full night's rest, you can reduce your own doomed condition or that of the urn, but not both.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision, Interact (attack); &lt;b&gt;Frequency&lt;/b&gt; once per round; &lt;b&gt;Effect&lt;/b&gt; The urn shoots a bolt of negative energy at a foe within 30 feet. Attempt a spell attack roll against the target's AC, using a modifier of +15 or your own spell attack roll modifier, whichever is higher. On a success, the bolt deals 4d4 negative damage (doubled on a critical success). </Description>
+</Item>
+<Item level="13" page="262">
+	<Name>Slates of Distant Letters</Name>
+	<Price>2,450 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This matched pair of slates, roughly one handspan wide and tall, have identical ornate frames. Slates are crafted in pairs, and each works with only the other of its pair. If one slate of a pair is ever broken, the other shatters into non-magical shards. The listed price is for a pair of slates.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You use a piece of chalk to write up to 25 words on a slate. As you write, the writing also appears on the other slate in its matched pair, no matter how far away it is, as long as it is on the same plane. Wiping one slate clean erases the writing from both slates. Each slate can be activated once per hour. </Description>
+</Item>
+<Item level="20" page="262">
+	<Name>Rod of Cancellation</Name>
+	<Price>75,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This powerful magic rod is inimical to all magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You touch the rod to a magical effect or magic item and attempt to counteract the effect or item. Regardless of the result, the &lt;i&gt;rod of cancellation&lt;/i&gt; can't be activated again for 2d6 hours. On a success, the effect or item is deactivated for the same amount of time, and its duration, if any, continues to expire during that time. If you choose, you can instead completely drain the &lt;i&gt;rod of cancellation's&lt;/i&gt; magic on a success in order to completely drain the magic from the effect or item. If you do, both become completely non-magical and their magic can't be recovered, even by the &lt;i&gt;remake&lt;/i&gt; spell.&lt;br&gt;&lt;br&gt; The &lt;i&gt;rod of cancellation&lt;/i&gt; automatically fails to counteract most artifacts and similarly powerful items, but it reacts explosively when activated against a &lt;i&gt;sphere of annihilation&lt;/i&gt; without a counteract check.</Description>
+</Item>
+</pf2:Items>

@@ -336,7 +336,7 @@ Liberator: You can help your whole group get into position. When you use Liberat
 			<Traits>Champion</Traits>
 			<Description>You embody an aspect of your deity. Choose one of your deity's domains from those listed. You gain the domain's initial domain spell as a devotion spell.</Description>
 			<CustomMod>
-				def handler = {domain -> spell(domain.getDomainSpell(), "Champion")}
+				def handler = {domain -> focusSpell(domain.getDomainSpell(), "Champion")}
 				choose("DeityDomain", "Deity's Domain Choice", handler, null, 1);
 			</CustomMod>
 		</Ability>
@@ -428,7 +428,7 @@ Liberator: You can help your whole group get into position. When you use Liberat
 			<CustomMod recalculate="Always">
 				def choices = getChoices("Deity's Domain Choice");
 				if (choices.size() == 1) {
-					spell(choices.get(0).getAdvancedDomainSpell(), "Champion");
+					focusSpell(choices.get(0).getAdvancedDomainSpell(), "Champion");
 				}
 			</CustomMod>
 			<!--TODO: Link refresh to choice-->

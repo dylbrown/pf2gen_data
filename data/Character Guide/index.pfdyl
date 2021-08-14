@@ -17,5 +17,13 @@
         <Ancestry name="Leshy" path="ancestries/Leshy.pfdyl" />
         <Ancestry name="Lizardfolk" path="ancestries/Lizardfolk.pfdyl" />
     </Ancestries>
+    <Equipment>
+        <Category name="Adventuring Gear" path="items/adventuring_gear.pfdyl" />
+        <Category name="Alchemical Items" path="items/alchemical_items.pfdyl" />
+        <Category name="Consumables" path="items/consumables.pfdyl" />
+        <Category name="Held Items" path="items/held_items.pfdyl" />
+        <Category name="Runes" path="items/runes.pfdyl" />
+        <Category name="Worn Items" path="items/worn_items.pfdyl" />
+    </Equipment>
     <Traits name="Traits" path="traits.pfdyl" />
 </Source>

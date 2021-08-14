@@ -1,0 +1,50 @@
+<pf2:Items category="adventuring_gear" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+<Item level="0" page="249">
+	<Name>Dueling Cape</Name>
+	<Price>5 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>You can pull a dueling cape you're wearing from your shoulder and wrap it around your arm with an Interact action. While wielding the dueling cape this way, the cape uses that arm and hand, and you can't hold anything else in that hand. While you do so, you can spend an action to hold it in a protective position, giving you a +1 circumstance bonus to AC and to Deception checks to Feint until the start of your next turn.</Description>
+</Item>
+<Item level="0" page="249">
+	<Name>Parrying Scabbard</Name>
+	<Price>5 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>You can draw this reinforced sheath during the same Interact action you use to draw the weapon it holds, wielding the weapon in one hand and the scabbard in your other. A parrying scabbard can be used for your defense much like a weapon with the parry trait: you can spend an action to position it defensively, gaining a +1 circumstance bonus to AC until the start of your next turn. Parrying scabbards are available for any sword that can be wielded in one hand.</Description>
+</Item>
+<Item level="0" page="249">
+	<Name>Brass Ear</Name>
+	<Price>1 gp</Price>
+	<Hands>1</Hands>
+	<Description>A brass ear is a short, flared tube with one end narrow enough to comfortably fit against the ear canal. When using a brass ear to listen through a door, window, thin wall, or similar barrier, if the barrier would normally increase the DC of your Perception check to hear sounds on the other side, the DC increases by only half as much as normal.</Description>
+</Item>
+<Item level="0" page="249">
+	<Name>Net</Name>
+	<Price>1 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Description>You can use a net either on its own or attached to a rope. When attached to a rope, you can use the net to Grapple a Medium or smaller creature up to 10 feet away (instead of only adjacent creatures). You can continue to Grapple to keep your hold on the target so long as the target remains within 10 feet and you continue to hold the net. The grabbed creature gains a +2 circumstance bonus to Escape unless you are adjacent to them, and it can attempt a DC 16 Athletics check to Force Open the net entirely. Once the target is no longer grabbed, the net is unwieldy until refolded as a Concentrate action that requires two hands; if used without being refolded, Grapple checks made with the net take a –2 penalty. &lt;br&gt;&lt;br&gt;When the net is unattached, you can attempt a ranged attack roll against a Medium or smaller creature within 20 feet. On a hit, the target is flat-footed and takes a –10- foot circumstance penalty to its Speeds until it Escapes, and on a critical hit, it's also immobilized until it Escapes. The Escape DC is 16. A creature adjacent to the target can Interact to remove the net.</Description>
+</Item>
+<Item level="2" page="249">
+	<Name>Periscope</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>This is a 2-foot-long tube with two angled mirrors, one at each end. When the mirrors are aligned correctly, you can look around obstacles while remaining behind cover. This doesn't provide a sufficient line of effect to target creatures around corners.</Description>
+</Item>
+<Item level="3" page="249">
+	<Name>Concealed Sheath</Name>
+	<Price>25 gp</Price>
+	<Description>This leather sheath is large enough to hold an item of up to light Bulk and is typically used for daggers, wands, thieves' tools, and similar objects. You can affix it to the inside of a boot, under a bracer or sleeve, or in other inconspicuous locations to gain a +1 item bonus to Stealth checks and DCs to hide or conceal the item within.</Description>
+</Item>
+<Item level="3" page="249">
+	<Name>Detective's Kit</Name>
+	<Price>25 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Description>This leather satchel contains empty vials, a pair of tweezers, a supply of small linen cloths, a set of brass calipers and a knotted string for measuring distances, several pieces of chalk, a pen, and a blank notebook for keeping notes. Every component of a detective's kit is of exceeding quality, and thus a detective's kit adds a +1 item bonus to checks to investigate a crime scene, a clue, or similar details.</Description>
+</Item>
+</pf2:Items>

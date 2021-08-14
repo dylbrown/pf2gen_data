@@ -7,7 +7,19 @@
         <Dependency>Core Rulebook</Dependency>
     </Dependencies>
     <Description>&lt;h2&gt;Pathfinder Lost Omens: World Guide&lt;/h2&gt;Claim Your Destiny!&lt;br&gt;&lt;br&gt;This indispensable 136-page guidebook to the world of Pathfinder presents everything you need to know for a lifetime of adventure in the uncertain Age of Lost Omens. The god of humanity is dead and prophecy is broken, leaving adventuring heroes like you to carve their own destinies out of an uncertain future!&lt;br&gt;&lt;br&gt;This gazetteer features 10 diverse regions packed with thrilling and deadly possibilities and is accompanied by a giant two-sided poster map depicting the heart of the Pathfinder setting.&lt;br&gt;&lt;br&gt;Written by: Tanya DePass, James Jacobs, Lyz Liddell, Ron Lundeen, Liane Merciel, Erik Mona, Mark Seifter, and James L. Sutter</Description>
+    <Equipment>
+        <Category name="Adventuring Gear" path="items/adventuring_gear.pfdyl" />
+        <Category name="Alchemical Items" path="items/alchemical_items.pfdyl" />
+        <Category name="Held Items" path="items/held_items.pfdyl" />
+        <Category name="Tattoos" path="items/tattoos.pfdyl" />
+        <Category name="Worn Items" path="items/worn_items.pfdyl" />
+    </Equipment>
     <Feats>
         <Category name="Skill" path="feats/skill.pfdyl" />
     </Feats>
+    <Spells>
+        <Category name="Focus Spells" path="spells/focus_spells.pfdyl" />
+        <Category name="Spells" path="spells/spells.pfdyl" />
+    </Spells>
+    <Traits name="Traits" path="traits.pfdyl" />
 </Source>
