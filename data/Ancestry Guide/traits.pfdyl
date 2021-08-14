@@ -1,0 +1,59 @@
+<?xml version = "1.0"?>
+<pf2:traits xmlns:pf2="https://dylbrown.github.io"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://dylbrown.github.io ../../schemata/trait.xsd">
+    <Category name="Ancestry">
+        <Trait page="140">
+            <Name>Android</Name>
+            <Description>A synthetic humanoid ancestry created by artificial means. Most common in Numeria.</Description>
+        </Trait>
+        <Trait page="140">
+            <Name>Aphorite</Name>
+            <Description>A type of planar scion descended from a being from Axis, the Plane of Law.</Description>
+        </Trait>
+        <Trait page="140">
+            <Name>Azarketi</Name>
+            <Description>Amphibious humanoids who live among the seas of the Inner Sea region, said to have descended from the people of Azlant. Sometimes known as gillmen or Low Azlanti.&lt;br&gt;&lt;br&gt;Azarketis craft and use these weapons.</Description>
+        </Trait>
+        <Trait page="140">
+            <Name>Beastkin</Name>
+            <Description>Humanoids that can partially or fully transform into animal forms.</Description>
+        </Trait>
+        <Trait page="138">
+            <Name>Conrasu</Name>
+            <Description>A people that are made of cosmic force given consciousness and housed within unique exoskeletons. Conrasus craft and use these weapons.</Description>
+        </Trait>
+        <Trait page="141">
+            <Name>Fleshwarp</Name>
+            <Description>A humanoid transformed so completely by outside forces that they are now a unique ancestry</Description>
+        </Trait>
+        <Trait page="141">
+            <Name>Ganzi</Name>
+            <Description>A planar scion descended from a chaotic being of the Maelstrom, such as a protean</Description>
+        </Trait>
+        <Trait page="141">
+            <Name>Geniekin</Name>
+            <Description>An umbrella term for planar scions descended from beings from the Elemental Planes. Geniekin craft and use these weapons.</Description>
+        </Trait>
+        <Trait page="141">
+            <Name>Kitsune</Name>
+            <Description>Shapeshifting humanoids whose true forms resemble foxes.</Description>
+        </Trait>
+        <Trait page="142">
+            <Name>Strix</Name>
+            <Description>Winged humanoids, most of whom live in and around Cheliax.</Description>
+        </Trait>
+    </Category>
+    <Category name="Core">
+        <Trait page="139">
+            <Name>Resonant</Name>
+            <Description>This weapon can channel energy damage. You gain the Conduct Energy free action while wielding a resonant weapon.</Description>
+        </Trait>
+    </Category>
+    <Category name="Weapon">
+        <Trait page="139">
+            <Name>Hampering</Name>
+            <Description>A weapon with the hampering trait is designed to be shaken, cast outward, or whipped about to control space on the battlefield. You can use an Interact action to thrash the weapon in a square within the weapon's reach. That square becomes difficult terrain until you attack with the weapon, move, or would otherwise stop intentionally thrashing it.</Description>
+        </Trait>
+    </Category>
+</pf2:traits>

@@ -1,0 +1,72 @@
+<?xml version = "1.0"?>
+<pf2:ancestry xmlns:pf2="https://dylbrown.github.io"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/ancestry.xsd">
+    <Name>Sprite</Name>
+    <HP>6</HP>
+    <Size>Tiny</Size>
+    <Speed>20</Speed>
+    <AbilityBonuses>Dexterity, Intelligence, Free</AbilityBonuses>
+    <AbilityPenalties>Strength</AbilityPenalties>
+    <Languages>Common, Sylvan</Languages>
+    <BonusLanguages>Celestial, Draconic, Elven, Gnomish, Goblin, Jotun</BonusLanguages>
+    <Senses>Low-Light Vision</Senses>
+    <Description>Sprites are diminutive, whimsical, and exuberant creatures from the fey realm known as the First World. They love playing pranks, exploring new things, and embracing everything to do with magic.</Description>
+    <Feats>
+        <Ability name="Evanescent Wings" level="1" page="130">
+            <Traits>Sprite</Traits>
+            <Description>You've manifested wings that can flutter for brief spurts. You don't need to spend any additional actions to reach something in your space that a Medium creature could reach. For instance, if you wanted to open a cookie jar located four feet off the ground, you only need to spend a single Interact action to do so. When you use Evanescent Wings to flutter to a higher place in your space, your action gains the move trait.Evanescent Wings Leads To...Energize Wings</Description>
+        </Ability>
+        <Ability name="Fey Cantrips" level="1" page="130">
+            <Traits>Sprite</Traits>
+            <Description>You've learned the cantrips sprites have used since time immemorial. You gain dancing lights and ghost sound as primal innate cantrips. If you have the grig heritage, you also gain detect magic, and if you have the draxie heritage, you gain prestidigitation.</Description>
+        </Ability>
+        <Ability name="Speak with Bats" level="1" page="130">
+            <Traits>Sprite</Traits>
+            <Prerequisites>Nyktera Heritage</Prerequisites>
+            <Description>You can ask questions of, receive answers from, and use the Diplomacy skill with bats. You gain a +2 circumstance bonus on all Diplomacy checks to Make an Impression on bats or Request something from bats.</Description>
+        </Ability>
+        <Ability name="Sprite's Spark" level="1" page="130">
+            <Traits>Sprite</Traits>
+            <Description>You can fling a portion of your magic at foes. You gain a ranged unarmed attack in the sling weapon group with a maximum range of 20 feet that deals 1d4 damage. (No ability modifier is added to the damage roll.) The damage type and name of the unarmed attack depends on your heritage, described below; most sprite heritages not presented in this book also use luminous spark. Like other unarmed attacks, you can improve this attack with handwraps of mighty blows. &lt;br&gt;&lt;br&gt;&lt;b&gt;Draxie&lt;/b&gt; euphoric spark (mental) &lt;br&gt;&lt;br&gt;&lt;b&gt;Firefly Sprite&lt;/b&gt; luminous spark (fire) &lt;br&gt;&lt;br&gt;&lt;b&gt;Grig&lt;/b&gt; dissonant note (sonic) &lt;br&gt;&lt;br&gt;&lt;b&gt;Melixie&lt;/b&gt; sting shot (poison) &lt;br&gt;&lt;br&gt;&lt;b&gt;Nyktera&lt;/b&gt; ultrasonic pulse (sonic) &lt;br&gt;&lt;br&gt;&lt;b&gt;Pixie&lt;/b&gt; pixie dust (mental)</Description>
+        </Ability>
+        <Ability name="Animal Speaker" level="5" page="130">
+            <Traits>Sprite</Traits>
+            <Prerequisites>Ability To Communicate With Some Type Of Animals (such As Bats Or Arthropods)</Prerequisites>
+            <Description>You can speak to all animals, not just a particular subset. You gain a +1 circumstance bonus to Make an Impression on animals (which usually uses the Diplomacy skill).</Description>
+        </Ability>
+        <Ability name="Catchy Tune" level="5" page="130" cost="1">
+            <Traits>Auditory, Concentrate, Emotion, Mental, Sprite</Traits>
+            <Description>You create a tune so catchy, your foes can't help but dance along. Attempt a Performance check against the Will DCs of all enemies in a 30-foot emanation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target takes a –10-foot status penalty to its Speed and is flat-footed, both for 1 round.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target takes a –5-foot status penalty to its Speed for 1 round.
+                &lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target is temporarily immune for 1 hour.
+            </Description>
+        </Ability>
+        <Ability name="Fey Disguise" level="5" page="131">
+            <Traits>Sprite</Traits>
+            <Description>You can disguise yourself with magical illusions. You can cast illusory disguise once per day as a 1st-level primal innate spell. At 7th level, the spell is heightened to 2nd level, and every 2 levels thereafter, the spell is heightened an additional spell level.</Description>
+        </Ability>
+        <Ability name="Energize Wings" level="9" page="131" cost="1">
+            <Traits>Concentrate, Morph, Primal, Sprite, Transmutation</Traits>
+            <Prerequisites>Evanescent Wings</Prerequisites>
+            <Frequency>once per hour</Frequency>
+            <Description>You stoke your magic to energize your wings, temporarily transforming them into glowing, majestic forms. For 1 minute, you gain a fly Speed of 30 feet.Energize Wings Leads To...Hero's Wings</Description>
+        </Ability>
+        <Ability name="Fey Magic" level="9" page="131">
+            <Traits>Sprite</Traits>
+            <Description>You can use faerie magic to hide yourself and expose hidden foes. You can cast faerie fire and invisibility each once per day as primal innate spells.</Description>
+        </Ability>
+        <Ability name="Fey Skin" level="13" page="131">
+            <Traits>Sprite</Traits>
+            <Description>While you are more susceptible to cold iron than most of the Wingless, you also have an incredible resilience and a deeper connection to the healing energies of the First World. Increase your maximum Hit Points by an amount equal to your level. If you rest for 10 minutes, brilliant light from the First World seeps into your form from your wings (or the spot where your wings would be), causing you to regain a number of Hit Points equal to your level; this is cumulative with any Hit Points you regain from Treat Wounds. However, you gain weakness 5 to cold iron.</Description>
+        </Ability>
+        <Ability name="Invisible Trickster" level="13" page="131">
+            <Traits>Sprite</Traits>
+            <Description>You have learned how to become invisible and remain so. You can cast 4th-level invisibility as a primal innate spell once per hour.</Description>
+        </Ability>
+        <Ability name="Hero's Wings" level="17" page="131">
+            <Traits>Sprite</Traits>
+            <Prerequisites>Energize Wings</Prerequisites>
+            <Description>You have begun the final steps to reaching your full potential. Your wings are always in their majestic form without you needing to use Energize Wings, granting you a permanent fly Speed. Furthermore, sprites recognize you as a powerful hero (or villain) by your unique wings and are appropriately impressed. You gain a +2 circumstance bonus on all Diplomacy and Intimidation checks against sprites and gain the benefits of the Glad-Hand skill feat against other sprites, without taking a –5 penalty to your Diplomacy check.</Description>
+        </Ability>
+    </Feats>
+</pf2:ancestry>

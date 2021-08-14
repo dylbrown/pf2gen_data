@@ -1,0 +1,79 @@
+<?xml version = "1.0"?>
+<pf2:ancestry xmlns:pf2="https://dylbrown.github.io"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/ancestry.xsd">
+    <Name>Strix</Name>
+    <HP>8</HP>
+    <Size>Medium</Size>
+    <Speed>25</Speed>
+    <AbilityBonuses>Dexterity, Free</AbilityBonuses>
+    <Languages>Common, Strix</Languages>
+    <BonusLanguages>Draconic, Jotun, Gnomish, Infernal</BonusLanguages>
+    <Senses>Low-Light Vision</Senses>
+    <Description>Known as itarii in their own language, strix are reclusive avian humanoids devoted to their homelands and their tribes. They defend their precious communities with broad wingspans and razor talons.</Description>
+	<Abilities>
+		<Ability name="Wings">
+			<Description>All strix possess powerful wings. While not all strix focus on honing their flying skills, a strong flap of their wings allows strix to travel longer distances when jumping. When Leaping horizontally, you move an additional 5 feet. You don't automatically fail your checks to High Jump or Long Jump if you don't Stride at least 10 feet first. In addition, when you make a Long Jump, you can jump a distance up to 10 feet further than your Athletics check result, though still with the normal maximum of your Speed.</Description>
+		</Ability>
+	</Abilities>
+    <Feats>
+        <Ability name="Story Crooner" level="1" page="136">
+            <Traits>Strix</Traits>
+            <Description>You're a talented story weaver and use your voice effectively. You are trained in Performance. If you would automatically become trained in Performance, you instead become trained in a skill of your choice. You also gain the Impressive Performance skill feat and gain a +1 circumstance bonus when Performing for an audience of strix.</Description>
+        </Ability>
+        <Ability name="Strix Defender" level="1" page="136">
+            <Traits>Strix</Traits>
+            <Description>Your ancestral feud with humans gives you experience dealing with vicious foes, and your vengeance knows no bounds. You gain a +1 circumstance bonus to Intimidation, Perception, and Survival checks against humans, as well as on damage rolls against humans with weapons and unarmed attacks. However, your hatred of humans is immediately obvious, giving you a –2 circumstance penalty to Diplomacy checks against them and usually starting their attitude one step worse towards you.</Description>
+        </Ability>
+        <Ability name="Strix Lore" level="1" page="136">
+            <Traits>Strix</Traits>
+            <Description>You're well connected to your tribe and perhaps even strix communities beyond your own, where you've learned about the land and techniques of graceful movement. You gain the trained proficiency rank in Acrobatics and Nature. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Strix Lore.</Description>
+        </Ability>
+        <Ability name="Feathered Cloak" level="5" page="136">
+            <Traits>Strix</Traits>
+            <Description>To blend in with the grounded and wingless, you fold your wings just so on your back, creating the illusion of a feathered cloak. You receive a +2 circumstance bonus to Deception checks to Impersonate a version of yourself who is not a strix.&lt;br&gt;&lt;br&gt; Additionally, your folded wings help you obscure objects on your person, providing a +2 circumstance bonus to Stealth checks to Conceal an Object.</Description>
+        </Ability>
+        <Ability name="Fledgling Flight" level="5" page="136" cost="1">
+            <Traits>Strix</Traits>
+            <Frequency>once per round</Frequency>
+            <Description>You can fly through the air in short bursts at half your land Speed. If you don't end your movement on solid ground, you fall at the end of your turn.</Description>
+        </Ability>
+        <Ability name="Strix Vengeance" level="5" page="137" cost="Reaction">
+            <Traits>Emotion, Mental, Strix</Traits>
+            <Trigger>You, or a strix ally you can see, are damaged by an enemy's critical hit.</Trigger>
+            <Frequency>once per 10 minutes</Frequency>
+            <Description>You dedicate yourself to destroying those who harm your kin. Until the end of your next turn, you deal an additional +1d6 damage on Strikes against the triggering enemy. The bonus increases to +2d6 if you use a striking weapon or unarmed attack and +3d6 if you use a &lt;i&gt;major striking&lt;/i&gt; weapon or unarmed attack.</Description>
+        </Ability>
+        <Ability name="Thrown Voice" level="5" page="137">
+            <Traits>Strix</Traits>
+            <Description>You've learned how to throw your voice through the winds, tricking others as to your location. You can cast ventriloquism as a primal innate spell once per day. If you're a songbird strix, you can cast it twice per day instead.</Description>
+        </Ability>
+        <Ability name="Ferocious Gust" level="9" page="137" cost="2">
+            <Traits>Air, Concentrate, Manipulate, Strix</Traits>
+            <Frequency>once per 10 minutes</Frequency>
+            <Description>With heavy wing beats, you whip up a furious gust and direct it at your opponents. This air blast has the effects of gust of wind with a DC equal to your class DC or spell DC, whichever is higher.</Description>
+        </Ability>
+        <Ability name="Juvenile Flight" level="9" page="137" cost="2">
+            <Traits>Strix</Traits>
+            <Frequency>once per day</Frequency>
+            <Description>You unfold your wings for travel and can keep them unfolded for 10 minutes. You gain a fly Speed equal to your land Speed while your wings are unfurled. If you have Fledgling Flight, you gain a +10-foot status bonus to your fly Speed with Juvenile Flight. As normal, since your fly Speed is derived from your land Speed, this status bonus isn't cumulative with a status bonus to your land Speed, if you have one.Juvenile Flight Leads To...Fully Flighted</Description>
+        </Ability>
+        <Ability name="Rokoan Arts" level="9" page="137">
+            <Traits>Strix</Traits>
+            <Description>Ancestral spirits have begun to bond themselves to you, granting you powers characteristic of a rokoa. You can cast speak with animals and status as primal innate spells once per day each.</Description>
+        </Ability>
+        <Ability name="Wing Step" level="9" page="137" cost="1">
+            <Traits>Strix</Traits>
+            <Description>With a sharp flap of your wings, you stay light on your feet as you move. You Step twice.</Description>
+        </Ability>
+        <Ability name="Ancestor's Transformation" level="13" page="137">
+            <Traits>Strix</Traits>
+            <Description>You can commune with ancestor spirits to assume the form of an enormous primeval strix. You can cast 5th-level aerial form as a primal innate spell once per day, but you take the form of a primeval strix, using the statistics for a bird form.</Description>
+        </Ability>
+        <Ability name="Fully Flighted" level="13" page="137">
+            <Traits>Strix</Traits>
+            <Prerequisites>Juvenile Flight</Prerequisites>
+            <Description>You gain the effects of Juvenile Flight at all times, rather than just once per day for 10 minutes. This includes the status bonus to your Speed if you have Fledgling Flight.</Description>
+        </Ability>
+    </Feats>
+</pf2:ancestry>

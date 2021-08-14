@@ -1,0 +1,80 @@
+<?xml version = "1.0"?>
+<pf2:ancestry xmlns:pf2="https://dylbrown.github.io"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/ancestry.xsd">
+    <Name>Fetchling</Name>
+    <HP>8</HP>
+    <Size>Medium</Size>
+    <Speed>25</Speed>
+    <AbilityBonuses>Dexterity, Free</AbilityBonuses>
+    <Languages>Common, Shadowtongue</Languages>
+    <BonusLanguages>Aklo, Draconic, D'ziriak, Necril, Undercommon</BonusLanguages>
+    <Senses>Darkvision, Low-light Vision</Senses>
+    <Description>Once human and now something apart, fetchlings display the Shadow Plane's ancient influence through monochrome complexions, glowing eyes, and the casting of supernatural shadows.</Description>
+    <Feats>
+        <Ability name="Hard to Fool" level="1" page="86">
+            <Traits>Fetchling</Traits>
+            <Description>You're accustomed to seeing through shifting darkness and bewildering magic. You gain a +1 circumstance bonus on Perception checks against illusions as well as to Will saves against illusions and shadow effects.</Description>
+        </Ability>
+        <Ability name="Shadow Blending" level="1" page="86" cost="Reaction">
+            <Traits>Fetchling, Illusion, Occult, Shadow</Traits>
+            <Trigger>A creature attempts a flat check to target you while you're concealed or hidden due to dim light or darkness.</Trigger>
+            <Description>You draw shadows close to create a shroud. Increase the DC of the flat check by 2.</Description>
+        </Ability>
+        <Ability name="Shrouded Magic" level="1" page="86">
+            <Traits>Fetchling</Traits>
+            <Description>Choose one cantrip from the occult spell list. You can cast this cantrip as an occult innate spell at will, heightened to a spell level equal to half your level rounded up.</Description>
+        </Ability>
+        <Ability name="Shrouded Mien" level="1" page="86">
+            <Traits>Fetchling</Traits>
+            <Description>You're used to dealing with dangerous situations and sinister creatures. You become trained in Deception (or another skill of your choice, if you're already trained in Deception), and you gain the Lengthy Diversion skill feat as a bonus feat.</Description>
+        </Ability>
+        <Ability name="Slink" level="1" page="86">
+            <Traits>Fetchling</Traits>
+            <Description>You can move through gloom with the speed of darkness. You can move 5 feet farther when you take the Sneak action, up to your Speed. In addition, as long as you continue to use Sneak actions and succeed at your Stealth check, you don't become observed if you end a Sneak action in dim light or darkness, as long as you have cover or greater cover or are concealed at the end of your turn.</Description>
+        </Ability>
+        <Ability name="Clever Shadow" level="5" page="86">
+            <Traits>Evocation, Fetchling, Occult, Shadow</Traits>
+            <Description>You can perform simple Interact actions with your shadow, such as opening an unlocked door. Anything your shadow Interacts with must be within your reach. Your shadow can't perform actions that require significant manual dexterity, including any action that would require a check to accomplish, and you can't use it to hold items.Clever Shadow Leads To...Hefting Shadow</Description>
+        </Ability>
+        <Ability name="Extinguish Light" level="5" page="86" cost="2">
+            <Traits>Darkness, Evocation, Fetchling, Occult</Traits>
+            <Frequency>once every 10 minutes</Frequency>
+            <Description>You wrap shadow around a single unattended light source within 120 feet that's no larger than a torch. Any non-magical light source you target is automatically extinguished. For magical light sources, attempt a counteract check using your Fortitude or Thievery modifier against the target's DC. Your counteract level is equal to half your level rounded up. Successfully counteracting the light source suppresses its ability to produce light for 1 minute, but not any other effects. If you're in dim light or darkness when you Extinguish Light, its range is 240 feet.</Description>
+        </Ability>
+        <Ability name="Lightless Litheness" level="5" page="86">
+            <Traits>Fetchling</Traits>
+            <Description>Your body is almost as flexible as your shadow. When you critically fail at Squeezing, you get a failure instead. Additionally, when you roll a success at an Escape check, you get a critical success instead; if you roll a critical success, you can Step instead of Striding up to 5 feet.</Description>
+        </Ability>
+        <Ability name="Shadowy Disguise" level="5" page="87">
+            <Traits>Fetchling</Traits>
+            <Description>You wrap yourself in shadow to change your appearance. You can cast illusory disguise as a 1st-level occult innate spell once per day. This spell gains the shadow trait.</Description>
+        </Ability>
+        <Ability name="Hefting Shadow" level="9" page="87">
+            <Traits>Conjuration, Fetchling, Occult, Shadow</Traits>
+            <Prerequisites>Clever Shadow</Prerequisites>
+            <Description>Your shadow can contain objects. You can Interact with your shadow to store or retrieve objects, just like you would a mundane container (meaning you spend two Interact actions total to store and then retrieve the object, for example). Your shadow can contain 2 Bulk of objects, which don't count toward the Bulk you're carrying. The items remain solid but take on a shadowy patina while stored this way. Though the items are in your shadow and can be detected normally, you gain a +2 circumstance bonus to Stealth checks to Conceal the Objects unless someone knows to check your shadow for items.</Description>
+        </Ability>
+        <Ability name="Sculpt Shadows" level="9" page="87" cost="3">
+            <Traits>Conjuration, Fetchling, Occult, Shadow</Traits>
+            <Description>You coax nearby shadows into the shape of a simple weapon or a simple tool or item, using a tiny piece of your shadow to make it solid; in doing so, you lose 1 Hit Point. You can create only level-0 common, non-consumable weapons, or adventuring gear with no intricate parts, written text, or other complicated components. The item lasts until used for a single activity, until you Sculpt Shadows again, or for 1 minute, whichever comes first. Once the duration expires, the object dissipates, and you regain the lost Hit Point unless the item was Broken or Destroyed. As the object holds a tiny sliver of your shadow, you can't recover the lost Hit Point until after the object dissipates.</Description>
+        </Ability>
+        <Ability name="Shadow Sight" level="9" page="87" cost="1">
+            <Traits>Fetchling, Occult, Transmutation</Traits>
+            <Frequency>once per hour</Frequency>
+            <Description>You draw on your connection with the Shadow Plane to see through all but the deepest darkness. You gain greater darkvision for 1 minute.</Description>
+        </Ability>
+        <Ability name="Shadow's Assault" level="13" page="87">
+            <Traits>Fetchling</Traits>
+            <Description>Your shadow assaults your foes. You can cast shadow blast as a 5th-level occult innate spell once per day. At 17th level, your &lt;i&gt;shadow blast&lt;/i&gt; is heightened to 6th level.</Description>
+        </Ability>
+        <Ability name="Skirt the Light" level="13" page="87">
+            <Traits>Fetchling</Traits>
+            <Description>You can travel the border between the Material and Shadow Planes and even bring others along. You can cast shadow walk as an occult innate spell once per day.</Description>
+        </Ability>
+        <Ability name="Pierce the Light" level="17" page="87">
+            <Traits>Fetchling</Traits>
+            <Description>You tear the veil between the Material Plane and its shadow. You can cast plane shift twice per week as an occult innate spell that can only target yourself; you can travel only to the Material or Shadow Planes, and your body serves as the focus component.</Description>
+        </Ability>
+    </Feats>
+</pf2:ancestry>

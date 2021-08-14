@@ -11,6 +11,7 @@
         <xs:element name="Size">
             <xs:simpleType>
                 <xs:restriction base="xs:string">
+                    <xs:enumeration value="Tiny"/>
                     <xs:enumeration value="Small"/>
                     <xs:enumeration value="Medium"/>
                 </xs:restriction>

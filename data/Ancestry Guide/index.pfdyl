@@ -1,0 +1,26 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>Ancestry Guide</Name>
+    <ShortName>AG</ShortName>
+    <Category>Lost Omens</Category>
+    <Dependencies>
+        <Dependency>Bestiary 1</Dependency>
+        <Dependency>Bestiary 2</Dependency>
+        <Dependency>Core Rulebook</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Ancestry Guide&lt;/h2&gt;&lt;p&gt;Remember who you are! The Age of Lost Omens is filled with people of all types, including more than just those of common ancestries. Lost Omens Ancestry Guide places the spotlight on the uncommon and rare ancestries of the Inner Sea (like geniekin, androids, kitsune, sprites, and more!), providing information on their cultures and place in the world. The book also expands on the rules options for these ancestries and versatile heritages. Finally, Lost Omens Ancestry Guide also features new ancestries and versatile heritages including some that are brand new, as well as old favorites from throughout Golarion!&lt;/p&gt;
+
+        &lt;p&gt;Written by: Calder CaDavid, James Case, Jessica Catalan, Eleanor Ferron, Lyz Liddell, Luis Loza, Ron Lundeen, Patchen Mortimer, Andrew Mullen, Samantha Phelan, Jessica Redekop, Mikhail Rekun, David N. Ross, Mark Seifter, Owen K.C. Stephens, Isabelle Thorne, Linda Zayas-Palmer&lt;/p&gt;</Description>
+    <Ancestries>
+        <Ancestry name="Android" path="ancestries/Android.pfdyl" />
+        <Ancestry name="Fetchling" path="ancestries/Fetchling.pfdyl" />
+        <Ancestry name="Fleshwarp" path="ancestries/Fleshwarp.pfdyl" />
+        <Ancestry name="Kitsune" path="ancestries/Kitsune.pfdyl" />
+        <Ancestry name="Sprite" path="ancestries/Sprite.pfdyl" />
+        <Ancestry name="Strix" path="ancestries/Strix.pfdyl" />
+    </Ancestries>
+    <Setting>
+        <Category name="Languages" path="languages.pfdyl" />
+    </Setting>
+    <Traits name="Traits" path="traits.pfdyl" />
+</Source>

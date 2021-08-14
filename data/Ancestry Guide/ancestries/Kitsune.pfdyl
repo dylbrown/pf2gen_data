@@ -1,0 +1,75 @@
+<?xml version = "1.0"?>
+<pf2:ancestry xmlns:pf2="https://dylbrown.github.io"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/ancestry.xsd">
+    <Name>Kitsune</Name>
+    <HP>8</HP>
+    <Size>Medium</Size>
+    <Speed>25</Speed>
+    <AbilityBonuses>Charisma, Free</AbilityBonuses>
+    <Languages>Common</Languages>
+    <BonusLanguages>Elven, Gnomish, Goblin, Halfling, Dwarven, Sylvan</BonusLanguages>
+    <Senses>Low-Light Vision</Senses>
+    <Description>Kitsune are a charismatic and witty people with a connection to the spiritual that grants them many magical abilities, chiefly the power to shapechange into other forms. Whether they pass unseen among other peoples or hold their tails high, kitsune are clever observers of the societies around them.</Description>
+    <Feats>
+        <Ability name="Kitsune Lore" level="1" page="124">
+            <Traits>Kitsune</Traits>
+            <Description>You excel at navigating social situations and keeping secrets. You gain the trained proficiency rank in Diplomacy and Deception. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Kitsune Lore.</Description>
+        </Ability>
+        <Ability name="Kitsune Spell Familiarity" level="1" page="124">
+            <Traits>Kitsune</Traits>
+            <Description>You've picked up a few magical tricks. During your daily preparations, choose daze, forbidding ward, or ghost sound. Until your next daily preparations, you can cast this cantrip as a divine innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</Description>
+        </Ability>
+        <Ability name="Retractable Claws" level="1" page="124">
+            <Traits>Kitsune</Traits>
+            <Description>You gain a claw unarmed attack that deals 1d4 slashing damage. Your claws are in the brawling group and have the agile, finesse, and unarmed traits.</Description>
+        </Ability>
+        <Ability name="Shapechanger's Intuition" level="1" page="124">
+            <Traits>Kitsune</Traits>
+            <Description>A lifetime of experience helps you see through disguises. When you come within 10 feet of a creature that is transformed into another form or is Impersonating a specific creature, the GM rolls a secret Perception check for you to realize that the creature is transformed, even if you didn't spend an action to Seek against that creature.</Description>
+        </Ability>
+        <Ability name="Star Orb" level="1" page="124">
+            <Traits>Kitsune</Traits>
+            <Description>Your magic has crystallized into a spherical stone. You gain a familiar, except it's a star orb: a Tiny stone of light Bulk. The familiar has no Speeds and must select a Speed familiar ability before it can move, animating in a way appropriate to the chosen Speed and using the statistics of a normal familiar for that day; when it‘s an immobile stone, it can't select any familiar or master abilities that require it to move. It always has the innate surge master ability.Star Orb Leads To...Killing Stone</Description>
+        </Ability>
+        <Ability name="Hybrid Form" level="5" page="124">
+            <Traits>Kitsune</Traits>
+            <Description>When you Change Shape, you retain elements of your kitsune form, allowing you to speak in a fox form, use kitsune unarmed attacks in a tailless form, or gain a tail in your tailless form to use abilities that require one. You can Change Shape to alter the details of your hybrid form without fully changing into your true form or your alternate form. While in hybrid form, your foxlike features make it obvious that you aren't a normal humanoid.</Description>
+        </Ability>
+        <Ability name="Kitsune Spell Mysteries" level="5" page="125">
+            <Traits>Kitsune</Traits>
+            <Prerequisites>At Least One Innate Spell From A Kitsune Heritage Or Ancestry Feat</Prerequisites>
+            <Description>You know more kitsune magic. During your daily preparations, choose bane, illusory object, or sanctuary. You can cast this as a 1st-level divine innate spell once that day.Kitsune Spell Mysteries Leads To...Kitsune Spell Expertise</Description>
+        </Ability>
+        <Ability name="Myriad Forms" level="5" page="125">
+            <Traits>Kitsune</Traits>
+            <Description>With a bit of self-discovery, you find a new form. You gain the alternate form of a kitsune heritage other than your own, adding it to the options for your Change Shape.</Description>
+        </Ability>
+        <Ability name="Shifting Faces" level="5" page="125">
+            <Traits>Kitsune</Traits>
+            <Prerequisites>Tailless Alternate Form</Prerequisites>
+            <Frequency>once per day</Frequency>
+            <Description>You wear many faces, even those that don't belong to you. When you Change Shape into your tailless form, you gain the effects of 3rd-level illusory disguise for 1 hour or until you shift back, except it's a transmutation effect rather than an illusion.</Description>
+        </Ability>
+        <Ability name="Fox Trick" level="9" page="125" cost="Free">
+            <Traits>Kitsune</Traits>
+            <Frequency>once per hour</Frequency>
+            <Description>You always have time for a joke or prank. You Create a Diversion, Conceal an Object, or Hide. All creatures who witnessed your Fox Trick then wise up to it, becoming temporarily immune to your Fox Trick for 24 hours.</Description>
+        </Ability>
+        <Ability name="Killing Stone" level="13" page="125">
+            <Traits>Kitsune</Traits>
+            <Prerequisites>Star Orb</Prerequisites>
+            <Description>Your star orb hides a deadly miasma. You can cast 5th-level cloudkill as a divine innate spell once per day. The spell's normal components are replaced with a focus component (your star orb) and a somatic component to aim the orb towards the location for the spell.</Description>
+        </Ability>
+        <Ability name="Kitsune Spell Expertise" level="13" page="125">
+            <Traits>Kitsune</Traits>
+            <Prerequisites>Kitsune Spell Mysteries</Prerequisites>
+            <Description>Your tails show your magical mastery. During your daily preparations, choose confusion, death ward, or illusory scene. You can Cast this Spell as a 5th-level divine innate spell once that day. You become an expert in divine spell DCs and divine spell attack rolls.</Description>
+        </Ability>
+        <Ability name="Rampaging Form" level="17" page="125">
+            <Traits>Kitsune</Traits>
+            <Prerequisites>Change Shape With A Fox Alternate Form</Prerequisites>
+            <Description>Once per day, when you Change Shape into a fox, you can instead gain the effects of both the canine form of 5th-level animal form and 7th-level fiery body for 1 minute or until you shift back, whichever comes first. You can cast produce flame from the fiery body effect even though you're in a battle form.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If you are a frozen wind kitsune, your form is ice instead of fire. This changes the immunity and damage from the &lt;i&gt;fiery body&lt;/i&gt; effect to cold, changes the weakness to fire, and changes &lt;i&gt;produce flame&lt;/i&gt; to ray of frost</Description>
+        </Ability>
+    </Feats>
+</pf2:ancestry>
