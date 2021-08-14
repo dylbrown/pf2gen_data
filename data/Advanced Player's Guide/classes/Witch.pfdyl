@@ -411,7 +411,7 @@
                     </AbilitySlot>
                     <Spell type="Focus" name="Elemental Betrayal"/>
                 </Ability>
-                <Ability name="Lesson of Protection">
+                <Ability name="Lesson of Vengeance">
                     <Description>You gain the needle of vengeance hex, and your familiar learns phantom pain.</Description>
                     <Spell type="Focus" name="Needle of Vengeance"/>
                     <Spell type="Spell" name="Phantom Pain"/>
