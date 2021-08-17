@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<pf2:backgrounds xmlns:pf2="https://dylbrown.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://dylbrown.github.io ../../schemata/abc/background.xsd">
+	<Background>
+		<Name>Archaeologist</Name>
+		<Description>You've excavated enough sites to know that ancient civilizations aren't lost; they're merely buried and waiting for the right scholar to unearth them and tell their story. You might have worked as a laborer or local guide before learning formal archaeological techniques.</Description>
+		<Skill>Society, Lore (Architecture)</Skill>
+		<AbilityBonuses>Con or Int, Free</AbilityBonuses>
+		<Feat>Additional Lore</Feat>
+	</Background>
+	<Background>
+		<Name>Pathfinder Recruiter</Name>
+		<Description>The Pathfinder Society's always on the lookout for talent, but that talent rarely just stumbles into the Grand Lodge. Whether you're professionally trained to encourage new recruits or the Society's own scouts identified your potential and raised you from childhood, you're committed to expanding the Society's roster.</Description>
+		<Skill>Diplomacy, Lore (A Visited City)</Skill>
+		<AbilityBonuses>Wis or Cha, Free</AbilityBonuses>
+		<Feat>Group Impression</Feat>
+	</Background>
+	<Background>
+		<Name>Spell Seeker</Name>
+		<Description>Conventional magic can only hold your attention for so long. Instead, you've devoted yourself to understanding truly esoteric spells, which invariably draws you to explore the world and all its eldritch traditions.</Description>
+		<Skill>Arcana or Occultism, Lore (Library)</Skill>
+		<AbilityBonuses>Int or Wis, Free</AbilityBonuses>
+		<Feat>Recognize Spell</Feat>
+	</Background>
+	<Background>
+		<Name>Trailblazer</Name>
+		<Description>Uncharted realms have always intrigued you, and you've explored and mapped large territories in service to merchants, governments, or your own curiosity. Where some see a blank spot on a map, you see the potential for something new and undiscovered.</Description>
+		<Skill>Survival, Lore (Cartography)</Skill>
+		<AbilityBonuses>Con or Wis, Free</AbilityBonuses>
+		<Feat>Terrain Expertise</Feat>
+	</Background>
+	<Background>
+		<Name>Translator</Name>
+		<Description>In your youth, you learned to transcribe books and translate scrolls to preserve knowledge or perhaps to aid wealthy merchants and politicians. Whether you set out to make your own fortune or are drawn to decipher the strangest codes, your linguistic training will guide your discoveries.</Description>
+		<Skill>Society, Lore (Scribing)</Skill>
+		<AbilityBonuses>Int or Cha, Free</AbilityBonuses>
+		<Feat>Multilingual</Feat>
+	</Background>
+</pf2:backgrounds>

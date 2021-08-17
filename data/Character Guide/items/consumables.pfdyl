@@ -1,6 +1,6 @@
 <pf2:Items category="consumables" xmlns:pf2="https://dylbrown.github.io"
 		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
 <SubCategory name="Talismans">
 <Item level="3" page="73">
 	<Name>Snapleaf</Name>

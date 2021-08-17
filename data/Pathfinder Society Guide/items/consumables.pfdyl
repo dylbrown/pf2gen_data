@@ -1,0 +1,23 @@
+<pf2:Items category="consumables" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Other Consumables">
+<Item level="3" page="38">
+	<Name>Psychic Warding Bracelet</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable</Traits>
+	<Usage>worn</Usage>
+	<Description>This set of reflective metal wires takes 10 minutes to properly tie along the wrist's energy meridians, then repels attempts at mental manipulation. You gain a +2 item bonus to your next save against a mental effect after tying on the bracelet. After this save, the metal strands tarnish and fall off (possibly alerting the wearer or others that their mind has been tampered with). You can remove the bracelet with an Interact action, but doing so breaks the bracelet's alignment and requires you to spend another 10 minutes to carefully tie it back on. </Description>
+</Item>
+</SubCategory>
+<SubCategory name="Talismans">
+<Item level="1" page="108">
+	<Name>Emergency Disguise</Name>
+	<Price>3 gp</Price>
+	<Traits>Conjuration, Consumable, Magical, Talisman</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description>.In Woodsedge Lodge, this thin red ribbon, typically worn around the neck, symbolizes the reach of Galt's soul-trapping guillotines, the infamous &lt;i&gt;final blades&lt;/i&gt;. Each of these talismans stores a specific disguise, chosen at the time of its creation. When activated, the talisman applies a disguise to its wearer, allowing them to Impersonate without taking the time to assemble a convincing disguise first. The components the disguise creates can appear to be worth up to 3 gp total. The instant nature of the disguise leaves a few traces of its haphazard nature, imposing a –2 circumstance penalty on checks to Impersonate using the disguise. Wearers with the Quick Disguise feat don't take this penalty. Any objects created as a part of the disguise disappear after 24 hours or after you remove them.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

@@ -1,6 +1,6 @@
 <pf2:Items category="held_items" xmlns:pf2="https://dylbrown.github.io"
 		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
 <Item level="1" page="262">
 	<Name>Predictable Silver Piece</Name>
 	<Price>3 gp</Price>

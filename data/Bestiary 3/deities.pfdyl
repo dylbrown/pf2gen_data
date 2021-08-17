@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+<pf2:deities xmlns:pf2="https://dylbrown.github.io"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://dylbrown.github.io ../../schemata/setting/deity.xsd">
+    <Deity page="437">
+        <Name>Green Man</Name>
+        <DeityAlignment>N</DeityAlignment>
+        <Edicts>discover or create new forms of plant life, foster the growth and well-being of flora, preserve areas of natural wilderness</Edicts>
+        <Anathema>allow flagrant abuse of plant life to go unpunished, damage natural environments, harm plant life except in the pursuit of saving greater plant life</Anathema>
+        <FollowerAlignments>NG, N, NE</FollowerAlignments>
+        <DivineFont>heal</DivineFont>
+        <DivineSkill>Nature</DivineSkill>
+        <FavoredWeapon>sickle</FavoredWeapon>
+        <Domains>healing, might, nature, protection</Domains>
+        <Spells>
+            <Spell level="1" name="summon plant or fungus" />
+            <Spell level="2" name="entangle" />
+            <Spell level="6" name="tangling creepers" />
+        </Spells>
+        <Description>Individual green men are lesser deities, capable of granting spells to those who worship them. Green men typically only allow intelligent plants—such as leshys—to be their clerics. If another creature proves to be a friend of plants, after a thorough personal vetting, a green man wholeheartedly accepts this strange fleshy worshipper into the fold. While individual green men have different edicts and anathema befitting their personalities, and some neutral good or neutral evil green men might have further changes, the following is a baseline most worshippers of green men follow.</Description>
+    </Deity>
+</pf2:deities>

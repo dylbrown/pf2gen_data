@@ -1,0 +1,145 @@
+<pf2:Items category="held_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="1" page="96">
+	<Name>Ganjay Book</Name>
+	<Price>10 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Description>This item is a formula book, religious text, or spellbook that has been creased—possibly by Princess Ganjay herself—to fold up into an impossibly small shape. When folded up, the book can't be read or used, but its Bulk is reduced by 1 (a book that is 1 Bulk becomes light Bulk, and a book that is light Bulk becomes negligible in weight).&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (Interact); &lt;b&gt;Effect&lt;/b&gt; You fold or unfold the &lt;i&gt;Ganjay book&lt;/i&gt;, manipulating the cunning creases.</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Lesser)</Name>
+	<Price>75 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Moderate)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Greater)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Major)</Name>
+	<Price>3,750 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Lesser)</Name>
+	<Price>75 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Moderate)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Greater)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Major)</Name>
+	<Price>3,750 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="11" page="117">
+	<Name>Quill of Passage</Name>
+	<Price>1,200 gp</Price>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This black-feathered quill has a glowing nib with a small amount of glowing ink inside it.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; Placing the tip of the quill against a wall of wood, plaster, or stone and speaking a command word causes the ink to flow from the nib onto the wall in the shape of a glowing doorway, casting &lt;i&gt;passwall&lt;/i&gt; on the touched surface.</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Lesser)</Name>
+	<Price>75 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Moderate)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Greater)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Major)</Name>
+	<Price>3,750 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Lesser)</Name>
+	<Price>75 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Moderate)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Greater)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="38">
+	<Name>Sealing Chest (Major)</Name>
+	<Price>3,750 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Vigilant Seal members use these containers when transporting samples and relics. The containers are soundproof, airtight, and studded with lead sheets, mistletoe, and other materials that block magical auras. Up to 1 Bulk of objects can be placed inside a &lt;i&gt;sealing chest&lt;/i&gt;; the magic auras and curses of any objects placed within the chest cannot extend beyond the box unless they are of a greater level than the chest. Artifacts and similarly powerful items are unaffected regardless of level. Many cursed items prevent their bearer from removing them, but a successful &lt;i&gt;remove curse&lt;/i&gt; gives enough time to stash the item in the chest.&lt;br&gt;</Description>
+</Item>
+</pf2:Items>

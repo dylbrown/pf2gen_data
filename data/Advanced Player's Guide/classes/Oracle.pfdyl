@@ -13,7 +13,7 @@
         <AbilitySlot state="filled" name="Initial Proficiencies">
             <Ability>
                 <AttributeMods Proficiency="Expert">Will</AttributeMods>
-                <AttributeMods Proficiency="Trained">Perception, Fortitude, Reflex, Simple Weapons, Unarmed, Light Armor, Unarmored, Divine Spell Attacks, Divine Spell DCs</AttributeMods>
+                <AttributeMods Proficiency="Trained">Perception, Fortitude, Reflex, Simple Weapons, Unarmed, Light Armor, Unarmored, Divine Spell Attacks, Divine Spell DCs, Religion</AttributeMods>
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="filled" name="Divine Spellcasting">

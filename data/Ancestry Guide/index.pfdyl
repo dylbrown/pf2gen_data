@@ -19,6 +19,9 @@
         <Ancestry name="Sprite" path="ancestries/Sprite.pfdyl" />
         <Ancestry name="Strix" path="ancestries/Strix.pfdyl" />
     </Ancestries>
+    <Feats>
+        <Category name="Leshy" path="ancestries/Leshy_feats.pfdyl" type="Ancestry" />
+    </Feats>
     <Setting>
         <Category name="Languages" path="languages.pfdyl" />
     </Setting>

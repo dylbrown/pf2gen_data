@@ -1,0 +1,401 @@
+<pf2:Items category="adventuring_gear" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="0" page="114">
+	<Name>Earplugs</Name>
+	<Price>1 cp</Price>
+	<Description>Made of waxed cotton or cork, earplugs give you a +1 item bonus to saves against effects with the auditory trait. The earplugs make it difficult to hear, however, imposing a –2 item penalty on Perception checks involving sound. Inserting or removing the earplugs requires an Interact action.</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Shield Sconce</Name>
+	<Price>1 sp</Price>
+	<Description>This carefully balanced metal bracket can be attached to the front or top of a shield or tower shield (but not a buckler), allowing you to carry a torch without giving up your shield or holding it in your other hand. While carrying a torch in this way, you must attempt a DC 11 flat check every time you use the Shield Block reaction; on a failure, the torch is extinguished.</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Grappling Arrow</Name>
+	<Price>2 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>This small grappling hook is designed to be tied to a rope and fired from a bow. When fired, it has half the normal range increment for the weapon.</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Grappling Bolt</Name>
+	<Price>2 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>This small grappling hook is designed to be tied to a rope and fired from a crossbow. When fired, it has half the normal range increment for the weapon.</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Marked Playing Cards</Name>
+	<Price>1 gp</Price>
+	<Hands>2</Hands>
+	<Description>A standard deck of cards consists of 54 cards made from thick paper contained within a paper sleeve. The most common deck used for games and gambling is known as the Old Mage deck and features four suits themed with the four essences of magic, each with 13 cards, as well as two wildcards. The name and appearance of the deck varies from region to region, such as the Magician's Deck in Taldor or the Deck of Masks in the Shackles.&lt;br&gt;
+
+A deck of marked playing cards appears to be an ordinary deck upon initial inspection but bears specific folds, colors, scratches, or other markings on each card that allow an informed user to know what's on the other side of a card. A deck of marked cards grants you a +1 item bonus to Games Lore checks or other relevant checks to gamble with the cards. You can determine that an unattended deck of cards is marked with a successful DC 20 Perception check. Determining that a deck is marked during play is more difficult and is typically determined by a Perception check against the dealer's Games Lore or Thievery DC. &lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Playing Cards</Name>
+	<Price>5 sp</Price>
+	<Hands>2</Hands>
+	<Description>A standard deck of cards consists of 54 cards made from thick paper contained within a paper sleeve. The most common deck used for games and gambling is known as the Old Mage deck and features four suits themed with the four essences of magic, each with 13 cards, as well as two wildcards. The name and appearance of the deck varies from region to region, such as the Magician's Deck in Taldor or the Deck of Masks in the Shackles.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="34">
+	<Name>Ruler</Name>
+	<Price>5 sp</Price>
+	<Usage>held in 1 hand</Usage>
+	<Description>A ruler is a straight-edged object used for measuring small distances accurately and drawing straight lines.</Description>
+</Item>
+<Item level="0" page="114">
+	<Name>Depth Gauge</Name>
+	<Price>1 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>This simple tool consists of a small iron weight attached to a thin rope that is marked at regular intervals (typically every foot). It can be used to measure the depth of a hole or body of water by dropping the weight down into unknown depths and counting the markings on the rope. It can also be used as a plumb bob.</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Marked Playing Cards</Name>
+	<Price>1 gp</Price>
+	<Hands>2</Hands>
+	<Description>A standard deck of cards consists of 54 cards made from thick paper contained within a paper sleeve. The most common deck used for games and gambling is known as the Old Mage deck and features four suits themed with the four essences of magic, each with 13 cards, as well as two wildcards. The name and appearance of the deck varies from region to region, such as the Magician's Deck in Taldor or the Deck of Masks in the Shackles.&lt;br&gt;
+
+A deck of marked playing cards appears to be an ordinary deck upon initial inspection but bears specific folds, colors, scratches, or other markings on each card that allow an informed user to know what's on the other side of a card. A deck of marked cards grants you a +1 item bonus to Games Lore checks or other relevant checks to gamble with the cards. You can determine that an unattended deck of cards is marked with a successful DC 20 Perception check. Determining that a deck is marked during play is more difficult and is typically determined by a Perception check against the dealer's Games Lore or Thievery DC. &lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Playing Cards</Name>
+	<Price>5 sp</Price>
+	<Hands>2</Hands>
+	<Description>A standard deck of cards consists of 54 cards made from thick paper contained within a paper sleeve. The most common deck used for games and gambling is known as the Old Mage deck and features four suits themed with the four essences of magic, each with 13 cards, as well as two wildcards. The name and appearance of the deck varies from region to region, such as the Magician's Deck in Taldor or the Deck of Masks in the Shackles.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Rubbing Set</Name>
+	<Price>1 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Description>By using a rubbing set, you can quickly make a copy of carvings or etchings you find during your explorations, making them easier to accurately reproduce. This kit consists of a roll of thin onion-skin paper in a waterproof leather case, several thick wax crayons, and a bar of sealing wax that can be melted and used to temporarily hold the paper in place while you take the rubbing. Using the kit consumes the materials and provides a +1 item bonus on checks to document or reproduce artwork or writing that has been carved, etched, or otherwise physically added to a surface.</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Wax Key Blank</Name>
+	<Price>1 gp</Price>
+	<Hands>2</Hands>
+	<Description>This small wooden or metal box is slightly larger than a typical large key and folds open along a hinge, revealing two halves filled with wax. When a key is placed within and the box closed, the wax is displaced by the key, leaving an accurate impression of its shape. Once the key is removed, the impression left behind will remain indefinitely and can later be used to cast a duplicate key. Inserting, impressing, or removing a key each requires an Interact action. The wax inside this blank can be reused, though it must be smoothed over between uses, erasing any previous impression.</Description>
+</Item>
+<Item level="0" page="114">
+	<Name>Comealong</Name>
+	<Price>3 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Description>This portable winch consists of a length of cable or chain, two hooks, and a ratcheting drum with a handle. When used with two sections of rope or chain, it allows you to pull a heavy load along a flat surface.</Description>
+</Item>
+<Item level="0" page="114">
+	<Name>Buoyancy Vest</Name>
+	<Price>5 gp</Price>
+	<Bulk>1</Bulk>
+	<Description>This canvas vest has been filled with cork shavings, tightly folded, and sewn shut. Wearing a buoyancy vest allows you to float in water with a lowered risk of sinking. If you end your turn in water while wearing a buoyancy vest and haven't succeeded at a Swim action that turn, attempt a DC 5 flat check. On a success, you do not sink, though you can still get moved by the current, as determined by the GM. The GM can also determine whether the vest is more or less effective in different weather conditions, raising the DC in rough waters or lowering the DC in calm water.</Description>
+</Item>
+<Item level="0" page="114">
+	<Name>Familiar Satchel</Name>
+	<Price>5 gp</Price>
+	<Bulk>1</Bulk>
+	<Description>This armored case is made to protect any Tiny or smaller creature contained within. It includes air holes (which can be plugged with cork stoppers for underwater travel) and two receptacles for food and water. Any creature inside has neither line of sight nor line of effect to the outside world but also cannot be targeted by attacks that require a line of effect while in the satchel. However, an area effect that deals enough damage to break the case also damages the creature inside. The satchel is made of leather (Hardness 4, HP 16, BT 8). A creature can enter or exit the satchel by using a total of 2 actions: an Interact action to open the satchel and a single action with the move trait to enter or exit.</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Glass Cutter</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>This small rod has a tiny, sharp cutting wheel made of steel on one end and a thick bulb on the other. You can use the glass cutter's wheel to score ordinary glass and use the bulb to break the piece along your scoring. It typically takes 1 minute of work to cut a hole large enough to fit your hand. If you are attempting to break the glass quietly, you must attempt a Thievery check against the Perception DC of nearby creatures to go unnoticed.</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Water Purifier</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Replacement Filter (Level 1)</Name>
+	<Price>3 gp</Price>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Replacement Filter (Level 5)</Name>
+	<Price>25 gp</Price>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Replacement Filter (Level 10)</Name>
+	<Price>155 gp</Price>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="114">
+	<Name>False Manacles</Name>
+	<Price>10 gp</Price>
+	<Hands>2</Hands>
+	<Description>These manacles are nearly indistinguishable from real manacles upon inspection, but contain a hidden release that enables a wearer who knows the location of the release to free themselves with a single Interact action. An observer who examines the manacles and succeeds at a DC 20 Perception check notices their false nature. On a critical success, the observer finds the location of the hidden catch as well.</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Snowshoes</Name>
+	<Price>10 gp</Price>
+	<Bulk>1</Bulk>
+	<Description>These specialized pieces of footwear are designed to distribute the wearer's weight over a larger area to prevent them from sinking while walking on snow. They are typically made with a wood frame and rawhide lacings that are tied over the wearer's other footwear. While wearing snowshoes, you ignore the effects of non-magical difficult terrain caused by snow (reducing greater difficult terrain from snow to ordinary difficult terrain). You take a –10-foot item penalty to your Speed if wearing snowshoes while walking on any surface other than snow.</Description>
+</Item>
+<Item level="0" page="114">
+	<Name>Clockwork Dial</Name>
+	<Price>20 gp</Price>
+	<Hands>1</Hands>
+	<Description>This small timepiece allows you to accurately track time, useful for coordinating attacks, cooking, and all other sorts of activities, without the steadiness or care necessary to use an hourglass. As always, spell durations are too inexact to be reliably tracked, as they don't last precisely the duration listed. Protected within a brass or steel case, the clockwork mechanism of this device is turned using a small key. Most dials have a maximum duration of 1 hour, with each turn of the key adding 10 minutes to the timer, though some are crafted with longer or shorter durations and intervals. Setting the timer requires one free hand and an Interact action.</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Water Purifier</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Replacement Filter (Level 1)</Name>
+	<Price>3 gp</Price>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Replacement Filter (Level 5)</Name>
+	<Price>25 gp</Price>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Replacement Filter (Level 10)</Name>
+	<Price>155 gp</Price>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="30">
+	<Name>Waterproof Journal</Name>
+	<Price>5 gp</Price>
+	<Bulk>1</Bulk>
+	<Description>This leather-bound tome is specially treated to protect from water damage and comes with a key and a treated slipcase that bears a simple lock to keep the tome secure. This journal is commonly used by adventuring scholars and ship navigators for recording their journeys.</Description>
+</Item>
+<Item level="1" page="26">
+	<Name>Communication Bangle</Name>
+	<Price>10 gp</Price>
+	<Usage>worn</Usage>
+	<Description>This simple brass ring is meant to be worn as an ornamentation piece to an outfit, oftentimes as a bangle on the wrist, as the ring closure of a scarf or sash, or as an ornamentation piece of a headdress. While decorative, this serves a cover for the bangle's function as a message bearer. Messages can be coded into the bangle, either through a series of raised dots and dashes or a pattern of notches of different depths and spacings. A bangle is large enough to hold a simple message consisting of a few words like “Danger. Flee.” or “Meeting. Sunset. Fountain.” Coding a message into a bangle requires 1 minute of time. All Pathfinders with access to communication bangles are taught how to code and read most basic messages, but anyone with a bangle can develop their own communication system. A creature inspecting a bangle can discover its true purpose by succeeding at a DC 20 Perception check. Deciphering a message requires a creature to succeed at a Society check against the coder's Deception DC.</Description>
+</Item>
+<Item level="2" page="26">
+	<Name>Writ of Authenticity</Name>
+	<Price>5 gp</Price>
+	<Usage>held in 1 hand</Usage>
+	<Description>A typical Pathfinder writ of authenticity confirms the holder's status as a member of the Pathfinder Society and their intended business. Most writs are pieces of fine parchment folded, bound with gold cord, and sealed with three wax seals. The top seal is always the Glyph of the Open Road and the middle one is the Envoy's Alliance open door emblem. The bottom seal uses the preparer's personal sigil. Inside, the text describes a specific instance of a legitimate business activity, with blanks for the Pathfinder to fill in and personalize the writ to the persons and activity desired. Presenting a writ of authenticity grants a +2 item bonus to Make a Request for the associated business, assuming the writ is legitimate and the viewer expects to work with the Pathfinder Society for that activity.</Description>
+</Item>
+<Item level="2" page="93">
+	<Name>Book of Translation (Standard)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Usage>held in 1 hand</Usage>
+	<Description>The book is leather-bound and decorated with the symbol of the Lantern Lodge. Red and gold cords wrap around the book and tie to keep it shut. Each volume offers translation for a different language. When working with a book of translation, you can attempt Diplomacy checks to Gather Information or to Make an Impression with creatures that speak the language featured in the book, even if you do not speak the language. Such checks take 10 times longer to complete and you take a –2 circumstance penalty to the check due to your limited communication capabilities.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="93">
+	<Name>Book of Translation (Advanced)</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Usage>held in 1 hand</Usage>
+	<Description>The book is leather-bound and decorated with the symbol of the Lantern Lodge. Red and gold cords wrap around the book and tie to keep it shut. Each volume offers translation for a different language. When working with a book of translation, you can attempt Diplomacy checks to Gather Information or to Make an Impression with creatures that speak the language featured in the book, even if you do not speak the language. Such checks take 10 times longer to complete and you take a –2 circumstance penalty to the check due to your limited communication capabilities.&lt;br&gt;
+
+An advanced book of translation features more complex phrases, local colloquialisms, and assumes a rudimentary understanding of the featured language. Checks attempted while using an advanced book of translation do not take a circumstance penalty.</Description>
+</Item>
+<Item level="2" page="34">
+	<Name>Astrolabe (Standard)</Name>
+	<Price>30 gp</Price>
+	<Bulk>L</Bulk>
+	<Usage>held in 2 hands</Usage>
+	<Description>Astrolabes can be used for navigation in unfamiliar or featureless locations. To use an astrolabe, the holder must be trained in Survival. By spending 1 minute to measure the height of the stars and planets, a holder who knows the time and date can determine the latitude, and a holder who knows their latitude can determine the date and time. An astrolabe also grants a +1 item bonus on checks to identify celestial bodies. A standard astrolabe only functions on steady ground.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="34">
+	<Name>Astrolabe (Mariner's)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Usage>held in 2 hands</Usage>
+	<Description>Astrolabes can be used for navigation in unfamiliar or featureless locations. To use an astrolabe, the holder must be trained in Survival. By spending 1 minute to measure the height of the stars and planets, a holder who knows the time and date can determine the latitude, and a holder who knows their latitude can determine the date and time. An astrolabe also grants a +1 item bonus on checks to identify celestial bodies. A standard astrolabe only functions on steady ground.&lt;br&gt;
+
+A mariner's astrolabe contains additional stabilizers that make it suitable for use on moving surfaces, such as the deck of a ship.</Description>
+</Item>
+<Item level="2" page="34">
+	<Name>Sturdy Satchel</Name>
+	<Price>30 gp</Price>
+	<Bulk>1</Bulk>
+	<Usage>worn</Usage>
+	<Description>This heavy backpack of alchemically treated cloth layered over a metal mesh protects its contents from water damage and other harmful effects. It holds up to 4 Bulk of items, and the first 2 Bulk contained within the sturdy satchel do not count against your Bulk limits. The bag has Hardness 5 and 20 Hit Points. As long as the bag remains closed and is not broken, water and other liquids can't seep into it.</Description>
+</Item>
+<Item level="3" page="34">
+	<Name>Cartographer's Kit</Name>
+	<Price>42 gp</Price>
+	<Bulk>1</Bulk>
+	<Description>This kit includes a writing set, a compass, a standard astrolabe, a ruler, and a survey map.</Description>
+</Item>
+<Item level="2" page="34">
+	<Name>Astrolabe (Standard)</Name>
+	<Price>30 gp</Price>
+	<Bulk>L</Bulk>
+	<Usage>held in 2 hands</Usage>
+	<Description>Astrolabes can be used for navigation in unfamiliar or featureless locations. To use an astrolabe, the holder must be trained in Survival. By spending 1 minute to measure the height of the stars and planets, a holder who knows the time and date can determine the latitude, and a holder who knows their latitude can determine the date and time. An astrolabe also grants a +1 item bonus on checks to identify celestial bodies. A standard astrolabe only functions on steady ground.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="34">
+	<Name>Astrolabe (Mariner's)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Usage>held in 2 hands</Usage>
+	<Description>Astrolabes can be used for navigation in unfamiliar or featureless locations. To use an astrolabe, the holder must be trained in Survival. By spending 1 minute to measure the height of the stars and planets, a holder who knows the time and date can determine the latitude, and a holder who knows their latitude can determine the date and time. An astrolabe also grants a +1 item bonus on checks to identify celestial bodies. A standard astrolabe only functions on steady ground.&lt;br&gt;
+
+A mariner's astrolabe contains additional stabilizers that make it suitable for use on moving surfaces, such as the deck of a ship.</Description>
+</Item>
+<Item level="0" page="291">
+	<Name>Thieves' Tools</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="291">
+	<Name>Thieves' Tools (Replacement Picks)</Name>
+	<Price>3 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="291">
+	<Name>Thieves' Tools (Infiltrator)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.&lt;br&gt;
+
+Infiltrator thieves' tools add a +1 item bonus to checks to Pick Locks and Disable Devices.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="291">
+	<Name>Thieves' Tools (Infiltrator Picks)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="114">
+	<Name>Concealable Picks</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="114">
+	<Name>Concealable Thieves' Tools</Name>
+	<Price>80 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.&lt;br&gt;
+
+Smaller and made of stronger materials than most sets of thieves' tools, the items in this kit are much easier to conceal. You gain a +1 item bonus to Stealth checks to Conceal these tools. They otherwise function as infiltrator thieves' tools.</Description>
+</Item>
+<Item level="0" page="291">
+	<Name>Thieves' Tools</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="291">
+	<Name>Thieves' Tools (Replacement Picks)</Name>
+	<Price>3 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="291">
+	<Name>Thieves' Tools (Infiltrator)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.&lt;br&gt;
+
+Infiltrator thieves' tools add a +1 item bonus to checks to Pick Locks and Disable Devices.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="291">
+	<Name>Thieves' Tools (Infiltrator Picks)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="114">
+	<Name>Concealable Picks</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="114">
+	<Name>Concealable Thieves' Tools</Name>
+	<Price>80 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. If your thieves' tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn't require using the Repair action. If you wear your thieves' tools, you can draw and replace them as part of the action that uses them.&lt;br&gt;
+
+Smaller and made of stronger materials than most sets of thieves' tools, the items in this kit are much easier to conceal. You gain a +1 item bonus to Stealth checks to Conceal these tools. They otherwise function as infiltrator thieves' tools.</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Water Purifier</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Replacement Filter (Level 1)</Name>
+	<Price>3 gp</Price>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Replacement Filter (Level 5)</Name>
+	<Price>25 gp</Price>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Replacement Filter (Level 10)</Name>
+	<Price>155 gp</Price>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="93">
+	<Name>Book of Translation (Standard)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Usage>held in 1 hand</Usage>
+	<Description>The book is leather-bound and decorated with the symbol of the Lantern Lodge. Red and gold cords wrap around the book and tie to keep it shut. Each volume offers translation for a different language. When working with a book of translation, you can attempt Diplomacy checks to Gather Information or to Make an Impression with creatures that speak the language featured in the book, even if you do not speak the language. Such checks take 10 times longer to complete and you take a –2 circumstance penalty to the check due to your limited communication capabilities.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="93">
+	<Name>Book of Translation (Advanced)</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Usage>held in 1 hand</Usage>
+	<Description>The book is leather-bound and decorated with the symbol of the Lantern Lodge. Red and gold cords wrap around the book and tie to keep it shut. Each volume offers translation for a different language. When working with a book of translation, you can attempt Diplomacy checks to Gather Information or to Make an Impression with creatures that speak the language featured in the book, even if you do not speak the language. Such checks take 10 times longer to complete and you take a –2 circumstance penalty to the check due to your limited communication capabilities.&lt;br&gt;
+
+An advanced book of translation features more complex phrases, local colloquialisms, and assumes a rudimentary understanding of the featured language. Checks attempted while using an advanced book of translation do not take a circumstance penalty.</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Water Purifier</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Replacement Filter (Level 1)</Name>
+	<Price>3 gp</Price>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Replacement Filter (Level 5)</Name>
+	<Price>25 gp</Price>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="115">
+	<Name>Replacement Filter (Level 10)</Name>
+	<Price>155 gp</Price>
+	<Description>This small tube of metal and glass has an opening at one end into which water can be poured, leading to a series of interconnected chambers filled with purifying agents contained between various perforated walls. The purifier attempts to counteract poisons and other toxins present in water or any other liquid poured into it. Alchemically-treated replacement filters can be purchased to more effectively filter out more dangerous substances, using the filter's listed level as the counteract level. The counteract modifier is +5 for the level 1 filter, +9 for the level 5 filter, and +17 for the level 10 filter. If you pour a liquid other than water, such as a potion or beverage, into the purifier, the filtration process negates the liquid's effects and ruins the taste. The center of the tube can be unscrewed from the ends to access and replace the chambers of purifying agents. Each filter can be used to cleanse up to 10 gallons of water at a rate of about 1 gallon every 20 minutes.&lt;br&gt;</Description>
+</Item>
+</pf2:Items>

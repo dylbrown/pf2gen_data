@@ -1,6 +1,6 @@
 <pf2:Items category="snares" xmlns:pf2="https://dylbrown.github.io"
 		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
 <Item level="2" page="256">
 	<Name>Flare Snare</Name>
 	<Price>5 gp</Price>

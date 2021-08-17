@@ -305,7 +305,11 @@
                     <div class="label">Size</div>
                 </div>
                 <div class="line">
-                    <div class="underlined"><!--TODO--></div>
+                    <div class="underlined">
+                        [#list character.qualities.traits as trait]
+                            ${trait}[#sep], [/#sep]
+                        [#else]None[/#list]
+                    </div>
                     <div class="label">Traits</div>
                 </div>
                 <div class="line" style="grid-column-end: span 2">

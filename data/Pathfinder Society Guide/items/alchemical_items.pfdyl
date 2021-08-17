@@ -1,0 +1,542 @@
+<pf2:Items category="alchemical_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Alchemical Tools">
+<Item level="1" page="30">
+	<Name>Bookthief Brew</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This concoction mixes into a thick, paste-like substance when shaken. When exposed to air, the substance dries after one minute. If poured over a book, scroll, or other material featuring words written in ink, the brew will make an exact copy of the words it is in contact with while it dries, though it doesn't contain any magical effect or other special properties of the original words. Once dried, you can remove the dried substance as an Interact action. A single vial of bookthief brew can coat two pages from a book, a single scroll, or a similar amount of area for other surfaces, producing a dried sheet as thick as a piece of paper. Unfortunately, the sheet's copy is flipped, requiring a mirror to properly read.</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Lesser)</Name>
+	<Price>8 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +1 item bonus and the save DC is 17.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Moderate)</Name>
+	<Price>75 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +2 item bonus and the save DC is 24.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Greater)</Name>
+	<Price>315 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +3 item bonus and the save DC is 29.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Major)</Name>
+	<Price>1,350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +4 item bonus and the save DC is 35.</Description>
+</Item>
+<Item level="3" page="104">
+	<Name>Cold Iron Blanch (Lesser)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Precious</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.&lt;br&gt;
+
+The blanch provides low-grade cold iron, so you can use it on a magic weapon up to 8th level, or ammunition for such a weapon. It lasts for 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="104">
+	<Name>Cold Iron Blanch (Moderate)</Name>
+	<Price>140 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Precious</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.&lt;br&gt;
+
+The blanch provides standard-grade cold iron, so you can use it on a magic weapon up to 15th level, or ammunition for such a weapon. It lasts for 10 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="104">
+	<Name>Cold Iron Blanch (Greater)</Name>
+	<Price>1,700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Precious</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.&lt;br&gt;
+
+The blanch provides high-grade cold iron, so you can use it with any magic weapon. It lasts for one hour.</Description>
+</Item>
+<Item level="3" page="34">
+	<Name>Quickpatch Glue</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Quickpatch glue is a fast-setting adhesive designed for rapid but temporary repairs. When applied to a broken item, the glue adheres the item's pieces back together. This does not restore the item's hit points, but it allows the item to be used for its normal function and removes the broken condition. The glue is fragile and degrades over time. An item repaired by quickpatch glue regains the broken condition after it takes damage or 1 hour passes (whichever comes first). In order to apply a new vial of quickpatch glue to or repair the item, the item's holder must first remove the glue residue, a process that requires 10 minutes of effort and a set of alchemist's tools.</Description>
+</Item>
+<Item level="3" page="38">
+	<Name>Metalmist Sphere (Lesser)</Name>
+	<Price>11 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This sphere contains small fragments of thunderstones within a colloidal suspension of a precious metal. When you twist the sphere, it creates an opaque mist in a burst centered on one corner of your space. Creatures within that area are concealed, and all other creatures are concealed to them. Any creature with a weakness to the precious metal that starts its turn in the mist takes damage equal to its weakness. The mist lasts for 1 minute or until dispersed by a strong wind. Most metalmist spheres are filled with silver or cold iron, but more expensive versions containing other ingredients might exist.&lt;br&gt;
+
+The radius of the burst is 5 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="38">
+	<Name>Metalmist Sphere (Moderate)</Name>
+	<Price>90 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This sphere contains small fragments of thunderstones within a colloidal suspension of a precious metal. When you twist the sphere, it creates an opaque mist in a burst centered on one corner of your space. Creatures within that area are concealed, and all other creatures are concealed to them. Any creature with a weakness to the precious metal that starts its turn in the mist takes damage equal to its weakness. The mist lasts for 1 minute or until dispersed by a strong wind. Most metalmist spheres are filled with silver or cold iron, but more expensive versions containing other ingredients might exist.&lt;br&gt;
+
+The radius of the burst is 10 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="38">
+	<Name>Metalmist Sphere (Greater)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This sphere contains small fragments of thunderstones within a colloidal suspension of a precious metal. When you twist the sphere, it creates an opaque mist in a burst centered on one corner of your space. Creatures within that area are concealed, and all other creatures are concealed to them. Any creature with a weakness to the precious metal that starts its turn in the mist takes damage equal to its weakness. The mist lasts for 1 minute or until dispersed by a strong wind. Most metalmist spheres are filled with silver or cold iron, but more expensive versions containing other ingredients might exist.&lt;br&gt;
+
+The radius of the burst is 15 feet.</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Lesser)</Name>
+	<Price>8 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +1 item bonus and the save DC is 17.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Moderate)</Name>
+	<Price>75 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +2 item bonus and the save DC is 24.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Greater)</Name>
+	<Price>315 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +3 item bonus and the save DC is 29.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Major)</Name>
+	<Price>1,350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +4 item bonus and the save DC is 35.</Description>
+</Item>
+<Item level="3" page="38">
+	<Name>Metalmist Sphere (Lesser)</Name>
+	<Price>11 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This sphere contains small fragments of thunderstones within a colloidal suspension of a precious metal. When you twist the sphere, it creates an opaque mist in a burst centered on one corner of your space. Creatures within that area are concealed, and all other creatures are concealed to them. Any creature with a weakness to the precious metal that starts its turn in the mist takes damage equal to its weakness. The mist lasts for 1 minute or until dispersed by a strong wind. Most metalmist spheres are filled with silver or cold iron, but more expensive versions containing other ingredients might exist.&lt;br&gt;
+
+The radius of the burst is 5 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="38">
+	<Name>Metalmist Sphere (Moderate)</Name>
+	<Price>90 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This sphere contains small fragments of thunderstones within a colloidal suspension of a precious metal. When you twist the sphere, it creates an opaque mist in a burst centered on one corner of your space. Creatures within that area are concealed, and all other creatures are concealed to them. Any creature with a weakness to the precious metal that starts its turn in the mist takes damage equal to its weakness. The mist lasts for 1 minute or until dispersed by a strong wind. Most metalmist spheres are filled with silver or cold iron, but more expensive versions containing other ingredients might exist.&lt;br&gt;
+
+The radius of the burst is 10 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="38">
+	<Name>Metalmist Sphere (Greater)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This sphere contains small fragments of thunderstones within a colloidal suspension of a precious metal. When you twist the sphere, it creates an opaque mist in a burst centered on one corner of your space. Creatures within that area are concealed, and all other creatures are concealed to them. Any creature with a weakness to the precious metal that starts its turn in the mist takes damage equal to its weakness. The mist lasts for 1 minute or until dispersed by a strong wind. Most metalmist spheres are filled with silver or cold iron, but more expensive versions containing other ingredients might exist.&lt;br&gt;
+
+The radius of the burst is 15 feet.</Description>
+</Item>
+<Item level="9" page="26">
+	<Name>Body Recovery Kit</Name>
+	<Price>101 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Healing</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This small silver tin is filled with a herb-infused salve and a shroud of fine silk fabric. The salve smells of lavender and hyssop and is waxy to the touch. The shroud, made of spun silk, can a hold a Medium or smaller creature. If you apply the salve and shroud to a creature that died within the past 3 days, a process which normally takes 1 hour, it slows the decomposition process, allowing a creature to be brought back to life with raise dead up to 1 week after its death.</Description>
+</Item>
+<Item level="3" page="104">
+	<Name>Cold Iron Blanch (Lesser)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Precious</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.&lt;br&gt;
+
+The blanch provides low-grade cold iron, so you can use it on a magic weapon up to 8th level, or ammunition for such a weapon. It lasts for 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="104">
+	<Name>Cold Iron Blanch (Moderate)</Name>
+	<Price>140 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Precious</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.&lt;br&gt;
+
+The blanch provides standard-grade cold iron, so you can use it on a magic weapon up to 15th level, or ammunition for such a weapon. It lasts for 10 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="104">
+	<Name>Cold Iron Blanch (Greater)</Name>
+	<Price>1,700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Precious</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.&lt;br&gt;
+
+The blanch provides high-grade cold iron, so you can use it with any magic weapon. It lasts for one hour.</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Lesser)</Name>
+	<Price>8 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +1 item bonus and the save DC is 17.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Moderate)</Name>
+	<Price>75 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +2 item bonus and the save DC is 24.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Greater)</Name>
+	<Price>315 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +3 item bonus and the save DC is 29.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Major)</Name>
+	<Price>1,350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +4 item bonus and the save DC is 35.</Description>
+</Item>
+<Item level="3" page="38">
+	<Name>Metalmist Sphere (Lesser)</Name>
+	<Price>11 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This sphere contains small fragments of thunderstones within a colloidal suspension of a precious metal. When you twist the sphere, it creates an opaque mist in a burst centered on one corner of your space. Creatures within that area are concealed, and all other creatures are concealed to them. Any creature with a weakness to the precious metal that starts its turn in the mist takes damage equal to its weakness. The mist lasts for 1 minute or until dispersed by a strong wind. Most metalmist spheres are filled with silver or cold iron, but more expensive versions containing other ingredients might exist.&lt;br&gt;
+
+The radius of the burst is 5 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="38">
+	<Name>Metalmist Sphere (Moderate)</Name>
+	<Price>90 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This sphere contains small fragments of thunderstones within a colloidal suspension of a precious metal. When you twist the sphere, it creates an opaque mist in a burst centered on one corner of your space. Creatures within that area are concealed, and all other creatures are concealed to them. Any creature with a weakness to the precious metal that starts its turn in the mist takes damage equal to its weakness. The mist lasts for 1 minute or until dispersed by a strong wind. Most metalmist spheres are filled with silver or cold iron, but more expensive versions containing other ingredients might exist.&lt;br&gt;
+
+The radius of the burst is 10 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="38">
+	<Name>Metalmist Sphere (Greater)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This sphere contains small fragments of thunderstones within a colloidal suspension of a precious metal. When you twist the sphere, it creates an opaque mist in a burst centered on one corner of your space. Creatures within that area are concealed, and all other creatures are concealed to them. Any creature with a weakness to the precious metal that starts its turn in the mist takes damage equal to its weakness. The mist lasts for 1 minute or until dispersed by a strong wind. Most metalmist spheres are filled with silver or cold iron, but more expensive versions containing other ingredients might exist.&lt;br&gt;
+
+The radius of the burst is 15 feet.</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Lesser)</Name>
+	<Price>8 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +1 item bonus and the save DC is 17.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Moderate)</Name>
+	<Price>75 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +2 item bonus and the save DC is 24.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Greater)</Name>
+	<Price>315 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +3 item bonus and the save DC is 29.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="100">
+	<Name>Vermin Repellent Agent (Major)</Name>
+	<Price>1,350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This specialized cream serves as a repellent to stave off insects. The repellent also binds with a number of common insect venoms, dulling the potency and giving the wearer's immune system a boost to resist venoms. Once applied to your skin, the repellent grants you an item bonus to Fortitude saving throws against poisons for 4 hours. In addition, any arthropods (insects, spiders, scorpions, crabs, and similar invertebrate animals) must attempt a Will save when attempting to attack you with a melee Strike, or with a swarm attack such as the spider swarm's swarming bites. The arthropod then becomes temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature can act normally.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is frightened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is frightened 2 and fleeing.&lt;br&gt;
+
+You gain a +4 item bonus and the save DC is 35.</Description>
+</Item>
+<Item level="3" page="104">
+	<Name>Cold Iron Blanch (Lesser)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Precious</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.&lt;br&gt;
+
+The blanch provides low-grade cold iron, so you can use it on a magic weapon up to 8th level, or ammunition for such a weapon. It lasts for 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="104">
+	<Name>Cold Iron Blanch (Moderate)</Name>
+	<Price>140 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Precious</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.&lt;br&gt;
+
+The blanch provides standard-grade cold iron, so you can use it on a magic weapon up to 15th level, or ammunition for such a weapon. It lasts for 10 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="104">
+	<Name>Cold Iron Blanch (Greater)</Name>
+	<Price>1,700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Precious</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. When used on a melee or thrown weapon, rather than ammunition, the blanch lasts for the listed duration or 10 successful Strikes, whichever comes first. When you use it on ammunition, the blanch is expended on a given piece of ammunition after firing it, whether it hits or not. A cold iron blanch contains small amounts of alchemist's fire, so it must be used all at once; an opened vial ignites to melt the cold iron onto the weapon and is quickly consumed. The weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals, if applicable.&lt;br&gt;
+
+The blanch provides high-grade cold iron, so you can use it with any magic weapon. It lasts for one hour.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Alchemical Bombs">
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+The ampoule deals 1 damage and 1 splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 1d4 damage and 2 splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 2d4 damage and 3 splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 3d4 damage and 4 splash damage.</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+The ampoule deals 1 damage and 1 splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 1d4 damage and 2 splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 2d4 damage and 3 splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 3d4 damage and 4 splash damage.</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+The ampoule deals 1 damage and 1 splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 1d4 damage and 2 splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 2d4 damage and 3 splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 3d4 damage and 4 splash damage.</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+The ampoule deals 1 damage and 1 splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 1d4 damage and 2 splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 2d4 damage and 3 splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="38">
+	<Name>Alignment Ampoule (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This glass sphere is divided into four quarters, each of which contains a different material aligned with good, evil, chaos, or law, such as shavings from a holy relic or dried flowers that grew near a planar rift to the Abyss. When an alignment ampoule strikes a creature with a weakness to good, evil, chaos, or law, it deals the listed damage, which matches the creature's highest weakness. This damage is always based on the weaknesses of the initial target of the attack. If a creature has multiple eligible weaknesses, randomly determine the damage type. An alignment ampoule has no effect against creatures that don't have a weakness to the ampoule's associated alignment types.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 3d4 damage and 4 splash damage.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Alchemical Elixirs">
+<Item level="2" page="29">
+	<Name>Boulderhead Bock</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>No one is sure if Gorm brews this malty ale himself, but it seems to be an off-duty favorite of the Grand Archive faction leader. The brew packs a heavy punch, and while Gorm officially discourages drinking on the job, boulderhead bock does makes the drinker more self-assured and protects them from conditions that would addle their mental faculties. For 1 hour, you gain a +1 item bonus to saving throws against effects that would make you stunned or stupefied. However, you also become less aware of your surroundings, taking a –2 item penalty to Perception for 1 hour.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

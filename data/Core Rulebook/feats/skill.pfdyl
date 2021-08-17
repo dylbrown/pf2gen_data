@@ -77,7 +77,7 @@
 	</Ability>
 	<Ability name="Continual Recovery" level="2">
 		<Requires>Expert In Medicine</Requires>
-		<Description>You zealously monitor a patient's progress to administer treatment faster. When you Treat Wounds, your patient becomes immune for only 10 minutes instead of 1 hour. This applies only to your Treat Wounds activities, not any other the patient receives.</Description>
+		<Description>You zealously monitor a patient's progress to administer treatment faster. When you Treat Wounds, your patient becomes immune for only 10 minutes instead of 1 hour. This applies only to your Treat Wounds activities, not any other aid the patient receives.</Description>
 	</Ability>
 	<Ability name="Courtly Graces" level="1">
 		<Requires>Trained In Society</Requires>

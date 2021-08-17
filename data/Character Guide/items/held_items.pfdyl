@@ -1,6 +1,6 @@
 <pf2:Items category="held_items" xmlns:pf2="https://dylbrown.github.io"
 		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
 <Item level="2" page="110">
 	<Name>Pathfinder's Coin</Name>
 	<Price>30 gp</Price>

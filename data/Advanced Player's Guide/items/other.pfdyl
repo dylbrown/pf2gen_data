@@ -1,6 +1,6 @@
 <pf2:Items category="other" xmlns:pf2="https://dylbrown.github.io"
 		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
 <Item level="1" page="264">
 	<Name>Walking Cauldron</Name>
 	<Price>12 gp</Price>

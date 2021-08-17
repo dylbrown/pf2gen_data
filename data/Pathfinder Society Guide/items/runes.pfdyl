@@ -1,0 +1,13 @@
+<pf2:Items category="runes" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Weapon Property Runes">
+<Item level="5" page="123">
+	<Name>Cunning</Name>
+	<Price>140 gp</Price>
+	<Traits>Divination, Magical</Traits>
+	<Usage>etched on a slashing or piercing weapon</Usage>
+	<Description>The weapon performs divination magic on the blood of your foes, granting you insight into their abilities and weaknesses.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per minute; &lt;b&gt;Requirements&lt;/b&gt; On your previous action this turn, you used this weapon to hit and damage a creature that has blood or other vital fluids; &lt;b&gt;Effect&lt;/b&gt; You learn the secrets the weapon gleaned from the creature's blood. Attempt to Recall Knowledge about the target of the required attack, gaining an item bonus to the Recall Knowledge skill check equal to the weapon's item bonus to attack rolls from its potency rune. If the required attack was a critical hit, you also gain a +2 circumstance bonus to this check.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

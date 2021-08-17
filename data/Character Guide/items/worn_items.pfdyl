@@ -1,6 +1,6 @@
 <pf2:Items category="worn_items" xmlns:pf2="https://dylbrown.github.io"
 		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
 <SubCategory name="Other Worn Items">
 <Item level="4" page="72">
 	<Name>Cloak of Repute</Name>

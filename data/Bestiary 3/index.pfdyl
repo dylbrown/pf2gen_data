@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>Bestiary 3</Name>
+    <ShortName>B3</ShortName>
+    <Category>Bestiaries</Category>
+    <Dependencies>
+        <Dependency>Core Rulebook</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Bestiary 3&lt;/h2&gt;&lt;p&gt;With more than 300 classic and brand-new monsters, this 320-page beautifully illustrated hardcover rulebook completes the collection of creatures begun in the first two Pathfinder Bestiary volumes. From classic creatures like clockworks and tooth fairies, returning favorites like imperial dragons and mighty titans, to brand-new menaces found all over Golarion, this must-have tome of monsters designed to challenge characters of any level is an essential companion to your Pathfinder game!&lt;/p&gt;
+
+        &lt;p&gt;&lt;em&gt;Pathfinder Bestiary 3&lt;/em&gt; includes:&lt;/p&gt;
+        &lt;ul&gt;&lt;li&gt;More than 300 monsters drawn from mythology and folklore, genre classics, and more than a decade of Pathfinder, with plenty of new monsters too!&lt;/li&gt;
+            &lt;li&gt;Gorgeous full-color illustrations on nearly every page!&lt;/li&gt;
+            &lt;li&gt;Comprehensive monster lists sorted by level, type, and rarity to help you find the right monster for any situation!&lt;/li&gt;
+            &lt;li&gt;Universal monster rules to simplify special attacks, defenses, and qualities like grab, swallow whole, and regeneration.&lt;/li&gt;
+            &lt;li&gt;Detailed lore sidebars offering additional information about even more of Pathfinder's most popular monstrous friends and foes!&lt;/li&gt;&lt;/ul&gt;
+    </Description>
+    <Setting>
+        <Category name="Deities" path="deities.pfdyl" />
+    </Setting>
+    <Traits name="Traits" path="traits.pfdyl" />
+</Source>

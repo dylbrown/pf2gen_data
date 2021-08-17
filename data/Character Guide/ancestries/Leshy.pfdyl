@@ -17,6 +17,7 @@
         <Ability name="Fungus Leshy" level="1" page="53" type="Heritage">
             <Traits>Leshy</Traits>
             <Description>Your body was made from fungi that grows in the shade of caves and trees, and you are at home in dark caverns and warrens. You gain darkvision.</Description>
+            <Senses>Darkvision</Senses>
         </Ability>
         <Ability name="Gourd Leshy" level="1" page="53" type="Heritage">
             <Traits>Leshy</Traits>
@@ -38,6 +39,7 @@
         <Ability name="Harmlessly Cute" level="1" page="54">
             <Traits>Leshy</Traits>
             <Description>Your size and demeanor make it easy for you to convince others that you mean no harm. You gain the Shameless Request skill feat as a bonus feat. Additionally, you gain a +1 circumstance bonus to initiative checks when you roll Deception for initiative.</Description>
+            <AbilitySlot state="filled" name="Shameless Request" type="Skill Feat" contents="Shameless Request" />
         </Ability>
         <Ability name="Leshy Lore" level="1" page="54">
             <Traits>Leshy</Traits>

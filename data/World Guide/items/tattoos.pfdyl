@@ -1,6 +1,6 @@
 <pf2:Items category="tattoos" xmlns:pf2="https://dylbrown.github.io"
 		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
 <Item level="4" page="92">
 	<Name>Blessed Tattoo</Name>
 	<Price>90 gp</Price>

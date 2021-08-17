@@ -1,6 +1,6 @@
 <pf2:Items category="staves" xmlns:pf2="https://dylbrown.github.io"
 		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		   xsi:schemaLocation="https://dylbrown.github.io ../../schemata/item.xsd">
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
 <Item level="6" page="263">
 	<Name>Staff of Impossible Visions</Name>
 	<Price>230 gp</Price>
