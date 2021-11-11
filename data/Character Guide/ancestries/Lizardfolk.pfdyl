@@ -7,6 +7,7 @@
     <Size>Medium</Size>
     <Speed>25</Speed>
     <AbilityBonuses>Strength, Wisdom, Free</AbilityBonuses>
+	<AbilityPenalties>Intelligence</AbilityPenalties>
     <Languages>Common, Iruxi</Languages>
     <BonusLanguages>Aquan, Boggard, Draconic, Elven, Jotun, Sylvan</BonusLanguages>
     <Description> Add Amurrun to the list in the lizardfolk base statistics sidebar of additional languages you can choose if you have a positive Intelligence modifier.</Description>
