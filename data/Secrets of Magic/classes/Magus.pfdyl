@@ -1,0 +1,154 @@
+<?xml version = "1.0"?>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Name>Magus</Name>
+    <HP>8</HP>
+    <AbilityChoices>Str or Dex</AbilityChoices>
+    <SkillIncreases>2</SkillIncreases>
+    <Description>
+        Combining the physicality and technique of a warrior with the ability to cast arcane magic, you seek to perfect the art of fusing spell and strike. While the hefty tome you carry reflects hours conducting arcane research, your enemies need no reminder of your training. They recognize it as you take them down.
+    </Description>
+    <FeatureList level="1">
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
+        <AbilitySlot state="filled" name="Initial Proficiencies">
+            <Ability>
+                <AttributeMods Proficiency="Trained">Perception, Fortitude, Reflex, Simple Weapons, Unarmed, Unarmored</AttributeMods>
+                <AttributeMods Proficiency="Expert">Will</AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Arcane Spellcasting">
+            <Ability>
+                <Description>You study spells so you can combine them with your attacks or solve problems that strength of arms alone can't handle. You can cast arcane spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells. Because you're a magus, you can draw replacement sigils with the tip of your weapon or your free hand for spells requiring material components, replacing them with somatic components instead of needing a material component pouch.&lt;br&gt;&lt;br&gt;At 1st level, you can prepare one 1st-level spell and five cantrips each morning from the spells in your spellbook (see below). Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots.&lt;br&gt;&lt;br&gt;As you increase in level as a magus, your number of spell slots and the highest level of spells you can cast from spell slots increase, shown in Table 2–2: Magus Spells per Day. Because you split your focus between physical training and magical scholarship, you have no more than two spell slots of your highest level and, if you can cast 2nd-level spells or higher, two spell slots of 1 level lower than your highest spell level.&lt;br&gt;&lt;br&gt;Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Your spell attack rolls and spell DCs use your Intelligence modifier. Details on calculating these statistics appear in                                         Spell Attack Roll                                      .                    &lt;h3&gt;Heightening Spells When you get spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. This increases the spell's level, heightening it to match the spell slot. Many spells have specific improvements when they're heightened to certain levels.&lt;/h3&gt;                   &lt;h3&gt;Cantrips A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest level of spell you can cast as a magus. For example, as a 1st-level magus, your cantrips are 1st-level spells, and as a 5th-level magus, your cantrips are 3rd-level spells.&lt;/h3&gt;                   &lt;h3&gt;Spellbook Every arcane spell has a written version, usually recorded in a spellbook. You start with a
+
+                    spellbook
+
+                    worth 10 sp or less, which you receive for free and must study to prepare your spells each day. The spellbook contains your choice of eight arcane cantrips and four 1st-level arcane spells. You choose these from the common spells on the
+
+                    arcane
+
+                    spell list or from other arcane spells you gain access to. Your spellbook's form and name are up to you. It might be anything from a sturdy book with a secure latch entitled
+
+                    Theses on the Stratagems of Supernatural Warfare
+
+                    to a tattered collection of training pamphlets with your name scrawled on the cover.
+
+
+                    Each time you gain a level, you add two more arcane spells to your spellbook, of any level of spell you can cast. You can also use the
+
+                    Arcana
+
+                    skill to add other spells that you find in your adventures (see
+
+                    Learn a Spell
+
+                    ). Though you lose some lower spell slots as you increase in level, you keep the spells in your spellbook and can prepare them in your higher-level slots as normal.
+
+
+                    If you have a spellbook from multiple sources (such as being a magus with the
+
+                    Wizard Dedication
+
+                    feat), you can use the same spellbook for all your spells.&lt;/h3&gt;                   </Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Arcane Cascade">
+            <Ability>
+                <Description>                   After you wield magic, you can enter a special stance to make your attacks more effective.                   &lt;h3&gt;Arcane Cascade&lt;/h3&gt;                                                               Concentrate                                                                                                       Magus                                                                                                       Stance                                        &lt;br&gt;                   &lt;b&gt;                     Source                   &lt;/b&gt;                                        &lt;i&gt;                       Secrets of Magic pg. 38                     &lt;/i&gt;                   &lt;br&gt;                   &lt;b&gt;                     Requirements                   &lt;/b&gt;                    You used your most recent action to Cast a Spell or make a                                         Spellstrike                                      .                                      You divert a portion of the spell's magical power and keep it cycling through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes deal 1 extra damage. This damage increases to 2 if you have weapon specialization and 3 if you have greater weapon specialization. Any Strike that benefits from this damage gains the                                         arcane                                       trait, making it                                         magical                                      .&lt;br&gt;&lt;br&gt;If your most recent spell before entering the stance was one that can deal damage, the damage from the stance is the same type that spell could deal (or one type of your choice if the spell could deal multiple types of damage). If the spell couldn't deal damage, this stance's bonus damage depends on the spell's school.                                                                                         &lt;b&gt;                           Abjuration                         &lt;/b&gt;                                               or                                                 &lt;b&gt;                           Evocation                         &lt;/b&gt;                                               force                                                                                          &lt;b&gt;                           Conjuration                         &lt;/b&gt;                                               or                                                 &lt;b&gt;                           Transmutation                         &lt;/b&gt;                                               same type as your weapon or unarmed attack                                                                                          &lt;b&gt;                           Divination                         &lt;/b&gt;                                              ,                                                 &lt;b&gt;                           Enchantment                         &lt;/b&gt;                                              , or                                                 &lt;b&gt;                           Illusion                         &lt;/b&gt;                                               mental                                                                                          &lt;b&gt;                           Necromancy                         &lt;/b&gt;                                               negative                                        &lt;br&gt;                   </Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Conflux Spells">
+            <Ability>
+                <Description>                   You learn a conflux spell from your hybrid study, and you can cast additional conflux spells by selecting certain feats. Conflux spells are magus-specific spells created for combat and are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to both study your spellbook and perform a physical regimen.&lt;br&gt;&lt;br&gt;Focus spells are automatically heightened to half your level rounded up. Focus spells don't require spell slots, nor can you cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 points. The full rules can be found                                         here                                      .&lt;br&gt;                   </Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Hybrid Study">
+            <Ability>
+                <Description>                   Your extensive physical training and carefully chosen magic combine to form a unique and dangerous fighting style that's more than the sum of its parts. You choose one field of hybrid study to represent your particular combination of skills. Your hybrid study gives you a special ability, usually tied to Spellstrike or Arcane Cascade, and it determines your initial conflux spell. Hybrid Studies can be found                                         here                                      .&lt;br&gt;                   </Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Spellstrike">
+            <Ability>
+                <Description>                   You've learned the fundamental magus technique that lets you combine magical and physical attacks together. You gain the Spellstrike activity.                   &lt;h3&gt;Spellstrike&lt;/h3&gt;                                                               Magus                                        &lt;br&gt;                   &lt;b&gt;                     Source                   &lt;/b&gt;                                        &lt;i&gt;                       Secrets of Magic pg. 37                     &lt;/i&gt;                   &lt;br&gt;                   &lt;b&gt;                     Frequency                   &lt;/b&gt;                    until recharged (see below)                                      You channel a spell into a punch or sword thrust to deliver a combined attack. You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell don't occur immediately but are imbued into your attack instead. Make a melee Strike with a weapon or unarmed attack. Your spell is coupled with your attack, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Spellstrike. The infusion of spell energy grants your Strike the                                         arcane                                       trait, making it                                         magical                                      .&lt;br&gt;&lt;br&gt;After you use Spellstrike, you can't do so again until you recharge your Spellstrike as a single action, which has the                                         concentrate                                       trait. You also recharge your Spellstrike when you cast a conflux spell that takes at least 1 action to cast; casting a focus spell of another type doesn't recharge your Spellstrike.                     </Description>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="2">
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="feat" type="Class Feat" name="Magus Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="1" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="3">
+        <AbilitySlot state="filled" name="2nd-level spells">
+            <Ability>
+                <SpellSlots level="2" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability>
+                <Description></Description>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="4">
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="feat" type="Class Feat" name="Magus Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="2" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="5">
+        <AbilitySlot state="filled" name="3rd-level spells">
+            <Ability>
+                <SpellSlots level="3" count="2"/>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability>
+                <Description>                   At 5th level and every 5 levels thereafter, you boost four different ability scores. You can use these ability boosts to increase your ability scores above 18. Boosting an ability score increases it by 1 if it's already 18 or above, or by 2 if it starts out below 18.&lt;br&gt;                   </Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Lightning Reflexes" type="ClassFeature" contents="Lightning Reflexes" />
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Weapon Expertise">
+            <Ability>
+                <Description>                   You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.&lt;br&gt;                   </Description>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="6">
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+        <AbilitySlot state="feat" type="Class Feat" name="Magus Feat"/>
+        <AbilitySlot state="filled" name="Spell Slots">
+            <Ability>
+                <SpellSlots level="3" count="1"/>
+            </Ability>
+        </AbilitySlot>
+    </FeatureList>
+    <Feats>
+        <Ability name="Expansive Spellstrike" level="2" page="43">
+            <Traits>Magus</Traits>
+            <Prerequisites>Spellstrike</Prerequisites>
+            <Description>You've adapted a wider array of spells to work with your attacks. Rather than needing to use a spell that has a spell attack roll for a Spellstrike, you can use a harmful spell that can target a creature or that has an area of a burst, cone, or line (abiding by any other restrictions of Spellstrike). When you Cast a Spell that doesn't have a spell attack roll as part of a Spellstrike, it works in the following ways.
+                If your Strike critically fails, the spell is lost with no effect.
+                Creatures use their normal defenses against the spell, such as saving throws.
+                If the spell lets you select a number of targets, it instead targets only the creature you attacked with your Strike.
+                If the spell has an area, the target must be in that area. A burst is centered on a corner of the target's square, or the square corner closest to the center of the target, if the target is Large or larger; you choose the corner if more than one is eligible. A cone or line emits from you and must include the target; if you're not adjacent to the target (using a reach weapon or starlit span, for example), choose any square adjacent to the target as the source. The spell affects all creatures in the area as normal, but the Strike still targets only one creature.</Description>
+        </Ability>
+        <Ability name="Force Fang" page="43">
+            <Traits>Magus</Traits>
+        </Ability>
+    </Feats>
+</pf2:class>

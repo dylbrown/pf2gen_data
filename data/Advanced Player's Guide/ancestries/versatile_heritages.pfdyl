@@ -18,7 +18,7 @@
     </Ability>
     <Ability name="Celestial Eyes" level="1" page="35">
         <Traits>Aasimar</Traits>
-        <Prerequisites>Low-light Vision</Prerequisites>
+        <PrereqStrings>Low-light Vision</PrereqStrings>
         <Description>You can see through darkness. You gain darkvision.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat only at 1st level, and you can't retrain into or out of this feat.</Description>
     </Ability>
     <Ability name="Celestial Lore" level="1" page="35">
@@ -335,11 +335,18 @@
         <Traits>Uncommon</Traits>
         <GivesTraits>Tiefling</GivesTraits>
         <Description>You descend from fiends or bear the mark of the fiendish realms, manifesting as some unusual feature that belies your heritage, such as horns or a tail. You gain the tiefling trait, in addition to the traits from your ancestry. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can choose from tiefling feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
+        <AbilitySlot state="filled" name="Tiefling Darkvision">
+            <Ability>
+                <PrereqStrings>Low-Light Vision</PrereqStrings>
+                <Senses>Darkvision</Senses>
+            </Ability>
+        </AbilitySlot>
     </Ability>
     <Ability name="Fiendish Eyes" level="1" page="39">
         <Traits>Tiefling</Traits>
-        <!--TODO: Low-Light Vision prereq-->
+        <PrereqStrings>Low-Light Vision</PrereqStrings>
         <Description>You can see in the darkness as easily as a fiend. You gain darkvision.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat only at 1st level, and you can't retrain into or out of this feat.</Description>
+        <Senses>Darkvision</Senses>
     </Ability>
     <Ability name="Fiendish Lore" level="1" page="39">
         <Traits>Tiefling</Traits>

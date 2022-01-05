@@ -1,0 +1,15 @@
+<?xml version = "1.0"?>
+<pf2:traits xmlns:pf2="https://dylbrown.github.io"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="https://dylbrown.github.io ../../schemata/trait.xsd">
+    <Category name="Class">
+        <Trait page="35">
+            <Name>Magus</Name>
+            <Description>This trait indicates abilities from the magus class.</Description>
+        </Trait>
+        <Trait page="51">
+            <Name>Summoner</Name>
+            <Description>This trait indicates abilities from the summoner class.</Description>
+        </Trait>
+    </Category>
+</pf2:traits>

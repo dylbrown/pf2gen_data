@@ -45,6 +45,7 @@
         <Category name="Ancestry" path="ancestries/versatile_heritages.pfdyl" />
         <Category name="Bard" path="classes/Bard_feats.pfdyl" type="Class" />
         <Category name="Monk" path="classes/Monk_feats.pfdyl" type="Class" />
+        <Category name="Ranger" path="classes/Ranger_feats.pfdyl" type="Class" />
         <Category name="Sorcerer" path="classes/Sorcerer_feats.pfdyl" type="Class" />
         <Category name="Mystery" path="feats/mystery.pfdyl" />
     </Feats>

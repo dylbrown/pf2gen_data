@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+<pf2:traits xmlns:pf2="https://dylbrown.github.io"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="https://dylbrown.github.io ../../schemata/trait.xsd">
+    <Category name="Ancestry">
+        <Trait page="134">
+            <Name>Mathan</Name>
+            <Description>A creature with this trait is a member of the mathan ancestry. Stouthearted and methodical, Mathans share a close bond with the frozen tundra where they make their home.</Description>
+        </Trait>
+    </Category>
+</pf2:traits>

@@ -1,0 +1,123 @@
+<?xml version = "1.0"?>
+<pf2:ancestry xmlns:pf2="https://dylbrown.github.io"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/ancestry.xsd">
+    <Name>Mathan</Name>
+    <HP>10</HP>
+    <Size>Medium</Size>
+    <Speed>25</Speed>
+    <AbilityBonuses>Str, Wis, Free</AbilityBonuses>
+    <AbilityPenalties>Cha</AbilityPenalties>
+    <Languages>Common, Sylvan</Languages>
+    <BonusLanguages>Gnomish, Goblin, Jotun, Orcish, Aquan, Undercommon</BonusLanguages>
+    <Senses>Darkvision</Senses>
+    <Description>Stouthearted and methodical, Mathans share a close bond with the frozen tundra where they make their home.&lt;br&gt;&lt;br&gt;Mathans are relatively new to the world of Aktas, but already they have developed a rich culture centered around a deep respect for the land and its resources. Their origins in conflict with the human population of Kesh left them untrusting of other peoples, as well as causing them to put great value on physical prowess. This combined with their natural protection against the otherwise lethal frosts of Kesh has brought them a deserved reputation as fearsome hunters and martial artists, though in recent years their scholarly ablities have also begun to come to the forefront. Some of them are known to make a living as bodyguards or patrolmen, positions where their towering stature and rumoured mysticism serve them well.</Description>
+    <Abilities>
+        <Ability name="Thick Fur">
+            <Description>You are well insulated against the cold, granting you cold resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on). However, unless you wear protective gear or take shelter, environmental heat effects are one step more extreme for you.</Description>
+        </Ability>
+        <Ability name="Claws">
+            <Weapon>
+                <Name>Claws</Name>
+                <Damage>1d4 S</Damage>
+                <Group>Brawling</Group>
+                <Traits>agile, finesse, unarmed</Traits>
+            </Weapon>
+        </Ability>
+    </Abilities>
+    <Feats>
+		<!--Heritages-->
+		<Ability name="Adaptable Mathan" type="Heritage">
+            <Description>You are more adaptable to different climates than most. While you still possess ample insulation against the cold, you are more comfortable in warmer climes than is usual for Mathans, so you suffer environmental heat effects normally instead of treating them as one step worse. You also gain a +1 circumstance bonus to your Survival checks to Subsist in any climate.</Description>
+        </Ability>
+		<Ability name="Frostheart Mathan" type="Heritage">
+            <Description>You are closely bonded to the land, so much so that you can harness it's power. You gain the elemental trait, in addition to the mathan and humanoid traits. Choose one cantrip from the primal spell list. You can cast this spell as a primal innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up. You can change this cantrip to a different one from the same list once per day by meditating to realign yourself with nature; this is a 10-minute activity that has the concentrate trait.</Description>
+            <Spellcasting listName="Mathan" tradition="Primal" type="Spontaneous" ability="Cha" />
+            <SpellSlots count="1" level="0" />
+        </Ability>
+		<Ability name="Perceptive Mathan" type="Heritage">
+            <Description>You've learned to spot maligned intentions quickly for your own protection. You gain a +1 circumstance bonus to your Perception DC against attempts to Lie to you and your Perception checks to Sense Motive.</Description>
+        </Ability>
+		<Ability name="Snowstrider Mathan" type="Heritage">
+            <Description>You move easily through heavy snow or ice, using the weather to your advantage. You can always use the Take Cover action when in snowy or frozen terrain to gain cover, even if you're not next to an obstacle you would normally be able to Take Cover behind. You gain the Terrain Stalker feat, even if you're not trained in Stealth, and you must choose snow as your chosen terrain.</Description>
+            <AbilitySlot state="filled" type="General Feat" name="Terrain Stalker (Mathan)" contents="Terrain Stalker"/>
+        </Ability>
+		<Ability name="Strongjaw Mathan" type="Heritage">
+            <Description>In addition to your claws, you have a vicious maw of sharp teeth. You gain a jaws unarmed attack that deals 1d6 piercing damage. Your jaws are in the brawling group and have the unarmed trait.</Description>
+            <Weapon>
+                <Name>Jaws</Name>
+                <Damage>1d6 P</Damage>
+                <Group>Brawling</Group>
+                <Traits>Unarmed</Traits>
+            </Weapon>
+        </Ability>
+		<!--Regular Feats-->
+		<Ability name="Mathan Lore" level="1">
+            <Description>You eagerly absorbed the old stories and traditions of your people, studying in subjects and techniques passed down for generation upon generation. You gain the trained proficiency rank in Crafting and Survival. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Mathan Lore.</Description>
+			<AttributeMods Proficiency="Trained">Crafting, Survival, Lore(Mathan)</AttributeMods>
+        </Ability>
+		<Ability name="Mathan Weapon Familiarity" level="1">
+            <Description>Your kin have instilled in you an affinity for weapons of the hunt and of defence. You are trained with the hatchet, glaive, and shield boss.&lt;br&gt;&lt;br&gt;You also gain access to all uncommon mathan weapons. For the purpose of determining your proficiency, martial mathan weapons are simple weapons and advanced mathan weapons are martial weapons.</Description>
+            <CustomMod>
+                import model.items.weapons.Weapon;
+                import model.enums.Trait;
+                import model.enums.WeaponProficiency;
+                weaponProficiency("hatchet", "Trained");
+                weaponProficiency("glaive", "Trained");
+                weaponProficiency("shield boss", "Trained");
+                weaponProficiencyTranslator({item,proficiency -> {
+                    def weapon = item.getExtension(Weapon.class);
+                    if(item.getTraits().contains(get("sources.traits").find("Mathan"))) {
+                        if(proficiency == WeaponProficiency.Martial) {
+                            proficiency = WeaponProficiency.Simple;
+                        } else if(proficiency == WeaponProficiency.Advanced) {
+                            proficiency = WeaponProficiency.Martial;
+                        }
+                    }
+                    return proficiency;
+                }});
+            </CustomMod>
+        </Ability>
+		<Ability name="Mathan Tenacity" level="1">
+            <Description>The most important thing you've learned living with fear is how to overcome it. When you roll a success on a saving throw against a fear effect, you get a critical success instead. In addition, you gain a +1 circumstance bonus to Will saves against fear effects and a +2 circumstance bonus to your Will DC against attempts to Demoralize you.</Description>
+        </Ability>
+		<Ability name="Natural Magic" level="1">
+            <Description>Your connection to the land grants you a primal innate spell. Choose one cantrip from the primal spell list. You can cast this spell as a primal innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</Description>
+            <Spellcasting listName="Mathan" tradition="Primal" type="Spontaneous" ability="Cha" />
+            <SpellSlots count="1" level="0" />
+        </Ability>
+        <Ability name="Razor Claws" level="1">
+            <Description>Your have honed your claws to be deadly. Your claw attack deals 1d6 slashing damage instead of 1d4 and gains the versatile (piercing) trait.</Description>
+            <CustomMod>
+                def increaseFavoredWeapon = {weapon, damage ->
+                if(weapon.getItem().getName().toLowerCase() == "claws"
+                &amp;&amp; weapon.getDamageDice().getSize() == 4)
+
+                return damage.increaseSize(weapon.getDamageDice());
+                else
+                return damage;
+                }
+                damageModifier("Razor Claws Dice Increase", increaseFavoredWeapon)
+            </CustomMod>
+        </Ability>
+		<Ability name="Towering Presence" level="1">
+            <Description>Your massive bulk intimidates your foes. You become trained in Intimidation and gain the Intimidating Prowess skill feat, even if you do not have the requisite Strength score. If you're already trained in Intimidation, you instead become trained in a skill of your choice.</Description>
+            <AbilitySlot state="filled" type="General Feat" name="Intimidating Prowess (Mathan)" contents="ntimidating Prowess"/>
+        </Ability>
+        <Ability name="Ursine Elocutionist" level="1">
+            <Description>Drawing from your ursine heritage, you recognize the speech of your mammalian kin. You can ask questions of, receive answers from, and use the Diplomacy skill with mammals native to the area, such as bears, wolves, and caribou. The GM determines which animals count for this ability.</Description>
+        </Ability>
+        <Ability name="Animal Elocutionist" level="5">
+            <Prerequisites>Ursine Elocutionist</Prerequisites>
+            <Description>You hear animal sounds as conversations instead of unintelligent noise, and can respond in turn. You can speak to all animals. You gain a +1 circumstance bonus to Make an Impression on animals (which usually uses the Diplomacy skill).</Description>
+        </Ability>
+        <Ability name="Athletic Might" level="5">
+            <Prerequisites>Ursine Elocutionist</Prerequisites>
+            <Description>Surviving in hostile terrain has given you a great talent for mobility. Whenever you roll a success on an Athletics check to Climb or Swim, you get a critical success instead.</Description>
+        </Ability>
+		<Ability name="Mathan Weapon Cunning" level="5">
+			<Prerequisites>Mathan Weapon Familiarity</Prerequisites>
+            <Description>You've learned cunning techniques to get the best effects out of your mathan weapons. Whenever you critically hit using a hatchet, glaive, shield boss, or a mathan weapon, you apply the weapon's critical specialization effect.</Description>
+        </Ability>
+    </Feats>
+</pf2:ancestry>

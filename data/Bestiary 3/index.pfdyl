@@ -18,5 +18,4 @@
     <Setting>
         <Category name="Deities" path="deities.pfdyl" />
     </Setting>
-    <Traits name="Traits" path="traits.pfdyl" />
 </Source>

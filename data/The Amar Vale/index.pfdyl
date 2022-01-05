@@ -6,6 +6,9 @@
     <Dependencies>
         <Dependency>Core Rulebook</Dependency>
     </Dependencies>
+    <Ancestries>
+        <Ancestry name="Mathan" path="ancestries/Mathan.pfdyl" />
+    </Ancestries>
     <Backgrounds path="backgrounds.pfdyl" />
     <Equipment path="equipment/equipment.pfdyl" />
     <Weapons name="Weapons" path="equipment/weapons.pfdyl" />
@@ -17,4 +20,5 @@
         <Category name="Focus Spells" path="focus_spells.pfdyl" />
         <Category name="Spells" path="spells.pfdyl" />
     </Spells>
+    <Traits name="Traits" path="traits.pfdyl" />
 </Source>
