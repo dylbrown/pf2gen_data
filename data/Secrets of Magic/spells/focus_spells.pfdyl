@@ -1,0 +1,274 @@
+<?xml version = "1.0"?>
+<pf2:spells xmlns:pf2="https://dylbrown.github.io"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/spell.xsd">
+    <Spell page="144" type="Cantrip">
+        <Name>Boost Eidolon</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Cantrip, Evocation, Summoner</Traits>
+        <Cast>Single Action (verbal)</Cast>
+        <Range>100 feet</Range>
+        <Targets>your eidolon</Targets>
+        <Duration>1 round</Duration>
+        <Description>You focus deeply on the link between you and your eidolon and boost the power of your eidolon's attacks. Your eidolon gains a +2 status bonus to damage rolls with its unarmed attacks. If your eidolon's Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice.</Description>
+    </Spell>
+    <Spell page="143" type="Focus">
+        <Name>Cascade Countermeasure</Name>
+        <Level>3</Level>
+        <Traits>Uncommon, Abjuration, Magus</Traits>
+        <Cast>Single Action (somatic)</Cast>
+        <Requirements>You're benefiting from Arcane Cascade.</Requirements>
+        <Duration>until the Arcane Cascade stance ends</Duration>
+        <Description>You quickly adjust your Arcane Cascade to offer magical protection. You gain resistance 5 against damage from spells. As normal, using Arcane Cascade again means you've ended the stance, and the spell ends.</Description>
+        <Heightened every="3"> The resistance increases by 5.</Heightened>
+    </Spell>
+    <Spell page="200" type="Focus">
+        <Name>Combustion</Name>
+        <Level>3</Level>
+        <Traits>Uncommon, Druid, Evocation, Fire</Traits>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Range>120 feet</Range>
+        <Targets>1 creature</Targets>
+        <Save>Fortitude</Save>
+        <Description>You ignite a creature in lasting flames. The fire deals 4d8 fire damage and 2d6 persistent fire damage to the creature, which must attempt a Fortitude save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage and takes no persistent damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage, as well as full persistent damage.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage, as well as double persistent damage.</Description>
+        <Heightened every="1"> Increase the initial damage by 1d8 and the persistent damage by 1d6.</Heightened>
+    </Spell>
+    <Spell page="200" type="Focus">
+        <Name>Crushing Ground</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Druid, Earth, Transmutation</Traits>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Range>60 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>1 round</Duration>
+        <Save>Reflex</Save>
+        <Description>You tear open the ground then slam it shut. The target creature takes 2d6 bludgeoning damage with a Reflex save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target takes full damage, is flat-footed, and takes a –10-foot circumstance penalty to Speed.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target takes double damage and is flat-footed and immobilized. It can attempt to Escape against your spell DC. If it doesn't Escape, the target takes an additional 2d6 bludgeoning damage when the spell ends.</Description>
+        <Heightened every="1"> Increase the initial damage and additional damage by 2d6.</Heightened>
+    </Spell>
+    <Spell page="227" type="Focus">
+        <Name>Darklight</Name>
+        <Level>7</Level>
+        <Traits>Uncommon, Darkness, Evocation, Shadow</Traits>
+        <Cast>Three Actions (material, somatic, verbal)</Cast>
+        <Range>120 feet</Range>
+        <Area>20-foot burst</Area>
+        <Duration>1 minute</Duration>
+        <Description>Shadows pour forth from your eyes, creating a field of darkness that prevents light from emanating within the area. Light doesn't enter the area; any non-magical light sources, such as a torches or lanterns, don't emanate any light while inside the area, even if their light radius would extend beyond the darkness. The spell similarly suppresses magical light of the spell's level or lower.&lt;br&gt;&lt;br&gt; Light can't pass through, so creatures in the area can't see outside. Even creatures with darkvision (but not greater darkvision) can barely see through the darkness; any creatures seen through the darkness are concealed to them. Creatures with greater darkvision can see through the darkness normally.&lt;br&gt;&lt;br&gt; Creatures who move into the field or start their turn within the field have some of the life and light sucked out of them, taking 2d6 bludgeoning damage and 2d6 negative damage, with a basic Fortitude save. &lt;br&gt;&lt;br&gt;When you cast this spell, choose up to four allies in the area to spare from &lt;i&gt;darklight's&lt;/i&gt; effects. Until the spell ends, they're immune to damage from &lt;i&gt;darklight&lt;/i&gt; spells and can see through &lt;i&gt;darklight&lt;/i&gt; (but not other darkness) as though they had greater darkvision.</Description>
+        <Heightened level="10"> The bludgeoning and negative damage both increase to 3d6.</Heightened>
+    </Spell>
+    <Spell page="143" type="Focus">
+        <Name>Dimensional Assault</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Conjuration, Magus, Teleportation</Traits>
+        <Cast>Single Action (verbal)</Cast>
+        <Range>half your Speed</Range>
+        <Description>You tumble through space, making a short dimensional hop to better position yourself for an attack. Teleport to any square in range that's within reach of a creature, and then make a melee Strike against one creature within your reach.</Description>
+    </Spell>
+    <Spell page="241" type="Focus">
+        <Name>Efficient Apport</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Conjuration, Teleportation, Wizard</Traits>
+        <Cast>Single Action (somatic)</Cast>
+        <Range>60 feet</Range>
+        <Targets>1 unattended object of light Bulk or less</Targets>
+        <Description>Walking over to an item to pick it up is so much effort. Whether it's your spellbook, a reagent, or a glass of wine, it's simply more efficient to call it to your hand. You teleport the target into your open hand. If you don't have a hand free, it falls to the ground at your feet.</Description>
+        <Heightened level="3"> You can target an unattended object with a Bulk of 1 or less</Heightened>
+    </Spell>
+    <Spell page="144" type="Focus">
+        <Name>Eidolon's Wrath</Name>
+        <Level>3</Level>
+        <Traits>Uncommon, Eidolon, Evocation, Summoner</Traits>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Area>20-foot emanation around your eidolon</Area>
+        <Save>basic Reflex</Save>
+        <Description>Your eidolon releases a powerful energy attack that deals 5d6 damage of the type you chose when you took the Eidolon's Wrath feat, with a basic Reflex save.</Description>
+        <Heightened every="1"> The damage increases by 2d6.</Heightened>
+    </Spell>
+    <Spell page="144" type="Focus">
+        <Name>Evolution Surge</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Morph, Summoner, Transmutation</Traits>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Range>100 feet</Range>
+        <Targets>your eidolon</Targets>
+        <Duration>1 minute</Duration>
+        <Description>You flood your eidolon with power, creating a temporary evolution in your eidolon's capabilities. Choose one of the following effects: Your eidolon gains low-light vision and darkvision.Your eidolon gains scent as an imprecise sense up to 30 feet.Your eidolon can breathe underwater and gains a swim Speed equal to its land Speed or 30 feet, whichever is less. Alternatively, if your eidolon is normally aquatic, it can breathe air and gains a land Speed equal to its swim Speed or 30 feet, whichever is less. Either way, it gains the amphibious trait.Your eidolon gains a +20-foot status bonus to its Speed.</Description>
+        <Heightened level="3"> Add the following options to the list of effects you can choose: </Heightened>
+    </Spell>
+    <Spell page="145" type="Focus">
+        <Name>Extend Boost</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Divination, Metamagic, Summoner</Traits>
+        <Cast>Free Action (verbal)</Cast>
+        <Description>You focus on the intricacies of the magic binding you to your eidolon to extend the duration of your &lt;i&gt;boost eidolon&lt;/i&gt; or &lt;i&gt;reinforce eidolon&lt;/i&gt; spell. If your next action is to cast &lt;i&gt;boost eidolon&lt;/i&gt; or &lt;i&gt;reinforce eidolon&lt;/i&gt;, attempt a skill check with the skill associated with the tradition of magic you gain from your eidolon (such as Nature for a primal eidolon). The DC is usually a standard-difficulty DC of your level, but the GM can assign a different DC based on the circumstances. The effect depends on the result of your check.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The spell lasts 4 rounds.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The spell lasts 3 rounds.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The spell lasts 1 round, but you don't spend the Focus Point for casting this spell.</Description>
+    </Spell>
+    <Spell page="143" type="Focus">
+        <Name>Force Fang</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Evocation, Force, Magus</Traits>
+        <Cast>Single Action (somatic)</Cast>
+        <Range>varies</Range>
+        <Targets>1 creature</Targets>
+        <Description>You briefly turn your attack into pure force to bypass your opponent's defenses. Choose a target within your reach, or within the reach of a melee weapon you're wielding. If you can use Spellstrike with a ranged weapon (with the starlit span hybrid study, for example), you can target a creature in the first range increment of your ranged weapon. For an instant, you transform your weapon or unarmed attack into a spike of pure force, replacing all its normal statistics and abilities. The &lt;i&gt;force fang&lt;/i&gt; automatically deals 1d4+1 force damage to the target.</Description>
+        <Heightened every="2"> The damage increases by 1d4+1.</Heightened>
+    </Spell>
+    <Spell page="143" type="Focus">
+        <Name>Hasted Assault</Name>
+        <Level>7</Level>
+        <Traits>Uncommon, Magus, Transmutation</Traits>
+        <Cast>Single Action (somatic)</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You call upon your magic to speed up your attacks. You gain the quickened condition and can use the extra action each round for only Strike actions.</Description>
+    </Spell>
+    <Spell page="227" type="Focus">
+        <Name>Inscrutable Mask</Name>
+        <Level>3</Level>
+        <Traits>Uncommon, Illusion, Shadow</Traits>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Duration>10 minutes</Duration>
+        <Description>You shroud your form and features in an impenetrable mask of shadow. The mask grants you a +1 status bonus to Deception checks to Lie or Feint, Intimidation checks to Demoralize, and Stealth checks to Hide in areas of dim light or darkness.</Description>
+        <Heightened level="6"> The status bonus increases to +2.</Heightened>
+    </Spell>
+    <Spell page="145" type="Focus">
+        <Name>Lifelink Surge</Name>
+        <Level>2</Level>
+        <Traits>Uncommon, Healing, Necromancy, Positive, Summoner</Traits>
+        <Cast>Single Action (somatic)</Cast>
+        <Duration>4 rounds</Duration>
+        <Description>You make a quick gesture, tracing the link between yourself and your eidolon and drawing on your connection to slowly strengthen your shared life force. Your eidolon gains fast healing 4 for 4 rounds.</Description>
+        <Heightened every="1"> The fast healing increases by 2.</Heightened>
+    </Spell>
+    <Spell page="201" type="Focus">
+        <Name>Powerful Inhalation</Name>
+        <Level>3</Level>
+        <Traits>Uncommon, Air, Druid, Evocation</Traits>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Area>10-foot emanation</Area>
+        <Save>basic Fortitude</Save>
+        <Description>You rapidly draw the air from your surroundings, hoarding it for yourself. Creatures in the area when the spell is cast take 5d6 bludgeoning damage with a basic Fortitude save. A creature that fails its save can't speak above a raspy whisper for 1 round. A creature that critically fails can't speak or use abilities that require it to breathe for 1 round. This prevents it from using effects that require speech, such as casting spells with verbal components, and from using a breath weapon or similar ability.&lt;br&gt;&lt;br&gt; Creatures made of air (such as air elementals) attempting a save against this spell get a degree of success one worse than they rolled.</Description>
+        <Heightened every="1"> Increase the damage by 2d6.</Heightened>
+    </Spell>
+    <Spell page="201" type="Focus">
+        <Name>Pulverizing Cascade</Name>
+        <Level>3</Level>
+        <Traits>Uncommon, Druid, Evocation, Water</Traits>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Range>120 feet</Range>
+        <Area>10-foot radius, 20-foot-tall cylinder</Area>
+        <Save>basic Reflex</Save>
+        <Description>You raise a pair of towering waves and slam them into each other, crushing creatures caught between them. Creatures in the area take 5d6 bludgeoning damage with a basic Reflex save.</Description>
+        <Heightened every="1"> Increase the damage by 2d6.</Heightened>
+    </Spell>
+    <Spell page="145" type="Cantrip">
+        <Name>Reinforce Eidolon</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Abjuration, Cantrip, Summoner</Traits>
+        <Cast>Single Action (verbal)</Cast>
+        <Range>100 feet</Range>
+        <Targets>your eidolon</Targets>
+        <Duration>1 round</Duration>
+        <Description>You focus deeply on the link between you and your eidolon and reinforce your eidolon's defenses. Your eidolon gains a +1 status bonus to AC and saving throws, plus resistance to all damage equal to half the spell's level. Your eidolon can benefit from either &lt;i&gt;boost eidolon&lt;/i&gt; or &lt;i&gt;reinforce eidolon&lt;/i&gt;, but not both; if you cast one of these spells during the other's duration, the newer spell replaces the older one.</Description>
+    </Spell>
+    <Spell page="201" type="Focus">
+        <Name>Rising Surf</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Conjuration, Druid, Move, Water</Traits>
+        <Cast>Single Action (somatic)</Cast>
+        <Range>30 feet</Range>
+        <Description>You create a wave of water that you ride, banking around obstacles and surfing to higher ground. You move up to 35 feet, raising yourself up to 5 feet above the ground. (You can avoid many types of difficult terrain in this way.) You must end your movement on an unoccupied space where you have solid footing. This movement isn't a Stride, but you measure the distance in a similar way, and it still triggers reactions caused by movement. You can't transport anyone else with you.</Description>
+        <Heightened every="2"> Increase the distance you move by 5 feet and the maximum height traveled above the ground by 5 feet.</Heightened>
+    </Spell>
+    <Spell page="143" type="Focus">
+        <Name>Runic Impression</Name>
+        <Level>4</Level>
+        <Traits>Uncommon, Evocation, Magus</Traits>
+        <Cast>Single Action (somatic)</Cast>
+        <Range>touch</Range>
+        <Targets>you or one weapon you're wielding</Targets>
+        <Duration>1 minute</Duration>
+        <Description>Your unarmed attacks or weapon gain the benefits of a weapon rune you choose when you cast this spell: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;ghost touch&lt;/i&gt;, &lt;i&gt;returning&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, or &lt;i&gt;thundering&lt;/i&gt;. If you cast &lt;i&gt;runic impression&lt;/i&gt; on a weapon, this spell ends if you cease holding the weapon.&lt;br&gt;&lt;br&gt; If this spell would give a weapon more property runes than its normal maximum, one of the existing property runes (you choose) is suppressed until the spell ends. For unarmed attacks, if this spell would give you more property runes than you could have from &lt;i&gt;handwraps of mighty blows&lt;/i&gt;, one of the existing property runes is similarly suppressed.</Description>
+        <Heightened level="8"> Add </Heightened>
+        <Heightened level="1"> to the list of runes you can choose as well as the greater types of </Heightened>
+        <Heightened level="1">, </Heightened>
+        <Heightened level="1">, </Heightened>
+        <Heightened level="1">, </Heightened>
+        <Heightened level="1">, and </Heightened>
+        <Heightened level="1">.</Heightened>
+    </Spell>
+    <Spell page="143" type="Focus">
+        <Name>Shielding Strike</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Abjuration, Magus</Traits>
+        <Cast>Single Action (verbal)</Cast>
+        <Description>As you attack a foe, warding magic transforms your momentum into action and lifts your shield. Make a melee Strike. You can then either Raise your Shield if you're wielding one or cast &lt;i&gt;shield&lt;/i&gt; if you have the spell.</Description>
+    </Spell>
+    <Spell page="143" type="Focus">
+        <Name>Shooting Star</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Divination, Magus</Traits>
+        <Cast>Single Action (verbal)</Cast>
+        <Requirements>You're wielding a ranged weapon or a thrown weapon.</Requirements>
+        <Description>You let loose a projectile that flies true and leaves the blazing trail of a meteor behind it. Make a ranged Strike, ignoring the target's concealment and reducing the target's cover by one degree for this Strike only (greater to standard, standard to lesser, and lesser to none). If the Strike hits, the meteor trail hangs in the air. This gives the benefits of concealment negation and cover reduction to any attacks made against the creature (by anyone) until the start of your next turn.</Description>
+    </Spell>
+    <Spell page="144" type="Focus">
+        <Name>Spinning Staff</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Evocation, Magus</Traits>
+        <Cast>Single Action (verbal)</Cast>
+        <Requirements>You're wielding a staff.</Requirements>
+        <Description>You spin your staff with a twirling flourish, attacking two foes and transforming the momentum into magical energy to charge for your next Spellstrike. Make a melee Strike with your staff against one foe and then a second melee Strike with your staff against a different foe. Your multiple attack penalty applies to both of these attacks as normal.</Description>
+    </Spell>
+    <Spell page="201" type="Focus">
+        <Name>Stone Lance</Name>
+        <Level>3</Level>
+        <Traits>Uncommon, Attack, Druid, Earth, Evocation</Traits>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Range>120 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>1 minute</Duration>
+        <Description>You conjure a jagged lance of stone and then launch it at a foe. Make a spell attack roll against the target. On a hit, you deal 6d6 piercing damage and the lance impales the creature, giving it a –10-foot circumstance penalty to its Speeds unless it Escapes. On a critical hit, if the creature is on the ground, the lance also embeds into the ground and immobilizes the creature until it Escapes. A creature that Escapes after being impaled takes 3 persistent bleed damage. When the spell ends, the lance crumbles into dirt, freeing the target if it hasn't Escaped.</Description>
+        <Heightened every="1"> Increase the damage by 2d6 and the persistent bleed damage for Escapes by 1.</Heightened>
+    </Spell>
+    <Spell page="144" type="Focus">
+        <Name>Thunderous Strike</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Evocation, Magus, Sonic</Traits>
+        <Cast>Single Action (verbal)</Cast>
+        <Requirements>you're wielding a melee weapon in two hands.</Requirements>
+        <Description>You swing your massive weapon, creating a wave of sonic vibrations that topples creatures. Make a melee Strike with your two-handed weapon. Each creature in a 15-foot cone from you must attempt a basic Fortitude save against your spell DC or take 2 sonic damage. On a critical failure, the creature is knocked prone. The target of your Strike must be within the cone or the effect fails.</Description>
+        <Heightened every="1"> The damage increases by 1.</Heightened>
+    </Spell>
+    <Spell page="145" type="Focus">
+        <Name>Unfetter Eidolon</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Abjuration, Summoner</Traits>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Range>100 feet</Range>
+        <Targets>your eidolon</Targets>
+        <Duration>1 minute</Duration>
+        <Description>You loosen the link between yourself and your eidolon, allowing it to travel farther from you for a short period of time. While the spell is active, your eidolon can travel an unlimited distance away from you. When the spell ends, if your eidolon is more than 100 feet away from you, it unmanifests.</Description>
+    </Spell>
+    <Spell page="201" type="Focus">
+        <Name>Updraft</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Air, Druid, Evocation</Traits>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Range>60 feet</Range>
+        <Targets>1 creature</Targets>
+        <Save>basic Reflex</Save>
+        <Description>A powerful blast of wind erupts from the ground, launching the target into the air and sending it crashing back down. The collision deals 2d6 bludgeoning damage with a basic Reflex save. On a failure, the target is knocked prone.</Description>
+        <Heightened every="1"> Increase the damage by 2d6.</Heightened>
+    </Spell>
+    <Spell page="201" type="Focus">
+        <Name>Wildfire</Name>
+        <Level>1</Level>
+        <Traits>Uncommon, Conjuration, Druid, Fire</Traits>
+        <Cast>Two Actions (somatic, verbal)</Cast>
+        <Range>30 feet</Range>
+        <Area>10-foot burst</Area>
+        <Duration>sustained up to 1 minute</Duration>
+        <Save>Reflex</Save>
+        <Description>A thin layer of ash and flame covers the ground in the area. The area becomes hazardous terrain. A creature that moves on the ground through the area takes 1 fire damage for every square of that area it moves into. A creature that ends its turn in the area must succeed at a Reflex save or take 1 persistent fire damage.&lt;br&gt;&lt;br&gt; Each time you sustain this spell, the radius of the burst increases by 5 feet.</Description>
+        <Heightened every="2"> Increase the damage and persistent damage by 1.</Heightened>
+    </Spell>
+</pf2:spells>
