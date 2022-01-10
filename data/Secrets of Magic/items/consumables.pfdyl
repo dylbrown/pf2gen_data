@@ -1,0 +1,847 @@
+<pf2:Items category="consumables" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Potions">
+<Item level="5" page="161">
+	<Name>Fu Water</Name>
+	<Price>21 gp</Price>
+	<Traits>Consumable, Divine, Good, Necromancy, Potion, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Burnt fulu ashes float in this liquid, lending a distinctive red color and imparting it with a variety of purifying effects. Unlike many fulu items, &lt;i&gt;fu water&lt;/i&gt; must be created using divine magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; This potion functions as a bottle of &lt;i&gt;holy water&lt;/i&gt;. Like holy water, you throw it as a Strike. It's a simple thrown weapon with a range increment of 20 feet. Unlike an alchemical bomb, it doesn't add the manipulate trait to the attack made with it.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; You drink the &lt;i&gt;fu water&lt;/i&gt; to counteract ailments within yourself. Attempt a counteract check with a +9 counteract modifier and a counteract level of 3 against one effect that imposes the confused, fascinated, frightened, or stupefied condition. You are then sickened 1.</Description>
+</Item>
+<Item level="8" page="175">
+	<Name>Potion of Shared Life</Name>
+	<Price>95 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Two swirling liquids fill this flask, each slightly distinct in color and brightness from the other. When you drink this potion, you consume only half of the contents. If another willing creature consumes the remainder of the contents within 1 minute, your vitalities become linked for 1 minute from the moment the second one of you drinks. The two of you share breath, so as long as you're within 60 feet of one another, neither of you can begin suffocating unless you're both suffocating. You both gain the following reaction.&lt;br&gt;&lt;br&gt; &lt;b&gt;Share Life&lt;/b&gt; [[Reaction]] &lt;b&gt;Trigger&lt;/b&gt; Your linked ally takes damage and is within 60 feet; &lt;b&gt;Effect&lt;/b&gt; The ally takes half damage from the triggering effect (rounded down), and you lose a number of Hit Points equal to the remainder of the damage. You can't trigger this reaction to share damage caused by your ally using this reaction.</Description>
+</Item>
+<Item level="9" page="175">
+	<Name>Potion of Minute Echoes</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Divination, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>No matter how carefully you open this bottle, it always lets out an audible, echoing pop. For 1 minute after drinking this potion, you gain a +2 status bonus to Perception checks to hear. In addition, each time you Seek, your hearing becomes a precise sense until the beginning of your next turn, allowing you to pinpoint creatures' locations and otherwise perceive the world in detail by listening to the sound of echoes.</Description>
+</Item>
+<Item level="10" page="175">
+	<Name>Potion of Stable Form</Name>
+	<Price>180 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Consumable, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This aromatic potion is brewed from the white flowers and black roots of the magical herb moly. When you drink this potion, it immediately attempts to counteract all hostile transmutation effects affecting you. For the next hour, you gain an item bonus against transmutation effects, which is greater against polymorph effects. If you roll a success against a polymorph effect during that time, you get a critical success instead.&lt;br&gt;
+
+The counteract level is 5, and the counteract check modifier is +17. The item bonus is +2, or +3 vs. polymorph.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="175">
+	<Name>Potion of Stable Form (Greater)</Name>
+	<Price>1,800 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Consumable, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This aromatic potion is brewed from the white flowers and black roots of the magical herb moly. When you drink this potion, it immediately attempts to counteract all hostile transmutation effects affecting you. For the next hour, you gain an item bonus against transmutation effects, which is greater against polymorph effects. If you roll a success against a polymorph effect during that time, you get a critical success instead.&lt;br&gt;
+
+The counteract level is 8, and the counteract check modifier is +25. The item bonus is +3, or +4 vs. polymorph.</Description>
+</Item>
+<Item level="10" page="174">
+	<Name>Potion of Grounding</Name>
+	<Price>185 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Consumable, Electricity, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Sparks flash within this amber syrup. Drinking this potion turns you into a living lightning rod for 1 minute, drawing nearby electricity to strike you instead of allies. You gain the following reaction while the effect lasts.&lt;br&gt;&lt;br&gt; &lt;b&gt;Divert Lightning&lt;/b&gt; [[Reaction]] (electricity) &lt;b&gt;Requirements&lt;/b&gt; You aren't immune to electricity; &lt;b&gt;Trigger&lt;/b&gt; A creature within 30 feet of you is targeted by an electricity effect or is in the area of an electricity effect. &lt;b&gt;Effect&lt;/b&gt; You draw the electricity to yourself like a lightning rod in order to shield the target. If the triggering effect was targeted, it targets you instead of the triggering creature. If it was an area effect, it leaps from the triggering creature's space to fill your space instead. This doesn't divert lightning from any other creatures targeted by or in the area of the lightning. You're automatically hit by or automatically fail your save against the effect. You then can't Divert Lightning for 1d4 rounds.</Description>
+</Item>
+<Item level="12" page="174">
+	<Name>Phoenix Flask</Name>
+	<Price>350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Fire, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Once you ingest this strongly spiced, glowing red potion, blazing wings of a phoenix sprout from your back and carry you through the air. For 1 minute, you gain a Fly speed of 40 feet. The first time each round that you Fly (including to hover in place), you shed burning feathers that deal 3d4 fire damage to all creatures in a 10-foot emanation at the end of your movement (DC 29 basic Reflex save).</Description>
+</Item>
+<Item level="10" page="175">
+	<Name>Potion of Stable Form</Name>
+	<Price>180 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Consumable, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This aromatic potion is brewed from the white flowers and black roots of the magical herb moly. When you drink this potion, it immediately attempts to counteract all hostile transmutation effects affecting you. For the next hour, you gain an item bonus against transmutation effects, which is greater against polymorph effects. If you roll a success against a polymorph effect during that time, you get a critical success instead.&lt;br&gt;
+
+The counteract level is 5, and the counteract check modifier is +17. The item bonus is +2, or +3 vs. polymorph.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="175">
+	<Name>Potion of Stable Form (Greater)</Name>
+	<Price>1,800 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Consumable, Magical, Potion</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This aromatic potion is brewed from the white flowers and black roots of the magical herb moly. When you drink this potion, it immediately attempts to counteract all hostile transmutation effects affecting you. For the next hour, you gain an item bonus against transmutation effects, which is greater against polymorph effects. If you roll a success against a polymorph effect during that time, you get a critical success instead.&lt;br&gt;
+
+The counteract level is 8, and the counteract check modifier is +25. The item bonus is +3, or +4 vs. polymorph.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Oils">
+<Item level="7" page="176">
+	<Name>Topology Protoplasm</Name>
+	<Price>70 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Oil, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This slimy gel wriggles to the touch, as if covered by a multitude of imperceptible cilia. If applied to a creature or object no larger than 7 feet in any dimension, the protoplasm shifts it into an ooze-like state for 1 minute, allowing the subject to squash and stretch harmlessly. In this state, a creature that attempts a check to Squeeze uses the outcome one degree of success better than it rolls and can move its full Speed while Squeezing, and an object can fit through a space 2 feet across. One vial can cover a creature or object of up to Large size, but as each vial is made from a specific ooze, multiple vials can't be combined together to cover a larger object, as the two gels simply negate each other.</Description>
+</Item>
+<Item level="9" page="173">
+	<Name>Ghostly Portal Paint</Name>
+	<Price>120 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Oil, Transmutation</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Translucent and nearly weightless, this opalescent paint seems to resolve into occult symbols if stared at too long. When used to cover a 5-foot-wide, 10-foot-tall section of a wall, the paint turns that section of wall ghostly and incorporeal to a depth of 10 feet, allowing corporeal creatures and objects to pass through it. The portal persists for 10 minutes. When this effect wears off, anything remaining within the portal is shunted to the nearest exit.&lt;br&gt;&lt;br&gt; Force effects, other incorporeal objects and creatures, and &lt;i&gt;ghost touch&lt;/i&gt; weapons can't cross through the wall, as is normal for incorporeality. An incorporeal creature that's inside the wall when the paint is used is shunted to the nearest exit.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Other Consumables">
+<Item level="6" page="176">
+	<Name>Shortbread Spy</Name>
+	<Price>40 gp</Price>
+	<Traits>Consumable, Divination, Magical, Scrying</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Though this item looks like a simple cookie in the shape of a humanoid, it springs to life once decorated with icing or other edible substances. The cookie then scrambles away at a Speed of 15 feet, returning to the same spot about 1 hour later, which gives it enough time to travel roughly a half-mile away and then return along the same path. The cookie spy is oblivious to your instructions and can't be given directions, instead following a path of its own choosing. Upon its return, it falls to the ground, never to move again.&lt;br&gt;&lt;br&gt; As long as you decorated the &lt;i&gt;shortbread spy&lt;/i&gt; with eyes, it gains normal vision, which it uses to see and magically record the sights along its path. Any creature that eats the cookie once it returns can then see what the spy saw. The images are relatively clear, but the passage of time is a bit muddied, so it might be difficult to tell when the cookie witnessed a given sight.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Spell Catalysts">
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 1d4 electricity damage, or 1d6 electricity damage if the creature is using a metal weapon, but the nimbus only lasts 1 round, rather than the full minute.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Moderate)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 1d4 electricity damage, or 1d6 electricity damage if the creature is using a metal weapon.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Greater)</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 2d4 electricity damage, or 2d6 electricity damage if the creature is using a metal weapon.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Major)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 3d4 electricity damage, or 3d6 electricity damage if the creature is using a metal weapon.</Description>
+</Item>
+<Item level="3" page="169">
+	<Name>Soothing Scents</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Performers popularized these bundles of aromatic herbs to calm the mind and ward off misfortune before a big show, though soldier bards have found them especially useful for clearing fear during particularly tumultuous battles. Adding this catalyst to a &lt;i&gt;soothe&lt;/i&gt; spell also causes the spell to reduce the target's frightened condition value by 1.</Description>
+</Item>
+<Item level="3" page="169">
+	<Name>Waterproofing Wax</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Many books and spellbooks are treated in this wax formula to protect them from the elements, but &lt;i&gt;waterproofing wax's&lt;/i&gt; liquid-repellent properties can be further applied to split up a &lt;i&gt;grease&lt;/i&gt; spell into useful smaller sections. When the spell is cast in an area while using this catalyst, the conjured grease fills three 5-foot squares within 30 feet instead of its normal area; these squares don't need to be contiguous.</Description>
+</Item>
+<Item level="4" page="168">
+	<Name>Dazzling Rosary</Name>
+	<Price>15 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>When energy courses through these lustrous beads, they glow brightly in the sacred colors of the spellcaster's faith. A &lt;i&gt;spiritual weapon&lt;/i&gt; empowered with this catalyst flashes with bright light when it critically Strikes a target, causing the target to be dazzled until the beginning of your next turn. The type of rosary determines the maximum spell level of &lt;i&gt;spiritual weapon&lt;/i&gt; that can use the rosary as a catalyst.&lt;br&gt;
+
+The rosary can be used with a &lt;i&gt;spiritual weapon&lt;/i&gt; of 4th level or below.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="168">
+	<Name>Dazzling Rosary (Greater)</Name>
+	<Price>350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>When energy courses through these lustrous beads, they glow brightly in the sacred colors of the spellcaster's faith. A &lt;i&gt;spiritual weapon&lt;/i&gt; empowered with this catalyst flashes with bright light when it critically Strikes a target, causing the target to be dazzled until the beginning of your next turn. The type of rosary determines the maximum spell level of &lt;i&gt;spiritual weapon&lt;/i&gt; that can use the rosary as a catalyst.&lt;br&gt;
+
+The rosary can be used with a &lt;i&gt;spiritual weapon&lt;/i&gt; of any spell level.</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Firestarter Pellets</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These compacted pellets of bat guano, sulfur, and magical accelerants have long been a staple for spellcasters on the battlefield. Adding a &lt;i&gt;firestarter pellet&lt;/i&gt; to a &lt;i&gt;fireball&lt;/i&gt; spell produces clinging flames that deal persistent fire damage to all who fail the saving throw against the effect (doubling on a critical failure).&lt;br&gt;
+
+The persistent damage is 1d6.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Firestarter Pellets (Greater)</Name>
+	<Price>175 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These compacted pellets of bat guano, sulfur, and magical accelerants have long been a staple for spellcasters on the battlefield. Adding a &lt;i&gt;firestarter pellet&lt;/i&gt; to a &lt;i&gt;fireball&lt;/i&gt; spell produces clinging flames that deal persistent fire damage to all who fail the saving throw against the effect (doubling on a critical failure).&lt;br&gt;
+
+The persistent damage is 2d6.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Firestarter Pellets (Major)</Name>
+	<Price>1,200 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These compacted pellets of bat guano, sulfur, and magical accelerants have long been a staple for spellcasters on the battlefield. Adding a &lt;i&gt;firestarter pellet&lt;/i&gt; to a &lt;i&gt;fireball&lt;/i&gt; spell produces clinging flames that deal persistent fire damage to all who fail the saving throw against the effect (doubling on a critical failure).&lt;br&gt;
+
+The persistent damage is 3d6.</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Healer's Gel (Lesser)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>An astringent aroma from rare succulent plants wafts off these soothing cloth patches. Adding this material component to a &lt;i&gt;heal&lt;/i&gt; spell bestows additional temporary Hit Points to one target healed by the spell. These temporary Hit Points last for 1 minute.&lt;br&gt;
+
+The spell grants 5 temporary Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Healer's Gel (Moderate)</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>An astringent aroma from rare succulent plants wafts off these soothing cloth patches. Adding this material component to a &lt;i&gt;heal&lt;/i&gt; spell bestows additional temporary Hit Points to one target healed by the spell. These temporary Hit Points last for 1 minute.&lt;br&gt;
+
+The spell grants 10 temporary Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Healer's Gel (Greater)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>An astringent aroma from rare succulent plants wafts off these soothing cloth patches. Adding this material component to a &lt;i&gt;heal&lt;/i&gt; spell bestows additional temporary Hit Points to one target healed by the spell. These temporary Hit Points last for 1 minute.&lt;br&gt;
+
+The spell grants 15 temporary Hit Points.</Description>
+</Item>
+<Item level="5" page="169">
+	<Name>Shimmering Dust</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This luminous mica dust fluoresces for a short time after being exposed to significant amounts of magical energy. When a creature fails its save against a cloud of &lt;i&gt;glitterdust&lt;/i&gt; created using this catalyst, glowing grains stick to them, causing them to shed dim light in a 20-foot radius for as long as their invisibility is negated by the spell as well as causing them to take a –2 circumstance penalty to Stealth for that duration.</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 1d4 electricity damage, or 1d6 electricity damage if the creature is using a metal weapon, but the nimbus only lasts 1 round, rather than the full minute.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Moderate)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 1d4 electricity damage, or 1d6 electricity damage if the creature is using a metal weapon.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Greater)</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 2d4 electricity damage, or 2d6 electricity damage if the creature is using a metal weapon.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Major)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 3d4 electricity damage, or 3d6 electricity damage if the creature is using a metal weapon.</Description>
+</Item>
+<Item level="7" page="168">
+	<Name>Dimensional Knot</Name>
+	<Price>60 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Shelynites originally crafted this complex knot of vibrant string for bracelets meant to tie the destinies of two people together. Now, however, spellcasters of all religions use them to enhance their capacity with teleportation magic. Adding this catalyst to a 4th-level &lt;i&gt;dimension door&lt;/i&gt; spell allows you to bring a single willing adjacent creature along with you; however, the teleportation is somewhat disorienting for them, causing them to become stunned 1.</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Healer's Gel (Lesser)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>An astringent aroma from rare succulent plants wafts off these soothing cloth patches. Adding this material component to a &lt;i&gt;heal&lt;/i&gt; spell bestows additional temporary Hit Points to one target healed by the spell. These temporary Hit Points last for 1 minute.&lt;br&gt;
+
+The spell grants 5 temporary Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Healer's Gel (Moderate)</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>An astringent aroma from rare succulent plants wafts off these soothing cloth patches. Adding this material component to a &lt;i&gt;heal&lt;/i&gt; spell bestows additional temporary Hit Points to one target healed by the spell. These temporary Hit Points last for 1 minute.&lt;br&gt;
+
+The spell grants 10 temporary Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Healer's Gel (Greater)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>An astringent aroma from rare succulent plants wafts off these soothing cloth patches. Adding this material component to a &lt;i&gt;heal&lt;/i&gt; spell bestows additional temporary Hit Points to one target healed by the spell. These temporary Hit Points last for 1 minute.&lt;br&gt;
+
+The spell grants 15 temporary Hit Points.</Description>
+</Item>
+<Item level="9" page="169">
+	<Name>Noxious Incense</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Sold only in single sticks, this foul incense comes coated with a bevy of alchemical smoke that activates in the presence of intense heat, releasing its namesake pungent odor. Adding this catalyst to a &lt;i&gt;wall of fire&lt;/i&gt; spell fills all squares adjacent to the wall with thick, foul smoke. Creatures in this area are concealed, and other creatures are concealed to creatures in the area. The smoke lasts for the duration of the spell.&lt;br&gt;
+
+The incense can be used with a &lt;i&gt;wall of fire&lt;/i&gt; of 6th level or below.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="169">
+	<Name>Noxious Incense (Greater)</Name>
+	<Price>750 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Sold only in single sticks, this foul incense comes coated with a bevy of alchemical smoke that activates in the presence of intense heat, releasing its namesake pungent odor. Adding this catalyst to a &lt;i&gt;wall of fire&lt;/i&gt; spell fills all squares adjacent to the wall with thick, foul smoke. Creatures in this area are concealed, and other creatures are concealed to creatures in the area. The smoke lasts for the duration of the spell.&lt;br&gt;
+
+The incense can be used with a &lt;i&gt;wall of fire&lt;/i&gt; of any spell level.</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 1d4 electricity damage, or 1d6 electricity damage if the creature is using a metal weapon, but the nimbus only lasts 1 round, rather than the full minute.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Moderate)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 1d4 electricity damage, or 1d6 electricity damage if the creature is using a metal weapon.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Greater)</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 2d4 electricity damage, or 2d6 electricity damage if the creature is using a metal weapon.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Major)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 3d4 electricity damage, or 3d6 electricity damage if the creature is using a metal weapon.</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Firestarter Pellets</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These compacted pellets of bat guano, sulfur, and magical accelerants have long been a staple for spellcasters on the battlefield. Adding a &lt;i&gt;firestarter pellet&lt;/i&gt; to a &lt;i&gt;fireball&lt;/i&gt; spell produces clinging flames that deal persistent fire damage to all who fail the saving throw against the effect (doubling on a critical failure).&lt;br&gt;
+
+The persistent damage is 1d6.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Firestarter Pellets (Greater)</Name>
+	<Price>175 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These compacted pellets of bat guano, sulfur, and magical accelerants have long been a staple for spellcasters on the battlefield. Adding a &lt;i&gt;firestarter pellet&lt;/i&gt; to a &lt;i&gt;fireball&lt;/i&gt; spell produces clinging flames that deal persistent fire damage to all who fail the saving throw against the effect (doubling on a critical failure).&lt;br&gt;
+
+The persistent damage is 2d6.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Firestarter Pellets (Major)</Name>
+	<Price>1,200 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These compacted pellets of bat guano, sulfur, and magical accelerants have long been a staple for spellcasters on the battlefield. Adding a &lt;i&gt;firestarter pellet&lt;/i&gt; to a &lt;i&gt;fireball&lt;/i&gt; spell produces clinging flames that deal persistent fire damage to all who fail the saving throw against the effect (doubling on a critical failure).&lt;br&gt;
+
+The persistent damage is 3d6.</Description>
+</Item>
+<Item level="4" page="168">
+	<Name>Dazzling Rosary</Name>
+	<Price>15 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>When energy courses through these lustrous beads, they glow brightly in the sacred colors of the spellcaster's faith. A &lt;i&gt;spiritual weapon&lt;/i&gt; empowered with this catalyst flashes with bright light when it critically Strikes a target, causing the target to be dazzled until the beginning of your next turn. The type of rosary determines the maximum spell level of &lt;i&gt;spiritual weapon&lt;/i&gt; that can use the rosary as a catalyst.&lt;br&gt;
+
+The rosary can be used with a &lt;i&gt;spiritual weapon&lt;/i&gt; of 4th level or below.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="168">
+	<Name>Dazzling Rosary (Greater)</Name>
+	<Price>350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>When energy courses through these lustrous beads, they glow brightly in the sacred colors of the spellcaster's faith. A &lt;i&gt;spiritual weapon&lt;/i&gt; empowered with this catalyst flashes with bright light when it critically Strikes a target, causing the target to be dazzled until the beginning of your next turn. The type of rosary determines the maximum spell level of &lt;i&gt;spiritual weapon&lt;/i&gt; that can use the rosary as a catalyst.&lt;br&gt;
+
+The rosary can be used with a &lt;i&gt;spiritual weapon&lt;/i&gt; of any spell level.</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Healer's Gel (Lesser)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>An astringent aroma from rare succulent plants wafts off these soothing cloth patches. Adding this material component to a &lt;i&gt;heal&lt;/i&gt; spell bestows additional temporary Hit Points to one target healed by the spell. These temporary Hit Points last for 1 minute.&lt;br&gt;
+
+The spell grants 5 temporary Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Healer's Gel (Moderate)</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>An astringent aroma from rare succulent plants wafts off these soothing cloth patches. Adding this material component to a &lt;i&gt;heal&lt;/i&gt; spell bestows additional temporary Hit Points to one target healed by the spell. These temporary Hit Points last for 1 minute.&lt;br&gt;
+
+The spell grants 10 temporary Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Healer's Gel (Greater)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>An astringent aroma from rare succulent plants wafts off these soothing cloth patches. Adding this material component to a &lt;i&gt;heal&lt;/i&gt; spell bestows additional temporary Hit Points to one target healed by the spell. These temporary Hit Points last for 1 minute.&lt;br&gt;
+
+The spell grants 15 temporary Hit Points.</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 1d4 electricity damage, or 1d6 electricity damage if the creature is using a metal weapon, but the nimbus only lasts 1 round, rather than the full minute.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Moderate)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 1d4 electricity damage, or 1d6 electricity damage if the creature is using a metal weapon.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Greater)</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 2d4 electricity damage, or 2d6 electricity damage if the creature is using a metal weapon.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="169">
+	<Name>Thunderbird Tuft (Major)</Name>
+	<Price>500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This carved chunk of amber contains a single tuft of gray feathers, which spark with electricity to create an odd jittery sensation in anyone holding the amber for long. When used as part of a &lt;i&gt;shocking grasp&lt;/i&gt; spell, &lt;i&gt;thunderbird tuft&lt;/i&gt; funnels electricity back into the spellcaster in a defensive nimbus. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes the listed electricity damage.&lt;br&gt;
+
+The nimbus deals 3d4 electricity damage, or 3d6 electricity damage if the creature is using a metal weapon.</Description>
+</Item>
+<Item level="13" page="168">
+	<Name>Force Tiles</Name>
+	<Price>525 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Light refracts in strange ways through these precisely ground glass tiles, lengthening the refracted force and causing it to push back. Adding this catalyst to a &lt;i&gt;wall of force&lt;/i&gt; spell increases the wall's maximum length to 80 feet and maximum height to 40 feet and causes creatures that try to move into the wall's space (or are Shoved into the wall) to take 2d6 force damage.</Description>
+</Item>
+<Item level="9" page="169">
+	<Name>Noxious Incense</Name>
+	<Price>125 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Sold only in single sticks, this foul incense comes coated with a bevy of alchemical smoke that activates in the presence of intense heat, releasing its namesake pungent odor. Adding this catalyst to a &lt;i&gt;wall of fire&lt;/i&gt; spell fills all squares adjacent to the wall with thick, foul smoke. Creatures in this area are concealed, and other creatures are concealed to creatures in the area. The smoke lasts for the duration of the spell.&lt;br&gt;
+
+The incense can be used with a &lt;i&gt;wall of fire&lt;/i&gt; of 6th level or below.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="169">
+	<Name>Noxious Incense (Greater)</Name>
+	<Price>750 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Sold only in single sticks, this foul incense comes coated with a bevy of alchemical smoke that activates in the presence of intense heat, releasing its namesake pungent odor. Adding this catalyst to a &lt;i&gt;wall of fire&lt;/i&gt; spell fills all squares adjacent to the wall with thick, foul smoke. Creatures in this area are concealed, and other creatures are concealed to creatures in the area. The smoke lasts for the duration of the spell.&lt;br&gt;
+
+The incense can be used with a &lt;i&gt;wall of fire&lt;/i&gt; of any spell level.</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Firestarter Pellets</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These compacted pellets of bat guano, sulfur, and magical accelerants have long been a staple for spellcasters on the battlefield. Adding a &lt;i&gt;firestarter pellet&lt;/i&gt; to a &lt;i&gt;fireball&lt;/i&gt; spell produces clinging flames that deal persistent fire damage to all who fail the saving throw against the effect (doubling on a critical failure).&lt;br&gt;
+
+The persistent damage is 1d6.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Firestarter Pellets (Greater)</Name>
+	<Price>175 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These compacted pellets of bat guano, sulfur, and magical accelerants have long been a staple for spellcasters on the battlefield. Adding a &lt;i&gt;firestarter pellet&lt;/i&gt; to a &lt;i&gt;fireball&lt;/i&gt; spell produces clinging flames that deal persistent fire damage to all who fail the saving throw against the effect (doubling on a critical failure).&lt;br&gt;
+
+The persistent damage is 2d6.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="168">
+	<Name>Firestarter Pellets (Major)</Name>
+	<Price>1,200 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Catalyst, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These compacted pellets of bat guano, sulfur, and magical accelerants have long been a staple for spellcasters on the battlefield. Adding a &lt;i&gt;firestarter pellet&lt;/i&gt; to a &lt;i&gt;fireball&lt;/i&gt; spell produces clinging flames that deal persistent fire damage to all who fail the saving throw against the effect (doubling on a critical failure).&lt;br&gt;
+
+The persistent damage is 3d6.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Talismans">
+<Item level="3" page="176">
+	<Name>Retrieval Prism</Name>
+	<Price>12 gp</Price>
+	<Traits>Conjuration, Consumable, Magical, Talisman, Teleportation</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description>This triangular prism showing swirling black patterns inside constantly moves around on your armor, no matter where you affix it. As part of the process of Affixing this Talisman, you attune it to a single item of 1 Bulk or less. When you activate this talisman, the attuned item immediately teleports into your hand.&lt;br&gt;&lt;br&gt; The &lt;i&gt;retrieval prism&lt;/i&gt; can't retrieve an item that's not on your plane, including one that's in an extradimensional space like a &lt;i&gt;bag of holding&lt;/i&gt;. If you haven't expended the talisman, you can attune it to a different item by Affixing the Talisman again.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="176">
+	<Name>Retrieval Prism (Greater)</Name>
+	<Price>200 gp</Price>
+	<Traits>Conjuration, Consumable, Magical, Talisman, Teleportation</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description>This triangular prism showing swirling black patterns inside constantly moves around on your armor, no matter where you affix it. As part of the process of Affixing this Talisman, you attune it to a single item of 1 Bulk or less. When you activate this talisman, the attuned item immediately teleports into your hand.&lt;br&gt;&lt;br&gt; The &lt;i&gt;retrieval prism&lt;/i&gt; can't retrieve an item that's not on your plane, including one that's in an extradimensional space like a &lt;i&gt;bag of holding&lt;/i&gt;. If you haven't expended the talisman, you can attune it to a different item by Affixing the Talisman again.&lt;br&gt;
+
+You don't need to attune the prism. It can retrieve any item in your possession of 1 Bulk or less, chosen when you activate the prism.</Description>
+</Item>
+<Item level="4" page="173">
+	<Name>Dragonbone Arrowhead</Name>
+	<Price>20 gp</Price>
+	<Traits>Consumable, Evocation, Magical, Talisman</Traits>
+	<Usage>affixed to a melee weapon or a ranged weapon with the</Usage>
+	<Description> trait&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Requirements&lt;/b&gt; You're an expert with the affixed weapon.This arrowhead, carved from dragon bone, hangs off the shaft of your weapon. When you activate this talisman, until the end of the current turn, the affixed weapon gains the thrown 20 feet weapon trait, and when you make a thrown Strike with it, it flies back to your hand after the Strike completes. If your hands are full when the weapon returns, it falls to the ground in your space.</Description>
+</Item>
+<Item level="5" page="173">
+	<Name>Eye of Enlightenment</Name>
+	<Price>25 gp</Price>
+	<Traits>Consumable, Divination, Magical, Talisman</Traits>
+	<Usage>affixed to a weapon</Usage>
+	<Description>, Occult, Nature, Religion, Society, or a Lore skill.This dried eye was plucked from a magical creature. You combine your observation about your enemy's reaction to your Strike with the stores of magical wisdom within the talisman to try to glean more information about the foe's true nature. When you activate this talisman, you attempt to Recall Knowledge about the creature you hit. If you roll a critical failure, you get a failure instead.</Description>
+</Item>
+<Item level="6" page="173">
+	<Name>Binding Coil</Name>
+	<Price>50 gp</Price>
+	<Traits>Consumable, Magical, Talisman, Transmutation</Traits>
+	<Usage>affixed to a weapon</Usage>
+	<Description>.This talisman, a bright red coil that's warm to the touch and faintly resembles a serpent, wraps entirely around your weapon. When you activate this talisman's effect, attempt to Grapple the creature you hit. On a success, rather than the normal Grapple effects, the coil instead wraps itself around the target with one end remaining attached to your weapon. Your opponent must succeed at a DC 20 Escape check to break free. The coil breaks if you move any further away from the bound opponent, but not if you move any closer.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="173">
+	<Name>Binding Coil (Greater)</Name>
+	<Price>450 gp</Price>
+	<Traits>Consumable, Magical, Talisman, Transmutation</Traits>
+	<Usage>affixed to a weapon</Usage>
+	<Description>.This talisman, a bright red coil that's warm to the touch and faintly resembles a serpent, wraps entirely around your weapon. When you activate this talisman's effect, attempt to Grapple the creature you hit. On a success, rather than the normal Grapple effects, the coil instead wraps itself around the target with one end remaining attached to your weapon. Your opponent must succeed at a DC 20 Escape check to break free. The coil breaks if you move any further away from the bound opponent, but not if you move any closer.&lt;br&gt;
+
+The escape DC is 30.</Description>
+</Item>
+<Item level="8" page="174">
+	<Name>Orchestral Brooch</Name>
+	<Price>100 gp</Price>
+	<Traits>Auditory, Consumable, Evocation, Magical, Talisman</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description> check, but you haven't rolled yet; &lt;b&gt;Requirements&lt;/b&gt; You're a master in Performance.This silver brooch reverberates lightly with the sound of music every time anyone touches it. You can transform it into the shape of any chosen instrument when you Affix it. When you activate this talisman, your performance is accompanied by a grand procession of music that complements your own work, subject to your direction and intent. You receive a +1 status bonus to your Performance check. If you roll a success, you get a critical success instead.&lt;br&gt;&lt;br&gt; After being used, the talisman remains a mundane silver brooch with the appearance of the chosen instrument, though it possesses no remaining power.</Description>
+</Item>
+<Item level="8" page="176">
+	<Name>Stormfeather</Name>
+	<Price>100 gp</Price>
+	<Traits>Consumable, Magical, Talisman, Transmutation</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description>.Even while affixed, this electric blue feather sways lightly in the air, as if always accompanied by a breeze. When activated, the talisman casts &lt;i&gt;fly&lt;/i&gt; on you, though the duration is 1 minute. You can Dismiss this activation. If you do, you're affected by &lt;i&gt;feather fall&lt;/i&gt;.</Description>
+</Item>
+<Item level="3" page="176">
+	<Name>Retrieval Prism</Name>
+	<Price>12 gp</Price>
+	<Traits>Conjuration, Consumable, Magical, Talisman, Teleportation</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description>This triangular prism showing swirling black patterns inside constantly moves around on your armor, no matter where you affix it. As part of the process of Affixing this Talisman, you attune it to a single item of 1 Bulk or less. When you activate this talisman, the attuned item immediately teleports into your hand.&lt;br&gt;&lt;br&gt; The &lt;i&gt;retrieval prism&lt;/i&gt; can't retrieve an item that's not on your plane, including one that's in an extradimensional space like a &lt;i&gt;bag of holding&lt;/i&gt;. If you haven't expended the talisman, you can attune it to a different item by Affixing the Talisman again.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="176">
+	<Name>Retrieval Prism (Greater)</Name>
+	<Price>200 gp</Price>
+	<Traits>Conjuration, Consumable, Magical, Talisman, Teleportation</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description>This triangular prism showing swirling black patterns inside constantly moves around on your armor, no matter where you affix it. As part of the process of Affixing this Talisman, you attune it to a single item of 1 Bulk or less. When you activate this talisman, the attuned item immediately teleports into your hand.&lt;br&gt;&lt;br&gt; The &lt;i&gt;retrieval prism&lt;/i&gt; can't retrieve an item that's not on your plane, including one that's in an extradimensional space like a &lt;i&gt;bag of holding&lt;/i&gt;. If you haven't expended the talisman, you can attune it to a different item by Affixing the Talisman again.&lt;br&gt;
+
+You don't need to attune the prism. It can retrieve any item in your possession of 1 Bulk or less, chosen when you activate the prism.</Description>
+</Item>
+<Item level="11" page="174">
+	<Name>Lion Claw</Name>
+	<Price>300 gp</Price>
+	<Traits>Consumable, Magical, Talisman, Transmutation</Traits>
+	<Usage>affixed to a weapon</Usage>
+	<Description> by a creature and are a master in Stealth.This dried claw from a mighty beast bestows upon you the ability of a predator. When you activate the claw, you learn to pounce on your prey in one fluid motion. You Stride and then Strike with the affixed weapon against one creature you were undetected by. You remain undetected by the creature until after you Strike.</Description>
+</Item>
+<Item level="6" page="173">
+	<Name>Binding Coil</Name>
+	<Price>50 gp</Price>
+	<Traits>Consumable, Magical, Talisman, Transmutation</Traits>
+	<Usage>affixed to a weapon</Usage>
+	<Description>.This talisman, a bright red coil that's warm to the touch and faintly resembles a serpent, wraps entirely around your weapon. When you activate this talisman's effect, attempt to Grapple the creature you hit. On a success, rather than the normal Grapple effects, the coil instead wraps itself around the target with one end remaining attached to your weapon. Your opponent must succeed at a DC 20 Escape check to break free. The coil breaks if you move any further away from the bound opponent, but not if you move any closer.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="173">
+	<Name>Binding Coil (Greater)</Name>
+	<Price>450 gp</Price>
+	<Traits>Consumable, Magical, Talisman, Transmutation</Traits>
+	<Usage>affixed to a weapon</Usage>
+	<Description>.This talisman, a bright red coil that's warm to the touch and faintly resembles a serpent, wraps entirely around your weapon. When you activate this talisman's effect, attempt to Grapple the creature you hit. On a success, rather than the normal Grapple effects, the coil instead wraps itself around the target with one end remaining attached to your weapon. Your opponent must succeed at a DC 20 Escape check to break free. The coil breaks if you move any further away from the bound opponent, but not if you move any closer.&lt;br&gt;
+
+The escape DC is 30.</Description>
+</Item>
+<Item level="14" page="176">
+	<Name>Vapor Sphere</Name>
+	<Price>900 gp</Price>
+	<Traits>Consumable, Magical, Talisman, Transmutation</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description> by you makes an attack against you; &lt;b&gt;Requirements&lt;/b&gt; You're an expert in the affixed armor and an expert in Reflex saves.Within this strange glass sphere swirls a cloud of smoke that occasionally appears as if it's trying to escape. You react to a surprise encounter with haste, activating this talisman and causing your body to momentarily become like vapor. Against the trap's reaction or the attack, you gain resistance 25 to physical damage and are immune to precision damage. This effect also prevents the reaction or attack from physically moving you (such as falling down a pit or being knocked prone), and after the reaction or attack, you can Fly 5 feet. When you end this flight, you leave your vaporous state and are exposed to any danger still at your location.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Fulu">
+<Item level="3" page="159">
+	<Name>Fulu of Fire Suppression</Name>
+	<Price>10 gp</Price>
+	<Traits>Abjuration, Consumable, Fulu, Magical</Traits>
+	<Usage>affixed to a wall</Usage>
+	<Description>The silver ink on this black paper charm ebbs in and out of sight, especially when caught out of the corner of your eye. Usually placed in the kitchen, this fulu slows the spread of fire in a 30-foot radius by half.&lt;br&gt;&lt;br&gt; If the fulu itself catches fire, as it burns, it releases a shower of water in a 30-foot cone, automatically putting out non-magical fires in this area and attempting to counteract any magical fire effects with a +7 counteract modifier and a counteract level of 2; when this happens, the fulu's duration ends early.</Description>
+</Item>
+<Item level="3" page="159">
+	<Name>Fulu of Flood Suppression</Name>
+	<Price>10 gp</Price>
+	<Traits>Abjuration, Consumable, Fulu, Magical</Traits>
+	<Usage>affixed to a wall</Usage>
+	<Description>This blue fulu bears dark ink that slowly swirls and twists about itself, expanding and contracting on the paper over the course of the day in time with the tides. This fulu is most effective in the lowest area of a building, or near the most valuable or least-waterproof items. They're often seen as the rainy season approaches, with demand spiking just before a particularly large storm hits.&lt;br&gt;&lt;br&gt; The fulu slows the spread of flooding water in a 30-foot radius by half, repelling the remaining water away. If the fulu becomes submersed, as the ink dissolves in the water, it releases a rush of heat in a 10-foot emanation, harmlessly vaporizing non-magical water in this area into steam and attempting to counteract any magical water effects with a +7 counteract modifier and a counteract level of 2; when this happens, the fulu's duration ends early.</Description>
+</Item>
+<Item level="3" page="160">
+	<Name>Matchmaker Fulu</Name>
+	<Price>10 gp</Price>
+	<Traits>Consumable, Enchantment, Fortune, Fulu, Magical, Talisman</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description> check to Make an Impression.This red fulu contains blessings for one's relationship from Shelyn, goddess of beauty and love. You get a +2 status bonus to the Diplomacy check, and if you roll a critical failure on the check, you get a failure instead.</Description>
+</Item>
+<Item level="3" page="160">
+	<Name>Spirit-Sealing Fulu</Name>
+	<Price>10 gp</Price>
+	<Traits>Consumable, Fulu, Incapacitation, Magical, Necromancy</Traits>
+	<Usage>affixed to one</Usage>
+	<Description> creatureThis classic fulu seals the negative energy within an undead, freezing it in its tracks. Upon affixing, the target undead must attempt a Will save or be paralyzed for 1 round.&lt;br&gt;
+
+The DC is 17.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="160">
+	<Name>Spirit-Sealing Fulu (Greater)</Name>
+	<Price>155 gp</Price>
+	<Traits>Consumable, Fulu, Incapacitation, Magical, Necromancy</Traits>
+	<Usage>affixed to one</Usage>
+	<Description> creatureThis classic fulu seals the negative energy within an undead, freezing it in its tracks. Upon affixing, the target undead must attempt a Will save or be paralyzed for 1 round.&lt;br&gt;
+
+The DC is 27. On a critical failure, the undead is paralyzed for 4 rounds. At the end of each of its turns, it can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.</Description>
+</Item>
+<Item level="3" page="161">
+	<Name>Venomous Cure Fulu</Name>
+	<Price>10 gp</Price>
+	<Traits>Consumable, Fulu, Magical, Necromancy, Talisman</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description>.This green fulu depicts venomous creatures and vermin. When activated, the venom from the fulu fights against the venom in your system, granting you a +2 status bonus to the triggering saving throw.</Description>
+</Item>
+<Item level="4" page="160">
+	<Name>Magical Lock Fulu</Name>
+	<Price>15 gp</Price>
+	<Traits>Consumable, Fulu, Magical, Transmutation</Traits>
+	<Usage>affixed to a door, window, or container</Usage>
+	<Description>The symbols on this fulu depict a lock and winding chains. Affixing this fulu over the seam or frame of the target locks it, even if it has no latch or existing lock.&lt;br&gt;&lt;br&gt; As many as nine fulus can be applied to the same target. One fulu equates a poor lock (DC 15), three a simple lock (DC 20), and nine an average lock (DC 25).</Description>
+</Item>
+<Item level="5" page="159">
+	<Name>Apotropaic Fulu</Name>
+	<Price>25 gp</Price>
+	<Traits>Abjuration, Consumable, Fulu, Magical</Traits>
+	<Usage>affixed over an entrance</Usage>
+	<Description>This unassuming yellow paper, affixed above a door or gate, flickers in the light. Pick an alignment trait: chaotic, good, lawful, or evil. When a creature with the opposing alignment trait of the fulu (good for an evil fulu, and so on) passes through the entrance, it must succeed at a DC 17 Fortitude save or become sickened 2; regardless of whether they succeed, the creature becomes temporarily immune for 1 day.</Description>
+</Item>
+<Item level="5" page="159">
+	<Name>Fulu of the Drunken Monkey</Name>
+	<Price>25 gp</Price>
+	<Traits>Abjuration, Consumable, Fulu, Magical, Talisman</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description>.The monkey on this fulu sits on the point of the armor just over the bearer's stomach, happily drinking any intoxicants that come flowing down. When you activate the fulu, you gain a +2 status bonus on the triggering Fortitude save and on Fortitude saves against the same poison for the next minute. If the triggering poison was normal alcohol, you instead automatically succeed at the triggering save and gain a +4 status bonus on saves against alcohol for 1 minute.</Description>
+</Item>
+<Item level="5" page="159">
+	<Name>Fulu of the Stoic Ox</Name>
+	<Price>25 gp</Price>
+	<Traits>Abjuration, Consumable, Fulu, Magical, Talisman</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description>.The ox on this fulu rests vigilantly on the point of the armor right over the bearer's heart, protecting the bearer against diseases and safeguarding their health. When you activate the fulu, you gain a +2 status bonus on the triggering Fortitude save and on all Fortitude saves against the same disease for the next minute.</Description>
+</Item>
+<Item level="5" page="161">
+	<Name>Tracking Fulu</Name>
+	<Price>25 gp</Price>
+	<Traits>Abjuration, Consumable, Fulu, Magical</Traits>
+	<Usage>affixed to creature or object</Usage>
+	<Description>Used covertly by assassins and spies, this pair of fulus stick to one another when created but can be easily separated. Affix one fulu to a target before activating its pair. When activated, the unaffixed fulu flutters toward the affixed one at a speed of 30 feet per round, traveling for up to 1 hour and fluttering more rapidly the closer it comes to its pair. The unaffixed fulu always moves in a straight line towards the affixed fulu; it can't solve mazes or find its way through winding paths.</Description>
+</Item>
+<Item level="6" page="160">
+	<Name>Restful Sleep Fulu</Name>
+	<Price>32 gp</Price>
+	<Traits>Consumable, Enchantment, Fulu, Magical, Necromancy</Traits>
+	<Usage>affixed to a creature</Usage>
+	<Description>This fulu depicts the five-spoke wheel of Qi Zhong, god of magic and medicine, and burns away slowly, like incense. If you fall asleep within the fulu's duration, you regain double the amount of Hit Points you usually gain from resting. You also gain a +2 status bonus to saves against mental effects that occur in your dreams, such as the &lt;i&gt;nightmare&lt;/i&gt; spell.</Description>
+</Item>
+<Item level="6" page="160">
+	<Name>Ghostbane Fulu</Name>
+	<Price>40 gp</Price>
+	<Traits>Consumable, Fulu, Magical, Necromancy, Talisman, Transmutation</Traits>
+	<Usage>affixed to a weapon</Usage>
+	<Description> creature with the weapon to which the fulu is affixed, but you haven't rolled damage.This white paper fulu bears red ink and attunes a weapon to the spiritual essence of an incorporeal creature. Upon activation, the weapon gains the benefit of the &lt;i&gt;ghost touch&lt;/i&gt; property rune against the triggering incorporeal creature for 1 minute.</Description>
+</Item>
+<Item level="6" page="159">
+	<Name>Fulus of Concealment</Name>
+	<Price>40 gp</Price>
+	<Traits>Consumable, Fulu, Illusion, Magical</Traits>
+	<Usage>affixed to the ground in four spaces along a 10-foot radius circle</Usage>
+	<Description>This fulu comes in four pieces, one placed in each cardinal direction. Choose one of the following traits when Activating the fulus: animal, beast, celestial, fey, fiend, humanoid, monitor, plant, or undead. Those within the fulus' circle upon activation (including the fulus themselves) gain the effect of &lt;i&gt;invisibility sphere&lt;/i&gt;, but only against creatures with the chosen trait. If any of the fulus are moved or destroyed after activation, the effect ends.</Description>
+</Item>
+<Item level="8" page="159">
+	<Name>Detect Anathema Fulu</Name>
+	<Price>100 gp</Price>
+	<Traits>Abjuration, Consumable, Fulu, Magical, Talisman</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description>Given to undisciplined acolytes at risk of breaking their vows, this fulu activates on its own if its wearer begins to perform an act anathema to a specific deity or cause, decided at the time of crafting. The fulu heats up when activated, giving you enough warning to correct your actions; if you proceed, the fulu immolates in a burst of flame. This deals 4d6 fire damage and brands your skin until you receive an appropriate &lt;i&gt;atone&lt;/i&gt; ritual. Either way, activating the fulu consumes it.</Description>
+</Item>
+<Item level="9" page="160">
+	<Name>Rebound Fulu</Name>
+	<Price>125 gp</Price>
+	<Traits>Abjuration, Consumable, Fulu, Magical, Talisman</Traits>
+	<Usage>affixed to a shield</Usage>
+	<Description> reaction with the shield to which this fulu is affixed.The bronze-colored ink on this pale, silvery talisman sharply reflects light, enough that it seems to glow. When you activate the fulu, it reflects your foe's violence back against them. The foe that triggered the Shield Block reaction takes damage equal to your shield's Hardness or the damage they would have dealt before the Shield Block reaction, whichever is less.</Description>
+</Item>
+<Item level="3" page="160">
+	<Name>Spirit-Sealing Fulu</Name>
+	<Price>10 gp</Price>
+	<Traits>Consumable, Fulu, Incapacitation, Magical, Necromancy</Traits>
+	<Usage>affixed to one</Usage>
+	<Description> creatureThis classic fulu seals the negative energy within an undead, freezing it in its tracks. Upon affixing, the target undead must attempt a Will save or be paralyzed for 1 round.&lt;br&gt;
+
+The DC is 17.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="160">
+	<Name>Spirit-Sealing Fulu (Greater)</Name>
+	<Price>155 gp</Price>
+	<Traits>Consumable, Fulu, Incapacitation, Magical, Necromancy</Traits>
+	<Usage>affixed to one</Usage>
+	<Description> creatureThis classic fulu seals the negative energy within an undead, freezing it in its tracks. Upon affixing, the target undead must attempt a Will save or be paralyzed for 1 round.&lt;br&gt;
+
+The DC is 27. On a critical failure, the undead is paralyzed for 4 rounds. At the end of each of its turns, it can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.</Description>
+</Item>
+<Item level="16" page="161">
+	<Name>Stormbreaker Fulu</Name>
+	<Traits>Abjuration, Consumable, Fulu, Magical, Talisman</Traits>
+	<Description>, &lt;i&gt;Pathfinder #167: Ready? Fight! pg. 75&lt;/i&gt;&lt;br&gt;&lt;b&gt;Price&lt;/b&gt; 1,900 gp&lt;br&gt;&lt;b&gt;Usage&lt;/b&gt; affixed to armor&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] command; &lt;b&gt;Trigger&lt;/b&gt; You would be forced to move, you would be teleported, or you would take cold, electricity, or sonic damage.This unassuming paper tag is inscribed with magical symbols. When you activate the fulu, it vanishes in a wisp of cloud, and you gain resistance 15 to cold, electricity, and sonic damage until the end of your next turn. For that duration, you ignore difficult terrain from wind and weather, and you can't be forcibly moved or teleported unless the effect counteracts the fulu (DC 40). These protections apply against the triggering effect.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Magical Ammunition">
+<Item level="5" page="174">
+	<Name>Golden Chrysalis</Name>
+	<Price>27 gp</Price>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Description>Threads of iridescent golden silk wrap around the core of this magical sling stone. When you activate and shoot a &lt;i&gt;golden chrysalis&lt;/i&gt;, rather than making an attack roll for your Strike, you cause the chrysalis to unwind in midair to reveal a magical butterfly that flies in a 30-foot line, scattering golden scale dust that hangs in the air for 1 minute.&lt;br&gt;&lt;br&gt; A creature that enters or begins its turn in the dust must attempt a DC 19 Reflex save or have its invisibility negated, becoming concealed instead of invisible. This effect applies both if the creature was already invisible and if it benefits from any new invisibility effects before the end of the invisibility negation effect from the &lt;i&gt;golden chrysalis&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target's invisibility is negated for 2 rounds.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target is dazzled for 1 minute and its invisibility is negated for 1 minute.</Description>
+</Item>
+<Item level="6" page="173">
+	<Name>Dispersing Bullet</Name>
+	<Price>50 gp</Price>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Description>The metals used to forge this lead shot were taken from a variety of continents and barely stay together. When an activated &lt;i&gt;dispersing bullet&lt;/i&gt; hits a target, the bullet scatters into a sphere of metal shards as the metals try to return to their places of origin. All creatures in a 10-foot emanation around the target of the attack (and not including the target) must succeed at a DC 21 Fortitude save or be pushed 10 feet from the target (15 feet on a critical failure).</Description>
+</Item>
+<Item level="11" page="175">
+	<Name>Resonating Ammunition</Name>
+	<Price>1,200 gp</Price>
+	<Traits>Consumable, Evocation, Magical, Sonic</Traits>
+	<Description>, bolt&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] InteractThe end of this ammunition is a metallic tuning fork with magical etchings. When an activated &lt;i&gt;resonating arrow&lt;/i&gt; hits its target, the tuning fork resonates with residual energy from the shot, transforming it into dangerous sound waves. This deals 5d10 sonic damage to the target and each creature within 10 feet of it with a basic DC 28 Fortitude save.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

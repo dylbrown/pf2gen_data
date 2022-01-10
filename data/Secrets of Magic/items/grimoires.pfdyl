@@ -1,0 +1,221 @@
+<pf2:Items category="grimoires" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="5" page="163">
+	<Name>Instructions for Lasting Agony</Name>
+	<Price>200 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Grimoire, Magical, Necromancy</Traits>
+	<Description>This worn and stained manual emits a chill when opened.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision (metamagic); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; If your next action is to cast a harmful necromancy spell that you prepared from this grimoire and that allows a saving throw, you warp and twist negative energy into the spell to cause intense pain. If the target fails its saving throw against the spell, it becomes sickened 1 by the pain.</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Bestiary of Metamorphosis</Name>
+	<Price>210 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Grimoire, Magical, Transmutation</Traits>
+	<Description>This grimoire fancifully illustrates the spells you inscribe within it with illuminated drawings of creatures that have never existed, the pictures changing to depict new ones from time to time.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision (polymorph, transmutation); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; You're under the effect of a polymorph spell you prepared from this grimoire that offers a choice of multiple forms; &lt;b&gt;Effect&lt;/b&gt; You transform into a different form allowed by the polymorph by bending and molding the spell's energy. This reduces the spell's remaining duration by half.</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Codex of Unimpeded Sight</Name>
+	<Price>215 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>A female figure peers through her blindfold from the cover of this stately tome.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; Your last action was to cast a divination spell prepared from this grimoire; &lt;b&gt;Effect&lt;/b&gt; The grimoire offers you a glimpse into the truth of things. Seek or Recall Knowledge.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Codex of Unimpeded Sight (Greater)</Name>
+	<Price>1,800 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>A female figure peers through her blindfold from the cover of this stately tome.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; Your last action was to cast a divination spell prepared from this grimoire; &lt;b&gt;Effect&lt;/b&gt; The grimoire offers you a glimpse into the truth of things. Seek or Recall Knowledge.&lt;br&gt;
+
+The frequency of the activation is once per hour instead of once per day. When you use it, you gain a +1 item bonus on your Perception check to Seek or skill check to Recall Knowledge.</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire</Name>
+	<Price>230 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;
+
+The item bonus is +2, and the additional spell is 3rd level.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;
+
+The item bonus is +2, and the additional spell is 5th level.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire (True)</Name>
+	<Price>23,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;
+
+The item bonus is +3, and the additional spell is 7th level.</Description>
+</Item>
+<Item level="6" page="163">
+	<Name>Storyteller's Opus</Name>
+	<Price>230 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Grimoire, Illusion, Magical</Traits>
+	<Description>This green spellbook with gold trim contains a cautionary story about a boy who was eaten by a wolf after he previously lied about wolf attacks. When opened, the engravings on the front seem to move in a loop, enacting this story.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; A creature succeeds, but doesn't critically succeed, at a Perception check to disbelieve an illusion spell you prepared from this grimoire; &lt;b&gt;Effect&lt;/b&gt; You quickly tell a fib to try to smooth over the inconsistencies in your illusion. Attempt a Deception check against the triggering creature's Perception DC. If you succeed, the creature doesn't disbelieve the illusion.</Description>
+</Item>
+<Item level="8" page="163">
+	<Name>Spellbook of Redundant Enchantment</Name>
+	<Price>420 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Enchantment, Grimoire, Magical</Traits>
+	<Description>When opening the book, whispers can be heard on the wind, or laughter rings in the distance.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; You cast an enchantment spell prepared from this grimoire that has no effect because all targets critically succeeded on their saving throws; &lt;b&gt;Effect&lt;/b&gt; You quickly divert the failed enchantment energy into yourself to retain your favored spell in place of another. You lose another spell you prepared of an equal or higher level to the triggering enchantment spell but retain the ability to cast the enchantment spell again.</Description>
+</Item>
+<Item level="8" page="163">
+	<Name>Warding Tablets</Name>
+	<Price>450 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Grimoire, Magical</Traits>
+	<Description>This grimoire takes the form of a series of baked clay tablets. Any text inked upon it turns swiftly into carved depressions.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision (metamagic); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; If your next action is to cast a beneficial abjuration spell on yourself or a single ally, you use the tablets' power to infuse the warding with additional abjurations and attempt to remove a harmful effect. Your spell attempts to counteract a harmful spell effect of your choice on the target. This isn't without risks, however. If your attempt fails to remove the harmful effect, the warding energy is consumed by the unyielding malediction, and you lose the abjuration spell's normal effects. </Description>
+</Item>
+<Item level="8" page="163">
+	<Name>Summoning Handscroll</Name>
+	<Price>480 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Grimoire, Magical</Traits>
+	<Description>Classic summoning circles are engraved into the batons of this massive papyrus scroll.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; If your next action is to cast a conjuration spell prepared from this spellbook that summons one or more creatures, you infuse one of the summoned creatures with the spell's energies, causing it to arrive with 10 temporary Hit Points that last for up to 1 minute.</Description>
+</Item>
+<Item level="10" page="162">
+	<Name>Book of Lingering Blaze</Name>
+	<Price>900 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Grimoire, Magical</Traits>
+	<Description>The common saying, “Where there is progress in the field of magic, there is always someone who uses it to set things on fire,” is engraved in gold on the cover of this red spellbook.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision (metamagic); &lt;b&gt;Effect&lt;/b&gt; If your next action is to cast an evocation spell dealing fire damage that you prepared from this grimoire, you superheat the flames, allowing the spell to ignore up to 10 resistance to fire of creatures affected by the spell.</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire</Name>
+	<Price>230 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;
+
+The item bonus is +2, and the additional spell is 3rd level.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;
+
+The item bonus is +2, and the additional spell is 5th level.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire (True)</Name>
+	<Price>23,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;
+
+The item bonus is +3, and the additional spell is 7th level.</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Codex of Unimpeded Sight</Name>
+	<Price>215 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>A female figure peers through her blindfold from the cover of this stately tome.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; Your last action was to cast a divination spell prepared from this grimoire; &lt;b&gt;Effect&lt;/b&gt; The grimoire offers you a glimpse into the truth of things. Seek or Recall Knowledge.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Codex of Unimpeded Sight (Greater)</Name>
+	<Price>1,800 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>A female figure peers through her blindfold from the cover of this stately tome.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; Your last action was to cast a divination spell prepared from this grimoire; &lt;b&gt;Effect&lt;/b&gt; The grimoire offers you a glimpse into the truth of things. Seek or Recall Knowledge.&lt;br&gt;
+
+The frequency of the activation is once per hour instead of once per day. When you use it, you gain a +1 item bonus on your Perception check to Seek or skill check to Recall Knowledge.</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire</Name>
+	<Price>230 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;
+
+The item bonus is +2, and the additional spell is 3rd level.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;
+
+The item bonus is +2, and the additional spell is 5th level.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire (True)</Name>
+	<Price>23,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;
+
+The item bonus is +3, and the additional spell is 7th level.</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire</Name>
+	<Price>230 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;
+
+The item bonus is +2, and the additional spell is 3rd level.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire (Major)</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;
+
+The item bonus is +2, and the additional spell is 5th level.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="162">
+	<Name>Endless Grimoire (True)</Name>
+	<Price>23,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Grimoire, Magical</Traits>
+	<Description>When opened, this grimoire has unlimited pages that, oddly, seem almost eager to transcribe spells. Unlike most grimoires, it has no limits to its number of spells. The grimoire's eagerness to contain your spells grants you a +1 item bonus to checks to Learn a Spell if you do so by transcribing the spell into the grimoire. If you use the grimoire during your daily preparations and are capable of preparing spells of the appropriate level, the grimoire's nature leaks into your mind, allowing you to prepare an additional 1st-level spell.&lt;br&gt;
+
+The item bonus is +3, and the additional spell is 7th level.</Description>
+</Item>
+</pf2:Items>

@@ -1,0 +1,109 @@
+<pf2:Items category="runes" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Weapon Property Runes">
+<Item level="4" page="180">
+	<Name>Bane</Name>
+	<Price>100 gp</Price>
+	<Traits>Divination, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>A &lt;i&gt;bane&lt;/i&gt; rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures. The crafter chooses aberration, animal, beast, celestial, construct, dragon, elemental, fey, fiend, giant, monitor, ooze, or both fungus and plant. The weapon deals 1d6 additional damage of the weapon's damage type to creatures with the chosen trait or traits. The benefit doesn't apply against creatures of the chosen type disguised as other creatures. It's up to GM discretion whether the &lt;i&gt;bane&lt;/i&gt; rune applies against a creature disguised as a creature of the chosen type.&lt;br&gt;&lt;br&gt; The GM might allow &lt;i&gt;bane&lt;/i&gt; runes for other creature traits, such as astral, dream, or demon. However, humanoids, undead, and specific types of humanoids (such as elves) are never a valid option.</Description>
+</Item>
+<Item level="9" page="184">
+	<Name>Extending</Name>
+	<Price>700 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>An &lt;i&gt;extending&lt;/i&gt; rune allows you to extend your weapon to impossible lengths.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You extend your weapon for an instant, giving you an impossible reach. You Strike with the weapon, and you have reach 60 feet for the Strike.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="184">
+	<Name>Extending (Greater)</Name>
+	<Price>3,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>An &lt;i&gt;extending&lt;/i&gt; rune allows you to extend your weapon to impossible lengths.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You extend your weapon for an instant, giving you an impossible reach. You Strike with the weapon, and you have reach 60 feet for the Strike.&lt;br&gt;
+
+The activation grants you reach 120 feet for the Strike.</Description>
+</Item>
+<Item level="10" page="185">
+	<Name>Impactful</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Evocation, Force, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This rune thrums with pure magical energy. Weapons with the rune deal an additional 1d6 force damage on a successful Strike. On a critical hit, you can choose to force the target to succeed at a DC 27 Fortitude save or be pushed 5 feet away from you.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="185">
+	<Name>Impactful (Greater)</Name>
+	<Price>15,000 gp</Price>
+	<Traits>Evocation, Force, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This rune thrums with pure magical energy. Weapons with the rune deal an additional 1d6 force damage on a successful Strike. On a critical hit, you can choose to force the target to succeed at a DC 27 Fortitude save or be pushed 5 feet away from you.&lt;br&gt;
+
+The save DC is 37, and on a failed save, the foe is pushed 10 feet away from you.</Description>
+</Item>
+<Item level="12" page="180">
+	<Name>Brilliant</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This rune causes a weapon to transform into pure, brilliant energy. The weapon deals an additional 1d4 fire damage on a successful Strike, as well as 1d4 good damage to fiends and 1d4 positive damage to undead. On a critical hit, the target must succeed at a DC 29 Fortitude save or be blinded for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command (light); &lt;b&gt;Effect&lt;/b&gt; You plunge your weapon into darkness to return the light. Attempt a counteract check with a counteract level of 5 and a +19 counteract modifier to end a magical darkness effect whose area is within reach of the weapon.&lt;br&gt;</Description>
+</Item>
+<Item level="12" page="180">
+	<Name>Brilliant (Greater)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This rune causes a weapon to transform into pure, brilliant energy. The weapon deals an additional 1d4 fire damage on a successful Strike, as well as 1d4 good damage to fiends and 1d4 positive damage to undead. On a critical hit, the target must succeed at a DC 29 Fortitude save or be blinded for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command (light); &lt;b&gt;Effect&lt;/b&gt; You plunge your weapon into darkness to return the light. Attempt a counteract check with a counteract level of 5 and a +19 counteract modifier to end a magical darkness effect whose area is within reach of the weapon.&lt;br&gt;
+
+The save DC is 41, the counteract level is 9, the counteract  modifier is +31, and damage dealt by this weapon ignores the target's fire, good, or positive resistance.</Description>
+</Item>
+<Item level="9" page="184">
+	<Name>Extending</Name>
+	<Price>700 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>An &lt;i&gt;extending&lt;/i&gt; rune allows you to extend your weapon to impossible lengths.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You extend your weapon for an instant, giving you an impossible reach. You Strike with the weapon, and you have reach 60 feet for the Strike.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="184">
+	<Name>Extending (Greater)</Name>
+	<Price>3,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>An &lt;i&gt;extending&lt;/i&gt; rune allows you to extend your weapon to impossible lengths.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You extend your weapon for an instant, giving you an impossible reach. You Strike with the weapon, and you have reach 60 feet for the Strike.&lt;br&gt;
+
+The activation grants you reach 120 feet for the Strike.</Description>
+</Item>
+<Item level="10" page="185">
+	<Name>Impactful</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Evocation, Force, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This rune thrums with pure magical energy. Weapons with the rune deal an additional 1d6 force damage on a successful Strike. On a critical hit, you can choose to force the target to succeed at a DC 27 Fortitude save or be pushed 5 feet away from you.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="185">
+	<Name>Impactful (Greater)</Name>
+	<Price>15,000 gp</Price>
+	<Traits>Evocation, Force, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This rune thrums with pure magical energy. Weapons with the rune deal an additional 1d6 force damage on a successful Strike. On a critical hit, you can choose to force the target to succeed at a DC 27 Fortitude save or be pushed 5 feet away from you.&lt;br&gt;
+
+The save DC is 37, and on a failed save, the foe is pushed 10 feet away from you.</Description>
+</Item>
+<Item level="12" page="180">
+	<Name>Brilliant</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This rune causes a weapon to transform into pure, brilliant energy. The weapon deals an additional 1d4 fire damage on a successful Strike, as well as 1d4 good damage to fiends and 1d4 positive damage to undead. On a critical hit, the target must succeed at a DC 29 Fortitude save or be blinded for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command (light); &lt;b&gt;Effect&lt;/b&gt; You plunge your weapon into darkness to return the light. Attempt a counteract check with a counteract level of 5 and a +19 counteract modifier to end a magical darkness effect whose area is within reach of the weapon.&lt;br&gt;</Description>
+</Item>
+<Item level="12" page="180">
+	<Name>Brilliant (Greater)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This rune causes a weapon to transform into pure, brilliant energy. The weapon deals an additional 1d4 fire damage on a successful Strike, as well as 1d4 good damage to fiends and 1d4 positive damage to undead. On a critical hit, the target must succeed at a DC 29 Fortitude save or be blinded for 1 round.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command (light); &lt;b&gt;Effect&lt;/b&gt; You plunge your weapon into darkness to return the light. Attempt a counteract check with a counteract level of 5 and a +19 counteract modifier to end a magical darkness effect whose area is within reach of the weapon.&lt;br&gt;
+
+The save DC is 41, the counteract level is 9, the counteract  modifier is +31, and damage dealt by this weapon ignores the target's fire, good, or positive resistance.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

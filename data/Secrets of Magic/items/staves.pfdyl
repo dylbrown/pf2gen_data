@@ -1,0 +1,212 @@
+<pf2:Items category="staves" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds (Greater)</Name>
+	<Price>1,750 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds (Major)</Name>
+	<Price>10,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds (True)</Name>
+	<Price>70,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="167">
+	<Name>Staff of Nature's Cunning</Name>
+	<Price>250 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Plant, Staff, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Moss and winding vines give this gnarled staff of wild wood a vibrant green tinge. You created this staff to aid you in speaking to the plants you met on your adventure and beseeching them to come to your aid.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="167">
+	<Name>Staff of Nature's Cunning (Greater)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Plant, Staff, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Moss and winding vines give this gnarled staff of wild wood a vibrant green tinge. You created this staff to aid you in speaking to the plants you met on your adventure and beseeching them to come to your aid.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="167">
+	<Name>Staff of Nature's Cunning (Major)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Plant, Staff, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Moss and winding vines give this gnarled staff of wild wood a vibrant green tinge. You created this staff to aid you in speaking to the plants you met on your adventure and beseeching them to come to your aid.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="167">
+	<Name>Staff of Nature's Cunning</Name>
+	<Price>250 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Plant, Staff, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Moss and winding vines give this gnarled staff of wild wood a vibrant green tinge. You created this staff to aid you in speaking to the plants you met on your adventure and beseeching them to come to your aid.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="167">
+	<Name>Staff of Nature's Cunning (Greater)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Plant, Staff, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Moss and winding vines give this gnarled staff of wild wood a vibrant green tinge. You created this staff to aid you in speaking to the plants you met on your adventure and beseeching them to come to your aid.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="167">
+	<Name>Staff of Nature's Cunning (Major)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Plant, Staff, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Moss and winding vines give this gnarled staff of wild wood a vibrant green tinge. You created this staff to aid you in speaking to the plants you met on your adventure and beseeching them to come to your aid.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds (Greater)</Name>
+	<Price>1,750 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds (Major)</Name>
+	<Price>10,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds (True)</Name>
+	<Price>70,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="15" page="165">
+	<Name>Lini's Leafstick</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Plant, Staff, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This staff was created as an example of the personal staves rules.&lt;br&gt;&lt;br&gt;Moss and winding vines give this gnarled staff of wild wood a vibrant green tinge. You created this staff to aid you in speaking to the plants you met on your adventure and beseeching them to come to your aid.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;b&gt;Cantrip&lt;/b&gt; &lt;i&gt;tanglefoot&lt;/i&gt;&lt;b&gt;1st&lt;/b&gt; protector tree, &lt;i&gt;shillelagh&lt;/i&gt;&lt;b&gt;2nd&lt;/b&gt; &lt;i&gt;entangle&lt;/i&gt;, &lt;i&gt;shape wood&lt;/i&gt;&lt;b&gt;3rd&lt;/b&gt; &lt;i&gt;tree shape&lt;/i&gt;, &lt;i&gt;wall of thorns&lt;/i&gt;&lt;b&gt;4th&lt;/b&gt; &lt;i&gt;barkskin&lt;/i&gt;, &lt;i&gt;speak with plants&lt;/i&gt;&lt;b&gt;5th&lt;/b&gt; &lt;i&gt;plant form&lt;/i&gt;, &lt;i&gt;wall of thorns&lt;/i&gt;&lt;b&gt;6th&lt;/b&gt; &lt;i&gt;nature's reprisal&lt;/i&gt;, &lt;i&gt;plant form&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.</Description>
+</Item>
+<Item level="7" page="167">
+	<Name>Staff of Nature's Cunning</Name>
+	<Price>250 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Plant, Staff, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Moss and winding vines give this gnarled staff of wild wood a vibrant green tinge. You created this staff to aid you in speaking to the plants you met on your adventure and beseeching them to come to your aid.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="167">
+	<Name>Staff of Nature's Cunning (Greater)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Plant, Staff, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Moss and winding vines give this gnarled staff of wild wood a vibrant green tinge. You created this staff to aid you in speaking to the plants you met on your adventure and beseeching them to come to your aid.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="167">
+	<Name>Staff of Nature's Cunning (Major)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Plant, Staff, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Moss and winding vines give this gnarled staff of wild wood a vibrant green tinge. You created this staff to aid you in speaking to the plants you met on your adventure and beseeching them to come to your aid.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds (Greater)</Name>
+	<Price>1,750 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds (Major)</Name>
+	<Price>10,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds (True)</Name>
+	<Price>70,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds</Name>
+	<Price>230 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds (Greater)</Name>
+	<Price>1,750 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds (Major)</Name>
+	<Price>10,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="190">
+	<Name>Staff of the Desert Winds (True)</Name>
+	<Price>70,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Abjuration, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This crooked staff is made from twisting acacia wood and has a sphere of rough sandstone embedded in the top, to channel the magic of the desert. When wielding this staff in deserts, you gain a +1 circumstance bonus to Survival checks to Subsist, Track, and Cover Tracks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells&lt;br&gt;</Description>
+</Item>
+</pf2:Items>

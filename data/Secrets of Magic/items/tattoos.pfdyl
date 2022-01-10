@@ -1,0 +1,154 @@
+<pf2:Items category="tattoos" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="3" page="164">
+	<Name>Familiar Tattoo</Name>
+	<Price>60 gp</Price>
+	<Traits>Invested, Magical, Tattoo, Transmutation</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>This tattoo typically consists of an image of a small animal or of a familiar's name written in runes. Your familiar can meld into your &lt;i&gt;familiar tattoo&lt;/i&gt; to be carried in your skin. The familiar must spend a single action, which has the magical, move, and transmutation traits, to meld into or exit your tattoo. It must be adjacent to you to meld into your tattoo, and it exits your tattoo in an open space adjacent to you. Any of the familiar's companion items remain on it, but it can't carry any other items with it. This tattoo is non-magical if you don't have a familiar or if your familiar doesn't remain present for the entire tattooing process. If your familiar dies, this tattoo loses its magic and becomes a mundane tattoo.</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo</Name>
+	<Price>140 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo (Trail)</Name>
+	<Price>250 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;
+
+You gain resistance 2 to damage from hazardous terrain and environmental hazards at all times, which increases to 5 when the tattoo is activated.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo (Wave)</Name>
+	<Price>220 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;
+
+In addition to the normal triggers, you can activate the tattoo when you enter an environment where you can't breathe. When you activate the tattoo, it casts &lt;i&gt;air bubble&lt;/i&gt; on you, in addition to the other effects.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo (Fiend)</Name>
+	<Price>300 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;
+
+You gain resistance 2 to spells cast by fiends and magical attacks by fiends, which increases to 5 when the tattoo is activated.</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo</Name>
+	<Price>140 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo (Trail)</Name>
+	<Price>250 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;
+
+You gain resistance 2 to damage from hazardous terrain and environmental hazards at all times, which increases to 5 when the tattoo is activated.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo (Wave)</Name>
+	<Price>220 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;
+
+In addition to the normal triggers, you can activate the tattoo when you enter an environment where you can't breathe. When you activate the tattoo, it casts &lt;i&gt;air bubble&lt;/i&gt; on you, in addition to the other effects.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo (Fiend)</Name>
+	<Price>300 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;
+
+You gain resistance 2 to spells cast by fiends and magical attacks by fiends, which increases to 5 when the tattoo is activated.</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo</Name>
+	<Price>140 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo (Trail)</Name>
+	<Price>250 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;
+
+You gain resistance 2 to damage from hazardous terrain and environmental hazards at all times, which increases to 5 when the tattoo is activated.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo (Wave)</Name>
+	<Price>220 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;
+
+In addition to the normal triggers, you can activate the tattoo when you enter an environment where you can't breathe. When you activate the tattoo, it casts &lt;i&gt;air bubble&lt;/i&gt; on you, in addition to the other effects.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo (Fiend)</Name>
+	<Price>300 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;
+
+You gain resistance 2 to spells cast by fiends and magical attacks by fiends, which increases to 5 when the tattoo is activated.</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo</Name>
+	<Price>140 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo (Trail)</Name>
+	<Price>250 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;
+
+You gain resistance 2 to damage from hazardous terrain and environmental hazards at all times, which increases to 5 when the tattoo is activated.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo (Wave)</Name>
+	<Price>220 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;
+
+In addition to the normal triggers, you can activate the tattoo when you enter an environment where you can't breathe. When you activate the tattoo, it casts &lt;i&gt;air bubble&lt;/i&gt; on you, in addition to the other effects.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="165">
+	<Name>Warding Tattoo (Fiend)</Name>
+	<Price>300 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>Many cultures of Golarion have a tattoo to turn away harm; as such, warding tattoos often resemble whichever dangers are most common to the culture, such as a wild beast or a whirlpool in the high seas of the Shackles.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; An enemy, hazard, or the environment makes an attack against your AC, requires you to attempt a saving throw, or causes you to take damage automatically; &lt;b&gt;Effect&lt;/b&gt; Until the end of the current turn, against the triggering effect, you gain a +1 status bonus to AC and saving throws and gain resistance 2 to damage.&lt;br&gt;
+
+You gain resistance 2 to spells cast by fiends and magical attacks by fiends, which increases to 5 when the tattoo is activated.</Description>
+</Item>
+<Item level="12" page="165">
+	<Name>Rune of Sin</Name>
+	<Price>1,700 gp</Price>
+	<Traits>Arcane, Invested, Tattoo</Traits>
+	<Usage>tattooed on the body</Usage>
+	<Description>This jagged glyph, one of the Thassilonian runes of sin, reacts to magic of a particular school (there's no rune for divination, as it was considered lesser within sin magic). When you Cast a Spell of the school matching the sin, you gain resistance 5 to damage from spells until the start of your next turn. This resistance is increased to 7 against spells of the matching school. This tattoo has the school trait matching the rune: abjuration for envy, necromancy for gluttony, transmutation for greed, enchantment for lust, illusion for pride, conjuration for sloth, and evocation for wrath.</Description>
+</Item>
+</pf2:Items>
