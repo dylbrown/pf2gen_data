@@ -5,11 +5,15 @@
     <Category>Rulebooks</Category>
     <Dependencies>
         <Dependency>Core Rulebook</Dependency>
+        <Dependency>Advanced Player's Guide</Dependency>
     </Dependencies>
     <Description>&lt;h2&gt;Secrets of Magic&lt;/h2&gt;&lt;p&gt;Discover the untold potential of magic! Secrets of Magic, the newest hardcover rulebook for the Pathfinder Roleplaying Game! Secrets of Magic brings the popular magus and summoner classes into Pathfinder Second Edition, unlocking heroes who combine magical might with martial prowess and offering command of a powerful magical companion creature. The lavishly illustrated, 256-page rulebook contains hundreds of new spells with potent offerings for all spellcasting character classes, magic items for any player character, and lore detailing the fundamental structure and theories of magic. A special section within the volume—the Book of Unlimited Magic—presents new methods of spellcasting, with elementalism, geomancy, shadow magic, rune magic, and even pervasive magic to give every place and creature in your game a magical spin!&lt;/p&gt;
 
         &lt;p&gt;Written by Logan Bonner, Mark Seifter, and Amirali Attar Olyaee, Kate Baker, Minty Belmont, Logan Bonner, James Case, Jessica Catalan, John Compton, Katina Davis, Jesse Decker, Chris Eng, Eleanor Ferron, Leo Glass, Joan Hong, Vanessa Hoskins, Jason Keeley, Joshua Kim, Luis Loza, Ron Lundeen, Liane Merciel, David N. Ross, Ianara Natividad, Chesley Oxendine, Stephen Radney‑MacFarland, Shiv Ramdas, Mikhail Rekun, Simone D. Sallé, Michael Sayre, Mark Seifter, Sen H.H.S., Shay Snow, Kendra Leigh Speedling, Tan Shao Han, Calliope Lee Taylor, Mari Tokuda, Jason Tondro, Clark Valentine, Ruvaid Virk, Andrew White, Landon Winkler, Tonya Woldridge, and Isis Wozniakowska&lt;/p&gt;
     </Description>
+    <Choices>
+        <Category name="Druidic Order" path="classes/Druid_orders.pfdyl" />
+    </Choices>
     <Classes>
         <Class name="Magus" path="classes/Magus.pfdyl" />
     </Classes>
@@ -25,6 +29,9 @@
         <Category name="Tattoos" path="items/tattoos.pfdyl" />
         <Category name="Worn Items" path="items/worn_items.pfdyl" />
     </Equipment>
+    <Feats>
+        <Category name="Druid" path="classes/Druid_feats.pfdyl" type="Class" />
+    </Feats>
     <Spells>
         <Category name="Focus Spells" path="spells/focus_spells.pfdyl" />
         <Category name="Spells" path="spells/spells.pfdyl" />

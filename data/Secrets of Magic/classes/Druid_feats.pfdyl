@@ -1,0 +1,70 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Ability name="Fire Lung" level="1" page="198">
+        <Traits>Druid</Traits>
+        <Prerequisites>Flame Order</Prerequisites>
+        <Description>A lifetime of proximity to flames has inured your lungs and eyes to smoke. You can breathe normally in areas of ash and smoke without risk of suffocation, and you ignore the concealed condition from smoke. You need only a successful DC 10 flat check to recover from persistent fire damage, rather than DC 15 (and the DC when receiving particularly effective assistance is 5 instead of 10).</Description>
+    </Ability>
+    <Ability name="Shore Step" level="1" page="198">
+        <Traits>Druid</Traits>
+        <Prerequisites>Wave Order</Prerequisites>
+        <Description>The shallows and tide pools have always called to you and let you pass unhindered. You ignore difficult terrain resulting from shallow water. In addition, if you roll a success on an Acrobatics check to Balance on a slippery or wet surface, or on an Athletics check to Swim, you get a critical success instead.</Description>
+    </Ability>
+    <Ability name="Steadying Stone" level="1" page="198">
+        <Traits>Druid</Traits>
+        <Prerequisites>Stone Order</Prerequisites>
+        <Description>The earth has taught you how to remain unyielding and firm. If you roll a success on an Acrobatics check made to Balance on uneven ground composed of earth or rock, you get a critical success instead. As long as you remain on the ground, you gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to Shove or Trip you. This bonus also applies to saving throws against spells or effects that would attempt to knock you prone. If you're a rock dwarf, this bonus increases to +3.</Description>
+    </Ability>
+    <Ability name="Enhanced Familiar" level="2" page="42">
+        <Traits>Druid, Magus, Sorcerer, Witch, Wizard</Traits>
+        <Prerequisites>A Familiar</Prerequisites>
+        <Description>You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt;&lt;br&gt; (Wizard) If your arcane thesis is improved familiar attunement, your familiar's base number of familiar abilities, before adding any extra abilities from the arcane thesis, is four.&lt;br&gt;(Witch) Add the bonus familiar abilities you gain for being a witch to this amount.Archetype UseThis feat can be used for one or more Archetypes in addition to the listed Classes. When selected this way, the feat is not considered to have its class traits.Enhanced Familiar Leads To...Incredible Familiar (Familiar Master), Incredible Familiar (Witch)</Description>
+    </Ability>
+    <Ability name="Fire Resistance" level="4" page="199">
+        <Traits>Druid</Traits>
+        <Prerequisites>Flame Order</Prerequisites>
+        <Description>Your connection to heat and flame means that fire is reluctant to bring its full force to bear against you. You gain fire resistance equal to half your level, and you gain a +1 circumstance bonus to saving throws against fire effects.</Description>
+    </Ability>
+    <Ability name="Natural Swimmer" level="4" page="199">
+        <Traits>Druid</Traits>
+        <Prerequisites>Wave Order</Prerequisites>
+        <Description>Water flows around you, letting you cut through the waves as if born to it. You gain a swim Speed of 15 feet. If you already have a permanent swim Speed, swimming up or down isn't difficult terrain.</Description>
+    </Ability>
+    <Ability name="Sheltering Cave" level="4" page="199">
+        <Traits>Conjuration, Druid, Earth, Exploration, Primal</Traits>
+        <Prerequisites>Stone Order</Prerequisites>
+        <Requirements>You're standing on ground composed of earth, stone, or a similar material.</Requirements>
+        <Description>You spend 10 minutes communing with spirits of earth and stone, requesting shelter. At the end of this time, the earth rises and opens, forming a small cave or earthen mound 20 feet in diameter and 10 feet high. This cave has the structure trait and the same restrictions as structures created by magic items. The cave has a single entrance and provides shelter from the elements. The cave remains for 12 hours or until you spend 10 minutes coaxing the earth to close.</Description>
+    </Ability>
+    <Ability name="Advanced Elemental Spell" level="6" page="199">
+        <Traits>Druid</Traits>
+        <Prerequisites>Flame Order, Stone Order, Storm Order, Or Wave Order</Prerequisites>
+        <Description>Your connection to one of the great elemental aspects of nature deepens, allowing you further control over its powers. You gain the advanced order spell associated with your order: if you're a member of the flame order, you gain combustion; if you're a member of the stone order, you gain stone lance; if you're a member of the storm order, you gain powerful inhalation; if you're a member of the wave order, you gain pulverizing cascade. Increase the number of Focus Points in your focus pool by 1.</Description>
+    </Ability>
+    <Ability name="Fiery Retort" level="8" page="199">
+        <Traits>Druid, Evocation, Fire</Traits>
+        <Prerequisites>Flame Order</Prerequisites>
+        <Trigger>An opponent adjacent to you hits you with a melee weapon or a melee unarmed attack.</Trigger>
+        <Frequency>once per minute</Frequency>
+        <Description>Ignoring your pain, you sear your attacker with a wave of flame. The triggering opponent takes fire damage equal to your level. </Description>
+    </Ability>
+    <Ability name="Harden Flesh" level="10" page="200">
+        <Traits>Druid, Earth</Traits>
+        <Prerequisites>Stone Order</Prerequisites>
+        <Requirements>You're standing on earthen or stone ground.</Requirements>
+        <Description>You fortify your skin with minerals drawn from earth and stone. You gain resistance 3 to physical damage, except adamantine, until the beginning of your next turn. At 12th level, and every 4 levels thereafter, the resistance increases by 1, to a maximum of resistance 6 at 20th level.</Description>
+    </Ability>
+    <Ability name="Purifying Spell" level="12" page="200">
+        <Traits>Concentrate, Druid, Metamagic, Water</Traits>
+        <Prerequisites>Wave Order</Prerequisites>
+        <Description>You purify the water within a creature's body to cleanse them of illness. If the next action you use is to cast heal targeting a single living creature, you can attempt to counteract a disease or poison affecting the target, in addition to the other benefits of &lt;i&gt;heal&lt;/i&gt;. If you do, &lt;i&gt;heal&lt;/i&gt; gains the water trait. </Description>
+    </Ability>
+    <Ability name="Effortless Concentration" level="16" page="72">
+        <Traits>Bard, Druid, Sorcerer, Summoner, Witch, Wizard</Traits>
+        <Trigger>Your turn begins.</Trigger>
+        <Description>You maintain a spell with hardly a thought. You immediately gain the effects of the Sustain a Spell action, allowing you to extend the duration of one of your active class spells.</Description>
+    </Ability>
+
+</pf2:feats>
