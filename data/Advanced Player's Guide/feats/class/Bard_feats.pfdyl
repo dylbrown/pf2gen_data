@@ -1,7 +1,7 @@
 <?xml version = "1.0"?>
 <pf2:feats xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+           xsi:schemaLocation="https://dylbrown.github.io ../../../../schemata/abc/class.xsd">
     <Ability name="Hymn of Healing" level="1" page="112">
         <Traits>Bard</Traits>
         <Description>You learn the hymn of healing composition spell, which imbues your music with rich melodies that help your allies recover from harm.</Description>

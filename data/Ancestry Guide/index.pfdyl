@@ -21,6 +21,7 @@
     </Ancestries>
     <Feats>
         <Category name="Leshy" path="ancestries/Leshy_feats.pfdyl" type="Ancestry" />
+        <Category name="Lizardfolk" path="ancestries/Lizardfolk_feats.pfdyl" type="Ancestry" />
     </Feats>
     <Setting>
         <Category name="Languages" path="languages.pfdyl" />

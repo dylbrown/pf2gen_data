@@ -1,0 +1,44 @@
+<pf2:Items category="held_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="2" page="121">
+	<Name>Bottomless Stein</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A magic item regarded as holy by followers of Cayden Cailean, this ornate metallic stein is always filled to the brim with delicious ale, no matter how much is drunk or spilled. If it is emptied (such as by being gulped quickly or upended onto the floor), the &lt;i&gt;bottomless stein&lt;/i&gt; will fill again within 1 round as long as it is right side up, though it’s impossible to transfer the ale to another container to sell it or store it for later. The exact type of ale with which the stein is filled is determined at the item’s creation, and cannot be changed thereafter.</Description>
+</Item>
+<Item level="3" page="121">
+	<Name>Abadar's Flawless Scale</Name>
+	<Price>50 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Divination, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This immaculate golden set of merchant’s scales is considered a divine instrument among Abadar’s most faithful. Unlike most scales, this one has only a single dish for placing small objects, and calculates value rather than weight. On the other side of the fulcrum, a steel arrow indicator points to various numbers engraved on the side of the scale. By placing an object of light Bulk onto the dish, you can determine its value in gold pieces in the market in which the scale was made (most of these scales are made in Katapesh or Absalom), based on its material composition and artisanship. For example, after placing a gemstone on the dish, the scale will indicate the fairest (average, in most cases) price you can expect to fetch in the market to which the scale is calibrated, but the scale wouldn’t detect the gemstone’s historical significance or any magical properties. &lt;i&gt;Abadar’s flawless scale&lt;/i&gt; can be calibrated to a different market by performing a 1-hour ritual in the proximity of that market.</Description>
+</Item>
+<Item level="4" page="123">
+	<Name>Mortar of Hidden Meaning</Name>
+	<Price>75 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This matching mortar and pestle are made from immaculate darkwood that looks nearly olive in the right light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (Interact); &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You use the &lt;i&gt;mortar of hidden meaning&lt;/i&gt; to grind tea leaves (or another suitable substance for making a hot beverage). While grinding the tea leaves, which takes no less than 1 minute, you can speak a message into the mortar. After the leaves are steeped in hot water, the first person who drinks from the resulting brew hears the message whispered in their ear.</Description>
+</Item>
+<Item level="9" page="122">
+	<Name>Dreadsmoke Thurible</Name>
+	<Price>600 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This black-and-gray thurible is decorated with a skeleton motif; the jaw of one of the decorative skulls unhinges, allowing you to load it with incense as an action. A long, thin chain is connected to the top of the thurible.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Cost&lt;/b&gt; incense worth at least 5 gp; &lt;b&gt;Effect&lt;/b&gt; You swing the thurible around you, spreading inky black smoke in a 20-foot emanation that has the effect of &lt;i&gt;obscuring mist&lt;/i&gt;. Undead creatures can see through the smoke as if it didn’t exist. Negative energy also disrupts the magic of the smoke; anyone who uses a negative effect, along with creatures affected by a negative effect, can see through the smoke for 1 round.</Description>
+</Item>
+<Item level="11" page="123">
+	<Name>Singing Bowl of the Versatile Stance</Name>
+	<Price>1,175 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>In true Iroran form, the simplicity of this small, inverted copper bell belies its flawlessness. When struck with a mallet (included with the singing bowl), it emits a harmonious tone that inspires bodily perfection in those who know how to hear it.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact (auditory); &lt;b&gt;Effect&lt;/b&gt; While holding the &lt;i&gt;singing bowl of the versatile stance&lt;/i&gt; with one hand, you strike the lip of it with a mallet held in the other. Anyone within 60 feet currently in a stance can spend a reaction to use one of their stance actions in order to change to a different stance.</Description>
+</Item>
+</pf2:Items>

@@ -1,10 +1,16 @@
 <?xml version = "1.0"?>
 <pf2:feats xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+           xsi:schemaLocation="https://dylbrown.github.io ../../../../schemata/abc/class.xsd">
     <Ability name="Gorilla Stance" level="1" page="128" cost="1">
         <Traits>Monk, Stance</Traits>
         <Description>You lower yourself to the ground and take an imposing, knuckle-walking stance. While in this stance, the only Strikes you can make are gorilla slam unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the backswing, forceful, grapple, nonlethal, and unarmed traits. While you are in Gorilla Stance, you gain a +2 circumstance bonus to Athletics checks to Climb, and if you roll a success on an Athletics check to Climb, you get a critical success instead.</Description>
+        <Weapon>
+            <Name>Gorilla Slam</Name>
+            <Damage>1d8 B</Damage>
+            <Group>Brawling</Group>
+            <Traits>Backswing, Forceful, Grapple, Nonlethal, Unarmed</Traits>
+        </Weapon>
     </Ability>
     <Ability name="Monastic Archer Stance" level="1" page="128" cost="1">
         <Traits>Monk, Stance</Traits>
@@ -16,6 +22,12 @@
         <Archetype>Martial Artist*</Archetype>
         <Prerequisites>Trained In Deception</Prerequisites>
         <Description>You enter a seemingly unfocused stance that mimics the movements of the inebriated—bobbing, weaving, leaving false openings, and distracting your enemies from your true movements. While in this stance, you gain a +1 circumstance bonus to Deception checks to Feint. The only Strikes you can make are stumbling swing unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the agile, backstabber, finesse, nonlethal, and unarmed traits. If an enemy hits you with a melee Strike while in this stance, it becomes flat-footed against the next stumbling swing Strike you make against it before the end of your next turn.Archetype UseThis feat can be used for one or more Archetypes in addition to the listed Classes. When selected this way, the feat is not considered to have its class traits.</Description>
+        <Weapon>
+            <Name>Stumbling Swing</Name>
+            <Damage>1d8 B</Damage>
+            <Group>Brawling</Group>
+            <Traits>Agile, Backstabber, Finesse, Nonlethal, Unarmed</Traits>
+        </Weapon>
     </Ability>
     <Ability name="Ancestral Weaponry" level="2" page="128">
         <Traits>Monk</Traits>
@@ -30,6 +42,12 @@
     <Ability name="Cobra Stance" level="4" page="128" cost="1">
         <Traits>Monk, Stance</Traits>
         <Description>You enter a tight stance, coiled up like a lashing cobra with your hands poised as venomous fangs. While in this stance, the only Strikes you can make are cobra fang unarmed attacks. These deal 1d4 poison damage; are in the brawling group; and have the agile, deadly d10, finesse, nonlethal, poison, and unarmed traits.&lt;br&gt;&lt;br&gt; While in Cobra Stance, you gain a +1 circumstance bonus to Fortitude saves and your Fortitude DC, and you gain poison resistance equal to half your level.</Description>
+        <Weapon>
+            <Name>Stumbling Swing</Name>
+            <Damage>1d4 P</Damage>
+            <Group>Brawling</Group>
+            <Traits>agile, deadly d10, finesse, nonlethal, poison, Unarmed</Traits>
+        </Weapon>
     </Ability>
     <Ability name="Peafowl Stance" level="4" page="128" cost="1">
         <Traits>Monk, Stance</Traits>

@@ -1,0 +1,104 @@
+<pf2:Items category="consumables" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Other Consumables">
+<Item level="4" page="122">
+	<Name>Deteriorating Dust</Name>
+	<Price>15 gp</Price>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Contained in a specially enchanted small leather or hide sack, &lt;i&gt;deteriorating dust&lt;/i&gt; is a potent caustic agent and a prized item among Rovagug’s more discreet followers.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You sprinkle the &lt;i&gt;deteriorating dust&lt;/i&gt; over an unattended Medium or smaller object. The dust quickly fades to a transparent color and the object immediately begins to rust, melt, or otherwise fall apart. For the listed time, the object takes constant damage; if the object has a Hardness, then the dust gradually reduces the object’s Hardness instead. If the &lt;i&gt;deteriorating dust&lt;/i&gt; is still active after the object’s Hardness is reduced to 0, it deals damage to the object as previously described. If the object survives, reduced Hardness returns after the dust’s duration expires, but any damage remains.&lt;br&gt;
+
+The affected object takes 1 damage per 3 hours (8 damage per day) and its Hardness is reduced by 1 per hour. The effect lasts for 3 days.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="122">
+	<Name>Extended Deteriorating Dust</Name>
+	<Price>45 gp</Price>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Contained in a specially enchanted small leather or hide sack, &lt;i&gt;deteriorating dust&lt;/i&gt; is a potent caustic agent and a prized item among Rovagug’s more discreet followers.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You sprinkle the &lt;i&gt;deteriorating dust&lt;/i&gt; over an unattended Medium or smaller object. The dust quickly fades to a transparent color and the object immediately begins to rust, melt, or otherwise fall apart. For the listed time, the object takes constant damage; if the object has a Hardness, then the dust gradually reduces the object’s Hardness instead. If the &lt;i&gt;deteriorating dust&lt;/i&gt; is still active after the object’s Hardness is reduced to 0, it deals damage to the object as previously described. If the object survives, reduced Hardness returns after the dust’s duration expires, but any damage remains.&lt;br&gt;
+
+The affected object takes 1 damage per 3 hours (8 damage per day) and its Hardness is reduced by 1 per hour. The effect lasts for 1 week.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="122">
+	<Name>Caustic Deteriorating Dust</Name>
+	<Price>105 gp</Price>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Contained in a specially enchanted small leather or hide sack, &lt;i&gt;deteriorating dust&lt;/i&gt; is a potent caustic agent and a prized item among Rovagug’s more discreet followers.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You sprinkle the &lt;i&gt;deteriorating dust&lt;/i&gt; over an unattended Medium or smaller object. The dust quickly fades to a transparent color and the object immediately begins to rust, melt, or otherwise fall apart. For the listed time, the object takes constant damage; if the object has a Hardness, then the dust gradually reduces the object’s Hardness instead. If the &lt;i&gt;deteriorating dust&lt;/i&gt; is still active after the object’s Hardness is reduced to 0, it deals damage to the object as previously described. If the object survives, reduced Hardness returns after the dust’s duration expires, but any damage remains.&lt;br&gt;
+
+The affected object takes 1 damage per hour (24 damage per day) and its Hardness is reduced by 1 per hour. The effect lasts for 3 days.</Description>
+</Item>
+<Item level="5" page="121">
+	<Name>Dagger of Eternal Sleep</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Necromancy</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This tiny serrated dagger looks like a miniature sawtooth sabre. Until activated, it is too small and ornamental to function as a weapon, which might allow it to be passed off as a weapon-shaped decoration.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; You transform the &lt;i&gt;dagger of eternal sleep&lt;/i&gt; into a &lt;i&gt;+1 grievous striking dagger&lt;/i&gt; and Strike an unconscious target with the dagger. If you are not in an encounter or otherwise threatened and you roll a hit with your Strike, you get a critical hit instead. The damage from the Strike and the bleed from the critical specialization effect do not awaken the target, though the target becomes temporarily immune to this effect until the next time it wakes up, meaning further &lt;i&gt;daggers of eternal sleep&lt;/i&gt; awaken it as normal. The dagger disintegrates immediately after use.</Description>
+</Item>
+<Item level="4" page="122">
+	<Name>Deteriorating Dust</Name>
+	<Price>15 gp</Price>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Contained in a specially enchanted small leather or hide sack, &lt;i&gt;deteriorating dust&lt;/i&gt; is a potent caustic agent and a prized item among Rovagug’s more discreet followers.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You sprinkle the &lt;i&gt;deteriorating dust&lt;/i&gt; over an unattended Medium or smaller object. The dust quickly fades to a transparent color and the object immediately begins to rust, melt, or otherwise fall apart. For the listed time, the object takes constant damage; if the object has a Hardness, then the dust gradually reduces the object’s Hardness instead. If the &lt;i&gt;deteriorating dust&lt;/i&gt; is still active after the object’s Hardness is reduced to 0, it deals damage to the object as previously described. If the object survives, reduced Hardness returns after the dust’s duration expires, but any damage remains.&lt;br&gt;
+
+The affected object takes 1 damage per 3 hours (8 damage per day) and its Hardness is reduced by 1 per hour. The effect lasts for 3 days.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="122">
+	<Name>Extended Deteriorating Dust</Name>
+	<Price>45 gp</Price>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Contained in a specially enchanted small leather or hide sack, &lt;i&gt;deteriorating dust&lt;/i&gt; is a potent caustic agent and a prized item among Rovagug’s more discreet followers.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You sprinkle the &lt;i&gt;deteriorating dust&lt;/i&gt; over an unattended Medium or smaller object. The dust quickly fades to a transparent color and the object immediately begins to rust, melt, or otherwise fall apart. For the listed time, the object takes constant damage; if the object has a Hardness, then the dust gradually reduces the object’s Hardness instead. If the &lt;i&gt;deteriorating dust&lt;/i&gt; is still active after the object’s Hardness is reduced to 0, it deals damage to the object as previously described. If the object survives, reduced Hardness returns after the dust’s duration expires, but any damage remains.&lt;br&gt;
+
+The affected object takes 1 damage per 3 hours (8 damage per day) and its Hardness is reduced by 1 per hour. The effect lasts for 1 week.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="122">
+	<Name>Caustic Deteriorating Dust</Name>
+	<Price>105 gp</Price>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Contained in a specially enchanted small leather or hide sack, &lt;i&gt;deteriorating dust&lt;/i&gt; is a potent caustic agent and a prized item among Rovagug’s more discreet followers.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You sprinkle the &lt;i&gt;deteriorating dust&lt;/i&gt; over an unattended Medium or smaller object. The dust quickly fades to a transparent color and the object immediately begins to rust, melt, or otherwise fall apart. For the listed time, the object takes constant damage; if the object has a Hardness, then the dust gradually reduces the object’s Hardness instead. If the &lt;i&gt;deteriorating dust&lt;/i&gt; is still active after the object’s Hardness is reduced to 0, it deals damage to the object as previously described. If the object survives, reduced Hardness returns after the dust’s duration expires, but any damage remains.&lt;br&gt;
+
+The affected object takes 1 damage per hour (24 damage per day) and its Hardness is reduced by 1 per hour. The effect lasts for 3 days.</Description>
+</Item>
+<Item level="4" page="122">
+	<Name>Deteriorating Dust</Name>
+	<Price>15 gp</Price>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Contained in a specially enchanted small leather or hide sack, &lt;i&gt;deteriorating dust&lt;/i&gt; is a potent caustic agent and a prized item among Rovagug’s more discreet followers.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You sprinkle the &lt;i&gt;deteriorating dust&lt;/i&gt; over an unattended Medium or smaller object. The dust quickly fades to a transparent color and the object immediately begins to rust, melt, or otherwise fall apart. For the listed time, the object takes constant damage; if the object has a Hardness, then the dust gradually reduces the object’s Hardness instead. If the &lt;i&gt;deteriorating dust&lt;/i&gt; is still active after the object’s Hardness is reduced to 0, it deals damage to the object as previously described. If the object survives, reduced Hardness returns after the dust’s duration expires, but any damage remains.&lt;br&gt;
+
+The affected object takes 1 damage per 3 hours (8 damage per day) and its Hardness is reduced by 1 per hour. The effect lasts for 3 days.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="122">
+	<Name>Extended Deteriorating Dust</Name>
+	<Price>45 gp</Price>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Contained in a specially enchanted small leather or hide sack, &lt;i&gt;deteriorating dust&lt;/i&gt; is a potent caustic agent and a prized item among Rovagug’s more discreet followers.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You sprinkle the &lt;i&gt;deteriorating dust&lt;/i&gt; over an unattended Medium or smaller object. The dust quickly fades to a transparent color and the object immediately begins to rust, melt, or otherwise fall apart. For the listed time, the object takes constant damage; if the object has a Hardness, then the dust gradually reduces the object’s Hardness instead. If the &lt;i&gt;deteriorating dust&lt;/i&gt; is still active after the object’s Hardness is reduced to 0, it deals damage to the object as previously described. If the object survives, reduced Hardness returns after the dust’s duration expires, but any damage remains.&lt;br&gt;
+
+The affected object takes 1 damage per 3 hours (8 damage per day) and its Hardness is reduced by 1 per hour. The effect lasts for 1 week.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="122">
+	<Name>Caustic Deteriorating Dust</Name>
+	<Price>105 gp</Price>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Contained in a specially enchanted small leather or hide sack, &lt;i&gt;deteriorating dust&lt;/i&gt; is a potent caustic agent and a prized item among Rovagug’s more discreet followers.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You sprinkle the &lt;i&gt;deteriorating dust&lt;/i&gt; over an unattended Medium or smaller object. The dust quickly fades to a transparent color and the object immediately begins to rust, melt, or otherwise fall apart. For the listed time, the object takes constant damage; if the object has a Hardness, then the dust gradually reduces the object’s Hardness instead. If the &lt;i&gt;deteriorating dust&lt;/i&gt; is still active after the object’s Hardness is reduced to 0, it deals damage to the object as previously described. If the object survives, reduced Hardness returns after the dust’s duration expires, but any damage remains.&lt;br&gt;
+
+The affected object takes 1 damage per hour (24 damage per day) and its Hardness is reduced by 1 per hour. The effect lasts for 3 days.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Talismans">
+<Item level="10" page="122">
+	<Name>Lucky Rabbit's Foot</Name>
+	<Price>175 gp</Price>
+	<Traits>Consumable, Divination, Fortune, Magical, Talisman</Traits>
+	<Usage>affixed to armor</Usage>
+	<Description>This treated rabbit’s foot has shockingly blue fur and is often carried by vagabonds who worship Desna. When you activate the foot, reroll the triggering Reflex save. If you fail the second roll as well, you can Stride up to your Speed.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

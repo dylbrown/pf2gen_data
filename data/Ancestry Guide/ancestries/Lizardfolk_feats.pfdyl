@@ -1,0 +1,74 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Ability name="Bone Magic" level="1" page="45">
+        <Traits>Lizardfolk</Traits>
+        <Description>Your connection to your iruxi ancestors manifests as a simple primal spell that you cast using a fragment of an ancestor's bones. Choose one cantrip from the primal spell list. You can cast this cantrip as a primal innate spell at will, and it's heightened to a spell level equal to half your level rounded up.</Description>
+        <Spellcasting listName="Lizardfolk" tradition="Primal" type="Spontaneous" ability="Cha" />
+        <SpellSlots count="1" level="0" />
+    </Ability>
+    <Ability name="Consult the Stars" level="1" page="46">
+        <Traits>Lizardfolk</Traits>
+        <Description>You find wisdom in the movements of the heavens. Once per day, you can spend 10 minutes to draw upon your readings of a recent night's sky to gain the trained proficiency rank in one skill of your choice; the chosen skill's key attribute must be Charisma, Intelligence, or Wisdom. This proficiency lasts until your next daily preparation. Since this proficiency is temporary, you can't use it as a prerequisite for a skill increase or a permanent character option like a feat.</Description>
+    </Ability>
+    <Ability name="Lightning Tongue" level="1" page="46">
+        <Traits>Lizardfolk</Traits>
+        <Description>Your tongue darts out faster than the eye can see to retrieve loose objects. You Interact to pick up a single unattended object of light Bulk or less within 10 feet of you. If you don't have enough hands free to hold the object, it falls to the ground in your space.</Description>
+    </Ability>
+    <Ability name="Reptile Rider" level="1" page="46">
+        <Traits>Lizardfolk</Traits>
+        <Description>To you, crocodilians, giant lizards, and dinosaurs are loyal steeds, not monsters. You gain the Ride feat, even if you don't meet the prerequisites. You gain a +1 circumstance bonus to Nature checks to Handle an Animal as long as the animal is a reptile, dinosaur, or even a non-sapient dragon.</Description>
+    </Ability>
+    <Ability name="Flexible Tail" level="5" page="46">
+        <Traits>Lizardfolk</Traits>
+        <Description>You can perform simple Interact actions with your tail, such as opening an unlocked door. Your tail can't perform actions that require fingers or significant manual dexterity, including any action that would require a check to accomplish, and you can't use it to hold items.</Description>
+    </Ability>
+    <Ability name="Guided by the Stars" level="5" page="46">
+        <Traits>Fortune, Lizardfolk</Traits>
+        <Trigger>You are about to attempt a skill check or saving throw.</Trigger>
+        <Frequency>once per day</Frequency>
+        <Description>The stars grant you insights that guide your actions. You roll twice and take the better result. If it's night and you can see the stars, you gain a +1 circumstance bonus to the triggering roll.</Description>
+    </Ability>
+    <Ability name="Iruxi Glide" level="5" page="46">
+        <Traits>Lizardfolk</Traits>
+        <Prerequisites>Cloudleaper Lizardfolk Heritage</Prerequisites>
+        <Description>You glide slowly toward the ground, 5 feet down and up to 25 feet forward through the air. As long as you spend at least 1 action gliding each round and haven't yet reached the ground, you remain in the air at the end of your turn.</Description>
+    </Ability>
+    <Ability name="Tongue Disarm" level="5" page="46">
+        <Traits>Lizardfolk</Traits>
+        <Prerequisites>Lightning Tongue, Trained In Athletics</Prerequisites>
+        <Description>You lash out with your tongue to disarm your foe. You attempt to Disarm a creature within 10 feet, ignoring the requirement that you must have at least one hand free.</Description>
+    </Ability>
+    <Ability name="Bone Caller" level="9" page="47">
+        <Traits>Lizardfolk</Traits>
+        <Description>Using a mixture of dinosaur bones and the bones of your ancestors to focus your magic, you animate lizards and dinosaurs to carry messages or serve as mounts. You can cast animal messenger and phantom steed as primal innate spells once per day each. The animal messenger is always a Tiny dinosaur or lizard, and your innate spell transforms it from bones to flesh, even if there are no dinosaurs or lizards nearby. The &lt;i&gt;phantom steed&lt;/i&gt; looks like a dinosaur rather than a horse but functions identically.</Description>
+    </Ability>
+    <Ability name="Dangle" level="9" page="47">
+        <Traits>Lizardfolk</Traits>
+        <Prerequisites>Flexible Tail</Prerequisites>
+        <Description>You can hang by your tail from any suitable anchor point, such as a tree branch, balcony, or rocky outcropping (subject to the GM's discretion), typically while climbing. While hanging, you have free use of all your other limbs, so you can perform tasks that require both hands, such as firing a bow or swinging a greatsword.</Description>
+    </Ability>
+    <Ability name="Read the Stars" level="9" page="47">
+        <Traits>Lizardfolk</Traits>
+        <Prerequisites>Trained In Lore(Astrology) Or Trained in Occultism</Prerequisites>
+        <Description>You're incredibly skilled in iruxi astrology, and you can gain useful (if cryptic) hints from the stars' alignment. Once per night, if you can clearly see the stars, you can spend 1 hour reading the heavens to see how they relate to a particular goal, event, or activity that will occur within 1 week. The GM rolls a secret check, either a DC 28 Astrology Lore check or a DC 32 Occultism check. On a success, you learn a cryptic clue or piece of advice that could help with the chosen event, and on a critical failure, you learn a misleading cryptic clue or piece of advice.</Description>
+    </Ability>
+    <Ability name="Bone Investiture" level="13" page="47">
+        <Traits>Lizardfolk</Traits>
+        <Description>You encase yourself in spiritual dinosaur bones to become a Huge dinosaur. You can cast dinosaur form on yourself as a 5th-level primal innate spell once per day.</Description>
+        <Spellcasting listName="Lizardfolk" tradition="Primal" type="Spontaneous" ability="Cha" />
+        <Spell type="Spell" name="Detect Magic"/>
+    </Ability>
+    <Ability name="Iruxi Spirit Strike" level="13" page="47">
+        <Traits>Lizardfolk</Traits>
+        <Description>Your iruxi unarmed attacks channel the spiritual energy of your ancestors. Any unarmed attacks you acquire from iruxi heritages or ancestry feats gain the effects of a ghost touch property rune.</Description>
+    </Ability>
+    <Ability name="Scion Transformation" level="17" page="47">
+        <Traits>Lizardfolk, Primal, Transmutation</Traits>
+        <Description>You go into hibernation for 24 hours and perform a ritual dedicated to your ancestors, undergoing a one-time metamorphosis. You permanently gain the effects of enlarge, and your maximum Hit Points increase by your level. The ritual transforms most of your gear to the appropriate size for your new body (though powerful items like artifacts or items strongly tied to their original size may not transform, at the GM's discretion).</Description>
+        <CustomMod recalculate="On Level">
+            bonus("hp", level);
+        </CustomMod>
+    </Ability>
+</pf2:feats>

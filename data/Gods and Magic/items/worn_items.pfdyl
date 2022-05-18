@@ -1,0 +1,29 @@
+<pf2:Items category="worn_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Other Worn Items">
+<Item level="2" page="123">
+	<Name>Necklace of Knives</Name>
+	<Price>25 gp</Price>
+	<Traits>Conjuration, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This necklace strung with miniature stone throwing knives. As long as you wear it, you are never without a weapon, a crude surgical tool, or stake for a vampire, if necessary in following Pharasma’s teachings.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; You pluck a miniature knife from the necklace, and it grows into a normal stone, steel, or wooden &lt;i&gt;dagger&lt;/i&gt; for as long as you hold it, fading away 1 round after it leaves your hand. No matter how many knives you pull from the necklace, you never seem to deplete them. Wooden daggers from the necklace are as effective as ordinary steel daggers and can be useful to stake vampires.</Description>
+</Item>
+<Item level="3" page="122">
+	<Name>Manacles of Persuasion</Name>
+	<Price>45 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Nonlethal</Traits>
+	<Usage>worn on wrists</Usage>
+	<Description>These sturdy, average manacles are connected by a thick iron chain that is much heavier than its appearance suggests at a glance. Followers of Zon-Kuthon sometimes employ &lt;i&gt;manacles of persuasion&lt;/i&gt; against captured enemies and spies. When the manacles are locked around an immobilized creature’s wrists, they begin to sap the life out of the victim, dealing 2 negative damage per hour until the creature falls unconscious. The effect is nonlethal, so the damage doesn’t cause the creature to become dying. While the creature is unconscious, the manacles deal no damage and allow the creature to recover Hit Points normally to a maximum of 10 Hit Points, at which point the manacles begin to deal damage once more. The manacles have no effect on a creature that is not immobilized.</Description>
+</Item>
+<Item level="10" page="123">
+	<Name>Miter of Communion</Name>
+	<Price>800 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Divination, Invested, Magical</Traits>
+	<Usage>worn headwear</Usage>
+	<Description>This ornate headgear comes in many different shapes and sizes, though most are elaborately decorated with motifs of the deity whose honor in which it was made. The miter brings you spiritually closer to your deity’s servitors, granting you a +2 item bonus to Religion checks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (command); &lt;b&gt;Frequency&lt;/b&gt; once per week; &lt;b&gt;Effect&lt;/b&gt; You chant for a minute about a task at hand for the coming week to cast a 4th-level &lt;i&gt;read omens&lt;/i&gt; spell that grants you cryptic but useful advice.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>Gods and Magic</Name>
+    <ShortName>GAM</ShortName>
+    <Category>Lost Omens</Category>
+    <Dependencies>
+        <Dependency>Core Rulebook</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Pathfinder Lost Omens: Gods and Magic&lt;/h2&gt;&lt;p&gt;No fantasy setting is complete without a pantheon of powerful deities for its characters to worship or fear. Whether you're a sneaky rogue asking the god of thievery for a blessing on your next heist or a valorous crusader calling the might of your patron down upon the forces of evil, faith and the forces behind it are key to every character's identity. Within this volume you'll find details on the gods and non-deific faiths of the Age of Lost Omens from the perspective of their clergy and lay worshipers. You'll also discover new domains, feats, and spells to customize your character, and an exhaustive index of hundreds of deities from the Pathfinder setting you can worship (and the mechanical benefits of doing so).&lt;/p&gt;
+
+        &lt;p&gt;An indispensable 128-page resource for both players looking to flesh out their characters' motivations and Game Masters aiming to bring the evil cults, zealous evangelists, and holy warriors of their campaigns to life, Pathfinder Lost Omens Gods &#38; Magic is an essential addition to any Pathfinder Second Edition campaign!&lt;/p&gt;
+
+        &lt;p&gt;Written by: Robert Adducci, Amirali Attar Olyaee, Calder CaDavid, James Case, Adam Daigle, Katina Davis, Leo Glass, Joshua Grinlinton, James Jacobs, Virginia Jordan, Jason Keeley, Jacky Leung, Lyz Liddell, Ron Lundeen, Stephanie Lundeen, Jacob W. Michaels, Matt Morris, Dave Nelson, Samantha Phelan, Jennifer Povey, Jessica Redekop, Nathan Reinecke, Patrick Renie, David N. Ross, Simone D. Sallé, Michael Sayre, David Schwartz, Shahreena Shahrani, Isabelle Thorne, Marc Thuot, Jason Tondro, and Diego Valdez&lt;/p&gt;</Description>
+    <Backgrounds path="backgrounds.pfdyl" />
+    <Equipment>
+        <Category name="Consumables" path="items/consumables.pfdyl" />
+        <Category name="Held Items" path="items/held_items.pfdyl" />
+        <Category name="Worn Items" path="items/worn_items.pfdyl" />
+    </Equipment>
+    <Weapons name="Weapons" path="items/weapons.pfdyl" />
+    <Traits name="Traits" path="traits.pfdyl" />
+</Source>

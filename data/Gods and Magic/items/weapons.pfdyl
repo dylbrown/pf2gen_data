@@ -1,0 +1,212 @@
+<pf2:Items category="weapons" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Base Weapons">
+<Item level="" page="121">
+	<Name>Traits</Name>
+	<Price>2 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Agile, Disarm, Finesse, Parry, Trip, UncommonFour curved blades attached to a sturdy handlebar give the wielder of this close-combat weapon the illusion of having claws that extend from their fist. Adherents of Bastet favor the tekko-kagi for catching their foes off guard.</Description>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Price>2 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Agile, Disarm, Finesse, Parry, Trip, UncommonFour curved blades attached to a sturdy handlebar give the wielder of this close-combat weapon the illusion of having claws that extend from their fist. Adherents of Bastet favor the tekko-kagi for catching their foes off guard.
+
+Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Brawling&lt;/b&gt;: The target must succeed at a Fortitude save against your class DC or be slowed 1 until the end of your next turn. </Description>
+</Item>
+<Item level="" page="121">
+	<Name>Traits</Name>
+	<Price>3 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Agile, Backstabber, Deadly d8, FinesseA war razor is an exaggerated version of the barbers’ tool. It is a brittle but extremely sharp weapon that is very easy to slip into a pocket or sleeve.</Description>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Price>3 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Agile, Backstabber, Deadly d8, FinesseA war razor is an exaggerated version of the barbers’ tool. It is a brittle but extremely sharp weapon that is very easy to slip into a pocket or sleeve.
+
+Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Knife&lt;/b&gt;: The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon's item bonus to attack rolls. </Description>
+</Item>
+<Item level="" page="121">
+	<Name>Traits</Name>
+	<Price>6 sp</Price>
+	<Bulk>1</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Deadly d8, Disarm, Thrown 20 ft., UncommonAlso known as a hunga munga or danisco, this hybrid knife-axe consists of a hilt and a blade that curves backward toward the wielder. The curve of the blade is such that after a victim has been struck by a mambele, more damage is dealt as the weapon is extracted from the victim’s body.</Description>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Price>6 sp</Price>
+	<Bulk>1</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Deadly d8, Disarm, Thrown 20 ft., UncommonAlso known as a hunga munga or danisco, this hybrid knife-axe consists of a hilt and a blade that curves backward toward the wielder. The curve of the blade is such that after a victim has been struck by a mambele, more damage is dealt as the weapon is extracted from the victim’s body.
+
+Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Axe&lt;/b&gt;: Choose one creature adjacent to the initial target and within reach. If its AC is lower than your attack roll result for the critical hit, you deal damage to that creature equal to the result of the weapon damage die you rolled (including extra dice for its &lt;i&gt;potency&lt;/i&gt; rune, if any). This amount isn't doubled, and no bonuses or other additional dice apply to this damage. </Description>
+</Item>
+<Item level="" page="120">
+	<Name>Traits</Name>
+	<Price>7 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Deadly d8, SweepThis medium-length sword has a wide blade and long grip. Though it is typically used to hack through heavy foliage, the machete can also be used as a deadly weapon.</Description>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Price>7 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Deadly d8, SweepThis medium-length sword has a wide blade and long grip. Though it is typically used to hack through heavy foliage, the machete can also be used as a deadly weapon.
+
+Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Sword&lt;/b&gt;: The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.</Description>
+</Item>
+<Item level="" page="121">
+	<Name>Traits</Name>
+	<Price>9 sp</Price>
+	<Bulk>1</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Disarm, UncommonThis sword has a broad blade, along which are threaded nine heavy metal rings. The rings add weight to the weapon for downward swings, as well as clashing together to make noise.</Description>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Price>9 sp</Price>
+	<Bulk>1</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Disarm, UncommonThis sword has a broad blade, along which are threaded nine heavy metal rings. The rings add weight to the weapon for downward swings, as well as clashing together to make noise.
+
+Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Sword&lt;/b&gt;: The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.</Description>
+</Item>
+<Item level="" page="120">
+	<Name>Traits</Name>
+	<Price>1 gp, 1 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Agile, Backstabber, Deadly d6, Finesse, Monk, UncommonThis fan is useful for elegant dances as well as for slicing unsuspecting foes with the blades along its outer edge. If used in performances, it might be disguised as a frilly accessory, or it might be an obvious, though elegant, weapon.</Description>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Price>1 gp, 1 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Agile, Backstabber, Deadly d6, Finesse, Monk, UncommonThis fan is useful for elegant dances as well as for slicing unsuspecting foes with the blades along its outer edge. If used in performances, it might be disguised as a frilly accessory, or it might be an obvious, though elegant, weapon.
+
+Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Knife&lt;/b&gt;: The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon's item bonus to attack rolls. </Description>
+</Item>
+<Item level="" page="120">
+	<Name>Traits</Name>
+	<Description>, Horus&lt;br&gt;&lt;b&gt;Price&lt;/b&gt; 2 gp; &lt;b&gt;Damage&lt;/b&gt; 1d8 S; &lt;b&gt;Bulk&lt;/b&gt; 1&lt;br&gt;&lt;b&gt;Hands&lt;/b&gt; 1&lt;br&gt;&lt;b&gt;Category&lt;/b&gt; Martial&lt;br&gt;&lt;b&gt;Group&lt;/b&gt; Sword; &lt;b&gt;Traits&lt;/b&gt; Trip, UncommonThis curved sickle sword has a pointed tip, allowing it to be swung like a handaxe or thrust like a short sword. The tip of a khopesh is usually hooked so that it can be used to disarm an opponent’s shield or weapon.</Description>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Description>, Horus&lt;br&gt;&lt;b&gt;Price&lt;/b&gt; 2 gp; &lt;b&gt;Damage&lt;/b&gt; 1d8 S; &lt;b&gt;Bulk&lt;/b&gt; 1&lt;br&gt;&lt;b&gt;Hands&lt;/b&gt; 1&lt;br&gt;&lt;b&gt;Category&lt;/b&gt; Martial&lt;br&gt;&lt;b&gt;Group&lt;/b&gt; Sword; &lt;b&gt;Traits&lt;/b&gt; Trip, UncommonThis curved sickle sword has a pointed tip, allowing it to be swung like a handaxe or thrust like a short sword. The tip of a khopesh is usually hooked so that it can be used to disarm an opponent’s shield or weapon.
+
+Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Sword&lt;/b&gt;: The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.</Description>
+</Item>
+<Item level="" page="121">
+	<Name>Traits</Name>
+	<Price>2 gp</Price>
+	<Bulk>2</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Deadly d10, Sweep, UncommonA bouquet of whiplike blades extends from the hilt of this sword.</Description>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Price>2 gp</Price>
+	<Bulk>2</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Deadly d10, Sweep, UncommonA bouquet of whiplike blades extends from the hilt of this sword.
+
+Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Flail&lt;/b&gt;: The target is knocked prone. </Description>
+</Item>
+<Item level="" page="120">
+	<Name>Traits</Name>
+	<Description>, Sivanah&lt;br&gt;&lt;b&gt;Price&lt;/b&gt; 3 gp; &lt;b&gt;Damage&lt;/b&gt; 1d6 S; &lt;b&gt;Bulk&lt;/b&gt; 1&lt;br&gt;&lt;b&gt;Hands&lt;/b&gt; 2&lt;br&gt;&lt;b&gt;Category&lt;/b&gt; Martial&lt;br&gt;&lt;b&gt;Group&lt;/b&gt; Flail; &lt;b&gt;Traits&lt;/b&gt; Disarm, Finesse, Reach, Sweep, Trip, UncommonThe thin metal plates interwoven throughout this long scarf turn a fashion accessory into a deadly weapon.</Description>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Description>, Sivanah&lt;br&gt;&lt;b&gt;Price&lt;/b&gt; 3 gp; &lt;b&gt;Damage&lt;/b&gt; 1d6 S; &lt;b&gt;Bulk&lt;/b&gt; 1&lt;br&gt;&lt;b&gt;Hands&lt;/b&gt; 2&lt;br&gt;&lt;b&gt;Category&lt;/b&gt; Martial&lt;br&gt;&lt;b&gt;Group&lt;/b&gt; Flail; &lt;b&gt;Traits&lt;/b&gt; Disarm, Finesse, Reach, Sweep, Trip, UncommonThe thin metal plates interwoven throughout this long scarf turn a fashion accessory into a deadly weapon.
+
+Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Flail&lt;/b&gt;: The target is knocked prone. </Description>
+</Item>
+<Item level="" page="121">
+	<Name>Traits</Name>
+	<Price>3 gp</Price>
+	<Bulk>2</Bulk>
+	<Hands>2</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Backswing, Disarm, Reach, TripThis weapon consists of a long chain connected to a heavy weight at one end. When a wielder swings the weight by the chain, it builds momentum and can serve as a deadly bludgeon with incredible reach.</Description>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Price>3 gp</Price>
+	<Bulk>2</Bulk>
+	<Hands>2</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Backswing, Disarm, Reach, TripThis weapon consists of a long chain connected to a heavy weight at one end. When a wielder swings the weight by the chain, it builds momentum and can serve as a deadly bludgeon with incredible reach.
+
+Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Flail&lt;/b&gt;: The target is knocked prone. </Description>
+</Item>
+<Item level="" page="121">
+	<Name>Traits</Name>
+	<Price>3 gp</Price>
+	<Bulk>2</Bulk>
+	<Hands>2</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Deadly d8, Reach, Uncommon, Versatile PThis 6-foot staff has a 2-foot-long, slightly curved, swordlike blade attached at one end. The long pole helps keep the wielder out of reach of swords and shorter weapons.</Description>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Price>3 gp</Price>
+	<Bulk>2</Bulk>
+	<Hands>2</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Deadly d8, Reach, Uncommon, Versatile PThis 6-foot staff has a 2-foot-long, slightly curved, swordlike blade attached at one end. The long pole helps keep the wielder out of reach of swords and shorter weapons.
+
+Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Polearm&lt;/b&gt;: The target is moved 5 feet in a direction of your choice. This is forced movement. </Description>
+</Item>
+<Item level="1" page="121">
+	<Name>Traits</Name>
+	<Price>10 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Agile, Modular B, P, or S, UncommonThe polytool is a small metal rod with a number of simple tools folded inside. The user can extend a long ceramic blade, as well as an awl, a chisel, a file, flint and steel, a hook, an inkpen, a magnifying glass, pliers, scissors, and a small saw. The flint and steel can be used up to 10 times before needing to be replaced. Though inspired by advanced Numerian technology, the polytool is a simple enough feat of metalworking that any blacksmith could produce it— perfect for the goddess Casandalee to spread innovation farther than actual Numerian tech could reach.</Description>
+</Item>
+<Item level="1" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Price>10 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Agile, Modular B, P, or S, UncommonThe polytool is a small metal rod with a number of simple tools folded inside. The user can extend a long ceramic blade, as well as an awl, a chisel, a file, flint and steel, a hook, an inkpen, a magnifying glass, pliers, scissors, and a small saw. The flint and steel can be used up to 10 times before needing to be replaced. Though inspired by advanced Numerian technology, the polytool is a simple enough feat of metalworking that any blacksmith could produce it— perfect for the goddess Casandalee to spread innovation farther than actual Numerian tech could reach.
+
+Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Sword&lt;/b&gt;: The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Specific Magic Weapons">
+<Item level="11" page="123">
+	<Name>Rat-Catcher Trident</Name>
+	<Price>1,200 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The haft of this &lt;i&gt;+2 striking trident&lt;/i&gt; is carved with intricate designs of swarming rodents sacred to Hanspur, the drowned god of the Sellen River. When used against a swarm, it ignores the swarm’s resistance to piercing damage, if any.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; While floating down a river on a raft or boat, you plunge the &lt;i&gt;rat-catcher trident&lt;/i&gt; into the water. The trident casts a 5th-level &lt;i&gt;control water&lt;/i&gt; spell on the body of water.</Description>
+</Item>
+<Item level="14" page="122">
+	<Name>Glaive of the Artist</Name>
+	<Price>4,000 gp</Price>
+	<Bulk>2</Bulk>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This &lt;i&gt;+2 holy greater striking glaive&lt;/i&gt; has a long, multi-tailed rainbow-colored banner affixed to the butt of the pole in the style of Shelyn’s religious symbol. While wielding the glaive, you gain a +2 item bonus on Crafting and Performance checks.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per round; &lt;b&gt;Effect&lt;/b&gt; You furl one of the colored tails around the pole, causing the glaive to gain the effects of your choice of the &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shocking&lt;/i&gt;, or &lt;i&gt;thundering&lt;/i&gt; property runes for 1 round, depending on the tail you chose.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You thrust the blade of the glaive into the ground, activating the power of the banner. (The blade can penetrate any non-metallic surface when used in this way, and does not leave a mark when withdrawn.) As long as the glaive is thrust into the ground and standing upright, all allies within 60 feet who can see the glaive’s banner gain a +2 item bonus to Performance checks.</Description>
+</Item>
+<Item level="18" page="123">
+	<Name>Torag's Silver Anvil</Name>
+	<Price>24,000 gp</Price>
+	<Bulk>2</Bulk>
+	<Traits>Divine, Magical, Transmutation</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This portable silver anvil has a narrow hoop on one end, through which a long, sturdy chain has been strung. &lt;i&gt;Torag's Silver Anvil&lt;/i&gt; can be wielded as a &lt;i&gt;+3 holy greater flaming greater striking silver meteor hammer&lt;/i&gt;. Outside of combat, the anvil can be used with a hammer as an incredibly effective portable forge, heating up the metal to be forged without a furnace and granting a +3 item bonus to Crafting checks involving metalworking. When you use the anvil to successfully Repair a metal item, the item recovers an additional 10 Hit Points (or an additional 20 on a critical success).</Description>
+</Item>
+</SubCategory>
+</pf2:Items>
