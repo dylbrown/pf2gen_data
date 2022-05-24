@@ -57,7 +57,16 @@
         <Ability name="Razor Claws" level="1" page="58">
             <Traits>Lizardfolk</Traits>
             <Description>Your have honed your claws to be deadly. Your claw attack deals 1d6 slashing damage instead of 1d4 and gains the versatile (piercing) trait.</Description>
-            <!--TODO: Support this-->
+            <!--TODO: Support adding weapon traits-->
+            <CustomMod>
+                def increaseRazorClaws = {weapon, damage ->
+                    if(weapon.getItem().getName() == "Claws") {
+                        return damage.increaseSize(weapon.getDamageDice());
+                    }
+                    return damage;
+                }
+                damageModifier("Razor Claws Damage Increase", increaseRazorClaws)
+            </CustomMod>
         </Ability>
         <Ability name="Reptile Speaker" level="1" page="58">
             <Traits>Lizardfolk</Traits>
@@ -117,7 +126,7 @@
             <Traits>Lizardfolk</Traits>
             <Prerequisites>Iruxi Unarmed Cunning</Prerequisites>
             <Description>Your unarmed attacks blend tradition and training. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the claw and unarmed attacks you gained from lizardfolk ancestry feats.</Description>
-            <!--TODO: Support This-->
+            <!--TODO: Support linked proficiency-->
         </Ability>
     </Feats>
 </pf2:ancestry>

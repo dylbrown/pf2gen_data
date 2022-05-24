@@ -15,12 +15,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <Ability name="Half-Elf" type="Heritage">
             <GivesTraits>Elf, Half-Elf</GivesTraits>
             <Description>Either one of your parents was an elf, or one or both were half-elves. You have pointed ears and other telltale signs of elf heritage. You gain the elf trait and low-light vision. In addition, you can select elf, half-elf, and human feats whenever you gain an ancestry feat.</Description>
-            <!--TODO: Support this-->
+            <Senses>Low-light Vision</Senses>
         </Ability>
         <Ability name="Half-Orc" type="Heritage">
             <GivesTraits>Orc, Half-Orc</GivesTraits>
             <Description>One of your parents was an orc, or one or both were half-orcs. You have a green tinge to your skin and other indicators of orc heritage. You gain the orc trait and low-light vision. In addition, you can select orc, half-orc, and human feats whenever you gain an ancestry feat. </Description>
-            <!--TODO: Support this-->
+            <Senses>Low-light Vision</Senses>
         </Ability>
         <Ability name="Skilled Heritage" type="Heritage">
             <Description>Your ingenuity allows you to train in a wide variety of skills. You become trained in one skill of your choice. At 5th level, you become an expert in the chosen skill.</Description>
@@ -64,12 +64,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </AbilitySet>
         <Ability name="Unconventional Weaponry" level="1">
             <Description>You've familiarized yourself with a particular weapon, potentially from another ancestry or culture. Choose an uncommon simple or martial weapon with a trait corresponding to an ancestry (such as dwarf, goblin, or orc) or that is common in another culture. You gain access to that weapon, and for the purpose of determining your proficiency, that weapon is a simple weapon.&lt;br&gt;&lt;br&gt;If you are trained in all martial weapons, you can choose an uncommon advanced weapon with such a trait. You gain access to that weapon, and for the purpose of determining your proficiency, that weapon is a martial weapon. </Description>
-            <!--TODO: Support this-->
+            <!--TODO: Support weapon choice-->
         </Ability>
         <Ability name="Adaptive Adept" level="5">
             <Prerequisites>Adapted Cantrip</Prerequisites>
             <Description>You've continued adapting your magic to blend your class's tradition with your adapted tradition. Choose a cantrip or 1st-level spell from the same magical tradition as your cantrip from Adapted Cantrip. You gain that spell, adding it to your spell repertoire, spellbook, or prepared spells just like the cantrip from Adapted Spell. You can cast this spell as a spell of your class's magical tradition. If you choose a 1st-level spell, you don't gain access to the heightened versions of that spell, meaning you can't prepare them if you prepare spells and you can't learn them or select the spell as a signature spell if you have a spell repertoire. </Description>
-            <!--TODO: Support this-->
+            <!--TODO: Support cantrip choice-->
         </Ability>
 		<Ability name="Clever Improviser" level="5">
             <Description>You've learned how to handle situations when you're out of your depth. You gain the Untrained Improvisation general feat. In addition, you can attempt skill actions that normally require you to be trained, even if you are untrained. </Description>
@@ -91,12 +91,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <Ability name="Unconventional Expertise" level="13">
 			<Prerequisites>Unconventional Weaponry</Prerequisites>
             <Description>You've continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for Unconventional Weaponry. </Description>
-            <!--TODO: Support this-->
+            <!--TODO: Support linked proficiency-->
         </Ability>
 		<!--Half-Elf Specific Ancestry Feats-->
 		<Ability name="Elf Atavism" level="1">
 			<Traits>Half-Elf</Traits>
-            <!--TODO: Support this-->
+            <!--TODO: Support heritage choice-->
 			<Description>Your elven blood runs particularly strong, granting you features far more elven than those of a typical half-elf. You may also have been raised among elves, steeped in your elven ancestors' heritage. You gain the benefits of the elf heritage of your elven parent or ancestors. You typically can't select a heritage that depends on or improves an elven feature you don't have. For example, you couldn't gain the cavern elf's darkvision ability if you didn't have low-light vision. In these cases, at the GM's discretion, you might gain a different benefit.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</Description>
         </Ability>
 		<Ability name="Inspire Imitation" level="5">
@@ -106,7 +106,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		<Ability name="Supernatural Charm" level="5">
             <Traits>Half-Elf</Traits>
 			<Description>The elven magic in your blood manifests as a force you can use to become more appealing or alluring. You can cast 1st-level charm as an arcane innate spell once per day. </Description>
-            <Spell type="Focus" name="Charm"/>
+            <!--TODO: Support innate spells-->
         </Ability>
 		<!--Half-Orc Specific Ancestry Feats-->
 		<Ability name="Monstrous Peacemaker" level="1">
@@ -116,7 +116,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <Ability name="Orc Sight" level="1" >
             <Traits>Half-Orc</Traits>
             <Description>Your orc blood is strong enough to grant you the keen vision of your orc forebears. You gain darkvision, allowing you to see in darkness and dim light just as well as you can in bright light. However, in darkness, you see in black and white only.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</Description>
-            <!--TODO: Support this-->
+            <Senses>Darkvision</Senses>
         </Ability>
 	</Feats>
 </pf2:ancestry>

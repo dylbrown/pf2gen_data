@@ -19,7 +19,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<Ability name="Cavern Elf" type="Heritage">
             <Description>You were born or spent many years in underground tunnels or caverns where light is scarce. You gain darkvision.</Description>
-            <!--TODO: Support this-->
+            <Senses>Darkvision</Senses>
         </Ability>
 		<Ability name="Seer Elf" type="Heritage">
             <Description>You have an inborn ability to detect and understand magical phenomena. You can cast the detect magic cantrip as an arcane innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.&lt;br&gt;&lt;br&gt;In addition, you gain a +1 circumstance bonus to checks to Identify Magic and to Decipher Writing of a magical nature. These skill actions typically use the Arcana, Nature, Occultism, or Religion skill.</Description>
@@ -102,7 +102,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		<Ability name="Elven Weapon Expertise" level="13">
 			<Prerequisites>Elven Weapon Familiarity</Prerequisites>
             <Description>Your elven affinity blends with your class training, granting you great skill with elven weapons. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in longbows, composite longbows, longswords, rapiers, shortbows, composite shortbows, and all elf weapons in which you are trained.</Description>
-            <!--TODO: Support this-->
+            <!--TODO: Support linked proficiency-->
         </Ability>
     </Feats>
 </pf2:ancestry>

@@ -1,0 +1,84 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Ability name="Oread" level="1" type="Heritage" page="105">
+        <Traits>Uncommon</Traits>
+        <GivesTraits>Oread</GivesTraits>
+        <Description>An earth elemental ancestor has influenced your bloodline, and your features highlight this elemental planar connection. You might have a crystalline or metallic sheen to your skin or hair, rough and stony flesh, or glittering gemstone eyes. You gain the oread trait, in addition to the traits from your ancestry. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can choose from oread feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
+        <Senses>Upgraded Vision</Senses>
+    </Ability>
+    <Ability name="Dustsoul" level="1" page="106">
+        <Traits>Lineage, Oread</Traits>
+        <Description>Your earth elemental ancestor's influence manifests in you as dust and dirt, like the soil of a field or the hot desert sands. You gain the trained proficiency rank in Survival. If you would automatically become trained in Survival (from your background or class, for example), you instead become trained in a skill of your choice. You can sustain yourself on dirt and ash instead of normal food and water.</Description>
+        <AttributeMods Proficiency="Trained">Survival</AttributeMods>
+    </Ability>
+    <Ability name="Elemental Trade" level="1" page="106">
+        <Traits>Oread</Traits>
+        <Description>You have a strong connection with stone and metal. You gain the trained proficiency rank in Crafting. If you would automatically become trained in Crafting (from your background or class, for example), you instead become trained in a skill of your choice. You gain the Specialty Crafting skill feat for both Stonemasonry and Blacksmithing.</Description>
+        <AbilitySlot state="filled" type="Skill Feat" name="Specialty Crafting (Oread)" contents="Specialty Crafting"/>
+        <AttributeMods Proficiency="Trained">Crafting</AttributeMods>
+    </Ability>
+    <Ability name="Gemsoul" level="1" page="106">
+        <Traits>Lineage, Oread</Traits>
+        <Description>The earth inside you asserts itself as crystallized gemstones or metals, like a cluster of quartz or veins of iron and gold. This shimmering presence inside your being inspires you to flashy and flamboyant performances. You gain the trained proficiency rank in Performance. If you would automatically become trained in Performance (from your background or class, for example), you instead become trained in a skill of your choice. You gain the Impressive Performance skill feat.</Description>
+        <AbilitySlot state="filled" type="Skill Feat" name="Impressive Performance (Oread)" contents="Impressive Performance"/>
+        <AttributeMods Proficiency="Trained">Performance</AttributeMods>
+    </Ability>
+    <Ability name="Miresoul" level="1" page="106">
+        <Traits>Lineage, Oread</Traits>
+        <Description>You have a connection to the muddier denizens of the Plane of Earth from its border with the Plane of Water, and your elemental lineage manifests as clay or mud, reflecting that bond. Your body's mudlike quality makes it easy for you to compress and squeeze yourself through smaller areas. You gain the trained proficiency rank in Acrobatics. If you would automatically become trained in Acrobatics (from your background or class, for example), you instead become trained in a skill of your choice. You gain the Quick Squeeze skill feat.</Description>
+        <AbilitySlot state="filled" type="Skill Feat" name="Quick Squeeze (Oread)" contents="Quick Squeeze"/>
+        <AttributeMods Proficiency="Trained">Acrobatics</AttributeMods>
+    </Ability>
+    <Ability name="Steady on Stone" level="1" page="106">
+        <Traits>Oread</Traits>
+        <Description>Your connection to the earth makes natural uneven surfaces less of a hindrance for you. You can ignore difficult terrain caused by rubble and uneven ground made of stone and earth. In addition, when you use the Acrobatics skill to Balance on narrow surfaces or uneven ground made of stone and earth, you aren't flat-footed, and when you roll a success at one of these Acrobatics checks, you get a critical success instead.</Description>
+    </Ability>
+    <Ability name="Fortify Shield" level="5" page="106" cost="1">
+        <Traits>Oread</Traits>
+        <Prerequisites>Shield Block</Prerequisites>
+        <Frequency>once per day</Frequency>
+        <Description>You reinforce your shield with a rocky outgrowth of metal and stone. You Raise your Shield. If you use the Shield Block reaction before your next turn, add your character level to your shield's Hardness when determining how much damage is blocked.</Description>
+    </Ability>
+    <Ability name="Treacherous Earth" level="5" page="107" cost="1">
+        <Traits>Oread</Traits>
+        <Frequency>once every 10 minutes</Frequency>
+        <Description>You have the power to shatter the earth into a shape of your devising. You crack the ground beneath you, creating difficult terrain in a 5-foot burst centered on one corner of your space.</Description>
+    </Ability>
+    <Ability name="Earthsense" level="9" page="107">
+        <Traits>Oread</Traits>
+        <Description>Your connection to earth and stone allows you to feel the slightest displacement that disturbs them, down to the shift of a pebble. You gain tremorsense as an imprecise sense with a range of 30 feet.</Description>
+        <Senses>Tremorsense</Senses>
+    </Ability>
+    <Ability name="Shaitan Magic" level="9" page="107">
+        <Traits>Oread</Traits>
+        <Description>The magic of shaitans runs through your blood. You can cast glitterdust and resist energy once per day each as 2nd-level arcane innate spells.</Description>
+        <!--TODO: Support innate spells-->
+    </Ability>
+    <Ability name="Metal-Veined Strikes" level="13" page="107">
+        <Traits>Oread</Traits>
+        <Description>Metallic veins grow throughout your body, giving your unarmed attacks a metallic sheen. Choose either cold iron or silver. Your unarmed attacks are treated as the chosen type of metal.</Description>
+        <!--TODO: Support weapon materials-->
+    </Ability>
+    <Ability name="One with Earth" level="13" page="107">
+        <Traits>Oread</Traits>
+        <Description>You've learned to harness your connection to the earth to travel through it. You gain a burrow Speed of 15 feet.</Description>
+        <!--TODO: Support movement speeds-->
+    </Ability>
+    <Ability name="Shaitan Skin" level="13" page="107">
+        <Traits>Oread</Traits>
+        <Description>When in danger, you can harden the stone in your skin into armor, much like a shaitan. You can cast stoneskin on yourself only, 3 times per day as a 4th-level arcane innate spell.</Description>
+        <!--TODO: Support innate spells-->
+    </Ability>
+    <Ability name="Summon Earth Elemental" level="13" page="107">
+        <Traits>Oread</Traits>
+        <Description>You have a connection to the Inner Sphere, allowing you to summon an elemental ally. Once per day, you can cast summon elemental as a 5th-level primal innate spell, but the elemental summoned must be an earth elemental.</Description>
+        <!--TODO: Support innate spells-->
+    </Ability>
+    <Ability name="Stone Form" level="17" page="107">
+        <Traits>Oread</Traits>
+        <Description>You can transform your body into a pure primal manifestation of earth, an elemental. Once per day, you can cast elemental form as a 7th-level primal innate spell, but you can only choose the earth elemental form.</Description>
+        <!--TODO: Support innate spells-->
+    </Ability>
+</pf2:feats>

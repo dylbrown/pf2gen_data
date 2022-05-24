@@ -7,6 +7,7 @@
         <Traits>Uncommon</Traits>
         <GivesTraits>Aasimar</GivesTraits>
         <Description>You descend from celestials or were touched by the celestial realms, gaining an air of awe and grace, as well as features distinctive to your celestial forebears. You gain the aasimar trait, in addition to the traits from your ancestry. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can choose from aasimar feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
+        <Senses>Upgraded Vision</Senses>
     </Ability>
     <Ability name="Angelkin" level="1" page="35">
         <Traits>Aasimar, Lineage</Traits>
@@ -18,7 +19,6 @@
     </Ability>
     <Ability name="Celestial Eyes" level="1" page="35">
         <Traits>Aasimar</Traits>
-        <PrereqStrings>Low-light Vision</PrereqStrings>
         <Description>You can see through darkness. You gain darkvision.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat only at 1st level, and you can't retrain into or out of this feat.</Description>
     </Ability>
     <Ability name="Celestial Lore" level="1" page="35">
@@ -201,6 +201,7 @@
         <Traits>Uncommon</Traits>
         <GivesTraits>Dhampir</GivesTraits>
         <Description>You are the scion of a vampire, half living and half undead, gifted with uncanny charm and grace, a bloodless pallor, and elongated incisors. You gain the dhampir trait, in addition to the traits from your ancestry. You have the negative healing ability, which means you are harmed by positive damage and healed by negative effects as if you were undead. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can choose from dhampir feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
+        <Senses>Upgraded Vision</Senses>
     </Ability>
     <Ability name="Eyes of the Night" level="1" page="33">
         <Traits>Dhampir</Traits>
@@ -280,6 +281,7 @@
         <Traits>Uncommon</Traits>
         <GivesTraits>Duskwalker</GivesTraits>
         <Description>Thanks to an ancient bargain, your soul has been reborn as a duskwalker, a planar scion with a connection to psychopomps and the Boneyard. You gain the duskwalker trait in addition to the traits from your ancestry. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. Neither your body nor your spirit can ever become undead. You can choose from duskwalker feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
+        <Senses>Upgraded Vision</Senses>
     </Ability>
     <Ability name="Duskwalker Lore" level="1" page="38">
         <Traits>Duskwalker</Traits>
@@ -335,16 +337,10 @@
         <Traits>Uncommon</Traits>
         <GivesTraits>Tiefling</GivesTraits>
         <Description>You descend from fiends or bear the mark of the fiendish realms, manifesting as some unusual feature that belies your heritage, such as horns or a tail. You gain the tiefling trait, in addition to the traits from your ancestry. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can choose from tiefling feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
-        <AbilitySlot state="filled" name="Tiefling Darkvision">
-            <Ability>
-                <PrereqStrings>Low-Light Vision</PrereqStrings>
-                <Senses>Darkvision</Senses>
-            </Ability>
-        </AbilitySlot>
+        <Senses>Upgraded Vision</Senses>
     </Ability>
     <Ability name="Fiendish Eyes" level="1" page="39">
         <Traits>Tiefling</Traits>
-        <PrereqStrings>Low-Light Vision</PrereqStrings>
         <Description>You can see in the darkness as easily as a fiend. You gain darkvision.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat only at 1st level, and you can't retrain into or out of this feat.</Description>
         <Senses>Darkvision</Senses>
     </Ability>

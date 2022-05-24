@@ -1,0 +1,74 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Ability name="Suli" level="1" type="Heritage" page="110">
+        <Traits>Uncommon</Traits>
+        <GivesTraits>Suli</GivesTraits>
+        <Description>You are descended from a janni or otherwise embody a dichotomy of opposing elemental planar forces. You gain the suli trait, in addition to the traits from your ancestry. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can choose from suli feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
+        <Senses>Upgraded Vision</Senses>
+    </Ability>
+    <Ability name="Dualborn" level="1" page="110">
+        <Traits>Lineage, Suli</Traits>
+        <Description>Your suli heritage can be traced back to two geniekin ancestors of opposing elements, or to an elemental ancestor that embodied two combined elements. Choose two of the following elements: air, earth, fire, and water. Once made, this choice can't be changed. You gain resistance equal to half your level (minimum 1) to all damaging effects with the traits of either of your chosen elements.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If you take the Elemental Assault or Elemental Bulwark ancestry feats, you can use them only with your chosen elements. You can add your resistance from this feat to the resistance you gain from Elemental Bulwark against effects with your elements' traits, for a total of 5 + half your level, or 10 + half your level with Improved Elemental Bulwark. If you take the Tetraelemental Assault feat, you can choose each of your two elements twice each, instead of choosing each of the four elements once each.</Description>
+    </Ability>
+    <Ability name="Elemental Assault" level="1" page="110" cost="1">
+        <Traits>Arcane, Concentrate, Evocation, Suli</Traits>
+        <Frequency>once per day</Frequency>
+        <Description>You shroud your arms and held weapons in elemental magic. Choose one element. Until the end of your next turn, your Strikes deal an additional 1d6 damage of the indicated type and have the trait corresponding to the element: electricity for air, bludgeoning for earth, fire for fire, or cold for water.Elemental Assault Leads To...Continuous Assault, Tetraelemental Assault</Description>
+    </Ability>
+    <Ability name="Elemental Embellish" level="1" page="110">
+        <Traits>Suli</Traits>
+        <Description>You can summon a harmless but impressive elemental display. You become trained in Intimidation. If you would automatically become trained in Intimidation (from your background or class, for example), you instead become trained in a skill of your choice. When you Demoralize a foe, if you choose to Demoralize via an elemental display, Demoralize loses the auditory trait and gains the visual trait, and you don't take a penalty when you attempt to Demoralize a creature that doesn't understand your language.</Description>
+        <AttributeMods Proficiency="Trained">Intimidation</AttributeMods>
+    </Ability>
+    <Ability name="Scholar's Inheritance" level="1" page="110">
+        <Traits>Suli</Traits>
+        <Description>Your parents devoted themselves to alchemical experiments involving elemental energy. You gain the trained proficiency rank in Crafting. If you would automatically become trained in Crafting (from your background or class, for example), you instead become trained in a skill of your choice. You also gain the Alchemical Crafting skill feat.</Description>
+        <AbilitySlot state="filled" type="Skill Feat" name="Alchemical Crafting (Suli)" contents="Alchemical Crafting"/>
+        <AttributeMods Proficiency="Trained">Crafting</AttributeMods>
+    </Ability>
+    <Ability name="Suli-Jann" level="1" page="110">
+        <Traits>Lineage, Suli</Traits>
+        <Description>Your elemental ancestor was a janni, genies that walk the mortal world and embody all four elements together. You inherited a janni's nature as a wanderer and ability to survive in many types of environment, from the hottest desert to the coldest tundra. You gain the trained proficiency rank in Survival. If you would automatically become trained in Survival (from your background or class, for example), you instead become trained in a skill of your choice. You gain the Forager skill feat as a bonus feat.</Description>
+        <AttributeMods Proficiency="Trained">Survival</AttributeMods>
+        <AbilitySlot state="filled" type="Skill Feat" name="Forager (Suli)" contents="Forager"/>
+    </Ability>
+    <Ability name="Elemental Bulwark" level="5" page="111" cost="Reaction">
+        <Traits>Suli</Traits>
+        <Trigger>An enemy is about to damage you with cold, electricity, or fire, or with a spell that has the air, earth, fire, or water trait.</Trigger>
+        <Description>You call upon the corresponding elements of your suli heritage to resist the effect. You gain resistance 5 against the triggering damage.</Description>
+    </Ability>
+    <Ability name="Janni Hospitality" level="9" page="111">
+        <Traits>Suli</Traits>
+        <Description>You can use magic to show others desert hospitality. You can cast 2nd-level create food once per day and create water twice per day as arcane innate spells.</Description>
+        <!--TODO: Support innate spells-->
+    </Ability>
+    <Ability name="Janni Magic" level="9" page="111">
+        <Traits>Suli</Traits>
+        <Description>The magic of jann runs through your blood. You can cast enlarge and speak with animals once per day each as 2nd-level arcane innate spells.</Description>
+        <!--TODO: Support innate spells-->
+    </Ability>
+    <Ability name="Tetraelemental Assault" level="9" page="111">
+        <Traits>Suli</Traits>
+        <Prerequisites>Elemental Assault</Prerequisites>
+        <Description>Your Elemental Assault cycles through all four elements. When you use Elemental Assault, instead of choosing a single element, you can choose an element from the list when using the action, and then choose a different element at the beginning of each of your next 3 turns without spending an action; once you have chosen an element, you can't choose it again during this Elemental Assault, meaning you must select all four elements over the course of 4 turns. Each time you choose an element, until the beginning of your next turn, your Strikes deal an additional 1d6 damage of the indicated type and have the trait corresponding to that element.</Description>
+    </Ability>
+    <Ability name="Continuous Assault" level="13" page="111">
+        <Traits>Suli</Traits>
+        <Prerequisites>Elemental Assault</Prerequisites>
+        <Description>You can use Elemental Assault once per hour instead of once per day.</Description>
+        <!--TODO: Support changing frequency-->
+    </Ability>
+    <Ability name="Improved Elemental Bulwark" level="13" page="111">
+        <Traits>Suli</Traits>
+        <Prerequisites>Elemental Bulwark</Prerequisites>
+        <Description>You gain resistance 10 from Elemental Bulwark instead of 5.</Description>
+        <!--TODO: Support resistance-->
+    </Ability>
+    <Ability name="Suli Amir" level="13" page="111">
+        <Traits>Suli</Traits>
+        <Description>You have power connected to the powerful jann amirs. You can cast read omens and 4th-level invisibility each once per day as arcane innate spells, and you can cast detect magic at will as an arcane innate cantrip, heightened to a spell level equal to half your level rounded up.</Description>
+        <!--TODO: Support innate spells-->
+    </Ability>
+</pf2:feats>

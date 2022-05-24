@@ -572,9 +572,11 @@ Liberator: You can help your whole group get into position. When you use Liberat
 		</Ability>
 		<Ability name="Celestial Form" level="18">
 			<Traits>Champion</Traits>
+			<GivesTraits>Celestial</GivesTraits>
 			<Prerequisites>Tenets Of Good</Prerequisites>
 			<Description>You take on a celestial countenance, appearing like a type of celestial who serves your deity; for example, as an angel, you would gain a halo and feathery wings. You gain a fly Speed equal to your Speed. You gain darkvision if you don't already have it, and you gain the celestial trait and the trait appropriate to the type of servitor you've become (archon, angel, or azata, for example).</Description>
-			<!--TODO: Support this-->
+			<!--TODO: Support movement speeds-->
+			<Senses>Darkvision</Senses>
 		</Ability>
 		<Ability name="Ultimate Mercy" level="18">
 			<Traits>Champion</Traits>

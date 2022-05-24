@@ -7,6 +7,7 @@
         <Dependency>Bestiary 1</Dependency>
         <Dependency>Bestiary 2</Dependency>
         <Dependency>Core Rulebook</Dependency>
+        <Dependency>Advanced Player's Guide</Dependency>
     </Dependencies>
     <Description>&lt;h2&gt;Ancestry Guide&lt;/h2&gt;&lt;p&gt;Remember who you are! The Age of Lost Omens is filled with people of all types, including more than just those of common ancestries. Lost Omens Ancestry Guide places the spotlight on the uncommon and rare ancestries of the Inner Sea (like geniekin, androids, kitsune, sprites, and more!), providing information on their cultures and place in the world. The book also expands on the rules options for these ancestries and versatile heritages. Finally, Lost Omens Ancestry Guide also features new ancestries and versatile heritages including some that are brand new, as well as old favorites from throughout Golarion!&lt;/p&gt;
 
@@ -22,7 +23,18 @@
     <Feats>
         <Category name="Leshy" path="ancestries/Leshy_feats.pfdyl" type="Ancestry" />
         <Category name="Lizardfolk" path="ancestries/Lizardfolk_feats.pfdyl" type="Ancestry" />
+        <Category name="Ancestry">
+            <File>versatile_heritages/Aphorite.pfdyl</File>
+            <File>versatile_heritages/Beastkin.pfdyl</File>
+            <File>versatile_heritages/Ganzi.pfdyl</File>
+            <File>versatile_heritages/Genie_feats.pfdyl</File>
+            <File>versatile_heritages/Ifrit.pfdyl</File>
+            <File>versatile_heritages/Oread.pfdyl</File>
+            <File>versatile_heritages/Suli.pfdyl</File>
+            <File>versatile_heritages/Undine.pfdyl</File>
+        </Category>
     </Feats>
+    <Senses name="Senses" path="senses.pfdyl" />
     <Setting>
         <Category name="Languages" path="languages.pfdyl" />
     </Setting>

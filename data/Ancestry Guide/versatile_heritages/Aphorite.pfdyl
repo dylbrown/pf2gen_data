@@ -1,0 +1,77 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Ability name="Aphorite" level="1" type="Heritage" page="75">
+        <Traits>Uncommon</Traits>
+        <GivesTraits>Aphorite</GivesTraits>
+        <Description>You were born with a connection to Axis, the Plane of Law. You gain the aphorite trait, in addition to the traits from your ancestry. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can choose from aphorite feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
+        <Senses>Upgraded Vision</Senses>
+    </Ability>
+    <Ability name="Axiomatic Lore" level="1" page="76">
+        <Traits>Aphorite</Traits>
+        <Description>You possess a strong understanding of process among mortals and lawful outsiders alike. The source of this knowledge might be intuition, study, or a childhood spent among other aphorites. You gain the trained proficiency rank in Diplomacy and Society. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Axis Lore.</Description>
+        <AttributeMods Proficiency="Trained">Diplomacy, Society, Lore(Axis)</AttributeMods>
+    </Ability>
+    <Ability name="Internal Cohesion" level="1" page="76">
+        <Traits>Aphorite</Traits>
+        <Description>Axis's order suffuses your body and helps it maintain coherency. You and your allies can Treat your Wounds without healer's tools. Once per day, when someone rolls a failure or a critical failure on a check to Treat your Wounds, you can focus on your internal cohesion to increase the degree of success by one step.</Description>
+    </Ability>
+    <Ability name="Intuitive Crafting" level="1" page="76">
+        <Traits>Aphorite</Traits>
+        <Description>Your affinity with process and order makes you a natural artisan. You gain the trained proficiency rank in Crafting (or another skill of your choice, if you're already trained in Crafting). You gain the Specialty Crafting skill feat in a specialty of your choice.</Description>
+        <AbilitySlot state="filled" type="Skill Feat" name="Specialty Crafting (Aphorite)" contents="Specialty Crafting"/>
+        <AttributeMods Proficiency="Trained">Crafting</AttributeMods>
+    </Ability>
+    <Ability name="Lemma of Vision" level="1" page="76">
+        <Traits>Aphorite</Traits>
+        <Description>You've solved a tiny stepping stone in your self-discovery, awakening new depths in your sight. You gain darkvision.</Description>
+        <Senses>Darkvision</Senses>
+    </Ability>
+    <Ability name="Crystalline Dust" level="5" page="76" cost="2">
+        <Traits>Aphorite</Traits>
+        <Frequency>once per day</Frequency>
+        <Description>You've learned to disperse the crystalline motes coating your body as a haze. You become concealed, though you can't use this concealment to Hide or Sneak, as normal for concealment where your position is still obvious. The motes stay within an inch of your skin, move with you, and last for a number of rounds equal to half your level.</Description>
+    </Ability>
+    <Ability name="Intercorporate" level="5" page="76" cost="1">
+        <Traits>Aphorite</Traits>
+        <Frequency>once per day</Frequency>
+        <Requirements>You're afflicted by a disease or poison, or are taking persistent damage.</Requirements>
+        <Description>Your ordered physiology rejects unwelcome elements. Choose one. &lt;br&gt;&lt;br&gt;&lt;b&gt;Disease or Poison&lt;/b&gt; Attempt a saving throw against the affliction at its current stage. On a failure, the affliction's stage doesn't increase, but you suffer the effects of the stage you were already on. On a critical failure, the stage only increases by 1. &lt;br&gt;&lt;br&gt;&lt;b&gt;Persistent Damage&lt;/b&gt; Attempt a DC 10 flat check to recover from the persistent damage.</Description>
+    </Ability>
+    <Ability name="Offensive Analysis" level="5" page="76">
+        <Traits>Aphorite</Traits>
+        <Description>You can enhance your senses and mental state to consider every aspect of an attack. You can cast true strike as a divine innate spell once per day.</Description>
+    </Ability>
+    <Ability name="Analyze Information" level="9" page="77">
+        <Traits>Aphorite</Traits>
+        <Description>You can stoke your mind into a burst of analytical prowess. You can cast 3rd-level hypercognition once per day as a divine innate spell.</Description>
+    </Ability>
+    <Ability name="Ancillary Motes" level="9" page="77" multiple="true">
+        <Traits>Aphorite</Traits>
+        <Prerequisites>Crystalline Dust</Prerequisites>
+        <Description>You can use Crystalline Dust one more time per day.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat more than once, gaining one more use of Crystalline Dust per day each time.</Description>
+    </Ability>
+    <Ability name="Crystalline Cloud" level="9" page="77">
+        <Traits>Aphorite</Traits>
+        <Prerequisites>Crystalline Dust</Prerequisites>
+        <Description>When you use Crystalline Dust, you can spend one additional action to disperse the motes as a 10-foot-radius cloud centered on you instead of as haze; the activity gains the concentrate trait. All creatures within the cloud become concealed, and all creatures outside the cloud become concealed to creatures within it.</Description>
+    </Ability>
+    <Ability name="Preemptive Reconfiguration" level="9" page="77" cost="Reaction">
+        <Traits>Aphorite</Traits>
+        <Trigger>You would take bludgeoning, piercing, or slashing damage.</Trigger>
+        <Frequency>once per day</Frequency>
+        <Description>Your body anticipates the blow. The impact area briefly reorganizes into a strengthened tissue lattice that blunts the attack. You gain resistance equal to your level to the triggering damage type, which applies against the triggering damage.&lt;br&gt;&lt;br&gt; If you have the Crystalline Dust feat, you can use Preemptive Reconfiguration without expending a usage of the reaction for the purpose of the feat's Frequency limit. Instead, the usage counts toward your number of Crystalline Dust uses per day, as if you had used that feat instead.</Description>
+    </Ability>
+    <Ability name="Impose Order" level="13" page="77" cost="Reaction">
+        <Traits>Aphorite, Fortune</Traits>
+        <Trigger>You would critically fail a skill check or suffer an effect with the misfortune trait.</Trigger>
+        <Frequency>once per day</Frequency>
+        <Description>You shift the underlying fabric of reality to impose a baseline of order. If the trigger was a skill check, you instead receive a result of 10 + your proficiency bonus (don't apply any other bonuses, penalties, or modifiers). If the trigger was an effect with the misfortune trait, the misfortune and fortune effects cancel each other out as normal, negating the triggering misfortune effect.</Description>
+    </Ability>
+    <Ability name="Channel the Godmind" level="17" page="77" cost="2">
+        <Traits>Aphorite</Traits>
+        <Frequency>once per day</Frequency>
+        <Description>You tap into the Godmind's collective cognitive well, rapidly parsing near-infinite variables to read your surroundings. For 1 minute, you gain precise motion sense out to 60 feet, you can see invisible creatures and objects, and you gain the effects of a 9th-level true seeing.</Description>
+    </Ability>
+</pf2:feats>

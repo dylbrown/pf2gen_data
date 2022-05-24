@@ -1,0 +1,89 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Ability name="Ifrit" level="1" type="Heritage" page="100">
+        <Traits>Uncommon</Traits>
+        <GivesTraits>Ifrit</GivesTraits>
+        <Description>You descend from fire elementals or bear the mark of the Inner Spheres, and your features illustrate the influence that elemental fire has over you. You gain the ifrit trait, in addition to the traits from your ancestry. You gain resistance to fire equal to half your level (minimum 1), and you treat environmental heat effects as if they were one step less severe (incredible heat becomes extreme, extreme heat becomes severe, and so on). You can choose from ifrit feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
+        <!--TODO: Support resistance-->
+    </Ability>
+    <Ability name="Brightsoul" level="1" page="102">
+        <Traits>Ifrit, Lineage</Traits>
+        <Description>The fire inside you asserts itself as beaming, radiant light. Your body is naturally luminescent, glowing with the effects of a primal light cantrip. A cantrip is heightened to a spell level equal to half your level rounded up. The light is involuntary and constant; if counteracted, it returns in 1d4 rounds. You suffer a –2 circumstance penalty on Stealth checks to Hide or Sneak and gain a +1 circumstance bonus on saves against light effects and effects that inflict the blinded or dazzled conditions.</Description>
+    </Ability>
+    <Ability name="Cindersoul" level="1" page="102">
+        <Traits>Ifrit, Lineage</Traits>
+        <Description>The fire of your elemental ancestor manifests like dying embers of a blaze, and your inner charcoal helps staunch bleeding, purify simple poisons, and absorb acid. The DC for you to recover from persistent acid, bleed, and poison damage is 10 instead of 15 (or 5 if you have particularly effective assistance).</Description>
+    </Ability>
+    <Ability name="Ember's Eyes" level="1" page="102">
+        <Traits>Ifrit</Traits>
+        <Description>Your eyes blaze with inner flame. You gain low-light vision, or you gain darkvision if your ancestry already has low-light vision.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If your ancestry has neither low-light vision nor darkvision, you can take this ancestry feat a second time to gain darkvision. You can't retrain out of this feat.</Description>
+        <Senses>Upgraded Vision</Senses>
+    </Ability>
+    <Ability name="Inner Fire" level="1" page="102">
+        <Traits>Ifrit</Traits>
+        <Description>You can call the fire inside you into the palm of your hand. You can cast the produce flame cantrip as an innate primal or arcane spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</Description>
+        <!--TODO: Support innate spells-->
+    </Ability>
+    <Ability name="Lavasoul" level="1" page="102">
+        <Traits>Ifrit, Lineage</Traits>
+        <Description>Your elemental lineage manifests as magma and molten rock, and you can focus the magma into your hand to attack your foes. You gain a magma spike unarmed attack, which requires a free hand to use. This is an agile, finesse, unarmed attack in the brawling weapon group that deals 1d4 piercing damage, as well as 1 additional fire damage. Instead of the normal critical specialization effect, the target takes 1d6 persistent fire damage; you gain a bonus on this persistent damage equal to your item bonus to attack rolls on unarmed attacks.</Description>
+        <Weapon>
+            <Name>Magma Spike</Name>
+            <Damage>1d4 P</Damage>
+            <Group>Brawling</Group>
+            <Traits>Agile, Finesse, Unarmed</Traits>
+        </Weapon>
+        <!--TODO: Support bonus damage-->
+    </Ability>
+    <Ability name="Sinister Appearance" level="1" page="102">
+        <Traits>Ifrit</Traits>
+        <Description>You possess horns, a tail, or red eyes, or could otherwise be mistaken for a tiefling. You gain the trained proficiency rank in Intimidation. If you would automatically become trained in Intimidation (from your background or class, for example), you instead become trained in a skill of your choice. You gain the Intimidating Glare skill feat, as well as a +2 circumstance bonus on Deception checks to Impersonate when pretending to be a version of yourself who is a tiefling.</Description>
+        <AbilitySlot state="filled" type="Skill Feat" name="Intimidating Glare (Ifrit)" contents="Intimidating Glare"/>
+        <AttributeMods Proficiency="Trained">Intimidation</AttributeMods>
+    </Ability>
+    <Ability name="Firesight" level="5" page="102">
+        <Traits>Ifrit</Traits>
+        <Description>You can see through the haze of flame. You automatically succeed at the flat check to target a concealed creature if that creature is concealed only by smoke and fire.</Description>
+    </Ability>
+    <Ability name="Heatwave" level="5" page="103" cost="Reaction">
+        <Traits>Ifrit</Traits>
+        <Trigger>An effect would deal fire damage to you, even if you resist all the damage.</Trigger>
+        <Frequency>once per 10 minutes</Frequency>
+        <Description>You harness the oncoming flames and twist them into a screen of heat and smoke, granting you concealment until the beginning of your next turn.</Description>
+    </Ability>
+    <Ability name="Charred Remains" level="9" page="103" cost="Free">
+        <Traits>Fire, Ifrit, Metamagic</Traits>
+        <Frequency>once per day</Frequency>
+        <Description>Your next fire spell leaves embers in its wake. If your next action is to Cast a Spell with an area and the fire trait, for 1 minute, your spell's area becomes difficult terrain as well as hazardous terrain, dealing 1 fire damage for each square a creature moves through.</Description>
+    </Ability>
+    <Ability name="Efreeti Magic" level="9" page="103">
+        <Traits>Ifrit</Traits>
+        <Description>The magic of your efreeti ancestors flows through you. You can cast enlarge and illusory object once per day each as 2nd-level arcane innate spells.</Description>
+        <!--TODO: Support innate spells-->
+    </Ability>
+    <Ability name="Scorching Disarm" level="9" page="103" cost="1">
+        <Traits>Fire, Ifrit</Traits>
+        <Frequency>once per day</Frequency>
+        <Description>You make a weapon unbearable to hold. Attempt an Athletics check to Disarm a target creature. You don't need to have a hand free to make this Disarm attempt. If the Disarm attempt succeeds, the target takes 4d6 fire damage unless it drops the weapon, and on a critical success, it takes 4d6 fire damage and drops the weapon. If you're legendary in Athletics, this increases to 8d6 fire damage.</Description>
+    </Ability>
+    <Ability name="Radiant Burst" level="13" page="103" cost="2">
+        <Traits>Fire, Ifrit, Incapacitation, Light, Visual</Traits>
+        <Frequency>once per day</Frequency>
+        <Description>Your skin glows with intensity. Creatures within 10 feet who can see you must succeed at a Fortitude save against your class DC or spell DC, whichever is higher.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is dazzled for 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is blinded for 1 round and dazzled for 4 rounds.
+            &lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is blinded for 4 rounds and dazzled for 10 minutes.
+        </Description>
+    </Ability>
+    <Ability name="Summon Fire Elemental" level="13" page="103">
+        <Traits>Ifrit</Traits>
+        <Description>You can summon an elemental ally. Once per day, you can cast summon elemental as a 5th-level primal innate spell, but the elemental summoned must be a fire elemental.</Description>
+        <!--TODO: Support innate spells-->
+    </Ability>
+    <Ability name="Blazing Aura" level="17" page="103" cost="Reaction">
+        <Traits>Concentrate, Evocation, Fire, Ifrit, Primal</Traits>
+        <Trigger>Your turn begins.</Trigger>
+        <Frequency>once per day</Frequency>
+        <Description>You explode in flame. Enemies in a 20-foot emanation take 7d6 fire damage (basic Reflex save using your class DC or spell DC, whichever is higher). Allies in the area are quickened for 1 round and can use the additional action to Strike or Stride.</Description>
+    </Ability>
+</pf2:feats>

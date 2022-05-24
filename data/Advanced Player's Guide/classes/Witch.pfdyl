@@ -475,7 +475,7 @@
         <Ability name="Rites of Convocation" level="4" page="102">
             <Traits>Witch</Traits>
             <Description>Your patron grants you the power to summon other creatures to aid you. Choose one &lt;i&gt;summon&lt;/i&gt; spell (such as summon animal, summon construct, and so forth) that appears on the spell list of your spellcasting tradition. You can spend 10 minutes in communion with your familiar to replace one spell you've prepared in one of your witch spell slots with the spell you chose, heightened to the same level. The spell you replaced must be of at least the &lt;i&gt;summon&lt;/i&gt; spell's minimum spell level.</Description>
-            <!--TODO: Support this-->
+            <!--TODO: Support spell choice-->
         </Ability>
         <Ability name="Greater Lesson" level="6" page="102">
             <Traits>Witch</Traits>

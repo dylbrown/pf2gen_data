@@ -1,0 +1,78 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Ability name="Undine" level="1" type="Heritage" page="118">
+        <Traits>Uncommon</Traits>
+        <GivesTraits>Undine, Amphibious</GivesTraits>
+        <Description>A water elemental ancestor influences your bloodline. You gain the undine trait, in addition to the traits from your ancestry. You gain a swim Speed of 10 feet and the amphibious trait. Like all creatures with the amphibious trait, you can breathe both water and air. You can choose from undine feats and feats from your ancestry whenever you gain an ancestry feat.</Description>
+        <!--TODO: Support movement speeds-->
+    </Ability>
+    <Ability name="Aquatic Eyes" level="1" page="118" multiple="true">
+        <Traits>Undine</Traits>
+        <Description>As your connection to water grows, you can see more easily in places with less light, such as the depths of the ocean. You gain low-light vision, or you gain darkvision if your ancestry already has low-light vision.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If your ancestry has neither low-light vision nor darkvision, you can take this ancestry feat a second time to gain darkvision. You can't retrain out of this feat.</Description>
+        <Senses>Upgraded Vision</Senses>
+    </Ability>
+    <Ability name="Brinesoul" level="1" page="118">
+        <Traits>Lineage, Undine</Traits>
+        <Description>Your elemental ancestor's legacy asserts itself as brackish water, like the seawater of the ocean. You gain the Salt Wound reaction.</Description>
+        <AbilitySlot state="filled" name="Salt Wound">
+            <Ability cost="Reaction">
+                <Trigger>A creature that has blood and is not at its maximum Hit Points hits you with a melee Strike</Trigger>
+                <Frequency>once per day</Frequency>
+                <Description>You channel salt and brine from your blood into the creature's wounds. The creature must attempt a Fortitude save using your class DC or spell DC, whichever is higher. On a failure, the creature takes 1d6 persistent acid damage and is sickened 1 by the pain. On a critical failure, it instead takes 2d6 persistent acid damage and is sickened 2.</Description>
+            </Ability>
+        </AbilitySlot>
+    </Ability>
+    <Ability name="Mistsoul" level="1" page="118" cost="Reaction">
+        <Traits>Lineage, Undine</Traits>
+        <Description>You have a connection to vaporous forms of water, such as fog and mist. You gain the Mist Blending reaction.</Description>
+        <AbilitySlot state="filled" name="Mist Blending">
+            <Ability cost="Reaction">
+                <Trigger>A creature attempts a flat check to target you because you're concealed or hidden due to fog, haze, mist, or smoke</Trigger>
+                <Description>You shroud yourself in mist, making it harder for your foe to hit you. If you're concealed, the DC of the flat check increases from 5 to 7; if you're hidden, it increases from 11 to 13.</Description>
+            </Ability>
+        </AbilitySlot>
+    </Ability>
+    <Ability name="Rimesoul" level="1" page="118">
+        <Traits>Lineage, Undine</Traits>
+        <Description>The water inside you is cold and frozen, like sheets of ice and frigid glaciers. You gain resistance to cold equal to half your level (minimum 1), and you treat environmental cold effects as if they were one step less severe (incredible cold becomes extreme, extreme cold becomes severe, and so on).</Description>
+        <!--TODO: Support resistance-->
+    </Ability>
+    <Ability name="Tide-Hardened" level="1" page="118">
+        <Traits>Undine</Traits>
+        <Description>You're at home in the unpredictable tides. You gain a +1 circumstance bonus to saves against cold and water effects. If you roll a success on a save against a cold or water effect, you get a critical success instead.</Description>
+    </Ability>
+    <Ability name="Fluid Contortionist" level="5" page="119">
+        <Traits>Undine</Traits>
+        <Description>You can ignore difficult terrain caused by moving through tight spaces that aren't tight enough to force you to Squeeze. When you roll a critical failure on a check to Squeeze, you get a failure instead, and when you roll a success, you get a critical success instead.</Description>
+    </Ability>
+    <Ability name="Steam Spell" level="5" page="119" cost="1">
+        <Traits>Concentrate, Metamagic, Undine</Traits>
+        <Description>You transform your fire spells into steam, making them more effective underwater. If your next action is to Cast a Spell with the fire trait, you can cast it underwater. When you do so, it takes the form of scalding steam. Underwater creatures do not gain the normal fire resistance for being underwater against this spell, but they don't light things on fire or cause persistent fire damage, nor do they add other effects that would apply to fire but not steam (at the GM's discretion).</Description>
+    </Ability>
+    <Ability name="Marid Magic" level="9" page="119">
+        <Traits>Undine</Traits>
+        <Description>You channel the magic of marids. You can cast hydraulic push and obscuring mist each once per day as 2nd-level arcane innate spells.</Description>
+        <!--TODO: Support innate spells-->
+    </Ability>
+    <Ability name="Strong Swimmer" level="9" page="119">
+        <Traits>Undine</Traits>
+        <Description>Your swim Speed increases to match your land Speed.</Description>
+        <!--TODO: Support movement speeds-->
+    </Ability>
+    <Ability name="Summon Water Elemental" level="13" page="119">
+        <Traits>Undine</Traits>
+        <Description>You can summon an elemental ally. Once per day, you can cast summon elemental as a 5th-level primal innate spell, but the elemental summoned must be a water elemental.</Description>
+        <!--TODO: Support innate spells-->
+    </Ability>
+    <Ability name="Translucent Skin" level="13" page="119">
+        <Traits>Undine</Traits>
+        <Description>Your body is translucent while underwater. Whenever you are fully submerged in water, you can Hide from other creatures even if you don't have cover against them and aren't concealed from them.</Description>
+    </Ability>
+    <Ability name="Tidal Shield" level="17" page="119" cost="2">
+        <Traits>Abjuration, Concentrate, Primal, Undine, Water</Traits>
+        <Frequency>once per day</Frequency>
+        <Description>You conjure the force of the tides to gain a +4 circumstance bonus to AC until the end of your next turn. Any allies adjacent to you during the duration gain a +2 circumstance bonus to AC as long as they remain adjacent to you. You can Sustain the effect to a maximum duration of 5 rounds. When a creature receiving a circumstance bonus to AC from Tidal Shield would take damage from an attack, as a reaction, you can reduce the damage to that creature by 40; after you do so, Tidal Shield ends.</Description>
+    </Ability>
+</pf2:feats>
