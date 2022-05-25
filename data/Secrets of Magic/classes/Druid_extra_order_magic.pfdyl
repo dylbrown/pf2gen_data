@@ -2,28 +2,16 @@
 <pf2:feats xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
-    <Ability name="Stone Order" page="198">
+    <Ability name="Stone Order Magic" page="198">
+        <PrereqStrings>Stone Order (Extra)</PrereqStrings>
         <Description>You're as enduring as stone, and you take comfort in its steadfast presence, both natural and worked. You're trained in Crafting. You also gain the Steadying Stone druid feat. You gain the crushing ground order spell. Poisoning or polluting the land and heedlessly carving the earth to plunder its natural resources are anathema to your order (this doesn't prevent you from responsibly digging or mining).</Description>
-        <AbilitySlot state="filled" type="Class(Druid) Feat" name="Order Feat" contents="Steadying Stone"/>
-        <AbilitySlot state="filled" name="Druidic Order Spell">
-            <Ability>
-                <PrereqStrings>Druidic Order Spell</PrereqStrings>
-                <Spellcasting listName="Druid" type="Prepared" tradition="Primal" ability="Wis"/>
-                <Spell type="Focus" name="Crushing Ground"/>
-            </Ability>
-        </AbilitySlot>
-        <AttributeMods Proficiency="Trained">Crafting</AttributeMods>
+        <Spellcasting listName="Druid" type="Prepared" tradition="Primal" ability="Wis"/>
+        <Spell type="Focus" name="Crushing Ground"/>
     </Ability>
-    <Ability name="Wave Order" page="198">
+    <Ability name="Wave Order Magic" page="198">
+        <PrereqStrings>Wave Order (Extra)</PrereqStrings>
         <Description>Water is the source of life, and you've learned to shape how it flows. You're trained in Medicine. You also gain the Shore Step druid feat. You gain the rising surf order spell. Polluting water or allowing those who pollute water sources to go unpunished is anathema to your order (this doesn't force you to take action against potential water pollution or to sacrifice yourself against an obviously superior foe).</Description>
-        <AbilitySlot state="filled" type="Class(Druid) Feat" name="Order Feat" contents="Shore Step"/>
-        <AbilitySlot state="filled" name="Druidic Order Spell">
-            <Ability>
-                <PrereqStrings>Druidic Order Spell</PrereqStrings>
-                <Spellcasting listName="Druid" type="Prepared" tradition="Primal" ability="Wis"/>
-                <Spell type="Focus" name="Rising Surf"/>
-            </Ability>
-        </AbilitySlot>
-        <AttributeMods Proficiency="Trained">Medicine</AttributeMods>
+        <Spellcasting listName="Druid" type="Prepared" tradition="Primal" ability="Wis"/>
+        <Spell type="Focus" name="Rising Surf"/>
     </Ability>
 </pf2:feats>

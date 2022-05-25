@@ -13,6 +13,8 @@
     </Description>
     <Choices>
         <Category name="Druidic Order" path="classes/Druid_orders.pfdyl" />
+        <Category name="Extra Order" path="classes/Druid_extra_orders.pfdyl" />
+        <Category name="Extra Order Magic" path="classes/Druid_extra_order_magic.pfdyl" />
     </Choices>
     <Classes>
         <Class name="Magus" path="classes/Magus.pfdyl" />

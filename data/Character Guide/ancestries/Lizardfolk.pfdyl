@@ -16,7 +16,7 @@
         <Ability name="Cliffscale Lizardfolk" page="57" type="Heritage">
             <Traits>Lizardfolk</Traits>
             <Description>Your toes are adapted for gripping and climbing. You gain the Combat Climber feat as a bonus feat, and as long as you aren’t wearing footwear, you can use the sticky pads on your feet to climb, leaving your hands free. Additionally, if you roll a success on an Athletics check to climb, you get a critical success instead.</Description>
-            <AbilitySlot state="filled" name="Combat Climber (Lizardfolk)" type="General Feat" />
+            <AbilitySlot state="filled" name="Combat Climber (Lizardfolk)" type="Skill Feat" contents="Combat Climber" />
         </Ability>
         <Ability name="Frilled Lizardfolk" page="57" type="Heritage">
             <Traits>Lizardfolk</Traits>

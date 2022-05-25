@@ -392,20 +392,24 @@
         <Ability name="Order Explorer" level="2" page="134">
             <Traits>Druid</Traits>
             <Description>You have learned the secrets of another druidic order, passing whatever rites of initiation that order requires and gaining access to its secrets. Choose an order other than your own. You gain a 1st-level feat that lists that order as a prerequisite, and you are now a member of that order for the purpose of meeting feat prerequisites. If you commit acts anathema to your new order, you lose all feats and abilities requiring that order but retain your other druid feats and abilities. You don't gain any of the other benefits of the order you chose.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat multiple times. Each time you do, you must choose a different order other than your own.</Description>
-            <AbilitySlot state="choice" name="Extra Order">
+            <AbilitySlot state="choice" name="Extra Order" contents="Extra Order">
                 <Ability name="Animal Order">
+                    <GivesPrerequisites>Animal Order (Extra)</GivesPrerequisites>
                     <Description>Committing wanton cruelty to animals or killing animals unnecessarily is anathema to your order. (This doesn't prevent you from defending yourself against animals or killing them cleanly for food.)</Description>
                     <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Animal Companion"/>
                 </Ability>
                 <Ability name="Leaf Order">
+                    <GivesPrerequisites>Leaf Order (Extra)</GivesPrerequisites>
                     <Description>Committing wanton cruelty to plants or killing plants unnecessarily is anathema to your order. (This doesn't prevent you from defending yourself against plants or harvesting them when necessary for survival.)</Description>
                     <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Leshy Familiar"/>
                 </Ability>
                 <Ability name="Storm Order">
+                    <GivesPrerequisites>Storm Order (Extra)</GivesPrerequisites>
                     <Description>Polluting the air or allowing those who cause major air pollution or climate shifts to go unpunished is anathema to your order. (This doesn't force you to take action against merely potential harm to the environment or to sacrifice yourself against an obviously superior foe.)</Description>
                     <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Storm Born"/>
                 </Ability>
                 <Ability name="Wild Order">
+                    <GivesPrerequisites>Wild Order (Extra)</GivesPrerequisites>
                     <Description>Becoming fully domesticated by the temptations of civilization is anathema to your order. (This doesn't prevent you from buying and using processed goods or staying in a city for an adventure, but you can never come to rely on these conveniences or truly call such a place your permanent home.)</Description>
                     <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Wild Shape"/>
                 </Ability>
@@ -430,25 +434,25 @@
             <Traits>Druid</Traits>
             <Prerequisites>Order Explorer</Prerequisites>
             <Description>You have delved deeper into the teaching of a new order, gaining access to a coveted order spell. Choose an order you have selected with Order Explorer. You gain the initial order spell from that order.&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can take this feat multiple times. Each time you do, you must choose a different order you have selected with Order Explorer.</Description>
-            <AbilitySlot state="choice" name="Extra Order Magic">
+            <AbilitySlot state="choice" name="Extra Order Magic" contents="Extra Order Magic">
                 <Ability name="Animal Order Magic">
-                    <Prerequisites>Animal Order</Prerequisites>
-                    <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Animal Companion"/>
+                    <PrereqStrings>Animal Order (Extra)</PrereqStrings>
+                    <Spellcasting listName="Druid" type="Prepared" tradition="Primal" ability="Wis"/>
                     <Spell type="Focus" name="Heal Animal"/>
                 </Ability>
                 <Ability name="Leaf Order Magic">
-                    <Prerequisites>Leaf Order</Prerequisites>
-                    <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Leshy Familiar"/>
+                    <PrereqStrings>Leaf Order (Extra)</PrereqStrings>
+                    <Spellcasting listName="Druid" type="Prepared" tradition="Primal" ability="Wis"/>
                     <Spell type="Focus" name="Goodberry"/>
                 </Ability>
                 <Ability name="Storm Order Magic">
-                    <Prerequisites>Storm Order</Prerequisites>
-                    <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Storm Born"/>
+                    <PrereqStrings>Storm Order (Extra)</PrereqStrings>
+                    <Spellcasting listName="Druid" type="Prepared" tradition="Primal" ability="Wis"/>
                     <Spell type="Focus" name="Tempest Surge"/>
                 </Ability>
                 <Ability name="Wild Order Magic">
-                    <Prerequisites>Wild Order</Prerequisites>
-                    <AbilitySlot state="filled" type="Class Feat" name="Order Feat" contents="Wild Shape"/>
+                    <PrereqStrings>Wild Order (Extra)</PrereqStrings>
+                    <Spellcasting listName="Druid" type="Prepared" tradition="Primal" ability="Wis"/>
                     <Spell type="Focus" name="Wild Shape"/>
                 </Ability>
             </AbilitySlot>
