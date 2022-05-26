@@ -10,7 +10,8 @@
         <Languages>Common</Languages>
         <Skills>Arcana +5, Crafting +5, Diplomacy +4, Occultism +5, Religion +7</Skills>
         <AbilityScores>Str +1, Dex +2, Con -1, Int +2, Wis +4, Cha +1</AbilityScores>
-        <Items>religious symbol of Nethys, religious text of Nethys, crossbow (10 bolts), staff</Items>
+        <Items>crossbow (10 bolts), staff</Items>
+        <!--TODO: religious symbol of Nethys, religious text of Nethys-->
         <AC>15</AC>
         <Saves>Fort +2, Ref +5, Will +9</Saves>
         <HP>16</HP>
