@@ -1,0 +1,1168 @@
+<pf2:Items category="runes" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Armor Property Runes">
+<Item level="5" page="38">
+	<Name>Stanching</Name>
+	<Price>130 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching (Greater)</Name>
+	<Price>600 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;
+
+The DC of the flat check is reduced from 15 to 10 (5 with particularly effective assistance).&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;
+
+The DC of the flat check is reduced from 15 to 8 (3 with particularly effective assistance).&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching (True)</Name>
+	<Price>12,500 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;
+
+The DC of the flat check is reduced from 15 to 5 (particularly effective assistance automatically removes the persistent bleed damage).</Description>
+</Item>
+<Item level="6" page="14">
+	<Name>Dread (Lesser)</Name>
+	<Price>225 gp</Price>
+	<Traits>Emotion, Enchantment, Fear, Magical, Mental, Visual</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Eerie symbols cover your armor, inspiring terror in your foes. Frightened enemies within 30 feet that can see you must attempt a DC 20 Will save at the end of their turn; on a failure, the value of their frightened condition doesn't decrease below 1 that turn.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="14">
+	<Name>Dread (Moderate)</Name>
+	<Price>1,800 gp</Price>
+	<Traits>Emotion, Enchantment, Fear, Magical, Mental, Visual</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Eerie symbols cover your armor, inspiring terror in your foes. Frightened enemies within 30 feet that can see you must attempt a DC 20 Will save at the end of their turn; on a failure, the value of their frightened condition doesn't decrease below 1 that turn.&lt;br&gt;
+
+The DC is 29, and the value of affected enemies' frightened condition doesn't decrease below 2.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="14">
+	<Name>Dread (Greater)</Name>
+	<Price>21,000 gp</Price>
+	<Traits>Emotion, Enchantment, Fear, Magical, Mental, Visual</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Eerie symbols cover your armor, inspiring terror in your foes. Frightened enemies within 30 feet that can see you must attempt a DC 20 Will save at the end of their turn; on a failure, the value of their frightened condition doesn't decrease below 1 that turn.&lt;br&gt;
+
+The DC is 38, and the value of affected enemies' frightened condition doesn't decrease, no matter the value.</Description>
+</Item>
+<Item level="7" page="10">
+	<Name>Deathless</Name>
+	<Price>330 gp</Price>
+	<Traits>Healing, Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols fortify your body's grasp on your soul, keeping it tethered when death approaches.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Trigger&lt;/b&gt; You gain the doomed or wounded condition; &lt;b&gt;Effect&lt;/b&gt; You reduce the value of the triggering condition by 1.</Description>
+</Item>
+<Item level="9" page="18">
+	<Name>Bitter</Name>
+	<Price>135 gp</Price>
+	<Traits>Magical, Poison, Transmutation</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>While you wear this acrid armor, any creature that Engulfs you or Swallows you Whole is sickened 1; if it spends an action retching to reduce the sickened condition, you can attempt to Escape as a reaction.</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching</Name>
+	<Price>130 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching (Greater)</Name>
+	<Price>600 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;
+
+The DC of the flat check is reduced from 15 to 10 (5 with particularly effective assistance).&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;
+
+The DC of the flat check is reduced from 15 to 8 (3 with particularly effective assistance).&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching (True)</Name>
+	<Price>12,500 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;
+
+The DC of the flat check is reduced from 15 to 5 (particularly effective assistance automatically removes the persistent bleed damage).</Description>
+</Item>
+<Item level="11" page="80">
+	<Name>Implacable</Name>
+	<Price>1,200 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto medium or heavy armor</Usage>
+	<Description>This substantial rune makes you difficult to hold back. Whenever you are affected by an effect that lasts until you Escape (for instance, from the Grapple action or a tanglefoot bag), you become quickened. You can use the extra action each round only to Step or Escape.</Description>
+</Item>
+<Item level="6" page="14">
+	<Name>Dread (Lesser)</Name>
+	<Price>225 gp</Price>
+	<Traits>Emotion, Enchantment, Fear, Magical, Mental, Visual</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Eerie symbols cover your armor, inspiring terror in your foes. Frightened enemies within 30 feet that can see you must attempt a DC 20 Will save at the end of their turn; on a failure, the value of their frightened condition doesn't decrease below 1 that turn.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="14">
+	<Name>Dread (Moderate)</Name>
+	<Price>1,800 gp</Price>
+	<Traits>Emotion, Enchantment, Fear, Magical, Mental, Visual</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Eerie symbols cover your armor, inspiring terror in your foes. Frightened enemies within 30 feet that can see you must attempt a DC 20 Will save at the end of their turn; on a failure, the value of their frightened condition doesn't decrease below 1 that turn.&lt;br&gt;
+
+The DC is 29, and the value of affected enemies' frightened condition doesn't decrease below 2.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="14">
+	<Name>Dread (Greater)</Name>
+	<Price>21,000 gp</Price>
+	<Traits>Emotion, Enchantment, Fear, Magical, Mental, Visual</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Eerie symbols cover your armor, inspiring terror in your foes. Frightened enemies within 30 feet that can see you must attempt a DC 20 Will save at the end of their turn; on a failure, the value of their frightened condition doesn't decrease below 1 that turn.&lt;br&gt;
+
+The DC is 38, and the value of affected enemies' frightened condition doesn't decrease, no matter the value.</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching</Name>
+	<Price>130 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching (Greater)</Name>
+	<Price>600 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;
+
+The DC of the flat check is reduced from 15 to 10 (5 with particularly effective assistance).&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;
+
+The DC of the flat check is reduced from 15 to 8 (3 with particularly effective assistance).&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching (True)</Name>
+	<Price>12,500 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;
+
+The DC of the flat check is reduced from 15 to 5 (particularly effective assistance automatically removes the persistent bleed damage).</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching</Name>
+	<Price>130 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching (Greater)</Name>
+	<Price>600 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;
+
+The DC of the flat check is reduced from 15 to 10 (5 with particularly effective assistance).&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;
+
+The DC of the flat check is reduced from 15 to 8 (3 with particularly effective assistance).&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="38">
+	<Name>Stanching (True)</Name>
+	<Price>12,500 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).&lt;br&gt;
+
+The DC of the flat check is reduced from 15 to 5 (particularly effective assistance automatically removes the persistent bleed damage).</Description>
+</Item>
+<Item level="6" page="14">
+	<Name>Dread (Lesser)</Name>
+	<Price>225 gp</Price>
+	<Traits>Emotion, Enchantment, Fear, Magical, Mental, Visual</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Eerie symbols cover your armor, inspiring terror in your foes. Frightened enemies within 30 feet that can see you must attempt a DC 20 Will save at the end of their turn; on a failure, the value of their frightened condition doesn't decrease below 1 that turn.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="14">
+	<Name>Dread (Moderate)</Name>
+	<Price>1,800 gp</Price>
+	<Traits>Emotion, Enchantment, Fear, Magical, Mental, Visual</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Eerie symbols cover your armor, inspiring terror in your foes. Frightened enemies within 30 feet that can see you must attempt a DC 20 Will save at the end of their turn; on a failure, the value of their frightened condition doesn't decrease below 1 that turn.&lt;br&gt;
+
+The DC is 29, and the value of affected enemies' frightened condition doesn't decrease below 2.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="14">
+	<Name>Dread (Greater)</Name>
+	<Price>21,000 gp</Price>
+	<Traits>Emotion, Enchantment, Fear, Magical, Mental, Visual</Traits>
+	<Usage>etched onto armor</Usage>
+	<Description>Eerie symbols cover your armor, inspiring terror in your foes. Frightened enemies within 30 feet that can see you must attempt a DC 20 Will save at the end of their turn; on a failure, the value of their frightened condition doesn't decrease below 1 that turn.&lt;br&gt;
+
+The DC is 38, and the value of affected enemies' frightened condition doesn't decrease, no matter the value.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Weapon Property Runes">
+<Item level="2" page="106">
+	<Name>Fanged</Name>
+	<Price>30 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>When etched with this rune, a weapon's hilt or haft becomes engraved with grooves that match the imprints of a wolf's teeth. By putting a &lt;i&gt;fanged&lt;/i&gt; weapon in your mouth, you can transform into an animal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact (magical, polymorph, transmutation); &lt;b&gt;Effect&lt;/b&gt; You transform into a Small or Medium animal that wields the &lt;i&gt;fanged&lt;/i&gt; weapon in its jaws; the animal matches the animal you are most closely associated with (a lizardfolk would turn into a lizard, a kitsune into a fox, a deer instinct barbarian into a deer, etc.) or a wolf if no specific animal is applicable. While in this form, you can attack with the &lt;i&gt;fanged&lt;/i&gt; weapon even though you don't have any hands. However, you can attack only with the &lt;i&gt;fanged&lt;/i&gt; weapon and you don't have hands or the ability to hold items. For effects dependent on how many hands you are using to hold the item, such as the two-hand trait, you are holding the weapon in two hands. You can Dismiss this effect, and it ends automatically if you drop the &lt;i&gt;fanged&lt;/i&gt; weapon (whether or not of your own volition).&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="106">
+	<Name>Fanged (Greater)</Name>
+	<Price>425 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>When etched with this rune, a weapon's hilt or haft becomes engraved with grooves that match the imprints of a wolf's teeth. By putting a &lt;i&gt;fanged&lt;/i&gt; weapon in your mouth, you can transform into an animal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact (magical, polymorph, transmutation); &lt;b&gt;Effect&lt;/b&gt; You transform into a Small or Medium animal that wields the &lt;i&gt;fanged&lt;/i&gt; weapon in its jaws; the animal matches the animal you are most closely associated with (a lizardfolk would turn into a lizard, a kitsune into a fox, a deer instinct barbarian into a deer, etc.) or a wolf if no specific animal is applicable. While in this form, you can attack with the &lt;i&gt;fanged&lt;/i&gt; weapon even though you don't have any hands. However, you can attack only with the &lt;i&gt;fanged&lt;/i&gt; weapon and you don't have hands or the ability to hold items. For effects dependent on how many hands you are using to hold the item, such as the two-hand trait, you are holding the weapon in two hands. You can Dismiss this effect, and it ends automatically if you drop the &lt;i&gt;fanged&lt;/i&gt; weapon (whether or not of your own volition).&lt;br&gt;
+
+In animal form, you gain low-light vision and a +5-foot item bonus to your Speed.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="106">
+	<Name>Fanged (Major)</Name>
+	<Price>6,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>When etched with this rune, a weapon's hilt or haft becomes engraved with grooves that match the imprints of a wolf's teeth. By putting a &lt;i&gt;fanged&lt;/i&gt; weapon in your mouth, you can transform into an animal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact (magical, polymorph, transmutation); &lt;b&gt;Effect&lt;/b&gt; You transform into a Small or Medium animal that wields the &lt;i&gt;fanged&lt;/i&gt; weapon in its jaws; the animal matches the animal you are most closely associated with (a lizardfolk would turn into a lizard, a kitsune into a fox, a deer instinct barbarian into a deer, etc.) or a wolf if no specific animal is applicable. While in this form, you can attack with the &lt;i&gt;fanged&lt;/i&gt; weapon even though you don't have any hands. However, you can attack only with the &lt;i&gt;fanged&lt;/i&gt; weapon and you don't have hands or the ability to hold items. For effects dependent on how many hands you are using to hold the item, such as the two-hand trait, you are holding the weapon in two hands. You can Dismiss this effect, and it ends automatically if you drop the &lt;i&gt;fanged&lt;/i&gt; weapon (whether or not of your own volition).&lt;br&gt;
+
+In animal form, you gain low-light vision, imprecise scent to a range of 30 feet, and a +10-foot item bonus to your Speed.</Description>
+</Item>
+<Item level="3" page="42">
+	<Name>Crushing</Name>
+	<Price>50 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto a bludgeoning weapon</Usage>
+	<Description>Weapons with this rune empower your strength, and attacks with these weapons leave your foe staggered. When you critically hit a target with this weapon, your target becomes clumsy 1 and enfeebled 1 until the end of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="42">
+	<Name>Crushing (Greater)</Name>
+	<Price>650 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto a bludgeoning weapon</Usage>
+	<Description>Weapons with this rune empower your strength, and attacks with these weapons leave your foe staggered. When you critically hit a target with this weapon, your target becomes clumsy 1 and enfeebled 1 until the end of your next turn.&lt;br&gt;
+
+Your critical hits leave the target clumsy 2 and enfeebled 2 until the end of your next turn.</Description>
+</Item>
+<Item level="6" page="80">
+	<Name>Hauling</Name>
+	<Price>225 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>&lt;i&gt;Hauling&lt;/i&gt; weapons are adept at moving creatures around the battlefield after a successful attack.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Command; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Trigger&lt;/b&gt; You succeed at an attack roll to Strike with a weapon with the &lt;i&gt;hauling&lt;/i&gt; rune; &lt;b&gt;Effect&lt;/b&gt; The target must succeed at a DC 20 Reflex save or be moved 5 feet in a direction you choose. This is forced movement.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="80">
+	<Name>Hauling (Greater)</Name>
+	<Price>1,300 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>&lt;i&gt;Hauling&lt;/i&gt; weapons are adept at moving creatures around the battlefield after a successful attack.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Command; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Trigger&lt;/b&gt; You succeed at an attack roll to Strike with a weapon with the &lt;i&gt;hauling&lt;/i&gt; rune; &lt;b&gt;Effect&lt;/b&gt; The target must succeed at a DC 20 Reflex save or be moved 5 feet in a direction you choose. This is forced movement.&lt;br&gt;
+
+The DC is 28, and the target is moved up to 10 feet.</Description>
+</Item>
+<Item level="6" page="10">
+	<Name>Energizing</Name>
+	<Price>250 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>A weapon with this rune can absorb energy damage to empower it.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Trigger&lt;/b&gt; You take acid, cold, electricity, fire, or sonic damage; &lt;b&gt;Effect&lt;/b&gt; The weapon becomes imbued with the triggering energy type. It deals an additional 1d8 damage of the triggering type until the end of your next turn. As normal, if you use this reaction again during the duration, the damage doesn't combine; instead, change the 1d8 damage to the new triggering type of damage and change the duration to the end of your next turn.</Description>
+</Item>
+<Item level="2" page="106">
+	<Name>Fanged</Name>
+	<Price>30 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>When etched with this rune, a weapon's hilt or haft becomes engraved with grooves that match the imprints of a wolf's teeth. By putting a &lt;i&gt;fanged&lt;/i&gt; weapon in your mouth, you can transform into an animal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact (magical, polymorph, transmutation); &lt;b&gt;Effect&lt;/b&gt; You transform into a Small or Medium animal that wields the &lt;i&gt;fanged&lt;/i&gt; weapon in its jaws; the animal matches the animal you are most closely associated with (a lizardfolk would turn into a lizard, a kitsune into a fox, a deer instinct barbarian into a deer, etc.) or a wolf if no specific animal is applicable. While in this form, you can attack with the &lt;i&gt;fanged&lt;/i&gt; weapon even though you don't have any hands. However, you can attack only with the &lt;i&gt;fanged&lt;/i&gt; weapon and you don't have hands or the ability to hold items. For effects dependent on how many hands you are using to hold the item, such as the two-hand trait, you are holding the weapon in two hands. You can Dismiss this effect, and it ends automatically if you drop the &lt;i&gt;fanged&lt;/i&gt; weapon (whether or not of your own volition).&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="106">
+	<Name>Fanged (Greater)</Name>
+	<Price>425 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>When etched with this rune, a weapon's hilt or haft becomes engraved with grooves that match the imprints of a wolf's teeth. By putting a &lt;i&gt;fanged&lt;/i&gt; weapon in your mouth, you can transform into an animal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact (magical, polymorph, transmutation); &lt;b&gt;Effect&lt;/b&gt; You transform into a Small or Medium animal that wields the &lt;i&gt;fanged&lt;/i&gt; weapon in its jaws; the animal matches the animal you are most closely associated with (a lizardfolk would turn into a lizard, a kitsune into a fox, a deer instinct barbarian into a deer, etc.) or a wolf if no specific animal is applicable. While in this form, you can attack with the &lt;i&gt;fanged&lt;/i&gt; weapon even though you don't have any hands. However, you can attack only with the &lt;i&gt;fanged&lt;/i&gt; weapon and you don't have hands or the ability to hold items. For effects dependent on how many hands you are using to hold the item, such as the two-hand trait, you are holding the weapon in two hands. You can Dismiss this effect, and it ends automatically if you drop the &lt;i&gt;fanged&lt;/i&gt; weapon (whether or not of your own volition).&lt;br&gt;
+
+In animal form, you gain low-light vision and a +5-foot item bonus to your Speed.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="106">
+	<Name>Fanged (Major)</Name>
+	<Price>6,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>When etched with this rune, a weapon's hilt or haft becomes engraved with grooves that match the imprints of a wolf's teeth. By putting a &lt;i&gt;fanged&lt;/i&gt; weapon in your mouth, you can transform into an animal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact (magical, polymorph, transmutation); &lt;b&gt;Effect&lt;/b&gt; You transform into a Small or Medium animal that wields the &lt;i&gt;fanged&lt;/i&gt; weapon in its jaws; the animal matches the animal you are most closely associated with (a lizardfolk would turn into a lizard, a kitsune into a fox, a deer instinct barbarian into a deer, etc.) or a wolf if no specific animal is applicable. While in this form, you can attack with the &lt;i&gt;fanged&lt;/i&gt; weapon even though you don't have any hands. However, you can attack only with the &lt;i&gt;fanged&lt;/i&gt; weapon and you don't have hands or the ability to hold items. For effects dependent on how many hands you are using to hold the item, such as the two-hand trait, you are holding the weapon in two hands. You can Dismiss this effect, and it ends automatically if you drop the &lt;i&gt;fanged&lt;/i&gt; weapon (whether or not of your own volition).&lt;br&gt;
+
+In animal form, you gain low-light vision, imprecise scent to a range of 30 feet, and a +10-foot item bonus to your Speed.</Description>
+</Item>
+<Item level="3" page="42">
+	<Name>Crushing</Name>
+	<Price>50 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto a bludgeoning weapon</Usage>
+	<Description>Weapons with this rune empower your strength, and attacks with these weapons leave your foe staggered. When you critically hit a target with this weapon, your target becomes clumsy 1 and enfeebled 1 until the end of your next turn.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="42">
+	<Name>Crushing (Greater)</Name>
+	<Price>650 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto a bludgeoning weapon</Usage>
+	<Description>Weapons with this rune empower your strength, and attacks with these weapons leave your foe staggered. When you critically hit a target with this weapon, your target becomes clumsy 1 and enfeebled 1 until the end of your next turn.&lt;br&gt;
+
+Your critical hits leave the target clumsy 2 and enfeebled 2 until the end of your next turn.</Description>
+</Item>
+<Item level="10" page="80">
+	<Name>Anchoring</Name>
+	<Price>900 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This rune prevents enemies from escaping your grasp by fleeing to other planes. If you critically hit a target with an &lt;i&gt;anchoring&lt;/i&gt; weapon, the weapon casts &lt;i&gt;dimensional anchor&lt;/i&gt; on the target (DC 27, counteract modifier +17).&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="80">
+	<Name>Anchoring (Greater)</Name>
+	<Price>22,000 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This rune prevents enemies from escaping your grasp by fleeing to other planes. If you critically hit a target with an &lt;i&gt;anchoring&lt;/i&gt; weapon, the weapon casts &lt;i&gt;dimensional anchor&lt;/i&gt; on the target (DC 27, counteract modifier +17).&lt;br&gt;
+
+When you critically hit a target with a weapon with the anchoring rune, the weapon casts 8th-level &lt;i&gt;dimensional anchor&lt;/i&gt; on the target (DC 38, counteract modifier +28), except that if the target critically succeeds at its Will save, instead of having no effect, the &lt;i&gt;dimensional anchor&lt;/i&gt; lasts for 1 round. When you hit a target with the weapon but don't critically hit, the target is affected by 4th-level &lt;i&gt;dimensional anchor&lt;/i&gt; for 1 round without a save (this still uses a counteract modifier of +28).</Description>
+</Item>
+<Item level="11" page="84">
+	<Name>Hopeful</Name>
+	<Price>1,200 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>A weapon with a &lt;i&gt;hopeful&lt;/i&gt; rune exudes positivity. On a critical hit with this weapon, you inspire your comrades, pushing them to fight harder and stand for your shared convictions. Allies within 30 feet that share at least one alignment component with you gain a +1 status bonus to attack rolls until the end of your next turn.</Description>
+</Item>
+<Item level="6" page="80">
+	<Name>Hauling</Name>
+	<Price>225 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>&lt;i&gt;Hauling&lt;/i&gt; weapons are adept at moving creatures around the battlefield after a successful attack.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Command; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Trigger&lt;/b&gt; You succeed at an attack roll to Strike with a weapon with the &lt;i&gt;hauling&lt;/i&gt; rune; &lt;b&gt;Effect&lt;/b&gt; The target must succeed at a DC 20 Reflex save or be moved 5 feet in a direction you choose. This is forced movement.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="80">
+	<Name>Hauling (Greater)</Name>
+	<Price>1,300 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>&lt;i&gt;Hauling&lt;/i&gt; weapons are adept at moving creatures around the battlefield after a successful attack.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Command; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Trigger&lt;/b&gt; You succeed at an attack roll to Strike with a weapon with the &lt;i&gt;hauling&lt;/i&gt; rune; &lt;b&gt;Effect&lt;/b&gt; The target must succeed at a DC 20 Reflex save or be moved 5 feet in a direction you choose. This is forced movement.&lt;br&gt;
+
+The DC is 28, and the target is moved up to 10 feet.</Description>
+</Item>
+<Item level="2" page="106">
+	<Name>Fanged</Name>
+	<Price>30 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>When etched with this rune, a weapon's hilt or haft becomes engraved with grooves that match the imprints of a wolf's teeth. By putting a &lt;i&gt;fanged&lt;/i&gt; weapon in your mouth, you can transform into an animal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact (magical, polymorph, transmutation); &lt;b&gt;Effect&lt;/b&gt; You transform into a Small or Medium animal that wields the &lt;i&gt;fanged&lt;/i&gt; weapon in its jaws; the animal matches the animal you are most closely associated with (a lizardfolk would turn into a lizard, a kitsune into a fox, a deer instinct barbarian into a deer, etc.) or a wolf if no specific animal is applicable. While in this form, you can attack with the &lt;i&gt;fanged&lt;/i&gt; weapon even though you don't have any hands. However, you can attack only with the &lt;i&gt;fanged&lt;/i&gt; weapon and you don't have hands or the ability to hold items. For effects dependent on how many hands you are using to hold the item, such as the two-hand trait, you are holding the weapon in two hands. You can Dismiss this effect, and it ends automatically if you drop the &lt;i&gt;fanged&lt;/i&gt; weapon (whether or not of your own volition).&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="106">
+	<Name>Fanged (Greater)</Name>
+	<Price>425 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>When etched with this rune, a weapon's hilt or haft becomes engraved with grooves that match the imprints of a wolf's teeth. By putting a &lt;i&gt;fanged&lt;/i&gt; weapon in your mouth, you can transform into an animal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact (magical, polymorph, transmutation); &lt;b&gt;Effect&lt;/b&gt; You transform into a Small or Medium animal that wields the &lt;i&gt;fanged&lt;/i&gt; weapon in its jaws; the animal matches the animal you are most closely associated with (a lizardfolk would turn into a lizard, a kitsune into a fox, a deer instinct barbarian into a deer, etc.) or a wolf if no specific animal is applicable. While in this form, you can attack with the &lt;i&gt;fanged&lt;/i&gt; weapon even though you don't have any hands. However, you can attack only with the &lt;i&gt;fanged&lt;/i&gt; weapon and you don't have hands or the ability to hold items. For effects dependent on how many hands you are using to hold the item, such as the two-hand trait, you are holding the weapon in two hands. You can Dismiss this effect, and it ends automatically if you drop the &lt;i&gt;fanged&lt;/i&gt; weapon (whether or not of your own volition).&lt;br&gt;
+
+In animal form, you gain low-light vision and a +5-foot item bonus to your Speed.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="106">
+	<Name>Fanged (Major)</Name>
+	<Price>6,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>etched onto a melee weapon</Usage>
+	<Description>When etched with this rune, a weapon's hilt or haft becomes engraved with grooves that match the imprints of a wolf's teeth. By putting a &lt;i&gt;fanged&lt;/i&gt; weapon in your mouth, you can transform into an animal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact (magical, polymorph, transmutation); &lt;b&gt;Effect&lt;/b&gt; You transform into a Small or Medium animal that wields the &lt;i&gt;fanged&lt;/i&gt; weapon in its jaws; the animal matches the animal you are most closely associated with (a lizardfolk would turn into a lizard, a kitsune into a fox, a deer instinct barbarian into a deer, etc.) or a wolf if no specific animal is applicable. While in this form, you can attack with the &lt;i&gt;fanged&lt;/i&gt; weapon even though you don't have any hands. However, you can attack only with the &lt;i&gt;fanged&lt;/i&gt; weapon and you don't have hands or the ability to hold items. For effects dependent on how many hands you are using to hold the item, such as the two-hand trait, you are holding the weapon in two hands. You can Dismiss this effect, and it ends automatically if you drop the &lt;i&gt;fanged&lt;/i&gt; weapon (whether or not of your own volition).&lt;br&gt;
+
+In animal form, you gain low-light vision, imprecise scent to a range of 30 feet, and a +10-foot item bonus to your Speed.</Description>
+</Item>
+<Item level="16" page="42">
+	<Name>Bloodthirsty</Name>
+	<Price>8,500 gp</Price>
+	<Traits>Magical, Necromancy</Traits>
+	<Usage>etched onto a slashing or piercing melee weapon</Usage>
+	<Description>The magic in this rune sings in time with your attacks and coaxes you into finishing your opponent. When you critically hit a target that's taking persistent bleed damage, your target becomes drained 1.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Trigger&lt;/b&gt; You reduce a creature to 0 Hit Points with the weapon; &lt;b&gt;Effect&lt;/b&gt; You gain a number of temporary Hit Points equal to twice the creature's level. These Hit Points remain for 1 minute.</Description>
+</Item>
+<Item level="10" page="80">
+	<Name>Anchoring</Name>
+	<Price>900 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This rune prevents enemies from escaping your grasp by fleeing to other planes. If you critically hit a target with an &lt;i&gt;anchoring&lt;/i&gt; weapon, the weapon casts &lt;i&gt;dimensional anchor&lt;/i&gt; on the target (DC 27, counteract modifier +17).&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="80">
+	<Name>Anchoring (Greater)</Name>
+	<Price>22,000 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>etched onto a weapon</Usage>
+	<Description>This rune prevents enemies from escaping your grasp by fleeing to other planes. If you critically hit a target with an &lt;i&gt;anchoring&lt;/i&gt; weapon, the weapon casts &lt;i&gt;dimensional anchor&lt;/i&gt; on the target (DC 27, counteract modifier +17).&lt;br&gt;
+
+When you critically hit a target with a weapon with the anchoring rune, the weapon casts 8th-level &lt;i&gt;dimensional anchor&lt;/i&gt; on the target (DC 38, counteract modifier +28), except that if the target critically succeeds at its Will save, instead of having no effect, the &lt;i&gt;dimensional anchor&lt;/i&gt; lasts for 1 round. When you hit a target with the weapon but don't critically hit, the target is affected by 4th-level &lt;i&gt;dimensional anchor&lt;/i&gt; for 1 round without a save (this still uses a counteract modifier of +28).</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Accessory Runes">
+<Item level="3" page="89">
+	<Name>Presentable</Name>
+	<Price>50 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>applied to any visible article of clothing</Usage>
+	<Description>A garment with this rune is always clean, as though it had just been affected by &lt;i&gt;prestidigitation&lt;/i&gt;. You gain a +1 item bonus to Make an Impression on those who would be impressed by a particular &lt;i&gt;presentable&lt;/i&gt; outfit while wearing this garment.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="89">
+	<Name>Presentable (Greater)</Name>
+	<Price>900 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>applied to any visible article of clothing</Usage>
+	<Description>A garment with this rune is always clean, as though it had just been affected by &lt;i&gt;prestidigitation&lt;/i&gt;. You gain a +1 item bonus to Make an Impression on those who would be impressed by a particular &lt;i&gt;presentable&lt;/i&gt; outfit while wearing this garment.&lt;br&gt;
+
+This rune grants a +2 item bonus and has an activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] envision, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;suggestion&lt;/i&gt;.</Description>
+</Item>
+<Item level="3" page="88">
+	<Name>Called</Name>
+	<Price>60 gp</Price>
+	<Traits>Conjuration, Magical</Traits>
+	<Usage>applied to any item of light or negligible Bulk</Usage>
+	<Description>With this rune, you can instantly retrieve an item in your possession without digging around looking for it.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Requirements&lt;/b&gt; You have a free hand and the &lt;i&gt;called&lt;/i&gt; item is in a bag, pack, pouch, or other container on your person, or unattended within 30 feet; &lt;b&gt;Effect&lt;/b&gt; The item teleports to a free hand.</Description>
+</Item>
+<Item level="3" page="89">
+	<Name>Snagging</Name>
+	<Price>60 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>applied to belt, cape, cloak, or scarf</Usage>
+	<Description>This animated item attempts to catch you when you fall. You can attempt to Grab an Edge, even if your hands are tied behind your back or otherwise restrained, so long as there's a solid edge within 10 feet. If you roll a success, you can Grab the Edge even if you don't have a hand free.</Description>
+</Item>
+<Item level="3" page="89">
+	<Name>Soft-Landing</Name>
+	<Price>60 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>applied to boots, cape, cloak, or umbrella</Usage>
+	<Description>This item creates a small cushion of air that catches you when you fall. You treat falls as 10 feet shorter.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] envision; &lt;b&gt;Trigger&lt;/b&gt; You begin to fall; &lt;b&gt;Effect&lt;/b&gt; You gain the effects of &lt;i&gt;feather fall&lt;/i&gt; for 1 minute or until you stop falling, whichever comes first.</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (1st-Level Spell)</Name>
+	<Price>100 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (2nd-Level Spell)</Name>
+	<Price>250 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (3rd-Level Spell)</Name>
+	<Price>500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (5th-Level Spell)</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (6th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (7th-Level Spell)</Name>
+	<Price>10,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (8th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (9th-Level Spell)</Name>
+	<Price>70,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="88">
+	<Name>Paired</Name>
+	<Price>150 gp</Price>
+	<Traits>Conjuration, Magical, Teleportation</Traits>
+	<Usage>each rune applied to a separate item that has pockets</Usage>
+	<Description>These runes always come in pairs and can be applied to a garment's pockets to be activated.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; The &lt;i&gt;paired&lt;/i&gt; items are both invested, typically by two different characters, and are within 100 feet of each other; &lt;b&gt;Effect&lt;/b&gt; Items in the pockets (up to 10 negligible Bulk items or 1 light Bulk item per pocket) trade places via teleportation.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="88">
+	<Name>Paired (Greater)</Name>
+	<Price>650 gp</Price>
+	<Traits>Conjuration, Magical, Teleportation</Traits>
+	<Usage>each rune applied to a separate item that has pockets</Usage>
+	<Description>These runes always come in pairs and can be applied to a garment's pockets to be activated.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; The &lt;i&gt;paired&lt;/i&gt; items are both invested, typically by two different characters, and are within 100 feet of each other; &lt;b&gt;Effect&lt;/b&gt; Items in the pockets (up to 10 negligible Bulk items or 1 light Bulk item per pocket) trade places via teleportation.&lt;br&gt;
+
+You can activate these runes at a distance of up to 1 mile.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="88">
+	<Name>Paired (Major)</Name>
+	<Price>2,750 gp</Price>
+	<Traits>Conjuration, Magical, Teleportation</Traits>
+	<Usage>each rune applied to a separate item that has pockets</Usage>
+	<Description>These runes always come in pairs and can be applied to a garment's pockets to be activated.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; The &lt;i&gt;paired&lt;/i&gt; items are both invested, typically by two different characters, and are within 100 feet of each other; &lt;b&gt;Effect&lt;/b&gt; Items in the pockets (up to 10 negligible Bulk items or 1 light Bulk item per pocket) trade places via teleportation.&lt;br&gt;
+
+You can activate these runes at any distance as long as they're on the same plane.</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (1st-Level Spell)</Name>
+	<Price>100 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (2nd-Level Spell)</Name>
+	<Price>250 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (3rd-Level Spell)</Name>
+	<Price>500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (5th-Level Spell)</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (6th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (7th-Level Spell)</Name>
+	<Price>10,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (8th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (9th-Level Spell)</Name>
+	<Price>70,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="89">
+	<Name>Wind-Catcher</Name>
+	<Price>350 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>applied to a wind-powered vehicle</Usage>
+	<Description>This rune is invested by the captain or pilot of the vehicle. The vehicle gains a +5-foot item bonus to its Speed. If lack of wind prevents the vehicle from moving, it can still move at a Speed of 5 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="89">
+	<Name>Wind-Catcher (Greater)</Name>
+	<Price>4,250 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>applied to a wind-powered vehicle</Usage>
+	<Description>This rune is invested by the captain or pilot of the vehicle. The vehicle gains a +5-foot item bonus to its Speed. If lack of wind prevents the vehicle from moving, it can still move at a Speed of 5 feet.&lt;br&gt;
+
+The bonus to Speed is +10 feet, and the minimum speed is 10 feet</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (1st-Level Spell)</Name>
+	<Price>100 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (2nd-Level Spell)</Name>
+	<Price>250 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (3rd-Level Spell)</Name>
+	<Price>500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (5th-Level Spell)</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (6th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (7th-Level Spell)</Name>
+	<Price>10,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (8th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (9th-Level Spell)</Name>
+	<Price>70,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="88">
+	<Name>Paired</Name>
+	<Price>150 gp</Price>
+	<Traits>Conjuration, Magical, Teleportation</Traits>
+	<Usage>each rune applied to a separate item that has pockets</Usage>
+	<Description>These runes always come in pairs and can be applied to a garment's pockets to be activated.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; The &lt;i&gt;paired&lt;/i&gt; items are both invested, typically by two different characters, and are within 100 feet of each other; &lt;b&gt;Effect&lt;/b&gt; Items in the pockets (up to 10 negligible Bulk items or 1 light Bulk item per pocket) trade places via teleportation.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="88">
+	<Name>Paired (Greater)</Name>
+	<Price>650 gp</Price>
+	<Traits>Conjuration, Magical, Teleportation</Traits>
+	<Usage>each rune applied to a separate item that has pockets</Usage>
+	<Description>These runes always come in pairs and can be applied to a garment's pockets to be activated.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; The &lt;i&gt;paired&lt;/i&gt; items are both invested, typically by two different characters, and are within 100 feet of each other; &lt;b&gt;Effect&lt;/b&gt; Items in the pockets (up to 10 negligible Bulk items or 1 light Bulk item per pocket) trade places via teleportation.&lt;br&gt;
+
+You can activate these runes at a distance of up to 1 mile.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="88">
+	<Name>Paired (Major)</Name>
+	<Price>2,750 gp</Price>
+	<Traits>Conjuration, Magical, Teleportation</Traits>
+	<Usage>each rune applied to a separate item that has pockets</Usage>
+	<Description>These runes always come in pairs and can be applied to a garment's pockets to be activated.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; The &lt;i&gt;paired&lt;/i&gt; items are both invested, typically by two different characters, and are within 100 feet of each other; &lt;b&gt;Effect&lt;/b&gt; Items in the pockets (up to 10 negligible Bulk items or 1 light Bulk item per pocket) trade places via teleportation.&lt;br&gt;
+
+You can activate these runes at any distance as long as they're on the same plane.</Description>
+</Item>
+<Item level="3" page="89">
+	<Name>Presentable</Name>
+	<Price>50 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>applied to any visible article of clothing</Usage>
+	<Description>A garment with this rune is always clean, as though it had just been affected by &lt;i&gt;prestidigitation&lt;/i&gt;. You gain a +1 item bonus to Make an Impression on those who would be impressed by a particular &lt;i&gt;presentable&lt;/i&gt; outfit while wearing this garment.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="89">
+	<Name>Presentable (Greater)</Name>
+	<Price>900 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>applied to any visible article of clothing</Usage>
+	<Description>A garment with this rune is always clean, as though it had just been affected by &lt;i&gt;prestidigitation&lt;/i&gt;. You gain a +1 item bonus to Make an Impression on those who would be impressed by a particular &lt;i&gt;presentable&lt;/i&gt; outfit while wearing this garment.&lt;br&gt;
+
+This rune grants a +2 item bonus and has an activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] envision, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;suggestion&lt;/i&gt;.</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (1st-Level Spell)</Name>
+	<Price>100 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (2nd-Level Spell)</Name>
+	<Price>250 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (3rd-Level Spell)</Name>
+	<Price>500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (5th-Level Spell)</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (6th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (7th-Level Spell)</Name>
+	<Price>10,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (8th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (9th-Level Spell)</Name>
+	<Price>70,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (1st-Level Spell)</Name>
+	<Price>100 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (2nd-Level Spell)</Name>
+	<Price>250 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (3rd-Level Spell)</Name>
+	<Price>500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (5th-Level Spell)</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (6th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (7th-Level Spell)</Name>
+	<Price>10,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (8th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (9th-Level Spell)</Name>
+	<Price>70,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="13" page="89">
+	<Name>Spell-Bastion</Name>
+	<Price>2,700 gp</Price>
+	<Traits>Abjuration, Magical</Traits>
+	<Usage>applied to shield</Usage>
+	<Description>A &lt;i&gt;spell-bastion&lt;/i&gt; rune creates a reservoir of eldritch energy within the shield. A spellcaster can spend 1 minute to Cast a Spell of 3rd level or lower into the shield. The spell must take 2 actions or fewer to cast and must be able to target a creature other than the caster. The spell has no immediate effect—it's instead stored for later. When you invest a &lt;i&gt;spell-bastion&lt;/i&gt; shield, you immediately know the name and level of the stored spell. A &lt;i&gt;spell-bastion&lt;/i&gt; shield found as treasure has a 50% chance of having a spell of the GM's choice stored in it.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] envision; &lt;b&gt;Requirements&lt;/b&gt; Your &lt;i&gt;spell-bastion&lt;/i&gt; shield is storing a spell, and you have your shield raised; &lt;b&gt;Effect&lt;/b&gt; You prepare to unleash the stored spell on any foe that hits you until your next turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] command; &lt;b&gt;Trigger&lt;/b&gt; You use the Shield Block reaction against a foe that the stored spell can target; &lt;b&gt;Requirements&lt;/b&gt; You have a spell stored in your &lt;i&gt;spell-bastion&lt;/i&gt; shield, and you've activated the shield since your last turn in preparation for unleashing the spell; &lt;b&gt;Effect&lt;/b&gt; You unleash the stored spell, which uses the target of the triggering attack as the target of the spell. This empties the spell from the shield and allows a spell to be cast into it again.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Effect&lt;/b&gt; You harmlessly expend the stored spell. This frees the shield to have a new spell cast into it.</Description>
+</Item>
+<Item level="5" page="88">
+	<Name>Paired</Name>
+	<Price>150 gp</Price>
+	<Traits>Conjuration, Magical, Teleportation</Traits>
+	<Usage>each rune applied to a separate item that has pockets</Usage>
+	<Description>These runes always come in pairs and can be applied to a garment's pockets to be activated.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; The &lt;i&gt;paired&lt;/i&gt; items are both invested, typically by two different characters, and are within 100 feet of each other; &lt;b&gt;Effect&lt;/b&gt; Items in the pockets (up to 10 negligible Bulk items or 1 light Bulk item per pocket) trade places via teleportation.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="88">
+	<Name>Paired (Greater)</Name>
+	<Price>650 gp</Price>
+	<Traits>Conjuration, Magical, Teleportation</Traits>
+	<Usage>each rune applied to a separate item that has pockets</Usage>
+	<Description>These runes always come in pairs and can be applied to a garment's pockets to be activated.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; The &lt;i&gt;paired&lt;/i&gt; items are both invested, typically by two different characters, and are within 100 feet of each other; &lt;b&gt;Effect&lt;/b&gt; Items in the pockets (up to 10 negligible Bulk items or 1 light Bulk item per pocket) trade places via teleportation.&lt;br&gt;
+
+You can activate these runes at a distance of up to 1 mile.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="88">
+	<Name>Paired (Major)</Name>
+	<Price>2,750 gp</Price>
+	<Traits>Conjuration, Magical, Teleportation</Traits>
+	<Usage>each rune applied to a separate item that has pockets</Usage>
+	<Description>These runes always come in pairs and can be applied to a garment's pockets to be activated.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Requirements&lt;/b&gt; The &lt;i&gt;paired&lt;/i&gt; items are both invested, typically by two different characters, and are within 100 feet of each other; &lt;b&gt;Effect&lt;/b&gt; Items in the pockets (up to 10 negligible Bulk items or 1 light Bulk item per pocket) trade places via teleportation.&lt;br&gt;
+
+You can activate these runes at any distance as long as they're on the same plane.</Description>
+</Item>
+<Item level="7" page="89">
+	<Name>Wind-Catcher</Name>
+	<Price>350 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>applied to a wind-powered vehicle</Usage>
+	<Description>This rune is invested by the captain or pilot of the vehicle. The vehicle gains a +5-foot item bonus to its Speed. If lack of wind prevents the vehicle from moving, it can still move at a Speed of 5 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="89">
+	<Name>Wind-Catcher (Greater)</Name>
+	<Price>4,250 gp</Price>
+	<Traits>Evocation, Magical</Traits>
+	<Usage>applied to a wind-powered vehicle</Usage>
+	<Description>This rune is invested by the captain or pilot of the vehicle. The vehicle gains a +5-foot item bonus to its Speed. If lack of wind prevents the vehicle from moving, it can still move at a Speed of 5 feet.&lt;br&gt;
+
+The bonus to Speed is +10 feet, and the minimum speed is 10 feet</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (1st-Level Spell)</Name>
+	<Price>100 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (2nd-Level Spell)</Name>
+	<Price>250 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (3rd-Level Spell)</Name>
+	<Price>500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (5th-Level Spell)</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (6th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (7th-Level Spell)</Name>
+	<Price>10,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (8th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (9th-Level Spell)</Name>
+	<Price>70,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (1st-Level Spell)</Name>
+	<Price>100 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (2nd-Level Spell)</Name>
+	<Price>250 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (3rd-Level Spell)</Name>
+	<Price>500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (5th-Level Spell)</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (6th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (7th-Level Spell)</Name>
+	<Price>10,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (8th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (9th-Level Spell)</Name>
+	<Price>70,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (1st-Level Spell)</Name>
+	<Price>100 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (2nd-Level Spell)</Name>
+	<Price>250 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (3rd-Level Spell)</Name>
+	<Price>500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (5th-Level Spell)</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (6th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (7th-Level Spell)</Name>
+	<Price>10,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (8th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (9th-Level Spell)</Name>
+	<Price>70,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (1st-Level Spell)</Name>
+	<Price>100 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (2nd-Level Spell)</Name>
+	<Price>250 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (3rd-Level Spell)</Name>
+	<Price>500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (4th-Level Spell)</Name>
+	<Price>1,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (5th-Level Spell)</Name>
+	<Price>2,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (6th-Level Spell)</Name>
+	<Price>4,500 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (7th-Level Spell)</Name>
+	<Price>10,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (8th-Level Spell)</Name>
+	<Price>24,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="88">
+	<Name>Dragon's Breath (9th-Level Spell)</Name>
+	<Price>70,000 gp</Price>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>applied to</Usage>
+	<Description> or shieldThis rune depicts a specific type of dragon, resizing after application to fit the surface of the item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Free Action]] envision (metamagic); &lt;b&gt;Requirements&lt;/b&gt; You're receiving a bonus to AC from your &lt;i&gt;dragon's breath&lt;/i&gt; cape or shield; &lt;b&gt;Effect&lt;/b&gt; If your next action is to Cast a Spell with an area of effect that deals the same type of damage as the depicted dragon's breath weapon, the spell gains the effects of the Widen Spell feat. The rune can only affect spells of a specific level or lower, determined by the type of rune.&lt;br&gt;</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

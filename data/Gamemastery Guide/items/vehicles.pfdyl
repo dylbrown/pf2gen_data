@@ -1,0 +1,64 @@
+<pf2:Items category="vehicles" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="0" page="178">
+	<Name></Name>
+	<Price>3 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 10 feet long, 5 feet wide, 4 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot; &lt;b&gt;Passengers&lt;/b&gt; 1&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Driving Lore (DC 14) or Nature (DC 16 to DC 24, depending on pulling creature)&lt;b&gt;AC&lt;/b&gt; 10; &lt;b&gt;Fort&lt;/b&gt; +6&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 4, &lt;b&gt;HP&lt;/b&gt; 14 (BT 7); &lt;b&gt;Immunities&lt;/b&gt; critical hits, object immunities, precision damage&lt;b&gt;Speed&lt;/b&gt; the Speed of the slowest pulling creature (pulled by 1 Large creature)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 1d10 (DC 14)</Description>
+</Item>
+<Item level="0" page="178">
+	<Name></Name>
+	<Price>10 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 5 feet long, 5 feet wide, 4 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Driving Lore (DC 14) or Nature (DC 16 to DC 24, depending on pulling creature)&lt;b&gt;AC&lt;/b&gt; 10; &lt;b&gt;Fort&lt;/b&gt; +6&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 5, &lt;b&gt;HP&lt;/b&gt; 14 (BT 7); &lt;b&gt;Immunities&lt;/b&gt; critical hits, object immunities, precision damage&lt;b&gt;Speed&lt;/b&gt; the Speed of the slowest pulling creature (pulled by 1 Large creature)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 1d12 (DC 14)</Description>
+</Item>
+<Item level="0" page="178">
+	<Name></Name>
+	<Price>15 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 5 long, 10 feet wide, 2 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Piloting Lore (DC 14) or Nature (DC 16)&lt;b&gt;AC&lt;/b&gt; 10; &lt;b&gt;Fort&lt;/b&gt; +6&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 0, &lt;b&gt;HP&lt;/b&gt; 16 (BT 8); &lt;b&gt;Immunities&lt;/b&gt; critical hits, object immunities, precision damage; &lt;b&gt;Weaknesses&lt;/b&gt; 5 fire&lt;b&gt;Speed&lt;/b&gt; fly 25 feet (wind)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 2d4 (DC 14)&lt;br&gt;&lt;b&gt;Starting Drop&lt;/b&gt; The only way to launch a glider is to jump off a steep incline with favorable wind conditions. The glider is uncontrolled and falls 60 feet each round until the pilot successfully Takes Control. If the glider hits the ground before the pilot successfully Takes Control, the pilot and the glider each take falling damage.</Description>
+</Item>
+<Item level="0" page="179">
+	<Name></Name>
+	<Price>15 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 10 feet long, 5 feet wide, 3 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot; &lt;b&gt;Passengers&lt;/b&gt; 2&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Athletics (DC 16) or Sailing Lore (DC 14)&lt;b&gt;AC&lt;/b&gt; 10; &lt;b&gt;Fort&lt;/b&gt; +6&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 5, &lt;b&gt;HP&lt;/b&gt; 16 (BT 8); &lt;b&gt;Immunities&lt;/b&gt; critical hits, object immunities, precision damage&lt;b&gt;Speed&lt;/b&gt; swim 20 feet (rowed)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 2d4 (DC 14)&lt;br&gt;&lt;b&gt;Portaged&lt;/b&gt; The rowboat can be carried overland by 2 Medium creatures or 1 Large creature. Those creatures are encumbered when doing so.</Description>
+</Item>
+<Item level="1" page="179">
+	<Name></Name>
+	<Price>25 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 10 feet long, 10 feet wide, 7 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot; &lt;b&gt;Passengers&lt;/b&gt; 2&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Driving Lore (DC 15) or Nature (DC 17 to DC 25, depending on the pulling creature)&lt;b&gt;AC&lt;/b&gt; 11; &lt;b&gt;Fort&lt;/b&gt; +7&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 5, &lt;b&gt;HP&lt;/b&gt; 18 (BT 9); &lt;b&gt;Immunities&lt;/b&gt; critical hits, object immunities, precision damage&lt;b&gt;Speed&lt;/b&gt; the speed of the slowest pulling creature (pulled by 2 Large creatures)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 2d6 (DC 15)</Description>
+</Item>
+<Item level="1" page="179">
+	<Name></Name>
+	<Price>50 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 10 feet long, 5 feet wide, 4 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot; &lt;b&gt;Passengers&lt;/b&gt; 1&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Driving Lore (DC 15) or Nature (DC 17 to DC 25, depending on pulling creature)&lt;b&gt;AC&lt;/b&gt; 11; &lt;b&gt;Fort&lt;/b&gt; +7&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 5, &lt;b&gt;HP&lt;/b&gt; 18 (BT 9); &lt;b&gt;Immunities&lt;/b&gt; critical hits, object immunities, precision damage&lt;b&gt;Speed&lt;/b&gt; the Speed of the slowest pulling creature (pulled by 2 Large creatures or 6 Medium creatures)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 2d6 (DC 15)&lt;br&gt;&lt;b&gt;Ice Traverser&lt;/b&gt; Ice and snow are not difficult terrain to a sleigh, but all other terrains are difficult terrain for it.&lt;br&gt;&lt;b&gt;Sluggish&lt;/b&gt; This vehicle must move twice its length for each 90-degree turn it makes.</Description>
+</Item>
+<Item level="2" page="178">
+	<Name></Name>
+	<Price>100 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 10 feet long, 10 feet wide, 7 feet tall&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot; &lt;b&gt;Passengers&lt;/b&gt; 2&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Driving Lore (DC 16) or Nature (DC 18 to DC 26, depending on pulling creature)&lt;b&gt;AC&lt;/b&gt; 13; &lt;b&gt;Fort&lt;/b&gt; +8&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 5, &lt;b&gt;HP&lt;/b&gt; 40 (BT 20); &lt;b&gt;Immunities&lt;/b&gt; critical hits, object immunities, precision damage&lt;b&gt;Speed&lt;/b&gt; the Speed of the slowest pulling creature (pulled by 2 Large creatures)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 2d8 (DC 16)</Description>
+</Item>
+<Item level="3" page="178">
+	<Name></Name>
+	<Price>150 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 10 feet long, 10 feet wide, 4 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot; &lt;b&gt;Passengers&lt;/b&gt; 3&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Driving Lore (DC 18) or Nature (DC 20 to DC 28, depending on pulling creature)&lt;b&gt;AC&lt;/b&gt; 14; &lt;b&gt;Fort&lt;/b&gt; +9&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 5, &lt;b&gt;HP&lt;/b&gt; 40 (BT 20); &lt;b&gt;Immunities&lt;/b&gt; critical hits, object immunities, precision damage&lt;b&gt;Speed&lt;/b&gt; the Speed of the slowest pulling creature (pulled by 2 Large creatures)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 2d10 (DC 18)</Description>
+</Item>
+<Item level="9" page="179">
+	<Name></Name>
+	<Price>2,000 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 75 feet long, 20 feet wide, 25 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot, 8 crew; &lt;b&gt;Passengers&lt;/b&gt; 10&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Sailing Lore (DC 26), Diplomacy (DC 28), or Intimidation (DC 28)&lt;b&gt;AC&lt;/b&gt; 23; &lt;b&gt;Fort&lt;/b&gt; +18&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 15, &lt;b&gt;HP&lt;/b&gt; 150 (BT 75); &lt;b&gt;Immunities&lt;/b&gt; critical hits, object immunities, precision damage; &lt;b&gt;Weaknesses&lt;/b&gt; 15 fire until broken&lt;b&gt;Speed&lt;/b&gt; swim 40 feet (wind)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 6d10 (DC 26)&lt;br&gt;&lt;b&gt;Sluggish&lt;/b&gt; This vehicle must move twice its length for each 90-degree turn it makes.</Description>
+</Item>
+<Item level="10" page="178">
+	<Name></Name>
+	<Price>3,000 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 130 feet long, 20 feet wide, 25 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot, 20 rowers; &lt;b&gt;Passengers&lt;/b&gt; 6&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Sailing Lore (DC 27), Diplomacy (DC 29), or Intimidation (DC 29)&lt;b&gt;AC&lt;/b&gt; 25; &lt;b&gt;Fort&lt;/b&gt; +19&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 15, &lt;b&gt;HP&lt;/b&gt; 170 (BT 85); &lt;b&gt;Immunities&lt;/b&gt; critical hits, object immunities, precision damage; &lt;b&gt;Weaknesses&lt;/b&gt; 15 fire until broken&lt;b&gt;Speed&lt;/b&gt; swim 30 feet (rowed, wind)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 7d10 (DC 27)&lt;br&gt;&lt;b&gt;Maneuverable&lt;/b&gt; With a full complement of skilled rowers, a rowed galley can turn swiftly, turn in place, and even row backwards. Each 90-degree turn made in less than a vehicle length costs 5 extra feet of movement. It can row backwards no faster than half its speed, and it can’t turn while rowing backwards.</Description>
+</Item>
+<Item level="12" page="177">
+	<Name></Name>
+	<Price>6,000 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 90 feet long, 30 feet wide, 60 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot, 5 other crew; &lt;b&gt;Passengers&lt;/b&gt; 15&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Arcana (DC 32), Crafting (DC 32), Nature (DC 32), or Piloting Lore (DC 30)&lt;b&gt;AC&lt;/b&gt; 28; &lt;b&gt;Fort&lt;/b&gt; +22&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 20, &lt;b&gt;HP&lt;/b&gt; 210 (BT 105); &lt;b&gt;Immunities&lt;/b&gt; critical hits, object immunities, precision damage; &lt;b&gt;Weaknesses&lt;/b&gt; 15 fire until broken&lt;b&gt;Speed&lt;/b&gt; fly 50 feet (alchemical, magical)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 9d10 (DC 30)&lt;br&gt;&lt;b&gt;Sluggish&lt;/b&gt; This vehicle must move twice its length for each 90-degree turn it makes.</Description>
+</Item>
+<Item level="14" page="179">
+	<Name></Name>
+	<Price>12,500 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 20 feet long, 20 feet wide, 25 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot, 3 crew; &lt;b&gt;Passengers&lt;/b&gt; 4&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Driving Lore (DC 32) or Crafting (DC 34)&lt;b&gt;AC&lt;/b&gt; 33; &lt;b&gt;Fort&lt;/b&gt; +28&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 20, &lt;b&gt;HP&lt;/b&gt; 200 (BT 100); &lt;b&gt;Immunities&lt;/b&gt; critical hits, object immunities, precision damage&lt;b&gt;Speed&lt;/b&gt; 20 feet (alchemical)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 10d10 (DC 29)&lt;br&gt;&lt;b&gt;Flame Jet&lt;/b&gt; [[Three Actions]](fire) Two crew members each perform a 3-action activity on their turn to produce a gout of flames that erupts at the end of the second character’s turn from any corner of any space the steam giant occupies. The flames deal 6d8 fire damage to each creature in a 30-foot cone (DC 32 basic Reflex save). The flame jet stops working if the steam giant is broken.</Description>
+</Item>
+</pf2:Items>

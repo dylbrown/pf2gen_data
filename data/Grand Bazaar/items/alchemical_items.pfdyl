@@ -1,0 +1,920 @@
+<pf2:Items category="alchemical_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Alchemical Tools">
+<Item level="1" page="59">
+	<Name>Popdust</Name>
+	<Price>1 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Traits>Alchemical, Consumable, Sonic</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>You can sprinkle popdust in an empty square adjacent to you. The first creature that applies pressure to the popdust, such as by moving into that square, causes it to emit a series of thunderous cracks.</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Lesser)</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +6 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Moderate)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +9 counteract modifier. You also become quickened for 1 round. While taking the additional action from being quickened, you scream, as a result of both the flavor and the mandrake paste's properties. You can use the additional action to Step, Stride, Strike, or Demoralize. If you choose to Demoralize, you gain a +2 item bonus to the Intimidation check.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Greater)</Name>
+	<Price>425 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +20 counteract modifier. You become quickened as per the 5th-level version, except you gain a +3 item bonus to the Intimidation check.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Major)</Name>
+	<Price>5,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +31 counteract modifier. You become quickened as per the 5th-level version, except the effect lasts for 2 rounds and you gain a +4 item bonus to the Intimidation check.</Description>
+</Item>
+<Item level="2" page="59">
+	<Name>Sneezing Powder</Name>
+	<Price>7 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Traits>Alchemical, Consumable, Inhaled</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>You can toss sneezing powder at an adjacent creature as an Interact action. The target must attempt a DC 15 Fortitude save to avoid sneezing. On a failed save, the creature sneezes uncontrollably, becoming slowed 1 for 1 round. On a critical failure, the creature is instead slowed 1 for 3 rounds.</Description>
+</Item>
+<Item level="3" page="46">
+	<Name>Impossible Cake</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This sleight-of-hand for the taste buds is flavored with absinthe and honey and always resembles something completely unlike a cake, from a pile of armor to a bowl of soup. Eating the cake gives you the confidence to make the impossible seem possible: for 10 minutes after the meal, you gain a +2 item bonus to your Deception checks to Impersonate, as well as to Lie to convince others that you possess knowledge about the type of item that the cake resembles.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="46">
+	<Name>Impossible Cake (Greater)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This sleight-of-hand for the taste buds is flavored with absinthe and honey and always resembles something completely unlike a cake, from a pile of armor to a bowl of soup. Eating the cake gives you the confidence to make the impossible seem possible: for 10 minutes after the meal, you gain a +2 item bonus to your Deception checks to Impersonate, as well as to Lie to convince others that you possess knowledge about the type of item that the cake resembles.&lt;br&gt;
+
+The item bonus is +3 and the effect lasts 30 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="46">
+	<Name>Impossible Cake (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This sleight-of-hand for the taste buds is flavored with absinthe and honey and always resembles something completely unlike a cake, from a pile of armor to a bowl of soup. Eating the cake gives you the confidence to make the impossible seem possible: for 10 minutes after the meal, you gain a +2 item bonus to your Deception checks to Impersonate, as well as to Lie to convince others that you possess knowledge about the type of item that the cake resembles.&lt;br&gt;
+
+The item bonus is +4 and the effect lasts 1 hour.</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Lesser)</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +6 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Moderate)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +9 counteract modifier. You also become quickened for 1 round. While taking the additional action from being quickened, you scream, as a result of both the flavor and the mandrake paste's properties. You can use the additional action to Step, Stride, Strike, or Demoralize. If you choose to Demoralize, you gain a +2 item bonus to the Intimidation check.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Greater)</Name>
+	<Price>425 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +20 counteract modifier. You become quickened as per the 5th-level version, except you gain a +3 item bonus to the Intimidation check.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Major)</Name>
+	<Price>5,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +31 counteract modifier. You become quickened as per the 5th-level version, except the effect lasts for 2 rounds and you gain a +4 item bonus to the Intimidation check.</Description>
+</Item>
+<Item level="7" page="46">
+	<Name>Fire and Iceberg</Name>
+	<Price>60 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Fiery Anulite paprika, sunrise cinnamon, and winterbite are hidden inside this salad's translucent leaves, bringing the cool of snow and the heat of steam to every bite. The dueling sensations make some diners sweat and others shiver, but all leave with a lasting sense of heat and cold that make other sources pale in comparison. When you consume the salad, you gain resistance 5 to fire and cold for 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="46">
+	<Name>Fire and Iceberg (greater)</Name>
+	<Price>350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Fiery Anulite paprika, sunrise cinnamon, and winterbite are hidden inside this salad's translucent leaves, bringing the cool of snow and the heat of steam to every bite. The dueling sensations make some diners sweat and others shiver, but all leave with a lasting sense of heat and cold that make other sources pale in comparison. When you consume the salad, you gain resistance 5 to fire and cold for 1 minute.&lt;br&gt;
+
+You gain resistance 10 to fire and cold for 5 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="46">
+	<Name>Fire and Iceberg (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Fiery Anulite paprika, sunrise cinnamon, and winterbite are hidden inside this salad's translucent leaves, bringing the cool of snow and the heat of steam to every bite. The dueling sensations make some diners sweat and others shiver, but all leave with a lasting sense of heat and cold that make other sources pale in comparison. When you consume the salad, you gain resistance 5 to fire and cold for 1 minute.&lt;br&gt;
+
+You gain resistance 15 to fire and cold for 10 minutes.</Description>
+</Item>
+<Item level="7" page="18">
+	<Name>Cold Comfort (Lesser)</Name>
+	<Price>70 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Cold, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The contraption called cold comfort is a watertight pouch filled with a handful of small, heavy, silvery pellets. When emptied into an adjacent body of water, the pellets freeze the water's surface almost instantly, creating an ice block in a 10-foot square to a depth of 1 foot. Any creatures inside this space must attempt a DC 23 Reflex save. On a failure, the creature takes 2d6 cold damage and is immobilized for 1 minute or until it Escapes (DC 20) or the ice is broken. The entire ice block has AC 10, Hardness 10, and 40 Hit Points, and it's immune to critical hits, cold damage, and precision damage. The ice is strong enough to support one Large creature or up to four Medium or Small creatures. Traversing the slippery ice requires a successful DC 20 Acrobatics check to Balance.&lt;br&gt;
+
+Ice created by the pellets lasts for 1 hour or until broken.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="18">
+	<Name>Cold Comfort (Greater)</Name>
+	<Price>1,300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Cold, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The contraption called cold comfort is a watertight pouch filled with a handful of small, heavy, silvery pellets. When emptied into an adjacent body of water, the pellets freeze the water's surface almost instantly, creating an ice block in a 10-foot square to a depth of 1 foot. Any creatures inside this space must attempt a DC 23 Reflex save. On a failure, the creature takes 2d6 cold damage and is immobilized for 1 minute or until it Escapes (DC 20) or the ice is broken. The entire ice block has AC 10, Hardness 10, and 40 Hit Points, and it's immune to critical hits, cold damage, and precision damage. The ice is strong enough to support one Large creature or up to four Medium or Small creatures. Traversing the slippery ice requires a successful DC 20 Acrobatics check to Balance.&lt;br&gt;
+
+The area increases to a 20-foot square, the save DC increases to 34, the cold damage increases to 4d6 and the Escape DC increases to 31. Ice created by the pellets lasts for 3 hours or until broken. The block of ice is strong enough to support one Huge creature, up to 2 Large creatures, or up to 8 Medium or Small creatures.</Description>
+</Item>
+<Item level="3" page="46">
+	<Name>Impossible Cake</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This sleight-of-hand for the taste buds is flavored with absinthe and honey and always resembles something completely unlike a cake, from a pile of armor to a bowl of soup. Eating the cake gives you the confidence to make the impossible seem possible: for 10 minutes after the meal, you gain a +2 item bonus to your Deception checks to Impersonate, as well as to Lie to convince others that you possess knowledge about the type of item that the cake resembles.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="46">
+	<Name>Impossible Cake (Greater)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This sleight-of-hand for the taste buds is flavored with absinthe and honey and always resembles something completely unlike a cake, from a pile of armor to a bowl of soup. Eating the cake gives you the confidence to make the impossible seem possible: for 10 minutes after the meal, you gain a +2 item bonus to your Deception checks to Impersonate, as well as to Lie to convince others that you possess knowledge about the type of item that the cake resembles.&lt;br&gt;
+
+The item bonus is +3 and the effect lasts 30 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="46">
+	<Name>Impossible Cake (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This sleight-of-hand for the taste buds is flavored with absinthe and honey and always resembles something completely unlike a cake, from a pile of armor to a bowl of soup. Eating the cake gives you the confidence to make the impossible seem possible: for 10 minutes after the meal, you gain a +2 item bonus to your Deception checks to Impersonate, as well as to Lie to convince others that you possess knowledge about the type of item that the cake resembles.&lt;br&gt;
+
+The item bonus is +4 and the effect lasts 1 hour.</Description>
+</Item>
+<Item level="9" page="46">
+	<Name>Brewer's Regret</Name>
+	<Price>120 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>When a brewer makes a batch of something they'd rather not drink, they often boil it down; add myrrh, mugwort extract, and violet salt; and sell it to chefs looking for cheap sandwich fillings. The thick, salty sourness ruins the taste of most other food, but it also creates a strong desire to live to taste anything else. For 1 hour after consumption, you gain a +2 item bonus to saves against death and negative effects. In addition, your doomed value decreases by 1 (minimum 0). You can reduce the doomed condition with brewer's regret only once per day, and after you do, you can't reduce the doomed condition from the &lt;i&gt;restoration&lt;/i&gt; spell that same day (or vice versa).&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="46">
+	<Name>Brewer's Regret (Greater)</Name>
+	<Price>625 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>When a brewer makes a batch of something they'd rather not drink, they often boil it down; add myrrh, mugwort extract, and violet salt; and sell it to chefs looking for cheap sandwich fillings. The thick, salty sourness ruins the taste of most other food, but it also creates a strong desire to live to taste anything else. For 1 hour after consumption, you gain a +2 item bonus to saves against death and negative effects. In addition, your doomed value decreases by 1 (minimum 0). You can reduce the doomed condition with brewer's regret only once per day, and after you do, you can't reduce the doomed condition from the &lt;i&gt;restoration&lt;/i&gt; spell that same day (or vice versa).&lt;br&gt;
+
+The item bonus increases to +3.</Description>
+</Item>
+<Item level="7" page="46">
+	<Name>Fire and Iceberg</Name>
+	<Price>60 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Fiery Anulite paprika, sunrise cinnamon, and winterbite are hidden inside this salad's translucent leaves, bringing the cool of snow and the heat of steam to every bite. The dueling sensations make some diners sweat and others shiver, but all leave with a lasting sense of heat and cold that make other sources pale in comparison. When you consume the salad, you gain resistance 5 to fire and cold for 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="46">
+	<Name>Fire and Iceberg (greater)</Name>
+	<Price>350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Fiery Anulite paprika, sunrise cinnamon, and winterbite are hidden inside this salad's translucent leaves, bringing the cool of snow and the heat of steam to every bite. The dueling sensations make some diners sweat and others shiver, but all leave with a lasting sense of heat and cold that make other sources pale in comparison. When you consume the salad, you gain resistance 5 to fire and cold for 1 minute.&lt;br&gt;
+
+You gain resistance 10 to fire and cold for 5 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="46">
+	<Name>Fire and Iceberg (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Fiery Anulite paprika, sunrise cinnamon, and winterbite are hidden inside this salad's translucent leaves, bringing the cool of snow and the heat of steam to every bite. The dueling sensations make some diners sweat and others shiver, but all leave with a lasting sense of heat and cold that make other sources pale in comparison. When you consume the salad, you gain resistance 5 to fire and cold for 1 minute.&lt;br&gt;
+
+You gain resistance 15 to fire and cold for 10 minutes.</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Lesser)</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +6 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Moderate)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +9 counteract modifier. You also become quickened for 1 round. While taking the additional action from being quickened, you scream, as a result of both the flavor and the mandrake paste's properties. You can use the additional action to Step, Stride, Strike, or Demoralize. If you choose to Demoralize, you gain a +2 item bonus to the Intimidation check.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Greater)</Name>
+	<Price>425 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +20 counteract modifier. You become quickened as per the 5th-level version, except you gain a +3 item bonus to the Intimidation check.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Major)</Name>
+	<Price>5,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +31 counteract modifier. You become quickened as per the 5th-level version, except the effect lasts for 2 rounds and you gain a +4 item bonus to the Intimidation check.</Description>
+</Item>
+<Item level="9" page="46">
+	<Name>Brewer's Regret</Name>
+	<Price>120 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>When a brewer makes a batch of something they'd rather not drink, they often boil it down; add myrrh, mugwort extract, and violet salt; and sell it to chefs looking for cheap sandwich fillings. The thick, salty sourness ruins the taste of most other food, but it also creates a strong desire to live to taste anything else. For 1 hour after consumption, you gain a +2 item bonus to saves against death and negative effects. In addition, your doomed value decreases by 1 (minimum 0). You can reduce the doomed condition with brewer's regret only once per day, and after you do, you can't reduce the doomed condition from the &lt;i&gt;restoration&lt;/i&gt; spell that same day (or vice versa).&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="46">
+	<Name>Brewer's Regret (Greater)</Name>
+	<Price>625 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>When a brewer makes a batch of something they'd rather not drink, they often boil it down; add myrrh, mugwort extract, and violet salt; and sell it to chefs looking for cheap sandwich fillings. The thick, salty sourness ruins the taste of most other food, but it also creates a strong desire to live to taste anything else. For 1 hour after consumption, you gain a +2 item bonus to saves against death and negative effects. In addition, your doomed value decreases by 1 (minimum 0). You can reduce the doomed condition with brewer's regret only once per day, and after you do, you can't reduce the doomed condition from the &lt;i&gt;restoration&lt;/i&gt; spell that same day (or vice versa).&lt;br&gt;
+
+The item bonus increases to +3.</Description>
+</Item>
+<Item level="7" page="18">
+	<Name>Cold Comfort (Lesser)</Name>
+	<Price>70 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Cold, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The contraption called cold comfort is a watertight pouch filled with a handful of small, heavy, silvery pellets. When emptied into an adjacent body of water, the pellets freeze the water's surface almost instantly, creating an ice block in a 10-foot square to a depth of 1 foot. Any creatures inside this space must attempt a DC 23 Reflex save. On a failure, the creature takes 2d6 cold damage and is immobilized for 1 minute or until it Escapes (DC 20) or the ice is broken. The entire ice block has AC 10, Hardness 10, and 40 Hit Points, and it's immune to critical hits, cold damage, and precision damage. The ice is strong enough to support one Large creature or up to four Medium or Small creatures. Traversing the slippery ice requires a successful DC 20 Acrobatics check to Balance.&lt;br&gt;
+
+Ice created by the pellets lasts for 1 hour or until broken.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="18">
+	<Name>Cold Comfort (Greater)</Name>
+	<Price>1,300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Cold, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The contraption called cold comfort is a watertight pouch filled with a handful of small, heavy, silvery pellets. When emptied into an adjacent body of water, the pellets freeze the water's surface almost instantly, creating an ice block in a 10-foot square to a depth of 1 foot. Any creatures inside this space must attempt a DC 23 Reflex save. On a failure, the creature takes 2d6 cold damage and is immobilized for 1 minute or until it Escapes (DC 20) or the ice is broken. The entire ice block has AC 10, Hardness 10, and 40 Hit Points, and it's immune to critical hits, cold damage, and precision damage. The ice is strong enough to support one Large creature or up to four Medium or Small creatures. Traversing the slippery ice requires a successful DC 20 Acrobatics check to Balance.&lt;br&gt;
+
+The area increases to a 20-foot square, the save DC increases to 34, the cold damage increases to 4d6 and the Escape DC increases to 31. Ice created by the pellets lasts for 3 hours or until broken. The block of ice is strong enough to support one Huge creature, up to 2 Large creatures, or up to 8 Medium or Small creatures.</Description>
+</Item>
+<Item level="3" page="46">
+	<Name>Impossible Cake</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This sleight-of-hand for the taste buds is flavored with absinthe and honey and always resembles something completely unlike a cake, from a pile of armor to a bowl of soup. Eating the cake gives you the confidence to make the impossible seem possible: for 10 minutes after the meal, you gain a +2 item bonus to your Deception checks to Impersonate, as well as to Lie to convince others that you possess knowledge about the type of item that the cake resembles.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="46">
+	<Name>Impossible Cake (Greater)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This sleight-of-hand for the taste buds is flavored with absinthe and honey and always resembles something completely unlike a cake, from a pile of armor to a bowl of soup. Eating the cake gives you the confidence to make the impossible seem possible: for 10 minutes after the meal, you gain a +2 item bonus to your Deception checks to Impersonate, as well as to Lie to convince others that you possess knowledge about the type of item that the cake resembles.&lt;br&gt;
+
+The item bonus is +3 and the effect lasts 30 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="46">
+	<Name>Impossible Cake (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This sleight-of-hand for the taste buds is flavored with absinthe and honey and always resembles something completely unlike a cake, from a pile of armor to a bowl of soup. Eating the cake gives you the confidence to make the impossible seem possible: for 10 minutes after the meal, you gain a +2 item bonus to your Deception checks to Impersonate, as well as to Lie to convince others that you possess knowledge about the type of item that the cake resembles.&lt;br&gt;
+
+The item bonus is +4 and the effect lasts 1 hour.</Description>
+</Item>
+<Item level="7" page="46">
+	<Name>Fire and Iceberg</Name>
+	<Price>60 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Fiery Anulite paprika, sunrise cinnamon, and winterbite are hidden inside this salad's translucent leaves, bringing the cool of snow and the heat of steam to every bite. The dueling sensations make some diners sweat and others shiver, but all leave with a lasting sense of heat and cold that make other sources pale in comparison. When you consume the salad, you gain resistance 5 to fire and cold for 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="46">
+	<Name>Fire and Iceberg (greater)</Name>
+	<Price>350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Fiery Anulite paprika, sunrise cinnamon, and winterbite are hidden inside this salad's translucent leaves, bringing the cool of snow and the heat of steam to every bite. The dueling sensations make some diners sweat and others shiver, but all leave with a lasting sense of heat and cold that make other sources pale in comparison. When you consume the salad, you gain resistance 5 to fire and cold for 1 minute.&lt;br&gt;
+
+You gain resistance 10 to fire and cold for 5 minutes.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="46">
+	<Name>Fire and Iceberg (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Fiery Anulite paprika, sunrise cinnamon, and winterbite are hidden inside this salad's translucent leaves, bringing the cool of snow and the heat of steam to every bite. The dueling sensations make some diners sweat and others shiver, but all leave with a lasting sense of heat and cold that make other sources pale in comparison. When you consume the salad, you gain resistance 5 to fire and cold for 1 minute.&lt;br&gt;
+
+You gain resistance 15 to fire and cold for 10 minutes.</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Lesser)</Name>
+	<Price>5 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +6 counteract modifier.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Moderate)</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +9 counteract modifier. You also become quickened for 1 round. While taking the additional action from being quickened, you scream, as a result of both the flavor and the mandrake paste's properties. You can use the additional action to Step, Stride, Strike, or Demoralize. If you choose to Demoralize, you gain a +2 item bonus to the Intimidation check.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Greater)</Name>
+	<Price>425 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +20 counteract modifier. You become quickened as per the 5th-level version, except you gain a +3 item bonus to the Intimidation check.&lt;br&gt;</Description>
+</Item>
+<Item level="2" page="46">
+	<Name>Dragon's Blood Pudding (Major)</Name>
+	<Price>5,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While some unscrupulous chefs claim that this savory pudding is made with real dragon's blood, its crimson color and acrid smell actually come from bloody mandrake paste, ginger root, and distilled terrap sap. This potent combination singes the nostrils and throat, removing effects that make you sluggish. When you consume the pudding, it attempts a counteract check with the listed counteract modifier to remove the slowed condition from a single source, using the source of that condition to determine the counteract level and DC.&lt;br&gt;
+
+The pudding has a +31 counteract modifier. You become quickened as per the 5th-level version, except the effect lasts for 2 rounds and you gain a +4 item bonus to the Intimidation check.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Alchemical Poisons">
+<Item level="3" page="27">
+	<Name>Toadskin Salve</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thick, oily salve reacts with the air to exude a toxic mucus when applied to skin. Once it's applied, you can activate the salve in one of the two ways detailed below. After either reaction has been used, the remaining mucus loses its reactive properties and falls away as the effect ends. You can only have one dose applied at a time. If you don't use either reaction, after 10 minutes, the mucus flakes away and the effect ends.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You hit a creature with a melee Strike; &lt;b&gt;Effect&lt;/b&gt; You fling mucus on the creature, dealing 1d4 persistent poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You are hit with a melee attack that deals physical damage; &lt;b&gt;Effect&lt;/b&gt; The mucus dulls the blow, granting you resistance 3 to physical damage against the triggering attack.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="27">
+	<Name>Toadskin Salve (Greater)</Name>
+	<Price>55 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thick, oily salve reacts with the air to exude a toxic mucus when applied to skin. Once it's applied, you can activate the salve in one of the two ways detailed below. After either reaction has been used, the remaining mucus loses its reactive properties and falls away as the effect ends. You can only have one dose applied at a time. If you don't use either reaction, after 10 minutes, the mucus flakes away and the effect ends.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You hit a creature with a melee Strike; &lt;b&gt;Effect&lt;/b&gt; You fling mucus on the creature, dealing 1d4 persistent poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You are hit with a melee attack that deals physical damage; &lt;b&gt;Effect&lt;/b&gt; The mucus dulls the blow, granting you resistance 3 to physical damage against the triggering attack.&lt;br&gt;
+
+The persistent poison damage increases to 2d4, and the resistance increases to 5.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="27">
+	<Name>Toadskin Salve (Major)</Name>
+	<Price>225 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thick, oily salve reacts with the air to exude a toxic mucus when applied to skin. Once it's applied, you can activate the salve in one of the two ways detailed below. After either reaction has been used, the remaining mucus loses its reactive properties and falls away as the effect ends. You can only have one dose applied at a time. If you don't use either reaction, after 10 minutes, the mucus flakes away and the effect ends.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You hit a creature with a melee Strike; &lt;b&gt;Effect&lt;/b&gt; You fling mucus on the creature, dealing 1d4 persistent poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You are hit with a melee attack that deals physical damage; &lt;b&gt;Effect&lt;/b&gt; The mucus dulls the blow, granting you resistance 3 to physical damage against the triggering attack.&lt;br&gt;
+
+The persistent poison damage increases to 3d4, the resistance increases to 8, and the duration increases to up to 1 hour if you don't use the reaction.</Description>
+</Item>
+<Item level="3" page="27">
+	<Name>Toadskin Salve</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thick, oily salve reacts with the air to exude a toxic mucus when applied to skin. Once it's applied, you can activate the salve in one of the two ways detailed below. After either reaction has been used, the remaining mucus loses its reactive properties and falls away as the effect ends. You can only have one dose applied at a time. If you don't use either reaction, after 10 minutes, the mucus flakes away and the effect ends.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You hit a creature with a melee Strike; &lt;b&gt;Effect&lt;/b&gt; You fling mucus on the creature, dealing 1d4 persistent poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You are hit with a melee attack that deals physical damage; &lt;b&gt;Effect&lt;/b&gt; The mucus dulls the blow, granting you resistance 3 to physical damage against the triggering attack.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="27">
+	<Name>Toadskin Salve (Greater)</Name>
+	<Price>55 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thick, oily salve reacts with the air to exude a toxic mucus when applied to skin. Once it's applied, you can activate the salve in one of the two ways detailed below. After either reaction has been used, the remaining mucus loses its reactive properties and falls away as the effect ends. You can only have one dose applied at a time. If you don't use either reaction, after 10 minutes, the mucus flakes away and the effect ends.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You hit a creature with a melee Strike; &lt;b&gt;Effect&lt;/b&gt; You fling mucus on the creature, dealing 1d4 persistent poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You are hit with a melee attack that deals physical damage; &lt;b&gt;Effect&lt;/b&gt; The mucus dulls the blow, granting you resistance 3 to physical damage against the triggering attack.&lt;br&gt;
+
+The persistent poison damage increases to 2d4, and the resistance increases to 5.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="27">
+	<Name>Toadskin Salve (Major)</Name>
+	<Price>225 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thick, oily salve reacts with the air to exude a toxic mucus when applied to skin. Once it's applied, you can activate the salve in one of the two ways detailed below. After either reaction has been used, the remaining mucus loses its reactive properties and falls away as the effect ends. You can only have one dose applied at a time. If you don't use either reaction, after 10 minutes, the mucus flakes away and the effect ends.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You hit a creature with a melee Strike; &lt;b&gt;Effect&lt;/b&gt; You fling mucus on the creature, dealing 1d4 persistent poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You are hit with a melee attack that deals physical damage; &lt;b&gt;Effect&lt;/b&gt; The mucus dulls the blow, granting you resistance 3 to physical damage against the triggering attack.&lt;br&gt;
+
+The persistent poison damage increases to 3d4, the resistance increases to 8, and the duration increases to up to 1 hour if you don't use the reaction.</Description>
+</Item>
+<Item level="9" page="96">
+	<Name>Abysium Powder</Name>
+	<Price>150 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Contact, Poison</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This faintly glowing powder rapidly induces the symptoms of abysium poisoning.&lt;br&gt;&lt;br&gt; &lt;b&gt;Saving Throw&lt;/b&gt; DC 27 Fortitude; &lt;b&gt;Onset&lt;/b&gt; 1 minute; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 minutes; &lt;b&gt;Stage 1&lt;/b&gt; 8d6 poison damage and sickened 1 (1 minute); &lt;b&gt;Stage 2&lt;/b&gt; 9d6 poison damage and sickened 2 (1 minute); &lt;b&gt;Stage 3&lt;/b&gt; 10d6 poison damage and sickened 3 (1 minute)&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; abysium worth at least 75 gp.</Description>
+</Item>
+<Item level="3" page="27">
+	<Name>Toadskin Salve</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thick, oily salve reacts with the air to exude a toxic mucus when applied to skin. Once it's applied, you can activate the salve in one of the two ways detailed below. After either reaction has been used, the remaining mucus loses its reactive properties and falls away as the effect ends. You can only have one dose applied at a time. If you don't use either reaction, after 10 minutes, the mucus flakes away and the effect ends.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You hit a creature with a melee Strike; &lt;b&gt;Effect&lt;/b&gt; You fling mucus on the creature, dealing 1d4 persistent poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You are hit with a melee attack that deals physical damage; &lt;b&gt;Effect&lt;/b&gt; The mucus dulls the blow, granting you resistance 3 to physical damage against the triggering attack.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="27">
+	<Name>Toadskin Salve (Greater)</Name>
+	<Price>55 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thick, oily salve reacts with the air to exude a toxic mucus when applied to skin. Once it's applied, you can activate the salve in one of the two ways detailed below. After either reaction has been used, the remaining mucus loses its reactive properties and falls away as the effect ends. You can only have one dose applied at a time. If you don't use either reaction, after 10 minutes, the mucus flakes away and the effect ends.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You hit a creature with a melee Strike; &lt;b&gt;Effect&lt;/b&gt; You fling mucus on the creature, dealing 1d4 persistent poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You are hit with a melee attack that deals physical damage; &lt;b&gt;Effect&lt;/b&gt; The mucus dulls the blow, granting you resistance 3 to physical damage against the triggering attack.&lt;br&gt;
+
+The persistent poison damage increases to 2d4, and the resistance increases to 5.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="27">
+	<Name>Toadskin Salve (Major)</Name>
+	<Price>225 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thick, oily salve reacts with the air to exude a toxic mucus when applied to skin. Once it's applied, you can activate the salve in one of the two ways detailed below. After either reaction has been used, the remaining mucus loses its reactive properties and falls away as the effect ends. You can only have one dose applied at a time. If you don't use either reaction, after 10 minutes, the mucus flakes away and the effect ends.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You hit a creature with a melee Strike; &lt;b&gt;Effect&lt;/b&gt; You fling mucus on the creature, dealing 1d4 persistent poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You are hit with a melee attack that deals physical damage; &lt;b&gt;Effect&lt;/b&gt; The mucus dulls the blow, granting you resistance 3 to physical damage against the triggering attack.&lt;br&gt;
+
+The persistent poison damage increases to 3d4, the resistance increases to 8, and the duration increases to up to 1 hour if you don't use the reaction.</Description>
+</Item>
+<Item level="12" page="96">
+	<Name>Abysium Armor (Standard-Grade)</Name>
+	<Price>2,000 gp (+200 gp per Bulk)</Price>
+	<Bulk>0</Bulk>
+	<Usage>worn armor</Usage>
+	<Description>Typically only creatures immune to abysium's effects would don abysium armor. You're sickened 2 while wearing standard-grade armor made from abysium, or sickened 3 while wearing high-grade armor made from abysium. You can't reduce your sickened condition while wearing abysium armor, or for 1 hour after removing it. Abysium armor is dangerous to nearby creatures, too. Creatures within 10 feet of abysium armor must succeed at a Fortitude save (DC 30 for standard grade or DC 40 for high grade) or become sickened 1 (sickened 2 on a critical failure). Afterwards, the creature is temporarily immune for 1 minute, but if they remain within the area for longer than 1 minute, they automatically critically fail the next save.&lt;h3&gt;Base Material&lt;/h3&gt;Abysium&lt;br&gt;</Description>
+</Item>
+<Item level="12" page="96">
+	<Name>Abysium Armor (High-Grade)</Name>
+	<Price>40,000 gp (+4,000 gp per Bulk)</Price>
+	<Bulk>0</Bulk>
+	<Usage>worn armor</Usage>
+	<Description>Typically only creatures immune to abysium's effects would don abysium armor. You're sickened 2 while wearing standard-grade armor made from abysium, or sickened 3 while wearing high-grade armor made from abysium. You can't reduce your sickened condition while wearing abysium armor, or for 1 hour after removing it. Abysium armor is dangerous to nearby creatures, too. Creatures within 10 feet of abysium armor must succeed at a Fortitude save (DC 30 for standard grade or DC 40 for high grade) or become sickened 1 (sickened 2 on a critical failure). Afterwards, the creature is temporarily immune for 1 minute, but if they remain within the area for longer than 1 minute, they automatically critically fail the next save.&lt;h3&gt;Base Material&lt;/h3&gt;Abysium&lt;br&gt;</Description>
+</Item>
+<Item level="12" page="96">
+	<Name>Base Material</Name>
+	<Bulk>0</Bulk>
+	<Usage>worn armor</Usage>
+	<Description>Typically only creatures immune to abysium's effects would don abysium armor. You're sickened 2 while wearing standard-grade armor made from abysium, or sickened 3 while wearing high-grade armor made from abysium. You can't reduce your sickened condition while wearing abysium armor, or for 1 hour after removing it. Abysium armor is dangerous to nearby creatures, too. Creatures within 10 feet of abysium armor must succeed at a Fortitude save (DC 30 for standard grade or DC 40 for high grade) or become sickened 1 (sickened 2 on a critical failure). Afterwards, the creature is temporarily immune for 1 minute, but if they remain within the area for longer than 1 minute, they automatically critically fail the next save.&lt;h3&gt;Base Material&lt;/h3&gt;Abysium&lt;br&gt;</Description>
+</Item>
+<Item level="12" page="96">
+	<Name>Abysium Armor (Standard-Grade)</Name>
+	<Price>2,000 gp (+200 gp per Bulk)</Price>
+	<Bulk>0</Bulk>
+	<Usage>worn armor</Usage>
+	<Description>Typically only creatures immune to abysium's effects would don abysium armor. You're sickened 2 while wearing standard-grade armor made from abysium, or sickened 3 while wearing high-grade armor made from abysium. You can't reduce your sickened condition while wearing abysium armor, or for 1 hour after removing it. Abysium armor is dangerous to nearby creatures, too. Creatures within 10 feet of abysium armor must succeed at a Fortitude save (DC 30 for standard grade or DC 40 for high grade) or become sickened 1 (sickened 2 on a critical failure). Afterwards, the creature is temporarily immune for 1 minute, but if they remain within the area for longer than 1 minute, they automatically critically fail the next save.&lt;h3&gt;Base Material&lt;/h3&gt;Abysium&lt;br&gt;</Description>
+</Item>
+<Item level="12" page="96">
+	<Name>Abysium Armor (High-Grade)</Name>
+	<Price>40,000 gp (+4,000 gp per Bulk)</Price>
+	<Bulk>0</Bulk>
+	<Usage>worn armor</Usage>
+	<Description>Typically only creatures immune to abysium's effects would don abysium armor. You're sickened 2 while wearing standard-grade armor made from abysium, or sickened 3 while wearing high-grade armor made from abysium. You can't reduce your sickened condition while wearing abysium armor, or for 1 hour after removing it. Abysium armor is dangerous to nearby creatures, too. Creatures within 10 feet of abysium armor must succeed at a Fortitude save (DC 30 for standard grade or DC 40 for high grade) or become sickened 1 (sickened 2 on a critical failure). Afterwards, the creature is temporarily immune for 1 minute, but if they remain within the area for longer than 1 minute, they automatically critically fail the next save.&lt;h3&gt;Base Material&lt;/h3&gt;Abysium&lt;br&gt;</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Alchemical Bombs">
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+The bomb deals 1d6 mental damage and 1 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d6 mental damage and 2 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d6 mental damage and 3 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d6 mental damage and 4 mental splash damage.</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+The bomb deals 1d4 acid damage and 1 acid splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d4 acid damage and 2 acid splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Greater)</Name>
+	<Price>275 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d4 acid damage and 3 acid splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Major)</Name>
+	<Price>2,750 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d4 acid damage and 4 acid splash damage.</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+The bomb deals 1d4 acid damage and 1 acid splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d4 acid damage and 2 acid splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Greater)</Name>
+	<Price>275 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d4 acid damage and 3 acid splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Major)</Name>
+	<Price>2,750 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d4 acid damage and 4 acid splash damage.</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+The bomb deals 1d6 mental damage and 1 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d6 mental damage and 2 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d6 mental damage and 3 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d6 mental damage and 4 mental splash damage.</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+The bomb deals 1d4 acid damage and 1 acid splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d4 acid damage and 2 acid splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Greater)</Name>
+	<Price>275 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d4 acid damage and 3 acid splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Major)</Name>
+	<Price>2,750 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d4 acid damage and 4 acid splash damage.</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+The bomb deals 1d6 mental damage and 1 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d6 mental damage and 2 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d6 mental damage and 3 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d6 mental damage and 4 mental splash damage.</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+The bomb deals 1d4 acid damage and 1 acid splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d4 acid damage and 2 acid splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Greater)</Name>
+	<Price>275 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d4 acid damage and 3 acid splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="15">
+	<Name>Sulfur Bomb (Major)</Name>
+	<Price>2,750 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Acid, Alchemical, Bomb, Consumable, Olfactory, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. On a hit, the target takes a –1 status penalty to Perception checks and attack rolls until the end of its next turn, or becomes sickened 1 on a critical hit. Creatures hit with this bomb are temporarily immune to the effects of the bomb for 1 minute.&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d4 acid damage and 4 acid splash damage.</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Lesser)</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+The bomb deals 1d6 mental damage and 1 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Moderate)</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+You gain a +1 item bonus to attack rolls. The bomb deals 2d6 mental damage and 2 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Greater)</Name>
+	<Price>300 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+You gain a +2 item bonus to attack rolls. The bomb deals 3d6 mental damage and 3 mental splash damage.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="27">
+	<Name>Vexing Vapor (Major)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Inhaled, Mental, Poison, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This flask contains a fine red powder made from toxic berries. A vexing vapor bomb deals the listed mental damage and mental splash damage. On a hit, the target must succeed at a DC 5 flat check before taking actions with the concentrate trait. This lasts until the end of its next turn (1 minute on a critical hit).&lt;br&gt;
+
+You gain a +3 item bonus to attack rolls. The bomb deals 4d6 mental damage and 4 mental splash damage.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Alchemical Elixirs">
+<Item level="8" page="19">
+	<Name>Malleable Mixture (Lesser)</Name>
+	<Price>75 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your bones, muscles, and organs become vastly softer and more pliable. You can fit into and through small or narrow spaces as though you were smaller than your normal size, and you gain an item bonus to your Fortitude and Reflex DCs against attempts to Grapple, Shove, or Trip you.&lt;br&gt;
+
+You can fit into and through small or narrow spaces as though you were 1 size smaller than your normal size (minimum Small). The bonus to your DCs is +2, and the duration is 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="19">
+	<Name>Malleable Mixture (Greater)</Name>
+	<Price>750 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your bones, muscles, and organs become vastly softer and more pliable. You can fit into and through small or narrow spaces as though you were smaller than your normal size, and you gain an item bonus to your Fortitude and Reflex DCs against attempts to Grapple, Shove, or Trip you.&lt;br&gt;
+
+You can fit into and through small or narrow spaces as though you were 2 sizes smaller than your normal size (minimum Tiny). The bonus to your DCs is +3, and the duration is 10 minutes.</Description>
+</Item>
+<Item level="8" page="19">
+	<Name>Malleable Mixture (Lesser)</Name>
+	<Price>75 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your bones, muscles, and organs become vastly softer and more pliable. You can fit into and through small or narrow spaces as though you were smaller than your normal size, and you gain an item bonus to your Fortitude and Reflex DCs against attempts to Grapple, Shove, or Trip you.&lt;br&gt;
+
+You can fit into and through small or narrow spaces as though you were 1 size smaller than your normal size (minimum Small). The bonus to your DCs is +2, and the duration is 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="19">
+	<Name>Malleable Mixture (Greater)</Name>
+	<Price>750 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Elixir</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your bones, muscles, and organs become vastly softer and more pliable. You can fit into and through small or narrow spaces as though you were smaller than your normal size, and you gain an item bonus to your Fortitude and Reflex DCs against attempts to Grapple, Shove, or Trip you.&lt;br&gt;
+
+You can fit into and through small or narrow spaces as though you were 2 sizes smaller than your normal size (minimum Tiny). The bonus to your DCs is +3, and the duration is 10 minutes.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

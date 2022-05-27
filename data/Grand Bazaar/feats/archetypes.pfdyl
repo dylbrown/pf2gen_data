@@ -1,0 +1,89 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <!--Wrestler-->
+    <Ability name="Wrestler Dedication" level="2" page="126">
+        <Traits>Archetype, Dedication</Traits>
+        <Archetype>Wrestler</Archetype>
+        <Prerequisites>Trained In Unarmed, Trained In Unarmored Defense, Trained In Athletics</Prerequisites>
+        <Description>Your training in the wrestling arts has made you particularly adept at moving, striking, and grappling while unencumbered. You become an expert in Athletics and gain the Titan Wrestler skill feat. You don't take the –2 circumstance penalty for making a lethal attack with your nonlethal unarmed attacks. In addition, you gain a +2 circumstance bonus to your Fortitude DC when resisting an opponent's attempts to Grapple you or Swallow you Whole.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the wrestler archetype.</Description>
+        <AbilitySlot state="filled" name="Titan Wrestler (Wrestler)" type="Skill Feat" contents="Titan Wrestler"/>
+        <AttributeMods Proficiency="Expert">Athletics</AttributeMods>
+    </Ability>
+    <Ability name="Disengaging Twist" level="4" page="126" cost="Reaction">
+        <Traits>Archetype</Traits>
+        <Archetype>Wrestler</Archetype>
+        <Prerequisites>Wrestler Dedication</Prerequisites>
+        <Trigger>A creature gives you the grabbed or restrained condition.</Trigger>
+        <Description>Your ability to twist your opponents' bodies into painful locks and holds makes you particularly adept at escaping such predicaments. Attempt an Athletics check to Escape the triggering condition. You gain a +2 circumstance bonus to this check.</Description>
+    </Ability>
+    <Ability name="Elbow Breaker" level="4" page="126" cost="1">
+        <Traits>Archetype</Traits>
+        <Archetype>Wrestler</Archetype>
+        <Prerequisites>Wrestler Dedication</Prerequisites>
+        <Requirements>You have a creature grabbed or restrained.</Requirements>
+        <Description>You bend your opponent's body or limbs into agonizing positions that make it difficult for them to maintain their grip. Make an unarmed melee Strike against the creature you have grabbed or restrained. This Strike has the following effects in addition to its usual effects.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; You knock one held item out of the creature's grasp. It falls to the ground in the creature's space.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; You weaken your opponent's grasp on one held item. Until the start of that creature's turn, attempts to Disarm the opponent of that item gain a +2 circumstance bonus, and the target takes a –2 circumstance penalty to attacks with the item or other checks requiring a firm grasp on the item.</Description>
+    </Ability>
+    <Ability name="Suplex" level="4" page="127" cost="1">
+        <Traits>Archetype</Traits>
+        <Archetype>Wrestler</Archetype>
+        <Prerequisites>Wrestler Dedication</Prerequisites>
+        <Requirements>You have a creature grabbed or restrained.</Requirements>
+        <Description>Flexing your entire body, you heave your opponent over your head and slam them into the ground. Make an unarmed melee Strike against the creature you have grabbed or restrained; on a success, the target lands prone, and on a critical success, the target lands prone and takes an additional 2d6 bludgeoning damage. Regardless of whether the Strike is successful, you immediately release your hold on the target.</Description>
+    </Ability>
+    <Ability name="Clinch Strike" level="6" page="127" cost="Reaction">
+        <Traits>Archetype</Traits>
+        <Archetype>Wrestler</Archetype>
+        <Prerequisites>Wrestler Dedication</Prerequisites>
+        <Trigger>A creature you had grabbed or restrained successfully Escapes.</Trigger>
+        <Description>Your opponents can't slip your grasp without receiving further punishment. Make an unarmed melee Strike against the triggering creature.</Description>
+    </Ability>
+    <Ability name="Running Tackle" level="8" page="127" cost="2">
+        <Traits>Archetype, Open</Traits>
+        <Archetype>Wrestler</Archetype>
+        <Prerequisites>Wrestler Dedication</Prerequisites>
+        <Description>You charge toward your opponent, throwing your body at them in a vicious tackle. Stride up to your Speed and then make an unarmed melee Strike. If you hit, you can attempt to Shove the target.</Description>
+    </Ability>
+    <Ability name="Strangle" level="8" page="127" cost="1">
+        <Traits>Archetype</Traits>
+        <Archetype>Wrestler</Archetype>
+        <Prerequisites>Wrestler Dedication</Prerequisites>
+        <Requirements>You have a creature grabbed or restrained.</Requirements>
+        <Description>You twist and squeeze the breath out of your foe. Make an unarmed melee Strike against the creature you have grabbed or restrained. On a success, you gain a circumstance bonus to damage equal to the number of weapon damage dice and the target can barely speak until the start of your next turn or until it Escapes, whichever comes first. While it can barely speak, the target can't vocalize above a hoarse whisper, and it must succeed at a DC 10 flat check or lose any action that requires speech. For an action requiring speech that is also a manipulate action, like Casting a Spell with somatic and verbal components, the target just rolls a single DC 10 flat check, rather than an additional DC 5 flat check for being grabbed.</Description>
+    </Ability>
+    <Ability name="Submission Hold" level="8" page="127" cost="1">
+        <Traits>Archetype</Traits>
+        <Archetype>Wrestler</Archetype>
+        <Prerequisites>Wrestler Dedication</Prerequisites>
+        <Requirements>You have a creature grabbed or restrained.</Requirements>
+        <Description>Your iron grip slowly saps your opponent's strength. Attempt an Athletics check to Grapple the creature you have grabbed or restrained, with the following effects instead of the usual effects.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is enfeebled 2 until the end of its next turn and enfeebled 1 for 1 minute.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is enfeebled 1 until the end of its next turn.</Description>
+    </Ability>
+    <Ability name="Aerial Piledriver" level="10" page="127" cost="2">
+        <Traits>Archetype, Attack</Traits>
+        <Archetype>Wrestler</Archetype>
+        <Prerequisites>Wrestler Dedication</Prerequisites>
+        <Requirements>You have a creature grabbed or restrained.</Requirements>
+        <Description>Heaving both yourself and your opponent into the air, you bring them crashing to the ground. Make an unarmed melee Strike against the creature you have grabbed or restrained. This Strike deals 1d6 additional damage per weapon damage die, and it has the following additional effects on a success, failure, and critical failure.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target lands prone.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You lose your grip on the target, and it is no longer grabbed or restrained by you.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You lose both your grip on the target and your balance. You fall prone, and the target is no longer grabbed or restrained by you.</Description>
+    </Ability>
+    <Ability name="Spinebreaker" level="10" page="127" cost="1">
+        <Traits>Archetype</Traits>
+        <Archetype>Wrestler</Archetype>
+        <Prerequisites>Wrestler Dedication</Prerequisites>
+        <Requirements>You have a creature grabbed or restrained.</Requirements>
+        <Description>You squeeze your opponent in a vicious bear hug, putting intense pressure on their nerves, joints, or other pain points. Attempt an Athletics check to Grapple the creature you have grabbed or restrained, with the following effects instead of the usual effects.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is clumsy 2 until the end of its next turn and clumsy 1 for 1 minute.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is clumsy 1 until the end of its next turn.</Description>
+    </Ability>
+    <Ability name="Inescapable Grasp" level="12" page="127">
+        <Traits>Archetype</Traits>
+        <Archetype>Wrestler</Archetype>
+        <Prerequisites>Wrestler Dedication</Prerequisites>
+        <Description>Your grasp has a supernatural quality to it, preventing your foes from easily escaping—with or without magical assistance. If a creature you have grabbed attempts to use a teleportation spell or effect, it must succeed at a DC 15 flat check or the spell fails. If a creature you have grabbed attempts to Escape while under the effect of freedom of movement, it must succeed at a DC 15 flat check or be forced to roll the Escape attempt normally, rather than automatically succeeding.</Description>
+    </Ability>
+    <Ability name="Form Lock (Wrestler)" level="14" page="127" cost="1">
+        <Traits>Archetype, Attack</Traits>
+        <Archetype>Wrestler</Archetype>
+        <Prerequisites>Wrestler Dedication</Prerequisites>
+        <Requirements>You have a creature grabbed or restrained.</Requirements>
+        <Description>Your ability to manipulate your enemy's body is potent enough that you can tear and break apart alternate forms. Attempt an Athletics check to counteract a polymorph effect currently affecting the creature you have grabbed or restrained. If the target is somehow under the effect of multiple polymorph effects, you can choose which one to attempt to counteract; the GM chooses randomly if the separate effects aren't obvious. The target is then temporarily immune for 1 day.</Description>
+    </Ability>
+</pf2:feats>

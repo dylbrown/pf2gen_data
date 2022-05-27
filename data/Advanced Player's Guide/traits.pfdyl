@@ -19,6 +19,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             <Name>Duskwalker</Name>
             <Description>A creature with this trait has the duskwalker versatile heritage. Duskwalkers are planar scions infused with the supernatural energy of psychopomps. An ability with this trait can be used or selected only by duskwalkers.</Description>
         </Trait>
+        <Trait page="268">
+            <Name>Kobold</Name>
+            <Description>A creature with this trait is a member of the kobold ancestry. Kobolds are reptilian humanoids who are usually Small and typically have darkvision. An ability with this trait can be used or selected only by kobolds.</Description>
+        </Trait>
         <Trait page="270">
             <Name>Tengu</Name>
             <Description>A creature with this trait is a member of the tengu ancestry. Tengus are humanoids who resemble birds. An ability with this trait can be used or selected only by tengus. An item with this trait is created and used by tengus.</Description>

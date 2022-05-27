@@ -1,0 +1,19 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>The Mwangi Expanse</Name>
+    <ShortName>TME</ShortName>
+    <Category>Lost Omens</Category>
+    <Dependencies>
+        <Dependency>Core Rulebook</Dependency>
+        <Dependency>Legends</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Pathfinder Lost Omens: The Mwangi Expanse&lt;/h2&gt;&lt;p&gt;South of a forbidding range of mountain peaks lies a land of boundless resources and untold opportunity. The Mwangi Expanse has been home to an untold diversity of cultures and peoples since time immemorial, hosting powerful, isolated city states that have often paid little attention to their neighbors. Yet the turning tides of fortune have begun to usher in changes that are rippling across the world. As a band of scholars from an ancient university venture north to aid a disaster-torn Avistan. A revolution-forged nation seeks powerful allies against foreign aggression. An undead god, once a symbol of hope to his declining nation, now grows jealous enough to turn on his self-proclaimed kin. Whether you are a diplomat seeking leverage from the most difficult of positions, a spy seeking the subtlest hint of danger from your surroundings, a guardian hoping to protect your home and people, or a warrior striking back at tyrants both native and foreign, this guide to the Mwangi Expanse offers you the ultimate resource to explore a realm of magic, monsters, and intrigue!&lt;/p&gt;
+        &lt;p&gt;
+        Written by: Laura-Shay Adams, Mariam Ahmad, Jahmal Brown, Misha Bushyager, Alexandria Bustion, Duan Byrd, John Compton, Sarah Davis, Naomi Fritts, Sasha Laranoa Harving, Gabriel Hicks, TK Johnson, Michelle Jones, Joshua Kim, Travis Lionel, Ron Lundeen, Stephanie Lundeen, Hillary Moon Murphy, Lu Pellazar, Mikhail Rekun, Nate Wright, and Jabari Weathers&lt;/p&gt;</Description>
+    <Equipment>
+        <Category name="Adjustments" path="items/adjustments.pfdyl" />
+        <Category name="Contracts" path="items/contracts.pfdyl" />
+        <Category name="Worn Items" path="items/worn_items.pfdyl" />
+    </Equipment>
+    <Traits name="Traits" path="traits.pfdyl" />
+</Source>

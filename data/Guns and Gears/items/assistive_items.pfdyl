@@ -1,0 +1,27 @@
+<pf2:Items category="assistive_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Mobility Devices">
+<Item level="8" page="91">
+	<Name>Frog Chair</Name>
+	<Price>475 gp</Price>
+	<Bulk>3</Bulk>
+	<Traits>Clockwork, Magical</Traits>
+	<Description>This clockwork traveler's chair is shaped like a wheeled frog, with springs attached to the bottom and an extensible tongue on the front.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You activate the wheelchair's springs to make hopping leaps. For 1 minute, whenever you Leap with the wheelchair, you can jump 30 feet in any direction without touching the ground. You must land on a space of solid ground within 30 feet of you, or else you fall after using your next action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per minute; &lt;b&gt;Effect&lt;/b&gt; You activate the wheelchair's tongue to grab a nearby object and bring it to you. Interact to pick up an unattended object within 15 feet and bring it to your empty hand. If you don't have a hand to take the object, it falls in your space instead.</Description>
+</Item>
+<Item level="12" page="91">
+	<Name>Spider Chair</Name>
+	<Price>1,800 gp</Price>
+	<Bulk>3</Bulk>
+	<Traits>Clockwork, Magical</Traits>
+	<Description>This clockwork traveler's chair has spinnerets and spider legs that allow it to roll up walls, fire web lines to pull you to a location, and obstruct foes with webs. While using the chair, you gain a climb Speed equal to your Speed.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per minute; &lt;b&gt;Effect&lt;/b&gt; The chair shoots a web line at a solid wall, floor, or ceiling up to 60 feet away and then pulls itself and you to that location.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Three Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You cause the chair to launch an enormous web to hinder your foes, with the effects of a 4th-level &lt;i&gt;web&lt;/i&gt; spell.</Description>
+</Item>
+<Item level="14" page="91">
+	<Name>Storm Chair</Name>
+	<Price>4,400 gp</Price>
+	<Bulk>3</Bulk>
+	<Traits>Electricity, Magical</Traits>
+	<Description>This traveler's chair uses magic and Stasian technology, storing up power in its Stasian coils to arc lightning through your foes and grant brief spurts of flight.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact (electricity, evocation, magical);; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You create a ball of electricity around the chair, surrounding it in a damaging aura of electricity and using electromagnetism to briefly levitate. For 1 minute, you gain a fly Speed equal to your Speed and adjacent creatures that hit you with a melee attack, as well as creatures that touch or hit you with an unarmed attack, take 2d6 electricity damage each time. As normal, this applies to creatures who choose to touch you, not when you touch or attack another creature.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

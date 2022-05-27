@@ -1,0 +1,160 @@
+<pf2:Items category="staves" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="6" page="30">
+	<Name>Staff of Final Rest</Name>
+	<Price>240 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This white marble staff is carved into the figure of an abstract knight, its shield bearing the symbol of Lastwall, with a wickedly pointed sword made of dark wood raised high above its head. When you wield it as a weapon, it gains the versatile P trait and functions as a wooden stake, allowing you to use it to stake vampires, and your Strikes with the staff gain a +1 circumstance bonus to damage rolls against undead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="30">
+	<Name>Staff of Final Rest (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This white marble staff is carved into the figure of an abstract knight, its shield bearing the symbol of Lastwall, with a wickedly pointed sword made of dark wood raised high above its head. When you wield it as a weapon, it gains the versatile P trait and functions as a wooden stake, allowing you to use it to stake vampires, and your Strikes with the staff gain a +1 circumstance bonus to damage rolls against undead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;
+
+The circumstance bonus to damage rolls is +2. &lt;b&gt;3rd&lt;/b&gt; &lt;i&gt;bind undead&lt;/i&gt;, &lt;i&gt;disrupting weapons&lt;/i&gt;, &lt;i&gt;heal&lt;/i&gt;&lt;b&gt;4th&lt;/b&gt; &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;holy cascade&lt;/i&gt;&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="30">
+	<Name>Staff of Final Rest (Major)</Name>
+	<Price>9,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This white marble staff is carved into the figure of an abstract knight, its shield bearing the symbol of Lastwall, with a wickedly pointed sword made of dark wood raised high above its head. When you wield it as a weapon, it gains the versatile P trait and functions as a wooden stake, allowing you to use it to stake vampires, and your Strikes with the staff gain a +1 circumstance bonus to damage rolls against undead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;
+
+The circumstance bonus to damage rolls is +3. &lt;b&gt;5th&lt;/b&gt; &lt;i&gt;death ward&lt;/i&gt;, &lt;i&gt;disrupting weapons&lt;/i&gt;, &lt;i&gt;heal&lt;/i&gt;&lt;b&gt;6th&lt;/b&gt; &lt;i&gt;field of life&lt;/i&gt;, &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;holy cascade&lt;/i&gt;&lt;b&gt;7th&lt;/b&gt; &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;holy cascade&lt;/i&gt;, &lt;i&gt;sunburst&lt;/i&gt;</Description>
+</Item>
+<Item level="6" page="106">
+	<Name>Staff of the Dreamlands</Name>
+	<Price>250 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The carved night hag's hand at the end of this sandalwood staff clutches a rough gem. The &lt;i&gt;staff of the Dreamlands&lt;/i&gt; makes it easier to navigate and survive in the Dreamlands and recognize its denizens. When wielding the staff, you gain a +1 circumstance bonus to Survival checks while in the Dreamlands and to checks to Recall Knowledge about creatures with the dream trait.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="106">
+	<Name>Staff of the Dreamlands (Greater)</Name>
+	<Price>2,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The carved night hag's hand at the end of this sandalwood staff clutches a rough gem. The &lt;i&gt;staff of the Dreamlands&lt;/i&gt; makes it easier to navigate and survive in the Dreamlands and recognize its denizens. When wielding the staff, you gain a +1 circumstance bonus to Survival checks while in the Dreamlands and to checks to Recall Knowledge about creatures with the dream trait.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="106">
+	<Name>Staff of the Dreamlands (Major)</Name>
+	<Price>24,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The carved night hag's hand at the end of this sandalwood staff clutches a rough gem. The &lt;i&gt;staff of the Dreamlands&lt;/i&gt; makes it easier to navigate and survive in the Dreamlands and recognize its denizens. When wielding the staff, you gain a +1 circumstance bonus to Survival checks while in the Dreamlands and to checks to Recall Knowledge about creatures with the dream trait.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="30">
+	<Name>Staff of Final Rest</Name>
+	<Price>240 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This white marble staff is carved into the figure of an abstract knight, its shield bearing the symbol of Lastwall, with a wickedly pointed sword made of dark wood raised high above its head. When you wield it as a weapon, it gains the versatile P trait and functions as a wooden stake, allowing you to use it to stake vampires, and your Strikes with the staff gain a +1 circumstance bonus to damage rolls against undead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="30">
+	<Name>Staff of Final Rest (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This white marble staff is carved into the figure of an abstract knight, its shield bearing the symbol of Lastwall, with a wickedly pointed sword made of dark wood raised high above its head. When you wield it as a weapon, it gains the versatile P trait and functions as a wooden stake, allowing you to use it to stake vampires, and your Strikes with the staff gain a +1 circumstance bonus to damage rolls against undead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;
+
+The circumstance bonus to damage rolls is +2. &lt;b&gt;3rd&lt;/b&gt; &lt;i&gt;bind undead&lt;/i&gt;, &lt;i&gt;disrupting weapons&lt;/i&gt;, &lt;i&gt;heal&lt;/i&gt;&lt;b&gt;4th&lt;/b&gt; &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;holy cascade&lt;/i&gt;&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="30">
+	<Name>Staff of Final Rest (Major)</Name>
+	<Price>9,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This white marble staff is carved into the figure of an abstract knight, its shield bearing the symbol of Lastwall, with a wickedly pointed sword made of dark wood raised high above its head. When you wield it as a weapon, it gains the versatile P trait and functions as a wooden stake, allowing you to use it to stake vampires, and your Strikes with the staff gain a +1 circumstance bonus to damage rolls against undead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;
+
+The circumstance bonus to damage rolls is +3. &lt;b&gt;5th&lt;/b&gt; &lt;i&gt;death ward&lt;/i&gt;, &lt;i&gt;disrupting weapons&lt;/i&gt;, &lt;i&gt;heal&lt;/i&gt;&lt;b&gt;6th&lt;/b&gt; &lt;i&gt;field of life&lt;/i&gt;, &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;holy cascade&lt;/i&gt;&lt;b&gt;7th&lt;/b&gt; &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;holy cascade&lt;/i&gt;, &lt;i&gt;sunburst&lt;/i&gt;</Description>
+</Item>
+<Item level="6" page="106">
+	<Name>Staff of the Dreamlands</Name>
+	<Price>250 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The carved night hag's hand at the end of this sandalwood staff clutches a rough gem. The &lt;i&gt;staff of the Dreamlands&lt;/i&gt; makes it easier to navigate and survive in the Dreamlands and recognize its denizens. When wielding the staff, you gain a +1 circumstance bonus to Survival checks while in the Dreamlands and to checks to Recall Knowledge about creatures with the dream trait.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="106">
+	<Name>Staff of the Dreamlands (Greater)</Name>
+	<Price>2,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The carved night hag's hand at the end of this sandalwood staff clutches a rough gem. The &lt;i&gt;staff of the Dreamlands&lt;/i&gt; makes it easier to navigate and survive in the Dreamlands and recognize its denizens. When wielding the staff, you gain a +1 circumstance bonus to Survival checks while in the Dreamlands and to checks to Recall Knowledge about creatures with the dream trait.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="106">
+	<Name>Staff of the Dreamlands (Major)</Name>
+	<Price>24,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The carved night hag's hand at the end of this sandalwood staff clutches a rough gem. The &lt;i&gt;staff of the Dreamlands&lt;/i&gt; makes it easier to navigate and survive in the Dreamlands and recognize its denizens. When wielding the staff, you gain a +1 circumstance bonus to Survival checks while in the Dreamlands and to checks to Recall Knowledge about creatures with the dream trait.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="30">
+	<Name>Staff of Final Rest</Name>
+	<Price>240 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This white marble staff is carved into the figure of an abstract knight, its shield bearing the symbol of Lastwall, with a wickedly pointed sword made of dark wood raised high above its head. When you wield it as a weapon, it gains the versatile P trait and functions as a wooden stake, allowing you to use it to stake vampires, and your Strikes with the staff gain a +1 circumstance bonus to damage rolls against undead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="30">
+	<Name>Staff of Final Rest (Greater)</Name>
+	<Price>900 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This white marble staff is carved into the figure of an abstract knight, its shield bearing the symbol of Lastwall, with a wickedly pointed sword made of dark wood raised high above its head. When you wield it as a weapon, it gains the versatile P trait and functions as a wooden stake, allowing you to use it to stake vampires, and your Strikes with the staff gain a +1 circumstance bonus to damage rolls against undead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;
+
+The circumstance bonus to damage rolls is +2. &lt;b&gt;3rd&lt;/b&gt; &lt;i&gt;bind undead&lt;/i&gt;, &lt;i&gt;disrupting weapons&lt;/i&gt;, &lt;i&gt;heal&lt;/i&gt;&lt;b&gt;4th&lt;/b&gt; &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;holy cascade&lt;/i&gt;&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="30">
+	<Name>Staff of Final Rest (Major)</Name>
+	<Price>9,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Necromancy, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This white marble staff is carved into the figure of an abstract knight, its shield bearing the symbol of Lastwall, with a wickedly pointed sword made of dark wood raised high above its head. When you wield it as a weapon, it gains the versatile P trait and functions as a wooden stake, allowing you to use it to stake vampires, and your Strikes with the staff gain a +1 circumstance bonus to damage rolls against undead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;
+
+The circumstance bonus to damage rolls is +3. &lt;b&gt;5th&lt;/b&gt; &lt;i&gt;death ward&lt;/i&gt;, &lt;i&gt;disrupting weapons&lt;/i&gt;, &lt;i&gt;heal&lt;/i&gt;&lt;b&gt;6th&lt;/b&gt; &lt;i&gt;field of life&lt;/i&gt;, &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;holy cascade&lt;/i&gt;&lt;b&gt;7th&lt;/b&gt; &lt;i&gt;heal&lt;/i&gt;, &lt;i&gt;holy cascade&lt;/i&gt;, &lt;i&gt;sunburst&lt;/i&gt;</Description>
+</Item>
+<Item level="6" page="106">
+	<Name>Staff of the Dreamlands</Name>
+	<Price>250 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The carved night hag's hand at the end of this sandalwood staff clutches a rough gem. The &lt;i&gt;staff of the Dreamlands&lt;/i&gt; makes it easier to navigate and survive in the Dreamlands and recognize its denizens. When wielding the staff, you gain a +1 circumstance bonus to Survival checks while in the Dreamlands and to checks to Recall Knowledge about creatures with the dream trait.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="106">
+	<Name>Staff of the Dreamlands (Greater)</Name>
+	<Price>2,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The carved night hag's hand at the end of this sandalwood staff clutches a rough gem. The &lt;i&gt;staff of the Dreamlands&lt;/i&gt; makes it easier to navigate and survive in the Dreamlands and recognize its denizens. When wielding the staff, you gain a +1 circumstance bonus to Survival checks while in the Dreamlands and to checks to Recall Knowledge about creatures with the dream trait.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+<Item level="6" page="106">
+	<Name>Staff of the Dreamlands (Major)</Name>
+	<Price>24,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Enchantment, Magical, Staff</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The carved night hag's hand at the end of this sandalwood staff clutches a rough gem. The &lt;i&gt;staff of the Dreamlands&lt;/i&gt; makes it easier to navigate and survive in the Dreamlands and recognize its denizens. When wielding the staff, you gain a +1 circumstance bonus to Survival checks while in the Dreamlands and to checks to Recall Knowledge about creatures with the dream trait.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Effect&lt;/b&gt; You expend a number of charges from the staff to cast a spell from its list.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply one casting of all listed levels of all listed spells.&lt;br&gt;</Description>
+</Item>
+</pf2:Items>

@@ -1,0 +1,21 @@
+<pf2:Items category="contracts" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Thrune Contracts">
+<Item level="11" page="10">
+	<Name>Fiendish Teleportation</Name>
+	<Traits>Conjuration, Contract, Invested, Magical</Traits>
+	<Description>You tap into the fiendish ability to slip through space. When you Stride, you gain a +3 item bonus to Armor Class against reactions triggered by your movement. Once per day, from any distance, Abrogail Thrune II can call on a provision in your Thrune contract as a single action, causing you to become paralyzed for 1 hour or until Abrogail releases you, whichever comes first.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You recite a subclause of your contract regarding change in venue. You cast &lt;i&gt;dimension door&lt;/i&gt;. The space you leave and the one you appear in are filled with the scent of brimstone, dealing 2d6 evil damage to creatures adjacent to both spaces. </Description>
+</Item>
+<Item level="15" page="10">
+	<Name>Infernal Health</Name>
+	<Traits>Contract, Healing, Invested, Magical</Traits>
+	<Description>You regain triple the normal number of Hit Points when resting (meaning you regain triple your Constitution modifier multiplied by your level). The healing you gain from long-term rest is similarly tripled. Once per day, from any distance, Abrogail Thrune II can recite a voidability clause in your Thrune contract as a 1-minute activity to prevent you from regaining Hit Points from resting for 1 day.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You recite a subclause regarding mandatory remediation from your Thrune contract. For 6 rounds, at the start of your turn each round, you recover 25 Hit Points unless you took good damage since the start of your previous turn. </Description>
+</Item>
+<Item level="20" page="10">
+	<Name>Unending Youth</Name>
+	<Traits>Conjuration, Contract, Invested, Magical</Traits>
+	<Description>You cease aging, and if you were older than young adult in age, you become a young adult again. You gain a +4 status bonus to saves against death effects and resistance to negative damage equal to half your level. Once per day, from any distance, Abrogail Thrune II can recite a mandatory appearance clause in your Thrune contract as a 3-action activity to summon you to her side, where you are controlled by Abrogail for 1 minute before you return.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You recite a hold harmless provision from your Thrune contract. Reduce your doomed value to 0. Abrogail Thrune II is immediately made aware that you have used this ability. </Description>
+</Item>
+</SubCategory>
+</pf2:Items>

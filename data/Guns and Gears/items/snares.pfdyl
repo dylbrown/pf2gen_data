@@ -1,0 +1,88 @@
+<pf2:Items category="snares" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="2" page="79">
+	<Name>Clockwork Monkey</Name>
+	<Price>5 gp</Price>
+	<Traits>Auditory, Clockwork, Consumable, Mechanical, Snare, Trap</Traits>
+	<Description>These cute and unassuming toy monkeys are often dressed in loud clothing and carry a percussion instrument. It's activated once a creature moves adjacent to the square it sits in, at which point it leaps on the creature, scurrying about on its agile hind legs while it pounds on its instrument, riding the creature and raising a racket. The creature being assaulted by the monkey must find a way to escape its agitator either via flinging the monkey off with the Escape action (DC 18) or by breaking the monkey. The monkey has AC 19, Hardness 2, HP 10 (BT 5) and object immunities.</Description>
+</Item>
+<Item level="2" page="80">
+	<Name>Noisemaker Snare</Name>
+	<Price>6 gp</Price>
+	<Traits>Clockwork, Consumable, Fire, Mechanical, Snare, Trap</Traits>
+	<Description>When a creature enters this snare's square, it triggers an extremely loud clockwork device, which explodes with a bang that can be heard from 200 feet away and deals 1d8 fire damage. The creature must attempt a DC 18 Reflex save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and is deafened for 1 round.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage and is deafened for 1 minute.</Description>
+</Item>
+<Item level="3" page="79">
+	<Name>Clockwork Chirper</Name>
+	<Price>8 gp</Price>
+	<Traits>Auditory, Clockwork, Consumable, Mechanical, Snare, Trap</Traits>
+	<Description>This simple clockwork bird is no larger than a sparrow, designed to be wound up and perched on a tree branch or ledge. The Tiny clockwork remains immobile and silent until a Small or larger creature enters the square beneath its perch, at which point it springs into action. Once activated, it flies around making a loud chirping sound that can be heard up to 500 feet away. The bird then follows the creature that activated it for up to one hour or until it is destroyed, doing its best to stay just above the creature and out of reach, and continuing its string of loud chirps. The bird is an object with a Speed 10 feet, and a fly Speed of 25 feet. It has AC 15, Hardness 5, HP 10 (BT 5) and object immunities. Once broken, it can no longer fly. It can't attack or otherwise damage other creatures. After an hour has passed after its activation, the clockwork chirper falls into a pile of useless components.</Description>
+</Item>
+<Item level="3" page="80">
+	<Name>Fire Box</Name>
+	<Price>10 gp</Price>
+	<Traits>Clockwork, Consumable, Fire, Mechanical, Snare, Trap</Traits>
+	<Description>Anyone who opens the box triggers a clockwork mechanism that unleashes a 15-foot cone of fire. The cone issues forth in a random direction determined by the GM but always including the creature who opened the box. Those within the cone must succeed at a DC 17 basic Reflex save or take 4d6 fire damage.</Description>
+</Item>
+<Item level="3" page="79">
+	<Name>Detonating Gears Snare</Name>
+	<Price>12 gp</Price>
+	<Traits>Auditory, Clockwork, Consumable, Mechanical, Snare, Trap</Traits>
+	<Description>This snare uses clockwork stressed almost to the breaking point, which activates with a powerful explosion that deals 3d8 piercing damage to the first creature entering the snare's square. The creature must attempt a DC 19 Reflex saving throw.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and 3 persistent bleed damage.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage and 6 persistent bleed damage.</Description>
+</Item>
+<Item level="4" page="78">
+	<Name>Acid Spitter</Name>
+	<Price>15 gp</Price>
+	<Traits>Acid, Clockwork, Consumable, Mechanical, Snare, Trap</Traits>
+	<Description>This tin clockwork lizard is activated when a creature moves adjacent to it, at which point it spits out a glob of acid. The target must succeed at a DC 20 Reflex saving throw or take 3d6 acid damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes full damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and 5 persistent acid damage.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage and 10 persistent acid damage.</Description>
+</Item>
+<Item level="5" page="81">
+	<Name>Tin Cobra</Name>
+	<Price>23 gp</Price>
+	<Traits>Clockwork, Consumable, Mechanical, Poison, Snare, Trap</Traits>
+	<Description>This clockwork cobra activates when a creature enters its square, at which point it lashes out and spits venom, dealing 3d6 poison damage. The target must attempt a DC 21 Fortitude save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and is sickened 1.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage is sickened 2.</Description>
+</Item>
+<Item level="5" page="79">
+	<Name>Flame Drake Snare</Name>
+	<Price>25 gp</Price>
+	<Traits>Clockwork, Consumable, Fire, Mechanical, Snare, Trap</Traits>
+	<Description>The snare takes the form of a Tiny, drake-like clockwork toy. When a creature enters its square the snare activates, causing the drake to spit a gout of fire in a 15-foot cone in the direction from which the creature entered. For instance, if a creature entered the square coming from the east, the cone would point east, to hit any allies behind the triggering creature. Those within the cone must succeed a DC 19 basic Reflex save or take 6d6 fire damage. After spitting its fire, the snare falls apart.</Description>
+</Item>
+<Item level="8" page="80">
+	<Name>Spirit Snare</Name>
+	<Price>90 gp</Price>
+	<Traits>Consumable, Electricity, Mechanical, Snare, Trap</Traits>
+	<Description>This complicated snare is affixed with various crystals and Stasian coils attached to strange electrical relays, working on the same principles as etheric spirit singers. When an incorporeal creature enters its square, the device lets loose an ectoplasmic web that lashes around the creature's spectral form. The creature must succeed a DC 26 Reflex saving throw or become immobilized for 1 round. On a critical failure, the creature becomes immobilized for 1 minute. In either case, the incorporeal creature can attempt to Escape (DC 26).</Description>
+</Item>
+<Item level="9" page="80">
+	<Name>Frost Worm Snare</Name>
+	<Price>115 gp</Price>
+	<Traits>Clockwork, Cold, Consumable, Mechanical, Snare, Trap</Traits>
+	<Description>The snare takes the form of a Tiny frost worm clockwork toy. When a creature enters its square, the snare activates, causing the worm to let loose a 30-foot line of frost in the direction from which the creature entered the square. For instance, if a creature entered the square coming from the south, the worm would shoot the line south, to hit any allies of the triggering creature. Those within the line must succeed a DC 25 basic Reflex save or take 10d6 cold damage. After spitting its frost, the snare falls apart.</Description>
+</Item>
+<Item level="9" page="80">
+	<Name>Puff Dragon</Name>
+	<Price>120 gp</Price>
+	<Traits>Clockwork, Consumable, Mechanical, Poison, Snare, Trap</Traits>
+	<Description>This cute and unassuming dragon toy activates once a creature moves into its square. It then unleashes a rapid burst of toxic gas in a 10-foot emanation. Those within the emanation when the snare is activated must attempt a DC 25 Fortitude saving throw or take 3d6 poison damage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and is sickened 1.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage and is sickened 2.</Description>
+</Item>
+<Item level="10" page="78">
+	<Name>Binding Snare</Name>
+	<Price>160 gp</Price>
+	<Traits>Consumable, Mechanical, Snare, Trap</Traits>
+	<Description>When a creature enters the snare's square, several strands of strong wires ending in jagged hooks latch onto it before hauling it to the ground. The snare deals 2d6 piercing damage, and the targeted creature must attempt a DC 28 Reflex save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and is knocked prone and immobilized for 1 round (Escape DC 28).&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage, is knocked prone, and is restrained for 1 round (Escape DC 28).</Description>
+</Item>
+<Item level="14" page="80">
+	<Name>Shrapnel Snare</Name>
+	<Price>700 gp</Price>
+	<Traits>Consumable, Mechanical, Snare, Trap</Traits>
+	<Description>This snare uses tightly wound springs, clockwork, and shrapnel to cause devastating damage. When a creature enters the snare's square, the trap releases, dealing 12d6 piercing damage in a deafening explosion. Everyone in a 10-foot radius of the snare's square must attempt a DC 31 Reflex save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature in unaffected,&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage and is deafened for 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage, 2d6 persistent piercing damage, and is deafened for 1 minute.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage, 4d6 persistent piercing damage, and is deafened for 1 minute.</Description>
+</Item>
+<Item level="20" page="79">
+	<Name>Death Coil</Name>
+	<Price>9,000 gp</Price>
+	<Traits>Consumable, Electricity, Mechanical, Snare, Trap</Traits>
+	<Description>This modified Stasian coil of metal and glass stands about three feet tall. It activates when at least three creatures are within 20 feet of it, or if at least one creature stays within 20 feet of it for more than 1 round. It then lashes out with a torrent of electrical energy dealing 7d12 electricity damage to all creatures within 20 feet of it. Due to the fact that it doesn't trigger immediately when a creature enters its square, abilities like Surprise Snare don't work with a death coil. Creatures within that area must attempt a DC 43 Fortitude saving throw.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and is stunned 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage is stunned 4.</Description>
+</Item>
+</pf2:Items>

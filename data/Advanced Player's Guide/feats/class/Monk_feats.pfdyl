@@ -99,7 +99,7 @@
     </Ability>
     <Ability name="Cobra Envenom" level="10" page="129" cost="1">
         <Traits>Monk, Poison</Traits>
-        <Prerequisites>Cobra Stance; Expert In Unarmed Attacks</Prerequisites>
+        <Prerequisites>Cobra Stance; Expert In Unarmed</Prerequisites>
         <Frequency>once per minute</Frequency>
         <Requirements>You are in Cobra Stance.</Requirements>
         <Description>You lash out with devious intent and the power to envenom your foe. Make a cobra fang Strike. Your reach with this Strike is 5 feet greater than normal. If this Strike hits, the target takes 1d4 persistent poison damage per weapon damage die.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If you have this feat, the circumstance bonus to Fortitude saves and Fortitude DC granted by Cobra Stance increases from +1 to +2.</Description>

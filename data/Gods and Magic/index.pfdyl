@@ -1,7 +1,7 @@
 <?xml version = "1.0"?>
 <Source>
     <Name>Gods and Magic</Name>
-    <ShortName>GAM</ShortName>
+    <ShortName>G&amp;M</ShortName>
     <Category>Lost Omens</Category>
     <Dependencies>
         <Dependency>Core Rulebook</Dependency>
@@ -17,6 +17,5 @@
         <Category name="Held Items" path="items/held_items.pfdyl" />
         <Category name="Worn Items" path="items/worn_items.pfdyl" />
     </Equipment>
-    <Weapons name="Weapons" path="items/weapons.pfdyl" />
     <Traits name="Traits" path="traits.pfdyl" />
 </Source>

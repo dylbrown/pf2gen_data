@@ -1,0 +1,21 @@
+<?xml version = "1.0"?>
+<pf2:traits xmlns:pf2="https://dylbrown.github.io"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://dylbrown.github.io ../../schemata/trait.xsd"><Category name="Ancestry">
+	<Trait page="309">
+		<Name>Goloma</Name>
+		<Description>Insular humanoids that bear countless eyes.</Description>
+	</Trait>
+	<Trait page="310">
+		<Name>Shisk</Name>
+		<Description>Secretive humanoids covered in bony plumage that reside underground.</Description>
+	</Trait>
+</Category>
+<Category name="Equipment">
+	<Trait page="308">
+		<Name>Adjustment</Name>
+		<Description>Items with this trait are intended to alter existing pieces of equipment, typically armors, shields, and weapons. The given item will note which type of equipment it modifies. A piece of equipment can only be affected by a single adjustment at a time. Unless otherwise noted, adding or removing an adjustment requires using a 10-minute activity and a repair kit.</Description>
+	</Trait>
+</Category>
+
+</pf2:traits>

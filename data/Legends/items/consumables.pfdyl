@@ -1,0 +1,87 @@
+<pf2:Items category="consumables" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Other Consumables">
+<Item level="14" page="48">
+	<Name>Ruby String</Name>
+	<Price>900 gp</Price>
+	<Traits>Conjuration, Consumable</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The frayed threads from the rips and tears in &lt;i&gt;Hao Jin's Tapestry&lt;/i&gt; still contain traces of the Ruby Phoenix's magic. Hao Jin has collected most of these loose strings, but others occasionally find these potent silk strands in unexpected places. A ruby string can fulfill the cost requirement for an 8th-level &lt;i&gt;create demiplane&lt;/i&gt; ritual. When used in this way, the ruby string negates the need for secondary casters, and you get a success for all secondary checks. Alternatively, you can activate it to create a smaller demiplane without requiring the ritual.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  8 hours (envision, Interact); &lt;b&gt;Effect&lt;/b&gt; You spin the thread to form a demiplane with the effects of a successful 8th-level &lt;i&gt;create demiplane&lt;/i&gt;, but the space is a single 10-foot cube. </Description>
+</Item>
+<Item level="17" page="48">
+	<Name>Celestial Peach (Rejuventation)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Divine, Healing, Magical, Necromancy, Positive</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Among Hao Jin's most precious treasures are three living plants, the last surviving celestial peach trees taken from the mountains of Chu Ye. One of the trees grows pearls in place of flowers, but the other two bear fruit that is far more valuable. Eating one of these small red peaches can heal even the most grievous of injuries. &lt;br&gt;
+
+You gain the effects of 7th-level &lt;i&gt;neutralize poison&lt;/i&gt;, &lt;i&gt;regenerate&lt;/i&gt;, &lt;i&gt;remove curse&lt;/i&gt;, and &lt;i&gt;remove disease&lt;/i&gt; spells. The peach has a counteract modifier of +27. &lt;br&gt;</Description>
+</Item>
+<Item level="17" page="48">
+	<Name>Celestial Peach (Life)</Name>
+	<Price>73,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Divine, Healing, Magical, Necromancy, Positive</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Among Hao Jin's most precious treasures are three living plants, the last surviving celestial peach trees taken from the mountains of Chu Ye. One of the trees grows pearls in place of flowers, but the other two bear fruit that is far more valuable. Eating one of these small red peaches can heal even the most grievous of injuries. &lt;br&gt;
+
+When you place the peach into the mouth of an intact corpse that died within the last year, it casts a 10th-level &lt;i&gt;raise dead&lt;/i&gt; on the corpse. </Description>
+</Item>
+<Item level="17" page="48">
+	<Name>Celestial Peach (Rejuventation)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Divine, Healing, Magical, Necromancy, Positive</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Among Hao Jin's most precious treasures are three living plants, the last surviving celestial peach trees taken from the mountains of Chu Ye. One of the trees grows pearls in place of flowers, but the other two bear fruit that is far more valuable. Eating one of these small red peaches can heal even the most grievous of injuries. &lt;br&gt;
+
+You gain the effects of 7th-level &lt;i&gt;neutralize poison&lt;/i&gt;, &lt;i&gt;regenerate&lt;/i&gt;, &lt;i&gt;remove curse&lt;/i&gt;, and &lt;i&gt;remove disease&lt;/i&gt; spells. The peach has a counteract modifier of +27. &lt;br&gt;</Description>
+</Item>
+<Item level="17" page="48">
+	<Name>Celestial Peach (Life)</Name>
+	<Price>73,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Divine, Healing, Magical, Necromancy, Positive</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Among Hao Jin's most precious treasures are three living plants, the last surviving celestial peach trees taken from the mountains of Chu Ye. One of the trees grows pearls in place of flowers, but the other two bear fruit that is far more valuable. Eating one of these small red peaches can heal even the most grievous of injuries. &lt;br&gt;
+
+When you place the peach into the mouth of an intact corpse that died within the last year, it casts a 10th-level &lt;i&gt;raise dead&lt;/i&gt; on the corpse. </Description>
+</Item>
+</SubCategory>
+<SubCategory name="Magical Ammunition">
+<Item level="7" page="48">
+	<Name>Starshot Arrow (Lesser)</Name>
+	<Price>55 gp</Price>
+	<Traits>Conjuration, Consumable, Magical</Traits>
+	<Description>The metal of these arrows is said to have come from a star that ventured too close to Golarion and was shot down by a moonlit archer. When you activate and shoot a &lt;i&gt;starshot arrow&lt;/i&gt;, you take no range penalties against any target that you can personally detect. There must be a line of effect between you and the target. &lt;br&gt;
+
+The target must be within the maximum range of your weapon. &lt;br&gt;</Description>
+</Item>
+<Item level="7" page="48">
+	<Name>Starshot Arrow (Greater)</Name>
+	<Price>800 gp</Price>
+	<Traits>Conjuration, Consumable, Magical</Traits>
+	<Description>The metal of these arrows is said to have come from a star that ventured too close to Golarion and was shot down by a moonlit archer. When you activate and shoot a &lt;i&gt;starshot arrow&lt;/i&gt;, you take no range penalties against any target that you can personally detect. There must be a line of effect between you and the target. &lt;br&gt;
+
+You can fire at any creature you can detect, regardless of range. The arrow travels instantly, hitting your target as soon as you fire the arrow. This is a teleportation effect.</Description>
+</Item>
+<Item level="7" page="48">
+	<Name>Starshot Arrow (Lesser)</Name>
+	<Price>55 gp</Price>
+	<Traits>Conjuration, Consumable, Magical</Traits>
+	<Description>The metal of these arrows is said to have come from a star that ventured too close to Golarion and was shot down by a moonlit archer. When you activate and shoot a &lt;i&gt;starshot arrow&lt;/i&gt;, you take no range penalties against any target that you can personally detect. There must be a line of effect between you and the target. &lt;br&gt;
+
+The target must be within the maximum range of your weapon. &lt;br&gt;</Description>
+</Item>
+<Item level="7" page="48">
+	<Name>Starshot Arrow (Greater)</Name>
+	<Price>800 gp</Price>
+	<Traits>Conjuration, Consumable, Magical</Traits>
+	<Description>The metal of these arrows is said to have come from a star that ventured too close to Golarion and was shot down by a moonlit archer. When you activate and shoot a &lt;i&gt;starshot arrow&lt;/i&gt;, you take no range penalties against any target that you can personally detect. There must be a line of effect between you and the target. &lt;br&gt;
+
+You can fire at any creature you can detect, regardless of range. The arrow travels instantly, hitting your target as soon as you fire the arrow. This is a teleportation effect.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

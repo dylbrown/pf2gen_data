@@ -1,0 +1,502 @@
+<pf2:Items category="adventuring_gear" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="0" page="179">
+	<Name>Earplugs</Name>
+	<Description>, &lt;i&gt;PFS Guide pg. 114&lt;/i&gt;&lt;br&gt;&lt;b&gt;Price&lt;/b&gt; 1 sp&lt;br&gt;&lt;b&gt;Hands&lt;/b&gt; 1These small pieces of cloth and stuffing have been crafted to dramatically muffle sound and easily slide into and out of the ear canals of humanoid creatures. You can insert or remove earplugs from your ears or a willing creature's ears with a single Interact action using one hand. They take a –2 circumstance penalty to all auditory Perception checks but also gain a +2 circumstance bonus to saving throws against auditory effects.</Description>
+</Item>
+<Item level="0" page="179">
+	<Name>Firearm Cleaning Kit</Name>
+	<Price>1 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>This kit contains cleaning cloth, oil, small steel brushes, and other minor tools necessary for proper cleaning and maintenance of a firearm. Without a firearm cleaning kit, you can't perform the necessary tasks during your daily preparations to ensure that your firearm isn't at risk of misfiring under normal use conditions.</Description>
+</Item>
+<Item level="0" page="179">
+	<Name>Silencer</Name>
+	<Price>1 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>One of the more prolifically used devices developed in the infamous Alkenstar Gunworks, these small firearm components are capable of muffling most of the weapons' explosive sound when fired. Without a silencer, a firearm's shot makes a loud and distinctive bang, which can easily be heard through doors and thin walls, but firearms equipped with silencers only make a quiet noise when fired. Due to engineering constraints, a silencer can't be attached to any firearm with the scatter trait. Attaching a silencer to a firearm takes 1 minute, and the silencer is consumed the first time a shot is fired through it.</Description>
+</Item>
+<Item level="0" page="179">
+	<Name>Waterproof Carrying Case</Name>
+	<Price>2 sp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Description>This buttoned, leather case protects a firearm and up to 6 rounds of ammunition from being damaged by water or other environmental effects.</Description>
+</Item>
+<Item level="0" page="179">
+	<Name>Practice Targets</Name>
+	<Price>2 sp (price for 10)</Price>
+	<Bulk>L</Bulk>
+	<Description>While gunslingers have many methods for practicing their aim, these sturdy paper targets are excellent for tracking a gunslinger's progress over time, keeping score of how close they came to hitting the most vital spots. These targets are also used in situations where more detailed accuracy must be recorded, such as firearm competitions. Practice targets can appear in many shapes and sizes and usually come in packs of 10 held in protective cases made of heavy cloth or light leather.</Description>
+</Item>
+<Item level="0" page="179">
+	<Name>Tripod</Name>
+	<Price>2 sp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Description>Tripods are designed for use with kickback weapons, as a way for gunslingers with lower strength to accurately use these more powerful weapons by sacrificing mobility instead. They can be set up and attached to a firearm with a single Interact action using one hand, setting the tripod in your square. While this sturdy piece of engineering is in use, you don't take the –2 penalty for firing a kickback weapon, even if your Strength isn't high enough to avoid the penalty. However, you must retrieve the tripod with a single Interact action before you can move the firearm to a different position. Normally, when you're hidden or undetected, you become observed if you do anything except Hide, Sneak, or Step. However, deploying or retrieving a tripod with an Interact action doesn't automatically make you observed, so long as you don't set up or remove the tripod when it's in a spot where creatures can see the tripod itself.</Description>
+</Item>
+<Item level="0" page="87">
+	<Name>Extendible Pincer</Name>
+	<Price>2 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Clockwork</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This extendable rod features a pincer on one end and clamped handle on the other. By squeezing the handle, the pincer opens or closes. As an Interact action, you can extend or retract the rod by 5 feet to one of three settings, allowing you to Interact to pick up an object with the pincer either within your own space, in an adjacent space, or exactly 10 feet away.</Description>
+</Item>
+<Item level="0" page="64">
+	<Name>Grappling Gun</Name>
+	<Price>3 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Usage>held in 2 hands</Usage>
+	<Description>This wooden, pistol-like device features a large reel coiled with 100 feet of thin metal cord and can fire a grappling hook up to 100 feet. To reload the grappling gun, you must manually recoil the cord by turning the reel's crank, and then lock in the grappling hook. Reloading a grappling gun takes 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="64">
+	<Name>Grappling Gun (Clockwork)</Name>
+	<Price>15 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Usage>held in 2 hands</Usage>
+	<Description>This wooden, pistol-like device features a large reel coiled with 100 feet of thin metal cord and can fire a grappling hook up to 100 feet. To reload the grappling gun, you must manually recoil the cord by turning the reel's crank, and then lock in the grappling hook. Reloading a grappling gun takes 1 minute.&lt;br&gt;
+
+Clockwork controls the reel on this grappling gun, reeling the grappling hook back in when you pull a lever. Reloading a clockwork grappling gun takes three Interact actions.</Description>
+</Item>
+<Item level="1" page="88">
+	<Name>Ignitor</Name>
+	<Price>5 gp</Price>
+	<Traits>Clockwork</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>An ignitor uses interlocking clockwork to create a small spark in order to ignite flammable materials. While holding the ignitor, you can Interact with it to ignite a flammable object within reach.</Description>
+</Item>
+<Item level="1" page="88">
+	<Name>Mechanical Torch</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Clockwork</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Powered by electricity, you can turn a mechanical torch on and off by toggling a lever on the torch with an Interact action. When active, the torch sheds bright light in either a 20-foot radius (and dim light to the next 40 feet) or a 40-foot cone (and dim light to the next 40 feet). Changing this area requires a single Interact action to flip a switch. The torch carries sufficient charge to operate for ten minutes. You can recharge the torch in 1 minute via an integrated crank-charging mechanism, turning the clockwork gears and generating sparks to power the torch, though doing so requires two hands.</Description>
+</Item>
+<Item level="1" page="89">
+	<Name>Timepiece (Desktop Clock)</Name>
+	<Price>10 gp</Price>
+	<Bulk>3</Bulk>
+	<Traits>Clockwork</Traits>
+	<Description>Clockwork timepieces come in a variety of sizes and aesthetic styles, but they're all designed to display the accurate time of day down to the second.&lt;br&gt;&lt;br&gt; Clockwork timepieces have a 24-hour activation cycle, after which they must wound in a process that takes 1 minute to complete.&lt;br&gt;
+
+Desktop clocks have been designed to be small enough to only take up a quarter of a typical writing desk's surface area, but they're still too bulky and heavy to be lugged around casually.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="89">
+	<Name>Timepiece (Grand Clock)</Name>
+	<Price>50 gp</Price>
+	<Bulk>16</Bulk>
+	<Traits>Clockwork</Traits>
+	<Description>Clockwork timepieces come in a variety of sizes and aesthetic styles, but they're all designed to display the accurate time of day down to the second.&lt;br&gt;&lt;br&gt; Clockwork timepieces have a 24-hour activation cycle, after which they must wound in a process that takes 1 minute to complete.&lt;br&gt;
+
+These towering, ten-foot-tall clocks have been painstakingly handcrafted by skilled artisans and feature loud chimes that can be heard hourly throughout a manor. Owners of grand clocks usually tend to display them prominently in a study, lounge area, or foyer.</Description>
+</Item>
+<Item level="1" page="85">
+	<Name>Clockwork Bookshelf</Name>
+	<Price>15 gp</Price>
+	<Bulk>4</Bulk>
+	<Traits>Clockwork</Traits>
+	<Description>This device was originally created by an inventor who had way more books they wanted to access than available wall space to store them. Each of the bookshelf's six levels is actually loaded with a pair of shelves instead of a single shelf. A simple switch on the side of the bookshelf flips the corresponding shelf to the other side, revealing any books stored in the paired shelf. While this makes the clockwork bookshelf a little deeper than a normal bookshelf, in order to fit both shelves, it effectively allows you to store twice as many books using the same amount of wall space. Those who wish to keep volumes hidden from visitors (or perhaps stow a weapon or potion within a false book) often load the hidden shelf first, then switch to the second shelf lined with more respectable volumes.</Description>
+</Item>
+<Item level="1" page="87">
+	<Name>Clockwork Megaphone</Name>
+	<Price>15 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Clockwork</Traits>
+	<Description>A clockwork megaphone uses cunning clockwork gears to adjust the shape and angle of the cone within the megaphone, allowing you to raise or lower the volume, widen or contract the angle in which you project your voice, or both at the same time. This makes a clockwork megaphone far more useful than an ordinary megaphone for situations where you want to make sure that everyone in a particular venue or location can hear you without being so loud that your voice comes across as a painful shout. It takes 1 minute to wind up a clockwork megaphone, which allows it to remain active for up to 1 hour of adjustments, only counting the time you change the megaphone's settings, not the time you spend speaking. Since it automatically enters standby mode when not in use, this typically means you don't have to wind up the clockwork megaphone for months, or even years, depending on how often you adjust the settings each day.</Description>
+</Item>
+<Item level="1" page="64">
+	<Name>Deployable Cover</Name>
+	<Price>15 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Usage>held in 2 hands</Usage>
+	<Description>This thick mat of canvas, foliage, and wood is mounted on a tripod of flexible metal struts, folded into a baton- like shape, and clamped shut. You can rapidly deploy it on the ground with an Interact action to create cover. Deployable cover is large enough to Take Cover behind, allowing you (and others) to gain standard cover when you use the Take Cover action. Before it can be used again, deployable cover must be carefully folded and clamped shut, which takes 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="64">
+	<Name>Deployable Cover (Ballistic Cover)</Name>
+	<Price>35 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Usage>held in 2 hands</Usage>
+	<Description>This thick mat of canvas, foliage, and wood is mounted on a tripod of flexible metal struts, folded into a baton- like shape, and clamped shut. You can rapidly deploy it on the ground with an Interact action to create cover. Deployable cover is large enough to Take Cover behind, allowing you (and others) to gain standard cover when you use the Take Cover action. Before it can be used again, deployable cover must be carefully folded and clamped shut, which takes 1 minute.&lt;br&gt;
+
+Specially crafted to protect against bullet fire, a ballistic cover also works against other physical projectiles, such as arrows, bolts, and thrown weapons. While a creature has cover from Taking Cover behind a ballistic cover, it gains resistance 2 to piercing damage from ranged weapons and ranged unarmed attacks.</Description>
+</Item>
+<Item level="0" page="64">
+	<Name>Grappling Gun</Name>
+	<Price>3 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Usage>held in 2 hands</Usage>
+	<Description>This wooden, pistol-like device features a large reel coiled with 100 feet of thin metal cord and can fire a grappling hook up to 100 feet. To reload the grappling gun, you must manually recoil the cord by turning the reel's crank, and then lock in the grappling hook. Reloading a grappling gun takes 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="64">
+	<Name>Grappling Gun (Clockwork)</Name>
+	<Price>15 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Usage>held in 2 hands</Usage>
+	<Description>This wooden, pistol-like device features a large reel coiled with 100 feet of thin metal cord and can fire a grappling hook up to 100 feet. To reload the grappling gun, you must manually recoil the cord by turning the reel's crank, and then lock in the grappling hook. Reloading a grappling gun takes 1 minute.&lt;br&gt;
+
+Clockwork controls the reel on this grappling gun, reeling the grappling hook back in when you pull a lever. Reloading a clockwork grappling gun takes three Interact actions.</Description>
+</Item>
+<Item level="1" page="65">
+	<Name>Net Launcher</Name>
+	<Price>16 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Usage>held in 2 hands</Usage>
+	<Description>This wide, hollow tube is two to three feet long and fires an unattached net at much greater range than one can be thrown. A net launcher can be wielded while propped up on your shoulder or cradled under your arm. A net must be carefully folded to be launched without tangling. Properly loading a net into a net launcher takes 1 minute. A net fired with a net launcher can target a Medium or smaller creature within 40 feet, rather than 20 feet.</Description>
+</Item>
+<Item level="1" page="64">
+	<Name>Blade Launcher</Name>
+	<Price>18 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Usage>held in 2 hands</Usage>
+	<Description>A blade launcher has a bow-like assembly mounted on a handled frame. The frame can be configured to fire either a dagger, dart, shuriken, or starknife. Configuring a blade launcher requires three Interact actions. Once properly configured, loading an appropriate thrown weapon into a blade launcher requires a single Interact action. A blade launcher can't fire weapons for which it's not currently configured. A weapon fired with a blade launcher loses the agile, monk, thrown, and versatile traits, if it has them, and has a range increment of 40 feet. Due to losing the thrown weapon trait, &lt;i&gt;returning&lt;/i&gt; and most other effects that allow a weapon to return don't function; even if a launched weapon did return, you'd still need to load it into the blade launcher with an Interact action to fire the blade launcher again.</Description>
+</Item>
+<Item level="1" page="64">
+	<Name>Bomb Launcher</Name>
+	<Price>20 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Usage>held in 2 hands</Usage>
+	<Description>This long, hollow tube is held in two hands and braced over the shoulder. Inside, it contains a small metal basket sized to hold alchemical bombs. A chute in the top delivers an alchemical bomb into the internal basket, while a lever on the underside pulls the basket back and locks it in place. Loading an alchemical bomb into a bomb launcher requires a single Interact action. With a pull of a trigger, the basket speeds forward, allowing you to Strike with the loaded alchemical bomb over long distances. Bombs fired with a bomb launcher have a range increment of 60 feet.</Description>
+</Item>
+<Item level="2" page="87">
+	<Name>Day Goggles</Name>
+	<Price>30 gp</Price>
+	<Bulk>L</Bulk>
+	<Usage>worn eyepiece</Usage>
+	<Description>The darkened lenses of these goggles protect sensitive eyes from bright light but make seeing in the dark more difficult. While wearing day goggles, you gain a +1 item bonus to saving throws against visual light effects. However, while wearing the goggles, you take a –2 item penalty to visual Perception checks and you treat areas of bright light as dim light and areas of dim light as darkness for the purpose of whether you can see. While this is normally a disadvantage, if you have light blindness, you aren't dazzled in bright light as long as you continue wearing the day goggles, since to your eyes, there is only dim light. You can wear the goggles around your neck or on your forehead, granting no benefits, but allowing you to move them over your eyes with a single Interact action, without having to withdraw them first.</Description>
+</Item>
+<Item level="2" page="88">
+	<Name>Paper Shredder</Name>
+	<Price>30 gp</Price>
+	<Bulk>2</Bulk>
+	<Traits>Clockwork</Traits>
+	<Description>Whether it's a parchment with ominous pentagrams and dangerous magical symbols inscribed upon it, incriminating legal documents, or just simply paper waste, sometimes you just need to make sure a document is completely destroyed in a way that makes it nearly impossible to read afterwards. Enter the paper shredder, a clockwork device that performs exactly this function.&lt;br&gt;&lt;br&gt; With 1 minute of wind-up, a paper shredder can function for up to 1 hour of shredding, and it automatically enters standby mode when not in use, meaning the device can typically go for weeks between wind-ups unless you shred an exceptionally large volume of paper.&lt;br&gt;&lt;br&gt; Setting a piece of paper or parchment into the paper shredder takes a single Interact action, which means you can shred up to three pages of paper or parchment each round. If the page is longer than normal, it takes longer to shred, as determined by the GM. Additionally, only one person can use the shredder each round, limiting it to shredding three pages per round regardless of how many people are available to feed paper into it. The paper shredders rips and tears the paper or parchment apart into tiny disjointed strips. This is typically sufficient to destroy &lt;i&gt;glyphs of warding&lt;/i&gt; and other similar dangerous magical traps on the paper, though the GM might determine that particularly resilient magical traps find some way to survive their shredding. If the paper is magically protected or otherwise has more Hardness than a normal sheet of paper or parchment, the shredder can't shred it. After churning such hardened paper for 1 round, the shredder spits it back out without harming the shredder. This prevents shredding any other paper during that round.</Description>
+</Item>
+<Item level="1" page="64">
+	<Name>Deployable Cover</Name>
+	<Price>15 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Usage>held in 2 hands</Usage>
+	<Description>This thick mat of canvas, foliage, and wood is mounted on a tripod of flexible metal struts, folded into a baton- like shape, and clamped shut. You can rapidly deploy it on the ground with an Interact action to create cover. Deployable cover is large enough to Take Cover behind, allowing you (and others) to gain standard cover when you use the Take Cover action. Before it can be used again, deployable cover must be carefully folded and clamped shut, which takes 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="64">
+	<Name>Deployable Cover (Ballistic Cover)</Name>
+	<Price>35 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Usage>held in 2 hands</Usage>
+	<Description>This thick mat of canvas, foliage, and wood is mounted on a tripod of flexible metal struts, folded into a baton- like shape, and clamped shut. You can rapidly deploy it on the ground with an Interact action to create cover. Deployable cover is large enough to Take Cover behind, allowing you (and others) to gain standard cover when you use the Take Cover action. Before it can be used again, deployable cover must be carefully folded and clamped shut, which takes 1 minute.&lt;br&gt;
+
+Specially crafted to protect against bullet fire, a ballistic cover also works against other physical projectiles, such as arrows, bolts, and thrown weapons. While a creature has cover from Taking Cover behind a ballistic cover, it gains resistance 2 to piercing damage from ranged weapons and ranged unarmed attacks.</Description>
+</Item>
+<Item level="3" page="178">
+	<Name>Camouflage Suit</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Description>This lightweight mesh fits easily over light armor. The suit is designed to incorporate local flora and ground clutter into the mesh to help you blend in seamlessly with the environment. Due to the abrasive nature of the materials used, this item is unsuitable for use by unarmored characters. You can prepare the suit for use within your current environment by using an exploration activity that takes at least 10 minutes, but sometimes longer if the materials are hard to find or the environment is unusual enough to warrant additional difficulty in preparing camouflage that can blend with it consistently.&lt;br&gt;&lt;br&gt; A suit prepared in this manner grants you a +1 item bonus to Stealth checks while you attempt to Hide or Sneak in the specific environment it has been prepared for. The suit remains usable in this manner until you rest for the night, though it doesn't grant the benefit whenever you aren't in the appropriate environment. The GM might rule that some environments are unusual enough that you can't create a camouflage suit appropriate for the environment.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="178">
+	<Name>Camouflage Suit (Superb)</Name>
+	<Price>140 gp</Price>
+	<Bulk>L</Bulk>
+	<Description>This lightweight mesh fits easily over light armor. The suit is designed to incorporate local flora and ground clutter into the mesh to help you blend in seamlessly with the environment. Due to the abrasive nature of the materials used, this item is unsuitable for use by unarmored characters. You can prepare the suit for use within your current environment by using an exploration activity that takes at least 10 minutes, but sometimes longer if the materials are hard to find or the environment is unusual enough to warrant additional difficulty in preparing camouflage that can blend with it consistently.&lt;br&gt;&lt;br&gt; A suit prepared in this manner grants you a +1 item bonus to Stealth checks while you attempt to Hide or Sneak in the specific environment it has been prepared for. The suit remains usable in this manner until you rest for the night, though it doesn't grant the benefit whenever you aren't in the appropriate environment. The GM might rule that some environments are unusual enough that you can't create a camouflage suit appropriate for the environment.&lt;br&gt;
+
+A superb camouflage suit is fashioned from especially well-blended materials and gives you a +2 item bonus to the check instead of a +1 item bonus.</Description>
+</Item>
+<Item level="3" page="179">
+	<Name>Concealed Holster</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Description>This leather holster is crafted to better hide small firearms from view. Only firearms designed for use in one hand are small enough to disguise with this holster. You gain a +1 item bonus to Stealth checks and DCs to hide or conceal a firearm or hand crossbow in this holster.</Description>
+</Item>
+<Item level="3" page="87">
+	<Name>Electrocable</Name>
+	<Price>45 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Electricity, Fire</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This footlong length of conductive cable is capped on both ends by grounded handles containing Stasian coils. These coils can be turned on or off as a single action. While on, the coils electrify the cable, dealing 1d6 electricity and 1d6 fire damage in a thin precise line to anything the cable touches, though the cable is too unwieldy to use as a weapon. Electrocables are typically used to “cut” a thin straight line through metal. They ignore 10 points of a metal object's hardness.</Description>
+</Item>
+<Item level="3" page="85">
+	<Name>Clockwork Box Packer</Name>
+	<Price>50 gp</Price>
+	<Bulk>4</Bulk>
+	<Traits>Clockwork</Traits>
+	<Description>This handy clockwork device is too expensive for most warehouses and shipping docks to make use of it, but some nobles have purchased the item for their staff as a status symbol, and merchants who are in the shipping trade can afford to slowly reap the benefits of its usage. It takes 1 minute to wind a clockwork box packer; after which, it can function for up to 1 hour.&lt;br&gt;&lt;br&gt; You can indicate how high you want the clockwork box packer to stack boxes and what the packing storage dimensions are. Once packing instructions have been input, you can load a crate onto the clockwork box packer, and it begins its task. Once the box is stacked, the clockwork box packer closes the box, if necessary, then ties a ribbon or cord around it from a supply loaded into the clockwork box packer in advance. Once the package is secure, the clockwork box packer stacks it and then swivels back into position, ready to accept another box. In this way, the clockwork device can finish within minutes a packing job that might take humanoid workers an hour.</Description>
+</Item>
+<Item level="1" page="89">
+	<Name>Timepiece (Desktop Clock)</Name>
+	<Price>10 gp</Price>
+	<Bulk>3</Bulk>
+	<Traits>Clockwork</Traits>
+	<Description>Clockwork timepieces come in a variety of sizes and aesthetic styles, but they're all designed to display the accurate time of day down to the second.&lt;br&gt;&lt;br&gt; Clockwork timepieces have a 24-hour activation cycle, after which they must wound in a process that takes 1 minute to complete.&lt;br&gt;
+
+Desktop clocks have been designed to be small enough to only take up a quarter of a typical writing desk's surface area, but they're still too bulky and heavy to be lugged around casually.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="89">
+	<Name>Timepiece (Grand Clock)</Name>
+	<Price>50 gp</Price>
+	<Bulk>16</Bulk>
+	<Traits>Clockwork</Traits>
+	<Description>Clockwork timepieces come in a variety of sizes and aesthetic styles, but they're all designed to display the accurate time of day down to the second.&lt;br&gt;&lt;br&gt; Clockwork timepieces have a 24-hour activation cycle, after which they must wound in a process that takes 1 minute to complete.&lt;br&gt;
+
+These towering, ten-foot-tall clocks have been painstakingly handcrafted by skilled artisans and feature loud chimes that can be heard hourly throughout a manor. Owners of grand clocks usually tend to display them prominently in a study, lounge area, or foyer.</Description>
+</Item>
+<Item level="3" page="65">
+	<Name>Wind-up Wings (Flutterback)</Name>
+	<Price>50 gp</Price>
+	<Traits>Clockwork</Traits>
+	<Usage>attached to a</Usage>
+	<Description> weaponThese delicate clockwork wings enable thrown weapons to soar through the air at high speeds, performing turns and other aerial maneuvers midflight. Wind-up wings also have different types of special effects depending on the type. Wind-up wings must be attached to a thrown weapon and wound to function. A thrown weapon with an attached set of wind-up wings can't have anything else attached to it, or the wings cease to function.&lt;br&gt;&lt;br&gt; Attaching or detaching a pair of wind-up wings to a thrown weapon requires a repair kit, and the process takes 10 minutes. Winding an attached pair of wind-up wings takes three Interact actions. There are a variety of wind-up wings, with different effects.&lt;br&gt;
+
+When you make a thrown Strike with the weapon to which a pair of flutterback wind-up wings are attached, and the wings are wound, the wings fly the weapon back to your hand after the Strike is complete. If your hands are full when the weapon returns, the wings hover in place three feet above the ground. At the end of your turn, the wings are wound down; they don't function again until wound. If you aren't holding the weapon when the flutterback wind-up wings become wound down, the weapon falls to the ground.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="65">
+	<Name>Wind-up Wings (Homing)</Name>
+	<Price>1,800 gp</Price>
+	<Traits>Clockwork</Traits>
+	<Usage>attached to a</Usage>
+	<Description> weaponThese delicate clockwork wings enable thrown weapons to soar through the air at high speeds, performing turns and other aerial maneuvers midflight. Wind-up wings also have different types of special effects depending on the type. Wind-up wings must be attached to a thrown weapon and wound to function. A thrown weapon with an attached set of wind-up wings can't have anything else attached to it, or the wings cease to function.&lt;br&gt;&lt;br&gt; Attaching or detaching a pair of wind-up wings to a thrown weapon requires a repair kit, and the process takes 10 minutes. Winding an attached pair of wind-up wings takes three Interact actions. There are a variety of wind-up wings, with different effects.&lt;br&gt;
+
+When you make a thrown Strike with the weapon to which a pair of homing wind-up wings are attached, and the wings are wound, the wings seek out your target, flying through cover and avoiding obstacles. You ignore the target's concealed condition and reduce the target's cover by one step (lesser cover to no cover, standard cover to lesser cover, or greater cover to standard cover). After the Strike is complete, the wings are wound down; they don't function again until wound.</Description>
+</Item>
+<Item level="3" page="177">
+	<Name>Sambuca</Name>
+	<Price>120 gp</Price>
+	<Description>A sambuca is a long, covered troop bridge designed to help troops move from sea to land. Preparing it for use requires lashing together two galleys or other ships of similar size. The sambuca is then mounted across the ships on one end with its length suspended upward, and attached to pulleys fastened to the tops of the ships' masts. Once the ships are moved into position, the sambuca can be lowered to rest on a battlement or other surface, allowing troops to rush from the ships onto their intended destination.&lt;br&gt;&lt;br&gt; The sambuca has AC 17, Fort +11, Ref +5, Hardness 8, HP 32 (BT 16), and object immunities. It's covered on all sides to protect those who cross, granting them greater cover. The end of the sambuca can be lowered by teams operating the pulleys in concert. This requires three crew members on each ship, and they can lower the far end of the sambuca by 15 feet each round they work.</Description>
+</Item>
+<Item level="5" page="88">
+	<Name>Nightbreeze Machine</Name>
+	<Price>125 gp</Price>
+	<Bulk>4</Bulk>
+	<Traits>Air, Clockwork</Traits>
+	<Description>The nightbreeze machine can turn a scorching hot room into a comfortable one with just the pull of a lever. Its outer shell is a brass cube half as tall as the average human that houses a series of flat metal “blades” in a circular arrangement. When placed on a flat surface, a creature within reach can Interact to flip the lever, turning the machine on. When the machine is active, the blades begin to spin rapidly, setting the air in the room into motion, which cools off the room's inhabitants. A front-mounted metal grate prevents anyone from coming into accidental contact with the spinning blades without impeding airflow.&lt;br&gt;&lt;br&gt; The nightbreeze machine was recently commissioned by Malduoni, Keeper of the First Law, leader of the nation of Rahadoum. He tasked the country's brightest inventors with creating devices that would, in his words, “Ensure that no mortal need fear death from the desert heat.” This machine was the first creation to come out of this consolidated engineering effort, but it won't be the last.&lt;br&gt;&lt;br&gt; A nightbreeze machine can affect an enclosed area of no more than 50 feet by 50 feet and has negligible effect when used in a larger enclosed area or outside. While active, it reduces the effects of severe heat by one step to mild heat, and reduces extreme heat to severe heat. A nightbreeze machine isn't powerful enough to reduce the effects of incredible heat, though fortunately such heat isn't found naturally in the deserts of Rahadoum. A nightbreeze machine runs for 8 hours, after which it must be wound in a process that takes 10 minutes to complete. The 8 hours of activity don't have to be consecutive.</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer</Name>
+	<Price>150 gp</Price>
+	<Bulk>16</Bulk>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer (Handheld)</Name>
+	<Price>200 gp</Price>
+	<Bulk>1</Bulk>
+	<Usage>held in 2 hands</Usage>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer (Incredible)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>16</Bulk>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;
+
+This spirit-singer is fine-tuned to the point that you can analyze its song more intricately. Increase the item bonus to Performance checks near spiritual disturbances, and the item bonus to detecting haunts and incorporeal undead to +2. While playing the spirit-singer, you can notice haunts that normally require you to have a master proficiency in Perception to detect.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer (Incredible Handheld)</Name>
+	<Price>1,650 gp</Price>
+	<Bulk>1</Bulk>
+	<Usage>held in 2 hands</Usage>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;
+
+This spirit-singer functions just like an incredible spirit-singer, except for its Usage and Bulk.</Description>
+</Item>
+<Item level="5" page="87">
+	<Name>Heated Cloak</Name>
+	<Price>160 gp</Price>
+	<Bulk>L</Bulk>
+	<Usage>worn cloak</Usage>
+	<Description>This fine cloak is lined with tiny tubes of slowly reacting alchemical reagents. These chemicals generate heat, which is circulated throughout the cloak by the wearer's movements. While active, the wearer is protected from severe cold. The cloak offers no protection from extreme or incredible cold. It operates for 24 hours and can be reset with a simple process that takes 1 minute.</Description>
+</Item>
+<Item level="6" page="85">
+	<Name>Clockwork Disguise</Name>
+	<Price>200 gp</Price>
+	<Bulk>2</Bulk>
+	<Traits>Clockwork</Traits>
+	<Usage>worn armor</Usage>
+	<Description>Sometimes, just disguising one's face just isn't convincing enough. Clockwork disguises were invented to supplement regular disguise kits, which are used all across Golarion. For example, if a spy wants to infiltrate a military camp, they must be wearing the same type of armor as the soldiers stationed there—or else have a very good explanation for their commander as to why they're out of proper uniform! The clockwork disguise is intended to help avoid such awkward, potentially fatal confrontations.&lt;br&gt;&lt;br&gt; The clockwork disguise looks like a harness connected to hundreds of small metal plates that cover the user's torso and arms. Each of these plates is equipped with several hinges, allowing them to be shaped into a wide variety of patterns. When these shaped plates are arranged and connected, they can be made to look like almost any basic suit of light or medium metal armor, though armor embellishments such as those worn by high- ranking officers are beyond this device. The arrangement process takes some time, but once it's completed, the user need only perform a few simple adjustments to a clockwork mechanism in the disguise to make the plate arrangement into a new preset configuration. Afterwards, when the user flips a switch on the harness's belt to one of three positions, the plates shift, overlap, and connect as necessary to transform the disguise into the desired preset configuration. The clockwork disguise can have up to three preset configurations at a time, and most users use a minimum of two: the one required for their current task, and a suitably inconspicuous configuration for when the first configuration is unnecessary.&lt;br&gt;&lt;br&gt; Giving a clockwork disguise a new preset configuration requires 20 minutes of work. The clockwork disguise can have a maximum of three preset configurations at a time, and it can only mimic light and medium armor suits made of metal.&lt;br&gt;&lt;br&gt; The clockwork disguise is light armor and has the following stats, regardless of which type of armor it mimics:&lt;br&gt;&lt;br&gt; &lt;b&gt;AC Bonus&lt;/b&gt; +2; &lt;b&gt;Dex Cap&lt;/b&gt; +3; &lt;b&gt;Check Penalty&lt;/b&gt; –1; &lt;b&gt;Strength&lt;/b&gt; 12; &lt;b&gt;Group&lt;/b&gt; plate&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; Transform the clockwork disguise into any one current preset configuration of the user's choice.</Description>
+</Item>
+<Item level="6" page="86">
+	<Name>Clockwork Diving Suit</Name>
+	<Price>200 gp</Price>
+	<Bulk>4</Bulk>
+	<Traits>Air, Clockwork, Water</Traits>
+	<Usage>worn</Usage>
+	<Description>The clockwork diving suit is a marvel of technology that allows its user to breathe underwater for hours at a time without the aid of magic. Compared to a more traditional magically-assisted diving suit using a &lt;i&gt;bottle of air&lt;/i&gt;, a clockwork diving suit is both less expensive and better protected, making clockwork diving suits a good choice for characters who prefer more protection. However, they also come with a built-in time limit, which magical diving suits circumvent. A clockwork diving suit is a bulky, fully sealed suit of armor lined with a complex series of filter-equipped bladders that store and circulate air for the user to breathe. A glass faceplate on the front of the helmet allows the user to see what's going on in front of them.&lt;br&gt;&lt;br&gt; The suit's rigidity and mechanisms severely restrict the user's range of movement and keeps them from moving faster than a slow walk on the sea floor. To compensate for this, a clockwork water jet mechanism is installed in the suit's back. The water jet includes both a vacuum system and separate air bladder; it's activated with a simple pull of a lever on the suit's belt. When the lever is pulled, the vacuum system sucks in seawater, and seconds later, the air bladder sprays the water out and propels the user short distances. This mechanism is also necessary for the suit to surface without walking to shore—it's too heavy to float on its own. Most wearers can only swim a few feet before sinking back to the water's floor.&lt;br&gt;&lt;br&gt; The diving suit contains enough air for three hours of operation, and the clockwork components can operate for up to 3 hours before the suit needs winding. If you run out of air, drowning and suffocation rules begin to apply as normal. This air supply can be refilled by spending one hour in an area with air, and you can rewind the clockwork in a process that takes 10 minutes to complete.&lt;br&gt;&lt;br&gt; The diving suit is a suit of medium armor, and it has the following stats:&lt;br&gt;&lt;br&gt; &lt;b&gt;AC Bonus&lt;/b&gt; +4; &lt;b&gt;Dex Cap&lt;/b&gt; +1; &lt;b&gt;Check Penalty&lt;/b&gt; –4; &lt;b&gt;Speed Penalty&lt;/b&gt; –15 ft; &lt;b&gt;Strength&lt;/b&gt; 18&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Effect&lt;/b&gt; The diving suit shoots out a water jet that causes you to Swim 25 feet in a straight line. The distance of this movement is unaffected by your swim Speed, if you have one, or the armor's Speed penalty. However, difficult terrain, such as the difficult terrain for moving up or down or moving against a current, still slows this movement.</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer</Name>
+	<Price>150 gp</Price>
+	<Bulk>16</Bulk>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer (Handheld)</Name>
+	<Price>200 gp</Price>
+	<Bulk>1</Bulk>
+	<Usage>held in 2 hands</Usage>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer (Incredible)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>16</Bulk>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;
+
+This spirit-singer is fine-tuned to the point that you can analyze its song more intricately. Increase the item bonus to Performance checks near spiritual disturbances, and the item bonus to detecting haunts and incorporeal undead to +2. While playing the spirit-singer, you can notice haunts that normally require you to have a master proficiency in Perception to detect.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer (Incredible Handheld)</Name>
+	<Price>1,650 gp</Price>
+	<Bulk>1</Bulk>
+	<Usage>held in 2 hands</Usage>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;
+
+This spirit-singer functions just like an incredible spirit-singer, except for its Usage and Bulk.</Description>
+</Item>
+<Item level="8" page="89">
+	<Name>Steam Winch</Name>
+	<Price>425 gp</Price>
+	<Bulk>2</Bulk>
+	<Traits>Steam</Traits>
+	<Usage>operated with two h ands</Usage>
+	<Description>This hefty winch is powered by a small steam engine and includes a 100 ft. length of steel cable, which enables you to haul a heavier load than you could with a hand cranked winch or comealong. A steam winch allows you to slowly pull a heavy load (usually up to 50 Bulk) along a flat surface or up and down a vertical expanse.&lt;br&gt;&lt;br&gt; Attaching a steam winch to a device takes three Interact actions, while starting the winch (and getting it warm enough to operate) takes 10 minutes. Once in operation, a steam winch requires regular maintenance to function. Every twenty minutes, the boiler must be refilled and heat levels maintained.</Description>
+</Item>
+<Item level="8" page="84">
+	<Name>Aquarium Lamp</Name>
+	<Price>1,500 gp</Price>
+	<Bulk>20</Bulk>
+	<Traits>Electricity, Light</Traits>
+	<Description>The aquarium lamp is a combination light source and exotic animal aquarium, intended to provide rich nobles amusement and illumination. It takes the shape of a glass cube 50 feet wide and seven feet high filled with sea water, flanked by two much smaller water tanks. A sparse brass frame around the device keeps the tanks themselves from touching the ground and serves as a mounting point for a pair of electrical coils on the top, which are enclosed within separate glass tubes. Six electric eels swim within the central tank, while a number of animals belonging to species considered to be the eels' natural prey swim in the smaller feeding tanks. With the simple pull of a lever attached to either smaller tank, one of the prey animals is released into the eel tank. Within seconds, the eels converge on the hapless animal, using their electrical charges to stun their victims. When this happens, the salty seawater conducts the electrical energy into transfer coils hidden within the brass frame, which send the energy to the top-mounted electrical coils. The end result produces enough light to fully illuminate a room as though it were midday.&lt;br&gt;&lt;br&gt; This device is an expression of a recent trend among certain Avistani nobles to blend form and function in their manors' interior decorations. In such circles, ostentatious decorations that serve no functional purpose are derided as “tacky” and “unrefined.” If a noble in such company wishes not to be ridiculed, they must be sure that each decoration adds something to the room beyond the aesthetic. The aquarium lamp is the latest tool in this social arms race, and it's already proven popular with its target market.&lt;br&gt;&lt;br&gt; When active, the aquarium lamp produces bright light in a 60-foot radius (and dim light for the next 60 feet). Each activation provides enough energy for 10 minutes of use, and the two feeding tanks combined carry enough prey animals for 50 activations before needing to be refilled, though electric eels usually need feeding only once per day, and won't go after the prey if they're all full. While electric eels are not aggressive to their aquarium keepers and will gradually learn to associate them with food, they can engage in violent social behavior, especially when they are young. This behavior leads to small fights involving tail slapping, biting, and discharged electricity, the last of which causes the lamp to illuminate without hitting the lever to release prey. The electric eels live around 15 years if kept well-fed.</Description>
+</Item>
+<Item level="3" page="178">
+	<Name>Camouflage Suit</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Description>This lightweight mesh fits easily over light armor. The suit is designed to incorporate local flora and ground clutter into the mesh to help you blend in seamlessly with the environment. Due to the abrasive nature of the materials used, this item is unsuitable for use by unarmored characters. You can prepare the suit for use within your current environment by using an exploration activity that takes at least 10 minutes, but sometimes longer if the materials are hard to find or the environment is unusual enough to warrant additional difficulty in preparing camouflage that can blend with it consistently.&lt;br&gt;&lt;br&gt; A suit prepared in this manner grants you a +1 item bonus to Stealth checks while you attempt to Hide or Sneak in the specific environment it has been prepared for. The suit remains usable in this manner until you rest for the night, though it doesn't grant the benefit whenever you aren't in the appropriate environment. The GM might rule that some environments are unusual enough that you can't create a camouflage suit appropriate for the environment.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="178">
+	<Name>Camouflage Suit (Superb)</Name>
+	<Price>140 gp</Price>
+	<Bulk>L</Bulk>
+	<Description>This lightweight mesh fits easily over light armor. The suit is designed to incorporate local flora and ground clutter into the mesh to help you blend in seamlessly with the environment. Due to the abrasive nature of the materials used, this item is unsuitable for use by unarmored characters. You can prepare the suit for use within your current environment by using an exploration activity that takes at least 10 minutes, but sometimes longer if the materials are hard to find or the environment is unusual enough to warrant additional difficulty in preparing camouflage that can blend with it consistently.&lt;br&gt;&lt;br&gt; A suit prepared in this manner grants you a +1 item bonus to Stealth checks while you attempt to Hide or Sneak in the specific environment it has been prepared for. The suit remains usable in this manner until you rest for the night, though it doesn't grant the benefit whenever you aren't in the appropriate environment. The GM might rule that some environments are unusual enough that you can't create a camouflage suit appropriate for the environment.&lt;br&gt;
+
+A superb camouflage suit is fashioned from especially well-blended materials and gives you a +2 item bonus to the check instead of a +1 item bonus.</Description>
+</Item>
+<Item level="9" page="89">
+	<Name>Printing Press</Name>
+	<Price>600 gp</Price>
+	<Bulk>20</Bulk>
+	<Traits>Clockwork</Traits>
+	<Description>The printing press is a revolutionary machine that combines movable type with a mechanical inking system and screw press, allowing for the mass production of large volumes of text. Using the press, a worker can produce up to 3,600 identical pages per day. In order to use the printing press, you must first set the type for the page you want to print. Time required to set type varies depending on the number of characters used; from 1 hour for small pages with brief text, to 8 hours for a full-sized normal page of text, though extreme examples may be outside this range. When you prepare a page for printing, you can include engraved images in addition to text. No magical properties of text are transferred in the printing process, so it cannot be used to mass-produce magical scrolls, &lt;i&gt;glyphs of warding&lt;/i&gt;, or similar spells or magic items.</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer</Name>
+	<Price>150 gp</Price>
+	<Bulk>16</Bulk>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer (Handheld)</Name>
+	<Price>200 gp</Price>
+	<Bulk>1</Bulk>
+	<Usage>held in 2 hands</Usage>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer (Incredible)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>16</Bulk>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;
+
+This spirit-singer is fine-tuned to the point that you can analyze its song more intricately. Increase the item bonus to Performance checks near spiritual disturbances, and the item bonus to detecting haunts and incorporeal undead to +2. While playing the spirit-singer, you can notice haunts that normally require you to have a master proficiency in Perception to detect.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer (Incredible Handheld)</Name>
+	<Price>1,650 gp</Price>
+	<Bulk>1</Bulk>
+	<Usage>held in 2 hands</Usage>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;
+
+This spirit-singer functions just like an incredible spirit-singer, except for its Usage and Bulk.</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer</Name>
+	<Price>150 gp</Price>
+	<Bulk>16</Bulk>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer (Handheld)</Name>
+	<Price>200 gp</Price>
+	<Bulk>1</Bulk>
+	<Usage>held in 2 hands</Usage>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer (Incredible)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>16</Bulk>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;
+
+This spirit-singer is fine-tuned to the point that you can analyze its song more intricately. Increase the item bonus to Performance checks near spiritual disturbances, and the item bonus to detecting haunts and incorporeal undead to +2. While playing the spirit-singer, you can notice haunts that normally require you to have a master proficiency in Perception to detect.&lt;br&gt;</Description>
+</Item>
+<Item level="5" page="83">
+	<Name>Spirit-Singer (Incredible Handheld)</Name>
+	<Price>1,650 gp</Price>
+	<Bulk>1</Bulk>
+	<Usage>held in 2 hands</Usage>
+	<Description>Etheric spirit-singers create an eerie spectral sound based on the presence of spiritual essence and other ethereal energies. All spirit-singers can be used as musical instruments by manipulating the sensitivity to ethereal energies. However, they have an even greater benefit in areas heavy with spiritual essence. When played in the presence of a significant spiritual disturbance, such as a haunt or an incorporeal undead, a spirit-singer grants you a +1 item bonus to Performance checks. While playing a spirit-singer, you also gain a +1 item bonus to checks to detect a haunt or incorporeal undead, and you can roll a check to notice a haunt even if you aren't actively Searching for it, due to the distortions of the spirit-singer's music. A haunt or incorporeal undead that is intelligent enough to notice the effects it is having on the spirit-singer's music and that can't otherwise communicate with the living might choose to use the spirit-singer to do so if it wishes. For instance, it could try to guide the spirit-singer player towards a location by creating distortions in that direction or, if it understands language, it could try to answer questions by creating one distortion for yes and two distortions for no. Unless stated otherwise in its usage entry, a spirit-singer functions like a heavy musical instrument; rather than carrying it, the musician places the spirit-singer in a particular position and uses both hands to play.&lt;br&gt;
+
+This spirit-singer functions just like an incredible spirit-singer, except for its Usage and Bulk.</Description>
+</Item>
+<Item level="12" page="83">
+	<Name>Violet Ray</Name>
+	<Price>1,893 gp</Price>
+	<Bulk>2</Bulk>
+	<Usage>held in 2 hands</Usage>
+	<Description>One of the many wondrous devices brought into the world by Stasian technology is the seemingly miraculous violet ray. Physicians claim it anything from headaches to heartburn, or nausea to deafness, all with an easy and painless treatment. The device is a glass vacuum with an insulated handle connected to a small Stasian coil. When powered, the glass tube fills with purple light and becomes warm to the touch. Pressing the tube to one's body is said to increase blood flow, eliminate toxins, and many other beneficial effects. A violet ray functions as a set of healer's tools and provides a +2 item bonus to Medicine checks to Administer First Aid, Treat Disease, Treat Poison, or Treat Wounds.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Three Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You apply the violet ray to an adjacent creature and attempt to counteract the blinded, clumsy, confused, deafened, drained, enfeebled, sickened, or stupefied condition with a counteract level of 6 and a counteract modifier of +22, using the source of the condition to determine the condition's counteract level and DC. If the condition was caused by an ongoing effect and you don't remove that effect, the condition returns after 1 minute. Each use of this ability can only counteract a single condition.</Description>
+</Item>
+<Item level="3" page="65">
+	<Name>Wind-up Wings (Flutterback)</Name>
+	<Price>50 gp</Price>
+	<Traits>Clockwork</Traits>
+	<Usage>attached to a</Usage>
+	<Description> weaponThese delicate clockwork wings enable thrown weapons to soar through the air at high speeds, performing turns and other aerial maneuvers midflight. Wind-up wings also have different types of special effects depending on the type. Wind-up wings must be attached to a thrown weapon and wound to function. A thrown weapon with an attached set of wind-up wings can't have anything else attached to it, or the wings cease to function.&lt;br&gt;&lt;br&gt; Attaching or detaching a pair of wind-up wings to a thrown weapon requires a repair kit, and the process takes 10 minutes. Winding an attached pair of wind-up wings takes three Interact actions. There are a variety of wind-up wings, with different effects.&lt;br&gt;
+
+When you make a thrown Strike with the weapon to which a pair of flutterback wind-up wings are attached, and the wings are wound, the wings fly the weapon back to your hand after the Strike is complete. If your hands are full when the weapon returns, the wings hover in place three feet above the ground. At the end of your turn, the wings are wound down; they don't function again until wound. If you aren't holding the weapon when the flutterback wind-up wings become wound down, the weapon falls to the ground.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="65">
+	<Name>Wind-up Wings (Homing)</Name>
+	<Price>1,800 gp</Price>
+	<Traits>Clockwork</Traits>
+	<Usage>attached to a</Usage>
+	<Description> weaponThese delicate clockwork wings enable thrown weapons to soar through the air at high speeds, performing turns and other aerial maneuvers midflight. Wind-up wings also have different types of special effects depending on the type. Wind-up wings must be attached to a thrown weapon and wound to function. A thrown weapon with an attached set of wind-up wings can't have anything else attached to it, or the wings cease to function.&lt;br&gt;&lt;br&gt; Attaching or detaching a pair of wind-up wings to a thrown weapon requires a repair kit, and the process takes 10 minutes. Winding an attached pair of wind-up wings takes three Interact actions. There are a variety of wind-up wings, with different effects.&lt;br&gt;
+
+When you make a thrown Strike with the weapon to which a pair of homing wind-up wings are attached, and the wings are wound, the wings seek out your target, flying through cover and avoiding obstacles. You ignore the target's concealed condition and reduce the target's cover by one step (lesser cover to no cover, standard cover to lesser cover, or greater cover to standard cover). After the Strike is complete, the wings are wound down; they don't function again until wound.</Description>
+</Item>
+<Item level="15" page="89">
+	<Name>Steamflight Pack</Name>
+	<Price>6,000 gp</Price>
+	<Bulk>2</Bulk>
+	<Traits>Clockwork, Steam</Traits>
+	<Usage>worn backpack</Usage>
+	<Description>The steamflight pack allows its user to fly without using magic or wings. Each steamflight pack looks like a large brass backpack with two large nozzles mounted on the sides pointing downward. It also features metal arms reaching around the front that terminate in handles with activation buttons on them. When the user holds down an activation button, a complex series of mechanisms pumps water from the large tank in the backpack and releases it through the nozzles as powerful jets of steam, enabling the user to fly short distances. Tilting the handle adjusts the nozzles' angles, allowing the user to control the direction of their flight.&lt;br&gt;&lt;br&gt; When active, the steamflight pack gives the user a fly Speed of 20 feet. It carries enough water for 20 minutes of operation and can be refilled in five minutes with a supply of normal water and a funnel.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Effect&lt;/b&gt; You turn the steamflight pack on or off.</Description>
+</Item>
+</pf2:Items>

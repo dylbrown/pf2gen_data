@@ -1,0 +1,168 @@
+<pf2:Items category="alchemical_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Alchemical Ammunition">
+<Item level="0" page="169">
+	<Name>Black Powder (Dose or Round)</Name>
+	<Price>1 cp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>Black powder is a volatile and explosive alchemical substance commonly used in the production of firearm munitions. Black powder becomes inert and useless when wet and must be kept in a sealed, water-tight container.&lt;br&gt;
+
+The smallest unit of black powder that still has a simple use, a dose can be a simple package paper parcel around black powder or it can be packaged with a metal bullet or pellet to be used as ammunition. When ignited with a fuse or exposed to direct flame, a dose of black powder explodes. This isn't powerful enough to deal damage but makes a loud sound and could trigger further explosions. A fuse for a dose can be created with a few twists of paper and causes the dose to explode the round after it's lit.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="169">
+	<Name>Black Powder (Horn)</Name>
+	<Price>5 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>Black powder is a volatile and explosive alchemical substance commonly used in the production of firearm munitions. Black powder becomes inert and useless when wet and must be kept in a sealed, water-tight container.&lt;br&gt;
+
+A horn contains 500 doses worth of black powder. A horn can be detonated by leaving a small trail of black powder and then lighting it. Each 5-foot square requires one dose of black powder to create a trail through. As long as the horn is mostly full (at least 400 doses remaining) it can be detonated to deal 1d6 fire damage in a 5-foot burst (DC 16 basic Reflex save). It takes 1 round per 15 feet of powder trail laid down for a horn to detonate after the trail is lit. If multiple horns detonate simultaneously, it can increase the area of the explosion, but the damage in overlapping areas doesn't increase.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="169">
+	<Name>Black Powder (Keg)</Name>
+	<Price>50 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>Black powder is a volatile and explosive alchemical substance commonly used in the production of firearm munitions. Black powder becomes inert and useless when wet and must be kept in a sealed, water-tight container.&lt;br&gt;
+
+A keg contains 5,000 doses of black powder and can be detonated in the same way as a horn. As long as the keg is mostly full (at least 4,000 doses remaining) this deals 3d6 fire damage in a 20-foot burst (DC 20 basic Reflex save). Detonating multiple kegs can increase the area, but not the damage, of this effect; detonating a keg and any horns at the same time in an overlapping area also doesn't increase the damage.</Description>
+</Item>
+<Item level="2" page="168">
+	<Name>Aromatic Ammunition</Name>
+	<Price>5 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>The components of this ammunition emit a strong smell when combined during its activation. A creature hit by an activated aromatic ammunition gains a distinct odor for up to 1 hour or until the scent is washed off (requiring at least a gallon of water and 10 minutes of scrubbing). Any creatures within 30 feet smell the target, allowing even those with a weak sense of smell to detect its presence, and all creatures gain a +1 item bonus to Track the affected creature for as long as it has the odor. A creature that has imprecise or precise scent doubles the range at which they can detect the target using their scent compared to the normal range of their scent.</Description>
+</Item>
+<Item level="0" page="169">
+	<Name>Black Powder (Dose or Round)</Name>
+	<Price>1 cp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>Black powder is a volatile and explosive alchemical substance commonly used in the production of firearm munitions. Black powder becomes inert and useless when wet and must be kept in a sealed, water-tight container.&lt;br&gt;
+
+The smallest unit of black powder that still has a simple use, a dose can be a simple package paper parcel around black powder or it can be packaged with a metal bullet or pellet to be used as ammunition. When ignited with a fuse or exposed to direct flame, a dose of black powder explodes. This isn't powerful enough to deal damage but makes a loud sound and could trigger further explosions. A fuse for a dose can be created with a few twists of paper and causes the dose to explode the round after it's lit.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="169">
+	<Name>Black Powder (Horn)</Name>
+	<Price>5 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>Black powder is a volatile and explosive alchemical substance commonly used in the production of firearm munitions. Black powder becomes inert and useless when wet and must be kept in a sealed, water-tight container.&lt;br&gt;
+
+A horn contains 500 doses worth of black powder. A horn can be detonated by leaving a small trail of black powder and then lighting it. Each 5-foot square requires one dose of black powder to create a trail through. As long as the horn is mostly full (at least 400 doses remaining) it can be detonated to deal 1d6 fire damage in a 5-foot burst (DC 16 basic Reflex save). It takes 1 round per 15 feet of powder trail laid down for a horn to detonate after the trail is lit. If multiple horns detonate simultaneously, it can increase the area of the explosion, but the damage in overlapping areas doesn't increase.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="169">
+	<Name>Black Powder (Keg)</Name>
+	<Price>50 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>Black powder is a volatile and explosive alchemical substance commonly used in the production of firearm munitions. Black powder becomes inert and useless when wet and must be kept in a sealed, water-tight container.&lt;br&gt;
+
+A keg contains 5,000 doses of black powder and can be detonated in the same way as a horn. As long as the keg is mostly full (at least 4,000 doses remaining) this deals 3d6 fire damage in a 20-foot burst (DC 20 basic Reflex save). Detonating multiple kegs can increase the area, but not the damage, of this effect; detonating a keg and any horns at the same time in an overlapping area also doesn't increase the damage.</Description>
+</Item>
+<Item level="4" page="170">
+	<Name>Exsanguinating Ammunition</Name>
+	<Price>15 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains the listed weakness to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.&lt;br&gt;
+
+The target gains weakness 1 to persistent bleed damage.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="170">
+	<Name>Exsanguinating Ammunition (Greater)</Name>
+	<Price>80 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains the listed weakness to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.&lt;br&gt;
+
+The target gains weakness 3 to persistent bleed damage.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="170">
+	<Name>Exsanguinating Ammunition (Major)</Name>
+	<Price>360 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains the listed weakness to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.&lt;br&gt;
+
+The target gains weakness 5 persistent bleed damage.</Description>
+</Item>
+<Item level="4" page="170">
+	<Name>Glue Bullet</Name>
+	<Price>16 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>These cartridges are filled with sticky clear glue. When a glue bullet hits, a syrupy webbing coats the target and sticks to the ground or a nearby surface, hindering their movement. The target takes a –10-foot circumstance penalty to its Speeds for 2d4 rounds, or until it Escape against a DC of 18. On a critical hit, the target is also immobilized until it Escapes.</Description>
+</Item>
+<Item level="5" page="169">
+	<Name>Eroding Bullet</Name>
+	<Price>22 gp</Price>
+	<Traits>Acid, Alchemical, Consumable</Traits>
+	<Description>Eroding bullets cast a faint green glow, and smell like the sicklysweet organic gases that rise from corpses. Handling an eroding bullet without gloves deals 1 point of acid damage and leaves the putrid scent coated on your fingers. Upon Striking an enemy,  the glass casing inside the bullet bursts, releasing a splattering of bubbling green acid that coats the target. The target takes 2d6 persistent acid damage in addition to the damage normally dealt by the attack.</Description>
+</Item>
+<Item level="0" page="169">
+	<Name>Black Powder (Dose or Round)</Name>
+	<Price>1 cp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>Black powder is a volatile and explosive alchemical substance commonly used in the production of firearm munitions. Black powder becomes inert and useless when wet and must be kept in a sealed, water-tight container.&lt;br&gt;
+
+The smallest unit of black powder that still has a simple use, a dose can be a simple package paper parcel around black powder or it can be packaged with a metal bullet or pellet to be used as ammunition. When ignited with a fuse or exposed to direct flame, a dose of black powder explodes. This isn't powerful enough to deal damage but makes a loud sound and could trigger further explosions. A fuse for a dose can be created with a few twists of paper and causes the dose to explode the round after it's lit.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="169">
+	<Name>Black Powder (Horn)</Name>
+	<Price>5 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>Black powder is a volatile and explosive alchemical substance commonly used in the production of firearm munitions. Black powder becomes inert and useless when wet and must be kept in a sealed, water-tight container.&lt;br&gt;
+
+A horn contains 500 doses worth of black powder. A horn can be detonated by leaving a small trail of black powder and then lighting it. Each 5-foot square requires one dose of black powder to create a trail through. As long as the horn is mostly full (at least 400 doses remaining) it can be detonated to deal 1d6 fire damage in a 5-foot burst (DC 16 basic Reflex save). It takes 1 round per 15 feet of powder trail laid down for a horn to detonate after the trail is lit. If multiple horns detonate simultaneously, it can increase the area of the explosion, but the damage in overlapping areas doesn't increase.&lt;br&gt;</Description>
+</Item>
+<Item level="0" page="169">
+	<Name>Black Powder (Keg)</Name>
+	<Price>50 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>Black powder is a volatile and explosive alchemical substance commonly used in the production of firearm munitions. Black powder becomes inert and useless when wet and must be kept in a sealed, water-tight container.&lt;br&gt;
+
+A keg contains 5,000 doses of black powder and can be detonated in the same way as a horn. As long as the keg is mostly full (at least 4,000 doses remaining) this deals 3d6 fire damage in a 20-foot burst (DC 20 basic Reflex save). Detonating multiple kegs can increase the area, but not the damage, of this effect; detonating a keg and any horns at the same time in an overlapping area also doesn't increase the damage.</Description>
+</Item>
+<Item level="4" page="170">
+	<Name>Exsanguinating Ammunition</Name>
+	<Price>15 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains the listed weakness to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.&lt;br&gt;
+
+The target gains weakness 1 to persistent bleed damage.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="170">
+	<Name>Exsanguinating Ammunition (Greater)</Name>
+	<Price>80 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains the listed weakness to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.&lt;br&gt;
+
+The target gains weakness 3 to persistent bleed damage.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="170">
+	<Name>Exsanguinating Ammunition (Major)</Name>
+	<Price>360 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains the listed weakness to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.&lt;br&gt;
+
+The target gains weakness 5 persistent bleed damage.</Description>
+</Item>
+<Item level="4" page="170">
+	<Name>Exsanguinating Ammunition</Name>
+	<Price>15 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains the listed weakness to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.&lt;br&gt;
+
+The target gains weakness 1 to persistent bleed damage.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="170">
+	<Name>Exsanguinating Ammunition (Greater)</Name>
+	<Price>80 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains the listed weakness to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.&lt;br&gt;
+
+The target gains weakness 3 to persistent bleed damage.&lt;br&gt;</Description>
+</Item>
+<Item level="4" page="170">
+	<Name>Exsanguinating Ammunition (Major)</Name>
+	<Price>360 gp</Price>
+	<Traits>Alchemical, Consumable</Traits>
+	<Description>This ammunition includes a small reservoir of a tacky red substance that coats the ammunition when you activate it. The substance makes a creature bleed more freely. For 1 minute after you deal damage to a creature with an activated exsanguinating ammunition that creature gains the listed weakness to persistent bleed damage. In addition, the DC of any flat checks to end persistent bleed damage increases from 15 to 17 (from 10 to 12 when receiving particularly effective assistance) for the duration.&lt;br&gt;
+
+The target gains weakness 5 persistent bleed damage.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

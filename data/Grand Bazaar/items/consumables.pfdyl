@@ -1,0 +1,300 @@
+<pf2:Items category="consumables" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Potions">
+<Item level="12" page="26">
+	<Name>Dragonfly Potion</Name>
+	<Price>310 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical, Morph, Potion, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Your eyes transform into those of a giant dragonfly, the thousands of separate facets wrapping around your head, and a pair of long, delicate, insectile wings grow from your upper back. You gain a fly Speed equal to your land Speed. Additionally, you gain low-light vision and a +2 item bonus to visual Perception checks, and you can't be flanked except by creatures higher level than you are (though lower-level creatures can still help their higher-level allies flank). These effects last for 1 minute.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Other Consumables">
+<Item level="7" page="47">
+	<Name>Server's Stew</Name>
+	<Price>60 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Divination, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The type of animal tongue used in this tomato-based stew shifts from region to region, but it's always cooked with spirit of wine and seasoned with refined pesh. Eating this restaurant-staff favorite empowers you to speak and understand a single language for 1 hour. This must be a language the stew's cook could speak and understand, chosen at the time of the stew's creation. It also helps your words land smoothly, granting you a +2 item bonus to Diplomacy checks made in that language for the same duration. It doesn't allow you to read the newly acquired language in its written form.</Description>
+</Item>
+<Item level="10" page="47">
+	<Name>Follypops (Hotpops)</Name>
+	<Price>175 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These savory breaded snacks stuffed with cheese, peppers, and “secret ingredients” of draconic or demonic origin are often offered alongside a challenge—complete a full portion and get a free drink. For 1 hour after consuming &lt;i&gt;follypops&lt;/i&gt;, your stomach gurgles and rumbles with magical potential. During this time, you can unleash magic in the area up to three times as a single action, which has the concentrate trait, with an area and damage determined by the type of pop; the third time you use this magic, the effects of your &lt;i&gt;follypops&lt;/i&gt; end. All creatures within the area must attempt a DC 27 basic saving throw each time you unleash magic, as noted by the type of pop.&lt;br&gt;
+
+You begin to sweat profusely after consuming the serving. When you unleash magic, you breathe out a blast of fire in a 15-foot cone. Creatures in the cone take 4d6 fire damage with the first blast, 2d6 fire damage with the second blast, and 1d6 fire damage with the final blast. The creatures must attempt a basic Reflex save for each blast.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="47">
+	<Name>Follypops (Rotters)</Name>
+	<Price>175 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These savory breaded snacks stuffed with cheese, peppers, and “secret ingredients” of draconic or demonic origin are often offered alongside a challenge—complete a full portion and get a free drink. For 1 hour after consuming &lt;i&gt;follypops&lt;/i&gt;, your stomach gurgles and rumbles with magical potential. During this time, you can unleash magic in the area up to three times as a single action, which has the concentrate trait, with an area and damage determined by the type of pop; the third time you use this magic, the effects of your &lt;i&gt;follypops&lt;/i&gt; end. All creatures within the area must attempt a DC 27 basic saving throw each time you unleash magic, as noted by the type of pop.&lt;br&gt;
+
+Your breath smells of rotting garbage after you consume the serving. When you unleash magic, you exhale a noxious breath in a 15-foot cone. Creatures in the cone take 4d6 poison damage with the first breath, 2d6 poison damage with the second breath, and 1d6 poison damage with the final breath. The creatures must attempt a basic Fortitude save for each breath.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="47">
+	<Name>Follypops (Sizzlers)</Name>
+	<Price>175 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These savory breaded snacks stuffed with cheese, peppers, and “secret ingredients” of draconic or demonic origin are often offered alongside a challenge—complete a full portion and get a free drink. For 1 hour after consuming &lt;i&gt;follypops&lt;/i&gt;, your stomach gurgles and rumbles with magical potential. During this time, you can unleash magic in the area up to three times as a single action, which has the concentrate trait, with an area and damage determined by the type of pop; the third time you use this magic, the effects of your &lt;i&gt;follypops&lt;/i&gt; end. All creatures within the area must attempt a DC 27 basic saving throw each time you unleash magic, as noted by the type of pop.&lt;br&gt;
+
+Your skin crawls and your hair stands on end after consuming the serving. When you unleash magic, you release a bolt of lightning from your hand that travels in a 30-foot line. The first bolt deals 2d12 electricity damage, the second 1d12 electricity damage, and the third 1d6 electricity damage. The targeted creatures must attempt a basic Reflex save for each bolt.</Description>
+</Item>
+<Item level="10" page="47">
+	<Name>Follypops (Hotpops)</Name>
+	<Price>175 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These savory breaded snacks stuffed with cheese, peppers, and “secret ingredients” of draconic or demonic origin are often offered alongside a challenge—complete a full portion and get a free drink. For 1 hour after consuming &lt;i&gt;follypops&lt;/i&gt;, your stomach gurgles and rumbles with magical potential. During this time, you can unleash magic in the area up to three times as a single action, which has the concentrate trait, with an area and damage determined by the type of pop; the third time you use this magic, the effects of your &lt;i&gt;follypops&lt;/i&gt; end. All creatures within the area must attempt a DC 27 basic saving throw each time you unleash magic, as noted by the type of pop.&lt;br&gt;
+
+You begin to sweat profusely after consuming the serving. When you unleash magic, you breathe out a blast of fire in a 15-foot cone. Creatures in the cone take 4d6 fire damage with the first blast, 2d6 fire damage with the second blast, and 1d6 fire damage with the final blast. The creatures must attempt a basic Reflex save for each blast.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="47">
+	<Name>Follypops (Rotters)</Name>
+	<Price>175 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These savory breaded snacks stuffed with cheese, peppers, and “secret ingredients” of draconic or demonic origin are often offered alongside a challenge—complete a full portion and get a free drink. For 1 hour after consuming &lt;i&gt;follypops&lt;/i&gt;, your stomach gurgles and rumbles with magical potential. During this time, you can unleash magic in the area up to three times as a single action, which has the concentrate trait, with an area and damage determined by the type of pop; the third time you use this magic, the effects of your &lt;i&gt;follypops&lt;/i&gt; end. All creatures within the area must attempt a DC 27 basic saving throw each time you unleash magic, as noted by the type of pop.&lt;br&gt;
+
+Your breath smells of rotting garbage after you consume the serving. When you unleash magic, you exhale a noxious breath in a 15-foot cone. Creatures in the cone take 4d6 poison damage with the first breath, 2d6 poison damage with the second breath, and 1d6 poison damage with the final breath. The creatures must attempt a basic Fortitude save for each breath.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="47">
+	<Name>Follypops (Sizzlers)</Name>
+	<Price>175 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These savory breaded snacks stuffed with cheese, peppers, and “secret ingredients” of draconic or demonic origin are often offered alongside a challenge—complete a full portion and get a free drink. For 1 hour after consuming &lt;i&gt;follypops&lt;/i&gt;, your stomach gurgles and rumbles with magical potential. During this time, you can unleash magic in the area up to three times as a single action, which has the concentrate trait, with an area and damage determined by the type of pop; the third time you use this magic, the effects of your &lt;i&gt;follypops&lt;/i&gt; end. All creatures within the area must attempt a DC 27 basic saving throw each time you unleash magic, as noted by the type of pop.&lt;br&gt;
+
+Your skin crawls and your hair stands on end after consuming the serving. When you unleash magic, you release a bolt of lightning from your hand that travels in a 30-foot line. The first bolt deals 2d12 electricity damage, the second 1d12 electricity damage, and the third 1d6 electricity damage. The targeted creatures must attempt a basic Reflex save for each bolt.</Description>
+</Item>
+<Item level="10" page="47">
+	<Name>Follypops (Hotpops)</Name>
+	<Price>175 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These savory breaded snacks stuffed with cheese, peppers, and “secret ingredients” of draconic or demonic origin are often offered alongside a challenge—complete a full portion and get a free drink. For 1 hour after consuming &lt;i&gt;follypops&lt;/i&gt;, your stomach gurgles and rumbles with magical potential. During this time, you can unleash magic in the area up to three times as a single action, which has the concentrate trait, with an area and damage determined by the type of pop; the third time you use this magic, the effects of your &lt;i&gt;follypops&lt;/i&gt; end. All creatures within the area must attempt a DC 27 basic saving throw each time you unleash magic, as noted by the type of pop.&lt;br&gt;
+
+You begin to sweat profusely after consuming the serving. When you unleash magic, you breathe out a blast of fire in a 15-foot cone. Creatures in the cone take 4d6 fire damage with the first blast, 2d6 fire damage with the second blast, and 1d6 fire damage with the final blast. The creatures must attempt a basic Reflex save for each blast.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="47">
+	<Name>Follypops (Rotters)</Name>
+	<Price>175 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These savory breaded snacks stuffed with cheese, peppers, and “secret ingredients” of draconic or demonic origin are often offered alongside a challenge—complete a full portion and get a free drink. For 1 hour after consuming &lt;i&gt;follypops&lt;/i&gt;, your stomach gurgles and rumbles with magical potential. During this time, you can unleash magic in the area up to three times as a single action, which has the concentrate trait, with an area and damage determined by the type of pop; the third time you use this magic, the effects of your &lt;i&gt;follypops&lt;/i&gt; end. All creatures within the area must attempt a DC 27 basic saving throw each time you unleash magic, as noted by the type of pop.&lt;br&gt;
+
+Your breath smells of rotting garbage after you consume the serving. When you unleash magic, you exhale a noxious breath in a 15-foot cone. Creatures in the cone take 4d6 poison damage with the first breath, 2d6 poison damage with the second breath, and 1d6 poison damage with the final breath. The creatures must attempt a basic Fortitude save for each breath.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="47">
+	<Name>Follypops (Sizzlers)</Name>
+	<Price>175 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These savory breaded snacks stuffed with cheese, peppers, and “secret ingredients” of draconic or demonic origin are often offered alongside a challenge—complete a full portion and get a free drink. For 1 hour after consuming &lt;i&gt;follypops&lt;/i&gt;, your stomach gurgles and rumbles with magical potential. During this time, you can unleash magic in the area up to three times as a single action, which has the concentrate trait, with an area and damage determined by the type of pop; the third time you use this magic, the effects of your &lt;i&gt;follypops&lt;/i&gt; end. All creatures within the area must attempt a DC 27 basic saving throw each time you unleash magic, as noted by the type of pop.&lt;br&gt;
+
+Your skin crawls and your hair stands on end after consuming the serving. When you unleash magic, you release a bolt of lightning from your hand that travels in a 30-foot line. The first bolt deals 2d12 electricity damage, the second 1d12 electricity damage, and the third 1d6 electricity damage. The targeted creatures must attempt a basic Reflex save for each bolt.</Description>
+</Item>
+<Item level="12" page="47">
+	<Name>Thrice-Fried Mudwings</Name>
+	<Price>350 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Abjuration, Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Frying mudwings—the remains of magical winged creatures found in blighted swamps—is a delicate balance. Cooked for too long and they lose their potency; cooked too briefly and the toxins in their system could end up harming whoever eats them. When you consume a perfectly cooked tapas, you grow two sets of mudwings that grant you a fly Speed of 30 feet or your Speed, whichever is lower, for 10 minutes. You can also use the following Activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Reaction]] Interact; &lt;b&gt;Trigger&lt;/b&gt; You would take damage from a physical attack; &lt;b&gt;Effect&lt;/b&gt; You intercept the attack with a pair of your wings. You gain resistance 15 against physical damage for the triggering attack only, shattering one set of your wings in the process. The first time you use this Activation, your fly Speed becomes 15 feet, or half your Speed, whichever is lower, for the duration. After the second time, your mudwings are shattered entirely, ending the effect. </Description>
+</Item>
+<Item level="13" page="98">
+	<Name>Djezet Dose</Name>
+	<Price>600 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Consumable, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Some mages carry vials of djezet for its magic-enhancing properties. When you drink a djezet dose, if your next action is to Cast a Spell, you can apply the effects of the Reach Spell or Widen Spell metamagic feats.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; At least 300 gp of djezet.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Gadgets">
+<Item level="2" page="23">
+	<Name>Spring-Loaded Net Launcher</Name>
+	<Price>6 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Clockwork, Consumable, Gadget</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This small bronze cylinder is about the size of a potion bottle. When you activate the launcher, it fires an unattached net requiring only a single hand, and at a greater distance. As normal, you make a ranged attack roll against a Medium or smaller creature, but you can target a creature up to 60 feet away, instead of only 20 feet away. The net trap otherwise functions as an unattached net.</Description>
+</Item>
+<Item level="3" page="22">
+	<Name>Periscopic Viewfinder</Name>
+	<Price>12 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Clockwork, Consumable, Gadget</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bronze, spherical device slowly rotates around a cluster of angled mirrors and a light-filled orb. When you activate the viewfinder, it spins rapidly and reflects light into the orb at the center. This reveals the area around you up to 30 feet in a burst of light, including objects and areas that aren't in your line of sight. This doesn't grant you any additional information that couldn't otherwise be gathered by your senses.</Description>
+</Item>
+<Item level="8" page="22">
+	<Name>Clockwork Spider Bomb</Name>
+	<Price>100 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Clockwork, Consumable, Gadget</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>While arachnophobes don't need to fear this contraption's spiderlike appearance, they should probably worry if it starts ticking. When you activate the spider bomb, you place it on the ground and the clockwork spider crawls 5 feet in a straight line, continuing to advance 5 feet in the same straight line at the end of each of your turns for the next 4 rounds (traveling a total of 25 feet). If it takes any damage during this time, its bulbous abdomen detonates in a raging flame, dealing 5d6 fire damage to all creatures in a 5-foot burst (DC 24 basic Reflex save). You can also activate it a second time with a single-action command word activation, causing it to explode. The spider bomb has an AC of 10, 5 Hit Points, and +0 to all saving throws. After it detonates, the spider bomb is completely destroyed, regardless of the effects of its detonation. If it survives to the end of the 4-round duration without being detonated, the spider harmlessly loses its explosive charge and falls apart.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Magical Ammunition">
+<Item level="3" page="14">
+	<Name>Blindpepper Bolt</Name>
+	<Price>10 gp</Price>
+	<Traits>Consumable, Magical</Traits>
+	<Description>The head of this bolt is a vented container that smells strongly of caustic pepper. When an activated &lt;i&gt;blindpepper bolt&lt;/i&gt; hits a target, it deals no damage; instead the creature must attempt a DC 17 Fortitude save. If the Strike was a critical success, the target takes a –2 circumstance penalty to its Fortitude save. At the GM's discretion, a creature with no eyes or olfactory organs might not be affected by this item.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is dazzled until the end of your next turn. It can end the effect early if it spends an action, which has the manipulate trait, to wipe down its eyes.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target is dazzled for 1 minute.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target is blinded until the end of your next turn and dazzled for 1 minute.</Description>
+</Item>
+<Item level="5" page="30">
+	<Name>Rhino Shot</Name>
+	<Price>22 gp</Price>
+	<Traits>Conjuration, Consumable, Magical</Traits>
+	<Description>This arrow is made of polished animal horn, with the head of a rhinoceros carved in place of a traditional arrowhead. When an activated &lt;i&gt;rhino shot&lt;/i&gt; is fired, the ethereal form of a large rhinoceros takes shape around the projectile. On a successful Strike, the attack deals an additional 2d6 force damage, and the target must succeed at a DC 19 Fortitude save or be knocked prone. If the hit with the &lt;i&gt;rhino shot&lt;/i&gt; was a critical success, the target is knocked prone unless it critically succeeds at its save.</Description>
+</Item>
+<Item level="5" page="81">
+	<Name>Sky Serpent Bolt</Name>
+	<Price>25 gp</Price>
+	<Traits>Air, Consumable, Electricity, Evocation, Magical</Traits>
+	<Description> InteractThis azure bolt is carved in the shape of an undulating snake, its bared fangs framing the point of its head. When an activated &lt;i&gt;sky serpent bolt&lt;/i&gt; successfully hits a target, the bolt takes the form of a snake made of pure lightning, dealing 2d12 electricity damage to all creatures in a 30-foot line (DC 19 basic Reflex save) starting from the target.&lt;br&gt;&lt;br&gt; If you spent 2 actions to activate the &lt;i&gt;sky serpent bolt&lt;/i&gt;, then the line is 60 feet long, and at a single point in the line, you can change the remainder of the line's path by up to a 90-degree angle.</Description>
+</Item>
+<Item level="7" page="14">
+	<Name>Big Rock Bullet</Name>
+	<Price>60 gp</Price>
+	<Traits>Consumable, Earth, Magical, Transmutation</Traits>
+	<Description>A &lt;i&gt;big rock bullet&lt;/i&gt; is a sling bullet made of heavy granite, but each piece of ammunition feels much more dense than it appears. When activated, a &lt;i&gt;big rock bullet&lt;/i&gt; transforms into a giant rock just before hitting the target. The target takes 4d6 additional bludgeoning damage on a successful hit. Even on a failed attack roll (but not a critical failure), the target takes 2d6 bludgeoning damage. Creatures with the Catch Rock reaction can use it against a &lt;i&gt;big rock bullet&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="14">
+	<Name>Big Rock Bullet (Greater)</Name>
+	<Price>250 gp</Price>
+	<Traits>Consumable, Earth, Magical, Transmutation</Traits>
+	<Description>A &lt;i&gt;big rock bullet&lt;/i&gt; is a sling bullet made of heavy granite, but each piece of ammunition feels much more dense than it appears. When activated, a &lt;i&gt;big rock bullet&lt;/i&gt; transforms into a giant rock just before hitting the target. The target takes 4d6 additional bludgeoning damage on a successful hit. Even on a failed attack roll (but not a critical failure), the target takes 2d6 bludgeoning damage. Creatures with the Catch Rock reaction can use it against a &lt;i&gt;big rock bullet&lt;/i&gt;.&lt;br&gt;
+
+The bullet deals 8d6 additional bludgeoning damage, or 4d6 on a failure.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="14">
+	<Name>Big Rock Bullet (Major)</Name>
+	<Price>1,150 gp</Price>
+	<Traits>Consumable, Earth, Magical, Transmutation</Traits>
+	<Description>A &lt;i&gt;big rock bullet&lt;/i&gt; is a sling bullet made of heavy granite, but each piece of ammunition feels much more dense than it appears. When activated, a &lt;i&gt;big rock bullet&lt;/i&gt; transforms into a giant rock just before hitting the target. The target takes 4d6 additional bludgeoning damage on a successful hit. Even on a failed attack roll (but not a critical failure), the target takes 2d6 bludgeoning damage. Creatures with the Catch Rock reaction can use it against a &lt;i&gt;big rock bullet&lt;/i&gt;.&lt;br&gt;
+
+The bullet deals 12d6 additional bludgeoning damage, or 6d6 on a failure.</Description>
+</Item>
+<Item level="9" page="14">
+	<Name>Enfilading Arrow</Name>
+	<Price>125 gp</Price>
+	<Traits>Conjuration, Consumable, Magical</Traits>
+	<Description>This arrow splits at the far end of the shaft into five branching arrowheads, making it impractical for single targets but deadly in combat. When you fire an activated &lt;i&gt;enfilading arrow&lt;/i&gt;, it sails upward and shatters into countless copies. The arrows then rain down in a 10-foot burst at any point within your weapon's first range increment, dealing 6d8 piercing damage to all creatures in the area (DC 25 basic Reflex).&lt;br&gt;&lt;br&gt; If a creature critically fails the save and you have access to the bow critical specialization effect, the target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can't move from its space until it succeeds.</Description>
+</Item>
+<Item level="9" page="31">
+	<Name>Transposition Ammunition</Name>
+	<Price>125 gp</Price>
+	<Traits>Conjuration, Consumable, Magical, Teleportation</Traits>
+	<Description>&lt;i&gt;Transposition ammunition&lt;/i&gt; has a milky-white cast and will sometimes shift position subtly of its own accord. When you activate the ammunition, instead of making your Strike against a foe, you fire &lt;i&gt;transposition ammunition&lt;/i&gt; at any unoccupied square you can see within your weapon's first range increment and succeed without making an attack roll. You pull yourself through the Astral Plane, teleporting along with any items you are holding into the square where you shot the ammunition. If this would carry along any other creature (even one in an extradimensional space), the activation fails.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="31">
+	<Name>Transposition Ammunition (Greater)</Name>
+	<Price>1,250 gp</Price>
+	<Traits>Conjuration, Consumable, Magical, Teleportation</Traits>
+	<Description>&lt;i&gt;Transposition ammunition&lt;/i&gt; has a milky-white cast and will sometimes shift position subtly of its own accord. When you activate the ammunition, instead of making your Strike against a foe, you fire &lt;i&gt;transposition ammunition&lt;/i&gt; at any unoccupied square you can see within your weapon's first range increment and succeed without making an attack roll. You pull yourself through the Astral Plane, teleporting along with any items you are holding into the square where you shot the ammunition. If this would carry along any other creature (even one in an extradimensional space), the activation fails.&lt;br&gt;
+
+When you teleport, you can take along up to two willing adjacent creatures. These creatures must each arrive in unoccupied squares adjacent to the &lt;i&gt;transposition ammunition&lt;/i&gt;; if there's not enough space for both of them, you choose which one is teleported.</Description>
+</Item>
+<Item level="9" page="10">
+	<Name>Silencing Ammunition</Name>
+	<Price>125 gp</Price>
+	<Traits>Consumable, Illusion, Magical</Traits>
+	<Description>&lt;i&gt;Silencing ammunition&lt;/i&gt; is particularly dense and seems to dampen sounds around it. On a successful Strike, an activated piece of &lt;i&gt;silencing ammunition&lt;/i&gt; creates a 2nd-level &lt;i&gt;silence&lt;/i&gt; effect on the target. The target can resist the effects of the ammunition with a successful DC 25 Will save, though it takes a –2 circumstance penalty if the Strike was a critical hit. While the effect is active, the target can use an Interact action to try to tug out the arrow or bolt and end the effect early; this requires a successful DC 25 Will save.</Description>
+</Item>
+<Item level="11" page="19">
+	<Name>Juxtaposition Ammunition</Name>
+	<Price>225 gp</Price>
+	<Traits>Conjuration, Consumable, Magical, Teleportation</Traits>
+	<Description>&lt;i&gt;Juxtaposition ammunition&lt;/i&gt; quivers with anticipation, as if the projectile wishes to constantly be in motion. When an activated &lt;i&gt;juxtaposition ammunition&lt;/i&gt; hits a creature, it doesn't deal the Strike's normal damage. Instead, the target must succeed at a DC 28 Will save or be teleported to a safe, unoccupied square of your choice within 60 feet of its original position and within the weapon's first range increment. On a critical failure, the target is also sickened 1 from the gut-wrenching sensation of sudden movement. Any relocation from the &lt;i&gt;juxtaposition ammunition&lt;/i&gt; is forced movement.</Description>
+</Item>
+<Item level="7" page="14">
+	<Name>Big Rock Bullet</Name>
+	<Price>60 gp</Price>
+	<Traits>Consumable, Earth, Magical, Transmutation</Traits>
+	<Description>A &lt;i&gt;big rock bullet&lt;/i&gt; is a sling bullet made of heavy granite, but each piece of ammunition feels much more dense than it appears. When activated, a &lt;i&gt;big rock bullet&lt;/i&gt; transforms into a giant rock just before hitting the target. The target takes 4d6 additional bludgeoning damage on a successful hit. Even on a failed attack roll (but not a critical failure), the target takes 2d6 bludgeoning damage. Creatures with the Catch Rock reaction can use it against a &lt;i&gt;big rock bullet&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="14">
+	<Name>Big Rock Bullet (Greater)</Name>
+	<Price>250 gp</Price>
+	<Traits>Consumable, Earth, Magical, Transmutation</Traits>
+	<Description>A &lt;i&gt;big rock bullet&lt;/i&gt; is a sling bullet made of heavy granite, but each piece of ammunition feels much more dense than it appears. When activated, a &lt;i&gt;big rock bullet&lt;/i&gt; transforms into a giant rock just before hitting the target. The target takes 4d6 additional bludgeoning damage on a successful hit. Even on a failed attack roll (but not a critical failure), the target takes 2d6 bludgeoning damage. Creatures with the Catch Rock reaction can use it against a &lt;i&gt;big rock bullet&lt;/i&gt;.&lt;br&gt;
+
+The bullet deals 8d6 additional bludgeoning damage, or 4d6 on a failure.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="14">
+	<Name>Big Rock Bullet (Major)</Name>
+	<Price>1,150 gp</Price>
+	<Traits>Consumable, Earth, Magical, Transmutation</Traits>
+	<Description>A &lt;i&gt;big rock bullet&lt;/i&gt; is a sling bullet made of heavy granite, but each piece of ammunition feels much more dense than it appears. When activated, a &lt;i&gt;big rock bullet&lt;/i&gt; transforms into a giant rock just before hitting the target. The target takes 4d6 additional bludgeoning damage on a successful hit. Even on a failed attack roll (but not a critical failure), the target takes 2d6 bludgeoning damage. Creatures with the Catch Rock reaction can use it against a &lt;i&gt;big rock bullet&lt;/i&gt;.&lt;br&gt;
+
+The bullet deals 12d6 additional bludgeoning damage, or 6d6 on a failure.</Description>
+</Item>
+<Item level="12" page="11">
+	<Name>Stonethroat Ammunition</Name>
+	<Price>325 gp</Price>
+	<Traits>Consumable, Magical, Transmutation</Traits>
+	<Description>Each piece of &lt;i&gt;stonethroat ammunition&lt;/i&gt; is tipped with an unusual yellow stone. When an activated piece of &lt;i&gt;stonethroat ammunition&lt;/i&gt; hits a target, the target must attempt a DC 30 Fortitude save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The ammunition lodges itself loosely into the target's throat. For 1 round, the target takes a –2 status penalty to attack rolls with its jaws or fangs, and to Athletics checks.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The ammunition embeds itself deep in the target's throat. The target can't use its jaws or fangs Strike (if it has one) or the Swallow Whole ability until the end of its next turn.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, and the target is enfeebled 2 for 1 round.</Description>
+</Item>
+<Item level="13" page="43">
+	<Name>Singularity Ammunition</Name>
+	<Price>550 gp</Price>
+	<Traits>Consumable, Evocation, Magical</Traits>
+	<Description>&lt;i&gt;Singularity ammunition&lt;/i&gt; seems to pull in the light around it, swirling along the surface in a misty pattern. An activated &lt;i&gt;singularity arrow&lt;/i&gt; creates a strong gravitational force, centered on the creature hit. All creatures in a 10-foot emanation from the target must succeed at a DC 30 Fortitude save or be pulled 5 feet closer to the target. The singularity then explodes, dealing 7d12 bludgeoning damage to the original target and all creatures in a 5-foot emanation (DC 28 basic Reflex save).</Description>
+</Item>
+<Item level="7" page="14">
+	<Name>Big Rock Bullet</Name>
+	<Price>60 gp</Price>
+	<Traits>Consumable, Earth, Magical, Transmutation</Traits>
+	<Description>A &lt;i&gt;big rock bullet&lt;/i&gt; is a sling bullet made of heavy granite, but each piece of ammunition feels much more dense than it appears. When activated, a &lt;i&gt;big rock bullet&lt;/i&gt; transforms into a giant rock just before hitting the target. The target takes 4d6 additional bludgeoning damage on a successful hit. Even on a failed attack roll (but not a critical failure), the target takes 2d6 bludgeoning damage. Creatures with the Catch Rock reaction can use it against a &lt;i&gt;big rock bullet&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="14">
+	<Name>Big Rock Bullet (Greater)</Name>
+	<Price>250 gp</Price>
+	<Traits>Consumable, Earth, Magical, Transmutation</Traits>
+	<Description>A &lt;i&gt;big rock bullet&lt;/i&gt; is a sling bullet made of heavy granite, but each piece of ammunition feels much more dense than it appears. When activated, a &lt;i&gt;big rock bullet&lt;/i&gt; transforms into a giant rock just before hitting the target. The target takes 4d6 additional bludgeoning damage on a successful hit. Even on a failed attack roll (but not a critical failure), the target takes 2d6 bludgeoning damage. Creatures with the Catch Rock reaction can use it against a &lt;i&gt;big rock bullet&lt;/i&gt;.&lt;br&gt;
+
+The bullet deals 8d6 additional bludgeoning damage, or 4d6 on a failure.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="14">
+	<Name>Big Rock Bullet (Major)</Name>
+	<Price>1,150 gp</Price>
+	<Traits>Consumable, Earth, Magical, Transmutation</Traits>
+	<Description>A &lt;i&gt;big rock bullet&lt;/i&gt; is a sling bullet made of heavy granite, but each piece of ammunition feels much more dense than it appears. When activated, a &lt;i&gt;big rock bullet&lt;/i&gt; transforms into a giant rock just before hitting the target. The target takes 4d6 additional bludgeoning damage on a successful hit. Even on a failed attack roll (but not a critical failure), the target takes 2d6 bludgeoning damage. Creatures with the Catch Rock reaction can use it against a &lt;i&gt;big rock bullet&lt;/i&gt;.&lt;br&gt;
+
+The bullet deals 12d6 additional bludgeoning damage, or 6d6 on a failure.</Description>
+</Item>
+<Item level="9" page="31">
+	<Name>Transposition Ammunition</Name>
+	<Price>125 gp</Price>
+	<Traits>Conjuration, Consumable, Magical, Teleportation</Traits>
+	<Description>&lt;i&gt;Transposition ammunition&lt;/i&gt; has a milky-white cast and will sometimes shift position subtly of its own accord. When you activate the ammunition, instead of making your Strike against a foe, you fire &lt;i&gt;transposition ammunition&lt;/i&gt; at any unoccupied square you can see within your weapon's first range increment and succeed without making an attack roll. You pull yourself through the Astral Plane, teleporting along with any items you are holding into the square where you shot the ammunition. If this would carry along any other creature (even one in an extradimensional space), the activation fails.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="31">
+	<Name>Transposition Ammunition (Greater)</Name>
+	<Price>1,250 gp</Price>
+	<Traits>Conjuration, Consumable, Magical, Teleportation</Traits>
+	<Description>&lt;i&gt;Transposition ammunition&lt;/i&gt; has a milky-white cast and will sometimes shift position subtly of its own accord. When you activate the ammunition, instead of making your Strike against a foe, you fire &lt;i&gt;transposition ammunition&lt;/i&gt; at any unoccupied square you can see within your weapon's first range increment and succeed without making an attack roll. You pull yourself through the Astral Plane, teleporting along with any items you are holding into the square where you shot the ammunition. If this would carry along any other creature (even one in an extradimensional space), the activation fails.&lt;br&gt;
+
+When you teleport, you can take along up to two willing adjacent creatures. These creatures must each arrive in unoccupied squares adjacent to the &lt;i&gt;transposition ammunition&lt;/i&gt;; if there's not enough space for both of them, you choose which one is teleported.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

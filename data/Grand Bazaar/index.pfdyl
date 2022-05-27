@@ -1,0 +1,35 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>Grand Bazaar</Name>
+    <ShortName>GB</ShortName>
+    <Category>Lost Omens</Category>
+    <Dependencies>
+        <Dependency>Bestiary 1</Dependency>
+        <Dependency>Core Rulebook</Dependency>
+        <Dependency>Guns and Gears</Dependency>
+        <Dependency>The Mwangi Expanse</Dependency>
+        <Dependency>World Guide</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Pathfinder Lost Omens: The Grand Bazaar&lt;/h2&gt;&lt;p&gt;Be the first to market with Pathfinder Lost Omens: The Grand Bazaar! The Grand Bazaar is Absalom's greatest marketplace featuring items from all over Golarion. Here, an adventurer can find equipment of all kinds to help them on their next quest like new weapons, armors, magic items, accessibility items to enable adventures for anyone, new animal companions, and more! The Grand Bazaar is also home to countless unique merchants and shops. Game Masters can use these new shops as part of their campaigns to flesh out the world and inspire new adventures. See what's for sale at the Grand Bazaar, and snap up the good deals while you still can!&lt;/p&gt;
+        &lt;p&gt;Written by: Tineke Bolleman, Jesse Decker, Jessica Catalan, Dominique Dickey, Dana Ebert, Steven Hammond, Dustin Knight, Avi Kool, Aaron Lascano, Carlos Luna, Ron Lundeen, Sydney Meeker, Randal Meyer, Jacob W. Michaels, Matt Morris, Andrew Mullen, Ianara Natividad, Dave Nelson, Jessica Redekop, Nathan Reinecke, Erin Roberts, Sen H.H.S, Simone D. Sallé, Michael Sayre, Shay Snow, Ashton Sperry, Amber Stewart, Sara Thompson, Isabelle Thorne, Jason Tondro&lt;/p&gt;</Description>
+    <Equipment>
+        <Category name="Adjustments" path="items/adjustments.pfdyl" />
+        <Category name="Adventuring Gear" path="items/adventuring_gear.pfdyl" />
+        <Category name="Alchemical Items" path="items/alchemical_items.pfdyl" />
+        <Category name="Assistive Items" path="items/assistive_items.pfdyl" />
+        <Category name="Consumables" path="items/consumables.pfdyl" />
+        <Category name="Held Items" path="items/held_items.pfdyl" />
+        <Category name="Materials" path="items/materials.pfdyl" />
+        <Category name="Snares" path="items/snares.pfdyl" />
+        <Category name="Staves" path="items/staves.pfdyl" />
+        <Category name="Structures" path="items/structures.pfdyl" />
+        <Category name="Tattoos" path="items/tattoos.pfdyl" />
+        <Category name="Vehicles" path="items/vehicles.pfdyl" />
+        <Category name="Wands" path="items/wands.pfdyl" />
+        <Category name="Worn Items" path="items/worn_items.pfdyl" />
+    </Equipment>
+    <Feats>
+        <Category name="Archetype" path="feats/archetypes.pfdyl" />
+    </Feats>
+    <Traits name="Traits" path="traits.pfdyl" />
+</Source>

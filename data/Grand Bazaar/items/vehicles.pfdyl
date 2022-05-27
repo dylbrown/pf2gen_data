@@ -1,0 +1,50 @@
+<pf2:Items category="vehicles" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="1" page="77">
+	<Name></Name>
+	<Price>60 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 5 feet long, 2 feet wide, 4 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Athletics (DC 15), Piloting Lore (DC 17)&lt;b&gt;AC&lt;/b&gt; 11; &lt;b&gt;Fort&lt;/b&gt; +6&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 5, &lt;b&gt;HP&lt;/b&gt; 15 (BT 7); &lt;b&gt;Immunities&lt;/b&gt; object immunities&lt;b&gt;Speed&lt;/b&gt; the Speed of the pilot (pedaled [as rowed])&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 1d8 (DC 15)&lt;br&gt;&lt;b&gt;Fragile&lt;/b&gt; Driving the velocipede over difficult terrain increases the DC by an additional 2 and gains the reckless trait.&lt;br&gt; &lt;b&gt;Portable&lt;/b&gt; The velocipede can be pulled along the ground on its wheel by a Medium creature. The creature is encumbered when doing so.</Description>
+</Item>
+<Item level="4" page="76">
+	<Name></Name>
+	<Price>300 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 5 feet long, 5 feet wide, 5 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Crafting (DC 21), Piloting Lore (DC 19)&lt;b&gt;AC&lt;/b&gt; 17; &lt;b&gt;Fort&lt;/b&gt; +11&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 5, &lt;b&gt;HP&lt;/b&gt; 70 (BT 35); &lt;b&gt;Immunities&lt;/b&gt; object immunities; &lt;b&gt;Weaknesses&lt;/b&gt; fire 10 until broken&lt;b&gt;Speed&lt;/b&gt; jump jet (alchemical)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 2d10 (DC 19)&lt;br&gt;&lt;b&gt;Jump Jet&lt;/b&gt; The firework pogo moves exclusively via Leaping. For each action spent to Drive, the pogo Leaps 20 feet horizontally or 10 feet vertically.&lt;br&gt; &lt;b&gt;Unstable Launch&lt;/b&gt; When the pilot uses a 3-action activity to recklessly Drive the firework pogo, it emits a burst of flames on launch that deals 3d6 fire damage to the pilot, the pogo itself, and each creature in a 10-foot radius (DC 19 basic Reflex save).</Description>
+</Item>
+<Item level="5" page="18">
+	<Name></Name>
+	<Price>480 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 15 feet long, 15 feet wide, 15 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot; &lt;b&gt;Passengers&lt;/b&gt; 4&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Crafting (DC 22), Engineering Lore (DC 20), or Piloting Lore (DC 20)&lt;b&gt;AC&lt;/b&gt; 18; &lt;b&gt;Fort&lt;/b&gt; +12&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 10, &lt;b&gt;HP&lt;/b&gt; 80 (BT 40); &lt;b&gt;Immunities&lt;/b&gt; object immunities&lt;b&gt;Speed&lt;/b&gt; swim 20 feet (alchemical; underwater only)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 2d10 (DC 20)&lt;br&gt;&lt;b&gt;Cable&lt;/b&gt; The bathysphere is raised and lowered from a cable at the surface and can move only vertically.&lt;br&gt; &lt;b&gt;Ballast Release&lt;/b&gt; [[Two Actions]] The pilot releases the bathysphere's ballast. The bathysphere moves 3 times its Speed toward the surface at the end of the pilot's turn. &lt;br&gt;&lt;b&gt;Tether Buoy&lt;/b&gt; Crew and passengers can breathe while the vehicle is underwater to a depth of 500 feet or less.</Description>
+</Item>
+<Item level="6" page="76">
+	<Name></Name>
+	<Price>750 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 30 feet long, 15 feet wide, 20 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot, 3 crew; &lt;b&gt;Passengers&lt;/b&gt; 6&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Nature (DC 24), Sailing Lore (DC 22)&lt;b&gt;AC&lt;/b&gt; 19; &lt;b&gt;Fort&lt;/b&gt; +14&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 10, &lt;b&gt;HP&lt;/b&gt; 100 (BT 50); &lt;b&gt;Immunities&lt;/b&gt; object immunities; &lt;b&gt;Weaknesses&lt;/b&gt; fire 10 until broken&lt;b&gt;Speed&lt;/b&gt; swim 30 feet (wind)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 4d10 (DC 22)&lt;br&gt;&lt;b&gt;Sluggish&lt;/b&gt; This vehicle must move twice its length for each 90-degree turn it makes.</Description>
+</Item>
+<Item level="6" page="76">
+	<Name></Name>
+	<Price>750 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 30 feet long, 20 feet wide, 15 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot, 2 crew; &lt;b&gt;Passengers&lt;/b&gt; 5&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Diplomacy (DC 24), Intimidation (DC 24), Sailing Lore (DC 22)&lt;b&gt;AC&lt;/b&gt; 20; &lt;b&gt;Fort&lt;/b&gt; +14&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 5, &lt;b&gt;HP&lt;/b&gt; 90 (BT 45); &lt;b&gt;Immunities&lt;/b&gt; object immunities&lt;b&gt;Speed&lt;/b&gt; 40 feet (rowed, wind)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 4d10 (DC 22)&lt;br&gt;&lt;b&gt;Sand Skimmer&lt;/b&gt; The sand barge can travel over sand, water, and quicksand equally well, but it can't traverse solid ground.</Description>
+</Item>
+<Item level="7" page="77">
+	<Name></Name>
+	<Price>1,200 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 10 feet long, 10 feet wide, 25 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot; &lt;b&gt;Passengers&lt;/b&gt; 2&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Arcana (DC 25), Crafting (DC 25), Engineering Lore (DC 23), Piloting Lore (DC 23)&lt;b&gt;AC&lt;/b&gt; 24; &lt;b&gt;Fort&lt;/b&gt; +13&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 10, &lt;b&gt;HP&lt;/b&gt; 120 (BT 60); &lt;b&gt;Immunities&lt;/b&gt; object immunities&lt;b&gt;Speed&lt;/b&gt; 30 feet (alchemical, magical)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 3d10 (DC 24)&lt;br&gt;&lt;b&gt;Long Reach&lt;/b&gt; The strider can bridge a gap as wide as 30 feet by Striding over it.</Description>
+</Item>
+<Item level="9" page="22">
+	<Name></Name>
+	<Price>2,100 gp</Price>
+	<Traits>Clockwork</Traits>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 20 feet long, 10 feet wide, 8 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot, 2 crew; &lt;b&gt;Passengers&lt;/b&gt; 1&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Crafting (DC 28) or Driving Lore (DC 26)&lt;b&gt;AC&lt;/b&gt; 23; &lt;b&gt;Fort&lt;/b&gt; +18&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 5, &lt;b&gt;HP&lt;/b&gt; 120 (BT 60); &lt;b&gt;Immunities&lt;/b&gt; object immunities; &lt;b&gt;Weaknesses&lt;/b&gt; electricity 10 until broken&lt;b&gt;Speed&lt;/b&gt; fly 30 feet (clockwork)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 4d10 (DC 26)&lt;br&gt;&lt;b&gt;Wind-Up&lt;/b&gt; (10-minute wind, 10-minute operation, DC 26, standby) Like all clockwork vehicles, a clockwork bumblebee must be wound up in order to operate, and a creature can decrease the operation time by 10 minutes with a successful Disable Device check at the listed DC. A clockwork vehicle can be placed into standby mode by its pilot as a 3-action activity. Its operational time doesn't decrease in standby. You can find more info in the wind-up entry here.</Description>
+</Item>
+<Item level="10" page="18">
+	<Name></Name>
+	<Price>3,000 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 30 feet long, 15 feet wide, 20 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot, 2 crew; &lt;b&gt;Passengers&lt;/b&gt; 3&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Arcana (DC 29), Engineering Lore (DC 27), Piloting Lore (DC 27), or Nature (DC 29)&lt;b&gt;AC&lt;/b&gt; 26; &lt;b&gt;Fort&lt;/b&gt; +19&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 15, &lt;b&gt;HP&lt;/b&gt; 170 (BT 85); &lt;b&gt;Immunities&lt;/b&gt; object immunities&lt;b&gt;Speed&lt;/b&gt; climb 40 feet (magical)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 7d10 (DC 27)&lt;br&gt;&lt;b&gt;Mountain Traverser&lt;/b&gt; Rocks and stones aren't difficult terrain to a cliff crawler, and it can traverse most vertical rock and stone surfaces at up to half its Speed.</Description>
+</Item>
+<Item level="11" page="77">
+	<Name></Name>
+	<Price>4,200 gp</Price>
+	<Description>&lt;b&gt;Space&lt;/b&gt; 40 feet long, 20 feet wide, 20 feet high&lt;br&gt;&lt;b&gt;Crew&lt;/b&gt; 1 pilot, 4 crew; &lt;b&gt;Passengers&lt;/b&gt; 6&lt;br&gt;&lt;b&gt;Piloting Check&lt;/b&gt; Crafting (DC 30), Piloting Lore (DC 28)&lt;b&gt;AC&lt;/b&gt; 26; &lt;b&gt;Fort&lt;/b&gt; +20&lt;br&gt;&lt;b&gt;Hardness&lt;/b&gt; 15, &lt;b&gt;HP&lt;/b&gt; 120 (BT 60); &lt;b&gt;Immunities&lt;/b&gt; critical hits, object immunities, precision damage; &lt;b&gt;Resistances&lt;/b&gt; electricity 10&lt;b&gt;Speed&lt;/b&gt; swim 40 feet (alchemical)&lt;br&gt;&lt;b&gt;Collision&lt;/b&gt; 8d10 (DC 28)&lt;br&gt;&lt;b&gt;Electrify&lt;/b&gt; [[Two Actions]] &lt;b&gt;Frequency&lt;/b&gt; once per minute; &lt;b&gt;Effect&lt;/b&gt; Two crew members each perform a 2-action activity on their turn to emit an electrical pulse, dealing 6d6 damage to all creatures within 10 feet of the shark diver. Crew and passengers of the shark diver are unaffected. Affected creatures must attempt a basic Fortitude save (DC 28).&lt;br&gt; &lt;b&gt;Submersible&lt;/b&gt; The shark diver can travel beneath the surface of the water, carrying an air reservoir suitable to sustain 11 Medium creatures for up to 24 hours. The shark diver can safely reach depths of up to 300 feet. If broken, the shark diver loses air from its reservoir, reducing the stored air by 10 minutes per round. A broken shark diver has its maximum depth reduced by half.</Description>
+</Item>
+</pf2:Items>

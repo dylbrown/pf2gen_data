@@ -1,0 +1,321 @@
+<pf2:Items category="held_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="3" page="26">
+	<Name>Coin of Comfort</Name>
+	<Price>45 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thick silver coin is deeply worn on one side, creating a shallow dip.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; You rub your thumb along the grooved side and become filled with a sense of comfort and safety. You reduce your frightened condition by 1.</Description>
+</Item>
+<Item level="3" page="51">
+	<Name>Wardrobe Stone (Lesser)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This large stone eye is the size of a fist and decorated with elaborate carvings of robes and other garments.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; You enter a brief trance in which you envision yourself entering a large dressing room. You maneuver through the endless dressing-room mindscape and search for whatever articles of clothing, accessories, and other garments you desire. After the activation, you gain the effects of &lt;i&gt;illusory disguise&lt;/i&gt;, except that it only causes you to appear to be wearing the exact outfit you selected within the mindscape. The illusion also disguises the &lt;i&gt;wardrobe stone&lt;/i&gt; to match your outfit and not appear out of place, such as by appearing to be a glove or bracelet, though it continues to occupy your hand while you're under the effects of &lt;i&gt;illusory disguise&lt;/i&gt;. You can actively Dismiss the Spell, but the effects are also dismissed immediately when you're no longer holding the &lt;i&gt;wardrobe stone&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="51">
+	<Name>Wardrobe Stone (Moderate)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This large stone eye is the size of a fist and decorated with elaborate carvings of robes and other garments.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; You enter a brief trance in which you envision yourself entering a large dressing room. You maneuver through the endless dressing-room mindscape and search for whatever articles of clothing, accessories, and other garments you desire. After the activation, you gain the effects of &lt;i&gt;illusory disguise&lt;/i&gt;, except that it only causes you to appear to be wearing the exact outfit you selected within the mindscape. The illusion also disguises the &lt;i&gt;wardrobe stone&lt;/i&gt; to match your outfit and not appear out of place, such as by appearing to be a glove or bracelet, though it continues to occupy your hand while you're under the effects of &lt;i&gt;illusory disguise&lt;/i&gt;. You can actively Dismiss the Spell, but the effects are also dismissed immediately when you're no longer holding the &lt;i&gt;wardrobe stone&lt;/i&gt;.&lt;br&gt;
+
+You gain a +2 item bonus to a specific Lore skill associated with your outfit, such as Carpentry Lore when wearing a carpenter's outfit or Cooking Lore when wearing a chef's outfit.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;prying eye&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="51">
+	<Name>Wardrobe Stone (Greater)</Name>
+	<Price>55,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This large stone eye is the size of a fist and decorated with elaborate carvings of robes and other garments.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; You enter a brief trance in which you envision yourself entering a large dressing room. You maneuver through the endless dressing-room mindscape and search for whatever articles of clothing, accessories, and other garments you desire. After the activation, you gain the effects of &lt;i&gt;illusory disguise&lt;/i&gt;, except that it only causes you to appear to be wearing the exact outfit you selected within the mindscape. The illusion also disguises the &lt;i&gt;wardrobe stone&lt;/i&gt; to match your outfit and not appear out of place, such as by appearing to be a glove or bracelet, though it continues to occupy your hand while you're under the effects of &lt;i&gt;illusory disguise&lt;/i&gt;. You can actively Dismiss the Spell, but the effects are also dismissed immediately when you're no longer holding the &lt;i&gt;wardrobe stone&lt;/i&gt;.&lt;br&gt;
+
+You gain +3 item bonus to Perception checks involving sight and a +3 item bonus to a specific Lore skill associated with your outfit.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;prying eye&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (10 minutes) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; The wardrobe stone splits open and permanently transforms into a specific type of magical robe of your choosing. It can transform into any 20th-level or lower magical robe to which you have access, except for items that can't normally be Crafted, such as artifacts. This process is irreversible.</Description>
+</Item>
+<Item level="5" page="106">
+	<Name>Magnifying Glass of Elucidation</Name>
+	<Price>125 gp</Price>
+	<Traits>Divination, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>These well-aged wooden magnifying glasses are engraved with a variety of runes. Each is imbued with a specific language. When you use a magnifying glass to examine writing of its imbued language, it translates the writing into a language you understand. For example, an elf who speaks only Elven using a &lt;i&gt;magnifying glass of elucidation&lt;/i&gt; imbued with Dwarven would see Dwarven writing as Elven when observed through the magnifying glass. The magnifying glass only provides direct translations and doesn't automatically allow you to understand codes or extremely esoteric passages—you still need to attempt a skill check to Decipher Writing.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Three Actions]] envision, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You scan up to two pages of writing with the &lt;i&gt;magnifying glass of elucidation&lt;/i&gt;, imbuing the magnifying glass with the information you scanned. You can use a separate 3-action activity to have the magnifying glass reproduce the imbued information onto blank paper exactly as it appeared when you Activated the magnifying glass. The reproduction is a direct copy of the pages but doesn't imbue the reproduction with any magical effects or other special effects. As such, you can copy the writing of a scroll, for example, but it will only be mundane writing and not have any magical effect. The magnifying glass can only hold one instance of information at a given time; Activating the magnifying glass a second time or reproducing the information clears out the magnifying glass's information.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; You know the language imbued in the magnifying glass.</Description>
+</Item>
+<Item level="6" page="10">
+	<Name>Misdirecting Haversack</Name>
+	<Price>200 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Illusion, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This brown leather satchel is made from a heavily oiled and rustic leather. The satchel is large enough to hold up to 1 Bulk worth of items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  1 minute (envision, Interact); &lt;b&gt;Effect&lt;/b&gt; Documents inside the haversack become magically disguised as documents of a similar type but with misleading information. Anyone inspecting a document notices the disguise with a successful DC 20 Perception check, but determining the actual text requires a successful DC 20 Society check to Decipher Writing. This lasts until you use this activation again, which ends the effect for all previously disguised documents; until you use the second activation to end the effect for a single document; or until a document in the haversack remains outside the haversack for at least 1 hour, ending the effect for that document.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] command; &lt;b&gt;Effect&lt;/b&gt; You revert one of the documents back to its original state.</Description>
+</Item>
+<Item level="7" page="38">
+	<Name>Queasy Lantern (Lesser)</Name>
+	<Price>325 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Light, Magical, Necromancy</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bull's-eye lantern is wrapped in decrepit leather skin. It constantly emits light in a 60-foot cone (and dim light in the next 60 feet). You can close or open internal shutters with an Interact action to block or reveal the light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You slide in a magical lens that causes the lantern to emit a pale green light and then aim the lantern. All creatures in the lantern's 60-foot cone of bright light (but not those in the dim light), must attempt a DC 23 Fortitude save. On a failure, a creature becomes sickened 1 (sickened 2 on a critical failure). The light then reverts to normal as the lens slides out of place.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="38">
+	<Name>Queasy Lantern (Moderate)</Name>
+	<Price>1,700 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Light, Magical, Necromancy</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bull's-eye lantern is wrapped in decrepit leather skin. It constantly emits light in a 60-foot cone (and dim light in the next 60 feet). You can close or open internal shutters with an Interact action to block or reveal the light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You slide in a magical lens that causes the lantern to emit a pale green light and then aim the lantern. All creatures in the lantern's 60-foot cone of bright light (but not those in the dim light), must attempt a DC 23 Fortitude save. On a failure, a creature becomes sickened 1 (sickened 2 on a critical failure). The light then reverts to normal as the lens slides out of place.&lt;br&gt;
+
+The DC is 29. Creatures become sickened 2 on a failure or sickened 3 on a critical failure.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="38">
+	<Name>Queasy Lantern (Greater)</Name>
+	<Price>13,500 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Light, Magical, Necromancy</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bull's-eye lantern is wrapped in decrepit leather skin. It constantly emits light in a 60-foot cone (and dim light in the next 60 feet). You can close or open internal shutters with an Interact action to block or reveal the light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You slide in a magical lens that causes the lantern to emit a pale green light and then aim the lantern. All creatures in the lantern's 60-foot cone of bright light (but not those in the dim light), must attempt a DC 23 Fortitude save. On a failure, a creature becomes sickened 1 (sickened 2 on a critical failure). The light then reverts to normal as the lens slides out of place.&lt;br&gt;
+
+The DC is 37. Creatures become sickened 3 on a failure or sickened 4 on a critical failure.</Description>
+</Item>
+<Item level="8" page="84">
+	<Name>Alluring Scarf</Name>
+	<Price>415 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, multicolored scarf shifts between hues in almost dizzying patterns.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact (emotion, enchantment, mental, visual); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You Stride. All creatures within 10 feet of you when you started the Stride must attempt a DC 24 Will save. On a failure, a creature becomes fascinated and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting hostile to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="84">
+	<Name>Alluring Scarf (Greater)</Name>
+	<Price>1,650 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, multicolored scarf shifts between hues in almost dizzying patterns.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact (emotion, enchantment, mental, visual); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You Stride. All creatures within 10 feet of you when you started the Stride must attempt a DC 24 Will save. On a failure, a creature becomes fascinated and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting hostile to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute.&lt;br&gt;
+
+The DC is 29. You attempt to fascinate all creatures within 20 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="84">
+	<Name>Alluring Scarf (Major)</Name>
+	<Price>8,000 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, multicolored scarf shifts between hues in almost dizzying patterns.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact (emotion, enchantment, mental, visual); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You Stride. All creatures within 10 feet of you when you started the Stride must attempt a DC 24 Will save. On a failure, a creature becomes fascinated and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting hostile to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute.&lt;br&gt;
+
+The DC is 35. You attempt to fascinate all creatures within 30 feet.</Description>
+</Item>
+<Item level="8" page="10">
+	<Name>Encompassing Lockpick</Name>
+	<Price>450 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Extradimensional, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This lockpick houses a small compartment containing many smaller picks and other miniature tools. The lockpick itself is surprisingly malleable, belying the components within. An almost-impossible number of other tools are hidden in the compartment, including an entire set of infiltrator thieves' tools and any replacement picks, an elite disguise kit and any replacement cosmetics, and an extreme climber's kit, all while still somehow remaining only light Bulk. This makes the &lt;i&gt;encompassing lockpick&lt;/i&gt; a favorite discreet option for rogues infiltrating high society events, as formal wear generally has few pockets and only allows a character to wear a single tool kit of light Bulk.</Description>
+</Item>
+<Item level="8" page="76">
+	<Name>Folding Boat</Name>
+	<Price>500 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This simple carved box can fold or unfold into a boat when activated.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;folding boat&lt;/i&gt; can take two shapes. The first is a wooden box that's 12 inches long, 6 inches wide, and 4 inches high; it weighs 1 Bulk and can store up to 1 Bulk of items. The other form is a rowboat. If the chosen form can't fit in the space, it takes the largest shape that does fit. You can activate the boat again to revert it to its original shape. If the boat is occupied, the item can't be activated. Much like a magical structure, a &lt;i&gt;folding boat&lt;/i&gt; can't harm creatures when it unfolds and creatures within it are set aside harmlessly when it folds.&lt;br&gt;&lt;br&gt; Any items that were stored inside the box appear in the boat or ship. Items stored on the boat or ship form that are too large to fit inside the box form are ejected from the vehicle and appear on the ground adjacent to the box. A &lt;i&gt;folding boat&lt;/i&gt; with the broken condition must be repaired before it can change form again.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="76">
+	<Name>Folding Boat (Greater)</Name>
+	<Price>6,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This simple carved box can fold or unfold into a boat when activated.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;folding boat&lt;/i&gt; can take two shapes. The first is a wooden box that's 12 inches long, 6 inches wide, and 4 inches high; it weighs 1 Bulk and can store up to 1 Bulk of items. The other form is a rowboat. If the chosen form can't fit in the space, it takes the largest shape that does fit. You can activate the boat again to revert it to its original shape. If the boat is occupied, the item can't be activated. Much like a magical structure, a &lt;i&gt;folding boat&lt;/i&gt; can't harm creatures when it unfolds and creatures within it are set aside harmlessly when it folds.&lt;br&gt;&lt;br&gt; Any items that were stored inside the box appear in the boat or ship. Items stored on the boat or ship form that are too large to fit inside the box form are ejected from the vehicle and appear on the ground adjacent to the box. A &lt;i&gt;folding boat&lt;/i&gt; with the broken condition must be repaired before it can change form again.&lt;br&gt;
+
+A &lt;i&gt;greater folding boat's&lt;/i&gt; alternate form is a cutter, rather than a rowboat, piloted and crewed by ethereal sailors. The ethereal sailors don't prevent you from activating the boat to return it to a box.</Description>
+</Item>
+<Item level="3" page="51">
+	<Name>Wardrobe Stone (Lesser)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This large stone eye is the size of a fist and decorated with elaborate carvings of robes and other garments.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; You enter a brief trance in which you envision yourself entering a large dressing room. You maneuver through the endless dressing-room mindscape and search for whatever articles of clothing, accessories, and other garments you desire. After the activation, you gain the effects of &lt;i&gt;illusory disguise&lt;/i&gt;, except that it only causes you to appear to be wearing the exact outfit you selected within the mindscape. The illusion also disguises the &lt;i&gt;wardrobe stone&lt;/i&gt; to match your outfit and not appear out of place, such as by appearing to be a glove or bracelet, though it continues to occupy your hand while you're under the effects of &lt;i&gt;illusory disguise&lt;/i&gt;. You can actively Dismiss the Spell, but the effects are also dismissed immediately when you're no longer holding the &lt;i&gt;wardrobe stone&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="51">
+	<Name>Wardrobe Stone (Moderate)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This large stone eye is the size of a fist and decorated with elaborate carvings of robes and other garments.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; You enter a brief trance in which you envision yourself entering a large dressing room. You maneuver through the endless dressing-room mindscape and search for whatever articles of clothing, accessories, and other garments you desire. After the activation, you gain the effects of &lt;i&gt;illusory disguise&lt;/i&gt;, except that it only causes you to appear to be wearing the exact outfit you selected within the mindscape. The illusion also disguises the &lt;i&gt;wardrobe stone&lt;/i&gt; to match your outfit and not appear out of place, such as by appearing to be a glove or bracelet, though it continues to occupy your hand while you're under the effects of &lt;i&gt;illusory disguise&lt;/i&gt;. You can actively Dismiss the Spell, but the effects are also dismissed immediately when you're no longer holding the &lt;i&gt;wardrobe stone&lt;/i&gt;.&lt;br&gt;
+
+You gain a +2 item bonus to a specific Lore skill associated with your outfit, such as Carpentry Lore when wearing a carpenter's outfit or Cooking Lore when wearing a chef's outfit.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;prying eye&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="51">
+	<Name>Wardrobe Stone (Greater)</Name>
+	<Price>55,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This large stone eye is the size of a fist and decorated with elaborate carvings of robes and other garments.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; You enter a brief trance in which you envision yourself entering a large dressing room. You maneuver through the endless dressing-room mindscape and search for whatever articles of clothing, accessories, and other garments you desire. After the activation, you gain the effects of &lt;i&gt;illusory disguise&lt;/i&gt;, except that it only causes you to appear to be wearing the exact outfit you selected within the mindscape. The illusion also disguises the &lt;i&gt;wardrobe stone&lt;/i&gt; to match your outfit and not appear out of place, such as by appearing to be a glove or bracelet, though it continues to occupy your hand while you're under the effects of &lt;i&gt;illusory disguise&lt;/i&gt;. You can actively Dismiss the Spell, but the effects are also dismissed immediately when you're no longer holding the &lt;i&gt;wardrobe stone&lt;/i&gt;.&lt;br&gt;
+
+You gain +3 item bonus to Perception checks involving sight and a +3 item bonus to a specific Lore skill associated with your outfit.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;prying eye&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (10 minutes) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; The wardrobe stone splits open and permanently transforms into a specific type of magical robe of your choosing. It can transform into any 20th-level or lower magical robe to which you have access, except for items that can't normally be Crafted, such as artifacts. This process is irreversible.</Description>
+</Item>
+<Item level="8" page="84">
+	<Name>Alluring Scarf</Name>
+	<Price>415 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, multicolored scarf shifts between hues in almost dizzying patterns.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact (emotion, enchantment, mental, visual); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You Stride. All creatures within 10 feet of you when you started the Stride must attempt a DC 24 Will save. On a failure, a creature becomes fascinated and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting hostile to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="84">
+	<Name>Alluring Scarf (Greater)</Name>
+	<Price>1,650 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, multicolored scarf shifts between hues in almost dizzying patterns.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact (emotion, enchantment, mental, visual); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You Stride. All creatures within 10 feet of you when you started the Stride must attempt a DC 24 Will save. On a failure, a creature becomes fascinated and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting hostile to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute.&lt;br&gt;
+
+The DC is 29. You attempt to fascinate all creatures within 20 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="84">
+	<Name>Alluring Scarf (Major)</Name>
+	<Price>8,000 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, multicolored scarf shifts between hues in almost dizzying patterns.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact (emotion, enchantment, mental, visual); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You Stride. All creatures within 10 feet of you when you started the Stride must attempt a DC 24 Will save. On a failure, a creature becomes fascinated and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting hostile to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute.&lt;br&gt;
+
+The DC is 35. You attempt to fascinate all creatures within 30 feet.</Description>
+</Item>
+<Item level="7" page="38">
+	<Name>Queasy Lantern (Lesser)</Name>
+	<Price>325 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Light, Magical, Necromancy</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bull's-eye lantern is wrapped in decrepit leather skin. It constantly emits light in a 60-foot cone (and dim light in the next 60 feet). You can close or open internal shutters with an Interact action to block or reveal the light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You slide in a magical lens that causes the lantern to emit a pale green light and then aim the lantern. All creatures in the lantern's 60-foot cone of bright light (but not those in the dim light), must attempt a DC 23 Fortitude save. On a failure, a creature becomes sickened 1 (sickened 2 on a critical failure). The light then reverts to normal as the lens slides out of place.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="38">
+	<Name>Queasy Lantern (Moderate)</Name>
+	<Price>1,700 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Light, Magical, Necromancy</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bull's-eye lantern is wrapped in decrepit leather skin. It constantly emits light in a 60-foot cone (and dim light in the next 60 feet). You can close or open internal shutters with an Interact action to block or reveal the light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You slide in a magical lens that causes the lantern to emit a pale green light and then aim the lantern. All creatures in the lantern's 60-foot cone of bright light (but not those in the dim light), must attempt a DC 23 Fortitude save. On a failure, a creature becomes sickened 1 (sickened 2 on a critical failure). The light then reverts to normal as the lens slides out of place.&lt;br&gt;
+
+The DC is 29. Creatures become sickened 2 on a failure or sickened 3 on a critical failure.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="38">
+	<Name>Queasy Lantern (Greater)</Name>
+	<Price>13,500 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Light, Magical, Necromancy</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bull's-eye lantern is wrapped in decrepit leather skin. It constantly emits light in a 60-foot cone (and dim light in the next 60 feet). You can close or open internal shutters with an Interact action to block or reveal the light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You slide in a magical lens that causes the lantern to emit a pale green light and then aim the lantern. All creatures in the lantern's 60-foot cone of bright light (but not those in the dim light), must attempt a DC 23 Fortitude save. On a failure, a creature becomes sickened 1 (sickened 2 on a critical failure). The light then reverts to normal as the lens slides out of place.&lt;br&gt;
+
+The DC is 37. Creatures become sickened 3 on a failure or sickened 4 on a critical failure.</Description>
+</Item>
+<Item level="8" page="76">
+	<Name>Folding Boat</Name>
+	<Price>500 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This simple carved box can fold or unfold into a boat when activated.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;folding boat&lt;/i&gt; can take two shapes. The first is a wooden box that's 12 inches long, 6 inches wide, and 4 inches high; it weighs 1 Bulk and can store up to 1 Bulk of items. The other form is a rowboat. If the chosen form can't fit in the space, it takes the largest shape that does fit. You can activate the boat again to revert it to its original shape. If the boat is occupied, the item can't be activated. Much like a magical structure, a &lt;i&gt;folding boat&lt;/i&gt; can't harm creatures when it unfolds and creatures within it are set aside harmlessly when it folds.&lt;br&gt;&lt;br&gt; Any items that were stored inside the box appear in the boat or ship. Items stored on the boat or ship form that are too large to fit inside the box form are ejected from the vehicle and appear on the ground adjacent to the box. A &lt;i&gt;folding boat&lt;/i&gt; with the broken condition must be repaired before it can change form again.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="76">
+	<Name>Folding Boat (Greater)</Name>
+	<Price>6,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Magical, Transmutation</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This simple carved box can fold or unfold into a boat when activated.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command, Interact; &lt;b&gt;Effect&lt;/b&gt; The &lt;i&gt;folding boat&lt;/i&gt; can take two shapes. The first is a wooden box that's 12 inches long, 6 inches wide, and 4 inches high; it weighs 1 Bulk and can store up to 1 Bulk of items. The other form is a rowboat. If the chosen form can't fit in the space, it takes the largest shape that does fit. You can activate the boat again to revert it to its original shape. If the boat is occupied, the item can't be activated. Much like a magical structure, a &lt;i&gt;folding boat&lt;/i&gt; can't harm creatures when it unfolds and creatures within it are set aside harmlessly when it folds.&lt;br&gt;&lt;br&gt; Any items that were stored inside the box appear in the boat or ship. Items stored on the boat or ship form that are too large to fit inside the box form are ejected from the vehicle and appear on the ground adjacent to the box. A &lt;i&gt;folding boat&lt;/i&gt; with the broken condition must be repaired before it can change form again.&lt;br&gt;
+
+A &lt;i&gt;greater folding boat's&lt;/i&gt; alternate form is a cutter, rather than a rowboat, piloted and crewed by ethereal sailors. The ethereal sailors don't prevent you from activating the boat to return it to a box.</Description>
+</Item>
+<Item level="8" page="84">
+	<Name>Alluring Scarf</Name>
+	<Price>415 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, multicolored scarf shifts between hues in almost dizzying patterns.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact (emotion, enchantment, mental, visual); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You Stride. All creatures within 10 feet of you when you started the Stride must attempt a DC 24 Will save. On a failure, a creature becomes fascinated and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting hostile to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="84">
+	<Name>Alluring Scarf (Greater)</Name>
+	<Price>1,650 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, multicolored scarf shifts between hues in almost dizzying patterns.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact (emotion, enchantment, mental, visual); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You Stride. All creatures within 10 feet of you when you started the Stride must attempt a DC 24 Will save. On a failure, a creature becomes fascinated and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting hostile to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute.&lt;br&gt;
+
+The DC is 29. You attempt to fascinate all creatures within 20 feet.&lt;br&gt;</Description>
+</Item>
+<Item level="8" page="84">
+	<Name>Alluring Scarf (Major)</Name>
+	<Price>8,000 gp</Price>
+	<Traits>Enchantment, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This thin, multicolored scarf shifts between hues in almost dizzying patterns.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact (emotion, enchantment, mental, visual); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You Stride. All creatures within 10 feet of you when you started the Stride must attempt a DC 24 Will save. On a failure, a creature becomes fascinated and must spend at least one of its actions on its next turn to move toward you. A fascinated creature can attempt another Will save if you move more than 30 feet away from them, and as normal, acting hostile to a creature or its allies breaks fascination automatically. Creatures that critically failed their save don't receive further saves if you move more than 30 feet away, and acting hostile to such a creature's allies allows them to attempt another save, rather than automatically ending the fascination. You can Sustain the Activation for up to 1 minute.&lt;br&gt;
+
+The DC is 35. You attempt to fascinate all creatures within 30 feet.</Description>
+</Item>
+<Item level="7" page="38">
+	<Name>Queasy Lantern (Lesser)</Name>
+	<Price>325 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Light, Magical, Necromancy</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bull's-eye lantern is wrapped in decrepit leather skin. It constantly emits light in a 60-foot cone (and dim light in the next 60 feet). You can close or open internal shutters with an Interact action to block or reveal the light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You slide in a magical lens that causes the lantern to emit a pale green light and then aim the lantern. All creatures in the lantern's 60-foot cone of bright light (but not those in the dim light), must attempt a DC 23 Fortitude save. On a failure, a creature becomes sickened 1 (sickened 2 on a critical failure). The light then reverts to normal as the lens slides out of place.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="38">
+	<Name>Queasy Lantern (Moderate)</Name>
+	<Price>1,700 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Light, Magical, Necromancy</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bull's-eye lantern is wrapped in decrepit leather skin. It constantly emits light in a 60-foot cone (and dim light in the next 60 feet). You can close or open internal shutters with an Interact action to block or reveal the light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You slide in a magical lens that causes the lantern to emit a pale green light and then aim the lantern. All creatures in the lantern's 60-foot cone of bright light (but not those in the dim light), must attempt a DC 23 Fortitude save. On a failure, a creature becomes sickened 1 (sickened 2 on a critical failure). The light then reverts to normal as the lens slides out of place.&lt;br&gt;
+
+The DC is 29. Creatures become sickened 2 on a failure or sickened 3 on a critical failure.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="38">
+	<Name>Queasy Lantern (Greater)</Name>
+	<Price>13,500 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Light, Magical, Necromancy</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bull's-eye lantern is wrapped in decrepit leather skin. It constantly emits light in a 60-foot cone (and dim light in the next 60 feet). You can close or open internal shutters with an Interact action to block or reveal the light.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You slide in a magical lens that causes the lantern to emit a pale green light and then aim the lantern. All creatures in the lantern's 60-foot cone of bright light (but not those in the dim light), must attempt a DC 23 Fortitude save. On a failure, a creature becomes sickened 1 (sickened 2 on a critical failure). The light then reverts to normal as the lens slides out of place.&lt;br&gt;
+
+The DC is 37. Creatures become sickened 3 on a failure or sickened 4 on a critical failure.</Description>
+</Item>
+<Item level="3" page="51">
+	<Name>Wardrobe Stone (Lesser)</Name>
+	<Price>50 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This large stone eye is the size of a fist and decorated with elaborate carvings of robes and other garments.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; You enter a brief trance in which you envision yourself entering a large dressing room. You maneuver through the endless dressing-room mindscape and search for whatever articles of clothing, accessories, and other garments you desire. After the activation, you gain the effects of &lt;i&gt;illusory disguise&lt;/i&gt;, except that it only causes you to appear to be wearing the exact outfit you selected within the mindscape. The illusion also disguises the &lt;i&gt;wardrobe stone&lt;/i&gt; to match your outfit and not appear out of place, such as by appearing to be a glove or bracelet, though it continues to occupy your hand while you're under the effects of &lt;i&gt;illusory disguise&lt;/i&gt;. You can actively Dismiss the Spell, but the effects are also dismissed immediately when you're no longer holding the &lt;i&gt;wardrobe stone&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="51">
+	<Name>Wardrobe Stone (Moderate)</Name>
+	<Price>1,250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This large stone eye is the size of a fist and decorated with elaborate carvings of robes and other garments.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; You enter a brief trance in which you envision yourself entering a large dressing room. You maneuver through the endless dressing-room mindscape and search for whatever articles of clothing, accessories, and other garments you desire. After the activation, you gain the effects of &lt;i&gt;illusory disguise&lt;/i&gt;, except that it only causes you to appear to be wearing the exact outfit you selected within the mindscape. The illusion also disguises the &lt;i&gt;wardrobe stone&lt;/i&gt; to match your outfit and not appear out of place, such as by appearing to be a glove or bracelet, though it continues to occupy your hand while you're under the effects of &lt;i&gt;illusory disguise&lt;/i&gt;. You can actively Dismiss the Spell, but the effects are also dismissed immediately when you're no longer holding the &lt;i&gt;wardrobe stone&lt;/i&gt;.&lt;br&gt;
+
+You gain a +2 item bonus to a specific Lore skill associated with your outfit, such as Carpentry Lore when wearing a carpenter's outfit or Cooking Lore when wearing a chef's outfit.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;prying eye&lt;/i&gt;.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="51">
+	<Name>Wardrobe Stone (Greater)</Name>
+	<Price>55,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Illusion, Invested, Magical</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This large stone eye is the size of a fist and decorated with elaborate carvings of robes and other garments.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; You enter a brief trance in which you envision yourself entering a large dressing room. You maneuver through the endless dressing-room mindscape and search for whatever articles of clothing, accessories, and other garments you desire. After the activation, you gain the effects of &lt;i&gt;illusory disguise&lt;/i&gt;, except that it only causes you to appear to be wearing the exact outfit you selected within the mindscape. The illusion also disguises the &lt;i&gt;wardrobe stone&lt;/i&gt; to match your outfit and not appear out of place, such as by appearing to be a glove or bracelet, though it continues to occupy your hand while you're under the effects of &lt;i&gt;illusory disguise&lt;/i&gt;. You can actively Dismiss the Spell, but the effects are also dismissed immediately when you're no longer holding the &lt;i&gt;wardrobe stone&lt;/i&gt;.&lt;br&gt;
+
+You gain +3 item bonus to Perception checks involving sight and a +3 item bonus to a specific Lore skill associated with your outfit.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (1 minute) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;prying eye&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  (10 minutes) envision, Interact; &lt;b&gt;Effect&lt;/b&gt; The wardrobe stone splits open and permanently transforms into a specific type of magical robe of your choosing. It can transform into any 20th-level or lower magical robe to which you have access, except for items that can't normally be Crafted, such as artifacts. This process is irreversible.</Description>
+</Item>
+<Item level="20" page="30">
+	<Name>Drum of Upheaval</Name>
+	<Price>60,000 gp</Price>
+	<Bulk>1</Bulk>
+	<Traits>Conjuration, Earth, Magical</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>This heavy drum is engraved along the sides with images of centaurs in fierce combat. The drum grants you a +3 item bonus on Performance checks you make using the drum. Additionally, it imparts the rhythms of two songs upon your mind as soon as you touch it. One is a fast marching cadence; the other is a frenetic ritual dance. Each song has a different activation.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per minute; &lt;b&gt;Effect&lt;/b&gt; Dozens of spectral centaurs burst from the drum and stampede in a 60-foot cone. The stampede deals 7d10 force damage (DC 43 basic Reflex save).&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; The drum casts a DC 43 &lt;i&gt;earthquake&lt;/i&gt; spell.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; You are a centaur.</Description>
+</Item>
+</pf2:Items>

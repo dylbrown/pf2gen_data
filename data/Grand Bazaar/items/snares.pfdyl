@@ -1,0 +1,94 @@
+<pf2:Items category="snares" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="2" page="14">
+	<Name>Deadweight Snare</Name>
+	<Price>6 gp</Price>
+	<Traits>Consumable, Kobold, Mechanical, Snare, Trap</Traits>
+	<Description>This snare is made of magnetized weights and heavy ropes rigged to a trip wire or pressure plate. When a creature enters the square, the magnets and ropes deploy, weighing down the creature's weapons and limbs. The creature must attempt a DC 18 Reflex save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes a –1 status penalty to attack rolls for 1 round or until it Escapes (DC 18).&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes a –2 status penalty to attack rolls for 1 minute or until it Escapes (DC 18).&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but the creature drops any metallic items it's holding.</Description>
+</Item>
+<Item level="2" page="43">
+	<Name>Static Snare</Name>
+	<Price>6 gp</Price>
+	<Traits>Consumable, Electricity, Mechanical, Snare, Trap</Traits>
+	<Description>You hide insulating crystals or other material that releases a strong static charge when the first creature enters the snare's square. That creature must attempt a DC 18 Reflex saving throw.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target takes 1 persistent electricity damage and takes a –1 circumstance penalty to saving throws against electricity effects for as long as the persistent electricity damage lasts.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, and the target attracts nearby dirt and dust. If the target is or becomes invisible, it's merely hidden to creatures that have sight as a precise sense. This effect lasts as long as the persistent electricity damage does.</Description>
+</Item>
+<Item level="3" page="43">
+	<Name>Rock Ripper Snare</Name>
+	<Price>9 gp</Price>
+	<Traits>Consumable, Mechanical, Snare, Trap</Traits>
+	<Description>You weave plant matter among loose stones in an area with trees or a ceiling overhead. When a creature enters the square, the snare's square and each adjacent square becomes difficult terrain, and the triggering creature must attempt a DC 19 Reflex saving throw.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target takes 1d6 bludgeoning damage.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target takes 2d6 bludgeoning damage.</Description>
+</Item>
+<Item level="4" page="27">
+	<Name>Tar Rocket Snare</Name>
+	<Price>15 gp</Price>
+	<Traits>Consumable, Mechanical, Snare, Trap</Traits>
+	<Description>You coat a small firework with a thick layer of resin and tar, so it sticks firmly onto a target. When a creature enters the square, the rocket launches at the creature and potentially sticks to it. You determine the direction the rocket faces when crafting the snare. The triggering creature must attempt a DC 20 Reflex save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is dealt a glancing blow by the rocket and becomes flat-footed until the start of its next turn.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The rocket's coating of tar and resin sticks to the creature, and it can't be shaken loose. The creature becomes flat-footed for 1 round, and clumsy 1 for 1 minute or until it Escapes (DC 20).&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but the creature takes a direct hit. It takes 2d6 bludgeoning damage and is pushed 10 feet in the direction the rocket faces.</Description>
+</Item>
+<Item level="4" page="26">
+	<Name>Glittering Snare</Name>
+	<Price>18 gp</Price>
+	<Traits>Consumable, Mechanical, Snare, Trap, Visual</Traits>
+	<Description>Small flecks of mica, sand, and ground glass are packed into a spring-loaded canister that can be rigged to a trip wire or hidden in a container. The first creature to enter the square or open the container must attempt a DC 20 Reflex save as the area is showered with bright, glittering dust that sticks to skin, fur, and clothing.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes a –1 status penalty to Stealth checks for 1 minute or until it uses an Interact action to remove the glitter.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes a –2 status penalty to Stealth checks for 2 minutes or until it spends a 2-action activity, which has the manipulate trait, to remove the glitter. If the creature was invisible, the glitter outlines it for 1 round, making it concealed rather than undetected to visual senses.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but the penalty is –4. The glitter sticks for 5 minutes or until the creature spends a 3-action activity, which has the manipulate trait, to remove it. The glitter continues to fall around the creature until completely removed, leaving a trail behind it as it moves and revealing its rough location; the creature is hidden, rather than undetected, to any creature that can see the glitter whenever it would otherwise have been undetected.</Description>
+</Item>
+<Item level="5" page="43">
+	<Name>Pummeling Snare</Name>
+	<Price>25 gp</Price>
+	<Traits>Consumable, Mechanical, Snare, Trap</Traits>
+	<Description>This snare unleashes a trio of large stones that batter the creature entering the snare's square, dealing 6d8 bludgeoning damage (DC 21 basic Reflex save).</Description>
+</Item>
+<Item level="5" page="27">
+	<Name>Wet Shock Snare</Name>
+	<Price>25 gp</Price>
+	<Traits>Consumable, Electricity, Mechanical, Snare, Trap</Traits>
+	<Description>A hidden copper plate conceals a bag of electric eels. When a creature steps on the plate, the eels become agitated, and the creature takes 4d8 electricity damage (DC 21 basic Reflex save). On a critical failure, the current causes the creature to become stunned 2. The eels are unharmed after use, but the mechanism is broken as usual for snares.</Description>
+</Item>
+<Item level="6" page="26">
+	<Name>Mirror-Ball Snare</Name>
+	<Price>40 gp</Price>
+	<Traits>Consumable, Mechanical, Snare, Trap, Visual</Traits>
+	<Description>A mixture of metal shavings and flash powder inside this small, mirrored sphere ignites when disturbed, causing the ball to flash and spin. When a creature enters the square, the ball pops into the air, and all creatures within 10 feet who can see the mirror ball must succeed at a DC 22 Fortitude save or become dazzled for 1 round. On a critical failure, affected creatures are instead dazzled for 1 minute.</Description>
+</Item>
+<Item level="7" page="15">
+	<Name>Envenomed Snare</Name>
+	<Price>60 gp</Price>
+	<Traits>Consumable, Mechanical, Poison, Snare, Trap</Traits>
+	<Description>This snare is coated with giant wasp venom and tipped with needles, which deliver the venom to the first creature to enter the square. That creature takes 4d6 damage (DC 23 basic Reflex) and, on a failure, the creature is exposed to the giant wasp venom.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply 2 doses of giant wasp venom.</Description>
+</Item>
+<Item level="10" page="26">
+	<Name>Burning Badger Guts Snare</Name>
+	<Price>170 gp</Price>
+	<Traits>Consumable, Fire, Mechanical, Snare, Trap</Traits>
+	<Description>When a creature enters the trapped square, putrefied badger guts coated in hyper-flammable oil and several other incendiary reactants catch fire and are dumped in the snare's square, as well as up to two adjacent squares that you choose when you set the snare. The burning oil deals 5d8 fire damage to any creatures in the affected squares. Those creatures must attempt a DC 27 Fortitude save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage and 1d8 persistent fire damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and 2d8 persistent fire damage, and is sickened 1.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but the creature is sickened 2.</Description>
+</Item>
+<Item level="10" page="43">
+	<Name>Raining Knives Snare</Name>
+	<Price>170 gp</Price>
+	<Traits>Consumable, Mechanical, Snare, Trap</Traits>
+	<Description>As soon as a creature enters the snare's square, it unleashes a barrage of knives at the creature from all directions, dealing 11d8 piercing damage (DC 29 basic Reflex).</Description>
+</Item>
+<Item level="10" page="15">
+	<Name>Mudrock Snare</Name>
+	<Price>170 gp</Price>
+	<Traits>Consumable, Kobold, Mechanical, Snare, Trap</Traits>
+	<Description>Fired clay covers a pit of thin mud interspersed with fragile vials of blue dragon blood. The first creature to step into the square breaks through the clay and sinks into the pit, fracturing the vials and rapidly hardening the mud as it touches the blue dragon blood. That creature must attempt a DC 29 Fortitude save as the mud hardens over its legs.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes a –5-foot circumstance penalty to its Speed for 1 minute or until it Escapes (DC 27).&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is stunned 2, and it takes a –10-foot circumstance penalty to its Speed for 1 minute or until it Escapes (DC 27).&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is stunned 3, and it's immobilized for 1 minute or until it Escapes (DC 27).&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply 75 gp worth of refined blue dragon blood.</Description>
+</Item>
+<Item level="14" page="15">
+	<Name>Rending Snare</Name>
+	<Price>700 gp</Price>
+	<Traits>Consumable, Kobold, Mechanical, Snare, Trap</Traits>
+	<Description>Sharp metal jaws wind tightly into the pressure plate mechanism of this snare. When triggered, the jaws clamp shut and spin, damaging limbs in the process. The snare deals 10d8 piercing damage to the first creature to enter the square; that creature must attempt a DC 33 Reflex save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage and is flat-footed until the end of its next turn.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage plus 2d6 persistent bleed damage, and it becomes clumsy 2 for 1 round.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage plus 4d6 persistent bleed damage, and it becomes clumsy 2 for 1 minute.</Description>
+</Item>
+<Item level="14" page="14">
+	<Name>Chopping Evisceration Snare</Name>
+	<Price>700 gp</Price>
+	<Traits>Consumable, Mechanical, Snare, Trap</Traits>
+	<Description>An almost-impossible number of axes spring out at a target with lethal force. When a creature enters the snare's square, it's nearly buried beneath a storm of sharpened metal, which deals 16d8 slashing damage (DC 33 basic Reflex).</Description>
+</Item>
+<Item level="18" page="42">
+	<Name>Avalanche of Stones Snare</Name>
+	<Price>3,750 gp</Price>
+	<Traits>Consumable, Mechanical, Snare, Trap</Traits>
+	<Description>When a creature enters the snare's square, the snare releases countless stones to batter the creature, dealing 22d8 bludgeoning damage (DC 40 basic Reflex).</Description>
+</Item>
+</pf2:Items>

@@ -1,0 +1,91 @@
+<pf2:Items category="alchemical_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Drugs">
+<Item level="0" page="120">
+	<Name>Alcohol</Name>
+	<Price>1 cp (or more)</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Drug, Ingested, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Alcohol is a common substance available in stunning variety. The Price of a dose of alcohol depends on the specific beverage. You can’t recover from the sickened condition from alcohol while affected.&lt;br&gt;&lt;br&gt; If you fail a saving throw against alcohol other than initial saves, the affliction’s stage doesn’t increase; the only way to increase the stage of alcohol’s affliction is to consume more alcohol.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 12 Fortitude; &lt;b&gt;Onset&lt;/b&gt; 10 minutes; &lt;b&gt;Stage 1&lt;/b&gt; +1 item bonus to saving throws against fear effects (10 minutes); &lt;b&gt;Stage 2&lt;/b&gt; flat-footed, +1 item bonus to saving throws against fear effects (10 minutes); &lt;b&gt;Stage 3&lt;/b&gt; clumsy 1, flat-footed, stupefied 2 (10 minutes); &lt;b&gt;Stage 4&lt;/b&gt; clumsy 2 and sickened 2 (10 minutes); &lt;b&gt;Stage 5&lt;/b&gt; clumsy 2, sickened 2, and stupefied 2 (10 minutes); &lt;b&gt;Stage 6&lt;/b&gt; unconscious (8 hours); &lt;b&gt;Stage 7&lt;/b&gt; death</Description>
+</Item>
+<Item level="0" page="120">
+	<Name>Bloodeye Coffee</Name>
+	<Price>5 sp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Drug, Ingested, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A strong blend including several spices common in the Padishah Empire of Kelesh, bloodeye coffee is a favorite morning drink across the Inner Sea region. The maximum addiction stage of bloodeye coffee never progresses beyond stage 1.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 14 Fortitude; &lt;b&gt;Onset&lt;/b&gt; 10 minutes; &lt;b&gt;Maximum Duration&lt;/b&gt; 8 hours; &lt;b&gt;Stage 1&lt;/b&gt; +1 item bonus to AC and saves to which you are taking penalties caused by the fatigued condition (10 minutes); &lt;b&gt;Stage 2&lt;/b&gt; stupefied 1 (1 hour); &lt;b&gt;Stage 3&lt;/b&gt; can’t recover from fatigued (1 day, after which the drug ends)</Description>
+</Item>
+<Item level="0" page="120">
+	<Name>Flayleaf</Name>
+	<Price>1 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Drug, Ingested, Inhaled, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>The flayleaf plant is relatively common, though the mildly euphoric effects of smoking its dried leaves increase when it’s sourced from plants specifically grown to produce such effects.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 12 Fortitude; &lt;b&gt;Onset&lt;/b&gt; 10 minutes; &lt;b&gt;Maximum Duration&lt;/b&gt; 4 hours; &lt;b&gt;Stage 1&lt;/b&gt; +1 item bonus to saving throws against mental effects (1 hour); &lt;b&gt;Stage 2&lt;/b&gt; fatigued and +1 item bonus to saving throws against mental effects (1 hour); &lt;b&gt;Stage 3&lt;/b&gt; fatigued and stupefied 1 (1 hour); &lt;b&gt;Stage 4&lt;/b&gt; fatigued, frightened 2, stupefied 2 (1 hour)</Description>
+</Item>
+<Item level="1" page="120">
+	<Name>Refined Pesh</Name>
+	<Traits>Alchemical, Consumable, Drug, Ingested, Inhaled, Poison</Traits>
+	<Description>, &lt;i&gt;World Guide pg. 52&lt;/i&gt; 2.0&lt;br&gt;&lt;b&gt;Price&lt;/b&gt; 2 gp&lt;br&gt;&lt;b&gt;Usage&lt;/b&gt; held in 1 hand; &lt;b&gt;Bulk&lt;/b&gt; L&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] InteractWhen eaten or smoked, pesh gives users a sense of well-being, sometimes with hallucinations, aggression, and exhaustion.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 12 Fortitude; &lt;b&gt;Onset&lt;/b&gt; 1 minute; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 hours; &lt;b&gt;Stage 1&lt;/b&gt; stupefied 1 and a +2 item bonus to saves versus fear effects (1 minute); &lt;b&gt;Stage 2&lt;/b&gt; 1 temporary Hit Point per level (first time you reach this stage only), +2 item bonus to saves versus fear effects, clumsy 1, and stupefied 1 (1 minute); &lt;b&gt;Stage 3&lt;/b&gt; clumsy 2 and stupefied 2 (1 hour)</Description>
+</Item>
+<Item level="1" page="120">
+	<Name>Blood Sap</Name>
+	<Price>4 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Drug, Ingested, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This potent drug is distilled from a certain tropical vine into a deep-red syrup that, over time, stains the user’s lips and teeth a vivid shade of red.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 16 Fortitude; &lt;b&gt;Onset&lt;/b&gt; 10 minutes; &lt;b&gt;Maximum Duration&lt;/b&gt; 3 hours; &lt;b&gt;Stage 1&lt;/b&gt; drained 1, +1 item bonus to weapon and unarmed attack rolls, Acrobatics checks, and Athletics checks (10 minutes); &lt;b&gt;Stage 2&lt;/b&gt; slowed 1 (1 hour)</Description>
+</Item>
+<Item level="3" page="121">
+	<Name>Shiver</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Drug, Ingested, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A compound produced from the hallucinogenic venom of certain spiders, shiver is common in black markets. The addiction to shiver has the virulent trait.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 19 Fortitude; &lt;b&gt;Maximum Duration&lt;/b&gt; 4 hours; &lt;b&gt;Stage 1&lt;/b&gt; whenever you become frightened, reduce that condition’s value by 1 (10 minutes); &lt;b&gt;Stage 2&lt;/b&gt; clumsy 2 (1 hour); &lt;b&gt;Stage 3&lt;/b&gt; asleep (1 hour)</Description>
+</Item>
+<Item level="4" page="121">
+	<Name>Dreamtime Tea</Name>
+	<Price>13 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Drug, Ingested, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This lemony tea blended from rare Vudrani herbs and flowers is widely circulated by occult circles looking to transcend the boundaries of reality. The saving throw for addiction to dreamtime tea is DC 19.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 21 Fortitude; &lt;b&gt;Maximum Duration&lt;/b&gt; 30 minutes; &lt;b&gt;Stage 1&lt;/b&gt; stupefied 2 (1 minute); &lt;b&gt;Stage 2&lt;/b&gt; unconscious and can ask a question with the effects of &lt;i&gt;augury&lt;/i&gt; except the flat check DC is 10 (10 minutes)</Description>
+</Item>
+<Item level="4" page="121">
+	<Name>Zerk</Name>
+	<Price>20 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Drug, Injury, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This bitter paste is used among some gladiatorial rings for its short-term benefits in a fight.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 20 Fortitude; &lt;b&gt;Maximum Duration&lt;/b&gt; 1 hour; &lt;b&gt;Stage 1&lt;/b&gt; +2 item bonus to Perception rolls for initiative, and if you have an addiction to zerk, your melee weapon and unarmed attacks deal an extra 2 damage during the first round of a combat encounter (1 minute); &lt;b&gt;Stage 2&lt;/b&gt; drained 1 (1 hour)</Description>
+</Item>
+<Item level="5" page="121">
+	<Name>Elven Absinthe</Name>
+	<Price>25 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Drug, Ingested, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Specialists in Kyonin prepare this emerald-green beverage.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 20 Fortitude; &lt;b&gt;Onset&lt;/b&gt; 1 hour; &lt;b&gt;Maximum Duration&lt;/b&gt; 1 day; &lt;b&gt;Stage 1&lt;/b&gt; +2 item bonus to Diplomacy and Performance checks (1 hour); &lt;b&gt;Stage 2&lt;/b&gt; drained 2 (1 hour); &lt;b&gt;Stage 3&lt;/b&gt; stupefied 4 (1 hour)</Description>
+</Item>
+<Item level="5" page="121">
+	<Name>Cytillesh</Name>
+	<Price>30 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Drug, Ingested, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Deros use cytillesh in a variety of ways, and some surface-dwellers seek out the fungus for their own use. Memories lost to cytillesh can be restored through &lt;i&gt;modify memory&lt;/i&gt;. The save for addiction to cytillesh is DC 20, and the addiction has the virulent trait.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 15 Fortitude; &lt;b&gt;Maximum Duration&lt;/b&gt; 8 hours; &lt;b&gt;Stage 1&lt;/b&gt; stupefied 1 (1 minute); &lt;b&gt;Stage 2&lt;/b&gt; lose all memories made in the previous hour (1 hour)</Description>
+</Item>
+<Item level="8" page="121">
+	<Name>Scour</Name>
+	<Price>80 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Consumable, Drug, Ingested, Inhaled, Poison</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This gritty powder improves responsiveness but suppresses thoughts and leaves you weakened. The saving throw for addiction to scour is DC 30, and the addiction is virulent.&lt;br&gt;&lt;br&gt;&lt;b&gt;Saving Throw&lt;/b&gt; DC 25 Fortitude; &lt;b&gt;Onset&lt;/b&gt; 1 hour; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 hours; &lt;b&gt;Stage 1&lt;/b&gt; stupefied 2 and +2 item bonus to Reflex saves and Dexterity-based skill checks (1 hour); &lt;b&gt;Stage 2&lt;/b&gt; fatigued (1 hour); &lt;b&gt;Stage 3&lt;/b&gt; drained 2 and fatigued (1 hour)</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

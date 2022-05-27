@@ -5,8 +5,6 @@
     <Ability name="Bone Magic" level="1" page="45">
         <Traits>Lizardfolk</Traits>
         <Description>Your connection to your iruxi ancestors manifests as a simple primal spell that you cast using a fragment of an ancestor's bones. Choose one cantrip from the primal spell list. You can cast this cantrip as a primal innate spell at will, and it's heightened to a spell level equal to half your level rounded up.</Description>
-        <Spellcasting listName="Lizardfolk" tradition="Primal" type="Spontaneous" ability="Cha" />
-        <SpellSlots count="1" level="0" />
     </Ability>
     <Ability name="Consult the Stars" level="1" page="46">
         <Traits>Lizardfolk</Traits>
@@ -57,8 +55,6 @@
     <Ability name="Bone Investiture" level="13" page="47">
         <Traits>Lizardfolk</Traits>
         <Description>You encase yourself in spiritual dinosaur bones to become a Huge dinosaur. You can cast dinosaur form on yourself as a 5th-level primal innate spell once per day.</Description>
-        <Spellcasting listName="Lizardfolk" tradition="Primal" type="Spontaneous" ability="Cha" />
-        <Spell type="Spell" name="Detect Magic"/>
     </Ability>
     <Ability name="Iruxi Spirit Strike" level="13" page="47">
         <Traits>Lizardfolk</Traits>

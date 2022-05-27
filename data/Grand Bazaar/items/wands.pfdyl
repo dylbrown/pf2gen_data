@@ -1,0 +1,430 @@
+<pf2:Items category="wands" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Specialty Wands">
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (2nd-Level)</Name>
+	<Price>360 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (4th-Level)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (6th-Level)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (8th-Level)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="81">
+	<Name>Wand of Fey Flames</Name>
+	<Price>360 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Light, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This red maple wand carved into a tongue of flame feels warm in your hand.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;faerie fire&lt;/i&gt;. For the duration of the spell, you can use the limning flames as a source for your magic. Creatures affected by your &lt;i&gt;faerie fire&lt;/i&gt; must succeed at a Will save against your spell DC or take a –2 status penalty to their Will saves against enchantment and illusions spells as long as they are affected by &lt;i&gt;faerie fire&lt;/i&gt;. You can cast an enchantment or illusion spell on such a creature up to a distance twice the spell's normal range. If the spell has a range of touch, or doesn't have a range, it is unaffected by the increase in range from the &lt;i&gt;faerie fire&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;faerie fire&lt;/i&gt;.</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (3rd-Level)</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (4th-Level)</Name>
+	<Price>1,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (5th-Level)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (6th-Level)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (7th-Level)</Name>
+	<Price>15,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (8th-Level)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (2nd-Level)</Name>
+	<Price>360 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (4th-Level)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (6th-Level)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (8th-Level)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (3rd-Level)</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (4th-Level)</Name>
+	<Price>1,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (5th-Level)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (6th-Level)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (7th-Level)</Name>
+	<Price>15,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (8th-Level)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (3rd-Level)</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (4th-Level)</Name>
+	<Price>1,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (5th-Level)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (6th-Level)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (7th-Level)</Name>
+	<Price>15,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (8th-Level)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (2nd-Level)</Name>
+	<Price>360 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (4th-Level)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (6th-Level)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (8th-Level)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (3rd-Level)</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (4th-Level)</Name>
+	<Price>1,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (5th-Level)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (6th-Level)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (7th-Level)</Name>
+	<Price>15,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (8th-Level)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (3rd-Level)</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (4th-Level)</Name>
+	<Price>1,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (5th-Level)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (6th-Level)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (7th-Level)</Name>
+	<Price>15,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (8th-Level)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (2nd-Level)</Name>
+	<Price>360 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (4th-Level)</Name>
+	<Price>1,400 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (6th-Level)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="7" page="11">
+	<Name>Wand of Spiritual Warfare (8th-Level)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Force, Magical, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This wand juts from an ornate hilt like a short, wooden dagger blade.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;spiritual weapon&lt;/i&gt; of the indicated level. When you critically hit, you apply the weapon's critical specialization effect. In addition, you can etch one of the following property runes onto the wand: &lt;i&gt;corrosive&lt;/i&gt;, &lt;i&gt;flaming&lt;/i&gt;, &lt;i&gt;frost&lt;/i&gt;, &lt;i&gt;shock&lt;/i&gt;, &lt;i&gt;thundering&lt;/i&gt;, or their respective greater versions. The spiritual weapon's Strikes gain the effects of this rune.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;spiritual weapon&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (3rd-Level)</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (4th-Level)</Name>
+	<Price>1,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (5th-Level)</Name>
+	<Price>3,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (6th-Level)</Name>
+	<Price>6,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (7th-Level)</Name>
+	<Price>15,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+<Item level="9" page="85">
+	<Name>Wand of Thundering Echoes (8th-Level)</Name>
+	<Price>40,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Evocation, Magical, Sonic, Wand</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>A forked, lightning-like crack runs down the length of this ornate stone wand, which rumbles slightly with the peals of distant thunder.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt;  Cast a Spell; &lt;b&gt;Frequency&lt;/b&gt; once per day, plus overcharge; &lt;b&gt;Effect&lt;/b&gt; You cast &lt;i&gt;sound burst&lt;/i&gt; of the indicated level. After you Cast the Spell, at the start of each of your turns, the sound echoes in the same area as if you had cast it again, though it deals one fewer d10. This effect lasts until the damage is reduced to below 2d10. The echoes don't affect structures or other items.&lt;br&gt;&lt;br&gt;&lt;b&gt;Craft Requirements&lt;/b&gt; Supply a casting of &lt;i&gt;sound burst&lt;/i&gt; of the appropriate level.&lt;br&gt;</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

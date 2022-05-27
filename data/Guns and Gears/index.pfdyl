@@ -1,0 +1,39 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>Guns and Gears</Name>
+    <ShortName>G&amp;G</ShortName>
+    <Category>Rulebooks</Category>
+    <Dependencies>
+        <Dependency>Core Rulebook</Dependency>
+        <Dependency>Gamemastery Guide</Dependency>
+        <Dependency>Grand Bazaar</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Pathfinder Guns &amp; Gears&lt;/h2&gt;&lt;p&gt;Gear Up and Throw Down! When sword and spell just won't be enough to win the day, it's time to power up your game with clockwork gears, lightning coils, and black powder! Guns &amp; Gears, the latest hardcover rulebook for the Pathfinder Roleplaying Game (Second Edition), brings the excitement of firearms and fantasy technology to your tabletop!&lt;/p&gt;
+
+        &lt;p&gt;Unravel the secrets of clockworks with the new inventor class or blow away your opposition as a firearm-wielding gunslinger! In addition to new classes, a plethora of archetypes, backgrounds, vehicles, siege engines, gadgets, and the new automaton ancestry are all ready to expand your game with options for battlefields large and small.&lt;/p&gt;
+
+        &lt;p&gt;Guns &amp; Gears features:&lt;/p&gt;
+        &lt;ul&gt;
+        &lt;li&gt;Two new classes: the clever inventor and the sharpshooting gunslinger&lt;/li&gt;
+        &lt;li&gt;Automaton ancestry for players who want to play a customizable construct&lt;/li&gt;
+        &lt;li&gt;Firearms of all stripes, from the simple and effective flintlock pistol to versatile gunblades&lt;/li&gt;
+        &lt;li&gt;More than a dozen new archetypes&lt;/li&gt;
+        &lt;li&gt;Scores of new gadgets and vehicles&lt;/li&gt;
+        &lt;li&gt;Siege engines and accompanying rules&lt;/li&gt;
+        &lt;li&gt;A gazetteer of Golarion revealing how firearms and technology fit into the Age of Lost Omens, including a look at the technology of the continents of Arcadia and Tian Xia and never-before-revealed secrets of the rough-and-tumble, gritty city of Alkenstar&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;
+        Written by: Michael Sayre, Mark Seifter, and Logan Bonner, Jessica Catalan, John Compton, Andrew D. Geels, Steven Hammond, Sen H.H.S., Brent Holtsberry, Jason Keeley, Dustin Knight, Luis Loza, Ron Lundeen, Chris Mastey, Will McCardell, Liane Merciel, Jacob W. Michaels, Dave Nelson, Samantha Phelan, Mikhail Rekun, Stephen Radney-MacFarland, Sydney Meeker, Kendra Leigh Speedling, Andrew Stoeckle, Calliope Lee Taylor, Sara Thompson, Andrew White, and Scott D. Young&lt;/p&gt;</Description>
+    <Equipment>
+        <Category name="Adventuring Gear" path="items/adventuring_gear.pfdyl" />
+        <Category name="Alchemical Items" path="items/alchemical_items.pfdyl" />
+        <Category name="Assistive Items" path="items/assistive_items.pfdyl" />
+        <Category name="Consumables" path="items/consumables.pfdyl" />
+        <Category name="Held Items" path="items/held_items.pfdyl" />
+        <Category name="Intelligent Items" path="items/intelligent_items.pfdyl" />
+        <Category name="Snares" path="items/snares.pfdyl" />
+        <Category name="Vehicles" path="items/vehicles.pfdyl" />
+        <Category name="Worn Items" path="items/worn_items.pfdyl" />
+    </Equipment>
+    <Traits name="Traits" path="traits.pfdyl" />
+</Source>

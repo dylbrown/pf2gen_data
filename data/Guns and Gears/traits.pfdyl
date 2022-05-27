@@ -1,0 +1,105 @@
+<?xml version = "1.0"?>
+<pf2:traits xmlns:pf2="https://dylbrown.github.io"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://dylbrown.github.io ../../schemata/trait.xsd"><Category name="Ancestry">
+	<Trait page="230">
+		<Name>Automaton</Name>
+		<Description>Automatons are living constructs sustained by a magical core.</Description>
+	</Trait>
+</Category>
+<Category name="Class">
+	<Trait page="233">
+		<Name>Gunslinger</Name>
+		<Description>This indicates abilities from the gunslinger class.</Description>
+	</Trait>
+	<Trait page="233">
+		<Name>Inventor</Name>
+		<Description>This indicates abilities from the inventor class.</Description>
+	</Trait>
+</Category>
+<Category name="Class-Specific">
+	<Trait page="234">
+		<Name>Modification</Name>
+		<Description>A feat with this trait alters the construction of your innovation. If you have the reconfigure class feature, you can retrain such a feat more easily</Description>
+	</Trait>
+	<Trait page="236">
+		<Name>Unstable</Name>
+		<Description>Unstable actions use experimental applications of your innovation that even you can't fully predict, and that are hazardous to your innovation (and potentially you). When you take an unstable action, attempt a DC 17 flat check immediately after applying its effects. On a failure, the innovation malfunctions in a spectacular (though harmless) fashion, such as a belch of smoke or shower of sparks, and it becomes incapable of being used for further unstable actions. On a critical failure, you also take an amount of fire damage equal to your level. As the innovation's creator, you can spend 10 minutes retuning your innovation and making adjustments to return it to functionality, at which point you can use unstable actions with that innovation again.&lt;br&gt;&lt;br&gt; To take an unstable action, you must be using your innovation (for example, wearing an armor innovation or wielding a weapon innovation). If you have a minion innovation, some unstable actions are taken by the minion instead of you. In these cases, only the minion can take that action, and the minion needs to have been Commanded that turn to take the action. If you critically fail the flat check, the minion takes the damage instead of you.&lt;br&gt;&lt;br&gt; Some actions have an Unstable Function entry, which you can use to add the unstable trait for a bigger benefit. If you're unable to use unstable actions, you can still use the action normally, but you can't use the unstable function.</Description>
+	</Trait>
+</Category>
+<Category name="Core">
+	<Trait page="140">
+		<Name>Spellshot</Name>
+		<Description>&lt;i&gt;Note from Nethys: no description was provided for this trait&lt;/i&gt;</Description>
+	</Trait>
+</Category>
+<Category name="Equipment">
+	<Trait page="233">
+		<Name>Gadget</Name>
+		<Description>Gadgets are consumable technological inventions with innovative uses.</Description>
+	</Trait>
+	<Trait page="236">
+		<Name>Steam</Name>
+		<Description>Items with this trait are powered by engines that boil water to produce steam and move their components.</Description>
+	</Trait>
+</Category>
+<Category name="Weapon">
+	<Trait page="230">
+		<Name>Capacity</Name>
+		<Description>Weapons that have the capacity trait typically have multiple barrels or chambers capable of containing a round of ammunition. Capacity is always accompanied by a number indicating the number of barrels or chambers. After a capacity weapon is fired, you can select the next loaded barrel or chamber as an Interact action that doesn't require a free hand. Each barrel or chamber can be reloaded after it's fired as a separate Interact action.</Description>
+	</Trait>
+	<Trait page="231">
+		<Name>Cobbled</Name>
+		<Description>This firearm is cobbled together and likely to misfire. No matter how well you upkeep it, on a failed attack roll, the attack misses and you must roll a DC 5 flat check. If you fail this check, the weapon misfires.</Description>
+	</Trait>
+	<Trait page="231">
+		<Name>Combination</Name>
+		<Description>Combination is a new trait for weapons that combine the functionality of melee weapons and firearms in unique or unusual ways. A combination weapon has a firearm form or usage and a melee weapon form or usage. The weapons table lists the firearm statistics first and the melee weapon statistics indented beneath, just above the ammunition. Switching between the melee weapon usage and the firearm usage requires an Interact action. However, if your last action was a successful melee Strike against a foe using a combination weapon, you can make a firearm Strike with the combination weapon against that foe without fully switching to the firearm usage, firing the firearm just as you hit with the melee attack. In this case, the combination weapon returns to its melee usage after the firearm Strike.&lt;br&gt;&lt;br&gt; Since a combination weapon is one weapon with two usages, both usages share any fundamental runes. You can put a property rune on a combination weapon as long as it's appropriate for either of the two usages, but if only one of the usages meets the property rune's requirements, the effects of the property rune only apply for that usage. For instance, a &lt;i&gt;vorpal&lt;/i&gt; axe musket only applies the &lt;i&gt;vorpal&lt;/i&gt; property rune when you are using it as an axe. Due to their complexity, combination weapons can't have another weapon, such as a bayonet or reinforced stock, attached to them.</Description>
+	</Trait>
+	<Trait page="231">
+		<Name>Concussive</Name>
+		<Description>These weapons smash as much as puncture. When determining a creature's resistance or immunity to damage from this weapon, use the weaker of the target's resistance or immunity to piercing or to bludgeoning. For instance, if the creature were immune to piercing and had no resistance or immunity to bludgeoning damage, it would take full damage from a concussive weapon. Resistance or immunity to all physical damage, or all damage, applies as normal.</Description>
+	</Trait>
+	<Trait page="231">
+		<Name>Critical Fusion</Name>
+		<Description>Critical fusion is a new trait for combination weapons that grants you two additional options for the critical specialization effect when using the combination weapon's melee version to make a melee attack while the firearm is loaded. If you choose to use one of them, they replace the melee usage's normal critical specialization effect.&lt;br&gt;&lt;br&gt;First, you can discharge the firearm to create a loud bang and concussion, using the critical specialization effect for firearms instead of the melee weapon group's critical specialization effect. Second, you can choose to discharge the firearm to increase the critical hit's momentum or shoot the foe as you attack them in melee, dealing 2 additional damage per weapon damage die. Both of these options discharge the firearm, which typically means you have to reload it before firing it again.</Description>
+	</Trait>
+	<Trait page="232">
+		<Name>Double Barrel</Name>
+		<Description>This weapon has two barrels that are each loaded separately. You can fire both barrels of a double barrel weapon in a single Strike to increase the weapon damage die by one step. If the weapon has the fatal trait, this increases the fatal die by one step.</Description>
+	</Trait>
+	<Trait page="232">
+		<Name>Fatal Aim</Name>
+		<Description>It’s possible to hold the stock of this weapon under one arm so you can fire it with a single hand as long as the other hand isn’t holding a weapon, shield, or anything else you would need to move and position, to ensure the weapon doesn’t slip out from under your arm. However, if you use both hands, the weapon can make fatal attacks. When you wield the weapon in two hands, it gains the fatal trait with the listed damage die. Holding the weapon underarm stably enough to fire is significantly more complicated than just releasing one hand from the weapon, so to switch between the two grips, you must do so with an Interact action rather than Releasing or as part of reloading.</Description>
+	</Trait>
+	<Trait page="17">
+		<Name>Hampering</Name>
+		<Description>A weapon with the hampering trait includes a disruptive limb or flange. You can use an Interact action to thrash the weapon in a square within the weapon’s reach. That square becomes difficult terrain until you attack with the weapon, move, would otherwise stop thrashing it, or at the beginning of your next turn.</Description>
+	</Trait>
+	<Trait page="233">
+		<Name>Injection</Name>
+		<Description>This weapon can be filled with an injury poison. Immediately after a successful attack with the weapon, you can inject the target with the loaded poison with a single Interact action. Refilling the weapon with a new substance requires three Interact actions, and uses both hands.</Description>
+	</Trait>
+	<Trait page="234">
+		<Name>Kickback</Name>
+		<Description>A kickback weapon is extra powerful and difficult to use due to its high recoil. A kickback weapon deals 1 additional damage with all attacks. Firing a kickback weapon gives a –2 circumstance penalty to the attack roll, but characters with 14 or more Strength ignore the penalty. Attaching a kickback weapon to a deployed bipod, tripod, or other stabilizer can lower or negate this penalty.</Description>
+	</Trait>
+	<Trait page="234">
+		<Name>Mounted</Name>
+		<Description>Mounted siege weapons take up a certain size and space, and typically have statistics to allow them to be attacked. They're used for large-scale warfare.</Description>
+	</Trait>
+	<Trait page="235">
+		<Name>Portable</Name>
+		<Description>Portable siege weapons, such as battering rams, can be more easily carried and have a role in both warfare and smaller conflicts or exploration.</Description>
+	</Trait>
+	<Trait page="235">
+		<Name>Scatter</Name>
+		<Description>This weapon fires a cluster of pellets in a wide spray. Scatter always has an area listed with it, indicating the radius of the spray. On a hit, the primary target of attacks with a scatter weapon take the listed damage, and the target and all other creatures within the listed radius around it take 1 point of splash damage per weapon damage die.</Description>
+	</Trait>
+	<Trait page="235">
+		<Name>Scatter</Name>
+		<Description>This weapon fires a cluster of pellets in a wide spray. Scatter always has an area listed with it, indicating the radius of the spray. On a hit, the primary target of attacks with a scatter weapon take the listed damage, and the target and all other creatures within the listed radius around it take 1 point of splash damage per weapon damage die.</Description>
+	</Trait>
+</Category>
+
+</pf2:traits>

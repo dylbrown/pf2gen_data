@@ -1,0 +1,74 @@
+<pf2:Items category="worn_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Other Worn Items">
+<Item level="3" page="183">
+	<Name>Blazons of Shared Power</Name>
+	<Price>52 gp</Price>
+	<Traits>Evocation, Invested, Magical</Traits>
+	<Usage>worn and attached to two weapons (see below)</Usage>
+	<Description>These brass emblems come in a variety of designs, usually customized to the purchaser to reflect the heraldry of a family or guild. &lt;i&gt;Blazons of shared power&lt;/i&gt; come in sets of three. When you invest the blazons, you wear one of the three on your chest, and you attach the others to a pair of one-handed weapons, choosing one as the primary weapon and one as the secondary weapon. These weapons can be either melee weapons or ranged weapons. As long as you're wielding both the primary weapon and the secondary weapon, the secondary weapon gains the benefit of the fundamental runes on the primary weapon. A weapon can only have a single blazon of shared power attached to it at a time.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="183">
+	<Name>Blazons of Shared Power (Greater)</Name>
+	<Price>1,350 gp</Price>
+	<Traits>Evocation, Invested, Magical</Traits>
+	<Usage>worn and attached to two weapons (see below)</Usage>
+	<Description>These brass emblems come in a variety of designs, usually customized to the purchaser to reflect the heraldry of a family or guild. &lt;i&gt;Blazons of shared power&lt;/i&gt; come in sets of three. When you invest the blazons, you wear one of the three on your chest, and you attach the others to a pair of one-handed weapons, choosing one as the primary weapon and one as the secondary weapon. These weapons can be either melee weapons or ranged weapons. As long as you're wielding both the primary weapon and the secondary weapon, the secondary weapon gains the benefit of the fundamental runes on the primary weapon. A weapon can only have a single blazon of shared power attached to it at a time.&lt;br&gt;
+
+A set of &lt;i&gt;greater blazons of shared power&lt;/i&gt; also replicates property runes from the primary weapon, so long as the secondary weapon meets all the prerequisites for a given rune and isn't a specific weapon. The secondary weapon gains the benefits of those runes. All of its own runes are suppressed. When you invest the blazons, you can elect for them to transfer only fundamental runes, in which case they function as standard blazons of shared power.</Description>
+</Item>
+<Item level="9" page="180">
+	<Name>Lucky Draw Bandolier</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This beige bandolier has a rectangular holster, which allows it to contain a standard-sized Harrow deck, and red pockets embroidered with goldwork in a strange but appealing mixture of Alkenstar and Varisian motifs.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You draw a card from the bandolier and Interact to load the card into a gun or crossbow you're wielding that requires 1 action to reload. The drawn card immediately transforms into magical ammunition with a type depending on the drawn card's suit, and a new copy of that card returns to the deck, ready to be drawn again. &lt;br&gt;&lt;br&gt;When the card transforms into ammunition, it transforms into a firearm round or crossbow bolt appropriate for the weapon you chose to reload, even if magical ammunition of the drawn variety would normally be limited to ammunition of a different type (such as a storm arrow normally only being available in arrow form). Either draw a card from the Harrow deck or roll 1d6 to determine the suit of the card. The result determines the type of magical ammunition the card becomes, as per the table below. Magical ammunition created this way lasts 10 minutes or until you fire it, whichever comes first.</Description>
+</Item>
+<Item level="9" page="180">
+	<Name>Lucky Draw Bandolier (Greater)</Name>
+	<Price>2,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This beige bandolier has a rectangular holster, which allows it to contain a standard-sized Harrow deck, and red pockets embroidered with goldwork in a strange but appealing mixture of Alkenstar and Varisian motifs.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You draw a card from the bandolier and Interact to load the card into a gun or crossbow you're wielding that requires 1 action to reload. The drawn card immediately transforms into magical ammunition with a type depending on the drawn card's suit, and a new copy of that card returns to the deck, ready to be drawn again. &lt;br&gt;&lt;br&gt;When the card transforms into ammunition, it transforms into a firearm round or crossbow bolt appropriate for the weapon you chose to reload, even if magical ammunition of the drawn variety would normally be limited to ammunition of a different type (such as a storm arrow normally only being available in arrow form). Either draw a card from the Harrow deck or roll 1d6 to determine the suit of the card. The result determines the type of magical ammunition the card becomes, as per the table below. Magical ammunition created this way lasts 10 minutes or until you fire it, whichever comes first.
+
+You can activate a &lt;i&gt;greater lucky draw bandolier&lt;/i&gt; once per hour instead of being able to activate it once per day.</Description>
+</Item>
+<Item level="3" page="183">
+	<Name>Blazons of Shared Power</Name>
+	<Price>52 gp</Price>
+	<Traits>Evocation, Invested, Magical</Traits>
+	<Usage>worn and attached to two weapons (see below)</Usage>
+	<Description>These brass emblems come in a variety of designs, usually customized to the purchaser to reflect the heraldry of a family or guild. &lt;i&gt;Blazons of shared power&lt;/i&gt; come in sets of three. When you invest the blazons, you wear one of the three on your chest, and you attach the others to a pair of one-handed weapons, choosing one as the primary weapon and one as the secondary weapon. These weapons can be either melee weapons or ranged weapons. As long as you're wielding both the primary weapon and the secondary weapon, the secondary weapon gains the benefit of the fundamental runes on the primary weapon. A weapon can only have a single blazon of shared power attached to it at a time.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="183">
+	<Name>Blazons of Shared Power (Greater)</Name>
+	<Price>1,350 gp</Price>
+	<Traits>Evocation, Invested, Magical</Traits>
+	<Usage>worn and attached to two weapons (see below)</Usage>
+	<Description>These brass emblems come in a variety of designs, usually customized to the purchaser to reflect the heraldry of a family or guild. &lt;i&gt;Blazons of shared power&lt;/i&gt; come in sets of three. When you invest the blazons, you wear one of the three on your chest, and you attach the others to a pair of one-handed weapons, choosing one as the primary weapon and one as the secondary weapon. These weapons can be either melee weapons or ranged weapons. As long as you're wielding both the primary weapon and the secondary weapon, the secondary weapon gains the benefit of the fundamental runes on the primary weapon. A weapon can only have a single blazon of shared power attached to it at a time.&lt;br&gt;
+
+A set of &lt;i&gt;greater blazons of shared power&lt;/i&gt; also replicates property runes from the primary weapon, so long as the secondary weapon meets all the prerequisites for a given rune and isn't a specific weapon. The secondary weapon gains the benefits of those runes. All of its own runes are suppressed. When you invest the blazons, you can elect for them to transfer only fundamental runes, in which case they function as standard blazons of shared power.</Description>
+</Item>
+<Item level="9" page="180">
+	<Name>Lucky Draw Bandolier</Name>
+	<Price>700 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This beige bandolier has a rectangular holster, which allows it to contain a standard-sized Harrow deck, and red pockets embroidered with goldwork in a strange but appealing mixture of Alkenstar and Varisian motifs.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You draw a card from the bandolier and Interact to load the card into a gun or crossbow you're wielding that requires 1 action to reload. The drawn card immediately transforms into magical ammunition with a type depending on the drawn card's suit, and a new copy of that card returns to the deck, ready to be drawn again. &lt;br&gt;&lt;br&gt;When the card transforms into ammunition, it transforms into a firearm round or crossbow bolt appropriate for the weapon you chose to reload, even if magical ammunition of the drawn variety would normally be limited to ammunition of a different type (such as a storm arrow normally only being available in arrow form). Either draw a card from the Harrow deck or roll 1d6 to determine the suit of the card. The result determines the type of magical ammunition the card becomes, as per the table below. Magical ammunition created this way lasts 10 minutes or until you fire it, whichever comes first.</Description>
+</Item>
+<Item level="9" page="180">
+	<Name>Lucky Draw Bandolier (Greater)</Name>
+	<Price>2,000 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Conjuration, Invested, Magical</Traits>
+	<Usage>worn</Usage>
+	<Description>This beige bandolier has a rectangular holster, which allows it to contain a standard-sized Harrow deck, and red pockets embroidered with goldwork in a strange but appealing mixture of Alkenstar and Varisian motifs.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You draw a card from the bandolier and Interact to load the card into a gun or crossbow you're wielding that requires 1 action to reload. The drawn card immediately transforms into magical ammunition with a type depending on the drawn card's suit, and a new copy of that card returns to the deck, ready to be drawn again. &lt;br&gt;&lt;br&gt;When the card transforms into ammunition, it transforms into a firearm round or crossbow bolt appropriate for the weapon you chose to reload, even if magical ammunition of the drawn variety would normally be limited to ammunition of a different type (such as a storm arrow normally only being available in arrow form). Either draw a card from the Harrow deck or roll 1d6 to determine the suit of the card. The result determines the type of magical ammunition the card becomes, as per the table below. Magical ammunition created this way lasts 10 minutes or until you fire it, whichever comes first.
+
+You can activate a &lt;i&gt;greater lucky draw bandolier&lt;/i&gt; once per hour instead of being able to activate it once per day.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

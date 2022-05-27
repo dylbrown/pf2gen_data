@@ -1,0 +1,26 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>Legends</Name>
+    <ShortName>Leg.</ShortName>
+    <Category>Lost Omens</Category>
+    <Dependencies>
+        <Dependency>Core Rulebook</Dependency>
+        <Dependency>Gamemastery Guide</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Pathfinder Lost Omens: The Mwangi Expanse&lt;/h2&gt;&lt;p&gt;It's not always what you know, but who you know!
+
+        The heroes of the Age of Lost Omens forge their path through an uncertain world, but that world has been shaped by many others who came before or who now stand beside them! Lost Omens: Legends provides details on 42 of the Inner Sea region's biggest personalities, from queens and kings that rule the present to distant figures from Golarion's past. Uncover details from the inner lives of movers and shakers from all around the globe, as well as the secret techniques, items, and knowledge PCs might gain from encountering these larger-than-life figures!&lt;/p&gt;
+        &lt;p&gt;Written by: Amirali Attar Olyaee, Alexander Augunas, Kate Baker, Jason Bulmahn, Alexandria Bustion, Carlos Cabrera, Calder CaDavid, Jessica Catalan, Natalie Collazo, Ryan Costello, Jr, Greg Diaz, Fabby Garza Marroquín, Jaym Gates, Alice Grizzle, Steven Hammond, Nicolas Hornyak, James Jacobs, Michelle Jones, Kristina Sisto Kindel, Aaron Lascano, Ron Lundeen, Stephanie Lundeen, Sydney Meeker, Liane Merciel, Matt Morris, Patchen Mortimer, Hilary Moon Murphy, Dennis Muldoon, Andrew Mullen, Mikhail Rekun, Michael Sayre, Mark Seifter, Ashton Sperry, Owen K.C. Stephens, and Isabelle Thorne&lt;/p&gt;</Description>
+    <Equipment>
+        <Category name="Adventuring Gear" path="items/adventuring_gear.pfdyl" />
+        <Category name="Alchemical Items" path="items/alchemical_items.pfdyl" />
+        <Category name="Consumables" path="items/consumables.pfdyl" />
+        <Category name="Contracts" path="items/contracts.pfdyl" />
+        <Category name="Materials" path="items/materials.pfdyl" />
+        <Category name="Structures" path="items/structures.pfdyl" />
+    </Equipment>
+    <Feats>
+        <Category name="Archetype" path="feats/archetypes.pfdyl" />
+    </Feats>
+    <Traits name="Traits" path="traits.pfdyl" />
+</Source>

@@ -1,0 +1,82 @@
+<pf2:Items category="tattoos" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="3" page="38">
+	<Name>Enveloping Light</Name>
+	<Price>50 gp</Price>
+	<Traits>Invested, Magical, Necromancy, Positive, Tattoo</Traits>
+	<Usage>tattoo</Usage>
+	<Description>This tattoo is a series of six concentric circles that show up as a soft yellow on any skin tone. The marks carry in them a protective force that bolsters your body and soul. The first time each day that someone attempts to Treat your Wounds and rolls a critical failure, they get a failure instead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; For 5 rounds, your entire body begins to glow, with the effects of a 1st-level &lt;i&gt;light&lt;/i&gt; spell. At the end of each of your turns during this time, you regain 1d4 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="38">
+	<Name>Enveloping Light (Greater)</Name>
+	<Price>650 gp</Price>
+	<Traits>Invested, Magical, Necromancy, Positive, Tattoo</Traits>
+	<Usage>tattoo</Usage>
+	<Description>This tattoo is a series of six concentric circles that show up as a soft yellow on any skin tone. The marks carry in them a protective force that bolsters your body and soul. The first time each day that someone attempts to Treat your Wounds and rolls a critical failure, they get a failure instead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; For 5 rounds, your entire body begins to glow, with the effects of a 1st-level &lt;i&gt;light&lt;/i&gt; spell. At the end of each of your turns during this time, you regain 1d4 Hit Points.&lt;br&gt;
+
+Any time someone rolls a critical failure to Treat your Wounds, they get a failure instead. The glow has the effects of a 4th-level &lt;i&gt;light&lt;/i&gt; spell, and you regain 2d8 Hit Points per round.</Description>
+</Item>
+<Item level="7" page="38">
+	<Name>Reflexive Tattoo</Name>
+	<Price>350 gp</Price>
+	<Traits>Invested, Magical, Necromancy, Tattoo</Traits>
+	<Usage>tattoo</Usage>
+	<Description>This subtle pattern of complex dots, sunbursts, and lines is difficult to make out, as it's a near match for the wearer's skin tone. Serving as a barrier facing inward, this tattoo prevents ostentatious expressions of spells that are internal to you, making them easier to hide.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Single Action]] Interact (concentrate, manipulate, metamagic); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; If the next action you use is to Cast a Spell of 2nd level or lower that affects or targets only you, you can hide that you're casting it. This has the same effect as the Conceal Spell feat.</Description>
+</Item>
+<Item level="7" page="38">
+	<Name>Crown of Insight</Name>
+	<Price>360 gp</Price>
+	<Traits>Abjuration, Invested, Magical, Tattoo</Traits>
+	<Usage>tattoo</Usage>
+	<Description>A series of evenly spaced, unblinking tattooed eyes line your skin. When you enter an area that contains creatures within 60 feet that are unnoticed to you, the GM rolls a secret Perception check for you against the creatures' Stealth DCs. On a success, the creature becomes undetected by you, rather than unnoticed, and on a critical success, the creature becomes hidden to you. All creatures in the area are then temporarily immune to your &lt;i&gt;crown of insight&lt;/i&gt; for 24 hours. The &lt;i&gt;crown of insight&lt;/i&gt; doesn't help you find hidden items or traps, nor can it help you discern a creature hiding in plain sight, such as a gargoyle pretending to be an inanimate statue. Additionally, since the effect occurs when you move to enter an area that contains creatures, it doesn't detect an unnoticed creature Sneaking up on you.</Description>
+</Item>
+<Item level="3" page="38">
+	<Name>Enveloping Light</Name>
+	<Price>50 gp</Price>
+	<Traits>Invested, Magical, Necromancy, Positive, Tattoo</Traits>
+	<Usage>tattoo</Usage>
+	<Description>This tattoo is a series of six concentric circles that show up as a soft yellow on any skin tone. The marks carry in them a protective force that bolsters your body and soul. The first time each day that someone attempts to Treat your Wounds and rolls a critical failure, they get a failure instead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; For 5 rounds, your entire body begins to glow, with the effects of a 1st-level &lt;i&gt;light&lt;/i&gt; spell. At the end of each of your turns during this time, you regain 1d4 Hit Points.&lt;br&gt;</Description>
+</Item>
+<Item level="3" page="38">
+	<Name>Enveloping Light (Greater)</Name>
+	<Price>650 gp</Price>
+	<Traits>Invested, Magical, Necromancy, Positive, Tattoo</Traits>
+	<Usage>tattoo</Usage>
+	<Description>This tattoo is a series of six concentric circles that show up as a soft yellow on any skin tone. The marks carry in them a protective force that bolsters your body and soul. The first time each day that someone attempts to Treat your Wounds and rolls a critical failure, they get a failure instead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; For 5 rounds, your entire body begins to glow, with the effects of a 1st-level &lt;i&gt;light&lt;/i&gt; spell. At the end of each of your turns during this time, you regain 1d4 Hit Points.&lt;br&gt;
+
+Any time someone rolls a critical failure to Treat your Wounds, they get a failure instead. The glow has the effects of a 4th-level &lt;i&gt;light&lt;/i&gt; spell, and you regain 2d8 Hit Points per round.</Description>
+</Item>
+<Item level="10" page="38">
+	<Name>Arctic Vigor</Name>
+	<Price>900 gp</Price>
+	<Traits>Cold, Evocation, Invested, Magical, Tattoo</Traits>
+	<Usage>tattoo</Usage>
+	<Description>This tattoo takes the shape of the face of a roaring polar bear with piercing, ice-blue eyes. You don't take damage from extreme cold or severe cold.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You call forth a blast of polar wind in a 10-foot burst within a range of 30 feet that deals 7d6 cold damage. All creatures in the area must attempt a DC 27 basic Fortitude save.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="38">
+	<Name>Arctic Vigor (Greater)</Name>
+	<Price>6,000 gp</Price>
+	<Traits>Cold, Evocation, Invested, Magical, Tattoo</Traits>
+	<Usage>tattoo</Usage>
+	<Description>This tattoo takes the shape of the face of a roaring polar bear with piercing, ice-blue eyes. You don't take damage from extreme cold or severe cold.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You call forth a blast of polar wind in a 10-foot burst within a range of 30 feet that deals 7d6 cold damage. All creatures in the area must attempt a DC 27 basic Fortitude save.&lt;br&gt;
+
+The damage of your polar wind increases to 12d6, the range increases to 60 feet, and you can choose to increase the radius to 15 or 20 feet. While exposed to incredible cold, you only take minor cold damage every hour, instead of moderate cold damage every minute. You ignore the uneven ground and difficult terrain caused by ice and the difficult terrain caused by snow (reducing greater difficult terrain from ice or snow to normal difficult terrain).</Description>
+</Item>
+<Item level="10" page="38">
+	<Name>Arctic Vigor</Name>
+	<Price>900 gp</Price>
+	<Traits>Cold, Evocation, Invested, Magical, Tattoo</Traits>
+	<Usage>tattoo</Usage>
+	<Description>This tattoo takes the shape of the face of a roaring polar bear with piercing, ice-blue eyes. You don't take damage from extreme cold or severe cold.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You call forth a blast of polar wind in a 10-foot burst within a range of 30 feet that deals 7d6 cold damage. All creatures in the area must attempt a DC 27 basic Fortitude save.&lt;br&gt;</Description>
+</Item>
+<Item level="10" page="38">
+	<Name>Arctic Vigor (Greater)</Name>
+	<Price>6,000 gp</Price>
+	<Traits>Cold, Evocation, Invested, Magical, Tattoo</Traits>
+	<Usage>tattoo</Usage>
+	<Description>This tattoo takes the shape of the face of a roaring polar bear with piercing, ice-blue eyes. You don't take damage from extreme cold or severe cold.&lt;br&gt;&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [[Two Actions]] command; &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You call forth a blast of polar wind in a 10-foot burst within a range of 30 feet that deals 7d6 cold damage. All creatures in the area must attempt a DC 27 basic Fortitude save.&lt;br&gt;
+
+The damage of your polar wind increases to 12d6, the range increases to 60 feet, and you can choose to increase the radius to 15 or 20 feet. While exposed to incredible cold, you only take minor cold damage every hour, instead of moderate cold damage every minute. You ignore the uneven ground and difficult terrain caused by ice and the difficult terrain caused by snow (reducing greater difficult terrain from ice or snow to normal difficult terrain).</Description>
+</Item>
+</pf2:Items>

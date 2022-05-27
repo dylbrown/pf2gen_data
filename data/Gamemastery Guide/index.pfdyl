@@ -1,0 +1,26 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>Gamemastery Guide</Name>
+    <ShortName>GG</ShortName>
+    <Category>Rulebooks</Category>
+    <Dependencies>
+        <Dependency>Core Rulebook</Dependency>
+        <Dependency>Grand Bazaar</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Pathfinder Gamemastery Guide&lt;/h2&gt;&lt;p&gt;hether you are a new Game Master or experienced storyteller, you can always find new ways to hone your craft. This 256-page Pathfinder Second Edition rulebook contains a wealth of new information, tools, and rules systems to add to your game. Inside you will find handy advice for building your own adventures, designing towns, and creating vibrant characters alongside rules systems for dramatic chases, thrilling tournaments, and deadly duels. This book also includes more 40 pages of sample nonplayer characters, from the simple town guard to the vile cultist, presented to make your job as GM that much easier!&lt;/p&gt;
+
+        &lt;p&gt;The Pathfinder Gamemastery Guide includes:&lt;/p&gt;
+        &lt;ul&gt;
+        &lt;li&gt;Rules, advice, and guidelines to build adventures, campaigns, and the denizens and treasures that lurk within, from settlements to nations to infinite planes!&lt;/li&gt;
+        &lt;li&gt;Creative variant rules to customize the rules to make the game your own, including variant bonus, feat, and magic item progressions, characters gaining the power of multiple classes at once, and more!&lt;/li&gt;
+        &lt;li&gt;All sorts of new and variant magic items including intelligent items, cursed items, artifacts, quirks you can add to items, and a brand new type of item called a relic that scales with your character!&lt;/li&gt;
+        &lt;li&gt;A catalog of subsystems to handle unique situations, from thrilling chases to researching mysteries to vehicle combat to elaborate duels to sandbox-style "hexploration" and more! Plus, a universal victory point system to help you design your own subsystems!&lt;/li&gt;
+        &lt;li&gt;More than 60 new NPCs to use in your game, designed for maximum usefulness to all Pathfinder campaigns!&lt;/li&gt;
+        &lt;/ul&gt;</Description>
+    <Equipment>
+        <Category name="Alchemical Items" path="items/alchemical_items.pfdyl" />
+        <Category name="Intelligent Items" path="items/intelligent_items.pfdyl" />
+        <Category name="Vehicles" path="items/vehicles.pfdyl" />
+    </Equipment>
+    <Traits name="Traits" path="traits.pfdyl" />
+</Source>
