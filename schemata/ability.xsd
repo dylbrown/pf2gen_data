@@ -5,6 +5,13 @@
   <xs:include schemaLocation="weapon.xsd"/>
   <xs:complexType name="Ability">
     <xs:sequence>
+      <xs:element name="CustomName" minOccurs="0" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>
+            A template name to display custom data related to this feat
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
       <xs:element name="Template" minOccurs="0" type="xs:string">
         <xs:annotation>
           <xs:documentation>

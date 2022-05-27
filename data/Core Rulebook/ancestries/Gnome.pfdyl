@@ -30,8 +30,31 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             <Senses>Darkvision</Senses>
         </Ability>
 		<Ability name="Wellspring Gnome" type="Heritage">
+            <CustomName>Wellspring Gnome (${getChoice("Wellspring Gnome Tradition")}, ${getChoice("Wellspring Gnome Cantrip")})</CustomName>
             <Description>Some other source of magic has a greater hold on you than the primal magic of your fey lineage does.&lt;br&gt;&lt;br&gt;This connection might come from an occult plane or an ancient occult song; a deity, celestial, or fiend; magical effluent left behind by a mage war; or ancient Rune magic.&lt;br&gt;&lt;br&gt;Choose arcane, divine, or occult. You gain one cantrip from that magical tradition's spell list. You can cast this spell as an innate spell at will, as a spell of your chosen tradition. A cantrip is heightened to a spell level equal to half your level rounded up. Whenever you gain a primal innate spell from a gnome ancestry feat, change its tradition from primal to your chosen tradition.</Description>
-            <!--TODO: Support cantrip choice-->
+            <AbilitySlot state="choice" name="Wellspring Gnome Tradition">
+                <Ability name="Arcane">
+                    <CustomMod recalculate="Never">
+                        def handler = {spell -> focusSpell(spell, "Gnome")}
+                        choose("spell:Arcane, 0", "Wellspring Gnome Cantrip", handler, null, 1);
+                    </CustomMod>
+                    <Spellcasting listName="Gnome" ability="Charisma" tradition="Arcane" />
+                </Ability>
+                <Ability name="Divine">
+                    <CustomMod recalculate="Never">
+                        def handler = {spell -> focusSpell(spell, "Gnome")}
+                        choose("spell:Divine, 0", "Wellspring Gnome Cantrip", handler, null, 1);
+                    </CustomMod>
+                    <Spellcasting listName="Gnome" ability="Charisma" tradition="Divine" />
+                </Ability>
+                <Ability name="Occult">
+                    <CustomMod recalculate="Never">
+                        def handler = {spell -> focusSpell(spell, "Gnome")}
+                        choose("spell:Occult, 0", "Wellspring Gnome Cantrip", handler, null, 1);
+                    </CustomMod>
+                    <Spellcasting listName="Gnome" ability="Charisma" tradition="Occult" />
+                </Ability>
+            </AbilitySlot>
         </Ability>
 		<!--Regular Feats-->
         <Ability name="Animal Accomplice" level="1">

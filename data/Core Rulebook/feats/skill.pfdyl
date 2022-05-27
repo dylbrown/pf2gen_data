@@ -16,6 +16,7 @@
 		<Description>Your study of magic allows you to instinctively sense its presence. You can cast 1st-level detect magic at will as an arcane innate spell. If you're a master in Arcana, the spell is heightened to 3rd level; if you're legendary, it is heightened to 4th level.</Description>
 	</Ability>
 	<Ability name="Assurance" level="1" multiple="true">
+		<CustomName>Assurance (${getChoice('Assurance Choice')})</CustomName>
 		<Traits>Fortune</Traits>
 		<Description>Even in the worst circumstances, you can perform basic tasks.Choose a skill you're trained in. You can forgo rolling a skill check for that skill to instead receive a result of 10 + your proficiency bonus (do not apply any other bonuses, penalties, or modifiers).Special You can select this feat multiple times. Each time, choose a different skill and gain the benefits for that skill.</Description>
 		<!--TODO: Add support for displaying this in the feat somehow-->
