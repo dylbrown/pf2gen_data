@@ -782,6 +782,7 @@
 				<Name>Javelin</Name>
 				<Price>1 sp</Price>
 				<Damage>1d6 P</Damage>
+				<Reload>30 ft.</Reload>
 				<Bulk>L</Bulk>
 				<Hands>1</Hands>
 				<Group>Dart</Group>
