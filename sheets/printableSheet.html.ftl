@@ -442,9 +442,9 @@
             <div class="label">Trigger</div>
         </div>
         [/#if]
-        [#if action.frequency?has_content]
+        [#if action.getExtensionByName("Activity").frequency?has_content]
         <div class="line">
-            <div class="underlined">${action.frequency}</div>
+            <div class="underlined">${action.getExtensionByName("Activity").frequency}</div>
             <div class="label">Frequency</div>
         </div>
         [/#if]
@@ -539,7 +539,6 @@
     [@linePart label="Source" content=ability.source /]
     [@linePart label="Traits" content=ability.traits?join(", ") /]
     [@linePart label="Requirements" content=ability.requirements /]
-    [@linePart label="Frequency" content=ability.frequency /]
     [#if ability.hasExtension("Activity")]
     [@linePart label="Trigger" content=ability.getExtensionByName("Activity").trigger /]
     [/#if]
@@ -557,13 +556,13 @@
         [/#list]
         <div class="ability-box ability-section do-not-break">General & Skill Feats</div>
         [#list character.abilities as ability]
-            [#if ability.getType() != "Class" && ability.getType() != "Ancestry"]
+            [#if ability.type != "Class" && ability.type != "Ancestry"]
             [@abilityBox ability=ability /]
             [/#if]
         [/#list]
         <div class="ability-box ability-section do-not-break">Ancestry Feats</div>
         [#list character.abilities as ability]
-            [#if ability.getType() == "Ancestry"]
+            [#if ability.type == "Ancestry"]
             [@abilityBox ability=ability /]
             [/#if]
         [/#list]

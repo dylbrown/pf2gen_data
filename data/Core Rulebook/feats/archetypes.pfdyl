@@ -561,8 +561,8 @@
         <!--TODO: Support this really weird feat-->
         <AbilitySlot state="feat" name="Skill Mastery Feat" type="Skill Feat" />
         <CustomMod>
-            choose("Saving Throw (Trained)", "Skill Mastery (Expert)", proficiency, "Expert", 1);
-            choose("Saving Throw (Expert)", "Skill Mastery (Master)", proficiency, "Master", 1);
+            choose("Skill (Trained)", "Skill Mastery (Expert)", proficiency, "Expert", 1);
+            choose("Skill (Expert)", "Skill Mastery (Master)", proficiency, "Master", 1);
         </CustomMod>
     </Ability>
     <Ability name="Rogue Dedication" level="2" page="229">

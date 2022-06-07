@@ -96,6 +96,24 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <Ability name="Dwarven Weapon Expertise" level="13">
             <Prerequisites>Dwarven Weapon Familiarity</Prerequisites>
             <Description>Your dwarven affinity blends with your training, granting you great skill with dwarven weapons.&lt;br&gt;&lt;br&gt;Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency for battle axes, picks, warhammers, and all dwarven weapons in which you are trained.</Description>
+            <CustomMod recalculate="Always" minScriptVersion="1">
+                import model.items.weapons.Weapon;
+                import model.enums.Trait;
+                import model.enums.Proficiency;
+                if(getMaxWeaponProficiency().getMod() >= Proficiency.Expert.getMod()) {
+                weaponProficiency("battle axe", "Expert");
+                weaponProficiency("pick", "Expert");
+                weaponProficiency("warhammer", "Expert");
+                    weaponProficiencyTranslator({item,proficiency -> {
+                    def weapon = item.getExtension(Weapon.class);
+                        if(proficiency == Proficiency.Trained &amp;&amp;
+                            item.getTraits().contains(get("sources.traits").find("Dwarf"))) {
+                            return Proficiency.Expert;
+                        }
+                        return proficiency;
+                    }});
+                }
+            </CustomMod>
         </Ability>
     </Feats>
 </pf2:ancestry>
