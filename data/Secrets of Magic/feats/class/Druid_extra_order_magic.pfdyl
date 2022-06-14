@@ -1,7 +1,13 @@
 <?xml version = "1.0"?>
 <pf2:feats xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+           xsi:schemaLocation="https://dylbrown.github.io ../../../../schemata/abc/class.xsd">
+    <Ability name="Flame Order Magic" page="198">
+        <PrereqStrings>Flame Order (Extra)</PrereqStrings>
+        <Description>You feel a kinship with flames and can use them for succor and destruction. You're trained in Acrobatics. You also gain the Fire Lung druid feat. You gain the wildfire order spell. Allowing unnatural fires to spread or preventing natural fires from occurring in a way that harms the environment are anathema to your order (this doesn't prevent you from using fire destructively or force you to combat a controlled or natural fire).</Description>
+        <Spellcasting listName="Druid" type="Prepared" tradition="Primal" ability="Wis"/>
+        <Spell type="Focus" name="Wildfire"/>
+    </Ability>
     <Ability name="Stone Order Magic" page="198">
         <PrereqStrings>Stone Order (Extra)</PrereqStrings>
         <Description>You're as enduring as stone, and you take comfort in its steadfast presence, both natural and worked. You're trained in Crafting. You also gain the Steadying Stone druid feat. You gain the crushing ground order spell. Poisoning or polluting the land and heedlessly carving the earth to plunder its natural resources are anathema to your order (this doesn't prevent you from responsibly digging or mining).</Description>

@@ -229,7 +229,7 @@
         <Traits>Archetype</Traits>
         <Archetype>Champion</Archetype>
         <Prerequisites>Champion Dedication</Prerequisites>
-        <Requires>Expert in Unarmored or Expert in Light Armor or Expert in Medium Armor or Expert in Heavy Armor</Requires>
+        <Requires>Expert in Unarmored or Light Armor or Medium Armor or Heavy Armor</Requires>
         <Description>Your proficiency ranks for light armor, medium armor, heavy armor, and unarmored defense increase to expert.</Description>
         <AttributeMods Proficiency="Expert">Light Armor, Medium Armor, Heavy Armor, Unarmored</AttributeMods>
     </Ability>

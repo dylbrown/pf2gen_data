@@ -17,5 +17,12 @@
         <Category name="Held Items" path="items/held_items.pfdyl" />
         <Category name="Worn Items" path="items/worn_items.pfdyl" />
     </Equipment>
+    <Feats>
+        <Category name="General" path="feats/general.pfdyl" />
+        <Category name="Sorcerer" path="feats/class/Sorcerer_feats.pfdyl" />
+    </Feats>
+    <Spells>
+        <Category name="Spells" path="spells/spells.pfdyl" />
+    </Spells>
     <Traits name="Traits" path="traits.pfdyl" />
 </Source>

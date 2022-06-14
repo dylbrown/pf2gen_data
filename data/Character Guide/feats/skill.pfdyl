@@ -1,0 +1,61 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Ability name="Backup Disguise" level="2" page="71">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Expert In Deception</Prerequisites>
+        <Description>You have a specific disguise that you keep at the ready, worn underneath your outer garment. You can change into this disguise to Impersonate as a 3-action activity. If you have master proficiency in Deception, it is instead a 2-action activity, and if you have legendary proficiency, it is a single action. You can create a new backup disguise by spending the normal amount of time it takes you to Impersonate, but you can have only one backup disguise at a time. Having a backup disguise doesn’t allow you to remove your armor or any other complex piece of clothing any more quickly, but once you have those off, the disguise is readily available. Because you have the backup disguise at the ready, it’s possible that a thorough search might reveal some elements of the disguise (see Conceal an Object in the Stealth skill).</Description>
+    </Ability>
+    <Ability name="Sow Rumor" level="2" page="71">
+        <Traits>General, Secret, Skill</Traits>
+        <Prerequisites>Expert In Deception</Prerequisites>
+        <Description>You spread rumors, which may or may not be true, about a specific subject. If the subject of your rumor is not currently the subject of any contradictory rumors, this takes as long as it would normally take you to Gather Information (typically 2 hours), at the end of which the GM rolls a secret Deception check to see how well you spread the rumor. If your rumor matches any current rumors about the subject, it takes less time to spread the rumor, and if you are attempting to overtake a particularly popular and contradictory rumor, it takes much longer or may be impossible. The DC similarly increases or decreases depending on how plausible your rumor is.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; Your rumor spreads like wildfire. Anyone who succeeds at a check to Gather Information on the specific subject learns your rumor in preference to other rumors about the subject. Your rumor persists for 1 month.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; You successfully spread the rumor. Anyone who succeeds at a check to Gather Information on the specific subject adds your rumor to the list of rumors they could learn about the subject. Your rumor persists for 1 week.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; Your rumor dies off, never becoming popular enough for other people to learn it via Gather Information.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; You are unable to spread a rumor and take a –4 circumstance penalty to Deception checks to Sow Rumors about the same subject within the same region for 1 week. In addition, a rumor spreads about someone trying to spread false rumors about the subject.
+        </Description>
+    </Ability>
+    <Ability name="Emerald Boughs Accustomation" level="6" page="102">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Magaambyan Attendant</Archetype>
+        <Prerequisites>Magaambyan Attendant Dedication, Emerald Boughs Affiliation, Expert In Society</Prerequisites>
+        <Description>You are comfortable and socially capable in almost any cultural context. When you use the Society skill to Subsist, if you roll a critical failure, you get a failure instead; if you roll a success, you get a critical success instead; and if you roll a critical success, you can provide for another additional creature. Furthermore, when you attempt a Society check to Recall Knowledge about cultural practices and roll a critical failure, you get a failure instead.</Description>
+    </Ability>
+    <Ability name="Forced Entry" level="6" page="112">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Pathfinder Agent</Archetype>
+        <Prerequisites>Pathfinder Agent Dedication, Expert In Athletics</Prerequisites>
+        <Description>You are trained to preserve the archaeological value of your location when entering. You don’t take a penalty to Force Open doors, windows, or containers without a crowbar. If you roll a success on a check to Force Open, you get a critical success instead.</Description>
+    </Ability>
+    <Ability name="Uzunjati Storytelling" level="6" page="102" cost="1">
+        <Traits>Archetype, Concentrate, Skill</Traits>
+        <Archetype>Magaambyan Attendant</Archetype>
+        <Prerequisites>Magaambyan Attendant Dedication, Uzunjati Affiliation</Prerequisites>
+        <Description>You tell a quick story or begin telling a longer tale. This is most useful when you want to prove your scholarly credibility or impress someone quickly. Roll a check with a skill that can be used to Recall Knowledge in which you have expert proficiency, using the result entry for the Perform action. Like Performing, Storytelling rarely has an effect on its own, but it might influence the DCs of subsequent Diplomacy checks against the observers—or even change their attitudes—if the GM sees fit. This action is not a Performance and cannot be used in place of anything that requires you to Perform.</Description>
+    </Ability>
+    <Ability name="Entourage" level="7" page="72">
+        <Traits>General, Skill</Traits>
+        <Prerequisites>Hobnobber, Master In Diplomacy</Prerequisites>
+        <Description>You have a small group of admirers who tend to follow you around while you’re in civilized settlements. Your admirers are helpful to you, allowing you to make simple Requests of them such as purchasing basic equipment with your funds or finding a room at an inn. These admirers do not travel with you to places that are obviously dangerous, including most adventure locations, but they’ll wait for you at the nearest settlement. Your admirers never use actions in encounter mode other than to retreat, and they abandon you if you intentionally bring them harm or at the GM’s discretion. When you Gather Information, you can use your admirers to assist you, granting a +1 circumstance bonus to your Diplomacy check and reducing the time it takes even further (typically to 30 minutes, rather than 1 hour with the Hobnobber feat alone). If you have the Sow Rumor feat, you can have your admirers assist you, with the same benefits as Gather Information.</Description>
+    </Ability>
+    <Ability name="Recognize Threat" level="8" page="112" cost="Free">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Pathfinder Agent</Archetype>
+        <Prerequisites>Pathfinder Agent Dedication</Prerequisites>
+        <Trigger>Your first turn of an encounter begins, and you can see a creature.</Trigger>
+        <Requirements>You have master proficiency in a skill to identify the triggering creature.</Requirements>
+        <Description>You quickly assess the threat so you can relay the information to your team. Attempt a Recall Knowledge check against the triggering creature.</Description>
+    </Ability>
+    <Ability name="Unravel Mysteries" level="8" page="113">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Scrollmaster</Archetype>
+        <Prerequisites>Scrollmaster Dedication</Prerequisites>
+        <Requirements>Master In A Decipher Writing Skill</Requirements>
+        <Description>You can understand the true meaning of texts quickly, and even when you get lost or hit a dead end, you aren’t discouraged from making further attempts to get to the bottom of things. When you Decipher Writing, you need only half as long as usual (reducing the time from about 1 minute to about half a minute per page), and if you fail, you don’t take the usual –2 circumstance penalty to further checks to decipher that text.</Description>
+    </Ability>
+    <Ability name="Uzunjati Recollection" level="10" page="103" cost="1">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Magaambyan Attendant</Archetype>
+        <Prerequisites>Uzunjati Storytelling</Prerequisites>
+        <Requirements>Master In A Recall Knowledge Skill</Requirements>
+        <Description>You tell a story spontaneously from nearly forgotten facts, delving into your memory and entertaining your audience in the process. Recall Knowledge with a skill in which you have master proficiency, then use Uzunjati Storytelling with the same skill. You gain a +1 circumstance bonus to your skill check for Uzunjati Storytelling from the added details.</Description>
+    </Ability>
+</pf2:feats>

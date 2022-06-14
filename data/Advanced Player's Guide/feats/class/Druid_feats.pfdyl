@@ -1,0 +1,64 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../../schemata/abc/class.xsd">
+    <Ability name="Reach Spell" level="1" page="79" cost="1">
+        <Traits>Bard, Cleric, Concentrate, Druid, Metamagic, Oracle, Sorcerer, Witch, Wizard</Traits>
+        <Description>You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell’s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</Description>
+    </Ability>
+    <Ability name="Verdant Weapon" level="1" page="124">
+        <Traits>Druid, Exploration</Traits>
+        <Description>You cultivate a seed that can sprout into a wooden staff, vine whip, or another weapon. You spend 10 minutes focusing primal energy into a seed, imprinting it with the potential of a single level 0 weapon you are trained with and that has no mechanical parts or metal components. When holding the imprinted seed, you can spend a single Interact action to cause it to immediately grow into that weapon; a second Interact action returns it to seed form. Your verdant weapon functions as the imprinted weapon and can be etched with runes or affixed with talismans as normal, which are suppressed when the weapon is in seed form. It also becomes a primal focus.&lt;br&gt;&lt;br&gt; You can have only one verdant seed at a time. If you prepare a second, your first verdant seed immediately becomes a mundane specimen; any runes on the previous seed that are valid for the new seed transfer between them at no cost, but you lose any inapplicable runes unless you transfer them to a runestone or another weapon.</Description>
+    </Ability>
+    <Ability name="Widen Spell" level="1" page="79" cost="1">
+        <Traits>Druid, Manipulate, Metamagic, Oracle, Sorcerer, Witch, Wizard</Traits>
+        <Description>You manipulate the energy of your spell, causing it to spread out and affect a wider area. If the next action you use is to Cast a Spell that has an area of a burst, cone, or line and does not have a duration, increase the area of that spell. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet (a burst with a smaller radius is not affected). Add 5 feet to the length of a cone or line that is normally 15 feet long or smaller, and add 10 feet to the length of a larger cone or line.</Description>
+    </Ability>
+    <Ability name="Elemental Summons" level="4" page="124">
+        <Traits>Druid</Traits>
+        <Description>You can call the four elements to you. You can spend 10 minutes in concert with nature to replace one of the spells you've prepared in one of your druid spell slots with a summon elemental spell of the same level.</Description>
+    </Ability>
+    <Ability name="Leshy Familiar Secrets" level="4" page="124">
+        <Traits>Druid</Traits>
+        <Prerequisites>Leaf Order</Prerequisites>
+        <Description>The leaf order's secrets allow your familiar to take advantage of its leshy form. You can select one additional familiar ability each day, which must be one of the following leshy familiar abilities. You can't select more than one leshy familiar ability at a time.Grasping Tendrils Your familiar can extend vines or similar tendrils, increasing its reach to 15 feet. Purify Air Your familiar recycles air, providing enough oxygen for a Medium creature in areas with stale air, such as a sealed chamber or extradimensional space. If the leshy is within the area of an inhaled poison effect or an effect that relies on smell, creatures within a 15-foot emanation from the leshy gain a +2 circumstance bonus to their saving throws against the effect. Verdant Burst When your familiar dies, it releases its primal energy to cast the 3-action version of heal, heightened to a level 1 lower than your highest-level spell slot. The heal spell gains a status bonus equal to twice the spell's level to the Hit Points it restores to plants. You must be able to cast 2nd-level spells using spell slots to select this familiar ability.
+        </Description>
+    </Ability>
+    <Ability name="Current Spell" level="6" page="124" cost="1">
+        <Traits>Abjuration, Concentrate, Druid, Metamagic</Traits>
+        <Description>As you use your magic to manipulate air or water, you divert some of its currents to form a barrier around you. If your next action is to Cast a Spell with the air or water trait, until the start of your next turn, you gain a +1 circumstance bonus to AC or a +2 circumstance bonus against ranged attacks. This effect has the air or water trait, or both, depending on the traits of the spell you cast. You also gain a +1 circumstance bonus to all saves against effects with the air trait, water trait, or both until the start of your next turn, depending on the spell's traits.</Description>
+    </Ability>
+    <Ability name="Steady Spellcasting" level="6" page="80">
+        <Traits>Bard, Cleric, Druid, Oracle, Sorcerer, Witch, Wizard</Traits>
+        <Description>Confident in your technique, you don’t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn’t disrupted.</Description>
+    </Ability>
+    <Ability name="Deimatic Display" level="8" page="124" cost="1">
+        <Traits>Druid</Traits>
+        <Prerequisites>Trained In Intimidation</Prerequisites>
+        <Description>Imitating animal threat displays, you make yourself appear larger and more imposing. Roll one Intimidation check to Demoralize and compare the result to the Will DC of each animal, fungus, and plant creature in a 15-foot cone. When you do, Demoralize gains the visual trait, and creatures are affected if they can see you. You don't take a penalty if the creature doesn't understand your language.</Description>
+    </Ability>
+    <Ability name="Pristine Weapon" level="10" page="124">
+        <Traits>Druid</Traits>
+        <Prerequisites>Verdant Weapon</Prerequisites>
+        <Description>Your verdant weapon can cut through the resistances of magical creatures. The weapon is treated as cold iron and silver. If you critically hit a creature that has a weakness to cold iron or silver, the target takes 1d6 persistent bleed damage as the primal energies within your weapon slow its natural healing.</Description>
+    </Ability>
+    <Ability name="Wandering Oasis" level="12" page="125">
+        <Traits>Druid</Traits>
+        <Prerequisites>Master In Survival</Prerequisites>
+        <Description>You're surrounded by soothing energy. You and allies within 60 feet of you are protected from severe environmental heat and cold. If you're legendary in Survival, you and those allies are also protected from extreme environmental heat and cold.</Description>
+    </Ability>
+    <Ability name="Reactive Transformation" level="14" page="125" cost="Reaction">
+        <Traits>Druid</Traits>
+        <Prerequisites>Wild Shape, Dragon Shape, Elemental Shape, Plant Shape, Or Soaring Shape</Prerequisites>
+        <Trigger>varies</Trigger>
+        <Description>You transform reflexively when in danger. You cast wild shape to transform into one form granted by one of the prerequisite feats you have, depending on the trigger. Your form's resistances and weaknesses apply against the triggering damage. Trigger You fall 10 feet or more; Effect Choose a form from aerial form. Trigger You take acid, cold, electricity, fire, or poison damage; Effect Choose a form from dragon form that resists the triggering damage. Trigger You take fire damage; Effect Choose a fire elemental form from elemental form. Trigger You take poison damage; Effect Choose a form from plant form.</Description>
+    </Ability>
+    <Ability name="Sow Spell" level="14" page="125" cost="1">
+        <Traits>Concentrate, Druid, Metamagic</Traits>
+        <Description>You fold your spell into a seed. If your next action is to Cast a Spell using 1 action or 2 actions, the spell instead plants itself in an adjacent square. You must make all decisions regarding the spell at the time you cast it. Within the next 10 minutes, you can direct your sown spell to sprout and produce the spell's effects as a reaction, which is triggered when a creature enters the sown spell's space or a square adjacent to it. You can have only one sown spell at a time, and if you don't trigger the spell within 10 minutes, it dissipates and the spell is lost. A creature can notice the sown spell with a successful Perception check against your spell DC.</Description>
+    </Ability>
+    <Ability name="Primal Aegis" level="18" page="125">
+        <Traits>Druid</Traits>
+        <Description>You surround yourself with a thick field of protective primal energy. You and allies within 30 feet of you gain resistance equal to your Wisdom modifier to acid, cold, electricity, fire, negative, and positive damage.</Description>
+    </Ability>
+</pf2:feats>

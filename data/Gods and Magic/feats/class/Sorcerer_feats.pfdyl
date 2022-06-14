@@ -1,0 +1,10 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../../schemata/abc/class.xsd">
+    <Ability name="Blessed Blood" level="1" page="104">
+        <Traits>Sorcerer</Traits>
+        <Prerequisites>Bloodline That Grants Divine Spells, You Follow A Deity</Prerequisites>
+        <Description>Your deity’s blessings manifest in your blood-borne power. Add up to three of your deity’s spells (spells your deity grants to clerics) to your spell list. They are not automatically added to your repertoire, but you can select them just as you would spells normally on the divine spell list.</Description>
+    </Ability>
+</pf2:feats>

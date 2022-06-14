@@ -1,7 +1,7 @@
 <?xml version = "1.0"?>
 <pf2:feats xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+           xsi:schemaLocation="https://dylbrown.github.io ../../../../schemata/abc/class.xsd">
     <Ability name="Eye of the Arclords" level="2" page="81" cost="1">
         <Traits>General, Skill</Traits>
         <Prerequisites>Arcane Sense, Expert In Arcana</Prerequisites>
@@ -13,5 +13,18 @@
         <Prerequisites>Battle Medicine</Prerequisites>
         <Requirements>Can't Have A Patron Deity</Requirements>
         <Description>You recover an additional 5 Hit Points from a successful attempt to Treat your Wounds or use Battle Medicine on you. After you or an ally use Battle Medicine on you, you become temporarily immune to that Battle Medicine for only 1 hour, instead of 1 day.</Description>
+    </Ability>
+    <Ability name="Diabolic Certitude" level="4" page="107" cost="Free">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Hellknight Armiger</Archetype>
+        <Prerequisites>Hellknight Armiger Dedication</Prerequisites>
+        <Trigger>Your turn begins and you can observe a devil.</Trigger>
+        <Description>Your Hellknight training drilled details of Hell’s denizens deep into your mind. Make an attempt to Recall Knowledge about a devil you’re observing. If you roll a critical failure on this check, you get a failure instead.</Description>
+    </Ability>
+    <Ability name="Thorough Reports" level="4" page="23">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Pathfinder Agent</Archetype>
+        <Prerequisites>Pathfinder Agent Dedication</Prerequisites>
+        <Description>Your reports are thorough and informative, and putting your thoughts to paper helps you retain the information. Keep track of each type of creature you successfully identify with Recall Knowledge. When attempting Recall Knowledge checks against creatures on your list in later encounters, you gain a +2 circumstance bonus, and you learn an additional fact about such creatures on a success.</Description>
     </Ability>
 </pf2:feats>

@@ -1,0 +1,63 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Ability name="Express Driver" level="2" page="55">
+        <Traits>Archetype, Exploration, Skill</Traits>
+        <Archetype>Trick Driver</Archetype>
+        <Prerequisites>Trick Driver Dedication</Prerequisites>
+        <Description>You can optimize your vehicle's performance, coaxing extra speed and choosing paths to avoid slowdowns. When calculating your travel speed for the day while piloting a vehicle, you can attempt a Driving Lore check to increase your vehicle's travel speed. The DC is determined by the GM but is typically based on the vehicle's piloting DC or a difficulty based on the environment, whichever is harder. On a success, increase your vehicle's travel speed by half. This has no effect on your vehicle's movement in encounters.</Description>
+    </Ability>
+    <Ability name="Engine Bay" level="4" page="56">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Vehicle Mechanic</Archetype>
+        <Prerequisites>Vehicle Mechanic Dedication, Expert In Crafting</Prerequisites>
+        <Description>You are practiced at working in vast garages of vehicles and can work on many machines at a time. When Repairing and spending the full 10 minutes, you can fix up to two objects. If you are a master in Crafting, you can fix up to four targets. If you're legendary in Crafting, you can fix up to eight targets. This feat has no effect when using Quick Repair or another ability to reduce the time spent Repairing.</Description>
+    </Ability>
+    <Ability name="Gear Gnash" level="4" page="54">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Trapsmith</Archetype>
+        <Prerequisites>Trapsmith Dedication, Expert In Crafting</Prerequisites>
+        <Description>Snares you create have complicated inner workings that are quite difficult to disable. Creatures attempting to Disable your snares that use gears must succeed at an additional Thievery check in order to disable the snare. On a failed check, while the snare doesn't fully trigger, the grinding mechanisms deal bludgeoning damage to the creature equal to half your level. The snare still triggers on a critical failure, as normal.</Description>
+    </Ability>
+    <Ability name="Named Artillery" level="4" page="128">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Artillerist</Archetype>
+        <Prerequisites>Trained In Crafting</Prerequisites>
+        <Description>It is a tradition among artillerists to name the siege weapon most important to them and closest to their heart—much as a sailor on a ship, the weapon is their livelihood. You've gone a step further, and you always make sure that your named artillery has the best possible maintenance and upkeep. You can spend a full day adjusting and working on a single siege weapon to designate it as your named artillery. The siege weapon you designated as your named artillery gains a +2 circumstance bonus to AC, Fortitude saves, and Reflex saves as well as additional Hit Points equal to twice your level.&lt;br&gt;&lt;br&gt; During your daily preparations, you must spend at least one hour on maintenance to service your named artillery. If you fail to do so, or if you spend a full day designating a new piece of named artillery, the previous named artillery loses any benefits from this feat. Only one artillerist can designate a particular siege weapon as their named artillery, even if several artillerists are serving on the same siege weapon's crew (though it's typically more efficient for a group with several artillerists to divide them up, assigning one to each siege weapon).
+        </Description>
+    </Ability>
+    <Ability name="Power Slide to" level="4" page="55" cost="1">
+        <Traits>Archetype, Move, Reckless, Skill</Traits>
+        <Archetype>Trick Driver</Archetype>
+        <Prerequisites>Trick Driver Dedication</Prerequisites>
+        <Requirements>You are piloting a vehicle.</Requirements>
+        <Description>You throw the vehicle into a barely controlled skid, turning sharply to evade pursuit or bring your weapons to bear. You Drive with a –2 penalty to your piloting check, gaining the effects of the Drive action for the same number of actions you spent to Power Slide. At the end of the movement, if you succeed, you can turn the vehicle up to 90 degrees. If you critically succeed at your piloting check, you can instead turn the vehicle up to 180 degrees.</Description>
+    </Ability>
+    <Ability name="Efficient Controls" level="7" page="57">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Vehicle Mechanic</Archetype>
+        <Prerequisites>Vehicle Mechanic Dedication, Master In Crafting</Prerequisites>
+        <Description>By reducing redundant systems and streamlining essential functions, you have made it easier for the vehicle to operate with fewer crew. Reduce the number of crew required to operate your signature vehicle by 25%. For example, you would reduce a sailing ship from needing 1 pilot and 8 crew to 1 pilot and 6 crew. This adjustment only affects the number of crew needed to operate the vehicle; it doesn't reduce the vehicle's need for a pilot.</Description>
+    </Ability>
+    <Ability name="Propeller Attachment" level="7" page="54">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Trapsmith</Archetype>
+        <Prerequisites>Trapsmith Dedication, Master In Crafting</Prerequisites>
+        <Description>You've mastered attaching clockwork propellers to your daily quick-deploy snares that use gears. This allows you to place your snares in the air or underwater, where they remain in place for up to 10 minutes, after which the propeller runs out of power and they fall or sink. Unless you use additional precautions to hide it, a propeller snare's location is usually obvious.</Description>
+    </Ability>
+    <Ability name="Push it" level="7" page="55">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Trick Driver</Archetype>
+        <Prerequisites>Trick Driver Dedication, Master In Lore(Driving)</Prerequisites>
+        <Description>You can push your vehicle's performance beyond the limits envisioned by its makers. Whenever you succeed at a piloting check, the vehicle you are piloting gains a +5-foot circumstance bonus to all its Speeds until the end of your turn. If you critically succeed, this bonus increases to +10 feet.</Description>
+    </Ability>
+    <Ability name="That was a Close One, Huh?" level="7" page="142" cost="1">
+        <Traits>Archetype, Skill</Traits>
+        <Archetype>Unexpected Sharpshooter</Archetype>
+        <Prerequisites>Unexpected Sharpshooter Dedication, Master In Deception</Prerequisites>
+        <Frequency>once per round</Frequency>
+        <Requirements>Either you used Accidental Shot and hit your opponent with the Strike this turn, or you used Lucky Escape since your last turn and the triggering attack missed you.</Requirements>
+        <Description>You laugh innocently about the inexplicable luck of your last shot hitting its mark or how close the attack that just missed you came to taking your head off, causing your foes to second guess whether it's a good idea to oppose you in battle. Attempt to Demoralize either the foe you hit with Accidental Shot or the foe that missed you due to Lucky Escape. You use Deception instead of Intimidation to attempt the check to Demoralize.</Description>
+    </Ability>
+</pf2:feats>

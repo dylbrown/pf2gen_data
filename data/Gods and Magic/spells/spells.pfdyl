@@ -1,0 +1,308 @@
+<?xml version = "1.0"?>
+<pf2:spells xmlns:pf2="https://dylbrown.github.io"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/spell.xsd">
+    <Spell page="106">
+        <Name>Acid Storm</Name>
+        <Level>5</Level>
+        <Traits>Acid, Evocation</Traits>
+        <Traditions>arcane, primal</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Range>120 feet</Range>
+        <Area>20-foot-radius burst</Area>
+        <Duration>1 minute</Duration>
+        <Description>You evoke a storm of acid rain that pelts the area for the spell’s duration. A creature that begins its turn in the area takes 3d8 acid damage (basic Reflex save).</Description>
+        <Heightened every="2"> The damage increases by 1d8.</Heightened>
+    </Spell>
+    <Spell page="106">
+        <Name>Acidic Burst</Name>
+        <Level>1</Level>
+        <Traits>Acid, Evocation</Traits>
+        <Traditions>arcane, primal</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Area>5-foot emanation</Area>
+        <Save>basic Reflex</Save>
+        <Description>You create a shell of acid around yourself that immediately bursts outward, dealing 2d6 acid damage to each creature in the area.</Description>
+        <Heightened every="1"> The damage increases by 2d6.</Heightened>
+    </Spell>
+    <Spell page="106">
+        <Name>Agitate</Name>
+        <Level>1</Level>
+        <Traits>Enchantment, Mental, Nonlethal</Traits>
+        <Traditions>arcane, occult</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>varies</Duration>
+        <Save>Will</Save>
+        <Description>You send the target's mind and body into overdrive, forcing it to become restless and hyperactive. During the duration, the target must Stride, Fly, or Swim at least once each turn or take 2d8 mental damage that turn; The GM might decide to add additional move actions to the list for creatures who possess only a more unusual form of movement. The duration of this effect depends on the target's Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The spell has no effect.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The duration is 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The duration is 2 rounds.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The duration is 4 rounds.</Description>
+        <Heightened every="1"> The damage increases by 2d8.</Heightened>
+    </Spell>
+    <Spell page="106">
+        <Name>Animus Mine</Name>
+        <Level>2</Level>
+        <Traits>Abjuration, Mental</Traits>
+        <Traditions>occult</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Duration>1 hour</Duration>
+        <Save>Will</Save>
+        <Description>You implant a mental mine within your psyche that detonates against anyone attempting to manipulate your thoughts. You can use a single action, which has the concentrate trait, to suppress the effects of the mine for 1 round to allow someone to safely use a mental effect on you. You can Dismiss the spell.&lt;br&gt;&lt;br&gt; The first creature that uses a magical mental effect against you triggers the &lt;i&gt;animus mine&lt;/i&gt;, causing the spell to end. The &lt;i&gt;animus mine&lt;/i&gt; deals 4d8 mental damage to the triggering creature, which must attempt a Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and is stunned 1.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage and is stunned 1. You are unaffected by the triggering mental effect.</Description>
+        <Heightened every="1"> The damage increases by 2d8.</Heightened>
+    </Spell>
+    <Spell page="107">
+        <Name>Anticipate Peril</Name>
+        <Level>1</Level>
+        <Traits>Divination</Traits>
+        <Traditions>arcane, occult</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>10 minutes</Duration>
+        <Description>You grant the target brief foresight. The target gains a +1 status bonus to its next initiative roll, after which the spell ends.</Description>
+        <Heightened every="2"> The status bonus increases by 1, to a maximum of +4 at 7th level.</Heightened>
+    </Spell>
+    <Spell page="107">
+        <Name>Befuddle</Name>
+        <Level>1</Level>
+        <Traits>Emotion, Enchantment, Mental</Traits>
+        <Traditions>arcane</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>1 round</Duration>
+        <Save>Will</Save>
+        <Description>You sow seeds of confusion in your target’s mind, causing their actions and thoughts to become clumsy.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is clumsy 1 and stupefied 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target is clumsy 2 and stupefied 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target is clumsy 3, stupefied 3, and confused.</Description>
+    </Spell>
+    <Spell page="107">
+        <Name>Brand the Impenitent</Name>
+        <Level>2</Level>
+        <Traits>Abjuration, Curse</Traits>
+        <Traditions>divine</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Range>touch</Range>
+        <Targets>1 creature</Targets>
+        <Duration>varies</Duration>
+        <Save>Fortitude</Save>
+        <Description>You brand the target with an ethereal copy of your deity’s religious symbol. This brand can’t be hidden, but it is visible only to followers of your faith, who see it as clearly as a lit torch. Followers of your faith ignore the target’s concealed condition, if any, and the target gains a –1 status penalty to AC against attacks by followers of your faith. If the target is a follower of your deity in good standing, the spell fails.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The spell lasts for 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The spell lasts for 1 minute.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The spell has an unlimited duration.</Description>
+    </Spell>
+    <Spell page="107">
+        <Name>Cup of Dust</Name>
+        <Level>3</Level>
+        <Traits>Curse, Necromancy</Traits>
+        <Traditions>arcane, occult, primal</Traditions>
+        <Cast>material, somatic, verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 living creature</Targets>
+        <Duration>1 day</Duration>
+        <Save>Fortitude</Save>
+        <Description>You curse the target with a thirst no drink can quench. You can Dismiss the spell. The target must attempt a Fortitude save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected and is temporarily immune for 1 hour.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is fatigued for 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is immediately afflicted by thirst as if it hadn’t had a drink in days. It becomes fatigued and takes 1d4 damage each hour that can’t be healed until it quenches its thirst. No amount of drinking can quench the creature’s thirst during the spell’s duration.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure but the creature takes 2d4 damage each hour, twice as much as usual for thirst.</Description>
+        <Heightened every="3"> The thirst becomes more unbearable, increasing the damage each hour by 1d4, or by 2d4 on a critical failure.</Heightened>
+    </Spell>
+    <Spell page="107">
+        <Name>Endure</Name>
+        <Level>1</Level>
+        <Traits>Enchantment, Mental</Traits>
+        <Traditions>arcane, occult</Traditions>
+        <Cast>somatic</Cast>
+        <Range>touch</Range>
+        <Targets>1 creature</Targets>
+        <Duration>1 round</Duration>
+        <Description>You invigorate the touched creature’s mind and urge it to press on. You grant the touched creature 5 temporary Hit Points.</Description>
+        <Heightened every="1"> Increase the temporary Hit Points by 5.</Heightened>
+    </Spell>
+    <Spell page="107">
+        <Name>Expeditious Excavation</Name>
+        <Level>2</Level>
+        <Traits>Earth, Transmutation</Traits>
+        <Traditions>arcane, primal</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Range>touch</Range>
+        <Area>cube of dirt 5 feet across or smaller</Area>
+        <Description>You remove loose dirt, dust, gravel, sand, and the like (though not solid stone) up to the size of a 5-foot cube. Any Medium or smaller creature standing atop the earth when the spell is cast must attempt a Reflex save or Acrobatics check.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is unaffected and can choose to either descend the pit without damage or move to the nearest available space of its choice.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature falls prone in the nearest available space of its choice, or falls into the pit if it prefers.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature falls into the pit excavated by the spell and lands prone, taking falling damage as normal.</Description>
+        <Heightened every="2"> The spell can excavate an additional 5-foot cube of earth. If you excavate all four 5-foot cubes beneath a Large creature, it must attempt a Reflex save or Acrobatics check, as above.</Heightened>
+    </Spell>
+    <Spell page="107">
+        <Name>Feast of Ashes</Name>
+        <Level>2</Level>
+        <Traits>Curse, Necromancy</Traits>
+        <Traditions>arcane, occult, primal</Traditions>
+        <Cast>material, somatic, verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 living creature</Targets>
+        <Duration>1 week</Duration>
+        <Save>Fortitude</Save>
+        <Description>You curse the target with a hunger no food can sate. You can Dismiss the spell. The target must attempt a Fortitude save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected and is temporarily immune for 1 hour.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is fatigued for 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is immediately afflicted by hunger as if it hadn’t eaten food in days. It becomes fatigued and takes 1d4 damage each day that can’t be healed until it sates its hunger. No amount of eating can sate the creature’s hunger during the spell’s duration. After the spell’s duration, the creature takes damage from starvation.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure but the creature takes 2d4 damage each day, twice as much as usual for hunger.</Description>
+        <Heightened every="1"> The hunger becomes more unbearable, increasing the damage each day by 1d4, or by 2d4 on a critical failure.</Heightened>
+    </Spell>
+    <Spell page="108">
+        <Name>Fungal Hyphae</Name>
+        <Level>2</Level>
+        <Traits>Fungus, Necromancy</Traits>
+        <Traditions>primal</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>Thin hyphae grow from your feet and plunge into the earth, creating a symbiotic fungal network that attaches to plants within 30 feet and connects you to their root systems. You gain an imprecise tremorsense allowing you to sense anything directly touching plants within that distance. If you move, the hyphae snap and the spell ends.</Description>
+        <Heightened level="4"> You can control plants in the area to a small degree, allowing you to make Strikes with tree branches, exposed roots, or similarly solid plants. To do so, you use a Strike action, but you can Strike any creature you can detect with your tremorsense. These are melee spell attacks that deal 2d8 bludgeoning damage plus your spellcasting ability modifier. Unusual plants, such as thorny vines, might deal a different type of damage at the GM’s discretion. You can’t make any other attacks through these plants, or take any other actions through them, other than these Strikes.</Heightened>
+    </Spell>
+    <Spell page="108">
+        <Name>Iron Gut</Name>
+        <Level>2</Level>
+        <Traits>Transmutation</Traits>
+        <Traditions>arcane, primal</Traditions>
+        <Cast>material, somatic</Cast>
+        <Duration>1 hour</Duration>
+        <Description>Your mouth, esophagus, and stomach become incredibly elastic and tougher than metal. For the duration of the spell, you can reach down your throat to store or retrieve a single object of light or negligible Bulk in your stomach, as though your stomach were a backpack or other container. Storing and retrieving an item in this way requires an Interact action. The object must be small enough to reasonably fit within your stomach. It is very difficult for other creatures to notice that you are hiding an object in this way; passive observers can’t possibly notice and you gain a +4 circumstance bonus to your Stealth checks to Conceal the Object unless the searcher specifically searches your mouth and stomach. If at the end of the spell’s duration you still have an object stored in your stomach, it is violently expelled, dealing 1d6 damage to you.</Description>
+        <Heightened level="3"> The duration increases to 8 hours.</Heightened>
+    </Spell>
+    <Spell page="108">
+        <Name>Liberating Command</Name>
+        <Level>1</Level>
+        <Traits>Enchantment, Mental</Traits>
+        <Traditions>occult</Traditions>
+        <Cast>verbal</Cast>
+        <Range>60 feet</Range>
+        <Targets>1 creature</Targets>
+        <Description>You call out a liberating cry, urging an ally to break free of an effect that holds them in place. If the target is grabbed, immobilized, or restrained, it can immediately use a reaction to attempt to Escape.</Description>
+    </Spell>
+    <Spell page="108">
+        <Name>Message Rune</Name>
+        <Level>1</Level>
+        <Traits>Divination, Linguistic, Mental</Traits>
+        <Traditions>arcane, occult</Traditions>
+        <Cast>5 minutes (material, somatic, verbal)</Cast>
+        <Range>touch</Range>
+        <Targets>1 flat unattended surface</Targets>
+        <Duration>1 day</Duration>
+        <Description>You record a message up to 5 minutes long and inscribe a special rune on any flat unattended surface within reach. The nature of the rune’s appearance is up to you, but it is visible to everyone and it must be no smaller than 2 inches in diameter. You also specify a trigger that creatures must meet to activate the rune. For the duration of the spell, creatures who meet the criteria of the trigger can touch the rune to hear the recorded message in their head as though you were speaking to them telepathically. You know when someone is listening to the message, but you do not know who is listening to it. You can Dismiss the spell.</Description>
+    </Spell>
+    <Spell page="109">
+        <Name>Penumbral Shroud</Name>
+        <Level>1</Level>
+        <Traits>Darkness, Evocation</Traits>
+        <Traditions>arcane, occult</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>10 minutes</Duration>
+        <Description>You envelop the target in a shroud of shadow. The target perceives light as one step lower than it actually is (bright light becomes dim light, for example), affecting their ability to sense creatures and objects accordingly. The shroud also provides the target a +1 status bonus to saving throws against light effects. While this effect is helpful to creatures sensitive to light, if the creature is unwilling, it can attempt a Reflex save to avoid the shroud and reduce the effect.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The effect lasts for 1 round&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The effect lasts its normal duration.</Description>
+    </Spell>
+    <Spell page="109">
+        <Name>Reflective Scales</Name>
+        <Level>4</Level>
+        <Traits>Abjuration</Traits>
+        <Traditions>arcane, primal</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You grow a set of colored glowing scales or scaled armor that stores energy before releasing it in a final burst. When you cast this spell, choose acid, cold, fire, electricity, or poison damage. You gain resistance 5 against that type of damage. The scales’ color depends on the damage type you chose and is usually the color of a type of dragon or other creature associated with that damage type, such as red or gold for fire damage. &lt;br&gt;&lt;br&gt;The scales store up energy as they protect you. Keep track of how much damage the scales have prevented. As a 2-action activity that has the concentrate and manipulate traits, you can explode your scales outward in a 20-foot radius around you, dealing 1d6 damage of the chosen type to all creatures in the area for every 10 damage the scales have prevented, to a maximum of 10d6 damage (after preventing 100 damage). Once you do so, the spell ends.</Description>
+        <Heightened every="2"> The resistance increases by 5 and the maximum damage from the scale explosion increases by 5d6.</Heightened>
+    </Spell>
+    <Spell page="109">
+        <Name>Share Lore</Name>
+        <Level>1</Level>
+        <Traits>Divination, Mental</Traits>
+        <Traditions>arcane, occult</Traditions>
+        <Cast>1 minute</Cast>
+        <Range>touch</Range>
+        <Targets>up to 3 creatures</Targets>
+        <Duration>10 minutes</Duration>
+        <Description>You share your knowledge with the touched creatures. Choose one Lore skill in which you are trained. The targets become trained in that Lore skill for the duration of the spell.</Description>
+        <Heightened level="3"> The duration of the spell is 1 hour and you can target up to five creatures.</Heightened>
+    </Spell>
+    <Spell page="109">
+        <Name>Shattering Gem</Name>
+        <Level>1</Level>
+        <Traits>Abjuration, Earth</Traits>
+        <Traditions>arcane, primal</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Range>touch</Range>
+        <Targets>1 creature</Targets>
+        <Duration>1 minute</Duration>
+        <Description>A large gem floats around the target in an erratic pattern. The gem has 5 Hit Points. Each time a creature Strikes the target, the target attempts a DC 11 flat check. On a success, the gem blocks the attack, so the attack first damages the gem and then applies any remaining damage to the target. If the gem is reduced to 0 Hit Points, it shatters, immediately dealing the creature that destroyed it 1d8 slashing damage (basic Reflex save), as long as that creature is within 10 feet of the target.</Description>
+        <Heightened every="1"> The gem has 5 additional HP, and the damage dealt by its detonation increases by 1d8.</Heightened>
+    </Spell>
+    <Spell page="110">
+        <Name>Shifting Sand</Name>
+        <Level>3</Level>
+        <Traits>Earth, Transmutation</Traits>
+        <Traditions>arcane, primal</Traditions>
+        <Cast>material, somatic, verbal</Cast>
+        <Range>30 feet</Range>
+        <Area>a horizontal earthen or sandy surface within a 20-foot burst</Area>
+        <Duration>sustained up to 1 minute</Duration>
+        <Description>You cause the surface to heave. The area becomes difficult terrain and any tracks in the area are destroyed by the churning ground. Creatures standing in the area take a –1 status penalty to Acrobatics checks to Balance and Tumble Through and Athletics checks to High Jump and Long Jump. The first time each round you Sustain the Spell, you can move the churning area up to 10 feet in any direction. Creatures immobilized by the spell are carried along with the shifting sand in the same direction, if possible; this movement is forced movement. Creatures that enter or begin their turn standing in the shifting sand must attempt a Reflex save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected and ignores the area’s difficult terrain and penalty to skill checks until the end of its turn.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature ignores the area’s penalty to skill checks until the end of its turn.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is affected normally by the spell this turn.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature becomes immobilized within the spell’s area until it Escapes. If the creature was already immobilized by shifting sands, it also falls prone.</Description>
+        <Heightened level="5"> The status penalty increases to –2 and the spell’s range increases to 60 feet.</Heightened>
+    </Spell>
+    <Spell page="110">
+        <Name>Shockwave</Name>
+        <Level>1</Level>
+        <Traits>Earth, Evocation</Traits>
+        <Traditions>arcane, primal</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Area>15-foot cone</Area>
+        <Save>Reflex</Save>
+        <Description>You create a wave of energy that ripples through the earth. Terrestrial creatures in the affected area must attempt a Reflex save to avoid stumbling as the shockwave shakes the ground.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is flat-footed until the start of its next turn.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature falls prone.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, plus the creature takes 1d6 damage.</Description>
+        <Heightened every="1"> The area increases by 5 feet (to a 20-foot cone at 2nd level, and so on).</Heightened>
+    </Spell>
+    <Spell page="110">
+        <Name>Show the Way</Name>
+        <Level>3</Level>
+        <Traits>Detection, Divination</Traits>
+        <Traditions>divine, primal</Traditions>
+        <Cast>10 minutes (material, somatic, verbal)</Cast>
+        <Area>5-foot emanation</Area>
+        <Targets>you and allies in the area</Targets>
+        <Duration>8 hours</Duration>
+        <Description>You and affected allies gain preternatural knowledge of the path ahead, allowing you to intuit the best way forward and avoid potential obstacles such as difficult or confusing terrain. For the purpose of long-distance overland travel during exploration mode, traveling through difficult terrain reduces you to only three-quarters your travel Speed instead of half, and traveling through greater difficult terrain reduces your travel Speed to only half your travel Speed instead of one-third. &lt;i&gt;Show the way&lt;/i&gt; does not prevent you from falling into traps or encountering other artificial obstacles and hazards.</Description>
+        <Heightened level="6"> For the purpose of long-distance overland travel during exploration mode, traveling through difficult terrain doesn’t reduce your travel Speed at all, and traveling through greater difficult terrain reduces your travel Speed to only three-quarters of its normal value instead of one-third.</Heightened>
+    </Spell>
+    <Spell page="110">
+        <Name>Slough Skin</Name>
+        <Level>2</Level>
+        <Traits>Necromancy</Traits>
+        <Traditions>arcane, primal</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Duration>1 hour</Duration>
+        <Description>You continually and harmlessly slough off the top layer of your skin while new skin regenerates immediately, quickly moving damaging substances away from your body. The flat check to remove persistent damage from effects that coat your skin (such as most persistent acid damage) is reduced to 5, and you gain a +2 status bonus to your initial save against contact poison (but not to further saves, since by that point, the toxin has already entered your system). If you’re suffering from an effect other than persistent damage that depends on continuous contact with your skin, if that effect allows a saving throw, you receive a new saving throw against that effect at the end of each turn when you attempt your flat checks against persistent damage, and you also receive a +2 status bonus to those saving throws.&lt;br&gt;&lt;br&gt; While affected by this spell, your continually shedding skin makes you much easier to Track. Anyone Tracking you gains a +2 circumstance bonus to do so, and you cannot Hide Your Tracks.</Description>
+    </Spell>
+    <Spell page="110">
+        <Name>Temporary Tool</Name>
+        <Level>1</Level>
+        <Traits>Conjuration</Traits>
+        <Traditions>arcane</Traditions>
+        <Cast>1 minute</Cast>
+        <Duration>until used or 1 minute; see text</Duration>
+        <Description>You conjure a temporary simple tool, such as a shovel or rope into your hands. It lasts until it is used for a single activity or for 1 minute, whichever comes first, after which it disappears. The tool is obviously temporarily conjured, and thus can’t be sold or passed off as a genuine item.</Description>
+    </Spell>
+    <Spell page="111">
+        <Name>Tether</Name>
+        <Level>1</Level>
+        <Traits>Abjuration</Traits>
+        <Traditions>arcane, primal</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Range>30 feet</Range>
+        <Targets>1 creature</Targets>
+        <Duration>1 minute or until dismissed; see text</Duration>
+        <Save>Reflex</Save>
+        <Description>You use magical chains, vines, or other tethers to bind your target to you. The creature can still try to Escape, and it or others can break the tethers by attacking them (the tethers have AC 15 and 10 Hit Points). You must stay within 30 feet of the target while it is tethered; moving more than 30 feet away from your target ends the spell. The target must attempt a Reflex save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target takes a –5-foot circumstance penalty to its Speed as long as it is within 30 feet of you.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target takes a –10-foot circumstance penalty to its Speed and cannot move more than 30 feet away from you until it Escapes or the spell ends.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target is immobilized until it Escapes or the spell ends.</Description>
+        <Heightened every="1"> The tethers’ AC increases by 3 and their Hit Points increase by 10.</Heightened>
+    </Spell>
+    <Spell page="111">
+        <Name>Time Beacon</Name>
+        <Level>7</Level>
+        <Traits>Divination</Traits>
+        <Traditions>arcane, occult</Traditions>
+        <Cast>material</Cast>
+        <Duration>until the end of your turn</Duration>
+        <Description>You create a beacon in time, intending to return to it if things go wrong. You can cast &lt;i&gt;time beacon&lt;/i&gt; on only your turn. Keep careful track of everything that happens this turn after you cast &lt;i&gt;time beacon&lt;/i&gt;. At the end of your turn, you can choose to rewind time back to just after you cast &lt;i&gt;time beacon&lt;/i&gt;, removing all effects of your turn since then. Curses, traps, and other harmful effects that happen during your turn might prevent you from returning to the beacon if they are powerful enough. If you suffered any harmful effects during your turn after casting &lt;i&gt;time beacon&lt;/i&gt;, to return to your beacon, &lt;i&gt;time beacon&lt;/i&gt; attempts a counteract check against each such effect. If it fails at any of these checks, you can't return. After returning to the time beacon, the spell ends.</Description>
+    </Spell>
+    <Spell page="111">
+        <Name>Whirling Scarves</Name>
+        <Level>3</Level>
+        <Traits>Abjuration, Force</Traits>
+        <Traditions>divine, occult</Traditions>
+        <Cast>somatic, verbal</Cast>
+        <Duration>1 minute</Duration>
+        <Description>You surround yourself in a vortex of whirling colorful scarves of force that obfuscate you and disorient your foes. You gain the benefits of the concealed condition, but only against ranged and melee attacks. When a melee attack fails to hit you because of the flat check for the concealed condition, the scarves snag the weapon or unarmed attack, and the creature takes a –1 circumstance penalty to further attacks with that weapon or unarmed attack until the end of its turn (or the end of its next turn, if it wasn’t the creature’s turn). The timing of the scarves’ movement is harder to predict for ranged attackers, so the flat check for the concealed condition against ranged attacks increases from DC 5 to DC 6. You can Dismiss this spell.</Description>
+        <Heightened every="2"> The circumstance penalty to further attacks with a melee weapon or unarmed attack the scarves snag increases by 1. The DC of the flat check for the concealed condition against ranged attacks increases by 1.</Heightened>
+    </Spell>
+</pf2:spells>
