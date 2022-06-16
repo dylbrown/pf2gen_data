@@ -266,18 +266,50 @@ div{flex-grow: 1}
     border: 1px solid black;
 }
 
-.numBox {
-    border:2px solid black;
+.numBox, .prof-box, .hero-box {
     box-sizing: border-box;
-    min-width: 1.8em;
-    min-height: 1.8em;
     flex-flow: column nowrap;
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
+.numBox {
+    border: 2px solid black;
+    min-width: 1.8em;
+    min-height: 1.8em;
+}
+.prof-box {
+    border: 2px solid black;
+    width: calc(.9em - 4px);
+    height: calc(.9em - 4px);
+}
+.hero-box {
+    border: 2px solid black;
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: 100%;
+}
+.quad-grid, .quad-row, .hero-grid {
+    display: grid;
+    grid-gap: 1px;
+    align-items: center;
+    justify-items: center;
+}
+.hero-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.quad-grid {
+    grid-template-columns: 1fr 1fr;
+}
+.quad-row {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 .rounded {
     border-radius: 7px;
+}
+.filled {
+    background-color: black;
 }
 .dashed {
     border-style: dashed;
@@ -288,6 +320,9 @@ div{flex-grow: 1}
     color: #333;
     flex-grow: 0;
     padding-left: 3px;
+}
+.label.invisible {
+    color: transparent;
 }
 .box-label {
     font-size: .5rem;
@@ -433,7 +468,7 @@ div.action-label {
 #rolls-grid {
     display: grid;
     grid-template-columns: 1fr 1.2fr repeat(4, .9fr);
-    grid-template-rows: 1fr .3fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     column-gap: 3px;
     row-gap: 5px;
     align-items: start;
@@ -446,25 +481,31 @@ div.action-label {
     column-gap: 3px;
     align-items: start;
     justify-items: center;
+    flex-grow: .25;
+}
+#ac-grid .label, #rolls-grid .label {
+    text-align: center;
 }
 #prof-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr .4fr);
-    column-gap: 5px;
     row-gap: 2px;
     align-items: start;
     justify-items: center;
     text-transform: uppercase;
     text-align:center;
+    padding-bottom: 5px;
 }
-#prof-grid > .underlined {
-    height:1em;
+#prof-grid > :not(:nth-child(4n), .label) {
+    border-right: 1px solid black;
+}
+#prof-grid > :not(:nth-child(4n+1), .label) {
+    border-left: 1px solid black;
 }
 #info-grid {
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr 3fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 3fr 2fr 2fr;
     column-gap: 5px;
     row-gap: 5px;
     align-items: start;
@@ -483,11 +524,12 @@ div.action-label {
 #skills-grid {
     display: grid;
     grid-template-columns: 2fr 1.3fr .7fr 1fr 1fr;
-    grid-template-rows: .4fr repeat(18, 1fr);
     column-gap: 3px;
     row-gap: 5px;
     align-items: start;
     justify-items: center;
+    padding-bottom: .6em;
+    grid-template-rows: .25fr repeat(${character.skills?size}, 1fr);
 }
 #abilities-grid {
     position: absolute;

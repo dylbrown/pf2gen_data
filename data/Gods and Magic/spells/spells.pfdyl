@@ -201,7 +201,7 @@
         <Level>1</Level>
         <Traits>Divination, Mental</Traits>
         <Traditions>arcane, occult</Traditions>
-        <Cast>1 minute</Cast>
+        <Cast>1 Minute</Cast>
         <Range>touch</Range>
         <Targets>up to 3 creatures</Targets>
         <Duration>10 minutes</Duration>
