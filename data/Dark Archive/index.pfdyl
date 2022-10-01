@@ -1,0 +1,29 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>Dark Archive</Name>
+    <ShortName>DA</ShortName>
+    <Category>Rulebooks</Category>
+    <Dependencies>
+        <Dependency>Core Rulebook</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Dark Archive&lt;/h2&gt;&lt;p&gt;From the fringes, the unknown beckons. &lt;em&gt;Pathfinder Dark Archive&lt;/em&gt; contains secrets that any player or GM can use to reveal the paranormal lurking in their Pathfinder games! This spine-tinglingly secretive 224-page hardcover rulebook presents two new character classes perfect for delving into the unexplained: Unleash the untold power of your mind as the psychic or leverage supernatural secrets and mystic implements as the thaumaturge!&lt;/p&gt;
+
+        &lt;p&gt;Beyond these new classes, eight secret case files each provide player options, GM tools, and lore into a different paranormal topic, including: &lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Strange cryptids glimpsed in the night, gear to track them, and the powers you might gain by surviving an encounter with one&lt;/li&gt;
+            &lt;li&gt;Cults and esoteric belief, with apocryphal divine magic and the secret of becoming a living vessel for an eldritch being&lt;/li&gt;
+            &lt;li&gt;Temporal anomalies, with archetypes that skim along the surface of time and a new mystery for oracles unbound from causality&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;Each file concludes with a short adventure to immerse players in the paranormal, spanning across Golarion—play all eight to uncover the inexplicable phenomena of the Age of Lost Omens!&lt;/p&gt;
+
+        &lt;p&gt;Written by: James Case, Mikhail Rekun, Mark Seifter, Rigby Bendele, Logan Bonner, Dan Cascone, Jessica Catalan, Banana Chan, Kay Hashimoto, Sen.H.H.S., Patrick Hurley, Joshua Kim, Avi Kool, Daniel Kwan, Kendra Leigh Speedling, Luis Loza, Ron Lundeen, Liane Merciel, Jacob W. Michaels, Andrew Mullen, Quinn Murphy, K. Tessa Newton, Patrick Renie, Michael Sayre, Shay Snow, Alex Speidel, Solomon St. John, Geoffrey Suthers, Ruvaid Virk, Jabari Weathers, and Isis Wozniakowska&lt;/p&gt;</Description>
+    <Classes>
+        <Class name="Psychic" path="classes/Psychic.pfdyl" />
+        <Class name="Thaumaturge" path="classes/Thaumaturge.pfdyl" />
+    </Classes>
+    <Spells>
+        <Category name="Focus Spells" path="spells/focus_spells.pfdyl" />
+        <Category name="Spells" path="spells/spells.pfdyl" />
+    </Spells>
+    <Traits name="Traits" path="traits.pfdyl" />
+</Source>

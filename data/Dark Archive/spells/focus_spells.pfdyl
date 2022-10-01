@@ -1,0 +1,398 @@
+<?xml version = "1.0"?>
+<pf2:spells xmlns:pf2="https://dylbrown.github.io"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/spell.xsd">
+<Spell page="22" type="Cantrip">
+    <Name>Astral Rain</Name>
+    <Level>3</Level>
+    <Traits>Uncommon, Cantrip, Evocation, Force, Psychic</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>60 feet</Range>
+    <Area>one 5-foot cube</Area>
+    <Save>Reflex</Save>
+    <Description>You fling a mass of furious thoughts into the air, where they expand into numerous blades or other shapes that rain down. Any creature that's in the area or enters the area before the start of your next turn takes your choice of bludgeoning or piercing damage equal to 2d4 plus your spellcasting ability modifier, with a basic Reflex saving throw.</Description>
+</Spell>
+<Spell page="142" type="Focus">
+    <Name>Cinder Gaze</Name>
+    <Level>1</Level>
+    <Traits>Rare, Cleric, Divination, Prediction</Traits>
+    <Cast>1 minute (material, somatic, verbal)</Cast>
+    <Description>You've learned to read the future in the patterns of flames and smoke. Though inexact and often symbolic, these readings help prepare you for upcoming events. When Casting this Spell, you must be near a fire (of any size) for the duration. Upon completion, roll 1d4 for your prediction. The benefit lasts for 10 minutes or until expended, whichever comes first. After casting &lt;i&gt;cinder gaze&lt;/i&gt;, you can't cast it again for 10 minutes.  &lt;b&gt;Terrible Danger&lt;/b&gt; You gain a +2 status bonus to your next initiative roll. &lt;b&gt;New Life&lt;/b&gt; The next time you take damage, just before taking the damage, you gain temporary Hit Points equal to 1 plus your spellcasting ability modifier. &lt;b&gt;Vivid Insight&lt;/b&gt; (fortune) The next time you attempt a check to Recall Knowledge, roll twice and take the higher result. &lt;b&gt;Good Fortune&lt;/b&gt; (fortune) The next time you attempt a saving throw, roll twice and take the better result.</Description>
+    <Heightened every="1"> The number of temporary Hit Points from new life increases by 2.</Heightened>
+</Spell>
+<Spell page="21" type="Cantrip">
+    <Name>Contagious Idea</Name>
+    <Level>5</Level>
+    <Traits>Uncommon, Cantrip, Emotion, Enchantment, Mental, Psychic</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>30 feet (see text)</Range>
+    <Targets>1 or 2 creatures other than yourself (see text)</Targets>
+    <Description>Nothing is so contagious as a thought. You place either a pleasant thought or a terrifying one in a creature's mind. You can then plant the same thought in a second creature's mind. You can't choose a creature that's already been a target of this casting of &lt;i&gt;contagious idea&lt;/i&gt;, nor can you choose yourself. The second target can be beyond the range of the spell, but it must be within 30 feet of the first target. &lt;b&gt;Pleasant Thought&lt;/b&gt; The target is soothed, gaining 5 temporary Hit Points that last for 1 minute.&lt;b&gt;Terrifying Thought&lt;/b&gt; The target must attempt a Will save.&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected and is temporarily immune for 1 minute.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is frightened 1 and is then temporarily immune for 1 minute.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target becomes frightened 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target becomes frightened 3.</Description>
+</Spell>
+<Spell page="17" type="Cantrip">
+    <Name>Dancing Blade</Name>
+    <Level>5</Level>
+    <Traits>Uncommon, Cantrip, Evocation, Psychic</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>1 creature</Targets>
+    <Duration>sustained up to 1 minute</Duration>
+    <Description>You telekinetically animate a weapon that's unattended or on your person. It brandishes itself at a foe of your choice as if wielded by an invisible duelist. When you first Cast the Spell, the weapon automatically flies to the target and Strikes. It moves along with its target, always remaining within reach. Each time you Sustain the Spell, the weapon either Changes Partners or Strikes. The weapon's attacks use and contribute to your multiple attack penalty. &lt;b&gt;Change Partners&lt;/b&gt; Change the weapon's target to a different creature within 30 feet. The weapon flies to its new target.&lt;b&gt;Strike&lt;/b&gt; (attack) The weapon attacks its target using your spell attack roll. On a hit, the weapon deals damage equal to 2d6 plus your spellcasting ability modifier, of a type determined by the weapon (if the weapon has the versatile trait or can otherwise deal multiple types of damage, you choose each time you attack).</Description>
+</Spell>
+<Spell page="23" type="Cantrip">
+    <Name>Distortion Lens</Name>
+    <Level>1</Level>
+    <Traits>Uncommon, Cantrip, Conjuration, Psychic</Traits>
+    <Cast>verbal</Cast>
+    <Range>30 feet</Range>
+    <Area>one 5-foot square</Area>
+    <Duration>sustained up to 1 minute</Duration>
+    <Description>You create a magical lens that distorts space as best suits you. You create the lens in a space in range, even suspended in midair. If your or an ally's ranged attack passes through the lens, the attack gains an additional 10 feet of range; if an enemy's ranged attack would pass through the lens, it requires an additional 10 feet of range to move through, though the enemy knows before using its ability whether the interference puts the target out of range. An ally whose space overlaps the lens can increase the range of its ranged attacks, but an enemy whose space overlaps the lens doesn't reduce the range of its ranged attacks.&lt;br&gt;&lt;br&gt; The first time each round you Sustain the Spell, you can choose to relocate it to another square within range. The lens disappears if you cast &lt;i&gt;distortion lens&lt;/i&gt; again.</Description>
+</Spell>
+<Spell page="20" type="Cantrip">
+    <Name>Entropic Wheel</Name>
+    <Level>3</Level>
+    <Traits>Uncommon, Cantrip, Cold, Evocation, Fire, Psychic</Traits>
+    <Cast>verbal</Cast>
+    <Duration>1 minute</Duration>
+    <Description>You stockpile thermal energy in a magical wheel-like construct that lets you burn opponents with cold or freeze their bodies with heat. When you Cast the Spell, the wheel has one mote of thermal energy, and when you use a cold or fire effect or deal cold or fire damage, the wheel spins, siphoning off a bit of energy and gaining another mote. The wheel can't gain motes more than once on a given turn, and the maximum number of motes is equal to entropic wheel's level.&lt;br&gt;&lt;br&gt; When you Cast a Spell that deals fire damage, the target also takes cold damage equal to the number of motes in the entropic wheel. When you Cast a Spell that deals cold damage, the target also takes fire damage equal to the number of motes in the &lt;i&gt;entropic wheel&lt;/i&gt;. This applies only to the initial damage of the spell, not to any persistent damage or ongoing effects.</Description>
+    <Heightened level="1"> You gain two motes instead of one when you Cast the Spell and each time the wheel gains another mote.</Heightened>
+</Spell>
+<Spell page="142" type="Focus">
+    <Name>Euphoric Renewal</Name>
+    <Level>4</Level>
+    <Traits>Rare, Cleric, Necromancy</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Duration>10 minutes</Duration>
+    <Description>You view death not as an ending but a beginning, and you delight in dancing on its edge. Each time you gain the dying condition and then regain consciousness while under the effect of &lt;i&gt;euphoric renewal&lt;/i&gt;, you gain three benefits. You're quickened on your next turn. You can use the extra action only to Stand.You gain a +1 circumstance bonus to saves for 1 minute.You gain 8 temporary Hit Points that last for 1 minute.</Description>
+    <Heightened every="1"> The number of temporary HP increases by 2.</Heightened>
+</Spell>
+<Spell page="21" type="Cantrip">
+    <Name>Forbidden Thought</Name>
+    <Level>1</Level>
+    <Traits>Uncommon, Cantrip, Enchantment, Mental, Psychic</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>1 creature</Targets>
+    <Save>Will</Save>
+    <Description>You place a psychic lock in a foe's mind that prevents it from a specific action. Choose “Strike,” “Stride,” “Cast a Spell,” or a specific action you know the creature to have (such as “Breath Weapon” against a dragon). If the creature attempts that action on its next turn, it must surmount your lock to do so, causing it to take 1d6 mental damage plus your spellcasting ability modifier (with a basic Will save). The target is then temporarily immune for 1 minute.</Description>
+</Spell>
+<Spell page="18" type="Cantrip">
+    <Name>Foresee the Path</Name>
+    <Level>5</Level>
+    <Traits>Uncommon, Cantrip, Divination, Psychic</Traits>
+    <Cast>verbal</Cast>
+    <Range>60 feet</Range>
+    <Targets>1 ally and 1 enemy</Targets>
+    <Duration>sustained up to 1 minute</Duration>
+    <Description>You see just a split second into the future and glean how an enemy will move, making it easier for your allies to strike it mid-action. Make a Perception check against the target enemy's Will DC or Deception DC, whichever is higher. The GM may judge a different DC is more appropriate if it's higher; for instance, using the Warfare Lore DC of a military captain. The target is then temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target ally gains a reaction that lets it make a melee Strike against the target enemy, triggered if the enemy leaves a square within the ally's reach. If the ally already has an ability that lets it make melee Strikes as a reaction, such as Attack of Opportunity, the ally can forgo gaining the temporary reaction to instead gain a +2 status bonus to melee Strikes it makes as reactions.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; As critical success, but the status bonus an ally gets if it forgoes the reaction is +1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The spell has no effect.</Description>
+    <Heightened level="1"> The spell has the same result on a failure as on a success (but still no effect on a critical failure). Each time you Sustain the Spell, you can choose an additional ally to target, granting them the same benefit as the initial target ally</Heightened>
+</Spell>
+<Spell page="142" type="Focus">
+    <Name>Frenzied Revelry</Name>
+    <Level>1</Level>
+    <Traits>Rare, Cleric, Emotion, Enchantment, Mental</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Area>5-foot emanation</Area>
+    <Targets>you and allies in the area</Targets>
+    <Duration>1 minute</Duration>
+    <Description>You recall memories of hedonistic rites to send yourself into an infectious frenzy, dancing and howling wildly to encourage your companions to join in. You and your allies gain a +1 status bonus to saving throws against mental effects while in the area. Whenever someone benefiting from this bonus critically succeeds at a saving throw against an enemy's mental effect, its revelry increases, granting it a +1 status bonus to attack rolls and damage rolls for 1 round.</Description>
+    <Heightened level="4"> The emanation's radius is 10 feet, and the status bonus to saves is +2.</Heightened>
+</Spell>
+<Spell page="23" type="Cantrip">
+    <Name>Ghostly Shift</Name>
+    <Level>3</Level>
+    <Traits>Uncommon, Cantrip, Conjuration, Psychic</Traits>
+    <Cast>verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>1 creature</Targets>
+    <Duration>sustained up to 1 minute</Duration>
+    <Description>Your body becomes insubstantial as you partially phase out. You gain resistance 2 to all damage (except force).</Description>
+</Spell>
+<Spell page="18" type="Cantrip">
+    <Name>Glimpse Weakness</Name>
+    <Level>1</Level>
+    <Traits>Uncommon, Cantrip, Divination, Psychic</Traits>
+    <Cast>verbal</Cast>
+    <Range>60 feet</Range>
+    <Targets>1 creature</Targets>
+    <Duration>1 minute</Duration>
+    <Description>You glimpse a loose scale, a seam in a foe's armor, or a similar weakness, aiding your allies in landing a precise hit. The first ally that hits the target with a successful Strike deals additional precision damage equal to 1 + this spell's level, and then the spell ends.</Description>
+    <Heightened level="1"> The additional precision damage is 1d4+1.</Heightened>
+</Spell>
+<Spell page="142" type="Focus">
+    <Name>Hollow Heart</Name>
+    <Level>1</Level>
+    <Traits>Rare, Cleric, Emotion, Enchantment, Fear, Mental</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>1 creature</Targets>
+    <Duration>varies</Duration>
+    <Save>Will</Save>
+    <Description>You stoke the target's ambition beyond reason, until it believes no one is capable of helping it, or that others aren't to be trusted. The target attempts a Will saving throw.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target treats no other creature as an ally for 1 round. &lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target treats no other creature as an ally for 3 rounds.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, and the target is frightened 1 as it realizes it can't rely on anyone but itself.</Description>
+</Spell>
+<Spell page="22" type="Cantrip">
+    <Name>Hologram Cage</Name>
+    <Level>5</Level>
+    <Traits>Uncommon, Cantrip, Illusion, Light, Psychic</Traits>
+    <Cast>material, somatic, verbal</Cast>
+    <Range>60 feet</Range>
+    <Area>1 cube 20 feet on each side</Area>
+    <Duration>1 minute</Duration>
+    <Description>You weave light into a cube of vivid and fantastic patterns. The walls shed bright light for 10 feet (and dim light for the next 20 feet) and completely block line of sight; creatures within the cage can't be seen by creatures outside of it, though they can see each other, and creatures outside of it can't see into it. You can Dismiss the spell, and if you Cast the Spell again, your previous &lt;i&gt;hologram cage&lt;/i&gt; ends.</Description>
+</Spell>
+<Spell page="22" type="Cantrip">
+    <Name>Imaginary Weapon</Name>
+    <Level>1</Level>
+    <Traits>Uncommon, Attack, Cantrip, Evocation, Force, Psychic</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>touch</Range>
+    <Targets>1 creature</Targets>
+    <Description>You create a simple weapon of force. Make a melee spell attack roll against your target's AC. If you hit, you deal your choice of bludgeoning or slashing damage equal to 1d8 plus your spellcasting ability modifier. On a critical success, you deal double damage and can choose to detonate your weapon to push the target 10 feet away from you.</Description>
+</Spell>
+<Spell page="143" type="Focus">
+    <Name>Inevitable Destination</Name>
+    <Level>4</Level>
+    <Traits>Rare, Cleric, Conjuration</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>you and 1 enemy</Targets>
+    <Duration>2 rounds</Duration>
+    <Description>You twist the paths of the target, ensuring that each one leads to you. The target attempts a Will saving throw.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The spell has no effect.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; Your pull hampers the target's footsteps. It takes a –10-foot circumstance penalty to its Speeds until the end of its next turn.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target can't move any farther from you than it was when you Cast the Spell, though it can move in such a way that it maintains an equal distance. If you move farther away from the target than the initial distance, the spell ends. The targeted foe can attempt to Escape against your spell DC. If it succeeds, the spell ends.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, plus the target is pulled 10 feet closer to you and falls prone, tripping in its haste to move toward you.</Description>
+</Spell>
+<Spell page="143" type="Focus">
+    <Name>Isolation</Name>
+    <Level>4</Level>
+    <Traits>Rare, Cleric, Illusion</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>1 creature</Targets>
+    <Duration>3 rounds</Duration>
+    <Save>Will</Save>
+    <Description>You summon a tangible manifestation of loneliness to cloak the target from view as surely as if it were wreathed in darkness. The target attempts a Will saving throw.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target becomes invisible, but only to its allies. Any creature not allied with the target can see it normally. Effects such as &lt;i&gt;see invisibility&lt;/i&gt; enable an ally to see the target. The target's allies still know the target is present and can still see all the effects of the target's actions.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; As success, except the target also becomes inaudible to its allies and imperceptible to them through any other senses.</Description>
+</Spell>
+<Spell page="189" type="Focus">
+    <Name>Manifold Lives</Name>
+    <Level>6</Level>
+    <Traits>Uncommon, Cursebound, Divination, Emotion, Mental, Oracle</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>1 creature</Targets>
+    <Duration>varies</Duration>
+    <Save>Will</Save>
+    <Description>You cast a creature's mind back through time, forcing them to take other paths and make other choices, experiencing countless alternate lives in an instant. The creature becomes overwhelmed with regret over paths untraveled, lives unlived, and times unrealized. The creature takes 6d6 mental damage and must attempt a Will save. After the effect is resolved, the target is then temporarily immune for 1 day.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage and is stupefied 2 for 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and is stupefied 2 for 1 minute. While affected, the creature must attempt another save at the start of its turn; on a failure, it's slowed 1 for that turn as it sobs uncontrollably.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage and for 1 minute, it's stupefied 4 and slowed 1 as it sobs uncontrollably.</Description>
+    <Heightened every="1"> The mental damage increases by 1d6. </Heightened>
+</Spell>
+<Spell page="18" type="Cantrip">
+    <Name>Omnidirectional Scan</Name>
+    <Level>3</Level>
+    <Traits>Uncommon, Cantrip, Divination, Psychic, Scrying</Traits>
+    <Cast>verbal</Cast>
+    <Area>30-foot emanation</Area>
+    <Targets>1 ally and 1 enemy</Targets>
+    <Duration>until the start of your next turn</Duration>
+    <Description>You quickly view your surroundings from a variety of angles, your senses constructing an overall mental picture. You can choose to Seek the entire emanation of the spell.&lt;br&gt;&lt;br&gt; Regardless of whether you Seek, target one ally and one enemy in the area; if a target is concealed or hidden from you, you automatically succeed at the flat check to target it with this spell. You prepare to Aid the target ally on an attack roll against the target enemy. If you take this Aid reaction, you use your spell attack modifier and proficiency rank on your check to Aid. If you critically fail the roll to Aid, you get a failure instead.</Description>
+    <Heightened level="1"> Your scans are so minute that you can project your foe's likely strengths and weaknesses. You learn which of the target enemy's saving throws is highest and which is lowest, and you and all allies within 30 feet gain a +1 circumstance bonus to attacks and damage against the creature.</Heightened>
+</Spell>
+<Spell page="159" type="Focus">
+    <Name>Over the Coals</Name>
+    <Level>5</Level>
+    <Traits>Rare, Hex, Mental, Necromancy, Witch</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>120 feet</Range>
+    <Targets>1 creature</Targets>
+    <Duration>varies</Duration>
+    <Save>Will</Save>
+    <Description>You accuse the target of breaking its word to you and invoke the wrath of your patron to claim what's due, demanding the target pay you in currency, fulfill an order, or stand down. The demand can't be obviously self-destructive, or the spell fails. If the target resists, you take your payment from its life force. The target must attempt a Will save. Regardless of the result of its save, the target is temporarily immune for 1 day.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected and is immune to your &lt;i&gt;pact broker&lt;/i&gt; cantrips for 1 day.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; If the target doesn't comply with your request by the end of its next turn, it takes 3d8 persistent negative damage. If it later complies, the spell automatically ends.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; As success, but if the target doesn't comply, it is drained 1 and takes 6d8 persistent negative damage.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As success, but if the target doesn't comply, it is drained 2, doomed 1, and takes 6d8 persistent negative damage. Even if the target completes your commands later, the spell doesn't end until all the conditions end.</Description>
+    <Heightened level="9"> You can target up to two creatures.</Heightened>
+</Spell>
+<Spell page="159" type="Cantrip">
+    <Name>Pact Broker</Name>
+    <Level>1</Level>
+    <Traits>Rare, Cantrip, Enchantment, Hex, Mental, Witch</Traits>
+    <Cast>verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>1 creature</Targets>
+    <Duration>sustained up to 1 minute</Duration>
+    <Save>Will</Save>
+    <Description>You offer to broker a pact of peace. If the target accepts and doesn't take hostile actions against you and your allies, you take a –1 status penalty to Deception checks to Lie to them. If they refuse and take a hostile action against you or an ally, they must attempt a Will save. If they accepted the offer and then take a hostile action against you or an ally, they must attempt a Will save and treat the result as one category worse. Regardless of the outcome, the target is then temporarily immune for 1 minute.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target takes a –1 status penalty to attack and damage rolls against you and your allies.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target takes a –2 status penalty to attack and damage rolls against you and your allies.</Description>
+</Spell>
+<Spell page="185" type="Focus">
+    <Name>Path of Least Resistance</Name>
+    <Level>4</Level>
+    <Traits>Uncommon, Divination</Traits>
+    <Cast>verbal</Cast>
+    <Description>You trace several possible routes, quickly resetting the timeline until you find the safest one. Choose three spaces you could reach with two Stride actions. Each must be at least 20 feet from the other two. You Stride twice to one of the spaces, determined randomly by the GM from among the paths you chose. If some of the paths contain a hidden danger, such as a trap that you would trigger by walking into the trap's affected area, the GM doesn't consider this path when randomly determining which one you take, but if all options have a hidden danger, the GM randomly chooses between all three paths. This movement doesn't trigger reactions.</Description>
+</Spell>
+<Spell page="143" type="Focus">
+    <Name>Purifying Veil</Name>
+    <Level>4</Level>
+    <Traits>Rare, Cleric, Evocation, Good, Water</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>60 feet</Range>
+    <Targets>1 Large or smaller creature</Targets>
+    <Duration>1 minute</Duration>
+    <Description>Drawing on the purifying powers of water, you call forth a veil of fine water droplets suffused with holy energy. The veil surrounds the target. Everything on each side of the veil is concealed from creatures on the opposite side, but the water doesn't impede attacks or movement across the veil. If the target moves through the veil, it takes 4d6 good damage with a basic Will save. If the target leaves the veil, the spell ends.</Description>
+    <Heightened every="1"> The good damage increases by 1d6.</Heightened>
+</Spell>
+<Spell page="20" type="Cantrip">
+    <Name>Redistribute Potential</Name>
+    <Level>5</Level>
+    <Traits>Uncommon, Cantrip, Cold, Evocation, Fire, Psychic</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>60 feet</Range>
+    <Area>2 adjacent 5-foot squares</Area>
+    <Save>basic Fortitude</Save>
+    <Description>Energy attempts to balance out, but with your magic, you can shunt all the energy in one area to another. Creatures in either area take 4d4 damage with a basic Fortitude save. Choose one of the squares to steal heat, dealing cold damage, and the other to concentrate the stolen heat, dealing fire damage. A creature that fails its save also becomes clumsy 1 from numbness if it's in the area of stolen heat or enfeebled 1 from heat stroke if it's in the area of concentrated heat; these conditions last until the start of your next turn. If a creature is large enough to be in both squares, you choose only one of the areas for it to attempt its save against; it's unaffected by the other area.</Description>
+</Spell>
+<Spell page="159" type="Focus">
+    <Name>Return the Favor</Name>
+    <Level>3</Level>
+    <Traits>Rare, Hex, Necromancy, Witch</Traits>
+    <Cast>somatic</Cast>
+    <Range>30 feet</Range>
+    <Targets>1 ally</Targets>
+    <Description>You're unable to leave any debts unpaid. When an ally supports you in a fight, you offer assistance in turn for the favor. The triggering ally gains 12 temporary Hit Points for 1 minute.</Description>
+    <Heightened every="1"> The temporary Hit Points increase by 4.</Heightened>
+</Spell>
+<Spell page="143" type="Focus">
+    <Name>Shaken Confidence</Name>
+    <Level>4</Level>
+    <Traits>Rare, Cleric, Emotion, Enchantment, Mental, Misfortune</Traits>
+    <Cast>verbal</Cast>
+    <Duration>varies</Duration>
+    <Save>Will</Save>
+    <Description>You mock the target for all its failings, twisting its self-confidence into doubt. The enemy attempts a Will saving throw.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target is briefly shaken and unsure of its abilities. It must roll twice and take the worse result on the next roll of the same type as the critical failure that triggered the spell (such as the target's next Acrobatics check if the spell's trigger was a critical failure on an Acrobatics check). If the target doesn't attempt any qualifying checks, the spell ends at the end of the target's next turn.</Description>
+</Spell>
+<Spell page="21" type="Cantrip">
+    <Name>Shatter Mind</Name>
+    <Level>3</Level>
+    <Traits>Uncommon, Cantrip, Evocation, Mental, Psychic</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Area>15-foot cone</Area>
+    <Save>basic Will</Save>
+    <Description>You telepathically assail the minds of your foes. You deal mental damage equal to 2d4 plus your spellcasting ability modifier to all enemies in the area, with a basic Will save.</Description>
+</Spell>
+<Spell page="143" type="Focus">
+    <Name>String of Fate</Name>
+    <Level>1</Level>
+    <Traits>Rare, Abjuration, Cleric, Fortune</Traits>
+    <Cast>somatic</Cast>
+    <Range>60 feet</Range>
+    <Targets>you and 1 ally</Targets>
+    <Duration>sustained up to 1 minute</Duration>
+    <Description>You bond yourself to a cherished friend, vowing to share their fate for good or for ill. Whenever an effect would require both you and the target to attempt a saving throw, if one of you succeeds at your saving throw and the other critically fails, you can choose to both fail instead. You and the ally must agree to fail; otherwise, use your normal save results instead.</Description>
+</Spell>
+<Spell page="17" type="Cantrip">
+    <Name>Telekinetic Rend</Name>
+    <Level>1</Level>
+    <Traits>Uncommon, Cantrip, Evocation, Psychic</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>60 feet</Range>
+    <Area>2 non-overlapping 5-foot bursts</Area>
+    <Save>basic Fortitude</Save>
+    <Description>Your mind creates a violent axis of motion in a nearby space. You deal your choice of 1d6 bludgeoning or 1d6 slashing damage to all creatures in the area, with a basic Fortitude save. A creature large enough to be in more than one of the bursts takes damage only once.</Description>
+</Spell>
+<Spell page="189" type="Focus">
+    <Name>Temporal Distortion</Name>
+    <Level>1</Level>
+    <Traits>Uncommon, Cursebound, Oracle, Transmutation</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>1 creature</Targets>
+    <Save>Will</Save>
+    <Description>You share some of your own temporal distortions with a foe, altering their mind and body unpredictably as they're thrown backward or forward in time. Roll 1d4. On a 1, the foe becomes clumsy; on a 2, it becomes enfeebled; on a 3, it becomes stupefied; and on a 4, you choose which condition applies.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is either clumsy 1, enfeebled 1, or stupefied 1 for 4 rounds, depending on the result of the d4.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but the time warp is stronger, increasing the condition's effects but making it run its course faster. The condition's value is 3, and the condition lasts for 2 rounds.</Description>
+</Spell>
+<Spell page="23" type="Cantrip">
+    <Name>Tesseract Tunnel</Name>
+    <Level>5</Level>
+    <Traits>Uncommon, Cantrip, Conjuration, Psychic, Teleportation</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Duration>sustained up to 1 minute</Duration>
+    <Description>You race from point to point, tearing open a tunnel in space. You create a portal in your current space and then Stride, creating another portal in the space you end your Stride. Until the beginning of your next turn, any creature that enters the first portal can immediately transport itself to the exit portal as part of its move action, which adds the teleportation trait to its movement.&lt;br&gt;&lt;br&gt; You can have only one &lt;i&gt;tesseract tunnel&lt;/i&gt; open at a time; creating another causes the first to immediately close. You can use tesseract tunnel while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.</Description>
+    <Heightened level="1"> Physical movement is no longer necessary to connect two points in space. When you cast </Heightened>
+    <Heightened level="1">, you simply create a tunnel that ends in a square within a range equal to your Speed; you can choose to immediately teleport to the space at the far end of the tunnel. Furthermore, the tunnel can be traversed in both directions, instead of only from entrance to exit. Finally, the spell's duration changes to 1 minute. You can Dismiss the spell.</Heightened>
+</Spell>
+<Spell page="20" type="Cantrip">
+    <Name>Thermal Stasis</Name>
+    <Level>1</Level>
+    <Traits>Uncommon, Abjuration, Cantrip, Psychic</Traits>
+    <Cast>verbal</Cast>
+    <Range>60 feet</Range>
+    <Targets>1 creature</Targets>
+    <Duration>until the start of your next turn</Duration>
+    <Description>The same abilities that let you raise or lower thermal energy also let you keep it at a safe medium. The target gains resistance 2 against fire damage and resistance 2 against cold damage.</Description>
+</Spell>
+<Spell page="189" type="Focus">
+    <Name>Time Skip</Name>
+    <Level>3</Level>
+    <Traits>Uncommon, Cursebound, Oracle, Transmutation</Traits>
+    <Cast>somatic</Cast>
+    <Range>30 feet</Range>
+    <Targets>1 willing creature other than yourself</Targets>
+    <Duration>1 round</Duration>
+    <Description>You manipulate time around your ally, pushing them forward a few moments in time. The target is quickened on its next turn and can use the action only to Step, Stride, or Strike.</Description>
+    <Heightened every="1"> You can one additional willing creature other than yourself within range.</Heightened>
+</Spell>
+<Spell page="17" type="Cantrip">
+    <Name>Vector Screen</Name>
+    <Level>3</Level>
+    <Traits>Uncommon, Abjuration, Cantrip, Psychic</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>60 feet</Range>
+    <Area>one 5-foot square</Area>
+    <Duration>until the start of your next turn</Duration>
+    <Description>You set up a transparent, rippling screen of telekinetic energy that seizes small, fast-moving projectiles. Creatures can pass through the screen, but ammunition from physical ranged attacks—such as arrows, bolts, sling bullets, and other objects of similar size—is automatically trapped in the screen, clattering to the ground once the spell ends. Attacks with bigger ranged weapons, such as javelins, take a –2 circumstance penalty to their attack rolls if their paths pass through the screen. Massive ranged weapons and spell effects that don't create physical objects pass through the screen with no penalty.</Description>
+</Spell>
+<Spell page="143" type="Focus">
+    <Name>Victory Cry</Name>
+    <Level>1</Level>
+    <Traits>Rare, Cleric, Evocation, Sonic</Traits>
+    <Cast>verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>the triggering ally</Targets>
+    <Description>Your true might comes from your bonds with your allies, and you glory in their achievements. The weapon used to make the Strike deals an additional 1d6 sonic damage (not doubled due to the critical hit), and the ally can immediately attempt to Shove the creature struck, even if the ally's hands are full. Your ally can use its item bonus to the triggering attack roll on the Athletics check, if any, and it gains a +1 status bonus to the Athletics check if the triggering Strike was with a weapon that has the trip trait or an unarmed attack that has the trip trait.</Description>
+    <Heightened every="2"> The sonic damage increases by 1d6.</Heightened>
+</Spell>
+<Spell page="207" type="Focus">
+    <Name>Waking Dream</Name>
+    <Level>4</Level>
+    <Traits>Enchantment, Mental</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>60 feet</Range>
+    <Targets>1 creature</Targets>
+    <Duration>sustained up to 1 minute</Duration>
+    <Save>Will</Save>
+    <Description>You cloud the target's mind with vivid, dreamlike imagery, so they have difficulty distinguishing real threats from imagined ones.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is distracted by the visions and treats all other creatures as concealed for 1 round, and you can't Sustain the Spell to increase the duration.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target is confused. In addition to the creatures present, the target might also attack wildly at thin air, attempting to fend off the dreams. It can attempt a new save at the end of each of its turns to end the confusion. Even if the confused effect ends early, the target treats all other creatures as concealed for 1 round.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but the target gets no save to end the effect early.</Description>
+</Spell>
+<Spell page="143" type="Focus">
+    <Name>Weaponize Secret</Name>
+    <Level>4</Level>
+    <Traits>Rare, Cleric, Divination, Mental</Traits>
+    <Cast>somatic, verbal</Cast>
+    <Range>60 feet</Range>
+    <Targets>up to 3 creatures</Targets>
+    <Duration>1 minute or until discharged</Duration>
+    <Save>Will</Save>
+    <Description>You understand that holding a secret is in itself a kind of power. Each target must attempt a Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; A rune symbolizing a secret the target is keeping (at the GM's discretion) appears floating in front of you. If that creature attempts a Strike or spell attack against you while you hold their secret, you can discharge the rune as a reaction to deal 7d6 mental damage to the creature.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but the target becomes convinced you know their secret and takes 1d6 persistent mental damage from worry. If the rune with the secret is discharged while the creature is still taking the persistent mental damage, the persistent mental damage immediately ends.</Description>
+    <Heightened every="1"> The mental damage increases by 2d6, and the persistent mental damage on a critical failure increases by 1.</Heightened>
+</Spell>
+<Spell page="144" type="Focus">
+    <Name>Wind Whispers</Name>
+    <Level>4</Level>
+    <Traits>Rare, Cleric, Enchantment, Linguistic, Mental</Traits>
+    <Cast>1 hour (material, somatic, verbal)</Cast>
+    <Range>1 mile</Range>
+    <Description>You call forth numerous breezes in which you weave gossip, whispering subtly into the ears of those around. Choose a rumor or information you wish to spread, which may or may not be true, about a single subject. Those within range of the spell overhear the rumor at some point over the next hour, though they'll be unable to pin it down to a source. Attempt a check with a modifier equal to your spell DC – 10 against a hard DC for your level. The GM might modify the DC depending on how plausible the rumor is. Repeated castings to spread the same rumor or information have no effect unless circumstances have substantially changed, as determined by the GM.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; Your rumor spreads far and wide, and it's at the tip of people's tongues. For 1 week, anyone who succeeds at a check to Gather Information on the specific subject learns your rumor in preference to other rumors about the subject. Skill checks to convince people that the rumor is true get a +2 circumstance bonus.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; Enough people take note of the rumor that it begins to spread, though those who heard the rumor aren't necessarily convinced. For 1 week, anyone who succeeds at a check to Gather Information on the specific subject adds your rumor to the list of rumors they could learn about the subject, and skill checks to convince people that the rumor is true get a +1 circumstance bonus.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; Most in the area dismiss the rumor as wild gossip and pay it little mind, granting no effect.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The winds' gossip is misinterpreted and spreads information contradictory to the rumor you were attempting to spread. A contradictory rumor spreads, and skill checks to convince others that your original rumor is true take a –2 circumstance penalty.</Description>
+</Spell>
+<Spell page="144" type="Focus">
+    <Name>Wordsmith</Name>
+    <Level>4</Level>
+    <Traits>Rare, Cleric, Transmutation</Traits>
+    <Cast>material, somatic, verbal</Cast>
+    <Range>touch</Range>
+    <Targets>1 document written by a single author and comprised of written text in a single language</Targets>
+    <Duration>until the next time you Refocus</Duration>
+    <Description>You're a devotee of knowledge with an unmatched command of the language used to spread that knowledge, and you can reshape the written word into a form more understandable to your audience. The language of the target's written text shifts to a language you know. This shift doesn't change the text's contents beyond minor translation differences, nor does it grant the reader any understanding of the original language.</Description>
+</Spell>
+</pf2:spells>
