@@ -408,7 +408,6 @@
     <Feats>
         <Ability name="Cover Fire" level="1" page="111" cost="1">
             <Traits>Gunslinger</Traits>
-            <Archetype>Sniping Duo*</Archetype>
             <Frequency>once per round</Frequency>
             <Requirements>You're wielding a loaded firearm or crossbow.</Requirements>
             <Description>You lay down suppressive fire to protect allies by forcing foes to take cover from your wild attacks. Make a firearm or crossbow Strike; the target must decide before you roll your attack whether it will duck out of the way. If the target ducks, it gains a +2 circumstance bonus to AC against your attack, or a +4 circumstance bonus to AC if it has cover. It also takes a –2 circumstance penalty to ranged attack rolls until the end of its next turn. If the target chooses not to duck, you gain a +1 circumstance bonus to your attack roll for that Strike.</Description>
@@ -424,7 +423,6 @@
         </Ability>
         <Ability name="Hit the Dirt!" level="1" page="111" cost="Reaction">
             <Traits>Gunslinger</Traits>
-            <Archetype>Unexpected Sharpshooter*</Archetype>
             <Trigger>A creature you can see attempts a ranged Strike against you.</Trigger>
             <Description>You fling yourself out of harm's way. You Leap. Your movement gives you a +2 circumstance bonus to AC against the triggering attack. Regardless of whether or not the triggering attack hits, you land prone after completing your Leap.</Description>
         </Ability>
@@ -434,7 +432,6 @@
         </Ability>
         <Ability name="Sword and Pistol" level="1" page="111">
             <Traits>Gunslinger</Traits>
-            <Archetype>Pistol Phenom*</Archetype>
             <Description>You're comfortable wielding a firearm or crossbow in one hand and a melee weapon in the other, combining melee attacks with shots from the firearm. When you make a successful ranged Strike against an enemy within your reach with your one-handed firearm or one-handed crossbow, that enemy is flat-footed against your next melee attack with a one-handed melee weapon.&lt;br&gt;&lt;br&gt; When you make a successful melee Strike against an enemy with your one-handed melee weapon, the next ranged Strike you make against that enemy with a one-handed firearm or one-handed crossbow doesn't trigger reactions that would trigger on a ranged attack but not a melee attack, such as Attack of Opportunity. Either of these benefits is lost if not used by the end of your next turn.</Description>
         </Ability>
         <Ability name="Defensive Armaments" level="2" page="111">
@@ -449,14 +446,12 @@
         </Ability>
         <Ability name="Pistol Twirl" level="2" page="112" cost="1">
             <Traits>Gunslinger</Traits>
-            <Archetype>Bullet Dancer*</Archetype>
             <Prerequisites>Trained In Deception</Prerequisites>
             <Requirements>You're wielding a loaded one-handed ranged weapon.</Requirements>
             <Description>Your quick gestures and flair for performance distract your opponent, leaving it vulnerable to your follow-up attacks. You Feint against an opponent within the required weapon's first range increment, rather than an opponent within melee reach. If you succeed, the foe is flat-footed against your melee and ranged attacks, rather than only your melee attacks. On a critical failure, you're flat-footed against the target's melee and ranged attacks, rather than only its melee attacks.</Description>
         </Ability>
         <Ability name="Risky Reload" level="2" page="112" cost="1">
             <Traits>Flourish, Gunslinger</Traits>
-            <Archetype>Unexpected Sharpshooter*</Archetype>
             <Requirements>You're wielding a firearm.</Requirements>
             <Description>You've practiced a technique for rapidly reloading your firearm, but attempting to use this technique is a dangerous gamble with your firearm's functionality. Interact to reload a firearm, then make a Strike with that firearm. If the Strike fails, the firearm misfires.</Description>
         </Ability>
@@ -473,7 +468,6 @@
         </Ability>
         <Ability name="Black Powder Boost or" level="4" page="112" cost="1">
             <Traits>Gunslinger</Traits>
-            <Archetype>Bullet Dancer*</Archetype>
             <Requirements>You're wielding a loaded firearm.</Requirements>
             <Description>You fire your weapon as you jump, using the kickback to go farther. You Leap and discharge your firearm to add a +10-foot status bonus to the distance traveled. If you spend 2 actions for Black Powder Boost, you High Jump or Long Jump instead.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; An ability that allows you to High Jump or Long Jump as a single action (like the Quick Jump skill feat) lets you use Black Powder Boost as a single action for those jumps as well.</Description>
         </Ability>
@@ -562,7 +556,6 @@
         </Ability>
         <Ability name="Deflecting Shot" level="10" page="115" cost="Reaction">
             <Traits>Gunslinger</Traits>
-            <Archetype>Sniping Duo*</Archetype>
             <Trigger>An ally within the first range increment of your firearm or crossbow is hit by an attack, and you can see the attacker.</Trigger>
             <Requirements>You're wielding a loaded firearm or crossbow.</Requirements>
             <Description>You're always ready to take a quick shot to deflect a weapon or distract a foe enough to render them off target. The ally gains a +2 circumstance bonus to their AC against the triggering attack. You use this reaction after the result of the attack roll is revealed, so you know whether the +2 will make a sufficient difference.</Description>
@@ -585,7 +578,6 @@
         </Ability>
         <Ability name="Redirecting Shot" level="10" page="116" cost="Reaction">
             <Traits>Fortune, Gunslinger</Traits>
-            <Archetype>Sniping Duo*</Archetype>
             <Trigger>An ally misses with a ranged attack that uses a thrown weapon or ammunition. The ally must be willing to accept your assistance, you must see the attack's target, and the attack's target must be within the first range increment of your firearm or crossbow.</Trigger>
             <Requirements>You're wielding a loaded firearm or crossbow.</Requirements>
             <Description>Seeing your ally's attack about to go astray, you fire your weapon to right its course. Discharge your firearm and roll a d20. Your ally uses this roll instead of their own, and the attack ignores bonuses the target would gain against the attack from lesser or standard cover.</Description>
@@ -616,7 +608,6 @@
         </Ability>
         <Ability name="Ricochet Shot" level="12" page="117" cost="1">
             <Traits>Concentrate, Gunslinger</Traits>
-            <Archetype>Bullet Dancer*</Archetype>
             <Description>You bounce your shot off a nearby surface to strike your opponent from an unexpected angle. When determining whether a target has cover from your ranged attack with a firearm or crossbow, you can choose one solid surface within your weapon's first range increment to ricochet your shot off of. If you do, you determine the target's cover from the point where you ricochet your shot instead of from you.</Description>
         </Ability>
         <Ability name="Shattering Shot" level="12" page="117" cost="1">
@@ -669,7 +660,6 @@
         </Ability>
         <Ability name="Two-Weapon Fusillade" level="14" page="118" cost="1">
             <Traits>Flourish, Gunslinger</Traits>
-            <Archetype>Bullet Dancer*</Archetype>
             <Requirements>You're wielding two weapons, each in a different hand. At least one of these weapons must be a loaded firearm or loaded crossbow.</Requirements>
             <Description>You attack with both your weapons in a furious barrage. Strike twice, once with each weapon.</Description>
         </Ability>
