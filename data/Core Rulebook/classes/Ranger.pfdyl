@@ -135,14 +135,7 @@ You can have only one creature designated as your prey at a time. If you use Hun
 	<FeatureList level="11">
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
 		<AbilitySlot state="filled" name="Juggernaut" type="ClassFeature" contents="Juggernaut" />
-		<AbilitySlot state="filled" name="Medium Armor Expertise">
-			<Ability>
-				<Description>You've learned to defend yourself better against attacks.
-
-Your proficiency ranks for light armor, medium armor, and unarmored defense increase to Expert.</Description>
-				<AttributeMods Proficiency="Expert">Light Armor, Medium Armor, Unarmored</AttributeMods>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Medium Armor Expertise" type="ClassFeature" contents="Medium Armor Expertise" />
 		<AbilitySlot state="filled" name="Skill Increase">
 			<Ability skillIncrease="true"/>
 		</AbilitySlot>

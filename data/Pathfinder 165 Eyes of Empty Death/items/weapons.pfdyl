@@ -1,0 +1,89 @@
+<pf2:Items category="weapons" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Base Weapons">
+<Item level="" page="73">
+	<Name>This Weapon is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>9 sp (price for 5 bolts)</Price>
+	<Bulk>0</Bulk>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; —A typical repeating hand crossbow magazine holds five bolts.&lt;br&gt;</Description>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Description>Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Bow&lt;/b&gt;: If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can't move from its space until it succeeds. The creature doesn't become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort. </Description>
+</Item>
+<Item level="" page="null">
+	<Name>Filter Use</Name>
+	<Description>For increased filtering power, click the 'Export to CSV' button in the top-right of the grid and further filter the data in Excel or a similar medium.</Description>
+</Item>
+<Item level="" page="73">
+	<Name>This Weapon is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>2 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Agile, Deadly d8, Finesse, Uncommon, Versatile PThese strange curved blades are jagged and deadly weapons made from the alchemically strengthened teeth of dead urdefhans. Each weapon is typically named for the urdefhan whose teeth were forged into the weapon, which are often carried (and revered) by that urdefhan's descendants. Magical shauth blades allow an urdefhan wielder to channel their Wicked Bite ability through shauth blade Strikes.</Description>
+</Item>
+<Item level="" page="null">
+	<Name>Traits</Name>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Description>Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Knife&lt;/b&gt;: The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon's item bonus to attack rolls. </Description>
+</Item>
+<Item level="" page="null">
+	<Name>Filter Use</Name>
+	<Description>For increased filtering power, click the 'Export to CSV' button in the top-right of the grid and further filter the data in Excel or a similar medium.</Description>
+</Item>
+<Item level="" page="73">
+	<Name>This Weapon is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Description>, &lt;i&gt;Bestiary 2 pg. 273&lt;/i&gt; 2.0&lt;br&gt;&lt;b&gt;Price&lt;/b&gt; 4 gp; &lt;b&gt;Damage&lt;/b&gt; 1d8 S; &lt;b&gt;Bulk&lt;/b&gt; 2&lt;br&gt;&lt;b&gt;Hands&lt;/b&gt; 1&lt;br&gt;&lt;b&gt;Category&lt;/b&gt; Advanced&lt;br&gt;&lt;b&gt;Group&lt;/b&gt; Sword; &lt;b&gt;Traits&lt;/b&gt; Deadly d8, Two-Hand 1d10, UncommonThese dual-bladed swords are commonly used by urdefhan warriors.</Description>
+</Item>
+<Item level="" page="null">
+	<Name>Traits</Name>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Description>Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Sword&lt;/b&gt;: The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.</Description>
+</Item>
+<Item level="" page="null">
+	<Name>Filter Use</Name>
+	<Description>For increased filtering power, click the 'Export to CSV' button in the top-right of the grid and further filter the data in Excel or a similar medium.</Description>
+</Item>
+<Item level="" page="73">
+	<Name>This Weapon is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>8 gp</Price>
+	<Bulk>1</Bulk>
+	<Hands>2</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Deadly d10, Finesse, Trip, UncommonThis metal chain bears hook-like barbs made of alchemically strengthened urdefhan teeth. Magical shauth lashes have the same ability to channel an urdefhan wielder's Wicked Bite as magical shauth blades, and urdefhans hold these weapons with the same reverence as they do shauth blades.</Description>
+</Item>
+<Item level="" page="null">
+	<Name>Traits</Name>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Description>Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Flail&lt;/b&gt;: The target is knocked prone. </Description>
+</Item>
+<Item level="" page="null">
+	<Name>Filter Use</Name>
+	<Description>For increased filtering power, click the 'Export to CSV' button in the top-right of the grid and further filter the data in Excel or a similar medium.</Description>
+</Item>
+<Item level="" page="73">
+	<Name>This Weapon is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Description>; &lt;b&gt;Traits&lt;/b&gt; Repeating, UncommonThis weapon features an ingeniously designed catch mechanism at the top of the flight grove, just in front of the latch, which automatically loads a bolt from a magazine and resets the string each time the weapon is fired. A typical repeating hand crossbow magazine holds five bolts.</Description>
+</Item>
+<Item level="" page="null">
+	<Name>Traits</Name>
+</Item>
+<Item level="" page="283">
+	<Name>Critical Specialization Effects</Name>
+	<Description>Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.&lt;br&gt;&lt;br&gt;&lt;b&gt;Bow&lt;/b&gt;: If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can't move from its space until it succeeds. The creature doesn't become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort. </Description>
+</Item>
+<Item level="" page="null">
+	<Name>Filter Use</Name>
+	<Description>For increased filtering power, click the 'Export to CSV' button in the top-right of the grid and further filter the data in Excel or a similar medium.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

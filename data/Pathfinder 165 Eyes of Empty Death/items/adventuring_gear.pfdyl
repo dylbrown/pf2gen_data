@@ -1,0 +1,9 @@
+<pf2:Items category="adventuring_gear" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<Item level="0" page="73">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>1 gp</Price>
+	<Description>This leather bandolier holds up to three repeating hand crossbow magazines in leather pockets that pop open with the quick flick of a thumb. You reduce the reload time for a repeating hand crossbow magazine from the bandolier by 1, to a total of 2 actions. You can wear only one shootist bandolier at a time.</Description>
+</Item>
+</pf2:Items>

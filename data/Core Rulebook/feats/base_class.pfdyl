@@ -102,4 +102,12 @@
         <Description>Your skill with light armor improves, increasing your ability to dodge blows. Your proficiency ranks for light armor and unarmored defense increase to master.</Description>
         <AttributeMods Proficiency="Master">Light Armor, Unarmored</AttributeMods>
     </Ability>
+    <Ability name="Medium Armor Expertise">
+        <Description>You've learned to defend yourself better against attacks. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert.</Description>
+        <AttributeMods Proficiency="Expert">Medium Armor, Light Armor, Unarmored</AttributeMods>
+    </Ability>
+    <Ability name="Medium Armor Mastery">
+        <Description>Your skill with armor improves, helping you avoid more blows. Your proficiency ranks for light and medium armor, as well as for unarmored defense, increase to master.</Description>
+        <AttributeMods Proficiency="Master">Medium Armor, Light Armor, Unarmored</AttributeMods>
+    </Ability>
 </pf2:feats>

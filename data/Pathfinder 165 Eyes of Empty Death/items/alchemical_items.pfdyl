@@ -1,0 +1,284 @@
+<pf2:Items category="alchemical_items" xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/item.xsd">
+<SubCategory name="Alchemical Tools">
+<Item level="5" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>21 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Traits>Alchemical, Consumable, Olfactory</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>This foul-smelling unguent dulls the odors and traces that fungus creatures detect. For 1 day after you slather this musk on your body, fungus creatures take a –4 penalty to Perception checks to Seek you or otherwise notice you. If a fungus creature is mindless, it instead has a –6 penalty. The musk also grants you a +1 item bonus to AC against melee attacks from fungus creatures with no vision for the same period of time. The effects of fungal walk musk end immediately if you're submerged in water or subject to another olfactory effect.</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Alchemical Poisons">
+<Item level="4" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>16 gp</Price>
+	<Bulk>L</Bulk>
+	<Hands>2</Hands>
+	<Traits>Alchemical, Consumable, Incapacitation, Injury, Poison, Sleep</Traits>
+	<Usage>held in 2 hands</Usage>
+	<Description>Stupor poison is a more potent distillation of lethargy poison. Further exposure to stupor poison doesn't require the target to attempt additional saving throws; only failing a saving throw against an ongoing exposure can progress its stage.&lt;br&gt;&lt;br&gt; &lt;b&gt;Saving Throw&lt;/b&gt; DC 20 Fortitude; &lt;b&gt;Maximum Duration&lt;/b&gt; 6 hours; &lt;b&gt;Stage 1&lt;/b&gt; slowed 1 and flat-footed (1 round); &lt;b&gt;Stage 2&lt;/b&gt; slowed 2 and flat-footed (1 round); &lt;b&gt;Stage 3&lt;/b&gt; unconscious with no Perception check to wake up (1 round); &lt;b&gt;Stage 4&lt;/b&gt; unconscious with no Perception check to wake up (1d6 hours)</Description>
+</Item>
+</SubCategory>
+<SubCategory name="Alchemical Bombs">
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals the listed negative damage and splash damage, and it sickens the primary target on a critical hit. This damage harms only living creatures. Many types grant an item bonus to attack rolls.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>The bomb deals 1d6 negative damage and 1 negative splash damage. On a critical hit, the target is sickened 1.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>The bomb deals 1d6 negative damage and 1 negative splash damage. On a critical hit, the target is sickened 1.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +1 item bonus to attack rolls. The bomb deals 2d6 negative damage and 2 negative splash damage. On a critical hit, the target is sickened 2.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +1 item bonus to attack rolls. The bomb deals 2d6 negative damage and 2 negative splash damage. On a critical hit, the target is sickened 2.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +2 bonus to attack rolls. The bomb deals 3d6 negative damage and 3 negative splash damage. On a critical hit, the target is sickened 3.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +2 bonus to attack rolls. The bomb deals 3d6 negative damage and 3 negative splash damage. On a critical hit, the target is sickened 3.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +3 bonus to attack rolls. The bomb deals 4d6 negative damage and 4 negative splash damage. On a critical hit, the target is sickened 4.</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +3 bonus to attack rolls. The bomb deals 4d6 negative damage and 4 negative splash damage. On a critical hit, the target is sickened 4.</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals the listed negative damage and splash damage, and it sickens the primary target on a critical hit. This damage harms only living creatures. Many types grant an item bonus to attack rolls.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>The bomb deals 1d6 negative damage and 1 negative splash damage. On a critical hit, the target is sickened 1.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>The bomb deals 1d6 negative damage and 1 negative splash damage. On a critical hit, the target is sickened 1.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +1 item bonus to attack rolls. The bomb deals 2d6 negative damage and 2 negative splash damage. On a critical hit, the target is sickened 2.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +1 item bonus to attack rolls. The bomb deals 2d6 negative damage and 2 negative splash damage. On a critical hit, the target is sickened 2.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +2 bonus to attack rolls. The bomb deals 3d6 negative damage and 3 negative splash damage. On a critical hit, the target is sickened 3.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +2 bonus to attack rolls. The bomb deals 3d6 negative damage and 3 negative splash damage. On a critical hit, the target is sickened 3.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +3 bonus to attack rolls. The bomb deals 4d6 negative damage and 4 negative splash damage. On a critical hit, the target is sickened 4.</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +3 bonus to attack rolls. The bomb deals 4d6 negative damage and 4 negative splash damage. On a critical hit, the target is sickened 4.</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals the listed negative damage and splash damage, and it sickens the primary target on a critical hit. This damage harms only living creatures. Many types grant an item bonus to attack rolls.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>The bomb deals 1d6 negative damage and 1 negative splash damage. On a critical hit, the target is sickened 1.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>The bomb deals 1d6 negative damage and 1 negative splash damage. On a critical hit, the target is sickened 1.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +1 item bonus to attack rolls. The bomb deals 2d6 negative damage and 2 negative splash damage. On a critical hit, the target is sickened 2.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +1 item bonus to attack rolls. The bomb deals 2d6 negative damage and 2 negative splash damage. On a critical hit, the target is sickened 2.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +2 bonus to attack rolls. The bomb deals 3d6 negative damage and 3 negative splash damage. On a critical hit, the target is sickened 3.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +2 bonus to attack rolls. The bomb deals 3d6 negative damage and 3 negative splash damage. On a critical hit, the target is sickened 3.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +3 bonus to attack rolls. The bomb deals 4d6 negative damage and 4 negative splash damage. On a critical hit, the target is sickened 4.</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +3 bonus to attack rolls. The bomb deals 4d6 negative damage and 4 negative splash damage. On a critical hit, the target is sickened 4.</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Bulk>L</Bulk>
+	<Hands>1</Hands>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Usage>held in 1 hand</Usage>
+	<Description>Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals the listed negative damage and splash damage, and it sickens the primary target on a critical hit. This damage harms only living creatures. Many types grant an item bonus to attack rolls.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Lesser)</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>The bomb deals 1d6 negative damage and 1 negative splash damage. On a critical hit, the target is sickened 1.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>3 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>The bomb deals 1d6 negative damage and 1 negative splash damage. On a critical hit, the target is sickened 1.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Moderate)</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +1 item bonus to attack rolls. The bomb deals 2d6 negative damage and 2 negative splash damage. On a critical hit, the target is sickened 2.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>10 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +1 item bonus to attack rolls. The bomb deals 2d6 negative damage and 2 negative splash damage. On a critical hit, the target is sickened 2.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Greater)</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +2 bonus to attack rolls. The bomb deals 3d6 negative damage and 3 negative splash damage. On a critical hit, the target is sickened 3.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>250 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +2 bonus to attack rolls. The bomb deals 3d6 negative damage and 3 negative splash damage. On a critical hit, the target is sickened 3.&lt;br&gt;</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>Necrotic Bomb (Major)</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +3 bonus to attack rolls. The bomb deals 4d6 negative damage and 4 negative splash damage. On a critical hit, the target is sickened 4.</Description>
+</Item>
+<Item level="1" page="74">
+	<Name>This Item is from the Abomination Vaults Adventure Path and may contain Spoilers</Name>
+	<Price>2,500 gp</Price>
+	<Bulk>L</Bulk>
+	<Traits>Alchemical, Bomb, Consumable, Negative, Splash</Traits>
+	<Description>You gain a +3 bonus to attack rolls. The bomb deals 4d6 negative damage and 4 negative splash damage. On a critical hit, the target is sickened 4.</Description>
+</Item>
+</SubCategory>
+</pf2:Items>

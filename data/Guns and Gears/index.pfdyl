@@ -4,9 +4,13 @@
     <ShortName>G&amp;G</ShortName>
     <Category>Rulebooks</Category>
     <Dependencies>
+        <Dependency>Bestiary 1</Dependency>
         <Dependency>Core Rulebook</Dependency>
+        <Dependency>Advanced Player's Guide</Dependency>
         <Dependency>Gamemastery Guide</Dependency>
+        <Dependency>Gods and Magic</Dependency>
         <Dependency>Grand Bazaar</Dependency>
+        <Dependency>Pathfinder #165: Eyes of Empty Death</Dependency>
     </Dependencies>
     <Description>&lt;h2&gt;Pathfinder Guns &amp; Gears&lt;/h2&gt;&lt;p&gt;Gear Up and Throw Down! When sword and spell just won't be enough to win the day, it's time to power up your game with clockwork gears, lightning coils, and black powder! Guns &amp; Gears, the latest hardcover rulebook for the Pathfinder Roleplaying Game (Second Edition), brings the excitement of firearms and fantasy technology to your tabletop!&lt;/p&gt;
 
@@ -24,6 +28,10 @@
         &lt;/ul&gt;
         &lt;p&gt;
         Written by: Michael Sayre, Mark Seifter, and Logan Bonner, Jessica Catalan, John Compton, Andrew D. Geels, Steven Hammond, Sen H.H.S., Brent Holtsberry, Jason Keeley, Dustin Knight, Luis Loza, Ron Lundeen, Chris Mastey, Will McCardell, Liane Merciel, Jacob W. Michaels, Dave Nelson, Samantha Phelan, Mikhail Rekun, Stephen Radney-MacFarland, Sydney Meeker, Kendra Leigh Speedling, Andrew Stoeckle, Calliope Lee Taylor, Sara Thompson, Andrew White, and Scott D. Young&lt;/p&gt;</Description>
+    <Classes>
+        <Class name="Gunslinger" path="classes/Gunslinger.pfdyl" />
+        <Class name="Inventor" path="classes/Inventor.pfdyl" />
+    </Classes>
     <Equipment>
         <Category name="Adventuring Gear" path="items/adventuring_gear.pfdyl" />
         <Category name="Alchemical Items" path="items/alchemical_items.pfdyl" />
@@ -35,6 +43,7 @@
         <Category name="Vehicles" path="items/vehicles.pfdyl" />
         <Category name="Worn Items" path="items/worn_items.pfdyl" />
     </Equipment>
+    <Weapons name="Weapons" path="items/weapons.pfdyl" />
     <Feats>
         <Category name="Archetype" path="feats/archetypes.pfdyl" />
         <Category name="Skill" path="feats/skill.pfdyl" />

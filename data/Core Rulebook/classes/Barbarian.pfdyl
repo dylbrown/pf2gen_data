@@ -366,15 +366,7 @@
                 <AttributeMods Proficiency="Legendary">Fortitude</AttributeMods>
             </Ability>
         </AbilitySlot>
-        <AbilitySlot state="filled" name="Medium Armor Expertise">
-            <Ability>
-                <Description>You've learned to defend yourself better against attacks.
-
-                    Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert.
-                </Description>
-                <AttributeMods Proficiency="Expert">Light Armor, Medium Armor, Unarmored</AttributeMods>
-            </Ability>
-        </AbilitySlot>
+        <AbilitySlot state="filled" name="Medium Armor Expertise" type="ClassFeature" contents="Medium Armor Expertise" />
         <AbilitySlot state="filled" name="Skill Increase">
             <Ability skillIncrease="true"/>
         </AbilitySlot>

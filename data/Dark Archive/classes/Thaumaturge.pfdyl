@@ -92,7 +92,7 @@
 		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
 		<AbilitySlot state="filled" name="Intensify Vulnerability">
 			<Ability>
-				<Description>You've learned to use your implement to further assault a creature whose vulnerabilities you're exploiting. You gain the intensify vulnerability benefit of all of your implements, as well as the following action.&lt;h3&gt;Intensify Vulnerability&lt;/h3&gt;ConcentrateDivinationEsotericaMagicalThaumaturge&lt;br&gt;&lt;b&gt;Source&lt;/b&gt; &lt;i&gt;Dark Archive pg. 35&lt;/i&gt;&lt;br&gt;&lt;b&gt;Frequency&lt;/b&gt; once per round&lt;br&gt;&lt;b&gt;Requirements&lt;/b&gt; You're benefiting from Exploit Vulnerability, you can see the subject, and you haven't used Exploit Vulnerability this round.You present your implement and esoterica again, intensifying their effects on the target in a way unique to your implement. You gain the intensified vulnerability benefit from one of the implements you're holding, which lasts until the beginning of your next turn.&lt;br&gt;&lt;h2&gt;Thaumaturgic ExpertiseLevel 9&lt;/h2&gt;You've learned deeper secrets of the supernatural, and your abilities are harder to resist. Your proficiency rank for your thaumaturge class DC increases to expert. &lt;br&gt;&lt;br&gt;You also gain an additional skill increase, which you can apply only to Arcana, Nature, Occultism, or Religion.&lt;br&gt;&lt;h2&gt;Vigilant SensesLevel 9&lt;/h2&gt;Through your adventures, you've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master.&lt;br&gt;&lt;h2&gt;Medium Armor ExpertiseLevel 11&lt;/h2&gt;You've learned to defend yourself better against attacks. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert.&lt;br&gt;&lt;h2&gt;Second AdeptLevel 11&lt;/h2&gt;You've improved your link to your second implement. You gain the adept benefit of your second implement.&lt;br&gt;&lt;h2&gt;Greater ResolveLevel 13&lt;/h2&gt;Your unbelievable training grants you mental resiliency. Your proficiency rank for Will saves increases to legendary. When you roll a critical failure on a Will save, you get a failure instead. When you roll a failure on a Will save against a damaging effect, you take half damage.&lt;br&gt;&lt;h2&gt;Weapon MasteryLevel 13&lt;/h2&gt;You fully understand your weapons. Your proficiency ranks for unarmed attacks, simple weapons, and martial weapons increase to master.&lt;br&gt;&lt;h2&gt;Greater Weapon SpecializationLevel 15&lt;/h2&gt;Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary.&lt;br&gt;&lt;h2&gt;JuggernautLevel 15&lt;/h2&gt;Your body is accustomed to physical hardship and resistant to a wide range of ailments. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead.&lt;br&gt;&lt;h2&gt;Third ImplementLevel 15&lt;/h2&gt;As you come closer to the culmination of your journey, you gain your final implement, completing your set of three. It must be a different type of implement than your first and second implements. You gain the initiate benefit and intensify vulnerability benefit of your new implement.&lt;br&gt;&lt;h2&gt;Implement ParagonLevel 17&lt;/h2&gt;You have unlocked the last secrets of an implement. Choose one of your implements that already gained the adept benefit; you gain the paragon benefit for that implement.&lt;br&gt;&lt;h2&gt;Thaumaturgic MasteryLevel 17&lt;/h2&gt;You've become a master in paranormal phenomena, and your esoterica grow in power. Your proficiency rank for your thaumaturge class DC increases to master. &lt;br&gt;&lt;br&gt;You also gain an additional skill increase, which you can apply only to Arcana, Nature, Occultism, or Religion.&lt;br&gt;&lt;h2&gt;Medium Armor MasteryLevel 19&lt;/h2&gt;Your skill with light and medium armor improves, increasing your ability to avoid blows. Your proficiency ranks for light and medium armor, as well as for unarmed defense, increase to master.&lt;br&gt;&lt;h2&gt;Unlimited EsotericaLevel 19&lt;/h2&gt;Your understanding of your esoterica becomes so complete that you can access your mystic tools without even thinking. You can use Exploit Vulnerability or Intensify Vulnerability as a free action, rather than a single action, though still with a frequency of only once per round.</Description>
+				<Description>You've learned to use your implement to further assault a creature whose vulnerabilities you're exploiting. You gain the intensify vulnerability benefit of all of your implements, as well as the following action.&lt;h3&gt;Intensify Vulnerability&lt;/h3&gt;ConcentrateDivinationEsotericaMagicalThaumaturge&lt;br&gt;&lt;b&gt;Source&lt;/b&gt; &lt;i&gt;Dark Archive pg. 35&lt;/i&gt;&lt;br&gt;&lt;b&gt;Frequency&lt;/b&gt; once per round&lt;br&gt;&lt;b&gt;Requirements&lt;/b&gt; You're benefiting from Exploit Vulnerability, you can see the subject, and you haven't used Exploit Vulnerability this round.You present your implement and esoterica again, intensifying their effects on the target in a way unique to your implement. You gain the intensified vulnerability benefit from one of the implements you're holding, which lasts until the beginning of your next turn.&lt;br&gt;</Description>
 			</Ability>
 		</AbilitySlot>
 		<AbilitySlot state="filled" name="Skill Increase">
@@ -114,11 +114,7 @@
 	</FeatureList>
 <FeatureList level="11">
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
-		<AbilitySlot state="filled" name="Medium Armor Expertise">
-			<Ability>
-				<Description>You've learned to defend yourself better against attacks. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert.</Description>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Medium Armor Expertise" type="ClassFeature" contents="Medium Armor Expertise" />
 		<AbilitySlot state="filled" name="Second Adept">
 			<Ability>
 				<Description>You've improved your link to your second implement. You gain the adept benefit of your second implement.</Description>
@@ -186,11 +182,7 @@
 	</FeatureList>
 <FeatureList level="19">
 		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
-		<AbilitySlot state="filled" name="Medium Armor Mastery">
-			<Ability>
-				<Description>Your skill with light and medium armor improves, increasing your ability to avoid blows. Your proficiency ranks for light and medium armor, as well as for unarmed defense, increase to master.</Description>
-			</Ability>
-		</AbilitySlot>
+		<AbilitySlot state="filled" name="Medium Armor Mastery" type="ClassFeature" contents="Medium Armor Mastery" />
 		<AbilitySlot state="filled" name="Skill Increase">
 			<Ability skillIncrease="true"/>
 		</AbilitySlot>
