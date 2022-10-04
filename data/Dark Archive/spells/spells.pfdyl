@@ -120,7 +120,7 @@
     <Level>1</Level>
     <Traits>Evocation, Force</Traits>
     <Traditions>arcane, occult</Traditions>
-    <Cast>to     verbal</Cast>
+    <Cast>Single Action to Three Actions (verbal)</Cast>
     <Range>varies</Range>
     <Targets>1 or more creatures</Targets>
     <Save>Fortitude</Save>

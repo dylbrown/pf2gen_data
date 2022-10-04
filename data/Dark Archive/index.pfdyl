@@ -5,6 +5,8 @@
     <Category>Rulebooks</Category>
     <Dependencies>
         <Dependency>Core Rulebook</Dependency>
+        <Dependency>Advanced Player's Guide</Dependency>
+        <Dependency>Secrets of Magic</Dependency>
     </Dependencies>
     <Description>&lt;h2&gt;Dark Archive&lt;/h2&gt;&lt;p&gt;From the fringes, the unknown beckons. &lt;em&gt;Pathfinder Dark Archive&lt;/em&gt; contains secrets that any player or GM can use to reveal the paranormal lurking in their Pathfinder games! This spine-tinglingly secretive 224-page hardcover rulebook presents two new character classes perfect for delving into the unexplained: Unleash the untold power of your mind as the psychic or leverage supernatural secrets and mystic implements as the thaumaturge!&lt;/p&gt;
 
