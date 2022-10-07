@@ -14,6 +14,7 @@
             <Ability>
                 <CustomMod recalculate="On Level">
                     import model.items.weapons.Weapon;
+                    import model.enums.Proficiency;
                     import model.enums.WeaponProficiency;
                     weaponProficiencyModifier({item,proficiency -> {
                     def weapon = item.getExtension(Weapon.class);
@@ -249,6 +250,7 @@
                 <Description>You fully understand the best way to utilize your unique weapons. Your proficiency rank increases to master with simple and martial firearms and crossbows. Your proficiency rank for advanced firearms and crossbows, simple weapons, martial weapons, and unarmed attacks increases to expert. You gain access to the critical specialization effects for firearms and crossbows.</Description>
                 <CustomMod recalculate="On Level">
                     import model.items.weapons.Weapon;
+                    import model.enums.Proficiency;
                     import model.enums.WeaponProficiency;
                     weaponProficiencyModifier({item,proficiency -> {
                     def weapon = item.getExtension(Weapon.class);
@@ -327,6 +329,7 @@
 
                 <CustomMod recalculate="On Level">
                     import model.items.weapons.Weapon;
+                    import model.enums.Proficiency;
                     import model.enums.WeaponProficiency;
                     weaponProficiencyModifier({item,proficiency -> {
                     def weapon = item.getExtension(Weapon.class);
