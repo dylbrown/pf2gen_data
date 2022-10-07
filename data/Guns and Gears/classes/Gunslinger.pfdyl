@@ -16,16 +16,16 @@
                     import model.items.weapons.Weapon;
                     import model.enums.Proficiency;
                     import model.enums.WeaponProficiency;
-                    weaponProficiencyModifier({item,proficiency -> {
-                    def weapon = item.getExtension(Weapon.class);
-                    if(weapon.getGroup().getName() == "Firearm" || item.getName().contains("Crossbow")){
-                    if(weapon.getProficiency() == WeaponProficiency.Simple || weapon.getProficiency() == WeaponProficiency.Martial) {
-                    return Proficiency.max(proficiency, Proficiency.Expert);
-                    } else {
-                    return Proficiency.max(proficiency, Proficiency.Trained);
-                    }
-                    }
-                    return proficiency;
+                    weaponProficiencyModifier({item, proficiency -> {
+                        def weapon = item.getExtension(Weapon.class);
+                        if(weapon.getGroup().getName() == "Firearm" || item.getName().contains("Crossbow")) {
+                            if(weapon.getProficiency() == WeaponProficiency.Simple || weapon.getProficiency() == WeaponProficiency.Martial) {
+                                return Proficiency.max(proficiency, Proficiency.Expert);
+                            } else {
+                                return Proficiency.max(proficiency, Proficiency.Trained);
+                            }
+                        }
+                        return proficiency;
                     }});
                 </CustomMod>
                 <AttributeMods Proficiency="Expert">Perception, Fortitude, Reflex</AttributeMods>
@@ -35,7 +35,7 @@
             </Ability>
         </AbilitySlot>
         <AbilitySlot state="choice" name="Gunslinger's Way" contents="Gunslinger's Way">
-            <Ability name="Way of the Drifer" page="108">
+            <Ability name="Way of the Drifter" page="108">
                 <Description>You're a wanderer traveling from land to land with your gun and a melee weapon as company. Maybe you learned to fight with blade and pistol as a Shackles pirate, mastered the hand cannon and katana in Minkai, or practiced with a hatchet and clan pistol in Dongun Hold. You win battles by relying on mobility and flexible use of your weapons.</Description>
                 <AbilitySlot state="filled" name="Reloading Strike">
                     <Ability cost="1" page="108">
