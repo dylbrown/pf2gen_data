@@ -2,6 +2,12 @@
 <pf2:weapons xmlns:pf2="https://dylbrown.github.io"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/weapon.xsd">
+    <Groups>
+        <WeaponGroup>
+            <Name>Firearm</Name>
+            <CritEffect>The target must succeed at a Fortitude save against your class DC or be stunned 1.</CritEffect>
+        </WeaponGroup>
+    </Groups>
     <Melee>
         <Simple>
             <Weapon>
