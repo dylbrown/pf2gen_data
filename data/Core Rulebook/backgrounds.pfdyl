@@ -204,6 +204,13 @@
 		<Feat>Underwater Marauder</Feat>
 	</Background>
 	<Background>
+		<Name>Scholar</Name>
+		<Description>You have a knack for learning, and sequestered yourself from the outside world to learn all you could. You read about so many wondrous places and things in your books, and always dreamed about one day seeing the real things. Eventually, that curiosity led you to leave your studies and become an adventurer.&lt;br&gt;&lt;br&gt;&lt;b&gt;Note&lt;/b&gt; You gain the Assurance skill feat in your chosen skill.</Description>
+		<Skill>Arcana or Nature or Occultism or Religion, Lore (Academia)</Skill>
+		<AbilityBonuses>Int or Wis, Free</AbilityBonuses>
+		<Feat>Assurance</Feat>
+	</Background>
+	<Background>
 		<Name>Scout</Name>
 		<Description>You called the wilderness home as you found trails and guided travelers. Your wanderlust could have called you to the adventuring life, or perhaps you served as a scout for soldiers and found you liked battle. </Description>
 		<Skill>Survival, Lore (A Terrain)</Skill>

@@ -17,7 +17,7 @@
     <Ability name="Tattoo Artist" level="2" page="164">
         <Traits>General, Skill</Traits>
         <Archetype>Runelord</Archetype>
-        <Prerequisites>Trained In Crafting</Prerequisites>
+        <Prerequisites>Trained In Crafting, Runelord Dedication</Prerequisites>
         <Description>You can craft tattoos, including magical tattoos. When you select this feat, you gain the formulas for four common magical tattoos of 2nd level or lower. You gain a +1 circumstance bonus to Crafting checks to Craft tattoos. If you're a master in Crafting, this bonus increases to +2.</Description>
     </Ability>
 </pf2:feats>

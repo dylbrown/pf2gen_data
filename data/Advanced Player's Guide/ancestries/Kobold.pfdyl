@@ -1,0 +1,133 @@
+<?xml version = "1.0"?>
+<pf2:ancestry xmlns:pf2="https://dylbrown.github.io"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/ancestry.xsd">
+    <Name>Kobold</Name>
+    <HP>6</HP>
+    <Size>Small</Size>
+    <Speed>25</Speed>
+    <AbilityBonuses>Dexterity, Charisma, Free</AbilityBonuses>
+    <Languages>Common, Draconic</Languages>
+    <BonusLanguages>Aklo, Dwarven, Gnomish, Infernal, Terran, Undercommon</BonusLanguages>
+    <Senses>Darkvision</Senses>
+    <Description>Due to years of successful Pathfinder Society activities, all characters have access to the kobold ancestry.</Description>
+    <Feats>
+        <Ability name="Dragon's Presence" level="1" page="14">
+            <Traits>Kobold</Traits>
+            <Description>As a member of dragonkind, you project unflappable confidence (that collapses catastrophically against the deadliest foes). When you roll a success on a saving throw against a fear effect, you get a critical success instead. When you roll a failure against a fear effect, you get a critical failure instead. &lt;br&gt;&lt;br&gt;In addition, when you attempt to Demoralize a foe of your level or lower, you gain a +1 circumstance bonus to the Intimidation check.</Description>
+        </Ability>
+        <Ability name="Kobold Breath" level="1" page="14" cost="2">
+            <Traits>Arcane, Evocation, Kobold</Traits>
+            <Description>You channel your draconic exemplar's power into a gout of energy that manifests as a 30-foot line or a 15-foot cone, dealing 1d4 damage. Each creature in the area must attempt a basic saving throw against the higher of your class DC or spell DC. You can't use this ability again for 1d4 rounds.&lt;br&gt;&lt;br&gt; At 3rd level and every 2 levels thereafter, the damage increases by 1d4. The shape of the breath, the damage type, and the saving throw match those of your draconic exemplar (see Table 1–1). This ability has the trait associated with the type of damage it deals.Table 1-1: Draconic ExemplarsDragon Breath Weapon Shape Damage Type Saving Throw Black Line Acid Reflex Blue Line Electricity Reflex Green Cone Poison Fortitude Red Cone Fire Reflex White Cone Cold Reflex Brass Line Fire Reflex Bronze Line Electricity Reflex Copper Line Acid Reflex Gold Cone Fire Reflex Silver Cone Cold Reflex</Description>
+        </Ability>
+        <Ability name="Kobold Lore" level="1" page="14">
+            <Traits>Kobold</Traits>
+            <Description>You attentively learned key kobold survival strategies and mythology from your elders. You gain the trained proficiency rank in Stealth and Thievery. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Kobold Lore.</Description>
+        </Ability>
+        <Ability name="Scamper" level="1" page="14" cost="1">
+            <Traits>Kobold</Traits>
+            <Requirements>You are adjacent to at least one enemy.</Requirements>
+            <Description>You instinctively know how to flee danger. You Stride up to your Speed, with a +5-foot status bonus to your Speed, and you gain a +2 circumstance bonus to AC against reactions triggered by this movement. You must end this movement in a space that's not adjacent to any enemy.</Description>
+        </Ability>
+        <Ability name="Snare Setter" level="1" page="14">
+            <Traits>Kobold</Traits>
+            <Prerequisites>Trained In Crafting</Prerequisites>
+            <Description>You are adept at the time-honored kobold art of trap making. You gain the trained proficiency in Crafting. If you were already trained in Crafting, you instead become trained in a skill of your choice. You gain access to all uncommon kobold snares. You gain the Snare Crafting feat, though when choosing your formulas for that feat, you can also choose from uncommon kobold snares, as well as common snares.</Description>
+        </Ability>
+        <Ability name="Ally's Shelter" level="5" page="14" cost="Reaction">
+            <Traits>Fortune, Kobold</Traits>
+            <Trigger>You attempt a saving throw while adjacent to one or more allies, but you haven't rolled yet.</Trigger>
+            <Frequency>once per day</Frequency>
+            <Description>In stressful circumstances, you find strength in your allies' example. Roll the save using an adjacent ally's modifier for that type of saving throw instead of your own.</Description>
+        </Ability>
+        <Ability name="Grovel" level="5" page="14" cost="1">
+            <Traits>Auditory, Concentrate, Emotion, Kobold, Mental</Traits>
+            <Prerequisites>Trained In Deception</Prerequisites>
+            <Description>With obsequious words and begging gestures, you convince your foe you're less of a threat. You attempt to Feint against a creature. Unlike a normal Feint, the creature can be within 30 feet instead of in your melee reach, and you make your check against its Will DC instead of its Perception DC.</Description>
+        </Ability>
+        <Ability name="Snare Genius" level="5" page="15">
+            <Traits>Kobold</Traits>
+            <Prerequisites>Expert In Crafting, Snare Crafting</Prerequisites>
+            <Description>Your expertise makes your snares more powerful, and you can place them quickly and efficiently. Each day during your daily preparations, you can prepare three snares from your formula book for quick deployment; if the snare normally takes 1 minute to Craft, you can Craft it with 3 Interact actions. Snares prepared in this way don't cost you any resources to Craft. The number of snares you can prepare this way increases to four if you are a master in Crafting, and to five if you are legendary.&lt;br&gt;&lt;br&gt; When you Craft and deploy a snare that deals damage, any creature that critically fails its saving throw against the snare's initial effect and takes damage becomes flat-footed until the end of its next turn.</Description>
+        </Ability>
+        <Ability name="Between the Scales" level="9" page="15">
+            <Traits>Kobold</Traits>
+            <Description>Underestimating you is a grave mistake, but it's one others keep making. You've learned to take advantage of slips in your foes' defenses. When you Strike a flat-footed creature using a melee weapon or unarmed attack that has the agile and finesse traits, it gains the backstabber trait.</Description>
+        </Ability>
+        <Ability name="Dracomancer" level="9" page="15">
+            <Traits>Kobold</Traits>
+            <Description>Your inborn arcane power manifests as your exemplar's most time-honored spells. Choose one 1st-level spell and one 2nd-level spell from those listed for a dragon spellcaster of your draconic exemplar's type (such as alarm, blur, invisibility, and true strike for a black dragon exemplar). Links to all types of dragons can be found here. You can cast each of these spells once per day as arcane innate spells. You gain the trained proficiency rank in arcane spell attack rolls and spell DCs, and your key spellcasting ability is Charisma.</Description>
+        </Ability>
+        <Ability name="Dragon's Breath" level="9" page="15">
+            <Traits>Kobold</Traits>
+            <Prerequisites>Kobold Breath</Prerequisites>
+            <Description>You can put more effort into your Kobold Breath to channel greater draconic power, though it takes more out of you. When you use Kobold Breath, you can increase the damage dice to d8s and increase the area to 60 feet for a line breath weapon or 30 feet for a cone. If you do, you can't use Kobold Breath again for 1 hour.</Description>
+        </Ability>
+        <Ability name="Elite Dracomancer" level="13" page="15">
+            <Traits>Kobold</Traits>
+            <Prerequisites>Dracomancer</Prerequisites>
+            <Description>Your magic rivals that of lesser dragons. Choose one 3rd-level spell and one 4th-level spell from those listed for a dragon spellcaster of your draconic exemplar's type (such as paralyze and stinking cloud for a black dragon exemplar). Links to all types of dragons can be found here. You can cast each of these spells once per day as arcane innate spells.</Description>
+        </Ability>
+        <Ability name="Draconic Sycophant" level="1" page="37">
+            <Traits>Kobold</Traits>
+            <Description>You have an affect that dragonkind find unusually pleasing—and when that fails, you know when to duck. You gain a +2 circumstance bonus to Perception checks and saving throws against dragons. In addition, whenever you meet a creature with the dragon trait in a social situation, you can attempt a Diplomacy check to Make an Impression on that creature immediately, rather than after conversing for 1 minute; you take a –5 penalty to this check. If you fail, you can choose to engage in 1 minute of conversation and then attempt a new check rather than accept the failure or critical failure result.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If you have the Glad-Hand skill feat, you don't take the penalty to your immediate Diplomacy check if the target has the dragon trait.</Description>
+        </Ability>
+        <Ability name="Kobold Weapon Familiarity" level="1" page="38">
+            <Traits>Kobold</Traits>
+            <Description>You've trained with weapons ideal for subterranean efficiency. You are trained with the crossbow, greatpick, light pick, pick, and spear. You also gain access to all uncommon kobold weapons. For the purpose of determining your proficiency, martial kobold weapons are simple weapons, and advanced kobold weapons are martial weapons.</Description>
+        </Ability>
+        <Ability name="Slither" level="1" page="38">
+            <Traits>Kobold</Traits>
+            <Description>You are an expert at moving through extremely tight spaces. You gain the Quick Squeeze skill feat, even if you're not trained in Acrobatics. When you roll a success on an Acrobatics check to Squeeze, you get a critical success instead.</Description>
+        </Ability>
+        <Ability name="Kobold Weapon Innovator" level="5" page="38">
+            <Traits>Kobold</Traits>
+            <Prerequisites>Kobold Weapon Familiarity</Prerequisites>
+            <Description>You've learned devious tactics with your kobold weapons. Whenever you critically hit with a crossbow, greatpick, light pick, pick, spear, or kobold weapon, you apply the weapon's critical specialization effect.</Description>
+        </Ability>
+        <Ability name="Winglets" level="5" page="38">
+            <Traits>Kobold</Traits>
+            <Description>You're among the few kobolds who grow a set of draconic wings later in life. The wings are initially small and weak; while not enough for full flight, a strong flap allows you to jump further. When Leaping horizontally, you move an additional 5 feet (this additional distance isn't cumulative with the increased Leap distance from the Powerful Leap feat). You don't automatically fail your checks to High Jump or Long Jump if you don't Stride at least 10 feet first. In addition, when you attempt a Long Jump, you can jump a distance up to 10 feet longer than you normally would based on the result of your Athletics check, though you still can't jump farther than your Speed.</Description>
+        </Ability>
+        <Ability name="Briar Battler" level="9" page="38">
+            <Traits>Kobold</Traits>
+            <Description>You've learned to use roots, crevices, uneven ground, and dense underbrush to your advantage. When you're in difficult terrain from an environmental feature, you can Take Cover, even if the feature wouldn't ordinarily be large enough for you to Take Cover.</Description>
+        </Ability>
+        <Ability name="Close Quarters" level="9" page="38">
+            <Traits>Kobold</Traits>
+            <Description>You've trained to fight with allies in tunnel warrens, dense undergrowth, or similarly cramped terrain. If you are Small or smaller, you can end your movement in the same square as a Small or smaller ally. No more than two creatures can share the same space when using this ability or a similar one.</Description>
+        </Ability>
+        <Ability name="Dragonblood Paragon" level="9" page="39">
+            <Traits>Kobold</Traits>
+            <Prerequisites>Strongjaw Kobold, Venomtail Kobold, Dracomancer, Or Kobold Breath</Prerequisites>
+            <Description>Your draconic anatomy becomes especially pronounced. You increase the power of one of the following kobold heritages or feats you have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Dracomancer&lt;/b&gt; Increase the number of times you can cast each of the granted 1st- and 2nd-level innate spells by 1. &lt;br&gt;&lt;br&gt;&lt;b&gt;Kobold Breath&lt;/b&gt; Creatures that critically fail their save against your Kobold Breath take 3d4 persistent damage of the type dealt by your draconic patron. &lt;br&gt;&lt;br&gt;&lt;b&gt;Strongjaw Kobold&lt;/b&gt; Your jaws unarmed attack gains the deadly d6 trait. &lt;br&gt;&lt;br&gt;&lt;b&gt;Venomtail Kobold&lt;/b&gt; You produce enough venom to use the Tail Toxin action twice per day.</Description>
+        </Ability>
+        <Ability name="Snare Commando" level="9" page="39" cost="Reaction">
+            <Traits>Kobold</Traits>
+            <Prerequisites>Snare Crafting, Expert In Deception Or Expert In Intimidation</Prerequisites>
+            <Trigger>A creature fails or critically fails a save against your snare.</Trigger>
+            <Description>Your snares are so befuddling that your victims rarely notice you slipping out of sight. If you have expert proficiency in Deception, you can Create a Diversion against the triggering creature. If you have expert proficiency in Intimidation, you can instead Demoralize the triggering creature. If you have both, choose one of the two effects.</Description>
+        </Ability>
+        <Ability name="Hatchling Flight" level="13" page="39" cost="1">
+            <Traits>Kobold</Traits>
+            <Prerequisites>Winglets</Prerequisites>
+            <Frequency>once per round</Frequency>
+            <Description>You can fly a little! You Fly up to half your Speed. If you don't end your movement on solid ground, you fall at the end of your turn.</Description>
+        </Ability>
+        <Ability name="Kobold Weapon Expertise" level="13" page="39">
+            <Traits>Kobold</Traits>
+            <Prerequisites>Kobold Weapon Familiarity</Prerequisites>
+            <Description>Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency in the crossbow, greatpick, light pick, pick, and spear, as well as any kobold weapons in which you are trained.</Description>
+        </Ability>
+        <Ability name="Vicious Snares" level="13" page="39">
+            <Traits>Kobold</Traits>
+            <Prerequisites>Snare Crafting, Expert In Crafting</Prerequisites>
+            <Description>You've learned how to create traps that cause greater injuries. You deal an additional 1d6 precision damage with damaging snares you craft. This increases to 2d6 additional precision damage if you're legendary in Crafting.</Description>
+        </Ability>
+        <Ability name="Wyrmling Flight" level="17" page="39">
+            <Traits>Kobold</Traits>
+            <Prerequisites>Hatchling Flight</Prerequisites>
+            <Description>Your draconic wings have grown large and strong enough for flight. You gain a fly Speed equal to your Speed, using your wings to stay aloft.</Description>
+        </Ability>
+    </Feats>
+</pf2:ancestry>

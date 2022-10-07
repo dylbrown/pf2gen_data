@@ -1,0 +1,121 @@
+<?xml version = "1.0"?>
+<pf2:ancestry xmlns:pf2="https://dylbrown.github.io"
+		   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/ancestry.xsd">
+	<Name>Ratfolk</Name>
+	<HP>6</HP>
+	<Size>Small</Size>
+	<Speed>25</Speed>
+	<AbilityBonuses>Dexterity, Intelligence, Free</AbilityBonuses>
+	<Languages>Common, Ysoki</Languages>
+	<BonusLanguages>Aklo, Draconic, Dwarven, Gnoll, Gnomish, Goblin, Halfling, Orcish, Undercommon</BonusLanguages>
+    <Senses>Low-light Vision</Senses>
+	<Description>Ysoki—as ratfolk call themselves—are a clever, adaptable, and fastidious ancestry who happily crowd their large families into the smallest of living spaces</Description>
+	<Feats>
+<Ability name="Fey Influence" level="5" page="30">
+	<Description>You have been exposed to powerful fey magic. You become trained in primal DCs and spell attack rolls. You gain the fey trait and one of the following features which grant an innate primal spell that can be used once per day. Anteater You can launch your tongue forward as a deadly attack, gaining grim tendrils. Dryad Your body is covered in elegant vines, granting you summon plants or fungus. Gremlin You have long, bat-like ears and gain bane. Monarch You have vestigial, insectile features and gain spider sting. This feat gains the trait appropriate for your ancestry (human for human, goblin for goblin, etc.)</Description>
+</Ability>
+<Ability name="Pack Rat" level="1" page="22">
+	<Traits>Ratfolk</Traits>
+	<Description>Years of packing for travel have taught you how to cram vast quantities into small spaces. You can fit an additional 50% of the listed Bulk capacity into mundane storage containers or vehicles. For example, you can fit 6 Bulk in a backpack, or 12 Bulk in a chest. This doesn't alter the items' Bulk, nor does it change how much you can store in a magical or extradimensional storage space, such as a &lt;i&gt;bag of holding&lt;/i&gt;.</Description>
+</Ability>
+<Ability name="Rat Familiar" level="1" page="22">
+	<Traits>Ratfolk</Traits>
+	<Description>You have a pet rat that has become magically bonded to you. You gain a familiar using the rules here, and this familiar must be a rat. It still gets the benefits of familiar abilities, but its base form remains a rat.</Description>
+</Ability>
+<Ability name="Ratfolk Lore" level="1" page="22">
+	<Traits>Ratfolk</Traits>
+	<Description>Years of experience among ratfolk communities have made you nimble, and you've learned to run and hide when enemies threaten. You gain the trained proficiency rank in Acrobatics and Stealth. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Ratfolk Lore.</Description>
+</Ability>
+<Ability name="Ratspeak" level="1" page="22">
+	<Traits>Ratfolk</Traits>
+	<Description>To you, the squeaking of rats and other rodents makes a strange kind of sense. You can ask questions of, receive answers from, and use the Diplomacy skill with rodents, including beavers, mice, porcupines, rats, and squirrels, but not with other mammals, such as dogs or bats. The GM determines which animals count as rodents.</Description>
+</Ability>
+<Ability name="Tinkering Fingers" level="1" page="22">
+	<Traits>Ratfolk</Traits>
+	<Description>You're good with your hands and can quickly improvise a fix for broken or damaged equipment. You're trained in Crafting. If you would automatically become trained in Crafting (from your background or class, for example), you instead become trained in a skill of your choice. You can Repair an item without using a repair kit without taking the –2 circumstance penalty, improvising tools from whatever you have at hand.</Description>
+</Ability>
+<Ability name="Vicious Incisors" level="1" page="22">
+	<Traits>Ratfolk</Traits>
+	<Description>You've let your incisors grow long enough to serve as formidable weapons. You gain a jaws unarmed attack that deals 1d6 piercing damage. Your jaws are in the brawling group and have the finesse and unarmed traits. Unlike most creatures, you can file down your teeth and regrow them later on, enabling you to select this feat at any level, and to retrain into and out of this feat.</Description>
+</Ability>
+<Ability name="Warren Navigator" level="1" page="22">
+	<Traits>Ratfolk</Traits>
+	<Description>You're particularly good at solving mazes and navigating twists and turns. You gain the trained proficiency rank in Survival. If you would automatically become trained in Survival (from your background or class, for example), you become trained in another skill of your choice. When you Sense Direction or attempt a roll against a maze spell, you get a result one degree of success better than you rolled. You don't take a penalty to Sense Direction when you lack a compass.</Description>
+</Ability>
+<Ability name="Lab Rat" level="5" page="23">
+	<Traits>Ratfolk</Traits>
+	<Description>You've spent more than your share of time in an alchemy lab. You might have been an alchemist yourself, an assistant, or perhaps even a test subject. Either way, you have been exposed to a wide variety of alchemical poisons and elixirs, leaving you with increased tolerance of their effects. You have a +1 circumstance bonus to saves against poison and harmful effects from elixirs. If you roll a success on your saving throw against an elixir or poison, you get a critical success instead.</Description>
+</Ability>
+<Ability name="Quick Stow (Ratfolk)" level="5" page="23" cost="Free">
+	<Traits>Ratfolk</Traits>
+	<Prerequisites>Cheek Pouches</Prerequisites>
+	<Frequency>once per round</Frequency>
+	<Description>You are adept at quickly moving items into your cheek pouches. You Interact to store one held item in your cheek pouches (provided it fits).</Description>
+</Ability>
+<Ability name="Rat Magic" level="5" page="23">
+	<Traits>Ratfolk</Traits>
+	<Description>There always seems to be a little rat around to carry messages for you. You can cast animal messenger once per day as a primal innate spell. When you do, the animal that responds is always a rat. If there are no rats within range, the spell is lost.</Description>
+</Ability>
+<Ability name="Big Mouth" level="9" page="23">
+	<Traits>Ratfolk</Traits>
+	<Prerequisites>Cheek Pouches</Prerequisites>
+	<Description>Your cheek pouches are especially stretchy. Instead of storing up to four items of Light Bulk in your cheek pouches, you can store up to 1 Bulk worth of items. The maximum size of a given item is unchanged.</Description>
+</Ability>
+<Ability name="Overcrowd" level="9" page="23">
+	<Traits>Ratfolk</Traits>
+	<Description>Your physiology is slight, and you can pack into small spaces with others of similar stature. As long as you are Small, you can end your movement in the same square as a Small ally. Only two creatures total can share the same space when using this ability or a similar one.</Description>
+</Ability>
+<Ability name="Rat Form" level="9" page="23" cost="1">
+	<Traits>Concentrate, Polymorph, Primal, Ratfolk, Transmutation</Traits>
+	<Description>You can transform into an innocuous-looking rat to scout an area or slip through tight spaces. You gain the effects of a 1st-level pest form spell, except that you must assume the battle form of a Tiny rat.</Description>
+</Ability>
+<Ability name="Warren Digger" level="13" page="23">
+	<Traits>Ratfolk</Traits>
+	<Description>You've learned to put your sturdy claws to work digging through the earth. You gain a burrow Speed of 15 feet.</Description>
+</Ability>
+<Ability name="Skull Creeper" level="1" page="54">
+	<Traits>Ratfolk</Traits>
+	<Description>You wear skulls to demoralize foes. You become trained in Intimidation and gain the Intimidating Glare skill feat. If you're already trained in Intimidation, you instead become trained in a skill of your choice. If you pay 50 gp for a splendid skull mask, the mask grants you a +1 item bonus to Intimidation; its usage is worn (mask).</Description>
+</Ability>
+<Ability name="Warren Friend" level="1" page="54">
+	<Traits>Downtime, Ratfolk</Traits>
+	<Description>You're adept at making contact with other ysoki. When you arrive at a new settlement, you automatically find the nearest ratfolk enclave by spending 1 day of downtime searching, provided one exists and its members aren't actively hiding from you. Once you've made contact, you gain a +1 circumstance bonus to Gather Information and Earn Income in the settlement.</Description>
+</Ability>
+<Ability name="Cornered Fury" level="5" page="54">
+	<Traits>Ratfolk</Traits>
+	<Description>When physically outmatched, you fight with unexpected ferocity. If a foe of a larger size than you critically hits and damages you, that foe is flat-footed to you for 1 round.</Description>
+</Ability>
+<Ability name="Gnaw" level="5" page="54" cost="3">
+	<Traits>Ratfolk</Traits>
+	<Prerequisites>Vicious Incisors</Prerequisites>
+	<Description>With enough time and determination, you can chew through nearly anything. You deal double your jaws damage to an unattended, inanimate object.</Description>
+</Ability>
+<Ability name="Plague Sniffer" level="5" page="55">
+	<Traits>Ratfolk</Traits>
+	<Prerequisites>Longsnout Rat</Prerequisites>
+	<Description>You can sniff out the pungent tang of disease. When you detect a creature by scent, you can also detect if that creature is suffering from a disease at a non-carrier state. If the disease is particularly subtle, you might need to attempt a Perception check against the disease's DC (subject to the GM's discretion).</Description>
+</Ability>
+<Ability name="Ratfolk Roll" level="5" page="55" cost="2">
+	<Traits>Move, Ratfolk</Traits>
+	<Description>Your ability to curl up into a tight ball comes in handy. You roll up into a ball and move up to four times your Speed in a straight line down an incline. If you reach the bottom of the incline or hit an obstacle during this first turn of movement, you stop rolling safely. Otherwise, you automatically keep rolling at this Speed during subsequent turns until you hit the bottom of the incline or an obstacle ends this movement (which can happen in the middle of your turn). You're slowed 2 each turn after the first that you keep rolling, and if you hit an obstacle on a turn after the first, you and the obstacle both take 4d6 bludgeoning damage and you stop rolling.</Description>
+</Ability>
+<Ability name="Uncanny Cheeks" level="9" page="55">
+	<Traits>Ratfolk</Traits>
+	<Description>You squirrel away useful objects and seem to retrieve them at just the right time. You gain the Prescient Consumable and Prescient Planner feats, except that you always withdraw the objects from your cheek pouches. This means the object you retrieve must fit in your cheek pouches; this is generally an item of negligible Bulk unless you also have the Cheek Pouches feat.</Description>
+</Ability>
+<Ability name="Shinstabber" level="13" page="55">
+	<Traits>Ratfolk</Traits>
+	<Prerequisites>Overcrowd</Prerequisites>
+	<Description>You can dart around and between your larger allies' legs without tripping them up. As long as you're Small or smaller, you can end your movement in the same square as a Medium or larger ally. Only two creatures total can share the same space when using this ability or a similar one.</Description>
+</Ability>
+<Ability name="Skittering Sneak" level="13" page="55">
+	<Traits>Ratfolk</Traits>
+	<Description>You squish, slink, and skitter from cover to cover with great speed and stealth. You can move up to your full Speed when you Sneak.</Description>
+</Ability>
+<Ability name="Ratfolk Growth" level="17" page="55">
+	<Traits>Ratfolk</Traits>
+	<Description>You call upon the familial bonds you share with other ysoki to defend them in battle. You can cast enlarge as a 6th-level primal innate spell once per day. You can target only yourself and other ratfolk with this spell.</Description>
+</Ability>
+	</Feats>
+</pf2:ancestry>

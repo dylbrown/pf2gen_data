@@ -1,0 +1,169 @@
+<?xml version = "1.0"?>
+<pf2:ancestry xmlns:pf2="https://dylbrown.github.io"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/ancestry.xsd">
+    <Name>Catfolk</Name>
+    <HP>8</HP>
+    <Size>Medium</Size>
+    <Speed>25</Speed>
+    <AbilityBonuses>Dexterity, Charisma, Free</AbilityBonuses>
+    <Languages>Common, Amurrun</Languages>
+    <BonusLanguages>Draconic, Elven, Gnomish, Goblin, Halfling, Iruxi, Jotun, Sylvan</BonusLanguages>
+    <Senses>Low-light Vision</Senses>
+    <Description>Curious and gregarious wanderers, catfolk combine features of felines and humanoids in both appearance and temperament. They enjoy learning new things, collecting new tales and trinkets, and ensuring their loved ones are safe and happy. Catfolk view themselves as chosen guardians of natural places in the world and are often recklessly brave, even in the face of overwhelming opposition.</Description>
+    <Feats>
+        <Ability name="Cat's Luck" level="1" page="10" cost="Free">
+            <Traits>Catfolk, Fortune</Traits>
+            <Trigger>You fail a Reflex saving throw.</Trigger>
+            <Frequency>once per day</Frequency>
+            <Description>You instinctively twist away from danger. You can reroll the triggering saving throw and use the better result.</Description>
+        </Ability>
+        <Ability name="Catfolk Lore" level="1" page="10">
+            <Traits>Catfolk</Traits>
+            <Description>Growing up among catfolk has taught you the traditional values of freedom to travel, stewardship of the land, and quick reactions when your curiosity lands you in trouble. You gain the trained proficiency rank in Acrobatics and Survival. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Catfolk Lore.</Description>
+        </Ability>
+        <Ability name="Catfolk Weapon Familiarity" level="1" page="10">
+            <Traits>Catfolk</Traits>
+            <Description>You favor weapons that you can use with quick, darting slashes like a cat's claws. You are trained with the hatchet, kama, kukri, scimitar, and sickle. In addition, you gain access to kama, kukris, and all uncommon catfolk weapons. For you, martial catfolk weapons are simple weapons and advanced catfolk weapons are martial weapons.</Description>
+        </Ability>
+        <Ability name="Well-Met Traveler" level="1" page="10">
+            <Traits>Catfolk</Traits>
+            <Description>You have seen people from so many walks of life in your travels that you naturally adopt a pleasant and affable demeanor when meeting others. You are trained in Diplomacy. If you would automatically become trained in Diplomacy (from your background or class, for example), you instead become trained in a skill of your choice.&lt;br&gt;&lt;br&gt; In addition, you gain the Hobnobber skill feat.</Description>
+        </Ability>
+        <Ability name="Catfolk Weapon Rake" level="5" page="10">
+            <Traits>Catfolk</Traits>
+            <Prerequisites>Catfolk Weapon Familiarity</Prerequisites>
+            <Description>You know how to efficiently use weapons that rake across your enemies. Whenever you critically hit using a catfolk weapon or one of the weapons listed in Catfolk Weapon Familiarity, you apply the weapon's critical specialization effect.</Description>
+        </Ability>
+        <Ability name="Climbing Claws" level="5" page="10">
+            <Traits>Catfolk</Traits>
+            <Description>You can extend your claws to aid you in climbing. You gain a climb Speed of 10 feet.</Description>
+        </Ability>
+        <Ability name="Expanded Luck" level="5" page="10">
+            <Traits>Catfolk</Traits>
+            <Prerequisites>Cat's Luck</Prerequisites>
+            <Description>You are luckier even than most catfolk. You can trigger Cat's Luck when you fail or critically fail a Fortitude or Will saving throw in addition to Reflex saving throws. You still can use Cat's Luck only once per day.</Description>
+        </Ability>
+        <Ability name="Light Paws" level="5" page="10" cost="2">
+            <Traits>Catfolk</Traits>
+            <Description>You can balance on your toes to step carefully over obstructions. You Stride and then Step, or Step and then Stride, ignoring difficult terrain during this movement.</Description>
+        </Ability>
+        <Ability name="Springing Leaper" level="5" page="10">
+            <Traits>Catfolk</Traits>
+            <Prerequisites>Expert In Athletics</Prerequisites>
+            <Description>Your powerful legs allow you to make sudden and dramatic leaps. You can Leap as a 2-action activity to double the distance you can Leap vertically, or Leap as a 3-action activity to triple the distance you can Leap vertically. You don't automatically fail Long Jumps for jumping in a different direction than your Stride.</Description>
+        </Ability>
+        <Ability name="Aggravating Scratch" level="9" page="10">
+            <Traits>Catfolk, Disease</Traits>
+            <Prerequisites>Claw Unarmed Attack</Prerequisites>
+            <Description>Your claws carry an irritant that is harmless to you but can be damaging to others. Your claw Strikes deal an additional 1d4 persistent poison damage on a critical hit.</Description>
+        </Ability>
+        <Ability name="Shared Luck (Catfolk)" level="9" page="11">
+            <Traits>Catfolk</Traits>
+            <Prerequisites>Cat's Luck</Prerequisites>
+            <Description>When you use Cat's Luck to reroll a Reflex saving throw, any creatures you choose within 10 feet who also just failed a Reflex saving throw against the same effect (such as a single spell) can also reroll their saving throws and use the better result.</Description>
+        </Ability>
+        <Ability name="Wary Skulker" level="9" page="11">
+            <Traits>Catfolk</Traits>
+            <Description>Ever alert, you scout for danger even when you are trying to stay hidden. You can perform the Scout exploration activity at the same time as the Avoid Notice exploration activity.</Description>
+        </Ability>
+        <Ability name="Well-Groomed" level="9" page="11">
+            <Traits>Catfolk</Traits>
+            <Description>You are fastidious about keeping yourself clean, whether licking your fur or carefully using traditional catfolk hygiene products, to salubrious effect. You gain a +1 circumstance bonus to saving throws against diseases. If you roll a success on a saving throw against a disease, you get a critical success instead.</Description>
+        </Ability>
+        <Ability name="Black Cat Curse" level="13" page="11" cost="Reaction">
+            <Traits>Catfolk, Divination, Misfortune, Occult</Traits>
+            <Trigger>A creature within 30 feet you can see would succeed at a save.</Trigger>
+            <Frequency>once per day</Frequency>
+            <Description>You hiss a spiteful curse at the creature. The target must reroll the triggering saving throw and use the worse result.</Description>
+        </Ability>
+        <Ability name="Caterwaul" level="13" page="11" cost="Reaction">
+            <Traits>Auditory, Catfolk, Concentrate, Emotion, Mental</Traits>
+            <Trigger>An ally within 30 feet would be reduced to 0 HP but not immediately killed.</Trigger>
+            <Frequency>once per day</Frequency>
+            <Description>You give a daring yowl in the face of adversity, calling your companion back from the brink of unconsciousness. Your ally isn't knocked out and remains at 1 Hit Point. Your ally's wounded condition still increases by 1 as though they had been dying and recovered.</Description>
+        </Ability>
+        <Ability name="Catfolk Weapon Expertise" level="13" page="11">
+            <Traits>Catfolk</Traits>
+            <Prerequisites>Catfolk Weapon Familiarity</Prerequisites>
+            <Description>Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency rank in all weapons you are trained in from Catfolk Weapon Familiarity.</Description>
+        </Ability>
+        <Ability name="Reliable Luck" level="17" page="11">
+            <Traits>Catfolk</Traits>
+            <Prerequisites>Cat's Luck</Prerequisites>
+            <Description>You have gone well past nine lives to survive danger with surprising regularity. You can use Cat's Luck once per hour, rather than once per day.</Description>
+        </Ability>
+        <Ability name="Catfolk Dance" level="1" page="18" cost="1">
+            <Traits>Catfolk</Traits>
+            <Description>You have a habit of always being in the way when other creatures attempt to move. Attempt an Acrobatics check against an adjacent creature's Reflex DC.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target creature gains a –2 circumstance penalty to Reflex saves and is flat-footed until the start of your next turn.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target creature gains a –2 circumstance penalty to Reflex saves until the start of your next turn.</Description>
+        </Ability>
+        <Ability name="Saberteeth" level="1" page="18">
+            <Traits>Catfolk</Traits>
+            <Description>You have long fangs, natural or augmented. You gain a jaws unarmed attack that deals 1d6 piercing damage. Your jaws are in the brawling group and have the unarmed trait.</Description>
+        </Ability>
+        <Ability name="Winter Cat Senses" level="1" page="18">
+            <Traits>Catfolk</Traits>
+            <Prerequisites>Winter Catfolk</Prerequisites>
+            <Description>Your eyes are keen and accustomed to winter conditions. You ignore concealment caused by ice and snow.</Description>
+        </Ability>
+        <Ability name="Focused Cat Nap" level="5" page="18">
+            <Traits>Catfolk</Traits>
+            <Prerequisites>Cat Nap, Focus Pool</Prerequisites>
+            <Description>When you Cat Nap, you can also Refocus as you dream of a relevant activity.</Description>
+        </Ability>
+        <Ability name="Graceful Guidance" level="5" page="18">
+            <Traits>Catfolk</Traits>
+            <Description>You can demonstrate how to quickly twist out of the way of dangerous effects. You can use the Aid reaction to grant a bonus to an ally's Reflex save. As usual for Aid, you need to prepare by using an action on your turn to encourage the ally.</Description>
+        </Ability>
+        <Ability name="Lucky Break" level="5" page="18">
+            <Traits>Catfolk</Traits>
+            <Prerequisites>Cat's Luck</Prerequisites>
+            <Description>You catch yourself as you make a mistake. You can trigger Cat's Luck when you fail or critically fail on an Athletics or Acrobatics skill check, in addition to its normal trigger. When you do, you reroll the triggering skill check and use the better result. This still counts against Cat's Luck's frequency, as normal.</Description>
+        </Ability>
+        <Ability name="Pride Hunter" level="5" page="18">
+            <Traits>Catfolk</Traits>
+            <Description>You avoid the attention of creatures focused on your allies. You can use lesser cover from your allies to Hide.</Description>
+        </Ability>
+        <Ability name="Evade Doom" level="9" page="19">
+            <Traits>Catfolk</Traits>
+            <Description>You can elude supernatural disaster. When you would gain the doomed condition, you can attempt a DC 17 flat check. On a success, you don't gain the doomed condition.</Description>
+        </Ability>
+        <Ability name="No Evidence" level="9" page="19">
+            <Traits>Catfolk</Traits>
+            <Prerequisites>Expert In Survival</Prerequisites>
+            <Description>You leave little sign when attempting to remain unseen. When you Avoid Notice, you also gain the benefits of Cover Tracks unless you choose not to.</Description>
+        </Ability>
+        <Ability name="Predator's Growl" level="9" page="19" cost="Reaction">
+            <Traits>Catfolk</Traits>
+            <Prerequisites>Expert In Intimidation</Prerequisites>
+            <Trigger>You successfully Seek a hidden or undetected creature.</Trigger>
+            <Description>You give a throaty growl to attempt to Demoralize a creature you just found. You don't take the –4 penalty for not sharing a language with the creature.</Description>
+        </Ability>
+        <Ability name="Sense for Trouble" level="9" page="19">
+            <Traits>Catfolk</Traits>
+            <Prerequisites>Cat's Luck</Prerequisites>
+            <Description>You can tell when something's off. You can trigger Cat's Luck after you roll initiative, in addition to its normal trigger, to reroll your Initiative and take the higher of the two results. This still counts against Cat's Luck's frequency, as normal.</Description>
+        </Ability>
+        <Ability name="Silent Step" level="9" page="19" cost="1">
+            <Traits>Catfolk, Flourish</Traits>
+            <Description>You vanish with silent treads. You Step, then Hide or Sneak. You still need to meet the requirements to Hide or Sneak, as normal.</Description>
+        </Ability>
+        <Ability name="Inspirit Hazard" level="13" page="19" cost="Reaction">
+            <Traits>Catfolk, Concentrate, Occult, Transmutation</Traits>
+            <Trigger>You Disable a hazard.</Trigger>
+            <Frequency>once per day</Frequency>
+            <Requirements>The hazard isn't broken.</Requirements>
+            <Description>You awaken a spirit of creation within the hazard. You learn the hazard's effects. Once in the next 10 minutes, when you observe a creature take an action that would trigger one of the hazard's reactions or free actions if you hadn't Disabled it, you can use a reaction to rearm the hazard, causing the observed creature to trigger it immediately.</Description>
+        </Ability>
+        <Ability name="Elude Trouble" level="17" page="19" cost="Reaction">
+            <Traits>Catfolk</Traits>
+            <Trigger>A creature misses you with a melee attack.</Trigger>
+            <Description>You slip through your foe's opening. Stride up to your Speed. This movement doesn't trigger movement-based reactions from the creature that missed you.</Description>
+        </Ability>
+        <Ability name="Ten Lives" level="17" page="19">
+            <Traits>Catfolk</Traits>
+            <Prerequisites>Evade Doom</Prerequisites>
+            <Description>When your character would die, you can attempt a DC 17 flat check. On a success, you're instead reduced to 0 HP and a dying value 1 less than would normally kill you (typically dying 3). This doesn't change the result for any other creature affected.</Description>
+        </Ability>
+    </Feats>
+</pf2:ancestry>

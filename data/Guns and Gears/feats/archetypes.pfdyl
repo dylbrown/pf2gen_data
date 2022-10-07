@@ -9,13 +9,6 @@
         <Prerequisites>Trained In Martial Weapons</Prerequisites>
         <Description>Artillery is a team sport, where every member of the crew has to rely on the other members. At best, a mistake might just waste time. At worst, a misaligned fuse or a badly set pin could cause the whole thing to explode. You've taken these lessons to heart, and so your presence on an artillery team assists the entire team at every aspect of the siege weapon's deployment and usage. If you're serving on a siege weapon crew, you and all other members gain a +2 circumstance bonus to any checks to Load, Aim, move, or Repair the weapon. When you Aim a siege weapon, you can move the weapon's aim twice as far as normal.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you've gained at least two other feats from the artillerist archetype.</Description>
     </Ability>
-    <Ability name="Named Artillery" level="4" page="128">
-        <Traits>Archetype, Skill</Traits>
-        <Archetype>Artillerist</Archetype>
-        <Prerequisites>Trained In Crafting, Artillerist Dedication</Prerequisites>
-        <Description>It is a tradition among artillerists to name the siege weapon most important to them and closest to their heart—much as a sailor on a ship, the weapon is their livelihood. You've gone a step further, and you always make sure that your named artillery has the best possible maintenance and upkeep. You can spend a full day adjusting and working on a single siege weapon to designate it as your named artillery. The siege weapon you designated as your named artillery gains a +2 circumstance bonus to AC, Fortitude saves, and Reflex saves as well as additional Hit Points equal to twice your level.&lt;br&gt;&lt;br&gt; During your daily preparations, you must spend at least one hour on maintenance to service your named artillery. If you fail to do so, or if you spend a full day designating a new piece of named artillery, the previous named artillery loses any benefits from this feat. Only one artillerist can designate a particular siege weapon as their named artillery, even if several artillerists are serving on the same siege weapon's crew (though it's typically more efficient for a group with several artillerists to divide them up, assigning one to each siege weapon).
-        </Description>
-    </Ability>
     <Ability name="Shorthanded" level="4" page="129">
         <Traits>Archetype</Traits>
         <Archetype>Artillerist</Archetype>
