@@ -211,7 +211,7 @@
                     import model.enums.WeaponProficiency;
 
                     damageModifier("Singular Expertise Damage Increase", {weapon, damage ->
-                    if(weapon.getGroup().getName() == "Firearm" || item.getName().contains("Crossbow")) {
+                    if(weapon.getGroup().getName() == "Firearm" || weapon.getItem().getName().contains("Crossbow")) {
                     return damage.add(1);
                     }
                     return damage;
