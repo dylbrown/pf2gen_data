@@ -5,6 +5,7 @@ Bestiary 2
 Bestiary 3
 Character Guide
 Core Rulebook
+Dark Archive
 Extinction Curse
 Gamemastery Guide
 Gods and Magic
@@ -12,6 +13,7 @@ Grand Bazaar
 Guns and Gears
 Legends
 Pathfinder Society Guide
+Pathfinder 165 Eyes of Empty Death
 Secrets of Magic
 The Mwangi Expanse
 World Guide

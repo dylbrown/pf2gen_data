@@ -2,4 +2,67 @@
 <pf2:feats xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Ability name="Hireling Manager" level="3" page="206">
+        <Traits>General</Traits>
+        <Prerequisites>Charisma 14</Prerequisites>
+        <Description>You are able to find and secure better labor than most. When securing a hireling for a service, that hireling gains a +2 circumstance bonus to all skill checks. This circumstance bonus applies to both trained and untrained hirelings and has no effect on the cost of the service or labor provided.</Description>
+    </Ability>
+    <Ability name="Improvised Repair" level="3" page="206" cost="3">
+        <Traits>General</Traits>
+        <Description>You are skilled at making quick fixes to damaged equipment, but your fixes aren't meant to last forever. You make a quick repair to a broken non-magical item in your possession. Until the item takes damage again, you can still use it as a shoddy item of its type. This repair restores no Hit Points, so the item is easy to destroy. Once the item is Repaired normally such that it is no longer broken, it is also no longer shoddy.</Description>
+    </Ability>
+    <Ability name="Keen Follower" level="3" page="207">
+        <Traits>General</Traits>
+        <Description>Your keen observation of your allies has made you better at following their lead. When using the Follow the Expert activity in exploration mode, you gain a +3 circumstance bonus if the ally you are following is an expert and a +4 circumstance bonus if your ally is a master.</Description>
+    </Ability>
+    <Ability name="Pick up the Pace" level="3" page="208">
+        <Traits>General</Traits>
+        <Prerequisites>Constitution 14</Prerequisites>
+        <Description>You lead by example and can help others push themselves beyond their normal limits. When Hustling in a group during exploration mode, your group can Hustle for up to 20 additional minutes, to a maximum of the amount of time the character with the highest Constitution modifier could Hustle alone.</Description>
+    </Ability>
+    <Ability name="Prescient Planner" level="3" page="208">
+        <Traits>General</Traits>
+        <Requirements>You haven't used this ability since the last time you were able to purchase goods.</Requirements>
+        <Description>You regularly create convoluted plans and contingencies, using your resources to enact them. You take 1 minute to remove your backpack, then carefully remove an item you hadn't previously declared that you purchased—you intuited that you would come to need the item and purchased it at the latest opportunity. The item must be a piece of adventuring gear, and can't be a weapon, armor, alchemical item, magic item, or other treasure. It must be common with a level no higher than half your level, and its Bulk must be low enough that carrying it wouldn't have made you encumbered.</Description>
+    </Ability>
+    <Ability name="Skitter" level="3" page="209">
+        <Traits>General</Traits>
+        <Prerequisites>Fleet, Dexterity 16</Prerequisites>
+        <Description>You can scoot swiftly across the ground. You can Crawl up to half your Speed.</Description>
+    </Ability>
+    <Ability name="Thorough Search" level="3" page="209">
+        <Traits>General</Traits>
+        <Prerequisites>Expert In Perception</Prerequisites>
+        <Description>You take your time searching to ensure you find everything. When Searching, you can take twice as long to search. Normally this means you Search at up to one quarter of your Speed, to a maximum of 150 feet per minute to check everything, or 75 feet per minute to check everything before you walk into it. If you do, you gain a +2 circumstance bonus to your Perception checks to Seek.</Description>
+    </Ability>
+    <Ability name="Prescient Consumable" level="7" page="208">
+        <Traits>General</Traits>
+        <Prerequisites>Prescient Planner</Prerequisites>
+        <Description>You can predict which consumables you might need in advance. When using Prescient Planner, you can procure a consumable item from your backpack, instead of a piece of adventuring gear. The consumable item must still be common with a level no higher than half your level, and its Bulk must be low enough that carrying it wouldn't have made you encumbered.</Description>
+    </Ability>
+    <Ability name="Supertaster" level="7" page="209">
+        <Traits>General</Traits>
+        <Prerequisites>Master In Perception</Prerequisites>
+        <Description>You have refined your palate and have a discerning sense of taste that can detect abnormalities in the flavor and texture of food and beverages. When eating food or drinking a beverage, you automatically attempt to identify the ingredients, which might alert you to the presence of alterations or additives, such as poisons. The GM rolls a secret Perception check using the poison's level to determine the DC; on a success, you learn that the food or drink was poisoned, but not the specific poison used. &lt;br&gt;&lt;br&gt;If you lick or taste something while Investigating or attempting to Recall Knowledge to identify something, if the taste would provide relevant additional information (at the GM's discretion), you gain a +2 circumstance bonus to your check.</Description>
+    </Ability>
+    <Ability name="A Home in Every Port" level="11" page="202">
+        <Traits>Downtime, General</Traits>
+        <Prerequisites>Charisma 16</Prerequisites>
+        <Description>You have a reputation in towns and villages you've visited, and residents are always willing to open their doors to you. When in a town or village, during downtime, you can spend 8 hours to locate a resident willing to provide lodging for you and up to six allies for up to 24 hours at no charge. The standard of living within the acquired lodging is comfortable, and square meals are provided at no cost. After 24 hours, you must pay standard prices for further lodging and meals or use this feat again to find a new resident willing to host you.</Description>
+    </Ability>
+    <Ability name="Caravan Leader" level="11" page="204">
+        <Traits>General</Traits>
+        <Prerequisites>Pick Up The Pace, Constitution 18</Prerequisites>
+        <Description>You know how to get the most effort out of your allies on the road. When Hustling in a group during exploration mode, your group can Hustle for as long as the member who could Hustle longest on their own, plus an additional 20 minutes beyond that.</Description>
+    </Ability>
+    <Ability name="Incredible Scout" level="11" page="206">
+        <Traits>General</Traits>
+        <Prerequisites>Master In Perception</Prerequisites>
+        <Description>When you scout, you are particularly alert for danger, granting your allies precious moments to prepare to fight. When using the Scout exploration activity, you grant your allies a +2 circumstance bonus to their initiative rolls instead of a +1 circumstance bonus.</Description>
+    </Ability>
+    <Ability name="True Perception" level="19" page="209">
+        <Traits>General, Revelation</Traits>
+        <Prerequisites>Legendary In Perception</Prerequisites>
+        <Description>Your perceptive abilities and ability to process sensory information are so far beyond the pale that you notice minute discrepancies in all sorts of illusions and transmutations. You are constantly under the effects of a 6th-level true seeing spell, using your Perception modifier for the counteract check.</Description>
+    </Ability>
 </pf2:feats>

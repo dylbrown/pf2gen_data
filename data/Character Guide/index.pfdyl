@@ -26,5 +26,9 @@
         <Category name="Runes" path="items/runes.pfdyl" />
         <Category name="Worn Items" path="items/worn_items.pfdyl" />
     </Equipment>
+    <Feats>
+        <Category name="Archetype" path="feats/archetypes.pfdyl" />
+        <Category name="Skill" path="feats/skill.pfdyl" />
+    </Feats>
     <Traits name="Traits" path="traits.pfdyl" />
 </Source>

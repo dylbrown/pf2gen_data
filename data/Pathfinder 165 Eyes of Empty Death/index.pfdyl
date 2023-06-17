@@ -1,0 +1,15 @@
+<?xml version = "1.0"?>
+<Source>
+    <Name>Pathfinder #165: Eyes of Empty Death</Name>
+    <ShortName>P165</ShortName>
+    <Category>Adventure Paths</Category>
+    <Dependencies>
+        <Dependency>Core Rulebook</Dependency>
+    </Dependencies>
+    <Description>&lt;h2&gt;Pathfinder #165: Eyes of Empty Death&lt;/h2&gt;&lt;p&gt;Death lurks in the darkness! The deepest levels of the Abomination Vaults contain massive caverns and a relic left behind by one of the Outer Gods. The heroes must negotiate the ruthless politics of insular drow, vampiric urdefhans, and stranger creatures for the tools they need to vanquish Belcorra Haruvex. Yet even as the heroes grow nearer, the undead sorcerer's power increases, and the heroes must put her to rest before she claims the full might of her malevolent patron.&lt;/p&gt;
+
+        &lt;p&gt;“Eyes of Empty Death” is a Pathfinder adventure for four 8th-level characters. This adventure concludes the &lt;a href="/store/pathfinder/adventures/adventurePath/abominationVaults"&gt;Abomination Vaults Adventure Path&lt;/a&gt;, a three-part monthly campaign in which the heroes explore a sprawling megadungeon to stop an ancient evil from renewing her monstrous vengeance. This adventure also includes an expanded look at ghosts in Golarion, an examination of the Outer God Nhimbaloth, and powerful new rules and monsters!&lt;/p&gt;
+
+        &lt;p&gt;Each monthly full-color softcover Pathfinder Adventure Path volume contains an in-depth adventure scenario, stats for several new monsters, and support articles meant to give Game Masters additional material to expand their campaign. Pathfinder Adventure Path volumes use the Open Game License and work with both the Pathfinder RPG and the world's oldest fantasy RPG.&lt;/p&gt;</Description>
+    <Traits name="Traits" path="traits.pfdyl" />
+</Source>

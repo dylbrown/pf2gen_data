@@ -20,6 +20,7 @@
         <Category name="Consumables" path="items/consumables.pfdyl" />
         <Category name="Held Items" path="items/held_items.pfdyl" />
         <Category name="Materials" path="items/materials.pfdyl" />
+        <Category name="Runes" path="items/runes.pfdyl" />
         <Category name="Snares" path="items/snares.pfdyl" />
         <Category name="Staves" path="items/staves.pfdyl" />
         <Category name="Structures" path="items/structures.pfdyl" />

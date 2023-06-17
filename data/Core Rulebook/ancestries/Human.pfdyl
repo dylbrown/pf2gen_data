@@ -91,7 +91,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         <Ability name="Unconventional Expertise" level="13">
 			<Prerequisites>Unconventional Weaponry</Prerequisites>
             <Description>You've continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for Unconventional Weaponry. </Description>
-            <!--TODO: Support linked proficiency-->
+            <!--TODO: Support getting value of previous feat choice-->
         </Ability>
 		<!--Half-Elf Specific Ancestry Feats-->
 		<Ability name="Elf Atavism" level="1">

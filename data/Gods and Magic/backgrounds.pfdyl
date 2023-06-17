@@ -3,7 +3,7 @@
 	<Background>
 		<Name>Raised by Belief</Name>
 		<Description>You spent your early days in a religious monastery or cloister. You may have traveled out into the world to spread the message of your religion or because you cast away the teachings of your faith, but deep down you'll always carry within you the lessons you learned.&lt;br&gt;&lt;br&gt;Choose two ability boosts. One boost must be to an ability specified in the Divine Ability entry for your deity, and one is a free ability boost.</Description>
-		<Skill>Religion or Medicine or Survival, Lore (Your Deity)</Skill>
+		<Skill>Medicine, Lore (Sothis)</Skill>
 		<AbilityBonuses>Free, Free</AbilityBonuses>
 		<Feat>Assurance</Feat>
 	</Background>

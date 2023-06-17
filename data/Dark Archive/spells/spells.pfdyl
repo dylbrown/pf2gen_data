@@ -1,0 +1,335 @@
+<?xml version = "1.0"?>
+<pf2:spells xmlns:pf2="https://dylbrown.github.io"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/spell.xsd">
+<Spell page="181">
+    <Name>Awaken Entropy</Name>
+    <Level>6</Level>
+    <Traits>Necromancy</Traits>
+    <Traditions>arcane, divine, occult</Traditions>
+    <Cast>material, somatic, verbal</Cast>
+    <Range>120 feet</Range>
+    <Area>10-foot burst or 30-foot line</Area>
+    <Duration>sustained up to 1 minute</Duration>
+    <Save>basic Fortitude</Save>
+    <Description>All things age, all things die, and at the end of days even the universe will grow quiet and still. You awaken the cosmic principle of entropy, accelerating time in an area—flesh falters, plants shrivel, and even stone begins to crumble. Any creature that enters or begins its turn in the area must succeed at a basic Fortitude save or take 8d6 negative damage, or 8d6 force damage if the creature normally doesn't take negative damage, such as if the creature is a construct or undead. Even beings such as fiends with unlimited lifespans can be worn away by entropy.&lt;br&gt;&lt;br&gt; The first time you Sustain the Spell on each subsequent turn, the entropic zone grows stronger in addition to having its duration increased. The radius of the burst increases by 10 feet (to a maximum of 40 feet), and the size of the damage dice increases by one step (from d6 to d8, then to d10, and finally to d12).</Description>
+    <Heightened every="1"> The damage increases by 1d6.</Heightened>
+</Spell>
+<Spell page="181">
+    <Name>Behold the Weave</Name>
+    <Level>3</Level>
+    <Traits>Divination, Incapacitation, Prediction</Traits>
+    <Traditions>divine, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>1 creature</Targets>
+    <Duration>1 round</Duration>
+    <Save>Will</Save>
+    <Description>You behold the many timelines that weave around a creature, and in so doing, you make one more likely to occur. The target must attempt a Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; You can make neither heads nor tails of the target's timeline, and the target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target must commit to a single action that it will take at some point during its next turn: “Stride toward Valeros,” “Cast &lt;i&gt;shield&lt;/i&gt;,” “Strike at Amiri with my jaws.” That action is now locked in, and the creature must attempt it, even if the situation has changed—if the creature stated that it would Strike at Amiri with its jaws, it must try to do so. If the creature is entirely unable to fulfill the action it committed to—for instance, if it had only 1 action left and Amiri was out of the range of its jaws Strike—it loses the last action of its turn as it reels in a temporal paradox. The creature can choose to lock in a 2- or 3-action activity if it prefers to do so, but if it does, it loses all the associated actions if it can't perform the activity on its turn. If the situation changes oddly (perhaps the creature is forcibly teleported away and has no idea which direction is “toward Valeros” any longer), the GM determines what happens.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; As success, but the creature must commit at least two of its actions for the next turn—“I will Stride toward Valeros and then Strike with my claws.” All of these actions are similarly locked in and can't be changed, but the creature can take them in any order.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, but the creature must commit all of its actions for the next turn.</Description>
+    <Heightened level="7"> Instead of affecting a single target, the spell affects all enemies within a 30-foot emanation.</Heightened>
+</Spell>
+<Spell page="104">
+    <Name>Bilocation</Name>
+    <Level>9</Level>
+    <Traits>Conjuration</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Duration>10 minutes</Duration>
+    <Description>You exist in two places at once. When you Cast the Spell, another copy of yourself appears in an adjacent square. During &lt;i&gt;bilocation's&lt;/i&gt; duration, whenever you act, you can choose which of your selves does so, and whenever one of you uses a move action, you can both move. Your two selves share Hit Points, and any condition or effect on one affects both. If both of your selves are in the area of the same effect, or targeted by the same multitarget effect, you are only affected once. Even if you are reduced to 0 Hit Points or killed, both selves remain until the duration expires. Your link continues at any distance, even across planar boundaries. You can Dismiss the Spell, and if you do so, you choose which of the selves vanishes and which becomes you, allowing you to extricate one of your selves from a dangerous situation.</Description>
+</Spell>
+<Spell page="104">
+    <Name>Bracing Tendrils</Name>
+    <Level>3</Level>
+    <Traits>Evocation, Force</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Duration>1 minute</Duration>
+    <Description>Visible tendrils of force anchor your body to the ground, preventing unwanted movement. Whenever you're on the ground and a creature or effect attempts to forcibly move you from your space, you can use your spell DC in place of your Fortitude DC as the DC of the check to move you. If a creature wouldn't normally need a check to move you, it must succeed at an appropriate check (usually an Athletics check for physical movement) against your spell DC or you are unmoved; if an effect wouldn't normally need a check to move you, it must counteract &lt;i&gt;bracing tendrils&lt;/i&gt; or you are unmoved. When a creature fails to move you in this way, you can choose to have the tendrils lash back and push them 5 feet away from you.&lt;br&gt;&lt;br&gt; While the tendrils anchor you in place when you come to a stop, they uproot easily to cooperate with your own voluntary movement, so you can still move freely while under the effect of the spell.</Description>
+</Spell>
+<Spell page="105">
+    <Name>Empty Pack</Name>
+    <Level>2</Level>
+    <Traits>Illusion</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>material, somatic</Cast>
+    <Range>touch</Range>
+    <Targets>1 container of 2 Bulk or less</Targets>
+    <Duration>1 hour</Duration>
+    <Description>You render every item inside the container you touch invisible, although the container itself remains visible. The items within are undetected to all creatures, though a creature can attempt to find an item by reaching into the bag, making an item hidden to them instead if they succeed. Additionally, the spell doesn't prevent the items from making protrusions in the bag, adding weight, making noise when jostling around, and so on. However, the spell prevents anything within the container from falling out if it's upended. Any object removed from the container becomes visible and remains visible even if returned to the container.</Description>
+    <Heightened level="4"> The duration is until the next time you make your daily preparations.</Heightened>
+</Spell>
+<Spell page="105">
+    <Name>Etheric Shards</Name>
+    <Level>5</Level>
+    <Traits>Evocation, Force</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>60 feet</Range>
+    <Area>20-foot burst</Area>
+    <Duration>1 minute</Duration>
+    <Save>basic Reflex</Save>
+    <Description>You reach out and sow glittering splinters of force throughout the area, otherworldly caltrops of will and ectoplasm. The area is difficult terrain, even to flying or incorporeal creatures. Any creature that moves through the area takes 1d4 piercing damage per square traversed, with a basic Reflex save made at the end of each move action they take through the area.</Description>
+    <Heightened every="2"> The spell's area increases by 5 feet, and the piercing damage increases by 1.</Heightened>
+</Spell>
+<Spell page="105">
+    <Name>Falling Sky</Name>
+    <Level>8</Level>
+    <Traits>Evocation, Incapacitation</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>120 feet</Range>
+    <Area>60-foot tall, 30-foot radius cylinder</Area>
+    <Description>Extraordinary telekinetic pressure smashes down through the area, battering creatures within it to the ground. All flying creatures in the area descend to the bottom of the spell's area, taking twice as much bludgeoning damage as if they had fallen the distance moved, to a maximum of 60 falling damage if they fall 60 feet. They take this falling damage even if the spell's area is entirely in the air and they don't hit the ground, as they concuss against the bottom of the spell's area at great speed. Creatures on the ground and within the spell's area, including flying creatures forced to the ground, must attempt Fortitude saves.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected, and if it was flying, it isn't knocked prone even though it took falling damage.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is knocked prone.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is knocked prone and stunned 2.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is knocked prone and stunned for 1 round.</Description>
+</Spell>
+<Spell page="93">
+    <Name>False Nature</Name>
+    <Level>4</Level>
+    <Traits>Uncommon, Illusion</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>material, somatic, verbal</Cast>
+    <Range>touch</Range>
+    <Targets>one unattended item or one item you're holding</Targets>
+    <Duration>until your next daily preparations</Duration>
+    <Description>You create an illusion that makes an object seem to be something entirely different. When you Cast this Spell, speak aloud a declarative statement that the target is a different, nonspecific object. Your statement can't presuppose any other facts. For instance, you could claim an object is “a stone” or “an antidote,” but not “the &lt;i&gt;Starstone&lt;/i&gt;” or “the antidote to the lethal poison you already drank.” Creatures who previously observed the target receive an immediate Will save to disbelieve, but on a failure, the illusion temporarily rewrites their memory that the object was something different. A creature who failed their Will save, or didn't already see the item's original form, must Interact with the illusion as normal to receive a Perception check against the spell DC to disbelieve. When the spell ends, targets remember the object's true nature, even if they never disbelieved the spell.</Description>
+</Spell>
+<Spell page="105">
+    <Name>Focusing Hum</Name>
+    <Level>3</Level>
+    <Traits>Divination, Enchantment</Traits>
+    <Traditions>divine, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Area>15-foot emanation centered on you</Area>
+    <Duration>sustained up to 1 minute</Duration>
+    <Description>You infuse the air around you with a sustained hum that allows creatures within it to resist distractions. The DC of any flat check to Cast a Spell while stupefied for creatures within the area is 2 lower. Confused creatures in the area don't attack anyone, including themselves, and instead lose the ability to speak coherently. You take a –2 penalty to Stealth checks to Hide and Sneak.</Description>
+</Spell>
+<Spell page="105">
+    <Name>Implement of Destruction</Name>
+    <Level>4</Level>
+    <Traits>Emotion, Enchantment, Fear, Mental</Traits>
+    <Traditions>divine, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>1 enemy, and 1 weapon that is either unattended or wielded by you or a willing ally</Targets>
+    <Duration>1 minute</Duration>
+    <Save>Will</Save>
+    <Description>You solemnly declare that the target weapon will bring death to a foe, implanting an irrational fear of the weapon into the target enemy. This link echoes at the forefront of the enemy's mind, forming a looming sense of omnipresent dread. The effect is based on the target enemy's Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target enemy is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target weapon deals an additional 2d6 mental damage the first time it hits the target enemy before the end of the spell's duration.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target weapon deals an additional 2d6 persistent mental damage to the target enemy. If the enemy is critically hit by the weapon, the enemy is doomed 1 for as long as it takes this persistent mental damage.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target weapon deals an additional 4d6 persistent mental damage to the target enemy. If the enemy is critically hit by the weapon, the enemy is doomed 1.</Description>
+    <Heightened every="2"> Increase the mental damage by 1d6 on a success, and increase the persistent mental damage by 1d6 on a failure or by 2d6 on a critical failure.</Heightened>
+</Spell>
+<Spell page="105">
+    <Name>Kinetic Ram</Name>
+    <Level>1</Level>
+    <Traits>Evocation, Force</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>Single Action to Three Actions (verbal)</Cast>
+    <Range>varies</Range>
+    <Targets>1 or more creatures</Targets>
+    <Save>Fortitude</Save>
+    <Description>Gathering kinetic energy, you either focus it in a straight line or disperse it as an encircling ripple. Any creature targeted by this spell must succeed at a Fortitude saving throw or be pushed 10 feet away from you (or 20 feet on a critical failure). The spell's area or range and how many creatures it affects is based on how many actions you spend when Casting the Spell.     The spell targets one creature within 15 feet.    The spell targets one creature within 30 feet. The distance the target is pushed if it fails is doubled, and on a critical failure, the target is also knocked prone and takes 1d6 bludgeoning damage.    The spell targets all creatures in a 5-foot emanation.</Description>
+</Spell>
+<Spell page="182">
+    <Name>Loose Time's Arrow</Name>
+    <Level>2</Level>
+    <Traits>Transmutation</Traits>
+    <Traditions>arcane, occult, primal</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>up to 6 creatures</Targets>
+    <Duration>until the end of your next turn</Duration>
+    <Description>You pluck the time stream like a bow—pull one string back, release, and watch a creature fly. All affected targets are quickened. They can use the extra action only to Step or Stride.</Description>
+</Spell>
+<Spell page="106">
+    <Name>Momentary Recovery</Name>
+    <Level>7</Level>
+    <Traits>Conjuration, Teleportation</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>60 feet</Range>
+    <Description>You instantly teleport yourself and any items you're wearing or holding from your current space to a clear space within range that you can see. If this teleportation would bring another creature with you—even if you're carrying it in an extradimensional container—the spell is lost. After you vanish but before you arrive, you can take up to 2 actions (or the number of actions you spent to cast &lt;i&gt;momentary recovery&lt;/i&gt;, if it was fewer than 2 actions). You can't target any other creatures or objects with anything during these actions and any effect with a duration that you create during these actions ends immediately when you arrive. After you arrive, you are slowed 1 until the end of your next turn.</Description>
+</Spell>
+<Spell page="182">
+    <Name>Morass of Ages</Name>
+    <Level>4</Level>
+    <Traits>Aura, Transmutation</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Area>5-foot emanation</Area>
+    <Duration>sustained up to 1 minute</Duration>
+    <Save>Fortitude</Save>
+    <Description>You surround yourself in temporal eddies that draw out time for those around you, making every step feel like an eternity endured. A creature in the emanation, or that later enters the emanation, must attempt a Fortitude save. The creature makes this save only once and uses the same effect for the duration of the spell. Each time you Sustain the Spell, you can choose to increase the emanation's radius by 5 feet, to a maximum of 60 feet.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; Squares in the emanation are difficult terrain for the creature.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; Squares in the emanation are difficult terrain for the creature, and the creature is slowed 1 when it starts its turn in the emanation.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; As failure, plus the creature also becomes restrained. The creature can attempt to Escape against your spell DC to remove the restrained condition.</Description>
+</Spell>
+<Spell page="106">
+    <Name>Moth's Supper</Name>
+    <Level>3</Level>
+    <Traits>Necromancy</Traits>
+    <Traditions>occult, primal</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Duration>1 hour</Duration>
+    <Description>You sigh, and your breath transforms into delicate, black-winged butterflies and huge death's-head hawkmoths. They flutter about you briefly, and then range forth in search of sustenance— fresh-spilled blood, by preference, but rotting corpses, flowering plants, or even left-behind food will do in a pinch. They then return, perching on your hair or shoulders and whispering their secrets into your ears. This has three effects. You heal 2d4 Hit Points every 10 minutes.The first time during the duration when someone successfully Treats your Wounds, you regain an additional 4d4 Hit Points.You gain an imprecise sense out to 30 feet that senses only freshly spilled blood and rotten flesh.</Description>
+    <Heightened every="1"> The amount of Hit Points healed every 10 minutes increases by 1d4 and the amount of Hit Points regained from the first Treat Wounds increases by 2d4.</Heightened>
+</Spell>
+<Spell page="106" type="Cantrip">
+    <Name>Phase Bolt</Name>
+    <Level>1</Level>
+    <Traits>Attack, Cantrip, Evocation</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>1 creature</Targets>
+    <Description>You point your finger and project a bolt of magical energy that stutters in and out of phase until it reaches the target. Make a ranged spell attack roll against your target's AC; if the target has any circumstance bonuses to AC (such as from a shield or cover), reduce that bonus by 2 for this attack. On a success, you deal 1d4 piercing damage plus your spellcasting ability modifier. On a critical success, the target takes double damage.</Description>
+    <Heightened every="1"> The bolt's damage increases by 1d4.</Heightened>
+</Spell>
+<Spell page="106">
+    <Name>Poltergeist's Fury</Name>
+    <Level>6</Level>
+    <Traits>Evocation</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>material, somatic, verbal</Cast>
+    <Area>20-foot emanation</Area>
+    <Duration>sustained up to 1 minute</Duration>
+    <Save>basic Reflex</Save>
+    <Description>Your fury spills over in a telekinetic storm of terrifying proportions. Any loose, unattended objects of 1 Bulk or less within range are picked up and begin to orbit you at breathtaking speeds. All creatures in the area take 6d4 piercing damage with a basic Reflex save. Each time you Sustain the Spell, you can increase the radius of the storm by 10 feet, to a maximum of 100 feet. The storm moves with you and provides you with lesser cover, though you can't use this cover to Hide or Sneak. Allies within the storm who roll a success on their Reflex save against your poltergeist's fury get a critical success instead, as you attempt to avoid hitting them.</Description>
+    <Heightened every="1"> The damage increases by 1d4.</Heightened>
+</Spell>
+<Spell page="182">
+    <Name>Quicken Time</Name>
+    <Level>5</Level>
+    <Traits>Transmutation</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>120 feet</Range>
+    <Area>20-foot burst</Area>
+    <Duration>1 minute</Duration>
+    <Description>You speed up the time stream in an area, stretching and pulling it until time flows swift and wild. Any creature that begins its turn in the area is quickened and can use the extra action each round to Stride or Strike. Unfortunately, speeding up time is much more difficult than slowing it down, and the effect is uneven and jittery, making accuracy between times painfully difficult; creatures inside the area are concealed to those outside it, and vice versa.</Description>
+</Spell>
+<Spell page="106">
+    <Name>Rally Point</Name>
+    <Level>3</Level>
+    <Traits>Uncommon, Conjuration, Teleportation</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>material, somatic, verbal</Cast>
+    <Range>touch</Range>
+    <Area>one 5-foot square</Area>
+    <Duration>1 minute</Duration>
+    <Description>You mark the area touched as a rally point. During the spell's duration, you can take a single action, which has the concentrate trait, to teleport to the rally point along with items you are wearing or holding. This teleportation fails if the area is occupied, if the rally point is more than 120 feet away, or if you try to bring along any other creature, even if it's in an extradimensional container. Once you teleport to the rally point, the spell's duration ends.</Description>
+    <Heightened level="7"> You can target up to four other creatures within 30 feet, in addition to yourself. Each of you can teleport to the rally point once during the spell's duration, by taking a single action, which has the concentrate trait. The duration no longer ends once you teleport to the rally point, though you still can't teleport to the rally point again.</Heightened>
+</Spell>
+<Spell page="106">
+    <Name>Sea of Thought</Name>
+    <Level>3</Level>
+    <Traits>Conjuration</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>60 feet</Range>
+    <Area>15-foot burst</Area>
+    <Duration>1 minute</Duration>
+    <Save>Fortitude</Save>
+    <Description>You cover the area in a sloshing torrent of semi-solidified thought, roughly ankle high. The area becomes difficult terrain, similarly to a shallow bog. Each round that a creature starts its turn in the area, it must attempt a Fortitude save against the shifting waves of thought. On a failure, it takes a –10-foot circumstance penalty to its Speeds until it leaves the area, and on a critical failure, it is also knocked prone.</Description>
+    <Heightened every="1"> The radius of the spell's area increases by 5 feet.</Heightened>
+</Spell>
+<Spell page="107">
+    <Name>Shadow Spy</Name>
+    <Level>3</Level>
+    <Traits>Necromancy</Traits>
+    <Traditions>occult, primal</Traditions>
+    <Cast>1 minute (material, somatic, verbal)</Cast>
+    <Range>120 feet</Range>
+    <Duration>until the next time you make your daily preparations</Duration>
+    <Description>You mix blood, soil, and shadow together to form a half-real homunculus in the shape of a crow, sparrow, or other bird. You then command the bird to fly to a location within range and observe all around it. The bird has the statistics of a homunculus, save that it has all of your senses and shares your Perception modifier. Once the spell's duration elapses or upon a trigger you set (which must be fairly simple—“at dusk” or “when the judge leaves”), the bird flies to your location. If you wring its neck and drink its blood, you learn all that it saw since its creation.</Description>
+</Spell>
+<Spell page="107">
+    <Name>Soft Landing</Name>
+    <Level>4</Level>
+    <Traits>Abjuration</Traits>
+    <Traditions>arcane, occult, primal</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>1 mile</Range>
+    <Area>20-foot tall, 60-foot radius cylinder with the ground at the bottom</Area>
+    <Duration>1 minute</Duration>
+    <Description>You create a magical field that buoys any creature or object falling into the area, providing a harmless landing from any height. As you generally fall 1,500 feet per round, you can cast this spell while you are falling to ensure a safe landing, provided you can see your landing point and it's within range.</Description>
+</Spell>
+<Spell page="182">
+    <Name>Stagnate Time</Name>
+    <Level>5</Level>
+    <Traits>Transmutation</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>120 feet</Range>
+    <Area>20-foot burst</Area>
+    <Duration>1 minute</Duration>
+    <Save>Will</Save>
+    <Description>You examine the time stream in a particular area, then proceed to stick a few metaphorical pins into it, thickening and slowing down the flow of time until it rumbles along like a river of molasses. Any creature that begins its turn in the area must attempt a Will save.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is slowed 1 this turn.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is slowed 2 this turn.</Description>
+</Spell>
+<Spell page="182">
+    <Name>Summon Irii</Name>
+    <Level>8</Level>
+    <Traits>Rare, Conjuration, Incarnate</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>material, somatic, verbal</Cast>
+    <Range>100 feet</Range>
+    <Duration>until the end of your next turn</Duration>
+    <Description>You cast your spell, whisper your words of power, and find that an irii is already here—indeed, they have always been here, and always were, and always will be. The temporal being occupies the space of a Medium creature and has a Speed of 60 feet and a fly Speed of 60 feet. When you Cast this Spell, choose whether it summons a fate irii or a fortune irii.&lt;b&gt;Fate&lt;/b&gt; The fate stands before you with its stained-glass wings and animal-headed gaze, floating eyes circling about it; &lt;b&gt;Arrive&lt;/b&gt; (divination, fortune, lawful, prediction) &lt;i&gt;Decree the Immutability of Time&lt;/i&gt; While within 30 feet of the fate, you and your allies who roll below 10 on a d20 for an attack roll, Perception check, saving throw, or skill check get a 10 instead; &lt;b&gt;Depart&lt;/b&gt; (divination, misfortune, prediction) &lt;i&gt;Observe the Inevitability of Destiny&lt;/i&gt; Each enemy within a 30-foot emanation must attempt a Will save. If a creature fails its save, until the end of its next turn, any time it rolls above 10 on a d20 for an attack roll, Perception check, saving throw, or skill check, it  gets a 10 instead.&lt;b&gt;Fortune&lt;/b&gt; The fortune stands before you with its golden horns and moth-scale wings, a sly smirk on its elfin face; &lt;b&gt;Arrive&lt;/b&gt; (chaotic, divination, fortune, prediction) &lt;i&gt;Decree the Chaos of Infinity&lt;/i&gt; While within 30 feet of the fortune, you and your allies roll twice and take the higher roll on all damage rolls, Perception checks, and saving throws; &lt;b&gt;Depart&lt;/b&gt; (divination, misfortune, prediction) &lt;i&gt;Sunder Eternity's Authority&lt;/i&gt; Each enemy within a 30-foot emanation must attempt a Will save. A creature that fails its save must roll twice and take the lower result on all damage rolls, Perception checks, and saving throws until the end of its next turn.</Description>
+</Spell>
+<Spell page="183">
+    <Name>Suspended Retribution</Name>
+    <Level>6</Level>
+    <Traits>Curse, Divination, Mental, Prediction</Traits>
+    <Traditions>divine, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>60 feet</Range>
+    <Targets>1 creature</Targets>
+    <Duration>1 minute</Duration>
+    <Save>basic Reflex</Save>
+    <Description>All life dances one step from the precipice, one heartbeat from disaster. You open your eyes wide and see doom waiting in the wings, then invite it to step forward. A spectral omen of disaster appears above the target's head— traditionally, this is a downward-pointing sword, but some spellcasters report seeing a hangman's noose or a grinning skull instead. When you Cast this Spell, pick one of the following triggers. The target moves more than its Speed in a single round.The target makes more than one Strike in a single round.The target Casts a Spell.The target uses a specific skill you name.The target uses a specific ability you name. If the target takes the triggering action, the portent of doom activates—the sword strikes down, the noose loops around the target's neck, the skull bares its fangs—and the target takes 70 mental damage with a basic Reflex save. The target instinctively knows which action will trigger the omen and can ward off the omen by spending a total of 3 actions, which have the concentrate trait, to pray, make signs against doom, or similar apotropaic actions. These actions need not be consecutive. After the creature spends the actions, the spell ends.</Description>
+    <Heightened every="1"> The damage increases by 10.</Heightened>
+</Spell>
+<Spell page="107">
+    <Name>Telekinetic Bombardment</Name>
+    <Level>7</Level>
+    <Traits>Evocation</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>500 feet</Range>
+    <Area>10-foot burst or 30-foot line</Area>
+    <Save>Reflex</Save>
+    <Description>You grasp a piece of the landscape—such as a tree, carriage, or piece of masonry—and lob it in your foe's direction. Your missile crashes down in either a 10-foot burst (for most missiles) or a 30-foot line (for something long and tall, like a tree or a ship's mast), dealing 14d6 bludgeoning damage and turning its area into difficult terrain as it breaks into rubble. All creatures in the area must attempt a Reflex save. If the area is a line, it doesn't have to start from your square but can instead start anywhere in range, as long as the entire area remains within range.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature takes half damage.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature takes full damage and is knocked prone.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature takes double damage, is knocked prone, and is stunned 1.</Description>
+    <Heightened every="1"> The damage increases by 2d6.</Heightened>
+</Spell>
+<Spell page="183">
+    <Name>Temporal Twin</Name>
+    <Level>3</Level>
+    <Traits>Uncommon, Conjuration</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Range>30 feet</Range>
+    <Targets>one willing ally</Targets>
+    <Duration>until the end of your next turn</Duration>
+    <Description>You pull a fleeting duplicate of your ally from the recent past. The duplicate appears in an unoccupied space of your choice within 30 feet of you and repeats a basic single action the target took since the end of your last turn, such as making a Strike or Interacting to pull a lever. Because the other basic single actions don't produce much of a result on their own, this is typically used for Strike and Interact, though occasionally it could be useful to have a &lt;i&gt;temporal twin&lt;/i&gt; Stride through a potentially dangerous area to expose a hazard. The target ally spends a reaction to create the duplicate, makes any decisions, and rolls for the repeated action, such as choosing a target for a Strike and making the attack roll. If the ally doesn't have a reaction to spend, &lt;i&gt;temporal twin&lt;/i&gt; fails. Use the duplicate's location for determining flanking, cover, and the like. Using this spell requires remembering what your ally did, and if you don't remember the details, the GM might not allow you to cast &lt;i&gt;temporal twin&lt;/i&gt;.&lt;br&gt;&lt;br&gt; This action can't be used for anything but a basic single action, nor can it use limited resources. The action can have a different target than the original action but must be very similar in form. For example, if the original action were to Interact to pull a lever, the time duplicate could pull a different lever, but couldn't turn a doorknob or pick up an item from a table.&lt;br&gt;&lt;br&gt; Being pulled through time to create a twin destabilizes the target's timeline. Once an ally has been the target of &lt;i&gt;temporal twin&lt;/i&gt;, they're temporarily immune for 1 day.</Description>
+</Spell>
+<Spell page="183">
+    <Name>Time Pocket</Name>
+    <Level>3</Level>
+    <Traits>Transmutation</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>1 minute (material, somatic, verbal)</Cast>
+    <Range>touch</Range>
+    <Targets>one item of 1 Bulk or less that a willing creature is holding</Targets>
+    <Duration>until the next time you make your daily preparations</Duration>
+    <Description>You fling the target item forward in time and link it to the future of the creature holding it. The item disappears. When the spell ends, the item reappears with the creature that was holding it when you Cast the Spell. If the creature has enough hands free to hold the item, it appears in their hands. Otherwise, it falls to the ground in the creature's space. &lt;br&gt;&lt;br&gt;You can Dismiss the spell, and it automatically ends if you're reduced to 0 Hit Points or cast &lt;i&gt;time pocket&lt;/i&gt; again.</Description>
+</Spell>
+<Spell page="183" type="Cantrip">
+    <Name>Time Sense</Name>
+    <Level>1</Level>
+    <Traits>Cantrip, Divination</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>verbal</Cast>
+    <Description>When you Cast the Spell, you gain a perfect sense of time. You can learn exactly what time it is, down to the second. You can instead choose to gain a perfect sense of the calendar if you have knowledge in that area—if you're trained in Nature, you can learn exactly how long it is until sunrise and how many days until the next solstice. If you're trained in Astronomy Lore, you can learn precisely when any known predictable astronomical conjunction will begin and end, and so on.&lt;br&gt;&lt;br&gt; You can gain a +1 status bonus to one attack roll, Perception check, saving throw, or skill check you take on the same turn you cast &lt;i&gt;time sense&lt;/i&gt; that requires extremely precise timing. If you choose to gain this bonus, you can't gain it again for 1 hour.</Description>
+</Spell>
+<Spell page="107" type="Cantrip">
+    <Name>Warp Step</Name>
+    <Level>1</Level>
+    <Traits>Cantrip, Conjuration</Traits>
+    <Traditions>arcane, occult</Traditions>
+    <Cast>somatic, verbal</Cast>
+    <Description>When you walk, the earth warps beneath your feet—your steps extend, distance contracts, and everything is just a little bit closer. You gain a +5-foot status bonus to your Speed until the end of your turn. You then Stride twice. You can use warp step to Burrow, Climb, Fly, or Swim instead of Stride if you have the corresponding movement type.</Description>
+</Spell>
+</pf2:spells>

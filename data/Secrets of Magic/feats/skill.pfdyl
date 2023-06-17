@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Ability name="Reveal True Name" level="1" page="246" cost="2">
+        <Traits>Auditory, Concentrate, Emotion, General, Mental, Skill, True Name</Traits>
+        <Prerequisites>Trained In Intimidation, Trained In Arcana or Trained in Nature or Trained in Occultism or Trained in Religion</Prerequisites>
+        <Description>You attempt to get a creature to do as you wish by threatening them with your knowledge of their true name. You must know and speak the creature's true name and say what you want the creature to do. Attempt an Intimidation check against the target's Will DC.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target does as you say out of a sense of self-preservation, and will not harm itself in any way. It becomes unfriendly (if it wasn't already unfriendly or hostile) but continues to comply for up to 1 day. The target is too scared of you to retaliate or flee, certain you would find them wherever they might go.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; As critical success, but once the target becomes unfriendly, they avoid you and might act against you in an indirect manner, such as alerting your enemies to your location.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target refuses to comply and typically flees your presence to avoid your further use of their true name. If they were not already unfriendly or hostile, they become unfriendly. They avoid you in the future and are likely to take indirect action against you.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target refuses to comply and becomes hostile, if it wasn't already. If they perceive you as weak, they might attack you; otherwise, they likely flee to avoid your further use of their true name.
+        </Description>
+    </Ability>
+    <Ability name="Embed Aeon Stone" level="2" page="240">
+        <Traits>Archetype, Downtime, Skill</Traits>
+        <Archetype>Runelord</Archetype>
+        <Prerequisites>Runelord Dedication, Trained In Crafting</Prerequisites>
+        <Description>You discover the secrets to embedding aeon stones into your flesh. You spend 1 day attuning to an &lt;i&gt;aeon stone&lt;/i&gt; and physically embedding it in your skin. While the stone is embedded this way, you gain the benefits of the &lt;i&gt;aeon stone&lt;/i&gt; as if it were orbiting above your head, but it protects the stone from being noticed or stolen as easily. &lt;i&gt;Aeon stones&lt;/i&gt; in your flesh must be invested to function, as usual.&lt;br&gt;&lt;br&gt; You can also use this activity to safely remove an embedded &lt;i&gt;aeon stone&lt;/i&gt; in 1 day. Someone without this feat can attempt to surgically remove it safely by spending 1 day and succeeding at a DC 30 Medicine check, or hastily by simply ripping it from a corpse.</Description>
+    </Ability>
+    <Ability name="Tattoo Artist" level="2" page="164">
+        <Traits>General, Skill</Traits>
+        <Archetype>Runelord</Archetype>
+        <Prerequisites>Trained In Crafting, Runelord Dedication</Prerequisites>
+        <Description>You can craft tattoos, including magical tattoos. When you select this feat, you gain the formulas for four common magical tattoos of 2nd level or lower. You gain a +1 circumstance bonus to Crafting checks to Craft tattoos. If you're a master in Crafting, this bonus increases to +2.</Description>
+    </Ability>
+</pf2:feats>

@@ -126,7 +126,16 @@
             <Traits>Lizardfolk</Traits>
             <Prerequisites>Iruxi Unarmed Cunning</Prerequisites>
             <Description>Your unarmed attacks blend tradition and training. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the claw and unarmed attacks you gained from lizardfolk ancestry feats.</Description>
-            <!--TODO: Support linked proficiency-->
+            <CustomMod recalculate="Always" minScriptVersion="1">
+                import model.items.weapons.Weapon;
+                import model.enums.Trait;
+                import model.enums.Proficiency;
+                if(getMaxWeaponProficiency().getMod() >= Proficiency.Expert.getMod()) {
+                    weaponProficiency("claw", "Expert");
+                    weaponProficiency("tail", "Expert");
+                    weaponProficiency("fangs", "Expert");
+                }
+            </CustomMod>
         </Ability>
     </Feats>
 </pf2:ancestry>

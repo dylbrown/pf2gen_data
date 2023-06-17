@@ -4,6 +4,10 @@
 	   xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
 	<Ability name="Adopted Ancestry" level="1">
 		<Description>You're fully immersed in another ancestry's culture and traditions, whether born into them, earned through rite of passage, or bonded through a deep friendship or romance.Choose a common ancestry. You can select ancestry feats from the ancestry you chose, in addition to your character's own ancestry, as long as the ancestry feats don't require any physiological feature that you lack, as determined by the GM.</Description>
+		<CustomMod recalculate="Never">
+			def handler = {ancestry -> ancestryFeats(ancestry)}
+			choose("Ancestry", "Adopted Ancestry Choice", handler, null, 1);
+		</CustomMod>
 	</Ability>
 	<Ability name="Ancestral Paragon" level="3">
 		<Description>Whether through instinct, study, or magic, you feel a deeper connection to your ancestry. You gain a 1st-level ancestry feat.</Description>

@@ -19,7 +19,10 @@
             </div>
             <div class="sectionLabel" style="text-transform: uppercase">Ability Scores</div>
             <div id="ability-grid">
-                <div class="inverted numBox rounded " style="font-weight: bold">STR</div>
+                <div class="line">
+                    <div class="inverted numBox rounded" style="font-weight: bold">STR</div>
+                    <div class="label invisible">A</div>
+                </div>
                 <div class="line">
                     <div class="underlined-roll">${character.abilityMod.str?string.@s}</div>
                     <div class="label">Mod</div>
@@ -28,7 +31,10 @@
                     <div class="numBox rounded">${character.abilityScore.str}</div>
                     <div class="label">Score</div>
                 </div>
-                <div class="inverted numBox rounded " style="font-weight: bold">INT</div>
+                <div class="line">
+                    <div class="inverted numBox rounded" style="font-weight: bold">INT</div>
+                    <div class="label invisible">A</div>
+                </div>
                 <div class="line">
                     <div class="underlined-roll">${character.abilityMod.int?string.@s}</div>
                     <div class="label">Mod</div>
@@ -37,7 +43,10 @@
                     <div class="numBox rounded">${character.abilityScore.int}</div>
                     <div class="label">Score</div>
                 </div>
-                <div class="inverted numBox rounded " style="font-weight: bold">DEX</div>
+                <div class="line">
+                    <div class="inverted numBox rounded" style="font-weight: bold">DEX</div>
+                    <div class="label invisible">A</div>
+                </div>
                 <div class="line">
                     <div class="underlined-roll">${character.abilityMod.dex?string.@s}</div>
                     <div class="label">Mod</div>
@@ -46,7 +55,10 @@
                     <div class="numBox rounded">${character.abilityScore.dex}</div>
                     <div class="label">Score</div>
                 </div>
-                <div class="inverted numBox rounded " style="font-weight: bold">WIS</div>
+                <div class="line">
+                    <div class="inverted numBox rounded" style="font-weight: bold">WIS</div>
+                    <div class="label invisible">A</div>
+                </div>
                 <div class="line">
                     <div class="underlined-roll">${character.abilityMod.wis?string.@s}</div>
                     <div class="label">Mod</div>
@@ -55,7 +67,10 @@
                     <div class="numBox rounded">${character.abilityScore.wis}</div>
                     <div class="label">Score</div>
                 </div>
-                <div class="inverted numBox rounded " style="font-weight: bold">CON</div>
+                <div class="line">
+                    <div class="inverted numBox rounded" style="font-weight: bold">CON</div>
+                    <div class="label invisible">A</div>
+                </div>
                 <div class="line">
                     <div class="underlined-roll">${character.abilityMod.con?string.@s}</div>
                     <div class="label">Mod</div>
@@ -64,7 +79,10 @@
                     <div class="numBox rounded">${character.abilityScore.con}</div>
                     <div class="label">Score</div>
                 </div>
-                <div class="inverted numBox rounded " style="font-weight: bold">CHA</div>
+                <div class="line">
+                    <div class="inverted numBox rounded" style="font-weight: bold">CHA</div>
+                    <div class="label invisible">A</div>
+                </div>
                 <div class="line">
                     <div class="underlined-roll">${character.abilityMod.cha?string.@s}</div>
                     <div class="label">Mod</div>
@@ -87,8 +105,12 @@
                     <div class="numBox rounded">${(10 + character.attributes.get("classdc", character.pclass).total)?string}</div>
                     <div class="label">Class DC</div>
                 </div>
-                <div class="line">
-                    <div class="numBox"></div>
+                <div class="line" style="flex-grow: 0">
+                    <div class="hero-grid">
+                        <div class="hero-box"></div>
+                        <div class="hero-box"></div>
+                        <div class="hero-box"></div>
+                    </div>
                     <div class="label">Hero Points</div>
                 </div>
             </div>
@@ -96,7 +118,7 @@
                 <hr>
             </div>
             <div class="sectionLabel">Health</div>
-            <div class="row-between" style="flex-grow: 1.5">
+            <div class="row-between" style="flex-grow: 2">
                 <div class="line" style="flex-grow: 0">
                     <div class="numBox rounded">${character.hp}</div>
                     <div class="label">Max</div>
@@ -128,12 +150,9 @@
                     <div class="numBox rounded">${character.abilityMod.dex?string.@s}</div>
                     <div class="box-label">DEX</div>
                 </div>
+                [@proficiencyDisplay proficiency=character.combat.armorProficiency grid=true /]
                 <div class="line">
-                    <div class="numBox rounded">${character.combat.armorProficiency?string.@s}</div>
-                    <div class="box-label">Prof</div>
-                </div>
-                <div class="line">
-                    <div class="numBox">${character.combat.armor.ac?string.@s}</div>
+                    <div class="numBox">[#if character.combat.armor.ac != 0]${character.combat.armor.ac?string.@s}[/#if]</div>
                     <div class="box-label">Item</div>
                 </div>
                 <div class="line">
@@ -141,14 +160,14 @@
                     <div class="box-label">Temp</div>
                 </div>
                 <div class="line">
-                    <div class="numBox" style="border-radius: 40%">${character.combat.shield.ac?string.@s}</div>
+                    <div class="numBox" style="border-radius: 40%">[#if character.combat.shield.ac != 0]${character.combat.shield.ac?string.@s}[/#if]</div>
                     <div class="box-label">Shield</div>
                 </div>
             </div>
             <div class="sectionDivider">
                 <hr>
             </div>
-            <div class="sectionLabel">Senses + Saves</div>
+            <div class="sectionLabel">Perception + Saves</div>
             <div id="rolls-grid">
                 <div class="center-right rollLabel">PERCEPTION</div>
                 <div class="line">
@@ -159,21 +178,14 @@
                     <div class="numBox rounded">${character.abilityMod.wis?string.@s}</div>
                     <div class="label">WIS</div>
                 </div>
+                [@proficiencyDisplay proficiency=character.attributes.perception.proficiency grid=true /]
                 <div class="line">
-                    <div class="numBox rounded">${character.attributes.perception.proficiencyMod?string.@s}</div>
-                    <div class="label">Prof</div>
-                </div>
-                <div class="line">
-                    <div class="numBox">${character.attributes.perception.itemBonus?string.@s}</div>
+                    <div class="numBox">[#if character.attributes.perception.itemBonus != 0]${character.attributes.perception.itemBonus?string.@s}[/#if]</div>
                     <div class="label">Item</div>
                 </div>
                 <div class="line">
                     <div class="numBox dashed"></div>
                     <div class="label">Temp</div>
-                </div>
-                <div style="grid-column-end: span 6; justify-self: stretch; align-items: flex-end" class="row">
-                    <div class="label">Senses</div>
-                    <div class="underlined"></div>
                 </div>
                 <div class="center-right rollLabel">FORTITUDE</div>
                 <div class="line">
@@ -184,12 +196,9 @@
                     <div class="numBox rounded">${character.abilityMod.con?string.@s}</div>
                     <div class="label">CON</div>
                 </div>
+                [@proficiencyDisplay proficiency=character.attributes.fortitude.proficiency grid=true /]
                 <div class="line">
-                    <div class="numBox rounded">${character.attributes.fortitude.proficiencyMod?string.@s}</div>
-                    <div class="label">Prof</div>
-                </div>
-                <div class="line">
-                    <div class="numBox">${character.attributes.fortitude.itemBonus?string.@s}</div>
+                    <div class="numBox">[#if character.attributes.fortitude.itemBonus != 0]${character.attributes.fortitude.itemBonus?string.@s}[/#if]</div>
                     <div class="label">Item</div>
                 </div>
                 <div class="line">
@@ -205,12 +214,9 @@
                     <div class="numBox rounded">${character.abilityMod.dex?string.@s}</div>
                     <div class="label">DEX</div>
                 </div>
+                [@proficiencyDisplay proficiency=character.attributes.reflex.proficiency grid=true /]
                 <div class="line">
-                    <div class="numBox rounded">${character.attributes.reflex.proficiencyMod?string.@s}</div>
-                    <div class="label">Prof</div>
-                </div>
-                <div class="line">
-                    <div class="numBox">${character.attributes.reflex.itemBonus?string.@s}</div>
+                    <div class="numBox">[#if character.attributes.reflex.itemBonus != 0]${character.attributes.reflex.itemBonus?string.@s}[/#if]</div>
                     <div class="label">Item</div>
                 </div>
                 <div class="line">
@@ -226,12 +232,9 @@
                     <div class="numBox rounded">${character.abilityMod.wis?string.@s}</div>
                     <div class="label">WIS</div>
                 </div>
+                [@proficiencyDisplay proficiency=character.attributes.will.proficiency grid=true /]
                 <div class="line">
-                    <div class="numBox rounded">${character.attributes.will.proficiencyMod?string.@s}</div>
-                    <div class="label">Prof</div>
-                </div>
-                <div class="line">
-                    <div class="numBox">${character.attributes.will.itemBonus?string.@s}</div>
+                    <div class="numBox">[#if character.attributes.will.itemBonus != 0]${character.attributes.will.itemBonus?string.@s}[/#if]</div>
                     <div class="label">Item</div>
                 </div>
                 <div class="line">
@@ -244,18 +247,18 @@
             </div>
             <div class="sectionLabel">Weapon & Armor Proficiencies</div>
             <div id="prof-grid">
-                <div class="underlined">${character.attributes.unarmed.total?string.@s}</div>
-                <div class="underlined">${character.attributes.simpleweapons.total?string.@s}</div>
-                <div class="underlined">${character.attributes.martialweapons.total?string.@s}</div>
-                <div class="underlined">${character.attributes.advancedweapons.total?string.@s}</div>
+                [@proficiencyDisplay proficiency=character.attributes.unarmed.proficiency grid=false /]
+                [@proficiencyDisplay proficiency=character.attributes.simpleweapons.proficiency grid=false /]
+                [@proficiencyDisplay proficiency=character.attributes.martialweapons.proficiency grid=false /]
+                [@proficiencyDisplay proficiency=character.attributes.advancedweapons.proficiency grid=false /]
                 <div class="label">Unarmed</div>
                 <div class="label">Simple</div>
                 <div class="label">Martial</div>
                 <div class="label">Advanced</div>
-                <div class="underlined">${character.attributes.unarmored.total?string.@s}</div>
-                <div class="underlined">${character.attributes.lightarmor.total?string.@s}</div>
-                <div class="underlined">${character.attributes.mediumarmor.total?string.@s}</div>
-                <div class="underlined">${character.attributes.heavyarmor.total?string.@s}</div>
+                [@proficiencyDisplay proficiency=character.attributes.unarmored.proficiency grid=false /]
+                [@proficiencyDisplay proficiency=character.attributes.lightarmor.proficiency grid=false /]
+                [@proficiencyDisplay proficiency=character.attributes.mediumarmor.proficiency grid=false /]
+                [@proficiencyDisplay proficiency=character.attributes.heavyarmor.proficiency grid=false /]
                 <div class="label">Unarmored</div>
                 <div class="label">Light</div>
                 <div class="label">Medium</div>
@@ -274,7 +277,7 @@
                     <div class="underlined wrap">${character.qualities.name}</div>
                     <div class="label">Character Name</div>
                 </div>
-                <div class="line" style="grid-column-end: span 2">
+                <div class="line" style="grid-column-end: span 2; min-height: 2em">
                     <div class="underlined">
                     ${character.heritage} [#if !character.heritage?ends_with(character.ancestry)]${character.ancestry}[/#if]
                     </div>
@@ -288,23 +291,23 @@
                     <div class="underlined">${character.qualities.player}</div>
                     <div class="label">Player</div>
                 </div>
-                <div class="line" style="grid-column-end: span 2">
+                <div class="line">
                     <div class="underlined">${character.pclass}</div>
                     <div class="label">Class</div>
-                </div>
-                <div class="line">
-                    <div class="underlined">${character.alignment}</div>
-                    <div class="label">Alignment</div>
                 </div>
                 <div class="line">
                     <div class="underlined">${character.deity}</div>
                     <div class="label">Deity</div>
                 </div>
                 <div class="line">
+                    <div class="underlined">${character.alignment}</div>
+                    <div class="label">Alignment</div>
+                </div>
+                <div class="line">
                     <div class="underlined">${character.ancestry.size}</div>
                     <div class="label">Size</div>
                 </div>
-                <div class="line">
+                <div class="line" style="grid-column-end: span 2">
                     <div class="underlined">
                         [#list character.qualities.traits as trait]
                             ${trait}[#sep], [/#sep]
@@ -442,9 +445,9 @@
             <div class="label">Trigger</div>
         </div>
         [/#if]
-        [#if action.frequency?has_content]
+        [#if action.getExtensionByName("Activity").frequency?has_content]
         <div class="line">
-            <div class="underlined">${action.frequency}</div>
+            <div class="underlined">${action.getExtensionByName("Activity").frequency}</div>
             <div class="label">Frequency</div>
         </div>
         [/#if]
@@ -501,11 +504,9 @@
                         <div class="underlined-roll">${skill.total?string.@s}</div>
                     </div>
                     <div style="align-self: center; text-transform: uppercase">${skill.ability}</div>
+                    [@proficiencyDisplay proficiency=skill.proficiency grid=false /]
                     <div class="line">
-                        <div class="numBox rounded">${skill.proficiencyMod?string.@s}</div>
-                    </div>
-                    <div class="line">
-                        <div class="numBox">${skill.itemBonus?string.@s}</div>
+                        <div class="numBox">[#if skill.itemBonus != 0]${skill.itemBonus?string.@s}[/#if]</div>
                     </div>
                 [/#list]
             </div>
@@ -539,7 +540,6 @@
     [@linePart label="Source" content=ability.source /]
     [@linePart label="Traits" content=ability.traits?join(", ") /]
     [@linePart label="Requirements" content=ability.requirements /]
-    [@linePart label="Frequency" content=ability.frequency /]
     [#if ability.hasExtension("Activity")]
     [@linePart label="Trigger" content=ability.getExtensionByName("Activity").trigger /]
     [/#if]
@@ -557,13 +557,13 @@
         [/#list]
         <div class="ability-box ability-section do-not-break">General & Skill Feats</div>
         [#list character.abilities as ability]
-            [#if ability.getType() != "Class" && ability.getType() != "Ancestry"]
+            [#if ability.type != "Class" && ability.type != "Ancestry"]
             [@abilityBox ability=ability /]
             [/#if]
         [/#list]
         <div class="ability-box ability-section do-not-break">Ancestry Feats</div>
         [#list character.abilities as ability]
-            [#if ability.getType() == "Ancestry"]
+            [#if ability.type == "Ancestry"]
             [@abilityBox ability=ability /]
             [/#if]
         [/#list]
@@ -704,6 +704,20 @@
         [/#if]
     </div>
 </div>
+
+[#macro proficiencyDisplay proficiency grid]
+    <div class="line">
+        <div class="[#if grid]quad-grid[#else]quad-row[/#if]">
+            <div class="prof-box rounded[#if proficiency.mod gte 2] filled[/#if]"></div>
+            <div class="prof-box rounded[#if proficiency.mod gte 4] filled[/#if]"></div>
+            <div class="prof-box rounded[#if proficiency.mod gte 6] filled[/#if]"></div>
+            <div class="prof-box rounded[#if proficiency.mod gte 8] filled[/#if]"></div>
+        </div>
+        [#if grid]
+        <div class="label">Prof</div>
+        [/#if]
+    </div>
+[/#macro]
 [#macro spellBlock spell]
     <div class="spell-box">
         <div class="spell-attrs">

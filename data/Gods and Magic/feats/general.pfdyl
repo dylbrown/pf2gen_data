@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../../schemata/abc/class.xsd">
+<Ability name="Numb to Death" level="7" page="105">
+	<Traits>General</Traits>
+	<Prerequisites>Diehard, You Have Died At Least Once</Prerequisites>
+	<Frequency>once per day</Frequency>
+	<Description>Your past has left you numb to death’s call. The first time each day that you regain Hit Points while you are dying, you regain additional Hit Points equal to your level, and you neither gain the wounded condition nor increase the value of this condition.</Description>
+</Ability>
+</pf2:feats>

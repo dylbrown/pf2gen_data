@@ -1,0 +1,49 @@
+<?xml version = "1.0"?>
+<pf2:traits xmlns:pf2="https://dylbrown.github.io"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://dylbrown.github.io ../../schemata/trait.xsd"><Category name="Ancestry">
+	<Trait page="221">
+		<Name>Reflection</Name>
+		<Description>A creature with this trait has the reflection versatile heritage. Reflections are beings who are copies of living people, whether through cloning, planar duplication, or another mechanism. An ability with this trait can be used or selected only by reflections.</Description>
+	</Trait>
+</Category>
+<Category name="Class">
+	<Trait page="221">
+		<Name>Psychic</Name>
+		<Description>This indicates abilities from the psychic class.</Description>
+	</Trait>
+	<Trait page="222">
+		<Name>Thaumaturge</Name>
+		<Description>This indicates abilities from the thaumaturge class.</Description>
+	</Trait>
+</Category>
+<Category name="Class-Specific">
+	<Trait page="218">
+		<Name>Amp</Name>
+		<Description>An amp is a special thoughtform that modifies the properties of your psi cantrips. Psi cantrips each have their own amp, and feats with the amp trait provide different amps you can apply to psi cantrips in place of their normal amps.</Description>
+	</Trait>
+	<Trait page="220">
+		<Name>Esoterica</Name>
+		<Description>The esoterica trait is present in many thaumaturge feats and class features that incorporate the various talismans, supernatural trinkets, and other objects you carry with you. Abilities that have the esoterica trait require you to be in possession of your esoterica to use them. Normally, you're assumed to always have your esoterica with you, but in some rare circumstances, you might either not have them on hand or have your gear stripped from you.</Description>
+	</Trait>
+	<Trait page="221">
+		<Name>Psyche</Name>
+		<Description>Your psyche must be unleashed to use abilities that have the psyche trait, and they end automatically when your unleashed psyche subsides.</Description>
+	</Trait>
+</Category>
+<Category name="Core">
+	<Trait page="219">
+		<Name>Deviant</Name>
+		<Description>This trait describes strange supernatural or paranormal abilities.</Description>
+	</Trait>
+	<Trait page="58">
+		<Name>Experiment</Name>
+		<Description>&lt;i&gt;Note from Nethys: no description was provided for this trait&lt;/i&gt;</Description>
+	</Trait>
+	<Trait page="221">
+		<Name>Mindshift</Name>
+		<Description>An action with this trait can always be altered to use the raw power of your mind. When you take this action, you can choose to replace any damage it deals with mental damage, give it the mental trait, and replace any save it requires with a Will save. The action loses any traits matching damage types it no longer deals.</Description>
+	</Trait>
+</Category>
+
+</pf2:traits>

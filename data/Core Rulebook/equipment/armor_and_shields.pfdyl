@@ -215,5 +215,65 @@
             <Bulk>1</Bulk>
             <Description>Though they come in a variety of shapes and sizes, the protection offered by wooden shields comes from the stoutness of their materials. While wooden shields are less expensive than steel shields, they break more easily.</Description>
         </Armor>
+        <Armor level="4">
+            <Name>Sturdy Shield (Minor)</Name>
+            <Price>100 gp</Price>
+            <AC>+2</AC>
+            <Hardness>8</Hardness>
+            <HP>64</HP>
+            <BT>32</BT>
+            <Bulk>1</Bulk>
+            <Description>With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.</Description>
+        </Armor>
+        <Armor level="7">
+            <Name>Sturdy Shield (Lesser)</Name>
+            <Price>360 gp</Price>
+            <AC>+2</AC>
+            <Hardness>10</Hardness>
+            <HP>80</HP>
+            <BT>40</BT>
+            <Bulk>1</Bulk>
+            <Description>With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.</Description>
+        </Armor>
+        <Armor level="10">
+            <Name>Sturdy Shield (Moderate)</Name>
+            <Price>1000 gp</Price>
+            <AC>+2</AC>
+            <Hardness>13</Hardness>
+            <HP>104</HP>
+            <BT>52</BT>
+            <Bulk>1</Bulk>
+            <Description>With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.</Description>
+        </Armor>
+        <Armor level="13">
+            <Name>Sturdy Shield (Greater)</Name>
+            <Price>3000 gp</Price>
+            <AC>+2</AC>
+            <Hardness>15</Hardness>
+            <HP>120</HP>
+            <BT>60</BT>
+            <Bulk>1</Bulk>
+            <Description>With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.</Description>
+        </Armor>
+        <Armor level="16">
+            <Name>Sturdy Shield (Major)</Name>
+            <Price>10000 gp</Price>
+            <AC>+2</AC>
+            <Hardness>17</Hardness>
+            <HP>136</HP>
+            <BT>68</BT>
+            <Bulk>1</Bulk>
+            <Description>With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.</Description>
+        </Armor>
+        <Armor level="19">
+            <Name>Sturdy Shield (Supreme)</Name>
+            <Price>40000 gp</Price>
+            <AC>+2</AC>
+            <Hardness>20</Hardness>
+            <HP>160</HP>
+            <BT>80</BT>
+            <Bulk>1</Bulk>
+            <Description>With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.</Description>
+        </Armor>
     </Shield>
 </pf2:armorAndShields>

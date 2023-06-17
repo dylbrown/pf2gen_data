@@ -1,0 +1,465 @@
+<?xml version = "1.0"?>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Name>Inventor</Name>
+    <HP>8</HP>
+    <AbilityChoices>Int</AbilityChoices>
+    <SkillIncreases>3</SkillIncreases>
+    <Description>Any tinkerer can follow a diagram to make a device, but you invent the impossible! Every strange contraption you dream up is a unique experiment pushing the edge of possibility, a mysterious machine that seems to work for only you. You're always on the verge of the next great breakthrough, and every trial and tribulation is another opportunity to test and tune. If you can dream it, you can build it.</Description>
+    <FeatureList level="1">
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
+        <AbilitySlot state="filled" name="Initial Proficiencies">
+            <Ability>
+                <AttributeMods Proficiency="Expert">Fortitude, Will</AttributeMods>
+                <AttributeMods
+                        Proficiency="Trained">Perception, Reflex, Simple Weapons, Martial Weapons, Unarmed, Light Armor, Medium Armor, Unarmored, Class DC (Inventor)
+                </AttributeMods>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Overdrive">
+            <Ability>
+                <Description>You have a bevy of smaller devices of your own invention, from muscle stimulants to concussive pistons. When it's necessary, you can throw them into overdrive to assist you in combat.&lt;h3&gt;Overdrive&lt;/h3&gt;InventorManipulate&lt;br&gt;&lt;b&gt;Source&lt;/b&gt; &lt;i&gt;Guns &amp; Gears pg. 16&lt;/i&gt;&lt;br&gt;&lt;b&gt;Frequency&lt;/b&gt; once per roundTemporarily cranking the gizmos on your body into overdrive, you try to add greater power to your attacks. Attempt a Crafting check that has a standard DC for your level.&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; Your gizmos go into a state of incredible efficiency called critical overdrive, adding great power to your attacks. Your Strikes deal additional damage equal to your Intelligence modifier for 1 minute. After the Overdrive ends, your gizmos become unusable as they cool down or reset, and you can't use Overdrive for 1 minute.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; Your gizmos go into overdrive, adding power to your attacks. As critical success, except the additional damage is equal to half your Intelligence modifier.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; You make a miscalculation and nothing happens.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; Whoops! Something explodes. You take fire damage equal to your level, and you can't use Overdrive again for 1 minute as your gizmos cool down and reset.&lt;br&gt;&lt;br&gt; &lt;b&gt;Special&lt;/b&gt; When under the effects of Overdrive, you can still use the Overdrive action. You can't extend your Overdrive's duration this way, but you can turn an overdrive into a critical overdrive if you critically succeed. A failure has no effect on your current Overdrive, and you end your Overdrive on a critical failure.
+                </Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Innovation">
+            <Ability>
+                <Description>While you're always creating inventions, there's one that represents your preeminent work, the one that you hope— with refinement—might change the world. Choose one innovation. Your innovation's level is equal to your level. If your innovation is destroyed, you can spend 1 day of downtime and attempt a Crafting check with a high DC for your level; on a success, you rebuild it. An innovation only works due to your constant maintenance and tinkering, and therefore has no market Price. &lt;br&gt;&lt;br&gt;Innovations can be found here.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Explode">
+            <Ability>
+                <Description>Your innovation is a creation barely held together by your own engineering, always on the edge of completely falling apart. Though this adds risk, it also means you can coax it to perform far beyond its design specifications using special unstable actions. &lt;br&gt;&lt;br&gt;While inventors can learn various unstable actions over their career, all at least know how to make their innovation Explode.&lt;h3&gt;Explode&lt;/h3&gt;FireInventorManipulateUnstable&lt;br&gt;&lt;b&gt;Source&lt;/b&gt; &lt;i&gt;Guns &amp; Gears pg. 19&lt;/i&gt;You intentionally take your innovation beyond normal safety limits, making it explode and damage nearby creatures without damaging the innovation... hopefully. The explosion deals 2d6 fire damage with a basic Reflex save to all creatures in a 5-foot emanation around you (if you're wearing or holding the innovation) or around your innovation (if your innovation is a minion).&lt;br&gt;&lt;br&gt; At 3rd level, and every level thereafter, increase your explosion's damage by 1d6.&lt;br&gt;&lt;br&gt; If you have the breakthrough innovation class feature, you can choose either a 5-foot or 10-foot emanation for the area when you use Explode; if you have the revolutionary innovation class feature, you can choose a 5-foot, 10-foot, or 15-foot emanation.
+                </Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Peerless Inventor">
+            <Ability>
+                <Description>You are constantly inventing, and your skill at crafting is unimpeachable. You gain the Inventor skill feat, even if you don't meet its prerequisites.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Shield Block">
+            <Ability>
+                <Description>You gain the Shield Block general feat, a reaction that lets you reduce damage with your shield.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Inventor Feat"/>
+    </FeatureList>
+    <FeatureList level="2">
+        <AbilitySlot state="feat" type="Class Feat" name="Inventor Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="3">
+        <AbilitySlot state="filled" name="Expert Overdrive">
+            <Ability>
+                <Description>You've increased your skill in crafting, and you can put your devices into a more powerful state of overdrive. You become an expert in Crafting, and on a successful use of Overdrive, you increase the additional damage by 1.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Reconfigure">
+            <Ability>
+                <Description>You've become an expert in all crafts and are always adjusting your inventions. You can attempt to change the modifications on your innovation by spending 1 day of downtime tinkering with it and attempting a Crafting check, with a high DC for your level. On a success, you can change one modification you've chosen for your innovation to a different modification of the same kind (initial, breakthrough, or revolutionary).&lt;br&gt;&lt;br&gt; If you have any modification feats, on a successful check you can choose to instead retrain a modification feat to a different modification feat. The new feat has to meet the standard restrictions for retraining.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="4">
+        <AbilitySlot state="feat" type="Class Feat" name="Inventor Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="5">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Inventor Weapon Expertise">
+            <Ability>
+                <Description>You develop tricks for using your weapons more effectively. Your proficiency ranks for simple and martial weapons and unarmed attacks increase to expert. If you have a weapon innovation, you gain access to the critical specialization effect with your innovation.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="6">
+        <AbilitySlot state="feat" type="Class Feat" name="Inventor Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="7">
+        <AbilitySlot state="filled" name="Breakthrough Innovation">
+            <Ability>
+                <Description>You've made a breakthrough in your field of study and discovered a powerful new way to enhance your innovation. Choose a breakthrough modification of your innovation's type to apply to your innovation. You can choose an initial modification of your innovation's type instead if you prefer.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Lightning Reflexes" type="ClassFeature" contents="Lightning Reflexes"/>
+        <AbilitySlot state="filled" name="Master Overdrive">
+            <Ability>
+                <Description>Your mastery of invention and crafting enhances your Overdrive even further. You become a master in Crafting, and on a successful Overdrive, you increase the additional damage by a total of 2, replacing the increase from expert overdrive.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Weapon Specialization" type="ClassFeature" contents="Weapon Specialization"/>
+    </FeatureList>
+    <FeatureList level="8">
+        <AbilitySlot state="feat" type="Class Feat" name="Inventor Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="9">
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Inventive Expertise">
+            <Ability>
+                <Description>Through innovation and experimentation, you've made your inventions more effective and reliable. Your proficiency rank for your inventor class DC increases to expert.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Offensive Boost">
+            <Ability>
+                <Description>You've made additions to your innovation to upgrade your offensive capabilities. Your improvements make any Strikes that rely on your innovation deal an additional 1d6 damage, with a type determined by the boost you choose. If your innovation is armor, the boost applies to your melee unarmed Strikes and to your melee Strikes with one weapon you choose during daily preparations; if your innovation is a construct, the boost applies to your construct companion's Strikes; and if your innovation is a weapon, the boost applies to your Strikes with your innovation. You can spend downtime to switch to a different boost in the same way as switching your modification. Choose one of the following boosts, with the damage type in parentheses. &lt;b&gt;Chill (Cold)&lt;/b&gt;: Your innovation rapidly absorbs heat, creating an intense chill.&lt;b&gt;Ignition (Fire)&lt;/b&gt;: Your innovation shoots out jets of searing flame.&lt;b&gt;Jolt (Electricity)&lt;/b&gt;: Your innovation jolts foes with charges of electricity.&lt;b&gt;Momentum (Bludgeoning)&lt;/b&gt;: Your innovation slams into foes with added momentum.&lt;b&gt;Saws (Slashing)&lt;/b&gt;: Your innovation reveals spinning sawblades during your attacks.&lt;b&gt;Spike (Piercing)&lt;/b&gt;: Your innovation reveals wicked spikes during your attacks.&lt;b&gt;Vitriol (Acid)&lt;/b&gt;: Your innovation releases spurts of caustic acid.
+                </Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="10">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Inventor Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="11">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Medium Armor Expertise" type="ClassFeature"
+                     contents="Medium Armor Expertise"/>
+        <AbilitySlot state="filled" name="Resolve" type="ClassFeature" contents="Resolve"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="12">
+        <AbilitySlot state="feat" type="Class Feat" name="Inventor Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="13">
+        <AbilitySlot state="filled" name="Alertness" type="ClassFeature" contents="Alertness"/>
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Complete Reconfiguration">
+            <Ability>
+                <Description>When it comes to crafting and tinkering, you've become incredibly adept at changing your modifications to adjust your innovation's functionality. When you spend downtime to reconfigure your innovation and succeed at your Crafting check, you can swap any number of modifications, swap your offensive boost, or retrain any number of modification feats, rather than one. You still must swap a modification only with one of the same type (initial, breakthrough, or revolutionary).</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Inventor Weapon Mastery">
+            <Ability>
+                <Description>You fully understand your weapons. Your proficiency ranks for simple and martial weapons and unarmed attacks increase to master.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="14">
+        <AbilitySlot state="feat" type="Class Feat" name="Inventor Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="15">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Greater Weapon Specialization" type="ClassFeature"
+                     contents="Greater Weapon Specialization"/>
+        <AbilitySlot state="filled" name="Legendary Overdrive">
+            <Ability>
+                <Description>Your peerless inventing and Crafting ability has supercharged your Overdrives. You become legendary in Crafting, and on a successful Overdrive, you increase the additional damage by a total of 3, replacing the increase from master overdrive.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Revolutionary Innovation">
+            <Ability>
+                <Description>You are an unparalleled genius and have discovered a technique that will revolutionize your chosen field—or at least for the time being, your innovation! Choose a revolutionary modification to apply to your innovation. You can also choose an initial or breakthrough modification of the same type instead, if you prefer.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="16">
+        <AbilitySlot state="feat" type="Class Feat" name="Inventor Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="17">
+        <AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+        <AbilitySlot state="filled" name="Inventive Mastery">
+            <Ability>
+                <Description>Your inventions are incredibly effective. Your proficiency rank for your inventor class DC increases to master.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Juggernaut" type="ClassFeature" contents="Juggernaut"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="18">
+        <AbilitySlot state="feat" type="Class Feat" name="Inventor Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <FeatureList level="19">
+        <AbilitySlot state="feat" type="General Feat" name="General Feat"/>
+        <AbilitySlot state="filled" name="Infinite Invention">
+            <Ability>
+                <Description>Your ability to adjust your innovation has reached impossible heights, and you can use these skills to make major adjustments in your spare time. During your daily preparations, you automatically fix your innovation if it's destroyed or broken, and you can change to a different innovation (armor, construct, weapon, or other type you have access to) and change your modifications and offensive boost.&lt;br&gt;&lt;br&gt; If you have any feats that had your previous innovation as a prerequisite, you can't use them until you retrain the feats as normal. However, it takes you only 1 day of downtime to retrain such a feat into a feat that has your new innovation as a prerequisite, instead of 1 week.</Description>
+            </Ability>
+        </AbilitySlot>
+        <AbilitySlot state="filled" name="Medium Armor Mastery" type="ClassFeature" contents="Medium Armor Mastery"/>
+        <AbilitySlot state="filled" name="Skill Increase">
+            <Ability skillIncrease="true"/>
+        </AbilitySlot>
+    </FeatureList>
+    <FeatureList level="20">
+        <AbilitySlot state="filled" name="Ability Boosts">
+            <Ability abilityBoosts="4"/>
+        </AbilitySlot>
+        <AbilitySlot state="feat" type="Class Feat" name="Inventor Feat"/>
+        <AbilitySlot state="feat" type="Skill Feat" name="Skill Feat"/>
+    </FeatureList>
+    <Feats>
+        <Ability name="Explosive Leap" level="1" page="24" cost="1">
+            <Traits>Fire, Inventor, Move, Unstable</Traits>
+            <Description>You aim an explosion from your innovation downward to launch yourself into the air. You jump up to 30 feet in any direction without touching the ground. You must land on a space of solid ground, or else you fall after using your next action. As normal for effects where you fall after using your next action, you still fall at the end of your turn, even if you don't use any further actions that turn.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If your innovation is a minion, it can take this action rather than you.</Description>
+        </Ability>
+        <Ability name="Haphazard Repair" level="1" page="25" cost="1">
+            <Traits>Inventor, Unstable</Traits>
+            <Description>You quickly fix your innovation, at the cost of its stability. You Repair your innovation almost immediately. You don't have to place the innovation on a flat surface, but you do need to be adjacent to it (including holding or wearing it), as well as having a repair kit as normal.</Description>
+        </Ability>
+        <Ability name="No! No! I Created You!" level="1" page="25" cost="Reaction">
+            <Traits>Auditory, Concentrate, Inventor</Traits>
+            <Prerequisites>Construct Companion</Prerequisites>
+            <Trigger>Your construct companion would become confused or controlled.</Trigger>
+            <Frequency>once per minute</Frequency>
+            <Description>You appeal to your construct companion's bond with its creator to have it break free of a controlling effect. Attempt to counteract the effect that confused or controlled your construct companion, using your Crafting modifier for the counteract check and half your level rounded up for the counteract level.</Description>
+        </Ability>
+        <Ability name="Prototype Companion" level="1" page="25">
+            <Traits>Inventor</Traits>
+            <Description>You have created a construct companion, and while it might not be an innovation, it serves as a trustworthy minion. You gain a prototype construct companion.</Description>
+        </Ability>
+        <Ability name="Tamper" level="1" page="25" cost="1">
+            <Traits>Inventor, Manipulate</Traits>
+            <Description>You tamper with a foe's weapon or armor, using a free hand. Choose either a weapon held by an enemy in your reach or a suit of armor worn by an enemy in your reach. Attempt a Crafting check against the enemy's Reflex DC.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; Your tampering is incredibly effective. If you tampered with a weapon, the enemy takes a –2 circumstance penalty to attack rolls and damage rolls with that weapon. If you tampered with armor, the armor hampers the enemy's movement, making the enemy flat-footed and inflicting a –10-foot penalty to its Speeds. The effect lasts until the enemy Interacts to remove it, regardless of which one you used.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; Your tampering is temporarily effective. As critical success, but the effect ends at the start of your next turn, even if the enemy doesn't Interact to end it.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; Your tampering backfires dramatically, creating a small explosion from your own tools or gear. You take fire damage equal to your level.
+            </Description>
+        </Ability>
+        <Ability name="Variable Core" level="1" page="25">
+            <Traits>Inventor, Modification</Traits>
+            <Description>You adjust your innovation's core, changing the way it explodes. When you choose this feat, select acid, cold, or electricity. Your innovation's core runs on that power source. When using the Explode action, or any time your innovation explodes on a critical failure and damages you, change the damage type from fire damage to the type you chose. &lt;br&gt;&lt;br&gt;If you have the offensive boost class feature and retrain Variable Core to a different damage type, you can also switch to a different offensive boost that deals the same damage type if you wish.</Description>
+        </Ability>
+        <Ability name="Collapse Armor" level="2" page="25" cost="1">
+            <Traits>Inventor, Manipulate, Modification</Traits>
+            <Prerequisites>Armor Innovation</Prerequisites>
+            <Requirements>You are wearing your armor innovation, or holding it in both hands in its compact form (see text).</Requirements>
+            <Description>You've modified your armor innovation to collapse into a more compact form so you can don or remove it in an instant. If you're wearing your innovation when you Collapse your Armor, you remove it instantly, and it compresses into its compact form, which is held in both of your hands (if you don't have both hands available, it falls to the ground in an adjacent space). If you're holding your armor in compact form when you take this action, it unfolds back into its armor form onto your body.&lt;br&gt;&lt;br&gt; In compact form, your armor innovation is easier to carry, with a Bulk 1 lower than the Bulk listed for it, to a minimum of light Bulk (carried armor normally has a Bulk 1 higher than listed in the armor entry).</Description>
+        </Ability>
+        <Ability name="Collapse Construct" level="2" page="25" cost="1">
+            <Traits>Inventor, Manipulate, Modification</Traits>
+            <Prerequisites>Construct Innovation</Prerequisites>
+            <Description>You've modified your construct companion and built it out of light materials, enabling you to collapse it into a carrying case or other compact and innocuous form. Either your construct or you (if you're adjacent to it) can Collapse your Construct to turn it into its compact form or back into its normal form.&lt;br&gt;&lt;br&gt; In compact form, your construct can't act but is easily carried, with a Bulk of 2 if it's Small, 4 if it's Medium, or 8 if it's Large. The compact form has wheels, so you can easily drag it behind you at half your Speed (rather than the usual slower Speed for dragging).</Description>
+        </Ability>
+        <Ability name="Reverse Engineer" level="2" page="25">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Expert In Crafting</Prerequisites>
+            <Description>You are incredibly skilled at reverse engineering items to learn their formulas, or disassembling them just to disable them. You gain a +2 circumstance bonus to Crafting checks to reverse engineer a formula from an item. If you get a critical success on your Crafting check, you can opt to both create the formula and reassemble the original item at the same time, leaving you with the formula and the item instead of the formula and raw materials equal to half the item's value. Furthermore, you can use Crafting instead of Thievery to Disable a Device or Pick a Lock.</Description>
+        </Ability>
+        <Ability name="Searing Restoration" level="2" page="26" cost="1">
+            <Traits>Fire, Healing, Inventor, Manipulate, Unstable</Traits>
+            <Description>They told you there was no way that explosions could heal people, but they were fools… Fools who didn't understand your brilliance! You create a minor explosion from your innovation, altering the combustion to cauterize wounds using vaporized medicinal herbs. You or a living creature adjacent to you regains 1d10 Hit Points. In addition, the creature you heal can attempt an immediate flat check to recover from a single source of persistent bleed damage, with the DC reduction from appropriate assistance.&lt;br&gt;&lt;br&gt; At 3rd level, and every 2 levels thereafter, increase the healing by 1d10.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If your innovation is a minion, it can take this action rather than you, though because it's not a living creature, it can't use the ability on itself.</Description>
+        </Ability>
+        <Ability name="Advanced Construct Companion" level="4" page="26">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Construct Companion</Prerequisites>
+            <Description>You've upgraded your construct companion's power and decision-making ability. It becomes an advanced construct companion. During an encounter, even if you don't use the Command a Minion action, your construct companion can still use 1 action on your turn that round to Stride or Strike.</Description>
+        </Ability>
+        <Ability name="Diving Armor" level="4" page="26">
+            <Traits>Inventor, Modification</Traits>
+            <Prerequisites>Armor Innovation</Prerequisites>
+            <Description>You've modified your armor with fins, rotors, and other devices to make it easy for you to move through the water, plus mechanical gills that can help you extract breathable air from water. While wearing your armor innovation, you can breathe underwater and gain a swim Speed equal to your land Speed.</Description>
+        </Ability>
+        <Ability name="Dual-Form Weapon" level="4" page="26">
+            <Traits>Inventor, Modification</Traits>
+            <Prerequisites>Weapon Innovation</Prerequisites>
+            <Description>You've built your innovation with replaceable interlocking pieces that you can use to transform it into another type of weapon entirely. When you select this feat, choose a level 0 or 1st-level simple or martial weapon. It must be either a common weapon or another to which you have access. This weapon becomes your innovation's second configuration.&lt;br&gt;&lt;br&gt; Select a new set of weapon modifications for this new configuration. You can spend two Interact actions to switch your weapon innovation between the two configurations. These actions don't need to be taken consecutively, but if you've provided the first and not the second, the weapon is non-functional as it is stranded between states. Your weapon's Bulk is always the greater Bulk of the two configurations, regardless of which configuration it's in—if one weapon is smaller than the other, you still need to keep any weapon parts on hand. Any runes on your weapon innovation don't affect the second weapon configuration.
+            </Description>
+        </Ability>
+        <Ability name="Gadget Specialist" level="4" page="26">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Expert In Crafting</Prerequisites>
+            <Description>Rather than just using your gadgets for various boosts and tweaks, you also craft a few specific temporary consumable gadgets each day. You gain the formulas for three common or uncommon gadgets. Each day during your daily preparations, you can create two temporary gadgets from your formula book. Gadgets prepared in this way don't cost you any resources to Craft and don't have any sale value. They are temporary items and fall apart the next time you make your daily preparations if you haven't already used them. &lt;br&gt;&lt;br&gt;If you're a master in Crafting, you can create three gadgets per day, and you gain three additional common or uncommon gadget formulas. If you're legendary in Crafting, you can create four gadgets per day, and you gain another additional three common or uncommon gadget formulas, for a total of nine.</Description>
+        </Ability>
+        <Ability name="Megaton Strike" level="4" page="27" cost="2">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Armor, Construct, Or Weapon Innovation</Prerequisites>
+            <Description>You activate gears, explosives, and other hidden mechanisms in your innovation to make a powerful attack. You make a Strike, dealing an extra die of weapon damage. If you're at least 10th level, increase this to two extra dice, and if you're at least 18th level, increase it to three extra dice. The type of Strike you can make depends on your innovation. Armor You Strike with a melee unarmed attack or a melee weapon. To use a melee weapon for this, you must have prepared it in advance with special contraptions when you make your daily preparations. Construct Your minion innovation Strikes. Weapon You Strike with your weapon innovation. &lt;b&gt;Unstable Function&lt;/b&gt; You put even more force into the Strike, though you risk stress fractures to your innovation. Add the unstable trait to Megaton Strike. The Strike deals another extra damage die, for a total of two extra dice at 4th level, three at 10th level, and four at 18th level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If your innovation is a minion, it can take this action rather than you.
+            </Description>
+        </Ability>
+        <Ability name="Clockwork Celerity" level="6" page="27" cost="Free">
+            <Traits>Inventor, Manipulate, Unstable</Traits>
+            <Prerequisites>Armor, Construct, Or Weapon Innovation</Prerequisites>
+            <Trigger>Your turn begins.</Trigger>
+            <Description>You can use unstable clockwork devices in your innovation to push your invention to act more quickly. You are quickened for this turn. How you can use the extra action depends on your innovation. Armor You can use the extra action to Step, Stride, or use another movement action granted by your innovation (such as Swim if you have the Diving Armor feat). Construct You can use the extra action to Command your construct innovation (or to provide 1 of the actions if you spend 2 actions to Command your construct). Weapon You can use the extra action to Strike with your innovation or Reload your innovation.</Description>
+        </Ability>
+        <Ability name="Construct Shell" level="6" page="27">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Construct Innovation</Prerequisites>
+            <Description>You've adjusted your construct innovation so that when you ride it, special plates, hollows, or similar form partial barriers around you to add additional protection. You have lesser cover from all attacks when mounted on your construct innovation, not just from attacks where the construct would be in the way. Additionally, if your construct uses an emanation while you're riding on it, such as Explode, you can choose not to be affected by the emanation.</Description>
+        </Ability>
+        <Ability name="Megavolt" level="6" page="27" cost="2">
+            <Traits>Electricity, Inventor, Manipulate</Traits>
+            <Description>You bleed off some electric power from your innovation in the shape of a damaging bolt. Creatures in a 20-foot line from your innovation take 3d4 electricity damage, with a basic Reflex save against your class DC. The electricity damage increases by 1d4 at 8th level and every 2 levels thereafter.&lt;br&gt;&lt;br&gt; &lt;b&gt;Unstable Function&lt;/b&gt; You overload and supercharge the voltage even higher. Add the unstable trait to Megavolt. The area increases to a 60-foot line and the damage increases from d4s to d12s.&lt;br&gt;&lt;br&gt; If you have the breakthrough innovation class feature, you can choose a 60-foot or 90-foot line for the area when you use an unstable Megavolt; if you also have the revolutionary innovation class feature, you can choose a 60-foot, 90-foot, or 120-foot line.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If your innovation is a minion, it can take this action rather than you.</Description>
+        </Ability>
+        <Ability name="Visual Fidelity" level="6" page="27">
+            <Traits>Inventor</Traits>
+            <Description>You've found a way to use a hodgepodge combination of devices to enhance your visual abilities in every situation. You gain darkvision and low-light vision, and you can see invisible creatures and objects as translucent shapes, though these shapes are indistinct enough to be concealed to you.&lt;br&gt;&lt;br&gt; If an effect would give you the blinded condition, the effect must attempt a counteract check against your class DC, with your counteract level equaling half your level, rounded up. On a failed counteract check, you aren't blinded—your various devices are able to compensate.</Description>
+        </Ability>
+        <Ability name="Gigaton Strike" level="8" page="27">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Megaton Strike</Prerequisites>
+            <Description>When you use a full-power Megaton Strike, you can knock your foe back. When you succeed at your Strike while using an unstable Megaton Strike, your target must attempt a Fortitude save against your class DC.&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is pushed back 5 feet.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is pushed back 10 feet.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is pushed back 20 feet.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If your innovation is a minion, this benefit applies on its unstable Megaton Strikes.</Description>
+        </Ability>
+        <Ability name="Incredible Construct Companion" level="8" page="28">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Advanced Construct Companion</Prerequisites>
+            <Description>Thanks to your continual tinkering, your construct companion has advanced to an astounding new stage of engineering, enhancing all its attributes. Your construct companion becomes an incredible construct companion.</Description>
+        </Ability>
+        <Ability name="Manifold Modifications" level="8" page="28">
+            <Traits>Inventor, Modification</Traits>
+            <Prerequisites>Initial Modification</Prerequisites>
+            <Description>You've modified your innovation using clever workarounds, so you can include another initial modification without compromising its structure. Your innovation gains an additional initial modification from the list for innovations of its type.</Description>
+        </Ability>
+        <Ability name="Overdrive Ally" level="8" page="28" cost="1">
+            <Traits>Inventor, Manipulate</Traits>
+            <Prerequisites>Overdrive</Prerequisites>
+            <Requirements>You are currently in overdrive.</Requirements>
+            <Description>You quickly fling some of your powered-up mechanisms to an ally, sharing your benefits with them briefly. Choose an ally within 30 feet. Until the end of their next turn, that ally's Strikes deal additional damage equal to half your Intelligence modifier, or your full Intelligence modifier if you were in critical overdrive. The ally doesn't gain the increased damage from expert, master, or legendary overdrive.</Description>
+        </Ability>
+        <Ability name="Ubiquitous Gadgets" level="8" page="28">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Gadget Specialist</Prerequisites>
+            <Description>They thought you had used up all your devices, but they thought wrong! You have a few more gadgets up your sleeve than others expect. Increase the number of temporary gadgets you can create each day by 2.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat a second time if you are 14th level or higher.</Description>
+        </Ability>
+        <Ability name="Distracting Explosion" level="10" page="28" cost="Reaction">
+            <Traits>Inventor, Manipulate</Traits>
+            <Prerequisites>Offensive Boost</Prerequisites>
+            <Trigger>A creature within your reach uses a concentrate action.</Trigger>
+            <Description>Your enemies think they can concentrate on something else while you're nearby? Oh, you'll give them a distraction, all right! Make a melee Strike against the triggering creature with a weapon or unarmed attack that is benefiting from your offensive boost. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.&lt;br&gt;&lt;br&gt; &lt;b&gt;Unstable Function&lt;/b&gt; You pull out all the stops to create an explosive distraction. Add the unstable trait to Distracting Explosion. If the attack hits, you disrupt the triggering concentrate action.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If your innovation is a minion, it can take this reaction instead of you, even though minions can't normally take reactions or act when it's not their turn. It uses your reaction for the turn to do so.</Description>
+        </Ability>
+        <Ability name="Electrify Armor" level="10" page="29" cost="1">
+            <Traits>Inventor, Manipulate</Traits>
+            <Prerequisites>Armor Innovation</Prerequisites>
+            <Requirements>You are wearing your armor innovation.</Requirements>
+            <Description>You electrify your armor to punish foes who dare to attack you. For 1 round, any creature that touches you, or that hits you with a melee unarmed attack or a non-reach melee weapon attack, takes 1d4 electricity damage. The effect ends if you cease wearing your armor innovation.&lt;br&gt;&lt;br&gt; If you have the revolutionary innovation class feature, the damage increases to 2d4.&lt;br&gt;&lt;br&gt; &lt;b&gt;Unstable Function&lt;/b&gt; You create an unstable chain reaction, sending countless sparks dancing across your armor. Add the unstable trait to Electrify Armor. The effects last for 1 minute instead of 1 round, and the damage dice increase from d4s to d12s.</Description>
+        </Ability>
+        <Ability name="Helpful Tinkering" level="10" page="29" cost="1">
+            <Traits>Inventor, Manipulate</Traits>
+            <Prerequisites>Offensive Boost</Prerequisites>
+            <Frequency>once per 10 minutes</Frequency>
+            <Description>You don't just tinker with your own innovation, you fiddle with your allies' weapons as well (for their benefit, of course). Choose an ally in your reach and one of their weapons. Attempt a Crafting check against a high DC for your level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; For 1 minute, the chosen ally's Strikes with the chosen weapon gain the same offensive boost your innovation has.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; Your ally takes damage of the type and amount that your offensive boost normally deals on a successful Strike.</Description>
+        </Ability>
+        <Ability name="Lock On" level="10" page="29" cost="1">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Construct Innovation</Prerequisites>
+            <Description>Aha! You lock on to your enemy's weak point to assist your construct companion in destroying it. When you Lock On, designate an enemy you can see. If your next action is to Command your construct, the construct gains a +2 circumstance bonus to attack rolls against the designated enemy until the end of the turn. If you use 2 actions for the Command, the bonus is instead a +3 circumstance bonus, or a +4 circumstance bonus if you're legendary in Crafting.</Description>
+        </Ability>
+        <Ability name="Boost Modulation" level="12" page="29">
+            <Traits>Inventor, Manipulate</Traits>
+            <Prerequisites>Offensive Boost</Prerequisites>
+            <Description>You aren't satisfied with keeping to just one kind of boost from your constant tinkering, so you've learned to modulate between several possibilities at once. Choose two additional offensive boosts. You can use an Interact action to change the offensive boost currently affecting your weapon, choosing between the one you chose for the class feature and the two you chose for this modification. If your weapon has the modular trait, you can swap the offensive boost as part of the Interact action you take to use that trait.</Description>
+        </Ability>
+        <Ability name="Contingency Gadgets" level="12" page="29">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Gadget Specialist</Prerequisites>
+            <Description>You are too brilliant to be caught off guard, and you always have just the right gadget for the situation. When you prepare your gadgets during your daily preparations, you can choose to leave one of them as a contingency gadget that you keep ready for just this situation, rather than declaring which gadget you're making. You can pull the contingency gadget out using an Interact action, at which point you must choose which gadget you had prepared as a contingency.&lt;br&gt;&lt;br&gt; If you're legendary in Crafting, you can leave two contingency gadgets during your daily preparations, instead of just one.</Description>
+        </Ability>
+        <Ability name="Deep Freeze" level="12" page="29" cost="2">
+            <Traits>Cold, Inventor, Manipulate</Traits>
+            <Description>You vent a jet of supercooled fluid from your innovation, damaging a foe and slowing it down. Target one creature within 60 feet. That creature takes cold damage equal to your level, with effects depending on its Reflex save.&lt;br&gt; &lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target takes half damage and takes a –5-foot status penalty to its Speeds for 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target takes full damage and takes a –10-foot status penalty to its Speeds for 1 round.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target takes double damage, is slowed 1 for 1 round, and takes a –15-foot status penalty to its Speeds for 1 round. &lt;br&gt;&lt;b&gt;Unstable Function&lt;/b&gt; Your innovation discharges an enormous cone of supercooled fluid, potentially causing cascading failures. Add the unstable trait to Deep Freeze. The ability affects all creatures within a 60-foot cone instead of a single target, and it deals cold damage equal to double your level instead of equal to your level.&lt;br&gt;&lt;br&gt; If you have the revolutionary innovation class feature, you can choose a 60-foot or 90-foot cone when you use an unstable Deep Freeze.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; If your innovation is a minion, it can take this action rather than you.
+            </Description>
+        </Ability>
+        <Ability name="Gigavolt" level="12" page="30">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Megavolt</Prerequisites>
+            <Description>When you unleash electricity from your innovation, you can bounce it off obstacles, creating a field of electric death. When you use Megavolt, each time your line of electricity hits a solid barrier, such as a wall, it bounces off at an angle of your choice and continues until you have reached the full length of the line. Even if a creature is in the area from multiple bounces, it takes the damage only once.</Description>
+        </Ability>
+        <Ability name="Shared Overdrive" level="12" page="30">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Overdrive Ally</Prerequisites>
+            <Description>You've experimented enough on your teammates to transfer a substantial number of powered-up gizmos to them, enabling one of your allies to benefit from the full effects and duration of your Overdrive. The first time you use Overdrive Ally during a given Overdrive, the effect lasts for the remainder of the duration of your Overdrive, instead of just until the end of the target's next turn. Any further uses of Overdrive Ally during the same Overdrive have their normal duration, per Overdrive Ally.</Description>
+        </Ability>
+        <Ability name="Explosive Maneuver" level="14" page="30" cost="1">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Weapon Innovation</Prerequisites>
+            <Requirements>Your last action was a successful Strike against a foe using your weapon innovation.</Requirements>
+            <Description>Thanks to a hidden experimental feature you built into your weapon, your weapon explosively deploys levers, tangling hooks, or similar mechanisms to provide significant assistance when you perform a combat maneuver. When you use Explosive Maneuver, choose Grapple, Shove, or Trip. Your weapon innovation must have a weapon trait that matches the action you chose (for instance, to choose Grapple, your weapon must have the grapple trait). You take the chosen action against the same foe as your previous successful Strike, using the same multiple attack penalty as your previous successful Strike. You still increase your multiple attack penalty after the Grapple, Shove, or Trip, as normal.</Description>
+        </Ability>
+        <Ability name="Paragon Companion" level="14" page="30">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Incredible Construct Companion</Prerequisites>
+            <Description>Your construct companion has reached the pinnacle of form and function. Your construct companion becomes a paragon construct companion.</Description>
+        </Ability>
+        <Ability name="Soaring Armor" level="14" page="30">
+            <Traits>Inventor, Modification</Traits>
+            <Prerequisites>Armor Innovation</Prerequisites>
+            <Description>Whether through a release of jets of flame, propeller blades, sonic bursts, streamlined aerodynamic structure, electromagnetic fields, or some combination of the above, you've managed to free your innovation from the bonds of gravity! While wearing your innovation, you gain a fly Speed equal to your land Speed.</Description>
+        </Ability>
+        <Ability name="Unstable Redundancies" level="14" page="31" cost="Free">
+            <Traits>Inventor</Traits>
+            <Trigger>You would attempt the flat check for an unstable action, but you haven't rolled the flat check yet.</Trigger>
+            <Description>You've built triple redundancies into your innovation and added all sorts of buffers to protect it from the harm of your unstable experiments. You automatically succeed at the triggering flat check.&lt;br&gt;&lt;br&gt; You can't rely on your Unstable Redundancies again until you spend 10 minutes setting them back up. If you spend 10 minutes retuning your innovation so you can use unstable actions again, you can set up your Unstable Redundancies during the same time.</Description>
+        </Ability>
+        <Ability name="Just the Thing!" level="16" page="31">
+            <Traits>Inventor</Traits>
+            <Frequency>once per hour</Frequency>
+            <Description>Need to balance on a razor's edge, force open an iron door, or persuade a dragon to negotiate? Never fear! No matter the situation, you always have just the thing. You attempt a skill action that takes 1 minute or less to complete, using the same number of actions or amount of time as normal. However, as you take the action, describe a device you pull out and use to accomplish the skill. The specifics of how you accomplish this are up to you, but they should fit the challenge at hand. For instance, you might use gravitic stabilizers to balance on the razor's edge, a force battering ram gizmo to open the iron door, or a device that produces an aroma with the ability to pacify wyrms to persuade the dragon. Using an invention in this way lets you alter how you calculate the skill check used in the action. Instead of the normal skill modifier associated with that skill action, you use your Crafting modifier.</Description>
+        </Ability>
+        <Ability name="Persistent Boost" level="16" page="31">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Offensive Boost</Prerequisites>
+            <Description>Your innovation sets foes on fire, covers them in acid, leaves barbed thorns behind, or otherwise deals persistent damage to your foes that sticks around long after you deliver your boosted attack. When you or your construct innovation damage a foe with offensive boost, that foe also takes 1d8 persistent damage of the same damage type as the offensive boost damage.</Description>
+        </Ability>
+        <Ability name="You Failed to Account for… This!" level="16" page="31" cost="Reaction">
+            <Traits>Inventor</Traits>
+            <Trigger>A creature you can see targets you with an attack against your AC.</Trigger>
+            <Description>When your foes try to attack you, you always seem to have some outlandish invention you can pull out at the last second to protect you from whatever attack they throw at you. Describe a device you're attempting to use to protect yourself from the foe's attack—for instance, when attacked by a shocker lizard's shock Strike, you might pull out a specially grounded lightning rod from that time you tried to power an invention by harnessing a thunderstorm! Using an invention to defend in this way means that the attack roll for the triggering attack targets your Crafting DC instead of your AC.&lt;br&gt;&lt;br&gt; Since you're using your Crafting DC instead of your AC, any penalties to your AC don't apply, but this doesn't remove any conditions or other effects that are causing you such penalties. For instance, if you were flat-footed and used an invention to defend against a sneak attack, you'd still take the extra precision damage if you were hit, even though the –2 penalty to AC from being flat-footed wouldn't apply to your Crafting DC.
+            </Description>
+        </Ability>
+        <Ability name="Devastating Weaponry" level="18" page="31" cost="3">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Weapon Innovation</Prerequisites>
+            <Description>You release a volley of projectiles from your weapon, or power it to fly in every direction across the battlefield and Strike multiple creatures. Make a Strike with your weapon innovation against each foe within 30 feet of you. Don't increase your multiple attack penalty until after making all the attacks. If your innovation is a melee weapon and any of the attacks are outside your reach, you Release the weapon before the Strikes, and it returns to your grasp after all of them. If your hands are full when the weapon returns, it falls to the ground in your space. As normal, if your weapon innovation requires one or more actions to reload between Strikes, you can't use it to make multiple attacks with Devastating Weaponry.</Description>
+        </Ability>
+        <Ability name="Engine of Destruction" level="18" page="31" cost="3">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Construct Innovation</Prerequisites>
+            <Description>Your construct unleashes a broad swath of devastation by separating its limbs, deploying hidden armaments, or using a similar technique to wreak havoc. You Command your innovation. Instead of its normal actions, it Strides once, then makes a Strike against each foe within 30 feet of it with a +2 circumstance bonus to its attack rolls. The multiple attack penalty doesn't increase until after the construct makes all the attacks.</Description>
+        </Ability>
+        <Ability name="Negate Damage" level="18" page="31" cost="Reaction">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Armor Innovation</Prerequisites>
+            <Trigger>You would take damage</Trigger>
+            <Description>Your armor innovation activates various devices you prepared ahead of time, and you use one of them to reduce the damage you would take by 15.&lt;br&gt;&lt;br&gt; &lt;b&gt;Unstable Function&lt;/b&gt; You activate all the precautions at once, violently repelling the incoming attack to blunt its force. Add the unstable trait to Negate Damage and reduce the damage you would take by 50.</Description>
+        </Ability>
+        <Ability name="Full Automation" level="20" page="32">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Armor, Construct, Or Weapon Innovation</Prerequisites>
+            <Description>You become so entwined with your innovations that you can use them without a second thought. You're permanently quickened. How you can use the extra action depends on your innovation. Armor Your armor responds to the most subtle stimuli to move you in the right direction as long as you are wearing it. You can use the extra action to Stride, Step, or use a form of movement provided by your innovation (such as Fly or Swim). Construct Your ability to command your construct becomes instinctive. You can use the extra action to Command your construct innovation (or to provide 1 of the actions if you choose to spend 2 actions to Command your construct). Weapon Your weapon becomes easier to wield with deadly efficacy, almost as if it is an extension of your body. It speeds effortlessly toward whatever target you choose as long as you are holding it. You can use the extra action to Strike with your innovation.</Description>
+        </Ability>
+        <Ability name="Ubiquitous Overdrive" level="20" page="32">
+            <Traits>Inventor</Traits>
+            <Prerequisites>Shared Overdrive</Prerequisites>
+            <Description>You prepare a variety of incredible gizmos on each of your allies, linking them together through careful modification to enable you to power them up all at once. During your daily preparations, select up to six willing allies. Whenever you Overdrive, you grant the benefits of your overdrive to any of these allies you choose who are within 30 feet of you. The allies don't gain the increased damage from expert, master, or legendary overdrive.</Description>
+        </Ability>
+    </Feats>
+</pf2:class>

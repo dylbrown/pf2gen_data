@@ -12,6 +12,23 @@
     <Senses>Darkvision, Low-light Vision</Senses>
     <Description>Once human and now something apart, fetchlings display the Shadow Plane's ancient influence through monochrome complexions, glowing eyes, and the casting of supernatural shadows.</Description>
     <Feats>
+        <!--Heritages-->
+        <Ability name="Bright Fetchling" type="Heritage" page="85">
+            <Description>Your body proves that shadow can't exist without light. Perhaps your eyes glow brighter or your veins occasionally pulse with light. You emit dim light within 5 feet of you. You can activate or suppress this ability as an action, which has the concentrate trait. Additionally, you can force fragments of your shadow to glow and cast dancing lights and light as occult innate cantrips. Cantrips are heightened to a spell level equal to half your level rounded up.</Description>
+        </Ability>
+        <Ability name="Deep Fetchling" type="Heritage" page="85">
+            <Description>Your predecessors dwelled in the Shadow Plane's deepest, most treacherous regions. You might cast a denser shadow, have a slower pulse, or find comfort in the embrace of darkness. You gain cold or negative resistance equal to half your level (minimum 1), chosen when you gain this heritage.</Description>
+        </Ability>
+        <Ability name="Liminal Fetchling" type="Heritage" page="85">
+            <Description>You come from a line of fetchlings with a closer connection to the Ethereal Plane and Shadow Planes, and you share those realms' affinity with the in-between and unseen. You gain a +1 circumstance bonus to locate undetected creatures within 60 feet when using the Seek action. Your flat check to target concealed creatures is DC 3 instead of DC 5, and your flat check to target undetected creatures is DC 9 instead of DC 11.</Description>
+        </Ability>
+        <Ability name="Resolute Fetchling" type="Heritage" page="85">
+            <Description>Your ancestors have long dealt with the horrific—in the Shadow Plane or elsewhere—and you bear their mental fortitude. When you roll a success on a saving throw against an emotion effect, you get a critical success instead.</Description>
+        </Ability>
+        <Ability name="Wisp Fetchling" type="Heritage" page="85">
+            <Description>Your ancestors' exposure to the Shadow Plane wrought great physical changes. Your hair or skin sometimes appears insubstantial, and you're slighter and more agile than other fetchlings. You're Small instead of Medium. You gain the trained proficiency rank in Acrobatics, the Quick Squeeze skill feat, and a +1 circumstance bonus to Acrobatics checks to Tumble Through. If you would automatically become trained in Acrobatics (from your background or class, for example), you instead become trained in a skill of your choice.</Description>
+        </Ability>
+        <!--Regular Feats-->
         <Ability name="Hard to Fool" level="1" page="86">
             <Traits>Fetchling</Traits>
             <Description>You're accustomed to seeing through shifting darkness and bewildering magic. You gain a +1 circumstance bonus on Perception checks against illusions as well as to Will saves against illusions and shadow effects.</Description>

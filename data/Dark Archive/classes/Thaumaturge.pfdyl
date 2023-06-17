@@ -1,0 +1,399 @@
+<?xml version = "1.0"?>
+<pf2:class xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <Name>Thaumaturge</Name>
+    <HP>8</HP>
+    <AbilityChoices>Cha</AbilityChoices>
+    <SkillIncreases>3</SkillIncreases>
+    <Description>The world is full of the unexplainable: ancient magic, dead gods, and even stranger things. In response, you've scavenged the best parts of every magical tradition and built up a collection of esoterica—a broken holy relic here, a sprig of mistletoe there—that you can use to best any creature by exploiting their weaknesses and vulnerabilities. The mystic implement you carry is both badge and weapon, its symbolic weight helping you bargain with and subdue the supernatural. Every path to power has its restrictions and costs, but you turn them all to your advantage. You're a thaumaturge, and you work wonders.</Description>
+<FeatureList level="1">
+		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+		<AbilitySlot state="feat" type="Heritage Feat" name="Heritage"/>
+		<AbilitySlot state="filled" name="Initial Proficiencies">
+			<Ability>
+				<AttributeMods Proficiency="Expert">Perception, Fortitude, Will</AttributeMods>
+				<AttributeMods Proficiency="Trained">Reflex, Simple Weapons, Martial Weapons, Unarmed, Light Armor, Medium Armor, Unarmored, Class DC (Thaumaturge)</AttributeMods>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Esoteric Lore">
+			<Ability>
+				<Description>Your experience with the unknown, as well as the tales you've exchanged with other thaumaturges, has taught you about strange phenomena of every kind. You become trained in Esoteric Lore, a special lore skill that can be used to Recall Knowledge regarding haunts, curses, and creatures of any type, but that can't be used to Recall Knowledge of other topics. Unlike a normal Lore skill, you use Charisma as your modifier on Esoteric Lore checks. You also gain the Dubious Knowledge skill feat.&lt;br&gt;&lt;br&gt; At 3rd level, you become an expert in Esoteric Lore; at 7th level, you become a master in Esoteric Lore; and at 15th level, you become legendary in Esoteric Lore.</Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="First Implement And Esoterica">
+			<Ability>
+				<Description>Your implement is a special object of symbolic importance: your badge as you treat with the supernatural and a powerful tool if things turn violent. Choose an implement from the options to which you have access. You begin play with a mundane item of that type, and you gain the initiate benefit for that implement. While an implement is useful to you, it typically has no value if sold. If you acquire a new object of the same general implement type, you can switch your implement to the new object by spending 1 day of downtime with the new item. As you advance as a thaumaturge, you will collect up to three implements and unlock the hidden potential stored within each, so you can mix and match their benefits to suit your situation.&lt;br&gt;&lt;br&gt; While your implements are your primary tools in your dealings with the supernatural, you know the value of always being prepared. You constantly collect and carry various smaller mystic objects, bits of materials with paranormal affinities, and items used in folk practices: your esoterica. These might include cold iron nails, scraps of scrolls and scriptures, fragments of bones purportedly from a saint, and other similar objects. You keep your esoterica in easy-to-access places on your person and are well practiced in brandishing your implement and esoterica together, so you can draw and use esoterica with the same hand you're using to wield an implement.&lt;br&gt;&lt;br&gt;Implements can be found here. </Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Implement's Empowerment">
+			<Ability>
+				<Description>The power of your implement can also be turned to the more common task of combat, its power adding to and amplifying the effects of runes and other magical empowerments. When you Strike, you can trace mystic patterns with an implement you're holding to empower the Strike, causing it to deal 2 additional damage per weapon damage die. Channeling the power requires full use of your hands. You don't gain the benefit of implement's empowerment if you are holding anything in either hand other than a single one-handed weapon, other implements, or esoterica, and you must be holding at least one implement to gain the benefit.</Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Class Feat" name="Thaumaturge Feat"/>
+	</FeatureList>
+<FeatureList level="2">
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="feat" type="Class Feat" name="Thaumaturge Feat"/>
+	</FeatureList>
+<FeatureList level="3">
+		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
+		<AbilitySlot state="filled" name="Lightning Reflexes" type="ClassFeature" contents="Lightning Reflexes" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+<FeatureList level="4">
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="feat" type="Class Feat" name="Thaumaturge Feat"/>
+	</FeatureList>
+<FeatureList level="5">
+		<AbilitySlot state="filled" name="Ability Boosts">
+			<Ability abilityBoosts="4"/>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+		<AbilitySlot state="filled" name="Second Implement">
+			<Ability>
+				<Description>You've added another implement of power to your toolkit. You choose a second implement, which must be a different type of implement than your first. You gain the initiate benefit of your new implement.&lt;br&gt;&lt;br&gt; While you're holding an implement in one hand, you can quickly switch it with another implement you're wearing to use an action from the implement you're switching to. To do so, you can Interact as a free action immediately before executing the implement's action. This allows you to meet requirements of having an implement in hand to use its action. For example, if you had your lantern implement in one hand, a weapon in the other, and a chalice implement you were wearing, you could swap your lantern for your chalice to use its reaction.</Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Thaumaturge Weapon Expertise">
+			<Ability>
+				<Description>You've learned the secret ways your weapons work most effectively. Your proficiency ranks for unarmed attacks, simple weapons, and martial weapons increase to expert.</Description>
+			</Ability>
+		</AbilitySlot>
+	</FeatureList>
+<FeatureList level="6">
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="feat" type="Class Feat" name="Thaumaturge Feat"/>
+	</FeatureList>
+<FeatureList level="7">
+		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
+		<AbilitySlot state="filled" name="Implement Adept">
+			<Ability>
+				<Description>You have deepened your connection to one of your implements, unlocking its adept power. Choose one of your implements and gain the adept benefit for that implement.</Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Resolve" type="ClassFeature" contents="Resolve" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Weapon Specialization" type="ClassFeature" contents="Weapon Specialization" />
+	</FeatureList>
+<FeatureList level="8">
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="feat" type="Class Feat" name="Thaumaturge Feat"/>
+	</FeatureList>
+<FeatureList level="9">
+		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+		<AbilitySlot state="filled" name="Intensify Vulnerability">
+			<Ability>
+				<Description>You've learned to use your implement to further assault a creature whose vulnerabilities you're exploiting. You gain the intensify vulnerability benefit of all of your implements, as well as the following action.&lt;h3&gt;Intensify Vulnerability&lt;/h3&gt;ConcentrateDivinationEsotericaMagicalThaumaturge&lt;br&gt;&lt;b&gt;Source&lt;/b&gt; &lt;i&gt;Dark Archive pg. 35&lt;/i&gt;&lt;br&gt;&lt;b&gt;Frequency&lt;/b&gt; once per round&lt;br&gt;&lt;b&gt;Requirements&lt;/b&gt; You're benefiting from Exploit Vulnerability, you can see the subject, and you haven't used Exploit Vulnerability this round.You present your implement and esoterica again, intensifying their effects on the target in a way unique to your implement. You gain the intensified vulnerability benefit from one of the implements you're holding, which lasts until the beginning of your next turn.&lt;br&gt;</Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Thaumaturgic Expertise">
+			<Ability>
+				<Description>You've learned deeper secrets of the supernatural, and your abilities are harder to resist. Your proficiency rank for your thaumaturge class DC increases to expert. &lt;br&gt;&lt;br&gt;You also gain an additional skill increase, which you can apply only to Arcana, Nature, Occultism, or Religion.</Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Vigilant Senses" type="ClassFeature" contents="Vigilant Senses" />
+	</FeatureList>
+<FeatureList level="10">
+		<AbilitySlot state="filled" name="Ability Boosts">
+			<Ability abilityBoosts="4"/>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="feat" type="Class Feat" name="Thaumaturge Feat"/>
+	</FeatureList>
+<FeatureList level="11">
+		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
+		<AbilitySlot state="filled" name="Medium Armor Expertise" type="ClassFeature" contents="Medium Armor Expertise" />
+		<AbilitySlot state="filled" name="Second Adept">
+			<Ability>
+				<Description>You've improved your link to your second implement. You gain the adept benefit of your second implement.</Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+	</FeatureList>
+<FeatureList level="12">
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="feat" type="Class Feat" name="Thaumaturge Feat"/>
+	</FeatureList>
+<FeatureList level="13">
+		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+		<AbilitySlot state="filled" name="Greater Resolve" type="ClassFeature" contents="Greater Resolve" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Weapon Mastery" type="ClassFeature" contents="Weapon Mastery" />
+	</FeatureList>
+<FeatureList level="14">
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="feat" type="Class Feat" name="Thaumaturge Feat"/>
+	</FeatureList>
+<FeatureList level="15">
+		<AbilitySlot state="filled" name="Ability Boosts">
+			<Ability abilityBoosts="4"/>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
+		<AbilitySlot state="filled" name="Greater Weapon Specialization" type="ClassFeature" contents="Greater Weapon Specialization" />
+		<AbilitySlot state="filled" name="Juggernaut" type="ClassFeature" contents="Juggernaut" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Third Implement">
+			<Ability>
+				<Description>As you come closer to the culmination of your journey, you gain your final implement, completing your set of three. It must be a different type of implement than your first and second implements. You gain the initiate benefit and intensify vulnerability benefit of your new implement.</Description>
+			</Ability>
+		</AbilitySlot>
+	</FeatureList>
+<FeatureList level="16">
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="feat" type="Class Feat" name="Thaumaturge Feat"/>
+	</FeatureList>
+<FeatureList level="17">
+		<AbilitySlot state="feat" type="Ancestry Feat" name="Ancestry Feat"/>
+		<AbilitySlot state="filled" name="Implement Paragon">
+			<Ability>
+				<Description>You have unlocked the last secrets of an implement. Choose one of your implements that already gained the adept benefit; you gain the paragon benefit for that implement.</Description>
+			</Ability>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Thaumaturgic Mastery">
+			<Ability>
+				<Description>You've become a master in paranormal phenomena, and your esoterica grow in power. Your proficiency rank for your thaumaturge class DC increases to master. &lt;br&gt;&lt;br&gt;You also gain an additional skill increase, which you can apply only to Arcana, Nature, Occultism, or Religion.</Description>
+			</Ability>
+		</AbilitySlot>
+	</FeatureList>
+<FeatureList level="18">
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="feat" type="Class Feat" name="Thaumaturge Feat"/>
+	</FeatureList>
+<FeatureList level="19">
+		<AbilitySlot state="feat" type="General Feat" name="General Feat" />
+		<AbilitySlot state="filled" name="Medium Armor Mastery" type="ClassFeature" contents="Medium Armor Mastery" />
+		<AbilitySlot state="filled" name="Skill Increase">
+			<Ability skillIncrease="true"/>
+		</AbilitySlot>
+		<AbilitySlot state="filled" name="Unlimited Esoterica">
+			<Ability>
+				<Description>Your understanding of your esoterica becomes so complete that you can access your mystic tools without even thinking. You can use Exploit Vulnerability or Intensify Vulnerability as a free action, rather than a single action, though still with a frequency of only once per round.</Description>
+			</Ability>
+		</AbilitySlot>
+	</FeatureList>
+<FeatureList level="20">
+		<AbilitySlot state="filled" name="Ability Boosts">
+			<Ability abilityBoosts="4"/>
+		</AbilitySlot>
+		<AbilitySlot state="feat" type="Skill Feat" name="Skill Feat" />
+		<AbilitySlot state="feat" type="Class Feat" name="Thaumaturge Feat"/>
+	</FeatureList>
+	<Feats>
+<Ability name="Diverse Lore" level="1" page="42">
+	<Traits>Thaumaturge</Traits>
+	<Description>Your wandering studies mean you've heard rumors or theories about almost every topic... though admittedly, your sources aren't always the most reliable. You can take a –2 penalty to your check to Recall Knowledge with Esoteric Lore to Recall Knowledge about any topic, not just the usual topics available for Esoteric Lore. Additionally, when you succeed at your check to Exploit a Vulnerability, compare the result of your Esoteric Lore check to the DC to Recall Knowledge for that creature; if that number would be a success or a critical success, you gain information as if you had succeeded at the Recall Knowledge check.</Description>
+</Ability>
+<Ability name="Divine Disharmony" level="1" page="42" cost="1">
+	<Traits>Divine, Enchantment, Esoterica, Manipulate, Thaumaturge</Traits>
+	<Description>From your collection of religious trinkets, you pull out opposing divine objects—such as the religious symbols of two deities that are hated enemies—and combine them in a display that causes discordant clashes of divine energy that are especially distracting to the faithful. Roll your choice of a Deception or Intimidation check against the Will DC of a creature you can see within 60 feet, with the following results. If the creature is particularly devoted to a deity, such as a cleric, celestial, monitor, fiend, or other creature with divine spells, you gain a +2 circumstance bonus to your skill check. The GM might determine that a creature that despises all deities, such as an alghollthu, is unaffected.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is flat-footed to your attacks until the end of your next turn.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is flat-footed against your attacks until the end of your current turn.</Description>
+</Ability>
+<Ability name="Familiar" level="1" page="42">
+	<Traits>Thaumaturge</Traits>
+	<Description>You make a pact with a creature that serves you and assists your spellcasting. You gain a familiar.</Description>
+</Ability>
+<Ability name="Haunt Ingenuity" level="1" page="42">
+	<Traits>Divination, Divine, Thaumaturge</Traits>
+	<Description>Your cunning knowledge grants you the ability to notice the emotional echo of a soul that passed on, leaving a haunt in its wake. Even when you aren't Searching while in exploration mode, the GM rolls a secret check for you to notice haunts that usually require you to be Searching.&lt;br&gt;&lt;br&gt; You can disable haunts that require master proficiency in a skill as long as you're at least trained in the skill. If you have master proficiency in the skill, you can disable haunts that require a proficiency rank of legendary instead.</Description>
+</Ability>
+<Ability name="Root to Life or" level="1" page="42" cost="1">
+	<Traits>Esoterica, Manipulate, Necromancy, Primal, Thaumaturge</Traits>
+	<Description>Marigold, spider lily, pennyroyal—many primal traditions connect flowers and plants with the boundary between life and death, and you can leverage this association to keep an ally on this side of the line. You place a small plant or similar symbol on an adjacent dying creature, immediately stabilizing them; the creature is no longer dying and is instead unconscious at 0 Hit Points.&lt;br&gt;&lt;br&gt; If you spend 2 actions instead of 1, you empower the act further by uttering a quick folk blessing to chase away ongoing pain, adding the auditory trait to the action. When you do so, attempt flat checks to remove each source of persistent damage affecting the target; due to the particularly effective assistance, the DC is 10 instead of the usual 15.</Description>
+</Ability>
+<Ability name="Scroll Thaumaturgy" level="1" page="42">
+	<Traits>Thaumaturge</Traits>
+	<Description>Your multidisciplinary study of magic means you know how to activate the magic in scrolls with ease. You can activate scrolls of any magical tradition, using your thaumaturge class DC for the scroll's DC, rather than a particular spell DC. If a spell is on the spell list for multiple traditions, you choose which tradition to use at the time you activate the scroll. You can draw and activate scrolls with the same hand holding an implement, much like you can for esoterica.</Description>
+</Ability>
+<Ability name="Call Implement" level="2" page="42" cost="1">
+	<Traits>Arcane, Conjuration, Manipulate, Teleportation, Thaumaturge</Traits>
+	<Requirements>You have a free hand.</Requirements>
+	<Description>You can tug on the bonds of ownership between yourself and your implement, causing it to find its way back to you. You look down and find that your implement has mysteriously appeared in your free hand, as long as the implement was within 1 mile and on the same plane of existence. If your implement is attended by another creature, that creature can prevent the implement from teleporting away if it succeeds at a Will save against your class DC. If the creature succeeds, you can't attempt to Call that Implement again; you must track the creature down to get the implement back.</Description>
+</Ability>
+<Ability name="Enhanced Familiar" level="2" page="43">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>A Familiar</Prerequisites>
+	<Description>You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two.</Description>
+</Ability>
+<Ability name="Esoteric Warden" level="2" page="42">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>Exploit Vulnerability</Prerequisites>
+	<Description>When you apply antithetical material against a creature successfully, you also ward yourself against its next attacks. When you succeed at your check to Exploit a Vulnerability, you gain a +1 status bonus to your AC against the creature's next attack and a +1 status bonus to your next saving throw against the creature; if you critically succeed, these bonuses are +2 instead. You can gain these bonuses only once per day against a particular creature, and the benefit ends if you Exploit Vulnerability again.</Description>
+</Ability>
+<Ability name="Talisman Esoterica" level="2" page="43">
+	<Traits>Esoterica, Thaumaturge</Traits>
+	<Description>You know how to assemble the supernatural objects in your esoterica into a number of temporary talismans. Each day during your daily preparations, you can make two talismans with an item level no higher than half your level. You must know each talisman's formula. A talisman created this way is a temporary item and loses its magic the next time you make your daily preparations.&lt;br&gt;&lt;br&gt;You know the formulas for all common talismans in the &lt;i&gt;Core Rulebook&lt;/i&gt; of your level or lower. You remember your talisman formulas through oral tradition or mnemonics, so you don't need a formula book for them.</Description>
+</Ability>
+<Ability name="Turn Away Misfortune" level="2" page="43" cost="Reaction">
+	<Traits>Abjuration, Esoterica, Fortune, Manipulate, Occult, Thaumaturge</Traits>
+	<Trigger>You would attempt a roll affected by a misfortune effect.</Trigger>
+	<Description>You perform a superstition, such as casting salt over your shoulder to ward off bad luck. Turn Away Misfortune's fortune trait cancels out the misfortune effect, causing you to roll normally. As normal, you can apply only one fortune ability to a roll, so if you Turned Away Misfortune on an attack roll, you couldn't also use an ability like Halfling Luck to alter the roll further.</Description>
+</Ability>
+<Ability name="Breached Defenses" level="4" page="43">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>Exploit Vulnerability</Prerequisites>
+	<Description>You can find the one weak point in a creature's scales, wards, or armor to get past its resistances. When you succeed at Exploit Vulnerability, you learn about the highest of the creature's resistances that can be bypassed (for example, if the creature has resistance to physical damage except silver), if the creature has one. If you prefer, you can choose the following benefit instead of one of the usual two benefits from Exploit Vulnerability.&lt;br&gt;&lt;br&gt; &lt;b&gt;Breached Defenses&lt;/b&gt; You can choose this benefit only if you succeeded at Exploit Vulnerability and learned the creature has at least one resistance that can be bypassed. Choose one such resistance. Your unarmed and weapon Strikes bypass the chosen resistance.</Description>
+</Ability>
+<Ability name="Instructive Strike" level="4" page="44" cost="1">
+	<Traits>Thaumaturge</Traits>
+	<Description>You attack your foe and analyze how it reacts. Make a Strike. On a hit, you can immediately attempt a check to Recall Knowledge about the target. On a critical hit, you gain a +2 circumstance bonus to the check to Recall Knowledge.</Description>
+</Ability>
+<Ability name="Paired Link" level="4" page="44">
+	<Traits>Divination, Esoterica, Fortune, Occult, Thaumaturge</Traits>
+	<Description>You break a trinket such as a lodestone or jade pendant in two, creating a sympathetic link between the halves that bridges distance. During your daily preparations, you perform a short ceremony where you gift one of the two halves to a willing ally. On that ally, you can cast spells and use thaumaturge abilities that have a range of touch at a range of 30 feet instead, and the ally can cast spells that have a range of touch on you from a range of 30 feet. These effects last as long as you and the ally have their half; if either half leaves either of your possession for even a moment, or if you establish a link with a new ally during your next daily preparations, the link breaks.</Description>
+</Ability>
+<Ability name="Thaumaturgic Ritualist" level="4" page="44">
+	<Traits>Thaumaturge</Traits>
+	<Description>Your studies into the supernatural have resulted in an especially strong knowledge of rituals. You gain a +2 circumstance bonus to all primary checks to perform a ritual. You learn two uncommon rituals with a level no higher than half your level; you must meet all prerequisites for casting the ritual to choose it. You can cast these as the primary caster, but you can't teach them to anyone else or allow someone else to serve as primary caster unless they know the ritual as well.&lt;br&gt;&lt;br&gt; At 8th level and every 4 levels thereafter, you learn another uncommon ritual with a level no higher than half your level and for which you meet the prerequisites.</Description>
+</Ability>
+<Ability name="One More Activation" level="6" page="44">
+	<Traits>Thaumaturge</Traits>
+	<Description>You've forged a deeper bond to your invested items, allowing you to activate them more than usual. Once each day, you can Activate an Item you've invested even after you've used that activation the maximum number of times for its frequency. You can do so only if the item's level is half your level or lower, the activation has a frequency of once per day or more frequent, and you haven't already used the activation this round.</Description>
+</Ability>
+<Ability name="Scroll Esoterica" level="6" page="44">
+	<Traits>Esoterica, Thaumaturge</Traits>
+	<Prerequisites>Scroll Thaumaturgy</Prerequisites>
+	<Description>Your esoterica includes scraps of scriptures, magic tomes, druidic markings, and the like, which you can use to create temporary scrolls. Each day during your daily preparations, you can create a single temporary scroll containing a 1st-level spell of any tradition. The spell must be common, or you must otherwise have access to it. This scroll is an unstable, temporary item and loses its magic the next time you make your daily preparations if you haven't used it by then. It can't be used to Learn the Spell.&lt;br&gt;&lt;br&gt; At 8th level, add a second temporary scroll containing a 2nd-level spell.</Description>
+</Ability>
+<Ability name="Sympathetic Vulnerabilities" level="6" page="45">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>Exploit Vulnerability, Mortal Weakness Or Personal Antithesis</Prerequisites>
+	<Description>When you apply your will to invoke a vulnerability, the result is more powerful, and the vulnerability ripples out in a web from your main target to affect a broader range of creatures. This has one of two effects, based on the type of vulnerability you invoked.&lt;br&gt;&lt;br&gt; While you have mortal weakness applied, your Strikes also apply that weakness against any creature that has that weakness, not just creatures of the exact same kind. For instance, if you used mortal weakness against a red dragon to apply its weakness to cold to your Strikes, those Strikes would also apply to the weakness to cold of fire elementals or any other creature with a weakness to cold.&lt;br&gt;&lt;br&gt; While you have personal antithesis applied to a non-humanoid creature, you can apply your custom weakness to all creatures of the exact same kind. For example, if you used personal antithesis against an imp, the custom weakness would apply to other imps but not to other non-imp devils.</Description>
+</Ability>
+<Ability name="Cursed Effigy" level="8" page="45" cost="1">
+	<Traits>Curse, Esoterica, Thaumaturge</Traits>
+	<Prerequisites>Exploit Vulnerability</Prerequisites>
+	<Requirements>Your last action was a successful Strike against the target of your Exploit Vulnerability, and the Strike dealt physical damage.</Requirements>
+	<Description>After your attack, you grab a bit of blood, cut hair, or other piece of the creature's body. You incorporate the material into a premade doll, paper figure, or other effigy to create a sympathetic link that makes it harder to resist your abilities. As long as you are Exploiting Vulnerability against that creature, it takes a –2 status penalty to its saving throws against thaumaturge abilities or items that use your thaumaturge class DC.</Description>
+</Ability>
+<Ability name="Elaborate Talisman Esoterica" level="8" page="45">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>Talisman Esoterica</Prerequisites>
+	<Description>As you continue to collect talismanic esoterica, you improve your ability to create temporary talismans. You can create four temporary talismans each day instead of two.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat a second time if you are 14th level or higher, allowing you to create six talismans each day instead of four.</Description>
+</Ability>
+<Ability name="Incredible Familiar" level="8" page="45">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>Enhanced Familiar</Prerequisites>
+	<Description>Your familiar is imbued with even more magic than other familiars. You can select a base of six familiar or master abilities each day, instead of four.</Description>
+</Ability>
+<Ability name="Know-It-All" level="8" page="45">
+	<Traits>Thaumaturge</Traits>
+	<Description>When you succeed at a Knowledge check, you gain additional information or context. When you critically succeed at a Knowledge check, at the GM’s discretion you might gain even more additional information or context than normal.</Description>
+</Ability>
+<Ability name="Share Weakness" level="10" page="45" cost="1">
+	<Traits>Esoterica, Manipulate, Thaumaturge</Traits>
+	<Prerequisites>Exploit Vulnerability, Mortal Weakness</Prerequisites>
+	<Requirements>You are Exploiting a creature's Vulnerability using mortal weakness.</Requirements>
+	<Description>You select an object from your esoterica that has great personal value to you, such as a locket or treasured ring, and you grant it to an ally, establishing a personal link that allows your ally to affect an enemy as if they were you. The ally's Strikes apply the weakness from your mortal weakness the same way your Strikes do. This benefit ends when your Exploit Vulnerability ends or you Share Weakness again.</Description>
+</Ability>
+<Ability name="Thaumaturge's Investiture" level="10" page="45">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>Charisma 16</Prerequisites>
+	<Description>Magical equipment and gear are the tools of your trade, and you know you need as many as possible to help you against the supernatural. You gain the Incredible Investiture skill feat, increasing your limit on invested items from 10 to 12. The limit increases to 14 if you have Charisma 18, 16 if you have Charisma 20, 18 if you have Charisma 22, and 20 if you have Charisma 24.</Description>
+</Ability>
+<Ability name="Twin Weakness" level="10" page="45" cost="2">
+	<Traits>Esoterica, Thaumaturge</Traits>
+	<Prerequisites>Mortal Weakness Or Personal Antithesis</Prerequisites>
+	<Requirements>You're holding an implement and a weapon, you are using Exploit Vulnerability with mortal weakness or personal antithesis, and the target creature is within reach of both your implement and weapon.</Requirements>
+	<Description>As you make an attack augmented by your esoterica, you also press your implement against the creature, applying its weakness as your implement's energies sear the creature's flesh. Make a melee Strike against the target of your Exploit Vulnerability. On any attack roll result but a critical failure, you also press your implement against the creature, automatically dealing the additional damage from Exploit Vulnerability. This is in addition to any damage from your Strike, including the weakness the Strike applies from Exploit Vulnerability. This counts as two attacks when calculating your multiple attack penalty.</Description>
+</Ability>
+<Ability name="Elaborate Scroll Esoterica" level="12" page="46">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>Scroll Esoterica</Prerequisites>
+	<Description>You've picked up more scraps of magic texts, improving your makeshift scrolls. In addition to your daily scrolls from Scroll Esoterica, add a scroll with a 3rd-level spell. At 14th level, add a scroll with a 4th-level spell. At 16th level, add a scroll with a 5th-level spell.</Description>
+</Ability>
+<Ability name="Intensify Investiture" level="12" page="46" cost="Free">
+	<Traits>Thaumaturge</Traits>
+	<Frequency>once per 10 minutes</Frequency>
+	<Description>Your bond to your invested items enables you to put more of yourself into them. If you next action is to activate an invested item that has a saving throw DC, you can use your thaumaturge class DC instead of the item's DC if it is higher.</Description>
+</Ability>
+<Ability name="Shared Warding" level="12" page="46">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>Esoteric Warden</Prerequisites>
+	<Description>You ward your allies from the attacks of your foes whenever you apply those protections to yourself. When you gain a status bonus to AC and saves from Esoteric Warden, you can choose to grant the same benefit to all allies within 30 feet.</Description>
+</Ability>
+<Ability name="Thaumaturge's Demesne" level="12" page="46">
+	<Traits>Abjuration, Arcane, Thaumaturge</Traits>
+	<Description>You have claimed an area or location as your demesne, granting you the ability to ward and protect it. When you select this feat, choose a demesne, an area of no more than 2,000 square feet. You must legitimately own the area or, if its a public area, you must lay claim to the area without anyone contesting it.&lt;br&gt;&lt;br&gt; Once you've chosen your demesne, it's automatically protected by an arcane private sanctum spell with an unlimited duration, heightened to half your level rounded up and using your thaumaturge class DC in place of a spell DC, if necessary. Additionally, the demesne is attended by three unseen custodians, as a successful unseen custodians ritual, and one object in the area gains an elemental sentinel, as a successful elemental sentinel ritual.</Description>
+</Ability>
+<Ability name="Esoteric Reflexes" level="14" page="46">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>An Implement That Grants A Reaction</Prerequisites>
+	<Description>Your bond to your implements is so strong that you can use their reactive abilities almost by instinct. At the start of your turn, you gain an additional reaction, which you can use for only the reactions granted by your implements. </Description>
+</Ability>
+<Ability name="Grand Talisman Esoterica" level="14" page="46">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>Talisman Esoterica</Prerequisites>
+	<Description>You've completed your journey in studying esoteric talismans, gaining the ability to place multiple talismans on an item. Normally, affixing more than one talisman to an item causes the talismans to be suppressed, but when you Affix a Talisman, you can specially treat one item you're working on, allowing it to have two active talismans at once. This special treatment ends if you use Affix a Talisman to treat a new item with this ability.</Description>
+</Ability>
+<Ability name="Trespass Teleportation" level="14" page="47" cost="Reaction">
+	<Traits>Conjuration, Occult, Teleportation, Thaumaturge</Traits>
+	<Prerequisites>Exploit Vulnerability</Prerequisites>
+	<Trigger>The target of your Exploit Vulnerability is within 120 feet and uses a teleportation effect.</Trigger>
+	<Requirements>You are benefiting from Exploit Vulnerability.</Requirements>
+	<Description>You can hunt your foe to the ends of creation. You teleport along with the enemy, appearing the same direction and distance from it as you were before it teleported (or the nearest unoccupied space if your destination is occupied). Any allies affected by Share Weakness or Ubiquitous Weakness, if you have those abilities, can spend their reaction to teleport along with the enemy if they're within 120 of the enemy and choose to do so.</Description>
+</Ability>
+<Ability name="Implement's Flight" level="16" page="47">
+	<Traits>Primal, Thaumaturge, Transmutation</Traits>
+	<Description>By weakening your relation to the ground and strengthening your relation to the sky, you've learned to soar through the air, your implement carrying you as surely as any broomstick or pestle. As long as you're holding a thaumaturge implement, you gain a fly Speed equal to your land Speed.</Description>
+</Ability>
+<Ability name="Seven-Part Link" level="16" page="47">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>Paired Link</Prerequisites>
+	<Description>Many traditions hold the number seven as significant. By exchanging pieces of a seven-part set of esoterica, you create a magical web by which your allies can affect each other at a distance. When you use Paired Link during your daily preparations, you can exchange linking esoterica with up to six willing allies, keeping one piece for yourself. In addition to the normal effects of Paired Link, if a linked ally casts a spell with a range of touch, they can target linked allies within 30 feet with that spell.</Description>
+</Ability>
+<Ability name="Sever Magic" level="16" page="47" cost="2">
+	<Traits>Abjuration, Arcane, Esoterica, Thaumaturge</Traits>
+	<Requirements>You're holding an implement.</Requirements>
+	<Description>You apply a frayed thread, a pinch of fulu ash, or a similar undone charm to your weapon, and swing to break a spell. Make a Strike against an enemy. If you hit and deal damage, you attempt to counteract a single spell active on the target (your choice). Your counteract level is equal to half your level (rounded up), and your counteract check modifier is equal to your class DC – 10.</Description>
+</Ability>
+<Ability name="Grand Scroll Esoterica" level="18" page="47">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>Elaborate Scroll Esoterica</Prerequisites>
+	<Description>You've completed the third and final step in your assimilation of scroll esoterica, granting you daily scrolls of incredible power. In addition to your daily scrolls from Scroll Esoterica and Elaborate Scroll Esoterica, add a single scroll with a 6th-level spell. At 20th level, add a scroll with a 7th-level spell.</Description>
+</Ability>
+<Ability name="Implement's Assault" level="18" page="47" cost="3">
+	<Traits>Evocation, Magical, Thaumaturge</Traits>
+	<Requirements>You're holding an implement.</Requirements>
+	<Description>Your implement supercharges your weapon to shoot an impossible volley or carve through your foes. Make a Strike with your weapon against each enemy within 30 feet of you. You don't increase your multiple attack penalty until after making all the attacks. If your weapon is a melee weapon and any of the attacks are outside your reach, you Release the weapon before the Strikes, and it returns to your grasp after all of them. If your hands are full when the weapon returns, it falls to the ground in your space.</Description>
+</Ability>
+<Ability name="Intense Implement" level="18" page="47">
+	<Traits>Thaumaturge</Traits>
+	<Description>You have an exceptional link to your third implement. You gain the adept benefit for your third implement.</Description>
+</Ability>
+<Ability name="Ubiquitous Weakness" level="20" page="47">
+	<Traits>Manipulate, Thaumaturge</Traits>
+	<Prerequisites>Share Weakness</Prerequisites>
+	<Description>You've nurtured your bonds with your comrades, allowing you to share the benefits of your esoterica. When you use Exploit Vulnerability and choose mortal weakness, select any number of allies within 30 feet of you. Their Strikes apply the weakness from mortal weakness the same way your Strikes do. This benefit ends when you stop benefiting from Exploit Vulnerability. Since this effect depends on magically strengthening your bond to your allies, only allies with whom you've developed a rapport over the course of one or more days gain the benefit.</Description>
+</Ability>
+<Ability name="Unlimited Demesne" level="20" page="47">
+	<Traits>Arcane, Conjuration, Thaumaturge</Traits>
+	<Prerequisites>Thaumaturge's Demesne</Prerequisites>
+	<Description>You can move your demesne here and there, bringing it wherever your journey takes you. Your demesne expands to a maximum of 10,000 square feet. Once per day, you can call your demesne forth, which takes 1 minute. This has the effects of resplendent mansion, except that it conjures your demesne from its previous location, with all the benefits of Thaumaturge's Demesne in addition to the those of the spell. You must be able to claim the new area, with the same restrictions as Thaumaturge's Demesne.</Description>
+</Ability>
+<Ability name="Wonder Worker" level="20" page="47">
+	<Traits>Thaumaturge</Traits>
+	<Prerequisites>Legendary In Arcana, Nature, Occultism, Or Religion</Prerequisites>
+	<Description>The thaumaturge's path culminates with the working of wonders. Once per day, you can align your esoterica to cast a spell of 8th level or lower that takes 1, 2, or 3 actions to cast. The spell must be common or one to which you have access. You can choose a spell of any tradition for which you're legendary in the associated skill (Arcana for arcane, Nature for primal, Occultism for occult, or Religion for divine). Use your thaumaturge class DC in place of any necessary spell DC and your thaumaturge class DC – 10 in place of any necessary counteract modifier or spell attack modifier.</Description>
+</Ability>
+	</Feats>
+</pf2:class>

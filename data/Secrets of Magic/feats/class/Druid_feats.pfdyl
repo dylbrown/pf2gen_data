@@ -1,7 +1,7 @@
 <?xml version = "1.0"?>
 <pf2:feats xmlns:pf2="https://dylbrown.github.io"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+           xsi:schemaLocation="https://dylbrown.github.io ../../../../schemata/abc/class.xsd">
     <Ability name="Fire Lung" level="1" page="198">
         <Traits>Druid</Traits>
         <Prerequisites>Flame Order</Prerequisites>
@@ -16,11 +16,6 @@
         <Traits>Druid</Traits>
         <Prerequisites>Stone Order</Prerequisites>
         <Description>The earth has taught you how to remain unyielding and firm. If you roll a success on an Acrobatics check made to Balance on uneven ground composed of earth or rock, you get a critical success instead. As long as you remain on the ground, you gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to Shove or Trip you. This bonus also applies to saving throws against spells or effects that would attempt to knock you prone. If you're a rock dwarf, this bonus increases to +3.</Description>
-    </Ability>
-    <Ability name="Enhanced Familiar" level="2" page="42">
-        <Traits>Druid, Magus, Sorcerer, Witch, Wizard</Traits>
-        <Prerequisites>A Familiar</Prerequisites>
-        <Description>You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt;&lt;br&gt; (Wizard) If your arcane thesis is improved familiar attunement, your familiar's base number of familiar abilities, before adding any extra abilities from the arcane thesis, is four.&lt;br&gt;(Witch) Add the bonus familiar abilities you gain for being a witch to this amount.Archetype UseThis feat can be used for one or more Archetypes in addition to the listed Classes. When selected this way, the feat is not considered to have its class traits.Enhanced Familiar Leads To...Incredible Familiar (Familiar Master), Incredible Familiar (Witch)</Description>
     </Ability>
     <Ability name="Fire Resistance" level="4" page="199">
         <Traits>Druid</Traits>
@@ -61,10 +56,4 @@
         <Prerequisites>Wave Order</Prerequisites>
         <Description>You purify the water within a creature's body to cleanse them of illness. If the next action you use is to cast heal targeting a single living creature, you can attempt to counteract a disease or poison affecting the target, in addition to the other benefits of &lt;i&gt;heal&lt;/i&gt;. If you do, &lt;i&gt;heal&lt;/i&gt; gains the water trait. </Description>
     </Ability>
-    <Ability name="Effortless Concentration" level="16" page="72">
-        <Traits>Bard, Druid, Sorcerer, Summoner, Witch, Wizard</Traits>
-        <Trigger>Your turn begins.</Trigger>
-        <Description>You maintain a spell with hardly a thought. You immediately gain the effects of the Sustain a Spell action, allowing you to extend the duration of one of your active class spells.</Description>
-    </Ability>
-
 </pf2:feats>

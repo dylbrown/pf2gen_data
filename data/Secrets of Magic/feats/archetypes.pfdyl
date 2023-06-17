@@ -1,0 +1,452 @@
+<?xml version = "1.0"?>
+<pf2:feats xmlns:pf2="https://dylbrown.github.io"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://dylbrown.github.io ../../../schemata/abc/class.xsd">
+    <!--Cathartic Mage-->
+    <Ability name="Cathartic Mage Dedication" level="2" page="194" cost="Reaction">
+        <Traits>Archetype, Dedication</Traits>
+        <Archetype>Cathartic Mage</Archetype>
+        <!--TODO: <Prerequisites>Charisma 14 Or Ability To Cast Spells From Spell Slots</Prerequisites>-->
+        <Trigger>determined by your catharsis emotion</Trigger>
+        <Description>You've learned to harness a particular emotion and mix it into your magic. Choose an emotion from the Emotional States section below to be your catharsis emotion.&lt;br&gt;&lt;br&gt; If you don't already cast spells from spell slots, you learn to cast spontaneous spells and gain the Cast a Spell activity. You gain a spell repertoire with one cantrip of your choice, from a spell list of your choice. You choose this cantrip from the common spells on your chosen spell list or from other spells to which you have access on that list. You're trained in spell attack rolls and spell DCs for that tradition. Your key spellcasting ability for these spells is Charisma.&lt;br&gt;&lt;br&gt; If you can already cast spells from spell slots, you learn one additional cantrip from your spellcasting tradition. If you're a prepared caster, you can prepare this spell in addition to your usual cantrips per day; if you're a spontaneous caster, you add this cantrip to your spell repertoire.&lt;br&gt;&lt;br&gt; You gain the Catharsis reaction and the Settle Emotions activity.&lt;br&gt;&lt;br&gt; &lt;b&gt;Catharsis&lt;/b&gt; (concentrate, emotion, mental) &lt;b&gt;Trigger&lt;/b&gt; determined by your catharsis emotion; &lt;b&gt;Effect&lt;/b&gt; You gain the catharsis activation effects listed for your catharsis emotion. You gain that emotion's emotional fervor benefits for 3 rounds. When your emotional fervor ends, you suffer the listed emotional fallout. After using Catharsis, you can't use it again until you use the Settle Emotions activity.&lt;br&gt;&lt;br&gt; &lt;b&gt;Settle Emotions&lt;/b&gt; (concentrate, emotion, mental) You spend 10 minutes using techniques you've developed to calm your emotions and bring them back under control. This allows you to access your Catharsis again.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you've gained two other feats from the cathartic mage archetype.Cathartic Mage Dedication Leads To...Basic Cathartic Spellcasting, Cathartic Focus Spell, Infectious Emotions, Work Yourself Up
+        </Description>
+    </Ability>
+    <Ability name="Basic Cathartic Spellcasting" level="4" page="195">
+        <Template>Basic Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Cathartic Mage</Archetype>
+        <Prerequisites>Cathartic Mage Dedication</Prerequisites>
+        <Description>You gain the basic spellcasting benefits. Each time you gain a spell slot of a new level from this archetype, add a spell of that spell level from your chosen tradition to your repertoire—either a common spell or another spell you've learned or discovered.Basic Cathartic Spellcasting Leads To...Expert Cathartic Spellcasting</Description>
+    </Ability>
+    <Ability name="Cathartic Focus Spell" level="4" page="195">
+        <Traits>Archetype</Traits>
+        <Archetype>Cathartic Mage</Archetype>
+        <Prerequisites>Cathartic Mage Dedication</Prerequisites>
+        <Description>You learn the focus spell listed under your emotion's entry. You can cast it only while in emotional fervor. If you don't already have one, you gain a focus pool of 1 Focus Point, which you can Refocus while you use Settle Emotions.</Description>
+    </Ability>
+    <Ability name="Work Yourself Up" level="8" page="195" cost="2">
+        <Traits>Archetype, Concentrate</Traits>
+        <Archetype>Cathartic Mage</Archetype>
+        <Prerequisites>Cathartic Mage Dedication</Prerequisites>
+        <Requirements>You have a reaction available and aren't prevented from using Catharsis.</Requirements>
+        <Description>You concentrate on your mental state, tapping into that raw emotional energy. Take your Catharsis reaction, causing the catharsis activation and entering your emotional fervor as normal. The fervor lasts only until the end of your turn. At the end of your emotional fervor, you experience the effects of your emotional fallout, as normal.</Description>
+    </Ability>
+    <Ability name="Expert Cathartic Spellcasting" level="12" page="195">
+        <Template>Expert Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Cathartic Mage</Archetype>
+        <Prerequisites>Basic Cathartic Spellcasting</Prerequisites>
+        <Description>You gain the expert spellcasting benefits.Expert Cathartic Spellcasting Leads To...Master Cathartic Spellcasting</Description>
+    </Ability>
+    <Ability name="Infectious Emotions" level="12" page="195">
+        <Traits>Archetype</Traits>
+        <Archetype>Cathartic Mage</Archetype>
+        <Prerequisites>Cathartic Mage Dedication</Prerequisites>
+        <Description>When you use Catharsis, one ally within 30 feet gains the catharsis activation benefits in addition to you. If these benefits require an emotional focus, they use your emotional focus as they're experiencing an empathic imprint of your emotions. Depending on the activation benefit, it might be impossible to grant it to an ally; for instance, pride could only have an effect for an ally if both you and the ally critically failed the same saving throw against the same effect.</Description>
+    </Ability>
+    <Ability name="Master Cathartic Spellcasting" level="18" page="195">
+        <Template>Master Spellcasting Benefits</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Cathartic Mage</Archetype>
+        <Prerequisites>Expert Cathartic Spellcasting</Prerequisites>
+        <Description>You gain the master spellcasting benefits.</Description>
+    </Ability>
+    <!--Elementalist-->
+    <Ability name="Elementalist Dedication" level="2" page="206">
+        <Traits>Archetype, Dedication</Traits>
+        <Archetype>Elementalist</Archetype>
+        <Prerequisites>Elemental Magic</Prerequisites>
+        <Description>Each day when you make your daily preparations, you can attune yourself to one element of your choice: air, earth, fire, or water. You gain resistance equal to half your level (minimum 1 resistance) against damage dealt by effects with your attuned elemental trait. This attunement lasts until you next make your daily preparations.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you've gained two other feats from the elementalist archetype.Elementalist Dedication Leads To...Burning Spell, Dousing Spell, Elemental Familiar, Metabolize Element, Redirect Elements, Rockslide Spell, Wind-Tossed Spell</Description>
+    </Ability>
+    <Ability name="Dousing Spell" level="4" page="206" cost="1">
+        <Traits>Archetype, Metamagic, Water</Traits>
+        <Archetype>Elementalist</Archetype>
+        <Prerequisites>Elementalist Dedication</Prerequisites>
+        <Description>You enhance your spell with elemental water, soaking the target. If the next action you use is to Cast a Spell targeting a single creature, you soak the target of the spell with water. If the target has persistent acid or fire damage, the DC to end those conditions is reduced to 10, and the creature can attempt a flat check to end those types of persistent damage immediately. The spell gains the water trait (causing it to deal extra damage to creatures with weakness to water).</Description>
+    </Ability>
+    <Ability name="Elemental Familiar" level="4" page="206">
+        <Traits>Archetype</Traits>
+        <Archetype>Elementalist</Archetype>
+        <Prerequisites>Elementalist Dedication, Familiar</Prerequisites>
+        <Description>Your familiar becomes an elemental spirit capable of taking on aspects of the four elements: air, earth, fire, or water. Other than taking the form of an elemental instead of an animal, this familiar continues to use all the same rules as other familiars.&lt;br&gt;&lt;br&gt; Your familiar gains one additional familiar ability each day, which must be one of the following elemental familiar abilities. While your familiar has an elemental familiar ability, your familiar is composed of the associated elemental matter and gains the matching elemental trait. You can't select more than one elemental familiar ability at a time. Air If your familiar stays completely still for 1 round, it becomes invisible until it next takes an action. Any motion, even being moved or carried by another creature, ends this effect. Earth Your familiar gains resistance to physical damage (except adamantine) equal to half your level. Fire Your familiar sheds bright light in a 20-foot radius (and dim light for the next 20 feet) and emits warmth. Creatures that remain within a 15-foot emanation don't take damage from severe environmental cold. Water Your familiar can move through a gap at least 2 inches wide without Squeezing and can Squeeze through a gap at least 1 inch wide.
+        </Description>
+    </Ability>
+    <Ability name="Burning Spell" level="6" page="207" cost="1">
+        <Traits>Archetype, Fire, Metamagic</Traits>
+        <Archetype>Elementalist</Archetype>
+        <Prerequisites>Elementalist Dedication</Prerequisites>
+        <Description>You enhance your spell with elemental fire, causing it to set the target on fire. If the next action you use is to Cast a non-cantrip Spell that deals damage at a single target, the spell deals additional persistent fire damage equal to the spell level, in addition to its other effects. This has no effect if the spell already deals persistent fire damage. The spell gains the fire trait.</Description>
+    </Ability>
+    <Ability name="Metabolize Element" level="8" page="207" cost="Reaction">
+        <Traits>Archetype</Traits>
+        <Archetype>Elementalist</Archetype>
+        <Prerequisites>Elementalist Dedication</Prerequisites>
+        <Trigger>You take damage from a foe's spell or magical ability with the air, earth, fire, or water trait.</Trigger>
+        <Description>Your rapidly metabolize the elemental particles in your opponent's spell to gain a boost of energy. You gain the quickened condition until the end of your next turn. You can use the extra action only to Step or Stride.</Description>
+    </Ability>
+    <Ability name="Rockslide Spell" level="10" page="207" cost="1">
+        <Traits>Archetype, Earth, Metamagic</Traits>
+        <Archetype>Elementalist</Archetype>
+        <Prerequisites>Elementalist Dedication</Prerequisites>
+        <Description>You enhance your spell with elemental earth, causing chunks of stone to litter the ground. If the next action you use is to Cast a non-cantrip Spell that affects an area, a number of 5-foot squares in the area equal to the spell level become difficult terrain for 1 round. These squares must be on the ground, and the entire area of difficult terrain must be contiguous. The spell gains the earth trait.</Description>
+    </Ability>
+    <Ability name="Redirect Elements" level="12" page="207" cost="Reaction">
+        <Traits>Archetype</Traits>
+        <Archetype>Elementalist</Archetype>
+        <Prerequisites>Elementalist Dedication</Prerequisites>
+        <Trigger>The spell attack roll for a foe's spell with an elemental trait targeting you fails or critically fails.</Trigger>
+        <Description>You seize the elemental essence of an incoming spell and redirect the spell to a creature of your choice within the spell's area. The attacker rerolls the spell's attack roll against the new target.</Description>
+    </Ability>
+    <Ability name="Wind-Tossed Spell" level="14" page="207" cost="1">
+        <Traits>Air, Archetype, Concentrate, Metamagic</Traits>
+        <Archetype>Elementalist</Archetype>
+        <Prerequisites>Elementalist Dedication</Prerequisites>
+        <Description>You enhance your spell with elemental air, using the wind to find your target and carry your magic around cover. If the next action you use is to Cast a Spell that requires a spell attack roll, you ignore the target's concealed condition and any cover they have from you. The spell gains the air trait.</Description>
+    </Ability>
+    <!--Flexible Spellcaster-->
+    <Ability name="Flexible Spellcaster Dedication" level="2" page="209">
+        <Traits>Archetype, Dedication</Traits>
+        <Archetype>Flexible Spellcaster</Archetype>
+        <Prerequisites>Flexible Spell Preparation</Prerequisites>
+        <Description>You now have four cantrips per day instead of three. At 4th level, you have five cantrips per day instead of four.</Description>
+    </Ability>
+    <!--Geomancer-->
+    <Ability name="Geomancer Dedication" level="2" page="212">
+        <Traits>Archetype, Dedication</Traits>
+        <Archetype>Geomancer</Archetype>
+        <Prerequisites>Ability To Cast Spells From Spell Slots, At Least One Spell With The Air, Cold, Earth, Fire, Plant, Or Water Trait, Trained In Nature</Prerequisites>
+        <Description>You feel a deep connection to the world no matter where you are, a phenomenon known as “terrain attunement.” When you expend a spell slot to cast a spell with a trait that corresponds to the type of terrain you are currently in (as listed below), you gain the terrain attunement effect for that type of terrain. The GM might determine an attunement applies as long as it's prevalent enough around you. For instance, you might be in aquatic terrain on a riverbank or on a boat. Similarly, one place might count as multiple types of terrain, such as a mountain in the far north being both arctic and mountain. In this case, you choose only one terrain attunement effect, even if the spell has traits that would apply to each terrain type.&lt;br&gt;&lt;br&gt;Certain terrain attunements affect your enemies instead of you. If they do, when you cast the spell you apply the listed effect to all enemies who are either adjacent to you, in the area of the spell, or targeted by the spell. These enemies receive the listed saving throw against your spell DC to attempt to avoid the effect. Aquatic (water) You ride the currents of water. If you're in the water, you gain a swim Speed equal to your land Speed. If you're on a surface, temporary waves of water follow your movements, allowing you to use your swim Speed—if you have one—as your land Speed. Arctic (cold) Arctic rime covers your foes' bodies. Enemies must attempt a Fortitude save. They take a –5-foot status penalty to their Speeds for 2 rounds (–10-foot on a critical failure). Desert (fire) The scorching heat of the desert dehydrates your foes. Enemies must attempt a Fortitude save. On a failure, they're fatigued until they drink water or another potable liquid. Forest (plant) Branches and vines reach out to get in your foes' way. Enemies must attempt a Reflex save. On a failure, they become clumsy 1 for 1 round (clumsy 2 on a critical failure). Mountain (earth) The rugged endurance of the mountain protects you from harm. You gain resistance to physical damage (except adamantine) equal to the spell level for 1 round. Plains (plant) The growing fields and pulsing vitality of the plains provide you vigor. You gain temporary Hit Points equal to the spell level for 1 round. Sky (air) A gust of wind carries you aloft. You can Fly up to 10 feet. If you're in the air at the end of the turn and don't have a fly Speed, you fall. Swamp (plant) Your magic draws in noxious swamp gas to fumigate your foes. Affected foes take persistent poison damage equal to half the spell's level (minimum 1 damage) with a basic Fortitude save. Underground (earth) The endless darkness of the cavern depths opens up its secrets to your senses. For 1 round, you gain darkvision as well as imprecise tremorsense out to 15 feet.&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you've gained two other feats from the geomancer archetype.Geomancer Dedication Leads To...Attuned Stride, Attunement Shift, Draw from the Land, Quickened Attunement, Read the Land, Rough Terrain Stance, Shared Attunment, Terrain Shield
+        </Description>
+    </Ability>
+    <Ability name="Attunement Shift" level="4" page="212" cost="Free">
+        <Traits>Archetype</Traits>
+        <Archetype>Geomancer</Archetype>
+        <Prerequisites>Geomancer Dedication</Prerequisites>
+        <Frequency>once per 10 minutes</Frequency>
+        <Requirements>Your previous action was to cast a spell with the air, cold, earth, fire, plant, or water trait.</Requirements>
+        <Description>The magic of your spell floods into you, overriding your connection to the land around you. You alter your terrain attunement to a terrain that matches a trait of the spell you just cast. You thereby gain your terrain attunement benefit when you cast further spells with the same descriptor, instead of using the terrain you're actually in. For instance, if you cast tanglefoot, your terrain attunement switches to your choice of forest or swamp, and your terrain attunement applies when you cast another plant spell.&lt;br&gt;&lt;br&gt; Your terrain attunement reverts to that of the terrain you're in 1 minute after you use Attunement Shift.</Description>
+    </Ability>
+    <Ability name="Shared Attunment" level="4" page="212">
+        <Traits>Archetype</Traits>
+        <Archetype>Geomancer</Archetype>
+        <Prerequisites>Geomancer Dedication</Prerequisites>
+        <Description>When you would gain a benefit from your terrain attunement, you can grant it to one ally within 30 feet instead of yourself. This has no effect if the terrain attunement affects your foes instead of granting you a benefit.</Description>
+    </Ability>
+    <Ability name="Rough Terrain Stance" level="6" page="212" cost="1">
+        <Traits>Archetype, Stance</Traits>
+        <Archetype>Geomancer</Archetype>
+        <Prerequisites>Geomancer Dedication, Expert In Nature</Prerequisites>
+        <Requirements>You gained a terrain attunement benefit this turn.</Requirements>
+        <Description>You enter a stance that makes it difficult to move around you. Each square adjacent to you becomes difficult terrain that matches the terrain attunement you gained (rime forms in an arctic terrain, momentary undergrowth shoots up in a forest terrain, and so on). You ignore this difficult terrain.&lt;br&gt;&lt;br&gt; This stance ends if you move into a different type of terrain.Rough Terrain Stance Leads To...Shifting Terrain</Description>
+    </Ability>
+    <Ability name="Attuned Stride" level="8" page="213">
+        <Traits>Archetype</Traits>
+        <Archetype>Geomancer</Archetype>
+        <Prerequisites>Geomancer Dedication, Expert In Nature</Prerequisites>
+        <Description>You can move freely through terrain you're attuned to. When you gain a terrain attunement benefit, you ignore difficult terrain in the corresponding type of terrain until the end of your next turn.</Description>
+    </Ability>
+    <Ability name="Draw from the Land" level="10" page="213" cost="1">
+        <Traits>Archetype</Traits>
+        <Archetype>Geomancer</Archetype>
+        <Prerequisites>Geomancer Dedication, Expert In Nature</Prerequisites>
+        <Requirements>You gained a terrain attunement benefit this turn, and it matched the terrain you're in.</Requirements>
+        <Description>You pull strength from the surrounding terrain. You gain temporary Hit Points equal to your level. They last for 1 round. If you previously gained the plains terrain attunement effect this turn, combine the temporary Hit Points together.</Description>
+    </Ability>
+    <Ability name="Read the Land" level="12" page="213">
+        <Traits>Archetype</Traits>
+        <Archetype>Geomancer</Archetype>
+        <Prerequisites>Geomancer Dedication, Master In Nature</Prerequisites>
+        <Description>You've learned how to commune with the land to learn information. You learn the commune with nature ritual if you didn't know it already. You can perform this ritual with a casting time of 1 hour instead of 1 day and without a secondary caster.</Description>
+    </Ability>
+    <Ability name="Shifting Terrain" level="14" page="213" cost="1">
+        <Traits>Archetype</Traits>
+        <Archetype>Geomancer</Archetype>
+        <Prerequisites>Rough Terrain Stance, Master In Nature</Prerequisites>
+        <Requirements>Your terrain attunement matches the terrain you're in and you're in Rough Terrain Stance.</Requirements>
+        <Description>You slam your fist into the ground or twirl your arms about to cause the terrain around you to shift and ripple, potentially throwing others off balance. Each creature within your area of difficult terrain from Rough Terrain Stance must attempt a Reflex saving throw against your spell DC with the following effects. After you use this action, you can't use it again for 1d4 rounds.&lt;br&gt;&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The creature is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is clumsy 1 for 1 round.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is clumsy 2 for 1 round.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is clumsy 2 for 1 round and falls prone.</Description>
+    </Ability>
+    <Ability name="Terrain Shield" level="14" page="213">
+        <Traits>Archetype</Traits>
+        <Archetype>Geomancer</Archetype>
+        <Prerequisites>Geomancer Dedication, Master In Nature</Prerequisites>
+        <Trigger>A Strike would damage you.</Trigger>
+        <Frequency>once per 10 minutes</Frequency>
+        <Requirements>You gained a terrain attunement benefit since the start of your most recent turn and that attunement matches the terrain you're in.</Requirements>
+        <Description>You're so attuned to the land that it rises up to protect you from a potentially fatal blow in a seeming coincidence. For instance, a branch suddenly falls from a nearby tree to take the brunt of a sword swing or a surprising change of current disrupts an enemy's attack. You gain resistance to physical damage equal to double your level against the triggering Strike.</Description>
+    </Ability>
+    <Ability name="Quickened Attunement" level="16" page="213" cost="Free">
+        <Traits>Archetype, Concentrate, Metamagic</Traits>
+        <Archetype>Geomancer</Archetype>
+        <Prerequisites>Geomancer Dedication, Legendary In Nature</Prerequisites>
+        <Frequency>once per day</Frequency>
+        <Requirements>Your previous action was Attunement Shift.</Requirements>
+        <Description>If your next action is to cast a spell that would grant your terrain attunement bonus, reduce the number of actions to cast it by 1 (to a minimum of 1 action).&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't use Quickened Attunement and Quickened Casting in the same round.</Description>
+    </Ability>
+    <!--Magus-->
+    <Ability name="Magus Dedication" level="2" page="75">
+        <Traits>Archetype, Dedication, Multiclass</Traits>
+        <Archetype>Magus</Archetype>
+        <!--TODO: <Prerequisites>Strength 14 Or Dexterity 14, Intelligence 14</Prerequisites>-->
+        <Description>You cast spells like a magus, gaining a spellbook with four common arcane cantrips of your choice. You gain the Cast a Spell activity. You can prepare two cantrips each day from your spellbook. Each time you gain a spell slot of a new level from the magus archetype, add a spell of that level or lower to your spellbook. You're trained in arcane spell attack rolls and spell DCs. Your key spellcasting ability for magus archetype spells is Intelligence, and they are arcane magus spells. You become trained in Arcana; if you were already trained in Arcana, you instead become trained in a skill of your choice. You become trained in simple weapons.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the magus archetype.</Description>
+    </Ability>
+    <Ability name="Basic Martial Magic" level="4" page="75">
+        <Traits>Archetype</Traits>
+        <Archetype>Magus</Archetype>
+        <Prerequisites>Magus Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level magus feat of your choice.Basic Martial Magic Leads To...Advanced Martial Magic</Description>
+    </Ability>
+    <Ability name="Hybrid Study Spell" level="4" page="75">
+        <Traits>Archetype</Traits>
+        <Archetype>Magus</Archetype>
+        <Prerequisites>Magus Dedication</Prerequisites>
+        <Description>Gain the conflux spell from a hybrid study of your choice. If you don't already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by studying your spellbook and performing a physical regimen. You don't gain any of the hybrid study's other benefits.</Description>
+    </Ability>
+    <Ability name="Spellstriker" level="4" page="75" cost="2">
+        <Traits>Archetype, Magus</Traits>
+        <Archetype>Magus</Archetype>
+        <Prerequisites>Magus Dedication</Prerequisites>
+        <Frequency>until recharged (see below)</Frequency>
+        <Description>You gain the magus's Spellstrike activity. You can recharge it only as an activity that takes 1 minute. This restriction applies even if you gain another ability that recharges Spellstrike.SpellstrikeMagus&lt;br&gt;&lt;b&gt;Source&lt;/b&gt; Secrets of Magic pg. 37&lt;br&gt;&lt;b&gt;Frequency&lt;/b&gt; until recharged (see below)You channel a spell into a punch or sword thrust to deliver a combined attack. You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell don't occur immediately but are imbued into your attack instead. Make a melee Strike with a weapon or unarmed attack. Your spell is coupled with your attack, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Spellstrike. The infusion of spell energy grants your Strike the arcane trait, making it magical.&lt;br&gt;&lt;br&gt; After you use Spellstrike, you can't do so again until you recharge your Spellstrike as a single action, which has the concentrate trait. You also recharge your Spellstrike when you cast a conflux spell that takes at least 1 action to cast; casting a focus spell of another type doesn't recharge your Spellstrike.Spellstrike Specifics Though the base Spellstrike rules cover most spells, various modifications apply to more complicated spells when loaded into your fist, blade, or other attack. &lt;br&gt;&lt;br&gt;&lt;b&gt;One Target&lt;/b&gt;: The spell targets only the target of your Strike, even if it normally allows more targets. Some feats let you affect more creatures. &lt;br&gt;&lt;br&gt;&lt;b&gt;Reach&lt;/b&gt;: The coupled spell affects the target using the reach of the weapon or unarmed attack you make your Spellstrike with. For instance, shocking grasp would affect a creature beyond the reach of your hand if you used a weapon with reach, and ray of frost would affect only a creature in your weapon's reach, even though the spell's range is longer. &lt;br&gt;&lt;br&gt;&lt;b&gt;Ancillary Effects&lt;/b&gt;: Your spell still has any non-targeted effects that might affect creatures other than the target, as well as any ongoing effects starting from the moment you hit with the Strike. For example, acid splash would still deal its splash damage to creatures other than the target and tanglefoot's circumstance penalty would last for its normal duration. The spell takes effect after the Strike deals damage; if the Strike has other special effects, the GM determines whether they happen before or after the spell. &lt;br&gt;&lt;br&gt;&lt;b&gt;Multiple Defenses&lt;/b&gt;: Any additional rolls after the initial spell attack still happen normally, such as the Fortitude save attempted by the target of a disintegrate spell. Similarly, a spell that allows you to attack with it again on subsequent rounds would only combine a Strike with its initial attack roll, not with any later ones.&lt;br&gt;&lt;br&gt; &lt;b&gt;Invalid or Immune Target&lt;/b&gt;: If the target you hit wouldn't be a valid target for the spell, the spell is still expended but doesn't affect the target. If the target is immune to your attack but not the spell, it can still be affected by the spell.&lt;br&gt;&lt;br&gt; &lt;b&gt;Variable Actions&lt;/b&gt;: Some spells have different effects based on the number of actions you spend to cast them. You choose whether to use the effects of the 1- or 2-action version of the spell when you use Spellstrike. A spell has to take &lt;i&gt;exactly&lt;/i&gt; 1 or 2 actions; you can't use Spellstrike with a spell that takes a free action, reaction, or 3 or more actions.&lt;br&gt;&lt;br&gt; &lt;b&gt;Metamagic&lt;/b&gt;: You typically can't use metamagic with Spellstrike because metamagic requires the next action you take to be Cast a Spell, and Spellstrike is a combined activity that doesn't qualify.
+        </Description>
+    </Ability>
+    <Ability name="Advanced Martial Magic" level="6" page="75">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Magus</Archetype>
+        <Prerequisites>Basic Martial Magic</Prerequisites>
+        <Description>You gain one magus feat. For the purpose of meeting its prerequisites, your magus level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another magus feat.</Description>
+    </Ability>
+    <Ability name="Basic Magus Spellcasting" level="6" page="75">
+        <Traits>Archetype</Traits>
+        <Archetype>Magus</Archetype>
+        <Prerequisites>Magus Dedication</Prerequisites>
+        <Description>You gain the basic bounded spellcasting benefits.Basic Magus Spellcasting Leads To...Expert Magus Spellcasting</Description>
+    </Ability>
+    <Ability name="Expert Magus Spellcasting" level="12" page="75">
+        <Traits>Archetype</Traits>
+        <Archetype>Magus</Archetype>
+        <Prerequisites>Basic Magus Spellcasting, Master In Arcana</Prerequisites>
+        <Description>You gain the expert bounded spellcasting benefits.Expert Magus Spellcasting Leads To...Master Magus Spellcasting</Description>
+    </Ability>
+    <Ability name="Master Magus Spellcasting" level="18" page="75">
+        <Traits>Archetype</Traits>
+        <Archetype>Magus</Archetype>
+        <Prerequisites>Expert Magus Spellcasting, Legendary In Arcana</Prerequisites>
+        <Description>You gain the master bounded spellcasting benefits.</Description>
+    </Ability>
+    <!--Runelord-->
+    <Ability name="Embed Aeon Stone" level="2" page="240">
+        <Traits>Archetype, Downtime, Skill</Traits>
+        <Archetype>Runelord</Archetype>
+        <Prerequisites>Runelord Dedication, Trained In Crafting</Prerequisites>
+        <Description>You discover the secrets to embedding aeon stones into your flesh. You spend 1 day attuning to an &lt;i&gt;aeon stone&lt;/i&gt; and physically embedding it in your skin. While the stone is embedded this way, you gain the benefits of the &lt;i&gt;aeon stone&lt;/i&gt; as if it were orbiting above your head, but it protects the stone from being noticed or stolen as easily. &lt;i&gt;Aeon stones&lt;/i&gt; in your flesh must be invested to function, as usual.&lt;br&gt;&lt;br&gt; You can also use this activity to safely remove an embedded &lt;i&gt;aeon stone&lt;/i&gt; in 1 day. Someone without this feat can attempt to surgically remove it safely by spending 1 day and succeeding at a DC 30 Medicine check, or hastily by simply ripping it from a corpse.Embed Aeon Stone Leads To...Aeon Resonance</Description>
+    </Ability>
+    <Ability name="Runelord Dedication" level="2" page="240">
+        <Traits>Archetype, Dedication</Traits>
+        <Archetype>Runelord</Archetype>
+        <Prerequisites>Runelord Specialization</Prerequisites>
+        <Description>Your rune magic increases, and you practice with your school's associated weapon. You gain an additional cantrip of your chosen arcane school, and each time you gain a level (including this level), you add an additional spell from your chosen arcane school to your spellbook, with the same restrictions as the two spells you normally add.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the runelord archetype.Runelord Dedication Leads To...Embed Aeon Stone, Fused Polearm, Polearm Tricks, School Counterspell, School Spell Redirection, Sin Reservoir</Description>
+    </Ability>
+    <Ability name="Aeon Resonance" level="4" page="240">
+        <Traits>Archetype</Traits>
+        <Archetype>Runelord</Archetype>
+        <Prerequisites>Embed Aeon Stone</Prerequisites>
+        <Description>You gain the resonant power of one embedded &lt;i&gt;aeon stone&lt;/i&gt; as if it were placed in a wayfinder. While you can embed multiple &lt;i&gt;aeon stones&lt;/i&gt; in your flesh, you can gain the resonance power from only one embedded stone at a time, selected each day when you make your daily preparations.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; At 8th level, you can take this feat again. If you do, you gain the resonance powers of up to four invested &lt;i&gt;aeon stones&lt;/i&gt; instead of only one.</Description>
+    </Ability>
+    <Ability name="Polearm Tricks" level="6" page="240">
+        <Traits>Archetype</Traits>
+        <Archetype>Runelord</Archetype>
+        <Prerequisites>Runelord Dedication</Prerequisites>
+        <Description>Your connection to rune magic has revealed tricks to make polearms deadlier in your hands. You gain the critical specialization effects of polearms.</Description>
+    </Ability>
+    <Ability name="Sin Reservoir" level="8" page="240">
+        <Traits>Archetype</Traits>
+        <Archetype>Runelord</Archetype>
+        <Prerequisites>Runelord Dedication</Prerequisites>
+        <Description>During daily preparations, you can indulge in your associated sin. When you do, you gain one additional spell slot of any spell level up to two levels below the highest-level wizard spell you can cast. You can prepare only a spell of your specialized school in this slot. As with any other act, indulging in your sin might change your alignment if your behavior harms someone else.</Description>
+    </Ability>
+    <Ability name="Fused Polearm" level="10" page="241">
+        <Traits>Archetype</Traits>
+        <Archetype>Runelord</Archetype>
+        <Prerequisites>Runelord Dedication</Prerequisites>
+        <Requirements>Your arcane bonded item is a polearm.</Requirements>
+        <Description>During your daily preparations, you can magically fuse your arcane bonded weapon and a magical staff together into one item, with the staff making up the haft of the weapon. You prepare the staff at the same time you do this, and you can do this only with a staff you're able to prepare. This fusion lasts until the next time you make your daily preparations. &lt;br&gt;&lt;br&gt;While the two are fused, the weapon's haft takes on aesthetic aspects of the staff.</Description>
+    </Ability>
+    <Ability name="School Counterspell" level="12" page="241">
+        <Traits>Archetype</Traits>
+        <Archetype>Runelord</Archetype>
+        <Prerequisites>Counterspell, Runelord Dedication</Prerequisites>
+        <Description>Your intricate knowledge of your school lets you easily negate spells from that school. Instead of being able to counter a foe's spell with Counterspell only if you have the same spell prepared, if the foe casts a spell from the school matching your specialization, you can Counterspell it with any other spell of the same school.</Description>
+    </Ability>
+    <Ability name="School Spell Redirection" level="18" page="241">
+        <Traits>Archetype</Traits>
+        <Archetype>Runelord</Archetype>
+        <Prerequisites>Counterspell, Runelord Dedication</Prerequisites>
+        <Description>When you Counterspell a spell with a school matching your specialization, if you critically succeed at your counteract check, or if you succeed while using a spell of a higher level than the spell you countered, you can redirect the spell you countered. You choose the target, area, and other aspects of the spell and use your own spell DC, spell attack roll, or other statistics as appropriate to determine the effects.</Description>
+    </Ability>
+    <!--Shadowcaster-->
+    <Ability name="Shadowcaster Dedication" level="2" page="226">
+        <Traits>Archetype, Dedication</Traits>
+        <Archetype>Shadowcaster</Archetype>
+        <Prerequisites>Ability To Cast Spells</Prerequisites>
+        <Description>You've sacrificed a piece of your spirit, allowing the powers of shadow into your being and changing the nature of your magic. You can no longer cast spells that have the light trait; if an ability, such as a class feature or ancestry feat, would automatically grant you a light spell, such as the Domain Initiate feat granting you the dazzling flash spell, you don't gain that spell.&lt;br&gt;&lt;br&gt; You gain the cloak of shadow domain spell. It costs 1 Focus Point to cast a focus spell. This feat grants a focus pool of 1 Focus Point that you can recover using the Refocus activity. You can Refocus by meditating to siphon power from the Shadow Plane and refill your focus pool. Your domain spells from the shadowcaster archetype are of the same tradition as the spells you used to meet the shadowcaster archetype's prerequisites.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you've gained two other feats from the shadowcaster archetype.Shadowcaster Dedication Leads To...Disciple of Shade, Shadow Reservoir, Shadow Spell, Shadow Spells, Unending Emptiness
+        </Description>
+    </Ability>
+    <Ability name="Shadow Spells" level="4" page="226">
+        <Traits>Archetype</Traits>
+        <Archetype>Shadowcaster</Archetype>
+        <Prerequisites>Shadowcaster Dedication</Prerequisites>
+        <Description>Hidden darkness whispers to you, teaching you secrets of shadow beyond other spellcasters of your tradition. Add replicate, shadow army,shadow blast, shadow projectile, shadow raid, shadow siphon, and shadow walk to your spell list. You can thus potentially learn these spells even if they aren't normally on your tradition's spell list.</Description>
+    </Ability>
+    <Ability name="Disciple of Shade" level="6" page="226">
+        <Traits>Archetype</Traits>
+        <Archetype>Shadowcaster</Archetype>
+        <Prerequisites>Shadowcaster Dedication</Prerequisites>
+        <Description>You've delved deeper into the mysteries of shadow and become blessed with magical power that increases your skills in the arts of deception and persuasion. You gain the inscrutable mask domain spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+    </Ability>
+    <Ability name="Shadow Spell" level="8" page="226" cost="1">
+        <Traits>Archetype, Metamagic, Shadow</Traits>
+        <Archetype>Shadowcaster</Archetype>
+        <Prerequisites>Shadowcaster Dedication</Prerequisites>
+        <Description>You attach a piece of your shadow to a spell to cloud the senses and cause mischief. If the next action you take is to Cast a Spell that has the shadow trait, choose one creature affected by the spell. This creature either gains a +2 status bonus to Stealth or takes a –2 status penalty to Perception (your choice). This lasts for 1 round. This choice and the effect occur after resolving any checks for the spell's initial effects. If the chosen creature is your enemy, it's affected only if your spell attack roll succeeded or if it failed its saving throw.&lt;br&gt;&lt;br&gt; The effects of Shadow Spell end if you use Shadow Spell again.</Description>
+    </Ability>
+    <Ability name="Shadow Reservoir" level="10" page="226">
+        <Traits>Archetype</Traits>
+        <Archetype>Shadowcaster</Archetype>
+        <Prerequisites>Ability To Cast Spells From Spell Slots, Shadowcaster Dedication</Prerequisites>
+        <Description>Your own shadow speaks to you, providing knowledge of spells and a reservoir of magical power. Your shadow reservoir contains a single spell of each spell level at least 2 levels lower than the highest-level spell you can cast from your spell slots. This spell must come from your spell list, you must have access to it, and it must require a spell attack roll or a saving throw. These spells don't need to be prepared and aren't in your repertoire.&lt;br&gt;&lt;br&gt; Regardless of the way in which you cast spells, you can spontaneously cast a spell from your shadow reservoir by using one of your spell slots of the same level. If you're a prepared spellcaster, you lose the spell you prepared in that slot.&lt;br&gt;&lt;br&gt; Spells cast from your shadow reservoir gain the shadow trait, and affected creatures might be able to disbelieve them. If the spell requires an attack roll, use the higher of the target's AC or their Will DC. If the spell requires a saving throw, the target uses their Will saving throw or the spell's normal saving throw, whichever is higher. Each time a creature fails its saving throw against a spell cast from your reservoir, you gain a small tattoo inked on your flesh out of pure shadowstuff.&lt;br&gt;&lt;br&gt; If you have more than one source of spells you can cast with spell slots, such as if you're a spellcaster with a multiclass archetype, choose one source of spells for your shadow reservoir.Shadow Reservoir Leads To...Secrets of Shadow
+        </Description>
+    </Ability>
+    <Ability name="Secrets of Shadow" level="12" page="226">
+        <Traits>Archetype</Traits>
+        <Archetype>Shadowcaster</Archetype>
+        <Prerequisites>Shadow Reservoir</Prerequisites>
+        <Description>Your shadow's voice grows ever clearer; it whispers secrets of true power to you and shields your flesh from harm. Your shadow reservoir gains an additional spell 1 level below the highest level spell you can cast, in addition to the spells it already contains for all the levels below that. &lt;br&gt;&lt;br&gt;In addition, the tattoos generated by casting shadow spells protect your body against harmful energies. You gain negative resistance equal to the highest level of spell you can cast from spell slots; if you have negative healing (or are otherwise harmed by positive damage and not negative damage), you instead gain positive resistance in the same amount.</Description>
+    </Ability>
+    <Ability name="Unending Emptiness" level="14" page="226">
+        <Traits>Archetype</Traits>
+        <Archetype>Shadowcaster</Archetype>
+        <Prerequisites>Focus Pool, Shadowcaster Dedication</Prerequisites>
+        <Description>You pool the power of shadow within your eyes, gaining the ability to gather darkness into a turbulent orb of crushing emptiness within your line of sight. You gain the darklight domain spell. Increase the number of Focus Points in your focus pool by 1.</Description>
+    </Ability>
+    <!--Soulforger-->
+    <Ability name="Soulforger Dedication" level="2" page="236" cost="1">
+        <Traits>Archetype, Dedication</Traits>
+        <Archetype>Soulforger</Archetype>
+        <!--TODO: <Prerequisites>Wisdom 14 Or Ability To Cast Divine Spells</Prerequisites>-->
+        <Requirements>If summoning a weapon or shield, you have the hands free to wield it; if summoning armor, you aren't wearing any armor</Requirements>
+        <Description>You can manifest the power of your spirit in combat to realize your motivations. You manifest an armor, shield, or weapon as a soulforged armament. Choose one essence power for the armament (below). Changing an essence power requires 1 week of retraining, and you can't retrain it while you have soulforged corruption.&lt;br&gt;&lt;br&gt; You can Manifest Soulforged Armament to summon your armaments in combat.&lt;br&gt;&lt;br&gt; &lt;b&gt;Manifest Soulforged Armament&lt;/b&gt; (concentrate, conjuration, divine, extradimensional) &lt;b&gt;Requirements&lt;/b&gt; If summoning a weapon or shield, you have the hands free to wield it; if summoning armor, you aren't wearing any armor; &lt;b&gt;Effect&lt;/b&gt; You immediately wield or wear the soulforged armament bound to you. The soulforged armament remains manifested until you Dismiss this effect.&lt;br&gt;&lt;br&gt; Once per day when you use this ability, you can manifest the armament's essence form. You gain the armament's essence power until it's Dismissed. After 1 minute, the essence form armament is automatically Dismissed.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat before gaining two other feats from this archetype.Soulforger Dedication Leads To...Rapid Manifestation, Soul Arsenal, Soul Flare
+        </Description>
+    </Ability>
+    <Ability name="Soul Flare" level="4" page="236" cost="Reaction">
+        <Traits>Archetype, Concentrate</Traits>
+        <Archetype>Soulforger</Archetype>
+        <Prerequisites>Soulforger Dedication</Prerequisites>
+        <Trigger>An attack you made with a soulforged weapon or shield misses a creature, or a creature hits you with an attack while you're either wearing manifested soulforged armor or have your soulforged shield raised.</Trigger>
+        <Requirements>Your soulforged armament is manifested.</Requirements>
+        <Description>You strive to change the outcome with sheer zeal. You gain a +1 status bonus to your attack roll if making an attack or to your AC if you were hit. This can change the outcome of the roll. If this bonus turns your missed attack into a hit or the hit against you into a miss, attempt a DC 5 flat check. If you fail, your soulforged armament is Dismissed—your weapon if you attacked or your armor or shield if you were defending.</Description>
+    </Ability>
+    <Ability name="Rapid Manifestation" level="6" page="236" cost="Free">
+        <Traits>Archetype</Traits>
+        <Archetype>Soulforger</Archetype>
+        <Prerequisites>Soulforger Dedication</Prerequisites>
+        <Trigger>You roll initiative or a hazard attacks you.</Trigger>
+        <Description>Your unwavering soul brings up your defenses as soon as you're in danger. You Manifest your Soulforged Armament.</Description>
+    </Ability>
+    <Ability name="Soul Arsenal" level="6" page="236">
+        <Traits>Archetype</Traits>
+        <Archetype>Soulforger</Archetype>
+        <Prerequisites>Soulforger Dedication</Prerequisites>
+        <Description>Choose an additional soulforged armament of a different type than the type you already chose, and choose one essence power for it. Upgrade and change armaments individually.&lt;br&gt;&lt;br&gt; When you Manifest Soulforged Armament, you can summon any number of your armaments (you must meet the Requirements for each), and when you Dismiss the effect, you can choose to Dismiss some and not others. You can choose to manifest the essence form of any number of your armaments when you take the action. Each armament can manifest its essence form only once per day.&lt;br&gt;&lt;br&gt; When you gain soulforged corruption, choose one armament's corruption flaw to affect you for stage 1. At stage 2, you take the flaws of all your soulforged armaments. While you have the curse, each armament gets a separate flat check to manifest its essence form, and failing prevents you from manifesting only that armament's essence form.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat a second time at 12th level or higher, choosing the final item type.
+        </Description>
+    </Ability>
+    <!--Summoner-->
+    <Ability name="Summoner Dedication" level="2" page="76" cost="3">
+        <Traits>Archetype, Dedication, Multiclass, Concentrate, Conjuration, Manipulate, Summoner, Teleportation</Traits>
+        <Archetype>Summoner</Archetype>
+        <Prerequisites>Charisma 14</Prerequisites>
+        <Description>You've formed a bond with an eidolon, an entity that manifests in a physical body only through its link to your life force. Your bond may be tenuous, but that doesn't make your connection any less special. You gain an eidolon as well as the Manifest Eidolon activity. Due to your tenuous link, you can't gain or use tandem actions. Because you don't have Act Together, only you or your eidolon can perform an exploration activity at one time, so for instance you couldn't both be Searching or Investigating.&lt;br&gt;&lt;br&gt; Your eidolon is trained in unarmed attacks and unarmored defense, and shares your proficiency rank for Perception, saving throws, and skill checks. Choose an eidolon type. You become trained in your eidolon's listed skills. For each of those skills that you are already trained in, you become trained in a different skill of your choice. Your eidolon's initial ability scores are reduced. It starts with a 16 in any ability score listed at 18 for its eidolon array. It otherwise gains the statistics listed for an eidolon of that type.&lt;br&gt;&lt;br&gt; At 5th level, the eidolon's ability score that was reduced to 16 increases to 18, before applying ability boosts. At levels 5, 10, 15, and 20, your eidolon also gets four ability boosts, which follow the same rules as yours.Manifest EidolonConcentrateConjurationManipulateSummonerTeleportation&lt;br&gt;&lt;b&gt;Source&lt;/b&gt; Secrets of Magic pg. 52Your eidolon appears in an open space adjacent to you, and can then take a single action. If your eidolon was already manifested, you unmanifest it instead.&lt;br&gt;&lt;br&gt; The conduit that allows your eidolon to manifest is also a tether between you. Your eidolon must remain within 100 feet of you at all times and can't willingly go beyond that limit. If forced beyond this distance, or if you are reduced to 0 Hit Points, your eidolon's physical form dissolves: your eidolon unmanifests, and you need to use Manifest Eidolon to manifest it again.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; This activity has the trait matching your eidolon's tradition (arcane, divine, occult, or primal).
+            &lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you have gained two other feats from the summoner archetype.Summoner Dedication Leads To...Basic Summoner Spellcasting, Basic Synergy, Expert Combat Eidolon, Initial Eidolon Ability
+        </Description>
+    </Ability>
+    <Ability name="Basic Synergy" level="4" page="76">
+        <Traits>Archetype</Traits>
+        <Archetype>Summoner</Archetype>
+        <Prerequisites>Summoner Dedication</Prerequisites>
+        <Description>You gain a 1st- or 2nd-level summoner feat of your choice.Basic Synergy Leads To...Advanced Synergy</Description>
+    </Ability>
+    <Ability name="Initial Eidolon Ability" level="4" page="77">
+        <Traits>Archetype</Traits>
+        <Archetype>Summoner</Archetype>
+        <Prerequisites>Summoner Dedication</Prerequisites>
+        <Description>Your link to your eidolon becomes stronger, granting it a new ability. Your eidolon gains the initial ability for an eidolon of its type.</Description>
+    </Ability>
+    <Ability name="Advanced Synergy" level="6" page="77">
+        <Template>Advanced Multiclass Feat</Template>
+        <Traits>Archetype</Traits>
+        <Archetype>Summoner</Archetype>
+        <Prerequisites>Basic Synergy</Prerequisites>
+        <Description>You gain one summoner feat. For the purpose of meeting its prerequisites, your summoner level is equal to half your character level.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can select this feat more than once. Each time you select it, you gain another summoner feat.Advanced Synergy Leads To...Signature Synergy</Description>
+    </Ability>
+    <Ability name="Basic Summoner Spellcasting" level="6" page="77">
+        <Traits>Archetype</Traits>
+        <Archetype>Summoner</Archetype>
+        <Prerequisites>Summoner Dedication</Prerequisites>
+        <Description>You gain the basic bounded spellcasting benefits. You gain the Cast a Spell activity. Your key spellcasting ability for summoner archetype spells is Charisma, and they are summoner spells of your eidolon's tradition. You become trained in spell attack rolls and spell DCs of that tradition. You gain a spell repertoire and two cantrips. Each time you gain a spell slot of a new level from the summoner archetype, add a spell of that level or lower to your repertoire. Each time you lose spell slots of a particular level, remove those spells from your repertoire.Basic Summoner Spellcasting Leads To...Expert Summoner Spellcasting</Description>
+    </Ability>
+    <Ability name="Expert Combat Eidolon" level="12" page="77">
+        <Traits>Archetype</Traits>
+        <Archetype>Summoner</Archetype>
+        <Prerequisites>Summoner Dedication</Prerequisites>
+        <Description>Your eidolon advances its capabilities in combat. Your eidolon becomes an expert in unarmed attacks. If you are an expert in unarmored defense, your eidolon also becomes an expert in unarmored defense. If you have weapon specialization, your eidolon also gains weapon specialization.</Description>
+    </Ability>
+    <Ability name="Expert Summoner Spellcasting" level="12" page="77">
+        <Traits>Archetype</Traits>
+        <Archetype>Summoner</Archetype>
+        <Prerequisites>Basic Summoner Spellcasting</Prerequisites>
+        <!--TODO: Master In The Skill Associated With Your Eidolon's Tradition-->
+        <Description>You gain the expert bounded spellcasting benefits.Expert Summoner Spellcasting Leads To...Master Summoner Spellcasting</Description>
+    </Ability>
+    <Ability name="Signature Synergy" level="14" page="77">
+        <Traits>Archetype</Traits>
+        <Archetype>Summoner</Archetype>
+        <Prerequisites>Advanced Synergy</Prerequisites>
+        <Description>Your eidolon gains an evolution integral to its form, and it comes more easily than your other synergies. You gain one evolution feat from the following list: Airborne Form, Burrowing Form, Ever-Vigilant Senses, or Hulking Size. For the purpose of meeting its prerequisites, your summoner level is equal to your character level – 4.</Description>
+    </Ability>
+    <Ability name="Master Summoner Spellcasting" level="18" page="77">
+        <Traits>Archetype</Traits>
+        <Archetype>Summoner</Archetype>
+        <Prerequisites>Expert Summoner Spellcasting</Prerequisites>
+        <!--TODO: Legendary In The Skill Associated With Your Eidolon's Tradition-->
+        <Description>You gain the master bounded spellcasting benefits.</Description>
+    </Ability>
+    <!--Wellspring Mage-->
+    <Ability name="Wellspring Mage Dedication" level="2" page="249">
+        <Traits>Archetype, Dedication</Traits>
+        <Archetype>Wellspring Mage</Archetype>
+        <Prerequisites>Wellspring Magic</Prerequisites>
+        <Description>There's no longer a limit on how many temporary spell slots you can gain per day from wellspring magic.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; You can't select another dedication feat until you gain two other feats from the wellspring mage archetype.Wellspring Mage Dedication Leads To...Interfering Surge, Urgent Upwelling, Wellspring Control</Description>
+    </Ability>
+    <Ability name="Wellspring Control" level="4" page="249">
+        <Traits>Archetype, Fortune</Traits>
+        <Archetype>Wellspring Mage</Archetype>
+        <Prerequisites>Wellspring Mage Dedication</Prerequisites>
+        <Description>When you generate a wellspring surge, roll twice on the Wellspring Surges Table and take the result of your choice. This doesn't apply when you cause another creature to generate a wellspring surge.</Description>
+    </Ability>
+    <Ability name="Urgent Upwelling" level="6" page="249" cost="Reaction">
+        <Traits>Archetype</Traits>
+        <Archetype>Wellspring Mage</Archetype>
+        <Prerequisites>Wellspring Mage Dedication</Prerequisites>
+        <Trigger>An enemy reduces you to 0 HP, an enemy critically hits you, or you critically fail a saving throw against an enemy's effect.</Trigger>
+        <Frequency>once per 10 minutes</Frequency>
+        <Description>Defeat lets you to tap into your wellspring. Attempt the flat check for wellspring magic. If you critically succeed, you can choose to forgo gaining a temporary spell slot to instead have the triggering enemy undergo a wellspring surge. This surge functions just as it would for you, the only difference being that it emits from the enemy.</Description>
+    </Ability>
+    <Ability name="Interfering Surge" level="12" page="249" cost="Reaction">
+        <Traits>Abjuration, Archetype</Traits>
+        <Archetype>Wellspring Mage</Archetype>
+        <Prerequisites>Wellspring Mage Dedication</Prerequisites>
+        <Trigger>A creature you can see Casts a Spell.</Trigger>
+        <Requirements>You have an unexpended spell slot and can see the triggering spell's manifestations.</Requirements>
+        <Description>You overcharge the triggering spell with magic. You expend a spell slot and attempt to counteract the triggering spell using the energy of the expended slot. If the triggering spell is in your repertoire and the spell slot you expended was a high enough level to cast it, you take no penalty. Otherwise, you take a –2 penalty to the counteract check if the triggering spell was cast using the same magical tradition you cast, or a –5 penalty if it was cast using a different tradition.&lt;br&gt;&lt;br&gt; If the triggering spell is successfully counteracted, it creates a wellspring surge from its caster in addition to the normal effects of being counteracted. If it isn't counteracted, your expended spell slot creates a wellspring surge from you.&lt;br&gt;&lt;br&gt;&lt;b&gt;Special&lt;/b&gt; This feat has the trait corresponding to the tradition of spells you cast (arcane, divine, primal, or occult).</Description>
+    </Ability>
+</pf2:feats>

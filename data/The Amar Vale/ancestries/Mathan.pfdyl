@@ -11,7 +11,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <Languages>Common, Sylvan</Languages>
     <BonusLanguages>Gnomish, Goblin, Jotun, Orcish, Aquan, Undercommon</BonusLanguages>
     <Senses>Darkvision</Senses>
-    <Description>Stouthearted and methodical, Mathans share a close bond with the frozen tundra where they make their home.&lt;br&gt;&lt;br&gt;Mathans are relatively new to the world of Aktas, but already they have developed a rich culture centered around a deep respect for the land and its resources. Their origins in conflict with the human population of Kesh left them untrusting of other peoples, as well as causing them to put great value on physical prowess. This combined with their natural protection against the otherwise lethal frosts of Kesh has brought them a deserved reputation as fearsome hunters and martial artists, though in recent years their scholarly ablities have also begun to come to the forefront. Some of them are known to make a living as bodyguards or patrolmen, positions where their towering stature and rumoured mysticism serve them well.</Description>
+    <Description>Stouthearted and methodical, Mathans share a close bond with the frozen tundra where they make their home.&lt;br&gt;&lt;br&gt;Mathans are relatively new to the world of Aktas, but already they have developed a rich culture centered around a deep respect for the land and its resources. Their origins in conflict with the human population of Kesh left them untrusting of other peoples, as well as causing them to put great value on physical prowess. This combined with their natural protection against the otherwise lethal frosts of Kesh has brought them a deserved reputation as fearsome hunters and martial artists, though in recent years their scholarly abilities have also begun to come to the forefront. Some of them are known to make a living as bodyguards or patrolmen, positions where their towering stature and rumoured mysticism serve them well.</Description>
     <Abilities>
         <Ability name="Thick Fur">
             <Description>You are well insulated against the cold, granting you cold resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on). However, unless you wear protective gear or take shelter, environmental heat effects are one step more extreme for you.</Description>
@@ -40,7 +40,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<Ability name="Snowstrider Mathan" type="Heritage">
             <Description>You move easily through heavy snow or ice, using the weather to your advantage. You can always use the Take Cover action when in snowy or frozen terrain to gain cover, even if you're not next to an obstacle you would normally be able to Take Cover behind. You gain the Terrain Stalker feat, even if you're not trained in Stealth, and you must choose snow as your chosen terrain.</Description>
-            <AbilitySlot state="filled" type="General Feat" name="Terrain Stalker (Mathan)" contents="Terrain Stalker"/>
+            <AbilitySlot state="filled" type="Skill Feat" name="Terrain Stalker (Mathan)" contents="Terrain Stalker"/>
         </Ability>
 		<Ability name="Strongjaw Mathan" type="Heritage">
             <Description>In addition to your claws, you have a vicious maw of sharp teeth. You gain a jaws unarmed attack that deals 1d6 piercing damage. Your jaws are in the brawling group and have the unarmed trait.</Description>
@@ -102,7 +102,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         </Ability>
 		<Ability name="Towering Presence" level="1">
             <Description>Your massive bulk intimidates your foes. You become trained in Intimidation and gain the Intimidating Prowess skill feat, even if you do not have the requisite Strength score. If you're already trained in Intimidation, you instead become trained in a skill of your choice.</Description>
-            <AbilitySlot state="filled" type="General Feat" name="Intimidating Prowess (Mathan)" contents="ntimidating Prowess"/>
+            <AbilitySlot state="filled" type="Skill Feat" name="Intimidating Prowess (Mathan)" contents="Intimidating Prowess"/>
         </Ability>
         <Ability name="Ursine Elocutionist" level="1">
             <Description>Drawing from your ursine heritage, you recognize the speech of your mammalian kin. You can ask questions of, receive answers from, and use the Diplomacy skill with mammals native to the area, such as bears, wolves, and caribou. The GM determines which animals count for this ability.</Description>

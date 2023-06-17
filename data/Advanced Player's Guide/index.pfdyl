@@ -17,7 +17,10 @@
         &lt;li&gt;Even more exciting new rules, from rare and unique backgrounds to investigative skill feats, from spells and rituals like reincarnate and create demiplane to new items including special wands with unusual effects and exciting potions worthy of a witch's cauldron.&lt;/li&gt;
         &lt;/ul&gt;</Description>
     <Ancestries>
+        <Ancestry name="Catfolk" path="ancestries/Catfolk.pfdyl" />
+        <Ancestry name="Kobold" path="ancestries/Kobold.pfdyl" />
         <Ancestry name="Orc" path="ancestries/Orc.pfdyl" />
+        <Ancestry name="Ratfolk" path="ancestries/Ratfolk.pfdyl" />
         <Ancestry name="Tengu" path="ancestries/Tengu.pfdyl" />
     </Ancestries>
     <Classes>
@@ -45,10 +48,14 @@
         <Category name="Ancestry" path="ancestries/versatile_heritages.pfdyl" />
         <Category name="Mystery" path="feats/mystery.pfdyl" />
         <Category name="Bard" path="feats/class/Bard_feats.pfdyl" type="Class" />
+        <Category name="Druid" path="feats/class/Druid_feats.pfdyl" type="Class" />
         <Category name="Monk" path="feats/class/Monk_feats.pfdyl" type="Class" />
         <Category name="Ranger" path="feats/class/Ranger_feats.pfdyl" type="Class" />
         <Category name="Sorcerer" path="feats/class/Sorcerer_feats.pfdyl" type="Class" />
     </Feats>
+    <Setting>
+        <Category name="Languages" path="setting/languages.pfdyl" />
+    </Setting>
     <Spells>
         <Category name="Focus Spells" path="spells/focus_spells.pfdyl" />
         <Category name="Spells" path="spells/spells.pfdyl" />
